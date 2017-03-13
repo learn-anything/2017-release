@@ -1,8 +1,10 @@
-As it currently stands, my project laks discverability and is quite confusing to newcomers. I try to mention ways in which one can get value from it but it is still not intuitive. 
+As it currently stands, my project lacks discverability and is quite confusing to newcomers. I try to mention ways in which one can get value from it but it is still not intuitive. 
 
-Also not all have the ability to use Alfred nor use macOS so my launcher that I provide is also useless to majority of people. 
+Also not all have the ability to use Alfred nor use macOS so [my launcher](https://github.com/nikitavoloboev/alfred-knowledge-map) that I provide is also useless to majority of people. 
 
-The solution to this, is to create a web interface similar in functionality to 'Google' or 'DuckDuckGo' but it won't give a list of results. Instead it will just autocomplete the query typed by the user from the [index](https://github.com/nikitavoloboev/knowledge-map#mindmap-index-%EF%B8%8F) and present a mind map instantly in the same web page similar to what you can see [here](https://my.mindnode.com) but bigger.
+
+
+The solution to this, is to create a web interface similar in functionality to [Google](https://google.com/) or [DuckDuckGo](https://duckduckgo.com/) but it won't give a list of results. Instead it will just autocomplete the query typed by the user from the [index](https://github.com/nikitavoloboev/knowledge-map#mindmap-index-%EF%B8%8F) and present a mind map instantly in the same web page similar to what you can see [here](https://my.mindnode.com) but bigger.
 
 #Implementation
 
@@ -12,7 +14,7 @@ I should create an index of search results based on a [markdown file](https://ra
 
 ![](http://i.imgur.com/iPqfccc.png)
 
-It would take that into accountand present 'analysis' result in context of its parents which in this case is 'algorithms' so the search query will look something like this : 
+It would take that into account and present 'analysis' result in context of its parents which in this case is 'algorithms' so the search query will look something like this : 
 
 ![](http://i.imgur.com/2TPMO9D.png)
 
@@ -38,4 +40,4 @@ I also wish to extend this search engine and take the idea of [DuckDuckGo's inst
 
 If you wish to help with this project, I would love that. Send me a [message](mailto:nikita.voloboev@gmail.com) and we can work together. 
 
-I wish Google or someone else has made something like this and present all the knowledge of the world in a visual way instead of giving us a box to which we can type our questions into. Visualisation is key to uderstanding. I have made this project with mind maps for myself as I found no better system to keep my knowledge and bookmarks but I really think that as I improve and iterate on it, any one curious enough can get a ton of value from it. 
+I wish Google or someone else has made something like this and presented all the knowledge of the world in a visual way instead of giving us a box to which we can type our questions into. Visualisation is key to uderstanding. I have made this project with mind maps for myself as I found no better system to keep my knowledge and bookmarks but I really think that as I improve and iterate on it, any one curious enough can get a ton of value from it. 
