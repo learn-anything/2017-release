@@ -34,9 +34,22 @@ In this step, I should try and connect the web interface created to the database
 
 Perhaps something interesting will come from the implementation but the idea is simple. Provide a web search interface to the mind maps and preset them in a user friendly way.
 
-###6.
+###6. 
+
+I wish to extend this search engine to allow users to search through the entirety of the index of all the mind maps. So users don't have to explicitly type the name of the mind map they wish to go to but they can type few words and it will match these words with mind maps that contains these words and from then on users can choose the mind map they are intereste in. 
+
+I can already do this locally and it is immensely useful : 
+
+![](http://i.imgur.com/fGIJhQY.png)
+
+Once that is implemented, it should become the standard implementation. 
+
+The difficult part here is whether I can actually get such data for use. Will see.
+
+###7.
 
 I also wish to extend this search engine and take the idea of [DuckDuckGo's instant answers](https://duckduckgo.com/api) and implement a way for users to make their own search engine with ease. It should follow a rule where you supply it a list of links similar to how my [index](https://raw.githubusercontent.com/nikitavoloboev/alfred-knowledge-map/master/research.md) looks and from it will construct a database and allow other people to search through it. These link don't necessarily have to be mind maps and can be any arbitrary link from the web. In the future it would be really neat to have community made 'search engines' of their own. Will see though.
+
 
 If you wish to help with this project, I would love that. Send me a [message](mailto:nikita.voloboev@gmail.com) and we can work together. 
 
