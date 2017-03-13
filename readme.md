@@ -1,4 +1,4 @@
-As it currently stands, my project lacks discoverability and is [quite confusing to newcomers](https://news.ycombinator.com/item?id=13858790). I try to mention ways in which one can get value from it but it is still not intuitive. 
+As it currently stands, [my project](https://github.com/nikitavoloboev/knowledge-map) lacks discoverability and is [quite confusing to newcomers](https://news.ycombinator.com/item?id=13858790). I try to mention ways in which one can get value from it but it is still not intuitive. 
 
 Also not all have the ability to use Alfred nor use macOS so [my launcher](https://github.com/nikitavoloboev/alfred-knowledge-map) that I provide is also useless to majority of people. 
 
