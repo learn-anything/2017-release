@@ -15,6 +15,9 @@ function presentMindMap(query) {
 
 // TODO: add footer text displaying that mind map can be improved if user disagrees with contents of it
 
+// TODO: if user enters a query for something that is not in the database, it should apologise and inform the user how he can help contribute
+// to add resources for the subject or provide an efficient study plan
+
 // TODO: remove iframe when user starts typing a query again
 
 // TODO: for now just to get something working, make a switch case of all possible mind maps
