@@ -4,8 +4,6 @@ function presentMindMap(query) {
 }
 
 // TODO: add autosuggestions to search bar so users can see what results are available, perhaps there is a library
-// NOTE: in autosuggestions, perhaps it should show which mind map is going to be opened
-// i.e. if one searches for 'neural networks' which is in 'learn anything - machine learning', it would show it in text in small text
 
 // NOTE: queries can be prefixed by certain words to scope what the search is about
 // i.e. if query is 'learn machine learning', mind map from 'learn anything' is shown
