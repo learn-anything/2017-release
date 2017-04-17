@@ -3,13 +3,22 @@ function presentMindMap(query) {
 
 }
 
-// TODO: add autosuggestions to search bar so users can see what results are available, perhaps there is a library
+// TODO: add autosuggestions to search bar so users can see what results are available, perhaps there is a library for that
 
 // NOTE: queries can be prefixed by certain words to scope what the search is about
 // i.e. if query is 'learn machine learning', mind map from 'learn anything' is shown
 // if query is 'learn neural networks', mind map from 'learn anything - machine learning' is shown focused just on the 'neural networks' part
 // other prexises may include 'interesting', i.e. 'interesting blogs on javascript' or 'interesting websites on education'
-// list can go on but that should be taken into account
+// list of prefixes to implement:
+// - 'research papers on ..'
+// - 'books on ..'
+// - 'interesting youtube channels on ..'
+// - 'courses on ..'
+// list can go on
+
+// NOTE: it would be awesome to also include curated image albums search
+// so user can search for 'images of ..' and curated album of best images opens (although may require to open as new imgur link)
+// should focus on mind maps first!
 
 // TODO: add footer text displaying that mind map can be improved if user disagrees with contents of it
 
@@ -29,3 +38,7 @@ function presentMindMap(query) {
 
 // TODO: add some kind of button or something that can be clicked to expand the full 'learn anything' mind map
 // it should cover whole screen, but search bar should still be accesibly if user wants to write a query
+
+// NOTE: if in the mind map, a hyperlink opens another mind map, it would be amazing to have it be opened on the same web page and not go to new web page
+
+// TODO: the mind map given should have an option to full screen the result if user wants to explore it full and explore other parts
