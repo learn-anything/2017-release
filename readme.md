@@ -35,7 +35,7 @@ Here is a rough list of what queries and prefixes will be implemented in the fut
 - 'courses on ..' will show good courses you can take on any of the subjects
 	- i.e. 'courses on deep learning' will show [this](https://my.mindnode.com/f2sAoGJN9psymLPwcM2ohf1KwaH3rqxDBtB4psR4#19.8,-982.7,5)
 - 'interesting blogs on ..' will show various great blogs that write about that subject 
-	- i.e. 'interesting blogs on mathematics' will show [this](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp)
+	- i.e. 'interesting blogs on mathematics' will show [this](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp#483.2,-2139.7,7)
 
 This list can go on of course as more quality content gets added and mapped. Which should be possible as [everyone can contribute](https://github.com/nikitavoloboev/knowledge-map#contributing-) to what shows up in these mind maps. 
 
