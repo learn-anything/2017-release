@@ -16,6 +16,30 @@ As all the mind maps are avaialble for all to see, anyone can come in and propos
 
 I wrote a [list of todos of how I plan to implement a first working prototype](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/js/index.js).
 
+## Search Engine Syntax
+
+The search engine will have a limited set of keywords that you can use. Fortunately the search will be powered by strong autocomplete so all users will know what is available for them to search. The search will essentially jump to the correct place in any of mind maps from [knowledge map](https://github.com/nikitavoloboev/knowledge-map). 
+
+There will be a list of prefixes that will be available that users can use to better their query. 
+
+Here is a rough list of what queries and prefixes will be implemented in the future (where .. stands for user's input) :
+
+- 'learn ..' = a step by step guide or just resources will be provided on how to learn the topic in depth (users can also pan around the mind map to see how the topic connects to other pieces of knowledge)
+	- i.e. 'learn computer science' will show [such mind map](https://my.mindnode.com/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#773.1,-259.1,5)
+- 'research papers on ..' will show research papers relavant to the topic (with links to annotations and notes if such are available)
+	- i.e. 'research papers on machine learning' will show [this](https://my.mindnode.com/KnxHHqeyGXr5Z7BcYAyFbY3z7dpQawANPytSfLi3#-1399.9,-982.3,5)
+- 'books on ..' will show books on any subject
+	- i.e. 'books on computer networking' will show [this](https://my.mindnode.com/anrzuAWyaqWFjRwrp7aapQLtb9PPhBxhWny9VaQr#435.7,7312.2,4)
+- 'interesting youtube channels for ..' will show youtube channels related to some topic
+	- i.e. 'interesting youtube channels for learning' = will show [this](https://my.mindnode.com/piRNM8PKy63o8mfspx8pXa2n2PEaBgF7BfhguJqs#-611.8,-1217.7,3)
+- 'courses on ..' will show good courses you can take on any of the subjects
+	- i.e. 'courses on deep learning' will show [this](https://my.mindnode.com/f2sAoGJN9psymLPwcM2ohf1KwaH3rqxDBtB4psR4#19.8,-982.7,5)
+- 'interesting blogs on ..' will show various great blogs that write about that subject 
+	- i.e. 'interesting blogs on mathematics' will show [this](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp)
+
+This list can go on of course as more quality content gets added and mapped. Which should be possible as [everyone can contribute](https://github.com/nikitavoloboev/knowledge-map#contributing-) to what shows up in these mind maps. 
+
+
 # Help 
 
 If you find this idea interesting, you can [get in touch](mailto:nikita.voloboev@gmail.com) with me. I would really love to work together as this project is something I have always wished would exist.
