@@ -5,7 +5,7 @@ function presentMindMap(query) {
 
 search_input = document.getElementById("search").value
 
-document.getElementById("search").value = "I want to learn ..";
+search_input = "I want to learn ..";
 
 // TODO: add autosuggestions to search bar so users can see what results are available, perhaps there is a library for that
 
