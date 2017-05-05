@@ -1,0 +1,23 @@
+{
+  "name": "search-engine",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "es6-promise": "^4.1.0",
+    "react": "^15.5.4",
+    "react-autosuggest": "^9.0.1",
+    "react-dom": "^15.5.4",
+    "search-bar-component": "2.0.5",
+    "styled-components": "^1.4.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
