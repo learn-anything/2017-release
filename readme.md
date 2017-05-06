@@ -6,7 +6,7 @@
 
 ![](http://i.imgur.com/b7reRcQ.png)
 
-![](http://i.imgur.com/UQarWO6.png)
+![](http://i.imgur.com/i5m9VB0.png)
 
 ![](http://i.imgur.com/smdCCc6.png)
 
