@@ -1,64 +1,12 @@
 import Autosuggest from 'react-autosuggest';
 import React from 'react';
 
-
-
 const languages = [
   {
-    name: 'C',
-    year: 1972
+    name: 'learn calculus',
   },
   {
-    name: 'C#',
-    year: 2000
-  },
-  {
-    name: 'C++',
-    year: 1983
-  },
-  {
-    name: 'Clojure',
-    year: 2007
-  },
-  {
-    name: 'Elm',
-    year: 2012
-  },
-  {
-    name: 'Go',
-    year: 2009
-  },
-  {
-    name: 'Haskell',
-    year: 1990
-  },
-  {
-    name: 'Java',
-    year: 1995
-  },
-  {
-    name: 'Javascript',
-    year: 1995
-  },
-  {
-    name: 'Perl',
-    year: 1987
-  },
-  {
-    name: 'PHP',
-    year: 1995
-  },
-  {
-    name: 'Python',
-    year: 1991
-  },
-  {
-    name: 'Ruby',
-    year: 1995
-  },
-  {
-    name: 'Scala',
-    year: 2003
+    name: 'learn machine learning'
   }
 ];
 

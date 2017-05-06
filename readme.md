@@ -1,3 +1,8 @@
+# Design mockup 🖌
+
+![](http://i.imgur.com/TiRlGXH.png)
+
+
 # Idea 💡
 
 I want to build a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, I provide a mind map of best of the best peer reviewed resources one can use to learn each of the topics.
