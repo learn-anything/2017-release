@@ -2,11 +2,13 @@
 
 ## Normal search
 
-![](http://i.imgur.com/TiRlGXH.png)
+
+
+![](http://i.imgur.com/JdSWY8B.png)
 
 ## There will also be ability to choose scope of search
 
-![](http://i.imgur.com/7YE7NYG.png)
+![](http://i.imgur.com/b7reRcQ.png)
 
 ![](http://i.imgur.com/UQarWO6.png)
 
