@@ -1,6 +1,10 @@
 # Design mockup 🖌
 
+## Normal search
+
 ![](http://i.imgur.com/TiRlGXH.png)
+
+## There will also be ability to choose scope of search
 
 ![](http://i.imgur.com/7YE7NYG.png)
 
