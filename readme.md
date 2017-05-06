@@ -1,9 +1,5 @@
 # Design mockup 🖌
 
-## Normal search
-
-
-
 ![](http://i.imgur.com/JdSWY8B.png)
 
 ## There will also be ability to choose scope of search
