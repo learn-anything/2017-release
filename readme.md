@@ -1,3 +1,8 @@
+# Search engine for mind maps on the web
+
+[![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map/blob/master/LICENSE)
+
 # Design mockup 🖌
 
 ![](http://i.imgur.com/JdSWY8B.png)
@@ -26,6 +31,10 @@ The search engine index is fully transparent and can be seen [here](https://gith
 
 As all the mind maps are avaialble for all to see, anyone can come in and propose changes to it, however links and resources should be of high quality. The focus of this search engine is not to index everything there exists like what conventional search engines do, instead it should provide visual 'human reviewed' links and resources and ideally provide resources for learning in a 'step by step' manner similar to what can be seen [here](https://github.com/nikitavoloboev/knowledge-map/tree/master/study-plans).
 
+# Help 👬
+
+If you find this idea interesting and you want to help, you can join our [slack group](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ). I would really love to work together as this project is something I have always wished would exist.
+
 ## Search Engine Syntax 🔎
 
 The search engine will have a limited set of keywords that you can use. Fortunately the search will be powered by strong autocomplete so all users will know what is available for them to search. The search will essentially jump to the correct place in any of mind maps from [knowledge map](https://github.com/nikitavoloboev/knowledge-map). 
@@ -49,7 +58,3 @@ Here is a rough list of what queries and prefixes will be implemented in the fut
 
 This list can go on of course as more quality content gets added and mapped. Which should be possible as [everyone can contribute](https://github.com/nikitavoloboev/knowledge-map#contributing-) to what shows up in these mind maps. 
 
-
-# Help 👬
-
-If you find this idea interesting, you can [get in touch](mailto:nikita.voloboev@gmail.com) with me. I would really love to work together as this project is something I have always wished would exist.
