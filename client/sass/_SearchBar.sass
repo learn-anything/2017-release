@@ -1,0 +1,74 @@
+@import variables
+
+%field
+  background-color: $grey300
+  border: 0
+  border-radius: 5px
+  box-shadow: $shadow
+  color: $grey700
+  display: block
+  font-size: 2em
+  margin: 0 auto
+  max-width: 450px
+  padding: 10px
+  transition: box-shadow .218s, background-color .218s, color .218s
+  width: 100%
+
+  &:focus
+    background-color: $grey200
+    box-shadow: $shadow-active
+    color: $grey900
+    outline: none
+
+.searchbar-container
+  padding: 10px 30px
+  position: absolute
+  top: 35%
+  width: 100%
+
+  &::before
+    color: $grey300
+    content: 'Knowledge Map'
+    display: block
+    font-size: 3em
+    font-weight: bold
+    margin-bottom: 20px
+    text-align: center
+
+.searchbar-suggestions
+  margin: -5px auto
+  max-height: 0
+  max-width: 450px
+  overflow-y: hidden
+  position: relative
+  transition: max-height .218s
+
+  &::before
+    border-radius: 0 0 5px 5px
+    bottom: 0
+    box-shadow: $shadow-active
+    content: ''
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
+    z-index: -1
+
+  .searchbar-suggestion
+    @extend %field
+    background-color: $grey200
+    border-radius: 0
+    box-shadow: none
+
+    &:first-child
+      padding: 15px
+
+    &:last-child
+      border-radius: 0 0 5px 5px
+
+.searchbar-input
+  @extend %field
+
+  &:focus + .searchbar-suggestions
+    max-height: 500px
+
