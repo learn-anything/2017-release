@@ -1,20 +1,32 @@
 {
-  "name": "search-engine",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.9.5"
+  "name": "mind-map-search-engine",
+  "version": "1.0.0",
+  "description": "Visual search engine for mind maps on the web",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Angelo Gazzola",
+      "email": "angelo@nglgzz.com",
+      "url": "https://github.com/nglgzz"
+    }
+  ],
+  "repository": "nikitavoloboev/knowledge-map-search-engine",
+  "scripts": {
+    "lint": "eslint .; sass-lint client/sass/* -v",
+    "build": "node-sass client/sass/ -o client/css/; postcss client/css/main.css --use autoprefixer --replace",
+    "start": "npm run lint; npm run build; http-server client/ -p 3000"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-autosuggest": "^9.0.1",
-    "react-dom": "^15.5.4",
-    "react-move": "^1.1.8"
+    "http-server": "^0.9.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.9.0",
+    "node-sass": "^4.5.0",
+    "postcss-cli": "^3.2.0",
+    "sass-lint": "^1.10.2"
   }
 }
