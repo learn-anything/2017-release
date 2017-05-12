@@ -1,4 +1,4 @@
-# Search engine for mind maps on the web
+# [Search engine for mind maps on the web 🚀]  (https://mind-map-search-engine-nfuoqbgyea.now.sh)
 
 [![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
@@ -7,9 +7,9 @@
 ![](http://i.imgur.com/P45AWgA.gif)
 
 
-# Running it 🚀
+# Build it 🚀
 
-To run it yourself, clone the project and run 
+To run it locally, clone the project and run 
 
 ```
 npm install
@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 
-And you can test it out already. If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
+If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
 
 
 # Idea 💡
