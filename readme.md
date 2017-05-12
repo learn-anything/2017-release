@@ -3,9 +3,8 @@
 [![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
 
-# Current implementation
 
-![](http://i.imgur.com/UMrfIKA.png)
+
 
 # Running it 🚀
 
