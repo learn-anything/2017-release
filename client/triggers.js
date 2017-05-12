@@ -19,4 +19,8 @@ module.exports = [
   { name: 'virtual reality', map: 'mKhEXHiMUXpGgfJxDkqbgyxN3MRp3bwug96a9zo2' },
   { name: 'engineering', map: '6SJjDrFxzofoZjxfpgH5qVryLSYjppJsg28NapzF' },
   { name: 'marketing', map: 'Wm2fSqKWEJyyZ3LYZsgy2x6Yb8te49t968qqypUs#79.7,-75.0,5' },
+  { name: 'natural language processing', map: 'https://my.mindnode.com/nFFywmhppMRxw1Z6n7QNxikisQo9q9egH5jL8PfD' },
+  { name: 'cryptocurrency', map: 'https://my.mindnode.com/7TUvLNzE4aUwzNqXurPdcyenQR5sYx9XsJjYcQcZ' },
+  { name: 'artificial intelligence', map: 'https://my.mindnode.com/wzysPxEVDVNYXebyN8Sp9qAg4mQ56btHbicx99ac' },
+  { name: 'computer graphics', map: 'https://my.mindnode.com/p7RzoL1gYA4Y4tzxrGVtRC5Tc1RLB6UtMnws5ugv' },
 ];
