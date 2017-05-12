@@ -49,7 +49,7 @@ const SearchBar = React.createClass({
       className: 'searchbar-input',
       onChange: this.onChange,
       value: this.state.query,
-      placeholder: 'I wanna learn ...',
+      placeholder: 'I want to  learn ...',
     });
 
     const suggestions = RE('div', { className: 'searchbar-suggestions' },
