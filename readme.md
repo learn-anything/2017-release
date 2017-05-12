@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
 
 
-![](http://imgur.com/GXpxr0g)
+![](http://i.imgur.com/P45AWgA.gif)
 
 
 # Running it 🚀
