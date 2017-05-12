@@ -3,7 +3,24 @@
 [![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
 
-# Design mockup 🖌
+# Current implemenation
+
+![](http://i.imgur.com/UMrfIKA.png)
+
+# Running it 🚀
+
+To run it just 
+
+```
+npm install
+
+npm start
+
+```
+
+And you can test it out already. If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
+
+# Design mockups 🖌
 
 ![](http://i.imgur.com/JdSWY8B.png)
 
@@ -14,7 +31,6 @@
 ![](http://i.imgur.com/i5m9VB0.png)
 
 ![](http://i.imgur.com/smdCCc6.png)
-
 
 
 # Idea 💡
