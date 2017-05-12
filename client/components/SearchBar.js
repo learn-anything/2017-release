@@ -44,14 +44,15 @@ module.exports = React.createClass({
 
   render() {
     const inputProps = {
-      onChange: e => this.setState({ query: e.target.value }),
       value: this.state.query,
+      onChange: e => this.setState({ query: e.target.value }),
       placeholder: getPlaceholder(),
     };
 
     const input = RE(Autosuggest, {
       inputProps,
       renderSuggestion,
+      highlightFirstSuggestion: true,
       suggestions: this.state.suggestions,
       getSuggestionValue: suggestion => suggestion.name,
       onSuggestionsFetchRequested: this.onSuggestionsFetchRequested,
