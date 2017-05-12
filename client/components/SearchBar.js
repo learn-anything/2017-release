@@ -50,7 +50,7 @@ module.exports = React.createClass({
       className: 'searchbar-input',
       onChange: this.onChange,
       value: this.state.query,
-      placeholder: 'I want to  learn ...',
+      placeholder: '',
     });
 
     const suggestions = RE('div', { className: 'searchbar-suggestions' },
