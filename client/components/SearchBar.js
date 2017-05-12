@@ -63,6 +63,7 @@ module.exports = React.createClass({
 
   render() {
     const inputProps = {
+      autoFocus: true,
       value: this.state.query,
       onChange: e => this.setState({ query: e.target.value }),
       placeholder: getPlaceholder(),
