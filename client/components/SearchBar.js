@@ -5,15 +5,6 @@ const SearchBar = React.createClass({
   // Get all suggestions based on a given query
   getSuggestions(query) {
     const value = query.trim().toLowerCase();
-    const triggers = [
-      { name: 'learn math' },
-      { name: 'learn physics' },
-      { name: 'learn machine learning' },
-      { name: 'books on' },
-      { name: 'courses on' },
-      { name: 'research papers on' },
-      { name: 'interesting blogs on' },
-    ];
 
     if (value.length === 0) {
       return [];
@@ -24,19 +15,33 @@ const SearchBar = React.createClass({
     ));
   },
 
+  onSuggestionClick(event) {
+    const suggestion = JSON.parse(event.target.getAttribute('value'));
+    this.setState({ query: suggestion.name });
+
+    if (suggestion.map) {
+      window.open(`https://my.mindnode.com/${suggestion.map}`);
+    }
+  },
+
+  // Update query, then rerender
+  onChange(event) {
+    this.setState({ query: event.target.value });
+  },
+
   // Return an array of React elements, representing suggestions
   // based on a given query
   renderSuggestions(query) {
     const suggestions = this.getSuggestions(query);
 
     return suggestions.map((suggestion, i) => (
-      RE('div', { className: 'searchbar-suggestion', key: i }, suggestion.name)
+      RE('div', {
+        className: 'searchbar-suggestion',
+        onClick: this.onSuggestionClick,
+        value: JSON.stringify(suggestion),
+        key: i,
+      }, suggestion.name)
     ));
-  },
-
-  // Update query, then rerender
-  onChange(event) {
-    this.setState({ query: event.target.value });
   },
 
   render() {
