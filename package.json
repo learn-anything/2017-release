@@ -12,6 +12,7 @@
   ],
   "repository": "nikitavoloboev/knowledge-map-search-engine",
   "scripts": {
+    "clean-triggers": "sed -r 's/(https:\\/\\/my\\.)?mindnode\\.com\\///' -i client/triggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build": "node-sass client/sass/ -o client/css/; postcss client/css/main.css --use autoprefixer --replace",
     "start": "npm run lint; npm run build; http-server client/ -p 3000"
