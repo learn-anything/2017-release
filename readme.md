@@ -9,7 +9,7 @@
 
 # Running it 🚀
 
-To run it yourself, clone the project and use 
+To run it yourself, clone the project and run 
 
 ```
 npm install
