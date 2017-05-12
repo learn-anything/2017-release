@@ -19,4 +19,5 @@ const triggers = [
   { name: 'databases', map: 'VsuqhhyBK8PAfvzuHqE1DBmyB9xV8fSePsX92ssB' },
   { name: 'virtual reality', map: 'mKhEXHiMUXpGgfJxDkqbgyxN3MRp3bwug96a9zo2' },
   { name: 'engineering', map: '6SJjDrFxzofoZjxfpgH5qVryLSYjppJsg28NapzF' },
+  { name: 'marketing', map: 'Wm2fSqKWEJyyZ3LYZsgy2x6Yb8te49t968qqypUs#79.7,-75.0,5' },
 ];
