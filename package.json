@@ -16,7 +16,7 @@
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build-sass": "node-sass client/sass/ -o client/dist/; postcss client/dist/main.css --use autoprefixer --replace",
     "build-js": "browserify client/index.js -o client/dist/bundle.js",
-    "build": "npm run build-js; npm run build-sass",
+    "build": "npm run build-sass; npm run build-js",
     "start": "npm run lint; npm run build; http-server client/ -p 3000"
   },
   "dependencies": {
