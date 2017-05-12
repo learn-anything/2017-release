@@ -37,11 +37,10 @@
 
 .react-autosuggest__suggestions-container
   margin: -5px auto
-  max-height: 0
+  max-height: 210px
   max-width: 450px
-  overflow-y: hidden
+  overflow-y: auto
   position: relative
-  transition: max-height .218s
 
   &::before
     border-radius: 0 0 5px 5px
@@ -54,6 +53,8 @@
     top: 0
     z-index: -1
 
+::-webkit-scrollbar
+  display: none
 
 .react-autosuggest__suggestion
   @extend %field
@@ -78,10 +79,6 @@
 
 .react-autosuggest__input
   @extend %field
-
-
-.react-autosuggest__suggestions-container--open
-  max-height: 500px
 
 .react-autosuggest__suggestions-list
   margin: 0

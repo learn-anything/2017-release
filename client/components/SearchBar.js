@@ -1,6 +1,25 @@
 const triggers = require('../triggers');
 
 
+const fuzzyMatch = (pattern, str) => {
+  let patternIdx = 0;
+  let strIdx = 0;
+  const patternLength = pattern.length;
+  const strLength = str.length;
+
+  while (patternIdx !== patternLength && strIdx !== strLength) {
+    const patternChar = pattern.charAt(patternIdx).toLowerCase();
+    const strChar = str.charAt(strIdx).toLowerCase();
+
+    if (patternChar === strChar) {
+      patternIdx += 1;
+    }
+    strIdx += 1;
+  }
+
+  return patternLength !== 0 && strLength !== 0 && patternIdx === patternLength;
+};
+
 // Random placeholder.
 const getPlaceholder = () => {
   const index = Math.floor(Math.random() * triggers.length);
@@ -16,7 +35,7 @@ const getSuggestions = (query) => {
   }
 
   return triggers.filter(trigger => (
-    trigger.name.slice(0, value.length) === value
+    fuzzyMatch(value, trigger.name)
   ));
 };
 
