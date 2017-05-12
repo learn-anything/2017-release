@@ -15,7 +15,6 @@ To run it just
 npm install
 
 npm start
-
 ```
 
 And you can test it out already. If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
