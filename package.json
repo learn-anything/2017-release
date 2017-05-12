@@ -17,7 +17,7 @@
     "build-sass": "node-sass client/sass/ -o client/dist/; postcss client/dist/main.css --use autoprefixer --replace",
     "build-js": "browserify client/index.js -o client/dist/bundle.js",
     "build": "npm run build-js; npm run build-sass",
-    "start": "npm run lint; npm run build; http-server client/ -p 80"
+    "start": "npm run lint; npm run build; http-server client/ -p 3000"
   },
   "dependencies": {
     "http-server": "^0.9.0"
