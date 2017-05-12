@@ -20,18 +20,6 @@ npm start
 
 And you can test it out already. If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
 
-# Design mockups 🖌
-
-![](http://i.imgur.com/JdSWY8B.png)
-
-## There will also be ability to choose scope of search
-
-![](http://i.imgur.com/b7reRcQ.png)
-
-![](http://i.imgur.com/i5m9VB0.png)
-
-![](http://i.imgur.com/smdCCc6.png)
-
 
 # Idea 💡
 
@@ -73,4 +61,17 @@ Here is a rough list of what queries and prefixes will be implemented in the fut
 	- i.e. 'interesting blogs on mathematics' will show [this](https://my.mindnode.com/Lr33AxQg1yTrPzYJrAbFD7E6Wr7cM6YyoUfXaEzp#483.2,-2139.7,7)
 
 This list can go on of course as more quality content gets added and mapped. Which should be possible as [everyone can contribute](https://github.com/nikitavoloboev/knowledge-map#contributing-) to what shows up in these mind maps. 
+
+# Design mockups 🖌
+
+![](http://i.imgur.com/JdSWY8B.png)
+
+## There will also be ability to choose scope of search
+
+![](http://i.imgur.com/b7reRcQ.png)
+
+![](http://i.imgur.com/i5m9VB0.png)
+
+![](http://i.imgur.com/smdCCc6.png)
+
 
