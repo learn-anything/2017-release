@@ -1,5 +1,6 @@
-// eslint-disable-next-line no-unused-vars
-const SearchBar = React.createClass({
+const triggers = require('../triggers');
+
+module.exports = React.createClass({
   getInitialState: () => ({ query: '' }),
 
   // Get all suggestions based on a given query
