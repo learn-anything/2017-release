@@ -3,7 +3,8 @@
 [![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
 
-<img width="320" alt="img" src="https://raw.githubusercontent.com/knowledge-map-search-engine/img/master/search.gif">
+
+![](http://imgur.com/GXpxr0g)
 
 
 # Running it 🚀
