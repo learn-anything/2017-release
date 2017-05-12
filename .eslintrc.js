@@ -8,6 +8,7 @@ module.exports = {
     'ReactDOM': true,
     'RE': true,
     'triggers': true,
+    'Autosuggest': true,
     'SearchBar': true,
   }
 };

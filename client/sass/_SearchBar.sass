@@ -35,7 +35,7 @@
     margin-bottom: 20px
     text-align: center
 
-.searchbar-suggestions
+.react-autosuggest__suggestions-container
   margin: -5px auto
   max-height: 0
   max-width: 450px
@@ -54,25 +54,35 @@
     top: 0
     z-index: -1
 
-  .searchbar-suggestion
-    @extend %field
-    background-color: $grey200
-    border-radius: 0
-    box-shadow: none
 
-    &:first-child
-      padding: 15px
+.react-autosuggest__suggestion
+  @extend %field
+  background-color: $grey200
+  border-radius: 0
+  box-shadow: none
 
-    &:last-child
-      border-radius: 0 0 5px 5px
+  &:first-child
+    padding: 15px
 
-    &:hover
-      background-color: $grey100
-      color: $grey900
+  &:last-child
+    border-radius: 0 0 5px 5px
 
-.searchbar-input
+  div
+    color: $grey700
+
+.react-autosuggest__suggestion--highlighted
+  background-color: $grey100
+
+  div
+    color: $grey900
+
+.react-autosuggest__input
   @extend %field
 
-  &:focus + .searchbar-suggestions
-    max-height: 500px
 
+.react-autosuggest__suggestions-container--open
+  max-height: 500px
+
+.react-autosuggest__suggestions-list
+  margin: 0
+  padding: 0

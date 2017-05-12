@@ -1,61 +1,64 @@
 const triggers = require('../triggers');
 
+
+// Random placeholder.
+const getPlaceholder = () => {
+  const index = Math.floor(Math.random() * triggers.length);
+  return triggers[index].name;
+};
+
+// Return an array of suggestions based on a given query.
+const getSuggestions = (query) => {
+  const value = query.trim().toLowerCase();
+
+  if (value.length === 0) {
+    return [];
+  }
+
+  return triggers.filter(trigger => (
+    trigger.name.slice(0, value.length) === value
+  ));
+};
+
+const renderSuggestion = suggestion =>
+  RE('div', { className: 'searchbar-suggestion' }, suggestion.name);
+
+
 module.exports = React.createClass({
-  getInitialState: () => ({ query: '' }),
+  getInitialState: () => ({ query: '', suggestions: [] }),
 
-  // Get all suggestions based on a given query
-  getSuggestions(query) {
-    const value = query.trim().toLowerCase();
-
-    if (value.length === 0) {
-      return [];
-    }
-
-    return triggers.filter(trigger => (
-      trigger.name.slice(0, value.length) === value
-    ));
-  },
-
-  onSuggestionClick(event) {
-    const suggestion = JSON.parse(event.target.getAttribute('value'));
+  // Open selected map.
+  onSuggestionSelected(_, { suggestion }) {
     this.setState({ query: suggestion.name });
-
-    if (suggestion.map) {
-      window.open(`https://my.mindnode.com/${suggestion.map}`);
-    }
+    location.href = `https://my.mindnode.com/${suggestion.map}`;
   },
 
-  // Update query, then rerender
-  onChange(event) {
-    this.setState({ query: event.target.value });
+  // Load suggestions.
+  onSuggestionsFetchRequested({ value }) {
+    this.setState({ suggestions: getSuggestions(value) });
   },
 
-  // Return an array of React elements, representing suggestions
-  // based on a given query
-  renderSuggestions(query) {
-    const suggestions = this.getSuggestions(query);
-
-    return suggestions.map((suggestion, i) => (
-      RE('div', {
-        className: 'searchbar-suggestion',
-        onClick: this.onSuggestionClick,
-        value: JSON.stringify(suggestion),
-        key: i,
-      }, suggestion.name)
-    ));
+  onSuggestionsClearRequested() {
+    this.setState({ suggestions: [] });
   },
 
   render() {
-    const input = RE('input', {
-      className: 'searchbar-input',
-      onChange: this.onChange,
+    const inputProps = {
+      onChange: e => this.setState({ query: e.target.value }),
       value: this.state.query,
-      placeholder: 'I want to  learn ...',
+      placeholder: getPlaceholder(),
+    };
+
+    const input = RE(Autosuggest, {
+      inputProps,
+      renderSuggestion,
+      suggestions: this.state.suggestions,
+      getSuggestionValue: suggestion => suggestion.name,
+      onSuggestionsFetchRequested: this.onSuggestionsFetchRequested,
+      onSuggestionsClearRequested: this.onSuggestionsClearRequested,
+      onSuggestionSelected: this.onSuggestionSelected,
     });
 
-    const suggestions = RE('div', { className: 'searchbar-suggestions' },
-      this.renderSuggestions(this.state.query));
-
-    return RE('div', { className: 'searchbar-container' }, input, suggestions);
+    return RE('div', { className: 'searchbar-container' }, input);
   },
 });
