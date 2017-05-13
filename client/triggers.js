@@ -112,7 +112,6 @@ module.exports = [
   { name: 'vs code text editor', map: 'zrL3XX4z7bcSDuQrLwXNAqdZr6VCp8JbMXvksso2#41.3,65.9,6' },
   { name: 'sublime text editor', map: '6tM7DsVd3ByH4rCXFw6XyH59y4xEzEsSzNtasAXN#30.5,-77.9,4' },
   { name: 'command line tools', map: 'LHXDgxoACw1ykgGsaFFvKsnaLaeRGviV74j2wtkU#56.9,-19.3,2' },
-
   { name: 'full stack web development', map: 'https://my.mindnode.com/YfXtXRQ4Vys8SZaxwKETATNSWX4rbhHeq6xPxLjm#237.2,-165.4,2' },
   { name: 'a-frame virtual reality framework', map: 'https://my.mindnode.com/CWsQJ418QKxqEztQEYyozPWHiqxEK9JnZBgdSbpz#-36.4,-94.5,2' },
   { name: 'unity game engine', map: 'https://my.mindnode.com/e6eGCsYMysgfLWp32sC94KKjriUy5UNmBJXJGoox#66.3,-295.1,2' },
