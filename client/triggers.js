@@ -44,8 +44,7 @@ module.exports = [
   { name: 'neuroscience', map: 'qn6XqfNxftWrVm4n2Xs5BsPJok4KEFTJGpNixELq#-75.7,-37.9,2' },
   { name: 'search engines', map: '7YbqKxSpWxkBT4s4p8N5HghpCy6n8XNHwSHAppzn#49.8,139.8,2' },
   { name: 'web crawlers', map: 'tfSGpEVZd5EqPFzEzetA532qCfhgUDfbVp6gU7zv#46.6,43.0,5' },
-
-c  { name: 'health', map: 'https://my.mindnode.com/4LknBLWzBESbxERfpYQZsa2Fv1k3Lne1FjVsD4ys#-32.7,-31.4,2' },
+  { name: 'health', map: 'https://my.mindnode.com/4LknBLWzBESbxERfpYQZsa2Fv1k3Lne1FjVsD4ys#-32.7,-31.4,2' },
   { name: 'computer science', map: 'https://my.mindnode.com/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#650.4,-557.5,2' },
   { name: 'web design', map: 'https://my.mindnode.com/3irQvGhTDXsWX7yHqzQkR9JWhq9kyaJZ4otN7qiR' },
   { name: 'web performance', map: 'https://my.mindnode.com/TTiDHqPUigF91yBHAFSgbhNckeUAGZhNtxiavEPB#-4.2,51.4,2' },
