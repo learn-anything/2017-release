@@ -23,7 +23,8 @@
 .searchbar-container
   padding: 10px 30px
   position: absolute
-  top: 35%
+  top: 50%
+  transform: translateY(calc(-50% - 3em + 20px))
   width: 100%
 
   &::before
@@ -88,6 +89,3 @@
 +respond-to($width-small)
   body
     font-size: 12px
-
-  .searchbar-container
-    top: 25%
