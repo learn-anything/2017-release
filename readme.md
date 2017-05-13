@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
 
 
-<img width="442" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/search.mp4_half.gif">
+<img width="302" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/perfect.mov.gif">
 
 
 # Build it 🚀
