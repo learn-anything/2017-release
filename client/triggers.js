@@ -55,7 +55,7 @@ module.exports = [
   { name: 'design', map: 'UfyzJtYHJtarpQg5YVXVz7vwYjQvn5FQt4g3pq4C' },
   { name: 'discrete math', map: 'ha8hqZuHbb5Py7LzxWoCatscK9AZsR93vJbyfqiq#200.8,36.7,2' },
   { name: 'diseases', map: 'qSpAkmpgvtHK27TFhysj9svBh7fBaZKjuFztc1ms#15.6,-200.1,2' },
-  { name: 'distributed systems', map: 'mxFpyqEV2YXLGBoLgUBydSWkB1qdXqzvbqzQpZZv' },
+  { name: 'distributed computing', map: '2ZYrG1D2SizuM5YzrnCNQdNqzZXC1N5nH2aTMbVd#-141.5,-63.6,2' },
   { name: 'drawing', map: 'z4ZojQ2ngJ83LWaew44kstV9f2YX3Huj1pmFUbTc' },
   { name: 'drugs', map: '5HyyfoE5sufZR5RvN9isTCdaYByzxFVhLqpk2MXg#-125.3,-218.9,2' },
   { name: 'economics', map: 'FHh7spgcDGWdg72U6L4u34VRCrW9kLswUHQoXBMs' },
