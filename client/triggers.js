@@ -34,7 +34,7 @@ module.exports = [
   { name: 'chemistry', map: 'VdpXxxyVpJm7NedoNqt6YnSAsN7RWyR7mzLh3xs6#-55.2,-100.5,2' },
   { name: 'economics', map: 'FHh7spgcDGWdg72U6L4u34VRCrW9kLswUHQoXBMs' },
   { name: 'security', map: '38DGvay2sqnzEMAZ4GnPNKzVxDic1gStaQq6dn46' },
-  { name: 'environmental: science', map: '2qWdikpzGwN6GkfyyevpW85tXxACgjqWGfxyJ7Ph#688.4,-573.6,2' },
+  { name: 'environmental science', map: '2qWdikpzGwN6GkfyyevpW85tXxACgjqWGfxyJ7Ph#688.4,-573.6,2' },
   { name: 'infrastructure', map: 'VBPfyy3FxxfSpCB6xzjQUxbKbmvPf6w9W7snssVb#63.4,-373.0,5' },
   { name: 'architecture', map: 'Q6r66iur4UDMMzdTtbCJgnsYaZbDnAygh8tbBMd3' },
   { name: 'web development', map: '85uh2iN4GPhBJpuyyuWks5a6niyypQA5TPBCGnAN#521.7,-260.4,2' },
