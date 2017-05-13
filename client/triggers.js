@@ -116,7 +116,7 @@ module.exports = [
   { name: 'learning', map: 'xmrq1nh3m3aseeRxiK7hexvqqKktdaLRSTGSq2pA' },
   { name: 'linear algebra', map: '9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy#102.2,46.0,2' },
   { name: 'linguistics', map: 'RzvJjKnkfVYcSZxfU8vozrx94yqAemYs6s5SRnoz#-63.0,-92.4,2' },
-  { name: 'linux distributions', map: 'QgyDiwvEke8bbXKGFQoh8zC4JUkpEW7THSpjPuDW#1.9,69.1,2' },
+  { name: 'linux distributions', map: 'QgyDiwvEke8bbXKGFQoh8zC4JUkpEW7THSpjPuDW#-114.1,88.1,2' },
   { name: 'linux', map: 'GHabxrSYv1AyCXkqtLRDfsTCZKZLERuXk7D5pUGL' },
   { name: 'lisp programming language', map: 'U8N8tR2D1Ek1SUaLoNEDwcmoeeBRMkEUnd1XxfH6#53.4,-58.2,3' },
   { name: 'logic', map: '1GGWUw7yg9oqPVsqx83FwnMa41ecAcYXYJp5GRRR#46.1,4.7,2' },
