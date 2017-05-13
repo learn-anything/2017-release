@@ -149,8 +149,15 @@ module.exports = React.createClass({
 
   // Open selected map.
   onSuggestionSelected(_, { suggestion }) {
-    this.setState({ query: suggestion.name });
-    location.href = `https://my.mindnode.com/${suggestion.map}`;
+    ga('send', 'event', {
+      eventCategory: 'Search',
+      eventAction: 'selected suggestion',
+      eventLabel: suggestion.name,
+      hitCallback: () => {
+        this.setState({ query: suggestion.name });
+        location.href = `https://my.mindnode.com/${suggestion.map}`;
+      },
+    });
   },
 
   // Load suggestions.
