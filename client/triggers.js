@@ -45,3 +45,5 @@ module.exports = [
   { name: 'search engines', map: '7YbqKxSpWxkBT4s4p8N5HghpCy6n8XNHwSHAppzn#49.8,139.8,2' },
   { name: 'web crawlers', map: 'tfSGpEVZd5EqPFzEzetA532qCfhgUDfbVp6gU7zv#46.6,43.0,5' },
   { name: 'web design', map: '3irQvGhTDXsWX7yHqzQkR9JWhq9kyaJZ4otN7qiR#0.5,-183.5,5' },
+];
+
