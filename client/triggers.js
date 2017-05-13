@@ -104,7 +104,7 @@ module.exports = [
   { name: 'IPFS', map: 'Hsex87wcsZbzbwMNzbaJFsBPFJycLymJqA7sotvg#64.1,7.3,2' },
   { name: 'java programming language', map: 'XcFAZAvk82ipqdis1UW5wznzxBxuVbx5iHLwgLHP' },
   { name: 'javascript libraries', map: '5PazdXmKxEq1mDpksAfWUZFdJTpvAHpti6Cir1S2#50.6,-34.4,2' },
-  { name: 'javascript programming language', map: '5LipbLiRfryhTsqRL6za1x5qzpQBh3mmD997Kwvb#-23.7,24.8,6' },
+  { name: 'javascript programming language', map: 'QQzCynmUtZpAuyGipqxsvRJ6NPn477o9cSjCGqqR#-146.1,-267.5,2' },
   { name: 'jQuery', map: 'Gr8yvuKJCWgjaeJXoiUudYqoid8oeky6b81Cwunf#34.9,-47.4,2' },
   { name: 'julia programming language', map: 'o5MkZSpM5SvDhrBTz7mvrm7qLFSFXXAgV5xzKWQx#93.7,-129.5,4' },
   { name: 'keras library', map: 'rApczcRbzmMrgkZtP6QmEyTRGUvgiyThASZrPP5C#-17.0,60.1,2' },
