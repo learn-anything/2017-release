@@ -39,8 +39,7 @@ module.exports = [
   { name: 'architecture', map: 'https://my.mindnode.com/Q6r66iur4UDMMzdTtbCJgnsYaZbDnAygh8tbBMd3' },
   { name: 'web development', map: 'https://my.mindnode.com/85uh2iN4GPhBJpuyyuWks5a6niyypQA5TPBCGnAN#521.7,-260.4,2' },
   { name: 'computer hardware', map: 'https://my.mindnode.com/Lf272jyyVyWWmRPpxs8z4GvsxQqGPLfpZrVhYnMn#-292.5,-354.9,2' },
-  { name: '', map: 'https://my.mindnode.com/48Lde9zsysCqsBfqQAMmqrgApPsxhxebtxPqe173#486.6,217.4,2' },
-
+  { name: 'tooling', map: 'https://my.mindnode.com/48Lde9zsysCqsBfqQAMmqrgApPsxhxebtxPqe173#486.6,217.4,2' },
   { name: 'entrepreneurship', map: 'https://my.mindnode.com/7wRp4x4AGyQt7oxU2PzZpSEGudSns76n1f9WXD6Y' },
   { name: 'neuroscience', map: 'https://my.mindnode.com/qn6XqfNxftWrVm4n2Xs5BsPJok4KEFTJGpNixELq#-75.7,-37.9,2' },
   { name: 'search engines', map: 'https://my.mindnode.com/7YbqKxSpWxkBT4s4p8N5HghpCy6n8XNHwSHAppzn#49.8,139.8,2' },
