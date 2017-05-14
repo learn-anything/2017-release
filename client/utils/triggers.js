@@ -227,5 +227,6 @@ module.exports = [
   { name: 'WebSockets', map: 'MCHX7afgsj6V5qXGDEpoqs4uJhG9yDPsTaz4WyP4#108.9,-326.6,2' },
   { name: 'windows', map: 'yxcnFoyVpJecxFRoqfQ8orzsu3zesCAcS9jjMPZM#42.3,-43.5,2' },
   { name: 'writing', map: 'syW5tDqyLdEPRQYt2d8bhbt79hqPxreaaKo3BqMG' },
+  { name: 'quantum field theory', map: 'gDAemvFSLEMi7g9ozVTKp7yW2onyv76X5cspxeVQ' },
 ];
 
