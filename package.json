@@ -12,7 +12,7 @@
   ],
   "repository": "nikitavoloboev/knowledge-map-search-engine",
   "scripts": {
-    "clean-triggers": "sed -r 's/(https:\\/\\/my\\.)?mindnode\\.com\\///' -i client/utils/triggers.js",
+    "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' client/utils/triggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build": "webpack",
     "start": "npm run build && http-server client/ -p 3000"
@@ -21,7 +21,8 @@
     "http-server": "^0.9.0",
     "react": "^15.5.4",
     "react-autosuggest": "^9.0.1",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "replace-x": "^1.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
@@ -43,9 +44,14 @@
     "webpack": "^2.5.1"
   },
   "postcss": {
-    "plugins": { "autoprefixer": {} }
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
