@@ -175,7 +175,7 @@ export default [
   { name: 'rationality', map: 'ZLb6tystjm7WXtPgscpXpxKiDktvqcqvvUbptrER' },
   { name: 'ray tracing', map: 'b67moawHdg45kYPyzUUUt3doLV1jzgD12FYAayxJ#39.2,-131.9,2' },
   { name: 'react native', map: 'MiLsnxiprq4jpBMTBiHT48Kt1sZqfF23hEuyGLKE#29.9,-94.3,5' },
-  { name: 'react', map: 'ifaZsjVmDsFxTdqDDix8s3GyXibGvCArpc86ViZM#9.0,-252.8,2' },
+  { name: 'react library', map: 'ifaZsjVmDsFxTdqDDix8s3GyXibGvCArpc86ViZM#9.0,-252.8,2' },
   { name: 'redis', map: 'Fb7dmtCvahWRF1LWybq5JqtPjHwBeF4mxoV7zLB5' },
   { name: 'regular expressions', map: 'reBzaM1mn6WWuTM5iRAtrC1o7LzWBNwspT9pxNT3#86.0,-125.5,4' },
   { name: 'reinforcement learning', map: 'eKswyDv4KNY9fePuF3DcWvYZjtTaBzxk581Mw7Ru' },
@@ -233,4 +233,5 @@ export default [
   { name: 'topology', map: '9Vyqzw7KposgvsspFnRr96nFCyNcKKUVG4hpuNYw#-127.9,214.7,2' },
   { name: 'knot theory', map: 'Gq7pA3rtpYhZP2K1MhMFwmy3YaEpvdG13M5wjRBi' },
   { name: 'php programming language', map: 'PRPMKGkoCxUbGwDxRxfWCPspQppWEL4wcrf3LteY' },
+  { name: 'meteor library', map: 'HbPdBs4yqvN1FdoScE3PVNZwnXcqdddWqXkGqssc' },
 ];
