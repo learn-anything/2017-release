@@ -228,4 +228,5 @@ export default [
   { name: 'windows', map: 'yxcnFoyVpJecxFRoqfQ8orzsu3zesCAcS9jjMPZM#42.3,-43.5,2' },
   { name: 'writing', map: 'syW5tDqyLdEPRQYt2d8bhbt79hqPxreaaKo3BqMG' },
   { name: 'quantum field theory', map: 'gDAemvFSLEMi7g9ozVTKp7yW2onyv76X5cspxeVQ' },
+  { name: 'guitar', map: 'xPUGxGodprtehL3P5zd7dyzmTeaDYiCQxkVp8nrF' },
 ];
