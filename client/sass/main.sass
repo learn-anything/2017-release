@@ -10,14 +10,15 @@ body
   margin: 0
 
 footer
-  bottom: 10px
-  left: 10px
+  bottom: 0
+  padding: 10px
   position: absolute
-  z-index: -1
+  width: 100%
 
   a
     margin-right: 20px
     text-decoration: none
+    z-index: -1
 
     svg
       fill: $grey500
@@ -26,16 +27,6 @@ footer
       color: $grey500
       font-weight: bold
       vertical-align: 4px
-
-.github
-  display: none
-
-  &:hover
-    svg
-      fill: $grey200
-
-    span
-      color: $grey200
 
 .heart:hover
   svg
@@ -50,6 +41,39 @@ footer
 
   span
     color: $orange-a400
+
+.emoji-reference:hover
+  cursor: pointer
+
+  svg
+    fill: $grey200
+
+  span
+    color: $grey200
+
+  & + .emoji-reference-container
+    display: block
+
+.emoji-reference-container
+  display: none
+  bottom: 50px
+  left: 50%
+  position: absolute
+  transform: translateX(-50%)
+
+.emoji-reference-table
+  background-color: $grey900
+  border-radius: 10px
+  box-shadow: $shadow-active
+  padding: 15px 10px
+
+.emoji-reference-icon
+  height: 24px
+  padding: 2px
+  width: 24px
+
+  & + span
+    vertical-align: 6px
 
 
 +respond-to($width-small)
