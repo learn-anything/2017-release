@@ -169,6 +169,17 @@ module.exports = React.createClass({
     this.setState({ suggestions: [] });
   },
 
+  onSubmit(event) {
+    event.preventDefault();
+    const query = event.target.children[0].children[0].value.trim().toLowerCase();
+
+    ga('send', 'event', {
+      eventCategory: 'Search',
+      eventAction: 'suggestion not found',
+      eventLabel: query,
+    });
+  },
+
   render() {
     const inputProps = {
       autoFocus: true,
@@ -188,6 +199,9 @@ module.exports = React.createClass({
       onSuggestionSelected: this.onSuggestionSelected,
     });
 
-    return RE('div', { className: 'searchbar-container' }, input);
+    return RE('form', {
+      className: 'searchbar-container',
+      onSubmit: this.onSubmit,
+    }, input);
   },
 });
