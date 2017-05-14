@@ -1,15 +1,13 @@
 module.exports = {
-  'extends': 'airbnb-base',
-  'env': {
-    'browser': true,
+  extends: 'airbnb-base',
+  plugins: ['react'],
+
+  env: { browser: true },
+  globals: { ga: true },
+
+  rules: { 'react/jsx-uses-vars': 'error' },
+
+  parserOptions: {
+    ecmaFeatures: { jsx: true },
   },
-  'globals': {
-    'React': true,
-    'ReactDOM': true,
-    'RE': true,
-    'triggers': true,
-    'Autosuggest': true,
-    'SearchBar': true,
-    'ga': true,
-  }
 };

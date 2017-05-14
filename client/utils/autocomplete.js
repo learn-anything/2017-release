@@ -1,6 +1,7 @@
-const triggers = require('../triggers');
+import triggers from './triggers';
 
-const fuzzyScore = (pattern, str) => {
+// Score how close a pattern is to a given string.
+export const fuzzyScore = (pattern, str) => {
   const adjacencyBonus = 15;
   const separatorBonus = 10;
   const camelBonus = 10;
@@ -113,14 +114,8 @@ const fuzzyScore = (pattern, str) => {
   return { matched, score, formattedStr, str };
 };
 
-// Random placeholder.
-const getPlaceholder = () => {
-  const index = Math.floor(Math.random() * triggers.length);
-  return triggers[index].name;
-};
-
 // Return an array of suggestions based on a given query.
-const getSuggestions = (query) => {
+export const getSuggestions = (query) => {
   const value = query.trim().toLowerCase();
 
   if (value.length === 0) {
@@ -140,68 +135,7 @@ const getSuggestions = (query) => {
   return suggestions;
 };
 
-const renderSuggestion = suggestion =>
-  RE('div', { className: 'searchbar-suggestion' }, suggestion.name);
-
-
-module.exports = React.createClass({
-  getInitialState: () => ({ query: '', suggestions: [] }),
-
-  // Open selected map.
-  onSuggestionSelected(_, data) {
-    ga('send', 'event', {
-      eventCategory: 'Search',
-      eventAction: 'selected suggestion',
-      eventLabel: data.suggestion.name,
-      hitCallback: () => {
-        this.setState({ query: data.suggestion.name });
-        location.href = `https://my.mindnode.com/${data.suggestion.map}`;
-      },
-    });
-  },
-
-  // Load suggestions.
-  onSuggestionsFetchRequested(suggestion) {
-    this.setState({ suggestions: getSuggestions(suggestion.value) });
-  },
-
-  onSuggestionsClearRequested() {
-    this.setState({ suggestions: [] });
-  },
-
-  onSubmit(event) {
-    event.preventDefault();
-    const query = event.target.children[0].children[0].value.trim().toLowerCase();
-
-    ga('send', 'event', {
-      eventCategory: 'Search',
-      eventAction: 'suggestion not found',
-      eventLabel: query,
-    });
-  },
-
-  render() {
-    const inputProps = {
-      autoFocus: true,
-      value: this.state.query,
-      onChange: e => this.setState({ query: e.target.value }),
-      placeholder: getPlaceholder(),
-    };
-
-    const input = RE(Autosuggest, {
-      inputProps,
-      renderSuggestion,
-      highlightFirstSuggestion: true,
-      suggestions: this.state.suggestions,
-      getSuggestionValue: suggestion => suggestion.name,
-      onSuggestionsFetchRequested: this.onSuggestionsFetchRequested,
-      onSuggestionsClearRequested: this.onSuggestionsClearRequested,
-      onSuggestionSelected: this.onSuggestionSelected,
-    });
-
-    return RE('form', {
-      className: 'searchbar-container',
-      onSubmit: this.onSubmit,
-    }, input);
-  },
-});
+export const randomTrigger = () => {
+  const i = Math.floor(Math.random() * triggers.length);
+  return triggers[i];
+};
