@@ -15,15 +15,19 @@ export default class SearchBar extends Component {
   }
 
   onSuggestionSelected(_, { suggestion }) {
+    const loadSuggestion = () => {
+      this.setState({ query: suggestion.name });
+      location.href = `https://my.mindnode.com/${suggestion.map}`;
+    };
+
+    setTimeout(loadSuggestion, 500);
     ga('send', 'event', {
       eventCategory: 'Search',
       eventAction: 'selected suggestion',
       eventLabel: suggestion.name,
       hitCallback: () => {
-        this.setState({ query: suggestion.name });
-        location.href = `https://my.mindnode.com/${suggestion.map}`;
       },
-    });
+    });3
   }
 
   onSuggestionsFetchRequested({ value }) {
