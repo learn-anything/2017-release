@@ -10,5 +10,6 @@ module.exports = {
     'triggers': true,
     'Autosuggest': true,
     'SearchBar': true,
+    'ga': true,
   }
 };
