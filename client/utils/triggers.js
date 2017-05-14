@@ -229,4 +229,8 @@ export default [
   { name: 'writing', map: 'syW5tDqyLdEPRQYt2d8bhbt79hqPxreaaKo3BqMG' },
   { name: 'quantum field theory', map: 'gDAemvFSLEMi7g9ozVTKp7yW2onyv76X5cspxeVQ' },
   { name: 'guitar', map: 'xPUGxGodprtehL3P5zd7dyzmTeaDYiCQxkVp8nrF' },
+  { name: 'model theory', map: 'M66CXTQkXDysSKDp3a3Mq3Dbwzy5x398Ayvzc1Ey#214.1,37.5,2' },
+  { name: 'topology', map: '9Vyqzw7KposgvsspFnRr96nFCyNcKKUVG4hpuNYw#-127.9,214.7,2' },
+  { name: 'knot theory', map: 'Gq7pA3rtpYhZP2K1MhMFwmy3YaEpvdG13M5wjRBi' },
+  { name: 'php programming language', map: 'PRPMKGkoCxUbGwDxRxfWCPspQppWEL4wcrf3LteY' },
 ];
