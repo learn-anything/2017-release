@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   { name: '3d printing', map: '1qepKVwZ5z6HqpoBUr2ipQPbivrJjir3y3UPAGvP#68.2,-214.1,2' },
   { name: 'a-frame virtual reality framework', map: 'CWsQJ418QKxqEztQEYyozPWHiqxEK9JnZBgdSbpz#-36.4,-94.5,2' },
   { name: 'abiogenesis', map: 'SLXSGkt642jAz54xrVGEFLVtZmrrB7gzGPohtngF#76.7,-137.7,2' },
@@ -228,4 +228,3 @@ module.exports = [
   { name: 'windows', map: 'yxcnFoyVpJecxFRoqfQ8orzsu3zesCAcS9jjMPZM#42.3,-43.5,2' },
   { name: 'writing', map: 'syW5tDqyLdEPRQYt2d8bhbt79hqPxreaaKo3BqMG' },
 ];
-

@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component, PropTypes } from 'react';
 
 import { getSuggestions, randomTrigger } from '../utils/autocomplete';
 import '../sass/_SearchBar.sass';
@@ -25,8 +25,7 @@ export default class SearchBar extends Component {
       eventCategory: 'Search',
       eventAction: 'selected suggestion',
       eventLabel: suggestion.name,
-      hitCallback: () => {
-      },
+      hitCallback: loadSuggestion,
     });
   }
 
@@ -42,14 +41,18 @@ export default class SearchBar extends Component {
     event.preventDefault();
     const query = event.target.children[0].children[0].value.trim().toLowerCase();
 
-    ga('send', 'event', {
-      eventCategory: 'Search',
-      eventAction: 'suggestion not found',
-      eventLabel: query,
-      hitCallback: () => {
-        this.setState({ query: '' });
-      },
-    });
+    if (getSuggestions(query).length === 0) {
+      const showSnackbar = () =>
+        this.props.message.set('Sorry you can\'t search that yet 😞');
+
+      setTimeout(showSnackbar, 500);
+      ga('send', 'event', {
+        eventCategory: 'Search',
+        eventAction: 'unmatched query',
+        eventLabel: query,
+        hitCallback: showSnackbar,
+      });
+    }
   }
 
   render() {
@@ -80,3 +83,7 @@ export default class SearchBar extends Component {
     );
   }
 }
+
+SearchBar.propTypes = {
+  message: PropTypes.object.isRequired,
+};

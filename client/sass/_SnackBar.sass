@@ -1,0 +1,21 @@
+@import variables
+
+.snackbar-container
+  bottom: 0
+  position: absolute
+  transform: translateY(100%)
+  transition: transform .218s ease-in-out
+  width: 100%
+
+  &.visible
+    transform: translateY(0%)
+
+.snackbar
+  background-color: $grey900
+  border-radius: 5px 5px 0 0
+  box-shadow: $shadow-active
+  color: $grey500
+  line-height: 2em
+  margin: 0 auto
+  max-width: 500px
+  padding: 10px
