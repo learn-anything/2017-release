@@ -51,5 +51,11 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom',
     },
+    'react-autosuggest': {
+      root: 'Autosuggest',
+      commonjs2: 'react-autosuggest',
+      commonjs: 'react-autosuggest',
+      amd: 'react-autosuggest',
+    },
   },
 };

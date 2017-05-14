@@ -1,4 +1,5 @@
 import { Component, PropTypes } from 'react';
+import Autosuggest from 'react-autosuggest';
 
 import { getSuggestions, randomTrigger } from '../utils/autocomplete';
 import '../sass/_SearchBar.sass';
