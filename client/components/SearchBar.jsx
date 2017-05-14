@@ -27,7 +27,7 @@ export default class SearchBar extends Component {
       eventLabel: suggestion.name,
       hitCallback: () => {
       },
-    });3
+    });
   }
 
   onSuggestionsFetchRequested({ value }) {
