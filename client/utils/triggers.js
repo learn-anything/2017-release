@@ -5,7 +5,7 @@ export default [
   { name: 'acting', map: '5YecPzsqehbb4o4tvaXc6uykmqhzar3AykvRqpE5#47.0,-115.0,1' },
   { name: 'alfred macOS launcher', map: 'qApdnhTrkU9PehVJNxnYKLxpx1qchdDk6S4wFp33#109.4,74.9,-1' },
   { name: 'algebra', map: 'AVUfxKqZjL329qksB8jFMpx6zDA2tpQDKGC9v1RW#-13.1,67.7,-1' },
-  { name: 'algorithms', map: 'M9oKwx4cd9kzJqTpJsoUaqpGo2X2bvfwdp6ekodK#-118.4,300.4,0' },
+  { name: 'algorithms', map: 'M9oKwx4cd9kzJqTpJsoUaqpGo2X2bvfwdp6ekodK#339.9,244.4,-2' },
   { name: 'analysis', map: 'mpCNfLpJ5cAtJbUG9twTjqQoaSozpJHzXSyDMr3U#-134.8,66.0,2' },
   { name: 'android', map: '9GNqw9qRvvg1A8Jeo9EW7fm8bcyWWtjKD6i6pa6w#101.8,-23.3,5' },
   { name: 'animals', map: 'uD7brAJerhs2xfCrCjsto7fXj4HzkUBrvQUfEyZ3#121.3,-300.5,4' },
