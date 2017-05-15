@@ -40,7 +40,7 @@ export default [
   { name: 'computer graphics', map: 'p7RzoL1gYA4Y4tzxrGVtRC5Tc1RLB6UtMnws5ugv#15.6,42.4,2' },
   { name: 'computer hardware', map: 'Lf272jyyVyWWmRPpxs8z4GvsxQqGPLfpZrVhYnMn#-292.5,-354.9,2' },
   { name: 'computer networking', map: 'NMjhSs88CAGYpxwsd4CP8mkzMRj5o42CMtDVJhtN#67.0,-21.6,2' },
-  { name: 'computer science', map: 'QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#650.4,-557.5,2' },
+  { name: 'computer science', map: 'QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#640.3,-486.9,0' },
   { name: 'computer vision', map: 'mCmNsBxeiGdRqYefxaq2HXYMKxf8sFWq92qYtMyU#109.8,-150.5,2' },
   { name: 'consciousness', map: 'LWuYxsB4TRnH49YymTXqkJQuzpUV8MjembJ4mBMs#-147.7,-29.9,2' },
   { name: 'cosmology', map: 'WL8T66hAmVGunSeX6LoZi9ohx2RRKk1riegeG3kr#-47.7,-155.2,2' },
