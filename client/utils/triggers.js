@@ -245,4 +245,5 @@ export default [
   { name: 'docker', map: 'uU7pjXzatK5xx5sttJ4t1bWhVj33JVwWcdm1hSpp' },
   { name: 'kubernetes', map: '49QCqCTYt6wsuguLCWyA41XTh4Vpe6Zv7Xp5g1Re' },
   { name: 'aws', map: 'T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye' },
+  { name: 'c# programming language', map: '6WmDpnHqF93PcBqtajq5Y2kFTy3HqyadWjazqqAU' },
 ];
