@@ -234,4 +234,5 @@ export default [
   { name: 'knot theory', map: 'Gq7pA3rtpYhZP2K1MhMFwmy3YaEpvdG13M5wjRBi' },
   { name: 'php programming language', map: 'PRPMKGkoCxUbGwDxRxfWCPspQppWEL4wcrf3LteY' },
   { name: 'meteor library', map: 'HbPdBs4yqvN1FdoScE3PVNZwnXcqdddWqXkGqssc' },
+  { name: 'scikit-learn library', map: '35hVLCpp3wbpsx4YqVD9XxpczbpPpyWJjwWfsfAq#-12.7,18.5,2' },
 ];
