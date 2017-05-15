@@ -1,5 +1,5 @@
 export default [
-  { name: '3d printing', map: '1qepKVwZ5z6HqpoBUr2ipQPbivrJjir3y3UPAGvP#204.9,-213.6,1' },
+  { name: '3d printing', map: '1qepKVwZ5z6HqpoBUr2ipQPbivrJjir3y3UPAGvP#204.9,-213.6,0' },
   { name: 'a-frame virtual reality framework', map: 'CWsQJ418QKxqEztQEYyozPWHiqxEK9JnZBgdSbpz#90.3,-197.3,2' },
   { name: 'abiogenesis', map: 'SLXSGkt642jAz54xrVGEFLVtZmrrB7gzGPohtngF#184.2,-170.1,2' },
   { name: 'acting', map: '5YecPzsqehbb4o4tvaXc6uykmqhzar3AykvRqpE5#47.0,-115.0,3' },
