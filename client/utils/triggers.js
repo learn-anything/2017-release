@@ -158,7 +158,7 @@ export default [
   { name: 'postgreSQL', map: 'y48JgLrYtbyNrsKyRze4WHzhYVrGZks9N9pvsekp#-44.6,-268.4,2' },
   { name: 'privacy', map: 'uFiw9mUYxyQjTnTcHqpX8VGsH5sSVSWztpY5AyWJ#-154.8,-53.0,2' },
   { name: 'processing programming language', map: 'zR23tD5fCFaQox7mHfYkLUgiQCDvMcz8Ragd98QR#128.8,-311.3,5' },
-  { name: 'programming interviews', map: 'XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv#569.8,172.4,2' },
+  { name: 'programming interviews', map: 'XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv#583.2,-55.2,1' },
   { name: 'programming language design', map: 'DGpMF54UqFrrurzbs77HTzyq8HswHBEwq8xdg8hB#312.6,-178.5,6' },
   { name: 'programming language theory', map: '6GZfjhTKw6cscXsr3MqFCLAfPnCs9dEEWSAuptrR#33.6,-596.3,2' },
   { name: 'programming languages', map: 'deC8Q7qpC5GxM41ysqHhMHzN832JMUAL1Fc351Td#-95.6,-555.3,1' },
