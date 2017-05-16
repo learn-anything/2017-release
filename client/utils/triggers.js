@@ -255,6 +255,6 @@ export default [
   { name: 'angularJS framework', map: 'QYBozsiUWZjbqguqyKSUV3psfhganW7PB1Wapxax' },
   { name: 'webGL', map: 'pRs2UppBdxxyS7YxD3KuqyMsFz5BNsNAyyAzzTfq' },
   { name: 'software development', map: 'C6qyyeVEzfVCyvpxD7digZzzGxV8hvcwdzAkkpjF' },
-  { name: 'DevOps', map: '4pT3AeEEywqSgdxTFBRgq3bmFpLs6s9YSaNMrxZY' },
+  { name: 'DevOps', map: '4pT3AeEEywqSgdxTFBRgq3bmFpLs6s9YSaNMrxZY#128.0,-254.9,1' },
   { name: 'laravel web framework', map: 'MbpPqGzHzySQesda9G5umY28S3spWRbzgCrGb4Uv' },
 ];
