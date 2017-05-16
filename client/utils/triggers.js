@@ -251,8 +251,8 @@ export default [
   { name: 'apache spark', map: 'odBHYpJQbM7LnyCw69K3KHCrKBBzeAUUQXktaKdf' },
   { name: 'software design patterns', map: 'yyJxSXTCh9xqmnCSbfoD5Ms7Nry1jxcymUDfMNqB' },
   { name: 'japanese language', map: 'F7y3iSAwZdzGnRRWLur3RpXiJviy1YF7QxZwDLxv' },
-  { name: '', map: '' },
-  { name: '', map: '' },
+  { name: 'd3.js library', map: 'oABafsSirqHz4o8Nh4pLqwCjbqnkFE4YturNm3CS' },
+  { name: 'graph databases', map: 'kAMXBibSaps4PdfxkB4jBoYBxWBfMbk1eYEzo6Cz' },
   { name: '', map: '' },
   { name: '', map: '' },
 ];
