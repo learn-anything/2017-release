@@ -244,7 +244,7 @@ export default [
   { name: 'photoshop', map: 'Bq15VPP9eVsmunFsM9RAFjpawSsgpuCBSi9ou3ye' },
   { name: 'docker', map: 'uU7pjXzatK5xx5sttJ4t1bWhVj33JVwWcdm1hSpp' },
   { name: 'kubernetes', map: '49QCqCTYt6wsuguLCWyA41XTh4Vpe6Zv7Xp5g1Re' },
-  { name: 'amazon web services', map: 'T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye' },
+  { name: 'aws', map: 'T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye' },
   { name: 'c# programming language', map: '6WmDpnHqF93PcBqtajq5Y2kFTy3HqyadWjazqqAU' },
   { name: 'blockchain', map: 'Cqy6H5RRvkwBTFEsTFH1eW8zQFA5Gzvoq6ssjFxc#447.8,99.7,2' },
   { name: 'data science', map: 'zxRG1oYfCw5DU8ExnRnyJt6qAWz9MM41sqhniGyv#-66.1,81.0,2' },
