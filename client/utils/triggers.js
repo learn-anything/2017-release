@@ -249,7 +249,7 @@ export default [
   { name: 'blockchain', map: 'Cqy6H5RRvkwBTFEsTFH1eW8zQFA5Gzvoq6ssjFxc#447.8,99.7,2' },
   { name: 'data science', map: 'zxRG1oYfCw5DU8ExnRnyJt6qAWz9MM41sqhniGyv#-66.1,81.0,2' },
   { name: 'apache spark', map: 'odBHYpJQbM7LnyCw69K3KHCrKBBzeAUUQXktaKdf' },
-  { name: '', map: '' },
+  { name: 'software design patterns', map: 'yyJxSXTCh9xqmnCSbfoD5Ms7Nry1jxcymUDfMNqB' },
   { name: '', map: '' },
   { name: '', map: '' },
   { name: '', map: '' },
