@@ -253,4 +253,5 @@ export default [
   { name: 'japanese language', map: 'F7y3iSAwZdzGnRRWLur3RpXiJviy1YF7QxZwDLxv' },
   { name: 'd3.js library', map: 'oABafsSirqHz4o8Nh4pLqwCjbqnkFE4YturNm3CS' },
   { name: 'graph databases', map: 'kAMXBibSaps4PdfxkB4jBoYBxWBfMbk1eYEzo6Cz' },
+  { name: 'angularJS framework', map: 'QYBozsiUWZjbqguqyKSUV3psfhganW7PB1Wapxax' },
 ];
