@@ -265,4 +265,5 @@ export default [
   { name: 'spanish language', map: 'xb6QwzqtZ2sZ2ryvTeXhA8PnUdzFTWZocEoCxeZp' },
   { name: 'french language', map: '44Pdg9ZnUsddwk5iWYwH2q2a5xHspBesoDQ2HY31' },
   { name: 'dancing', map: 'Tdvsb72Fqon42xkZGHsQx1xfKk6F6eGsgPAjCFpq' },
+  { name: 'software testing', map: 'ELcJKvcycS3o6xNu8a6pgF88wCyq5wUkZRWvsfnu' },
 ];
