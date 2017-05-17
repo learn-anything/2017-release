@@ -257,4 +257,12 @@ export default [
   { name: 'software development', map: 'C6qyyeVEzfVCyvpxD7digZzzGxV8hvcwdzAkkpjF' },
   { name: 'DevOps', map: '4pT3AeEEywqSgdxTFBRgq3bmFpLs6s9YSaNMrxZY#128.0,-254.9,1' },
   { name: 'laravel web framework', map: 'MbpPqGzHzySQesda9G5umY28S3spWRbzgCrGb4Uv' },
+  { name: 'computers', map: 'pB9HWsxJd9fybGJtXLbiXnrMdzPhtF47yKTq3QMF#15.5,242.3,2' },
+  { name: 'arduino', map: 'KRHuHfpmq5DzmpfFEgyvSyzQtk9t6oy7faNKbtiL' },
+  { name: 'raspberry pi', map: 'TWYxfqzhfcp2sZJUGpHnZqz4fY8YFAjiuv6JBhDQ' },
+  { name: 'convolutional neural networks', map: '88ngrfYXYvJvtjsrUk6yEB1wwkKHexABji2z6sjn' },
+  { name: 'bootstrap library', map: 'gkqG8tMFYa6K3qpgvqpgnz85TsJ3UpwCuiQpQPjK' },
+  { name: 'spanish language', map: 'xb6QwzqtZ2sZ2ryvTeXhA8PnUdzFTWZocEoCxeZp' },
+  { name: 'french language', map: '44Pdg9ZnUsddwk5iWYwH2q2a5xHspBesoDQ2HY31' },
+  { name: 'dancing', map: 'Tdvsb72Fqon42xkZGHsQx1xfKk6F6eGsgPAjCFpq' },
 ];
