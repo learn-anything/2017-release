@@ -266,4 +266,7 @@ export default [
   { name: 'french language', map: '44Pdg9ZnUsddwk5iWYwH2q2a5xHspBesoDQ2HY31' },
   { name: 'dancing', map: 'Tdvsb72Fqon42xkZGHsQx1xfKk6F6eGsgPAjCFpq' },
   { name: 'software testing', map: 'ELcJKvcycS3o6xNu8a6pgF88wCyq5wUkZRWvsfnu' },
+  { name: 'everything', map: 'KdeMPbxs8KPixsa5YUq5cphqJnQg81vpHaXcDX2i#-48.5,-680.3,-1' },
+  { name: 'assembly programming', map: 'hKbd75qAYjBQtWMN4pzVcVnujGPppqWUKvFyYA2B' },
+  { name: 'WebAssembly', map: 'hGPfuwm3pbzHXVVmB3kGRJKcPGPgeZAVFQGztxHW' },
 ];
