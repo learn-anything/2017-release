@@ -18,7 +18,9 @@
     "start": "npm run build && http-server client/ -p 3000"
   },
   "dependencies": {
+    "express": "^4.15.3",
     "http-server": "^0.9.0",
+    "path": "^0.12.7",
     "react": "^15.5.4",
     "react-autosuggest": "^9.0.1",
     "react-dom": "^15.5.4",
