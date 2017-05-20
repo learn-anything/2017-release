@@ -273,4 +273,10 @@ export default [
   { name: 'information retrieval', map: '3WHuPMbUhikHhUQyKxZZ1yapNe4yp9jQcz4u55my' },
   { name: '.NET framework', map: 'p6P2zXxZjuHy2pwzzy6yi14hPD8Nd4BQj6vraSAi' },
   { name: 'nginx server', map: 'vgUdobqCgPAzpNFwxi779aqRiqcHTXcgmrskyQqd' },
+  { name: 'ruby on rails', map: 'Cyv3UUXjxZst5FjBnpkSdqn7XtqWmiZsJL3Hqqec#5.0,85.9,2' },
+  { name: 'ansible automation', map: 'qxB5SQXpxFML8WSYfgpgs9c1zvyyu1JXGbGzSZGf' },
+  { name: 'babel library', map: '8MxSwVTHS8KP3pptyt26TxDj2urxLsTxoaquJGiE' },
+  { name: 'games', map: 'xoSN9tB2yvSa2q9kboV32BC789FasA1HNxMfy536' },
+  { name: 'chess', map: 'PbBNcxWhy1BNfFyCcDGutjyYwBBquHpTsDPDasTq' },
+  { name: 'go game', map: 'AAT9ANXEqcbXVcypJUmtpuAEVFSxpWPsDgpRDqts' },
 ];
