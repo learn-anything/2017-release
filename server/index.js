@@ -11,14 +11,14 @@ app.use((req, res, next) => {
 
 app.get('/', function (req, res) {
     res.sendfile('index.html', { root: 'client'});
-})
+});
 
 app.get('/static/bundle.js', function (req, res) {
     res.sendfile('dist/bundle.js', { root: 'client'});
-})
+});
 
 app.listen(3000, function () {
 
-})
+});
 
 
