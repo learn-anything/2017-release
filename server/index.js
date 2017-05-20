@@ -18,7 +18,7 @@ app.get('/static/bundle.js', function (req, res) {
 });
 
 app.get('/static/analytics.js', function (req, res) {
-    res.sendfile('analytics/analytics.js', { root: 'client'});
+    res.sendfile('static/analytics.js', { root: 'client'});
 });
 
 app.listen(3000, function () {
