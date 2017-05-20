@@ -269,4 +269,5 @@ export default [
   { name: 'everything', map: 'KdeMPbxs8KPixsa5YUq5cphqJnQg81vpHaXcDX2i#-48.5,-680.3,-1' },
   { name: 'assembly programming', map: 'hKbd75qAYjBQtWMN4pzVcVnujGPppqWUKvFyYA2B' },
   { name: 'WebAssembly', map: 'hGPfuwm3pbzHXVVmB3kGRJKcPGPgeZAVFQGztxHW' },
+  { name: 'open source development', map: 'i2KJsa46DzxEMaziscL7xMzJMxqAtnNFNAXaJ6d1' },
 ];
