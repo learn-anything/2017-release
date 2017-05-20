@@ -14,11 +14,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/static/bundle.js', function (req, res) {
-    res.sendfile('static/bundle.js', { root: 'client'});
+    res.sendfile('dist/bundle.js', { root: 'client'});
 });
 
 app.get('/static/analytics.js', function (req, res) {
-    res.sendfile('static/analytics.js', { root: 'client'});
+    res.sendfile('utils/analytics.js', { root: 'client'});
 });
 
 app.listen(3000, function () {
