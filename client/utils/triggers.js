@@ -296,5 +296,4 @@ export default [
   { name: 'productivity software', map: 'M6LrzfnwSvKBWGhNgJhzwnc7mkKPTq17VqPBAqb2' },
   { name: 'karabiner macOS app', map: 'hqzoDQSdDSLHK8yssrbbiC6SdhapeRg9SGNeznPk' },
   { name: 'hammerspoon macOS automation', map: 'gTuyPVTtpQyUuH7HZhd1jeBpio2q7p2zFxLN2Zzy' },
-  { name: '', map: '' },
 ];
