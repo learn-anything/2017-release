@@ -279,4 +279,5 @@ export default [
   { name: 'games', map: 'xoSN9tB2yvSa2q9kboV32BC789FasA1HNxMfy536' },
   { name: 'chess', map: 'PbBNcxWhy1BNfFyCcDGutjyYwBBquHpTsDPDasTq' },
   { name: 'go game', map: 'AAT9ANXEqcbXVcypJUmtpuAEVFSxpWPsDgpRDqts' },
+  { name: 'test driven development', map: 'pehL4xybBLbCbwWMjtREazVNSXVhSfxKYAe9EYAd' },
 ];
