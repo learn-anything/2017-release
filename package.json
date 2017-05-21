@@ -14,7 +14,7 @@
   "scripts": {
     "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' client/utils/triggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
-    "build": "webpack",
+    "build": "webpack -p",
     "start": "npm run build && node server/index.js -p 3000"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "react-autosuggest": "^9.0.1",
     "react-dom": "^15.5.4",
     "react-mindmap": "^1.0.2",
+    "react-router-dom": "^4.1.1",
     "replace-x": "^1.1.1"
   },
   "devDependencies": {

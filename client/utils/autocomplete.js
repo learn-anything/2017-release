@@ -1,4 +1,4 @@
-import triggers from './triggers';
+import triggers from './title-triggers';
 
 // Score how close a pattern is to a given string.
 export const fuzzyScore = (pattern, str) => {

@@ -35,12 +35,6 @@
     margin-bottom: 20px
     text-align: center
 
-.searchbar-container--exploring
-  position: initial
-
-  &::before
-    display: none
-
 .react-autosuggest__suggestions-container
   margin: -5px auto
   max-height: 210px
@@ -61,6 +55,18 @@
 
 ::-webkit-scrollbar // sass-lint:disable-line no-vendor-prefixes
   display: none
+
+.searchbar-container--exploring
+  position: initial
+
+  &::before
+    display: none
+
+  .react-autosuggest__suggestions-container
+    left: 50%
+    position: absolute
+    transform: translateX(-50%)
+    width: 100%
 
 .react-autosuggest__suggestion
   @extend %field

@@ -1,6 +1,6 @@
 import { Component, PropTypes } from 'react';
+import { Redirect } from 'react-router-dom';
 import Autosuggest from 'react-autosuggest';
-import MindMap from 'react-mindmap';
 
 import { getSuggestions, randomTrigger } from '../utils/autocomplete';
 import '../sass/_SearchBar.sass';
@@ -9,19 +9,21 @@ export default class SearchBar extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { query: '', suggestions: [], url: null };
+    this.state = { query: '', suggestions: [], url: null, prevUrl: null };
     this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
     this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
     this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+
+    this.props.url.on('data', ({ value }) => {
+      this.setState({ url: value, prevUrl: this.state.url });
+    });
   }
 
   onSuggestionSelected(_, { suggestion }) {
     const loadSuggestion = () => {
-      let url = `/maps/${suggestion.map}`;
-      url = url.replace(/(#.*)$/, '');
-
-      this.setState({ url, query: suggestion.name });
+      const url = `/${suggestion.map.replace(/_-_/g, '/')}`;
+      this.setState({ url, prevUrl: this.state.url, query: suggestion.name });
     };
 
     setTimeout(loadSuggestion, 500);
@@ -72,7 +74,7 @@ export default class SearchBar extends Component {
     };
 
     let containerClassName = 'searchbar-container ';
-    if (this.state.url && this.state.url.length !== 0) {
+    if (this.props.exploring) {
       containerClassName += 'searchbar-container--exploring';
     }
 
@@ -89,8 +91,8 @@ export default class SearchBar extends Component {
             onSuggestionsClearRequested={this.onSuggestionsClearRequested}
             onSuggestionSelected={this.onSuggestionSelected}
           />
+          {this.state.url !== this.state.prevUrl ? <Redirect push to={this.state.url} /> : ''}
         </form>
-        <MindMap url={this.state.url} />
       </div>
     );
   }
@@ -98,4 +100,6 @@ export default class SearchBar extends Component {
 
 SearchBar.propTypes = {
   message: PropTypes.object.isRequired,
+  url: PropTypes.object.isRequired,
+  exploring: PropTypes.boolean,
 };

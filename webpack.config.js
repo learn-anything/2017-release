@@ -51,6 +51,12 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom',
     },
+    'react-router-dom': {
+      root: 'ReactRouterDOM',
+      commonjs2: 'react-router-dom',
+      commonjs: 'react-router-dom',
+      amd: 'react-router-dom',
+    },
     'react-autosuggest': {
       root: 'Autosuggest',
       commonjs2: 'react-autosuggest',
