@@ -6,7 +6,6 @@ import Observable from './utils/Observable';
 import './sass/main.sass';
 
 const message = new Observable('');
-window.snack = str => message.set(str);
 
 window.onload = () => {
   render(

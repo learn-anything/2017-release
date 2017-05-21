@@ -1,5 +1,6 @@
 import { Component, PropTypes } from 'react';
 import Autosuggest from 'react-autosuggest';
+import MindMap from 'react-mindmap';
 
 import { getSuggestions, randomTrigger } from '../utils/autocomplete';
 import '../sass/_SearchBar.sass';
@@ -8,7 +9,7 @@ export default class SearchBar extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { query: '', suggestions: [] };
+    this.state = { query: '', suggestions: [], url: null };
     this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
     this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
     this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
@@ -17,8 +18,10 @@ export default class SearchBar extends Component {
 
   onSuggestionSelected(_, { suggestion }) {
     const loadSuggestion = () => {
-      this.setState({ query: suggestion.name });
-      location.href = `https://my.mindnode.com/${suggestion.map}`;
+      let url = `/maps/${suggestion.map}`;
+      url = url.replace(/(#.*)$/, '');
+
+      this.setState({ url, query: suggestion.name });
     };
 
     setTimeout(loadSuggestion, 500);
@@ -68,19 +71,27 @@ export default class SearchBar extends Component {
       placeholder: randomTrigger().name,
     };
 
+    let containerClassName = 'searchbar-container ';
+    if (this.state.url && this.state.url.length !== 0) {
+      containerClassName += 'searchbar-container--exploring';
+    }
+
     return (
-      <form className="searchbar-container" onSubmit={this.onSubmit}>
-        <Autosuggest
-          inputProps={inputProps}
-          renderSuggestion={renderSuggestion}
-          highlightFirstSuggestion={true}
-          suggestions={this.state.suggestions}
-          getSuggestionValue={suggestion => suggestion.name}
-          onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
-          onSuggestionsClearRequested={this.onSuggestionsClearRequested}
-          onSuggestionSelected={this.onSuggestionSelected}
-        />
-      </form>
+      <div>
+        <form className={containerClassName} onSubmit={this.onSubmit}>
+          <Autosuggest
+            inputProps={inputProps}
+            renderSuggestion={renderSuggestion}
+            highlightFirstSuggestion={true}
+            suggestions={this.state.suggestions}
+            getSuggestionValue={suggestion => suggestion.name}
+            onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+            onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+            onSuggestionSelected={this.onSuggestionSelected}
+          />
+        </form>
+        <MindMap url={this.state.url} />
+      </div>
     );
   }
 }

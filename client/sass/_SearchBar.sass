@@ -35,6 +35,12 @@
     margin-bottom: 20px
     text-align: center
 
+.searchbar-container--exploring
+  position: initial
+
+  &::before
+    display: none
+
 .react-autosuggest__suggestions-container
   margin: -5px auto
   max-height: 210px
@@ -88,3 +94,6 @@
 +respond-to($width-small)
   body
     font-size: 12px
+
+.searchbar-container
+  padding: 10px 5px

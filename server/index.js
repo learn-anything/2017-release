@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 
 const app = express();
 
@@ -9,20 +8,25 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', function (req, res) {
-    res.sendfile('index.html', { root: 'client'});
+// Maps.
+app.get('/maps/:id', (req, res) => {
+  res.sendFile(`${req.params.id}.json`, { root: 'maps'});
 });
 
-app.get('/static/bundle.js', function (req, res) {
-    res.sendfile('dist/bundle.js', { root: 'client'});
+// Static files.
+app.get('/static/bundle.js', (req, res) => {
+  res.sendFile('dist/bundle.js', { root: 'client'});
 });
-
 app.get('/static/analytics.js', function (req, res) {
-    res.sendfile('utils/analytics.js', { root: 'client'});
+  res.sendFile('utils/analytics.js', { root: 'client'});
 });
 
-app.listen(3000, function () {
-
+// HTML and favicon.
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile('favicon.png', { root: 'client'});
+});
+app.get('/', (req, res) => {
+  res.sendFile('index.html', { root: 'client'});
 });
 
-
+app.listen(3000);
