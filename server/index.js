@@ -1,28 +1,27 @@
 const express = require('express');
-const mapsLookup = require('./mapsLookup');
+const lookup = require('./lookup');
 
 const app = express();
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
-// Maps by mindnode ID
+// Maps by mindnode ID.
 app.get('/maps-lookup/:id', (req, res) => {
-  let title = mapsLookup[req.params.id];
-  title = title.replace(/learn anything - /, '').replace(/ \- /g, '/').replace(/ /g, '_');
+  const map = lookup.find(entry => entry.id === req.params.id);
 
+  if (!map) {
+    res.status(404).send('Can\'t find map.');
+    return;
+  }
+
+  const title = map.title.replace(/learn anything - /, '').replace(/ \- /g, '/').replace(/ /g, '_');
   res.send(JSON.stringify({ title }));
 });
 
-// Maps by map title
+// Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  let filename = `${req.params[0].replace(/\//g, '_-_')}.json`;
+  let filename = `${req.params[0]}.json`;
 
   if (filename !== 'learn_anything.json') {
-    filename = `learn_anything_-_${filename}`;
+    filename = `learn_anything/${filename}`;
   }
 
   res.sendFile(filename, { root: 'maps'});
