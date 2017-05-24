@@ -298,4 +298,5 @@ export default [
   { name: 'hammerspoon macOS automation', map: 'gTuyPVTtpQyUuH7HZhd1jeBpio2q7p2zFxLN2Zzy' },
   { name: 'markov chains', map: '1NpiefgrirDdunaD1stiWpyX3bcQbGMKP79hosmN' },
   { name: 'probabiliy theory', map: 'https://github.com/nikitavoloboev/learn-anything/issues/733' },
+  { name: 'LLVM compiler infrastructure', map: 'sQuPeeiDsBpGJDCz4mFg25iP2zBzo2GxhzjkCTBJ' },
 ];
