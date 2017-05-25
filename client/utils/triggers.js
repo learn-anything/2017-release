@@ -305,5 +305,13 @@ export default [
   { name: 'control systems', map: 'r17byHmpCEnHyTYCity7LXPGxD94d1aybnv1xzVW' },
   { name: 'spirituality', map: 'SmSpRm4TvWTpqxxXLPtyyqDhytKfLG9oxRrW8ujj' },
   { name: 'buddhism', map: 'd3Fxm8vfSbYWpbZtmwWjxxwPUfxEsPs45iPGydYp' },
+  { name: 'watchOS', map: 'JVr5HFsfah63syE1PsYsczMxc1ZhVQVZcQNxonDa' },
+  { name: 'tvOS', map: 'eqCzKZyfzu1zsoiGnVqehJbXDqRo3HYm6Ww1Ssdq' },
+  { name: 'virtual private networks', map: 'CzViS3qsYSPreTTjveyGSmfFJQ4Vy9GJMjJdXn5x' },
+  { name: 'hacking', map: '7dWQHvRBshf6cmgczxFGLTq9Lqg5DpiYqxs8UG3K' },
+  { name: 'information security', map: 'JnJxmfMwcigFArLsxvGTi1VwpK42vxbZzfBDSaEr' },
+  { name: 'ethics', map: 'mAqtpK7sLQd15ytMqPAL8qvfqbRKgAmsyxkyWtnc' },
+  { name: '', map: '' },
+  { name: '', map: '' },
   { name: '', map: '' },
 ];
