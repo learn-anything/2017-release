@@ -42,7 +42,7 @@ export default [
   { name: 'computer networking', map: 'NMjhSs88CAGYpxwsd4CP8mkzMRj5o42CMtDVJhtN#67.0,-21.6,2' },
   { name: 'computer science', map: 'QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#640.3,-486.9,0' },
   { name: 'computer vision', map: 'mCmNsBxeiGdRqYefxaq2HXYMKxf8sFWq92qYtMyU#109.8,-150.5,2' },
-  { name: 'consciousness', map: 'LWuYxsB4TRnH49YymTXqkJQuzpUV8MjembJ4mBMs#-147.7,-29.9,2' },
+  { name: 'consciousness', map: 'hSNyGspZ2ZBNebvrRvgmrg62Nk963kgwjAvNAFuq' },
   { name: 'cosmology', map: 'WL8T66hAmVGunSeX6LoZi9ohx2RRKk1riegeG3kr#-47.7,-155.2,2' },
   { name: 'creative coding', map: 'FPn7sjCxzFEd6mqaBEwCCexNnwoPyFGzu5ySkMRk' },
   { name: 'cryptocurrency', map: '7TUvLNzE4aUwzNqXurPdcyenQR5sYx9XsJjYcQcZ' },
@@ -303,5 +303,7 @@ export default [
   { name: 'computational complexity theory', map: 'HhbXPapV6af2Kb8dB5xDLJoLahCpKsuCWzucVrk7' },
   { name: 'concurrency', map: 'mb8GSLMzQTjoqN1AnmMbE8Uv91pyKfbA7NdAvvyk' },
   { name: 'control systems', map: 'r17byHmpCEnHyTYCity7LXPGxD94d1aybnv1xzVW' },
+  { name: 'spirituality', map: 'SmSpRm4TvWTpqxxXLPtyyqDhytKfLG9oxRrW8ujj' },
+  { name: 'buddhism', map: 'd3Fxm8vfSbYWpbZtmwWjxxwPUfxEsPs45iPGydYp' },
   { name: '', map: '' },
 ];
