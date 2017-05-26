@@ -39,29 +39,12 @@ module.exports = {
   },
 
   externals: {
-    react: {
-      root: 'React',
-      commonjs2: 'react',
-      commonjs: 'react',
-      amd: 'react',
-    },
-    'react-dom': {
-      root: 'ReactDOM',
-      commonjs2: 'react-dom',
-      commonjs: 'react-dom',
-      amd: 'react-dom',
-    },
-    'react-router-dom': {
-      root: 'ReactRouterDOM',
-      commonjs2: 'react-router-dom',
-      commonjs: 'react-router-dom',
-      amd: 'react-router-dom',
-    },
-    'react-autosuggest': {
-      root: 'Autosuggest',
-      commonjs2: 'react-autosuggest',
-      commonjs: 'react-autosuggest',
-      amd: 'react-autosuggest',
-    },
+    react: 'React',
+    'react-dom': 'ReactDOM',
+    'react-router-dom': 'ReactRouterDOM',
+    'react-autosuggest': 'Autosuggest',
+    redux: 'Redux',
+    'react-redux': 'ReactRedux',
+    'redux-thunk': 'ReduxThunk',
   },
 };
