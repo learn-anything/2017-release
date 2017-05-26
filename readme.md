@@ -21,9 +21,7 @@ If you want to help, there is an [active slack group](https://knowledge-map.slac
 
 # Description
 
-This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provides an interactive mind map of best of the best peer reviewed resources one can use to learn any of the topics.
-
-Its purpose is to let users query [the big mind map of knowledge](https://github.com/nikitavoloboev/learn-anything) and receive visual mind maps that one can explore with links, videos, articles, gifs that help learn the subject at hand in the most efficient way.
+This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provides an interactive mind map of best of the best peer reviewed resources one can use to learn any of the topics in a guided way.
 
 All mind maps will soon be open source so that anyone can edit and contribute to the open index of this search. 
 
