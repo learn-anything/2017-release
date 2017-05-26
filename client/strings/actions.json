@@ -1,0 +1,27 @@
+{
+  "map": {
+    "fetch": {
+      "def": "FETCH_MAP",
+      "pending": "FETCH_MAP_PENDING",
+      "fulfilled": "FETCH_MAP_FULFILLED",
+      "rejected": "FETCH_MAP_REJECTED"
+    }
+  },
+
+  "message": {
+    "show": "SHOW_MESSAGE",
+    "hide": "HIDE_MESSAGE"
+  },
+
+  "search": {
+    "suggestions": {
+      "fetch": "FETCH_SUGGESTIONS",
+      "clear": "CLEAR_SUGGESTIONS"
+    },
+
+    "query": {
+      "update": "UPDATE_QUERY",
+      "clear": "CLEAR_QUERY"
+    }
+  }
+}

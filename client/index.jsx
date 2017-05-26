@@ -1,49 +1,49 @@
 import { render } from 'react-dom';
+import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import MindMap from 'react-mindmap';
+import axios from 'axios';
 
-import SearchBar from './components/SearchBar.jsx';
+import SearchBar from './containers/SearchBar.jsx';
+import MindMapWrapper from './components/MindMapWrapper.jsx';
 import SnackBar from './components/SnackBar.jsx';
-import Observable from './utils/Observable';
-import getJSON from './utils/getJSON';
+import fetchMap from './actions/fetchMap';
+import store from './store/store';
 import './sass/main.sass';
 
-const message = new Observable('');
-const url = new Observable(null);
+const App = ({ location }) => {
+  if (location.pathname !== '/') {
+    store.dispatch(fetchMap(location.pathname));
+  }
 
-const Root = () => (
-  <div>
-    <SearchBar message={message} url={url} />
-    <SnackBar message={message} />
-  </div>
-);
-
-const Explore = ({ match }) => (
-  <div>
-    <SearchBar exploring message={message} url={url} />
-    <MindMap url={`maps/${match.params.path}`} />
-    <SnackBar message={message} />
-  </div>
-);
+  return (
+    <div>
+      <SearchBar />
+      <MindMapWrapper />
+      <SnackBar />
+    </div>
+  );
+};
 
 window.onload = () => {
   render(
-    <Router>
-      <div>
-        <Route exact path="/" component={Root} />
-        <Route path="/:path" render={Explore} />
-      </div>
-    </Router>,
+    <Provider store={store}>
+      <Router>
+        <Route path="/" component={App} />
+      </Router>
+    </Provider>,
     document.getElementById('react-app'),
   );
 
   document.body.onclick = (e) => {
-    if ((e.target.tagName === 'A' || e.target.tagName === 'IMG')
-        && e.target.href.indexOf('https://my.mindnode.com/') !== -1) {
+    const isLinkOrImage = e.target.tagName === 'A' || e.target.tagName === 'IMG';
+    const href = e.target.href;
+
+    if (isLinkOrImage && href.indexOf('https://my.mindnode.com/') !== -1) {
       e.preventDefault();
 
-      const id = e.target.href.replace(/^.*mindnode.com\/(.{40}).*/, '$1');
-      getJSON(`/maps-lookup/${id}`, ({ title }) => url.set(`/${title}`));
+      const id = href.replace(/^.*mindnode.com\/(.{40}).*/, '$1');
+      axios.get(`/maps-lookup/${id}`)
+        .then(res => store.dispatch(fetchMap(res.data.title)));
     }
   };
 };

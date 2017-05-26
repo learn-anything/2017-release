@@ -18,28 +18,38 @@
     "start": "npm run build && node server/index.js -p 3000"
   },
   "dependencies": {
+    "axios": "^0.16.1",
+    "babel-eslint": "^7.2.3",
     "express": "^4.15.3",
     "react": "^15.5.4",
     "react-autosuggest": "^9.0.1",
     "react-dom": "^15.5.4",
     "react-mindmap": "^1.0.2",
+    "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
-    "replace-x": "^1.1.1"
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^6.10.3",
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.5",
+    "replace-x": "^1.1.1",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
@@ -54,6 +64,10 @@
     "presets": [
       "es2015",
       "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-decorators-legacy"
     ]
   }
 }

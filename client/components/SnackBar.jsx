@@ -1,35 +1,33 @@
 import { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
 
 import '../sass/_SnackBar.sass';
 
-
+// Retrieve the message from the store, and set it as prop.
+@connect(store => ({
+  visible: store.message.visible,
+  text: store.message.text,
+}))
 export default class SnackBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { message: '' };
-
-    this.props.message.on('data', ({ value }) => {
-      if (value) {
-        setTimeout(() => this.props.message.set(''), 2500);
-      }
-
-      this.setState({ message: value });
-    });
-  }
-
   render() {
-    const className = `snackbar-container ${this.state.message !== '' ? 'visible' : ''}`;
+    let className = 'snackbar-container';
+
+    // If there's a message to show make the snackbar visible.
+    if (this.props.visible) {
+      className = `${className} snackbar-container--visible`;
+    }
 
     return (
       <div className={className}>
-        <div className="snackbar" ref={(snackBar) => { this.snackBar = snackBar; }}>
-          {this.state.message}
+        <div className="snackbar">
+          {this.props.text}
         </div>
       </div>
     );
   }
 }
 
-SnackBar.propTypes = {
-  message: PropTypes.object.isRequired,
+SnackBar.proptypes = {
+  visible: PropTypes.bool,
+  text: PropTypes.string,
 };

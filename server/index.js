@@ -12,7 +12,7 @@ app.get('/maps-lookup/:id', (req, res) => {
     return;
   }
 
-  const title = map.title.replace(/learn anything - /, '').replace(/ \- /g, '/').replace(/ /g, '_');
+  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '_');
   res.send(JSON.stringify({ title }));
 });
 
@@ -24,23 +24,23 @@ app.get(/maps\/(.*)/, (req, res) => {
     filename = `learn_anything/${filename}`;
   }
 
-  res.sendFile(filename, { root: 'maps'});
+  res.sendFile(filename, { root: 'maps' });
 });
 
 // Static files.
 app.get('/static/bundle.js', (req, res) => {
-  res.sendFile('dist/bundle.js', { root: 'client'});
+  res.sendFile('dist/bundle.js', { root: 'client' });
 });
-app.get('/static/analytics.js', function (req, res) {
-  res.sendFile('utils/analytics.js', { root: 'client'});
+app.get('/static/analytics.js', (req, res) => {
+  res.sendFile('utils/analytics.js', { root: 'client' });
 });
 
 // HTML and favicon.
 app.get('/favicon.ico', (req, res) => {
-  res.sendFile('favicon.png', { root: 'client'});
+  res.sendFile('favicon.png', { root: 'client' });
 });
 app.get('*', (req, res) => {
-  res.sendFile('index.html', { root: 'client'});
+  res.sendFile('index.html', { root: 'client' });
 });
 
 app.listen(3000);
