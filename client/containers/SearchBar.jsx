@@ -2,7 +2,7 @@ import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Autosuggest from 'react-autosuggest';
 
-import { fetchSuggestions, clearSuggestions, updateQuery } from '../actions/Search';
+import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from '../actions/Search';
 import { randomTrigger, getSuggestions } from '../utils/autocomplete';
 import fetchMap from '../actions/fetchMap';
 import showMessage from '../actions/showMessage';
@@ -28,6 +28,7 @@ export default class SearchBar extends Component {
 
     const url = `/${suggestion.map.replace(/_-_/g, '/')}`;
     this.props.dispatch(fetchMap(url));
+    this.props.dispatch(clearQuery());
   }
 
   onSubmit(event) {
