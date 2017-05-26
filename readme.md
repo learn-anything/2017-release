@@ -21,7 +21,7 @@ If you want to help, there is an [active slack group](https://knowledge-map.slac
 
 # Description
 
-This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provide a mind map of best of the best peer reviewed resources one can use to learn any of the topics.
+This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provides an interactive mind map of best of the best peer reviewed resources one can use to learn any of the topics.
 
 Its purpose is to let users query [the big mind map of knowledge](https://github.com/nikitavoloboev/learn-anything) and receive visual mind maps that one can explore with links, videos, articles, gifs that help learn the subject at hand in the most efficient way.
 
@@ -34,18 +34,43 @@ This is the first of its kind visual search engine that searches curated user mi
 
 We plan to move the content of all mind maps to a graph database to allow for more meaningful queries. 
 
-First however we need to solve the contributing problem. Currently curation is done though [GitHub issues](https://github.com/nikitavoloboev/learn-anything/issues) and it is working quite well. However we want users to be able to create mind maps of their own creation or extend visually the mind maps that we have.
+First however, we need to solve the contributing problem. Currently curation is done though [GitHub issues](https://github.com/nikitavoloboev/learn-anything/issues) and it is working quite well. However we want users to be able to create mind maps of their own creation or extend visually the mind maps that we already have.
 
-For that we are attempting to create a way where a person can edit the source code of any of the mind maps by writing out the structure and content of it. Then an algorithm will take this code and create a visual representation mind map of it which can then be integrated with all the different mind maps in the database.
+For that, we are attempting to create a way where a person can edit the source code of any of the mind maps by writing out the structure and content of it. Then an algorithm will take this code and create a visual representation mind map of it which can then be integrated with all the different mind maps in the database.
 
-The end goal is to make this process even simpler by adding 'live edit' functionality to each of the mind map results in the [search engine](https://learn-anything.xyz). User can write in the search engine, press an edit button, move nodes around, add or remove links and then press 'submit button' and a pull request on GitHub will be generated with the changes which can then be reviewed by trusted members of the project.
+The end goal is to make this process even simpler by adding 'live edit' functionality to each of the mind map results in the [search engine](https://learn-anything.xyz). User can right in the search engine, press an edit button, move nodes around, add or remove links and then press 'submit button' and a pull request on GitHub will be generated with the changes which can then be reviewed by trusted members of the project.
 
-This however requires quite a lot of infrastructure to be written out and for it to work really well will most likely need quite a lot of time.
+This however requires quite a lot of infrastructure to be written out and for it to work really well will most likely require quite a lot of time and effort.
 
 Fortunalely, both these mind maps and the search engine is fully open source so anyone who is interested in this idea and loves using this search engine, can come in and help.
 
-# Help 🎊
+# Join our team 🚀
 
-All communication is done on [Slack](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ). 
+All communication is done via [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ). 
 
-So please join and we can discuss ideas together and work to make this vision of visualising and structuring all of world's knowledge a realdy. 
+So please join and we can discuss ideas together and work to make this vision of visualising and structuring all of world's knowledge a reality. 
+
+<h2 align="center">Current Team</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <img width="150" height="150" src="https://avatars1.githubusercontent.com/u/13448636?v=3&s=400">
+        <br>
+        <a href="https://github.com/nglgzz"> Angelo Gazzola </a>
+        <p>Lead Web Developer</p>
+        <br>
+        <p>Created a complete and working version of Search Engine + our own mind map render system as <a href="https://github.com/learn-anything/react-mindmap"> React Component </a></p>
+      </td>
+      <td align="center" valign="top">
+        <img width="150" height="150" src="https://pbs.twimg.com/profile_images/712426493868056576/hRaMUdgf.jpg">
+        <br>
+        <a href="https://github.com/nikitavoloboev">Nikita Voloboev</a>
+        <p>Oversees curation of mind maps</p>
+        <br>
+        <p>Curated the entire index of all the mind maps up until this point + helps with making search the best it can be</p>
+      </td> 
+     </tr>
+  </tbody>
+</table>
