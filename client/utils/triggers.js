@@ -318,7 +318,7 @@ export default [
   { name: 'vector graphics', map: 'https://my.mindnode.com/o9uU98MTo7erfjPjsz7iuktX8CHBW77aZZ297CpG' },
   { name: 'character encoding', map: 'https://my.mindnode.com/P1er9W1opUoRpZx5dhz9XtSr9Ff8Cx6ksgZLs6h8' },
   { name: 'game consoles', map: 'https://my.mindnode.com/NN7AnVMbqvozzjkJaZVUsSUz867pNyt6hAKsxa2w' },
-  { name: 'sonic pi live coding music', map: 'https://my.mindnode.com/fah1U7bBiNFbxtVCwPT9MpCT4mbovqxvqTkUqpn5' },
+  { name: 'sonic pi', map: 'https://my.mindnode.com/fah1U7bBiNFbxtVCwPT9MpCT4mbovqxvqTkUqpn5' },
   { name: '', map: '' },
   { name: '', map: '' },
   { name: '', map: '' },
