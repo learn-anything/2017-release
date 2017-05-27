@@ -44,9 +44,7 @@ Fortunalely, both these mind maps and the search engine is fully open source so 
 
 # Join our team 🚀
 
-All communication is done via [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ). 
-
-So please join and we can discuss ideas together and work to make this vision of visualising and structuring all of world's knowledge a reality. 
+Join [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) and we can discuss ideas together and work on making this vision of visualising and structuring all of world's knowledge a reality.  
 
 <h2 align="center">Current Team</h2>
 
