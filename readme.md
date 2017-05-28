@@ -1,9 +1,15 @@
-# [Search engine for mind maps on the web 🚀](https://learn-anything.xyz)
+<div align="center">
+<h1><a href="https://learn-anything.xyz">Search engine for mind maps on the web 🚀</a></h1>
+<a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
+		<img src="https://img.shields.io/badge/Slack-channel-green.svg">
+	</a>
+	<a href="https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE">
+		<img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+	</a>
 
-[![Slack](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE)
-
-<img width="600" alt="img" src="https://raw.githubusercontent.com/stylekit/img/master/i_want_to_learn.mp4.gif">
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/stylekit/img/master/i_want_to_learn.mp4.gif" alt="img" width="600">
+</p>
 
 
 # Build it 🚀
