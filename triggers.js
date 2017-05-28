@@ -370,4 +370,10 @@ module.exports = [
   { name: 'DNA', map: 'jCBnzdtWzgAzTymbiFrE2kz2dZprYfyqcXVvdRKj' },
   { name: 'human development', map: 'ow1zPpszMHbs4RhmxaL49AjXiVVj5FznyKaLW7hy' },
   { name: 'biochemistry', map: 'oopTVtsCaNFEzaPkiyvhiZqykjcq5LCMAPBpMA1Y' },
+  { name: 'bitcoin', map: 'u5DHRfRkjPMTTq3vkXRsyVxzZneUp8PJCYsT1RNv' },
+  { name: 'serverless computing', map: 'sE1K3zi3i3WRAXTZm7xXMmFCmYCGm3vNo2N8zakW' },
+  { name: 'google cloud', map: 'https://my.mindnode.comV/8zzuxmxqNy2FKquKzXi6mP5itqQXBq137BBsNA3P' },
+  { name: 'microsoft azure', map: 'bskpRmBhBQvN6KDV83xxMPyZspkMpwtpvUykMxpZ' },
+  { name: 'sports', map: 'tAtPtzcsKv7EqcYsdu9yg1dZxqENBen99QNznd4z' },
+  { name: 'reasonML', map: '6ptBAZDfr2nkjfSKFDrzhXA4sSaFE45dsFogq4ug' },
 ];
