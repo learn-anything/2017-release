@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const compression = require('compression');
 const express = require('express');
 const lookup = require('./lookup');

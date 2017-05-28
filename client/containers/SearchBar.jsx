@@ -26,9 +26,10 @@ export default class SearchBar extends Component {
       eventLabel: suggestion.name,
     });
 
-    const url = `${suggestion.map.replace(/_-_/g, '/')}`;
+    const url = suggestion.map.replace(/_-_/g, '/');
     this.props.dispatch(fetchMap(url));
     this.props.dispatch(clearQuery());
+    ga('send', 'pageview', `/${url}`);
   }
 
   onSubmit(event) {
