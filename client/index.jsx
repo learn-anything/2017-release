@@ -37,13 +37,11 @@ window.onload = () => {
   document.body.onclick = (e) => {
     const isLinkOrImage = e.target.tagName === 'A' || e.target.tagName === 'IMG';
     const href = e.target.href;
-    console.log(href);
 
     if (isLinkOrImage && href.match(/.*\/id\/\S{40}/)) {
       e.preventDefault();
 
       const id = href.replace(/^.*\/id\/(.{40}).*/, '$1');
-      console.log(id);
       axios.get(`/maps-lookup/${id}`)
         .then(res => store.dispatch(fetchMap(res.data.title)));
     }
