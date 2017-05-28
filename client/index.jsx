@@ -35,15 +35,37 @@ window.onload = () => {
   );
 
   document.body.onclick = (e) => {
-    const isLinkOrImage = e.target.tagName === 'A' || e.target.tagName === 'IMG';
-    const href = e.target.href;
+    let t = e.target;
 
-    if (isLinkOrImage && href.match(/.*\/id\/\S{40}/)) {
+    if (t.tagName === 'IMG' && t.parentElement.tagName === 'A') {
+      t = t.parentElement;
+    }
+
+    if (t.tagName === 'A' && t.href.match(/.*\/id\/\S{40}/)) {
       e.preventDefault();
 
-      const id = href.replace(/^.*\/id\/(.{40}).*/, '$1');
+      const id = t.href.replace(/^.*\/id\/(.{40}).*/, '$1');
       axios.get(`/maps-lookup/${id}`)
-        .then(res => store.dispatch(fetchMap(res.data.title)));
+        .then((res) => {
+          ga('send', 'event', {
+            eventCategory: 'Navigation',
+            eventAction: 'internal link clicked',
+            eventLabel: res.data.title,
+          });
+
+          store.dispatch(fetchMap(res.data.title));
+          ga('send', 'pageview', `/${res.data.title}`);
+        });
+    } else if (t.tagName === 'A') {
+      e.preventDefault();
+
+      ga('send', 'event', {
+        eventCategory: 'Navigation',
+        eventAction: 'external link clicked',
+        eventLabel: t.href,
+        hitCallback: () => { location.href = t.href; },
+        hitCallbackFail: () => { location.href = t.href; },
+      });
     }
   };
 };
