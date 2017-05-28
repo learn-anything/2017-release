@@ -369,4 +369,5 @@ module.exports = [
   { name: 'fuchsia OS', map: 'DVVBs4v9UTRzs3Mtqxm7XPxrZZsVAHp9dRnTde6ss' },
   { name: 'DNA', map: 'jCBnzdtWzgAzTymbiFrE2kz2dZprYfyqcXVvdRKj' },
   { name: 'human development', map: 'ow1zPpszMHbs4RhmxaL49AjXiVVj5FznyKaLW7hy' },
+  { name: 'biochemistry', map: 'oopTVtsCaNFEzaPkiyvhiZqykjcq5LCMAPBpMA1Y' },
 ];
