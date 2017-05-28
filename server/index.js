@@ -1,7 +1,24 @@
+const compression = require('compression');
 const express = require('express');
 const lookup = require('./lookup');
 
 const app = express();
+
+// Compress static files.
+app.use(compression({ threshold: 0 }));
+
+// Render maps by mindnode ID.
+app.get('/id/:id', (req, res) => {
+  const map = lookup.find(entry => entry.id === req.params.id);
+
+  if (!map) {
+    res.status(404).send('Can\'t find map.');
+    return;
+  }
+
+  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '_');
+  res.redirect(`/${title}`);
+});
 
 // Maps by mindnode ID.
 app.get('/maps-lookup/:id', (req, res) => {

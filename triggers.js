@@ -1,4 +1,4 @@
-export default [
+module.exports = [
   { name: '3d printing', map: '1qepKVwZ5z6HqpoBUr2ipQPbivrJjir3y3UPAGvP#204.9,-213.6,3' },
   { name: 'a-frame virtual reality framework', map: 'CWsQJ418QKxqEztQEYyozPWHiqxEK9JnZBgdSbpz#90.3,-197.3,3' },
   { name: 'abiogenesis', map: 'SLXSGkt642jAz54xrVGEFLVtZmrrB7gzGPohtngF#177.7,-165.3,4' },

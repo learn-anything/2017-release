@@ -8,13 +8,15 @@
 
 # Build it 🚀
 
-To run it locally, clone the project and run 
+To run it locally, clone the project and run
 
 ```
 npm install
 
 npm start
 ```
+
+And then connect to http://localhost:3000
 
 If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
 
@@ -23,14 +25,14 @@ If you want to help, there is an [active slack group](https://knowledge-map.slac
 
 This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provides an interactive mind map of best of the best peer reviewed resources one can use to learn any of the topics in a guided way.
 
-All mind maps will soon be open source so that anyone can edit and contribute to the open index of this search. 
+All mind maps will soon be open source so that anyone can edit and contribute to the open index of this search.
 
 This is the first of its kind visual search engine that searches curated user mind maps on the web. It does not crawl the web for content, instead it searches through 'human curated' database of interlinked mind maps focused on learning in a guided and linear way.
 
 
 # Future 🔭
 
-We plan to move the content of all mind maps to a graph database to allow for more meaningful queries. 
+We plan to move the content of all mind maps to a graph database to allow for more meaningful queries.
 
 First however, we need to solve the contributing problem. Currently curation is done though [GitHub issues](https://github.com/nikitavoloboev/learn-anything/issues) and it is working quite well. However we want users to be able to create mind maps of their own creation or extend visually the mind maps that we already have.
 
@@ -44,7 +46,7 @@ Fortunalely, both these mind maps and the search engine is fully open source so 
 
 # Join our team 🚀
 
-Join [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) and we can discuss ideas together and work on making this vision of visualising and structuring all of world's knowledge a reality.  
+Join [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) and we can discuss ideas together and work on making this vision of visualising and structuring all of world's knowledge a reality.
 
 <h2 align="center">Current Team</h2>
 
@@ -66,7 +68,7 @@ Join [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzM
         <p>Oversees curation of mind maps</p>
         <br>
         <p>Curated the entire index of all the mind maps up until this point + helps with making search the best it can be</p>
-      </td> 
+      </td>
      </tr>
   </tbody>
 </table>

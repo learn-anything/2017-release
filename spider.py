@@ -52,6 +52,6 @@ class MindNodeSpider(scrapy.Spider):
             makedirs(path.dirname(filename))
 
         with open(filename, 'w') as map_file:
-            map_file.write(response.body)
+            map_file.write(response.body.replace('https://my.mindnode.com', '/id'))
 
         yield {'id': data['token'], 'title': data['title']}
