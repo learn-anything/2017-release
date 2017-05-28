@@ -365,4 +365,6 @@ module.exports = [
   { name: 'typefaces', map: 'ftrsbpaLcU4HiSq91BTXuBnsUFmrh7iqavp6UsVe' },
   { name: 'colour theory', map: 'axdxvXcKwqeCRZuza6ydGkEEHX4JL6gqN8epaMky' },
   { name: 'material design', map: 'VwEkVbyq9uscxwXeCvx9t6T4VK3vXsR9ppESgRiH' },
+  { name: 'arch linux', map: 'kqZieHKS6X3WNH6s9Ncm6k2GcSCAqmK3fnV6RALB' },
+  { name: 'fuchsia OS', map: 'DVVBs4v9UTRzs3Mtqxm7XPxrZZsVAHp9dRnTde6ss' },
 ];
