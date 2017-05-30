@@ -54,7 +54,7 @@ app.get('/static/analytics.js', (req, res) => {
 });
 
 // HTML and favicon.
-app.get('/favicon.ico', (req, res) => {
+app.get('/favicon.png', (req, res) => {
   res.sendFile('favicon.png', { root: 'client' });
 });
 app.get('*', (req, res) => {
