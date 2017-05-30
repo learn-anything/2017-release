@@ -415,6 +415,9 @@ module.exports = [
   { name: 'economic systems', map: 'RjPSsBxogK3XdZ5qmUwdTzMK5yYcchki1DRLVxPs' },
   { name: 'capitalism', map: 'zqsN7z7HxaroGxyN9Lyz42xhDyqNnGHEUMT6LYbN' },
   { name: 'trasport layer security protocol', map: 'p9uXx8nMg2eXj8ehzPbi3ypKZenpxW5b42rXfdz6' },
-  { name: '', map: '' },
-  { name: '', map: '' },
+  { name: 'RxJS library', map: 'https://my.mindnode.com/rdUzwvGv7Gpa2z1ZhPrzDsmpR6D1nCL6VN6zFssB' },
+  { name: 'ember.js library', map: 'https://my.mindnode.com/5ZiWTQfkYuPuGrMQoHKEypmUzPVzDz1xrNbTo2ah' },
+  { name: 'cycle.js library', map: 'https://my.mindnode.com/f5P1ih7XHiUGkoLsjtpxpGa3ySq8S9FKjEW4WusC' },
+  { name: 'jest testing library', map: 'https://my.mindnode.com/vQttqzUvfzbk97qSDhtEZiFFmNpb9fy6XxtKPyz7' },
+  { name: 'particle physics', map: 'https://my.mindnode.com/GwBsZB6tz6txPiz97xyssBsxDTjKwy4J5seF7uvC' },
 ];
