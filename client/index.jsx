@@ -10,7 +10,12 @@ import fetchMap from './actions/fetchMap';
 import store from './store/store';
 import './sass/main.sass';
 
+// Use Analytics if on production.
+window.googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
+
 const App = ({ location }) => {
+  ga('send', 'pageview', location.pathname);
+
   if (location.pathname !== '/') {
     store.dispatch(fetchMap(location.pathname.slice(1)));
   }

@@ -14,7 +14,7 @@ triggers.forEach((el) => {
     triggersTitle.push({
       name: el.name,
       map: title.replace(/ /g, '_').replace('learn_anything_-_', ''),
-    })
+    });
   }
 });
 
