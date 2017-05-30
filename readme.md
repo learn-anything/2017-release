@@ -10,9 +10,7 @@
 		<img src="https://img.shields.io/github/license/mashape/apistatus.svg">
 	</a>
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/stylekit/img/master/i_want_to_learn.mp4.gif" alt="img" width="600">
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" width="600"></p>
 </div>
 
 
