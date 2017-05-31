@@ -420,4 +420,5 @@ module.exports = [
   { name: 'cycle.js library', map: 'f5P1ih7XHiUGkoLsjtpxpGa3ySq8S9FKjEW4WusC' },
   { name: 'jest testing library', map: 'vQttqzUvfzbk97qSDhtEZiFFmNpb9fy6XxtKPyz7' },
   { name: 'particle physics', map: 'GwBsZB6tz6txPiz97xyssBsxDTjKwy4J5seF7uvC' },
+  { name: 'minimalism', map: 'https://my.mindnode.com/vZ3FssCtMk5Q8HjqW8Wtcr178dJ1iz2HyHQEc2kj' },
 ];
