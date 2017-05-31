@@ -421,7 +421,7 @@ module.exports = [
   { name: 'jest testing library', map: 'vQttqzUvfzbk97qSDhtEZiFFmNpb9fy6XxtKPyz7' },
   { name: 'particle physics', map: 'GwBsZB6tz6txPiz97xyssBsxDTjKwy4J5seF7uvC' },
   { name: 'minimalism', map: 'vZ3FssCtMk5Q8HjqW8Wtcr178dJ1iz2HyHQEc2kj' },
-  { name: 'success', map: 'https://my.mindnode.com/kPVKqy6Fv4Q6VaUoiz3CyppXwyqwXxcB7rqVeUWy' },
-  { name: 'habits', map: 'https://my.mindnode.com/Gi2ZNWPkruFk1koDUfxp1RNzzsuxgXjsSqjqyF3X' },
-  { name: 'creativity', map: 'https://my.mindnode.com/XaEipc85MqxYF3r2orNF7Tq2zWx4NnUzmS8VpkpW' },
+  { name: 'success', map: 'kPVKqy6Fv4Q6VaUoiz3CyppXwyqwXxcB7rqVeUWy' },
+  { name: 'habits', map: 'Gi2ZNWPkruFk1koDUfxp1RNzzsuxgXjsSqjqyF3X' },
+  { name: 'creativity', map: 'XaEipc85MqxYF3r2orNF7Tq2zWx4NnUzmS8VpkpW' },
 ];
