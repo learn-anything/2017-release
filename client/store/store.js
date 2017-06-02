@@ -26,6 +26,7 @@ const initialState = {
     fetched: false,
     exploring: false,
     error: undefined,
+    issueUrl: '',
   },
 
   message: {

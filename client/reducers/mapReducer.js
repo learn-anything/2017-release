@@ -16,13 +16,19 @@ export default (state = {}, action) => {
       const nodes = action.payload.data.nodes;
       const connections = action.payload.data.connections;
 
-      // Update the URL on the browser.
+      const issueUrl = '';
+
+      nodes.forEeach((node) => {
+        console.log(node);
+      });
+            // Update the URL on the browser.
       const url = action.payload.config.url.replace('maps/', '');
       window.history.pushState(null, null, url);
 
       return {
         ...state,
         nodes,
+        issueUrl,
         connections,
         loading: false,
         fetched: true,
