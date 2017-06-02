@@ -154,7 +154,7 @@ module.exports = [
   { name: 'philosophy', map: 'DaLRfu3ipMHEkhxuzqKTgbZPLmVGTmN7khBS3xqZ#-28.4,-144.3,2' },
   { name: 'photography', map: 'ARzVgj42iJRgaDwqcHqpy6bVBskmZxbbzGsUyaYn#48.2,-139.6,2' },
   { name: 'physics', map: 'RfCpjqozA6Aq3j38RvzUnZrhFGMnpCsbRrpAsUWj#-201.2,-115.3,1' },
-  { name: 'postgreSQL', map: 'y48JgLrYtbyNrsKyRze4WHzhYVrGZks9N9pvsekp#-44.6,-268.4,2' },
+  { name: 'postgreSQL', map: 'https://my.mindnode.com/QrSn9FP4n8QBgYq7VyyJdRzwmZdJq6tpKqsjvsi7' },
   { name: 'privacy', map: 'uFiw9mUYxyQjTnTcHqpX8VGsH5sSVSWztpY5AyWJ#-154.8,-53.0,2' },
   { name: 'processing programming language', map: 'zR23tD5fCFaQox7mHfYkLUgiQCDvMcz8Ragd98QR#128.8,-311.3,5' },
   { name: 'programming interviews', map: 'XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv#583.2,-55.2,1' },
