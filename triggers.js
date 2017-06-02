@@ -372,7 +372,7 @@ module.exports = [
   { name: 'human development', map: 'ow1zPpszMHbs4RhmxaL49AjXiVVj5FznyKaLW7hy' },
   { name: 'bitcoin', map: 'u5DHRfRkjPMTTq3vkXRsyVxzZneUp8PJCYsT1RNv' },
   { name: 'serverless computing', map: 'sE1K3zi3i3WRAXTZm7xXMmFCmYCGm3vNo2N8zakW' },
-  { name: 'google cloud', map: 'https://my.mindnode.comV/8zzuxmxqNy2FKquKzXi6mP5itqQXBq137BBsNA3P' },
+  { name: 'google cloud', map: '8zzuxmxqNy2FKquKzXi6mP5itqQXBq137BBsNA3P' },
   { name: 'microsoft azure', map: 'bskpRmBhBQvN6KDV83xxMPyZspkMpwtpvUykMxpZ' },
   { name: 'sports', map: 'tAtPtzcsKv7EqcYsdu9yg1dZxqENBen99QNznd4z' },
   { name: 'reasonML', map: '6ptBAZDfr2nkjfSKFDrzhXA4sSaFE45dsFogq4ug' },
@@ -444,7 +444,7 @@ module.exports = [
   { name: 'rocket science', map: '8M4oUjpGUN4Lco5DRn2e1rNEmDwmCSQaXEgFz7jt' },
   { name: 'astrophysics', map: 'n1vnPsnyJHXfr6e9cuRruLX31Y2vz27aMAqkXmHV' },
   { name: 'search engine optimisation', map: 'u6KUXjQVKuZtdywmxzyJ3C1QqR9yCUkjadNzsFmU' },
-  { name: 'product management', map: 'https://my.mndnode.com/sCFMbq9sV42TeFcyXvipGFavex3Q4MbAkRgSsgkz' },
+  { name: 'product management', map: 'sCFMbq9sV42TeFcyXvipGFavex3Q4MbAkRgSsgkz' },
   { name: 'zen', map: 'uE5NXtsrrgzDyv6h84txcgYuAzWeRfPFgeGzUcB1' },
   { name: 'new music', map: 'xqzDSkip6XTazQpYRsgassvJFDuu5oPzqNWicUhy' },
 ];
