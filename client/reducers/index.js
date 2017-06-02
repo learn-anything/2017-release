@@ -7,8 +7,8 @@ import currentUrlReducer from './currentUrlReducer';
 
 // Here are all the bundled reducers, and these are used by store/store.js.
 export default combineReducers({
-  currentUrl: currentUrlReducer,
   message: messageReducer,
   search: searchReducer,
   map: mapReducer,
+  currentUrl: currentUrlReducer,
 });

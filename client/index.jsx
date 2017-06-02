@@ -24,7 +24,7 @@ const App = ({ location }) => {
   return (
     <div>
       <SearchBar />
-      <MindMapPath path={window.location.href} />
+      <MindMapPath />
       <MindMapWrapper />
       <SnackBar />
     </div>

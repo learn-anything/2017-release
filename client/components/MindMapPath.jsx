@@ -5,7 +5,6 @@ import '../sass/_MindMapPath.sass';
 @connect(store => ({
   path: store.currentUrl,
 }))
-
 export default class MindMapPath extends Component {
   render() {
     let path = this.props.path;

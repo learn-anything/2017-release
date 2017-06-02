@@ -1,4 +1,4 @@
-import { applyMiddleware, createStore } from 'redux';
+import { applyMiddleware, createStore, compose } from 'redux';
 
 // Redux middleware that logs actions and state changes.
 // import { createLogger } from 'redux-logger';
@@ -10,6 +10,11 @@ import thunk from 'redux-thunk';
 import promise from 'redux-promise-middleware';
 
 import reducer from '../reducers/index';
+
+/* eslint-disable no-underscore-dangle */
+// Used for Redux devtools.
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+/* eslint-enable */
 
 // const middleware = applyMiddleware(promise(), thunk, createLogger());
 const middleware = applyMiddleware(promise(), thunk);
@@ -34,7 +39,6 @@ const initialState = {
   },
 
   currentUrl: '',
-
 };
 
-export default createStore(reducer, initialState, middleware);
+export default createStore(reducer, initialState, composeEnhancers(middleware));
