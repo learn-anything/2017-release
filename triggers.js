@@ -434,5 +434,8 @@ module.exports = [
   { name: 'automation', map: 'rF6xqdrysn9UwxgFmsDXuvLUxUn9JzxmdLCzxC6A' },
   { name: 'life', map: 'jWyb3PTvbKszgorVZrKqRRYrdxp8PYqxVySbtq8R' },
   { name: 'cooking', map: '9rHtshs5V5begszbXgBekcpYxJ9aRaNUszxRAbbH' },
-  { name: 'finding work', map: '7GqWMZcpv3pKTxzopsyfJsQmBtdi7sy2gkuRvrjx' },
+  { name: 'mathematical finance', map: 'https://my.mindnode.com/MbLi29ZzLUxTpGtxvJDu2qrbhbVCc97Z3tfz5UZS' },
+  { name: 'urban planning', map: 'https://my.mindnode.com/urXNVRzUE66CUzPYuTqTBDp9vUJGnRVVWvA8ynz8' },
+  { name: 'transportation', map: 'https://my.mindnode.com/tF6pZdQMF3yuJhyzJA3XuybdXPvGX4DUHKttdGEb' },
+  { name: 'solidity programming language', map: 'https://my.mindnode.com/8EaMoYcRYzyLAkJ1EUSWQFxfpdQm4hqmcyjhH7es' },
 ];

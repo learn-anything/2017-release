@@ -5,6 +5,7 @@ import axios from 'axios';
 
 import SearchBar from './containers/SearchBar.jsx';
 import MindMapWrapper from './components/MindMapWrapper.jsx';
+import MindMapPath from './components/MindMapPath.jsx';
 import SnackBar from './components/SnackBar.jsx';
 import fetchMap from './actions/fetchMap';
 import store from './store/store';
@@ -23,6 +24,7 @@ const App = ({ location }) => {
   return (
     <div>
       <SearchBar />
+      <MindMapPath path={window.location.href} />
       <MindMapWrapper />
       <SnackBar />
     </div>
@@ -75,3 +77,4 @@ window.onload = () => {
     }
   };
 };
+

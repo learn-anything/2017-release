@@ -32,6 +32,11 @@ const initialState = {
     query: '',
     suggestions: [],
   },
+
+  currentUrl: {
+    currentUrl: '',
+  },
+
 };
 
 export default createStore(reducer, initialState, middleware);
