@@ -21,6 +21,7 @@ export default (state = {}, action) => {
       nodes.forEeach((node) => {
         console.log(node);
       });
+
             // Update the URL on the browser.
       const url = action.payload.config.url.replace('maps/', '');
       window.history.pushState(null, null, url);
