@@ -33,9 +33,7 @@ const initialState = {
     suggestions: [],
   },
 
-  currentUrl: {
-    currentUrl: '',
-  },
+  currentUrl: '',
 
 };
 
