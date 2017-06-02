@@ -8,7 +8,8 @@ import '../sass/_MindMapPath.sass';
 export default class MindMapPath extends Component {
   render() {
     let path = this.props.path;
-    path = path.replace('http://localhost:3000/', '');
+    // eslint-disable-next-line no-useless-escape
+    path = path.replace(/https?:\/\/[^\/]*\//, '');
     path = path.replace(/_/g, ' ');
     path = path.replace(/\//g, ' - ');
 
