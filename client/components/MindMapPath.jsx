@@ -9,11 +9,13 @@ export default class MindMapPath extends Component {
   render() {
     let path = this.props.path;
     path = path.replace('http://localhost:3000/', '');
-    path = path.replace('/_/g');
+    path = path.replace(/_/g, ' ');
+    path = path.replace(/\//g, ' - ');
+
     return (
-    <div className="mind-map-path">
-            {path}
-        </div>
+      <div className="mind-map-path">
+        {path}
+      </div>
     );
   }
 }
