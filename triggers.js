@@ -154,7 +154,7 @@ module.exports = [
   { name: 'philosophy', map: 'DaLRfu3ipMHEkhxuzqKTgbZPLmVGTmN7khBS3xqZ#-28.4,-144.3,2' },
   { name: 'photography', map: 'ARzVgj42iJRgaDwqcHqpy6bVBskmZxbbzGsUyaYn#48.2,-139.6,2' },
   { name: 'physics', map: 'RfCpjqozA6Aq3j38RvzUnZrhFGMnpCsbRrpAsUWj#-201.2,-115.3,1' },
-  { name: 'postgreSQL', map: 'https://my.mindnode.com/QrSn9FP4n8QBgYq7VyyJdRzwmZdJq6tpKqsjvsi7' },
+  { name: 'postgreSQL', map: 'QrSn9FP4n8QBgYq7VyyJdRzwmZdJq6tpKqsjvsi7' },
   { name: 'privacy', map: 'uFiw9mUYxyQjTnTcHqpX8VGsH5sSVSWztpY5AyWJ#-154.8,-53.0,2' },
   { name: 'processing programming language', map: 'zR23tD5fCFaQox7mHfYkLUgiQCDvMcz8Ragd98QR#128.8,-311.3,5' },
   { name: 'programming interviews', map: 'XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv#583.2,-55.2,1' },
@@ -439,4 +439,9 @@ module.exports = [
   { name: 'transportation', map: 'tF6pZdQMF3yuJhyzJA3XuybdXPvGX4DUHKttdGEb' },
   { name: 'solidity programming language', map: '8EaMoYcRYzyLAkJ1EUSWQFxfpdQm4hqmcyjhH7es' },
   { name: 'finding work', map: '7GqWMZcpv3pKTxzopsyfJsQmBtdi7sy2gkuRvrjx' },
+  { name: 'web scraping', map: 'M1yNy1kZFCTh8PN6mqQP3vgvTauTuquavqSjDkQZ' },
+  { name: 'aeroscpace engineering', map: 'TTXSvmsSaVq3JpJy8ytYbbR9w5vxoUsNmds5UxuW' },
+  { name: 'rocket science', map: '8M4oUjpGUN4Lco5DRn2e1rNEmDwmCSQaXEgFz7jt' },
+  { name: 'astrophysics', map: 'n1vnPsnyJHXfr6e9cuRruLX31Y2vz27aMAqkXmHV' },
+  { name: 'search engine optimisation', map: 'u6KUXjQVKuZtdywmxzyJ3C1QqR9yCUkjadNzsFmU' },
 ];
