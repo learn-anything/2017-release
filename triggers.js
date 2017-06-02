@@ -447,4 +447,8 @@ module.exports = [
   { name: 'product management', map: 'sCFMbq9sV42TeFcyXvipGFavex3Q4MbAkRgSsgkz' },
   { name: 'zen', map: 'uE5NXtsrrgzDyv6h84txcgYuAzWeRfPFgeGzUcB1' },
   { name: 'new music', map: 'xqzDSkip6XTazQpYRsgassvJFDuu5oPzqNWicUhy' },
+  { name: 'monads', map: 'https://my.mindnode.com/rQrWiuxCxWdrWjKYDRyJE1gEeRkdJf83rYppJxuP' },
+  { name: 'growth hacking', map: 'https://my.mindnode.com/KvsK9zYjVv74ktb6TDe9gyqn1hQMufNrqCHgYSCU' },
+  { name: '', map: '' },
+  { name: '', map: '' },
 ];
