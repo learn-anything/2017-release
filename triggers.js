@@ -397,7 +397,7 @@ module.exports = [
   { name: 'Xcode', map: 'Lp7wtsS7quM7Asapu8JGRjZaGpbZ8iFLyKTBpi6s' },
   { name: 'messaging software', map: 'snLyF6uVBXf1YJMzsoSzZNp7x5gJyU1zGL37bgyR' },
   { name: 'adversarial machine learning', map: 'CKNLj36vrZgDEVuxtxCpVpsMu7sCpYxodLqWUAaw' },
-  { name: 'datasets', map: 'izrVQkMfqpaCW3ursPmhxdCK12Dqb7Mn4dM8dAE8' },
+  { name: 'datasets', map: 'https://my.mindnode.com/Nkaj4VVVVEUHzDqzpYgQonxqe6gNxzqqqSAxpfAn' },
   { name: 'numpy library', map: 'XdTsAyz8g6prjTi38zZ3kGsM2zxK5BTmsFsqxpBX' },
   { name: 'caffe library', map: 'QvtUUHWYL2TsoWD4QbrW8DCg8Fxy7yzmtWtqFG1z' },
   { name: 'politics', map: 'jyGfsb3qosZpu4DgCnUxDNfwcCjhLjaSToVyCdxZ' },
@@ -449,4 +449,5 @@ module.exports = [
   { name: 'new music', map: 'xqzDSkip6XTazQpYRsgassvJFDuu5oPzqNWicUhy' },
   { name: 'monads', map: 'https://my.mindnode.com/rQrWiuxCxWdrWjKYDRyJE1gEeRkdJf83rYppJxuP' },
   { name: 'growth hacking', map: 'https://my.mindnode.com/KvsK9zYjVv74ktb6TDe9gyqn1hQMufNrqCHgYSCU' },
+  { name: 'big data', map: 'https://my.mindnode.com/ieZsPsxR6Y3D3bh8964SV4tAy9mwFJczAx8AVEFX' },
 ];
