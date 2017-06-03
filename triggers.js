@@ -453,4 +453,7 @@ module.exports = [
   { name: 'design thinking', map: 'CXgWGayx57yBV16aaEEJYnN3hqjyw8FJamnznpgv' },
   { name: 'string theory', map: 'GDsxKqmEzJ6utJAaicvy9JjkqyfDm5GZDzFVMzUR' },
   { name: 'CRISPR', map: 'Hc2RYicxJSQwMmsTS4dfVyDhAbmKbkJYkxcy4Dsk' },
+  { name: 'accounting', map: 'https://my.mindnode.com/xbjRCSkQDphpvvvZ8FZcgCazpajSKUkEV8uTz7pVyE' },
+  { name: 'art history', map: 'https://my.mindnode.com/E992zZypjENuxVKaBJ7cci2zQA3y3sutKSf7qkep' },
+  { name: 'ASP.NET', map: 'https://my.mindnode.com/zkKCp577LkmWFgGiNXbBWMspnxyeFjPBfFhmLsBz' },
 ];
