@@ -13,21 +13,22 @@ export default (state = {}, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      const pattern = /https:\/\/github\.com\/nikitavoloboev\/learn-anything\/issues\/(\d*)/;
+      const pattern = /https:\/\/github\.com\/nikitavoloboev\/[^/]*\/issues\/(\d*)/;
       const connections = action.payload.data.connections;
       const nodes = action.payload.data.nodes;
 
       let issueUrl = '';
 
       // Find link to map issue
-      for (let i = 0; i < nodes.length; i += 1) {
-        const match = nodes[i].note.text.match(pattern);
+      nodes.forEach((node) => {
+        if (node.note) {
+          const match = node.note.text.match(pattern);
 
-        if (match) {
-          issueUrl = match[0];
-          break;
+          if (match) {
+            issueUrl = match[0];
+          }
         }
-      }
+      });
 
       // Update the URL on the browser.
       const url = action.payload.config.url.replace('maps/', '');
