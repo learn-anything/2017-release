@@ -450,4 +450,7 @@ module.exports = [
   { name: 'monads', map: 'https://my.mindnode.com/rQrWiuxCxWdrWjKYDRyJE1gEeRkdJf83rYppJxuP' },
   { name: 'growth hacking', map: 'https://my.mindnode.com/KvsK9zYjVv74ktb6TDe9gyqn1hQMufNrqCHgYSCU' },
   { name: 'big data', map: 'https://my.mindnode.com/ieZsPsxR6Y3D3bh8964SV4tAy9mwFJczAx8AVEFX' },
+  { name: 'design thinking', map: 'https://my.mindnode.com/CXgWGayx57yBV16aaEEJYnN3hqjyw8FJamnznpgv' },
+  { name: 'string theory', map: 'https://my.mindnode.com/GDsxKqmEzJ6utJAaicvy9JjkqyfDm5GZDzFVMzUR' },
+  { name: 'CRISPR', map: 'https://my.mindnode.com/Hc2RYicxJSQwMmsTS4dfVyDhAbmKbkJYkxcy4Dsk' },
 ];
