@@ -1,5 +1,6 @@
 import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
+import '../sass/_ContributeButton.sass';
 
 @connect(store => ({
   issue: store.map.issueUrl
