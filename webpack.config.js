@@ -1,11 +1,24 @@
+const webpack = require('webpack');
+
+const isDev = process.env.NODE_ENV !== 'production';
+const entry = isDev ? [
+  'webpack-hot-middleware/client?reload=true&timeout=2000',
+  'react-hot-loader/patch',
+  './client/index.jsx'
+] : './client/index.jsx';
+
+const plugins = isDev ? [new webpack.HotModuleReplacementPlugin()] : [];
+
 module.exports = {
-  entry: './client/index.jsx',
+  entry,
+  plugins,
+  cache: isDev,
 
   output: {
     path: `${__dirname}/client/dist`,
     filename: 'bundle.js',
     libraryTarget: 'umd',
-    publicPath: '/static/',
+    publicPath: '/',
   },
 
   resolve: {

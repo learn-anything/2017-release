@@ -14,6 +14,11 @@ import './sass/main.sass';
 // Use Analytics if on production.
 window.googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
 
+// Enable hot reloading
+if (module.hot) {
+  module.hot.accept();
+}
+
 const App = ({ location }) => {
   ga('send', 'pageview', location.pathname);
 
