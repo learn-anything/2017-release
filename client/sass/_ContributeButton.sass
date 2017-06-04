@@ -1,7 +1,7 @@
 @import variables
 
 .contribute-button
-  background: #FF9100
+  background-color: $orange700
   border: 0
   border-radius: 4px
   bottom: 10px
@@ -12,14 +12,20 @@
   position: absolute
   right: 10px
   text-align: center
+  transition: box-shadow .218s, background-color .218s
   white-space: nowrap
   z-index: 2
+
+  &:hover
+    background: $orange800
+    box-shadow: $shadow-active
+    cursor: pointer
 
 .contribute-button-emoji
   height: 24px
 
 .contribute-button-text
-  contribute: #eee
+  color: $grey100
   margin-right: 5px
   vertical-align: 4px
 
