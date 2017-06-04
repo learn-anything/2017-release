@@ -3,7 +3,26 @@ const compression = require('compression');
 const express = require('express');
 const lookup = require('./lookup');
 
+const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
+
+if (isDev) {
+  const webpack = require('webpack');
+  const webpackDevMiddleware = require('webpack-dev-middleware');
+  const webpackHotMiddleware = require('webpack-hot-middleware');
+  const webpackConfig = require('../webpack.config');
+
+  const compiler = webpack(webpackConfig);
+
+  app.use(webpackDevMiddleware(compiler, {
+    hot: true,
+    inline: true,
+    stats: { color: true },
+  }));
+
+  app.use(webpackHotMiddleware(compiler));
+}
+
 
 // Compress static files.
 app.use(compression({ threshold: 0 }));
@@ -48,9 +67,6 @@ app.get(/maps\/(.*)/, (req, res) => {
 // Static files.
 app.get('/static/bundle.js', (req, res) => {
   res.sendFile('dist/bundle.js', { root: 'client' });
-});
-app.get('/static/analytics.js', (req, res) => {
-  res.sendFile('utils/analytics.js', { root: 'client' });
 });
 
 // HTML and favicon.

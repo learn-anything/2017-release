@@ -54,11 +54,14 @@
     "eslint-plugin-react": "^6.10.3",
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.5",
+    "react-hot-loader": "next",
     "replace-x": "^1.1.1",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
   },
   "postcss": {
     "plugins": {
