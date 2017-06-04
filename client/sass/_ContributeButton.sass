@@ -12,6 +12,7 @@
   position: absolute
   right: 10px
   text-align: center
+  white-space: nowrap
   z-index: 2
 
 .contribute-button-emoji
@@ -22,3 +23,8 @@
   margin-right: 5px
   vertical-align: 4px
 
++respond-to($width-extra-small)
+  .contribute-button
+    right: 50%
+    transform: translateX(50%)
+    z-index: 0
