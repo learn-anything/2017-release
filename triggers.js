@@ -339,7 +339,7 @@ module.exports = [
   { name: 'data visualisation', map: 'iMjoicWT1z7UBN7CR4RpxUsWXr4sBYpWj6Vw5yiR' },
   { name: 'telecommunication', map: 'aJppwWtjS8s8pTaQWbVMBZ5o3ZuUy5E5oy91GKs4' },
   { name: 'communication', map: 'EpiWmYiktc8xbqy6BptT6RcpkY18y8wozeJfpP4W' },
-  { name: 'decision making', map: 'EpiWmYiktc8xbqy6BptT6RcpkY18y8wozeJfpP4W' },
+  { name: 'decision making', map: 'M1xxpoNxG5z56B7KpYMJtzdFDLCcJFp4jnTzogdK' },
   { name: 'problem solving', map: 'd2JCqrbLWfvJhRsZxJr8sQ5k5nZexSMLYeSEAN2Y w' },
   { name: 'human brain', map: 'tiiaUe5VgTR8d4GfhqEGPuz9nyp2RTxYJqVozZyx' },
   { name: 'strength training', map: 'zEx8zqZEC6xkyzDCLjntupyeowbozatLj4za8kLd' },
