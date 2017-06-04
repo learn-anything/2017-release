@@ -19,7 +19,7 @@
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build": "webpack",
     "start": "npm run build && node server/index.js -p 3000",
-    "production": "webpack -p && node server/index.js -p 3000"
+    "production": "NODE_ENV='production' webpack -p && node server/index.js -p 3000"
   },
   "dependencies": {
     "axios": "^0.16.1",
