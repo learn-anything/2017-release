@@ -478,4 +478,9 @@ module.exports = [
   { name: 'signal processing', map: 'idyoc4NFVVdknjsv4QXzD5t4uU6qs5pqrWg3pryi' },
   { name: 'video editing', map: 'puirbm5C52rK7XMf8wfKqquFddMq6iJyQSwJcyFs' },
   { name: 'personal finance', map: 'zf1V4zVDNjsFAcY7K3Asaykmjvvxzqd2cp4Z2dbA' },
+  { name: 'alfred workflows', map: 'KRC43JvzgP3YDrzzeMvkSN4TRWpTJokcLqKz6BRs' },
+  { name: 'poker', map: 'k9Z83iDQqGBiGxckxXqEnf7Es89U7ymcJNGjzits' },
+  { name: 'productivity', map: 'Typb7DYzYpY5TaizNhvDvnRvUXp6sEqeZNKquSmz' },
+  { name: 'more', map: 'YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w' },
+  { name: 'courses', map: 'RxT86Azyw654TAsqww7ueqXGioFRDxx63r5ddXAC' },
 ];
