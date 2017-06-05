@@ -9,22 +9,37 @@ import '../sass/_SnackBar.sass';
   text: store.message.text,
 }))
 export default class SnackBar extends Component {
-  render() {
-    let className = 'snackbar-container';
-
-    // If there's a message to show make the snackbar visible.
-    if (this.props.visible) {
-      className = `${className} snackbar-container--visible`;
-    }
-
+  timeToCome() {
     return (
-      <div className={className}>
+      <div className={'snackbar-container--invisible'}>
         <div className="snackbar">
           {this.props.text}
         </div>
       </div>
     );
   }
+  timeToGo() {
+    return (
+      <div className={'snackbar-container--visible'}>
+        <div className="snackbar">
+          {this.props.text}
+        </div>
+      </div>
+    );
+  }
+  render() {
+    // let className = 'snackbar-container';
+
+    // If there's a message to show make the snackbar visible.
+    if (!this.props.visible) {
+      return;
+      // this.timeToGo();
+    }
+    return this.timeToCome();
+    // setTimeout(() => this.timeToGo(), 500);
+    
+  }
+
 }
 
 SnackBar.proptypes = {

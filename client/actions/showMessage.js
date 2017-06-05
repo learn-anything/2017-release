@@ -1,6 +1,6 @@
 import actions from '../strings/actions.json';
 
-export default (message, time = 2500) => (dispatch) => {
+export default (message, time = 3000) => (dispatch) => {
   dispatch({
     type: actions.message.show,
     payload: message,
