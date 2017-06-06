@@ -10,8 +10,12 @@ export default class MindMapPath extends Component {
     let path = this.props.path;
     // eslint-disable-next-line no-useless-escape
     path = path.replace(/https?:\/\/[^\/]*\//, '');
-    path = path.replace(/_/g, ' ');
-    path = path.replace(/\//g, ' - ');
+    path = path.split('/');
+    path = path.map((el, index) => (
+      <a href={`/${path.slice(0, index + 1).join('/')}`}>
+        <span>{el.replace(/_/g, ' ')}</span>
+      </a>
+    ));
 
     return (
       <div className="mind-map-path">

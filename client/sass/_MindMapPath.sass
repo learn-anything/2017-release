@@ -2,3 +2,15 @@
 
 .mind-map-path
   text-align: center
+
+  a
+    text-decoration: none
+
+    &::after
+      content: ' - '
+
+    &:last-child::after
+      content: ''
+
+    span
+      text-decoration: underline
