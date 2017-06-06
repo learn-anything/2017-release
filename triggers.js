@@ -34,7 +34,7 @@ module.exports = [
   { name: 'cognition', map: '5UKsGHdEtfCXcHm8X1bUgL269cFn73QU2C7PSXvn' },
   { name: 'combinatorics', map: 'MxmPsgBTgB8vwS7wcHpZgvTx5fWrdozgZngVpbrp' },
   { name: 'command line tools', map: 'XcsEDRdzwdo86zsfaQVmFR2pmXCXhkSvyqpynY97' },
-  { name: 'competitive programming', map: 'S76EQdSTiDz1hMJqAtz1Mp3zqeSJy8bytwteqbrg#-70.8,-25.9,5' },
+  { name: 'competitive programming', map: 'yT4BspbzmdGpQJZz2jzL7JEe3tpVqqX2LZYHoJZV' },
   { name: 'compilers', map: '8zoz2iumK52ZVSsuEr2bqY2cyzpx7icMS1nMsNH1#207.3,-134.3,4' },
   { name: 'computability theory', map: 'SnqXfwJjzbc3Vs5F1tUayBG5RhDxxwTadc3Y6At5' },
   { name: 'computer graphics', map: 'p7RzoL1gYA4Y4tzxrGVtRC5Tc1RLB6UtMnws5ugv#15.6,42.4,2' },
@@ -518,4 +518,5 @@ module.exports = [
   { name: 'recursion', map: 'shyEmRexQbPypbYYtjqoqPqA6ADoHvCi1Kzq4UuC' },
   { name: 'yoga', map: 'BypM4A44UVcpNJL6pfPAsQDznQJQX9MVBDa52AyG' },
   { name: 'fasting', map: 'E9893zmQKen9ZuX3vwE8UEJRvjyaXUU8iZx96kpi' },
+  { name: 'rendering', map: 'rdgKa9yyxeycCFwbFLsJhHxocZzzzzixzyHQhWgk' },
 ];

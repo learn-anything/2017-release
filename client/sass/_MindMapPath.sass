@@ -1,16 +1,18 @@
 @import variables
 
 .mind-map-path
+  font-size: 1.2rem
   text-align: center
 
-  a
-    text-decoration: none
+  span
+    &:hover
+      cursor: pointer
 
     &::after
       content: ' - '
 
-    &:last-child::after
-      content: ''
+    &:last-child
+      font-weight: bold
 
-    span
-      text-decoration: underline
+      &::after
+        content: ''
