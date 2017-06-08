@@ -5,16 +5,25 @@ export default (state = {}, action) => {
     case actions.message.show:
       return {
         ...state,
-        visible: true,
-        text: action.payload,
+        visible: 'visible',
       };
 
     case actions.message.hide:
       return {
         ...state,
-        visible: false,
+        visible: 'invisible',
       };
-
+    case actions.message.bye:
+      return {
+        ...state,
+        visible: 'hidden',
+      };
+    case actions.message.hi:
+      return {
+        ...state,
+        visible: 'show',
+        text: action.payload,
+      };
     default:
       return state;
   }

@@ -10,7 +10,9 @@
 
   "message": {
     "show": "SHOW_MESSAGE",
-    "hide": "HIDE_MESSAGE"
+    "hide": "HIDE_MESSAGE",
+    "bye": "MAKE_HIDDEN",
+    "hi": "MAKE_VISIBLE"
   },
 
   "search": {

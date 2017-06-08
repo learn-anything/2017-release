@@ -9,40 +9,34 @@ import '../sass/_SnackBar.sass';
   text: store.message.text,
 }))
 export default class SnackBar extends Component {
-  timeToCome() {
-    return (
-      <div className={'snackbar-container--invisible'}>
-        <div className="snackbar">
-          {this.props.text}
-        </div>
-      </div>
-    );
-  }
-  timeToGo() {
-    return (
-      <div className={'snackbar-container--visible'}>
-        <div className="snackbar">
-          {this.props.text}
-        </div>
-      </div>
-    );
-  }
   render() {
-    // let className = 'snackbar-container';
+    let className = 'snackbar-container';
 
     // If there's a message to show make the snackbar visible.
-    if (!this.props.visible) {
-      return;
-      // this.timeToGo();
+    if (this.props.visible === 'show') {
+      className = `${className} snackbar-container--show`;
     }
-    return this.timeToCome();
-    // setTimeout(() => this.timeToGo(), 500);
-    
-  }
+    if (this.props.visible === 'visible') {
+      className = `${className} snackbar-container--visible`;
+    }
+    if (this.props.visible === 'invisible') {
+      className = `${className} snackbar-container--invisible`;
+    }
+    if (this.props.visible === 'hidden') {
+      className = `${className} snackbar-container--hidden`;
+    }
 
+    return (
+      <div className={className}>
+        <div className="snackbar">
+          {this.props.text}
+        </div>
+      </div>
+    );
+  }
 }
 
 SnackBar.proptypes = {
-  visible: PropTypes.bool,
+  visible: PropTypes.string,
   text: PropTypes.string,
 };
