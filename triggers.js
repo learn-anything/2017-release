@@ -604,4 +604,12 @@ module.exports = [
   { name: 'three.js', map: 'MS4sT8RG8zrzs7k2hTpiTt6SefkoDj8navLesqey' },
   { name: 'botany', map: '6GJqwy8BryRRYfeV6LH3xTesC2s9q1sdK9hCzbaV' },
   { name: 'adobe illustrator', map: 's8pqMXQviFER3HQHDpWWeGsv7fTN3BBerWQezgJH' },
+  { name: 'space architecture', map: 'nwbiTcwAvWAEgqpkmjYNWoyVeh4hCRjFN5FcjaKy' },
+  { name: 'java libraries', map: 'bqqerP7QMhU9pDir4XaksndsmbTraUBQ4otAGtez' },
+  { name: 'spark web framework', map: 'wwLQURAiEZE7WtMVy22LzVcsy3oVQUxEyzPA6Fd1' },
+  { name: 'spring framework', map: 'pPHve7k8EUpnEYDcqFCwivq4CNeqGDDB4fDEFkbW' },
+  { name: 'content management systems', map: 'DjBoPdaHkiMDtudWrt7YY8p6Xs4pqGmp3q85ocSR' },
+  { name: 'wordpress', map: 'YYMyLmdVxxsEypzp34opWF46i79Hf5kpgAcYgZPs' },
+  { name: 'drupal', map: 'gFyVszwghv451HKTtVxfrHVXMpZX5ppyJ8aCxBbz' },
+  { name: 'object oriented programming', map: 'DScC1fmoprdE2GVgTChQedyZ54PeJKQrBVJyv84j' },
 ];
