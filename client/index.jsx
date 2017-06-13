@@ -70,14 +70,15 @@ window.onload = () => {
         });
     } else if (t.tagName === 'A') {
       e.preventDefault();
+      const windowRef = window.open();
 
-      setTimeout(() => { window.open(t.href, '_blank').focus(); }, 500);
+      setTimeout(() => { windowRef.location = t.href; windowRef.focus(); }, 500);
 
       ga('send', 'event', {
         eventCategory: 'Navigation',
         eventAction: 'external link clicked',
         eventLabel: t.href,
-        hitCallback: () => { window.open(t.href, '_blank').focus(); },
+        hitCallback: () => { windowRef.location = t.href; windowRef.focus(); },
       });
     }
   };
