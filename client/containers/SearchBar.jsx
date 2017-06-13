@@ -93,8 +93,10 @@ export default class SearchBar extends Component {
           onSuggestionsClearRequested={onClearRequested}
           onSuggestionSelected={this.onSuggestionSelected.bind(this)}
         />
-        <p>Press Enter to open our random choice of map.</p>
-        <p>Start writing to get a list of existing topics - click to select one.</p>
+        <p id='intro-text'>
+          Press Enter to open our random choice of map.<br></br>
+          Start writing to get a list of existing topics - click to select one.
+        </p>
       </form>
     );
   }
