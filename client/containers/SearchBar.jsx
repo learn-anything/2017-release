@@ -16,8 +16,10 @@ const renderSuggestion = ({ name }) =>
   query: store.search.query,
   suggestions: store.search.suggestions,
   exploring: store.map.exploring,
+  placeholder: randomTrigger(),
 }))
 export default class SearchBar extends Component {
+
   onSuggestionSelected(_, { suggestion }) {
     // Send selected suggestion to GA.
     ga('send', 'event', {
@@ -35,25 +37,38 @@ export default class SearchBar extends Component {
   onSubmit(event) {
     event.preventDefault();
 
-    if (getSuggestions(this.props.query).length === 0 && this.props.query.length > 0) {
-      // Send unmatched query to GA.
+    if (this.props.query.length > 0) {
+      if (getSuggestions(this.props.query).length === 0) {
+        // Send unmatched query to GA.
+        ga('send', 'event', {
+          eventCategory: 'Search',
+          eventAction: 'unmatched query',
+          eventLabel: this.props.query,
+        });
+        this.props.dispatch(showMessage('Sorry, you can\'t search that yet 😞'));
+      }
+    } else {
+      // if you haven't written anything into the textbox when hittin enter
+      // then show the randomly chosen map
       ga('send', 'event', {
         eventCategory: 'Search',
-        eventAction: 'unmatched query',
-        eventLabel: this.props.query,
+        eventAction: 'random selected',
+        eventLabel: this.props.placeholder.name,
       });
 
-      this.props.dispatch(showMessage('Sorry, you can\'t search that yet 😞'));
+      const url = this.props.placeholder.map.replace(/_-_/g, '/');
+      this.props.dispatch(fetchMap(url));
+      this.props.dispatch(clearQuery());
+      ga('send', 'pageview', `/${url}`);
     }
   }
-
   render() {
     // Props to give to input field.
     const inputProps = {
       autoFocus: true,
       value: this.props.query,
       onChange: e => this.props.dispatch(updateQuery(e.target.value)),
-      placeholder: randomTrigger().name,
+      placeholder: this.props.placeholder.name,
     };
 
     // Handlers for updating and clearing suggestions.
@@ -66,8 +81,11 @@ export default class SearchBar extends Component {
       containerClassName += ' searchbar-container--exploring';
     }
 
+    const css = 'p { text-align: center; }';
+
     return (
       <form className={containerClassName} onSubmit={this.onSubmit.bind(this)}>
+        <style>{css}</style>
         <Autosuggest
           inputProps={inputProps}
           renderSuggestion={renderSuggestion}
@@ -78,6 +96,8 @@ export default class SearchBar extends Component {
           onSuggestionsClearRequested={onClearRequested}
           onSuggestionSelected={this.onSuggestionSelected.bind(this)}
         />
+        <p>Press Enter to open our random choice of map.</p>
+        <p>Start writing to get a list of existing topics - click to select one.</p>
       </form>
     );
   }
