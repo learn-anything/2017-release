@@ -20,7 +20,9 @@ const renderSuggestion = ({ name }) =>
 }))
 export default class SearchBar extends Component {
 
-  onSuggestionSelected(_, { suggestion }) {
+  onSuggestionSelected(event, { suggestion }) {
+    event.preventDefault();
+
     // Send selected suggestion to GA.
     ga('send', 'event', {
       eventCategory: 'Search',
@@ -30,7 +32,7 @@ export default class SearchBar extends Component {
 
     const url = suggestion.map.replace(/_-_/g, '/');
     this.props.dispatch(fetchMap(url));
-    this.props.dispatch(updateQuery(suggestion.name));
+    this.props.dispatch(clearQuery());
     ga('send', 'pageview', `/${url}`);
   }
 
