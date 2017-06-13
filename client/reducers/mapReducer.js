@@ -37,7 +37,8 @@ export default (state = {}, action) => {
       // Set HTML title for some very minor UX boost.
       // Not the best for SEO purposes, but the fact that there's more pages is an illusion, anyway
       const urlSpl = url.split('/');
-      document.title = 'Learn '.concat(urlSpl[urlSpl.length - 1]);
+      const lastMember = urlSpl[urlSpl.length - 1];
+      document.title = 'Learn '.concat(lastMember.replace('_', ' '));
 
       return {
         ...state,
