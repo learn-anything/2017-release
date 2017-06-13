@@ -30,7 +30,7 @@ export default class SearchBar extends Component {
 
     const url = suggestion.map.replace(/_-_/g, '/');
     this.props.dispatch(fetchMap(url));
-    this.props.dispatch(clearQuery());
+    this.props.dispatch(updateQuery(suggestion.name));
     ga('send', 'pageview', `/${url}`);
   }
 
