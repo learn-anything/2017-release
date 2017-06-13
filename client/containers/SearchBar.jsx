@@ -81,11 +81,8 @@ export default class SearchBar extends Component {
       containerClassName += ' searchbar-container--exploring';
     }
 
-    const css = 'p { text-align: center; }';
-
     return (
       <form className={containerClassName} onSubmit={this.onSubmit.bind(this)}>
-        <style>{css}</style>
         <Autosuggest
           inputProps={inputProps}
           renderSuggestion={renderSuggestion}

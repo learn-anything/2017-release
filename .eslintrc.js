@@ -7,7 +7,7 @@ module.exports = {
 
   rules: { 
     'react/jsx-uses-vars': 'error', 
-    'linebreak-style': 'off' 
+    'linebreak-style': 'off', 
   },
 
   parser: 'babel-eslint',
