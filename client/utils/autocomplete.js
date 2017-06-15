@@ -93,7 +93,7 @@ export const fuzzyScore = (pattern, str) => {
     }
 
     prevLower = strChar === strLower && strLower !== strUpper;
-    prevSeparator = strChar === '_' || strChar === ' ';
+    prevSeparator = strChar === '-' || strChar === ' ';
 
     strIdx += 1;
   }

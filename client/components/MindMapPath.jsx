@@ -20,7 +20,7 @@ export default class MindMapPath extends Component {
     path = path.replace(/https?:\/\/[^\/]*\//, '');
     path = path.split('/');
     path = path.map((el, index) => (
-      <span onClick={this.dispatch.bind({ ...this, path, index })}>{el.replace(/_/g, ' ')}</span>
+      <span onClick={this.dispatch.bind({ ...this, path, index })}>{el.replace(/-/g, ' ')}</span>
     ));
 
     return (
