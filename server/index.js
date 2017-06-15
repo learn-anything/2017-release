@@ -42,8 +42,9 @@ app.get('/id/:id', (req, res) => {
 
 // Maps by mindnode ID.
 app.get('/maps-lookup/:id', (req, res) => {
-  const map = lookup.find(entry => entry.id === req.params.id);
-
+  let map = lookup.find(entry => entry.id === req.params.id);
+  map = map.replace('-', '_');
+  
   if (!map) {
     res.status(404).send('Can\'t find map.');
     return;
@@ -56,7 +57,8 @@ app.get('/maps-lookup/:id', (req, res) => {
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
   let filename = `${req.params[0]}.json`;
-
+  filename = filename.replace('-', '_');
+  
   if (filename !== 'learn_anything.json') {
     filename = `learn_anything/${filename}`;
   }
