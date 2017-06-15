@@ -26,6 +26,11 @@
   top: 30%
   width: 100%
 
+  .introText
+    text-align: center
+    margin-top: 40px
+    line-height: 1.8rem
+
   &::before
     color: $grey300
     content: 'I want to learn'
@@ -67,6 +72,9 @@
     position: absolute
     transform: translateX(-50%)
     width: 100%
+
+  .introText
+    display: none
 
 .react-autosuggest__suggestion
   @extend %field

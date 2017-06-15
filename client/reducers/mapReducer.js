@@ -34,6 +34,12 @@ export default (state = {}, action) => {
       const url = action.payload.config.url.replace('maps/', '');
       window.history.pushState(null, null, url);
 
+      // Set HTML title for some very minor UX boost.
+      // Not the best for SEO purposes, but the fact that there's more pages is an illusion, anyway
+      const urlSpl = url.split('/');
+      const lastMember = urlSpl[urlSpl.length - 1];
+      document.title = 'Learn '.concat(lastMember.replace('_', ' '));
+
       return {
         ...state,
         nodes,
