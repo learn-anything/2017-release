@@ -45,7 +45,7 @@ class MindNodeSpider(scrapy.Spider):
     def parse(self, response):
         data = json.loads(response.body_as_unicode())
 
-        filename = data['title'].replace(' ', '-').replace('_-_', '/')
+        filename = data['title'].replace(' - ', '/').replace(' ', '-')
         filename = 'maps/{}.json'.format(filename)
 
         if not path.exists(path.dirname(filename)):
