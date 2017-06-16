@@ -929,4 +929,7 @@ module.exports = [
   { name: 'profunctors', map: 's4jXw87itBKFioqcaxCSp8wCP1XhvSHyzv3orwqn' },
   { name: 'binary relation', map: 'vPbxSa5ZmuU5JTZrxJoZHADiVxpK7Ynrut4P2iyf' },
   { name: 'abelian group', map: 'BXAvJCZCF6Mv3XxMDZPvxKCE3BU4XfSpZDtnLd4j' },
+  { name: 'harmony', map: 'pwtQ1RJBzhugqfegm4UDz2vqqLSqpKHvqVCxBxYA' },
+  { name: 'hyperparameter optimisation', map: 'WNrQuQ92uUim2DwZ4UMPdsCWj2VzTpkDNrK74sMA' },
+  { name: 'dropout technique', map: 'jkPEz39Sv2gNL1bbeqdvx6DMsH8tLcVPwmyVAzSd' },
 ];
