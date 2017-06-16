@@ -31,7 +31,7 @@ const initialState = {
 
   message: {
     text: '',
-    visible: '',
+    visible: false,
   },
 
   search: {
