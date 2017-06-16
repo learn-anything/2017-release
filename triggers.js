@@ -899,7 +899,6 @@ module.exports = [
   { name: 'dot product', map: 'pqAEToeyx3mzuJndaNMB51TaKLw4upQqvUZcfGEB' },
   { name: 'cross product', map: 'g22UUzD7AmSkKAgM24N5kNs7uxuXsE8YzTxRHdgq' },
   { name: 'determinants', map: 'QLph3xRERxJ7eSqYwsHG2h98FjxQX6jv7TbgzbsX' },
-  { name: 'rank of a matrix', map: '3nZh4kntBwipKcHuk2pvci2qsD7JrxEfy5fVkj6G' },
   { name: 'semigroups', map: 'psvpxgDHypYsNfhSswzmep49MDxD42cFigcaiv3W' },
   { name: 'transformations', map: 'F6NBtCQmZAJRWTyf43qfqccpYsW8hqQ9j4UENE5y' },
   { name: 'rank of a matrix', map: '3nZh4kntBwipKcHuk2pvci2qsD7JrxEfy5fVkj6G' },
