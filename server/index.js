@@ -36,31 +36,29 @@ app.get('/id/:id', (req, res) => {
     return;
   }
 
-  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '_');
+  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '-');
   res.redirect(`/${title}`);
 });
 
 // Maps by mindnode ID.
 app.get('/maps-lookup/:id', (req, res) => {
-  let map = lookup.find(entry => entry.id === req.params.id);
-  map = map.replace('-', '_');
-  
+  const map = lookup.find(entry => entry.id === req.params.id);
+
   if (!map) {
     res.status(404).send('Can\'t find map.');
     return;
   }
 
-  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '_');
+  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '-');
   res.send(JSON.stringify({ title }));
 });
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
   let filename = `${req.params[0]}.json`;
-  filename = filename.replace('-', '_');
-  
-  if (filename !== 'learn_anything.json') {
-    filename = `learn_anything/${filename}`;
+
+  if (filename !== 'learn-anything.json') {
+    filename = `learn-anything/${filename}`;
   }
 
   res.sendFile(filename, { root: 'maps' });

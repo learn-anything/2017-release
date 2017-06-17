@@ -13,7 +13,7 @@ triggers.forEach((el) => {
   if (title) {
     triggersTitle.push({
       name: el.name,
-      map: title.replace(/ /g, '-').replace('learn_anything_-_', ''),
+      map: title.replace('learn anything - ', '').replace(/ /g, '-'),
     });
   }
 });
