@@ -4,26 +4,10 @@
   bottom: -50px
   position: absolute
   //transform: translateY(100%)
-  transition: transform 0.218s ease-in-out
+  transition: transform .218s ease-in-out
+  visibility: hidden
   width: 100%
   z-index: 2
-  visibility: hidden
-
-.snackbar-container--show
-  visibility: visible
-
-.snackbar-container--visible
-  transform: translateY(-50px)
-  visibility: visible
-  
-.snackbar-container--invisible
- transform: translateY(0px)
- visibility: visible
-
-.snackbar-container--hidden
- visibility: hidden
-
-
 
 .snackbar
   background-color: $grey900
@@ -35,3 +19,17 @@
   max-width: 500px
   padding: 10px
 
+
+.snackbar-container--show
+  visibility: visible
+
+.snackbar-container--visible
+  transform: translateY(-50px)
+  visibility: visible
+
+.snackbar-container--invisible
+  transform: translateY(0)
+  visibility: visible
+
+.snackbar-container--hidden
+  visibility: hidden
