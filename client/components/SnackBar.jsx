@@ -10,21 +10,7 @@ import '../sass/_SnackBar.sass';
 }))
 export default class SnackBar extends Component {
   render() {
-    let className = 'snackbar-container';
-
-    // If there's a message to show make the snackbar visible.
-    if (this.props.visible === 'show') {
-      className = `${className} snackbar-container--show`;
-    }
-    if (this.props.visible === 'visible') {
-      className = `${className} snackbar-container--visible`;
-    }
-    if (this.props.visible === 'invisible') {
-      className = `${className} snackbar-container--invisible`;
-    }
-    if (this.props.visible === 'hidden') {
-      className = `${className} snackbar-container--hidden`;
-    }
+    const className = `snackbar-container snackbar-container--${this.props.visible}`;
 
     return (
       <div className={className}>
