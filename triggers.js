@@ -903,7 +903,7 @@ module.exports = [
   { name: 'transformations', map: 'F6NBtCQmZAJRWTyf43qfqccpYsW8hqQ9j4UENE5y' },
   { name: 'rank of a matrix', map: '3nZh4kntBwipKcHuk2pvci2qsD7JrxEfy5fVkj6G' },
   { name: 'linear transformations', map: '3ahwuxXKsPqqDFVqyKLx49Um8kA1Y3dNCu1JzUnG' },
-  { name: 'red-black trees', map: 'igsGsunBxQ7opKiZmuU4zDobJZ8tFCn84vTD58Gq' },
+  { name: 'red black trees', map: 'igsGsunBxQ7opKiZmuU4zDobJZ8tFCn84vTD58Gq' },
   { name: 'affine transformations', map: 'ezfFxtz9rBsG4BmqdMs2NYPCFspT7793zNbQQxdx' },
   { name: 'singular value decomposition', map: '1bydjAU1p3iqMCGY2GdqKGD2RDQyowcCSTJBbBB9' },
   { name: 'meaning of life', map: 'YsUXwnzoYKRweFFM5HGEapkPx71w54Lm8D1wiCbu' },
