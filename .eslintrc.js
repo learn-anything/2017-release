@@ -5,9 +5,10 @@ module.exports = {
   env: { browser: true },
   globals: { ga: true },
 
-  rules: { 
-    'react/jsx-uses-vars': 'error', 
-    'linebreak-style': 'off', 
+  rules: {
+    'react/jsx-uses-vars': 'error',
+    'linebreak-style': 'off',
+    'no-console': 'warn',
   },
 
   parser: 'babel-eslint',

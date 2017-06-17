@@ -30,7 +30,7 @@ export default class SearchBar extends Component {
       eventLabel: suggestion.name,
     });
 
-    const url = suggestion.map.replace(/_-_/g, '/');
+    const url = suggestion.map.replace(/---/g, '/');
     this.props.dispatch(fetchMap(url));
     this.props.dispatch(clearQuery());
     ga('send', 'pageview', `/${url}`);
@@ -58,7 +58,7 @@ export default class SearchBar extends Component {
         eventLabel: this.props.placeholder.name,
       });
 
-      const url = this.props.placeholder.map.replace(/_-_/g, '/');
+      const url = this.props.placeholder.map.replace(/---/g, '/');
       this.props.dispatch(fetchMap(url));
       this.props.dispatch(clearQuery());
       ga('send', 'pageview', `/${url}`);
