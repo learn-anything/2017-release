@@ -13,8 +13,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" width="600"></p>
 </div>
 
-
-# Build it 🚀
+<h1 align="center"> Build it 🚀 </a></h1>
 
 To run it locally, clone the project and run
 
@@ -28,8 +27,7 @@ And then connect to http://localhost:3000
 
 If you want to help, there is an [active slack group](https://knowledge-map.slack.com/) that you can join.
 
-
-# Description
+<h1 align="center"> Description </a></h1>
 
 This is a search engine similar to [DuckDuckGo](https://duckduckgo.com/) but instead of providing a static set of links, it provides an interactive mind map of best of the best peer reviewed resources one can use to learn any of the topics in a guided way.
 
@@ -37,8 +35,7 @@ All mind maps will soon be open source so that anyone can edit and contribute to
 
 This is the first of its kind visual search engine that searches curated user mind maps on the web. It does not crawl the web for content, instead it searches through 'human curated' database of interlinked mind maps focused on learning in a guided and linear way.
 
-
-# Future 🔭
+<h1 align="center"> Future 🔭 </a></h1>
 
 We plan to move the content of all mind maps to a graph database to allow for more meaningful queries.
 
@@ -52,7 +49,7 @@ This however requires quite a lot of infrastructure to be written out and for it
 
 Fortunalely, both these mind maps and the search engine is fully open source so anyone who is interested in this idea and loves using this search engine, can come in and help.
 
-# Join our team 🚀
+<h1 align="center"> Join our team 🚀 </a></h1>
 
 Join [our Slack channel](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) and we can discuss ideas together and work on making this vision of visualising and structuring all of world's knowledge a reality.
 
