@@ -391,7 +391,7 @@ module.exports = [
   { name: 'network science', map: 'pSNmmv1BT87tTufm4gb8vQiWBLsix9L33AuzNfX6' },
   { name: 'network topology', map: 'qsGxmY5KYwWw49yFyMMxNmRfszs8swqCEiWg77D1' },
   { name: 'board games', map: 'pQ8AWbKujG7gELUUC2bU4Kr5taBEvap7op8HNrsk' },
-  { name: 'video games', map: 'jYd3LyiesypMyNhmx8ZuVuC5USXNRe8UmDFFtoQq' },
+  { name: 'video games', map: 'https://my.mindnode.com/1PVZb9ukoea64ryXDGvLu2FyxFBdzr8TS518TTs8' },
   { name: 'card games', map: 'JZzDhgP2sktZ3pD2NgouS6ppfRsPKKm15Un1ZtMV' },
   { name: 'web games', map: 'nPYTxXLdbBu5ZmHJ3hjmycncFPnJqoxZzoqpzxXN' },
   { name: 'Xcode', map: 'Lp7wtsS7quM7Asapu8JGRjZaGpbZ8iFLyKTBpi6s' },
