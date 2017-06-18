@@ -72,14 +72,14 @@ window.onload = () => {
       e.preventDefault();
       const windowRef = window.open();
 
-      setTimeout(() => { windowRef.location = t.href; windowRef.focus(); }, 500);
-
       ga('send', 'event', {
         eventCategory: 'Navigation',
         eventAction: 'external link clicked',
         eventLabel: t.href,
-        hitCallback: () => { windowRef.location = t.href; windowRef.focus(); },
       });
+
+      windowRef.location = t.href; windowRef.focus();
+      windowRef.focus();
     }
   };
 };
