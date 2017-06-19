@@ -15,6 +15,7 @@ export default (state = {}, action) => {
     case actions.map.fetch.fulfilled: {
       const pattern = /https:\/\/github\.com\/nikitavoloboev\/[^/]*\/issues\/(\d*)/;
       const connections = action.payload.data.connections;
+      const subnodes = action.payload.data.subnodes;
       const nodes = action.payload.data.nodes;
 
       let issueUrl = '';
@@ -44,6 +45,7 @@ export default (state = {}, action) => {
         ...state,
         nodes,
         issueUrl,
+        subnodes,
         connections,
         loading: false,
         fetched: true,

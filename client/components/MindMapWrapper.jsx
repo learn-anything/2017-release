@@ -6,6 +6,7 @@ import ContributeButton from './ContributeButton.jsx';
 
 @connect(store => ({
   connections: store.map.connections,
+  subnodes: store.map.subnodes,
   nodes: store.map.nodes,
 }))
 export default class MindMapWrapper extends Component {
@@ -14,6 +15,7 @@ export default class MindMapWrapper extends Component {
       <div>
         <MindMap
           connections={this.props.connections}
+          subnodes={this.props.subnodes}
           nodes={this.props.nodes}
         />
         <ContributeButton />
