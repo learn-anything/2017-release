@@ -1006,5 +1006,7 @@ module.exports = [
   { name: 'physics engines', map: 'RsDwAf5hepv99FySmGXPXty2MDwbsmNz2ymzu3cz' },
   { name: 'dataflow programming', map: '5ypb7djZsT9MPuHRJgu4sGAnoAPPWKFGNq6syA7q' },
   { name: 'irc protocol', map: 'NeYN9axaEYrpQLMYiqHjaRbCwqsm4BqA7d8zPc1n' },
+  { name: 'web analytics', map: '2qdn3Utwxujvz8wURPqNcxYzPro4JwszNEpMdzsY' },
+  { name: 'google analytics', map: 'hCRVEZtXU4TVDN4xqqq8Fyi3qmYsQmrahyYZfn3e' },
 ];
 
