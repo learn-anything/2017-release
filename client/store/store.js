@@ -21,12 +21,12 @@ const middleware = applyMiddleware(promise(), thunk);
 const initialState = {
   map: {
     nodes: [],
+    subnodes: [],
     connections: [],
     loading: false,
     fetched: false,
     exploring: false,
     error: undefined,
-    issueUrl: '',
   },
 
   message: {

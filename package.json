@@ -15,7 +15,6 @@
     "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' triggers.js",
     "clean-maps": "npm run clean-triggers && rm server/lookup.json maps/ -r",
     "scrape": "npm run clean-maps; scrapy runspider spider.py",
-    "update-maps": "npm run scrape && node updateTriggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build": "webpack",
     "start": "npm run build && node server/index.js -p 3000",
@@ -28,13 +27,16 @@
     "react": "^15.5.4",
     "react-autosuggest": "^9.0.1",
     "react-dom": "^15.5.4",
-    "react-mindmap": "^2.0.4",
+    "react-mindmap": "^2.0.5",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.1",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^4.3.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
@@ -58,10 +60,7 @@
     "replace-x": "^1.1.1",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.5",
-    "style-loader": "^0.17.0",
-    "webpack": "^2.5.1",
-    "webpack-dev-middleware": "^1.10.2",
-    "webpack-hot-middleware": "^2.18.0"
+    "style-loader": "^0.17.0"
   },
   "postcss": {
     "plugins": {

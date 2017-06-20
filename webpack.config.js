@@ -4,7 +4,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 const entry = isDev ? [
   'webpack-hot-middleware/client?reload=true&timeout=2000',
   'react-hot-loader/patch',
-  './client/index.jsx'
+  './client/index.jsx',
 ] : './client/index.jsx';
 
 const plugins = isDev ? [new webpack.HotModuleReplacementPlugin()] : [];
@@ -27,12 +27,12 @@ module.exports = {
 
   module: {
     loaders: [
-      /*{
+      /* {
         enforce: 'pre',
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
-      },*/
+      }, */
       {
         test: /\.jsx?$/,
         loader: 'babel-loader',

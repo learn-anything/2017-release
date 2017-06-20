@@ -6,10 +6,12 @@ const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
 
 if (isDev) {
+  /* eslint-disable global-require */
   const webpack = require('webpack');
   const webpackDevMiddleware = require('webpack-dev-middleware');
   const webpackHotMiddleware = require('webpack-hot-middleware');
   const webpackConfig = require('../webpack.config');
+  /* eslint-enable global-require */
 
   const compiler = webpack(webpackConfig);
 
@@ -34,7 +36,7 @@ app.get(/maps\/(.*)/, (req, res) => {
     filename = `learn-anything/${filename}`;
   }
 
-  res.send(JSON.stringify(require(`../maps/${filename}`), null, 0));
+  res.sendFile(filename, { root: 'maps' });
 });
 
 // Static files.

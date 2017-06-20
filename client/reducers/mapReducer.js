@@ -13,38 +13,24 @@ export default (state = {}, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      const pattern = /https:\/\/github\.com\/nikitavoloboev\/[^/]*\/issues\/(\d*)/;
       const connections = action.payload.data.connections;
       const subnodes = action.payload.data.subnodes;
       const nodes = action.payload.data.nodes;
 
-      let issueUrl = '';
-
-      // Find link to map issue
-      nodes.forEach((node) => {
-        if (node.note) {
-          const match = node.note.text.match(pattern);
-
-          if (match) {
-            issueUrl = match[0];
-          }
-        }
-      });
-
       // Update the URL on the browser.
       const url = action.payload.config.url.replace('maps/', '');
-      window.history.pushState(null, null, url);
+      const path = url.replace(window.location.origin, '').replace('/', '');
+      window.history.pushState(path, null, url);
 
       // Set HTML title for some very minor UX boost.
       // Not the best for SEO purposes, but the fact that there's more pages is an illusion, anyway
       const urlSpl = url.split('/');
-      const lastMember = urlSpl[urlSpl.length - 1];
-      document.title = lastMember.replace('-', ' ').concat(' - Learn Anything');
+      const topic = urlSpl[urlSpl.length - 1];
+      document.title = topic.replace('-', ' ').concat(' - Learn Anything');
 
       return {
         ...state,
         nodes,
-        issueUrl,
         subnodes,
         connections,
         loading: false,

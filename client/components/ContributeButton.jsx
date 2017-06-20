@@ -2,7 +2,7 @@ import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import '../sass/_ContributeButton.sass';
 
-@connect(store => ({ issue: store.map.issueUrl }))
+@connect(store => ({ issue: undefined }))
 export default class ContributeButton extends Component {
   onClick() {
     setTimeout(() => { location.href = this.props.issue; }, 500);
@@ -16,7 +16,7 @@ export default class ContributeButton extends Component {
   }
 
   render() {
-    if (this.props.issue !== '') {
+    if (this.props.issue) {
       return (
         <button
           onClick={this.onClick.bind(this)}
