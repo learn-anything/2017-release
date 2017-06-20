@@ -2,7 +2,7 @@ import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import '../sass/_MindMapPath.sass';
 import fetchMap from '../actions/fetchMap';
-import clearQuery from '../actions/Search';
+import { clearQuery } from '../actions/Search';
 
 @connect(store => ({
   path: store.currentUrl,

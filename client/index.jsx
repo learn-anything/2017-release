@@ -53,17 +53,18 @@ window.onload = () => {
       t = t.parentElement;
     }
 
-    if (t.tagName === 'A' && t.href[0] === '/') {
-      e.preventDefault();
+    e.preventDefault();
+    if (t.tagName === 'A' && t.href.indexOf(window.location.origin) !== -1) {
+      const url = t.href.replace(window.location.origin, '');
 
       ga('send', 'event', {
         eventCategory: 'Navigation',
         eventAction: 'internal link clicked',
-        eventLabel: t.href[0].slice(1),
+        eventLabel: url.slice(1),
       });
 
-      store.dispatch(fetchMap(t.href));
-      ga('send', 'pageview', t.href);
+      store.dispatch(fetchMap(url.slice(1)));
+      ga('send', 'pageview', url);
     } else if (t.tagName === 'A') {
       e.preventDefault();
       const windowRef = window.open();

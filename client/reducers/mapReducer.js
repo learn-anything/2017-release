@@ -39,7 +39,7 @@ export default (state = {}, action) => {
       // Not the best for SEO purposes, but the fact that there's more pages is an illusion, anyway
       const urlSpl = url.split('/');
       const lastMember = urlSpl[urlSpl.length - 1];
-      document.title = 'Learn '.concat(lastMember.replace('-', ' '));
+      document.title = lastMember.replace('-', ' ').concat(' - Learn Anything');
 
       return {
         ...state,
