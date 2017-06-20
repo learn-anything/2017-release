@@ -53,21 +53,17 @@ window.onload = () => {
       t = t.parentElement;
     }
 
-    if (t.tagName === 'A' && t.href.match(/.*\/id\/\S{40}/)) {
+    if (t.tagName === 'A' && t.href[0] === '/') {
       e.preventDefault();
 
-      const id = t.href.replace(/^.*\/id\/(.{40}).*/, '$1');
-      axios.get(`/maps-lookup/${id}`)
-        .then((res) => {
-          ga('send', 'event', {
-            eventCategory: 'Navigation',
-            eventAction: 'internal link clicked',
-            eventLabel: res.data.title,
-          });
+      ga('send', 'event', {
+        eventCategory: 'Navigation',
+        eventAction: 'internal link clicked',
+        eventLabel: t.href[0].slice(1),
+      });
 
-          store.dispatch(fetchMap(res.data.title));
-          ga('send', 'pageview', `/${res.data.title}`);
-        });
+      store.dispatch(fetchMap(t.href));
+      ga('send', 'pageview', t.href);
     } else if (t.tagName === 'A') {
       e.preventDefault();
       const windowRef = window.open();
