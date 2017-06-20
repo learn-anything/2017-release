@@ -26,7 +26,6 @@ if (isDev) {
 // Compress static files.
 app.use(compression({ threshold: 0 }));
 
-
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
   let filename = `${req.params[0]}.json`;
@@ -35,7 +34,7 @@ app.get(/maps\/(.*)/, (req, res) => {
     filename = `learn-anything/${filename}`;
   }
 
-  res.sendFile(filename, { root: 'maps' });
+  res.send(JSON.stringify(require(`../maps/${filename}`), null, 0));
 });
 
 // Static files.
