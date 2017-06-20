@@ -54,4 +54,4 @@ class MindNodeSpider(scrapy.Spider):
         with open(filename, 'w') as map_file:
             map_file.write(response.body.replace('https://my.mindnode.com', '/id'))
 
-        yield {'id': data['token'], 'title': data['title']}
+        yield { 'title': data['title'] }

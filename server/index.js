@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const compression = require('compression');
 const express = require('express');
-const lookup = require('./lookup');
 
 const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -27,31 +26,6 @@ if (isDev) {
 // Compress static files.
 app.use(compression({ threshold: 0 }));
 
-// Render maps by mindnode ID.
-app.get('/id/:id', (req, res) => {
-  const map = lookup.find(entry => entry.id === req.params.id);
-
-  if (!map) {
-    res.status(404).send('Can\'t find map.');
-    return;
-  }
-
-  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '-');
-  res.redirect(`/${title}`);
-});
-
-// Maps by mindnode ID.
-app.get('/maps-lookup/:id', (req, res) => {
-  const map = lookup.find(entry => entry.id === req.params.id);
-
-  if (!map) {
-    res.status(404).send('Can\'t find map.');
-    return;
-  }
-
-  const title = map.title.replace(/learn anything - /, '').replace(/ - /g, '/').replace(/ /g, '-');
-  res.send(JSON.stringify({ title }));
-});
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {

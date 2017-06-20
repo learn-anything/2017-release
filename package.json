@@ -14,7 +14,7 @@
   "scripts": {
     "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' triggers.js",
     "clean-maps": "npm run clean-triggers && rm server/lookup.json maps/ -r",
-    "scrape": "npm run clean-maps; scrapy runspider spider.py -o server/lookup.json",
+    "scrape": "npm run clean-maps; scrapy runspider spider.py",
     "update-maps": "npm run scrape && node updateTriggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "build": "webpack",
