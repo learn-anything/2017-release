@@ -1,4 +1,4 @@
-import triggers from './titleTriggers.json';
+import triggers from './triggers.json';
 
 // Score how close a pattern is to a given string.
 export const fuzzyScore = (pattern, str) => {
@@ -123,7 +123,7 @@ export const getSuggestions = (query) => {
   }
 
   let suggestions = triggers
-    .map(trigger => ({ trigger, score: fuzzyScore(value, trigger.name) }))
+    .map(trigger => ({ trigger, score: fuzzyScore(value, trigger.key) }))
     .filter(({ score }) => score.matched)
     .sort((a, b) => b.score.score - a.score.score)
     .map(({ trigger }) => trigger);

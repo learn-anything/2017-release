@@ -1,0 +1,23 @@
+const { MongoClient } = require('mongodb');
+const url = 'mongodb://localhost:27017/learn-anything';
+
+/*
+ * Access a mongodb collection. Create it if it doesn't exist.
+ */
+module.exports = (name, callback) => {
+  // Connect to DB.
+  MongoClient.connect(url)
+    .then((db) => {
+      // Create collection if it doesn't exist and access it.
+      db.createCollection(name)
+        .then((collection) => {
+          // collection.createIndex({ key: 'text' });
+
+          if (typeof callback === 'function') {
+            callback(db, collection);
+          }
+        })
+        .catch((err) => { throw err; });
+    })
+    .catch((err) => { throw err; });
+};
