@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb://localhost:27017/learn-anything';
+const url = 'mongodb://mongo/learn-anything';
 
 /*
  * Access a mongodb collection. Create it if it doesn't exist.
