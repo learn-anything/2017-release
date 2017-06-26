@@ -1,5 +1,12 @@
 {
   "map": {
+    "fetchUpdate": {
+      "def": "FETCH_UPDATE_MAP",
+      "pending": "FETCH_UPDATE_MAP_PENDING",
+      "fulfilled": "FETCH_UPDATE_MAP_FULFILLED",
+      "rejected": "FETCH_UPDATE_MAP_REJECTED"
+    },
+
     "fetch": {
       "def": "FETCH_MAP",
       "pending": "FETCH_MAP_PENDING",
@@ -25,5 +32,9 @@
       "update": "UPDATE_QUERY",
       "clear": "CLEAR_QUERY"
     }
+  },
+
+  "history": {
+    "set": "SET_HISTORY"
   }
 }

@@ -4,25 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Search Interactive Mind Maps to learn anything">
-    <meta name="keywords" content="search,mindmaps,learning,knowledge,interactive,resources,guided,curated">
 
     <title>Learn Anything</title>
     <link rel="icon" href="/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-    <!-- React -->
-    <script src="https://unpkg.com/react@15.5.4/dist/react.min.js"></script>
-    <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.min.js"></script>
-    <script src="https://unpkg.com/react-autosuggest@9.0.1/dist/standalone/autosuggest.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/4.1.1/react-router-dom.min.js"></script>
-
-    <!-- Redux -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"></script>
-
-    <!-- App -->
-    <script src="/static/bundle.js"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -33,6 +18,15 @@
 
       ga('create', googleTrackingID, 'auto');
     </script>
+    <style id="tmp-style">
+      body {
+        background: #424242;
+      }
+
+      footer {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div id="react-app"></div>
@@ -157,5 +151,20 @@
       </a>
     </footer>
 
+    <!-- React -->
+    <script src="https://unpkg.com/react@15.5.4/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.min.js"></script>
+    <script src="https://unpkg.com/react-autosuggest@9.0.1/dist/standalone/autosuggest.js"></script>
+
+    <!-- Redux -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"></script>
+
+    <!-- App -->
+    <script src="/static/bundle.js"></script>
+    <script>
+      document.querySelector('#tmp-style').remove();
+    </script>
   </body>
 </html>

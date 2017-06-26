@@ -38,8 +38,6 @@ const initialState = {
     query: '',
     suggestions: [],
   },
-
-  currentUrl: '',
 };
 
 export default createStore(reducer, initialState, composeEnhancers(middleware));

@@ -1,8 +1,10 @@
 const { MongoClient } = require('mongodb');
+
 const url = 'mongodb://localhost:27017/learn-anything';
 
 /*
  * Access a mongodb collection. Create it if it doesn't exist.
+ * Callback function is called with DB and collection as parameters.
  */
 module.exports = (name, callback) => {
   // Connect to DB.

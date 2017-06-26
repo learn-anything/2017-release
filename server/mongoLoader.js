@@ -1,11 +1,12 @@
 const { resolve } = require('path');
-const fs = require('fs');
+const { writeFile } = require('fs');
 const walk = require('fs-walk').walk;
 const collection = require('./collection');
 
 /*
  * Recursively walk a directory and call a function on all its json files.
- * Imported file and absolute path are the parameters passed to the callback function.
+ * Imported file and absolute path are the parameters passed to
+ * the callback function.
  */
 const walkDir = (dirname, fn) => {
   walk(dirname, (basedir, filename, stat) => {
@@ -24,27 +25,18 @@ const walkDir = (dirname, fn) => {
   });
 };
 
-collection('maps', (db, collection) => {
-  walkDir('maps', (map, filename) => {
-    const splitTitle = map.title.split('-');
-    map.key = splitTitle[splitTitle.length - 1].trim(' ');
-    map.title = map.title.replace('learn anything - ', '').replace(/ /g, '-');
+collection('maps', (db, coll) => {
+  // Used to check when mongoDB is done inserting maps.
+  let insertsPending = 0;
 
-    if (map.title === '') {
-      map.title = 'learn-anything';
-    }
-
-    collection.updateOne({ title: map.title }, { $set: map }, { upsert: true })
+  /*
+   * Get all maps from DB, in the format { key, title },
+   * and write them into the triggers file on the client/utils folder.
+   */
+  const createTriggers = () => {
+    coll.find({}, { key: 1, title: 1, _id: 0 }).toArray()
       .then((result) => {
-        console.log(result.message.documents);
-      })
-      .catch((err) => { throw err; });
-  });
-
-  setTimeout(() => {
-    collection.find({}, { key: 1, title: 1, _id: 0 }).toArray()
-      .then((result) => {
-        fs.writeFile('client/utils/triggers.json', JSON.stringify(result), (err) => {
+        writeFile('client/utils/triggers.json', JSON.stringify(result), (err) => {
           if (err) {
             throw err;
           }
@@ -52,5 +44,36 @@ collection('maps', (db, collection) => {
           db.close();
         });
       });
-  }, 2000);
+  };
+
+  // Insert all maps from the maps folder to the maps collection.
+  walkDir('maps', (map) => {
+    const parsedMap = Object.assign({}, map);
+
+    // Add a key attribute containing the leftmost topic in the title.
+    const splitTitle = map.title.split(' - ');
+    parsedMap.key = splitTitle[splitTitle.length - 1];
+
+    // Convert all spaces in the title with dashes.
+    parsedMap.title = parsedMap.title.replace('learn anything - ', '').replace(/ /g, '-');
+
+    if (parsedMap.title === '') {
+      parsedMap.title = 'learn-anything';
+    }
+
+    insertsPending += 1;
+
+    coll.updateOne({ title: parsedMap.title }, { $set: parsedMap }, { upsert: true })
+      .then(() => {
+        insertsPending -= 1;
+
+        if (insertsPending === 0) {
+          createTriggers();
+        }
+      })
+      .catch((err) => {
+        insertsPending = 0;
+        throw err;
+      });
+  });
 });

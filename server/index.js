@@ -31,17 +31,10 @@ app.use(compression({ threshold: 0 }));
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  // let filename = `${req.params[0]}.json`;
+  collection('maps', (db, coll) => {
+    const title = req.params[0].replace(/\//g, '---');
 
-  // if (filename !== 'learn-anything.json') {
-  //   filename = `learn-anything/${filename}`;
-  // }
-
-  // res.sendFile(filename, { root: 'maps' });
-  collection('maps', (db, collection) => {
-    let title = req.params[0].replace(/\//g, '---');
-
-    collection.findOne({ title }).then((result) => {
+    coll.findOne({ title }).then((result) => {
       res.send(JSON.stringify(result));
       db.close();
     });

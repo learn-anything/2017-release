@@ -1,12 +1,7 @@
 import { render } from 'react-dom';
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import axios from 'axios';
 
-import SearchBar from './containers/SearchBar.jsx';
-import MindMapWrapper from './components/MindMapWrapper.jsx';
-import MindMapPath from './components/MindMapPath.jsx';
-import SnackBar from './components/SnackBar.jsx';
+import App from './containers/App.jsx';
 import fetchMap from './actions/fetchMap';
 import store from './store/store';
 import './sass/main.sass';
@@ -19,41 +14,20 @@ if (module.hot) {
   module.hot.accept();
 }
 
-const App = ({ location }) => {
-  ga('send', 'pageview', location.pathname);
+window.addEventListener('load', () => {
+  render(<App store={store} />, document.getElementById('react-app'));
 
-  if (location.pathname !== '/') {
-    store.dispatch(fetchMap(location.pathname.slice(1)));
-  }
-
-  return (
-    <div>
-      <SearchBar />
-      <MindMapPath />
-      <MindMapWrapper />
-      <SnackBar />
-    </div>
-  );
-};
-
-window.onload = () => {
-  render(
-    <Provider store={store}>
-      <Router>
-        <Route path="/" component={App} />
-      </Router>
-    </Provider>,
-    document.getElementById('react-app'),
-  );
-
-  document.body.onclick = (e) => {
+  // Catch clicks on links, add GA calls, and change default behavior.
+  // If link is internal, fetch new map; if link is external, open in new tab.
+  document.body.addEventListener('click', (e) => {
+    e.preventDefault();
     let t = e.target;
 
     if (t.tagName === 'IMG' && t.parentElement.tagName === 'A') {
       t = t.parentElement;
     }
 
-    e.preventDefault();
+    // Internal link clicked.
     if (t.tagName === 'A' && t.href.indexOf(window.location.origin) !== -1) {
       const url = t.href.replace(window.location.origin, '');
 
@@ -63,10 +37,11 @@ window.onload = () => {
         eventLabel: url.slice(1),
       });
 
-      store.dispatch(fetchMap(url.slice(1)));
+      store.dispatch(fetchMap(url));
       ga('send', 'pageview', url);
+
+    // External link clicked.
     } else if (t.tagName === 'A') {
-      e.preventDefault();
       const windowRef = window.open();
 
       ga('send', 'event', {
@@ -75,9 +50,13 @@ window.onload = () => {
         eventLabel: t.href,
       });
 
-      windowRef.location = t.href; windowRef.focus();
+      windowRef.location = t.href;
       windowRef.focus();
     }
-  };
-};
+  });
+});
 
+window.addEventListener('popstate', () => {
+  store.dispatch(fetchMap(window.location.pathname, false));
+  ga('send', 'pageview', window.location.pathname);
+});
