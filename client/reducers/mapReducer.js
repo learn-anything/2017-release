@@ -27,12 +27,14 @@ export default (state = {}, action) => {
       const nodes = action.payload.data.nodes;
 
       // Set HTML title.
-      const urlSplit = action.payload.config.url.replace('maps/', '').split('/');
+      const url = action.payload.config.url.replace('maps/', '');
+      const urlSplit = url.split('/');
       const topic = urlSplit[urlSplit.length - 1];
       document.title = topic.replace('-', ' ').concat(' - Learn Anything');
 
       return {
         ...state,
+        url,
         nodes,
         subnodes,
         connections,
