@@ -35,7 +35,3 @@ export default class ContributeButton extends Component {
     return (<div></div>);
   }
 }
-
-ContributeButton.propTypes = {
-  issue: PropTypes.string,
-};

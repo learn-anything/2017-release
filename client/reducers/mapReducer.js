@@ -2,6 +2,7 @@ import actions from '../strings/actions.json';
 
 export default (state = {}, action) => {
   switch (action.type) {
+    case actions.map.fetchUpdate.pending:
     case actions.map.fetch.pending:
       return {
         ...state,
@@ -42,6 +43,7 @@ export default (state = {}, action) => {
       };
     }
 
+    case actions.map.fetchUpdate.rejected:
     case actions.map.fetch.rejected: {
       // Error fetching map.
       const error = action.payload;

@@ -4,9 +4,7 @@ import fetchMap from '../actions/fetchMap';
 import { clearQuery } from '../actions/Search';
 import '../sass/_Breadcrumbs.sass';
 
-@connect(store => ({
-  history: store.history,
-}))
+@connect(store => ({ loading: store.map.loading }))
 export default class Breadcrumbs extends Component {
   dispatch() {
     const url = this.path.slice(0, this.index + 1).join('/');
@@ -16,17 +14,13 @@ export default class Breadcrumbs extends Component {
   }
 
   render() {
-    let breadcrumbs = '';
+    const splitUrl = window.location.pathname.slice(1).split('/');
 
-    if (this.props.history) {
-      const splitUrl = this.props.history.location.pathname.slice(1).split('/');
-
-      breadcrumbs = splitUrl.map((el, index) => (
-        <span onClick={this.dispatch.bind({ ...this, splitUrl, index })}>
-          {el.replace(/-/g, ' ')}
-        </span>
-      ));
-    }
+    const breadcrumbs = splitUrl.map((el, index) => (
+      <span onClick={this.dispatch.bind({ ...this, splitUrl, index })}>
+        {el.replace(/-/g, ' ')}
+      </span>
+    ));
 
     return (
       <div className="breadcrumbs">

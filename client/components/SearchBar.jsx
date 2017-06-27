@@ -103,9 +103,3 @@ export default class SearchBar extends Component {
     );
   }
 }
-
-SearchBar.propTypes = {
-  query: PropTypes.string,
-  suggestions: PropTypes.array,
-  exploring: PropTypes.bool,
-};

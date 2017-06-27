@@ -23,8 +23,3 @@ export default class MindMapWrapper extends Component {
     );
   }
 }
-
-MindMapWrapper.propTypes = {
-  connections: PropTypes.array,
-  nodes: PropTypes.array,
-};

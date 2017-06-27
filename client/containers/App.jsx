@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Provider } from 'react-redux';
-import SearchBar from './SearchBar.jsx';
+import SearchBar from '../components/SearchBar.jsx';
 import MindMapWrapper from '../components/MindMapWrapper.jsx';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import SnackBar from '../components/SnackBar.jsx';

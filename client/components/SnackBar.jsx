@@ -21,8 +21,3 @@ export default class SnackBar extends Component {
     );
   }
 }
-
-SnackBar.proptypes = {
-  visible: PropTypes.string,
-  text: PropTypes.string,
-};
