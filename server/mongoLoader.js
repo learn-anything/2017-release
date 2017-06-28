@@ -50,9 +50,14 @@ collection('maps', (db, coll) => {
   walkDir('maps', (map) => {
     const parsedMap = Object.assign({}, map);
 
-    // Add a key attribute containing the leftmost topic in the title.
-    const splitTitle = map.title.split(' - ');
-    parsedMap.key = splitTitle[splitTitle.length - 1];
+    // Set the map key for search. If there's a tag use that,
+    // otherwise use the leftmost topic on the title.
+    if (map.tag) {
+      parsedMap.key = map.tag;
+    } else {
+      const splitTitle = map.title.split(' - ');
+      parsedMap.key = splitTitle[splitTitle.length - 1];
+    }
 
     // Convert all spaces in the title with dashes.
     parsedMap.title = parsedMap.title.replace('learn anything - ', '').replace(/ /g, '-');
