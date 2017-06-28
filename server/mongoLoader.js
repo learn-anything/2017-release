@@ -1,6 +1,7 @@
 const { resolve } = require('path');
 const { writeFile } = require('fs');
-const walk = require('fs-walk').walk;
+const sm = require('sitemap');
+const walk = require('fs-walk').walkSync;
 const collection = require('./collection');
 
 /*
@@ -28,6 +29,10 @@ const walkDir = (dirname, fn) => {
 collection('maps', (db, coll) => {
   // Used to check when mongoDB is done inserting maps.
   let insertsPending = 0;
+
+  // Used for generating the sitemap.
+  const sitemap = sm.createSitemap({ hostname: 'https://learn-anything.xyz' });
+  sitemap.add({ url: '/' });
 
   /*
    * Get all maps from DB, in the format { key, title },
@@ -62,6 +67,10 @@ collection('maps', (db, coll) => {
     // Convert all spaces in the title with dashes.
     parsedMap.title = parsedMap.title.replace('learn anything - ', '').replace(/ /g, '-');
 
+    // Add url of current map to sitemap.
+    const url = `/${parsedMap.title.replace(/---/g, '/')}/`;
+    sitemap.add({ url });
+
     if (parsedMap.title === '') {
       parsedMap.title = 'learn-anything';
     }
@@ -81,4 +90,6 @@ collection('maps', (db, coll) => {
         throw err;
       });
   });
+
+  writeFile('sitemap.xml', sitemap.toString());
 });
