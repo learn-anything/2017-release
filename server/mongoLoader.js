@@ -91,5 +91,5 @@ collection('maps', (db, coll) => {
       });
   });
 
-  writeFile('sitemap.xml', sitemap.toString());
+  writeFile('client/sitemap.xml', sitemap.toString());
 });

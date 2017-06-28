@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Search Interactive Mind Maps to learn anything">
+    <meta name="fragment" content="!">
+
+    <!-- OG tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{=it.title}}" />
+    <meta property="og:description" content="{{=it.description}}" />
+    <meta property="og:url" content="{{=it.url}}" />
+    <meta property="og:image" content="{{=it.image || ''}}" />
+    <!-- <meta id="og-image" property="og:image" content="" /> -->
+    <meta name="twitter:card" content="summary_large_image">
 
     <title>Learn Anything</title>
     <link rel="icon" href="/favicon.png" />
