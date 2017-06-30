@@ -1,6 +1,8 @@
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb://localhost:27017/learn-anything';
+const useDocker = process.env.NODE_ENV === 'production' || process.env.DOCKER;
+const host = useDocker ? 'mongo' : 'localhost:27017';
+const url = `mongodb://${host}/learn-anything`;
 
 /*
  * Access a mongodb collection. Create it if it doesn't exist.
