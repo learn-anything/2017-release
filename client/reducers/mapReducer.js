@@ -2,6 +2,7 @@ import actions from '../strings/actions.json';
 
 export default (state = {}, action) => {
   switch (action.type) {
+    case actions.map.fetchUpdate.pending:
     case actions.map.fetch.pending:
       return {
         ...state,
@@ -26,12 +27,14 @@ export default (state = {}, action) => {
       const nodes = action.payload.data.nodes;
 
       // Set HTML title.
-      const urlSplit = action.payload.config.url.replace('maps/', '').split('/');
+      const url = action.payload.config.url.replace('maps/', '');
+      const urlSplit = url.split('/');
       const topic = urlSplit[urlSplit.length - 1];
       document.title = topic.replace('-', ' ').concat(' - Learn Anything');
 
       return {
         ...state,
+        url,
         nodes,
         subnodes,
         connections,
@@ -42,6 +45,7 @@ export default (state = {}, action) => {
       };
     }
 
+    case actions.map.fetchUpdate.rejected:
     case actions.map.fetch.rejected: {
       // Error fetching map.
       const error = action.payload;

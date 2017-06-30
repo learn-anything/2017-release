@@ -56,7 +56,6 @@ window.addEventListener('load', () => {
   });
 });
 
-window.addEventListener('popstate', () => {
-  store.dispatch(fetchMap(window.location.pathname, false));
-  ga('send', 'pageview', window.location.pathname);
-});
+window.addEventListener('popstate', () => (
+  store.dispatch(fetchMap(window.location.pathname, false))
+));

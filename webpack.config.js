@@ -42,7 +42,6 @@ module.exports = {
   externals: {
     react: 'React',
     'react-dom': 'ReactDOM',
-    'react-router-dom': 'ReactRouterDOM',
     'react-autosuggest': 'Autosuggest',
     redux: 'Redux',
     'react-redux': 'ReactRedux',

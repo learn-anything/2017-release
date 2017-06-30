@@ -31,7 +31,7 @@ export default class SearchBar extends Component {
     });
 
     const url = suggestion.title.replace(/---/g, '/');
-    this.props.dispatch(fetchMap(`/${url}`));
+    this.props.dispatch(fetchMap(url));
     this.props.dispatch(clearQuery());
     ga('send', 'pageview', `/${url}`);
   }
@@ -59,7 +59,7 @@ export default class SearchBar extends Component {
       });
 
       const url = this.props.placeholder.title.replace(/---/g, '/');
-      this.props.dispatch(fetchMap(`/${url}`));
+      this.props.dispatch(fetchMap(url));
       this.props.dispatch(clearQuery());
       ga('send', 'pageview', `/${url}`);
     }
@@ -103,9 +103,3 @@ export default class SearchBar extends Component {
     );
   }
 }
-
-SearchBar.propTypes = {
-  query: PropTypes.string,
-  suggestions: PropTypes.array,
-  exploring: PropTypes.bool,
-};

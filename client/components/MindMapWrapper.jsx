@@ -1,8 +1,7 @@
 import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import MindMap from 'react-mindmap';
-
-import ContributeButton from './ContributeButton.jsx';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
 
 @connect(store => ({
   connections: store.map.connections,
@@ -13,18 +12,13 @@ export default class MindMapWrapper extends Component {
   render() {
     return (
       <div>
+        <Breadcrumbs />
         <MindMap
           connections={this.props.connections}
           subnodes={this.props.subnodes}
           nodes={this.props.nodes}
         />
-        <ContributeButton />
       </div>
     );
   }
 }
-
-MindMapWrapper.propTypes = {
-  connections: PropTypes.array,
-  nodes: PropTypes.array,
-};

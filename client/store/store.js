@@ -20,6 +20,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const middleware = applyMiddleware(promise(), thunk);
 const initialState = {
   map: {
+    url: '',
     nodes: [],
     subnodes: [],
     connections: [],
