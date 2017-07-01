@@ -44,6 +44,17 @@ app.get(/maps\/(.*)/, (req, res) => {
   });
 });
 
+// Thumbnail by map title.
+app.get(/thumbs\/(.*)/, (req, res) => {
+  let filename = `${req.params[0]}.jpg`;
+
+  if (filename !== 'learn-anything.jpg') {
+    filename = `learn-anything/${filename}`;
+  }
+
+  res.sendFile(filename, { root: 'thumbs' });
+});
+
 // Static files.
 app.get('/static/bundle.js', (req, res) => {
   res.sendFile('dist/bundle.js', { root: 'client' });
@@ -68,7 +79,8 @@ app.get('*', (req, res) => {
     res.send(render({
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
-      url: `https://learn-anything.xyz${req.originalUrl}`,
+      url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
+      image: `${req.protocol}://${req.headers.host}/thumbs${req.originalUrl}`,
     }));
   } else {
     // Render any other map.
@@ -84,7 +96,8 @@ app.get('*', (req, res) => {
         res.send(render({
           title: result.key || topic,
           description: result.description || `Learn ${result.key || topic} with hand curated mind maps.`,
-          url: `https://learn-anything.xyz${req.originalUrl}`,
+          url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
+          image: `${req.protocol}://${req.headers.host}/thumbs${req.originalUrl}`,
         }));
         db.close();
       });
