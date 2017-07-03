@@ -12,6 +12,7 @@
   ],
   "repository": "nikitavoloboev/knowledge-map-search-engine",
   "scripts": {
+    "gen-thumbs": "./thumbs/gen-thumbs.sh",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "prepare": "git submodule update --init && node server/mongoLoader.js",
     "start": "npm run lint && webpack && node server/index.js -p 3000",
