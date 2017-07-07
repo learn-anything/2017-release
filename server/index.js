@@ -80,7 +80,7 @@ app.get('*', (req, res) => {
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
-      image: `${req.protocol}://${req.headers.host}/thumbs${req.originalUrl}`,
+      image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
     }));
   } else {
     // Render any other map.
