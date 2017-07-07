@@ -11,4 +11,4 @@ COPY package.json /usr/src/app/
 RUN npm install && npm cache clean
 COPY . /usr/src/app
 
-CMD ["npm", "run", "start:prod"]
+CMD npm run prepare && npm run start:prod
