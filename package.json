@@ -1,16 +1,21 @@
 {
-  "name": "knowledge-map-search-engine",
+  "name": "leanr-anything-search-engine",
   "version": "1.0.0",
-  "description": "Search engine for mind maps on the web",
+  "description": "Visual search engine for user curated mind maps on the web",
   "license": "MIT",
   "contributors": [
     {
       "name": "Angelo Gazzola",
       "email": "angelo@nglgzz.com",
       "url": "https://github.com/nglgzz"
+    },
+    {
+      "name": "Nikita Voloboev",
+      "email": "nikita.voloboev@gmail.com",
+      "url": "https://github.com/nikitavoloboev"
     }
   ],
-  "repository": "nikitavoloboev/knowledge-map-search-engine",
+  "repository": "learn-anything/search-engine",
   "scripts": {
     "gen-thumbs": "./thumbs/gen-thumbs.sh",
     "lint": "eslint .; sass-lint client/sass/* -v",
