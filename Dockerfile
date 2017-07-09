@@ -10,5 +10,6 @@ ENV DOCKER true
 COPY package.json /usr/src/app/
 RUN npm install && npm cache clean
 COPY . /usr/src/app
+RUN npm run build:prod
 
-CMD npm run prepare && npm run start:prod
+CMD NODE_ENV='production' node server/mongoLoader.js && npm run start:prod
