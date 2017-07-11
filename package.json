@@ -18,6 +18,10 @@
   "repository": "learn-anything/search-engine",
   "scripts": {
     "gen-thumbs": "./thumbs/gen-thumbs.sh",
+    "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' triggers.js",
+    "clean-maps": "npm run clean-triggers && rm server/lookup.json maps/ -r",
+    "scrape": "scrapy runspider spider.py -o server/lookup.json -a filename=triggers.json",
+    "update-maps": "npm run clean-maps && npm run scrape && node updateTriggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
     "prepare": "git submodule update --init && node server/mongoLoader.js",
     "start": "npm run lint && webpack && node server/index.js -p 3000",
