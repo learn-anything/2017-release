@@ -46,6 +46,11 @@ export default class Sidebar extends Component {
                 Path Picker 🗺
               </div>
             </h1>
+            <h1>
+              <div id="saved-maps" className="menu-item">
+                Coming Soon 🐙
+              </div>
+            </h1>
           </Menu>
         );
       case 'themes':
