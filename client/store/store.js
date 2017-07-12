@@ -39,6 +39,12 @@ const initialState = {
     query: '',
     suggestions: [],
   },
+
+  menu: {
+    selected: '',
+    theme: 'Gray',
+  },
+
 };
 
 export default createStore(reducer, initialState, composeEnhancers(middleware));
