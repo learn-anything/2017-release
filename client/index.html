@@ -1,150 +1,154 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="fragment" content="!">
 
-    <!-- OG tags -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{=it.title}}" />
-    <meta property="og:description" content="{{=it.description}}" />
-    <meta property="og:url" content="{{=it.url}}" />
-    <meta property="og:image" content="{{=it.image}}" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="fragment" content="!">
 
-    <title>Learn Anything</title>
-    <link rel="icon" href="/favicon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- OG tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{=it.title}}" />
+  <meta property="og:description" content="{{=it.description}}" />
+  <meta property="og:url" content="{{=it.url}}" />
+  <meta property="og:image" content="{{=it.image}}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Temporary styling to avoid FOUC -->
-    <style id="tmp-style">
-      body {
-        background: #424242;
-      }
+  <title>Learn Anything</title>
+  <link rel="icon" href="/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
-      footer {
-        display: none;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="react-app"></div>
+  <!-- Temporary styling to avoid FOUC -->
+  <style id="tmp-style">
+    body {
+      background: #424242;
+    }
 
-    <footer>
-      <a class="octocat" href="https://github.com/nikitavoloboev/learn-anything">
-        <svg height="24" width="24" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-        </svg>
-        <span>Curated by You</span>
-      </a>
-      <a class="thank-you" href="/thank-you">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 32 29.6" width="24">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </svg>
-        <span>Thank you</span>
-      </a>
-      <a class="map" href="/learn-anything">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
-          <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/>
-        </svg>
-        <span>Home</span>
-      </a>
-      <a class="emoji-reference">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
-          <path d="M0 0h24v24H0z" fill="none"/>
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/>
-        </svg>
-        <span>Emojis</span>
-      </a>
+    footer {
+      display: none;
+    }
+  </style>
+</head>
 
-      <div class="emoji-reference-container">
-        <div class="emoji-reference-table">
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f5fa.png" alt="map">
-            <span>another mind map</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f310.png" alt="wiki">
-            <span>wiki article</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" alt="paper and pencil">
-            <span>course</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d6.png" alt="open book">
-            <span>free book</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d5.png" alt="closed book">
-            <span>non-free book (you either have to search online or buy it)</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4c4.png" alt="paper">
-            <span>research paper</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f440.png" alt="eyeshttps://assets-cdn.github.com/images/icons/emoji/unicode/1f440.png">
-            <span>video or talk</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f58b.png" alt="pen">
-            <span>article</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f5c3.png" alt="box">
-            <span>blog</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="octocat">
-            <span>github page</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f47e.png" alt="space invaders">
-            <span>interactive (tutorial or some presentation)</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f58c.png" alt="paintbrush">
-            <span>image or an imgur album</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f399.png" alt="microphone">
-            <span>podcast</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ee.png" alt="mail box">
-            <span>newsletter</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ac.png" alt="chat">
-            <span>chat (either a slack channel, discord server or similar)</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" alt="moviemaker">
-            <span>youtube channel</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon emoji-reddit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg" alt="reddit">
-            <span>reddit thread or comment</span>
-          </div>
-          <div>
-            <img class="emoji-reference-icon emoji-quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png" alt="reddit">
-            <span>quora question or answer</span>
-          </div>
+<body>
+  <div id="react-app"></div>
+
+  <footer>
+    <a class="octocat" href="https://github.com/nikitavoloboev/learn-anything">
+      <svg height="24" width="24" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+        />
+      </svg>
+      <span>Curated by You</span>
+    </a>
+    <a class="thank-you" href="/thank-you">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 32 29.6" width="24">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </svg>
+      <span>Thank you</span>
+    </a>
+    <a class="map" href="/learn-anything">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+        <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"
+        />
+      </svg>
+      <span>Home</span>
+    </a>
+    <a class="emoji-reference">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+        <path d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+        />
+      </svg>
+      <span>Emojis</span>
+    </a>
+
+    <div class="emoji-reference-container">
+      <div class="emoji-reference-table">
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f5fa.png" alt="map">
+          <span>another mind map</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f310.png" alt="wiki">
+          <span>wiki article</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" alt="paper and pencil">
+          <span>course</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d6.png" alt="open book">
+          <span>free book</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4d5.png" alt="closed book">
+          <span>non-free book (you either have to search online or buy it)</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4c4.png" alt="paper">
+          <span>research paper</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f440.png" alt="eyeshttps://assets-cdn.github.com/images/icons/emoji/unicode/1f440.png">
+          <span>video or talk</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f58b.png" alt="pen">
+          <span>article</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f5c3.png" alt="box">
+          <span>blog</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="octocat">
+          <span>github page</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f47e.png" alt="space invaders">
+          <span>interactive (tutorial or some presentation)</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f58c.png" alt="paintbrush">
+          <span>image or an imgur album</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f399.png" alt="microphone">
+          <span>podcast</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ee.png" alt="mail box">
+          <span>newsletter</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4ac.png" alt="chat">
+          <span>chat (either a slack channel, discord server or similar)</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a5.png" alt="moviemaker">
+          <span>youtube channel</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon emoji-reddit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg"
+            alt="reddit">
+          <span>reddit thread or comment</span>
+        </div>
+        <div>
+          <img class="emoji-reference-icon emoji-quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png" alt="reddit">
+          <span>quora question or answer</span>
         </div>
       </div>
+    </div>
 
-      <a class="twitter" href="https://twitter.com/learnanything_">
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-        width="20.000000pt" height="20.000000pt" viewBox="0 0 400.000000 400.000000"
+    <a class="twitter" href="https://twitter.com/learnanything_">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="0 0 400.000000 400.000000"
         preserveAspectRatio="xMidYMid meet">
-          <g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)"
-          fill="#9e9e9e" stroke="none">
-            <path d="M1755 3555 c-673 -105 -1207 -641 -1310 -1315 -19 -122 -19 -358 0
+        <g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)" fill="#9e9e9e" stroke="none">
+          <path d="M1755 3555 c-673 -105 -1207 -641 -1310 -1315 -19 -122 -19 -358 0
               -480 104 -677 638 -1211 1315 -1315 122 -19 358 -19 480 0 677 104 1211 638
               1315 1315 19 122 19 358 0 480 -104 677 -638 1211 -1315 1315 -115 18 -373 18
               -485 0z m705 -861 c25 -8 69 -32 97 -54 l53 -39 67 20 c38 12 85 30 105 40 21
@@ -156,39 +160,44 @@
               -132 252 l0 27 50 -19 c28 -10 62 -19 76 -19 26 0 26 1 -20 50 -71 75 -100
               147 -100 245 -1 76 24 175 43 175 3 0 33 -27 66 -61 158 -160 371 -268 589
               -298 42 -6 79 -11 81 -11 2 0 5 39 7 88 2 75 8 97 36 154 82 167 259 240 442
-              182z"/>
-          </g>
-        </svg>
-        <span></span>
-      </a>
-    </footer>
+              182z" />
+        </g>
+      </svg>
+      <span></span>
+    </a>
+  </footer>
 
-    <!-- React -->
-    <script src="https://unpkg.com/react@15.5.4/dist/react.min.js"></script>
-    <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.min.js"></script>
-    <script src="https://unpkg.com/react-autosuggest@9.0.1/dist/standalone/autosuggest.js"></script>
+  <!-- React -->
+  <script src="https://unpkg.com/react@15.5.4/dist/react.min.js"></script>
+  <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.min.js"></script>
+  <script src="https://unpkg.com/react-autosuggest@9.0.1/dist/standalone/autosuggest.js"></script>
 
-    <!-- Redux -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"></script>
+  <!-- Redux -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"></script>
 
-    <!-- App -->
-    <script src="/static/bundle.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0/8.8/auth0.min.js"></script>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- App -->
+  <script src="/static/bundle.js"></script>
 
-      ga('create', googleTrackingID, 'auto');
-    </script>
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    <!-- Remove temporary styling -->
-    <script>
+    ga('create', googleTrackingID, 'auto');
+  </script>
+
+  <!-- Remove temporary styling -->
+  <script>
       document.querySelector('#tmp-style').remove();
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
