@@ -27,6 +27,7 @@ export default class App extends Component {
         return (
           <Provider store={this.props.store}>
             <div>
+              <Sidebar />
               <h1 className="thank-you">Thank you</h1>
               <h2 className="thank-you">
                 For{' '}
@@ -39,7 +40,6 @@ export default class App extends Component {
               </h2>
               <h2 className="thank-you">You are amazing 💛</h2>
               <MindMapWrapper />
-              <Sidebar />
               <SnackBar />
             </div>
           </Provider>
@@ -56,8 +56,8 @@ export default class App extends Component {
         return (
           <Provider store={this.props.store}>
             <div>
-              <SearchBar />
               <Sidebar />
+              <SearchBar />
               <MindMapWrapper />
               <SnackBar />
             </div>
