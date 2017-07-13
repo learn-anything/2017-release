@@ -3,7 +3,11 @@ const compression = require('compression');
 const readFileSync = require('fs').readFileSync;
 const express = require('express');
 const dot = require('dot');
-const collection = require('./collection');
+const AWS = require('aws-sdk');
+
+// Load AWS configuration file.
+AWS.config.loadFromPath(`${__dirname}/AWSConfig.json`);
+const docClient = new AWS.DynamoDB.DocumentClient();
 
 const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
@@ -34,13 +38,25 @@ app.use(compression({ threshold: 0 }));
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  collection('maps', (db, coll) => {
-    const title = req.params[0].replace(/\//g, '---');
+  const title = req.params[0].replace(/\//g, '---');
 
-    coll.findOne({ title }).then((result) => {
-      res.send(JSON.stringify(result));
-      db.close();
-    });
+  docClient.query({
+    TableName: 'LA-maps',
+    KeyConditionExpression: '#title = :title',
+    ExpressionAttributeNames: { '#title': 'title' },
+    ExpressionAttributeValues: { ':title': title },
+  }, (err, data) => {
+    if (err) {
+      res.status(500).send(JSON.stringify(err));
+      return;
+    }
+
+    if (data.Items.length) {
+      res.send(JSON.stringify(data.Items[0]));
+      return;
+    }
+
+    res.status(404).send(`Map ${title} not found.`);
   });
 });
 
@@ -89,20 +105,32 @@ app.get('*', (req, res) => {
     const splitTitle = title.split('---');
     const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
 
-    collection('maps', (db, coll) => {
-      // Get the map from the DB.
-      coll.findOne({ title }).then((result) => {
-        // Specify the content of the OG tags.
+    docClient.query({
+      TableName: 'LA-maps',
+      KeyConditionExpression: '#title = :title',
+      ExpressionAttributeNames: { '#title': 'title' },
+      ExpressionAttributeValues: { ':title': title },
+    }, (err, data) => {
+      if (err) {
+        res.status(500).send(JSON.stringify(err));
+        return;
+      }
+
+      if (data.Items.length) {
+        const result = data.Items[0];
+
         res.send(render({
           title: result.key || topic,
           description: result.description || `Learn ${result.key || topic} with hand curated mind maps.`,
           url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
           image: `${req.protocol}://${req.headers.host}/thumbs${req.originalUrl}`,
         }));
-        db.close();
-      });
+        return;
+      }
+
+      res.status(404).send(`Map ${title} not found.`);
     });
   }
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log('Server started.'));
