@@ -39,12 +39,11 @@ export default class Sidebar extends Component {
               <div
                 id="option-themes"
                 onClick={this.showSettings.bind(this)}
-                className="menu-item"
-              >
+                className="menu-item">
                 Themes 🖌
               </div>
             </h1>
-            <h1>
+            {/*<h1>
               <div id="option-bookmarks" className="menu-item">
                 Bookmarks 🔖
               </div>
@@ -58,7 +57,7 @@ export default class Sidebar extends Component {
               <div id="option-path-picker" className="menu-item">
                 Path Picker 🗺
               </div>
-            </h1>
+            </h1>*/}
           </Menu>
         );
       case 'option-themes':
@@ -79,7 +78,7 @@ export default class Sidebar extends Component {
                 onClick={this.showSettings.bind(this)}
                 className="menu-item"
               >
-                Grey
+                Night 🌃
               </div>
             </h1>
             <h1>
@@ -88,19 +87,19 @@ export default class Sidebar extends Component {
                 onClick={this.showSettings.bind(this)}
                 className="menu-item"
               >
-                Pearl White
+                Pearl White ⚪
               </div>
             </h1>
-            <h1>
-              <div
-                id="night"
-                onClick={this.showSettings.bind(this)}
-                className="menu-item"
-              >
-                Night 🌃
-              </div>
-            </h1>
-            {/* <h1>
+            {/*<h1>
+                <div
+                  id="night"
+                  onClick={this.showSettings.bind(this)}
+                  className="menu-item"
+                >
+                  Night 🌃
+                </div>
+              </h1>
+              <h1>
               <div
                 id="theme-create"
                 onClick={this.showSettings.bind(this)}
