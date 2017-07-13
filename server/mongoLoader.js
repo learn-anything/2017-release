@@ -8,6 +8,9 @@ collection('maps', (db, coll) => {
   // Used to check when mongoDB is done inserting maps.
   let insertsPending = 0;
 
+  // Visited maps
+  const visited = [];
+
   // Used for generating the sitemap.
   const sitemap = sm.createSitemap({ hostname: 'https://learn-anything.xyz' });
   sitemap.add({ url: '/' });
@@ -45,28 +48,32 @@ collection('maps', (db, coll) => {
     // Convert all spaces in the title with dashes.
     parsedMap.title = parsedMap.title.replace('learn anything - ', '').replace(/ /g, '-');
 
-    // Add url of current map to sitemap.
-    const url = `/${parsedMap.title.replace(/---/g, '/')}/`;
-    sitemap.add({ url });
+    if (visited.indexOf(parsedMap.title) === -1) {
+      visited.push(parsedMap.title);
 
-    if (parsedMap.title === '') {
-      parsedMap.title = 'learn-anything';
+      // Add url of current map to sitemap.
+      const url = `/${parsedMap.title.replace(/---/g, '/')}/`;
+      sitemap.add({ url });
+
+      if (parsedMap.title === '') {
+        parsedMap.title = 'learn-anything';
+      }
+
+      insertsPending += 1;
+
+      coll.updateOne({ title: parsedMap.title }, { $set: parsedMap }, { upsert: true })
+        .then(() => {
+          insertsPending -= 1;
+
+          if (insertsPending === 0) {
+            createTriggers();
+          }
+        })
+        .catch((err) => {
+          insertsPending = 0;
+          throw err;
+        });
     }
-
-    insertsPending += 1;
-
-    coll.updateOne({ title: parsedMap.title }, { $set: parsedMap }, { upsert: true })
-      .then(() => {
-        insertsPending -= 1;
-
-        if (insertsPending === 0) {
-          createTriggers();
-        }
-      })
-      .catch((err) => {
-        insertsPending = 0;
-        throw err;
-      });
   });
 
   writeFile('client/sitemap.xml', sitemap.toString(), () => console.log('Maps loaded and sitemap created.'));

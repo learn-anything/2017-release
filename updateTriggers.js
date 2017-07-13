@@ -18,4 +18,4 @@ triggers.forEach((el) => {
   }
 });
 
-fs.writeFileSync(`${__dirname}/client/utils/titleTriggers.json`, JSON.stringify(triggersTitle));
+fs.writeFileSync(`${__dirname}/client/utils/triggers.json`, JSON.stringify(triggersTitle));
