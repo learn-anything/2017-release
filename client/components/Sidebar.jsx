@@ -10,10 +10,23 @@ import '../sass/_Sidebar.sass';
 }))
 export default class Sidebar extends Component {
   showSettings(event) {
-    if (this.props.selected === 'themes') {
-      this.props.dispatch(setMenu(''));
-    } else {
-      this.props.dispatch(setMenu('themes'));
+    if (event.target.id.startsWith('option-')) {
+      if (this.props.selected === event.target.id) {
+        this.props.dispatch(setMenu(''));
+      } else {
+        this.props.dispatch(setMenu(event.target.id));
+      }
+    }
+    switch (event.target.id) {
+      case 'white':
+        require('../themes/_PearlWhite.sass');
+        break;
+      case 'night':
+        require('../themes/_Night.sass');
+        break;
+      case 'grey':
+        require('../themes/_Grey.sass');
+        break;
     }
   }
 
@@ -24,7 +37,7 @@ export default class Sidebar extends Component {
           <Menu right width={340}>
             <h1>
               <div
-                id="themes"
+                id="option-themes"
                 onClick={this.showSettings.bind(this)}
                 className="menu-item"
               >
@@ -32,28 +45,23 @@ export default class Sidebar extends Component {
               </div>
             </h1>
             <h1>
-              <div id="saved-maps" className="menu-item">
+              <div id="option-bookmarks" className="menu-item">
                 Bookmarks 🔖
               </div>
             </h1>
             <h1>
-              <div id="saved-maps" className="menu-item">
+              <div id="option-learned-maps" className="menu-item">
                 Learned Maps ✅
               </div>
             </h1>
             <h1>
-              <div id="saved-maps" className="menu-item">
+              <div id="option-path-picker" className="menu-item">
                 Path Picker 🗺
-              </div>
-            </h1>
-            <h1>
-              <div id="saved-maps" className="menu-item">
-                Coming Soon 🐙
               </div>
             </h1>
           </Menu>
         );
-      case 'themes':
+      case 'option-themes':
         return (
           <Menu right width={340}>
             <h1>
@@ -67,11 +75,11 @@ export default class Sidebar extends Component {
             </h1>
             <h1>
               <div
-                id="gray"
+                id="grey"
                 onClick={this.showSettings.bind(this)}
                 className="menu-item"
               >
-                Gray Theme
+                Grey
               </div>
             </h1>
             <h1>
@@ -80,10 +88,19 @@ export default class Sidebar extends Component {
                 onClick={this.showSettings.bind(this)}
                 className="menu-item"
               >
-                White Theme
+                Pearl White
               </div>
             </h1>
             <h1>
+              <div
+                id="night"
+                onClick={this.showSettings.bind(this)}
+                className="menu-item"
+              >
+                Night 🌃
+              </div>
+            </h1>
+            {/* <h1>
               <div
                 id="theme-create"
                 onClick={this.showSettings.bind(this)}
@@ -91,13 +108,39 @@ export default class Sidebar extends Component {
               >
                 Create your own
               </div>
-            </h1>
+            </h1> */}
           </Menu>
         );
-      case 'bookmarks':
-        return <Menu right width={340} />;
-      case 'learned maps':
-        return <Menu right width={340} />;
+      case 'option-bookmarks':
+        return (
+          <div>
+            <Menu right width={340} />
+            <h1>
+              <div
+                id="coming-soon"
+                onClick={this.showSettings.bind(this)}
+                className="menu-item"
+              >
+                Night 🌃
+              </div>
+            </h1>
+          </div>
+        );
+      case 'option-learned-maps':
+        return (
+          <div>
+            <Menu right width={340} />
+            <h1>
+              <div
+                id="coming-soon"
+                onClick={this.showSettings.bind(this)}
+                className="menu-item"
+              >
+                Night 🌃
+              </div>
+            </h1>
+          </div>
+        );
       default:
         break;
     }

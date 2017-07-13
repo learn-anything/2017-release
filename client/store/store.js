@@ -42,7 +42,7 @@ const initialState = {
 
   menu: {
     selected: '',
-    theme: 'Gray',
+    theme: 'Grey',
   },
 
 };
