@@ -18,7 +18,7 @@ def parse_urls(filename):
     """
     with open(filename, 'r') as triggers_file:
         template = 'https://my.mindnode.com/{}.json'
-        return [template.format(el['map'][0 : 40]) for el in json.load(triggers_file)]
+        return [(template.format(el['map'][0 : 40]), el) for el in json.load(triggers_file)]
 
     return None
 
@@ -33,8 +33,12 @@ class MindNodeSpider(scrapy.Spider):
         super(MindNodeSpider, self).__init__(*args, **kwargs)
         self.start_urls = parse_urls(filename)
 
+    def start_requests(self):
+        return [scrapy.Request(url[0], callback=self.parse, meta={ 'trigger': url[1]['name'] }) for url in self.start_urls]
+
     def parse(self, response):
         data = json.loads(response.body_as_unicode())
+        data['trigger'] = response.meta['trigger']
 
         filename = data['title'].replace(' - ', '/').replace(' ', '-')
         filename = 'maps/{}.json'.format(filename)
@@ -43,6 +47,6 @@ class MindNodeSpider(scrapy.Spider):
             makedirs(path.dirname(filename))
 
         with open(filename, 'w') as map_file:
-            map_file.write(response.body.replace('https://my.mindnode.com', '/id'))
+            map_file.write(json.dumps(data))
 
         yield {'id': data['token'], 'title': data['title']}
