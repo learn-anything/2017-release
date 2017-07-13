@@ -32,8 +32,8 @@ app.get('*', (req, res) => {
   });
 });
 
-const server = app.listen(4000, () =>
+const server = app.listen(4000, () => (
   generateThumbs('http://0.0.0.0:4000/').then(() => server.close())
-);
+));
 
 // chromium --headless --hide-scrollbars --remote-debugging-port=9222 --disable-gpu &

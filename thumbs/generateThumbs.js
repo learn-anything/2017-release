@@ -20,7 +20,7 @@ const mkdirs = (dirname) => {
   fs.mkdirSync(dirname);
 };
 
-const generateThumbs = url => new Promise((res, rej) => {
+const generateThumbs = url => new Promise((res) => {
   // Start the Chrome Debugging Protocol.
   CDP(async (client) => {
     const { DOM, Emulation, Network, Page } = client;
@@ -40,7 +40,7 @@ const generateThumbs = url => new Promise((res, rej) => {
       Emulation.setVisibleSize({ width, height }),
     ]);
 
-    const takeScreenshot = mapPath => new Promise((resolve, reject) => {
+    const takeScreenshot = mapPath => new Promise((resolve) => {
       Page.navigate({ url: url + mapPath });
 
       // Executed once, when the page finishes loading.
