@@ -1,21 +1,52 @@
-body
-  background-color: #eee
+@import '../sass/variables'
 
+body
+  background-color: $grey200
+
+// I want to learn
 .searchbar-container
   &::before
-    color: #000000
+    color: $grey900
+
+// Searchbar
+.react-autosuggest__input
+  &:focus
+    background-color: $grey200
+
+// Searchbar suggestion
+.introText
+  color: $grey900
+
+
+// Path to map
+.breadcrumbs span
+  color: $grey900
 
 .mindmap-connection
-  stroke: #000000
+  stroke: $grey900
 
+// Subnodes text
 .mindmap-subnode-text a
-  color: #000000
+  color: $grey900
 
-.breadcrumbs span
-  color: #000000
 
+// Burger menu
 .bm-burger-bars
-  background: #000000
+  background: $grey900
 
-.introText
-  color: #000000
+.bm-menu
+  background: $grey900
+
+.bm-item-list
+  color: $grey200
+
+.bm-cross
+  background-color: $grey200
+
+.menu-item
+  color: $grey200
+
+
+// Footer icons
+footer > a > svg
+  fill: $grey900
