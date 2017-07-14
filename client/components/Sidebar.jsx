@@ -43,7 +43,7 @@ export default class Sidebar extends Component {
                 Themes 🖌
               </div>
             </h1>
-            <h1>
+          {/*<h1>
               <div id="option-bookmarks" className="menu-item">
                 Bookmarks 🔖
               </div>
@@ -57,7 +57,7 @@ export default class Sidebar extends Component {
               <div id="option-path-picker" className="menu-item">
                 Path Picker 🗺
               </div>
-            </h1>
+            </h1>*/}
           </Menu>
         );
       case 'option-themes':
