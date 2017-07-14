@@ -3,6 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { connect } from 'react-redux';
 import setMenu from '../actions/setMenu';
 import '../sass/_Sidebar.sass';
+import login from '../utils/auth';
 
 @connect(store => ({
   selected: store.menu.selected,
@@ -38,8 +39,18 @@ export default class Sidebar extends Component {
             <h1>
               <div
                 id="option-themes"
+                onClick={login.bind(this)}
+                className="menu-item"
+              >
+                Login
+              </div>
+            </h1>
+            <h1>
+              <div
+                id="option-themes"
                 onClick={this.showSettings.bind(this)}
-                className="menu-item">
+                className="menu-item"
+              >
                 Themes 🖌
               </div>
             </h1>
