@@ -76,6 +76,11 @@
   .introText
     display: none
 
+  .react-autosuggest__input
+    +respond-to(610px)
+      margin: 0
+      width: calc(100% - 50px)
+
 .react-autosuggest__suggestion
   @extend %field
   background-color: $grey200
@@ -100,18 +105,9 @@
 .react-autosuggest__input
   @extend %field
 
-
-.searchbar-container--exploring
-  .react-autosuggest__input
-    +respond-to(610px)
-      margin: 0
-      width: calc(100% - 50px)
-
-
 .react-autosuggest__suggestions-list
   margin: 0
   padding: 0
-
 
 +respond-to($width-small)
   body

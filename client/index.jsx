@@ -4,6 +4,7 @@ import axios from 'axios';
 import App from './containers/App.jsx';
 import fetchMap from './actions/fetchMap';
 import store from './store/store';
+import getParent from './utils/getParent';
 import './sass/main.sass';
 
 // Use Analytics if on production.
@@ -21,14 +22,16 @@ window.addEventListener('load', () => {
   // If link is internal, fetch new map; if link is external, open in new tab.
   document.body.addEventListener('click', (e) => {
     e.preventDefault();
-    let t = e.target;
+    const t = getParent(e.target, 'A');
+    window.getParent = getParent;
 
-    if (t.tagName === 'IMG' && t.parentElement.tagName === 'A') {
-      t = t.parentElement;
+    // No link
+    if (!t) {
+      return;
     }
 
     // Internal link clicked.
-    if (t.tagName === 'A' && t.href.indexOf(window.location.origin) !== -1) {
+    if (t.href.indexOf(window.location.origin) !== -1) {
       const url = t.href.replace(window.location.origin, '');
 
       ga('send', 'event', {
@@ -41,7 +44,7 @@ window.addEventListener('load', () => {
       ga('send', 'pageview', url);
 
     // External link clicked.
-    } else if (t.tagName === 'A') {
+    } else {
       const windowRef = window.open();
 
       ga('send', 'event', {
