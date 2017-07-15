@@ -42,7 +42,7 @@ app.use(compression({ threshold: 0 }));
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  const title = req.params[0].replace(/\//g, '---');
+  const title = req.params[0].replace(/\//g, '---').replace(/\/$/, '');
 
   docClient.query({
     TableName: 'LA-maps',
