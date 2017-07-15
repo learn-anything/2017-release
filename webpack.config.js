@@ -1,13 +1,11 @@
 const webpack = require('webpack');
 
 const isDev = process.env.NODE_ENV !== 'production';
-const entry = isDev
-  ? [
-      'webpack-hot-middleware/client?reload=true&timeout=2000',
-      'react-hot-loader/patch',
-      './client/index.jsx'
-    ]
-  : './client/index.jsx';
+const entry = isDev ? [
+  'webpack-hot-middleware/client?reload=true&timeout=2000',
+  'react-hot-loader/patch',
+  './client/index.jsx'
+] : './client/index.jsx';
 
 const plugins = isDev ? [new webpack.HotModuleReplacementPlugin()] : [];
 
@@ -20,25 +18,25 @@ module.exports = {
     path: `${__dirname}/client/dist`,
     filename: 'bundle.js',
     libraryTarget: 'umd',
-    publicPath: '/'
+    publicPath: '/',
   },
 
   resolve: {
-    extensions: ['.jsx', '.js']
+    extensions: ['.jsx', '.js'],
   },
 
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
       },
       {
         test: /\.s(a|c)ss$/,
         exclude: /node_modules/,
-        loader: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
-      }
-    ]
+        loader: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+      },
+    ],
   },
 
   externals: {
@@ -48,6 +46,6 @@ module.exports = {
     redux: 'Redux',
     'react-redux': 'ReactRedux',
     'redux-thunk': 'ReduxThunk',
-    'auth0-lock': 'Auth0Lock'
-  }
+    'auth0-lock': 'Auth0Lock',
+  },
 };
