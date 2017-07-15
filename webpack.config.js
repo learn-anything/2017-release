@@ -4,7 +4,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 const entry = isDev ? [
   'webpack-hot-middleware/client?reload=true&timeout=2000',
   'react-hot-loader/patch',
-  './client/index.jsx',
+  './client/index.jsx'
 ] : './client/index.jsx';
 
 const plugins = isDev ? [new webpack.HotModuleReplacementPlugin()] : [];
@@ -46,5 +46,6 @@ module.exports = {
     redux: 'Redux',
     'react-redux': 'ReactRedux',
     'redux-thunk': 'ReduxThunk',
+    'auth0-lock': 'Auth0Lock',
   },
 };

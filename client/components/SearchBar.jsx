@@ -8,8 +8,8 @@ import fetchMap from '../actions/fetchMap';
 import showMessage from '../actions/showMessage';
 import '../sass/_SearchBar.sass';
 
-const renderSuggestion = ({ key }) =>
-  <div className="searchbar-suggestion">{key}</div>;
+const renderSuggestion = ({ name }) =>
+  <div className="searchbar-suggestion">{name}</div>;
 
 // Get query and suggestions from store.
 @connect(store => ({
@@ -23,14 +23,16 @@ export default class SearchBar extends Component {
   onSuggestionSelected(event, { suggestion }) {
     event.preventDefault();
 
+    console.log(suggestion);
+
     // Send selected suggestion to GA.
     ga('send', 'event', {
       eventCategory: 'Search',
       eventAction: 'selected suggestion',
-      eventLabel: suggestion.key,
+      eventLabel: suggestion.name,
     });
 
-    const url = suggestion.title.replace(/---/g, '/');
+    const url = suggestion.map.replace(/---/g, '/');
     this.props.dispatch(fetchMap(url));
     this.props.dispatch(clearQuery());
     ga('send', 'pageview', `/${url}`);
@@ -55,10 +57,10 @@ export default class SearchBar extends Component {
       ga('send', 'event', {
         eventCategory: 'Search',
         eventAction: 'random selected',
-        eventLabel: this.props.placeholder.key,
+        eventLabel: this.props.placeholder.name,
       });
 
-      const url = this.props.placeholder.title.replace(/---/g, '/');
+      const url = this.props.placeholder.map.replace(/---/g, '/');
       this.props.dispatch(fetchMap(url));
       this.props.dispatch(clearQuery());
       ga('send', 'pageview', `/${url}`);
@@ -70,7 +72,7 @@ export default class SearchBar extends Component {
       autoFocus: true,
       value: this.props.query,
       onChange: e => this.props.dispatch(updateQuery(e.target.value)),
-      placeholder: this.props.placeholder.key,
+      placeholder: this.props.placeholder.name,
     };
 
     // Handlers for updating and clearing suggestions.
@@ -90,7 +92,7 @@ export default class SearchBar extends Component {
           renderSuggestion={renderSuggestion}
           highlightFirstSuggestion={true}
           suggestions={this.props.suggestions}
-          getSuggestionValue={suggestion => suggestion.key}
+          getSuggestionValue={suggestion => suggestion.name}
           onSuggestionsFetchRequested={onFetchRequested}
           onSuggestionsClearRequested={onClearRequested}
           onSuggestionSelected={this.onSuggestionSelected.bind(this)}

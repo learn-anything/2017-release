@@ -37,7 +37,7 @@ class MindNodeSpider(scrapy.Spider):
         return [scrapy.Request(url[0], callback=self.parse, meta={ 'trigger': url[1]['name'] }) for url in self.start_urls]
 
     def parse(self, response):
-        data = json.loads(response.body_as_unicode())
+        data = json.loads(response.body_as_unicode().replace('https://my.mindnode.com/', '/id/'))
         data['trigger'] = response.meta['trigger']
 
         filename = data['title'].replace(' - ', '/').replace(' ', '-')

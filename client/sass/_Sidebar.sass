@@ -9,12 +9,6 @@
   top: 0
   width: 36px
 
-  +respond-to($width-small)
-    margin: 20px 30px
-
-  +respond-to(670px)
-    margin: 20px 10px
-
 .bm-burger-bars
   border-radius: 2px
 
@@ -46,3 +40,12 @@
 
 .menu-item
   cursor: pointer
+
+
++respond-to($width-small)
+  .bm-burger-button
+    margin: 20px 30px
+
++respond-to(670px)
+  .bm-burger-button
+    margin: 20px 10px
