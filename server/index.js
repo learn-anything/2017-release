@@ -6,7 +6,7 @@ const dot = require('dot');
 const AWS = require('aws-sdk');
 
 // Load AWS configuration file.
-AWS.config.loadFromPath(`${__dirname}/AWSConfig.json`);
+AWS.config.loadFromPath(process.env.AWS_KEY_DYNAMO_READ);
 const docClient = new AWS.DynamoDB.DocumentClient();
 
 const isDev = process.env.NODE_ENV !== 'production';

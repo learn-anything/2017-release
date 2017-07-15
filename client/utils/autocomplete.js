@@ -123,7 +123,7 @@ export const getSuggestions = (query) => {
   }
 
   let suggestions = triggers
-    .map(trigger => ({ trigger, score: fuzzyScore(value, trigger.key) }))
+    .map(trigger => ({ trigger, score: fuzzyScore(value, trigger.name) }))
     .filter(({ score }) => score.matched)
     .sort((a, b) => b.score.score - a.score.score)
     .map(({ trigger }) => trigger);
