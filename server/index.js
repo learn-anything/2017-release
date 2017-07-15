@@ -5,8 +5,12 @@ const express = require('express');
 const dot = require('dot');
 const AWS = require('aws-sdk');
 
-// Load AWS configuration file.
-AWS.config.loadFromPath(process.env.AWS_KEY_DYNAMO_READ);
+// Update AWS configuration.
+AWS.config.update({
+  region: 'us-west-1',
+  accessKeyId: process.env.DYNAMO_READ_KEY_ID,
+  secretAccessKey: process.env.DYNAMO_READ_SECRET_ACCESS_KEY,
+});
 const docClient = new AWS.DynamoDB.DocumentClient();
 
 const isDev = process.env.NODE_ENV !== 'production';
