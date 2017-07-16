@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import SearchBar from '../components/SearchBar.jsx';
 import Sidebar from '../components/Sidebar.jsx';
 import MindMapWrapper from '../components/MindMapWrapper.jsx';
-import ContributeButton from '../components/ContributeButton.jsx';
+// import ContributeButton from '../components/ContributeButton.jsx';
 import SnackBar from '../components/SnackBar.jsx';
 import fetchMap from '../actions/fetchMap';
 import store from '../store/store';
@@ -60,7 +60,7 @@ export default class App extends Component {
               <Sidebar />
               <SearchBar />
               <MindMapWrapper />
-              <ContributeButton />
+              // <ContributeButton />
               <SnackBar />
             </div>
           </Provider>
