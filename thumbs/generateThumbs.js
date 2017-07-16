@@ -1,7 +1,7 @@
 const CDP = require('chrome-remote-interface');
 const path = require('path');
 const fs = require('fs');
-const walkDir = require('../server/walkDir');
+const walkDir = require('./walkDir');
 
 const width = 1200;
 const height = 630;

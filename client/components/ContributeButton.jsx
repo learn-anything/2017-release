@@ -2,21 +2,32 @@ import { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import '../sass/_ContributeButton.sass';
 
-@connect(store => ({ issue: undefined }))
+@connect(store => ({ url: store.map.url }))
 export default class ContributeButton extends Component {
   onClick() {
-    setTimeout(() => { location.href = this.props.issue; }, 500);
+    const windowRef = window.open();
+    const template = (url) => {
+      let path = `${url}.json`;
+
+      if (path !== '/learn-anything.json') {
+        path = `/learn-anything${path}`;
+      }
+
+      return `https://github.com/nikitavoloboev/learn-anything/edit/master${path}`
+    };
 
     ga('send', 'event', {
-      eventCategory: 'Coontribution',
-      eventAction: 'contribution button clicked',
-      eventLabel: this.props.issue,
-      hitCallback: () => { location.href = this.props.issue; },
+      eventCategory: 'Contribution',
+      eventAction: 'contribute button clicked',
+      eventLabel: this.props.url,
     });
+
+    windowRef.location = template(this.props.url);
+    windowRef.focus();
   }
 
   render() {
-    if (this.props.issue) {
+    if (this.props.url) {
       return (
         <button
           onClick={this.onClick.bind(this)}

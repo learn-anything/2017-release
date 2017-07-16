@@ -23,8 +23,6 @@ export default class SearchBar extends Component {
   onSuggestionSelected(event, { suggestion }) {
     event.preventDefault();
 
-    console.log(suggestion);
-
     // Send selected suggestion to GA.
     ga('send', 'event', {
       eventCategory: 'Search',

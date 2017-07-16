@@ -11,7 +11,7 @@ import Breadcrumbs from '../components/Breadcrumbs.jsx';
 export default class MindMapWrapper extends Component {
   render() {
     const pathname = window.location.pathname;
-    console.log(pathname);
+
     return (
       <div>
         {pathname === '/thank-you' ? '' : <Breadcrumbs />}

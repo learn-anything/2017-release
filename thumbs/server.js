@@ -1,10 +1,18 @@
 const readFileSync = require('fs').readFileSync;
 const express = require('express');
 const dot = require('dot');
-const collection = require('../server/collection');
+const AWS = require('aws-sdk');
 const generateThumbs = require('./generateThumbs');
 
 const app = express();
+
+// Update AWS configuration.
+AWS.config.update({
+  region: 'us-west-1',
+  accessKeyId: process.env.DYNAMO_READ_KEY_ID,
+  secretAccessKey: process.env.DYNAMO_READ_SECRET_ACCESS_KEY,
+});
+const docClient = new AWS.DynamoDB.DocumentClient();
 
 app.get('/static/bundle.js', (req, res) => {
   res.sendFile('dist/bundle.js', { root: __dirname });
@@ -21,19 +29,26 @@ app.get('*', (req, res) => {
     title = title.replace('learn-anything---', '');
   }
 
-  collection('maps', (db, coll) => {
-    // Get the map from the DB.
-    coll.findOne({ title })
-      .then((result) => {
-        res.send(render({ map: JSON.stringify(result) }));
-        db.close();
-      })
-      .catch((err) => { throw err; });
+  docClient.query({
+    TableName: 'LA-maps',
+    KeyConditionExpression: '#title = :title',
+    ExpressionAttributeNames: { '#title': 'title' },
+    ExpressionAttributeValues: { ':title': title },
+  }, (err, data) => {
+    if (err) {
+      res.status(500).send(JSON.stringify(err));
+      return;
+    }
+
+    if (data.Items.length) {
+      res.send(render({ map: JSON.stringify(data.Items[0]) }));
+      return;
+    }
+
+    res.status(404).send(`Map ${title} not found.`);
   });
 });
 
 const server = app.listen(4000, () => (
   generateThumbs('http://0.0.0.0:4000/').then(() => server.close())
 ));
-
-// chromium --headless --hide-scrollbars --remote-debugging-port=9222 --disable-gpu &
