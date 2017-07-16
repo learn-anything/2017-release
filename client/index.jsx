@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
     window.getParent = getParent;
 
     // No link
-    if (!t) {
+    if (!t || !t.href) {
       return;
     }
 
