@@ -32,7 +32,7 @@ const initialState = {
 
   message: {
     text: '',
-    visible: false,
+    visible: 'hidden',
   },
 
   search: {

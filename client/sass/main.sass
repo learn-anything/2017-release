@@ -7,7 +7,9 @@
 
 body
   margin: 0
-  overflow-y: hidden
+
+  +respond-to($width-small)
+    font-size: 12px
 
 footer
   bottom: 0
@@ -21,9 +23,11 @@ footer
     z-index: -1
 
     span
-      color: $grey500
       font-weight: bold
       vertical-align: 4px
+
+  +respond-to($width-extra-small)
+    display: none
 
 .heart:hover
   svg
@@ -39,13 +43,6 @@ footer
   span
     color: $deep-orange-a400
 
-.octocat:hover
-  svg
-    fill: $white
-
-  span
-    color: $white
-
 .map:hover
   svg
     fill: $orange-a400
@@ -54,14 +51,6 @@ footer
     color: $orange-a400
 
 .emoji-reference:hover
-  cursor: pointer
-
-  svg
-    fill: $grey200
-
-  span
-    color: $grey200
-
   & + .emoji-reference-container
     display: block
 
@@ -102,7 +91,11 @@ footer
   border-radius: 50%
 
 .mindmap-svg
-  height: 100vh
+  height: calc(100vh - 142px)
+
+  +respond-to($width-small)
+    height: calc(100vh - 134px)
+
 
 .mindmap-node
   p:hover
@@ -112,11 +105,3 @@ footer
   a
     color: $grey900
     text-decoration: none
-
-+respond-to($width-small)
-  body
-    font-size: 12px
-
-+respond-to($width-extra-small)
-  footer
-    display: none

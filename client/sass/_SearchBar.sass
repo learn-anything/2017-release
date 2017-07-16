@@ -81,6 +81,9 @@
       margin: 0
       width: calc(100% - 50px)
 
+  +respond-to($width-small)
+    z-index: 1
+
 .react-autosuggest__suggestion
   @extend %field
   background-color: $grey200
@@ -109,9 +112,6 @@
   margin: 0
   padding: 0
 
-+respond-to($width-small)
-  body
+body
+  +respond-to($width-small)
     font-size: 12px
-
-  .react-autosuggest__suggestions-container
-    z-index: 1
