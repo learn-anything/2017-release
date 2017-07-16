@@ -42,7 +42,7 @@ app.use(compression({ threshold: 0 }));
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  const title = req.params[0].replace(/\//g, '---').replace(/\/$/, '');
+  const title = req.params[0].replace(/\/$/, '').replace(/\//g, '---');
 
   docClient.query({
     TableName: 'LA-maps',
@@ -105,7 +105,7 @@ app.get('*', (req, res) => {
   } else {
     // Render any other map.
     // Generate map name and topic of the map.
-    const title = req.originalUrl.slice(1).replace(/\//g, '---');
+    const title = req.originalUrl.slice(1).replace(/\/$/, '').replace(/\//g, '---');
     const splitTitle = title.split('---');
     const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
 
