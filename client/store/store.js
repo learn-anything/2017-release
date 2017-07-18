@@ -30,9 +30,21 @@ const initialState = {
     error: undefined,
   },
 
-  message: {
-    text: '',
-    visible: 'hidden',
+  dialogs: {
+    unmatched: {
+      query: '',
+      visible: false,
+    },
+
+    contribute: {
+      url: '',
+      visible: false,
+    },
+  },
+
+  unmatchedDialog: {
+    query: '',
+    visible: false,
   },
 
   search: {
@@ -40,11 +52,7 @@ const initialState = {
     suggestions: [],
   },
 
-  menu: {
-    selected: '',
-    theme: 'Grey',
-  },
-
+  theme: localStorage.getItem('theme') || 'PearlWhite',
 };
 
 export default createStore(reducer, initialState, composeEnhancers(middleware));

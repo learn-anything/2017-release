@@ -45,7 +45,7 @@ app.get(/maps\/(.*)/, (req, res) => {
   const title = req.params[0].replace(/\/$/, '').replace(/\//g, '---');
 
   docClient.query({
-    TableName: 'LA-maps',
+    TableName: 'la-maps',
     KeyConditionExpression: '#title = :title',
     ExpressionAttributeNames: { '#title': 'title' },
     ExpressionAttributeValues: { ':title': title },
@@ -110,7 +110,7 @@ app.get('*', (req, res) => {
     const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
 
     docClient.query({
-      TableName: 'LA-maps',
+      TableName: 'la-maps',
       KeyConditionExpression: '#title = :title',
       ExpressionAttributeNames: { '#title': 'title' },
       ExpressionAttributeValues: { ':title': title },

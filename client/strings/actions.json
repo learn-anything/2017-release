@@ -15,13 +15,6 @@
     }
   },
 
-  "message": {
-    "show": "SHOW_MESSAGE",
-    "hide": "HIDE_MESSAGE",
-    "bye": "MAKE_HIDDEN",
-    "hi": "MAKE_VISIBLE"
-  },
-
   "search": {
     "suggestions": {
       "fetch": "FETCH_SUGGESTIONS",
@@ -34,12 +27,18 @@
     }
   },
 
-  "history": {
-    "set": "SET_HISTORY"
+  "theme": {
+    "set": "SET_THEME"
   },
 
-  "menu": {
-    "set": "SET_MENU"
+  "dialogs": {
+    "unmatched": {
+      "show": "DIALOG_UNMATCHED_SHOW",
+      "hide": "DIALOG_UNMATCHED_HIDE"
+    },
+    "contribute": {
+      "show": "DIALOG_CONTRIBUTE_SHOW",
+      "hide": "DIALOG_CONTRIBUTE_HIDE"
+    }
   }
-
 }

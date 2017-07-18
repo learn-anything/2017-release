@@ -5,7 +5,8 @@ import Autosuggest from 'react-autosuggest';
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from '../actions/Search';
 import { randomTrigger, getSuggestions } from '../utils/autocomplete';
 import fetchMap from '../actions/fetchMap';
-import showMessage from '../actions/showMessage';
+import UnmatchedDialog from './dialogs/UnmatchedDialog.jsx'
+import { showUnmatched } from '../actions/dialogs';
 import '../sass/_SearchBar.sass';
 
 const renderSuggestion = ({ name }) =>
@@ -47,7 +48,8 @@ export default class SearchBar extends Component {
           eventAction: 'unmatched query',
           eventLabel: this.props.query,
         });
-        this.props.dispatch(showMessage('Sorry, you can\'t search that yet 😞'));
+
+        this.props.dispatch(showUnmatched(this.props.query));
       }
     } else {
       // if you haven't written anything into the textbox when hittin enter
@@ -99,6 +101,7 @@ export default class SearchBar extends Component {
           Press Enter to open our randomly suggested map.<br></br>
           Start writing to get a list of existing topics.
         </p>
+        <UnmatchedDialog />
       </form>
     );
   }

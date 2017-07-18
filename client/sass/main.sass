@@ -2,7 +2,6 @@
 
 *
   box-sizing: border-box
-  color: $grey300
   font-family: 'Raleway', sans-serif
 
 body
@@ -26,16 +25,6 @@ footer
       font-weight: bold
       vertical-align: 4px
 
-  +respond-to($width-extra-small)
-    display: none
-
-.heart:hover
-  svg
-    fill: $deep-orange-a400
-
-  span
-    color: $deep-orange-a400
-
 .thank-you:hover
   svg
     fill: $deep-orange-a400
@@ -50,6 +39,7 @@ footer
   span
     color: $orange-a400
 
+
 .emoji-reference:hover
   & + .emoji-reference-container
     display: block
@@ -61,7 +51,6 @@ footer
   position: absolute
 
 .emoji-reference-table
-  background-color: $grey900
   border-radius: 10px
   box-shadow: $shadow-active
   padding: 15px 10px
@@ -70,6 +59,7 @@ footer
   height: 24px
   padding: 2px
   width: 24px
+
 
 .patreon-link
   color: $purple-500
@@ -90,12 +80,12 @@ footer
 .emoji-reddit
   border-radius: 50%
 
+
 .mindmap-svg
   height: calc(100vh - 142px)
 
   +respond-to($width-small)
     height: calc(100vh - 134px)
-
 
 .mindmap-node
   p:hover
@@ -105,3 +95,9 @@ footer
   a
     color: $grey900
     text-decoration: none
+
+.twitter,
+.thank-you,
+.octocat > span
+  +respond-to($width-extra-small)
+    display: none

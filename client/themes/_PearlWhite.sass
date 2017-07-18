@@ -1,58 +1,76 @@
 @import '../sass/variables'
 
-body
+
+body.PearlWhite
   background-color: $grey200
 
-// I want to learn
-.searchbar-container
-  &::before
+.PearlWhite
+  // I want to learn
+  .searchbar-container
+    &::before
+      color: $grey900
+
+  // Searchbar
+  .react-autosuggest__input
+    &:focus
+      background-color: $white
+
+  // Searchbar suggestion
+  .introText
     color: $grey900
 
-// Searchbar
-.react-autosuggest__input
-  &:focus
+
+  // Path to map
+  .breadcrumbs span
+    color: $grey900
+
+  .mindmap-connection
+    stroke: $grey900
+
+  // Subnodes text
+  .mindmap-subnode-group a
+    color: $grey900
+
+
+  // Burger menu
+  .bm-burger-bars
+    background: $grey900
+
+  .bm-menu
+    background: $grey900
+
+  .bm-cross
     background-color: $grey200
 
-// Searchbar suggestion
-.introText
-  color: $grey900
+  .sidebar-menu-item
+    color: $grey200
+
+  .sidebar-menu-options
+    div
+      border-bottom: 1px solid $grey800
+      color: $grey300
+
+    a
+      color: $orange-a400
+
+    div:not([disabled]):hover
+      background-color: $grey800
+
+    div:last-child
+      border-bottom: 0
 
 
-// Path to map
-.breadcrumbs span
-  color: $grey900
 
-.mindmap-connection
-  stroke: $grey900
+  // Footer icons
+  footer a
+    +icon-color($grey900)
 
-// Subnodes text
-.mindmap-subnode-group a
-  color: $grey900
+  .octocat:hover
+    +icon-color($grey600)
 
+  .emoji-reference:hover
+    +icon-color($grey600)
 
-// Burger menu
-.bm-burger-bars
-  background: $grey900
-
-.bm-menu
-  background: $grey900
-
-.bm-item-list
-  color: $grey200
-
-.bm-cross
-  background-color: $grey200
-
-.menu-item
-  color: $grey200
-
-
-// Footer icons
-footer a
-  +icon-color($grey900)
-
-.octocat:hover
-  +icon-color($grey600)
-
-.emoji-reference:hover
-  +icon-color($grey600)
+  .emoji-reference-table
+    background-color: $grey900
+    color: $grey200

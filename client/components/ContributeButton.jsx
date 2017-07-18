@@ -1,11 +1,12 @@
-import { Component, PropTypes } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
+import { showContribute } from '../actions/dialogs';
+import ContributeDialog from './dialogs/ContributeDialog.jsx';
 import '../sass/_ContributeButton.sass';
 
 @connect(store => ({ url: store.map.url }))
 export default class ContributeButton extends Component {
   onClick() {
-    const windowRef = window.open();
     const template = (url) => {
       let path = `${url}.json`;
 
@@ -13,33 +14,29 @@ export default class ContributeButton extends Component {
         path = `/learn-anything${path}`;
       }
 
-      return `https://github.com/nikitavoloboev/learn-anything/edit/master${path}`
+      return `https://github.com/nikitavoloboev/learn-anything/edit/master${path}`;
     };
 
-    ga('send', 'event', {
-      eventCategory: 'Contribution',
-      eventAction: 'contribute button clicked',
-      eventLabel: this.props.url,
-    });
-
-    windowRef.location = template(this.props.url);
-    windowRef.focus();
+    this.props.dispatch(showContribute(template(this.props.url)));
   }
 
   render() {
     if (this.props.url) {
       return (
-        <button
-          onClick={this.onClick.bind(this)}
-          className="contribute-button"
-          type="button"
-        >
-          <span className="contribute-button-text">Improve this map</span>
-          <img
-            className="contribute-button-emoji"
-            src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png"
-          />
-        </button>
+        <div>
+          <button
+            onClick={this.onClick.bind(this)}
+            className="contribute-button"
+            type="button"
+          >
+            <span className="contribute-button-text">Improve this map</span>
+            <img
+              className="contribute-button-emoji"
+              src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png"
+            />
+          </button>
+          <ContributeDialog />
+        </div>
       );
     }
 

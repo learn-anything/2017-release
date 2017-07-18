@@ -5,6 +5,7 @@ import App from './containers/App.jsx';
 import fetchMap from './actions/fetchMap';
 import store from './store/store';
 import getParent from './utils/getParent';
+import openNewTab from './utils/openNewTab';
 import './sass/main.sass';
 
 // Use Analytics if on production.
@@ -23,7 +24,6 @@ window.addEventListener('load', () => {
   document.body.addEventListener('click', (e) => {
     e.preventDefault();
     const t = getParent(e.target, 'A');
-    window.getParent = getParent;
 
     // No link
     if (!t || !t.href) {
@@ -40,21 +40,15 @@ window.addEventListener('load', () => {
         eventLabel: url.slice(1),
       });
 
-      store.dispatch(fetchMap(url));
-      ga('send', 'pageview', url);
-
+      if (url.indexOf('/thank-you') !== -1 || url.indexOf('/learn-anything') !== -1) {
+        setTimeout(() => { location.href = url; }, 200);
+      } else {
+        store.dispatch(fetchMap(url));
+        ga('send', 'pageview', url);
+      }
     // External link clicked.
     } else {
-      const windowRef = window.open();
-
-      ga('send', 'event', {
-        eventCategory: 'Navigation',
-        eventAction: 'external link clicked',
-        eventLabel: t.href,
-      });
-
-      windowRef.location = t.href;
-      windowRef.focus();
+      openNewTab('Navigation', 'external link clicked', t.href);
     }
   });
 });

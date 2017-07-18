@@ -1,0 +1,75 @@
+@import variables
+
+%button
+  background-color: $grey200
+  border-radius: 4px
+  color: $grey900
+  display: inline-block
+  font-weight: bold
+  margin: 5px
+  padding: 10px
+  transition: background-color .218s
+
+  &:hover
+    background-color: $almost-transparent
+
+.dialog-container
+  background-color: $almost-transparent
+  bottom: 0
+  height: 100%
+  left: 0
+  max-height: 100%
+  overflow: scroll
+  padding: 30px 20px
+  position: fixed
+  right: 0
+  top: 0
+  z-index: 5
+
+
+  input
+    background-color: transparent
+    border: 0
+    bottom: -1px
+    height: 1px
+    position: absolute
+    width: 1px
+
+    &:focus
+      outline: none
+
+.dialog-container--centered
+  align-items: center
+  display: flex
+  justify-content: center
+
+.dialog-container--invisible
+  display: none
+
+.dialog
+  background-color: $grey200
+  border-radius: 4px
+  box-shadow: $shadow-active
+  color: $grey900
+  font-size: 1rem
+  margin: 0 auto
+  max-width: 700px
+  min-width: 300px
+  padding: 5px
+
+.dialog-title
+  color: $grey900
+  font-size: 1.3rem
+  font-weight: bold
+  padding: 10px
+
+.dialog-body
+  color: $grey700
+  padding: 5px 20px
+
+.dialog-footer
+  text-align: right
+
+.dialog-footer--reject,
+.dialog-footer--accept
+  @extend %button

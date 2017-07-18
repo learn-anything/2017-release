@@ -21,6 +21,12 @@
     box-shadow: $shadow-active
     cursor: pointer
 
+  &:focus
+    outline: none
+
+  +respond-to($width-extra-small)
+    display: none
+
 .contribute-button-emoji
   height: 24px
 
@@ -28,9 +34,3 @@
   color: $grey100
   margin-right: 5px
   vertical-align: 4px
-
-+respond-to($width-extra-small)
-  .contribute-button
-    right: 50%
-    transform: translateX(50%)
-    z-index: 0
