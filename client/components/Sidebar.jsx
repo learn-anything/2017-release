@@ -53,7 +53,7 @@ export default class Sidebar extends Component {
               </div>*/
             }
             <div disabled>Hovering over a node will display a note if it exists</div>
-            <div disabled>Help button or hovering emojis is a great way to get their meanings</div>
+            <div disabled>Help button or hovering over emojis is a great way to get their meanings</div>
             <div disabled>
               All basics nodes have steps like 1. 2. and so on, if nodes have
               the same step, just choose any you like
@@ -64,7 +64,7 @@ export default class Sidebar extends Component {
             </div>
             <div disabled>
               Nearly all main nodes have a reddit subreddit or stack exchange forum
-              attached to them, they&quot;re a great place to ask questions you may
+              attached to them, they're a great place to ask questions you may
               have
             </div>
             <div disabled>
