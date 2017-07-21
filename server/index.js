@@ -42,7 +42,7 @@ app.use(compression({ threshold: 0 }));
 
 // Maps by map title.
 app.get(/maps\/(.*)/, (req, res) => {
-  const title = req.params[0].replace(/\/$/, '').replace(/\//g, '---');
+  const title = req.params[0].replace(/\/$/, '').replace(/\//g, '---').replace(/\?.*/, '');
 
   docClient.query({
     TableName: 'la-maps',
@@ -94,18 +94,19 @@ app.get('/sitemap.xml', (req, res) => {
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
 app.get('*', (req, res) => {
-  if (req.originalUrl === '/') {
+  let title = req.originalUrl.replace(/\?.*/, '');
+  if (title === '/') {
     // Render main page.
     res.send(render({
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
-      url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
+      url: `${req.protocol}://${req.headers.host}${title}`,
       image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
     }));
   } else {
     // Render any other map.
     // Generate map name and topic of the map.
-    const title = req.originalUrl.slice(1).replace(/\/$/, '').replace(/\//g, '---');
+    title = title.slice(1).replace(/\/$/, '').replace(/\//g, '---');
     const splitTitle = title.split('---');
     const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
 
@@ -126,8 +127,8 @@ app.get('*', (req, res) => {
         res.send(render({
           title: result.key || topic,
           description: result.description || `Learn ${result.key || topic} with hand curated mind maps.`,
-          url: `${req.protocol}://${req.headers.host}${req.originalUrl}`,
-          image: `${req.protocol}://${req.headers.host}/thumbs${req.originalUrl}`,
+          url: `${req.protocol}://${req.headers.host}${title}`,
+          image: `${req.protocol}://${req.headers.host}/thumbs${title}`,
         }));
         return;
       }
