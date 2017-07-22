@@ -29,7 +29,7 @@ export default class App extends Component {
           <Provider store={this.props.store}>
             <div>
               <Sidebar />
-              <h1 className="thank-you">
+              <h1 className="thank-you-text">
                 Thank you for&nbsp;
                 <a className="patreon-link" href="https://www.patreon.com/learnanything">
                   supporting our project
