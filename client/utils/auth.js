@@ -5,7 +5,7 @@ const lock = new Auth0Lock(
   'nikivi.eu.auth0.com'
 );
 
-lock.on('authenticated', (authResult) => {
+lock.on('authenticated', authResult => {
   lock.getUserInfo(authResult.accessToken, (error, profile) => {
     if (error) {
       // Handle error

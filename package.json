@@ -19,7 +19,7 @@
   "scripts": {
     "gen-thumbs": "./thumbs/gen-thumbs.sh",
     "clean-triggers": "replace-x '(https:\\/\\/my\\.)?mindnode\\.com\\/' '' triggers.json",
-    "clean-maps": "npm run clean-triggers && rm server/lookup.json  maps/ -rf",
+    "clean-maps": "npm run clean-triggers && rm -rf server/lookup.json  maps/",
     "scrape": "scrapy runspider spider.py -o server/lookup.json -a filename=triggers.json",
     "update-maps": "npm run clean-maps && npm run scrape && node updateTriggers.js",
     "lint": "eslint .; sass-lint client/sass/* -v",
