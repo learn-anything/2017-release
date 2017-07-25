@@ -72,6 +72,9 @@ export default class Sidebar extends Component {
               year in which that article or video or paper was writen in
             </div>
             <div disabled>
+              Searching 'anything' or 'everything' will show you the main map.
+            </div>
+            <div disabled>
               Nearly all main nodes have a reddit subreddit or stack exchange
               forum attached to them, they're a great place to ask questions you
               may have

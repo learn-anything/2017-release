@@ -134,7 +134,8 @@
           <span>youtube channel</span>
         </div>
         <div>
-          <img class="emoji-reference-icon" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4" alt="stack exchange">
+          <img class="emoji-reference-icon" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4"
+            alt="stack exchange">
           <span>stack exchange</span>
         </div>
         <div>
@@ -186,39 +187,41 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.5/react-redux.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.2.0/redux-thunk.min.js"></script>
 
-  <script src="https://cdn.auth0.com/js/lock/10.18.0/lock.min.js"></script>
+  <!-- <script src="https://cdn.auth0.com/js/lock/10.18.0/lock.min.js"></script> -->
 
   <!-- App -->
   <script src="/static/bundle.js"></script>
 
   <!-- Google Analytics -->
   <script>
-  (function(i, s, o, g, r, a, m) {
-  i['GoogleAnalyticsObject'] = r;
-  (i[r] =
-    i[r] ||
-    function() {
-      (i[r].q = i[r].q || []).push(arguments);
-    }), (i[r].l = 1 * new Date());
-  (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-  a.async = 1;
-  a.src = g;
-  m.parentNode.insertBefore(a, m);
-})(
-  window,
-  document,
-  'script',
-  'https://www.google-analytics.com/analytics.js',
-  'ga'
-);
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }), (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      'script',
+      'https://www.google-analytics.com/analytics.js',
+      'ga'
+      );
 
-ga('create', googleTrackingID, 'auto');
-</script>
+    ga('create', googleTrackingID, 'auto');
+
+  </script>
 
   <!-- Remove temporary styling -->
   <script>
-  document.querySelector('#tmp-style').remove();
-</script>
+    document.querySelector('#tmp-style').remove();
+
+  </script>
 </body>
 
 </html>
