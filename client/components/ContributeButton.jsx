@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
-import { showContribute } from '../actions/dialogs';
+import { showContribute } from '../actions/Dialog';
 import ContributeDialog from './dialogs/ContributeDialog.jsx';
 import '../sass/_ContributeButton.sass';
 

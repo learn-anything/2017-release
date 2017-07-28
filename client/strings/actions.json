@@ -17,7 +17,12 @@
 
   "search": {
     "suggestions": {
-      "fetch": "FETCH_SUGGESTIONS",
+      "fetch": {
+        "def": "FETCH_SUGGESTIONS",
+        "pending": "FETCH_SUGGESTIONS_PENDING",
+        "fulfilled": "FETCH_SUGGESTIONS_FULFILLED",
+        "rejected": "FETCH_SUGGESTIONS_REJECTED"
+      },
       "clear": "CLEAR_SUGGESTIONS"
     },
 
@@ -36,6 +41,7 @@
       "show": "DIALOG_UNMATCHED_SHOW",
       "hide": "DIALOG_UNMATCHED_HIDE"
     },
+
     "contribute": {
       "show": "DIALOG_CONTRIBUTE_SHOW",
       "hide": "DIALOG_CONTRIBUTE_HIDE"

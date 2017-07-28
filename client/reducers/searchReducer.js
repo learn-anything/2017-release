@@ -1,24 +1,40 @@
 import actions from '../strings/actions.json';
-import { getSuggestions } from '../utils/autocomplete';
 
-export default (state = {}, action) => {
+
+const initialState = {
+  query: '',
+  suggestions: [],
+  placeholder: { key: '', id: '' },
+};
+
+
+export default (state = initialState, action) => {
   switch (action.type) {
-    case actions.search.suggestions.fetch:
-    case actions.search.query.update:
-      if (typeof action.payload !== 'string') {
-        return state;
+    case actions.search.suggestions.fetch.fulfilled:
+      // If no query was passed to the API, it means that a random
+      // map was requested for the placeholder.
+      if (action.payload.config.url.endsWith('/api/maps/?q=')) {
+        return {
+          ...state,
+          placeholder: action.payload.data[0],
+        };
       }
 
       return {
         ...state,
-        query: action.payload,
-        suggestions: getSuggestions(action.payload),
+        suggestions: action.payload.data,
       };
 
     case actions.search.suggestions.clear:
       return {
         ...state,
         suggestions: [],
+      };
+
+    case actions.search.query.update:
+      return {
+        ...state,
+        query: action.payload,
       };
 
     case actions.search.query.clear:

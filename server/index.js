@@ -3,21 +3,12 @@ const compression = require('compression');
 const readFileSync = require('fs').readFileSync;
 const express = require('express');
 const dot = require('dot');
-const AWS = require('aws-sdk');
+const api = require('./api/index');
 
-// Update AWS configuration.
-AWS.config.update({
-  region: 'us-west-1',
-  accessKeyId: process.env.DYNAMO_READ_KEY_ID,
-  secretAccessKey: process.env.DYNAMO_READ_SECRET_ACCESS_KEY,
-});
-const docClient = new AWS.DynamoDB.DocumentClient();
-
-const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
 
-
-if (isDev) {
+// If on dev environment use hot reloading.
+if (process.env.NODE_ENV !== 'production') {
   /* eslint-disable global-require */
   const webpack = require('webpack');
   const webpackDevMiddleware = require('webpack-dev-middleware');
@@ -36,36 +27,17 @@ if (isDev) {
   app.use(webpackHotMiddleware(compiler));
 }
 
-
-// Compress static files.
+// Compress files sent.
 app.use(compression({ threshold: 0 }));
 
-// Maps by map title.
-app.get(/maps\/(.*)/, (req, res) => {
-  const title = req.params[0].replace(/\/$/, '').replace(/\//g, '---').replace(/\?.*/, '');
+// Static files and api router.
+app.use(express.static('client/public'));
+app.use(express.static('client/dist'));
+app.use('/api', api);
 
-  docClient.query({
-    TableName: 'la-maps',
-    KeyConditionExpression: '#title = :title',
-    ExpressionAttributeNames: { '#title': 'title' },
-    ExpressionAttributeValues: { ':title': title },
-  }, (err, data) => {
-    if (err) {
-      res.status(500).send(JSON.stringify(err));
-      return;
-    }
-
-    if (data.Items.length) {
-      res.send(JSON.stringify(data.Items[0]));
-      return;
-    }
-
-    res.status(404).send(`Map ${title} not found.`);
-  });
-});
 
 // Thumbnail by map title.
-app.get(/thumbs\/(.*)/, (req, res) => {
+/* app.get(/thumbs\/(.*)/, (req, res) => {
   let filename = `${req.params[0]}.jpg`;
 
   if (filename !== 'learn-anything.jpg') {
@@ -73,22 +45,7 @@ app.get(/thumbs\/(.*)/, (req, res) => {
   }
 
   res.sendFile(filename, { root: 'thumbs' });
-});
-
-// Static files.
-app.get('/static/bundle.js', (req, res) => {
-  res.sendFile('dist/bundle.js', { root: 'client' });
-});
-
-// HTML and favicon.
-app.get('/favicon.png', (req, res) => {
-  res.sendFile('favicon.png', { root: 'client' });
-});
-
-// Sitemap
-app.get('/sitemap.xml', (req, res) => {
-  res.sendFile('sitemap.xml', { root: 'client' });
-});
+}); */
 
 // Templating engine for dynamic meta tags.
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
@@ -110,6 +67,15 @@ app.get('*', (req, res) => {
     const splitTitle = title.split('---');
     const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
 
+    // TMP
+    res.send(render({
+      title: 'Learn Anything',
+      description: 'Search Interactive Mind Maps to learn anything',
+      url: `${req.protocol}://${req.headers.host}${title}`,
+      image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
+    }));
+
+/*
     docClient.query({
       TableName: 'la-maps',
       KeyConditionExpression: '#title = :title',
@@ -132,9 +98,9 @@ app.get('*', (req, res) => {
         }));
         return;
       }
-
       res.status(404).send(`Map ${title} not found.`);
     });
+*/
   }
 });
 

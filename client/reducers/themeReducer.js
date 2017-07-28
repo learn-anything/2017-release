@@ -1,6 +1,10 @@
 import actions from '../strings/actions.json';
 
-export default (state = 'PearlWhite', action) => {
+
+const initialState = 'PearlWhite';
+
+
+export default (state = initialState, action) => {
   switch (action.type) {
     case actions.theme.set:
       localStorage.setItem('theme', action.payload);

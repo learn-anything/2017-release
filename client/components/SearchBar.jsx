@@ -1,106 +1,115 @@
-import { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Autosuggest from 'react-autosuggest';
 
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from '../actions/Search';
-import { randomTrigger, getSuggestions } from '../utils/autocomplete';
+import { showUnmatched } from '../actions/Dialog';
 import fetchMap from '../actions/fetchMap';
-import UnmatchedDialog from './dialogs/UnmatchedDialog.jsx'
-import { showUnmatched } from '../actions/dialogs';
+import UnmatchedDialog from './dialogs/UnmatchedDialog.jsx';
 import '../sass/_SearchBar.sass';
 
-const renderSuggestion = ({ name }) =>
-  <div className="searchbar-suggestion">{name}</div>;
 
-// Get query and suggestions from store.
+// Functions for react-autosuggest component.
+const renderSuggestion = ({ key }) => (<div className="searchbar-suggestion">{key}</div>);
+const getSuggestionValue = suggestion => suggestion.key;
+
 @connect(store => ({
+  title: store.map.title,
   query: store.search.query,
   suggestions: store.search.suggestions,
-  exploring: store.map.exploring,
-  placeholder: randomTrigger(),
+  placeholder: store.search.placeholder,
 }))
 export default class SearchBar extends Component {
+  constructor(props) {
+    super(props);
 
-  onSuggestionSelected(event, { suggestion }) {
-    event.preventDefault();
-
-    // Send selected suggestion to GA.
-    ga('send', 'event', {
-      eventCategory: 'Search',
-      eventAction: 'selected suggestion',
-      eventLabel: suggestion.name,
-    });
-
-    const url = suggestion.map.replace(/---/g, '/');
-    this.props.dispatch(fetchMap(url));
-    this.props.dispatch(clearQuery());
-    ga('send', 'pageview', `/${url}`);
+    // Bind component methods.
+    this.onInputChange = this.onInputChange.bind(this);
+    this.onFormSubmit = this.onFormSubmit.bind(this);
+    this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
+    this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
+    this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
   }
 
-  onSubmit(event) {
+  onInputChange(event) {
+    this.props.dispatch(updateQuery(event.target.value));
+  }
+
+  onFormSubmit(event) {
+    // Prevent from submitting form.
     event.preventDefault();
 
-    if (this.props.query.length > 0) {
-      if (getSuggestions(this.props.query).length === 0) {
-        // Send unmatched query to GA.
-        ga('send', 'event', {
-          eventCategory: 'Search',
-          eventAction: 'unmatched query',
-          eventLabel: this.props.query,
-        });
+    // You haven't written anything; fetch random map indicated on placeholder
+    // and get new placeholder.
+    if (this.props.query === '') {
+      this.props.dispatch(fetchMap(this.props.placeholder.id));
+      this.props.dispatch(fetchSuggestions());
+      return;
+    }
 
-        this.props.dispatch(showUnmatched(this.props.query));
-      }
-    } else {
-      // if you haven't written anything into the textbox when hittin enter
-      // then show the randomly chosen map
-      ga('send', 'event', {
-        eventCategory: 'Search',
-        eventAction: 'random selected',
-        eventLabel: this.props.placeholder.name,
-      });
-
-      const url = this.props.placeholder.map.replace(/---/g, '/');
-      this.props.dispatch(fetchMap(url));
+    // There's no suggestion for what you're searching; show unmatched dialog.
+    if (this.props.suggestions.length === 0) {
+      this.props.dispatch(showUnmatched(this.props.query));
       this.props.dispatch(clearQuery());
-      ga('send', 'pageview', `/${url}`);
     }
   }
+
+  onSuggestionSelected(event, { suggestion }) {
+    // Prevent from submitting form if suggestion is
+    // selected pressing enter.
+    event.preventDefault();
+
+    this.props.dispatch(fetchMap(suggestion.id));
+    this.props.dispatch(clearQuery());
+  }
+
+  onSuggestionsFetchRequested({ value }) {
+    this.props.dispatch(fetchSuggestions(value));
+  }
+
+  onSuggestionsClearRequested() {
+    this.props.dispatch(clearSuggestions());
+  }
+
   render() {
-    // Props to give to input field.
+    // If there's no placeholder, fetch it.
+    if (this.props.placeholder.id === '') {
+      this.props.dispatch(fetchSuggestions());
+    }
+
+    // Props for input field on autosuggest.
     const inputProps = {
       autoFocus: true,
       value: this.props.query,
-      onChange: e => this.props.dispatch(updateQuery(e.target.value)),
-      placeholder: this.props.placeholder.name,
+      onChange: this.onInputChange,
+      placeholder: this.props.placeholder.key,
     };
 
-    // Handlers for updating and clearing suggestions.
-    const onFetchRequested = ({ value }) => this.props.dispatch(fetchSuggestions(value));
-    const onClearRequested = () => this.props.dispatch(clearSuggestions());
+    let formClassName = 'searchbar-container';
 
-    // Class for container, changes when container is in exploring mode.
-    let containerClassName = 'searchbar-container';
-    if (this.props.exploring) {
-      containerClassName += ' searchbar-container--exploring';
+    // If not on main page show the searchbar in exploring mode.
+    if (this.props.title !== '') {
+      formClassName += ' searchbar-container--exploring';
     }
 
     return (
-      <form className={containerClassName} onSubmit={this.onSubmit.bind(this)}>
+      <form className={formClassName} onSubmit={this.onFormSubmit}>
         <Autosuggest
           inputProps={inputProps}
           renderSuggestion={renderSuggestion}
           highlightFirstSuggestion={true}
           suggestions={this.props.suggestions}
-          getSuggestionValue={suggestion => suggestion.name}
-          onSuggestionsFetchRequested={onFetchRequested}
-          onSuggestionsClearRequested={onClearRequested}
-          onSuggestionSelected={this.onSuggestionSelected.bind(this)}
+          getSuggestionValue={getSuggestionValue}
+          onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+          onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+          onSuggestionSelected={this.onSuggestionSelected}
         />
-        <p className="introText">
-          Press Enter to open our randomly suggested map.<br></br>
+
+        <p className="helpText">
+          Press Enter to open our randomly suggested map.<br/>
           Start writing to get a list of existing topics.
         </p>
+
         <UnmatchedDialog />
       </form>
     );

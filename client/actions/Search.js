@@ -1,8 +1,9 @@
+import axios from 'axios';
 import actions from '../strings/actions.json';
 
-export const fetchSuggestions = query => ({
-  type: actions.search.suggestions.fetch,
-  payload: query,
+export const fetchSuggestions = (query = '') => ({
+  type: actions.search.suggestions.fetch.def,
+  payload: axios.get(`/api/maps/?q=${query}`),
 });
 
 export const clearSuggestions = () => ({

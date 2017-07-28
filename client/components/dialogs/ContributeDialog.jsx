@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Dialog from './Dialog.jsx';
-import { hideContribute } from '../../actions/dialogs';
+import { hideContribute } from '../../actions/Dialog';
 import openNewTab from '../../utils/openNewTab';
 import '../../sass/_ContributeDialog.sass';
 

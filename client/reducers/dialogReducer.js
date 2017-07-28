@@ -1,6 +1,20 @@
 import actions from '../strings/actions.json';
 
-export default (state = {}, action) => {
+
+const initialState = {
+  unmatched: {
+    query: '',
+    visible: false,
+  },
+
+  contribute: {
+    url: '',
+    visible: false,
+  },
+};
+
+
+export default (state = initialState, action) => {
   switch (action.type) {
     case actions.dialogs.unmatched.show:
       return {

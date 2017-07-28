@@ -2,7 +2,10 @@ module.exports = {
   extends: 'airbnb-base',
   plugins: ['react', 'jsx-a11y', 'import'],
 
-  env: { browser: true },
+  env: {
+    browser: true,
+    jest: true,
+  },
   globals: { ga: true },
 
   rules: {

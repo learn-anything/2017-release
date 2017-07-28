@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Dialog from './Dialog.jsx';
-import { hideUnmatched } from '../../actions/dialogs';
+import { hideUnmatched } from '../../actions/Dialog';
 import openNewTab from '../../utils/openNewTab';
 
 @connect(store => store.dialogs.unmatched)
