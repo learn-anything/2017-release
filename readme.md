@@ -3,9 +3,6 @@
 <a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
 		<img src="https://img.shields.io/badge/Slack-channel-green.svg">
 	</a>
-			<a href="https://codebeat.co/projects/github-com-nikitavoloboev-learn-anything-search-master">
-		<img src="https://codebeat.co/badges/2de7a2a5-91d5-401e-8913-8f1993affd55">
-	</a>
 	<a href="https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE">
 		<img src="https://img.shields.io/github/license/mashape/apistatus.svg">
 	</a>
