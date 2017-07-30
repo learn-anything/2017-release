@@ -59,6 +59,7 @@ export default class SearchBar extends Component {
     // There's no suggestion for what you're searching; show unmatched dialog.
     if (this.props.suggestions.length === 0) {
       this.setState({ unmatchedDialog: true });
+      document.activeElement.blur();
     }
   }
 

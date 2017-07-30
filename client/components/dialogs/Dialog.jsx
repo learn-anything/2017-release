@@ -1,27 +1,30 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
+import classNames from 'utils/classNames';
 import 'sass/_Dialog.sass';
 
-
+// Generic dialog.
 export default class Dialog extends Component {
   constructor(props) {
     super(props);
 
-    this.reject = this.reject.bind(this);
+    this.onClick = this.onClick.bind(this);
   }
 
-  reject(event) {
-    // Click outside dialog
-    if (event.target.className === 'dialog-container') {
+  // When clicking outside dialog trigger onReject.
+  onClick(event) {
+    if (event.target.className.indexOf('dialog-container') !== -1) {
       this.props.onReject();
     }
   }
 
+  // Render footer with Reject and Accept buttons.
   renderFooter() {
     return (
       <div className="dialog-footer">
         <a className="dialog-footer--reject" onClick={this.props.onReject}>
           {this.props.rejectLabel}
         </a>
+
         <a className="dialog-footer--accept" onClick={this.props.onAccept}>
           {this.props.acceptLabel}
         </a>
@@ -30,14 +33,13 @@ export default class Dialog extends Component {
   }
 
   render() {
-    let className = 'dialog-container';
-
-    if (this.props.isVerticallyCentered) {
-      className += ' dialog-container--centered';
-    }
+    const className = classNames({
+      'dialog-container': true,
+      'dialog-container--centered': this.props.isCentered,
+    });
 
     return (
-      <div className={className} onClick={this.reject}>
+      <div className={className} onClick={this.onClick}>
         <div className="dialog">
           <div className="dialog-title">{this.props.title}</div>
           <div className="dialog-body">{this.props.children}</div>
@@ -47,6 +49,7 @@ export default class Dialog extends Component {
     );
   }
 
+  // Listen for Enter or Escape keypresses.
   componentDidMount() {
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' && this.props.acceptOnEnterPress) {
@@ -65,10 +68,10 @@ Dialog.defaultProps = {
   hasFooter: true,
   isCentered: true,
 
-  rejectLabel: 'Cancel',
+  rejectLabel: __('dialog_cancel'),
   onReject: () => {},
 
-  acceptLabel: 'Okay',
+  acceptLabel: __('dialog_okay'),
   onAccept: () => {},
   acceptOnEnterPress: false,
 };

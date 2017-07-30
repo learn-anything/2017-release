@@ -50,10 +50,10 @@ app.use('/api', api);
 // Templating engine for dynamic meta tags.
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
-app.get('/:lang([a-z]{2})?*', (req, res) => {
+// :lang([a-z]{2})?*
+app.get('*', (req, res) => {
   let title = req.originalUrl.replace(/\?.*/, '');
 
-  console.log(req.params.lang);
   if (title === '/') {
     // Render main page.
     res.send(render({
@@ -61,6 +61,7 @@ app.get('/:lang([a-z]{2})?*', (req, res) => {
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${title}`,
       image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
+      language: 'en',
     }));
   } else {
     // Render any other map.
@@ -75,7 +76,7 @@ app.get('/:lang([a-z]{2})?*', (req, res) => {
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${title}`,
       image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
-      language: req.params.lang || 'en',
+      language: 'en',
     }));
 
 /*

@@ -20,4 +20,7 @@ class LocalStorageMock {
   }
 }
 
+const i18nMock = str => str;
+
 global.localStorage = new LocalStorageMock;
+global.__ = i18nMock;

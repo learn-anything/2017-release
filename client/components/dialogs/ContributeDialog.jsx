@@ -26,14 +26,14 @@ export default class ContributeDialog extends Component {
 
     return (
       <Dialog
-        title="Contribution guidelines"
-        acceptLabel="Continue"
+        title={__('contribute_dialog_title')}
+        acceptLabel={__('contribute_dialog_accept_label')}
         isCentered={false}
         onReject={this.props.onReject}
         onAccept={this.redirect}
       >
         <div
-          dangerouslySetInnerHTML={{ __html: __('contribution_guidelines') }}
+          dangerouslySetInnerHTML={{ __html: __('contribute_dialog_message') }}
           className="contribute-dialog" />
       </Dialog>
     );

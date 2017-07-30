@@ -1,6 +1,6 @@
 module.exports = {
   extends: 'airbnb-base',
-  plugins: ['react', 'jsx-a11y', 'import', ],
+  plugins: ['react', 'jsx-a11y', 'import'],
 
   env: {
     browser: true,
@@ -13,6 +13,7 @@ module.exports = {
 
   rules: {
     'react/jsx-uses-vars': 'error',
+    'react/jsx-uses-react': 'error',
     'linebreak-style': 'off',
     'no-console': 'warn',
     'class-methods-use-this': 'off',

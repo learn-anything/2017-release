@@ -22,15 +22,14 @@ export default class UnmatchedDialog extends Component {
 
     return (
       <Dialog
-        title="Map not found"
-        acceptLabel="Search"
+        title={__('unmatched_dialog_title')}
+        acceptLabel={__('unmatched_dialog_accept_label')}
         onReject={this.props.onReject}
         onAccept={this.redirect}
         acceptOnEnter={true}
         className="unmatched-dialog"
       >
-        The topic you're looking for doesn't have a map yet, but you
-        can search it on DuckDuckGo.
+        {__('unmatched_dialog_message')}
       </Dialog>
     );
   }

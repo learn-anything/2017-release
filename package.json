@@ -33,6 +33,7 @@
     "compression": "^1.7.0",
     "dot": "^1.1.2",
     "elasticsearch": "^13.2.0",
+    "enzyme": "^2.9.1",
     "express": "^4.15.3",
     "fs-walk": "0.0.1",
     "marked": "^0.3.6",
@@ -73,6 +74,7 @@
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.6",
     "react-hot-loader": "next",
+    "react-test-renderer": "^15.6.1",
     "replace-x": "^1.5.0",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.6",
@@ -97,10 +99,11 @@
   "jest": {
     "browser": true,
     "testURL": "https://learn-anything.xyz/",
-    "testPathIgnorePatterns": [
-      "./client/__tests__/setUpTestFramework.js"
-    ],
     "setupTestFrameworkScriptFile": "./client/__tests__/setUpTestFramework.js",
+    "testPathIgnorePatterns": [
+      "./client/__tests__/setUpTestFramework.js",
+      "./client/__tests__/assetTransformer.js"
+    ],
     "moduleDirectories": [
       "node_modules",
       "./client"
@@ -108,6 +111,10 @@
     "moduleFileExtensions": [
       "js",
       "jsx"
-    ]
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest",
+      "\\.sass$": "./client/__tests__/assetTransformer.js"
+    }
   }
 }

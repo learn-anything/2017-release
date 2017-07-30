@@ -15,11 +15,10 @@ The changes you make however should follow our guidelines which focus on providi
 ### Syntax
 All maps are stored in JSON format and can be easily edited.
 
-\`\`\`
+<pre>
 {
   "title": "life---hobbies",
-  "description": "A hobby is a regular activity that is done for enjoyment,
-  typically during one's leisure time.",
+  "description": "A hobby is a regular activity that is done for enjoyment, typically during one's leisure time.",
   "tag": "hobbies",
   "connections": [
     ...
@@ -29,7 +28,7 @@ All maps are stored in JSON format and can be easily edited.
     ...
   ]
 }
-\`\`\`
+</pre>
 
 This is the top level of a map, here some meta information is specified, like:
 
@@ -37,7 +36,7 @@ This is the top level of a map, here some meta information is specified, like:
 - **description (optional):** short description of the topic, which will display
 when sharing links of the map.
 - **tag (optional):** custom tag for the search, will be prioritized over the map
-name if specified. For instance, the map called \`R\` has an \`R programming language\` tag.
+name if specified. For instance, the map called `R` has an `R programming language` tag.
 
 Then there is some other information that is directly used for rendering of maps:
 
@@ -47,7 +46,7 @@ Then there is some other information that is directly used for rendering of maps
 #### Nodes
 Here is an example of a node:
 
-\`\`\`
+<pre>
 {
   "text": "python",
   "url": "http://www.wikiwand.com/en/Python_(programming_language)",
@@ -57,7 +56,7 @@ Here is an example of a node:
   "note": "",
   "nodes": []
 }
-\`\`\`
+</pre>
 
 The possible attributes are:
 
@@ -73,7 +72,7 @@ specify these as it's pretty complicated to get them at the moment).
 #### Connections
 Here is an example of a connection:
 
-\`\`\`
+<pre>
 {
   "source": "python",
   "target": "basics",
@@ -82,14 +81,14 @@ Here is an example of a connection:
     "y": 299.545
   }
 }
-\`\`\`
+</pre>
 
 Here are the possible attributes:
 
 - **source:** text of the node where the connection starts
 - **target:** text of the node where the connection ends
 - **curve (optional):** coordinates for generating the curve of the connection
-(same story as the coordinates above, you can leave it as \`"curve": {'{}'}\`)
+(same story as the coordinates above, you can leave it as `"curve": {'{}'}`)
 
 ### Stuck?
 You can head to our [Slack group](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) and we'll be really happy to help you!

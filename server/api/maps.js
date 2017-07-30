@@ -69,7 +69,7 @@ router.get(/\/(.*)/, (req, res) => {
   if (!title.startsWith('learn anything')) {
     title = `learn anything - ${title}`;
   }
-  console.log(title);
+
   const body = {
     size: 1,
 
