@@ -1,8 +1,9 @@
 import { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { connect } from 'react-redux';
-import setTheme from '../actions/setTheme';
-import '../sass/_Sidebar.sass';
+
+import setTheme from 'actions/setTheme';
+import 'sass/_Sidebar.sass';
 
 @connect(store => ({ theme: store.theme }))
 export default class Sidebar extends Component {
@@ -46,14 +47,10 @@ export default class Sidebar extends Component {
           <div className="sidebar-menu-options">
             <div disabled>The path below the search bar shows where you are</div>
             <div disabled>You can click on that path to go back to different maps</div>
-            {
-            /*<div disabled>
-                Pressing return on the suggestion options in the search bar is a
-                fun way to explore new maps
-              </div>*/
-            }
             <div disabled>Hovering over a node will display a note if it exists</div>
-            <div disabled>Help button or hovering over emojis is a great way to get their meanings</div>
+            <div disabled>
+              Help button or hovering over emojis is a great way to get their meanings
+            </div>
             <div disabled>
               All basics nodes have steps like 1. 2. and so on, if nodes have
               the same step, just choose any you like

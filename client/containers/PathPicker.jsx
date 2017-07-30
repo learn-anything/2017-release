@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Provider } from 'react-redux';
-import '../themes/_Night.sass';
+import 'themes/_Night.sass';
 
 /*
  * Needs Redux store as prop.

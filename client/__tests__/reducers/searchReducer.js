@@ -1,6 +1,6 @@
-import * as Search from '../../actions/Search';
-import searchReducer from '../../reducers/searchReducer';
-import { search } from '../../strings/actions.json';
+import * as Search from 'actions/Search';
+import searchReducer from 'reducers/searchReducer';
+import { search } from 'constants/actions.json';
 
 describe('reducers - searchReducer', () => {
   let state;

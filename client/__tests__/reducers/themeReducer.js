@@ -1,5 +1,5 @@
-import setTheme from '../../actions/setTheme';
-import themeReducer from '../../reducers/themeReducer';
+import setTheme from 'actions/setTheme';
+import themeReducer from 'reducers/themeReducer';
 
 describe('reducers - themeReducer', () => {
   let state;

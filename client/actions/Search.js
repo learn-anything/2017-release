@@ -1,5 +1,5 @@
 import axios from 'axios';
-import actions from '../strings/actions.json';
+import actions from 'constants/actions.json';
 
 export const fetchSuggestions = (query = '') => ({
   type: actions.search.suggestions.fetch.def,

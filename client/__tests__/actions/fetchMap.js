@@ -1,5 +1,5 @@
-import fetchMap from '../../actions/fetchMap';
-import { map } from '../../strings/actions.json';
+import fetchMap from 'actions/fetchMap';
+import { map } from 'constants/actions.json';
 
 describe('actions - fetchMap', () => {
   it('should create action to fetch a map and update page', () => {

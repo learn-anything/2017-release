@@ -1,13 +1,13 @@
 import { Component } from 'react';
 import { Provider } from 'react-redux';
-import SearchBar from '../components/SearchBar.jsx';
-import Sidebar from '../components/Sidebar.jsx';
-import MindMapWrapper from '../components/MindMapWrapper.jsx';
-import ContributeButton from '../components/ContributeButton.jsx';
-import fetchMap from '../actions/fetchMap';
-import store from '../store/store';
-import '../themes/_PearlWhite.sass';
-import '../themes/_Grey.sass';
+import SearchBar from 'components/SearchBar';
+import Sidebar from 'components/Sidebar';
+import MindMapWrapper from 'components/MindMapWrapper';
+import ContributeButton from 'components/ContributeButton';
+import fetchMap from 'actions/fetchMap';
+import store from 'store/store';
+import 'themes/_PearlWhite.sass';
+import 'themes/_Grey.sass';
 
 /*
  * Needs Redux store as prop.

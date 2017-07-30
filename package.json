@@ -22,34 +22,29 @@
     "clean-maps": "npm run clean-triggers && rm server/lookup.json  maps/ -rf",
     "scrape": "scrapy runspider spider.py -o server/lookup.json -a filename=triggers.json",
     "update-maps": "npm run clean-maps && npm run scrape && node updateTriggers.js",
-    "lint": "eslint .; sass-lint client/sass/* -v",
-    "start": "npm run lint && node server/index.js -p 3000",
+    "start": "node server/index.js -p 3000",
     "build:prod": "NODE_ENV='production' webpack -p",
-    "start:docker": "sudo docker-compose build && sudo docker-compose up",
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
   "dependencies": {
     "auth0-lock": "^10.19.0",
-    "aws-sdk": "^2.91.0",
     "axios": "^0.16.1",
     "compression": "^1.7.0",
     "dot": "^1.1.2",
     "elasticsearch": "^13.2.0",
     "express": "^4.15.3",
     "fs-walk": "0.0.1",
-    "jasmine-spec-reporter": "^4.1.1",
+    "marked": "^0.3.6",
     "react": "^15.6.1",
     "react-autosuggest": "^9.3.1",
     "react-burger-menu": "^2.1.4",
     "react-dom": "^15.6.1",
-    "react-mindmap": "^2.1.2",
+    "react-mindmap": "^2.1.3",
     "react-redux": "^5.0.5",
     "redux": "^3.7.2",
-    "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^4.3.0",
     "redux-thunk": "^2.2.0",
-    "semver": "^5.4.1",
     "webpack": "^2.7.0",
     "webpack-dev-middleware": "^1.11.0",
     "webpack-hot-middleware": "^2.18.2"
@@ -68,20 +63,20 @@
     "css-loader": "^0.28.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^6.10.3",
+    "i18n-webpack-plugin": "^1.0.0",
     "jest": "^20.0.4",
-    "nock": "^9.0.14",
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.6",
     "react-hot-loader": "next",
-    "redux-mock-store": "^1.2.3",
     "replace-x": "^1.5.0",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.6",
-    "sitemap": "^1.13.0",
+    "sasslint-webpack-plugin": "^1.0.4",
     "style-loader": "^0.17.0"
   },
   "postcss": {
@@ -101,8 +96,18 @@
   },
   "jest": {
     "browser": true,
-    "testPathIgnorePatterns": ["./client/__tests__/setUpTestFramework.js"],
+    "testURL": "https://learn-anything.xyz/",
+    "testPathIgnorePatterns": [
+      "./client/__tests__/setUpTestFramework.js"
+    ],
     "setupTestFrameworkScriptFile": "./client/__tests__/setUpTestFramework.js",
-    "testURL": "https://learn-anything.xyz/"
+    "moduleDirectories": [
+      "node_modules",
+      "./client"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
   }
 }

@@ -1,5 +1,5 @@
-import mapReducer from '../../reducers/mapReducer';
-import { map } from '../../strings/actions.json';
+import mapReducer from 'reducers/mapReducer';
+import { map } from 'constants/actions.json';
 
 describe('reducers - mapReducer', () => {
   let state;

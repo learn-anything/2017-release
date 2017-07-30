@@ -1,12 +1,11 @@
 import { render } from 'react-dom';
-import axios from 'axios';
 
-import App from './containers/App.jsx';
-import fetchMap from './actions/fetchMap';
-import store from './store/store';
-import getParent from './utils/getParent';
-import openNewTab from './utils/openNewTab';
-import './sass/main.sass';
+import App from 'containers/App';
+import fetchMap from 'actions/fetchMap';
+import store from 'store/store';
+import getParent from 'utils/getParent';
+import openNewTab from 'utils/openNewTab';
+import 'sass/main.sass';
 
 // Use Analytics if on production.
 window.googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';

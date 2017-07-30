@@ -1,7 +1,7 @@
-import { Component, PropTypes } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
 import MindMap from 'react-mindmap';
-import Breadcrumbs from '../components/Breadcrumbs.jsx';
+import Breadcrumbs from 'components/Breadcrumbs';
 
 @connect(store => ({
   connections: store.map.connections,

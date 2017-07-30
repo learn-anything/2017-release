@@ -1,6 +1,6 @@
-import { Component, PropTypes } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
-import '../sass/_ContributeButton.sass';
+import 'sass/_ContributeButton.sass';
 
 @connect(store => ({ issue: undefined }))
 export default class ContributeButton extends Component {

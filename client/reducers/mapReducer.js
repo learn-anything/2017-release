@@ -1,5 +1,5 @@
-import { titleToURL, cleanTitle } from '../utils/Title';
-import actions from '../strings/actions.json';
+import { titleToURL, cleanTitle } from 'utils/Title';
+import actions from 'constants/actions.json';
 
 
 const initialState = {

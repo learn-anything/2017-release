@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
-import fetchMap from '../actions/fetchMap';
-import '../sass/_Breadcrumbs.sass';
+import fetchMap from 'actions/fetchMap';
+import 'sass/_Breadcrumbs.sass';
 
 @connect(store => ({ title: store.map.title }))
 export default class Breadcrumbs extends Component {

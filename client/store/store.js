@@ -5,7 +5,7 @@ import thunk from 'redux-thunk';
 
 // Redux middleware that allows to pass promises within the dispatch object.
 import promise from 'redux-promise-middleware';
-import reducer from '../reducers/index';
+import reducer from 'reducers/index';
 
 // Used for Redux devtools.
 // eslint-disable-next-line no-underscore-dangle

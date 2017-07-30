@@ -13,4 +13,15 @@ export const titleToURL = (title) => {
 };
 
 // "learn anything - path - to map" -> "path - to map"
-export const cleanTitle = (title) => (title.replace('learn anything - ', ''));
+export const cleanTitle = title => title.replace('learn anything - ', '');
+
+// "path - to map" -> "/learn-anything/path/to-map"
+export const cleanTitleToAbsURL = (title) => {
+  let url = titleToURL(title);
+
+  if (!url.startsWith('learn-anything')) {
+    url = `/learn-anything${url}`;
+  }
+
+  return url;
+};

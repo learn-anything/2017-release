@@ -1,5 +1,5 @@
-import setTheme from '../../actions/setTheme';
-import { theme } from '../../strings/actions.json';
+import setTheme from 'actions/setTheme';
+import { theme } from 'constants/actions.json';
 
 describe('actions - setTheme', () => {
   it('should create action to set theme', () => {

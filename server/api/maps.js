@@ -15,7 +15,6 @@ const search = (body, res, send) => {
 // Search for map or get random map (if no query is specified).
 router.get('/', (req, res) => {
   const q = req.query.q;
-  console.log(q);
 
   let body = {
     query: {

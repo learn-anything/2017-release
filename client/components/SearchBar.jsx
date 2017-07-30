@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
 import Autosuggest from 'react-autosuggest';
 
-import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from '../actions/Search';
-import { showUnmatched } from '../actions/Dialog';
-import fetchMap from '../actions/fetchMap';
-import UnmatchedDialog from './dialogs/UnmatchedDialog.jsx';
-import '../sass/_SearchBar.sass';
+import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
+// import { showUnmatched } from 'actions/Dialog';
+import fetchMap from 'actions/fetchMap';
+import 'sass/_SearchBar.sass';
+
+import UnmatchedDialog from './dialogs/UnmatchedDialog';
 
 
 // Functions for react-autosuggest component.
@@ -23,12 +24,20 @@ export default class SearchBar extends Component {
   constructor(props) {
     super(props);
 
+    this.state = { unmatchedDialog: false };
+
     // Bind component methods.
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
     this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
     this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
     this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
+    this.dismissUnmatchedDialog = this.dismissUnmatchedDialog.bind(this);
+  }
+
+  dismissUnmatchedDialog() {
+    this.setState({ unmatchedDialog: false });
+    this.props.dispatch(clearQuery());
   }
 
   onInputChange(event) {
@@ -49,8 +58,7 @@ export default class SearchBar extends Component {
 
     // There's no suggestion for what you're searching; show unmatched dialog.
     if (this.props.suggestions.length === 0) {
-      this.props.dispatch(showUnmatched(this.props.query));
-      this.props.dispatch(clearQuery());
+      this.setState({ unmatchedDialog: true });
     }
   }
 
@@ -110,7 +118,11 @@ export default class SearchBar extends Component {
           Start writing to get a list of existing topics.
         </p>
 
-        <UnmatchedDialog />
+        <UnmatchedDialog
+          onReject={this.dismissUnmatchedDialog}
+          visible={this.state.unmatchedDialog}
+          query={this.props.query}
+        />
       </form>
     );
   }

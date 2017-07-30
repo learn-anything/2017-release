@@ -1,5 +1,5 @@
-import * as Search from '../../actions/Search';
-import { search } from '../../strings/actions.json';
+import * as Search from 'actions/Search';
+import { search } from 'constants/actions.json';
 
 describe('actions - Search', () => {
   it('should create action to show fetch suggestions', () => {

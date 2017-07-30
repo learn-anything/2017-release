@@ -1,5 +1,5 @@
 import axios from 'axios';
-import actions from '../strings/actions.json';
+import actions from 'constants/actions.json';
 
 /*
  * Fetch map at given url, and update browser URL unless otherwise specified.

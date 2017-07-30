@@ -1,4 +1,4 @@
-import actions from '../strings/actions.json';
+import actions from 'constants/actions.json';
 
 export default theme => ({
   type: actions.theme.set,
