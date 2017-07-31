@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import openNewTab from 'utils/openNewTab';
 import { cleanTitleToAbsURL } from 'utils/Title';
 import 'sass/_ContributeDialog.sass';
@@ -12,11 +12,10 @@ export default class ContributeDialog extends Component {
   }
 
   redirect() {
-    const mapPath = cleanTitleToAbsURL(this.props.title);
+    const mapPath = cleanTitleToAbsURL(this.props.mapTitle);
     const url = `https://github.com/nikitavoloboev/learn-anything/edit/master${mapPath}.json`;
 
     openNewTab('Contribution', 'accept guidelines', url);
-    this.props.onReject();
   }
 
   render() {
@@ -43,5 +42,5 @@ export default class ContributeDialog extends Component {
 ContributeDialog.defaultProps = {
   onReject: () => {},
   visible: false,
-  title: '',
+  mapTitle: '',
 };

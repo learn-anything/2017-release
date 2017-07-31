@@ -8,11 +8,22 @@ export default class Dialog extends Component {
     super(props);
 
     this.onClick = this.onClick.bind(this);
+    this.onKeydown = this.onKeydown.bind(this);
   }
 
   // When clicking outside dialog trigger onReject.
   onClick(event) {
     if (event.target.className.indexOf('dialog-container') !== -1) {
+      this.props.onReject();
+    }
+  }
+
+  onKeydown(event) {
+    if (event.key === 'Enter' && this.props.acceptOnEnterPress) {
+      this.props.onAccept();
+    }
+
+    if (event.key === 'Escape') {
       this.props.onReject();
     }
   }
@@ -51,15 +62,7 @@ export default class Dialog extends Component {
 
   // Listen for Enter or Escape keypresses.
   componentDidMount() {
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' && this.props.acceptOnEnterPress) {
-        this.props.onAccept();
-      }
-
-      if (event.key === 'Escape') {
-        this.props.onReject();
-      }
-    });
+    document.onkeydown = this.onKeydown;
   }
 }
 

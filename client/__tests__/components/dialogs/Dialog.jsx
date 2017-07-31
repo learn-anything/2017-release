@@ -45,7 +45,6 @@ describe('components - Dialog', () => {
 
     // Click on accept button.
     wrapper.find('.dialog-footer--accept').simulate('click');
-    wrapper.simulate('keydown', { key: 'Enter' });
 
     // Keypress Enter
     const event = new KeyboardEvent('keydown', { key: 'Enter' });

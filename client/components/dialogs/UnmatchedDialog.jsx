@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import openNewTab from 'utils/openNewTab';
 import Dialog from './Dialog';
 
@@ -26,10 +26,11 @@ export default class UnmatchedDialog extends Component {
         acceptLabel={__('unmatched_dialog_accept_label')}
         onReject={this.props.onReject}
         onAccept={this.redirect}
-        acceptOnEnter={true}
-        className="unmatched-dialog"
+        acceptOnEnterPress={true}
       >
-        {__('unmatched_dialog_message')}
+        <div className="unmatched-dialog">
+          {__('unmatched_dialog_message')}
+        </div>
       </Dialog>
     );
   }
