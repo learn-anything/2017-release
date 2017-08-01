@@ -1,11 +1,10 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
-import { connect } from 'react-redux';
 
 import setTheme from 'actions/setTheme';
 import 'sass/_Sidebar.sass';
 
-@connect(store => ({ theme: store.theme }))
+
 export default class Sidebar extends Component {
   constructor(props) {
     super(props);

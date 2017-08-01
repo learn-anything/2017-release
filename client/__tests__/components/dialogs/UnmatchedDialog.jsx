@@ -14,7 +14,7 @@ describe('components - UnmatchedDialog', () => {
       <UnmatchedDialog
         onReject={dismiss}
         visible={true}
-        query='some unmatched query'
+        query="some unmatched query"
       />
     );
   });

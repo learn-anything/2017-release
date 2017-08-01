@@ -14,7 +14,7 @@ describe('components - ContributeDialog', () => {
       <ContributeDialog
         onReject={dismiss}
         visible={true}
-        title='path - to - map'
+        title="path - to - map"
       />
     );
   });

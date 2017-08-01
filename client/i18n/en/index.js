@@ -14,4 +14,11 @@ module.exports = {
   contribute_dialog_title: 'Contribution guidelines',
   contribute_dialog_message: md('guidelines', 'en'),
   contribute_dialog_accept_label: 'Continue',
+
+  // Contribute button
+  contribute_button_text: 'Improve this map',
+
+  // Searchbar
+  searchbar_help_text_0: 'Press Enter to open our randomly suggested map.',
+  searchbar_help_text_1: 'Start writing to get a list of existing topics.',
 };

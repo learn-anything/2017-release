@@ -1,4 +1,5 @@
 import { render } from 'react-dom';
+import { Provider } from 'react-redux';
 
 import App from 'containers/App';
 import fetchMap from 'actions/fetchMap';
@@ -16,7 +17,12 @@ if (module.hot) {
 }
 
 window.addEventListener('load', () => {
-  render(<App store={store} />, document.getElementById('react-app'));
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('react-app'),
+  );
 
   // Catch clicks on links, add GA calls, and change default behavior.
   // If link is internal, fetch new map; if link is external, open in new tab.

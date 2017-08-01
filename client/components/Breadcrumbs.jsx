@@ -1,17 +1,13 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
-import fetchMap from 'actions/fetchMap';
+import React, { Component } from 'react';
 import 'sass/_Breadcrumbs.sass';
 
-@connect(store => ({ title: store.map.title }))
+
 export default class Breadcrumbs extends Component {
   onClick() {
     // Convert splitTitle from ['path', 'to', 'map']
     // to "path/to/map" format.
-    let url = this.splitTitle.slice(0, this.index + 1).join('/');
-    url = url.replace(/ /g, '-');
-
-    this.props.dispatch(fetchMap(url));
+    const url = this.splitTitle.slice(0, this.index + 1).join('/');
+    this.props.onCrumbClick(url);
   }
 
   renderBreadcrumbs() {
@@ -19,7 +15,7 @@ export default class Breadcrumbs extends Component {
     const splitTitle = this.props.title.split(' - ');
 
     return splitTitle.map((topic, index) => (
-      <span onClick={this.onClick.bind({ ...this, splitTitle, index })}>
+      <span key={index} onClick={this.onClick.bind({ ...this, splitTitle, index })}>
         {topic}
       </span>
     ));
@@ -33,3 +29,8 @@ export default class Breadcrumbs extends Component {
     );
   }
 }
+
+Breadcrumbs.defaultProps = {
+  title: '',
+  onCrumbClick: () => {},
+};

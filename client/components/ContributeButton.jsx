@@ -1,13 +1,10 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react';
 import 'sass/_ContributeButton.sass';
 import ContributeDialog from './dialogs/ContributeDialog';
 
-@connect(store => ({ title: store.map.title }))
 export default class ContributeButton extends Component {
   constructor(props) {
     super(props);
-
     this.state = { contributeDialog: false };
 
     this.showDialog = this.showDialog.bind(this);
@@ -34,7 +31,7 @@ export default class ContributeButton extends Component {
           className="contribute-button"
           type="button"
         >
-          <span className="contribute-button-text">Improve this map</span>
+          <span className="contribute-button-text">{__('contribute_button_text')}</span>
           <img className="contribute-button-emoji"
             src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" />
         </button>
@@ -48,3 +45,7 @@ export default class ContributeButton extends Component {
     );
   }
 }
+
+ContributeButton.defaultProps = {
+  title: '',
+};

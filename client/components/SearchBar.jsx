@@ -1,12 +1,9 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from 'react';
 import Autosuggest from 'react-autosuggest';
 
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
-// import { showUnmatched } from 'actions/Dialog';
 import fetchMap from 'actions/fetchMap';
 import 'sass/_SearchBar.sass';
-
 import UnmatchedDialog from './dialogs/UnmatchedDialog';
 
 
@@ -14,12 +11,7 @@ import UnmatchedDialog from './dialogs/UnmatchedDialog';
 const renderSuggestion = ({ key }) => (<div className="searchbar-suggestion">{key}</div>);
 const getSuggestionValue = suggestion => suggestion.key;
 
-@connect(store => ({
-  title: store.map.title,
-  query: store.search.query,
-  suggestions: store.search.suggestions,
-  placeholder: store.search.placeholder,
-}))
+
 export default class SearchBar extends Component {
   constructor(props) {
     super(props);
@@ -115,8 +107,8 @@ export default class SearchBar extends Component {
         />
 
         <p className="helpText">
-          Press Enter to open our randomly suggested map.<br/>
-          Start writing to get a list of existing topics.
+          {__('searchbar_help_text_0')}<br/>
+          {__('searchbar_help_text_1')}
         </p>
 
         <UnmatchedDialog
@@ -128,3 +120,11 @@ export default class SearchBar extends Component {
     );
   }
 }
+
+SearchBar.defaultProps = {
+  title: '',
+  query: '',
+  placeholder: '',
+  suggestions: [],
+  dispatch: () => {},
+};
