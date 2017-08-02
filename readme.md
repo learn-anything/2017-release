@@ -3,8 +3,8 @@
 <a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
 		<img src="https://img.shields.io/badge/Slack-channel-green.svg">
 	</a>
-	<a href="https://github.com/nikitavoloboev/knowledge-map-search-engine/blob/master/LICENSE">
-		<img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+	<a href="https://github.com/nikitavoloboev/learn-anything/blob/master/LICENSE">
+		<img src="https://img.shields.io/pypi/l/pipenv.svg">
 	</a>
 
 <p align="center"><img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" width="600"></p>
