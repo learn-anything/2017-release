@@ -3,7 +3,7 @@
 <a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
 		<img src="https://img.shields.io/badge/Slack-channel-green.svg">
 	</a>
-	<a href="https://github.com/nikitavoloboev/learn-anything/blob/master/LICENSE">
+	<a href="https://github.com/learn-anything/search-engine/blob/master/LICENSE">
 		<img src="https://img.shields.io/pypi/l/pipenv.svg">
 	</a>
 
