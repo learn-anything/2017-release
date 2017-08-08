@@ -30,6 +30,7 @@
   "dependencies": {
     "auth0-lock": "^10.19.0",
     "axios": "^0.16.1",
+    "chromeless": "^1.2.0",
     "compression": "^1.7.0",
     "dot": "^1.1.2",
     "elasticsearch": "^13.2.0",
@@ -62,7 +63,6 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "chrome-remote-interface": "^0.24.2",
-    "chromeless": "github:graphcool/chromeless",
     "css-loader": "^0.28.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.3.1",
