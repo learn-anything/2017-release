@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import openNewTab from 'utils/openNewTab';
+import actions from 'constants/actions.json';
 import Dialog from './Dialog';
 
 export default class UnmatchedDialog extends Component {
@@ -11,7 +12,10 @@ export default class UnmatchedDialog extends Component {
 
   redirect() {
     const url = `https://duckduckgo.com/?q=${this.props.query}`;
-    openNewTab('Search', 'fallback search', url);
+    openNewTab({
+      type: actions.ga.search.fallbackSearch,
+      payload: url,
+    });
     this.props.onReject();
   }
 

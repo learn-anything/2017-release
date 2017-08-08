@@ -3,6 +3,7 @@ import Autosuggest from 'react-autosuggest';
 
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
 import fetchMap from 'actions/fetchMap';
+import actions from 'constants/actions.json';
 import 'sass/_SearchBar.sass';
 import UnmatchedDialog from './dialogs/UnmatchedDialog';
 
@@ -50,6 +51,10 @@ export default class SearchBar extends Component {
 
     // There's no suggestion for what you're searching; show unmatched dialog.
     if (this.props.suggestions.length === 0) {
+      this.props.dispatch({
+        type: actions.ga.search.unmatchedQuery,
+        payload: this.props.query,
+      });
       this.setState({ unmatchedDialog: true });
       document.activeElement.blur();
     }
@@ -89,7 +94,7 @@ export default class SearchBar extends Component {
     let formClassName = 'searchbar-container';
 
     // If not on main page show the searchbar in exploring mode.
-    if (this.props.title !== '') {
+    if (this.props.title !== '' || this.props.loading) {
       formClassName += ' searchbar-container--exploring';
     }
 
@@ -127,4 +132,5 @@ SearchBar.defaultProps = {
   placeholder: '',
   suggestions: [],
   dispatch: () => {},
+  loading: false,
 };

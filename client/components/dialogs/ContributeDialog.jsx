@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import openNewTab from 'utils/openNewTab';
 import { cleanTitleToAbsURL } from 'utils/Title';
+import actions from 'constants/actions.json';
 import 'sass/_ContributeDialog.sass';
 import Dialog from './Dialog';
 
@@ -12,10 +13,13 @@ export default class ContributeDialog extends Component {
   }
 
   redirect() {
-    const mapPath = cleanTitleToAbsURL(this.props.mapTitle);
+    const mapPath = cleanTitleToAbsURL(this.props.mapTitle).replace(/\/$/, '');
     const url = `https://github.com/nikitavoloboev/learn-anything/edit/master${mapPath}.json`;
 
-    openNewTab('Contribution', 'accept guidelines', url);
+    openNewTab({
+      type: actions.ga.contribution.guidelinesAccepted,
+      payload: url,
+    });
   }
 
   render() {

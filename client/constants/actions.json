@@ -1,17 +1,17 @@
 {
   "map": {
     "fetchUpdate": {
-      "def": "FETCH_UPDATE_MAP",
-      "pending": "FETCH_UPDATE_MAP_PENDING",
-      "fulfilled": "FETCH_UPDATE_MAP_FULFILLED",
-      "rejected": "FETCH_UPDATE_MAP_REJECTED"
+      "def": "fetch map*",
+      "pending": "fetch map*_PENDING",
+      "fulfilled": "fetch map*_FULFILLED",
+      "rejected": "fetch map*_REJECTED"
     },
 
     "fetch": {
-      "def": "FETCH_MAP",
-      "pending": "FETCH_MAP_PENDING",
-      "fulfilled": "FETCH_MAP_FULFILLED",
-      "rejected": "FETCH_MAP_REJECTED"
+      "def": "fetch map (no history update)*",
+      "pending": "fetch map (no history update)*_PENDING",
+      "fulfilled": "fetch map (no history update)*_FULFILLED",
+      "rejected": "fetch map (no history update)*_REJECTED"
     }
   },
 
@@ -33,18 +33,23 @@
   },
 
   "theme": {
-    "set": "SET_THEME"
+    "set": "set theme"
   },
 
-  "dialogs": {
-    "unmatched": {
-      "show": "DIALOG_UNMATCHED_SHOW",
-      "hide": "DIALOG_UNMATCHED_HIDE"
+  "ga": {
+    "navigation": {
+      "external": "external link",
+      "internal": "internal link"
     },
 
-    "contribute": {
-      "show": "DIALOG_CONTRIBUTE_SHOW",
-      "hide": "DIALOG_CONTRIBUTE_HIDE"
+    "contribution": {
+      "buttonClicked": "contribute button clicked",
+      "guidelinesAccepted": "guidelines accepted"
+    },
+
+    "search": {
+      "unmatchedQuery": "unmatched query",
+      "fallbackSearch": "fallback search"
     }
   }
 }

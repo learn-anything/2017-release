@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import 'sass/_ContributeButton.sass';
+import store from 'store/store';
+import actions from 'constants/actions.json';
 import ContributeDialog from './dialogs/ContributeDialog';
 
 export default class ContributeButton extends Component {
@@ -12,6 +14,10 @@ export default class ContributeButton extends Component {
   }
 
   showDialog() {
+    store.dispatch({
+      type: actions.ga.contribution.buttonClicked,
+      payload: this.props.title,
+    });
     this.setState({ contributeDialog: true });
   }
 

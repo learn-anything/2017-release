@@ -77,7 +77,7 @@ module.exports = languages.map((lang) => {
 
   newConfig.plugins = [
     ...plugins,
-    new I18nPlugin(require(`./client/i18n/${lang}/index`)),
+    new I18nPlugin(require(`./client/languages/${lang}/index`)),
   ];
 
   newConfig.output = {

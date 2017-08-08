@@ -1,7 +1,7 @@
 import actions from 'constants/actions.json';
 
 
-const initialState = 'PearlWhite';
+const initialState = localStorage.getItem('theme') || 'PearlWhite';
 
 
 export default (state = initialState, action) => {

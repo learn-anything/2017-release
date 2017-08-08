@@ -21,4 +21,13 @@ module.exports = {
   // Searchbar
   searchbar_help_text_0: 'Press Enter to open our randomly suggested map.',
   searchbar_help_text_1: 'Start writing to get a list of existing topics.',
+
+  // Sidebar - Themes
+  sidebar_themes_title: 'Themes 🖌',
+  sidebar_themes_night: 'Night 🌃',
+  sidebar_themes_white: 'Pearl White ⚪',
+
+  // Sidebar - Tips
+  sidebar_tips_title: 'Tips 💡',
+  sidebar_tips_content: md('tips', 'en'),
 };

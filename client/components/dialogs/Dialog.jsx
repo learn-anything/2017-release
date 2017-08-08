@@ -13,7 +13,7 @@ export default class Dialog extends Component {
 
   // When clicking outside dialog trigger onReject.
   onClick(event) {
-    if (event.target.className.indexOf('dialog-container') !== -1) {
+    if (event.target.className.includes('dialog-container')) {
       this.props.onReject();
     }
   }

@@ -25,6 +25,7 @@ export const map = context => (
       query={context.props.query}
       placeholder={context.props.placeholder}
       suggestions={context.props.suggestions}
+      loading={context.props.loading}
     />
 
     <MindMapWrapper />

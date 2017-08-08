@@ -28,51 +28,32 @@ export default class Sidebar extends Component {
     return (
       <Menu className="sidebar-menu" width={340} right>
         <div className="sidebar-menu-block">
-          <div onClick={this.toggleVisibility}
-            className="sidebar-menu-item">
-            Themes 🖌
+          <div onClick={this.toggleVisibility} className="sidebar-menu-item">
+            {__('sidebar_themes_title')}
           </div>
+
           <div className="sidebar-menu-options">
-            <div onClick={this.changeTheme} data-theme="Grey">Night 🌃</div>
-            <div onClick={this.changeTheme} data-theme="PearlWhite">Pearl white ⚪</div>
+            <div onClick={this.changeTheme} data-theme="Night">{__('sidebar_themes_night')}</div>
+            <div onClick={this.changeTheme} data-theme="PearlWhite">{__('sidebar_themes_white')}</div>
           </div>
         </div>
 
         <div className="sidebar-menu-block">
-          <div onClick={this.toggleVisibility}
-            className="sidebar-menu-item">
-            Tips 💎
+          <div onClick={this.toggleVisibility} className="sidebar-menu-item">
+            {__('sidebar_tips_title')}
           </div>
-          <div className="sidebar-menu-options">
-            <div disabled>The path below the search bar shows where you are</div>
-            <div disabled>You can click on that path to go back to different maps</div>
-            <div disabled>Hovering over a node will display a note if it exists</div>
-            <div disabled>
-              Help button or hovering over emojis is a great way to get their meanings
-            </div>
-            <div disabled>
-              All basics nodes have steps like 1. 2. and so on, if nodes have
-              the same step, just choose any you like
-            </div>
-            <div disabled>
-              Certain nodes have a prefix like 17: or 15: which stands for the
-              year in which that article or video or paper was writen in
-            </div>
-            <div disabled>
-              Nearly all main nodes have a reddit subreddit or stack exchange forum
-              attached to them, they're a great place to ask questions you may
-              have
-            </div>
-            <div disabled>
-              You can also join our&nbsp;
-              <a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
-                community on Slack
-              </a>
-              &nbsp;to learn together and help the project evolve
-            </div>
-          </div>
+
+          <div
+            className="sidebar-menu-options"
+            dangerouslySetInnerHTML={{ __html: __('sidebar_tips_content') }}
+          />
         </div>
       </Menu>
     );
   }
 }
+
+Sidebar.defaultProps = {
+  title: '',
+  dispatch: () => {},
+};
