@@ -1,6 +1,7 @@
 const express = require('express');
 const client = require('../elasticClient');
 
+
 const router = express.Router();
 const search = (body, res, send) => {
   client.search({ body, index: 'maps' })
@@ -21,6 +22,7 @@ router.get('/', (req, res) => {
       match: {
         key: {
           query: q,
+          analyzer: 'standard',
           fuzziness: 'AUTO',
         },
       },
@@ -51,7 +53,11 @@ router.get('/', (req, res) => {
 
 // Get specific map.
 router.get('/:id(\\d+)', (req, res) => {
-  client.get({ index: 'maps', type: 'map', id: req.params.id })
+  client.get({
+    index: 'maps',
+    type: 'map',
+    id: req.params.id,
+  })
     .then((result) => {
       res.send(result._source);
     })
@@ -63,8 +69,11 @@ router.get('/:id(\\d+)', (req, res) => {
 
 // Get specific map, by map title.
 router.get(/\/(.*)/, (req, res) => {
-  // Convert from "path/to/map/" to "path - to - map" format.
-  let title = req.params[0].replace(/\/$/, '').replace(/-/g, ' ').replace(/\//g, ' - ');
+  // Convert from "/path/to/map/" to "learn anything - path - to - map" format.
+  let title = req.params[0]
+    .replace(/\/$/, '')
+    .replace(/-/g, ' ')
+    .replace(/\//g, ' - ');
 
   if (!title.startsWith('learn anything')) {
     title = `learn anything - ${title}`;
@@ -90,5 +99,6 @@ router.get(/\/(.*)/, (req, res) => {
     }
   });
 });
+
 
 module.exports = router;
