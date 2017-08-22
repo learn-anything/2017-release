@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Sidebar from 'components/Sidebar';
 import fetchMap from 'actions/fetchMap';
 import { titleToURL } from 'utils/Title';
-import * as Pages from 'constants/Pages';
+import * as Pages from './Pages';
 
 @connect(store => ({
   title: store.map.title,
@@ -17,10 +17,10 @@ export default class App extends Component {
   renderContent(pathname) {
     switch (pathname) {
       case '/thank-you':
-        return Pages.thankYou(this);
+        return Pages.thankYou.call(this);
 
       default:
-        return Pages.map(this);
+        return Pages.map.call(this);
     }
   }
 

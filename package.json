@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "auth0-lock": "^10.19.0",
+    "aws-sdk": "^2.100.0",
     "axios": "^0.16.1",
     "chromeless": "^1.2.0",
     "compression": "^1.7.0",
@@ -37,6 +38,7 @@
     "enzyme": "^2.9.1",
     "express": "^4.15.4",
     "fs-walk": "0.0.1",
+    "http-aws-es": "^2.0.5",
     "marked": "^0.3.6",
     "react": "^15.6.1",
     "react-autosuggest": "^9.3.1",

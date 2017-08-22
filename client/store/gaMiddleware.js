@@ -49,6 +49,7 @@ const getGAObj = (action) => {
 };
 
 const prod = GAObj => ga('send', 'event', GAObj);
+// eslint-disable-next-line no-console
 const dev = GAObj => console.log(GAObj);
 
 export default () => next => (action) => {
