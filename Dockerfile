@@ -12,4 +12,4 @@ RUN npm install && npm cache clean
 COPY . /usr/src/app
 RUN npm run build:prod
 
-CMD NODE_ENV='production' node server/index.js -p 3000
+CMD npm run start:prod
