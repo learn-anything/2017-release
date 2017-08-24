@@ -57,7 +57,7 @@ you're developing locally to get a random map you'd use `http://localhost:3000/a
 | [/maps/path/to/map](#get-mapspathtomap) | GET    | -          | get map by path                 |
 
 #### GET /maps
-Return a list of suggestions to complete to the string in the **q** parameter.
+Return a list of suggestions to complete the string in the **q** parameter.
 Each suggestion is in the form of:
 
 ```json
