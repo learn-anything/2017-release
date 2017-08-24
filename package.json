@@ -17,7 +17,7 @@
   ],
   "repository": "learn-anything/search-engine",
   "scripts": {
-    "setup": "npm install && cd maps && npm install && npm run setup",
+    "setup": "./setup.sh",
     "start": "node server/index.js -p 3000",
     "test": "jest",
     "test:watch": "npm test -- --watch",
