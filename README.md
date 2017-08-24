@@ -27,7 +27,7 @@ Linux you can download and run it with the following commands.
 Once you have Elasticsearch up and running you can start your local instance of
 Learn Anything with the commands below.
 
-    git clone https://github.com/learn-anything/learn-anything --recursive
+    git clone https://github.com/learn-anything/learn-anything
     cd learn-anything
     git checkout elastic
     npm run setup
