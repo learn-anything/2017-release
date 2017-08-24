@@ -29,6 +29,7 @@ Learn Anything with the commands below.
 
     git clone https://github.com/learn-anything/learn-anything --recursive
     cd learn-anything
+    git checkout elastic
     npm run setup
     npm start
 
