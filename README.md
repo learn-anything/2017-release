@@ -1,12 +1,12 @@
 # Learn Anything
 [![slack badge](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ)
-[![travis badge](https://travis-ci.org/learn-anything/search-engine.svg?branch=master)](https://travis-ci.org/learn-anything/search-engine)
-[![license badge](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/learn-anything/search-engine/blob/master/LICENSE)
+[![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything)
+[![license badge](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/learn-anything/learn-anything/blob/master/LICENSE)
 
 This is the main code-base that powers [learn-anything.xyz](https://learn-anything.xyz).
 
 If you want to know more about what we're trying to solve, our plans for the
-future, how to improve the maps, and more you can check the [wiki](https://github.com/nikitavoloboev/learn-anything/wiki).
+future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/maps/wiki).
 
 <img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" height="400">
 
