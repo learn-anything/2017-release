@@ -36,17 +36,6 @@ app.use(express.static('client/dist'));
 app.use('/api', api);
 
 
-// Thumbnail by map title.
-/* app.get(/thumbs\/(.*)/, (req, res) => {
-  let filename = `${req.params[0]}.jpg`;
-
-  if (filename !== 'learn-anything.jpg') {
-    filename = `learn-anything/${filename}`;
-  }
-
-  res.sendFile(filename, { root: 'thumbs' });
-}); */
-
 // Templating engine for dynamic meta tags.
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
@@ -75,36 +64,9 @@ app.get('*', (req, res) => {
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${title}`,
-      image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
+      // image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
       language: 'en',
     }));
-
-/*
-    docClient.query({
-      TableName: 'la-maps',
-      KeyConditionExpression: '#title = :title',
-      ExpressionAttributeNames: { '#title': 'title' },
-      ExpressionAttributeValues: { ':title': title },
-    }, (err, data) => {
-      if (err) {
-        res.status(500).send(JSON.stringify(err));
-        return;
-      }
-
-      if (data.Items.length) {
-        const result = data.Items[0];
-
-        res.send(render({
-          title: result.key || topic,
-          description: result.description || `Learn ${result.key || topic} with hand curated mind maps.`,
-          url: `${req.protocol}://${req.headers.host}${title}`,
-          image: `${req.protocol}://${req.headers.host}/thumbs${title}`,
-        }));
-        return;
-      }
-      res.status(404).send(`Map ${title} not found.`);
-    });
-*/
   }
 });
 
