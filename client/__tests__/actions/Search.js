@@ -2,8 +2,8 @@ import * as Search from 'actions/Search';
 import { search } from 'constants/actions.json';
 
 describe('actions - Search', () => {
-  it('should create action to show fetch suggestions', () => {
-    const query = 'sugg';
+  it('should create action to get random suggestion', () => {
+    const query = '';
 
     const expectedAction = {
       type: search.suggestions.fetch.def,
@@ -11,6 +11,31 @@ describe('actions - Search', () => {
     };
 
     expect(Search.fetchSuggestions(query)).toEqual(expectedAction);
+  });
+
+  it('should create action to get random suggestion', () => {
+    const query = '';
+
+    const expectedAction = {
+      type: search.suggestions.fetch.def,
+      payload: new Promise(() => {}),
+    };
+
+    expect(Search.fetchSuggestions(query)).toEqual(expectedAction);
+  });
+
+  it('should create action to fetch suggestions', () => {
+    const query = 'a query';
+    const dispatch = jest.fn();
+
+    const action = Search.fetchSuggestions(query);
+    expect(typeof action).toEqual('function');
+
+    action(dispatch);
+    setTimeout(() => {
+      expect(dispatch.mock.calls.length).toBe(1);
+      expect(dispatch.mock.calls[0][0]).toBe({ type: actions.search.suggestions.fetch.pending });
+    }, 300);
   });
 
   it('should create action to clear suggestions', () => {
