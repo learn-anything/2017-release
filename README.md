@@ -29,7 +29,7 @@ Learn Anything with the commands below.
 
     git clone https://github.com/learn-anything/learn-anything
     cd learn-anything
-    git checkout elastic
+    git checkout dev
     npm run setup
     npm start
 
