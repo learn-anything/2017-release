@@ -2,7 +2,7 @@
 
 
 .bm-menu-wrap
-  z-index: 3 !important
+  z-index: 3 !important // sass-lint:disable-line no-important
 
 .sidebar-menu-block
   margin-bottom: 20px
@@ -17,7 +17,12 @@
   height: 0
   overflow: hidden
 
-  div
+  ul
+    list-style-type: none
+    padding: 0
+
+  div,
+  li
     border-bottom: 1px solid $grey800
     color: $grey300
     cursor: default
@@ -31,7 +36,8 @@
     &:hover
       background-color: $grey800
 
-  div:last-child
+  div:last-child,
+  li:last-child
     border-bottom: 0
 
 .sidebar-menu-options--visible

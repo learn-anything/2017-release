@@ -1,4 +1,6 @@
 const webpack = require('webpack');
+const sassLintPlugin = require('sasslint-webpack-plugin');
+const I18nPlugin = require("i18n-webpack-plugin");
 
 const isDev = process.env.NODE_ENV !== 'production';
 const entry = isDev ? [
@@ -7,9 +9,15 @@ const entry = isDev ? [
   './client/index.jsx'
 ] : './client/index.jsx';
 
-const plugins = isDev ? [new webpack.HotModuleReplacementPlugin()] : [];
+const plugins = isDev ? [
+  new sassLintPlugin({
+    glob: 'client/**/*.sass',
+    configFile: '.sass-lint.yml',
+  }),
+  new webpack.HotModuleReplacementPlugin(),
+] : [];
 
-module.exports = {
+const config = {
   entry,
   plugins,
   cache: isDev,
@@ -22,17 +30,28 @@ module.exports = {
   },
 
   resolve: {
+    modules: ['node_modules', 'client'],
     extensions: ['.jsx', '.js'],
   },
 
   module: {
     loaders: [
       {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+      },
+      {
+        test: /\.md$/,
+        loader: 'markdown-loader',
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader',
       },
       {
-        test: /\.s(a|c)ss$/,
+        test: /\.sass$/,
         exclude: /node_modules/,
         loader: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
@@ -49,3 +68,24 @@ module.exports = {
     'auth0-lock': 'Auth0Lock',
   },
 };
+
+// List of available languages, will be modified when new languages are added.
+const languages = ['en'];
+
+module.exports = languages.map((lang) => {
+  const newConfig = Object.assign({}, config);
+
+  newConfig.plugins = [
+    ...plugins,
+    new I18nPlugin(require(`./client/languages/${lang}/index`)),
+  ];
+
+  newConfig.output = {
+    path: `${__dirname}/client/dist`,
+    filename: `${lang}.bundle.js`,
+    libraryTarget: 'umd',
+    publicPath: '/',
+  };
+
+  return newConfig;
+});

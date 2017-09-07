@@ -1,0 +1,77 @@
+@import '../sass/variables'
+
+
+.Night
+  background-color: $grey900
+
+  // I want to learn
+  .searchbar-container::before
+    color: $grey200
+
+  // Searchbar
+  .react-autosuggest__input:focus
+    background-color: $white
+
+  // Searchbar suggestion
+  .helpText
+    color: $grey200
+
+
+  // Path to map
+  .breadcrumbs span
+    color: $grey200
+
+  .mindmap-connection
+    stroke: $grey300
+
+  // Subnodes text
+  .mindmap-subnode-group a
+    color: $grey200
+
+
+  // Burger menu
+  .bm-burger-bars
+    background: $grey200
+
+  .bm-menu
+    background: $grey400
+
+  .bm-item-list
+    color: $grey900
+
+  .bm-cross
+    background-color: $grey900
+
+  .sidebar-menu-item
+    color: $grey900
+
+  .sidebar-menu-options
+    div,
+    li
+      border-color: $grey500
+      color: $grey800
+
+    div:not([disabled]):hover
+      background-color: $grey500
+
+  .thank-you-text
+    color: $grey200
+
+  // Footer icons
+  footer a
+    +icon-color($grey200)
+
+  .octocat:hover
+    +icon-color($grey500)
+
+  .emoji-reference:hover
+    +icon-color($grey500)
+
+  .emoji-reference-table
+    background-color: $grey200
+    color: $grey900
+
+
+  // Spinner
+  .spinner
+    background-color: $grey200

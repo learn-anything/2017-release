@@ -1,0 +1,55 @@
+{
+  "map": {
+    "fetchUpdate": {
+      "def": "fetch map*",
+      "pending": "fetch map*_PENDING",
+      "fulfilled": "fetch map*_FULFILLED",
+      "rejected": "fetch map*_REJECTED"
+    },
+
+    "fetch": {
+      "def": "fetch map (no history update)*",
+      "pending": "fetch map (no history update)*_PENDING",
+      "fulfilled": "fetch map (no history update)*_FULFILLED",
+      "rejected": "fetch map (no history update)*_REJECTED"
+    }
+  },
+
+  "search": {
+    "suggestions": {
+      "fetch": {
+        "def": "FETCH_SUGGESTIONS",
+        "pending": "FETCH_SUGGESTIONS_PENDING",
+        "fulfilled": "FETCH_SUGGESTIONS_FULFILLED",
+        "rejected": "FETCH_SUGGESTIONS_REJECTED"
+      },
+      "clear": "CLEAR_SUGGESTIONS"
+    },
+
+    "query": {
+      "update": "UPDATE_QUERY",
+      "clear": "CLEAR_QUERY"
+    }
+  },
+
+  "theme": {
+    "set": "set theme"
+  },
+
+  "ga": {
+    "navigation": {
+      "external": "external link",
+      "internal": "internal link"
+    },
+
+    "contribution": {
+      "buttonClicked": "contribute button clicked",
+      "guidelinesAccepted": "guidelines accepted"
+    },
+
+    "search": {
+      "unmatchedQuery": "unmatched query",
+      "fallbackSearch": "fallback search"
+    }
+  }
+}

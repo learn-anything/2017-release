@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import Dialog from './Dialog.jsx';
-import { hideUnmatched } from '../../actions/dialogs';
-import openNewTab from '../../utils/openNewTab';
+import openNewTab from 'utils/openNewTab';
+import actions from 'constants/actions.json';
+import Dialog from './Dialog';
 
-@connect(store => store.dialogs.unmatched)
 export default class UnmatchedDialog extends Component {
-  redirect() {
-    const url = `https://duckduckgo.com/?q=${this.props.query}`;
-    openNewTab('Search', 'fallback search', url);
+  constructor(props) {
+    super(props);
+
+    this.redirect = this.redirect.bind(this);
   }
 
-  reject() {
-    this.props.dispatch(hideUnmatched());
+  redirect() {
+    const url = `https://duckduckgo.com/?q=${this.props.query}`;
+    openNewTab({
+      type: actions.ga.search.fallbackSearch,
+      payload: url,
+    });
+    this.props.onReject();
   }
 
   render() {
@@ -22,16 +26,22 @@ export default class UnmatchedDialog extends Component {
 
     return (
       <Dialog
-        title="Unmatched query"
-        accept="Search"
-        onReject={this.reject.bind(this)}
-        onAccept={this.redirect.bind(this)}
-        acceptOnEnter={true}
-        className="unmatched-dialog"
+        title={__('unmatched_dialog_title')}
+        acceptLabel={__('unmatched_dialog_accept_label')}
+        onReject={this.props.onReject}
+        onAccept={this.redirect}
+        acceptOnEnterPress={true}
       >
-        The topic you're looking for doesn't have a map yet, but
-        you can search it on DuckDuckGo.
+        <div className="unmatched-dialog">
+          {__('unmatched_dialog_message')}
+        </div>
       </Dialog>
     );
   }
 }
+
+UnmatchedDialog.defaultProps = {
+  onReject: () => {},
+  visible: false,
+  query: '',
+};

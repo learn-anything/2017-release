@@ -1,18 +1,25 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import classNames from 'utils/classNames';
+import 'sass/_Dialog.sass';
 
-import '../../sass/_Dialog.sass';
-
-// Retrieve the message from the store, and set it as prop.
+// Generic dialog.
 export default class Dialog extends Component {
-  dismiss(event) {
-    if (event.target.className === 'dialog-container') {
+  constructor(props) {
+    super(props);
+
+    this.onClick = this.onClick.bind(this);
+    this.onKeydown = this.onKeydown.bind(this);
+  }
+
+  // When clicking outside dialog trigger onReject.
+  onClick(event) {
+    if (event.target.className.includes('dialog-container')) {
       this.props.onReject();
     }
   }
 
-  onKeyDown(event) {
-    if (event.key === 'Enter' && this.props.acceptOnEnter) {
+  onKeydown(event) {
+    if (event.key === 'Enter' && this.props.acceptOnEnterPress) {
       this.props.onAccept();
     }
 
@@ -21,52 +28,53 @@ export default class Dialog extends Component {
     }
   }
 
-  render() {
-    let className = 'dialog-container';
+  // Render footer with Reject and Accept buttons.
+  renderFooter() {
+    return (
+      <div className="dialog-footer">
+        <a className="dialog-footer--reject" onClick={this.props.onReject}>
+          {this.props.rejectLabel}
+        </a>
 
-    if (this.props.centered) {
-      className += ' dialog-container--centered';
-    }
+        <a className="dialog-footer--accept" onClick={this.props.onAccept}>
+          {this.props.acceptLabel}
+        </a>
+      </div>
+    );
+  }
+
+  render() {
+    const className = classNames({
+      'dialog-container': true,
+      'dialog-container--centered': this.props.isCentered,
+    });
 
     return (
-      <div className={className} onClick={this.dismiss.bind(this)}>
-        <input autoFocus={true} onKeyDown={this.onKeyDown.bind(this)} />
+      <div className={className} onClick={this.onClick}>
         <div className="dialog">
-          {
-            this.props.title ?
-            <div className="dialog-title">
-              {this.props.title}
-            </div>: ''
-          }
-          <div className="dialog-body">
-            {this.props.children}
-          </div>
-          {
-            this.props.footer ?
-            <div className="dialog-footer">
-              <a className="dialog-footer--reject"
-                onClick={this.props.onReject}>
-                {this.props.reject}
-              </a>
-              <a className="dialog-footer--accept"
-                onClick={this.props.onAccept}>
-                {this.props.accept}
-              </a>
-            </div>: ''
-          }
+          <div className="dialog-title">{this.props.title}</div>
+          <div className="dialog-body">{this.props.children}</div>
+          {this.props.hasFooter ? this.renderFooter() : ''}
         </div>
       </div>
     );
+  }
+
+  // Listen for Enter or Escape keypresses.
+  componentDidMount() {
+    document.onkeydown = this.onKeydown;
   }
 }
 
 Dialog.defaultProps = {
   title: '',
-  footer: true,
-  centered: true,
-  reject: 'Cancel',
-  accept: 'Okay',
-  onReject: () => console.log('Dialog.onReject triggered'),
-  onAccept: () => console.log('Dialog.onAccept triggered'),
-  acceptOnEnter: false,
+  hasFooter: true,
+  isCentered: true,
+
+  rejectLabel: __('dialog_cancel'),
+  onReject: () => {},
+
+  acceptLabel: __('dialog_okay'),
+  onAccept: () => {},
+  acceptOnEnterPress: false,
 };

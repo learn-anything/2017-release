@@ -1,6 +1,17 @@
-import actions from '../strings/actions.json';
+import { titleToURL, cleanTitle } from 'utils/Title';
+import actions from 'constants/actions.json';
 
-export default (state = {}, action) => {
+
+const initialState = {
+  title: '',
+  nodes: [],
+  connections: [],
+  loading: false,
+  error: undefined,
+};
+
+
+export default (state = initialState, action) => {
   switch (action.type) {
     case actions.map.fetchUpdate.pending:
     case actions.map.fetch.pending:
@@ -9,39 +20,31 @@ export default (state = {}, action) => {
         nodes: [],
         connections: [],
         loading: true,
-        fetched: false,
         error: undefined,
       };
 
     case actions.map.fetchUpdate.fulfilled: {
       // Update URL on the browser
-      const url = action.payload.config.url.replace('maps/', '');
-      window.history.pushState(null, null, url);
+      const url = titleToURL(action.payload.data.title);
+      history.pushState(null, null, url);
     }
     // Fall through next case.
-
     case actions.map.fetch.fulfilled: {
-      // Update map data.
-      const connections = action.payload.data.connections;
-      const subnodes = action.payload.data.subnodes;
-      const nodes = action.payload.data.nodes;
+      const data = action.payload.data;
+      const title = cleanTitle(data.title);
 
       // Set HTML title.
-      const url = action.payload.config.url.replace('maps/', '');
-      const urlSplit = url.split('/');
-      const topic = urlSplit[urlSplit.length - 1];
-      document.title = topic.replace('-', ' ').concat(' - Learn Anything');
+      const titleSplit = title.split(' - ');
+      const topic = titleSplit[titleSplit.length - 1];
+      document.title = `${topic} - Learn Anything`;
 
       return {
         ...state,
-        url,
-        nodes,
-        subnodes,
-        connections,
+        title,
         loading: false,
-        fetched: true,
-        exploring: true,
         error: undefined,
+        nodes: data.nodes,
+        connections: data.connections,
       };
     }
 
@@ -56,7 +59,6 @@ export default (state = {}, action) => {
         nodes: [],
         connections: [],
         loading: false,
-        fetched: false,
       };
     }
 

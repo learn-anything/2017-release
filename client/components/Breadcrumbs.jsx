@@ -1,31 +1,36 @@
-import { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
-import fetchMap from '../actions/fetchMap';
-import { clearQuery } from '../actions/Search';
-import '../sass/_Breadcrumbs.sass';
+import React, { Component } from 'react';
+import 'sass/_Breadcrumbs.sass';
 
-@connect(store => ({ url: store.map.url }))
+
 export default class Breadcrumbs extends Component {
-  dispatch() {
-    const url = this.splitUrl.slice(0, this.index + 1).join('/');
-    this.props.dispatch(fetchMap(url));
-    this.props.dispatch(clearQuery());
-    ga('send', 'pageview', `/${url}`);
+  onClick(splitTitle, index) {
+    // Convert splitTitle from ['path', 'to', 'map']
+    // to "path/to/map" format.
+    const url = splitTitle.slice(0, index + 1).join('/');
+    this.props.onCrumbClick(url);
+  }
+
+  renderBreadcrumbs() {
+    // Title is in the form of "path - to - map".
+    const splitTitle = this.props.title.split(' - ');
+
+    return splitTitle.map((topic, index) => (
+      <span key={index} onClick={this.onClick.bind(this, splitTitle, index)}>
+        {topic}
+      </span>
+    ));
   }
 
   render() {
-    const splitUrl = this.props.url.slice(1).split('/');
-
-    const breadcrumbs = splitUrl.map((el, index) => (
-      <span onClick={this.dispatch.bind({ ...this, splitUrl, index })}>
-        {el.replace(/-/g, ' ')}
-      </span>
-    ));
-
     return (
       <div className="breadcrumbs">
-        {breadcrumbs}
+        {this.renderBreadcrumbs()}
       </div>
     );
   }
 }
+
+Breadcrumbs.defaultProps = {
+  title: '',
+  onCrumbClick: () => {},
+};

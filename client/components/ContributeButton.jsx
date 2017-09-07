@@ -1,45 +1,57 @@
-import { Component } from 'react';
-import { connect } from 'react-redux';
-import { showContribute } from '../actions/dialogs';
-import ContributeDialog from './dialogs/ContributeDialog.jsx';
-import '../sass/_ContributeButton.sass';
+import React, { Component } from 'react';
+import 'sass/_ContributeButton.sass';
+import store from 'store/store';
+import actions from 'constants/actions.json';
+import ContributeDialog from './dialogs/ContributeDialog';
 
-@connect(store => ({ url: store.map.url }))
 export default class ContributeButton extends Component {
-  onClick() {
-    const template = (url) => {
-      let path = `${url}.json`;
+  constructor(props) {
+    super(props);
+    this.state = { contributeDialog: false };
 
-      if (path !== '/learn-anything.json') {
-        path = `/learn-anything${path}`;
-      }
+    this.showDialog = this.showDialog.bind(this);
+    this.dismissDialog = this.dismissDialog.bind(this);
+  }
 
-      return `https://github.com/nikitavoloboev/learn-anything/edit/master${path}`;
-    };
+  showDialog() {
+    store.dispatch({
+      type: actions.ga.contribution.buttonClicked,
+      payload: this.props.title,
+    });
+    this.setState({ contributeDialog: true });
+  }
 
-    this.props.dispatch(showContribute(template(this.props.url)));
+  dismissDialog() {
+    this.setState({ contributeDialog: false });
   }
 
   render() {
-    if (this.props.url) {
-      return (
-        <div>
-          <button
-            onClick={this.onClick.bind(this)}
-            className="contribute-button"
-            type="button"
-          >
-            <span className="contribute-button-text">Improve this map</span>
-            <img
-              className="contribute-button-emoji"
-              src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png"
-            />
-          </button>
-          <ContributeDialog />
-        </div>
-      );
+    if (!this.props.title) {
+      return null;
     }
 
-    return (<div></div>);
+    return (
+      <div>
+        <button
+          onClick={this.showDialog}
+          className="contribute-button"
+          type="button"
+        >
+          <span className="contribute-button-text">{__('contribute_button_text')}</span>
+          <img className="contribute-button-emoji"
+            src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f984.png" />
+        </button>
+
+        <ContributeDialog
+          onReject={this.dismissDialog}
+          visible={this.state.contributeDialog}
+          title={this.props.title}
+        />
+      </div>
+    );
   }
 }
+
+ContributeButton.defaultProps = {
+  title: '',
+};

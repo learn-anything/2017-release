@@ -1,12 +1,12 @@
-export default (category, action, url) => {
-  const windowRef = window.open();
+import store from 'store/store';
 
-  ga('send', 'event', {
-    eventCategory: category,
-    eventAction: action,
-    eventLabel: url,
-  });
 
-  windowRef.location = url;
+export default (action) => {
+  // window.open doesn't actually take an argument
+  // but it's useful when mocking window on tests.
+  const windowRef = window.open(action.payload);
+  store.dispatch(action);
+
+  windowRef.location = action.payload;
   windowRef.focus();
 };

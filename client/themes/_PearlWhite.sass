@@ -1,22 +1,19 @@
 @import '../sass/variables'
 
 
-body.PearlWhite
+.PearlWhite
   background-color: $grey200
 
-.PearlWhite
   // I want to learn
-  .searchbar-container
-    &::before
-      color: $grey900
+  .searchbar-container::before
+    color: $grey900
 
   // Searchbar
-  .react-autosuggest__input
-    &:focus
-      background-color: $white
+  .react-autosuggest__input:focus
+    background-color: $white
 
   // Searchbar suggestion
-  .introText
+  .helpText
     color: $grey900
 
 
@@ -46,8 +43,9 @@ body.PearlWhite
     color: $grey200
 
   .sidebar-menu-options
-    div
-      border-bottom: 1px solid $grey800
+    div,
+    li
+      border-color: $grey800
       color: $grey300
 
     a
@@ -55,9 +53,6 @@ body.PearlWhite
 
     div:not([disabled]):hover
       background-color: $grey800
-
-    div:last-child
-      border-bottom: 0
 
   .thank-you-text
     color: $grey900
@@ -76,3 +71,8 @@ body.PearlWhite
   .emoji-reference-table
     background-color: $grey900
     color: $grey200
+
+
+  // Spinner
+  .spinner
+    background-color: $grey900

@@ -1,20 +1,19 @@
 import axios from 'axios';
-import actions from '../strings/actions.json';
+import actions from 'constants/actions.json';
 
 /*
  * Fetch map at given url, and update browser URL unless otherwise specified.
  */
-export default (url, updateURL = true) => {
-  let apiURL;
+export default (id, updateURL = true) => {
+  const apiURL = `/api/maps/${id.replace(/^\//, '')}`;
+  let type = actions.map.fetch.def;
 
-  if (!url.startsWith('/')) {
-    apiURL = `/maps/${url}`;
-  } else {
-    apiURL = `/maps${url}`;
+  if (updateURL) {
+    type = actions.map.fetchUpdate.def;
   }
 
   return {
-    type: updateURL ? actions.map.fetchUpdate.def : actions.map.fetch.def,
+    type,
     payload: axios.get(apiURL),
   };
 };
