@@ -6,6 +6,7 @@ const dot = require('dot');
 const api = require('./api/index');
 
 const app = express();
+const googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
 
 // If on dev environment use hot reloading.
 if (process.env.NODE_ENV !== 'production') {
@@ -46,6 +47,7 @@ app.get('*', (req, res) => {
   if (title === '/') {
     // Render main page.
     res.send(render({
+      googleTrackingID,
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${title}`,
@@ -61,6 +63,7 @@ app.get('*', (req, res) => {
 
     // TMP
     res.send(render({
+      googleTrackingID,
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
       url: `${req.protocol}://${req.headers.host}${title}`,

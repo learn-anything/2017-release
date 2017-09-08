@@ -60,7 +60,7 @@ export default () => next => (action) => {
     return next(action);
   }
 
-  if (process.env === 'PRODUCTION') {
+  if (process.env.NODE_ENV === 'production') {
     prod(GAObj);
   } else {
     dev(GAObj);

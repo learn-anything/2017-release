@@ -14,9 +14,6 @@ import 'themes/_PearlWhite.sass';
 import 'themes/_Night.sass';
 
 
-// Use Analytics if on production.
-window.googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
-
 // Enable hot reloading
 if (module.hot) {
   module.hot.accept();
