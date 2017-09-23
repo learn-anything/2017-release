@@ -6,6 +6,7 @@
   font-family: 'Raleway', sans-serif
 
 body
+  background-color: $shark
   margin: 0
 
   +respond-to($width-small)
@@ -106,6 +107,61 @@ footer
 .octocat > span
   +respond-to($width-extra-small)
     display: none
+
+
+.first-search-title
+  color: $white
+  display: block
+  font-size: 3em
+  font-weight: bold
+  margin-bottom: 40px
+  margin-top: 12vh
+  text-align: center
+
+.helpText
+  color: $regent-gray
+  line-height: 1.8rem
+  margin-top: 40px
+  text-align: center
+
+  a
+    color: $regent-gray
+    text-underline-position: under
+
+
+.la-logo
+  display: block
+  margin: auto
+  padding: 40px 0
+  width: 40px
+
+.welcome-bubble,
+.welcome-bubble-ellipse,
+.welcome-bubble-text
+  display: inline-block
+
+.welcome-bubble
+  left: 50%
+  position: absolute
+  top: 40px
+  transform: translateX(calc(-100% - 60px))
+
+.welcome-bubble-text
+  background-color: $cape-cod
+  border-radius: 10px
+  color: $regent-gray
+  max-width: 40vw
+  padding: 5px 20px
+  width: 500px
+
+.welcome-bubble-ellipse
+  background-color: $cape-cod
+  border-radius: 10px
+  height: 13px
+  margin-left: 14px
+  position: absolute
+  top: 20px
+  width: 13px
 
 
 @keyframes scaleout

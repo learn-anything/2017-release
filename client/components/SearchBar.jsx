@@ -9,7 +9,12 @@ import UnmatchedDialog from './dialogs/UnmatchedDialog';
 
 
 // Functions for react-autosuggest component.
-const renderSuggestion = ({ key }) => (<div className="searchbar-suggestion">{key}</div>);
+const renderSuggestion = ({ key, nodesCount }) => (
+  <div className="searchbar-suggestion">
+    <span className="searchbar-suggestion-key">{key}</span>
+    <span className="searchbar-suggestion-nodes-count">{nodesCount} {__('searchbar_nodes_count')}</span>
+  </div>
+);
 const getSuggestionValue = suggestion => suggestion.key;
 
 
@@ -88,7 +93,7 @@ export default class SearchBar extends Component {
       autoFocus: true,
       value: this.props.query,
       onChange: this.onInputChange,
-      placeholder: this.props.placeholder.key,
+      placeholder: `e.g. ${this.props.placeholder.key}`,
     };
 
     let formClassName = 'searchbar-container';
@@ -111,10 +116,6 @@ export default class SearchBar extends Component {
           onSuggestionSelected={this.onSuggestionSelected}
         />
 
-        <p className="helpText">
-          {__('searchbar_help_text_0')}<br/>
-          {__('searchbar_help_text_1')}
-        </p>
 
         <UnmatchedDialog
           onReject={this.dismissUnmatchedDialog}

@@ -1,6 +1,6 @@
 import SearchBar from 'components/SearchBar';
 import MindMapWrapper from 'containers/MindMapWrapper';
-import ContributeButton from 'components/ContributeButton';
+// import ContributeButton from 'components/ContributeButton';
 
 
 export function thankYou() {
@@ -22,6 +22,12 @@ export function thankYou() {
 export function map() {
   return (
     <div>
+      <div className="welcome-bubble">
+        <div className="welcome-bubble-text" dangerouslySetInnerHTML={{ __html: __('welcome_text') }} />
+        <div className="welcome-bubble-ellipse" />
+      </div>
+      <img className="la-logo" src="/logo.svg" alt="logo"/>
+      <h1 className="first-search-title">{__('first_search_title')}</h1>
       <SearchBar
         dispatch={this.props.dispatch}
         title={this.props.title}
@@ -31,9 +37,9 @@ export function map() {
         loading={this.props.loading}
       />
 
-      <MindMapWrapper />
-
-      <ContributeButton title={this.props.title} />
+      {/* <MindMapWrapper /> */}
+      <p className="helpText" dangerouslySetInnerHTML={{ __html: __('searchbar_help_text') }}/>
+      {/* TotalSearches */}
     </div>
   );
 }

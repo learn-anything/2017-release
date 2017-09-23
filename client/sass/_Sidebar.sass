@@ -8,9 +8,13 @@
   margin-bottom: 20px
 
 .sidebar-menu-item
+  color: $shark
   cursor: pointer
-  font-size: 1.5rem
   font-weight: bold
+  padding: 15px 0
+
+  &:first-child
+    padding: 0 0 20px
 
 .sidebar-menu-options
   font-size: 1rem
@@ -24,7 +28,7 @@
   div,
   li
     border-bottom: 1px solid $grey800
-    color: $grey300
+    color: $shark
     cursor: default
     padding: 10px
     padding-left: 20px
@@ -45,15 +49,17 @@
 
 // Position and sizing of burger button
 .bm-burger-button
-  height: 30px
+  height: 20px
   margin: 25px 30px
   position: fixed
   right: 0
   top: 0
-  width: 36px
+  width: 24px
 
 .bm-burger-bars
+  background: $nevada
   border-radius: 2px
+  height: 2px !important // sass-lint:disable-line no-important
 
 // Color/shape of burger icon bars
 .theme-create
@@ -66,8 +72,9 @@
 
 // General sidebar styles
 .bm-menu
+  background-color: $athens-gray
   font-size: 1.15em
-  padding: 2.5em 1.5em 0
+  padding: 1.5em 1.5em 0
 
 // Wrapper for item list
 .bm-item-list
@@ -75,7 +82,7 @@
 
 // Styling of overlay
 .bm-overlay
-  background: $almost-transparent
+  background: $overlay !important // sass-lint:disable-line no-important
 
 .menu-item
   cursor: pointer

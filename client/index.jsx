@@ -10,8 +10,8 @@ import openNewTab from 'utils/openNewTab';
 import actions from 'constants/actions.json';
 
 import 'sass/main.sass';
-import 'themes/_PearlWhite.sass';
-import 'themes/_Night.sass';
+// import 'themes/_PearlWhite.sass';
+// import 'themes/_Night.sass';
 
 
 // Enable hot reloading

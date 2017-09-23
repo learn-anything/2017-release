@@ -1,56 +1,34 @@
 @import variables
 
 %field
-  background-color: $grey300
+  background-color: $white
   border: 0
-  border-radius: 5px
+  border-radius: 3px
   box-shadow: $shadow
-  color: $grey700
   display: block
-  font-size: 2em
+  font-size: 1.5em
   margin: 0 auto
   max-width: 500px
-  padding: 10px
+  padding: 15px 25px
   transition: box-shadow .218s, background-color .218s, color .218s
   width: 100%
 
   &:focus
-    background-color: $grey200
-    box-shadow: $shadow-active
-    color: $grey900
     outline: none
 
 .searchbar-container
   padding: 10px 5px
-  position: absolute
-  top: 30%
-  width: 100%
-
-  .helpText
-    line-height: 1.8rem
-    margin-top: 40px
-    text-align: center
-
-  &::before
-    color: $grey300
-    content: 'I want to learn'
-    display: block
-    font-size: 3em
-    font-weight: bold
-    margin-bottom: 20px
-    text-align: center
 
 .react-autosuggest__suggestions-container
-  margin: -5px auto
-  max-height: 210px
+  margin: -2px auto
+  max-height: 40vh
   max-width: 500px
   overflow-y: auto
   position: relative
 
   &::before
-    border-radius: 0 0 5px 5px
+    border-radius: 0 0 3px 3px
     bottom: 0
-    box-shadow: $shadow-active
     content: ''
     left: 0
     position: absolute
@@ -74,7 +52,7 @@
     width: 100%
 
   .helpText
-    display: none
+    color: $regent-gray
 
   .react-autosuggest__input
     +respond-to(610px)
@@ -86,7 +64,7 @@
 
 .react-autosuggest__suggestion
   @extend %field
-  background-color: $grey200
+  background-color: $iron
   border-radius: 0
   box-shadow: none
 
@@ -94,19 +72,37 @@
     padding-top: 15px
 
   &:last-child
-    border-radius: 0 0 5px 5px
+    border-radius: 0 0 3px 3px
 
   div
-    color: $grey700
+    color: $shark
+
+    span
+      display: inline-block
+
+.searchbar-suggestion-key
+  width: 80%
+
+.searchbar-suggestion-nodes-count
+  color: $oslo-gray
+  font-size: 18px
+  text-align: right
+  width: 20%
 
 .react-autosuggest__suggestion--highlighted
-  background-color: $grey400
+  background-color: $silver
 
   div
     color: $grey900
 
 .react-autosuggest__input
   @extend %field
+  color: $azure-radiance
+  font-weight: bold
+
+  &::placeholder
+    color: $edward
+    font-weight: normal
 
 .react-autosuggest__suggestions-list
   margin: 0

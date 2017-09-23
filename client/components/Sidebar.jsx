@@ -25,28 +25,23 @@ export default class Sidebar extends Component {
   render() {
     document.body.className = this.props.theme;
 
+    // home, support, about, github, night mode
     return (
-      <Menu className="sidebar-menu" width={340} right>
-        <div className="sidebar-menu-block">
-          <div onClick={this.toggleVisibility} className="sidebar-menu-item">
-            {__('sidebar_themes_title')}
-          </div>
-
-          <div className="sidebar-menu-options">
-            <div onClick={this.changeTheme} data-theme="Night">{__('sidebar_themes_night')}</div>
-            <div onClick={this.changeTheme} data-theme="PearlWhite">{__('sidebar_themes_white')}</div>
-          </div>
+      <Menu className="sidebar-menu" width={250} right>
+        <div className="sidebar-menu-item">
+          {__('sidebar_home')}
         </div>
 
-        <div className="sidebar-menu-block">
-          <div onClick={this.toggleVisibility} className="sidebar-menu-item">
-            {__('sidebar_tips_title')}
-          </div>
+        <div className="sidebar-menu-item">
+          {__('sidebar_support')}
+        </div>
 
-          <div
-            className="sidebar-menu-options"
-            dangerouslySetInnerHTML={{ __html: __('sidebar_tips_content') }}
-          />
+        <div className="sidebar-menu-item">
+          {__('sidebar_about')}
+        </div>
+
+        <div className="sidebar-menu-item">
+          {__('sidebar_github')}
         </div>
       </Menu>
     );
