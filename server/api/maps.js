@@ -12,6 +12,15 @@ const search = (body, res, send) => {
     });
 };
 
+const countNodes = (nodes) => {
+  // Count all nested nodes
+  const count = nodes
+    .map(node => countNodes(node.nodes))
+    .reduce((sum, val) => (sum + val), 0);
+
+  return nodes.length + count;
+};
+
 
 // Search for map or get random map (if no query is specified).
 router.get('/', (req, res) => {
@@ -45,6 +54,7 @@ router.get('/', (req, res) => {
     const hits = result.hits.hits.map(hit => ({
       key: hit._source.key,
       id: hit._id,
+      nodesCount: countNodes(hit._source.nodes),
     }));
 
     res.send(hits);

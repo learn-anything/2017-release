@@ -32,7 +32,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(compression({ threshold: 0 }));
 
 // Static files and api router.
-app.use(express.static('client/public'));
+app.use(express.static('client/resources'));
 app.use(express.static('client/dist'));
 app.use('/api', api);
 
