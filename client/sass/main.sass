@@ -12,104 +12,53 @@ body
   +respond-to($width-small)
     font-size: 12px
 
-footer
-  bottom: 0
-  padding: 10px
-  position: absolute
-  width: 100%
-
-  a
-    margin-right: 20px
-    text-decoration: none
-    z-index: -1
-
-    span
-      font-weight: bold
-      vertical-align: 4px
-
-.thank-you:hover
-  svg
-    fill: $deep-orange-a400
-
-  span
-    color: $deep-orange-a400
-
-.map:hover
-  svg
-    fill: $orange-a400
-
-  span
-    color: $orange-a400
+header
+  background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
+  display: flex
+  height: 60px
 
 
-.emoji-reference:hover
-  cursor: default
 
-  & + .emoji-reference-container
-    display: block
+.app-container
+  & > div
+    bottom: 0
+    display: flex
+    flex-direction: column
+    left: 0
+    overflow: hidden
+    position: absolute
+    right: 0
+    top: 0
 
-.emoji-reference-container
-  bottom: 50px
-  display: none
-  left: 3%
-  position: absolute
+    & > header
+      flex: none
 
-.emoji-reference-table
-  border-radius: 10px
-  box-shadow: $shadow-active
-  padding: 15px 10px
-
-.emoji-reference-icon
-  height: 24px
-  padding: 2px
-  width: 24px
-
-
-.patreon-link
-  color: $purple-500
-
-.thank-you-text
-  margin: 0
-  padding: 20px
-  text-align: center
-
-  & + span
-    vertical-align: 6px
-
-.twitter:hover
-  g
-    fill: $twitter-blue
-
-  span
-    color: $twitter-blue
-
-.emoji-reddit
-  border-radius: 50%
-
+    & > div
+      flex: 1
 
 .mindmap-svg
-  height: calc(100vh - 142px)
+  height: 100%
 
   +respond-to($width-small)
     height: calc(100vh - 134px)
 
 .mindmap-node
-  p:hover
-    background-color: $grey500
-
   p,
   a
-    color: $grey900
+    background-color: $white
+    border-radius: 3px
+    box-shadow: none
+    color: $black
     text-decoration: none
 
-.twitter,
-.thank-you,
-.octocat > span
-  +respond-to($width-extra-small)
-    display: none
+.mindmap-subnode-group > a
+  color: $white
 
+.mindmap-connection
+  stroke: $tuna
+  stroke-dasharray: none
 
-.first-search-title
+.la-title
   color: $white
   display: block
   font-size: 3em
@@ -127,41 +76,6 @@ footer
   a
     color: $regent-gray
     text-underline-position: under
-
-
-.la-logo
-  display: block
-  margin: auto
-  padding: 40px 0
-  width: 40px
-
-.welcome-bubble,
-.welcome-bubble-ellipse,
-.welcome-bubble-text
-  display: inline-block
-
-.welcome-bubble
-  left: 50%
-  position: absolute
-  top: 40px
-  transform: translateX(calc(-100% - 60px))
-
-.welcome-bubble-text
-  background-color: $cape-cod
-  border-radius: 10px
-  color: $regent-gray
-  max-width: 40vw
-  padding: 5px 20px
-  width: 500px
-
-.welcome-bubble-ellipse
-  background-color: $cape-cod
-  border-radius: 10px
-  height: 13px
-  margin-left: 14px
-  position: absolute
-  top: 20px
-  width: 13px
 
 
 @keyframes scaleout

@@ -11,7 +11,6 @@ const getGAObj = (action) => {
         eventLabel: action.payload,
       };
 
-    case actions.map.fetchUpdate.fulfilled:
     case actions.map.fetch.fulfilled:
       return {
         eventCategory: 'Search',

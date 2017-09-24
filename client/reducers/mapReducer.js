@@ -1,4 +1,4 @@
-import { titleToURL, cleanTitle } from 'utils/Title';
+import { cleanTitle } from 'utils/Title';
 import actions from 'constants/actions.json';
 
 
@@ -13,7 +13,6 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case actions.map.fetchUpdate.pending:
     case actions.map.fetch.pending:
       return {
         ...state,
@@ -23,12 +22,6 @@ export default (state = initialState, action) => {
         error: undefined,
       };
 
-    case actions.map.fetchUpdate.fulfilled: {
-      // Update URL on the browser
-      const url = titleToURL(action.payload.data.title);
-      history.pushState(null, null, url);
-    }
-    // Fall through next case.
     case actions.map.fetch.fulfilled: {
       const data = action.payload.data;
       const title = cleanTitle(data.title);
@@ -48,7 +41,6 @@ export default (state = initialState, action) => {
       };
     }
 
-    case actions.map.fetchUpdate.rejected:
     case actions.map.fetch.rejected: {
       // Error fetching map.
       const error = action.payload;

@@ -1,52 +1,6 @@
 @import variables
 
 
-.bm-menu-wrap
-  z-index: 3 !important // sass-lint:disable-line no-important
-
-.sidebar-menu-block
-  margin-bottom: 20px
-
-.sidebar-menu-item
-  color: $shark
-  cursor: pointer
-  font-weight: bold
-  padding: 15px 0
-
-  &:first-child
-    padding: 0 0 20px
-
-.sidebar-menu-options
-  font-size: 1rem
-  height: 0
-  overflow: hidden
-
-  ul
-    list-style-type: none
-    padding: 0
-
-  div,
-  li
-    border-bottom: 1px solid $grey800
-    color: $shark
-    cursor: default
-    padding: 10px
-    padding-left: 20px
-    transition: background-color .218s
-
-  div:not([disabled])
-    cursor: pointer
-
-    &:hover
-      background-color: $grey800
-
-  div:last-child,
-  li:last-child
-    border-bottom: 0
-
-.sidebar-menu-options--visible
-  height: initial
-
 // Position and sizing of burger button
 .bm-burger-button
   height: 20px
@@ -56,19 +10,19 @@
   top: 0
   width: 24px
 
+  button
+    cursor: pointer
+
 .bm-burger-bars
   background: $nevada
   border-radius: 2px
   height: 2px !important // sass-lint:disable-line no-important
 
-// Color/shape of burger icon bars
-.theme-create
-  padding-top: 30px
 
-// Position and sizing of clickable cross button
-.bm-cross-button
-  height: 24px
-  width: 24px
+// Styling of overlay
+.bm-overlay
+  background: $overlay !important // sass-lint:disable-line no-important
+
 
 // General sidebar styles
 .bm-menu
@@ -76,22 +30,20 @@
   font-size: 1.15em
   padding: 1.5em 1.5em 0
 
+
 // Wrapper for item list
 .bm-item-list
   padding: .8em
 
-// Styling of overlay
-.bm-overlay
-  background: $overlay !important // sass-lint:disable-line no-important
 
-.menu-item
-  cursor: pointer
+.sidebar-item
+  color: $shark
+  font-weight: bold
+  padding: 15px 0
 
+  &:first-child
+    padding: 0 0 15px
 
-+respond-to($width-small)
-  .bm-burger-button
-    margin: 20px 30px
-
-+respond-to(670px)
-  .bm-burger-button
-    margin: 20px 10px
+  a
+    color: $shark
+    text-decoration: none

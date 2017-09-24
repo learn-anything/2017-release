@@ -1,23 +1,32 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import Autosuggest from 'react-autosuggest';
 
+import UnmatchedDialog from 'components/dialogs/UnmatchedDialog';
+import classNames from 'utils/classNames';
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
-import fetchMap from 'actions/fetchMap';
 import actions from 'constants/actions.json';
 import 'sass/_SearchBar.sass';
-import UnmatchedDialog from './dialogs/UnmatchedDialog';
 
 
 // Functions for react-autosuggest component.
-const renderSuggestion = ({ key, nodesCount }) => (
-  <div className="searchbar-suggestion">
+const renderSuggestion = ({ id, key, nodesCount }) => (
+  <Link to={`/${id}`} className="searchbar-suggestion">
     <span className="searchbar-suggestion-key">{key}</span>
     <span className="searchbar-suggestion-nodes-count">{nodesCount} {__('searchbar_nodes_count')}</span>
-  </div>
+  </Link>
 );
 const getSuggestionValue = suggestion => suggestion.key;
 
 
+@connect(store => ({
+  title: store.map.title,
+  query: store.search.query,
+  suggestions: store.search.suggestions,
+  placeholder: store.search.placeholder,
+  loading: store.search.loading,
+}))
 export default class SearchBar extends Component {
   constructor(props) {
     super(props);
@@ -31,6 +40,7 @@ export default class SearchBar extends Component {
     this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
     this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
     this.dismissUnmatchedDialog = this.dismissUnmatchedDialog.bind(this);
+    this.renderSuggestionsContainer = this.renderSuggestionsContainer.bind(this);
   }
 
   dismissUnmatchedDialog() {
@@ -42,19 +52,37 @@ export default class SearchBar extends Component {
     this.props.dispatch(updateQuery(event.target.value));
   }
 
+  renderSuggestionsContainer({ containerProps, children }) {
+    return (
+      <div {...containerProps} className="searchbar-suggestions-container">
+        { this.props.docked ?
+          <div className="searchbar-suggestions-title">
+            {__('searchbar_suggestions_title')}
+          </div> : ''
+        }
+        {children}
+      </div>
+    );
+  }
+
   onFormSubmit(event) {
     // Prevent from submitting form.
     event.preventDefault();
 
-    // You haven't written anything; fetch random map indicated on placeholder
-    // and get new placeholder.
+    // You haven't written anything; If you're in the home page
+    // fetch random map indicated on placeholder and get new placeholder,
+    // otherwise, do nothing.
     if (this.props.query === '') {
-      this.props.dispatch(fetchMap(this.props.placeholder.id));
-      this.props.dispatch(fetchSuggestions());
+      if (!this.props.docked) {
+        this.props.history.push(`/${this.props.placeholder.id}`);
+        this.props.dispatch(fetchSuggestions());
+      }
       return;
     }
 
     // There's no suggestion for what you're searching; show unmatched dialog.
+    // TODO - ensure that there's no suggestions (sometimes they just haven't
+    // finished loading).
     if (this.props.suggestions.length === 0) {
       this.props.dispatch({
         type: actions.ga.search.unmatchedQuery,
@@ -70,7 +98,8 @@ export default class SearchBar extends Component {
     // selected pressing enter.
     event.preventDefault();
 
-    this.props.dispatch(fetchMap(suggestion.id));
+    // Navigate to map and clear search query.
+    this.props.history.push(`/${suggestion.id}`);
     this.props.dispatch(clearQuery());
   }
 
@@ -88,19 +117,29 @@ export default class SearchBar extends Component {
       this.props.dispatch(fetchSuggestions());
     }
 
+
+    const inputClassName = classNames({
+      'searchbar-input': true,
+      'searchbar-input--docked': this.props.docked,
+    });
+
+    const formClassName = classNames({
+      'searchbar-container': true,
+      'searchbar-container--docked': this.props.docked,
+    });
+
+
     // Props for input field on autosuggest.
     const inputProps = {
       autoFocus: true,
+      className: inputClassName,
       value: this.props.query,
       onChange: this.onInputChange,
       placeholder: `e.g. ${this.props.placeholder.key}`,
     };
 
-    let formClassName = 'searchbar-container';
-
-    // If not on main page show the searchbar in exploring mode.
-    if (this.props.title !== '' || this.props.loading) {
-      formClassName += ' searchbar-container--exploring';
+    if (this.props.docked) {
+      inputProps.placeholder = __('searchbar_new_search');
     }
 
     return (
@@ -114,6 +153,7 @@ export default class SearchBar extends Component {
           onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
           onSuggestionsClearRequested={this.onSuggestionsClearRequested}
           onSuggestionSelected={this.onSuggestionSelected}
+          renderSuggestionsContainer={this.renderSuggestionsContainer}
         />
 
 
@@ -128,10 +168,6 @@ export default class SearchBar extends Component {
 }
 
 SearchBar.defaultProps = {
-  title: '',
-  query: '',
-  placeholder: '',
-  suggestions: [],
-  dispatch: () => {},
-  loading: false,
+  docked: false,
+  history: {},
 };

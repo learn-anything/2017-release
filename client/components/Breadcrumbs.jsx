@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import 'sass/_Breadcrumbs.sass';
 
 
 export default class Breadcrumbs extends Component {
-  onClick(splitTitle, index) {
+  getURL(splitTitle, index) {
     // Convert splitTitle from ['path', 'to', 'map']
-    // to "path/to/map" format.
-    const url = splitTitle.slice(0, index + 1).join('/');
-    this.props.onCrumbClick(url);
+    // to "path/to-map" format.
+    const url = splitTitle.slice(0, index + 1).join('/').replace(/ /g, '-');
+    return `/${url}`;
   }
 
   renderBreadcrumbs() {
@@ -15,9 +16,7 @@ export default class Breadcrumbs extends Component {
     const splitTitle = this.props.title.split(' - ');
 
     return splitTitle.map((topic, index) => (
-      <span key={index} onClick={this.onClick.bind(this, splitTitle, index)}>
-        {topic}
-      </span>
+      <Link to={this.getURL(splitTitle, index)}>{topic}</Link>
     ));
   }
 
@@ -30,7 +29,4 @@ export default class Breadcrumbs extends Component {
   }
 }
 
-Breadcrumbs.defaultProps = {
-  title: '',
-  onCrumbClick: () => {},
-};
+Breadcrumbs.defaultProps = { title: '' };

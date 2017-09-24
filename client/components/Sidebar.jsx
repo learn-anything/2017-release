@@ -1,54 +1,32 @@
-import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
-import setTheme from 'actions/setTheme';
 import 'sass/_Sidebar.sass';
 
 
-export default class Sidebar extends Component {
-  constructor(props) {
-    super(props);
+export default function Sidebar() {
+  // home, support, about, github, night mode
+  return (
+    <Menu className="sidebar-menu" width={250} right>
+      <div className="sidebar-item">
+        <Link to="/">{__('sidebar_home')}</Link>
+      </div>
 
-    this.changeTheme = this.changeTheme.bind(this);
-  }
+      <div className="sidebar-item">
+        <Link to="/learn-anything">{__('sidebar_all_topics')}</Link>
+      </div>
 
-  toggleVisibility(event) {
-    const options = event.target.nextSibling;
-    options.classList.toggle('sidebar-menu-options--visible');
-  }
+      <div className="sidebar-item">
+        {__('sidebar_support')}
+      </div>
 
-  changeTheme(event) {
-    const theme = event.target.getAttribute('data-theme');
-    this.props.dispatch(setTheme(theme));
-  }
+      <div className="sidebar-item">
+        {__('sidebar_about')}
+      </div>
 
-  render() {
-    document.body.className = this.props.theme;
-
-    // home, support, about, github, night mode
-    return (
-      <Menu className="sidebar-menu" width={250} right>
-        <div className="sidebar-menu-item">
-          {__('sidebar_home')}
-        </div>
-
-        <div className="sidebar-menu-item">
-          {__('sidebar_support')}
-        </div>
-
-        <div className="sidebar-menu-item">
-          {__('sidebar_about')}
-        </div>
-
-        <div className="sidebar-menu-item">
-          {__('sidebar_github')}
-        </div>
-      </Menu>
-    );
-  }
+      <div className="sidebar-item">
+        <a href="https://github.com/learn-anything/learn-anything" target="_blank">{__('sidebar_github')}</a>
+      </div>
+    </Menu>
+  );
 }
-
-Sidebar.defaultProps = {
-  title: '',
-  dispatch: () => {},
-};

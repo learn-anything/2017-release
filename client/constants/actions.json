@@ -1,17 +1,10 @@
 {
   "map": {
-    "fetchUpdate": {
+    "fetch": {
       "def": "fetch map*",
       "pending": "fetch map*_PENDING",
       "fulfilled": "fetch map*_FULFILLED",
       "rejected": "fetch map*_REJECTED"
-    },
-
-    "fetch": {
-      "def": "fetch map (no history update)*",
-      "pending": "fetch map (no history update)*_PENDING",
-      "fulfilled": "fetch map (no history update)*_FULFILLED",
-      "rejected": "fetch map (no history update)*_REJECTED"
     }
   },
 

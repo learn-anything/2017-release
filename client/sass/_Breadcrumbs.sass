@@ -1,17 +1,29 @@
 @import variables
 
 .breadcrumbs
-  font-size: 1.2rem
+  color: $dove-gray
+  direction: rtl
+  font-size: .8rem
+  line-height: 60px
+  max-width: 450px
+  overflow: hidden
+  padding: 0  10px
   text-align: center
+  text-overflow: ellipsis
+  white-space: nowrap
 
-  span
+  a
+    color: $dove-gray
+    text-decoration: none
+
     &:hover
       cursor: pointer
 
     &::after
-      content: ' - '
+      content: ' ➞ '
 
     &:last-child
+      color: $white
       font-weight: bold
 
       &::after

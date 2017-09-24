@@ -4,7 +4,9 @@ const md = require('../utils').md;
 module.exports = {
   // Help
   welcome_text: md('Welcome to Learn Anything, the platform for knowledge discovery that helps you understand any topic through the **most efficient** paths, as voted by the community.'),
-  searchbar_help_text: md('Start your search by typing a topic in the bar above<br>Alternatively, [click here to browse all topics](/learn-anything)'),
+  searchbar_help_text_0: 'Start your search by typing a topic in the bar above',
+  searchbar_help_text_1: 'Alternatively, ',
+  searchbar_help_text_anything: 'click here to browse all topics',
 
   // Generic dialog
   dialog_cancel: 'Cancel',
@@ -25,10 +27,13 @@ module.exports = {
 
   // Searchbar
   searchbar_nodes_count: 'nodes',
+  searchbar_new_search: 'Start new Search',
+  searchbar_suggestions_title: 'suggestions',
   first_search_title: 'I want to learn',
 
   // Sidebar
   sidebar_home: 'Home',
+  sidebar_all_topics: 'All topics',
   sidebar_support: 'Support',
   sidebar_about: 'About',
   sidebar_github: 'Github',
