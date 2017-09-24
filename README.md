@@ -64,11 +64,13 @@ Each suggestion is in the form of:
 ```json
 {
   "key": "markup languages",
-  "id": "1507"
+  "id": "1507",
+  "nodesCount": 3
 }
 ```
 
-**key** is the search tag for the map, and **id** is the ID to retrieve it.
+**key** is the search tag for the map, **id** is the ID to retrieve it, and
+**nodesCount** is the number of nodes present on that map.
 
 If **q** is not specified a list with one random suggestion will be returned,
 otherwise a maximum of 10 relevant suggestions are returned.
