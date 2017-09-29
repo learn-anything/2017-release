@@ -37,4 +37,7 @@ module.exports = {
   sidebar_support: 'Support',
   sidebar_about: 'About',
   sidebar_github: 'Github',
+
+  // About
+  about: mdfile('about', 'en'),
 };

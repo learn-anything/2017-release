@@ -44,5 +44,10 @@
       "unmatchedQuery": "unmatched query",
       "fallbackSearch": "fallback search"
     }
+  },
+
+  "dialogs": {
+    "about": { "setVisibility": "ABOUT_SET_VISIBILITY" },
+    "legend": { "setVisibility": "LEGEND_SET_VISIBILITY" }
   }
 }

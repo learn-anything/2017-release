@@ -41,6 +41,7 @@ app.use('/api', api);
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
 // :lang([a-z]{2})?*
+// Todo redirect urls with map IDs to urls with map paths :map-id([0-9])*
 app.get('*', (req, res) => {
   let title = req.originalUrl.replace(/\?.*/, '');
 

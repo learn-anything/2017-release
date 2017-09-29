@@ -17,27 +17,31 @@ header
   display: flex
   height: 60px
 
-
-
-.app-container
-  & > div
-    bottom: 0
+  // SVG container
+  & + div
     display: flex
-    flex-direction: column
-    left: 0
-    overflow: hidden
-    position: absolute
-    right: 0
-    top: 0
 
-    & > header
-      flex: none
+footer
+  bottom: 20px
+  left: 25px
+  position: fixed
 
-    & > div
-      flex: 1
+  .footer-separator,
+  a
+    color: $cape-cod
+    cursor: pointer
+    font-weight: bold
+    text-underline-position: under
+
+  a
+    text-decoration: underline
+
+  .footer-separator
+    margin: 0 15px
+
 
 .mindmap-svg
-  height: 100%
+  height: calc(100vh - 60px)
 
   +respond-to($width-small)
     height: calc(100vh - 134px)
@@ -57,6 +61,7 @@ header
 .mindmap-connection
   stroke: $tuna
   stroke-dasharray: none
+
 
 .la-title
   color: $white
