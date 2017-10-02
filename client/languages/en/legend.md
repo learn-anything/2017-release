@@ -1,0 +1,17 @@
+- Another Map
+- Wikipedia Article
+- Course
+- Book
+- Research Paper
+- Video or Channel
+- Article or Blog
+- Github Page
+- Interactive Tutorial
+- Image or Album
+- Podcast
+- Newsletter
+- Chat or Community
+- Stack Exchange Page
+- Reddit Thread or Subreddit
+- Quora Question or Topic
+- Other Website

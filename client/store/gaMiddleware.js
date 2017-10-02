@@ -4,13 +4,6 @@ const getGAObj = (action) => {
   const type = action.type.replace(/(\[.*\])|\*.*/g, '');
 
   switch (action.type) {
-    case actions.theme.set:
-      return {
-        eventCategory: 'Personalization',
-        eventAction: type,
-        eventLabel: action.payload,
-      };
-
     case actions.map.fetch.fulfilled:
       return {
         eventCategory: 'Search',

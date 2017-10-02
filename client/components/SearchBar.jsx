@@ -112,12 +112,6 @@ export default class SearchBar extends Component {
   }
 
   render() {
-    // If there's no placeholder, fetch it.
-    if (this.props.placeholder.id === '') {
-      this.props.dispatch(fetchSuggestions());
-    }
-
-
     const inputClassName = classNames({
       'searchbar-input': true,
       'searchbar-input--docked': this.props.docked,
@@ -164,6 +158,13 @@ export default class SearchBar extends Component {
         />
       </form>
     );
+  }
+
+  componentDidMount() {
+    // If there's no placeholder, fetch it.
+    if (this.props.placeholder.id === '') {
+      this.props.dispatch(fetchSuggestions());
+    }
   }
 }
 

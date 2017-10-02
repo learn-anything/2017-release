@@ -23,7 +23,7 @@ export default (state = initialState, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      const data = action.payload.data;
+      const { data } = action.payload;
       const title = cleanTitle(data.title);
 
       // Set HTML title.

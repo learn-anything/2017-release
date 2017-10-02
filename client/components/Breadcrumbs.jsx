@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import 'sass/_Breadcrumbs.sass';
 
@@ -16,7 +17,7 @@ export default class Breadcrumbs extends Component {
     const splitTitle = this.props.title.split(' - ');
 
     return splitTitle.map((topic, index) => (
-      <Link to={this.getURL(splitTitle, index)}>{topic}</Link>
+      <Link to={this.getURL(splitTitle, index)} key={index}>{topic}</Link>
     ));
   }
 
@@ -29,4 +30,11 @@ export default class Breadcrumbs extends Component {
   }
 }
 
-Breadcrumbs.defaultProps = { title: '' };
+
+Breadcrumbs.propTypes = {
+  title: PropTypes.string,
+};
+
+Breadcrumbs.defaultProps = {
+  title: '',
+};

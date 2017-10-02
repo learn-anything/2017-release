@@ -9,6 +9,7 @@ module.exports = {
   globals: {
     ga: true,
     __: true,
+    laAuth: true,
   },
 
   rules: {

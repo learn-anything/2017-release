@@ -32,6 +32,8 @@ module.exports = {
   first_search_title: 'I want to learn',
 
   // Sidebar
+  sidebar_login: 'Login',
+  sidebar_logout: 'Logout',
   sidebar_home: 'Home',
   sidebar_all_topics: 'All topics',
   sidebar_support: 'Support',
@@ -40,4 +42,7 @@ module.exports = {
 
   // About
   about: mdfile('about', 'en'),
+
+  // Legend
+  legend: mdfile('legend', 'en'),
 };

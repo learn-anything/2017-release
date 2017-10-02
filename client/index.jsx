@@ -17,7 +17,6 @@ if (module.hot) {
   module.hot.accept();
 }
 
-
 window.addEventListener('load', () => {
   render(
     <Provider store={store}>
@@ -40,13 +39,17 @@ window.addEventListener('load', () => {
       return;
     }
 
-    // Internal link clicked.
+    // External link clicked.
     if (!t.href.includes(window.location.origin)) {
       e.preventDefault();
       openNewTab({
         type: actions.ga.navigation.external,
         payload: t.href,
       });
+    } else {
+      e.preventDefault();
+      const relativePath = t.href.replace(window.location.origin, '');
+      window.laAuth.history.push(relativePath);
     }
   });
 });

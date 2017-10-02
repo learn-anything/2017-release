@@ -12,11 +12,13 @@
 
 .la-about-overlay
   background-color: $overlay
+  overflow-y: scroll
+
 
 .la-about-body
   margin: auto
   max-width: 550px
-  overflow-y: auto
+  overflow-x: visible
 
   & > :first-child
     margin-top: 20%
@@ -148,3 +150,19 @@
     fill: $twitter-blue
 
 
+.la-about-close
+  background-color: $white
+  border: 0
+  border-radius: 20px
+  color: $mine-shaft
+  font-size: 16px
+  height: 40px
+  left: calc(50% + 225px + 60px)
+  line-height: 40px
+  position: absolute
+  top: 110px
+  user-select: none
+  width: 40px
+
+  &:focus
+    outline: none

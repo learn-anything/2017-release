@@ -21,6 +21,7 @@ const config = {
   entry,
   plugins,
   cache: isDev,
+  // devtool: isDev ? 'cheap-module-eval-source-map' : 'none',
 
   output: {
     path: `${__dirname}/client/dist`,
@@ -56,16 +57,6 @@ const config = {
         loader: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
     ],
-  },
-
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM',
-    'react-autosuggest': 'Autosuggest',
-    redux: 'Redux',
-    'react-redux': 'ReactRedux',
-    'redux-thunk': 'ReduxThunk',
-    'auth0-lock': 'Auth0Lock',
   },
 };
 

@@ -1,3 +1,4 @@
+
 # About Learn Anything
 Learn Anything is the platform for knowledge discovery that helps you understand any
 topic through the **most efficient paths**, as voted by the community. Each topic
@@ -66,13 +67,9 @@ to keep this project going. We also have some awesome rewards that come with you
 <div class="md-separator"></div>
 
 # Contributors
-- Someone
-- Someone
-- Someone
-- Someone
-- Someone
+- Thibaut LaBarre
+- Damien Le Thiec
 - You?
-<!-- TODO - fetch automatically list of contributors -->
 
 <div class="md-separator"></div>
 

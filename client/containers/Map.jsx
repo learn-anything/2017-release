@@ -8,7 +8,7 @@ import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
 import MindMapWrapper from 'containers/MindMapWrapper';
 import About from 'components/About';
-import { setAboutVisibility, setLegendVisibility } from 'actions/Dialogs';
+import Legend from 'components/Legend';
 
 
 @connect(store => ({ title: store.map.title }))
@@ -16,24 +16,25 @@ export default class Map extends Component {
   constructor(props) {
     super(props);
 
-    this.onAboutClick = this.onAboutClick.bind(this);
-    this.onLegendClick = this.onLegendClick.bind(this);
+    this.state = {
+      about: false,
+      legend: false,
+    };
+
+    this.toggleAbout = this.toggleAbout.bind(this);
+    this.toggleLegend = this.toggleLegend.bind(this);
   }
 
-  onAboutClick() {
-    this.props.dispatch(setAboutVisibility(true));
+  toggleAbout() {
+    this.setState({ about: !this.state.about });
   }
 
-  onLegendClick() {
-    this.props.dispatch(setLegendVisibility(true));
+  toggleLegend() {
+    this.setState({ legend: !this.state.legend });
   }
+
 
   render() {
-    // Fetch map if it hasn't been fetched already
-    if (titleToURL(this.props.title) !== this.props.match.url) {
-      this.props.dispatch(fetchMap(this.props.match.url));
-    }
-
     return (
       <div>
         <header>
@@ -46,13 +47,32 @@ export default class Map extends Component {
         <MindMapWrapper />
 
         <footer>
-          <a onClick={this.onAboutClick}>About</a>
+          <a onClick={this.toggleAbout} className={this.state.about ? 'footer-highlight' : ''}>
+            About
+          </a>
           <span className="footer-separator">-</span>
-          <a onClick={this.onLegendClick}>Legend</a>
+          <a onClick={this.toggleLegend} className={this.state.legend ? 'footer-highlight' : ''}>
+            Legend
+          </a>
         </footer>
 
-        <About />
+        {this.state.about && <About onClose={this.toggleAbout} />}
+        {this.state.legend && <Legend onClose={this.toggleLegend} />}
       </div>
     );
+  }
+
+  componentDidMount() {
+    // Fetch map if it hasn't been fetched already
+    if (titleToURL(this.props.title) !== this.props.match.url) {
+      this.props.dispatch(fetchMap(this.props.match.url));
+    }
+  }
+
+  componentDidUpdate() {
+    // Fetch new map if it hasn't been fetched already
+    if (titleToURL(this.props.title) !== this.props.match.url) {
+      this.props.dispatch(fetchMap(this.props.match.url));
+    }
   }
 }
