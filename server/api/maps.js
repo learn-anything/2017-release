@@ -54,7 +54,7 @@ router.get('/', (req, res) => {
     const hits = result.hits.hits.map(hit => ({
       key: hit._source.key,
       id: hit._id,
-      nodesCount: countNodes(hit._source.nodes),
+      nodesCount: countNodes(hit._source.map.nodes),
     }));
 
     res.send(hits);
