@@ -48,8 +48,7 @@
     "redux-promise-middleware": "^4.4.1",
     "redux-thunk": "^2.2.0",
     "webpack": "^3.6.0",
-    "webpack-dev-middleware": "^1.12.0",
-    "webpack-hot-middleware": "^2.19.1"
+    "webpack-dev-middleware": "^1.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
@@ -74,13 +73,14 @@
     "jest": "^21.2.1",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
-    "react-hot-loader": "next",
+    "react-hot-loader": "^3.0.0-beta.7",
     "react-test-renderer": "^16.0.0",
     "replace-x": "^1.5.0",
     "sass-lint": "^1.11.1",
     "sass-loader": "^6.0.6",
     "sasslint-webpack-plugin": "^1.0.4",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack-hot-middleware": "^2.19.1"
   },
   "postcss": {
     "plugins": {

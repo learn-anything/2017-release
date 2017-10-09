@@ -20,7 +20,7 @@ export default class Logo extends Component {
         }
 
         <Link to="/">
-          <img className={logoClassNames} src="/logo.svg" alt="logo"/>
+          <img className={logoClassNames} src="/static/logo.svg" alt="logo"/>
         </Link>
       </div>
     );

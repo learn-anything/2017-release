@@ -27,7 +27,7 @@ const config = {
     path: `${__dirname}/client/dist`,
     filename: 'bundle.js',
     libraryTarget: 'umd',
-    publicPath: '/',
+    publicPath: '/static',
   },
 
   resolve: {
@@ -75,7 +75,7 @@ module.exports = languages.map((lang) => {
     path: `${__dirname}/client/dist`,
     filename: `${lang}.bundle.js`,
     libraryTarget: 'umd',
-    publicPath: '/',
+    publicPath: '/static',
   };
 
   return newConfig;
