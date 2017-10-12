@@ -1,6 +1,6 @@
 const express = require('express');
 const client = require('../elasticClient');
-
+const { Map } = require('./models');
 
 const router = express.Router();
 const search = (body, res, send) => {
@@ -63,18 +63,19 @@ router.get('/', (req, res) => {
 
 // Get specific map.
 router.get('/:id(\\d+)', (req, res) => {
-  client.get({
-    index: 'maps',
-    type: 'map',
-    id: req.params.id,
-  })
-    .then((result) => {
-      res.send(result._source);
-    })
-    .catch((err) => {
-      console.error(err);
+  Map.get(Number(req.params.id), (err, data) => {
+    if (err) {
+      err.type = typeof Number(req.params.id);
+      err.id = Number(req.params.id);
       res.status(500).send(err);
-    });
+    } else {
+      if (data != null) {
+        res.send(data.attrs);
+      } else {
+        res.status(404).send({ message: 'map not found' });
+      }
+    }
+  });
 });
 
 // Get specific map, by map title.
