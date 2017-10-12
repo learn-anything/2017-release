@@ -1,4 +1,4 @@
-- ![](/static/icons/course.svg) Another Map
+- ![](/static/icons/arrow.svg) Another Map
 - ![](/static/icons/wiki.svg) Wikipedia Article
 - ![](/static/icons/course.svg) Course
 - ![](/static/icons/book.svg) Book
