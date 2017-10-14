@@ -1,28 +1,12 @@
 const express = require('express');
-const client = require('../elasticClient');
-const { Map } = require('./models');
+const elastic = require('../elasticClient');
+const dynamo = require('../dynamoClient');
+
 
 const router = express.Router();
-const search = (body, res, send) => {
-  client.search({ body, index: 'maps' })
-    .then(send)
-    .catch((err) => {
-      console.error(err);
-      res.status(500).send(err);
-    });
-};
-
-const countNodes = (nodes) => {
-  // Count all nested nodes
-  const count = nodes
-    .map(node => countNodes(node.nodes))
-    .reduce((sum, val) => (sum + val), 0);
-
-  return nodes.length + count;
-};
 
 
-// Search for map or get random map (if no query is specified).
+// Search map by key (name of map) or get random map (if no query is specified).
 router.get('/', (req, res) => {
   const q = req.query.q;
 
@@ -50,35 +34,44 @@ router.get('/', (req, res) => {
     };
   }
 
-  search(body, res, (result) => {
-    const hits = result.hits.hits.map(hit => ({
-      key: hit._source.key,
-      id: hit._id,
-      nodesCount: countNodes(hit._source.map.nodes),
-    }));
+  elastic
+    .search({ body, index: 'maps' })
+    .then((result) => {
+      // Format results and send them back to the client.
+      const hits = result.hits.hits.map(hit => ({
+        key: hit._source.key,
+        id: hit._id,
+        nodesCount: hit._source.nodesCount,
+      }));
 
-    res.send(hits);
-  });
-});
-
-// Get specific map.
-router.get('/:id(\\d+)', (req, res) => {
-  Map.get(Number(req.params.id), (err, data) => {
-    if (err) {
-      err.type = typeof Number(req.params.id);
-      err.id = Number(req.params.id);
+      res.send(hits);
+    })
+    .catch((err) => {
+      console.error(err);
       res.status(500).send(err);
-    } else {
-      if (data != null) {
-        res.send(data.attrs);
-      } else {
-        res.status(404).send({ message: 'map not found' });
-      }
-    }
-  });
+    });
 });
 
-// Get specific map, by map title.
+// Get map by ID.
+router.get('/:id(\\d+)', (req, res) => {
+  dynamo('getItem', {
+    Key: { id: { N: req.params.id } },
+    TableName: 'maps',
+  })
+    .then(data => res.send({
+      title: data.Item.title.S,
+      tag: data.Item.tag && data.Item.tag.S,
+      map: JSON.parse(data.Item.map.S),
+      id: data.Item.id.N,
+    }))
+    .catch((err) => {
+      console.error(err);
+      res.status(500).send(err);
+    });
+});
+
+
+// Get map by title.
 router.get(/\/(.*)/, (req, res) => {
   // Convert from "/path/to/map/" to "learn anything - path - to - map" format.
   let title = req.params[0]
@@ -100,15 +93,31 @@ router.get(/\/(.*)/, (req, res) => {
     }
   };
 
-  search(body, res, (result) => {
-    const hits = result.hits.hits;
-
-    if (hits.length === 1) {
-      res.send(hits[0]._source);
-    } else {
-      res.status(404).send('Map not found');
-    }
-  });
+  elastic
+    .search({ body, index: 'maps' })
+    // Search by title on ES the map ID
+    .then((result) => {
+      const hits = result.hits.hits;
+      if (hits.length === 1) {
+        return dynamo('getItem', {
+          Key: { id: { N: `${hits[0]._source.id}` } },
+          TableName: 'maps',
+        });
+      } else {
+        res.status(404).send('Map not found');
+      }
+    })
+    // Get map by ID on DynamoDB
+    .then(data => res.send({
+      title: data.Item.title.S,
+      tag: data.Item.tag && data.Item.tag.S,
+      map: JSON.parse(data.Item.map.S),
+      id: data.Item.id.N,
+    }))
+    .catch((err) => {
+      console.error(err);
+      res.status(500).send(err);
+    });
 });
 
 

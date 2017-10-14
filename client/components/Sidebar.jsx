@@ -9,7 +9,7 @@ export default class Sidebar extends Component {
     // home, support, about, github, night mode
     return (
       <Menu className="sidebar-menu" width={250} right>
-        {/* { window.laAuth.isAuthenticated() ?
+        { window.laAuth.isAuthenticated() ?
           <div className="sidebar-item">
             <a onClick={window.laAuth.logout}>{__('sidebar_logout')}</a>
           </div>
@@ -17,7 +17,7 @@ export default class Sidebar extends Component {
           <div className="sidebar-item">
             <a onClick={window.laAuth.login}>{__('sidebar_login')}</a>
           </div>
-        } */}
+        }
 
         <div className="sidebar-item">
           <Link to="/">{__('sidebar_home')}</Link>
