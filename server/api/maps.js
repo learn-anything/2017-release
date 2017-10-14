@@ -1,6 +1,6 @@
 const express = require('express');
-const elastic = require('../elasticClient');
-const dynamo = require('../dynamoClient');
+const elastic = require('../utils/elasticClient');
+const dynamo = require('../utils/dynamoClient');
 
 
 const router = express.Router();

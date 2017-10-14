@@ -1,5 +1,5 @@
-
 import auth0 from 'auth0-js';
+
 
 export default class Auth {
   constructor(history) {
@@ -7,9 +7,9 @@ export default class Auth {
 
     this.auth0 = new auth0.WebAuth({
       domain: 'learn-anything.auth0.com',
-      clientID: '21JChrv4SSb2Uj1g1pGcWledoI01lxmH',
-      redirectUri: 'http://localhost:3000/callback',
-      audience: 'https://learn-anything.auth0.com/userinfo',
+      clientID: 'QeW4QliV1oqMowgcrn312XNVZwWan3fm',
+      redirectUri: `${window.location.origin}/callback`,
+      audience: 'https://learn-anything.xyz/api',
       responseType: 'token id_token',
       scope: 'openid',
     });
