@@ -2,6 +2,7 @@
 const compression = require('compression');
 const readFileSync = require('fs').readFileSync;
 const express = require('express');
+const bodyParser = require('body-parser');
 const dot = require('dot');
 const api = require('./api/index');
 
@@ -30,6 +31,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Compress files sent.
 app.use(compression({ threshold: 0 }));
+
+// JSON encoded bodies on POST requests.
+app.use(bodyParser.json());
 
 // Static files and api router.
 app.use('/static', express.static('client/resources'));
