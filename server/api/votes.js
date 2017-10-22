@@ -65,6 +65,32 @@ const updateVote = async (userID, resourceID, direction) => {
 };
 
 /*
+  get all votes of authenticated user
+*/
+router.get('/', (req, res) => {
+  axios('https://learn-anything.auth0.com/userinfo', {
+    headers: { Authorization: req.get('Authorization') }
+  })
+    .then(({ data }) => {
+      const params = {
+        TableName: 'Votes',
+        Select: 'ALL_ATTRIBUTES',
+        KeyConditionExpression: 'userID = :value',
+        ExpressionAttributeValues: { ':value': data.sub },
+      };
+
+      return dynamo('query', params);
+    })
+    .then((data) => {
+      res.send(data.Items);
+    })
+    .catch((err) => {
+      console.log(err);
+      res.status(500).send(err);
+    });
+});
+
+/*
   params:
     userID - String
     resourceID - Number
@@ -73,10 +99,6 @@ const updateVote = async (userID, resourceID, direction) => {
 router.post('/', (req, res) => {
   const resourceID = Number(req.body.resourceID);
   const direction = Number(req.body.direction);
-
-  console.log(typeof resourceID);
-  console.log(typeof direction);
-  console.log(resourceID, direction);
 
   if (typeof resourceID !== 'number' || typeof direction !== 'number') {
     res.status(400).send({ msg: 'malformed request' });

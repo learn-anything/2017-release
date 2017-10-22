@@ -1,9 +1,9 @@
 const express = require('express');
 const maps = require('./maps');
-const vote = require('./vote');
+const votes = require('./votes');
 
 const router = express.Router();
 router.use('/maps', maps);
-router.use('/vote', vote);
+router.use('/votes', votes);
 
 module.exports = router;
