@@ -7,11 +7,17 @@ let client = elasticsearch.Client({
   log: 'error',
 });
 
+AWS.config.update({
+  region: 'us-west-1',
+  accessKeyId: 'fakeAccessKeyId',
+  secretAccessKey: 'fakeSecretAccessKey',
+});
+
 if (process.env.NODE_ENV === 'production') {
   AWS.config.update({
     region: 'us-west-1',
-    accessKeyId: process.env.ELASTIC_NODE_KEY_ID,
-    secretAccessKey: process.env.ELASTIC_NODE_ACCESS_KEY,
+    accessKeyId: process.env.ELASTIC_DYNAMO_KEY_ID,
+    secretAccessKey: process.env.ELASTIC_DYNAMO_SECRET_ACCESS_KEY,
   });
 
   client = elasticsearch.Client({

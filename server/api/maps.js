@@ -149,7 +149,7 @@ router.get(/\/(.*)/, (req, res) => {
     .then((result) => {
       const hits = result.hits.hits;
       if (hits.length === 1) {
-        return getMapByID(hits[0]._source.id);
+        return getMapByID(hits[0]._id);
       } else {
         res.status(404).send('Map not found');
       }
