@@ -4,7 +4,8 @@ import actions from 'constants/actions.json';
 
 const initialState = {
   title: '',
-  root: {},
+  nodes: {},
+  resources: {},
   loading: false,
   error: undefined,
 };
@@ -15,7 +16,8 @@ export default (state = initialState, action) => {
     case actions.map.fetch.pending:
       return {
         ...state,
-        root: {},
+        nodes: {},
+        resources: {},
         loading: true,
         error: undefined,
       };
@@ -34,7 +36,8 @@ export default (state = initialState, action) => {
         title,
         loading: false,
         error: undefined,
-        root: data.map,
+        nodes: data.nodes,
+        resources: data.resources,
       };
     }
 
@@ -45,7 +48,8 @@ export default (state = initialState, action) => {
       return {
         ...state,
         error,
-        root: {},
+        nodes: {},
+        resources: {},
         loading: false,
       };
     }

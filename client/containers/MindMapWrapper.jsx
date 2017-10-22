@@ -3,17 +3,15 @@ import { connect } from 'react-redux';
 import LAMap from 'la-map';
 
 @connect(store => ({
-  root: store.map.root,
-  title: store.map.title,
+  nodes: store.map.nodes,
+  resources: store.map.resources,
 }))
 export default class MindMapWrapper extends Component {
   render() {
-    console.log('mindmap-wrapper', this.props.root);
-
     return (
         <LAMap
-          map={this.props.root}
-          title={this.props.title}
+          nodes={this.props.nodes}
+          resource={this.props.resource}
         />
     );
   }

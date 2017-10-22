@@ -5,6 +5,64 @@ const dynamo = require('../utils/dynamoClient');
 
 const router = express.Router();
 
+const getMapByID = async (mapID) => {
+  const { Item } = await dynamo('get', {
+    TableName: 'Maps',
+    Key: { mapID: Number(mapID) }
+  });
+
+  const map = {
+    title: Item.title,
+    mapID: Item.mapID,
+    key: Item.key,
+  };
+
+  map.nodes = {};
+  map.resources = {};
+
+  const nodes = (await dynamo('query', {
+    TableName: 'Nodes',
+    IndexName: 'MapIndex',
+    Select: 'ALL_ATTRIBUTES',
+    KeyConditionExpression: 'mapID = :value',
+    ExpressionAttributeValues: {
+      ':value': Number(mapID),
+    },
+  })).Items;
+
+  const resources = (await dynamo('query', {
+    TableName: 'Resources',
+    IndexName: 'MapIndex',
+    Select: 'ALL_ATTRIBUTES',
+    KeyConditionExpression: 'mapID = :value',
+    ExpressionAttributeValues: {
+      ':value': Number(mapID),
+    },
+  })).Items;
+
+  nodes.forEach((node) => {
+    if (map.nodes[node.parentID]) {
+      map.nodes[node.parentID].push(node);
+    } else {
+      if (node.parentID === null) {
+        map.nodes[node.parentID] = node;
+      } else {
+        map.nodes[node.parentID] = [node];
+      }
+    }
+  });
+
+  resources.forEach((resource) => {
+    if (map.resources[resource.parentID]) {
+      map.resources[resource.parentID].push(resource);
+    } else {
+      map.resources[resource.parentID] = [resource];
+    }
+  });
+
+  return map;
+};
+
 
 // Search map by key (name of map) or get random map (if no query is specified).
 router.get('/', (req, res) => {
@@ -54,18 +112,10 @@ router.get('/', (req, res) => {
 
 // Get map by ID.
 router.get('/:id(\\d+)', (req, res) => {
-  dynamo('getItem', {
-    Key: { id: { N: req.params.id } },
-    TableName: 'maps',
-  })
-    .then(data => res.send({
-      title: data.Item.title.S,
-      tag: data.Item.tag && data.Item.tag.S,
-      map: JSON.parse(data.Item.map.S),
-      id: data.Item.id.N,
-    }))
+  getMapByID(req.params.id)
+    .then(data => res.send(data))
     .catch((err) => {
-      console.error(err);
+      console.log(err);
       res.status(500).send(err);
     });
 });
@@ -99,20 +149,20 @@ router.get(/\/(.*)/, (req, res) => {
     .then((result) => {
       const hits = result.hits.hits;
       if (hits.length === 1) {
-        return dynamo('getItem', {
-          Key: { id: { N: `${hits[0]._source.id}` } },
-          TableName: 'maps',
+        return dynamo('get', {
+          TableName: 'Maps',
+          Key: { mapID: hits[0]._source.id },
         });
       } else {
         res.status(404).send('Map not found');
       }
     })
     // Get map by ID on DynamoDB
-    .then(data => res.send({
-      title: data.Item.title.S,
-      tag: data.Item.tag && data.Item.tag.S,
-      map: JSON.parse(data.Item.map.S),
-      id: data.Item.id.N,
+    .then(({ Item }) => res.send({
+      title: Item.title,
+      id: Item.id,
+      key: Item.key,
+      map: {},
     }))
     .catch((err) => {
       console.error(err);
