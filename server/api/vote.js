@@ -1,4 +1,5 @@
 const express = require('express');
+const axios = require('axios');
 const jwtCheck = require('../utils/jwtCheck');
 const dynamo = require('../utils/dynamoClient');
 const { updateMap } = require('../utils/dynamoUtils');
@@ -15,93 +16,87 @@ router.use((err, req, res, next) => {
 });
 
 
-const findNode = (nodes, test) => {
-  if (!nodes) {
-    return undefined;
+const updateVote = async (userID, resourceID, direction) => {
+  const vote = (await dynamo('get', {
+      TableName: 'Votes',
+      Key: { userID, resourceID },
+    })
+  ).Item;
+
+  const resource = (await dynamo('get', {
+      TableName: 'Resources',
+      Key: { resourceID },
+    })
+  ).Item;
+
+  if (!resource) {
+    throw Error({ msg: 'resource does not exist' });
   }
 
-  let res = nodes.find(test);
-
-  if (res) {
-    return res;
-  }
-
-  nodes.forEach((node) => {
-    const subRes = findNode(node.nodes, test);
-
-    if (subRes) {
-      res = subRes;
+  // Remove the previous vote if present
+  if (vote) {
+    if (vote.direction === 1) {
+      resource.score.up -= 1;
     }
+
+    if (vote.direction === -1) {
+      resource.score.down -= 1;
+    }
+  }
+
+  // Add the new vote
+  if (direction === 1) {
+    resource.score.up += 1;
+  }
+
+  if (direction === -1) {
+    resource.score.down += 1;
+  }
+
+  await dynamo('put', {
+    TableName: 'Votes',
+    Item: { userID, resourceID, direction },
   });
 
-  return res;
+  await dynamo('put', {
+    TableName: 'Resources',
+    Item: resource,
+  });
 };
 
 /*
   params:
-    mapID - map.id
-    nodeText - node.text
-    resText - resource.text
-    dir - [1, 0, -1]
+    userID - String
+    resourceID - Number
+    direction - [1, 0, -1]
 */
 router.post('/', (req, res) => {
-  const { mapID, nodeText, resText, dir } = req.body;
+  const resourceID = Number(req.body.resourceID);
+  const direction = Number(req.body.direction);
 
-  if (mapID && nodeText && resText && (dir || dir === 0)) {
-    updateMap(mapID, (map) => {
-      // Find the node containing the resource to vote on.
-      // If it doesn't exist, throw an error.
-      const node = findNode([map.map], node => node.text === nodeText)
-      if (!node) {
-        res.status(404).send({ msg: 'node not found' });
-        return null;
-      }
+  console.log(typeof resourceID);
+  console.log(typeof direction);
+  console.log(resourceID, direction);
 
-      const resource = node.resources && node.resources.find(res => res.text === resText);
-      if (!resource) {
-        res.status(404).send({ msg: 'resource not found' });
-        return null;
-      }
-
-      // TODO - check if user already voted
-
-      switch (dir) {
-        case 1:
-          resource.score.up += 1;
-          break;
-
-        case -1:
-          resource.score.down += 1;
-          break;
-
-        // Only for testing
-        case 0:
-          resource.score.up = 0;
-          resource.score.down = 0;
-          break;
-      }
-
-      return map;
-    })
-      .then(data => res.send(data))
-      .catch(err => res.status(500).send(err));
-  } else {
+  if (typeof resourceID !== 'number' || typeof direction !== 'number') {
     res.status(400).send({ msg: 'malformed request' });
+    return;
   }
-  /*dynamo('getItem', {
-    Key: { id: { N: req.params.id } },
-    TableName: 'maps',
+
+  axios('https://learn-anything.auth0.com/userinfo', {
+    headers: { Authorization: req.get('Authorization') }
   })
-    .then(data => res.send({
-      title: data.Item.title.S,
-      tag: data.Item.tag && data.Item.tag.S,
-      map: JSON.parse(data.Item.map.S),
-      id: data.Item.id.N,
-    }))
+    .then(({ data }) => {
+      const userID = data.sub;
+      return updateVote(userID, resourceID, direction);
+    })
+    .then(() => {
+      res.send({ msg: 'OK' });
+    })
     .catch((err) => {
-      console.error(err);
+      console.log(err);
       res.status(500).send(err);
-    });*/
+    });
 });
 
 
