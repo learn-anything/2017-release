@@ -11,7 +11,7 @@ export default class MindMapWrapper extends Component {
     return (
         <LAMap
           nodes={this.props.nodes}
-          resource={this.props.resource}
+          resources={this.props.resources}
         />
     );
   }

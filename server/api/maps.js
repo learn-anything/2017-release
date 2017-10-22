@@ -149,21 +149,13 @@ router.get(/\/(.*)/, (req, res) => {
     .then((result) => {
       const hits = result.hits.hits;
       if (hits.length === 1) {
-        return dynamo('get', {
-          TableName: 'Maps',
-          Key: { mapID: hits[0]._source.id },
-        });
+        return getMapByID(hits[0]._source.id);
       } else {
         res.status(404).send('Map not found');
       }
     })
     // Get map by ID on DynamoDB
-    .then(({ Item }) => res.send({
-      title: Item.title,
-      id: Item.id,
-      key: Item.key,
-      map: {},
-    }))
+    .then(data => res.send(data))
     .catch((err) => {
       console.error(err);
       res.status(500).send(err);
