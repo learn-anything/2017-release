@@ -8,6 +8,7 @@ import { updateResource } from 'actions/Map';
 @connect(store => ({
   nodes: store.map.nodes,
   resources: store.map.resources,
+  mapID: store.map.mapID,
 }))
 export default class MindMapWrapper extends Component {
   vote(resourceID, direction, nodeID) {
@@ -16,7 +17,7 @@ export default class MindMapWrapper extends Component {
         method: 'post',
         url: '/api/votes',
         headers: {
-          'Authorization': `Bearer ${localStorage.getItem('access_token')}`,
+          Authorization: `Bearer ${localStorage.getItem('access_token')}`,
         },
         data: {
           resourceID,
@@ -24,7 +25,9 @@ export default class MindMapWrapper extends Component {
         },
       }).then(({ data }) => {
         this.props.dispatch(updateResource(nodeID, data));
-      }).catch((err) => console.error(err));
+      }).catch(err => console.error(err));
+    } else {
+      console.warn('You\'re not logged in');
     }
   }
 
@@ -33,6 +36,7 @@ export default class MindMapWrapper extends Component {
         <LAMap
           nodes={this.props.nodes}
           resources={this.props.resources}
+          mapID={this.props.mapID}
           vote={this.vote.bind(this)}
         />
     );

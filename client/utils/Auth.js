@@ -31,7 +31,7 @@ export default class Auth {
         this.history.push('/');
       } else if (err) {
         // TODO - redirect and show error
-        console.log(err);
+        console.error(err);
       }
     });
   }

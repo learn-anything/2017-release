@@ -7,6 +7,7 @@ const initialState = {
   nodes: {},
   resources: {},
   loading: false,
+  mapID: undefined,
   error: undefined,
 };
 
@@ -19,7 +20,7 @@ const deepCopy = (obj) => {
   });
 
   return newObj;
-}
+};
 
 
 export default (state = initialState, action) => {
@@ -30,6 +31,7 @@ export default (state = initialState, action) => {
         nodes: {},
         resources: {},
         loading: true,
+        mapID: undefined,
         error: undefined,
       };
 
@@ -48,6 +50,7 @@ export default (state = initialState, action) => {
         loading: false,
         error: undefined,
         nodes: data.nodes,
+        mapID: data.mapID,
         resources: data.resources,
       };
     }
@@ -61,6 +64,7 @@ export default (state = initialState, action) => {
         error,
         nodes: {},
         resources: {},
+        mapID: undefined,
         loading: false,
       };
     }
