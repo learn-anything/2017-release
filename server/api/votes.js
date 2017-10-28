@@ -62,6 +62,8 @@ const updateVote = async (userID, resourceID, direction) => {
     TableName: 'Resources',
     Item: resource,
   });
+
+  return resource;
 };
 
 /*
@@ -86,13 +88,15 @@ router.get('/', (req, res) => {
     })
     .catch((err) => {
       console.log(err);
-      res.status(500).send(err);
+      res.status(500).send(err.data);
     });
 });
 
 /*
+  header:
+    Authorization - Bearer <authentication_token>
+
   params:
-    userID - String
     resourceID - Number
     direction - [1, 0, -1]
 */
@@ -112,12 +116,12 @@ router.post('/', (req, res) => {
       const userID = data.sub;
       return updateVote(userID, resourceID, direction);
     })
-    .then(() => {
-      res.send({ msg: 'OK' });
+    .then((resource) => {
+      res.send(resource);
     })
     .catch((err) => {
       console.log(err);
-      res.status(500).send(err);
+      res.status(500).send(err.data);
     });
 });
 

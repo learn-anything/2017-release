@@ -5,7 +5,8 @@
       "pending": "fetch map*_PENDING",
       "fulfilled": "fetch map*_FULFILLED",
       "rejected": "fetch map*_REJECTED"
-    }
+    },
+    "updateResource": "UPDATE_RESOURCE"
   },
 
   "search": {

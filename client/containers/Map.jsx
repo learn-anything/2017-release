@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import fetchMap from 'actions/fetchMap';
+import { fetchMap } from 'actions/Map';
 import { titleToURL } from 'utils/Title';
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';

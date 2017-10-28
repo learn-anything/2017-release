@@ -10,6 +10,17 @@ const initialState = {
   error: undefined,
 };
 
+// Deep copy for nodes or resources.
+const deepCopy = (obj) => {
+  const newObj = {};
+
+  Object.keys(obj).forEach((key) => {
+    newObj[key] = [...obj[key]];
+  });
+
+  return newObj;
+}
+
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -51,6 +62,26 @@ export default (state = initialState, action) => {
         nodes: {},
         resources: {},
         loading: false,
+      };
+    }
+
+    case actions.map.updateResource: {
+      const { nodeID, resource } = action.payload;
+
+      // Find the node we want to modify and its index.
+      const nodeResources = state.resources[nodeID];
+      const oldResource = nodeResources.find(res => res.resourceID === resource.resourceID);
+      const resourceIndex = nodeResources.indexOf(oldResource);
+
+      // Copy all the resources (redux functions should be pure).
+      const newResources = deepCopy(state.resources);
+
+      // Replace old resource with the new one.
+      newResources[nodeID][resourceIndex] = resource;
+
+      return {
+        ...state,
+        resources: newResources,
       };
     }
 
