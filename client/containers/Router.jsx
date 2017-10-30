@@ -3,6 +3,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 
 import Auth from 'utils/Auth';
 import Sidebar from 'components/Sidebar';
+import Dialog from 'components/Dialog';
 import Home from './Home';
 import Map from './Map';
 
@@ -30,6 +31,9 @@ export default class Router extends Component {
           <Route path="/:path(\d*)" component={Map} /> {/* redirect to named path */}
           <Route path="/:path(.*)" component={Map} />
         </Switch>
+
+
+        <Dialog />
       </div>
     );
   }

@@ -25,8 +25,10 @@ export default class MindMapWrapper extends Component {
         },
       }).then(({ data }) => {
         this.props.dispatch(updateResource(nodeID, data));
+        // eslint-disable-next-line no-console
       }).catch(err => console.error(err));
     } else {
+      // eslint-disable-next-line no-console
       console.warn('You\'re not logged in');
     }
   }

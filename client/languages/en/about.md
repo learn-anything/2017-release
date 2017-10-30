@@ -5,8 +5,8 @@ topic through the **most efficient paths**, as voted by the community. Each topi
 has a mind map with nodes to other subtopics, external links and resources.
 
 <div class="btn-container">
-  <a href="https://www.youtube.com/watch?v=_zYjS2Uicso" class="about-btn">Watch our Video</a>
-  <a href="https://learn-anything.xyz" class="about-btn about-btn-light">Or simply search for what you wish to learn.</a>
+  <a href="https://www.youtube.com/watch?v=_zYjS2Uicso" class="dialog-btn">Watch our Video</a>
+  <a href="https://learn-anything.xyz" class="dialog-btn dialog-btn-light">Or simply search for what you wish to learn.</a>
 </div>
 <div class="md-separator"></div>
 
@@ -18,7 +18,7 @@ Anyone who wishes to contribute to the project by helping improve the maps and
 sharing your expertise, helping with the development and contributing to new features
 or just participating in the conversations in our [slack group](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ).
 
-<a href="https://github.com/learn-anything/maps/wiki/Contributing-%F0%9F%91%AC" class="about-btn">Learn more about Contributing</a>
+<a href="https://github.com/learn-anything/maps/wiki/Contributing-%F0%9F%91%AC" class="dialog-btn">Learn more about Contributing</a>
 <div class="md-separator"></div>
 
 

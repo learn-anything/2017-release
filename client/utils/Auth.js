@@ -31,6 +31,7 @@ export default class Auth {
         this.history.push('/');
       } else if (err) {
         // TODO - redirect and show error
+        // eslint-disable-next-line no-console
         console.error(err);
       }
     });

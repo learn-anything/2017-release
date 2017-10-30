@@ -4,7 +4,6 @@ import 'sass/_Legend.sass';
 
 export default class Legend extends Component {
   onOverlayClick(event) {
-    console.log(event.target);
     if (event.target.className === 'la-legend-overlay') {
       this.props.onClose();
     }

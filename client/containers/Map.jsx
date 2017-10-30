@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { fetchMap } from 'actions/Map';
+import { showDialog } from 'actions/Dialog';
 import { titleToURL } from 'utils/Title';
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
 import MindMapWrapper from 'containers/MindMapWrapper';
-import About from 'components/About';
 import Legend from 'components/Legend';
 
 
@@ -17,16 +17,15 @@ export default class Map extends Component {
     super(props);
 
     this.state = {
-      about: false,
       legend: false,
     };
 
-    this.toggleAbout = this.toggleAbout.bind(this);
+    this.showAbout = this.showAbout.bind(this);
     this.toggleLegend = this.toggleLegend.bind(this);
   }
 
-  toggleAbout() {
-    this.setState({ about: !this.state.about });
+  showAbout() {
+    this.props.dispatch(showDialog(__('about')));
   }
 
   toggleLegend() {
@@ -47,16 +46,15 @@ export default class Map extends Component {
         <MindMapWrapper />
 
         <footer>
-          <a onClick={this.toggleAbout} className={this.state.about ? 'footer-highlight' : ''}>
-            About
-          </a>
+          <a onClick={this.showAbout}>About</a>
           <span className="footer-separator">-</span>
-          <a onClick={this.toggleLegend} className={this.state.legend ? 'footer-highlight' : ''}>
+          <a
+            onClick={this.toggleLegend}
+            className={this.state.legend ? 'footer-highlight' : ''}>
             Legend
           </a>
         </footer>
 
-        {this.state.about && <About onClose={this.toggleAbout} />}
         {this.state.legend && <Legend onClose={this.toggleLegend} />}
       </div>
     );

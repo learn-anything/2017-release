@@ -43,8 +43,8 @@
     }
   },
 
-  "dialogs": {
-    "about": { "setVisibility": "ABOUT_SET_VISIBILITY" },
-    "legend": { "setVisibility": "LEGEND_SET_VISIBILITY" }
+  "dialog": {
+    "show": "DIALOG_SHOW",
+    "hide": "DIALOG_HIDE"
   }
 }
