@@ -1,0 +1,45 @@
+@import variables
+
+
+header
+  background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
+  display: flex
+  flex-direction: row
+  height: 60px
+  position: absolute
+  width: 100%
+
+  & + div
+    display: flex
+    margin-top: 60px
+    height: calc(100% - 100px)
+    width: 100%
+
+    .la-map
+      height: auto
+
+    // not sure if it's needed
+    +respond-to($width-small)
+      margin-top: 134px
+
+footer
+  align-items: center
+  display: flex
+  height: 50px
+  justify-content: flex-start
+  padding-left: 25px
+  width: 100%
+
+  .footer-separator,
+  a
+    color: $white
+    cursor: pointer
+    font-weight: bold
+    text-underline-position: under
+
+  a
+    text-decoration: underline
+
+  .footer-separator
+    margin: 0 15px
+

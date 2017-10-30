@@ -3,101 +3,41 @@
 
 *
   box-sizing: border-box
-  font-family: 'Raleway', sans-serif
 
-body
+
+.app-container > div
+  +fullscreen
+  +center-column-horizontal
+
   background-color: $shark
+  font-family: $font-default
+  justify-content: flex-start
   margin: 0
 
   +respond-to($width-small)
     font-size: 12px
 
-header
-  background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
-  display: flex
-  height: 60px
 
-  // SVG container
-  & + div
-    display: flex
-
-footer
-  bottom: 20px
-  left: 25px
-  position: fixed
-
-  .footer-separator,
-  a
-    color: $white
-    cursor: pointer
-    font-weight: bold
-    text-underline-position: under
-
-  a
-    text-decoration: underline
-
-  .footer-separator
-    margin: 0 15px
+// footer
+//   bottom: 20px
+//   position: fixed
 
 
-.mindmap-svg
-  height: calc(100vh - 60px)
+// @keyframes scaleout
+//   0%
+//     transform: scale(0)
 
-  +respond-to($width-small)
-    height: calc(100vh - 134px)
-
-.mindmap-node
-  p,
-  a
-    background-color: $white
-    border-radius: 3px
-    box-shadow: none
-    color: $black
-    text-decoration: none
-
-.mindmap-subnode-group > a
-  color: $white
-
-.mindmap-connection
-  stroke: $tuna
-  stroke-dasharray: none
+//   100%
+//     opacity: 0
+//     transform: scale(1)
 
 
-.la-title
-  color: $white
-  display: block
-  font-size: 3em
-  font-weight: bold
-  margin-bottom: 40px
-  margin-top: 12vh
-  text-align: center
+// .spinner
+//   animation: scaleout 1s infinite ease-in-out
+//   border-radius: 100%
+//   height: 40px
+//   margin: 100px auto
+//   width: 40px
 
-.helpText
-  color: $regent-gray
-  line-height: 1.8rem
-  margin-top: 40px
-  text-align: center
-
-  a
-    color: $regent-gray
-    text-underline-position: under
-
-
-@keyframes scaleout
-  0%
-    transform: scale(0)
-
-  100%
-    opacity: 0
-    transform: scale(1)
-
-
-.spinner
-  animation: scaleout 1s infinite ease-in-out
-  border-radius: 100%
-  height: 40px
-  margin: 100px auto
-  width: 40px
-
-.footer-highlight
-  color: $white
+// .footer-highlight
+//   color: $white

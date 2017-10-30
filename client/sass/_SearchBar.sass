@@ -2,10 +2,9 @@
 
 
 %field
+  +center-row-horizontal
   border: 0
-  display: block
   font-size: 1.5em
-  margin: 0 auto
   max-width: 500px
   padding: 7px 25px
   width: 100%
@@ -13,66 +12,48 @@
   &:focus
     outline: none
 
+
 ::-webkit-scrollbar // sass-lint:disable-line no-vendor-prefixes
   display: none
 
 
-// _container
-.searchbar-container--docked
-  display: inline-block
-  padding: 10px 5px
+.searchbar-container
+  align-items: center
+  display: flex
+  flex-direction: column
+  width: 100%
 
 
-// _suggestions_title
-.searchbar-suggestions-title
-  @extend %field
-  background-color: $iron
-  border-radius: 3px 3px 0 0
-  color: $bombay
-  display: none
-  font-size: .8em
-  font-weight: bold
-  padding: 15px 25px 5px
-  text-transform: uppercase
-
-.react-autosuggest__container--open
-  .searchbar-suggestions-title
-    display: block
-
-
-// _suggestions container
-.searchbar-suggestions-container
-  margin: -2px auto
-  max-height: 40vh
-  max-width: 500px
-  overflow-y: auto
-  position: relative
-
-
-// _input_field
 .searchbar-input
   @extend %field
   border-radius: 3px
   color: $azure-radiance
+  font-family: $font-default
   font-weight: bold
   padding: 15px 25px
+  z-index: 1
 
   &::placeholder
     color: $edward
     font-weight: normal
 
-.searchbar-input--docked
-  font-size: 1.2em
-  margin: 0
-  padding: 10px 20px
-  width: 350px
 
-  & + .searchbar-suggestions-container
-    margin: 7px 0
-    width: 350px
+.react-autosuggest__container
+  +center-column-horizontal
+  max-width: 500px
+  width: 100%
 
 
-// _suggestions
+.searchbar-suggestions-container
+  margin: -2px 0
+  max-height: 40vh
+  max-width: 500px
+  overflow-y: auto
+  position: absolute
+  transform: translateY(3.5rem)
+  width: 100%
+
+
 .react-autosuggest__suggestion
   @extend %field
   background-color: $iron
@@ -81,26 +62,61 @@
     border-radius: 0 0 3px 3px
 
   a
-    color: $shark
-
-    span
-      display: inline-block
+    align-items: flex-end
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    line-height: 1.5em
+    text-decoration: none
+    width: 100%
 
   .searchbar-suggestion-key
+    color: $shark
     font-size: .8em
-    width: 80%
 
   .searchbar-suggestion-nodes-count
     color: $oslo-gray
     font-size: .6em
-    text-align: right
-    width: 20%
+
 
 .react-autosuggest__suggestion--highlighted
   background-color: $silver
 
 
-// _suggestions_list
 .react-autosuggest__suggestions-list
+  +center-column-horizontal
   margin: 0
   padding: 0
+
+
+.searchbar-suggestions-title
+  @extend %field
+  background-color: $iron
+  border-radius: 3px 3px 0 0
+  color: $bombay
+  display: none
+  font-size: .8em
+  font-weight: bold
+  justify-content: flex-start
+  padding: 15px 25px 5px
+  text-transform: uppercase
+
+
+.react-autosuggest__container--open
+  .searchbar-suggestions-title
+    display: flex
+
+
+.searchbar-input--docked
+  font-size: 1.2em
+  padding: 10px 20px
+  width: 350px
+
+  & + .searchbar-suggestions-container
+    margin: 7px 0
+    width: 350px
+
+
+.searchbar-container--docked
+  padding: 10px 5px
+  width: 350px

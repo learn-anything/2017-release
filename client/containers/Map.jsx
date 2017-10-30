@@ -9,6 +9,7 @@ import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
 import MindMapWrapper from 'containers/MindMapWrapper';
 import Legend from 'components/Legend';
+import 'sass/_Map.sass';
 
 
 @connect(store => ({ title: store.map.title }))

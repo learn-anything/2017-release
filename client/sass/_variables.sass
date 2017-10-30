@@ -26,19 +26,35 @@ $white: #fff
 $wild-sand: #f4f4f4
 
 
+// Fonts
+$font-default: 'Raleway'
+
+
 // Screen widths
 $width-extra-small: 630px
 $width-small: 768px
 $width-medium: 992px
 $width-large: 1180px
 
+
+// Mixins
 =respond-to($width)
   @media (max-width: #{$width})
     @content
 
-=icon-color($color)
-  svg
-    fill: $color
+=center-row-horizontal
+  display: flex
+  flex-direction: row
+  justify-content: center
 
-  span
-    color: $color
+=center-column-horizontal
+  align-items: center
+  display: flex
+  flex-direction: column
+
+=fullscreen
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
