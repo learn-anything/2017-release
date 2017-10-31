@@ -4,6 +4,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 import Auth from 'utils/Auth';
 import Sidebar from 'components/Sidebar';
 import Dialog from 'components/Dialog';
+import Legend from 'components/Legend';
 import Home from './Home';
 import Map from './Map';
 
@@ -34,6 +35,7 @@ export default class Router extends Component {
 
 
         <Dialog />
+        <Legend />
       </div>
     );
   }

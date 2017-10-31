@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 
 import { fetchMap } from 'actions/Map';
 import { showDialog } from 'actions/Dialog';
+import { showLegend } from 'actions/Legend';
 import { titleToURL } from 'utils/Title';
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
 import MindMapWrapper from 'containers/MindMapWrapper';
-import Legend from 'components/Legend';
 import 'sass/_Map.sass';
 
 
@@ -17,20 +17,16 @@ export default class Map extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      legend: false,
-    };
-
     this.showAbout = this.showAbout.bind(this);
-    this.toggleLegend = this.toggleLegend.bind(this);
+    this.showLegend = this.showLegend.bind(this);
   }
 
   showAbout() {
     this.props.dispatch(showDialog(__('about')));
   }
 
-  toggleLegend() {
-    this.setState({ legend: !this.state.legend });
+  showLegend() {
+    this.props.dispatch(showLegend());
   }
 
 
@@ -49,14 +45,8 @@ export default class Map extends Component {
         <footer>
           <a onClick={this.showAbout}>About</a>
           <span className="footer-separator">-</span>
-          <a
-            onClick={this.toggleLegend}
-            className={this.state.legend ? 'footer-highlight' : ''}>
-            Legend
-          </a>
+          <a onClick={this.showLegend}>Legend</a>
         </footer>
-
-        {this.state.legend && <Legend onClose={this.toggleLegend} />}
       </div>
     );
   }
