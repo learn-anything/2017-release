@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+
 import 'sass/_Breadcrumbs.sass';
 
 
@@ -23,7 +24,7 @@ export default class Breadcrumbs extends Component {
 
   render() {
     return (
-      <div className="breadcrumbs">
+      <div className="la-breadcrumbs">
         {this.renderBreadcrumbs()}
       </div>
     );

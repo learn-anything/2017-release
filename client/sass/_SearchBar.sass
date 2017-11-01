@@ -7,6 +7,7 @@
   font-size: 1.5em
   max-width: 500px
   padding: 7px 25px
+  transition: background-color .217s
   width: 100%
 
   &:focus
@@ -120,3 +121,13 @@
 .searchbar-container--docked
   padding: 10px 5px
   width: 350px
+
+
++respond-to($width-xs)
+  .react-autosuggest__container,
+  .searchbar-suggestions-container
+    max-width: none
+    padding: 0 10px
+
+  .searchbar-container--docked
+    margin: 1em

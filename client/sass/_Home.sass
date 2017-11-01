@@ -22,3 +22,32 @@
   a
     color: $regent-gray
     text-underline-position: under
+
+
++respond-to($width-xs)
+  .la-title,
+  .la-help-text
+    justify-content: flex-start
+    margin: .3em 0
+    padding: 12px 50px
+    width: 100%
+
+  .la-title
+    font-size: 2.3em
+
+  .la-help-text
+    font-size: 1em
+    text-align: left
+
+
++respond-to($width-xxs)
+  .la-title,
+  .la-help-text
+    margin: .5em 0
+    padding: 12px 25px
+
+  .la-title
+    font-size: 2em
+
+  .la-help-text
+    font-size: .8em

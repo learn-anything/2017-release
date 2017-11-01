@@ -18,10 +18,6 @@ header
     .la-map
       height: auto
 
-    // not sure if it's needed
-    +respond-to($width-small)
-      margin-top: 134px
-
 footer
   align-items: center
   display: flex
@@ -43,3 +39,15 @@ footer
   .footer-separator
     margin: 0 15px
 
+
++respond-to($width-s)
+  footer
+    display: none
+
+  header + div
+    margin-top: 70px
+
+
++respond-to($width-xs)
+  header + div
+    margin-top: 80px

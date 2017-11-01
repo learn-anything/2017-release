@@ -3,12 +3,12 @@
 
 // Position and sizing of burger button
 .bm-burger-button
-  height: 20px
-  margin: 25px 30px
+  height: 24px
+  margin: 20px 30px
   position: fixed
   right: 0
   top: 0
-  width: 24px
+  width: 30px
 
   button
     cursor: pointer
@@ -48,3 +48,8 @@
     color: $shark
     cursor: pointer
     text-decoration: none
+
+
++respond-to($width-xs)
+  .bm-burger-button
+    margin: 2.3em 30px

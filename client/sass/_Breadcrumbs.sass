@@ -1,11 +1,11 @@
 @import variables
 
-.breadcrumbs
+.la-breadcrumbs
   color: $dove-gray
   direction: rtl
   font-size: .8rem
   line-height: 60px
-  max-width: 450px
+  max-width: 320px
   overflow: hidden
   padding: 0  10px
   text-align: center
@@ -28,3 +28,7 @@
 
       &::after
         content: ''
+
++respond-to($width-s)
+  .la-breadcrumbs
+    display: none
