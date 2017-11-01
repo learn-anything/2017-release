@@ -1,9 +1,15 @@
 const express = require('express');
 const elastic = require('../utils/elasticClient');
 const dynamo = require('../utils/dynamoClient');
+const memcachedUtils = require('../utils/memcachedUtils');
+
+// 2 hours cache lifetime for maps
+const CACHE_LIFETIME = 2 * 60 * 60;
 
 
 const router = express.Router();
+router.use(memcachedUtils.middleware);
+
 
 const getMapByID = async (mapID) => {
   const { Item } = await dynamo('get', {
@@ -103,6 +109,7 @@ router.get('/', (req, res) => {
       }));
 
       res.send(hits);
+      memcachedUtils.set(req, hits, CACHE_LIFETIME);
     })
     .catch((err) => {
       console.error(err);
@@ -113,13 +120,15 @@ router.get('/', (req, res) => {
 // Get map by ID.
 router.get('/:id(\\d+)', (req, res) => {
   getMapByID(req.params.id)
-    .then(data => res.send(data))
+    .then((data) => {
+      res.send(data);
+      memcachedUtils.set(req, data, CACHE_LIFETIME);
+    })
     .catch((err) => {
       console.log(err);
       res.status(500).send(err);
     });
 });
-
 
 // Get map by title.
 router.get(/\/(.*)/, (req, res) => {
@@ -155,12 +164,14 @@ router.get(/\/(.*)/, (req, res) => {
       }
     })
     // Get map by ID on DynamoDB
-    .then(data => res.send(data))
+    .then((data) => {
+      res.send(data);
+      memcachedUtils.set(req, data, CACHE_LIFETIME);
+    })
     .catch((err) => {
       console.error(err);
       res.status(500).send(err);
     });
 });
-
 
 module.exports = router;

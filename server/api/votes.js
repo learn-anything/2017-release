@@ -3,6 +3,9 @@ const axios = require('axios');
 const jwtCheck = require('../utils/jwtCheck');
 const dynamo = require('../utils/dynamoClient');
 const { updateMap } = require('../utils/dynamoUtils');
+const memcachedUtils = require('../utils/memcachedUtils');
+
+const CACHE_LIFETIME = 60;
 
 const router = express.Router();
 // This endpoint requires authentication
@@ -14,6 +17,7 @@ router.use((err, req, res, next) => {
     res.status(401).send({ msg: 'unauthorized' });
   }
 });
+router.use(memcachedUtils.middleware);
 
 
 const updateVote = async (userID, resourceID, direction) => {
@@ -85,6 +89,7 @@ router.get('/', (req, res) => {
     })
     .then((data) => {
       res.send(data.Items);
+      memcachedUtils.set(req, data.Items, CACHE_LIFETIME);
     })
     .catch((err) => {
       console.log(err);

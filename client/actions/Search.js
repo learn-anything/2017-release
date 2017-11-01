@@ -13,14 +13,14 @@ export const fetchSuggestions = (query = '') => {
   }
 
   /* Suggestions for current query.
-   Wait 300ms to be sure that the user stopped writing or that they're
+   Wait 150ms to be sure that the user stopped writing or that they're
    writing slowly, so we don't fetch useless suggestions. */
   return dispatch => setTimeout(() => {
     const currentTime = new Date();
-    /* If this difference is less than 300ms it means that the query changed
+    /* If this difference is less than 150ms it means that the query changed
      during this interval of time, and in this case we don't need to fetch
      anything. */
-    if ((currentTime - lastQueryChangeTime) >= 300) {
+    if ((currentTime - lastQueryChangeTime) >= 150) {
       const cachedSuggestions = JSON.parse(localStorage.getItem('suggestions')) || {};
       const cachedResponse = cachedSuggestions[query.trim()];
 
