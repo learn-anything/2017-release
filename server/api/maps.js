@@ -8,7 +8,10 @@ const CACHE_LIFETIME = 2 * 60 * 60;
 
 
 const router = express.Router();
-router.use(memcachedUtils.middleware);
+
+if (process.env.MEMCACHED) {
+  router.use(memcachedUtils.middleware);
+}
 
 
 const getMapByID = async (mapID) => {

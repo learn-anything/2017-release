@@ -54,4 +54,9 @@ const set = (req, data, lifetime = 10) => {
   });
 };
 
-module.exports = { middleware, set };
+
+if (process.env.MEMCACHED) {
+  module.exports = { middleware, set };
+} else {
+  module.exports = { set: () => {} };
+}

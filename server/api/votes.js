@@ -17,8 +17,10 @@ router.use((err, req, res, next) => {
     res.status(401).send({ msg: 'unauthorized' });
   }
 });
-router.use(memcachedUtils.middleware);
 
+if (process.env.MEMCACHED) {
+  router.use(memcachedUtils.middleware);
+}
 
 const updateVote = async (userID, resourceID, direction) => {
   const vote = (await dynamo('get', {
@@ -59,7 +61,7 @@ const updateVote = async (userID, resourceID, direction) => {
 
   await dynamo('put', {
     TableName: 'Votes',
-    Item: { userID, resourceID, direction },
+    Item: { userID, resourceID, direction, mapID: resource.mapID },
   });
 
   await dynamo('put', {
@@ -78,12 +80,24 @@ router.get('/', (req, res) => {
     headers: { Authorization: req.get('Authorization') }
   })
     .then(({ data }) => {
-      const params = {
+      let params = {
         TableName: 'Votes',
         Select: 'ALL_ATTRIBUTES',
-        KeyConditionExpression: 'userID = :value',
-        ExpressionAttributeValues: { ':value': data.sub },
+        KeyConditionExpression: 'userID = :userID',
+        ExpressionAttributeValues: { ':userID': data.sub },
       };
+
+      if (req.query.mapID) {
+        params = {
+          ...params,
+          IndexName: 'MapIndex',
+          KeyConditionExpression: 'userID = :user and mapID = :map',
+          ExpressionAttributeValues: {
+            ':user': data.sub,
+            ':map': Number(req.query.mapID),
+          },
+        };
+      }
 
       return dynamo('query', params);
     })
@@ -93,7 +107,7 @@ router.get('/', (req, res) => {
     })
     .catch((err) => {
       console.log(err);
-      res.status(500).send(err.data);
+      res.status(500).send(err);
     });
 });
 
