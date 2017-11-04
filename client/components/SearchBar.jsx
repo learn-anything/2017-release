@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 import Autosuggest from 'react-autosuggest';
 
-import UnmatchedDialog from 'components/dialogs/UnmatchedDialog';
 import classNames from 'utils/classNames';
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
 import actions from 'constants/actions.json';
+import queries from 'constants/media-queries.json';
 import 'sass/_SearchBar.sass';
 
 
@@ -31,7 +32,9 @@ export default class SearchBar extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { unmatchedDialog: false };
+    this.state = {
+      isVisible: false,
+    };
 
     // Bind component methods.
     this.onInputChange = this.onInputChange.bind(this);
@@ -39,13 +42,13 @@ export default class SearchBar extends Component {
     this.onSuggestionSelected = this.onSuggestionSelected.bind(this);
     this.onSuggestionsFetchRequested = this.onSuggestionsFetchRequested.bind(this);
     this.onSuggestionsClearRequested = this.onSuggestionsClearRequested.bind(this);
-    this.dismissUnmatchedDialog = this.dismissUnmatchedDialog.bind(this);
     this.renderSuggestionsContainer = this.renderSuggestionsContainer.bind(this);
+    this.toggleVisibility = this.toggleVisibility.bind(this);
+    this.renderSearchBar = this.renderSearchBar.bind(this);
   }
 
-  dismissUnmatchedDialog() {
-    this.setState({ unmatchedDialog: false });
-    this.props.dispatch(clearQuery());
+  toggleVisibility() {
+    this.setState({ isVisible: !this.state.isVisible });
   }
 
   onInputChange(event) {
@@ -88,7 +91,6 @@ export default class SearchBar extends Component {
         type: actions.ga.search.unmatchedQuery,
         payload: this.props.query,
       });
-      this.setState({ unmatchedDialog: true });
       document.activeElement.blur();
     }
   }
@@ -101,6 +103,10 @@ export default class SearchBar extends Component {
     // Navigate to map and clear search query.
     this.props.history.push(`/${suggestion.id}`);
     this.props.dispatch(clearQuery());
+
+    if (this.state.isVisible) {
+      this.setState({ isVisible: false });
+    }
   }
 
   onSuggestionsFetchRequested({ value }) {
@@ -111,17 +117,11 @@ export default class SearchBar extends Component {
     this.props.dispatch(clearSuggestions());
   }
 
-  render() {
+  renderSearchBar() {
     const inputClassName = classNames({
       'searchbar-input': true,
       'searchbar-input--docked': this.props.docked,
     });
-
-    const formClassName = classNames({
-      'searchbar-container': true,
-      'searchbar-container--docked': this.props.docked,
-    });
-
 
     // Props for input field on autosuggest.
     const inputProps = {
@@ -137,25 +137,55 @@ export default class SearchBar extends Component {
     }
 
     return (
+      <Autosuggest
+        inputProps={inputProps}
+        renderSuggestion={renderSuggestion}
+        highlightFirstSuggestion={true}
+        suggestions={this.props.suggestions}
+        getSuggestionValue={getSuggestionValue}
+        onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+        onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+        onSuggestionSelected={this.onSuggestionSelected}
+        renderSuggestionsContainer={this.renderSuggestionsContainer}
+      />
+    );
+  }
+
+  render() {
+    const formClassName = classNames({
+      'searchbar-container': true,
+      'searchbar-container--docked': this.props.docked,
+    });
+
+    if (!this.props.docked) {
+      return (
+        <form className={formClassName} onSubmit={this.onFormSubmit}>
+          {this.renderSearchBar()}
+        </form>
+      );
+    }
+
+    return (
       <form className={formClassName} onSubmit={this.onFormSubmit}>
-        <Autosuggest
-          inputProps={inputProps}
-          renderSuggestion={renderSuggestion}
-          highlightFirstSuggestion={true}
-          suggestions={this.props.suggestions}
-          getSuggestionValue={getSuggestionValue}
-          onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
-          onSuggestionsClearRequested={this.onSuggestionsClearRequested}
-          onSuggestionSelected={this.onSuggestionSelected}
-          renderSuggestionsContainer={this.renderSuggestionsContainer}
-        />
+        <MediaQuery maxWidth={queries.s}>
+          <button className="searchbar-btn-show" onClick={this.toggleVisibility}>
+            <img src="/static/icons/search.svg"></img>
+          </button>
 
+          {this.state.isVisible &&
+            <div>
+              {this.renderSearchBar()}
 
-        <UnmatchedDialog
-          onReject={this.dismissUnmatchedDialog}
-          visible={this.state.unmatchedDialog}
-          query={this.props.query}
-        />
+              <button className="searchbar-btn-hide" onClick={this.toggleVisibility}>
+                &#x2715;
+              </button>
+            </div>
+          }
+        </MediaQuery>
+
+        <MediaQuery minWidth={queries.s}>
+          {this.renderSearchBar()}
+        </MediaQuery>
       </form>
     );
   }

@@ -95,12 +95,12 @@ export default class Breadcrumbs extends Component {
 
     return (
       <div className="breadcrumbs">
-        <MediaQuery maxWidth={queries.xs}>
+        <MediaQuery maxWidth={queries.s}>
           <div className={className}>
             {this.renderMobileBreadcrumbs()}
           </div>
         </MediaQuery>
-        <MediaQuery minWidth={queries.xs}>
+        <MediaQuery minWidth={queries.s}>
           <div className="breadcrumbs-desktop">
             {this.renderBreadcrumbs()}
           </div>

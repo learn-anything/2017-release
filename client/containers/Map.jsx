@@ -34,10 +34,12 @@ export default class Map extends Component {
     return (
       <div>
         <header>
-          <Logo />
-          <SearchBar history={this.props.history} docked={true} />
+          <div>
+            <Logo />
+            <SearchBar history={this.props.history} docked={true} />
 
-          <Breadcrumbs />
+            <Breadcrumbs />
+          </div>
         </header>
 
         <MindMapWrapper />

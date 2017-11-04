@@ -1,19 +1,15 @@
 @import variables
 
+
 .breadcrumbs
-  max-width: calc(100% - 489px)
-
-  +respond-to($width-s)
-    max-width: calc(100% - 469px)
-
-  +respond-to($width-s)
-    max-width: calc(100% - 84px)
-
+  flex-grow: 1
 
 .breadcrumbs-desktop
   color: $dove-gray
   direction: rtl
+  display: flex
   font-size: .8rem
+  justify-content: flex-end
   line-height: 60px
   overflow: hidden
   padding: 0  10px
