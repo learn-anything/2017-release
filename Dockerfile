@@ -1,4 +1,4 @@
-FROM node:7.10.0
+FROM node:8.9.0
 EXPOSE 3000
 
 RUN mkdir -p /usr/src/app
