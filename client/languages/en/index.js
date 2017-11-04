@@ -8,14 +8,14 @@ module.exports = {
   searchbar_help_text_1: 'Or, ',
   searchbar_help_text_anything: 'click here to browse all topics',
 
-  // Generic dialog
-  dialog_cancel: 'Cancel',
-  dialog_okay: 'Okay',
+  // // Generic dialog
+  // dialog_cancel: 'Cancel',
+  // dialog_okay: 'Okay',
 
-  // Unmatched dialog
-  unmatched_dialog_title: 'Map not found',
-  unmatched_dialog_message: `The topic you're looking for doesn't have a map yet, but you can search it on DuckDuckGo.`,
-  unmatched_dialog_accept_label: 'Search',
+  // // Unmatched dialog
+  // unmatched_dialog_title: 'Map not found',
+  // unmatched_dialog_message: `The topic you're looking for doesn't have a map yet, but you can search it on DuckDuckGo.`,
+  // unmatched_dialog_accept_label: 'Search',
 
   // Contribute dialog
   contribute_dialog_title: 'Contribution guidelines',
@@ -39,10 +39,15 @@ module.exports = {
   sidebar_support: 'Support',
   sidebar_about: 'About',
   sidebar_github: 'Github',
+  sidebar_legend: 'Legend',
 
   // About
   about: mdfile('about', 'en'),
 
   // Legend
   legend: mdfile('legend', 'en'),
+  legend_title: 'Legend',
+
+  // Breadcrumbs
+  breadcrumbs_mobile_path: 'path:',
 };

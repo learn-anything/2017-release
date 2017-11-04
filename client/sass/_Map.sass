@@ -5,14 +5,12 @@ header
   background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
   display: flex
   flex-direction: row
-  height: 60px
-  position: absolute
   width: 100%
 
   & + div
     display: flex
-    height: calc(100% - 100px)
-    margin-top: 60px
+    height: 100%
+    margin-top: 5px
     width: 100%
 
     .la-map
@@ -44,10 +42,5 @@ footer
   footer
     display: none
 
-  header + div
-    margin-top: 70px
-
-
-+respond-to($width-xs)
-  header + div
-    margin-top: 80px
+  header
+    background: transparent

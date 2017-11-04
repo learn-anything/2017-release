@@ -9,6 +9,7 @@ $coral: #f96854
 $dove-gray: #717171
 $edward: #a6a7a7
 $gallery: #ebebeb
+$gray: #808080
 $iron: #d2d3d3
 $lima: #89d81a
 $mercury: #e9e9e9
@@ -43,15 +44,18 @@ $width-l: 1180px
   @media (max-width: #{$width})
     @content
 
+=flex-column
+  display: flex
+  flex-direction: column
+
 =center-row-horizontal
   display: flex
   flex-direction: row
   justify-content: center
 
 =center-column-horizontal
+  +flex-column
   align-items: center
-  display: flex
-  flex-direction: column
 
 =fullscreen
   bottom: 0
@@ -59,3 +63,10 @@ $width-l: 1180px
   position: absolute
   right: 0
   top: 0
+
+=normalize-btn
+  background: none
+  border: 0
+
+  &:focus
+    outline: none

@@ -1,34 +1,21 @@
 @import variables
 
 
-.app-container > .la-dialog
+.app-container > .dialog
   background-color: transparent
   z-index: 2
 
-.la-dialog-overlay,
-.la-dialog-body
-  bottom: 0
-  left: 0
-  position: absolute
-  right: 0
-  top: 0
-
-
-.la-dialog-overlay
+.dialog-overlay
+  +fullscreen
   background-color: $overlay
   overflow-y: scroll
 
-
-.la-dialog-body
-  margin: auto
+.dialog-body
+  +flex-column
+  margin: 20% auto
   max-width: 550px
   overflow-x: visible
 
-  & > :first-child
-    margin-top: 20%
-
-  & > :last-child
-    margin-bottom: 20%
 
   & > :not(.md-separator)
     background-color: $white
@@ -154,7 +141,7 @@
     fill: $twitter-blue
 
 
-.la-dialog-hide
+.dialog-hide
   background-color: $white
   border: 0
   border-radius: 20px
@@ -170,3 +157,8 @@
 
   &:focus
     outline: none
+
+
++respond-to($width-xs)
+  .dialog-body li
+    width: 100%

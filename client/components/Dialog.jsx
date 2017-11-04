@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import MediaQuery from 'react-responsive';
 
+import queries from 'constants/media-queries.json';
 import { hideDialog } from 'actions/Dialog';
 import 'sass/_Dialog.sass';
 
@@ -24,7 +26,7 @@ export default class Dialog extends Component {
   onOverlayClick(event) {
     // If user clicked on the overlay (and not on the dialog body)
     // then close the dialog.
-    if (event.target.className === 'la-dialog-overlay') {
+    if (event.target.className === 'dialog-overlay') {
       this.hide();
     }
   }
@@ -37,14 +39,16 @@ export default class Dialog extends Component {
     }
 
     return (
-      <div className="la-dialog">
-        <div className="la-dialog-overlay" onClick={this.onOverlayClick}>
-          <button className="la-dialog-hide" onClick={this.hide}>
-            &#x2715;
-          </button>
+      <div className="dialog">
+        <div className="dialog-overlay" onClick={this.onOverlayClick}>
+          <MediaQuery minWidth={queries.s}>
+            <button className="dialog-hide" onClick={this.hide}>
+              &#x2715;
+            </button>
+          </MediaQuery>
 
           <div
-            className="la-dialog-body"
+            className="dialog-body"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>

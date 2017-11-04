@@ -37,7 +37,7 @@ export default class Map extends Component {
           <Logo />
           <SearchBar history={this.props.history} docked={true} />
 
-          <Breadcrumbs title={this.props.title} />
+          <Breadcrumbs />
         </header>
 
         <MindMapWrapper />
