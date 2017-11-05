@@ -72,7 +72,7 @@ const cache = (key, fn, lifetime = 10, shouldHash = false) => new Promise((resol
     .catch(err => reject(err));
 });
 
-const fakeCache = (key, lifetime, fn) => {
+const fakeCache = (key, fn) => {
   if (typeof fn === 'object' && fn.then) {
     return fn;
   }
