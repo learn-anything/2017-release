@@ -18,7 +18,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
   const q = req.query.q;
 
-  const cacheKey = `map.byKey("${q.replace(/\s/g, '-')}")`;
+  const cacheKey = `map.byKey("${q && q.replace(/\s/g, '-')}")`;
   cache(cacheKey, searchMapByKey(q), 20)
     .then(data => res.send(data))
     .catch(err => res.status(500).send(err));
