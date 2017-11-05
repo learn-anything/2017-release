@@ -1,5 +1,5 @@
 const Memcached = require('memcached');
-const memcached = new Memcached(['0.0.0.0:11211']);
+const memcached = new Memcached([`${process.env.MEMCACHED}:11211`]);
 
 // Generate a key from the request.
 const getKey = (req) => {
