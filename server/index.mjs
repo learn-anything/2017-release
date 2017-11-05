@@ -1,23 +1,21 @@
 #!/usr/bin/env node
-const compression = require('compression');
-const readFileSync = require('fs').readFileSync;
-const express = require('express');
-const bodyParser = require('body-parser');
-const dot = require('dot');
-const api = require('./api/index');
+import compression from 'compression';
+import { readFileSync } from 'fs';
+import express from 'express';
+import bodyParser from 'body-parser';
+import dot from 'dot';
+import api from './api/index';
+
+import webpack from 'webpack';
+import webpackDevMiddleware from 'webpack-dev-middleware';
+import webpackHotMiddleware from 'webpack-hot-middleware';
+import webpackConfig from '../webpack.config';
 
 const app = express();
 const googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
 
 // If on dev environment use hot reloading.
 if (process.env.NODE_ENV !== 'production') {
-  /* eslint-disable global-require */
-  const webpack = require('webpack');
-  const webpackDevMiddleware = require('webpack-dev-middleware');
-  const webpackHotMiddleware = require('webpack-hot-middleware');
-  const webpackConfig = require('../webpack.config');
-  /* eslint-enable global-require */
-
   const compiler = webpack(webpackConfig);
 
   app.use(webpackDevMiddleware(compiler, {

@@ -19,6 +19,7 @@
   "scripts": {
     "setup": "./setup.sh",
     "start": "node server/index.js -p 3000",
+    "start:memc": "HOST_IP='localhost' node server/index.js -p 3000",
     "test": "jest",
     "test:watch": "npm test -- --watch",
     "build:prod": "NODE_ENV='production' webpack -p",

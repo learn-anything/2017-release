@@ -13,6 +13,8 @@ AWS.config.update({
   secretAccessKey: 'fakeSecretAccessKey',
 });
 
+
+// If in production set up the access keys and change endpoint.
 if (process.env.NODE_ENV === 'production') {
   AWS.config.update({
     region: 'us-west-1',
@@ -26,4 +28,44 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-module.exports = client;
+
+// Returns the body required to get a random element from an index.
+const random = () => ({
+  size: 1,
+  query: {
+    function_score: {
+      functions: [{ random_score: { seed: (new Date()).getMilliseconds() } }],
+    },
+  },
+});
+
+const get = term => ({
+  size: 1,
+
+  query: {
+    constant_score: {
+      filter: { term },
+    },
+  }
+});
+
+// Returns the body required to fuzzy search on an index, with a given query.
+const fuzzy = query => ({
+  query: {
+    match: {
+      key: {
+        query,
+        analyzer: 'standard',
+        fuzziness: 'AUTO',
+      },
+    },
+  },
+});
+
+
+module.exports = {
+  random,
+  fuzzy,
+  get,
+  client,
+};
