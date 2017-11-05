@@ -10,7 +10,9 @@ import queries from 'constants/media-queries.json';
 import 'sass/_Sidebar.sass';
 
 
-@connect()
+@connect(store => ({
+  isVisible: store.header.menu,
+}))
 export default class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -37,10 +39,14 @@ export default class Sidebar extends Component {
   }
 
   render() {
+    if (!this.props.isVisible) {
+      return null;
+    }
+
     // home, support, about, github, night mode
     return (
       <Menu isOpen={this.state.isOpen} className="sidebar-menu" width={250} right>
-        { window.laAuth.isAuthenticated() ?
+        {window.laAuth.isAuthenticated() ?
           <div className="sidebar-item">
             <a onClick={window.laAuth.logout}>{__('sidebar_logout')}</a>
           </div>

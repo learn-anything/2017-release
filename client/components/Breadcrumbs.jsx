@@ -11,6 +11,7 @@ import 'sass/_Breadcrumbs.sass';
 @connect(store => ({
   title: store.map.title,
   nodes: store.map.nodes,
+  isVisible: store.header.breadcrumbs,
 }))
 export default class Breadcrumbs extends Component {
   constructor(props) {
@@ -53,11 +54,13 @@ export default class Breadcrumbs extends Component {
 
     return (
       <div>
-        <div className="breadcrumbs-mobile-title" onClick={this.toggleExpanded}>
-          {splitTitle[splitTitle.length - 1]}
-        </div>
+        {this.props.isVisible &&
+          <div className="breadcrumbs-mobile-title" onClick={this.toggleExpanded}>
+            {splitTitle[splitTitle.length - 1]}
+          </div>
+        }
 
-        { this.state.expanded &&
+        {this.state.expanded &&
           <div className="breadcrumbs-mobile-description">
             <div className="breadcrumbs-mobile-nodes-count">{`${nodesCount} ${__('searchbar_nodes_count')}`}</div>
             <div className="breadcrumbs-mobile-path-title">{__('breadcrumbs_mobile_path')}</div>
@@ -100,7 +103,7 @@ export default class Breadcrumbs extends Component {
             {this.renderMobileBreadcrumbs()}
           </div>
         </MediaQuery>
-        <MediaQuery minWidth={queries.s}>
+        <MediaQuery minWidth={queries.s + 1}>
           <div className="breadcrumbs-desktop">
             {this.renderBreadcrumbs()}
           </div>

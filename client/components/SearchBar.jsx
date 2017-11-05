@@ -5,6 +5,7 @@ import MediaQuery from 'react-responsive';
 import Autosuggest from 'react-autosuggest';
 
 import classNames from 'utils/classNames';
+import { showSearchbar, hideSearchbar } from 'actions/Header';
 import { fetchSuggestions, clearSuggestions, updateQuery, clearQuery } from 'actions/Search';
 import actions from 'constants/actions.json';
 import queries from 'constants/media-queries.json';
@@ -27,14 +28,11 @@ const getSuggestionValue = suggestion => suggestion.key;
   suggestions: store.search.suggestions,
   placeholder: store.search.placeholder,
   loading: store.search.loading,
+  isVisible: store.header.searchbar,
 }))
 export default class SearchBar extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      isVisible: false,
-    };
 
     // Bind component methods.
     this.onInputChange = this.onInputChange.bind(this);
@@ -48,7 +46,11 @@ export default class SearchBar extends Component {
   }
 
   toggleVisibility() {
-    this.setState({ isVisible: !this.state.isVisible });
+    if (this.props.isVisible) {
+      this.props.dispatch(hideSearchbar());
+    } else {
+      this.props.dispatch(showSearchbar());
+    }
   }
 
   onInputChange(event) {
@@ -104,8 +106,8 @@ export default class SearchBar extends Component {
     this.props.history.push(`/${suggestion.id}`);
     this.props.dispatch(clearQuery());
 
-    if (this.state.isVisible) {
-      this.setState({ isVisible: false });
+    if (this.props.isVisible) {
+      this.props.dispatch(hideSearchbar());
     }
   }
 
@@ -168,11 +170,13 @@ export default class SearchBar extends Component {
     return (
       <form className={formClassName} onSubmit={this.onFormSubmit}>
         <MediaQuery maxWidth={queries.s}>
-          <button className="searchbar-btn-show" onClick={this.toggleVisibility}>
-            <img src="/static/icons/search.svg"></img>
-          </button>
+          {!this.props.isVisible &&
+            <button className="searchbar-btn-show" onClick={this.toggleVisibility}>
+              <img src="/static/icons/search.svg"></img>
+            </button>
+          }
 
-          {this.state.isVisible &&
+          {this.props.isVisible &&
             <div>
               {this.renderSearchBar()}
 
@@ -183,7 +187,7 @@ export default class SearchBar extends Component {
           }
         </MediaQuery>
 
-        <MediaQuery minWidth={queries.s}>
+        <MediaQuery minWidth={queries.s + 1}>
           {this.renderSearchBar()}
         </MediaQuery>
       </form>
