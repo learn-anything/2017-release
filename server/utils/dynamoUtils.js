@@ -1,5 +1,7 @@
 const dynamo = require('./dynamoClient');
 
+
+// TODO - This function may not be needed.
 function mapToItem(map) {
   const item = {
     title: { S: map.title },

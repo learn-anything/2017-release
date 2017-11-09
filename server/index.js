@@ -1,15 +1,18 @@
 #!/usr/bin/env node
-const compression = require('compression');
-const readFileSync = require('fs').readFileSync;
+const { readFileSync } = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
+const compression = require('compression');
 const dot = require('dot');
+
 const api = require('./api/index');
+
 
 const app = express();
 const googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
 
-// If on dev environment use hot reloading.
+
+// Use hot reloading when in dev environment
 if (process.env.NODE_ENV !== 'production') {
   /* eslint-disable global-require */
   const webpack = require('webpack');
@@ -29,6 +32,7 @@ if (process.env.NODE_ENV !== 'production') {
   app.use(webpackHotMiddleware(compiler));
 }
 
+
 // Compress files sent.
 app.use(compression({ threshold: 0 }));
 
@@ -44,40 +48,45 @@ app.use('/api', api);
 // Templating engine for dynamic meta tags.
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
-// :lang([a-z]{2})?*
-// Todo redirect urls with map IDs to urls with map paths :map-id([0-9])*
-app.get('*', (req, res) => {
-  let title = req.originalUrl.replace(/\?.*/, '');
 
-  if (title === '/') {
+// TODO: need to add language support, and automatic redirect when the path is
+// just the id of a map.
+// :map-id([0-9])*
+// :lang([a-z]{2})?*
+app.get('*', (req, res) => {
+  // If the client is requesting the main page, return that.
+  if (req.path === '/') {
     // Render main page.
     res.send(render({
       googleTrackingID,
       title: 'Learn Anything',
       description: 'Search Interactive Mind Maps to learn anything',
-      url: `${req.protocol}://${req.headers.host}${title}`,
-      image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
-      language: 'en',
-    }));
-  } else {
-    // Render any other map.
-    // Generate map name and topic of the map.
-    title = title.slice(1).replace(/\/$/, '').replace(/\//g, '---');
-    const splitTitle = title.split('---');
-    const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
-
-    // TMP
-    res.send(render({
-      googleTrackingID,
-      title: 'Learn Anything',
-      description: 'Search Interactive Mind Maps to learn anything',
-      url: `${req.protocol}://${req.headers.host}${title}`,
+      url: `${req.protocol}://${req.headers.host}${req.path}`,
       // image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
       language: 'en',
     }));
+    return;
   }
+
+  // Otherwise, render the meta tags for any other map.
+  // Generate map name and topic of the map.
+  const title = req.path.slice(1).replace(/\/$/, '').replace(/\//g, '---');
+  const splitTitle = req.path.split('---');
+  const topic = splitTitle[splitTitle.length - 1].replace(/-/g, ' ').trim(' ');
+
+  // TMP
+  res.send(render({
+    googleTrackingID,
+    title: 'Learn Anything',
+    description: 'Search Interactive Mind Maps to learn anything',
+    url: `${req.protocol}://${req.headers.host}${req.path}`,
+    // image: `${req.protocol}://${req.headers.host}/thumbs/learn-anything`,
+    language: 'en',
+  }));
 });
 
+
+// Start the party on port 3000
 app.listen(3000, () => {
   console.log('Server started.');
   console.log('HOST_IP: ', process.env.HOST_IP);

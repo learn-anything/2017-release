@@ -1,32 +1,29 @@
 const express = require('express');
 const cache = require('../utils/cache');
-const {
-  getMapByID,
-  getMapByTitle,
-  searchMapByKey,
-} = require('../helpers/maps');
+const Maps = require('../helpers/maps');
 
 
 // 2 hours cache lifetime for maps
+// TODO - rethink how long we should cache maps (we could keep them as long as
+// they can stay and update them when there's changes).
 const CACHE_LIFETIME = 2 * 60 * 60;
-
 
 const router = express.Router();
 
 
-// Search map by key (name of map) or get random map (if no query is specified).
+// Get suggestions for maps or get random map (if no query is specified).
 router.get('/', (req, res) => {
   const q = req.query.q;
 
   const cacheKey = `map.byKey("${q && q.replace(/\s/g, '-')}")`;
-  cache(cacheKey, searchMapByKey(q), 20)
+  cache(cacheKey, Maps.fuzzySearch(q), 20)
     .then(data => res.send(data))
     .catch(err => res.status(500).send(err));
 });
 
 // Get map by ID.
 router.get('/:id(\\d+)', (req, res) => {
-  cache(`map.byID("${req.params.id}")`, getMapByID(req.params.id), 300)
+  cache(`map.byID("${req.params.id}")`, Maps.byID(req.params.id), 300)
     .then(data => res.send(data))
     .catch((err) => {
       console.error(err);
@@ -47,7 +44,7 @@ router.get(/\/(.*)/, (req, res) => {
   }
 
   const cacheKey = `maps.byTitle("${title.replace(/\s/g, '-')}")`;
-  cache(cacheKey, getMapByTitle(title), 300)
+  cache(cacheKey, Maps.byTitle(title), 300)
     .then(data => res.send(data))
     .catch((err) => {
       console.error(err);
