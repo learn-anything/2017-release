@@ -17,10 +17,15 @@ export default class Home extends Component {
       <div>
         <Logo big={true} welcome={this.props.query === ''} />
 
-        <h1 className="la-title">{__('first_search_title')}</h1>
+        {/* <div className="opensource-badge">
+          <img src="/static/icons/github.svg" alt="github logo"/>
+          <div className="opensource-text">Open Source</div>
+        </div> */}
+
+        <h1 className="title">{__('first_search_title')}</h1>
         <SearchBar history={this.props.history} />
 
-        <div className="la-help-text">
+        <div className="help-text">
           <p>
             {__('searchbar_help_text_0')}<br/>
             {__('searchbar_help_text_1')}

@@ -1,7 +1,7 @@
 @import variables
 
 
-.la-title
+.title
   color: $white
   font-size: 3em
   font-weight: bold
@@ -10,8 +10,26 @@
 
   +center-row-horizontal
 
+.opensource-badge
+  +center-row-vertical
+  +center-row-horizontal
+  background-color: $white
+  bottom: 8vh
+  padding: .3em
+  position: absolute
+  right: -13vh
+  transform: rotate(-45deg)
+  width: 45vh
 
-.la-help-text
+  img
+    height: 25px
+    width: 25px
+
+  .opensource-text
+    padding-left: 15px
+
+
+.help-text
   color: $regent-gray
   flex-direction: column
   flex-wrap: wrap
@@ -25,36 +43,36 @@
 
 
 +respond-to($width-xs)
-  .la-title,
-  .la-help-text
+  .title,
+  .help-text
     justify-content: flex-start
     margin: .3em 0
     padding: 12px 50px
     width: 100%
 
-  .la-title
+  .title
     font-size: 2.3em
 
-  .la-help-text
+  .help-text
     font-size: 1em
     text-align: left
 
 
 +respond-to($width-xxs)
-  .la-title,
-  .la-help-text
+  .title,
+  .help-text
     margin: .5em 0
     padding: 12px 25px
 
-  .la-title
+  .title
     font-size: 2em
 
-  .la-help-text
+  .help-text
     font-size: .8em
 
 @media (max-height: 400px)
-  .la-title,
-  .la-help-text,
+  .title,
+  .help-text,
   .bm-burger-button
     display: none
 
