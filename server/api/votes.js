@@ -2,7 +2,6 @@ const express = require('express');
 const axios = require('axios');
 const jwtCheck = require('../utils/jwtCheck');
 const dynamo = require('../utils/dynamoClient');
-const { updateMap } = require('../utils/dynamoUtils');
 const votes = require('../helpers/votes');
 const cache = require('../utils/cache');
 

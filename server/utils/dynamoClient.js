@@ -34,7 +34,7 @@ const docClient = new AWS.DynamoDB.DocumentClient({ service: dynamodb });
 //
 // dynamo('get', { ...params })
 //   .then(data => console.log(data))
-//   .catch(err => console.erroe('something bad happened', err));
+//   .catch(err => console.error('something bad happened', err));
 module.exports = (method, params) =>
   new Promise((resolve, reject) => {
     docClient[method](params, (err, data) => {
