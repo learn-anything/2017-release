@@ -41,7 +41,6 @@ export default class Breadcrumbs extends Component {
     // Title is in the form of "path - to - map".
     const splitTitle = this.props.title.split(' - ');
 
-    console.log(this.props, splitTitle);
     return splitTitle.map((topic, index) => (
       <Link to={this.getURL(splitTitle, index)} key={index}>{topic}</Link>
     ));

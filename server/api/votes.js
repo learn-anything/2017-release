@@ -1,9 +1,9 @@
 const express = require('express');
-const axios = require('axios');
-const jwtCheck = require('../utils/jwtCheck');
+const { jwtCheck, getUserID } = require('../utils/auth');
 const dynamo = require('../utils/dynamoClient');
 const votes = require('../helpers/votes');
-const cache = require('../utils/cache');
+const { cache } = require('../utils/cache');
+const { APIError, logger } = require('../utils/errors');
 
 
 const router = express.Router();
@@ -13,41 +13,31 @@ router.use(jwtCheck('vote:maps'));
 // Error message for unauthorized clients
 router.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
-    res.status(401).send({ msg: 'unauthorized' });
+    throw new APIError(401, 'unauthorized');
   }
 });
 
 
-const getUserID = auth =>
-  axios('https://learn-anything.auth0.com/userinfo', {
-    headers: { Authorization: auth }
-  }).then(({ data }) => data.sub);
-
-
-/*
-  get all votes of authenticated user
-*/
+// Get user votes by map, or all user votes (if mapID is not specified).
 router.get('/', (req, res) => {
   const auth = req.get('Authorization');
 
+  // Either ger the userID from cache, or get it grom Auth0. Then if there's a
+  // mapID specified return all voted of that user for that map, otherwise
+  // return all their votes.
   cache(auth, getUserID(auth), 300, true)
     .then((userID) => {
-      let params = votes.get(userID);
-
       if (req.query.mapID) {
-        params = votes.getByMap(userID, req.query.mapID);
+        return cache(
+          `${cacheKeys.votes.byUserMap}${userID},${req.query.mapID}`,
+          votes.byUserMap(userID, req.query.mapID)
+        );
       }
 
-      return dynamo('query', params);
+      return votes.byUser(userID);
     })
-    .then((data) => {
-      res.send(data.Items);
-      // memcachedUtils.set(req, data.Items, CACHE_LIFETIME);
-    })
-    .catch((err) => {
-      console.log(err);
-      res.status(500).send(err);
-    });
+    .then(data => res.send(data.Items))
+    .catch(err => logger(err, res));
 });
 
 /*
@@ -55,31 +45,24 @@ router.get('/', (req, res) => {
     Authorization - Bearer <authentication_token>
 
   params:
-    resourceID - Number
+    resourceID - parentID|URL
     direction - [1, 0, -1]
 */
 router.post('/', (req, res) => {
-  const resourceID = Number(req.body.resourceID);
+  const auth = req.get('Authorization');
+  const resourceID = req.body.resourceID;
   const direction = Number(req.body.direction);
 
-  if (typeof resourceID !== 'number' || typeof direction !== 'number') {
-    res.status(400).send({ msg: 'malformed request' });
-    return;
+  if (isNaN(direction)) {
+    throw new APIError(400, 'invalid vote direction');
   }
 
-  const auth = req.get('Authorization');
-
+  // Either get the userID from cache, or get it from Auth0. Then vote on the
+  // resource, and send back the resource with the updated score.
   cache(auth, getUserID(auth), 300, true)
-    .then((userID) => (
-      votes.update(userID, resourceID, direction)
-    ))
-    .then((resource) => {
-      res.send(resource);
-    })
-    .catch((err) => {
-      console.log(err);
-      res.status(500).send(err.data);
-    });
+    .then(userID => votes.vote(userID, resourceID, direction))
+    .then(resource => res.send(resource))
+    .catch(err => logger(err, res));
 });
 
 

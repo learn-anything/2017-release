@@ -1,77 +1,96 @@
 const dynamo = require('../utils/dynamoClient');
+const cache = require('../utils/cache');
+const { cacheKeys } = require('../constants.json');
+const { APIError } = require('../utils/errors');
 
 
-const update = async (userID, resourceID, direction) => {
-  const vote = (await dynamo('get', {
-      TableName: 'Votes',
-      Key: { userID, resourceID },
-    })
-  ).Item;
-
-  const resource = (await dynamo('get', {
-      TableName: 'Resources',
-      Key: { resourceID },
-    })
-  ).Item;
-
-  if (!resource) {
-    throw Error({ msg: 'resource does not exist' });
-  }
-
-  // Remove the previous vote if present
-  if (vote) {
-    if (vote.direction === 1) {
-      resource.score.up -= 1;
-    }
-
-    if (vote.direction === -1) {
-      resource.score.down -= 1;
-    }
-  }
-
-  // Add the new vote
-  if (direction === 1) {
-    resource.score.up += 1;
-  }
-
-  if (direction === -1) {
-    resource.score.down += 1;
-  }
-
-  await dynamo('put', {
-    TableName: 'Votes',
-    Item: { userID, resourceID, direction, mapID: resource.mapID },
-  });
-
-  await dynamo('put', {
-    TableName: 'Resources',
-    Item: resource,
-  });
-
-  return resource;
+// Possible directions for a vote.
+const directions = {
+  '-1': 'down',
+  0: 'reset',
+  1: 'up',
 };
 
-const get = user => ({
-  TableName: 'Votes',
-  Select: 'ALL_ATTRIBUTES',
-  KeyConditionExpression: 'userID = :userID',
-  ExpressionAttributeValues: { ':userID': user },
-});
+// Create or modify a vote, update the score of the voted resource, and update
+// the cached map.
+async function vote(userID, resourceID, direction) {
+  let [vote, resource] = await Promise.all([
+    dynamo('get', { TableName: 'Votes', Key: { userID, resourceID } }),
+    dynamo('get', { TableName: 'Resources', Key: { resourceID } }),
+  ]);
 
-const getByMap = (userID, mapID) =>  ({
-  TableName: 'Votes',
-  Select: 'ALL_ATTRIBUTES',
-  IndexName: 'MapIndex',
-  KeyConditionExpression: 'userID = :user and mapID = :map',
-  ExpressionAttributeValues: {
-    ':user': userID,
-    ':map': Number(mapID),
-  },
-});
+  vote = vote.Item;
+  resource = resource.Item;
+
+  // Resource doesn't exist, or it was deleted.
+  if (!resource) {
+    throw new APIError(404, 'resource does not exist');
+  }
+
+  // Remove the previous vote if present.
+  if (vote) {
+    resource.score[directions[vote.direction]] -= 1;
+  }
+
+  // Add the new vote.
+  resource.score[directions[direction]] += 1;
+  delete resource.score.reset;
+
+  const newVote = { userID, resourceID, direction, mapID: resource.mapID };
+
+  // Update vote and resource on DynamoDB.
+  await Promise.all([
+    dynamo('put', { TableName: 'Votes', Item: newVote }),
+    dynamo('put', { TableName: 'Resources', Item: resource }),
+  ]);
+
+  // Get the cached map, so we can update it and we don't need to make
+  // additional requests to the DB.
+  const map = await cache.get(cacheKeys.maps.byID + resource.mapID);
+  console.log(`[MC] Replacing: ${cacheKeys.maps.byID + resource.mapID}`);
+
+  const nodeResources = map.resources[resource.parentID];
+  const oldResource = nodeResources.find(res => (
+    res.resourceID === resource.resourceID
+  ));
+  const resourceIndex = nodeResources.indexOf(oldResource);
+
+  // Set the new map value on cache.
+  map.resources[resource.parentID][resourceIndex] = resource;
+  const response = await cache.set(cacheKeys.maps.byID + resource.mapID, map);
+  console.log(`[MC] Cached: ${response}`);
+
+  // Return the updated resource, so the client doesn't need to reload the map.
+  return resource;
+}
+
+// Get votes by userID. Returns a promise.
+function byUser(userID) {
+  return dynamo('query', {
+    TableName: 'Votes',
+    Select: 'ALL_ATTRIBUTES',
+    KeyConditionExpression: 'userID = :userID',
+    ExpressionAttributeValues: { ':userID': userID },
+  });
+}
+
+// Get user votes by mapID. Returns a promise.
+function byUserMap(userID, mapID) {
+  return dynamo('query', {
+    TableName: 'Votes',
+    Select: 'ALL_ATTRIBUTES',
+    IndexName: 'MapIndex',
+    KeyConditionExpression: 'userID = :user and mapID = :map',
+    ExpressionAttributeValues: {
+      ':user': userID,
+      ':map': Number(mapID),
+    },
+  });
+}
 
 
 module.exports = {
-  get,
-  getByMap,
-  update,
+  byUser,
+  byUserMap,
+  vote,
 };

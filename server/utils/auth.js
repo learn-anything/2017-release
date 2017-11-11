@@ -1,5 +1,7 @@
 const jwt = require('express-jwt');
 const jwks = require('jwks-rsa');
+const axios = require('axios');
+const { logger } = require('./errors');
 
 
 // Check JSON web token
@@ -16,5 +18,15 @@ const jwtCheck = (scope) =>
     algorithms: ['RS256'],
   });
 
+const getUserID = auth =>
+  axios('https://learn-anything.auth0.com/userinfo', {
+    headers: { Authorization: auth }
+  })
+  .then(({ data }) => data.sub)
+  .catch(err => logger(err));
 
-module.exports = jwtCheck;
+
+module.exports = {
+  jwtCheck,
+  getUserID,
+};

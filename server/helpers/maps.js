@@ -1,5 +1,6 @@
 const elastic = require('../utils/elasticClient');
 const dynamo = require('../utils/dynamoClient');
+const { APIError } = require('../utils/errors');
 
 
 // Fuzzy search maps by key name.
@@ -19,12 +20,7 @@ async function fuzzySearch(query) {
   }));
 }
 
-
 // Get a specific map by ID.
-// TODO - [priority somewhat high, this is making retrieving maps very slow]
-// change the logic inside this function, we can most likely execute all
-// requests at once. They don't depend on each other so there's no need for
-// waiting between each request.
 async function byID(mapID) {
   // Get Map metadata from DynamoDB.
   const { Item } = await dynamo('get', {
@@ -39,7 +35,7 @@ async function byID(mapID) {
   };
 
   // Query DynamoDB to get the nodes for the current map.
-  const nodes = (await dynamo('query', {
+  const nodesPromise = dynamo('query', {
     TableName: 'Nodes',
     IndexName: 'MapIndex',
     Select: 'ALL_ATTRIBUTES',
@@ -47,10 +43,10 @@ async function byID(mapID) {
     ExpressionAttributeValues: {
       ':value': Number(mapID),
     },
-  })).Items;
+  });
 
   // Query DynamoDB to get the resources for the current map.
-  const resources = (await dynamo('query', {
+  const resourcesPromise = dynamo('query', {
     TableName: 'Resources',
     IndexName: 'MapIndex',
     Select: 'ALL_ATTRIBUTES',
@@ -58,11 +54,13 @@ async function byID(mapID) {
     ExpressionAttributeValues: {
       ':value': Number(mapID),
     },
-  })).Items;
+  });
+
+  const [nodes, resources] = await Promise.all([nodesPromise, resourcesPromise]);
 
   // Convert the list to a dictionary having parent nodes as keys, and lists
   // of nodes as values. This is used by the render component.
-  nodes.forEach((node) => {
+  nodes.Items.forEach((node) => {
     if (map.nodes[node.parentID]) {
       // If there's already some nodes with the same parent, append this node
       // to the list.
@@ -83,7 +81,7 @@ async function byID(mapID) {
 
   // Convert the list to a dictionary having parent nodes as keys, and lists
   // of resources as values. This is used by the render component.
-  resources.forEach((resource) => {
+  resources.Items.forEach((resource) => {
     // Same logic as above apply, only that we don't have a "root resource".
     // All resources must have a parent node, and no resource has a child.
     if (map.resources[resource.parentID]) {
@@ -95,7 +93,6 @@ async function byID(mapID) {
 
   return map;
 }
-
 
 // Get a specific map by title.
 async function byTitle(title) {
@@ -110,7 +107,7 @@ async function byTitle(title) {
   // There can't be more than one result, as the limit for this ES query is 1,
   // and in any case, map titles should be unique.
   if (hits.length !== 1) {
-    throw Error('map not found');
+    throw new APIError(404, 'map not found');
   }
 
   // Now that we have the ID, let's retrieve the whole map.

@@ -1,0 +1,35 @@
+{
+  "resourceCategories": [
+    "mindmap",
+    "wiki",
+    "stack exchange",
+    "course",
+    "free book",
+    "non-free book",
+    "paper",
+    "video",
+    "article",
+    "blog",
+    "github",
+    "interactive",
+    "image",
+    "podcast",
+    "newsletter",
+    "chat",
+    "youtube",
+    "reddit",
+    "quora",
+    "undefined"
+  ],
+
+  "cacheKeys": {
+    "maps": {
+        "byID": "maps.byID|",
+        "byTitle": "maps.byTitle|",
+        "search": "maps.search|"
+    },
+    "votes": { "byUserMap": "votes.byUserMap|" },
+    "resources": { "byID": "resources.byID|" },
+    "nodes": { "byID": "nodes.byID|" }
+  }
+}
