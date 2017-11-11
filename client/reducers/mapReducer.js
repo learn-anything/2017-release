@@ -9,6 +9,7 @@ const initialState = {
   loading: false,
   mapID: undefined,
   error: undefined,
+  votes: [],
 };
 
 // Deep copy for nodes or resources.
@@ -36,8 +37,11 @@ export default (state = initialState, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      const { data } = action.payload;
-      const title = cleanTitle(data.title);
+      let [map, votes] = action.payload;
+      console.log(action.payload);
+      map = map.data;
+      votes = votes.data;
+      const title = cleanTitle(map.title);
 
       // Set HTML title.
       const titleSplit = title.split(' - ');
@@ -47,11 +51,12 @@ export default (state = initialState, action) => {
       return {
         ...state,
         title,
+        votes,
         loading: false,
         error: undefined,
-        nodes: data.nodes,
-        mapID: data.mapID,
-        resources: data.resources,
+        nodes: map.nodes,
+        mapID: map.mapID,
+        resources: map.resources,
       };
     }
 
@@ -70,7 +75,7 @@ export default (state = initialState, action) => {
     }
 
     case actions.map.updateResource: {
-      const { nodeID, resource } = action.payload;
+      const { nodeID, resource, direction } = action.payload;
 
       // Find the node we want to modify and its index.
       const nodeResources = state.resources[nodeID];
@@ -83,8 +88,17 @@ export default (state = initialState, action) => {
       // Replace old resource with the new one.
       newResources[nodeID][resourceIndex] = resource;
 
+      // "deep" copy votes.
+      const votes = state.votes.map(vote => ({ ...vote }));
+      // Find the vote that was modified.
+      const vote = votes.find(v => v.resourceID === resource.resourceID);
+      if (vote) {
+        vote.direction = direction;
+      }
+
       return {
         ...state,
+        votes,
         resources: newResources,
       };
     }

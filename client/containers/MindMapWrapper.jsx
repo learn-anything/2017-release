@@ -9,6 +9,7 @@ import { updateResource } from 'actions/Map';
   nodes: store.map.nodes,
   resources: store.map.resources,
   mapID: store.map.mapID,
+  votes: store.map.votes,
 }))
 export default class MindMapWrapper extends Component {
   vote(resourceID, direction, nodeID) {
@@ -24,7 +25,7 @@ export default class MindMapWrapper extends Component {
           direction,
         },
       }).then(({ data }) => {
-        this.props.dispatch(updateResource(nodeID, data));
+        this.props.dispatch(updateResource(nodeID, data, Number(direction)));
         // eslint-disable-next-line no-console
       }).catch(err => console.error(err));
     } else {
@@ -40,6 +41,7 @@ export default class MindMapWrapper extends Component {
           resources={this.props.resources}
           mapID={this.props.mapID}
           vote={this.vote.bind(this)}
+          votes={this.props.votes}
         />
     );
   }

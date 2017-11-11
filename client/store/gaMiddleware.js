@@ -8,7 +8,7 @@ const getGAObj = (action) => {
       return {
         eventCategory: 'Search',
         eventAction: type,
-        eventLabel: action.payload.data.title,
+        eventLabel: action.payload[0].data.title,
       };
 
     case actions.ga.navigation.internal:
