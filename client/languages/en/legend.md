@@ -1,7 +1,8 @@
 - ![](/static/icons/arrow.svg) Another Map
 - ![](/static/icons/wiki.svg) Wikipedia Article
 - ![](/static/icons/course.svg) Course
-- ![](/static/icons/book.svg) Book
+- ![](/static/icons/free-book.svg) Free Book
+- ![](/static/icons/non-free-book.svg) Non-Free Book
 - ![](/static/icons/research.svg) Research Paper
 - ![](/static/icons/video.svg) Video or Channel
 - ![](/static/icons/article.svg) Article or Blog

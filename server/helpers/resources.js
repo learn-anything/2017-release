@@ -17,34 +17,51 @@ async function create(text, url, category, parentID, userID) {
     throw new APIError(404, 'the specified parent node does not exist');
   }
 
-  const resource = (await cache.cache(
-    cacheKeys.resources.byID + `${parentID}|${url}`,
-    dynamo('get', {
-      TableName: 'Resources',
-      Key: { resourceID: `${parentID}|${url}` },
-    })
-  ));
+  const oldResource = (await dynamo('get', {
+    TableName: 'Resources',
+    Key: { resourceID: `${parentID}|${url}` },
+  })).Item;
 
   // Resource exists, and for now no one is allowed to edit resources.
-  if (resource) {
+  if (oldResource) {
     throw new APIError(403, 'resource already exists');
   }
 
+  const newResource = {
+    url,
+    text,
+    category,
+    parentID,
+    author: userID,
+    mapID: node.mapID,
+    resourceID: `${parentID}|${url}`,
+    score: { up: 0, down: 0 },
+  };
+
   const response = await dynamo('put', {
     TableName: 'Resources',
-    Item: {
-      url,
-      text,
-      category,
-      parentID,
-      author: userID,
-      mapID: node.mapID,
-      resourceID: `${parentID}|${url}`,
-      score: { up: 0, down: 0 },
-    },
+    Item: newResource,
   });
 
-  await cache.del(cacheKeys.maps.byID + node.mapID);
+  // Get the cached map, so we can update it and we don't need to make
+  // additional requests to the DB.
+  const map = await cache.get(cacheKeys.maps.byID + node.mapID);
+
+  // Map is not cached. Highly improbable as the user that is voting needs to
+  // have got the map in some way, but not impossible, as we could have finished
+  // the memory available for memcached and this map could have been deleted
+  // from the cache.
+  if (!map) {
+    return resource;
+  }
+
+  console.log(`[MC] Replacing: ${cacheKeys.maps.byID + node.mapID}`);
+
+  // Set the new map value on cache.
+  map.resources[parentID].push(newResource);
+  const cached = await cache.set(cacheKeys.maps.byID + node.mapID, map);
+  console.log(`[MC] Cached: ${cached}`);
+
 
   return response;
 }

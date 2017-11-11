@@ -47,6 +47,15 @@ async function vote(userID, resourceID, direction) {
   // Get the cached map, so we can update it and we don't need to make
   // additional requests to the DB.
   const map = await cache.get(cacheKeys.maps.byID + resource.mapID);
+
+  // Map is not cached. Highly improbable as the user that is voting needs to
+  // have got the map in some way, but not impossible, as we could have finished
+  // the memory available for memcached and this map could have been deleted
+  // from the cache.
+  if (!map) {
+    return resource;
+  }
+
   console.log(`[MC] Replacing: ${cacheKeys.maps.byID + resource.mapID}`);
 
   const nodeResources = map.resources[resource.parentID];
@@ -57,8 +66,8 @@ async function vote(userID, resourceID, direction) {
 
   // Set the new map value on cache.
   map.resources[resource.parentID][resourceIndex] = resource;
-  const response = await cache.set(cacheKeys.maps.byID + resource.mapID, map);
-  console.log(`[MC] Cached: ${response}`);
+  const cached = await cache.set(cacheKeys.maps.byID + resource.mapID, map);
+  console.log(`[MC] Cached: ${cached}`);
 
   // Return the updated resource, so the client doesn't need to reload the map.
   return resource;
