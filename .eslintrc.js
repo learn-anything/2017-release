@@ -16,6 +16,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/jsx-uses-react': 'error',
     'linebreak-style': 'off',
+    'object-curly-newline': 'off',
     'no-console': 'warn',
     'class-methods-use-this': 'off',
   },

@@ -38,7 +38,6 @@ export default (state = initialState, action) => {
 
     case actions.map.fetch.fulfilled: {
       let [map, votes] = action.payload;
-      console.log(action.payload);
       map = map.data;
       votes = votes.data;
       const title = cleanTitle(map.title);
