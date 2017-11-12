@@ -53,7 +53,7 @@ async function vote(userID, resourceID, direction) {
   // the memory available for memcached and this map could have been deleted
   // from the cache.
   if (!map) {
-    return resource;
+    return { resource, vote: newVote };
   }
 
   console.log(`[MC] Replacing: ${cacheKeys.maps.byID + resource.mapID}`);
@@ -69,8 +69,8 @@ async function vote(userID, resourceID, direction) {
   const cached = await cache.set(cacheKeys.maps.byID + resource.mapID, map);
   console.log(`[MC] Cached: ${cached}`);
 
-  // Return the updated resource, so the client doesn't need to reload the map.
-  return resource;
+  // Return the updated resource and vote, so the client doesn't need to reload the map.
+  return { resource, vote: newVote };
 }
 
 // Get votes by userID. Returns a promise.

@@ -65,7 +65,7 @@ router.post('/', (req, res) => {
   // resource, and send back the resource with the updated score.
   cache(auth, getUserID(auth), 5, true)
     .then(userID => votes.vote(userID, resourceID, direction))
-    .then(resource => res.send(resource))
+    .then(data => res.send(data))
     .catch(err => logger(err, res));
 });
 

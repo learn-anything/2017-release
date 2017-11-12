@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const sassLintPlugin = require('sasslint-webpack-plugin');
-const I18nPlugin = require("i18n-webpack-plugin");
+const I18nPlugin = require('i18n-webpack-plugin');
+const path = require('path');
 
 const isDev = process.env.NODE_ENV !== 'production';
 const entry = isDev ? [
@@ -33,6 +34,7 @@ const config = {
   resolve: {
     modules: ['node_modules', 'client'],
     extensions: ['.jsx', '.js'],
+    alias: { d3: path.resolve(__dirname, 'client/dist/d3.min.js') },
   },
 
   module: {

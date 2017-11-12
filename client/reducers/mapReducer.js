@@ -39,7 +39,7 @@ export default (state = initialState, action) => {
     case actions.map.fetch.fulfilled: {
       let [map, votes] = action.payload;
       map = map.data;
-      votes = votes.data;
+      votes = votes.data || [];
       const title = cleanTitle(map.title);
 
       // Set HTML title.
@@ -73,11 +73,11 @@ export default (state = initialState, action) => {
       };
     }
 
-    case actions.map.updateResource: {
-      const { nodeID, resource, direction } = action.payload;
+    case actions.map.voteResource.fulfilled: {
+      const { resource, vote } = action.payload.data;
 
       // Find the node we want to modify and its index.
-      const nodeResources = state.resources[nodeID];
+      const nodeResources = state.resources[resource.parentID];
       const oldResource = nodeResources.find(res => res.resourceID === resource.resourceID);
       const resourceIndex = nodeResources.indexOf(oldResource);
 
@@ -85,14 +85,16 @@ export default (state = initialState, action) => {
       const newResources = deepCopy(state.resources);
 
       // Replace old resource with the new one.
-      newResources[nodeID][resourceIndex] = resource;
+      newResources[resource.parentID][resourceIndex] = resource;
 
       // "deep" copy votes.
-      const votes = state.votes.map(vote => ({ ...vote }));
+      const votes = state.votes.map(v => ({ ...v }));
       // Find the vote that was modified.
-      const vote = votes.find(v => v.resourceID === resource.resourceID);
-      if (vote) {
-        vote.direction = direction;
+      const oldVote = votes.find(v => v.resourceID === resource.resourceID);
+      if (oldVote) {
+        oldVote.direction = vote.direction;
+      } else {
+        votes.push(vote);
       }
 
       return {

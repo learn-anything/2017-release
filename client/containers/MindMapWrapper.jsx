@@ -1,83 +1,19 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import LAMap from 'la-map';
-import axios from 'axios';
 
-import { updateResource } from 'actions/Map';
+import MapRender from 'containers/MapRender';
+import { voteResource } from 'actions/Map';
 import { showDialog } from 'actions/Dialog';
 import store from 'store/store';
+import { imgFormat, categoryToIMG } from 'utils/renderMapUtils';
 
-
-// eslint-disable-next-line no-shadow
-@connect(store => ({
-  nodes: store.map.nodes,
-  resources: store.map.resources,
-  mapID: store.map.mapID,
-  votes: store.map.votes,
-}))
 export default class MindMapWrapper extends Component {
-  vote(resourceID, direction, nodeID) {
-    if (window.laAuth.isAuthenticated()) {
-      axios({
-        method: 'post',
-        url: '/api/votes',
-        headers: {
-          Authorization: `Bearer ${localStorage.getItem('access_token')}`,
-        },
-        data: {
-          resourceID,
-          direction,
-        },
-      }).then(({ data }) => {
-        this.props.dispatch(updateResource(nodeID, data, Number(direction)));
-        // eslint-disable-next-line no-console
-      }).catch(err => console.error(err));
-    } else {
-      // eslint-disable-next-line no-shadowconsole
-      this.props.dispatch(showDialog(__('unauthorized_dialog')));
-      console.warn('You\'re not logged in');
-    }
-  }
-
   render() {
-    return (
-        <LAMap
-          nodes={this.props.nodes}
-          resources={this.props.resources}
-          mapID={this.props.mapID}
-          vote={this.vote.bind(this)}
-          votes={this.props.votes}
-        />
-    );
+    return (<MapRender />);
   }
 }
 
 // TODO - remove everything from here to the end of the file.
 // Temporary, until we merge la-map into this repo.
-const imgFormat = imgName => (imgName ? `/static/icons/${imgName}.svg` : '');
-const categoryToIMG = {
-  mindmap: 'arrow',
-  wiki: 'wiki',
-  'stack exchange': 'stack',
-  course: 'course',
-  'free book': 'free-book',
-  'non-free book': 'non-free-book',
-  paper: 'research',
-  video: 'video',
-  article: 'article',
-  blog: 'article',
-  github: 'github',
-  interactive: 'interactive',
-  image: 'images',
-  podcast: 'podcast',
-  newsletter: 'newsletter',
-  chat: 'chat',
-  youtube: 'video',
-  reddit: 'reddit',
-  quora: 'quora',
-  undefined: 'other',
-  // undefined: '',
-};
 
 // Also temporary, until we merge la-map into this repo.
 const resourceToHTML = ({ url, score, text, resourceID, parentID, category }) => {
@@ -112,8 +48,6 @@ const resourceToHTML = ({ url, score, text, resourceID, parentID, category }) =>
   `;
 };
 
-window.MindMapWrapper = MindMapWrapper;
-
 // Aaand you guessed it.. This is also temporary.
 window.addEventListener('load', () => {
   // Catch clicks on .resources-show-more
@@ -135,28 +69,8 @@ window.addEventListener('load', () => {
     }
 
     if (t.className.includes('downvote-dialog') || t.className.includes('upvote-dialog')) {
-      const [resourceID, direction, nodeID] = t.getAttribute('data').split(',');
-
-      if (window.laAuth.isAuthenticated()) {
-        axios({
-          method: 'post',
-          url: '/api/votes',
-          headers: {
-            Authorization: `Bearer ${localStorage.getItem('access_token')}`,
-          },
-          data: {
-            resourceID,
-            direction,
-          },
-        }).then(({ data }) => {
-          store.dispatch(updateResource(nodeID, data, Number(direction)));
-          // eslint-disable-next-line no-console
-        }).catch(err => console.error(err));
-      } else {
-        // eslint-disable-next-line no-shadowconsole
-        store.dispatch(showDialog(__('unauthorized_dialog')));
-        console.warn('You\'re not logged in');
-      }
+      const [resourceID, direction] = t.getAttribute('data').split(',');
+      store.dispatch(voteResource(resourceID, direction));
     }
   });
 });

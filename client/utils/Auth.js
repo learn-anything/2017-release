@@ -59,4 +59,12 @@ export default class Auth {
     const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
     return new Date().getTime() < expiresAt;
   }
+
+  getAuthorizationHeader() {
+    if (!this.isAuthenticated()) {
+      return null;
+    }
+
+    return `Bearer ${localStorage.getItem('access_token')}`;
+  }
 }

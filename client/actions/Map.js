@@ -1,10 +1,7 @@
 import axios from 'axios';
+import { showDialog } from 'actions/Dialog';
 import actions from 'constants/actions.json';
 
-
-const headers = {
-  Authorization: `Bearer ${localStorage.getItem('access_token')}`,
-};
 
 /*
  * Fetch map at given url, and update browser URL unless otherwise specified.
@@ -13,7 +10,7 @@ export const fetchMap = (id) => {
   const getMap = axios.get(`/api/maps/${id.replace(/^\//, '')}`);
   const getVotes = axios.get(
     `/api/votes/?mapID=${id.replace(/^\//, '')}`,
-    { headers },
+    { headers: { Authorization: window.laAuth.getAuthorizationHeader() } },
   ).catch((err) => {
     console.warn(err);
     return [];
@@ -26,7 +23,17 @@ export const fetchMap = (id) => {
 };
 
 
-export const updateResource = (nodeID, resource, direction) => ({
-  type: actions.map.updateResource,
-  payload: { nodeID, resource, direction },
-});
+export const voteResource = (resourceID, direction) => {
+  if (!window.laAuth.isAuthenticated()) {
+    return showDialog(__('unauthorized_dialog'));
+  }
+
+  return {
+    type: actions.map.voteResource.def,
+    payload: axios.post(
+      '/api/votes',
+      { resourceID, direction },
+      { headers: { Authorization: window.laAuth.getAuthorizationHeader() } },
+    ),
+  };
+};

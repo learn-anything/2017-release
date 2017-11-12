@@ -6,7 +6,12 @@
       "fulfilled": "fetch map*_FULFILLED",
       "rejected": "fetch map*_REJECTED"
     },
-    "updateResource": "UPDATE_RESOURCE"
+    "voteResource": {
+      "def": "vote resource*",
+      "pending": "vote resource*_PENDING",
+      "fulfilled": "vote resource*_FULFILLED",
+      "rejected": "vote resource*_REJECTED"
+    }
   },
 
   "search": {

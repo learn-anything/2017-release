@@ -19,6 +19,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'no-console': 'warn',
     'class-methods-use-this': 'off',
+    'no-mixed-operators': ['error', { 'allowSamePrecedence': true }],
   },
 
   parser: 'babel-eslint',

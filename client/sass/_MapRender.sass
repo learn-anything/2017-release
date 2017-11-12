@@ -1,0 +1,134 @@
+@import variables
+
+
+.map
+  font-family: 'Raleway'
+  height: 100vh
+  width: 100%
+
+  &:focus
+    outline: none
+
+
+.node-header,
+.resource,
+.score
+  display: flex
+
+.node
+  & > div
+    background: $white
+    border-radius: 4px
+    color: $black
+    display: inline-block
+    padding: 15px
+    width: 315px
+
+  &-header
+    align-items: flex-end
+    border-bottom: 1px solid $mercury
+    justify-content: space-between
+    margin-bottom: 5px
+    padding-bottom: 10px
+
+  &-title
+    font-size: 22px
+    font-weight: bold
+    text-transform: capitalize
+
+  &-stat
+    color: $nobel
+    font-size: 18px
+    text-align: right
+
+.link
+  fill: transparent
+  stroke: $tuna
+  stroke-width: 2px
+
+
+.resource,
+.resource-link,
+.score
+  align-items: center
+  display: flex
+  justify-content: space-between
+
+
+.resource-link
+  color: $black
+  min-height: 35px
+  padding: 10px 0
+  text-decoration: none
+
+  .resource-text
+    color: $black
+
+  &:hover .resource-text
+    color: $azure-radiance
+    font-weight: bold
+
+  .category > img
+    display: flex
+    height: 20px
+    margin-right: 15px
+    width: 20px
+
+.score
+  font-weight: bold
+  justify-content: space-between
+
+  .downvote,
+  .upvote
+    border-radius: 20px
+    cursor: pointer
+    font-family: 'Droid Sans Mono'
+    font-size: 20px
+    margin: 0 10px
+    padding: 0 7px
+
+    &--highlighted
+      background: $azure-radiance
+      color: $white
+
+
+.node > .node--collapsed
+  width: initial
+
+  a
+    align-items: center
+    color: $black
+    display: flex
+    text-decoration: none
+
+    &:not([href='']):hover .node-title
+      color: $azure-radiance
+      font-weight: bold
+
+  .node-title
+    border-bottom: 0
+    font-size: 20px
+    font-weight: bold
+    margin: 0
+    padding: 0
+    text-transform: none
+
+  .category > img
+    display: flex
+    height: 20px
+    margin-left: 15px
+    margin-right: 0
+    width: 20px
+
+.resources-show-more
+  color: $nobel
+  cursor: pointer
+  margin-top: 10px
+  text-align: center
+  text-decoration: underline
+  text-underline-position: under
+
+  &:hover,
+  &:active
+    color: $azure-radiance
+
