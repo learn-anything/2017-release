@@ -14,7 +14,7 @@ module.exports = {
   contribute_dialog_accept_label: 'Continue',
 
   // Contribute button
-  contribute_button_text: 'Improve this map',
+  contribute_button_text: 'Improve Map',
 
   // Searchbar
   searchbar_nodes_count: 'nodes',
