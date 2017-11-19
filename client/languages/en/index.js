@@ -26,7 +26,7 @@ module.exports = {
   sidebar_all_topics: 'All topics',
   sidebar_support: 'Support',
   sidebar_about: 'About',
-  sidebar_github: 'Github',
+  sidebar_github: 'GitHub',
   sidebar_legend: 'Legend',
 
   // About

@@ -12,13 +12,11 @@ has a mind map with nodes to other subtopics, external links and resources.
 
 # Community & Contributing
 
-Both this project and the search engine are [open source and in active development](https://github.com/learn-anything/learn-anything).
+This project is [Open Source and is in active development](https://github.com/learn-anything/learn-anything).
 
-Anyone who wishes to contribute to the project by helping improve the maps and
-sharing your expertise, helping with the development and contributing to new features
-or just participating in the conversations in our [slack group](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ).
+Anyone who wishes to contribute to it, can help by either improving the content of all the topics and adding links with resources or by helping with the development and contributing to new features of the website or you can just join our growing community on [Slack](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ).
 
-<a href="https://github.com/learn-anything/maps/wiki/Contributing-%F0%9F%91%AC" class="dialog-btn">Learn more about Contributing</a>
+<a href="https://github.com/learn-anything/maps/wiki/Contributing" class="dialog-btn">Learn more about Contributing</a>
 <div class="md-separator"></div>
 
 
@@ -28,9 +26,8 @@ make the most efficient paths and the best user experience possible in exploring
 mind maps and finding the resources you need, we can only rely on donations made
 by our users to sustain this project.
 
-There are **no advertisements** and **no sponsored content** and that would be against
+There are **no advertisements** and **no sponsored content** as that would be against
 our vision of making the best and most optimal learning tracks for learning any topic.
-
 
 We created a **[Patreon page](https://www.patreon.com/learnanything)** where you can
 support our work. Any donation that you make to this project is incredibly valuable
@@ -57,7 +54,7 @@ to keep this project going. We also have some awesome rewards that come with you
         <div>
           <a href="https://github.com/nglgzz"><b>Angelo Gazzola</b></a>
           <p>Lead Web Developer</p>
-          <p>Created a complete and working version of the Search Engine + our own mind map render system as React Component</p>
+          <p>Created a complete and working version of the Website + our own mind map render system as React Component</p>
         </div>
       </td>
     </tr>
