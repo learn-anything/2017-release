@@ -2,9 +2,14 @@
 
 
 .map
-  font-family: 'Raleway'
-  height: 100vh
-  width: 100%
+  g
+    pointer-events: initial !important // sass-lint:disable-line no-important
+
+  svg
+    cursor: default !important // sass-lint:disable-line no-important
+
+  rect
+    fill: none
 
   &:focus
     outline: none
@@ -17,12 +22,16 @@
 
 .node
   & > div
+    display: inline-block
+
+  & > div > div
     background: $white
     border-radius: 4px
     color: $black
     display: inline-block
+    margin-top: 40px
     padding: 15px
-    width: 315px
+    width: 360px
 
   &-header
     align-items: flex-end
@@ -92,7 +101,8 @@
       color: $white
 
 
-.node > .node--collapsed
+.node .node--collapsed
+  display: inline-block
   width: initial
 
   a
@@ -101,7 +111,7 @@
     display: flex
     text-decoration: none
 
-    &:not([href='']):hover .node-title
+    &[href]:hover .node-title
       color: $azure-radiance
       font-weight: bold
 
@@ -111,7 +121,9 @@
     font-weight: bold
     margin: 0
     padding: 0
+    padding-right: 10px
     text-transform: none
+    white-space: nowrap
 
   .category > img
     display: flex
@@ -131,4 +143,26 @@
   &:hover,
   &:active
     color: $azure-radiance
+
+.node-resources,
+.node-resource
+  &[disabled]
+    pointer-events: none
+
+.contribute-add-resource
+  +normalize-btn
+  background-color: $lima
+  border-radius: 0 0 4px 4px
+  color: $white
+  cursor: pointer
+  font-family: $font-default
+  font-size: 1.2em
+  font-weight: bold
+  margin-top: -5px
+  padding: 15px
+  width: 100%
+
+  &:active,
+  &:hover
+    background-color: lighten($lima, 10)
 

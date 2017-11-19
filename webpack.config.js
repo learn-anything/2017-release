@@ -22,7 +22,7 @@ const config = {
   entry,
   plugins,
   cache: isDev,
-  // devtool: isDev ? 'cheap-module-eval-source-map' : 'none',
+  devtool: isDev ? 'cheap-module-source-map' : 'none',
 
   output: {
     path: `${__dirname}/client/dist`,

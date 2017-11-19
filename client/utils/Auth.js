@@ -21,6 +21,7 @@ export default class Auth {
   }
 
   login() {
+    localStorage.setItem('back_path', this.history.location.pathname);
     this.auth0.authorize();
   }
 
@@ -28,7 +29,6 @@ export default class Auth {
     this.auth0.parseHash((err, authResult) => {
       if (authResult && authResult.accessToken && authResult.idToken) {
         this.setSession(authResult);
-        this.history.push('/');
       } else if (err) {
         // TODO - redirect and show error
         // eslint-disable-next-line no-console
@@ -43,7 +43,9 @@ export default class Auth {
     localStorage.setItem('id_token', authResult.idToken);
     localStorage.setItem('expires_at', expiresAt);
 
-    this.history.push('/');
+    const backPath = localStorage.getItem('back_path');
+    localStorage.removeItem('back_path');
+    this.history.push(backPath);
   }
 
   logout() {

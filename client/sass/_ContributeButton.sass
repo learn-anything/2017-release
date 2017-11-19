@@ -1,36 +1,47 @@
 @import variables
 
-.contribute-button
-  background-color: $orange700
-  border: 0
-  border-radius: 4px
-  bottom: 10px
-  box-shadow: $shadow
-  font-size: 1.2em
-  font-weight: bold
-  padding: 6px 10px
-  position: absolute
-  right: 10px
-  text-align: center
-  transition: box-shadow .218s, background-color .218s
-  white-space: nowrap
-  z-index: 2
 
+%button
+  +normalize-btn
+  background-color: $lima
+  color: $white
+  font-family: $font-default
+  font-weight: bold
+  transition: background-color .217s
+  z-index: 1
+
+  &:active,
   &:hover
-    background: $orange800
-    box-shadow: $shadow-active
+    background-color: lighten($lima, 10)
     cursor: pointer
 
-  &:focus
-    outline: none
 
-  +respond-to($width-extra-small)
-    display: none
+.contribute-button
+  @extend %button
+  border-radius: 20px
+  margin-top: 10px
+  padding: 10px 20px
 
-.contribute-button-emoji
-  height: 24px
+.contribute-button--editing
+  background-color: $azure-radiance
 
-.contribute-button-text
-  color: $grey100
-  margin-right: 5px
-  vertical-align: 4px
+  &:active,
+  &:hover
+    background-color: lighten($azure-radiance, 10)
+
+
++respond-to($width-m)
+  .contribute-button
+    +center-row-horizontal
+    +center-row-vertical
+    border-radius: 50%
+    bottom: 20px
+    height: 64px
+    position: absolute
+    right: 20px
+    width: 64px
+
+    img
+      height: 32px
+      width: 32px
+

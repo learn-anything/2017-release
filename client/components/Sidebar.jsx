@@ -22,7 +22,20 @@ export default class Sidebar extends Component {
     this.showAbout = this.showAbout.bind(this);
     this.showLegend = this.showLegend.bind(this);
     this.hideSidebar = this.hideSidebar.bind(this);
+    this.login = this.login.bind(this);
+    this.logout = this.logout.bind(this);
   }
+
+  login() {
+    window.laAuth.login();
+    this.hideSidebar();
+  }
+
+  logout() {
+    window.laAuth.logout();
+    this.hideSidebar();
+  }
+
 
   hideSidebar() {
     this.setState({ isOpen: false });
@@ -48,11 +61,11 @@ export default class Sidebar extends Component {
       <Menu isOpen={this.state.isOpen} className="sidebar-menu" width={250} right>
         {window.laAuth.isAuthenticated() ?
           <div className="sidebar-item">
-            <a onClick={window.laAuth.logout}>{__('sidebar_logout')}</a>
+            <a onClick={this.logout}>{__('sidebar_logout')}</a>
           </div>
           :
           <div className="sidebar-item">
-            <a onClick={window.laAuth.login}>{__('sidebar_login')}</a>
+            <a onClick={this.login}>{__('sidebar_login')}</a>
           </div>
         }
 

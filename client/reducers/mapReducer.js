@@ -7,9 +7,13 @@ const initialState = {
   nodes: {},
   resources: {},
   loading: false,
+  editing: false,
   mapID: undefined,
   error: undefined,
-  votes: [],
+
+  // votes has the following structure: { resourceID: direction }
+  votes: {},
+  nodeSizes: {},
 };
 
 // Deep copy for nodes or resources.
@@ -17,7 +21,11 @@ const deepCopy = (obj) => {
   const newObj = {};
 
   Object.keys(obj).forEach((key) => {
-    newObj[key] = [...obj[key]];
+    if (obj[key].length !== undefined) {
+      newObj[key] = [...obj[key]];
+    } else {
+      newObj[key] = { ...obj[key] };
+    }
   });
 
   return newObj;
@@ -37,9 +45,16 @@ export default (state = initialState, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      let [map, votes] = action.payload;
+      let map = action.payload[0];
+      const votes = action.payload[1];
+
       map = map.data;
-      votes = votes.data || [];
+      const convertedVotes = {};
+
+      (votes.data || []).forEach(({ resourceID, direction }) => {
+        convertedVotes[resourceID] = direction;
+      });
+
       const title = cleanTitle(map.title);
 
       // Set HTML title.
@@ -50,7 +65,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         title,
-        votes,
+        votes: convertedVotes,
         loading: false,
         error: undefined,
         nodes: map.nodes,
@@ -87,15 +102,8 @@ export default (state = initialState, action) => {
       // Replace old resource with the new one.
       newResources[resource.parentID][resourceIndex] = resource;
 
-      // "deep" copy votes.
-      const votes = state.votes.map(v => ({ ...v }));
-      // Find the vote that was modified.
-      const oldVote = votes.find(v => v.resourceID === resource.resourceID);
-      if (oldVote) {
-        oldVote.direction = vote.direction;
-      } else {
-        votes.push(vote);
-      }
+      const votes = { ...state.votes };
+      votes[vote.resourceID] = vote.direction;
 
       return {
         ...state,
@@ -103,6 +111,23 @@ export default (state = initialState, action) => {
         resources: newResources,
       };
     }
+
+    case actions.map.nodeSizes.set: {
+      const { nodeID, size } = action.payload;
+      const nodeSizes = deepCopy(state.nodeSizes);
+      nodeSizes[nodeID] = size;
+
+      return {
+        ...state,
+        nodeSizes,
+      };
+    }
+
+    case actions.map.toggleEditing:
+      return {
+        ...state,
+        editing: !state.editing,
+      };
 
     default:
       return state;

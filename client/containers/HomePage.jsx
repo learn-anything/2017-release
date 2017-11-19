@@ -11,7 +11,7 @@ import 'sass/_Home.sass';
   title: store.map.title,
   query: store.search.query,
 }))
-export default class Home extends Component {
+export default class HomePage extends Component {
   render() {
     return (
       <div>

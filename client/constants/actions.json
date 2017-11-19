@@ -11,7 +11,11 @@
       "pending": "vote resource*_PENDING",
       "fulfilled": "vote resource*_FULFILLED",
       "rejected": "vote resource*_REJECTED"
-    }
+    },
+    "nodeSizes": {
+      "set": "SET_NODE_SIZE"
+    },
+    "toggleEditing": "toggle editing"
   },
 
   "search": {

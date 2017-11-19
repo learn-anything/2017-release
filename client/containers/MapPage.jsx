@@ -8,12 +8,13 @@ import { titleToURL } from 'utils/Title';
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
-import MindMapWrapper from 'containers/MindMapWrapper';
+import ContributeButton from 'components/ContributeButton';
+import Map from 'components/map/Map';
 import 'sass/_Map.sass';
 
 
 @connect(store => ({ title: store.map.title }))
-export default class Map extends Component {
+export default class MapPage extends Component {
   constructor(props) {
     super(props);
 
@@ -39,10 +40,11 @@ export default class Map extends Component {
             <SearchBar history={this.props.history} docked={true} />
 
             <Breadcrumbs />
+            <ContributeButton />
           </div>
         </header>
 
-        <MindMapWrapper />
+        <Map />
 
         <footer>
           <a onClick={this.showAbout}>About</a>

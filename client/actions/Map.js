@@ -37,3 +37,9 @@ export const voteResource = (resourceID, direction) => {
     ),
   };
 };
+
+// size is { height, width }
+export const setNodeSize = (nodeID, size) => ({
+  type: actions.map.nodeSizes.set,
+  payload: { nodeID, size },
+});

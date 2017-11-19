@@ -8,13 +8,10 @@ module.exports = {
   searchbar_help_text_1: 'Or, ',
   searchbar_help_text_anything: 'click here to browse all topics',
 
-  // Contribute dialog
-  contribute_dialog_title: 'Contribution guidelines',
-  contribute_dialog_message: mdfile('guidelines', 'en'),
-  contribute_dialog_accept_label: 'Continue',
-
   // Contribute button
   contribute_button_text: 'Improve Map',
+  contribute_button_text_editing: 'Done',
+  contribute_add_resource: 'Add a new resource',
 
   // Searchbar
   searchbar_nodes_count: 'nodes',
@@ -44,4 +41,6 @@ module.exports = {
 
   // Map
   unauthorized_dialog: mdfile('unauthorized', 'en'),
+  node_resources: 'Resources',
+  resources_show_more: 'Show {} More',
 };

@@ -10,6 +10,7 @@ import 'sass/_Dialog.sass';
 @connect(store => ({
   isVisible: store.dialog.isVisible,
   content: store.dialog.content,
+  isJsx: store.dialog.isJsx,
 }))
 export default class Dialog extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ export default class Dialog extends Component {
   }
 
   render() {
-    const { content, isVisible } = this.props;
+    const { content, isVisible, isJsx } = this.props;
 
     if (!isVisible) {
       return null;
@@ -47,10 +48,14 @@ export default class Dialog extends Component {
             </button>
           </MediaQuery>
 
-          <div
-            className="dialog-body"
-            dangerouslySetInnerHTML={{ __html: content }}
-          />
+          {isJsx ?
+            content
+            :
+            <div
+              className="dialog-body"
+              dangerouslySetInnerHTML={{ __html: content }}
+            />
+          }
         </div>
       </div>
     );

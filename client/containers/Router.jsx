@@ -5,8 +5,8 @@ import Auth from 'utils/Auth';
 import Sidebar from 'components/Sidebar';
 import Dialog from 'components/Dialog';
 import Legend from 'components/Legend';
-import Home from './Home';
-import Map from './Map';
+import HomePage from './HomePage';
+import MapPage from './MapPage';
 
 
 const Callback = () => {
@@ -27,12 +27,11 @@ export default class Router extends Component {
         <Sidebar />
 
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/callback" component={Callback} />
-          <Route path="/:path(\d*)" component={Map} /> {/* redirect to named path */}
-          <Route path="/:path(.*)" component={Map} />
+          <Route path="/:path(\d*)" component={MapPage} /> {/* redirect to named path */}
+          <Route path="/:path(.*)" component={MapPage} />
         </Switch>
-
 
         <Dialog />
         <Legend />
