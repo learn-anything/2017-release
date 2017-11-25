@@ -7,7 +7,7 @@ module.exports = {
     jest: true,
   },
   globals: {
-    ga: true,
+    gtag: true,
     __: true,
     laAuth: true,
   },

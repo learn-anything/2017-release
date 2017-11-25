@@ -50,6 +50,10 @@ window.addEventListener('load', () => {
       e.preventDefault();
       const relativePath = t.href.replace(window.location.origin, '');
       window.laAuth.history.push(relativePath);
+      store.dispatch({
+        type: actions.ga.navigation.internal,
+        payload: relativePath,
+      });
     }
   });
 });

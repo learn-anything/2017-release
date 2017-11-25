@@ -5,6 +5,8 @@ import Auth from 'utils/Auth';
 import Sidebar from 'components/Sidebar';
 import Dialog from 'components/Dialog';
 import Legend from 'components/Legend';
+import store from 'store/store';
+import actions from 'constants/actions.json';
 import HomePage from './HomePage';
 import MapPage from './MapPage';
 
@@ -19,6 +21,17 @@ const Callback = () => {
 export default class Router extends Component {
   componentWillMount() {
     window.laAuth = new Auth(this.props.history);
+    store.dispatch({
+      type: actions.ga.pageview,
+      payload: this.props.history.location.pathname,
+    });
+  }
+
+  componentWillUpdate(nextProps) {
+    store.dispatch({
+      type: actions.ga.pageview,
+      payload: nextProps.history.location.pathname,
+    });
   }
 
   render() {

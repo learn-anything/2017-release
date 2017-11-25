@@ -1,5 +1,6 @@
 import actions from 'constants/actions.json';
 
+
 export const showDialog = (content, isJsx = false) => ({
   type: actions.dialog.show,
   payload: { content, isJsx },
