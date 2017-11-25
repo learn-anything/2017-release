@@ -67,6 +67,6 @@ export default class Auth {
       return null;
     }
 
-    return `Bearer ${localStorage.getItem('access_token')}`;
+    return { Authorization: `Bearer ${localStorage.getItem('access_token')}` };
   }
 }

@@ -13,6 +13,7 @@ const initialState = {
 
   // votes has the following structure: { resourceID: direction }
   votes: {},
+  fetchedNodes: false,
   nodeSizes: {},
 };
 
@@ -45,16 +46,7 @@ export default (state = initialState, action) => {
       };
 
     case actions.map.fetch.fulfilled: {
-      let map = action.payload[0];
-      const votes = action.payload[1];
-
-      map = map.data;
-      const convertedVotes = {};
-
-      (votes.data || []).forEach(({ resourceID, direction }) => {
-        convertedVotes[resourceID] = direction;
-      });
-
+      const map = action.payload.data;
       const title = cleanTitle(map.title);
 
       // Set HTML title.
@@ -65,7 +57,6 @@ export default (state = initialState, action) => {
       return {
         ...state,
         title,
-        votes: convertedVotes,
         loading: false,
         error: undefined,
         nodes: map.nodes,
@@ -128,6 +119,28 @@ export default (state = initialState, action) => {
         ...state,
         editing: !state.editing,
       };
+
+    case actions.map.clearVotes:
+      return {
+        ...state,
+        votes: {},
+        fetchedNodes: false,
+      };
+
+    case actions.map.fetchVotes.fulfilled: {
+      const votes = action.payload.data || [];
+      const convertedVotes = {};
+
+      votes.forEach(({ resourceID, direction }) => {
+        convertedVotes[resourceID] = direction;
+      });
+
+      return {
+        ...state,
+        votes: convertedVotes,
+        fetchedNodes: true,
+      };
+    }
 
     default:
       return state;

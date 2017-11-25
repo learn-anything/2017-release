@@ -13,11 +13,19 @@ async function fuzzySearch(query) {
   });
 
   // Format results nicely before returning them.
-  return response.hits.hits.map(hit => ({
-    key: hit._source.key,
-    id: hit._id,
-    // TODO - consider adding number of resources here.
-  }));
+  return response.hits.hits.map((hit) => {
+    let title = hit._source.title.replace(/ - /g, '/').replace(/ /g, '-');
+    if (title !== 'learn-anything') {
+      title = title.replace('learn-anything', '');
+    }
+
+    return {
+      title,
+      key: hit._source.key,
+      id: hit._id,
+      // TODO - consider adding number of resources here.
+    };
+  });
 }
 
 // Get a specific map by ID.

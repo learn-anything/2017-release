@@ -6,22 +6,19 @@ import actions from 'constants/actions.json';
 /*
  * Fetch map at given url, and update browser URL unless otherwise specified.
  */
-export const fetchMap = (id) => {
-  const getMap = axios.get(`/api/maps/${id.replace(/^\//, '')}`);
-  const getVotes = axios.get(
-    `/api/votes/?mapID=${id.replace(/^\//, '')}`,
-    { headers: { Authorization: window.laAuth.getAuthorizationHeader() } },
-  ).catch((err) => {
-    console.warn(err);
-    return [];
-  });
+export const fetchMap = id => ({
+  type: actions.map.fetch.def,
+  payload: axios.get(`/api/maps/${id.replace(/^\//, '')}`),
+});
 
-  return {
-    type: actions.map.fetch.def,
-    payload: Promise.all([getMap, getVotes]),
-  };
-};
+export const clearVotes = () => ({
+  type: actions.map.clearVotes,
+});
 
+export const fetchVotes = mapID => ({
+  type: actions.map.fetchVotes.def,
+  payload: axios.get(`/api/votes/?mapID=${mapID}`, { headers: window.laAuth.getAuthorizationHeader() }),
+});
 
 export const voteResource = (resourceID, direction) => {
   if (!window.laAuth.isAuthenticated()) {
@@ -33,7 +30,7 @@ export const voteResource = (resourceID, direction) => {
     payload: axios.post(
       '/api/votes',
       { resourceID, direction },
-      { headers: { Authorization: window.laAuth.getAuthorizationHeader() } },
+      { headers: window.laAuth.getAuthorizationHeader() },
     ),
   };
 };

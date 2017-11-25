@@ -19,8 +19,9 @@ const categoryToIconName = {
   reddit: 'reddit',
   quora: 'quora',
   other: 'other',
+  undefined: 'other',
 };
 
-export default (category = 'other') => (
+export default category => (
   `/static/icons/${categoryToIconName[category]}.svg`
 );

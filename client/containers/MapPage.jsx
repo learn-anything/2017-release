@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { fetchMap } from 'actions/Map';
+import { fetchMap, clearVotes, fetchVotes } from 'actions/Map';
 import { showDialog } from 'actions/Dialog';
 import { showLegend } from 'actions/Legend';
 import { titleToURL } from 'utils/Title';
@@ -13,7 +13,11 @@ import Map from 'components/map/Map';
 import 'sass/_Map.sass';
 
 
-@connect(store => ({ title: store.map.title }))
+@connect(store => ({
+  title: store.map.title,
+  mapID: store.map.mapID,
+  fetchedVotes: store.map.fetchedVotes,
+}))
 export default class MapPage extends Component {
   constructor(props) {
     super(props);
@@ -56,16 +60,28 @@ export default class MapPage extends Component {
   }
 
   componentDidMount() {
+    const titlePath = titleToURL(this.props.title);
+    const mapIDPath = `/${this.props.mapID}`;
+
     // Fetch map if it hasn't been fetched already
-    if (titleToURL(this.props.title) !== this.props.match.url) {
+    if (titlePath !== this.props.match.url && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
+      this.props.dispatch(clearVotes());
+    } else if (this.props.mapID && !this.props.fetchedVotes) {
+      this.props.dispatch(fetchVotes(this.props.mapID));
     }
   }
 
   componentDidUpdate() {
+    const titlePath = titleToURL(this.props.title);
+    const mapIDPath = `/${this.props.mapID}`;
+
     // Fetch new map if it hasn't been fetched already
-    if (titleToURL(this.props.title) !== this.props.match.url) {
+    if (titlePath !== this.props.match.url && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
+      this.props.dispatch(clearVotes());
+    } else if (this.props.mapID && !this.props.fetchedVotes) {
+      this.props.dispatch(fetchVotes(this.props.mapID));
     }
   }
 }

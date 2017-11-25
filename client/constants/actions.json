@@ -6,6 +6,12 @@
       "fulfilled": "fetch map*_FULFILLED",
       "rejected": "fetch map*_REJECTED"
     },
+    "fetchVotes": {
+      "def": "FETCH_VOTES",
+      "pending": "FETCH_VOTES_PENDING",
+      "fulfilled": "FETCH_VOTES_FULFILLED",
+      "rejected": "FETCH_VOTES_REJECTED"
+    },
     "voteResource": {
       "def": "vote resource*",
       "pending": "vote resource*_PENDING",
@@ -15,6 +21,7 @@
     "nodeSizes": {
       "set": "SET_NODE_SIZE"
     },
+    "clearVotes": "CLEAR_VOTES",
     "toggleEditing": "toggle editing"
   },
 

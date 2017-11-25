@@ -58,7 +58,7 @@ export default class Resource extends Component {
       <div className="resource">
         <a href={url} className="resource-link">
           <div className="category">
-            {imgSrc && <img src={imgSrc} alt={category}/>}
+            <img src={imgSrc} alt={category || 'other'}/>
           </div>
 
           <div className="resource-text">{text}</div>

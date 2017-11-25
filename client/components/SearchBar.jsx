@@ -79,7 +79,7 @@ export default class SearchBar extends Component {
     // otherwise, do nothing.
     if (this.props.query === '') {
       if (!this.props.docked) {
-        this.props.history.push(`/${this.props.placeholder.id}`);
+        this.props.history.push(this.props.placeholder.title);
         this.props.dispatch(fetchSuggestions());
       }
       return;
@@ -88,6 +88,7 @@ export default class SearchBar extends Component {
     // There's no suggestion for what you're searching; show unmatched dialog.
     // TODO - ensure that there's no suggestions (sometimes they just haven't
     // finished loading).
+    // TODO - update unmatched dialog.
     if (this.props.suggestions.length === 0) {
       this.props.dispatch({
         type: actions.ga.search.unmatchedQuery,
@@ -103,9 +104,10 @@ export default class SearchBar extends Component {
     event.preventDefault();
 
     // Navigate to map and clear search query.
-    this.props.history.push(`/${suggestion.id}`);
+    this.props.history.push(suggestion.title);
     this.props.dispatch(clearQuery());
 
+    // On mobile hide the searchbar after you selected a suggestion.
     if (this.props.isVisible) {
       this.props.dispatch(hideSearchbar());
     }
@@ -195,8 +197,9 @@ export default class SearchBar extends Component {
   }
 
   componentDidMount() {
-    // If there's no placeholder, fetch it.
-    if (this.props.placeholder.id === '') {
+    // If there's no placeholder and the user is on the home page (searchbar
+    // is not docked), fetch it.
+    if (this.props.placeholder.id === '' && !this.props.docked) {
       this.props.dispatch(fetchSuggestions());
     }
   }
