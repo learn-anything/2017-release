@@ -63,8 +63,11 @@ export default class MapPage extends Component {
     const titlePath = titleToURL(this.props.title);
     const mapIDPath = `/${this.props.mapID}`;
 
-    // Fetch map if it hasn't been fetched already
-    if (titlePath !== this.props.match.url && mapIDPath !== this.props.match.url) {
+    // Strip URL parameters and trailing slash.
+    const match = this.props.match.url.replace(/\/$|\/?\?.*/, '');
+
+    // Fetch map if it hasn't been fetched already.
+    if (titlePath !== match && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
       this.props.dispatch(clearVotes());
     } else if (this.props.mapID && !this.props.fetchedVotes) {
@@ -76,8 +79,11 @@ export default class MapPage extends Component {
     const titlePath = titleToURL(this.props.title);
     const mapIDPath = `/${this.props.mapID}`;
 
-    // Fetch new map if it hasn't been fetched already
-    if (titlePath !== this.props.match.url && mapIDPath !== this.props.match.url) {
+    // Strip URL parameters and trailing slash.
+    const match = this.props.match.url.replace(/\/$|\/?\?.*/, '');
+
+    // Fetch new map if it hasn't been fetched already.
+    if (titlePath !== match && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
       this.props.dispatch(clearVotes());
     } else if (this.props.mapID && !this.props.fetchedVotes) {
