@@ -160,6 +160,37 @@
     outline: none
 
 
+.dialog-footer-buttons
+  border-radius: 0 0 5px 5px
+  display: flex
+  padding-top: 30px
+
+  button
+    +normalize-btn
+    flex-grow: 1
+    font-size: 1.2em
+    padding: 20px
+
+    &:hover
+      cursor: pointer
+
+  .button-cancel
+    background-color: $mercury
+    border-radius: 0 0 0 5px
+    color: $black
+
+    &:hover
+      background-color: lighten($mercury, 5)
+
+  .button-submit
+    background-color: $lima
+    border-radius: 0 0 5px
+    color: $white
+
+    &:hover
+      background-color: lighten($lima, 5)
+
+
 +respond-to($width-xs)
   .dialog-body li
     width: 100%

@@ -103,6 +103,19 @@ export default (state = initialState, action) => {
       };
     }
 
+    case actions.map.createResource.fulfilled: {
+      const resource = action.payload.data;
+
+      // Copy all the resources (redux functions should be pure).
+      const newResources = deepCopy(state.resources);
+      newResources[resource.parentID].push(resource);
+
+      return {
+        ...state,
+        resources: newResources,
+      };
+    }
+
     case actions.map.nodeSizes.set: {
       const { nodeID, size } = action.payload;
       const nodeSizes = deepCopy(state.nodeSizes);

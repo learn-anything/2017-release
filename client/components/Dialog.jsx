@@ -9,8 +9,10 @@ import 'sass/_Dialog.sass';
 
 @connect(store => ({
   isVisible: store.dialog.isVisible,
+  closeButton: store.dialog.closeButton,
   content: store.dialog.content,
   isJsx: store.dialog.isJsx,
+  overlayDismiss: store.dialog.overlayDismiss,
 }))
 export default class Dialog extends Component {
   constructor(props) {
@@ -27,7 +29,7 @@ export default class Dialog extends Component {
   onOverlayClick(event) {
     // If user clicked on the overlay (and not on the dialog body)
     // then close the dialog.
-    if (event.target.className === 'dialog-overlay') {
+    if (event.target.className === 'dialog-overlay' && this.props.overlayDismiss) {
       this.hide();
     }
   }
@@ -43,9 +45,11 @@ export default class Dialog extends Component {
       <div className="dialog">
         <div className="dialog-overlay" onClick={this.onOverlayClick}>
           <MediaQuery minWidth={queries.s}>
-            <button className="dialog-hide" onClick={this.hide}>
-              &#x2715;
-            </button>
+            {this.props.closeButton &&
+              <button className="dialog-hide" onClick={this.hide}>
+                &#x2715;
+              </button>
+            }
           </MediaQuery>
 
           {isJsx ?

@@ -33,7 +33,11 @@ export default class Node extends Component {
   }
 
   addResourceDialog() {
-    this.props.dispatch(showDialog(<NewResourceForm />, true));
+    this.props.dispatch(showDialog(<NewResourceForm node={this.props.node} />, {
+      isJsx: true,
+      closeButton: false,
+      overlayDismiss: false,
+    }));
   }
 
   resourcesShowMore() {
@@ -49,7 +53,7 @@ export default class Node extends Component {
           <div className="md-separator"></div>
         </div>
       ),
-      true,
+      { isJsx: true },
     ));
   }
 

@@ -8,10 +8,20 @@ module.exports = {
   searchbar_help_text_1: 'Or, ',
   searchbar_help_text_anything: 'click here to browse all topics',
 
+  // Dialog
+  dialog_cancel: 'Cancel',
+  dialog_done: 'Done',
+
   // Contribute button
   contribute_button_text: 'Improve Map',
   contribute_button_text_editing: 'Done',
   contribute_add_resource: 'Add a new resource',
+
+  // New resource
+  new_resource_add_resource: 'Add resource',
+  new_resource_name: 'name',
+  new_resource_category: 'category',
+  new_resource_url: 'url',
 
   // Searchbar
   searchbar_nodes_count: 'nodes',

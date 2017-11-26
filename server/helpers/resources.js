@@ -47,12 +47,13 @@ async function create(text, url, category, parentID, userID) {
   // additional requests to the DB.
   const map = await cache.get(cacheKeys.maps.byID + node.mapID);
 
-  // Map is not cached. Highly improbable as the user that is voting needs to
-  // have got the map in some way, but not impossible, as we could have finished
-  // the memory available for memcached and this map could have been deleted
+  // Map is not cached. Highly improbable as the user that is creating the resource
+  // needs to have got the map in some way, but not impossible, as we could have
+  // finished the memory available for memcached and this map could have been deleted
   // from the cache.
   if (!map) {
-    return resource;
+    console.log('[MC] map not found in cache');
+    return newResource;
   }
 
   console.log(`[MC] Replacing: ${cacheKeys.maps.byID + node.mapID}`);
@@ -63,7 +64,7 @@ async function create(text, url, category, parentID, userID) {
   console.log(`[MC] Cached: ${cached}`);
 
 
-  return response;
+  return newResource;
 }
 
 

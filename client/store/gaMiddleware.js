@@ -21,16 +21,17 @@ const getGAObj = (action) => {
         eventLabel: action.payload,
       };
 
+    case actions.ga.contribution.improveMap:
+    case actions.ga.contribution.createResource:
+      return {
+        eventName: type,
+        eventCategory: 'Contribution',
+        eventLabel: action.payload,
+      };
+
     case actions.ga.pageview:
       return {
         pagePath: action.payload,
-      };
-
-    case actions.ga.event:
-      return {
-        eventName: action.payload.name,
-        eventCategory: action.payload.category,
-        eventLabel: action.payload.value,
       };
 
     default:

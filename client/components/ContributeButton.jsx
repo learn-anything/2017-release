@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import MediaQuery from 'react-responsive';
+import { showDialog } from 'actions/Dialog';
 import queries from 'constants/media-queries.json';
 import actions from 'constants/actions.json';
 import classNames from 'utils/classNames';
@@ -9,6 +10,7 @@ import 'sass/_ContributeButton.sass';
 
 @connect(store => ({
   editing: store.map.editing,
+  mapTitle: store.map.title,
 }))
 export default class ContributeButton extends Component {
   constructor(props) {
@@ -18,7 +20,18 @@ export default class ContributeButton extends Component {
   }
 
   toggleEditing() {
+    if (!window.laAuth.isAuthenticated()) {
+      this.props.dispatch(showDialog(__('unauthorized_dialog')));
+      return;
+    }
+
     this.props.dispatch({ type: actions.map.toggleEditing });
+    if (!this.props.editing) {
+      this.props.dispatch({
+        type: actions.ga.contribution.improveMap,
+        payload: this.props.mapTitle,
+      });
+    }
   }
 
   render() {

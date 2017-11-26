@@ -35,6 +35,15 @@ export const voteResource = (resourceID, direction) => {
   };
 };
 
+export const createResource = (text, category, URL, nodeID) => ({
+  type: actions.map.createResource.def,
+  payload: axios.post(
+    '/api/resources',
+    { text, URL, category, parentID: nodeID },
+    { headers: window.laAuth.getAuthorizationHeader() },
+  ),
+});
+
 // size is { height, width }
 export const setNodeSize = (nodeID, size) => ({
   type: actions.map.nodeSizes.set,
