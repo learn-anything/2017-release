@@ -2,6 +2,7 @@ const express = require('express');
 const { cache } = require('../utils/cache');
 const Maps = require('../helpers/maps');
 const { cacheKeys } = require('../constants.json');
+const { logger } = require('../utils/errors');
 
 
 const router = express.Router();
@@ -13,17 +14,14 @@ router.get('/', (req, res) => {
   const key = cacheKeys.maps.search + (q && q.replace(/\s/g, '-'));
   cache(key, Maps.fuzzySearch(q), 20)
     .then(data => res.send(data))
-    .catch(err => res.status(500).send(err));
+    .catch(err => logger(err, res));
 });
 
 // Get map by ID.
 router.get('/:id(\\d+)', (req, res) => {
   cache(cacheKeys.maps.byID + req.params.id, Maps.byID(req.params.id), 300)
     .then(data => res.send(data))
-    .catch((err) => {
-      console.error(err);
-      res.status(500).send(err);
-    });
+    .catch(err => logger(err, res));
 });
 
 // Get map by title.
@@ -38,13 +36,9 @@ router.get(/\/(.*)/, (req, res) => {
     title = `learn anything - ${title}`;
   }
 
-  const key = cacheKeys.maps.byTitle + title.replace(/\s/g, '-');
-  cache(key, Maps.byTitle(title), 300)
+  Maps.byTitle(title)
     .then(data => res.send(data))
-    .catch((err) => {
-      console.error(err);
-      res.status(500).send(err);
-    });
+    .catch(err => logger(err, res));
 });
 
 module.exports = router;

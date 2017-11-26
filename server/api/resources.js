@@ -36,7 +36,7 @@ router.post('/', (req, res) => {
   let { text, URL, category, parentID } = req.body;
 
   // Check that text is not empty and filter it to prevent XSS attacks.
-  if (!text || !text.trim().length < 6) {
+  if (!text || text.trim().length < 6) {
     throw new APIError(400, 'resource text has to be at least 6 characters long');
   }
   text = xssFilters.inHTMLData(text.trim());

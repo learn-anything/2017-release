@@ -25,9 +25,9 @@
   "cacheKeys": {
     "maps": {
         "byID": "maps.byID|",
-        "byTitle": "maps.byTitle|",
         "search": "maps.search|"
     },
+    "mapID": { "byTitle": "mapID.byTitle|" },
     "votes": { "byUserMap": "votes.byUserMap|" },
     "resources": { "byID": "resources.byID|" },
     "nodes": { "byID": "nodes.byID|" }

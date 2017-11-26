@@ -1,5 +1,7 @@
 const elastic = require('../utils/elasticClient');
+const { cache } = require('../utils/cache');
 const dynamo = require('../utils/dynamoClient');
+const { cacheKeys } = require('../constants.json');
 const { APIError } = require('../utils/errors');
 
 
@@ -104,11 +106,14 @@ async function byID(mapID) {
 
 // Get a specific map by title.
 async function byTitle(title) {
-  // Search for map by title, with elasticsearch.
-  const response = await elastic.client.search({
+  // Query elasticsearc for metadata of a map, given its title.
+  const metaByTitle = elastic.client.search({
     index: 'maps',
     body: elastic.get({ title }),
   });
+
+  const key1 = cacheKeys.mapID.byTitle + title.replace(/\s/g, '-');
+  const response = await cache(key1, metaByTitle);
 
   const hits = response.hits.hits;
 
@@ -119,7 +124,8 @@ async function byTitle(title) {
   }
 
   // Now that we have the ID, let's retrieve the whole map.
-  return byID(hits[0]._id);
+  const key2 = cacheKeys.maps.byID + hits[0]._id;
+  return cache(key2, byID(hits[0]._id));
 }
 
 
