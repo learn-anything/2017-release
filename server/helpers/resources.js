@@ -5,6 +5,9 @@ const { APIError } = require('../utils/errors');
 
 
 async function create(text, url, category, parentID, userID) {
+  const modifiedAt = (new Date()).toString();
+  let createdAt = (new Date()).toString();
+
   const node = (await cache.cache(
     cacheKeys.nodes.byID + parentID,
     dynamo('get', {
@@ -24,6 +27,7 @@ async function create(text, url, category, parentID, userID) {
 
   // Resource exists, and for now no one is allowed to edit resources.
   if (oldResource) {
+    createdAt = oldResource.modifiedAt;
     throw new APIError(403, 'resource already exists');
   }
 
@@ -32,6 +36,8 @@ async function create(text, url, category, parentID, userID) {
     text,
     category,
     parentID,
+    createdAt,
+    modifiedAt,
     author: userID,
     mapID: node.mapID,
     resourceID: `${parentID}|${url}`,

@@ -14,6 +14,9 @@ const directions = {
 // Create or modify a vote, update the score of the voted resource, and update
 // the cached map.
 async function vote(userID, resourceID, direction) {
+  const modifiedAt = (new Date()).toString();
+  let createdAt = (new Date()).toString();
+
   let [vote, resource] = await Promise.all([
     dynamo('get', { TableName: 'Votes', Key: { userID, resourceID } }),
     dynamo('get', { TableName: 'Resources', Key: { resourceID } }),
@@ -30,13 +33,21 @@ async function vote(userID, resourceID, direction) {
   // Remove the previous vote if present.
   if (vote) {
     resource.score[directions[vote.direction]] -= 1;
+    createdAt = vote.createdAt;
   }
 
   // Add the new vote.
   resource.score[directions[direction]] += 1;
   delete resource.score.reset;
 
-  const newVote = { userID, resourceID, direction, mapID: resource.mapID };
+  const newVote = {
+    userID,
+    resourceID,
+    direction,
+    createdAt,
+    modifiedAt,
+    mapID: resource.mapID,
+  };
 
   // Update vote and resource on DynamoDB.
   await Promise.all([
