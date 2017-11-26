@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
+import GithubCorner from 'react-github-corner';
 
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';
+import queries from 'constants/media-queries.json';
 import 'sass/_Home.sass';
 
 
@@ -17,10 +20,15 @@ export default class HomePage extends Component {
       <div>
         <Logo big={true} welcome={this.props.query === ''} />
 
-        {/* <div className="opensource-badge">
-          <img src="/static/icons/github.svg" alt="github logo"/>
-          <div className="opensource-text">Open Source</div>
-        </div> */}
+        <MediaQuery minWidth={queries.xs}>
+          <GithubCorner
+            href="https://github.com/learn-anything/learn-anything"
+            bannerColor="#fff"
+            octoColor="#222324"
+            size={80}
+            direction="left"
+          />
+        </MediaQuery>
 
         <h1 className="title">{__('first_search_title')}</h1>
         <SearchBar history={this.props.history} />
