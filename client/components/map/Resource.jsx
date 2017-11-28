@@ -65,9 +65,17 @@ export default class Resource extends Component {
         </a>
 
         <div className="score">
-          <div className={downClassNames} onClick={this.vote}>-</div>
+          <div
+            className={downClassNames}
+            onClick={this.vote}
+            onTouchEnd={this.vote}
+          >-</div>
           <div className="score-value">{score.up - score.down}</div>
-          <div className={upClassNames} onClick={this.vote}>+</div>
+          <div
+            className={upClassNames}
+            onClick={this.vote}
+            onTouchEnd={this.vote}
+          >+</div>
         </div>
       </div>
     );

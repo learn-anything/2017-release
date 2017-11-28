@@ -41,7 +41,7 @@ export default class HomePage extends Component {
           </p>
         </div>
 
-        {/* TotalSearches */}
+        {/* TotalContributions */}
       </div>
     );
   }

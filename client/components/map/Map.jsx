@@ -102,7 +102,7 @@ export default class MapRender extends Component {
         <AutoSizer>
           {({ width, height }) => (width === 0 || height === 0 ? null : (
             <ReactSVGPanZoom
-              tool="pan"
+              tool="auto"
               width={width}
               height={height}
               detectAutoPan={false}

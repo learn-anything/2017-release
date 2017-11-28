@@ -27,10 +27,9 @@ window.addEventListener('load', () => {
     document.getElementById('react-app'),
   );
 
-
   // Catch clicks on links, add GA calls, and change default behavior.
   // If link is internal, fetch new map; if link is external, open in new tab.
-  document.body.addEventListener('click', (e) => {
+  const handleLinks = (e) => {
     // Get the first parent of the target element that is an A tag.
     const t = getParent(e.target, 'A');
 
@@ -55,5 +54,8 @@ window.addEventListener('load', () => {
         payload: relativePath,
       });
     }
-  });
+  };
+
+  document.body.addEventListener('click', handleLinks);
+  document.body.addEventListener('touchend', handleLinks);
 });

@@ -61,7 +61,12 @@ export default class Node extends Component {
     return resources.map((res, index) => {
       if (index === 5) {
         return (
-          <div key="show_more" className="resources-show-more" onClick={this.resourcesShowMore}>
+          <div
+            key="show_more"
+            className="resources-show-more"
+            onClick={this.resourcesShowMore}
+            onTouchEnd={this.resourcesShowMore}
+          >
             {__('resources_show_more').replace('{}', resources.length - 5)}
           </div>
         );
@@ -132,7 +137,11 @@ export default class Node extends Component {
       >
         <div ref={(el) => { this.ref = el; }}>{this.renderNode()}</div>
         {this.props.editing &&
-          <button className="contribute-add-resource" onClick={this.addResourceDialog}>
+          <button
+            className="contribute-add-resource"
+            onClick={this.addResourceDialog}
+            onTouchEnd={this.addResourceDialog}
+          >
             {__('contribute_add_resource')}
           </button>
         }
