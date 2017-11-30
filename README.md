@@ -1,20 +1,15 @@
+<p align="center">
+    <img src="https://i.imgur.com/gdVn417.png" width="128" height="128">
+</p>
+# Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
+> [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps
+
+If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
+
 **Note:** If you're looking for the maps, they're in the `maps` folder. We merged
 the maps and the app repos, as it will make it easier to manage docs, issues and
 PRs. We're making the last changes before the new version goes live, so this README
 and the structure of the repo itself, might change a bit in the next few days.
-
-# Learn Anything
-[![slack badge](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ)
-[![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything)
-[![license badge](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/learn-anything/learn-anything/blob/master/LICENSE)
-
-This is the main code-base that powers [learn-anything.xyz](https://learn-anything.xyz).
-
-If you want to know more about what we're trying to solve, our plans for the
-future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/maps/wiki).
-
-<img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" height="400">
-
 
 ## Getting Started
 These instructions will allow you to set up your own instance of Learn Anything
