@@ -1,3 +1,8 @@
+**Note:** If you're looking for the maps, they're in the `maps` folder. We merged
+the maps and the app repos, as it will make it easier to manage docs, issues and
+PRs. We're making the last changes before the new version goes live, so this README
+and the structure of the repo itself, might change a bit in the next few days.
+
 # Learn Anything
 [![slack badge](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ)
 [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything)
