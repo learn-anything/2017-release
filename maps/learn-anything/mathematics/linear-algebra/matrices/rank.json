@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - rank",
+  "tag": "rank of a matrix",
+  "nodes": [
+    {
+      "text": "rank",
+      "url": "http://www.wikiwand.com/en/Rank_(linear_algebra)",
+      "fx": -53.234375953674316,
+      "fy": -0.6242305040359497,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.51953125,
+      "fy": 126.69140625,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://immersivemath.com/ila/ch08_rank/ch08.html",
+          "fx": 107.48046875,
+          "fy": 138.19140625,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "rank",
+      "target": "basics",
+      "curve": {
+        "x": -0.392578,
+        "y": 62.4078
+      }
+    }
+  ],
+  "id": 980
+}

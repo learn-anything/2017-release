@@ -1,0 +1,141 @@
+{
+  "title": "learn anything - web development - front end - html",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "HTML",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "fx": -41.31177325581393,
+      "fy": -318.8615552325583,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/HTML/",
+          "fx": 110.68822674418607,
+          "fy": -307.3615552325583,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 52.75422142857644,
+      "fy": -228.38291906117075,
+      "nodes": [
+        {
+          "text": "HTML reference",
+          "url": "http://htmlreference.io/",
+          "fx": 189.75422142857644,
+          "fy": -230.88291906117075,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "&lt;head&gt; cheat sheet",
+          "url": "http://gethead.info/",
+          "fx": 189.75422142857644,
+          "fy": -196.88291906117075,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 105.36627236869401,
+      "fy": -131.03469397714935,
+      "nodes": [
+        {
+          "text": "17: linting HTML using CSS  ️",
+          "url": "https://bitsofco.de/linting-html-using-css/",
+          "fx": 267.366272368694,
+          "fy": -119.53469397714935,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -84.13716950672563,
+      "fy": -23.434564875882472,
+      "nodes": [
+        {
+          "text": "1. marksheet",
+          "url": "http://marksheet.io/",
+          "fx": 97.86283049327437,
+          "fy": -45.93456487588247,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. html basics",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+          "fx": 97.86283049327437,
+          "fy": -5.934564875882472,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn to code HTML &amp; CSS",
+          "url": "http://learn.shayhowe.com/",
+          "fx": 97.86283049327437,
+          "fy": 28.065435124117528,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "HTML5  ️",
+      "url": "/web-development/front-end/html/html5",
+      "fx": -174.19245631720423,
+      "fy": 101.40961021505348,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "HTML",
+      "target": "basics",
+      "curve": {
+        "x": -16.6627,
+        "y": 147.713
+      }
+    },
+    {
+      "source": "help",
+      "target": "HTML",
+      "curve": {
+        "x": -47.033,
+        "y": -45.2393
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -32.556,
+        "y": -48.6741
+      }
+    },
+    {
+      "source": "basics",
+      "target": "HTML5  ️",
+      "curve": {
+        "x": -42.0276,
+        "y": 63.6721
+      }
+    }
+  ],
+  "id": 1875
+}

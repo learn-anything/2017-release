@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - firebase",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "firebase",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Firebase",
+      "fx": -68.80420470505624,
+      "fy": -348.6411955758427,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/afonsopacifer/awesome-firebase",
+          "fx": 155.19579529494376,
+          "fy": -334.6411955758427,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 49.49151831785343,
+      "fy": -249.2901031300678,
+      "nodes": [
+        {
+          "text": "docs",
+          "url": "https://firebase.google.com/docs/",
+          "fx": 186.49151831785343,
+          "fy": -234.7901031300678,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 108.55815307230762,
+      "fy": -139.40712690871413,
+      "nodes": [
+        {
+          "text": "17: firebase: the great, the meh, and the ugly  ️",
+          "url": "https://medium.freecodecamp.com/firebase-the-great-the-meh-and-the-ugly-a07252fbcf15",
+          "fx": 270.5581530723076,
+          "fy": -138.90712690871413,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "firebase",
+      "curve": {
+        "x": -43.8979,
+        "y": -48.4256
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -35.7833,
+        "y": -54.9415
+      }
+    }
+  ],
+  "id": 1705
+}

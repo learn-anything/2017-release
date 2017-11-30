@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - life - travelling",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "travel",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Travel",
+      "fx": -35.33395551108356,
+      "fy": -166.18159251847288,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/travel/",
+          "fx": 166.66604448891644,
+          "fy": -172.18159251847288,
+          "nodes": [
+            {
+              "text": "wiki",
+              "url": "https://www.reddit.com/r/travel/wiki/index",
+              "fx": 276.66604448891644,
+              "fy": -172.18159251847288,
+              "nodes": [],
+              "category": "reddit",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://travel.stackexchange.com/",
+          "fx": 166.66604448891644,
+          "fy": -132.18159251847288,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 71.42397104051531,
+      "fy": -7.736566148730503,
+      "nodes": [
+        {
+          "text": "airbnb",
+          "url": "https://www.airbnb.com/",
+          "fx": 213.4239710405153,
+          "fy": -44.2365661487305,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "booking",
+          "url": "https://www.booking.com/index.en-gb.html?aid=397603;label=gog235jc-index-XX-XX-XX-unspec-nl-com-L%3Aen-O%3AosSx-B%3Asafari-N%3AXX-S%3Abo-U%3AXX-H%3As;sid=76720189eb2e31553abce688a0550015;sb_price_type=total&amp;",
+          "fx": 213.4239710405153,
+          "fy": -10.236566148730503,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "skyscanner",
+          "url": "https://www.skyscanner.net/",
+          "fx": 213.4239710405153,
+          "fy": 23.763433851269497,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "couch surfing",
+          "url": "https://www.couchsurfing.com/",
+          "fx": 213.4239710405153,
+          "fy": 57.7634338512695,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "nomad  ️",
+      "url": "/life/travelling/nomad",
+      "fx": -159.78644943237305,
+      "fy": 28.93123722076416,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "travel",
+      "target": "nomad  ️",
+      "curve": {
+        "x": -72.2262,
+        "y": 96.3064
+      }
+    },
+    {
+      "source": "tools",
+      "target": "travel",
+      "curve": {
+        "x": -38.379,
+        "y": -77.9725
+      }
+    }
+  ],
+  "id": 698
+}

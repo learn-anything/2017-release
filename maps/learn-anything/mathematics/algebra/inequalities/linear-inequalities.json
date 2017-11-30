@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - inequalities - linear inequalities",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear inequalities",
+      "url": "http://www.wikiwand.com/en/Linear_inequality",
+      "fx": 23.62890625,
+      "fy": -130.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 83.4453125,
+      "fy": 15.1796875,
+      "nodes": [
+        {
+          "text": "1. solving linear inequalities made easy",
+          "url": "https://www.youtube.com/watch?v=0X-bMeIN53I",
+          "fx": 246.4453125,
+          "fy": 15.1796875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear inequalities",
+      "target": "basics",
+      "curve": {
+        "x": 4.1582,
+        "y": 73.0234
+      }
+    }
+  ],
+  "id": 850
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - marketing - multi-level marketing",
+  "tag": "multi-level marketing",
+  "nodes": [
+    {
+      "text": "multi-level marketing",
+      "url": "http://www.wikiwand.com/en/Multi-level_marketing",
+      "fx": 55.98046875,
+      "fy": -108.515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 120.12109375,
+      "fy": 45.80859375,
+      "nodes": [
+        {
+          "text": "1 how it works",
+          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/49x2n0/what_is_literally_everything_about_multi_level/d0vmp9e/",
+          "fx": 276.12109375,
+          "fy": 37.30859375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. explanation by John Oliver",
+          "url": "https://www.youtube.com/watch?v=s6MwGeOm8iI",
+          "fx": 276.12109375,
+          "fy": 77.30859375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "multi-level marketing",
+      "target": "basics",
+      "curve": {
+        "x": -6.92968,
+        "y": 75.9121
+      }
+    }
+  ],
+  "id": 813
+}

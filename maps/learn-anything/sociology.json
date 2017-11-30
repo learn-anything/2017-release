@@ -1,0 +1,201 @@
+{
+  "title": "learn anything - sociology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sociology",
+      "url": "http://www.wikiwand.com/en/Sociology",
+      "fx": -74.8143276192792,
+      "fy": -283.8549975880146,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/sociology/",
+          "fx": 149.1856723807208,
+          "fy": -269.8549975880146,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -64.16108768334516,
+      "fy": -152.80029479681593,
+      "nodes": [
+        {
+          "text": "1. crash course sociology",
+          "url": "https://www.youtube.com/watch?v=YnCJU6PaCio&amp;list=PL8dPuuaLjXtMJ-AfB_7J1538YKWkZAnGA&amp;index=2",
+          "fx": 124.83891231665484,
+          "fy": -194.80029479681593,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the sociological imagination",
+          "url": "http://www.goodreads.com/book/show/414773.The_Sociological_Imagination",
+          "fx": 124.83891231665484,
+          "fy": -152.80029479681593,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. four sociological traditions",
+          "url": "http://www.goodreads.com/book/show/879073.Four_Sociological_Traditions",
+          "fx": 124.83891231665484,
+          "fy": -85.80029479681593,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "social groups  ️",
+      "url": "/sociology/social-groups",
+      "fx": -26.063832496529358,
+      "fy": 35.116016758022056,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "society  ️",
+      "note": "is a group of people involved in persistent social interaction, or a large social grouping sharing the same geographical or social territory, typically subject to the same political authority and dominant cultural expectations  they are characterised by patterns of relationships (social relations) between individuals who share a distinctive culture and institutions",
+      "url": "/sociology/society",
+      "fx": -205.63282918218363,
+      "fy": 35.83979663564196,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "discrimination  ️",
+      "url": "/sociology/discrimination",
+      "fx": -907.0763081395332,
+      "fy": 36.95566860465135,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "social influence  ️",
+      "url": "/sociology/social-influence",
+      "fx": -691.5700124717607,
+      "fy": 37.60946912650627,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "communication",
+      "url": "http://www.wikiwand.com/en/Communication",
+      "fx": -445.7027942060803,
+      "fy": 38.705556653771964,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "social change",
+      "url": "http://www.wikiwand.com/en/Social_change",
+      "fx": -268.5594318851946,
+      "fy": 159.30074288404364,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "discourse  ️",
+      "url": "/sociology/discourse",
+      "fx": -462.6115188082871,
+      "fy": 161.65555113611936,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "activism  ️",
+      "note": "consists of efforts to promote, impede, or direct social, political, economic, and/or environmental reform or stasis with the desire to make improvements in society  forms of activism range from writing letters to newspapers or to politicians, political campaigning, economic activism such as boycotts or preferentially patronising businesses, rallies, street marches, strikes, sit-ins, and hunger strikes",
+      "url": "/sociology/activism",
+      "fx": -268.5509960510084,
+      "fy": 281.1600506094401,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "sociology",
+      "target": "basics",
+      "curve": {
+        "x": -8.92338,
+        "y": 64.2773
+      }
+    },
+    {
+      "source": "basics",
+      "target": "society  ️",
+      "curve": {
+        "x": -68.4859,
+        "y": 95.57
+      }
+    },
+    {
+      "source": "society  ️",
+      "target": "social change",
+      "curve": {
+        "x": -16.4633,
+        "y": 61.7304
+      }
+    },
+    {
+      "source": "social change",
+      "target": "activism  ️",
+      "curve": {
+        "x": -12.7458,
+        "y": 60.9297
+      }
+    },
+    {
+      "source": "basics",
+      "target": "social groups  ️",
+      "curve": {
+        "x": 29.7987,
+        "y": 93.9582
+      }
+    },
+    {
+      "source": "basics",
+      "target": "communication",
+      "curve": {
+        "x": -175.271,
+        "y": 95.7529
+      }
+    },
+    {
+      "source": "communication",
+      "target": "discourse  ️",
+      "curve": {
+        "x": -22.2044,
+        "y": 61.475
+      }
+    },
+    {
+      "source": "basics",
+      "target": "social influence  ️",
+      "curve": {
+        "x": -332.285,
+        "y": 73.2957
+      }
+    },
+    {
+      "source": "basics",
+      "target": "discrimination  ️",
+      "curve": {
+        "x": -492.059,
+        "y": 59.0381
+      }
+    }
+  ],
+  "id": 1790
+}

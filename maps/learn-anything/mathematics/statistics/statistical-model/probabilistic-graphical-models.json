@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model - probabilistic graphical models",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "probabilistic graphical models",
+      "url": "http://www.wikiwand.com/en/Graphical_model",
+      "fx": -194.51152420043945,
+      "fy": -102.25926303863525,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -98.98381663192379,
+      "fy": 98.01009095195565,
+      "nodes": [
+        {
+          "text": "1. probabilistic graphical models notes  ️",
+          "url": "http://frnsys.com/ai_notes/foundations/probabilistic_graphical_models.html",
+          "fx": 57.01618336807621,
+          "fy": 36.51009095195565,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. probabilistic graphical models 1: representation",
+          "url": "https://www.coursera.org/learn/probabilistic-graphical-models",
+          "fx": 57.01618336807621,
+          "fy": 98.51009095195565,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. probabilistic graphical models: principles and techniques",
+          "url": "https://www.goodreads.com/book/show/6676555-probabilistic-graphical-models",
+          "fx": 57.01618336807621,
+          "fy": 160.51009095195565,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "probabilistic graphical models",
+      "target": "basics",
+      "curve": {
+        "x": -6.23615,
+        "y": 92.6347
+      }
+    }
+  ],
+  "id": 1123
+}

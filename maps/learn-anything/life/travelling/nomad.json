@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - life - travelling - nomad",
+  "tag": "nomadic lifestyle",
+  "nodes": [
+    {
+      "text": "nomad",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Nomad",
+      "fx": -69.41101074218761,
+      "fy": -246.2952880859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -12.303472518920557,
+      "fy": -98.54336464405048,
+      "nodes": [
+        {
+          "text": "awesome hacking spots",
+          "url": "https://github.com/diasdavid/awesome-hacking-spots",
+          "fx": 124.69652748107944,
+          "fy": -127.04336464405048,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome digital nomads",
+          "url": "https://github.com/cbovis/awesome-digital-nomads",
+          "fx": 124.69652748107944,
+          "fy": -87.04336464405048,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome remote jobs",
+          "url": "https://github.com/lukasz-madon/awesome-remote-job",
+          "fx": 124.69652748107944,
+          "fy": -47.043364644050484,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 18.450645446777344,
+      "fy": 54.39172363281267,
+      "nodes": [
+        {
+          "text": "nomad list",
+          "url": "https://nomadlist.com/",
+          "fx": 160.45064544677734,
+          "fy": 68.89172363281267,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "nomad",
+      "curve": {
+        "x": -15.0538,
+        "y": -72.6259
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -16.6271,
+        "y": -76.4676
+      }
+    }
+  ],
+  "id": 697
+}

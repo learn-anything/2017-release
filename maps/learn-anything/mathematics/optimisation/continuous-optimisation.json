@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - optimisation - continuous optimisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "continuous optimisation",
+      "url": "http://www.wikiwand.com/en/Continuous_optimization",
+      "fx": 55.05078125,
+      "fy": -109.15234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. introduction to algorithms for continuous optimisation",
+          "url": "http://www.numerical.rl.ac.uk/people/nimg/course/lectures/paper/paper.pdf",
+          "fx": 310,
+          "fy": 34,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "continuous optimisation",
+      "target": "basics",
+      "curve": {
+        "x": 3.22461,
+        "y": 71.5762
+      }
+    }
+  ],
+  "id": 1054
+}

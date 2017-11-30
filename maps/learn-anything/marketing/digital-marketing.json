@@ -1,0 +1,99 @@
+{
+  "title": "learn anything - marketing - digital marketing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "digital marketing",
+      "url": "http://www.wikiwand.com/en/Digital_marketing",
+      "fx": -124.6328125,
+      "fy": -246.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 64.50651041666674,
+      "fy": -123.73591382571846,
+      "nodes": [
+        {
+          "text": "L2inc",
+          "url": "https://www.youtube.com/user/l2thinktank/videos",
+          "fx": 205.50651041666674,
+          "fy": -111.23591382571846,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -70.15793371200562,
+      "fy": 0.8346614837646484,
+      "nodes": [
+        {
+          "text": "1. learn online marketing ",
+          "url": "https://learndigital.withgoogle.com/digitalgarage/",
+          "fx": 92.84206628799438,
+          "fy": -36.16533851623535,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is digital marketing?",
+          "url": "https://www.youtube.com/watch?v=glQWc6lGpkI",
+          "fx": 92.84206628799438,
+          "fy": 0.8346614837646484,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. google analytics for beginners",
+          "url": "https://analytics.google.com/analytics/academy/course/6",
+          "fx": 92.84206628799438,
+          "fy": 42.83466148376465,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "search engine marketing  ️",
+      "url": "/marketing/digital-marketing/search-engine-marketing",
+      "fx": -299.455078125,
+      "fy": 173.119140625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "digital marketing",
+      "target": "basics",
+      "curve": {
+        "x": -2.51256,
+        "y": 122.601
+      }
+    },
+    {
+      "source": "help",
+      "target": "digital marketing",
+      "curve": {
+        "x": -60.0697,
+        "y": -60.3156
+      }
+    },
+    {
+      "source": "basics",
+      "target": "search engine marketing  ️",
+      "curve": {
+        "x": -69.6486,
+        "y": 86.1422
+      }
+    }
+  ],
+  "id": 811
+}

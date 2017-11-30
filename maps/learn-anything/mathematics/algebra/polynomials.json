@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - algebra - polynomials",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polynomials",
+      "url": "http://www.wikiwand.com/en/Polynomial",
+      "fx": 288.8861443014706,
+      "fy": -67.96714154411768,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 421.6746083990987,
+      "fy": 42.49911592587688,
+      "nodes": [
+        {
+          "text": "the beauty of roots",
+          "url": "http://math.ucr.edu/home/baez/roots/",
+          "fx": 612.6746083990987,
+          "fy": 53.99911592587688,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 319.9312116738523,
+      "fy": 140.9725835012515,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ffLLmV4mZwU",
+          "fx": 475.9312116738523,
+          "fy": 152.4725835012515,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "polynomials",
+      "curve": {
+        "x": -55.6442,
+        "y": -53.9831
+      }
+    },
+    {
+      "source": "polynomials",
+      "target": "basics",
+      "curve": {
+        "x": -3.97747,
+        "y": 103.22
+      }
+    }
+  ],
+  "id": 852
+}

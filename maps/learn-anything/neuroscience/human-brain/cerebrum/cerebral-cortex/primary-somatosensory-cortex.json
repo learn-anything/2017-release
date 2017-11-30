@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum - cerebral cortex - primary somatosensory cortex",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "primary somatosensory cortex",
+      "url": "http://www.wikiwand.com/en/Primary_somatosensory_cortex",
+      "fx": 90.52734375,
+      "fy": -132.02734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 154.5859375,
+      "fy": 41.27734375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=3jf2l9ma6SM",
+          "fx": 317.5859375,
+          "fy": 53.77734375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "primary somatosensory cortex",
+      "target": "basics",
+      "curve": {
+        "x": -11.7207,
+        "y": 78.6523
+      }
+    }
+  ],
+  "id": 1246
+}

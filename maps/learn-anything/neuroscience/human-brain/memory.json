@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - neuroscience - human brain - memory",
+  "tag": "human memory",
+  "nodes": [
+    {
+      "text": "memory",
+      "url": "http://www.wikiwand.com/en/Memory",
+      "fx": -121.97643799800801,
+      "fy": -203.68821588645415,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -100.91799987549803,
+      "fy": -68.92922061753,
+      "nodes": [
+        {
+          "text": "1. how we make memories",
+          "url": "https://www.youtube.com/watch?v=bSycdIx-C48",
+          "fx": 55.082000124501974,
+          "fy": -57.42922061753001,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "short-term memory",
+      "url": "http://www.wikiwand.com/en/Short-term_memory",
+      "fx": -75.75,
+      "fy": 69.25,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "long-term memory",
+      "url": "http://www.wikiwand.com/en/Long-term_memory",
+      "fx": -320.8415429568985,
+      "fy": 69.46890551372633,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "sparse distributed memory",
+      "url": "http://www.wikiwand.com/en/Sparse_distributed_memory",
+      "fx": -526.5576171875,
+      "fy": 197.1650390625,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "memory",
+      "target": "basics",
+      "curve": {
+        "x": -0.720781,
+        "y": 66.1294
+      }
+    },
+    {
+      "source": "basics",
+      "target": "long-term memory",
+      "curve": {
+        "x": -75.2118,
+        "y": 70.4491
+      }
+    },
+    {
+      "source": "basics",
+      "target": "short-term memory",
+      "curve": {
+        "x": 49.084,
+        "y": 70.3396
+      }
+    },
+    {
+      "source": "long-term memory",
+      "target": "sparse distributed memory",
+      "curve": {
+        "x": -84.358,
+        "y": 63.8481
+      }
+    }
+  ],
+  "id": 1251
+}

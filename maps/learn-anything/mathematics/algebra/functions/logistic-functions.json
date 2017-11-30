@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - logistic functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "logistic functions",
+      "url": "http://www.wikiwand.com/en/Logistic_function",
+      "fx": -127.453125,
+      "fy": -153.875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -72.16426127021953,
+      "fy": -26.7377046606685,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=hois2F0bSxU",
+          "fx": 83.83573872978047,
+          "fy": -15.237704660668498,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "softmax functions  ️",
+      "url": "/mathematics/algebra/functions/logistic-functions/softmax-functions",
+      "fx": -215.34284723029532,
+      "fy": 107.35983248287005,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "logistic functions",
+      "target": "basics",
+      "curve": {
+        "x": -2.60557,
+        "y": 62.3186
+      }
+    },
+    {
+      "source": "basics",
+      "target": "softmax functions  ️",
+      "curve": {
+        "x": -38.8393,
+        "y": 68.2988
+      }
+    }
+  ],
+  "id": 841
+}

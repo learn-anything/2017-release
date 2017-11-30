@@ -1,0 +1,109 @@
+{
+  "title": "learn anything - operating systems - file systems",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "file systems",
+      "url": "http://www.wikiwand.com/en/File_system",
+      "fx": -74.74904725609747,
+      "fy": -120.93111661585363,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/filesystems/",
+          "fx": 170.25095274390253,
+          "fy": -106.93111661585363,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -65.78544207317088,
+      "fy": 19.80449695121939,
+      "nodes": [
+        {
+          "text": "1. file system forensic analysis",
+          "url": "http://www.campus64.com/digital_learning/data/cyber_forensics_essentials/info_file_system_forensic_analysis.pdf",
+          "fx": 97.21455792682912,
+          "fy": -1.1955030487806084,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. anatomy of file systems",
+          "url": "https://www.youtube.com/watch?v=0Yf-W7Ps6u4",
+          "fx": 97.21455792682912,
+          "fy": 65.80449695121939,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "file formats",
+      "url": "http://www.wikiwand.com/en/File_format",
+      "fx": -231.197705568508,
+      "fy": 163.02354585130092,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "APFS",
+      "url": "http://www.wikiwand.com/en/Apple_File_System",
+      "fx": 67.29045050761408,
+      "fy": 179.08704790609136,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "ZFS",
+      "url": "http://www.wikiwand.com/en/ZFS",
+      "fx": -55.193819005042315,
+      "fy": 260.419921875,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "file systems",
+      "target": "basics",
+      "curve": {
+        "x": -14.5182,
+        "y": 69.1178
+      }
+    },
+    {
+      "source": "basics",
+      "target": "file formats",
+      "curve": {
+        "x": -72.4561,
+        "y": 71.6095
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ZFS",
+      "curve": {
+        "x": 7.29581,
+        "y": 121.058
+      }
+    },
+    {
+      "source": "basics",
+      "target": "APFS",
+      "curve": {
+        "x": 72.2879,
+        "y": 80.3913
+      }
+    }
+  ],
+  "id": 1274
+}

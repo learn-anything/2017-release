@@ -1,0 +1,174 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "abstract algebra",
+      "url": "http://www.wikiwand.com/en/Abstract_algebra",
+      "fx": -93.13268649193537,
+      "fy": -353.5182492549089,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -42.10674563189889,
+      "fy": -240.95487330277552,
+      "nodes": [
+        {
+          "text": "1. a book of abstract algebra",
+          "url": "http://www.goodreads.com/book/show/8295305-a-book-of-abstract-algebra",
+          "fx": 139.8932543681011,
+          "fy": -229.45487330277552,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "algebraic structures  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures",
+      "fx": 234.93938420872792,
+      "fy": -64.5826403068778,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "representation theory  ️",
+      "url": "/mathematics/algebra/abstract-algebra/representation-theory",
+      "fx": -585.7817818578376,
+      "fy": -62.96445129467679,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Galois theory  ️",
+      "url": "/mathematics/algebra/abstract-algebra/galois-theory",
+      "fx": -465.3068395120272,
+      "fy": 33.686774414441174,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "associative algebra",
+      "url": "http://www.wikiwand.com/en/Associative_algebra",
+      "fx": 134.08107102351687,
+      "fy": 38.00142534766496,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "homomorphism  ️",
+      "url": "/mathematics/algebra/abstract-algebra/homomorphism",
+      "fx": 424.02873557227326,
+      "fy": 41.25714699235539,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "universal algebra",
+      "note": "studies algebraic structures themselves, not examples (‘models’) of algebraic structures  for instance, rather than take particular groups as the object of study, in universal algebra on takes the ‘theory of groups’ as an object of study  in universal algebra, an algebra (or algebraic structure) is a set A together with a collection of operations on A",
+      "url": "http://www.wikiwand.com/en/Universal_algebra",
+      "fx": -375.43464241838024,
+      "fy": 113.01888129143208,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "ring theory",
+      "note": "is the study of rings - algebraic structures in which addition and multiplication are defined and have similar properties to those operations defined for integers  it studies the structure of rings, and their representations",
+      "url": "http://www.wikiwand.com/en/Ring_theory",
+      "fx": 90.49454135612064,
+      "fy": 145.10715641846525,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "commutative algebra",
+      "note": "studies commutative rings, their ideals and modules over such rings  both algebraic geometry and algebraic number theory build on commutative algebra   it is the main technical tool in the local study of schemes  study of rings that are not necessarily commutative is known as non commutative algebra  it includes ring theory, representation theory, and the theory of Banach algebras",
+      "url": "http://www.wikiwand.com/en/Commutative_algebra",
+      "fx": -201.23421795058402,
+      "fy": 213.23243876781953,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "Galois theory  ️",
+      "curve": {
+        "x": -195.6,
+        "y": 138.571
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ring theory",
+      "curve": {
+        "x": 55.2428,
+        "y": 205.456
+      }
+    },
+    {
+      "source": "basics",
+      "target": "associative algebra",
+      "curve": {
+        "x": 123.845,
+        "y": 140.728
+      }
+    },
+    {
+      "source": "basics",
+      "target": "universal algebra",
+      "curve": {
+        "x": -142.414,
+        "y": 178.238
+      }
+    },
+    {
+      "source": "abstract algebra",
+      "target": "basics",
+      "curve": {
+        "x": -3.98702,
+        "y": 55.0317
+      }
+    },
+    {
+      "source": "basics",
+      "target": "commutative algebra",
+      "curve": {
+        "x": -39.3143,
+        "y": 228.344
+      }
+    },
+    {
+      "source": "basics",
+      "target": "representation theory  ️",
+      "curve": {
+        "x": -244.837,
+        "y": 88.9952
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic structures  ️",
+      "curve": {
+        "x": 156.516,
+        "y": 99.0231
+      }
+    },
+    {
+      "source": "algebraic structures  ️",
+      "target": "homomorphism  ️",
+      "curve": {
+        "x": 78.5447,
+        "y": 51.6699
+      }
+    }
+  ],
+  "id": 834
+}

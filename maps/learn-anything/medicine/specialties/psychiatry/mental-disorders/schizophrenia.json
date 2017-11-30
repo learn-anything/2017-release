@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders - schizophrenia",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "schizophrenia",
+      "url": "http://www.wikiwand.com/en/Schizophrenia",
+      "fx": 71.625,
+      "fy": -164.13671875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/schizophrenia/",
+          "fx": 322.625,
+          "fy": -150.13671875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 242.7422332763672,
+      "fy": -58.913763999938965,
+      "nodes": [
+        {
+          "text": "schizophrenia simulator",
+          "url": "https://www.youtube.com/watch?v=yL9UJVtgPZY",
+          "fx": 433.7422332763672,
+          "fy": -47.413763999938965,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 94.92909663865544,
+      "fy": 99.04339548319342,
+      "nodes": [
+        {
+          "text": "1. schizophrenia explained",
+          "url": "https://www.youtube.com/watch?v=nEnklxGAmak",
+          "fx": 249.92909663865544,
+          "fy": 48.54339548319342,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. schizophrenia &amp; dissociative disorders",
+          "url": "https://www.youtube.com/watch?v=uxktavpRdzU",
+          "fx": 249.92909663865544,
+          "fy": 88.54339548319342,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. schizophrenia is more than just ‘hearing voices’",
+          "url": "https://www.reddit.com/r/videos/comments/5929r9/anderson_cooper_tries_a_schizophrenia_simulator/d955td6/",
+          "fx": 249.92909663865544,
+          "fy": 150.54339548319342,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "schizophrenia",
+      "target": "basics",
+      "curve": {
+        "x": -12.098,
+        "y": 130.34
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "schizophrenia",
+      "curve": {
+        "x": -70.5586,
+        "y": -51.3615
+      }
+    }
+  ],
+  "id": 1171
+}

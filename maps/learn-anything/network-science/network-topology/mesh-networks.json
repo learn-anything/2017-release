@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - network science - network topology - mesh networks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mesh networks",
+      "url": "http://www.wikiwand.com/en/Mesh_networking",
+      "fx": 139.70230741279067,
+      "fy": -248.647710755814,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 186.9767441860464,
+      "fy": -74.95348837199276,
+      "nodes": [
+        {
+          "text": "1. how mesh networks work",
+          "url": "https://www.youtube.com/watch?v=tYLU755T6_I",
+          "fx": 349.9767441860464,
+          "fy": -62.45348837199276,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mesh networks",
+      "target": "basics",
+      "curve": {
+        "x": -6.36278,
+        "y": 86.0971
+      }
+    }
+  ],
+  "id": 1235
+}

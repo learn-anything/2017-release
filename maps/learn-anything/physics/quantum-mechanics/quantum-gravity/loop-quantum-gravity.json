@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum gravity - loop quantum gravity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "loop quantum gravity",
+      "url": "http://www.wikiwand.com/en/Loop_quantum_gravity",
+      "fx": -86.36327934265137,
+      "fy": -184.11119079589844,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 115.08352388211199,
+      "fy": -57.71209736213643,
+      "nodes": [
+        {
+          "text": "string theory meets loop quantum gravity  ️",
+          "url": "https://www.quantamagazine.org/string-theory-meets-loop-quantum-gravity-20160112",
+          "fx": 277.083523882112,
+          "fy": -57.21209736213643,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -9.712239583333371,
+      "fy": 63.57880296703786,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.reddit.com/r/askscience/comments/1lbr4t/can_someone_please_give_the_simplest_as_possible/cbxuwnh/",
+          "fx": 146.28776041666663,
+          "fy": 75.07880296703786,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "loop quantum gravity",
+      "target": "basics",
+      "curve": {
+        "x": -2.17448,
+        "y": 122.595
+      }
+    },
+    {
+      "source": "articles",
+      "target": "loop quantum gravity",
+      "curve": {
+        "x": -61.7234,
+        "y": -61.9495
+      }
+    }
+  ],
+  "id": 1533
+}

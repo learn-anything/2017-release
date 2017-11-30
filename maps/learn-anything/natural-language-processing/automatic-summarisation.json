@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - natural language processing - automatic summarisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "automatic summarisation",
+      "url": "http://www.wikiwand.com/en/Automatic_summarization",
+      "fx": -13.5,
+      "fy": 0,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 81.02582908163299,
+      "fy": 159.67825255107,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=EZLCOrrl0Wc",
+          "fx": 237.025829081633,
+          "fy": 171.17825255107,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "automatic summarisation",
+      "target": "basics",
+      "curve": {
+        "x": -2.23709,
+        "y": 78.5891
+      }
+    }
+  ],
+  "id": 1197
+}

@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - marketing - advertising - google adwords",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "Google AdWords",
+      "url": "http://www.wikiwand.com/en/AdWords",
+      "fx": -104.59218750000002,
+      "fy": -45.95312500000003,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/adwords/",
+          "fx": 178.40781249999998,
+          "fy": -31.95312500000003,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 92.22812499999998,
+      "fy": 68.2859375000001,
+      "nodes": [
+        {
+          "text": "google partners help",
+          "url": "https://support.google.com/partners/?hl=en&amp;rd=1#topic=3110975",
+          "fx": 229.22812499999998,
+          "fy": 82.7859375000001,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -54.179687500000114,
+      "fy": 169.1687500000001,
+      "nodes": [
+        {
+          "text": "1. getting started with AdWords",
+          "url": "https://www.reddit.com/r/Entrepreneur/comments/6gveyw/ive_seen_a_lot_of_google_adwords_posts_that_lack/",
+          "fx": 101.82031249999989,
+          "fy": 180.6687500000001,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Google AdWords",
+      "target": "basics",
+      "curve": {
+        "x": -6.54375,
+        "y": 106.311
+      }
+    },
+    {
+      "source": "help",
+      "target": "Google AdWords",
+      "curve": {
+        "x": -61.9102,
+        "y": -55.8695
+      }
+    }
+  ],
+  "id": 805
+}

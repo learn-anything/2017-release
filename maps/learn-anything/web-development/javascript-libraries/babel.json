@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - web development - javascript libraries - babel",
+  "tag": "babel library",
+  "nodes": [
+    {
+      "text": "babel",
+      "note": "",
+      "url": "https://github.com/babel/babel",
+      "fx": -65.33984375,
+      "fy": -211.546875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/babel/awesome-babel",
+          "fx": 137.66015625,
+          "fy": -197.546875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 17.78125,
+      "fy": -108.39453125,
+      "nodes": [
+        {
+          "text": "babel REPL",
+          "url": "https://babeljs.io/repl/#?babili=false&amp;evaluate=true&amp;lineWrap=false&amp;presets=es2015%2Creact%2Cstage-2&amp;targets=&amp;browsers=&amp;builtIns=false&amp;debug=false&amp;code=",
+          "fx": 154.78125,
+          "fy": -93.89453125,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "babel",
+      "curve": {
+        "x": -31.5605,
+        "y": -50.3262
+      }
+    }
+  ],
+  "id": 1883
+}

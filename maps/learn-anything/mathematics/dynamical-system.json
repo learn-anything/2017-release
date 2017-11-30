@@ -1,0 +1,116 @@
+{
+  "title": "learn anything - mathematics - dynamical system",
+  "tag": "dynamical systems",
+  "nodes": [
+    {
+      "text": "dynamical systems",
+      "url": "http://www.wikiwand.com/en/Dynamical_system",
+      "fx": -117.6374646398234,
+      "fy": -271.348681796858,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -54.92011165393012,
+      "fy": -103.74886023393213,
+      "nodes": [
+        {
+          "text": "1. notes on nonlinear dynamics  ️",
+          "url": "http://frnsys.com/ai_notes/simulation/nonlinear_dynamics.html",
+          "fx": 101.07988834606988,
+          "fy": -174.24886023393213,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction to linear dynamical systems",
+          "url": "https://see.stanford.edu/Course/EE263",
+          "fx": 101.07988834606988,
+          "fy": -134.24886023393213,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. nonlinear dynamics and chaos",
+          "url": "http://arslanranjha.weebly.com/uploads/4/8/9/3/4893701/nonlinear-dynamics-and-chaos-strogatz.pdf",
+          "fx": 101.07988834606988,
+          "fy": -72.24886023393213,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to linear dynamical systems",
+          "url": "http://ee263.stanford.edu/",
+          "fx": 101.07988834606988,
+          "fy": -32.248860233932135,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "N-body simulation  ️",
+      "url": "/mathematics/dynamical-system/n-body-simulation",
+      "fx": -298.5713408252327,
+      "fy": 93.66883284491746,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "software help",
+      "url": "",
+      "fx": 39.33009234992335,
+      "fy": 98.10682198558061,
+      "nodes": []
+    },
+    {
+      "text": "Simulink  ️",
+      "url": "/mathematics/dynamical-system/simulink",
+      "fx": 254.89737090941935,
+      "fy": 187.89131923303273,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "dynamical systems",
+      "target": "basics",
+      "curve": {
+        "x": -1.89132,
+        "y": 82.5499
+      }
+    },
+    {
+      "source": "basics",
+      "target": "N-body simulation  ️",
+      "curve": {
+        "x": -95.0756,
+        "y": 98.7088
+      }
+    },
+    {
+      "source": "basics",
+      "target": "software help",
+      "curve": {
+        "x": 62.8751,
+        "y": 100.928
+      }
+    },
+    {
+      "source": "software help",
+      "target": "Simulink  ️",
+      "curve": {
+        "x": 96.5336,
+        "y": 44.8922
+      }
+    }
+  ],
+  "id": 932
+}

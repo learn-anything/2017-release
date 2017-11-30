@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - neuroscience - nervous system - neurological disorders",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neurological disorders",
+      "url": "http://www.wikiwand.com/en/Neurological_disorder",
+      "fx": 233.5820312500001,
+      "fy": -190.9921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 312.3897569444456,
+      "fy": -52.74189814810188,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=52g8ci0HlDw",
+          "fx": 468.3897569444456,
+          "fy": -41.24189814810188,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "epilepsy  ️",
+      "url": "/neuroscience/nervous-system/neurological-disorders/epilepsy",
+      "fx": 184.51345811252145,
+      "fy": 71.38035264483574,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurological disorders",
+      "target": "basics",
+      "curve": {
+        "x": -2.84614,
+        "y": 67.8751
+      }
+    },
+    {
+      "source": "basics",
+      "target": "epilepsy  ️",
+      "curve": {
+        "x": -59.9381,
+        "y": 62.0611
+      }
+    }
+  ],
+  "id": 1266
+}

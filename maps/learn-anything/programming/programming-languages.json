@@ -1,0 +1,1148 @@
+{
+  "title": "learn anything - programming - programming languages",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "programming languages",
+      "url": "http://www.wikiwand.com/en/Programming_language",
+      "fx": -66.47516822814941,
+      "fy": -1416.4293051245008,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 200.89765294392873,
+      "fy": -1198.773491753472,
+      "nodes": [
+        {
+          "text": "most popular languages on github",
+          "url": "http://githut.info/",
+          "fx": 337.89765294392873,
+          "fy": -1337.273491753472,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "endangered languages",
+          "url": "https://github.com/RichardLitt/endangered-languages",
+          "fx": 337.89765294392873,
+          "fy": -1303.273491753472,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "esoteric programming languages",
+          "url": "https://github.com/angrykoala/awesome-esolangs",
+          "fx": 337.89765294392873,
+          "fy": -1237.273491753472,
+          "nodes": [
+            {
+              "text": "escher",
+              "url": "https://github.com/gocircuit/escher",
+              "fx": 679.8976529439287,
+              "fy": -1263.273491753472,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(34, 205, 224, 1.0)"
+            },
+            {
+              "text": "oblivion",
+              "url": "http://obliv.me/",
+              "fx": 679.8976529439287,
+              "fy": -1223.273491753472,
+              "nodes": [],
+              "color": "rgba(34, 205, 224, 1.0)"
+            },
+            {
+              "text": "dale",
+              "url": "https://github.com/tomhrr/dale",
+              "fx": 679.8976529439287,
+              "fy": -1189.273491753472,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(34, 205, 224, 1.0)"
+            }
+          ],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "learn X in Y minutes",
+          "note": "quick reference guide for checking syntax etc for a bunch of different languages",
+          "url": "https://learnxinyminutes.com/",
+          "fx": 337.89765294392873,
+          "fy": -1149.273491753472,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "programming languages influence network",
+          "url": "https://exploringdata.github.io/vis/programming-languages-influence-network/",
+          "fx": 337.89765294392873,
+          "fy": -1115.273491753472,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "the programming languages beacon",
+          "url": "http://www.lextrait.com/Vincent/implementations.html",
+          "fx": 337.89765294392873,
+          "fy": -1053.273491753472,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "paradigms  ️",
+      "url": "/programming/programming-paradigms",
+      "fx": -3.512118601759312,
+      "fy": -954.9104284943431,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "multi-paradigm",
+      "url": "http://www.wikiwand.com/en/Programming_paradigm#/Multi-paradigm",
+      "fx": -375.0379047559778,
+      "fy": -636.9069551506266,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "structured",
+      "url": "http://www.wikiwand.com/en/Structured_programming",
+      "fx": 3165.398648648649,
+      "fy": -608.3164766328832,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "stack-oriented",
+      "url": "http://www.wikiwand.com/en/Stack-oriented_programming_language",
+      "fx": 2707.336542719354,
+      "fy": -606.4720156886304,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "scripting",
+      "url": "http://www.wikiwand.com/en/Scripting_language",
+      "fx": 2523.355411022141,
+      "fy": -605.3268229166787,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "functional  ️",
+      "url": "/programming/programming-paradigms/functional-programming",
+      "fx": 809.6598320544631,
+      "fy": -603.8411650321852,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "logic programming  ️",
+      "url": "/programming/programming-paradigms/logic-programming",
+      "fx": 2237.0260951753053,
+      "fy": -601.9981979610167,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "object based",
+      "url": "http://www.wikiwand.com/en/Object-based_language",
+      "fx": 2937.781834892524,
+      "fy": -601.2296958556161,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "object oriented  ️",
+      "url": "/programming/programming-paradigms/object-oriented",
+      "fx": 1524.5800843292004,
+      "fy": -597.0049953861964,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "objective c  ️",
+      "note": "general purpose, object oriented, implemented smalltalk-style messaging",
+      "url": "/programming/programming-languages/objective-c",
+      "fx": 1974.9147128401128,
+      "fy": -485.7837677001953,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "scala  ️",
+      "note": "general purpose, functional with strong static type system, compiles to Java bytecode",
+      "url": "/programming/programming-languages/scala",
+      "fx": 839.9881744384766,
+      "fy": -484.9552001953125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "smalltalk  ️",
+      "note": "object oriented, dynamically typed, reflective, created for educational use",
+      "url": "/programming/programming-languages/smalltalk",
+      "fx": 1795.8252295627026,
+      "fy": -484.90588274572656,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "php  ️",
+      "note": "server side scripting designed primarily for webdev, can be embedded into HTML",
+      "url": "/programming/programming-languages/php",
+      "fx": 2172.9971103010503,
+      "fy": -484.6382141113281,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "erlang  ️",
+      "note": "general purpose, concurrent, functional with a garbage collected runtime system",
+      "url": "/programming/programming-languages/erlang",
+      "fx": 522.7909545898438,
+      "fy": -484.0111389160156,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "processing  ️",
+      "note": "language and IDE built for electric arts and visual design with educational purpose",
+      "url": "/programming/programming-languages/processing",
+      "fx": 1593.5452880859375,
+      "fy": -481.6809310913086,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "clojure  ️",
+      "note": "general purpose with emphasis on functional programming, runs on jam ,clr and js engine, treats code as data and has a macro system",
+      "url": "/programming/programming-languages/clojure",
+      "fx": 679.8660888671875,
+      "fy": -481.40135192871094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "elixir  ️",
+      "note": "functional, concurrent, general purpose, runs on erlang virtual machine, builds on top of erlang and shares same abstractions",
+      "url": "/programming/programming-languages/elixir",
+      "fx": 381.6532669067383,
+      "fy": -480.58470153808594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "haskell  ️",
+      "note": "general purpose, purely functional with non strict semantics and strong static typing",
+      "url": "/programming/programming-languages/haskell",
+      "fx": 988.1120300292969,
+      "fy": -479.7981872558594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "swift  ️",
+      "note": "general purpose, multi paradigm and compiled",
+      "url": "/programming/programming-languages/swift",
+      "fx": 101.78646087646484,
+      "fy": -479.516357421875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rust  ️",
+      "note": "general purpose, designed to be safe, concurrent and practical, supporting functional and imperative-procedural paradigms",
+      "url": "/programming/programming-languages/rust",
+      "fx": 244.88877868652344,
+      "fy": -479.42930603027344,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "go  ️",
+      "note": "compiled, statically typed with garbage collection, limited structural typing and memory safety features with focus great concurrency features",
+      "url": "/programming/programming-languages/go",
+      "fx": -23.302322387695312,
+      "fy": -477.6321258544922,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "prolog  ️",
+      "url": "/programming/programming-languages/prolog",
+      "fx": 2316.1546252725548,
+      "fy": -476.3185218627866,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "agda  ️",
+      "url": "/programming/programming-languages/agda",
+      "fx": 1285.3913269042969,
+      "fy": -476.23487854003906,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "elm  ️",
+      "note": "domain specific for declaratively creating web browser based GUI, purely functional with emphasis on usability, performance and robustness",
+      "url": "/programming/programming-languages/elm",
+      "fx": 1151.2477416992188,
+      "fy": -476.1424102783203,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "javascript  ️",
+      "note": "high level, dynamic, untyped and interpreted, prototype based with first class functions, making it a multi paradigm language",
+      "url": "/programming/programming-languages/javascript",
+      "fx": -210.29660415649414,
+      "fy": -474.9492492675781,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "groovy  ️",
+      "note": "object oriented, dynamic, can be used as a scripting language for the java platform, dynamically compiled to jvm bytecode",
+      "url": "/programming/programming-languages/groovy",
+      "fx": 1405.6140952276828,
+      "fy": -474.7750236344773,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "visual basic  ️",
+      "url": "/programming/programming-languages/visual-basic",
+      "fx": 2958.941716269842,
+      "fy": -474.254154265873,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "brainfuck  ️",
+      "url": "/programming/programming-languages/brainfuck",
+      "fx": 3183.6587357955805,
+      "fy": -474.2244318181861,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "forth  ️",
+      "url": "/programming/programming-languages/forth",
+      "fx": 2755.5654196805544,
+      "fy": -473.79166666666583,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "pascal  ️",
+      "url": "/programming/programming-languages/pascal",
+      "fx": 3353.382007312727,
+      "fy": -473.71831756745314,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "c++  ️",
+      "note": "imperative, object oriented and generic with low level memory manipulation",
+      "url": "/programming-languages/c--",
+      "fx": -904.8773498535156,
+      "fy": -473.6368408203125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "c  ️",
+      "note": "imperative, procedural and compiled, low level access to memory",
+      "url": "/programming-languages/c",
+      "fx": -1017.7328796386719,
+      "fy": -471.73582458496094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "kotlin  ️",
+      "note": "statically typed, runs on jvm, can be compiled to javascript source code",
+      "url": "/programming/programming-languages/kotlin",
+      "fx": -358.7239532470703,
+      "fy": -471.593994140625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ruby  ️",
+      "note": "dynamic, reflective, object oriented, general purpose",
+      "url": "/programming/programming-languages/ruby",
+      "fx": -1158.6369934082031,
+      "fy": -470.62498474121094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "applescript  ️",
+      "note": "scripting language created by Apple to do inter-application communication using AppleEvents",
+      "url": "/programming/programming-languages/applescript",
+      "fx": 2515.9581088361992,
+      "fy": -470.4658453525641,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "python  ️",
+      "note": "high level, general purpose, interpreted emphasising code readability ",
+      "url": "/programming/programming-languages/python",
+      "fx": -660.6194000244141,
+      "fy": -467.91204833984375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "r  ️",
+      "note": "language and software environment for statistical computing and graphics",
+      "url": "/programming/programming-languages/r",
+      "fx": -767.8636169433594,
+      "fy": -467.61305236816406,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lisp  ️",
+      "note": "originally created as mathematical notation for computer programs, was used in AI research, linked lists are one of lisp’s major data structures and lisp source code is made of lists thus allowing to manipulate source code as a data structure",
+      "url": "/programming/programming-languages/lisp",
+      "fx": -1289.9074401855469,
+      "fy": -466.28416442871094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "java  ️",
+      "note": "concurrent, class based, object oriented, compiles to byte code to be ran on JVM",
+      "url": "/programming/programming-languages/java",
+      "fx": -496.5584487915039,
+      "fy": -465.74461364746094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "nim  ️",
+      "url": "/programming/programming-languages/nim",
+      "fx": -1397.9539489746094,
+      "fy": -465.1115264892578,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "julia  ️",
+      "note": "high level, dynamic, designed to address needs of high performance numerical analysis and computational science",
+      "url": "/programming/programming-languages/julia",
+      "fx": -1532.9818115234375,
+      "fy": -464.97755432128906,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "perl  ️",
+      "note": "general purpose, interpreted, dynamic powerful text processing",
+      "url": "/programming/programming-languages/perl",
+      "fx": -1668.110595703125,
+      "fy": -462.49998474121094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "matlab  ️",
+      "url": "/programming/programming-languages/matlab",
+      "fx": -1805.2400512695312,
+      "fy": -459.372314453125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lua  ️",
+      "note": "lightweight, multi-paradigm designed for embedded systems and clients",
+      "url": "/programming/programming-languages/lua",
+      "fx": -2242.473175048828,
+      "fy": -458.8884582519531,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "c#  ️",
+      "note": "strong typed, imperative, declarative, functional, generic, object oriented and component oriented",
+      "url": "/programming/programming-languages/c-sharp",
+      "fx": -1928.8876037597656,
+      "fy": -458.38873291015625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "assembly  ️",
+      "note": "low level, very strong correspondence between the language and architecture’s machine code instructions",
+      "url": "/programming/programming-languages/assembly",
+      "fx": -2115.417999267578,
+      "fy": -457.90625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dart  ️",
+      "note": "general purpose, object oriented, class defined, single inheritance",
+      "url": "/programming/programming-languages/dart",
+      "fx": -2380.5488891601562,
+      "fy": -457.33335876464844,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "OCaml  ️",
+      "note": "extends caml language with object oriented programming constructs",
+      "url": "/programming/programming-languages/ocaml",
+      "fx": -2544.6455078125,
+      "fy": -456.25608825683594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "crystal  ️",
+      "note": "general purpose, object oriented, statically type checked with implementation of advanced global type inference",
+      "url": "/programming/programming-languages/crystal",
+      "fx": -2951.5242919921875,
+      "fy": -455.47560119628906,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "d  ️",
+      "note": "object oriented, imperative, multi paradigm system programming language",
+      "url": "/programming/programming-languages/d",
+      "fx": -2791.849365234375,
+      "fy": -453.6266174316406,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "SQL  ️",
+      "url": "/programming/programming-languages/sql",
+      "fx": -3073.090542074022,
+      "fy": -453.2031904678771,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fortran  ️",
+      "url": "/programming/programming-languages/fortran",
+      "fx": -2678.7464599609375,
+      "fy": -452.69712829589844,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "F#  ️",
+      "url": "/programming/programming-languages/f-sharp",
+      "fx": -3172.8813806988105,
+      "fy": -448.49566164871715,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "frege  ️",
+      "url": "/programming/programming-languages/frege",
+      "fx": 920.0952443741226,
+      "fy": -377.21864011954744,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "typescript  ️",
+      "note": "- good understanding of javascript is helpful as typescript is superset of javascript",
+      "url": "/programming/programming-languages/typescript",
+      "fx": -279.3278377784917,
+      "fy": -375.461739509097,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "coq  ️",
+      "note": "interactive theorem prover, allows expression of mathematical assertions, mechanically checks proofs of these assertions and helps find formal proofs",
+      "url": "/programming/programming-languages/coq",
+      "fx": 1072.8157742580688,
+      "fy": -372.2366747894923,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "solidity  ️",
+      "url": "/programming/programming-languages/solidity",
+      "fx": 1532.361694868995,
+      "fy": -368.12343067685606,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "racket  ️",
+      "url": "/programming/programming-languages/racket",
+      "fx": -1361.2065802680117,
+      "fy": -356.37186686197924,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "scheme  ️",
+      "url": "/programming/programming-languages/scheme",
+      "fx": -1220.9019410438095,
+      "fy": -355.1891913659799,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "purescript  ️",
+      "url": "/programming/programming-languages/purescript",
+      "fx": 597.4701740674327,
+      "fy": -340.4003947647309,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "idris  ️",
+      "note": "general purpose, purely functional with dependent types, supports interactive theorem proving",
+      "url": "/programming/programming-languages/idris",
+      "fx": 801.8128390842012,
+      "fy": -306.6431342230903,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "paradigms  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -175.512,
+        "y": 159.002
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 404.335,
+        "y": 175.534
+      }
+    },
+    {
+      "source": "python  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 154.04,
+        "y": -85.7475
+      }
+    },
+    {
+      "source": "java  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 78.761,
+        "y": -86.8311
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -76.8708,
+        "y": -82.2288
+      }
+    },
+    {
+      "source": "typescript  ️",
+      "target": "javascript  ️",
+      "curve": {
+        "x": 27.2657,
+        "y": -49.7438
+      }
+    },
+    {
+      "source": "go  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -154.868,
+        "y": -80.8874
+      }
+    },
+    {
+      "source": "swift  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -221.913,
+        "y": -79.9453
+      }
+    },
+    {
+      "source": "rust  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -291.714,
+        "y": -79.9888
+      }
+    },
+    {
+      "source": "scala  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -458.795,
+        "y": -99.1784
+      }
+    },
+    {
+      "source": "scala  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -12.4145,
+        "y": -60.693
+      }
+    },
+    {
+      "source": "r  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 131.919,
+        "y": -81.3297
+      }
+    },
+    {
+      "source": "c++  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 154.016,
+        "y": -69.3385
+      }
+    },
+    {
+      "source": "c  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 154.195,
+        "y": -72.1676
+      }
+    },
+    {
+      "source": "programming languages",
+      "target": "paradigms  ️",
+      "curve": {
+        "x": 0.481525,
+        "y": 230.76
+      }
+    },
+    {
+      "source": "kotlin  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 6.84312,
+        "y": -83.9065
+      }
+    },
+    {
+      "source": "elixir  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -298.439,
+        "y": -82.349
+      }
+    },
+    {
+      "source": "erlang  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": -327.046,
+        "y": -77.8189
+      }
+    },
+    {
+      "source": "erlang  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 101.258,
+        "y": -63.958
+      }
+    },
+    {
+      "source": "elixir  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 182.675,
+        "y": -94.1874
+      }
+    },
+    {
+      "source": "haskell  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -82.9761,
+        "y": -62.0215
+      }
+    },
+    {
+      "source": "clojure  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 71.8968,
+        "y": -61.2199
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": 940.672,
+        "y": 179.157
+      }
+    },
+    {
+      "source": "ruby  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 228.017,
+        "y": -86.6722
+      }
+    },
+    {
+      "source": "elm  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -157.295,
+        "y": -63.8493
+      }
+    },
+    {
+      "source": "lisp  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 260.293,
+        "y": -113.632
+      }
+    },
+    {
+      "source": "nim  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 287.582,
+        "y": -124.892
+      }
+    },
+    {
+      "source": "julia  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 414.163,
+        "y": -155.812
+      }
+    },
+    {
+      "source": "idris  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -33.5028,
+        "y": -156.119
+      }
+    },
+    {
+      "source": "perl  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 330.972,
+        "y": -106.067
+      }
+    },
+    {
+      "source": "processing  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": -32.7326,
+        "y": -58.9121
+      }
+    },
+    {
+      "source": "smalltalk  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": -123.227,
+        "y": -57.2996
+      }
+    },
+    {
+      "source": "objective c  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": -153.471,
+        "y": -61.1526
+      }
+    },
+    {
+      "source": "matlab  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 404.384,
+        "y": -137.613
+      }
+    },
+    {
+      "source": "php  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": -241.236,
+        "y": -88.9295
+      }
+    },
+    {
+      "source": "c#  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 416.744,
+        "y": -139.018
+      }
+    },
+    {
+      "source": "assembly  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 446.752,
+        "y": -117.424
+      }
+    },
+    {
+      "source": "lua  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 511.417,
+        "y": -111.596
+      }
+    },
+    {
+      "source": "dart  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 625.039,
+        "y": -172.218
+      }
+    },
+    {
+      "source": "OCaml  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 585.804,
+        "y": -153.404
+      }
+    },
+    {
+      "source": "help",
+      "target": "programming languages",
+      "curve": {
+        "x": -81.1864,
+        "y": -107.578
+      }
+    },
+    {
+      "source": "fortran  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 625.492,
+        "y": -189.204
+      }
+    },
+    {
+      "source": "lisp  ️",
+      "target": "racket  ️",
+      "curve": {
+        "x": -35.6496,
+        "y": 54.9561
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "logic programming  ️",
+      "curve": {
+        "x": 1182.3,
+        "y": 139.968
+      }
+    },
+    {
+      "source": "logic programming  ️",
+      "target": "prolog  ️",
+      "curve": {
+        "x": 4.56426,
+        "y": 61.5898
+      }
+    },
+    {
+      "source": "coq  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -41.3293,
+        "y": -156.29
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "scripting",
+      "curve": {
+        "x": 1756.34,
+        "y": 116.091
+      }
+    },
+    {
+      "source": "scripting",
+      "target": "applescript  ️",
+      "curve": {
+        "x": -5.19865,
+        "y": 66.1805
+      }
+    },
+    {
+      "source": "agda  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": -176.572,
+        "y": -70.057
+      }
+    },
+    {
+      "source": "d  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 865.488,
+        "y": -240.283
+      }
+    },
+    {
+      "source": "crystal  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 729.005,
+        "y": -154.322
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "stack-oriented",
+      "curve": {
+        "x": 1935.98,
+        "y": 95.7097
+      }
+    },
+    {
+      "source": "stack-oriented",
+      "target": "forth  ️",
+      "curve": {
+        "x": -5.13556,
+        "y": 65.0902
+      }
+    },
+    {
+      "source": "SQL  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 859.793,
+        "y": -233.14
+      }
+    },
+    {
+      "source": "F#  ️",
+      "target": "multi-paradigm",
+      "curve": {
+        "x": 776.795,
+        "y": -231.601
+      }
+    },
+    {
+      "source": "groovy  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": 64.233,
+        "y": -62.365
+      }
+    },
+    {
+      "source": "solidity  ️",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": -21.4538,
+        "y": -120.017
+      }
+    },
+    {
+      "source": "lisp  ️",
+      "target": "scheme  ️",
+      "curve": {
+        "x": 31.2527,
+        "y": 54.2975
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "object based",
+      "curve": {
+        "x": 2117.96,
+        "y": 99.4966
+      }
+    },
+    {
+      "source": "object based",
+      "target": "visual basic  ️",
+      "curve": {
+        "x": -0.170059,
+        "y": 62.2378
+      }
+    },
+    {
+      "source": "paradigms  ️",
+      "target": "structured",
+      "curve": {
+        "x": 2062.09,
+        "y": 34.2941
+      }
+    },
+    {
+      "source": "structured",
+      "target": "brainfuck  ️",
+      "curve": {
+        "x": -0.369956,
+        "y": 65.796
+      }
+    },
+    {
+      "source": "purescript  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 25.0234,
+        "y": -204.095
+      }
+    },
+    {
+      "source": "structured",
+      "target": "pascal  ️",
+      "curve": {
+        "x": 92.2437,
+        "y": 64.6703
+      }
+    },
+    {
+      "source": "frege  ️",
+      "target": "functional  ️",
+      "curve": {
+        "x": 9.43334,
+        "y": -131.952
+      }
+    }
+  ],
+  "id": 1665
+}

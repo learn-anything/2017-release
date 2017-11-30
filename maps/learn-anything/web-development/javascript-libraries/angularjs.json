@@ -1,0 +1,94 @@
+{
+  "title": "learn anything - web development - javascript libraries - angularjs",
+  "tag": "angularJS",
+  "nodes": [
+    {
+      "text": "angularJS",
+      "url": "https://angularjs.org/",
+      "fx": -83.0150327751818,
+      "fy": -160.05920625649418,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/angularjs/",
+          "fx": 105.9849672248182,
+          "fy": -188.55920625649418,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/angular/angular.js",
+          "fx": 105.9849672248182,
+          "fy": -148.55920625649418,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/gianarb/awesome-angularjs",
+          "fx": 105.9849672248182,
+          "fy": -108.55920625649418,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 31.611308231532007,
+      "fy": -44.16718585914538,
+      "nodes": [
+        {
+          "text": "angularJS learning",
+          "url": "https://github.com/jmcunningham/AngularJS-Learning",
+          "fx": 168.611308231532,
+          "fy": -32.66718585914538,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -76.91026577102787,
+      "fy": 56.99510806074761,
+      "nodes": [
+        {
+          "text": "1. angular basics",
+          "url": "http://www.angularjsbook.com/angular-basics/chapters/",
+          "fx": 79.08973422897213,
+          "fy": 68.49510806074761,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "angularJS",
+      "curve": {
+        "x": -44.3131,
+        "y": -57.946
+      }
+    },
+    {
+      "source": "angularJS",
+      "target": "basics",
+      "curve": {
+        "x": -5.19762,
+        "y": 108.527
+      }
+    }
+  ],
+  "id": 1882
+}

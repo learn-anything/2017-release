@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - operating systems - windows - windows server",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "windows server",
+      "url": "http://www.wikiwand.com/en/Windows_Server",
+      "fx": 23.316226959228516,
+      "fy": -106.78289794921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 75.7109375,
+      "fy": 31.26171875,
+      "nodes": [
+        {
+          "text": "1. understanding windows server editions",
+          "url": "https://www.youtube.com/watch?v=OlUhfSRolIw",
+          "fx": 231.7109375,
+          "fy": 14.76171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. windows server training",
+          "url": "https://www.microsoft.com/en-us/learning/windows-server-training.aspx",
+          "fx": 231.7109375,
+          "fy": 76.76171875,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "active directory  ️",
+      "url": "/operating-systems/windows/windows-server/active-directory",
+      "fx": -110.0773069371727,
+      "fy": 165.8451407067795,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "windows server",
+      "target": "basics",
+      "curve": {
+        "x": -1.80264,
+        "y": 67.7723
+      }
+    },
+    {
+      "source": "basics",
+      "target": "active directory  ️",
+      "curve": {
+        "x": -73.1441,
+        "y": 67.2917
+      }
+    }
+  ],
+  "id": 1311
+}

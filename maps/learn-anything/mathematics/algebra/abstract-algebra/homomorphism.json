@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - homomorphism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "homomorphism",
+      "url": "http://www.wikiwand.com/en/Homomorphism",
+      "fx": -61.19140625,
+      "fy": -116.46875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -4.09375,
+      "fy": 4,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=cYzp5IWqCsg",
+          "fx": 151.90625,
+          "fy": 15.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "isomorphism  ️",
+      "url": "/mathematics/algebra/abstract-algebra/homomorphism/isomorphism",
+      "fx": -137.20301418439692,
+      "fy": 116.25759086881715,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "homomorphism",
+      "target": "basics",
+      "curve": {
+        "x": 0.0488281,
+        "y": 58.9844
+      }
+    },
+    {
+      "source": "basics",
+      "target": "isomorphism  ️",
+      "curve": {
+        "x": -51.8046,
+        "y": 56.1288
+      }
+    }
+  ],
+  "id": 832
+}

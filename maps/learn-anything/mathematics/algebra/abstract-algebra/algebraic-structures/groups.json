@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "groups",
+      "url": "http://www.wikiwand.com/en/Group_(mathematics)",
+      "fx": 51.39711387283728,
+      "fy": -54.88587146655465,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 64.84539997713523,
+      "fy": 67.54627385825233,
+      "nodes": [
+        {
+          "text": "1. definition of a group",
+          "url": "https://www.youtube.com/watch?v=QudbrUcVPxk",
+          "fx": 220.84539997713523,
+          "fy": 48.046273858252334,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. motivation for the definition of a group",
+          "url": "https://www.youtube.com/watch?v=yHq_yzYZV6U",
+          "fx": 220.84539997713523,
+          "fy": 88.04627385825233,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "group theory  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory",
+      "fx": -14.150533722361047,
+      "fy": 196.74704841356618,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "groups",
+      "target": "basics",
+      "curve": {
+        "x": -1.77586,
+        "y": 59.9661
+      }
+    },
+    {
+      "source": "basics",
+      "target": "group theory  ️",
+      "curve": {
+        "x": -24.998,
+        "y": 64.6004
+      }
+    }
+  ],
+  "id": 824
+}

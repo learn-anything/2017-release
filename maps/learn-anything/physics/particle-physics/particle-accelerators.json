@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - physics - particle physics - particle accelerators",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "particle accelerators",
+      "url": "http://www.wikiwand.com/en/Particle_accelerator",
+      "fx": 43.8984375,
+      "fy": -434.9765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 111.49609375,
+      "fy": -269.375,
+      "nodes": [
+        {
+          "text": "1. how particle accelerators work",
+          "url": "https://www.youtube.com/watch?v=ZEc7r3rjNlk",
+          "fx": 274.49609375,
+          "fy": -269.375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "collider",
+      "url": "http://www.wikiwand.com/en/Collider",
+      "fx": -11.962890625,
+      "fy": -140.404296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Large Hadron Collider  ️",
+      "url": "/physics/particle-physics/particle-accelerators/large-hadron-collider",
+      "fx": -136.11746028282107,
+      "fy": -17.728875698324032,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "particle accelerators",
+      "target": "basics",
+      "curve": {
+        "x": 0.0488281,
+        "y": 82.8008
+      }
+    },
+    {
+      "source": "basics",
+      "target": "collider",
+      "curve": {
+        "x": -52.4795,
+        "y": 65.2354
+      }
+    },
+    {
+      "source": "collider",
+      "target": "Large Hadron Collider  ️",
+      "curve": {
+        "x": -33.3273,
+        "y": 60.5877
+      }
+    }
+  ],
+  "id": 1513
+}

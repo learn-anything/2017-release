@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - space science - astronomy - universe - big bang - metric expansion of space",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "metric expansion of space",
+      "url": "http://www.wikiwand.com/en/Metric_expansion_of_space",
+      "fx": -33.748851846765774,
+      "fy": -551.7540430139612,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 192.61703572646934,
+      "fy": -406.95667874295765,
+      "nodes": [
+        {
+          "text": "by guessing the rate of the expansion of the universe, do we know how big the unobservable universe is?",
+          "url": "https://www.reddit.com/r/askscience/comments/5sdyes/by_guessing_the_rate_of_the_expansion_of_the/",
+          "fx": 391.61703572646934,
+          "fy": -477.45667874295765,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "are photons taking longer to travel due to expansion of universe?",
+          "url": "https://www.reddit.com/r/askscience/comments/462o0f/are_photons_taking_longer_to_travel_due_to/",
+          "fx": 391.61703572646934,
+          "fy": -361.45667874295765,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 45.38880425912362,
+      "fy": -202.65377157705814,
+      "nodes": [
+        {
+          "text": "1. do we expand with the universe?",
+          "url": "https://www.youtube.com/watch?v=th_9ZR2I0_w",
+          "fx": 208.38880425912362,
+          "fy": -236.15377157705814,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is the universe expanding into?",
+          "url": "https://www.youtube.com/watch?v=80wFCwlavmg",
+          "fx": 208.38880425912362,
+          "fy": -169.15377157705814,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "metric expansion of space",
+      "target": "basics",
+      "curve": {
+        "x": -19.4312,
+        "y": 173.8
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "metric expansion of space",
+      "curve": {
+        "x": -63.1829,
+        "y": -71.6487
+      }
+    }
+  ],
+  "id": 1831
+}

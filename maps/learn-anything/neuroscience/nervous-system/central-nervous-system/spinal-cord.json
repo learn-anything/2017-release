@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - nervous system - central nervous system - spinal cord",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spinal cord",
+      "url": "http://www.wikiwand.com/en/Spinal_cord",
+      "fx": -64.06602478027344,
+      "fy": -122.51137733459473,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.38719189167023,
+      "fy": 3.0209741592407227,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=KnD16gwpCz8",
+          "fx": 109.61280810832977,
+          "fy": 14.520974159240723,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "spinal cord",
+      "target": "basics",
+      "curve": {
+        "x": -1.41058,
+        "y": 62.7662
+      }
+    }
+  ],
+  "id": 1259
+}

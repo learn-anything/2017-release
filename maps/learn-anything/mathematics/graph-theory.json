@@ -1,0 +1,119 @@
+{
+  "title": "learn anything - mathematics - graph theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "graph theory",
+      "url": "http://www.wikiwand.com/en/Graph_theory",
+      "fx": -65.8744081439396,
+      "fy": -291.07978219696975,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 62.2349740223483,
+      "fy": -185.2932424568731,
+      "nodes": [
+        {
+          "text": "notes on graph analysis  ️",
+          "url": "http://frnsys.com/ai_notes/scratch/graph%20analysis.html",
+          "fx": 199.2349740223483,
+          "fy": -201.7932424568731,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "basic graph theory definitions and notation",
+          "url": "https://webdocs.cs.ualberta.ca/~stewart/c672/Definitions.pdf",
+          "fx": 199.2349740223483,
+          "fy": -161.7932424568731,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -55.999657435830045,
+      "fy": -5.839242869913676,
+      "nodes": [
+        {
+          "text": "1. graph notes  ️",
+          "url": "http://frnsys.com/ai_notes/foundations/graphs.html",
+          "fx": 126.00034256416996,
+          "fy": -76.33924286991368,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. intro to graph theory",
+          "url": "http://www.redblobgames.com/pathfinding/grids/graphs.html",
+          "fx": 126.00034256416996,
+          "fy": -36.339242869913676,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. gentle introduction to graph theory  ️",
+          "url": "https://dev.to/vaidehijoshi/a-gentle-introduction-to-graph-theory",
+          "fx": 126.00034256416996,
+          "fy": 3.660757130086324,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. unifying theory and experiment for large-scale networks",
+          "url": "https://simons.berkeley.edu/workshops/schedule/77",
+          "fx": 126.00034256416996,
+          "fy": 65.66075713008632,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "graphs  ️",
+      "url": "/mathematics/graph-theory/graphs",
+      "fx": -174.31050097911213,
+      "fy": 144.97992819843364,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "graph theory",
+      "target": "basics",
+      "curve": {
+        "x": -16.5626,
+        "y": 141.37
+      }
+    },
+    {
+      "source": "help",
+      "target": "graph theory",
+      "curve": {
+        "x": -37.8047,
+        "y": -51.6433
+      }
+    },
+    {
+      "source": "basics",
+      "target": "graphs  ️",
+      "curve": {
+        "x": -57.1554,
+        "y": 76.6596
+      }
+    }
+  ],
+  "id": 971
+}

@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders - anxiety",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "anxiety disorder",
+      "url": "http://www.wikiwand.com/en/Anxiety_disorder",
+      "fx": 13.92928695678711,
+      "fy": -126.26485550403595,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 63.17737578732215,
+      "fy": 43.717216187014344,
+      "nodes": [
+        {
+          "text": "1. OCD &amp; anxiety disorders",
+          "url": "https://www.youtube.com/watch?v=aX7jnVXXG5o",
+          "fx": 219.17737578732215,
+          "fy": 4.217216187014344,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. Alan Watts - how to remove anxiety",
+          "url": "https://www.youtube.com/watch?v=t5qtrhE6Fmg",
+          "fx": 219.17737578732215,
+          "fy": 44.217216187014344,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. Alan Watts on anxiety",
+          "url": "https://www.youtube.com/watch?v=DtwTjlJjZeg",
+          "fx": 219.17737578732215,
+          "fy": 106.21721618701434,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "anxiety disorder",
+      "target": "basics",
+      "curve": {
+        "x": -3.87596,
+        "y": 83.7411
+      }
+    }
+  ],
+  "id": 1168
+}

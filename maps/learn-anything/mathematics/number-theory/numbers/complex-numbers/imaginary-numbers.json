@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - complex numbers - imaginary numbers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "imaginary numbers",
+      "url": "http://www.wikiwand.com/en/Imaginary_number",
+      "fx": -123.734375,
+      "fy": -172.6015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. imaginary numbers are real: part I",
+          "url": "https://www.youtube.com/watch?v=T647CGsuOVU",
+          "fx": 112,
+          "fy": -35.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. imaginary numbers are real: part II",
+          "url": "https://www.youtube.com/watch?v=2HrSG0fdxLY",
+          "fx": 112,
+          "fy": 31.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "imaginary numbers",
+      "target": "basics",
+      "curve": {
+        "x": -2.63281,
+        "y": 84.5508
+      }
+    }
+  ],
+  "id": 1041
+}

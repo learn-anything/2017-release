@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis - residue theorem",
+  "tag": "Residue theorem",
+  "nodes": [
+    {
+      "text": "Residue theorem",
+      "url": "http://www.wikiwand.com/en/Residue_theorem",
+      "fx": 23.609375,
+      "fy": -279.578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 87.3399493243245,
+      "fy": -114.96174818752911,
+      "nodes": [
+        {
+          "text": "1.  Residues  and Cauchy's Residue Theorem",
+          "url": "https://www.youtube.com/watch?v=_3p_E9jZOU8",
+          "fx": 250.3399493243245,
+          "fy": -114.96174818752911,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Residue theorem",
+      "target": "basics",
+      "curve": {
+        "x": -2.38471,
+        "y": 81.5582
+      }
+    }
+  ],
+  "id": 859
+}

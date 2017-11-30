@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - neuroscience - human brain - neurotransmitters",
+  "tag": "neuroransmitters",
+  "nodes": [
+    {
+      "text": "neurotransmitters",
+      "url": "http://www.wikiwand.com/en/Neurotransmitter",
+      "fx": 211.9860725402832,
+      "fy": -162.41985321044922,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 282.1015625,
+      "fy": -25.41015625,
+      "nodes": [
+        {
+          "text": "1. the chemical mind",
+          "url": "https://www.youtube.com/watch?v=W4N-7AlzK7s",
+          "fx": 438.1015625,
+          "fy": -13.91015625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "dopamine",
+      "note": "is an organic chemical of the catecholamine and phenethylamine families that plays several important roles in the brain and body  it is an amine synthesised by removing a carboxyl group from a molecule of its precursor chemical L-DOPA, which is synthesised in the brain and kidneys  it is also synthesised in plants and most multicellular animals",
+      "url": "http://www.wikiwand.com/en/Dopamine",
+      "fx": 106.92193515586177,
+      "fy": 81.7737279299132,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "serotonin",
+      "note": "is a monoamine neurotransmitter  biochemically derived from tryptophan, serotonin is primarily found in the gastrointestinal tract (GI tract), blood platelets, and the central nervous system of animals, including humans  it is popularly thought to be a contributor to feelings of well-being and happiness",
+      "url": "http://www.wikiwand.com/en/Serotonin",
+      "fx": 315.3733253479004,
+      "fy": 85.54739379882812,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurotransmitters",
+      "target": "basics",
+      "curve": {
+        "x": -3.69226,
+        "y": 67.2548
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dopamine",
+      "curve": {
+        "x": -65.5898,
+        "y": 54.8419
+      }
+    },
+    {
+      "source": "basics",
+      "target": "serotonin",
+      "curve": {
+        "x": 36.8859,
+        "y": 56.7288
+      }
+    }
+  ],
+  "id": 1253
+}

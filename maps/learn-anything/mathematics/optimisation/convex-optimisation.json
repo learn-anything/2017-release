@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - optimisation - convex optimisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "convex optimisation",
+      "url": "http://www.wikiwand.com/en/Convex_optimization",
+      "fx": 75.734375,
+      "fy": -152.33203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 149.6819196428571,
+      "fy": -3.920150162337677,
+      "nodes": [
+        {
+          "text": "1. convex optimisation",
+          "url": "https://web.stanford.edu/%7Eboyd/cvxbook/bv_cvxbook.pdf",
+          "fx": 305.6819196428571,
+          "fy": -12.420150162337677,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. context optimisation I",
+          "url": "https://see.stanford.edu/Course/EE364A",
+          "fx": 305.6819196428571,
+          "fy": 27.579849837662323,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "convex optimisation",
+      "target": "basics",
+      "curve": {
+        "x": -0.776228,
+        "y": 72.9559
+      }
+    }
+  ],
+  "id": 1055
+}

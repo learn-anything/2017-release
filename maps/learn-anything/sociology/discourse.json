@@ -1,0 +1,49 @@
+{
+  "title": "learn anything - sociology - discourse",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "discourse",
+      "url": "http://www.wikiwand.com/en/Discourse",
+      "fx": 134.4296875,
+      "fy": -275.4375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "rhetoric  ️",
+      "url": "/sociology/discourse/rhetoric",
+      "fx": 228.61328125,
+      "fy": -143.8359375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "persuasion  ️",
+      "url": "/sociology/discourse/persuasion",
+      "fx": 36.64453125,
+      "fy": -141.0390625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "discourse",
+      "target": "persuasion  ️",
+      "curve": {
+        "x": -45.8926,
+        "y": 67.1992
+      }
+    },
+    {
+      "source": "discourse",
+      "target": "rhetoric  ️",
+      "curve": {
+        "x": 33.0918,
+        "y": 65.0508
+      }
+    }
+  ],
+  "id": 1784
+}

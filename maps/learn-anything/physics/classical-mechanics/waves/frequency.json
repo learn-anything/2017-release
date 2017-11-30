@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - frequency",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "frequency",
+      "url": "http://www.wikiwand.com/en/Frequency",
+      "fx": 89.84602378731336,
+      "fy": -77.52157182835822,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 121.75637412761705,
+      "fy": 49.266223051975146,
+      "nodes": [
+        {
+          "text": "1. wave period and frequency",
+          "url": "https://www.youtube.com/watch?v=v3CvAW8BDHI",
+          "fx": 284.75637412761705,
+          "fy": 61.766223051975146,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "overtone",
+      "url": "http://www.wikiwand.com/en/Overtone",
+      "fx": -78.59913935782856,
+      "fy": 188.2538868545185,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "fundamental frequency",
+      "url": "http://www.wikiwand.com/en/Fundamental_frequency",
+      "fx": 112.01286853737133,
+      "fy": 190.701823813227,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "frequency",
+      "target": "basics",
+      "curve": {
+        "x": -0.544825,
+        "y": 62.6439
+      }
+    },
+    {
+      "source": "basics",
+      "target": "overtone",
+      "curve": {
+        "x": -86.6778,
+        "y": 70.2438
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fundamental frequency",
+      "curve": {
+        "x": 43.8782,
+        "y": 71.4678
+      }
+    }
+  ],
+  "id": 1389
+}

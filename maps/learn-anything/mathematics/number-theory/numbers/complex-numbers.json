@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - complex numbers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "complex numbers",
+      "url": "http://www.wikiwand.com/en/Complex_number",
+      "fx": 268.26916628249035,
+      "fy": -161.91460995126448,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 336.42059075342866,
+      "fy": -7.3560930365194395,
+      "nodes": [
+        {
+          "text": "1. introduction to complex numbers",
+          "url": "https://www.youtube.com/watch?v=SP-YJe7Vldo",
+          "fx": 499.42059075342866,
+          "fy": -7.3560930365194395,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "imaginary numbers  ️",
+      "url": "/mathematics/number-theory/numbers/complex-numbers/imaginary-numbers",
+      "fx": 119.10091020003881,
+      "fy": 117.65586043196856,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "complex numbers",
+      "target": "basics",
+      "curve": {
+        "x": -2.67429,
+        "y": 76.5292
+      }
+    },
+    {
+      "source": "basics",
+      "target": "imaginary numbers  ️",
+      "curve": {
+        "x": -69.6598,
+        "y": 63.256
+      }
+    }
+  ],
+  "id": 1042
+}

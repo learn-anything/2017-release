@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - mathematics - statistics - regression analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "regression analysis",
+      "url": "http://www.wikiwand.com/en/Regression_analysis",
+      "fx": -109.90285074710846,
+      "fy": -319.0055694580078,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.95349969686242,
+      "fy": -167.37508333061447,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=zPG4NjIkCjc",
+          "fx": 112.04650030313758,
+          "fy": -235.87508333061447,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction  ️",
+          "url": "http://people.duke.edu/~rnau/regintro.htm",
+          "fx": 112.04650030313758,
+          "fy": -195.87508333061447,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. linear regression explained  ️",
+          "url": "http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/",
+          "fx": 112.04650030313758,
+          "fy": -155.87508333061447,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. simple linear regression for ML  ️",
+          "url": "http://machinelearningmastery.com/simple-linear-regression-tutorial-for-machine-learning/",
+          "fx": 112.04650030313758,
+          "fy": -115.87508333061447,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. logistic regression for ML  ️",
+          "url": "http://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/",
+          "fx": 112.04650030313758,
+          "fy": -75.87508333061447,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "linear regression  ️",
+      "url": "/mathematics/statistics/regression-analysis/linear-regression",
+      "fx": -267.2999642054008,
+      "fy": 18.922786249505975,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "logistic regression  ️",
+      "url": "/mathematics/statistics/regression-analysis/logistic-regression",
+      "fx": -35.84601885464485,
+      "fy": 22.159060601570445,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "regression analysis",
+      "target": "basics",
+      "curve": {
+        "x": -2.27533,
+        "y": 74.5653
+      }
+    },
+    {
+      "source": "basics",
+      "target": "linear regression  ️",
+      "curve": {
+        "x": -82.1732,
+        "y": 94.3989
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logistic regression  ️",
+      "curve": {
+        "x": 30.0537,
+        "y": 94.7671
+      }
+    }
+  ],
+  "id": 1110
+}

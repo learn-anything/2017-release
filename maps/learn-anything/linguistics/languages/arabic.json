@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - linguistics - languages - arabic",
+  "tag": "arabic language",
+  "nodes": [
+    {
+      "text": "arabic",
+      "url": "http://www.wikiwand.com/en/Arabic",
+      "fx": 12.344640544041454,
+      "fy": -319.8832982512953,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learn_arabic/",
+          "fx": 195.34464054404145,
+          "fy": -305.8832982512953,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 11.778335492225779,
+      "fy": -201.31590025907155,
+      "nodes": [
+        {
+          "text": "1. how do I start learning arabic?",
+          "url": "https://www.reddit.com/r/learn_arabic/wiki/index",
+          "fx": 193.77833549222578,
+          "fy": -189.81590025907155,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "arabic",
+      "target": "basics",
+      "curve": {
+        "x": -7.03315,
+        "y": 58.0337
+      }
+    }
+  ],
+  "id": 716
+}

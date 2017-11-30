@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - psychology - cognitive dissonance",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cognitive dissonance",
+      "url": "http://www.wikiwand.com/en/Cognitive_dissonance",
+      "fx": 58.11718750000023,
+      "fy": -119.2578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 135.5,
+      "fy": 24,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=9Y17YaZRRvY",
+          "fx": 291.5,
+          "fy": 35.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cognitive dissonance",
+      "target": "basics",
+      "curve": {
+        "x": -1.30859,
+        "y": 70.3789
+      }
+    }
+  ],
+  "id": 1750
+}

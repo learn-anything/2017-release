@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - philosophy - spirituality - religion - paganism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "paganism",
+      "url": "http://www.wikiwand.com/en/Paganism",
+      "fx": 233.23828125,
+      "fy": -176.12890625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/pagan/",
+          "fx": 461.23828125,
+          "fy": -162.12890625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 262.3231665129165,
+      "fy": -28.17913976014131,
+      "nodes": [
+        {
+          "text": "1. what is paganism?",
+          "url": "https://www.youtube.com/watch?v=c0B-5U7kaME",
+          "fx": 425.3231665129165,
+          "fy": -15.679139760141311,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "paganism",
+      "target": "basics",
+      "curve": {
+        "x": -1.70756,
+        "y": 73.2249
+      }
+    }
+  ],
+  "id": 1354
+}

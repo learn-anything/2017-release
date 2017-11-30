@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - calculus - integral transform - laplace transform",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "laplace transform",
+      "url": "http://www.wikiwand.com/en/Laplace_transform",
+      "fx": -254.08203125,
+      "fy": -262.1171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -198.08203125,
+      "fy": -95.1484375,
+      "nodes": [
+        {
+          "text": "1. where the laplace transform comes from",
+          "url": "https://www.youtube.com/watch?v=zvbdoSeGAgI",
+          "fx": -42.08203125,
+          "fy": -114.6484375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. laplace transform explained",
+          "url": "https://www.youtube.com/watch?v=OiNh2DswFt4",
+          "fx": -42.08203125,
+          "fy": -53.144439697265625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "laplace transform",
+      "target": "basics",
+      "curve": {
+        "x": -5.5,
+        "y": 82.2344
+      }
+    }
+  ],
+  "id": 885
+}

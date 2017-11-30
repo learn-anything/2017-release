@@ -1,0 +1,87 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - ssh",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "secure shell",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Secure_Shell",
+      "fx": -110.5625,
+      "fy": -364.8046875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/moul/awesome-ssh",
+          "fx": 149.4375,
+          "fy": -350.8046875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 16.538593292236328,
+      "fy": -245.2925262451172,
+      "nodes": [
+        {
+          "text": "educational SSH client",
+          "url": "https://github.com/tetrakai/ssh_client",
+          "fx": 153.53859329223633,
+          "fy": -233.7925262451172,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 60.53515625,
+      "fy": -126.0390625,
+      "nodes": [
+        {
+          "text": "simplify your life with SSH config  ️",
+          "url": "http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/",
+          "fx": 222.53515625,
+          "fy": -156.5390625,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: using a GPG key for SSH authentication   ️",
+          "url": "http://ryanlue.com/posts/2017-06-29-gpg-for-ssh-auth",
+          "fx": 222.53515625,
+          "fy": -94.5390625,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "secure shell",
+      "curve": {
+        "x": -39.3006,
+        "y": -58.5061
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -28.2483,
+        "y": -59.6267
+      }
+    }
+  ],
+  "id": 1221
+}

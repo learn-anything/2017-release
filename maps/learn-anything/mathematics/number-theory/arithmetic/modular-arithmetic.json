@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - number theory - arithmetic - modular arithmetic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "modular arithmetic",
+      "url": "http://www.wikiwand.com/en/Modular_arithmetic",
+      "fx": -102.37890625,
+      "fy": -233.07812500000006,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -45.95703125,
+      "fy": -92.84765625,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Eg6CTCu8iio",
+          "fx": 110.04296875,
+          "fy": -81.34765625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "modular arithmetic",
+      "target": "basics",
+      "curve": {
+        "x": -9.03906,
+        "y": 68.8652
+      }
+    }
+  ],
+  "id": 1034
+}

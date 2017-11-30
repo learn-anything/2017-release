@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - square roots",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "square roots",
+      "url": "http://www.wikiwand.com/en/Square_root",
+      "fx": -92.67578125,
+      "fy": -159.60546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 10.974882756132615,
+      "fy": -28.346872745231394,
+      "nodes": [
+        {
+          "text": "17: the lost art of square roots  ️",
+          "url": "https://medium.com/i-math/how-to-find-square-roots-by-hand-f3f7cadf94bb",
+          "fx": 209.97488275613262,
+          "fy": -15.846872745231394,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "square roots",
+      "curve": {
+        "x": -37.8253,
+        "y": -64.8793
+      }
+    }
+  ],
+  "id": 1050
+}

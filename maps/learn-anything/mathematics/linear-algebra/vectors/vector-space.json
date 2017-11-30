@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space",
+  "tag": "vector spaces",
+  "nodes": [
+    {
+      "text": "vector spaces",
+      "url": "http://www.wikiwand.com/en/Vector_space",
+      "fx": -140.1928226115058,
+      "fy": -255.900729461283,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -94.95182291666663,
+      "fy": -125.34059617667447,
+      "nodes": [
+        {
+          "text": "1. what is a vector space",
+          "url": "https://www.youtube.com/watch?v=ozwodzD5bJM",
+          "fx": 68.04817708333337,
+          "fy": -112.84059617667447,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "null space  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/null-space",
+      "fx": -819.8646427175619,
+      "fy": 63.745389664246886,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dual spaces  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/dual-spaces",
+      "fx": -636.0139286890968,
+      "fy": 66.14959061662057,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "inner product space  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/inner-product-space",
+      "fx": 137.96245972097722,
+      "fy": 66.16462516784668,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "normed vector space  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/normed-vector-space",
+      "fx": -429.23238550002986,
+      "fy": 67.78021125936328,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "vector space model  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/vector-space-model",
+      "fx": -138.1655357700506,
+      "fy": 67.8249340057373,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "vector spaces",
+      "target": "basics",
+      "curve": {
+        "x": 0.620497,
+        "y": 64.0301
+      }
+    },
+    {
+      "source": "basics",
+      "target": "vector space model  ️",
+      "curve": {
+        "x": 8.64315,
+        "y": 96.5829
+      }
+    },
+    {
+      "source": "basics",
+      "target": "inner product space  ️",
+      "curve": {
+        "x": 154.457,
+        "y": 97.0029
+      }
+    },
+    {
+      "source": "basics",
+      "target": "normed vector space  ️",
+      "curve": {
+        "x": -129.89,
+        "y": 96.5609
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dual spaces  ️",
+      "curve": {
+        "x": -307.532,
+        "y": 80.0539
+      }
+    },
+    {
+      "source": "basics",
+      "target": "null space  ️",
+      "curve": {
+        "x": -433.289,
+        "y": 53.1846
+      }
+    }
+  ],
+  "id": 994
+}

@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - web development - front end - css - grid layout",
+  "tag": "CSS grid layout",
+  "nodes": [
+    {
+      "text": "CSS Grid layout",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout",
+      "fx": 116.33203125,
+      "fy": -76.98828125,
+      "nodes": []
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 259.12016575178586,
+      "fy": 36.51289967603327,
+      "nodes": [
+        {
+          "text": "17: CSS grid layout - Rachel Andrew",
+          "url": "https://www.youtube.com/watch?v=N5Lt1SLqBmQ",
+          "fx": 450.12016575178586,
+          "fy": 37.01289967603327,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.90090817214582,
+      "fy": 177.85051510796205,
+      "nodes": [
+        {
+          "text": "1. basic concepts of grid layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout",
+          "fx": 303.9009081721458,
+          "fy": 172.35051510796205,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. CSS grid changes everything",
+          "url": "https://www.youtube.com/watch?v=7kVeCqQCxlk",
+          "fx": 303.9009081721458,
+          "fy": 206.35051510796205,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "CSS Grid layout",
+      "curve": {
+        "x": -58.394,
+        "y": -56.7506
+      }
+    },
+    {
+      "source": "CSS Grid layout",
+      "target": "basics",
+      "curve": {
+        "x": -5.96556,
+        "y": 127.42
+      }
+    }
+  ],
+  "id": 1869
+}

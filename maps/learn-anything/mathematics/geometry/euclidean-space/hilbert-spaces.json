@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - geometry - euclidean space - hilbert spaces",
+  "tag": "Hilbert spaces",
+  "nodes": [
+    {
+      "text": "Hilbert spaces",
+      "url": "http://www.wikiwand.com/en/Hilbert_space",
+      "fx": 106.70703125,
+      "fy": -109.5390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 167.08708200636943,
+      "fy": 71.4934564092357,
+      "nodes": [
+        {
+          "text": "1. ELI 5: hilbert spaces",
+          "url": "https://www.reddit.com/r/Physics/comments/4skrgw/eli5_hilbert_space/d5a443k/",
+          "fx": 330.0870820063694,
+          "fy": 29.493456409235705,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. have you ever been lost in Hilbert space",
+          "url": "https://www.youtube.com/watch?v=zASzj4DkZXY",
+          "fx": 330.0870820063694,
+          "fy": 71.4934564092357,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. hilbert spaces explained",
+          "url": "https://www.youtube.com/watch?v=jWkzBaJDSmY",
+          "fx": 330.0870820063694,
+          "fy": 138.4934564092357,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Hilbert spaces",
+      "target": "basics",
+      "curve": {
+        "x": 2.44003,
+        "y": 89.7663
+      }
+    }
+  ],
+  "id": 943
+}

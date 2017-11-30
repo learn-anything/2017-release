@@ -1,0 +1,87 @@
+{
+  "title": "learn anything - web development - front end - css - css3",
+  "tag": "CSS3",
+  "nodes": [
+    {
+      "text": "CSS3",
+      "url": "https://developer.mozilla.org/en/docs/Web/CSS/CSS3",
+      "fx": 26.933270490997188,
+      "fy": -177.3967663239962,
+      "nodes": []
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 199.00100082492247,
+      "fy": -97.83551897321428,
+      "nodes": [
+        {
+          "text": "17: smooth as butter 60 FPS animations with CSS3  ️",
+          "url": "https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108",
+          "fx": 361.00100082492247,
+          "fy": -97.33551897321428,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "flexbox  ️",
+      "url": "/web-development/front-end/css/css3/flexbox",
+      "fx": -236.15105958154987,
+      "fy": 20.756083584952535,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "background and borders",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders",
+      "fx": 62.39854668090061,
+      "fy": 23.766923039596236,
+      "nodes": []
+    },
+    {
+      "text": "animations",
+      "url": "https://developer.mozilla.org/en/docs/Web/CSS/animation",
+      "fx": -87.7097182421951,
+      "fy": 25.8128367358853,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "CSS3",
+      "target": "flexbox  ️",
+      "curve": {
+        "x": -128.542,
+        "y": 99.0765
+      }
+    },
+    {
+      "source": "CSS3",
+      "target": "animations",
+      "curve": {
+        "x": -46.0715,
+        "y": 101.605
+      }
+    },
+    {
+      "source": "CSS3",
+      "target": "background and borders",
+      "curve": {
+        "x": 60.7322,
+        "y": 100.582
+      }
+    },
+    {
+      "source": "articles",
+      "target": "CSS3",
+      "curve": {
+        "x": -88.7839,
+        "y": -39.7806
+      }
+    }
+  ],
+  "id": 1868
+}

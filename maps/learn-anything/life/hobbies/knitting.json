@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - life - hobbies - knitting",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "knitting",
+      "url": "http://www.wikiwand.com/en/Knitting",
+      "fx": -64.5,
+      "fy": -213.70984738372096,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/knitting/",
+          "fx": 127.5,
+          "fy": -199.70984738372096,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 48.36251618141375,
+      "fy": -101.56555049918416,
+      "nodes": [
+        {
+          "text": "is there an order of skills to learn when starting knitting?",
+          "url": "https://www.reddit.com/r/knitting/comments/2jc3lu/is_there_an_order_of_skills_to_learn_when/",
+          "fx": 185.36251618141375,
+          "fy": -101.06555049918416,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -65.74402285731139,
+      "fy": 25.788624741310286,
+      "nodes": [
+        {
+          "text": "1. learn how to knit",
+          "url": "http://www.marthastewart.com/854324/how-knit#167547",
+          "fx": 116.25597714268861,
+          "fy": 20.288624741310286,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. beginner’s projects",
+          "url": "https://www.reddit.com/r/knitting/wiki/patternsuggestions",
+          "fx": 116.25597714268861,
+          "fy": 54.28862474131029,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "knitting",
+      "target": "basics",
+      "curve": {
+        "x": -9.62202,
+        "y": 118.499
+      }
+    },
+    {
+      "source": "help",
+      "target": "knitting",
+      "curve": {
+        "x": -42.6813,
+        "y": -54.8221
+      }
+    }
+  ],
+  "id": 686
+}

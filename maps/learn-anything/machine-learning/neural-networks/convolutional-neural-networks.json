@@ -1,0 +1,213 @@
+{
+  "title": "learn anything - machine learning - neural networks - convolutional neural networks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "convolutional neural networks",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Convolutional_neural_network",
+      "fx": 45.80948725054361,
+      "fy": -158.04048396695043,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 286.90625,
+      "fy": -21.9921875,
+      "nodes": [
+        {
+          "text": "cnn benchmarks",
+          "url": "https://github.com/jcjohnson/cnn-benchmarks",
+          "fx": 427.90625,
+          "fy": -42.9921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "convolutional neural networks assignments",
+          "url": "https://github.com/MyHumbleSelf/cs231n",
+          "fx": 427.90625,
+          "fy": -0.9921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 371.94898986816406,
+      "fy": 93.62367248535156,
+      "nodes": [
+        {
+          "text": "picasso",
+          "note": "CNN visualiser",
+          "url": "https://github.com/merantix/picasso",
+          "fx": 517.9489898681641,
+          "fy": 106.12367248535156,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 604.3579327069156,
+      "fy": 187.08031739943578,
+      "nodes": [
+        {
+          "text": "fast pixel cnn",
+          "url": "https://github.com/PrajitR/fast-pixel-cnn",
+          "fx": 803.3579327069156,
+          "fy": 199.58031739943578,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "papers",
+      "url": "",
+      "fx": 745.3731496266482,
+      "fy": 311.44037825141163,
+      "nodes": [
+        {
+          "text": "16: a guide to convolution arithmetic for deep learning",
+          "url": "https://arxiv.org/abs/1603.07285",
+          "fx": 913.3731496266482,
+          "fy": 311.44037825141163,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 112.55998544728482,
+      "fy": 342.4611545993039,
+      "nodes": [
+        {
+          "text": "1. neural network that changes everything",
+          "url": "https://www.youtube.com/watch?v=py5byOOHZM8",
+          "fx": 275.5599854472848,
+          "fy": 250.46115459930388,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. a beginner's guide to understanding convolutional neural networks  ️",
+          "url": "https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks/",
+          "fx": 275.5599854472848,
+          "fy": 317.4611545993039,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. convolutional neural networks for visual recognition",
+          "url": "http://cs231n.github.io/convolutional-networks/",
+          "fx": 275.5599854472848,
+          "fy": 409.4611545993039,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fully convolutional networks  ️",
+      "url": "/machine-learning/neural-networks/convolutional-neural-networks/fully-convolutional-networks",
+      "fx": -371.2311287100364,
+      "fy": 593.347923801366,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "deep convolutional generative adversarial networks",
+      "url": "https://arxiv.org/abs/1511.06434",
+      "fx": 3.830975381548569,
+      "fy": 579.2360618993757,
+      "nodes": [
+        {
+          "text": "TensorFlow implementation",
+          "url": "https://github.com/carpedm20/DCGAN-tensorflow",
+          "fx": 519.8309753815486,
+          "fy": 607.7360618993757,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "paper"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "convolutional neural networks",
+      "curve": {
+        "x": -61.7984,
+        "y": -60.5242
+      }
+    },
+    {
+      "source": "convolutional neural networks",
+      "target": "basics",
+      "curve": {
+        "x": -27.1248,
+        "y": 242.751
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -43.7714,
+        "y": -57.808
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "tools",
+      "curve": {
+        "x": -136.856,
+        "y": -35.3542
+      }
+    },
+    {
+      "source": "papers",
+      "target": "interesting",
+      "curve": {
+        "x": -63.0076,
+        "y": -62.18
+      }
+    },
+    {
+      "source": "basics",
+      "target": "deep convolutional generative adversarial networks",
+      "curve": {
+        "x": -0.114545,
+        "y": 124.637
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fully convolutional networks  ️",
+      "curve": {
+        "x": -190.646,
+        "y": 125.443
+      }
+    }
+  ],
+  "id": 775
+}

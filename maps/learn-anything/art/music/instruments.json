@@ -1,0 +1,129 @@
+{
+  "title": "learn anything - art - music - instruments",
+  "tag": "musical instruments",
+  "nodes": [
+    {
+      "text": "musical instruments",
+      "url": "http://www.wikiwand.com/en/List_of_musical_instruments",
+      "fx": 377.15625,
+      "fy": -190.67727726063828,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "synthesiser  ️",
+      "url": "/art/music/instruments/synthesiser",
+      "fx": 81.26929284037556,
+      "fy": -98.84301643192487,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "harmonica  ️",
+      "url": "/art/music/instruments/harmonica",
+      "fx": 732.3398437499998,
+      "fy": -95.28255208333337,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "drums  ️",
+      "url": "/art/music/instruments/drums",
+      "fx": 183.1015625,
+      "fy": -24.46484375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "guitar  ️",
+      "url": "/art/music/instruments/guitar",
+      "fx": 681.2120025645966,
+      "fy": -7.0773807604422245,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "piano  ️",
+      "url": "/art/music/instruments/piano",
+      "fx": 433.7177334415819,
+      "fy": 29.413647176664654,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ukulele  ️",
+      "url": "/art/music/instruments/ukulele",
+      "fx": 261.9905946017909,
+      "fy": 50.76624929573461,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "saxophone  ️",
+      "url": "/art/music/instruments/saxophone",
+      "fx": 591.5111620279234,
+      "fy": 68.55952806819414,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "musical instruments",
+      "target": "drums  ️",
+      "curve": {
+        "x": -109.027,
+        "y": 83.1062
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "ukulele  ️",
+      "curve": {
+        "x": -68.3328,
+        "y": 120.722
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "piano  ️",
+      "curve": {
+        "x": 14.2807,
+        "y": 110.045
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "guitar  ️",
+      "curve": {
+        "x": 138.278,
+        "y": 91.8
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "saxophone  ️",
+      "curve": {
+        "x": 105.677,
+        "y": 129.619
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "synthesiser  ️",
+      "curve": {
+        "x": -167.693,
+        "y": 45.9171
+      }
+    },
+    {
+      "source": "musical instruments",
+      "target": "harmonica  ️",
+      "curve": {
+        "x": 149.092,
+        "y": 46.4474
+      }
+    }
+  ],
+  "id": 42
+}

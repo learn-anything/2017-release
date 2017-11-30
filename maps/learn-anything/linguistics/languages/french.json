@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - linguistics - languages - french",
+  "tag": "french language",
+  "nodes": [
+    {
+      "text": "french language",
+      "url": "http://www.wikiwand.com/en/French_language",
+      "fx": -125.2542317211628,
+      "fy": -159.79037857055664,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/French/",
+          "fx": 146.7457682788372,
+          "fy": -165.79037857055664,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://french.stackexchange.com/",
+          "fx": 146.7457682788372,
+          "fy": -125.79037857055664,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 66.60679997756995,
+      "fy": -32.569226784966645,
+      "nodes": [
+        {
+          "text": "grammar and spelling checker",
+          "url": "https://bonpatron.com/en/",
+          "fx": 203.60679997756995,
+          "fy": -18.069226784966645,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -90.76174771785736,
+      "fy": 73.5976317030752,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/fr/en/Learn-French-Online",
+          "fx": 91.23825228214264,
+          "fy": 88.0976317030752,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "french language",
+      "target": "basics",
+      "curve": {
+        "x": -4.50376,
+        "y": 116.694
+      }
+    },
+    {
+      "source": "help",
+      "target": "french language",
+      "curve": {
+        "x": -62.1805,
+        "y": -62.3606
+      }
+    }
+  ],
+  "id": 724
+}

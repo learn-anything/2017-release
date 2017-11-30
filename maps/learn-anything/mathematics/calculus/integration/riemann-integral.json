@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - calculus - integration - riemann integral",
+  "tag": "Riemann integral",
+  "nodes": [
+    {
+      "text": "Riemann integral",
+      "url": "http://www.wikiwand.com/en/Riemann_integral",
+      "fx": 254.2734375,
+      "fy": -256.94140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 310.0925773326602,
+      "fy": -107.843490050085,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.math.ucdavis.edu/~hunter/m125b/ch1.pdf",
+          "fx": 473.0925773326602,
+          "fy": -116.343490050085,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. Riemann sums and integrals",
+          "url": "https://www.youtube.com/watch?v=CXCtqBlEZ7g",
+          "fx": 473.0925773326602,
+          "fy": -74.343490050085,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Riemann sum",
+      "url": "http://www.wikiwand.com/en/Riemann_sum",
+      "fx": 130.19066112716757,
+      "fy": 40.04470736994199,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Riemann integral",
+      "target": "basics",
+      "curve": {
+        "x": -4.84043,
+        "y": 73.799
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Riemann sum",
+      "curve": {
+        "x": -71.701,
+        "y": 73.9441
+      }
+    }
+  ],
+  "id": 891
+}

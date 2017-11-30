@@ -1,0 +1,378 @@
+{
+  "title": "learn anything - programming - version control - git",
+  "tag": "git version control",
+  "nodes": [
+    {
+      "text": "git",
+      "url": "http://www.wikiwand.com/en/Git",
+      "fx": -64.58334253655107,
+      "fy": -289.95347795330116,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/git/",
+          "fx": 84.41665746344893,
+          "fy": -315.95347795330116,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/git/git",
+          "fx": 84.41665746344893,
+          "fy": -275.95347795330116,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/arslanbilal/git-cheat-sheet",
+          "fx": 84.41665746344893,
+          "fy": -235.95347795330116,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 25.593950146534326,
+      "fy": -52.881737130587226,
+      "nodes": [
+        {
+          "text": "git internals",
+          "url": "https://github.com/pluralsight/git-internals-pdf",
+          "fx": 162.59395014653433,
+          "fy": -175.38173713058723,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "common git tips and tricks",
+          "url": "https://github.com/git-tips/tips",
+          "fx": 162.59395014653433,
+          "fy": -135.38173713058723,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome git addons",
+          "url": "https://github.com/stevemao/awesome-git-addons",
+          "fx": 162.59395014653433,
+          "fy": -95.38173713058723,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "git tips and tricks from CIA",
+          "url": "https://wikileaks.org/ciav7p1/cms/page_1179773.html",
+          "fx": 162.59395014653433,
+          "fy": -55.381737130587226,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "git is hard",
+          "url": "https://github.com/Nezteb/Git_Is_Hard",
+          "fx": 162.59395014653433,
+          "fy": -21.381737130587226,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "gitignore",
+          "url": "https://github.com/github/gitignore",
+          "fx": 162.59395014653433,
+          "fy": 18.618262869412774,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "become a git guru",
+          "url": "https://www.atlassian.com/git/tutorials",
+          "fx": 162.59395014653433,
+          "fy": 58.618262869412774,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "git commit style guide",
+          "url": "https://github.com/slashsBin/styleguide-git-commit-message",
+          "fx": 162.59395014653433,
+          "fy": 92.61826286941277,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 236.2861451740505,
+      "fy": 205.94996044303798,
+      "nodes": [
+        {
+          "text": "diff so fancy",
+          "url": "https://github.com/so-fancy/diff-so-fancy",
+          "fx": 378.2861451740505,
+          "fy": 197.44996044303798,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "git extras",
+          "url": "https://github.com/tj/git-extras",
+          "fx": 378.2861451740505,
+          "fy": 237.44996044303798,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 472.7826920544362,
+      "fy": 394.2325960479494,
+      "nodes": [
+        {
+          "text": "oh shit, git  ️",
+          "url": "http://ohshitgit.com/",
+          "fx": 634.7826920544362,
+          "fy": 201.73259604794941,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "better git configuration  ️",
+          "url": "https://blog.scottnonnenberg.com/better-git-configuration/",
+          "fx": 634.7826920544362,
+          "fy": 241.73259604794941,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "08: a note about git commit messages  ️",
+          "url": "http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html",
+          "fx": 634.7826920544362,
+          "fy": 281.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "12: repository integrity with signed commits  ️",
+          "url": "https://mikegerwitz.com/papers/git-horror-story",
+          "fx": 634.7826920544362,
+          "fy": 343.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "13: keep your commits atomic  ️",
+          "url": "https://www.freshconsulting.com/atomic-commits/",
+          "fx": 634.7826920544362,
+          "fy": 405.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "14: how to write a git commit message  ️",
+          "url": "https://chris.beams.io/posts/git-commit/",
+          "fx": 634.7826920544362,
+          "fy": 445.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "14: reinventing git interface  ️",
+          "url": "http://tonsky.me/blog/reinventing-git-interface/",
+          "fx": 634.7826920544362,
+          "fy": 507.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "17: little things i like to do with git  ️",
+          "url": "https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/",
+          "fx": 634.7826920544362,
+          "fy": 547.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "17: closer look at git rebase  ️",
+          "url": "https://dev.to/gonedark/a-closer-look-at-git-rebase",
+          "fx": 634.7826920544362,
+          "fy": 609.7325960479494,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -198.5053776540325,
+      "fy": 530.745806418292,
+      "nodes": [
+        {
+          "text": "1. how Git works",
+          "url": "http://gitlet.maryrosecook.com/docs/gitlet.html",
+          "fx": -16.505377654032486,
+          "fy": 417.245806418292,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. git branching",
+          "url": "http://learngitbranching.js.org/",
+          "fx": -16.505377654032486,
+          "fy": 451.245806418292,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. git game",
+          "url": "https://www.git-game.com/",
+          "fx": -16.505377654032486,
+          "fy": 491.245806418292,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1: learn git",
+          "url": "https://try.github.io/levels/1/challenges/1",
+          "fx": -16.505377654032486,
+          "fy": 525.245806418292,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. git tutorial",
+          "url": "http://www.vogella.com/tutorials/Git/article.html",
+          "fx": -16.505377654032486,
+          "fy": 559.245806418292,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. fundamentals of git",
+          "url": "https://githowto.com/setup",
+          "fx": -16.505377654032486,
+          "fy": 593.245806418292,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. learn version control with git",
+          "url": "https://www.git-tower.com/learn/git/ebook",
+          "fx": -16.505377654032486,
+          "fy": 627.245806418292,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. learn enough git to be dangerous",
+          "url": "https://www.learnenough.com/git-tutorial",
+          "fx": -16.505377654032486,
+          "fy": 667.245806418292,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(49, 187, 71, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "git hooks  ️",
+      "url": "/programming/version-control/git/git-hooks",
+      "fx": -359.0601361207148,
+      "fy": 741.5196234297248,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "GitHub  ️",
+      "url": "/programming/version-control/git/github",
+      "fx": -183.97352418099194,
+      "fy": 744.1396413804039,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "git",
+      "target": "basics",
+      "curve": {
+        "x": -65.2108,
+        "y": 409.099
+      }
+    },
+    {
+      "source": "help",
+      "target": "git",
+      "curve": {
+        "x": -42.0887,
+        "y": -117.285
+      }
+    },
+    {
+      "source": "basics",
+      "target": "GitHub  ️",
+      "curve": {
+        "x": 0.515911,
+        "y": 106.697
+      }
+    },
+    {
+      "source": "basics",
+      "target": "git hooks  ️",
+      "curve": {
+        "x": -80.5274,
+        "y": 105.387
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -168.245,
+        "y": -115.869
+      }
+    },
+    {
+      "source": "articles",
+      "target": "tools",
+      "curve": {
+        "x": -123.248,
+        "y": -94.1413
+      }
+    }
+  ],
+  "id": 1741
+}

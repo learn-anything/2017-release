@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - linguistics - morphology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "morphology",
+      "url": "http://www.wikiwand.com/en/Morphology_(linguistics)",
+      "fx": -89.05859375,
+      "fy": -168.27734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -57.671875,
+      "fy": -33.8828125,
+      "nodes": [
+        {
+          "text": "1. what is morphology?",
+          "url": "http://www.ucd.ie/artspgs/introling/Aronoffmorphology.pdf",
+          "fx": 98.328125,
+          "fy": -42.3828125,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to morphology",
+          "url": "https://www.youtube.com/watch?v=syjbhT45J14",
+          "fx": 98.328125,
+          "fy": -2.3828125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "morphology",
+      "target": "basics",
+      "curve": {
+        "x": -4.05664,
+        "y": 65.9473
+      }
+    }
+  ],
+  "id": 743
+}

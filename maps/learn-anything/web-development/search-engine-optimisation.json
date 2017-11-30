@@ -1,0 +1,136 @@
+{
+  "title": "learn anything - web development - search engine optimisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "search engine optimisation",
+      "url": "http://www.wikiwand.com/en/Search_engine_optimization",
+      "fx": -250.01522060505397,
+      "fy": -44.52025591285479,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/bigseo/",
+          "fx": 118.98477939494603,
+          "fy": -50.52025591285479,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/teles/awesome-seo",
+          "fx": 118.98477939494603,
+          "fy": -10.520255912854793,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -40.750908809958105,
+      "fy": 90.74435676648784,
+      "nodes": [
+        {
+          "text": "whiteboard friday  ️",
+          "url": "https://moz.com/blog/category/whiteboard-friday",
+          "fx": 96.2490911900419,
+          "fy": 51.24435676648784,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "SEO tools",
+          "url": "https://saijogeorge.com/best-marketing-tools/#beginners",
+          "fx": 96.2490911900419,
+          "fy": 91.24435676648784,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "webmaster guidelines",
+          "url": "https://support.google.com/webmasters/answer/35769",
+          "fx": 96.2490911900419,
+          "fy": 125.24435676648784,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "google search cheat sheet",
+          "url": "https://supple.com.au/tools/google-advanced-search-operators/",
+          "fx": 96.2490911900419,
+          "fy": 159.24435676648784,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -157.93260770631082,
+      "fy": 310.77772299757316,
+      "nodes": [
+        {
+          "text": "1. SEO beginner’s guide",
+          "url": "https://moz.com/beginners-guide-to-seo",
+          "fx": 24.06739229368918,
+          "fy": 257.27772299757316,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how search works",
+          "url": "https://www.google.com/search/howsearchworks/",
+          "fx": 24.06739229368918,
+          "fy": 291.27772299757316,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. how google works",
+          "url": "https://www.youtube.com/watch?v=iJPu4vHETXw",
+          "fx": 24.06739229368918,
+          "fy": 325.27772299757316,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. the beginner’s guide to link building",
+          "url": "https://moz.com/beginners-guide-to-link-building",
+          "fx": 24.06739229368918,
+          "fy": 365.27772299757316,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "search engine optimisation",
+      "curve": {
+        "x": -46.6322,
+        "y": -66.3823
+      }
+    },
+    {
+      "source": "search engine optimisation",
+      "target": "basics",
+      "curve": {
+        "x": -7.20869,
+        "y": 176.399
+      }
+    }
+  ],
+  "id": 1911
+}

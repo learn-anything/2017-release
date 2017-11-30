@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - programming - software development - devops - ansible",
+  "tag": "ansible automation",
+  "nodes": [
+    {
+      "text": "ansible",
+      "url": "https://github.com/ansible/ansible",
+      "fx": -67.625,
+      "fy": -296.6953125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ansible/",
+          "fx": 122.375,
+          "fy": -282.6953125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 29.413621172308922,
+      "fy": -192.81772232055664,
+      "nodes": [
+        {
+          "text": "ansible module list",
+          "url": "http://docs.ansible.com/ansible/list_of_all_modules.html",
+          "fx": 166.41362117230892,
+          "fy": -218.31772232055664,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome ansible",
+          "url": "https://github.com/jdauphant/awesome-ansible",
+          "fx": 166.41362117230892,
+          "fy": -184.31772232055664,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "ansible recipes",
+          "url": "https://github.com/gshakir/ansible-recipes",
+          "fx": 166.41362117230892,
+          "fy": -144.31772232055664,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -49.3633121997118,
+      "fy": -90.16708946228027,
+      "nodes": [
+        {
+          "text": "1. ansible tutorial",
+          "url": "https://github.com/leucos/ansible-tuto",
+          "fx": 132.6366878002882,
+          "fy": -78.66708946228027,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "ansible",
+      "curve": {
+        "x": -35.2693,
+        "y": -50.6888
+      }
+    },
+    {
+      "source": "ansible",
+      "target": "basics",
+      "curve": {
+        "x": 0.630844,
+        "y": 102.014
+      }
+    }
+  ],
+  "id": 1699
+}

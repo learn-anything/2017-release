@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum - cerebral cortex - frontal lobe",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "frontal lobe",
+      "url": "http://www.wikiwand.com/en/Frontal_lobe",
+      "fx": 121.46875,
+      "fy": -87.5625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145,
+      "fy": 63,
+      "nodes": [
+        {
+          "text": "1. anatomy and functions of the frontal lobe",
+          "url": "https://www.youtube.com/watch?v=z78fYCGR7WY",
+          "fx": 308,
+          "fy": 63,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "frontal lobe",
+      "target": "basics",
+      "curve": {
+        "x": -7.23438,
+        "y": 74.5312
+      }
+    }
+  ],
+  "id": 1242
+}

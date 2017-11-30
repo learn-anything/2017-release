@@ -1,0 +1,34 @@
+{
+  "title": "learn anything - computer graphics - digital images - vector graphics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "vector graphics",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Vector_graphics",
+      "fx": -91.80500730994163,
+      "fy": -264.91830823304923,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "scalable vector graphics  ️",
+      "url": "/computer-graphics/digital-images/vector-graphics/scalable-vector-graphics",
+      "fx": -178.83984375,
+      "fy": -128.2265625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "vector graphics",
+      "target": "scalable vector graphics  ️",
+      "curve": {
+        "x": -23.7674,
+        "y": 68.3459
+      }
+    }
+  ],
+  "id": 216
+}

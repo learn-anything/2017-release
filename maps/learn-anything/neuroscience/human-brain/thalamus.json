@@ -1,0 +1,81 @@
+{
+  "title": "learn anything - neuroscience - human brain - thalamus",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "thalamus",
+      "url": "http://www.wikiwand.com/en/Thalamus",
+      "fx": 174.63706767983354,
+      "fy": -171.2322323938659,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "hypothalamus",
+      "url": "http://www.wikiwand.com/en/Hypothalamus",
+      "fx": -123.95352664301424,
+      "fy": -16.18065518916211,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "posterior pituitary",
+      "url": "http://www.wikiwand.com/en/Posterior_pituitary",
+      "fx": 102.72381897993637,
+      "fy": -16.01363921404908,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "limbic system  ️",
+      "url": "/neuroscience/human-brain/thalamus/limbic-system",
+      "fx": 367.8722426470591,
+      "fy": -13.194393382349233,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "homeostasis  ️",
+      "url": "/biology/physiology/homeostasis",
+      "fx": -251.06341604367515,
+      "fy": 134.05968270460357,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "thalamus",
+      "target": "hypothalamus",
+      "curve": {
+        "x": -137.045,
+        "y": 77.5258
+      }
+    },
+    {
+      "source": "hypothalamus",
+      "target": "homeostasis  ️",
+      "curve": {
+        "x": -74.5549,
+        "y": 74.3702
+      }
+    },
+    {
+      "source": "thalamus",
+      "target": "posterior pituitary",
+      "curve": {
+        "x": -16.2066,
+        "y": 77.6093
+      }
+    },
+    {
+      "source": "thalamus",
+      "target": "limbic system  ️",
+      "curve": {
+        "x": 107.868,
+        "y": 79.0189
+      }
+    }
+  ],
+  "id": 1257
+}

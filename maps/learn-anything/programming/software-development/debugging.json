@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - software development - debugging",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "debugging",
+      "url": "http://www.wikiwand.com/en/Debugging",
+      "fx": -69.51953125,
+      "fy": -146.5546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -39.203125,
+      "fy": -19.37890625,
+      "nodes": [
+        {
+          "text": "1. what is debugging",
+          "url": "https://www.reddit.com/r/learnpython/comments/32bmnj/eli5_what_is_debugging/cq9t93g/",
+          "fx": 116.796875,
+          "fy": -24.87890625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how do I debug my program?",
+          "url": "http://umich.edu/~eecs381/generalFAQ/Debugging.html",
+          "fx": 116.796875,
+          "fy": 15.12109375,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "debugging",
+      "target": "basics",
+      "curve": {
+        "x": -1.8418,
+        "y": 62.3379
+      }
+    }
+  ],
+  "id": 1697
+}

@@ -1,0 +1,80 @@
+{
+  "title": "learn anything - programming - programming languages - crystal",
+  "tag": "crystal programming language",
+  "nodes": [
+    {
+      "text": "crystal",
+      "url": "http://www.wikiwand.com/en/Crystal_(programming_language)",
+      "fx": -53.16015625,
+      "fy": -278.265625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/crystal_programming/",
+          "fx": 132.83984375,
+          "fy": -324.265625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/crystal-lang/crystal",
+          "fx": 132.83984375,
+          "fy": -284.265625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/crystal",
+          "fx": 132.83984375,
+          "fy": -244.265625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/veelenga/awesome-crystal",
+          "fx": 132.83984375,
+          "fy": -204.265625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -41.249286842443894,
+      "fy": -72.00090454165422,
+      "nodes": [
+        {
+          "text": "1. crystal programming language",
+          "url": "https://crystal-lang.org/docs/",
+          "fx": 140.7507131575561,
+          "fy": -71.50090454165422,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "crystal",
+      "target": "basics",
+      "curve": {
+        "x": -1.54457,
+        "y": 101.882
+      }
+    }
+  ],
+  "id": 1585
+}

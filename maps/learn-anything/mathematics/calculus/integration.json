@@ -1,0 +1,153 @@
+{
+  "title": "learn anything - mathematics - calculus - integration",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "integration",
+      "url": "http://www.wikiwand.com/en/Integral",
+      "fx": 64.88629153584486,
+      "fy": -41.069662480376564,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 94.93515897212535,
+      "fy": 88.68265461671115,
+      "nodes": [
+        {
+          "text": "1. integration and the fundamental theorem of calculus",
+          "url": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+          "fx": 250.93515897212535,
+          "fy": 89.18265461671115,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Lebesgue integration  ️",
+      "url": "/mathematics/calculus/integration/lebesgue-integration",
+      "fx": 166.0836966323718,
+      "fy": 253.86025829479905,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "multiple integrals  ️",
+      "url": "/mathematics/calculus/integration/multiple-integrals",
+      "fx": -323.742374420166,
+      "fy": 254.09181213378906,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "integral transform",
+      "url": "http://www.wikiwand.com/en/Integral_transform",
+      "fx": -93.10693979263306,
+      "fy": 254.32902908325195,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Laplace transform  ️",
+      "fx": 442.1620278857321,
+      "fy": 256.0906014082463,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "line integrals  ️",
+      "url": "/mathematics/calculus/integration/line-integrals",
+      "fx": -510.8860898526076,
+      "fy": 260.0254570578231,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "improper integral  ️",
+      "url": "/mathematics/calculus/integration/improper-integral",
+      "fx": -980.5347456831835,
+      "fy": 261.4134877064564,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Riemann integral  ️",
+      "url": "/mathematics/calculus/integration/riemann-integral",
+      "fx": -744.3108301203997,
+      "fy": 261.7344313672437,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "Laplace transform  ️",
+      "curve": {
+        "x": 185.305,
+        "y": 80.0868
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Lebesgue integration  ️",
+      "curve": {
+        "x": 68.5741,
+        "y": 82.5888
+      }
+    },
+    {
+      "source": "basics",
+      "target": "integral transform",
+      "curve": {
+        "x": -61.7714,
+        "y": 84.0732
+      }
+    },
+    {
+      "source": "integration",
+      "target": "basics",
+      "curve": {
+        "x": -1.47557,
+        "y": 63.6262
+      }
+    },
+    {
+      "source": "basics",
+      "target": "multiple integrals  ️",
+      "curve": {
+        "x": -186.089,
+        "y": 82.7046
+      }
+    },
+    {
+      "source": "basics",
+      "target": "line integrals  ️",
+      "curve": {
+        "x": -311.065,
+        "y": 28.5708
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Riemann integral  ️",
+      "curve": {
+        "x": -519.437,
+        "y": 39.9857
+      }
+    },
+    {
+      "source": "basics",
+      "target": "improper integral  ️",
+      "curve": {
+        "x": -679.279,
+        "y": 33.6574
+      }
+    }
+  ],
+  "id": 892
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - matter - dark matter",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "dark matter",
+      "url": "http://www.wikiwand.com/en/Dark_matter",
+      "fx": 111.96875,
+      "fy": -136.81640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 234.76598743556724,
+      "fy": -31.1032135953609,
+      "nodes": [
+        {
+          "text": "askscience: dark matter",
+          "url": "https://www.reddit.com/r/askscience/search?q=dark%20matter&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 371.76598743556724,
+          "fy": -19.6032135953609,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": 148.96983730670092,
+      "fy": 94.7560405927835,
+      "nodes": [
+        {
+          "text": "1. what is dark matter and dark energy?",
+          "url": "https://www.youtube.com/watch?v=QAa2O_8wBUQ",
+          "fx": 294.9698373067009,
+          "fy": 95.2560405927835,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dark matter",
+      "target": "basis",
+      "curve": {
+        "x": -2.99946,
+        "y": 114.536
+      }
+    },
+    {
+      "source": "help",
+      "target": "dark matter",
+      "curve": {
+        "x": -37.6486,
+        "y": -51.6066
+      }
+    }
+  ],
+  "id": 1479
+}

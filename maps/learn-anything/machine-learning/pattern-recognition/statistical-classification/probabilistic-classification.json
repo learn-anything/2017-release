@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - statistical classification - probabilistic classification",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "probabilistic classification",
+      "url": "http://www.wikiwand.com/en/Probabilistic_classification",
+      "fx": -94.55078125,
+      "fy": -238.66015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -7.517831920903745,
+      "fy": -82.39177259895604,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=MHcHUGPKCIc",
+          "fx": 148.48216807909625,
+          "fy": -101.89177259895604,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. visual methods for analysing probabilistic classification data",
+          "url": "https://www.youtube.com/watch?v=QUZfPImmeEs",
+          "fx": 148.48216807909625,
+          "fy": -61.89177259895604,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Naive Bayes classifier  ️",
+      "url": "/machine-learning/pattern-recognition/statistical-classification/probabilistic-classification/naive-bayes-classifier",
+      "fx": -212.49583083610514,
+      "fy": 70.75976134547398,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "probabilistic classification",
+      "target": "basics",
+      "curve": {
+        "x": -6.23353,
+        "y": 76.8842
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Naive Bayes classifier  ️",
+      "curve": {
+        "x": -68.239,
+        "y": 76.5758
+      }
+    }
+  ],
+  "id": 792
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - distributions - normal distribution",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "normal distribution",
+      "url": "http://www.wikiwand.com/en/Normal_distribution",
+      "fx": -140.8671875,
+      "fy": -161.8515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -71.62890625,
+      "fy": -24.33984375,
+      "nodes": [
+        {
+          "text": "1. derivation of the normal (Gaussian) distribution",
+          "url": "https://www.youtube.com/watch?v=cTyPuZ9-JZ0",
+          "fx": 84.37109375,
+          "fy": -23.83984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "normal distribution",
+      "target": "basics",
+      "curve": {
+        "x": 0.119141,
+        "y": 67.5059
+      }
+    }
+  ],
+  "id": 1089
+}

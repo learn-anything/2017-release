@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - space science - astronomy - universe - galaxies - milky way",
+  "tag": "milky way galaxy",
+  "nodes": [
+    {
+      "text": "milky way galaxy",
+      "url": "http://www.wikiwand.com/en/Milky_Way",
+      "fx": -207.30859375,
+      "fy": -539.140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -151.59972374446863,
+      "fy": -385.12073637053584,
+      "nodes": [
+        {
+          "text": "1. inside the milky way",
+          "url": "https://www.youtube.com/watch?v=ttz4Sr0tZFg",
+          "fx": 4.400276255531367,
+          "fy": -373.62073637053584,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "solar system  ️",
+      "note": "is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly  it formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud",
+      "url": "/space-science/astronomy/universe/galaxies/milky-way/solar-system",
+      "fx": -197.21339416503906,
+      "fy": -236.28998184204102,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "milky way galaxy",
+      "target": "basics",
+      "curve": {
+        "x": -2.64556,
+        "y": 75.7599
+      }
+    },
+    {
+      "source": "basics",
+      "target": "solar system  ️",
+      "curve": {
+        "x": 4.94316,
+        "y": 75.6654
+      }
+    }
+  ],
+  "id": 1836
+}

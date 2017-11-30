@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - programming - programming languages - frege",
+  "tag": "frege programming language",
+  "nodes": [
+    {
+      "text": "Frege",
+      "url": "http://www.wikiwand.com/en/Frege_(programming_language)",
+      "fx": -2.51171875,
+      "fy": -353.351876795977,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/frege/",
+          "fx": 175.48828125,
+          "fy": -399.351876795977,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/Frege/frege",
+          "fx": 175.48828125,
+          "fy": -359.351876795977,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/frege",
+          "fx": 175.48828125,
+          "fy": -319.351876795977,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/sfischer13/awesome-frege",
+          "fx": 175.48828125,
+          "fy": -279.351876795977,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 105.66329234838486,
+      "fy": -219.5932925469117,
+      "nodes": [
+        {
+          "text": "language spec",
+          "url": "http://www.frege-lang.org/doc/Language.pdf",
+          "fx": 242.66329234838486,
+          "fy": -222.0932925469117,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "docs",
+          "url": "http://www.frege-lang.org/doc/fregedoc.html",
+          "fx": 242.66329234838486,
+          "fy": -188.0932925469117,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 2.0480690002441406,
+      "fy": -127.1888222694397,
+      "nodes": [
+        {
+          "text": "1. Frege goodness",
+          "url": "https://dierk.gitbooks.io/fregegoodness/",
+          "fx": 158.04806900024414,
+          "fy": -115.6888222694397,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "Frege",
+      "curve": {
+        "x": -45.3375,
+        "y": -65.6293
+      }
+    },
+    {
+      "source": "Frege",
+      "target": "basics",
+      "curve": {
+        "x": -1.72011,
+        "y": 111.832
+      }
+    }
+  ],
+  "id": 1595
+}

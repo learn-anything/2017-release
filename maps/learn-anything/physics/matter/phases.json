@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - matter - phases",
+  "tag": "phases of matter",
+  "nodes": [
+    {
+      "text": "phases",
+      "url": "http://www.wikiwand.com/en/Phase_(matter)",
+      "fx": -60.56640625,
+      "fy": -183.09765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.152113970588175,
+      "fy": -55.95871629901967,
+      "nodes": [
+        {
+          "text": "1. wavelength, period, aptitude and phase difference",
+          "url": "https://www.youtube.com/watch?v=T602kBo16ok",
+          "fx": 109.84788602941182,
+          "fy": -55.45871629901967,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "topological order  ️",
+      "url": "/physics/matter/phases/topological-order",
+      "fx": -180.37582236842104,
+      "fy": 88.7573229949868,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "phases",
+      "target": "basics",
+      "curve": {
+        "x": -2.04285,
+        "y": 62.3195
+      }
+    },
+    {
+      "source": "basics",
+      "target": "topological order  ️",
+      "curve": {
+        "x": -43.6119,
+        "y": 72.358
+      }
+    }
+  ],
+  "id": 1487
+}

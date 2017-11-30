@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - machine learning - neural networks - recurrent neural networks - boltzmann machines",
+  "tag": "Boltzmann machines",
+  "nodes": [
+    {
+      "text": "Boltzmann machines",
+      "url": "http://www.wikiwand.com/en/Boltzmann_machine",
+      "fx": 64.08203124999994,
+      "fy": -90.51171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://www.scholarpedia.org/article/Boltzmann_machine",
+          "fx": 304,
+          "fy": 64,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "restricted Boltzmann machines  ️",
+      "url": "/machine-learning/neural-networks/recurrent-neural-networks/boltzmann-machines/restricted-boltzmann-machines",
+      "fx": -152.8671875,
+      "fy": 191.8359375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Boltzmann machines",
+      "target": "basics",
+      "curve": {
+        "x": -5.29102,
+        "y": 69.0059
+      }
+    },
+    {
+      "source": "basics",
+      "target": "restricted Boltzmann machines  ️",
+      "curve": {
+        "x": -108.434,
+        "y": 78.668
+      }
+    }
+  ],
+  "id": 783
+}

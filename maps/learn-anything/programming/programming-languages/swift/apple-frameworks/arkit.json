@@ -1,0 +1,118 @@
+{
+  "title": "learn anything - programming - programming languages - swift - apple frameworks - arkit",
+  "tag": "ARKit",
+  "nodes": [
+    {
+      "text": "ARKit",
+      "url": "https://developer.apple.com/documentation/arkit",
+      "fx": -98.73828125,
+      "fy": -171.69921875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/olucurious/awesome-arkit",
+          "fx": 54.26171875,
+          "fy": -159.19921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -1.652867965367932,
+      "fy": -77.68925865793602,
+      "nodes": [
+        {
+          "text": "ARKit example by Apple",
+          "url": "https://github.com/gao0122/ARKit-Example-by-Apple",
+          "fx": 139.34713203463207,
+          "fy": -65.18925865793602,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "inspiration",
+      "url": "",
+      "fx": 59.138720082273494,
+      "fy": 48.41065585265517,
+      "nodes": [
+        {
+          "text": "airbnb AR concept",
+          "url": "https://twitter.com/popularshots/status/879803057017638912",
+          "fx": 257.1387200822735,
+          "fy": 27.410655852655168,
+          "nodes": [],
+          "category": "",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "real time screen capture of Apple’ ARKit",
+          "url": "https://media.giphy.com/media/l4FGBISdIH6QX9L1u/giphy.gif",
+          "fx": 257.1387200822735,
+          "fy": 69.41065585265517,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -108.83513891371445,
+      "fy": 215.32734726429527,
+      "nodes": [
+        {
+          "text": "1. understanding augmented reality",
+          "url": "https://developer.apple.com/documentation/arkit/understanding_augmented_reality",
+          "fx": 54.164861086285555,
+          "fy": 171.82734726429527,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. get started building an augmented reality app on iPhone  ️",
+          "url": "https://mobile-ar.reality.news/how-to/arkit-101-get-started-building-augmented-reality-application-iphone-ipad-quickly-0177989/",
+          "fx": 54.164861086285555,
+          "fy": 233.82734726429527,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "ARKit",
+      "curve": {
+        "x": -45.5427,
+        "y": -47.005
+      }
+    },
+    {
+      "source": "ARKit",
+      "target": "basics",
+      "curve": {
+        "x": -3.29844,
+        "y": 193.513
+      }
+    },
+    {
+      "source": "inspiration",
+      "target": "help",
+      "curve": {
+        "x": -43.6458,
+        "y": -63.0499
+      }
+    }
+  ],
+  "id": 1654
+}

@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - continuum mechanics - fluids - magnetohydrodynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "magnetohydrodynamics",
+      "url": "http://www.wikiwand.com/en/Magnetohydrodynamics",
+      "fx": 74.75392150878906,
+      "fy": -150.99959337711334,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 289.484375,
+      "fy": -12.7421875,
+      "nodes": [
+        {
+          "text": "physical experiment",
+          "url": "https://www.youtube.com/watch?v=swrK1qJHUYg",
+          "fx": 480.484375,
+          "fy": -1.2421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146.4375,
+      "fy": 101.76953125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=QArcTylNooQ",
+          "fx": 302.4375,
+          "fy": 82.26953125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction to plasma physics: magnetohydrodynamics",
+          "url": "https://www.youtube.com/watch?v=A9pUXEI128U",
+          "fx": 302.4375,
+          "fy": 122.26953125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "magnetohydrodynamics",
+      "target": "basics",
+      "curve": {
+        "x": -11.4082,
+        "y": 125.135
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "magnetohydrodynamics",
+      "curve": {
+        "x": -68.8652,
+        "y": -67.8787
+      }
+    }
+  ],
+  "id": 1411
+}

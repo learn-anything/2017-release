@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - mathematics - geometry - spheres - 3-spheres",
+  "tag": "3-spheres",
+  "nodes": [
+    {
+      "text": "3-spheres",
+      "url": "http://www.wikiwand.com/en/3-sphere",
+      "fx": 224.50949191355653,
+      "fy": -212.88993008092643,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 380.45125796750483,
+      "fy": -81.33768179369775,
+      "nodes": [
+        {
+          "text": "16: a breakthrough in higher dimensional spheres",
+          "url": "https://www.youtube.com/watch?v=ciM6wigZK0w",
+          "fx": 579.4512579675048,
+          "fy": -81.33768179369775,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Hopf fibration  ️",
+      "url": "/mathematics/geometry/spheres/3-spheres/hopf-fibration",
+      "fx": -25.75786790780367,
+      "fy": 55.53058510637959,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Poincare conjecture  ️",
+      "url": "/mathematics/geometry/spheres/3-spheres/poincare-conjecture",
+      "fx": 186.25757299951226,
+      "fy": 55.98825132504032,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "3-spheres",
+      "target": "Poincare conjecture  ️",
+      "curve": {
+        "x": 4.62445,
+        "y": 134.439
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "3-spheres",
+      "curve": {
+        "x": -69.7209,
+        "y": -65.0262
+      }
+    },
+    {
+      "source": "3-spheres",
+      "target": "Hopf fibration  ️",
+      "curve": {
+        "x": -125.634,
+        "y": 133.46
+      }
+    }
+  ],
+  "id": 961
+}

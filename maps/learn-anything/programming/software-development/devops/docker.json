@@ -1,0 +1,201 @@
+{
+  "title": "learn anything - programming - software development - devops - docker",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "docker",
+      "url": "http://www.wikiwand.com/en/Docker_(software)",
+      "fx": -56.91815714887207,
+      "fy": -132.33622867244685,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/docker/",
+          "fx": 142.08184285112793,
+          "fy": -181.33622867244685,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://twitter.com/Docker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "fx": 142.08184285112793,
+          "fy": -139.33622867244685,
+          "nodes": [],
+          "category": "",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/veggiemonk/awesome-docker",
+          "fx": 142.08184285112793,
+          "fy": -97.33622867244685,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/veggiemonk/awesome-docker",
+          "fx": 142.08184285112793,
+          "fy": -55.33622867244685,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 46.49145924928962,
+      "fy": 80.62179440169496,
+      "nodes": [
+        {
+          "text": "docker community",
+          "url": "https://github.com/docker/community",
+          "fx": 187.49145924928962,
+          "fy": 30.121794401694956,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "docker tutorials",
+          "url": "https://github.com/docker/labs/",
+          "fx": 187.49145924928962,
+          "fy": 72.12179440169496,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "good docker resources",
+          "url": "https://github.com/shekhargulati/good-docker-resources",
+          "fx": 187.49145924928962,
+          "fy": 114.12179440169496,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "docker cheat sheet",
+          "url": "https://github.com/eon01/DockerCheatSheet",
+          "fx": 187.49145924928962,
+          "fy": 156.12179440169496,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -184.2161032330796,
+      "fy": 385.2397783086823,
+      "nodes": [
+        {
+          "text": "1. comprehensive introduction to docker  ️",
+          "url": "http://blog.brew.com.hk/introduction-to-docker/",
+          "fx": 4.783896766920407,
+          "fy": 249.23977830868228,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. get started with docker",
+          "url": "https://docs.docker.com/get-started/",
+          "fx": 4.783896766920407,
+          "fy": 316.2397783086823,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. docker for beginners",
+          "url": "https://github.com/docker/labs/blob/master/beginner/readme.md",
+          "fx": 4.783896766920407,
+          "fy": 353.2397783086823,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. docker and kubernetes training",
+          "url": "https://github.com/gravitational/workshop",
+          "fx": 4.783896766920407,
+          "fy": 395.2397783086823,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. learn docker interactively",
+          "url": "https://katacoda.com/courses/docker",
+          "fx": 4.783896766920407,
+          "fy": 462.2397783086823,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. docker playground",
+          "url": "http://labs.play-with-docker.com/",
+          "fx": 4.783896766920407,
+          "fy": 504.2397783086823,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "1. docker 101",
+          "url": "https://github.com/Citrix-TechSpecialist/Docker-101",
+          "fx": 4.783896766920407,
+          "fy": 546.2397783086823,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "docker swarm  ️",
+      "url": "/programming/software-development/devops/docker/docker-swarm",
+      "fx": -322.51808057709354,
+      "fy": 541.1364790482085,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "docker",
+      "target": "basics",
+      "curve": {
+        "x": -72.1489,
+        "y": 257.537
+      }
+    },
+    {
+      "source": "help",
+      "target": "docker",
+      "curve": {
+        "x": -38.4549,
+        "y": -105.229
+      }
+    },
+    {
+      "source": "basics",
+      "target": "docker swarm  ️",
+      "curve": {
+        "x": -57.6509,
+        "y": 77.9484
+      }
+    }
+  ],
+  "id": 1714
+}

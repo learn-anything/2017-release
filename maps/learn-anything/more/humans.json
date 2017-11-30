@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - more - humans",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "humans",
+      "note": "",
+      "url": "https://github.com/learn-anything/humans",
+      "fx": -14.503139810475886,
+      "fy": -154.73059093902796,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 48.51352775127225,
+      "fy": -29.6936973202927,
+      "nodes": [
+        {
+          "text": "humans album",
+          "url": "http://imgur.com/a/p9FC3",
+          "fx": 239.51352775127225,
+          "fy": -18.1936973202927,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "amas",
+      "url": "",
+      "fx": 67.18851224857588,
+      "fy": 99.33497323677597,
+      "nodes": [
+        {
+          "text": "awesome ama answers",
+          "url": "https://github.com/stoeffel/awesome-ama-answers",
+          "fx": 215.18851224857588,
+          "fy": 90.83497323677597,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome amas",
+          "url": "https://github.com/sindresorhus/amas",
+          "fx": 215.18851224857588,
+          "fy": 130.83497323677597,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "humans",
+      "target": "interesting",
+      "curve": {
+        "x": 22.7584,
+        "y": 61.2685
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "amas",
+      "curve": {
+        "x": -1.41251,
+        "y": 64.5143
+      }
+    }
+  ],
+  "id": 1184
+}

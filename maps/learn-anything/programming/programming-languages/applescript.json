@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - programming - programming languages - applescript",
+  "tag": "applescript programming language",
+  "nodes": [
+    {
+      "text": "applescript",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/AppleScript",
+      "fx": -112.32856172360255,
+      "fy": -229.31012228260863,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/applescript/",
+          "fx": 140.67143827639745,
+          "fy": -215.31012228260863,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 0.1351416925463127,
+      "fy": -110.07531055903485,
+      "nodes": [
+        {
+          "text": "applescript examples",
+          "url": "http://osxnotes.net/applescript.html",
+          "fx": 137.1351416925463,
+          "fy": -112.57531055903485,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "applescript language guide",
+          "url": "https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html#//apple_ref/doc/uid/TP40000983-CH208-SW1",
+          "fx": 137.1351416925463,
+          "fy": -78.57531055903485,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "applescript",
+      "curve": {
+        "x": -33.7319,
+        "y": -58.3674
+      }
+    }
+  ],
+  "id": 1571
+}

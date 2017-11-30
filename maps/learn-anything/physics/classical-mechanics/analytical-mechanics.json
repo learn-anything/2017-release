@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - analytical mechanics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "analytical mechanics",
+      "url": "http://www.wikiwand.com/en/Analytical_mechanics",
+      "fx": -112.55078125,
+      "fy": -144.58984375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -35.4296875,
+      "fy": -19.33984375,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=pBOL5a8pzJY",
+          "fx": 120.5703125,
+          "fy": -7.83984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "analytical mechanics",
+      "target": "basics",
+      "curve": {
+        "x": -0.689453,
+        "y": 61.375
+      }
+    }
+  ],
+  "id": 1364
+}

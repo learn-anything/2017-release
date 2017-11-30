@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - geometry - euclidean space - solid geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "solid geometry",
+      "url": "http://www.wikiwand.com/en/Solid_geometry",
+      "fx": -93.67915783898297,
+      "fy": -155.98854608050834,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. geometric solids",
+          "url": "https://www.youtube.com/watch?v=UsxFFijsbwE&amp;t=2s",
+          "fx": 112,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "polyhedrons  ️",
+      "url": "/mathematics/geometry/euclidean-space/solid-geometry/polyhedrons",
+      "fx": -183.5546875,
+      "fy": 136.833984375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "solid geometry",
+      "target": "basics",
+      "curve": {
+        "x": -6.91042,
+        "y": 76.2443
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polyhedrons  ️",
+      "curve": {
+        "x": -51.7773,
+        "y": 69.417
+      }
+    }
+  ],
+  "id": 945
+}

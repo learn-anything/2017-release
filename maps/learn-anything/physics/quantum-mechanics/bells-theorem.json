@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - quantum mechanics - bells theorem",
+  "tag": "Bell’s theorem",
+  "nodes": [
+    {
+      "text": "Bell’s theorem",
+      "url": "http://www.wikiwand.com/en/Bell%27s_theorem",
+      "fx": -88.39212799072266,
+      "fy": -135.38263702392578,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.01417076587677,
+      "fy": -8.56047773361206,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=z-s3q9wlLag",
+          "fx": 108.98582923412323,
+          "fy": 2.9395222663879395,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Bell’s theorem",
+      "target": "basics",
+      "curve": {
+        "x": -3.81102,
+        "y": 62.1611
+      }
+    }
+  ],
+  "id": 1520
+}

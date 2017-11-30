@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - front end - web components - polymer",
+  "tag": "polymer library",
+  "nodes": [
+    {
+      "text": "polymer",
+      "url": "https://github.com/Polymer/polymer",
+      "fx": -144.1953125,
+      "fy": -68.8104795258622,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/Granze/awesome-polymer",
+          "fx": 55.8046875,
+          "fy": -54.810479525862206,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -125.37317695366016,
+      "fy": 67.22249821050644,
+      "nodes": [
+        {
+          "text": "1. about the library",
+          "url": "https://www.polymer-project.org/2.0/docs/devguide/feature-overview",
+          "fx": 30.626823046339837,
+          "fy": 81.72249821050644,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polymer",
+      "target": "basics",
+      "curve": {
+        "x": -1.58893,
+        "y": 66.7665
+      }
+    }
+  ],
+  "id": 1876
+}

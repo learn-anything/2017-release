@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - space science - astronomy - universe - multiverse",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "multiverse",
+      "url": "http://www.wikiwand.com/en/Multiverse",
+      "fx": -67.77734375,
+      "fy": -477.95703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -40.88704843350365,
+      "fy": -322.4302719389385,
+      "nodes": [
+        {
+          "text": "1. how credible is the multiverse theory",
+          "url": "https://www.reddit.com/r/askscience/comments/20iuj1/how_credible_is_the_multiverse_theory/",
+          "fx": 122.11295156649635,
+          "fy": -343.4302719389385,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. four types of multiverse",
+          "url": "https://www.youtube.com/watch?v=w3TDO1AA1Sw",
+          "fx": 122.11295156649635,
+          "fy": -276.4302719389385,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "multiverse",
+      "target": "basics",
+      "curve": {
+        "x": -3.30485,
+        "y": 77.0134
+      }
+    }
+  ],
+  "id": 1838
+}

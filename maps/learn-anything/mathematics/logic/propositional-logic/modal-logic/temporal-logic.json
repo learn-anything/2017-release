@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - modal logic - temporal logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "temporal logic",
+      "url": "http://www.wikiwand.com/en/Temporal_logic",
+      "fx": 179.1484375,
+      "fy": -350.7890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 221.58747718673055,
+      "fy": -200.39270901381468,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://staff.science.uva.nl/y.venema/papers/TempLog.pdf",
+          "fx": 384.58747718673055,
+          "fy": -242.39270901381468,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. introduction and basic operators",
+          "url": "https://www.youtube.com/watch?v=5_nu36oz0vs&amp;list=PL4qi1-KdB6EjvijL56GZOCl9AQFpHkzm7",
+          "fx": 384.58747718673055,
+          "fy": -200.39270901381468,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. video series",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_3421865637&amp;feature=iv&amp;list=PLz0n_SjOttTca6krPm5TKsYDaBO6qjOP3&amp;src_vid=YxBShJU_CKs",
+          "fx": 384.58747718673055,
+          "fy": -133.39270901381468,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "temporal logic",
+      "target": "basics",
+      "curve": {
+        "x": -5.28048,
+        "y": 74.4481
+      }
+    }
+  ],
+  "id": 1018
+}

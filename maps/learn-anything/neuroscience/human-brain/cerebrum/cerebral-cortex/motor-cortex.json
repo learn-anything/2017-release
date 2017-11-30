@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum - cerebral cortex - motor cortex",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "motor cortex",
+      "url": "http://www.wikiwand.com/en/Motor_cortex",
+      "fx": 210.625,
+      "fy": -223.734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 241.73665048543546,
+      "fy": -78.60585745981587,
+      "nodes": [
+        {
+          "text": "1. motor pathways",
+          "url": "https://www.youtube.com/watch?v=RmLJ_LRKAGE",
+          "fx": 404.73665048543546,
+          "fy": -87.10585745981587,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=APuiZCxDnTA",
+          "fx": 404.73665048543546,
+          "fy": -45.105857459815866,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "lateral corticospinal tract",
+      "url": "http://www.wikiwand.com/en/Lateral_corticospinal_tract",
+      "fx": 96.34961439588722,
+      "fy": 60.419826478149105,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "motor cortex",
+      "target": "basics",
+      "curve": {
+        "x": -7.69417,
+        "y": 71.8142
+      }
+    },
+    {
+      "source": "basics",
+      "target": "lateral corticospinal tract",
+      "curve": {
+        "x": -21.1935,
+        "y": 70.2628
+      }
+    }
+  ],
+  "id": 1243
+}

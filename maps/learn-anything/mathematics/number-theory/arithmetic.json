@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - mathematics - number theory - arithmetic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "arithmetic",
+      "url": "http://www.wikiwand.com/en/Arithmetic",
+      "fx": 24.40190315246582,
+      "fy": -104.74552898810651,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 52.80293072089955,
+      "fy": 16.035631613756607,
+      "nodes": [
+        {
+          "text": "1. the fundamental theorem of arithmetic",
+          "url": "https://www.youtube.com/watch?v=8CluknrLeys",
+          "fx": 208.80293072089955,
+          "fy": 16.535631613756607,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "modular arithmetic  ️",
+      "url": "/mathematics/number-theory/arithmetic/modular-arithmetic",
+      "fx": -154.45300474987982,
+      "fy": 148.54899440836942,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "multiplication  ️",
+      "url": "/mathematics/number-theory/arithmetic/multiplication",
+      "fx": 101.21641021573578,
+      "fy": 152.75444162436554,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "arithmetic",
+      "target": "basics",
+      "curve": {
+        "x": -0.799486,
+        "y": 59.1406
+      }
+    },
+    {
+      "source": "basics",
+      "target": "modular arithmetic  ️",
+      "curve": {
+        "x": -68.8779,
+        "y": 67.5067
+      }
+    },
+    {
+      "source": "basics",
+      "target": "multiplication  ️",
+      "curve": {
+        "x": 38.2067,
+        "y": 68.3594
+      }
+    }
+  ],
+  "id": 1038
+}

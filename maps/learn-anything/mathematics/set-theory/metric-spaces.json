@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - set theory - metric spaces",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "metric spaces",
+      "url": "http://www.wikiwand.com/en/Metric_space",
+      "fx": 188.97291885504194,
+      "fy": -153.531906512605,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 228.42857142857713,
+      "fy": -12.487394957963147,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=etP21xln8iQ",
+          "fx": 391.42857142857713,
+          "fy": 0.012605042036852865,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "metric spaces",
+      "target": "basics",
+      "curve": {
+        "x": 0.727826,
+        "y": 70.5223
+      }
+    }
+  ],
+  "id": 1067
+}

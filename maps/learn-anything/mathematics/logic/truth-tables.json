@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - truth tables",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "truth tables",
+      "url": "http://www.wikiwand.com/en/Truth_table",
+      "fx": -79.7265625,
+      "fy": -130.18359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=wRMC-ttjhwM",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "truth tables",
+      "target": "basics",
+      "curve": {
+        "x": -1.63672,
+        "y": 62.8418
+      }
+    }
+  ],
+  "id": 1023
+}

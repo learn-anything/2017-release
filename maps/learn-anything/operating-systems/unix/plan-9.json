@@ -1,0 +1,99 @@
+{
+  "title": "learn anything - operating systems - unix - plan 9",
+  "tag": "Plan 9 operating system",
+  "nodes": [
+    {
+      "text": "Plan 9 from Bell Labs",
+      "url": "http://www.wikiwand.com/en/Plan_9_from_Bell_Labs",
+      "fx": -249.93837517076508,
+      "fy": -477.8326502732241,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/plan9/",
+          "fx": 92.06162482923492,
+          "fy": -463.8326502732241,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -32.93357794754422,
+      "fy": -339.2319541375185,
+      "nodes": [
+        {
+          "text": "man pages",
+          "url": "http://man.cat-v.org/plan_9/",
+          "fx": 108.06642205245578,
+          "fy": -379.7319541375185,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "mailing lists",
+          "url": "https://9p.io/wiki/plan9/mailing_lists/",
+          "fx": 108.06642205245578,
+          "fy": -342.7319541375185,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "official site",
+          "url": "http://9p.io/plan9/index.html",
+          "fx": 108.06642205245578,
+          "fy": -305.7319541375185,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "wiki",
+          "url": "http://9p.io/wiki/plan9/plan_9_wiki/",
+          "fx": 108.06642205245578,
+          "fy": -268.7319541375185,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -161.790497412872,
+      "fy": -177.6909274823223,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "http://9p.io/plan9/about.html",
+          "fx": 1.2095025871279859,
+          "fy": -162.6909274823223,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Plan 9 from Bell Labs",
+      "target": "basics",
+      "curve": {
+        "x": -1.03441,
+        "y": 154.879
+      }
+    },
+    {
+      "source": "help",
+      "target": "Plan 9 from Bell Labs",
+      "curve": {
+        "x": -58.2524,
+        "y": -68.5503
+      }
+    }
+  ],
+  "id": 1301
+}

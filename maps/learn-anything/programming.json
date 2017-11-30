@@ -1,0 +1,663 @@
+{
+  "title": "learn anything - programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "programming",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Computer_programming",
+      "fx": 486.97218378883053,
+      "fy": -817.4555151431534,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/programming/",
+          "fx": 759.9721837888305,
+          "fy": -823.4555151431534,
+          "nodes": [
+            {
+              "text": "wiki",
+              "url": "https://www.reddit.com/r/learnprogramming/wiki/faq",
+              "fx": 869.9721837888305,
+              "fy": -823.4555151431534,
+              "nodes": [],
+              "category": "reddit",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "learn programming",
+          "url": "https://www.reddit.com/r/learnprogramming/",
+          "fx": 759.9721837888305,
+          "fy": -783.4555151431534,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 999.3689850000551,
+      "fy": -531.3967005859763,
+      "nodes": [
+        {
+          "text": "project based learning",
+          "url": "https://github.com/tuvttran/project-based-learning",
+          "fx": 1136.368985000055,
+          "fy": -712.8967005859765,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "enlight",
+          "note": "learn to code by building projects",
+          "url": "https://enlight.ml/",
+          "fx": 1136.368985000055,
+          "fy": -672.8967005859765,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "technical development guide",
+          "url": "https://www.google.com/about/careers/students/guide-to-technical-development.html",
+          "fx": 1136.368985000055,
+          "fy": -638.8967005859765,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "programming competency matrix",
+          "url": "http://sijinjoseph.com/programmer-competency-matrix/",
+          "fx": 1136.368985000055,
+          "fy": -604.8967005859765,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "learn to program",
+          "url": "https://github.com/karlhorky/learn-to-program",
+          "fx": 1136.368985000055,
+          "fy": -570.8967005859765,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "coding interview university",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "fx": 1136.368985000055,
+          "fy": -530.8967005859765,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "engineering blogs",
+          "url": "https://github.com/kilimchoi/engineering-blogs",
+          "fx": 1136.368985000055,
+          "fy": -490.89670058597636,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "how to be a programmer: short and personal summary",
+          "url": "https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html",
+          "fx": 1136.368985000055,
+          "fy": -450.89670058597636,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "design and development guides",
+          "url": "https://github.com/NARKOZ/guides",
+          "fx": 1136.368985000055,
+          "fy": -394.89670058597636,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "Google’s development guide",
+          "url": "https://www.google.com/about/careers/students/guide-to-technical-development.html",
+          "fx": 1136.368985000055,
+          "fy": -354.89670058597636,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "free programming books",
+          "url": "http://breue.com/free_programming_books",
+          "fx": 1136.368985000055,
+          "fy": -320.89670058597636,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 438.0984760802471,
+      "fy": -221.50043402777771,
+      "nodes": [
+        {
+          "text": "1. from math to machine: translating a function to machine code  ️",
+          "url": "https://briansteffens.github.io/2017/02/20/from-math-to-machine.html",
+          "fx": 594.0984760802471,
+          "fy": -354.0004340277777,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. code: hidden language",
+          "note": "goes over what a computer actually is and what it is made of, starting from the beginning",
+          "url": "https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf",
+          "fx": 594.0984760802471,
+          "fy": -270.0004340277777,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the nature of code",
+          "url": "http://natureofcode.com/book/preface/",
+          "fx": 594.0984760802471,
+          "fy": -230.00043402777771,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. structure and interpretation of computer programs",
+          "url": "http://sarabander.github.io/sicp/html/index.xhtml",
+          "fx": 594.0984760802471,
+          "fy": -190.00043402777771,
+          "nodes": [
+            {
+              "text": "SICP guide",
+              "url": "https://github.com/zv/SICP-guile",
+              "fx": 931.0984760802471,
+              "fy": -179.00043402777771,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(36, 170, 255, 1.0)"
+            }
+          ],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. architecture of open source applications",
+          "url": "http://aosabook.org/en/index.html",
+          "fx": 594.0984760802471,
+          "fy": -128.00043402777771,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. coding interview university",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "fx": 594.0984760802471,
+          "fy": -66.00043402777771,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 1409.6075344218725,
+      "fy": -108.91946434266288,
+      "nodes": [
+        {
+          "text": "02: the law of leaky abstractions  ️",
+          "url": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/",
+          "fx": 1571.6075344218725,
+          "fy": -383.4194643426629,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "11: principles of good programming  ️",
+          "url": "http://www.artima.com/weblogs/viewpost.jsp?thread=331531",
+          "fx": 1571.6075344218725,
+          "fy": -343.4194643426629,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "12: working as a software developer  ️",
+          "url": "https://henrikwarne.com/2012/12/12/working-as-a-software-developer/",
+          "fx": 1571.6075344218725,
+          "fy": -303.4194643426629,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "13: things I wish someone had told me when I was learning how to code  ️",
+          "url": "https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329",
+          "fx": 1571.6075344218725,
+          "fy": -241.41946434266288,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "14: the beauty of code  ️",
+          "url": "https://www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/",
+          "fx": 1571.6075344218725,
+          "fy": -157.41946434266288,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "14: lessons from a lifetime of being a programmer  ️",
+          "url": "http://thecodist.com/article/lessons_from_a_lifetime_of_being_a_programmer",
+          "fx": 1571.6075344218725,
+          "fy": -117.41946434266288,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "14: how to become a programmer, or he art of googling well  ️",
+          "url": "https://okepi.wordpress.com/2014/08/21/how-to-become-a-programmer-or-the-art-of-googling-well/",
+          "fx": 1571.6075344218725,
+          "fy": -55.41946434266288,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "15: what is code?  ️",
+          "url": "https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
+          "fx": 1571.6075344218725,
+          "fy": 6.580535657337123,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "15: the programming talent myth  ️",
+          "url": "https://lwn.net/Articles/641779/",
+          "fx": 1571.6075344218725,
+          "fy": 46.58053565733712,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "teach yourself programming in ten years  ️",
+          "url": "http://norvig.com/21-days.html",
+          "fx": 1571.6075344218725,
+          "fy": 86.58053565733712,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "the mythical 10x programmer  ️",
+          "url": "http://antirez.com/news/112",
+          "fx": 1571.6075344218725,
+          "fy": 148.58053565733712,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "write code every day  ️",
+          "url": "https://johnresig.com/blog/write-code-every-day/",
+          "fx": 1571.6075344218725,
+          "fy": 188.58053565733712,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 1509.8026536957718,
+      "fy": 334.05818442642726,
+      "nodes": [
+        {
+          "text": "simple made easy",
+          "url": "https://www.infoq.com/presentations/Simple-Made-Easy",
+          "fx": 1649.8026536957718,
+          "fy": 283.55818442642726,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "the value of values with rich hickey",
+          "url": "https://www.youtube.com/watch?v=-6BsiVyC1kM",
+          "fx": 1649.8026536957718,
+          "fy": 323.55818442642726,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "programming is forgetting: toward a new hacker ethic",
+          "url": "http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/",
+          "fx": 1649.8026536957718,
+          "fy": 385.55818442642726,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "programming interview preparation  ️",
+      "note": "how to prepare for a programming interview most effectively",
+      "url": "/programming/programming-interview-preparation",
+      "fx": 564.0695495605469,
+      "fy": 378.06565856933594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "version control  ️",
+      "url": "/programming/version-control",
+      "fx": 1064.4052243528158,
+      "fy": 393.76409567814767,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "reverse engineering  ️",
+      "url": "/programming/reverse-engineering",
+      "fx": -297.57569943798853,
+      "fy": 393.81414180550485,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "software development  ️",
+      "url": "/programming/software-development",
+      "fx": 288.9475860595703,
+      "fy": 395.1107177734375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "practice  ️",
+      "url": "/programming/practice",
+      "fx": 881.7109375,
+      "fy": 396.9375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "programming paradigms  ️",
+      "url": "/programming/programming-paradigms",
+      "fx": -631.4392375944032,
+      "fy": 397.7997018342644,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "programming languages  ️",
+      "note": "are formal computer languages designed to communicate instructions to a machine, particularly a computer  they can be used to create programs to control the behaviour of a machine or to express algorithms   the description of a programming language is split into two components of syntax (form) and semantics (meaning)  some languages are defined by a specification document (for example C being specified by an ISO standard) while other languages (like Perl) have a dominant implementation that is treated as a reference  some languages have both",
+      "url": "/programming/programming-languages",
+      "fx": -39.198066499281595,
+      "fy": 398.93771378815643,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "query languages  ️",
+      "url": "/programming/query-languages",
+      "fx": -871.0227567624222,
+      "fy": 403.2705816913981,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "design patterns  ️",
+      "url": "/programming/design-patterns",
+      "fx": -1095.383056640625,
+      "fy": 403.30010986328125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "markup languages  ️",
+      "url": "/programming/markup-languages",
+      "fx": -1728.074595668844,
+      "fy": 405.7163628472222,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dynamic programming  ️",
+      "url": "/programming/dynamic-programming",
+      "fx": -1479.6054077148438,
+      "fy": 405.7892761230469,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mobile applications development  ️",
+      "url": "/programming/mobile-applications",
+      "fx": -1978.5415590935172,
+      "fy": 394.06681203031303,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "API  ️",
+      "url": "/programming/api",
+      "fx": -1201.5083923339844,
+      "fy": 406.6817626953125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "programming language design  ️",
+      "url": "/programming/programming-language-design",
+      "fx": 40.60662238384748,
+      "fy": 506.95995304136227,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "programming mastery  ️",
+      "url": "/programming/programming-mastery",
+      "fx": 687.0116300225309,
+      "fy": 541.5261961944997,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "competitive programming  ️",
+      "url": "/programming/competitive-programming",
+      "fx": 980.7647672050441,
+      "fy": 542.4538880493562,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "programming languages  ️",
+      "target": "programming language design  ️",
+      "curve": {
+        "x": 46.6523,
+        "y": 52.7611
+      }
+    },
+    {
+      "source": "help",
+      "target": "programming",
+      "curve": {
+        "x": -205.197,
+        "y": -141.779
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -356.255,
+        "y": -198.602
+      }
+    },
+    {
+      "source": "programming",
+      "target": "basics",
+      "curve": {
+        "x": -77.1868,
+        "y": 296.727
+      }
+    },
+    {
+      "source": "basics",
+      "target": "design patterns  ️",
+      "curve": {
+        "x": -738.74,
+        "y": 313.651
+      }
+    },
+    {
+      "source": "basics",
+      "target": "query languages  ️",
+      "curve": {
+        "x": -624.56,
+        "y": 313.636
+      }
+    },
+    {
+      "source": "basics",
+      "target": "programming paradigms  ️",
+      "curve": {
+        "x": -486.268,
+        "y": 310.901
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reverse engineering  ️",
+      "curve": {
+        "x": -331.086,
+        "y": 308.908
+      }
+    },
+    {
+      "source": "basics",
+      "target": "programming languages  ️",
+      "curve": {
+        "x": -190.897,
+        "y": 311.47
+      }
+    },
+    {
+      "source": "basics",
+      "target": "software development  ️",
+      "curve": {
+        "x": -31.8255,
+        "y": 309.556
+      }
+    },
+    {
+      "source": "basics",
+      "target": "programming interview preparation  ️",
+      "curve": {
+        "x": 107.987,
+        "y": 307.284
+      }
+    },
+    {
+      "source": "basics",
+      "target": "version control  ️",
+      "curve": {
+        "x": 287.255,
+        "y": 407.333
+      }
+    },
+    {
+      "source": "talks",
+      "target": "articles",
+      "curve": {
+        "x": -62.4741,
+        "y": -208.001
+      }
+    },
+    {
+      "source": "basics",
+      "target": "API  ️",
+      "curve": {
+        "x": -966.955,
+        "y": 268.221
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dynamic programming  ️",
+      "curve": {
+        "x": -1209.49,
+        "y": 302.666
+      }
+    },
+    {
+      "source": "basics",
+      "target": "practice  ️",
+      "curve": {
+        "x": 173.338,
+        "y": 338.618
+      }
+    },
+    {
+      "source": "practice  ️",
+      "target": "programming mastery  ️",
+      "curve": {
+        "x": -65.8497,
+        "y": 72.2943
+      }
+    },
+    {
+      "source": "practice  ️",
+      "target": "competitive programming  ️",
+      "curve": {
+        "x": 89.0269,
+        "y": 72.7582
+      }
+    },
+    {
+      "source": "basics",
+      "target": "markup languages  ️",
+      "curve": {
+        "x": -1214.29,
+        "y": 205.65
+      }
+    },
+    {
+      "source": "basics",
+      "target": "mobile applications development  ️",
+      "curve": {
+        "x": -1394.11,
+        "y": 220.872
+      }
+    }
+  ],
+  "id": 1748
+}

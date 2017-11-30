@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - sampling - systematic sampling",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "systematic sampling",
+      "url": "http://www.wikiwand.com/en/Systematic_sampling",
+      "fx": -126.875,
+      "fy": -169.7109375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=QFoisfSZs8I",
+          "fx": 112,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "systematic sampling",
+      "target": "basics",
+      "curve": {
+        "x": -4.3125,
+        "y": 83.1055
+      }
+    }
+  ],
+  "id": 1115
+}

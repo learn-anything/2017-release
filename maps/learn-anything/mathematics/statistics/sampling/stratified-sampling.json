@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - sampling - stratified sampling",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stratified sampling",
+      "url": "http://www.wikiwand.com/en/Stratified_sampling",
+      "fx": 81.90625,
+      "fy": -109.41015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=sYRUYJYOpG0",
+          "fx": 310,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "stratified sampling",
+      "target": "basics",
+      "curve": {
+        "x": -3.70312,
+        "y": 70.9551
+      }
+    }
+  ],
+  "id": 1114
+}

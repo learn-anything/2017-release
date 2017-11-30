@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - web development - javascript libraries - webpack - webpack plugins",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "webpack plugins",
+      "url": "https://webpack.github.io/docs/plugins.html",
+      "fx": -88.9921875,
+      "fy": -220.765625,
+      "nodes": []
+    },
+    {
+      "text": "fun",
+      "url": "",
+      "fx": 82.59742709547402,
+      "fy": -101.25018210956904,
+      "nodes": [
+        {
+          "text": "emojify webpack",
+          "url": "https://github.com/Mechazawa/emojify-webpack-plugin/",
+          "fx": 211.59742709547402,
+          "fy": -88.75018210956904,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "find new plugins",
+      "url": "",
+      "fx": -101.52525252525254,
+      "fy": 16.63671875,
+      "nodes": [
+        {
+          "text": "list of plugins",
+          "url": "https://github.com/webpack/docs/wiki/list-of-plugins",
+          "fx": 158.47474747474746,
+          "fy": 29.13671875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "webpack plugins",
+      "target": "find new plugins",
+      "curve": {
+        "x": -8.26653,
+        "y": 118.701
+      }
+    },
+    {
+      "source": "fun",
+      "target": "webpack plugins",
+      "curve": {
+        "x": -51.0448,
+        "y": -59.7577
+      }
+    }
+  ],
+  "id": 1905
+}

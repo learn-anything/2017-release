@@ -1,0 +1,185 @@
+{
+  "title": "learn anything - web development - web design",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web design",
+      "url": "http://www.wikiwand.com/en/Web_design",
+      "fx": -74.04877749975867,
+      "fy": -486.8944630351493,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/web_design/",
+          "fx": 157.95122250024133,
+          "fy": -492.8944630351493,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/nicolesaidy/awesome-web-design",
+          "fx": 157.95122250024133,
+          "fy": -452.8944630351493,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 81.14494396392081,
+      "fy": -325.4396784092298,
+      "nodes": [
+        {
+          "text": "inspiring",
+          "url": "https://github.com/NoahBuscher/Inspire",
+          "fx": 218.1449439639208,
+          "fy": -373.9396784092298,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome stock resources",
+          "url": "https://github.com/neutraltone/awesome-stock-resources",
+          "fx": 218.1449439639208,
+          "fy": -333.9396784092298,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "creative commons media",
+          "url": "https://github.com/shime/creative-commons-media",
+          "fx": 218.1449439639208,
+          "fy": -293.9396784092298,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "beautiful open source icons",
+          "url": "https://github.com/colebemis/feather",
+          "fx": 218.1449439639208,
+          "fy": -253.93967840922983,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 370.81059451219176,
+      "fy": -138.14557926829264,
+      "nodes": [
+        {
+          "text": "gradient Hues",
+          "url": "https://webkul.github.io/coolhue/",
+          "fx": 512.8105945121918,
+          "fy": -123.64557926829264,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -236.12427660314256,
+      "fy": -131.65152271927343,
+      "nodes": [
+        {
+          "text": "1. web design in 4 minutes",
+          "url": "http://jgthms.com/web-design-in-4-minutes/",
+          "fx": -54.12427660314256,
+          "fy": -117.15152271927343,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "responsive web design  ️",
+      "url": "/web-development/web-design/responsive-web-development",
+      "fx": -648.5055612645441,
+      "fy": -19.969229824082845,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web accessibility  ️",
+      "url": "/web-development/web-design/web-accessibility",
+      "fx": -359.61870655994136,
+      "fy": -17.158802158553613,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "progressive enhancement  ️",
+      "url": "/web-development/web-design/progressive-enhancement",
+      "fx": -123.75058282935356,
+      "fy": -14.052854562909488,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "web design",
+      "target": "basics",
+      "curve": {
+        "x": -100.038,
+        "y": 176.371
+      }
+    },
+    {
+      "source": "basics",
+      "target": "progressive enhancement  ️",
+      "curve": {
+        "x": 107.187,
+        "y": 60.0493
+      }
+    },
+    {
+      "source": "help",
+      "target": "web design",
+      "curve": {
+        "x": -53.8468,
+        "y": -79.4774
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web accessibility  ️",
+      "curve": {
+        "x": -37.4972,
+        "y": 58.4964
+      }
+    },
+    {
+      "source": "basics",
+      "target": "responsive web design  ️",
+      "curve": {
+        "x": -197.945,
+        "y": 35.0755
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -178.779,
+        "y": -46.8807
+      }
+    }
+  ],
+  "id": 1927
+}

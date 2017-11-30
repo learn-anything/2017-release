@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - ratios - golden ratio",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "golden ratio",
+      "url": "http://www.wikiwand.com/en/Golden_ratio",
+      "fx": 158.8515625,
+      "fy": -182.90234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 334.3717205756533,
+      "fy": -74.38100316250222,
+      "nodes": [
+        {
+          "text": "golden powers are nearly integers  ️",
+          "url": "https://www.johndcook.com/blog/2017/03/22/golden-powers-are-nearly-integers/",
+          "fx": 533.3717205756533,
+          "fy": -74.38100316250222,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 183.16650177947201,
+      "fy": 40.13637215268295,
+      "nodes": [
+        {
+          "text": "1. what is the golden ratio?",
+          "url": "https://www.youtube.com/watch?v=6nSfJEDZ_WM",
+          "fx": 346.166501779472,
+          "fy": 31.636372152682952,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. pi and the golden ratio  ️",
+          "url": "https://johncarlosbaez.wordpress.com/2017/03/07/pi-and-the-golden-ratio/",
+          "fx": 346.166501779472,
+          "fy": 73.63637215268295,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "golden ratio",
+      "target": "basics",
+      "curve": {
+        "x": -8.59253,
+        "y": 110.769
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "golden ratio",
+      "curve": {
+        "x": -76.0101,
+        "y": -53.5107
+      }
+    }
+  ],
+  "id": 1047
+}

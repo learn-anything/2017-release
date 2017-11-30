@@ -1,0 +1,136 @@
+{
+  "title": "learn anything - programming - query languages - graphql",
+  "tag": "graphQL",
+  "nodes": [
+    {
+      "text": "GraphQL",
+      "note": "The idea is that GraphQL is independent of the actual underlying storage mechanism. You're still referring to the objects by the object model that is exposed by the REST api (which is effectively an interface that abstracts the underlying storage), this just means instead of saying I want repo/x, getting back all the JSON for the repo, and grabbing the number of stars out of that, you can directly query the object model for \"# of stars for repo X\". It's the backend's job to resolve that still, just like it was for how it filled out the \"repo/x\" response.",
+      "url": "http://graphql.org/",
+      "fx": -115.2109375,
+      "fy": -208.0703125,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/chentsulin/awesome-graphql",
+          "fx": 91.7890625,
+          "fy": -196.5703125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 15.837992032194506,
+      "fy": -98.83923017109151,
+      "nodes": [
+        {
+          "text": "17: is graphQL the next frontier for web apis?  ️",
+          "url": "https://brandur.org/api-paradigms",
+          "fx": 177.8379920321945,
+          "fy": -98.33923017109151,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 145.86833284032616,
+      "fy": 21.003238888237433,
+      "nodes": [
+        {
+          "text": "apollo",
+          "note": "open source tools for GraphQL",
+          "url": "https://github.com/apollographql/apollo",
+          "fx": 287.86833284032616,
+          "fy": 12.503238888237433,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "graphQL IDE",
+          "url": "https://github.com/redound/graphql-ide",
+          "fx": 287.86833284032616,
+          "fy": 52.50323888823743,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -182.4856956999413,
+      "fy": 200.21443530239242,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://services.github.com/on-demand/graphql/",
+          "fx": -26.48569569994129,
+          "fy": 160.71443530239242,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. GraphQL - getting started  ️",
+          "url": "https://www.getboost.io/posts/graphql-tutorial-getting-started",
+          "fx": -26.48569569994129,
+          "fy": 194.71443530239242,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. full stack tutorial for GraphQL",
+          "url": "https://www.howtographql.com/",
+          "fx": -26.48569569994129,
+          "fy": 234.71443530239242,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. how to GraphQL",
+          "url": "https://www.howtographql.com/",
+          "fx": -26.48569569994129,
+          "fy": 268.7144353023924,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tools",
+      "target": "articles",
+      "curve": {
+        "x": -60.0151,
+        "y": -59.9212
+      }
+    },
+    {
+      "source": "GraphQL",
+      "target": "basics",
+      "curve": {
+        "x": -46.6374,
+        "y": 204.143
+      }
+    },
+    {
+      "source": "articles",
+      "target": "GraphQL",
+      "curve": {
+        "x": -54.0245,
+        "y": -54.6155
+      }
+    }
+  ],
+  "id": 1684
+}

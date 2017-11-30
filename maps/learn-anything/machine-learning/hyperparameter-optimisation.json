@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - hyperparameter optimisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "hyperparameter optimisation",
+      "url": "http://www.wikiwand.com/en/Hyperparameter_optimization",
+      "fx": -8.410156249999773,
+      "fy": -36.8359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 102.23046875,
+      "fy": 102.94921875,
+      "nodes": [
+        {
+          "text": "1. Bayesian optimisation of hyper parameters",
+          "url": "https://www.youtube.com/watch?v=cWQDeB9WqvU",
+          "fx": 258.23046875,
+          "fy": 103.44921875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "hyperparameter optimisation",
+      "target": "basics",
+      "curve": {
+        "x": -2.17969,
+        "y": 68.6426
+      }
+    }
+  ],
+  "id": 758
+}

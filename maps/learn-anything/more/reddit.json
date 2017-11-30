@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - more - reddit",
+  "tag": "reddit subreddits",
+  "nodes": [
+    {
+      "text": "subreddits",
+      "note": "",
+      "url": "https://github.com/learn-anything/reddit/tree/master",
+      "fx": -14.5,
+      "fy": 4,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "related sites",
+      "url": "",
+      "fx": 0.7799295774672146,
+      "fy": 157.8330765845305,
+      "nodes": [
+        {
+          "text": "search subreddits",
+          "url": "https://www.reddit.com/subreddits/search/",
+          "fx": 207.77992957746721,
+          "fy": 169.3330765845305,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "subreddits",
+      "target": "related sites",
+      "curve": {
+        "x": -2.61004,
+        "y": 75.6665
+      }
+    }
+  ],
+  "id": 1190
+}

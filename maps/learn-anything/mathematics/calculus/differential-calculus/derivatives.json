@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - mathematics - calculus - differential calculus - derivatives",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "derivatives",
+      "url": "http://www.wikiwand.com/en/Derivative",
+      "fx": -134.78645833333314,
+      "fy": -172.06794507575756,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -143.39618844696975,
+      "fy": 5.9545454545452685,
+      "nodes": [
+        {
+          "text": "1. the paradox of the derivative",
+          "url": "https://www.youtube.com/watch?v=9vKqVkMQHKk&amp;t=2s",
+          "fx": 19.603811553030255,
+          "fy": -82.04545454545473,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the quotient rule, exponents and logarithms   ️",
+          "url": "https://betterexplained.com/articles/how-to-understand-derivatives-the-quotient-rule-exponents-and-logarithms/",
+          "fx": 19.603811553030255,
+          "fy": -15.045454545454731,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. the product, power &amp; chain rules  ️",
+          "url": "https://betterexplained.com/articles/derivatives-product-power-chain/",
+          "fx": 19.603811553030255,
+          "fy": 51.95454545454527,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. how to take derivatives",
+          "url": "https://www.youtube.com/watch?v=hCLfogkqzEk&amp;t=21s",
+          "fx": 19.603811553030255,
+          "fy": 118.95454545454527,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "differential equations  ️",
+      "url": "/mathematics/calculus/differential-calculus/derivatives/differential-equations",
+      "fx": -154.1955492424239,
+      "fy": 225.87097537878776,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "gradient  ️",
+      "url": "/mathematics/calculus/differential-calculus/derivatives/gradient",
+      "fx": -316.3291462792377,
+      "fy": 228.14408091409803,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "derivatives",
+      "target": "basics",
+      "curve": {
+        "x": -18.3049,
+        "y": 87.7612
+      }
+    },
+    {
+      "source": "basics",
+      "target": "differential equations  ️",
+      "curve": {
+        "x": 33.6003,
+        "y": 111.208
+      }
+    },
+    {
+      "source": "basics",
+      "target": "gradient  ️",
+      "curve": {
+        "x": -82.7165,
+        "y": 111.095
+      }
+    }
+  ],
+  "id": 880
+}

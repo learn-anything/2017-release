@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - geometry - information geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "information geometry",
+      "url": "http://www.wikiwand.com/en/Information_geometry",
+      "fx": 31.71875,
+      "fy": -229.44140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 113.5,
+      "fy": -66.08984375,
+      "nodes": [
+        {
+          "text": "1. the basics of information geometry",
+          "url": "https://arxiv.org/pdf/1412.5633.pdf",
+          "fx": 269.5,
+          "fy": -96.58984375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the differential geometric view of statistics and estimation",
+          "url": "https://subs.emis.de/LNI/Proceedings/Proceedings154/gi-proc-154-197.pdf",
+          "fx": 269.5,
+          "fy": -34.58984375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "information geometry",
+      "target": "basics",
+      "curve": {
+        "x": 0.140625,
+        "y": 80.4258
+      }
+    }
+  ],
+  "id": 955
+}

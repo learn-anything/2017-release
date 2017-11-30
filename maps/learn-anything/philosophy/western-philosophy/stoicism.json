@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - philosophy - western philosophy - stoicism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stoicism",
+      "url": "http://www.wikiwand.com/en/Stoicism",
+      "fx": -184.6456137048193,
+      "fy": -222.59902108433738,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Stoicism/",
+          "fx": 17.35438629518069,
+          "fy": -208.59902108433738,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -162.73310695786074,
+      "fy": -98.06748110989491,
+      "nodes": [
+        {
+          "text": "1. stoicism in 6 minutes",
+          "url": "https://www.youtube.com/watch?v=3QztdN4hUKA",
+          "fx": -6.733106957860741,
+          "fy": -106.56748110989491,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. stoicism 101",
+          "url": "https://www.youtube.com/watch?v=seLLJP3H1FU&amp;t=607s",
+          "fx": -6.733106957860741,
+          "fy": -66.56748110989491,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "stoicism",
+      "target": "basics",
+      "curve": {
+        "x": -0.543747,
+        "y": 61.0158
+      }
+    }
+  ],
+  "id": 1361
+}

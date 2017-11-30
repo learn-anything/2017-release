@@ -1,0 +1,322 @@
+{
+  "title": "learn anything - natural language processing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "natural language processing",
+      "url": "http://www.wikiwand.com/en/Natural_language_processing",
+      "fx": -80.80163588836854,
+      "fy": -475.1805586009955,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/keon/awesome-nlp",
+          "fx": 300.19836411163146,
+          "fy": -461.1805586009955,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 234.48227693025535,
+      "fy": -304.3554520770738,
+      "nodes": [
+        {
+          "text": "practical natural language processing done in ruby",
+          "url": "https://github.com/arbox/nlp-with-ruby",
+          "fx": 371.48227693025535,
+          "fy": -340.8554520770738,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "speech language processing",
+          "url": "https://github.com/edobashira/speech-language-processing",
+          "fx": 371.48227693025535,
+          "fy": -278.8554520770738,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "deep learning for NLP",
+          "url": "https://nlp.stanford.edu/courses/NAACL2013/NAACL2013-Socher-Manning-DeepLearning.pdf",
+          "fx": 371.48227693025535,
+          "fy": -238.85545207707378,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -29.14476822848121,
+      "fy": 68.67019424383932,
+      "nodes": [
+        {
+          "text": "1. notes on NLP  ️",
+          "url": "http://frnsys.com/ai_notes/machine_learning/natural_language_processing.html",
+          "fx": 152.8552317715188,
+          "fy": -165.82980575616068,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to NLP",
+          "url": "https://www.youtube.com/playlist?list=PL6397E4B26D00A269",
+          "fx": 152.8552317715188,
+          "fy": -125.82980575616068,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. natural language processing with deep learning by stanford",
+          "url": "http://web.stanford.edu/class/cs224n/",
+          "fx": 152.8552317715188,
+          "fy": -85.82980575616068,
+          "nodes": [
+            {
+              "text": "course notes",
+              "url": "https://github.com/stanfordnlp/cs224n-winter17-notes",
+              "fx": 514.8552317715188,
+              "fy": -71.82980575616068,
+              "nodes": [],
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. deep learning applied to NLP",
+          "url": "https://arxiv.org/pdf/1703.03091.pdf",
+          "fx": 152.8552317715188,
+          "fy": -23.82980575616068,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. deep learning, NLP and representations  ️",
+          "url": "http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/",
+          "fx": 152.8552317715188,
+          "fy": 16.17019424383932,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. understanding convolutional neural networks for NLP  ️",
+          "url": "http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/",
+          "fx": 152.8552317715188,
+          "fy": 78.17019424383932,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. deep learning for NLP best practices  ️",
+          "url": "http://ruder.io/deep-learning-nlp-best-practices/",
+          "fx": 152.8552317715188,
+          "fy": 140.17019424383932,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. embed, encode, attend, predict: new deep learning NLP models  ️",
+          "url": "https://explosion.ai/blog/deep-learning-formula-nlp",
+          "fx": 152.8552317715188,
+          "fy": 202.17019424383932,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. oxford deep nlp",
+          "url": "https://github.com/oxford-cs-deepnlp-2017/lectures",
+          "fx": 152.8552317715188,
+          "fy": 264.1701942438393,
+          "nodes": [
+            {
+              "text": "solutions",
+              "url": "https://github.com/mleue/oxford-deep-nlp-2017-solutions",
+              "fx": 398.8552317715188,
+              "fy": 264.1701942438393,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(36, 170, 255, 1.0)"
+            }
+          ],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. deep learning for NLP with pytorch  ️",
+          "url": "http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html",
+          "fx": 152.8552317715188,
+          "fy": 304.1701942438393,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "sentiment analysis  ️",
+      "url": "/natural-language-processing/sentiment-analysis",
+      "fx": -433.28400658605335,
+      "fy": 262.8725101017084,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "libraries",
+      "url": "",
+      "fx": -166.54985786152997,
+      "fy": 265.8691270316524,
+      "nodes": []
+    },
+    {
+      "text": "automatic summarisation  ️",
+      "url": "/natural-language-processing/automatic-summarisation",
+      "fx": -976.2960060967339,
+      "fy": 265.59687338934987,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "text classification  ️",
+      "url": "/natural-language-processing/text-classification",
+      "fx": -668.9898432974392,
+      "fy": 266.0649683141088,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "word vectors  ️",
+      "url": "/natural-language-processing/word-vectors",
+      "fx": -1169.4165123833548,
+      "fy": 266.56292639838307,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "latent semantic analysis  ️",
+      "url": "/natural-language-processing/latent-semantic-analysis",
+      "fx": -1460.811871408046,
+      "fy": 267.0431782806512,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "natural language toolkit  ️",
+      "url": "/natural-language-processing/nltk",
+      "fx": -176.10061280684022,
+      "fy": 403.5298000271773,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "spaCy  ️",
+      "url": "/natural-language-processing/spacy",
+      "fx": -331.45089285714255,
+      "fy": 404.25849454365084,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "natural language processing",
+      "target": "basics",
+      "curve": {
+        "x": -27.9217,
+        "y": 271.925
+      }
+    },
+    {
+      "source": "help",
+      "target": "natural language processing",
+      "curve": {
+        "x": -98.3919,
+        "y": -85.4126
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sentiment analysis  ️",
+      "curve": {
+        "x": -168.069,
+        "y": 98.3511
+      }
+    },
+    {
+      "source": "basics",
+      "target": "text classification  ️",
+      "curve": {
+        "x": -302.422,
+        "y": 98.6971
+      }
+    },
+    {
+      "source": "basics",
+      "target": "automatic summarisation  ️",
+      "curve": {
+        "x": -437.576,
+        "y": 98.4631
+      }
+    },
+    {
+      "source": "basics",
+      "target": "word vectors  ️",
+      "curve": {
+        "x": -732.718,
+        "y": 68.3983
+      }
+    },
+    {
+      "source": "basics",
+      "target": "libraries",
+      "curve": {
+        "x": -72.4525,
+        "y": 98.5991
+      }
+    },
+    {
+      "source": "libraries",
+      "target": "spaCy  ️",
+      "curve": {
+        "x": -77.9505,
+        "y": 70.4447
+      }
+    },
+    {
+      "source": "libraries",
+      "target": "natural language toolkit  ️",
+      "curve": {
+        "x": 37.7246,
+        "y": 70.0803
+      }
+    },
+    {
+      "source": "basics",
+      "target": "latent semantic analysis  ️",
+      "curve": {
+        "x": -899.005,
+        "y": 45.3232
+      }
+    }
+  ],
+  "id": 1204
+}

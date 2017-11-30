@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - distributions - f-distribution - one-way analysis of variance",
+  "tag": "one-way analysis of variance",
+  "nodes": [
+    {
+      "text": "one-way analysis of variance",
+      "url": "http://www.wikiwand.com/en/One-way_analysis_of_variance",
+      "fx": -152.95703125,
+      "fy": -147.1796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=q48uKU_KWas",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "one-way analysis of variance",
+      "target": "basics",
+      "curve": {
+        "x": -4.27148,
+        "y": 71.3398
+      }
+    }
+  ],
+  "id": 1086
+}

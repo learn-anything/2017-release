@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - cognitive science - cognition - learning - information mapping - mind maps",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mind maps",
+      "url": "http://www.wikiwand.com/en/Mind_map",
+      "fx": 128.99609375,
+      "fy": -208.59375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 248.9622189153439,
+      "fy": -87.6609002976191,
+      "nodes": [
+        {
+          "text": "16: mind map everything  ️",
+          "url": "https://medium.com/@NikitaVoloboev/mind-map-everything-d27670f70739",
+          "fx": 410.9622189153439,
+          "fy": -76.1609002976191,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 154.95460108062855,
+      "fy": 22.35531348982005,
+      "nodes": [
+        {
+          "text": "1. the power of a mind to map",
+          "url": "https://www.youtube.com/watch?v=nMZCghZ1hB4&amp;t=7s",
+          "fx": 310.95460108062855,
+          "fy": 33.85531348982005,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "mind maps",
+      "curve": {
+        "x": -43.4831,
+        "y": -59.2164
+      }
+    },
+    {
+      "source": "mind maps",
+      "target": "basics",
+      "curve": {
+        "x": -5.02075,
+        "y": 114.225
+      }
+    }
+  ],
+  "id": 189
+}

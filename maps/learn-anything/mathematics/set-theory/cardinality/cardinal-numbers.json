@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - set theory - cardinality - cardinal numbers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cardinal numbers",
+      "url": "http://www.wikiwand.com/en/Cardinal_number",
+      "fx": 84,
+      "fy": -98.9609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 42.0390625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Voj2N0VVbmg",
+          "fx": 310,
+          "fy": 54.5390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "large cardinals",
+      "url": "http://www.wikiwand.com/en/Large_cardinal",
+      "fx": 10.359375,
+      "fy": 177.65234375,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cardinal numbers",
+      "target": "basics",
+      "curve": {
+        "x": -3.25,
+        "y": 69.75
+      }
+    },
+    {
+      "source": "basics",
+      "target": "large cardinals",
+      "curve": {
+        "x": -40.8203,
+        "y": 68.5566
+      }
+    }
+  ],
+  "id": 1065
+}

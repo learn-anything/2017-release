@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - mathematics - analysis - functional analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "functional analysis",
+      "url": "http://www.wikiwand.com/en/Functional_analysis",
+      "fx": 363.70863135743525,
+      "fy": -210.45660252860887,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 428.5244451280456,
+      "fy": -78.14543884235206,
+      "nodes": [
+        {
+          "text": "1. introduction to functional analysis",
+          "url": "http://www1.maths.leeds.ac.uk/~kisilv/courses/math3263.html",
+          "fx": 610.5244451280456,
+          "fy": -97.64543884235206,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. functional analysis",
+          "url": "http://www.goodreads.com/book/show/155359.Functional_Analysis",
+          "fx": 610.5244451280456,
+          "fy": -35.645438842352064,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Hahn–Banach theorem",
+      "url": "http://www.wikiwand.com/en/Hahn%E2%80%93Banach_theorem",
+      "fx": 179.96726012238048,
+      "fy": 97.86075377471252,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Riesz representation theorem",
+      "url": "http://www.wikiwand.com/en/Riesz_representation_theorem",
+      "fx": 472.47172284609485,
+      "fy": 98.5531832681487,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "functional analysis",
+      "target": "basics",
+      "curve": {
+        "x": -1.34209,
+        "y": 64.9056
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Hahn–Banach theorem",
+      "curve": {
+        "x": -93.0286,
+        "y": 88.0031
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Riesz representation theorem",
+      "curve": {
+        "x": 76.4736,
+        "y": 89.5993
+      }
+    }
+  ],
+  "id": 866
+}

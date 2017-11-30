@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - momentum",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "momentum",
+      "url": "http://www.wikiwand.com/en/Momentum",
+      "fx": 22.54778767523362,
+      "fy": -442.20173773364485,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 53.86047554016113,
+      "fy": -309.8390808105469,
+      "nodes": [
+        {
+          "text": "1. introduction to momentum",
+          "url": "https://www.youtube.com/watch?v=XFhntPxow0U",
+          "fx": 209.86047554016113,
+          "fy": -298.3390808105469,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "angular momentum  ️",
+      "url": "/physics/classical-mechanics/momentum/angular-momentum",
+      "fx": -125.2476739482205,
+      "fy": -165.6703580097087,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "momentum",
+      "target": "basics",
+      "curve": {
+        "x": -3.09366,
+        "y": 64.9313
+      }
+    },
+    {
+      "source": "basics",
+      "target": "angular momentum  ️",
+      "curve": {
+        "x": -59.8041,
+        "y": 72.0844
+      }
+    }
+  ],
+  "id": 1377
+}

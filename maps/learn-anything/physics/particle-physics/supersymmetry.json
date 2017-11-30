@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - particle physics - supersymmetry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "supersymmetry",
+      "url": "http://www.wikiwand.com/en/Supersymmetry",
+      "fx": -55.011904761904816,
+      "fy": -382.1510416666667,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -5.460565476190482,
+      "fy": -228.9118303571596,
+      "nodes": [
+        {
+          "text": "1. what is supersymmetry?",
+          "url": "https://www.youtube.com/watch?v=0CeLRrBAI60",
+          "fx": 157.53943452380952,
+          "fy": -237.4118303571596,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. why supersymmetry?",
+          "url": "https://www.youtube.com/watch?v=09VbAe9JZ8Y",
+          "fx": 157.53943452380952,
+          "fy": -195.4118303571596,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "supersymmetry",
+      "target": "basics",
+      "curve": {
+        "x": -5.22433,
+        "y": 75.8696
+      }
+    }
+  ],
+  "id": 1517
+}

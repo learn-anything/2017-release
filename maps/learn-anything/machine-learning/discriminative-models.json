@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - machine learning - discriminative models",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "discriminative models",
+      "url": "http://www.wikiwand.com/en/Discriminative_model",
+      "fx": 49.28515625,
+      "fy": -123.5390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 285.66235807800945,
+      "fy": -2.353151483050908,
+      "nodes": [
+        {
+          "text": "deep generative and speech models for speech recognition",
+          "url": "https://www.youtube.com/watch?v=dMxoTgn4z2k",
+          "fx": 484.66235807800945,
+          "fy": -2.353151483050908,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 133.75120192307702,
+      "fy": 121.31790865384625,
+      "nodes": [
+        {
+          "text": "1. discriminative learning for DBNs",
+          "url": "https://www.youtube.com/watch?v=0gX4BtLSqIY",
+          "fx": 296.751201923077,
+          "fy": 121.31790865384625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "discriminative models",
+      "curve": {
+        "x": -82.1886,
+        "y": -59.843
+      }
+    },
+    {
+      "source": "discriminative models",
+      "target": "basics",
+      "curve": {
+        "x": -2.76698,
+        "y": 121.678
+      }
+    }
+  ],
+  "id": 755
+}

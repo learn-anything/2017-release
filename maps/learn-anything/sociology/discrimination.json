@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - sociology - discrimination",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "discrimination",
+      "url": "http://www.wikiwand.com/en/Discrimination",
+      "fx": 99.1015625,
+      "fy": -115.0390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 140,
+      "fy": 26,
+      "nodes": [
+        {
+          "text": "1. prejudice &amp; discrimination",
+          "url": "https://www.youtube.com/watch?v=7P0iP2Zm6a4",
+          "fx": 303,
+          "fy": 38.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "prejudice",
+      "url": "http://www.wikiwand.com/en/Prejudice",
+      "fx": 29.49479166666663,
+      "fy": 190.6908700980669,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "discrimination",
+      "target": "basics",
+      "curve": {
+        "x": -5.05078,
+        "y": 69.7695
+      }
+    },
+    {
+      "source": "basics",
+      "target": "prejudice",
+      "curve": {
+        "x": -39.0026,
+        "y": 83.0954
+      }
+    }
+  ],
+  "id": 1785
+}

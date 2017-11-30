@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - random variables - stochastic processes - stochastic differential equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stochastic differential equations",
+      "url": "http://www.wikiwand.com/en/Stochastic_differential_equation",
+      "fx": 70.4140625,
+      "fy": -312.88671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 193.2265625,
+      "fy": -145.15625,
+      "nodes": [
+        {
+          "text": "1. stochastic differential equations",
+          "url": "http://th.if.uj.edu.pl/~gudowska/dydaktyka/Oksendal.pdf",
+          "fx": 356.2265625,
+          "fy": -178.65625,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. stochastic differential equations",
+          "url": "https://www.youtube.com/watch?v=qdbkvD4N-us",
+          "fx": 356.2265625,
+          "fy": -111.65625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "stochastic differential equations",
+      "target": "basics",
+      "curve": {
+        "x": -8.09375,
+        "y": 83.1152
+      }
+    }
+  ],
+  "id": 1102
+}

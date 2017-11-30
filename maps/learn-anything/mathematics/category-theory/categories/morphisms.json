@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - category theory - categories - morphisms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "morphisms",
+      "url": "http://www.wikiwand.com/en/Morphism",
+      "fx": -104.9358511306533,
+      "fy": -44.286157349246196,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -86.32709652937774,
+      "fy": 106.33050537417546,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=yuzoHGEYWaU",
+          "fx": 76.67290347062226,
+          "fy": 97.83050537417546,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. explanation  ️",
+          "url": "https://ncatlab.org/nlab/show/morphism",
+          "fx": 76.67290347062226,
+          "fy": 139.83050537417546,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "morphisms",
+      "target": "basics",
+      "curve": {
+        "x": -10.1956,
+        "y": 74.5583
+      }
+    }
+  ],
+  "id": 912
+}

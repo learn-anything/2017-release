@@ -1,0 +1,102 @@
+{
+  "title": "learn anything - operating systems - unix - shells - zsh",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "zsh",
+      "url": "http://www.wikiwand.com/en/Z_shell",
+      "fx": -83.9453125,
+      "fy": -311.53204528443115,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/zsh/",
+          "fx": 80.0546875,
+          "fy": -318.53204528443115,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/unixorn/awesome-zsh-plugins",
+          "fx": 80.0546875,
+          "fy": -276.53204528443115,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -5.2642726400649735,
+      "fy": -180.2100439028551,
+      "nodes": [
+        {
+          "text": "zsh keybindings",
+          "url": "http://zshwiki.org/home/zle/bindkeys",
+          "fx": 135.73572735993503,
+          "fy": -214.7100439028551,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "why zsh is better than other shells",
+          "url": "https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692",
+          "fx": 135.73572735993503,
+          "fy": -177.7100439028551,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "zsh reference card",
+          "url": "http://www.bash2zsh.com/zsh_refcard/refcard.pdf",
+          "fx": 135.73572735993503,
+          "fy": -115.71004390285509,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -108.10517434957671,
+      "fy": -30.823551890522367,
+      "nodes": [
+        {
+          "text": "1. user’s guide to the z-shell",
+          "url": "http://zsh.sourceforge.net/Guide/zshguide01.html#l1",
+          "fx": 80.89482565042329,
+          "fy": -18.323551890522367,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "zsh",
+      "curve": {
+        "x": -34.0905,
+        "y": -64.411
+      }
+    },
+    {
+      "source": "zsh",
+      "target": "basics",
+      "curve": {
+        "x": -12.5799,
+        "y": 139.104
+      }
+    }
+  ],
+  "id": 1305
+}

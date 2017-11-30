@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - psychology - personality - rorschach test",
+  "tag": "Rorschach test",
+  "nodes": [
+    {
+      "text": "Rorschach test",
+      "url": "http://www.wikiwand.com/en/Rorschach_test",
+      "fx": 96,
+      "fy": -105.11328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. Rorschach &amp; Freudians",
+          "url": "https://www.youtube.com/watch?v=mUELAiHbCxc",
+          "fx": 310,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Rorschach test",
+      "target": "basics",
+      "curve": {
+        "x": -4,
+        "y": 68.8066
+      }
+    }
+  ],
+  "id": 1757
+}

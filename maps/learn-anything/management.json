@@ -1,0 +1,115 @@
+{
+  "title": "learn anything - management",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "management",
+      "url": "http://www.wikiwand.com/en/Management",
+      "fx": -26.20326814576174,
+      "fy": -338.0862313561374,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/management/",
+          "fx": 219.79673185423826,
+          "fy": -324.0862313561374,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -1.6915282869211978,
+      "fy": -150.32280880177512,
+      "nodes": [
+        {
+          "text": "1. 44 engineering management lessons  ️",
+          "url": "http://www.defmacro.org/2014/10/03/engman.html",
+          "fx": 180.3084717130788,
+          "fy": -251.82280880177512,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. reinventing organisations",
+          "url": "https://www.youtube.com/watch?v=gcS04BI2sbk",
+          "fx": 180.3084717130788,
+          "fy": -189.82280880177512,
+          "nodes": [
+            {
+              "text": "book",
+              "url": "http://www.reinventingorganizations.com/pay-what-feels-right.html",
+              "fx": 500.3084717130788,
+              "fy": -189.82280880177512,
+              "nodes": [],
+              "category": "free book",
+              "color": "rgba(209, 21, 88, 1.0)"
+            }
+          ],
+          "category": "video",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "2. high output management",
+          "url": "https://www.goodreads.com/book/show/324750.High_Output_Management",
+          "fx": 180.3084717130788,
+          "fy": -149.82280880177512,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. the mythical man-month: essays on software engineering",
+          "url": "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month",
+          "fx": 180.3084717130788,
+          "fy": -109.82280880177512,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. Peopleware: productive projects and teams",
+          "url": "http://www.goodreads.com/book/show/67825.Peopleware",
+          "fx": 180.3084717130788,
+          "fy": -47.822808801775125,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "engineering management  ️",
+      "url": "/management/engineering-management",
+      "fx": -224.66188979289933,
+      "fy": 11.778938609467446,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "management",
+      "target": "basics",
+      "curve": {
+        "x": -4.4941,
+        "y": 93.8817
+      }
+    },
+    {
+      "source": "basics",
+      "target": "engineering management  ️",
+      "curve": {
+        "x": -74.9851,
+        "y": 81.0509
+      }
+    }
+  ],
+  "id": 804
+}

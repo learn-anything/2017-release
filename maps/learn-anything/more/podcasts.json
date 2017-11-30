@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - more - podcasts",
+  "tag": "new podcasts",
+  "nodes": [
+    {
+      "text": "podcasts",
+      "url": "https://github.com/learn-anything/podcasts",
+      "fx": -10,
+      "fy": 4,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new podcasts",
+      "url": "",
+      "fx": -62.05110925572558,
+      "fy": 155.44531249998062,
+      "nodes": [
+        {
+          "text": "audio search",
+          "url": "https://www.audiosear.ch/",
+          "fx": 202.94889074427442,
+          "fy": 135.94531249998062,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "programming podcasts",
+          "url": "https://programmingpodcasts.com/",
+          "fx": 202.94889074427442,
+          "fy": 169.94531249998062,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome geek podcasts",
+          "url": "https://github.com/guipdutra/awesome-geek-podcasts",
+          "fx": 202.94889074427442,
+          "fy": 203.94531249998062,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "podcasts",
+      "target": "find new podcasts",
+      "curve": {
+        "x": -27.0255,
+        "y": 74.4726
+      }
+    }
+  ],
+  "id": 1187
+}

@@ -1,0 +1,81 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - irc",
+  "tag": "irc protocol",
+  "nodes": [
+    {
+      "text": "irc",
+      "url": "http://www.wikiwand.com/en/Internet_Relay_Chat",
+      "fx": 36.37249599358972,
+      "fy": -213.56119791666663,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 148.15584935897436,
+      "fy": -107.67548076923077,
+      "nodes": [
+        {
+          "text": "irc logs bot",
+          "url": "https://www.botbot.me/",
+          "fx": 289.15584935897436,
+          "fy": -93.17548076923077,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 27.660890434403882,
+      "fy": -8.208263318396916,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://superuser.com/a/316592/277517",
+          "fx": 183.66089043440388,
+          "fy": 3.2917366816030835,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "freenode",
+      "url": "https://freenode.net/",
+      "fx": -69.8037109375,
+      "fy": 123.5751953125,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "irc",
+      "target": "basics",
+      "curve": {
+        "x": -2.3558,
+        "y": 101.427
+      }
+    },
+    {
+      "source": "tools",
+      "target": "irc",
+      "curve": {
+        "x": -54.3917,
+        "y": -51.6929
+      }
+    },
+    {
+      "source": "basics",
+      "target": "freenode",
+      "curve": {
+        "x": -43.2323,
+        "y": 65.8917
+      }
+    }
+  ],
+  "id": 1218
+}

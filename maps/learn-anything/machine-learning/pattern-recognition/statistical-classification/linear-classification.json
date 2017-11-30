@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - statistical classification - linear classification",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear classification",
+      "url": "http://www.wikiwand.com/en/Linear_classifier",
+      "fx": -60.9375,
+      "fy": -229.54296874999994,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -1.236842105263122,
+      "fy": -83.83244243425679,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=hAnfnc2dWBs",
+          "fx": 154.76315789473688,
+          "fy": -89.33244243425679,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. overview to linear classification",
+          "url": "http://cs231n.github.io/linear-classify/",
+          "fx": 154.76315789473688,
+          "fy": -49.33244243425679,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear classification",
+      "target": "basics",
+      "curve": {
+        "x": 2.10033,
+        "y": 71.6053
+      }
+    }
+  ],
+  "id": 790
+}

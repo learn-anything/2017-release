@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics - bayes theorem",
+  "tag": "Bayes’ theorem",
+  "nodes": [
+    {
+      "text": "Bayes’ theorem",
+      "url": "http://www.wikiwand.com/en/Bayes%27_theorem",
+      "fx": 191.05664062500017,
+      "fy": -54.63248697916674,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 243.3958333333337,
+      "fy": 83.59863281259811,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=OqmJhPQYRc8",
+          "fx": 399.3958333333337,
+          "fy": 64.09863281259811,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. understanding Bayes theorem with ratios  ️",
+          "url": "https://betterexplained.com/articles/understanding-bayes-theorem-with-ratios/",
+          "fx": 399.3958333333337,
+          "fy": 104.09863281259811,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Bayes’ theorem",
+      "target": "basics",
+      "curve": {
+        "x": -2.0804,
+        "y": 67.8655
+      }
+    }
+  ],
+  "id": 1074
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries - dropwizard",
+  "tag": "dropwizard library",
+  "nodes": [
+    {
+      "text": "dropwizard",
+      "url": "https://github.com/dropwizard/dropwizard",
+      "fx": 61.8515625,
+      "fy": -154.00977665960454,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/stve/awesome-dropwizard",
+          "fx": 289.8515625,
+          "fy": -140.00977665960454,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 99.98919882550331,
+      "fy": -2.2677747483821236,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "http://www.dropwizard.io/1.1.0/docs/getting-started.html",
+          "fx": 255.9891988255033,
+          "fy": 12.232225251617876,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dropwizard",
+      "target": "basics",
+      "curve": {
+        "x": 1.06882,
+        "y": 74.621
+      }
+    }
+  ],
+  "id": 1603
+}

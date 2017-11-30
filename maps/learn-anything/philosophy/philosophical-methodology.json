@@ -1,0 +1,120 @@
+{
+  "title": "learn anything - philosophy - philosophical methodology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "philosophical methodology",
+      "url": "http://www.wikiwand.com/en/Philosophical_methodology",
+      "fx": 74.033203125,
+      "fy": -349.5625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 187.015625,
+      "fy": -215.724609375,
+      "nodes": [
+        {
+          "text": "1. the philosophical method - logic and argument ",
+          "url": "https://www.youtube.com/watch?v=M14ReHfPFUw",
+          "fx": 349.015625,
+          "fy": -213.224609375,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "thought experiments  ️",
+      "url": "/philosophy/philosophical-methodology/thought-experiments",
+      "fx": -121.2532354207483,
+      "fy": -124.62429038554382,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "methodology process",
+      "url": "",
+      "fx": 262.70213386193996,
+      "fy": -79.99667677236789,
+      "nodes": []
+    },
+    {
+      "text": "cartesian doubt",
+      "url": "http://www.wikiwand.com/en/Cartesian_doubt",
+      "fx": 385.6640735784172,
+      "fy": 31.170280200258162,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "argument",
+      "url": "http://www.wikiwand.com/en/Argument",
+      "fx": 491.61058388657784,
+      "fy": 141.06899646683382,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "dialectic",
+      "url": "http://www.wikiwand.com/en/Dialectic",
+      "fx": 557.3031546031143,
+      "fy": 259.15791163073436,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "philosophical methodology",
+      "target": "basics",
+      "curve": {
+        "x": -3.50879,
+        "y": 66.1689
+      }
+    },
+    {
+      "source": "basics",
+      "target": "thought experiments  ️",
+      "curve": {
+        "x": -119.385,
+        "y": 45.5501
+      }
+    },
+    {
+      "source": "cartesian doubt",
+      "target": "argument",
+      "curve": {
+        "x": 48.7233,
+        "y": 54.1994
+      }
+    },
+    {
+      "source": "argument",
+      "target": "dialectic",
+      "curve": {
+        "x": 25.3463,
+        "y": 58.2945
+      }
+    },
+    {
+      "source": "basics",
+      "target": "methodology process",
+      "curve": {
+        "x": 76.0933,
+        "y": 67.864
+      }
+    },
+    {
+      "source": "methodology process",
+      "target": "cartesian doubt",
+      "curve": {
+        "x": 53.731,
+        "y": 56.3335
+      }
+    }
+  ],
+  "id": 1331
+}

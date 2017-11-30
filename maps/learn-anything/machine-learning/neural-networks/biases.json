@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - machine learning - neural networks - biases",
+  "tag": "biases in neural networks",
+  "nodes": [
+    {
+      "text": "biases",
+      "url": "http://www.wikiwand.com/en/Bias_(statistics)",
+      "fx": 5.1484375,
+      "fy": -233.50363685344826,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 12.335931600805907,
+      "fy": -89.16400744088736,
+      "nodes": [
+        {
+          "text": "1. what is bias in artificial neural network?",
+          "url": "https://www.quora.com/What-is-bias-in-artificial-neural-network",
+          "fx": 168.3359316008059,
+          "fy": -125.66400744088736,
+          "nodes": [],
+          "category": "quora",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. bias nodes in neural networks",
+          "url": "http://makeyourownneuralnetwork.blogspot.nl/2016/06/bias-nodes-in-neural-networks.html",
+          "fx": 168.3359316008059,
+          "fy": -63.66400744088736,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. role of biases in neural networks   ️",
+          "url": "https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks/2499936#2499936",
+          "fx": 168.3359316008059,
+          "fy": -29.66400744088736,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "biases",
+      "target": "basics",
+      "curve": {
+        "x": 1.59375,
+        "y": 70.9198
+      }
+    }
+  ],
+  "id": 773
+}

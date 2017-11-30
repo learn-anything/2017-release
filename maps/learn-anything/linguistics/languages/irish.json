@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - linguistics - languages - irish",
+  "tag": "irish language",
+  "nodes": [
+    {
+      "text": "irish language",
+      "url": "http://www.wikiwand.com/en/Irish_language",
+      "fx": -29.500039100646973,
+      "fy": -37.30001175403595,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/gaeilge/",
+          "fx": 221.49996089935303,
+          "fy": -23.30001175403595,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 18.92578125,
+      "fy": 87.34765625,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/ga/en/Learn-Irish-Online",
+          "fx": 174.92578125,
+          "fy": 101.84765625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "irish language",
+      "target": "basics",
+      "curve": {
+        "x": 0.46291,
+        "y": 61.0738
+      }
+    }
+  ],
+  "id": 728
+}

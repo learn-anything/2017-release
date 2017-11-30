@@ -1,0 +1,65 @@
+{
+  "title": "learn anything - systems theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "systems theory",
+      "url": "http://www.wikiwand.com/en/Systems_theory",
+      "fx": 56.06169658687941,
+      "fy": -233.51476617907804,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "feedback",
+      "url": "http://www.wikiwand.com/en/Feedback",
+      "fx": 33.93738723646675,
+      "fy": -75.89827882482649,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "system dynamics",
+      "url": "http://www.wikiwand.com/en/System_dynamics",
+      "fx": -227.72722117106116,
+      "fy": -75.64697184461232,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "cybernetics  ️",
+      "url": "/systems-theory/cybernetics",
+      "fx": 210.96823004508292,
+      "fy": -75.18476356410014,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "systems theory",
+      "target": "system dynamics",
+      "curve": {
+        "x": -136.144,
+        "y": 78.9339
+      }
+    },
+    {
+      "source": "systems theory",
+      "target": "feedback",
+      "curve": {
+        "x": -25.5622,
+        "y": 78.8082
+      }
+    },
+    {
+      "source": "systems theory",
+      "target": "cybernetics  ️",
+      "curve": {
+        "x": 68.4533,
+        "y": 79.165
+      }
+    }
+  ],
+  "id": 1845
+}

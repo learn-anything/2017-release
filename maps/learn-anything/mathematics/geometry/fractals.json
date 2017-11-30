@@ -1,0 +1,175 @@
+{
+  "title": "learn anything - mathematics - geometry - fractals",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fractals",
+      "url": "http://www.wikiwand.com/en/Fractal",
+      "fx": 0.9295387268066406,
+      "fy": -35.643333435058594,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/fractals/",
+          "fx": 191.92953872680664,
+          "fy": -21.643333435058594,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 108.4765625,
+      "fy": 80.52343749999989,
+      "nodes": [
+        {
+          "text": "17: hitchhiker's guide to the mandelbrot set  ️",
+          "url": "https://morr.cc/mandelbrot/",
+          "fx": 245.4765625,
+          "fy": 81.02343749999989,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 146.15625,
+      "fy": 211.8007812499999,
+      "nodes": [
+        {
+          "text": "how to fold a julia fractal",
+          "url": "https://acko.net/blog/how-to-fold-a-julia-fractal/",
+          "fx": 337.15625,
+          "fy": 223.3007812499999,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -21.027832031251194,
+      "fy": 326.17431640626467,
+      "nodes": [
+        {
+          "text": "1. fractals are typically not self-similar",
+          "url": "https://www.youtube.com/watch?v=gB9n2gHsHN4&amp;t=945s",
+          "fx": 160.9721679687488,
+          "fy": 309.67431640626467,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. fractals explained",
+          "url": "http://natureofcode.com/book/chapter-8-fractals/",
+          "fx": 160.9721679687488,
+          "fy": 371.67431640626467,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Hilbert curve  ️",
+      "url": "/mathematics/geometry/fractals/hilbert-curve",
+      "fx": -193.5785369873047,
+      "fy": 450.05609130859375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Mandelbrot set  ️",
+      "url": "/mathematics/geometry/fractals/mandelbrot-set",
+      "fx": -404.64680232558135,
+      "fy": 450.87681686046517,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fractal landscapes  ️",
+      "url": "/mathematics/geometry/fractals/fractal-landscapes",
+      "fx": -657.7867704766002,
+      "fy": 451.2850555997262,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fractal analysis  ️",
+      "url": "/mathematics/geometry/fractals/fractal-analysis",
+      "fx": -4.451686859130859,
+      "fy": 451.6346130371094,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "fractals",
+      "curve": {
+        "x": -42.5235,
+        "y": -56.8334
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -32.3398,
+        "y": -65.6387
+      }
+    },
+    {
+      "source": "fractals",
+      "target": "basics",
+      "curve": {
+        "x": -17.4787,
+        "y": 179.659
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Hilbert curve  ️",
+      "curve": {
+        "x": -78.7754,
+        "y": 61.9408
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fractal analysis  ️",
+      "curve": {
+        "x": 20.2881,
+        "y": 62.7301
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Mandelbrot set  ️",
+      "curve": {
+        "x": -209.402,
+        "y": 47.4185
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fractal landscapes  ️",
+      "curve": {
+        "x": -331.778,
+        "y": 33.0623
+      }
+    }
+  ],
+  "id": 951
+}

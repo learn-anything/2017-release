@@ -1,0 +1,115 @@
+{
+  "title": "learn anything - mathematics - sequences",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sequences",
+      "url": "http://www.wikiwand.com/en/Sequence",
+      "fx": 141.03152245280774,
+      "fy": -405.105769210306,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 298.19794950609526,
+      "fy": -292.33044346364017,
+      "nodes": [
+        {
+          "text": "some very interesting sequences",
+          "url": "http://www.math.sjsu.edu/~hsu/pdf/sequences.pdf",
+          "fx": 497.19794950609526,
+          "fy": -292.33044346364017,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 165.93091583251953,
+      "fy": -169.46338272094727,
+      "nodes": [
+        {
+          "text": "1. what is a sequence?",
+          "url": "https://www.youtube.com/watch?v=Kxh7yJC9Jr0&amp;t=36s",
+          "fx": 328.93091583251953,
+          "fy": -156.96338272094727,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Fibonacci sequence  ️",
+      "url": "/mathematics/sequences/fibonacci-sequence",
+      "fx": -205.04306285185942,
+      "fy": 31.378362095771195,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "harmonic progression",
+      "url": "http://www.wikiwand.com/en/Harmonic_progression_(mathematics)",
+      "fx": 95.46945546310747,
+      "fy": 35.678982036888215,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "low-discrepancy sequence",
+      "url": "http://www.wikiwand.com/en/Low-discrepancy_sequence",
+      "fx": 394.0346765350889,
+      "fy": 36.7243695175423,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "sequences",
+      "target": "basics",
+      "curve": {
+        "x": -7.0503,
+        "y": 117.071
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Fibonacci sequence  ️",
+      "curve": {
+        "x": -143.237,
+        "y": 101.171
+      }
+    },
+    {
+      "source": "basics",
+      "target": "harmonic progression",
+      "curve": {
+        "x": 3.51927,
+        "y": 102.571
+      }
+    },
+    {
+      "source": "basics",
+      "target": "low-discrepancy sequence",
+      "curve": {
+        "x": 200.916,
+        "y": 98.5229
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "sequences",
+      "curve": {
+        "x": -68.0832,
+        "y": -55.6377
+      }
+    }
+  ],
+  "id": 1061
+}

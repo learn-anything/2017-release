@@ -1,0 +1,486 @@
+{
+  "title": "learn anything - machine learning - deep learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "deep learning",
+      "url": "http://www.wikiwand.com/en/Deep_learning",
+      "fx": -204.2115592956543,
+      "fy": -1080.265250692562,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/deeplearning/",
+          "fx": 60.7884407043457,
+          "fy": -1087.265250692562,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+          "fx": 60.7884407043457,
+          "fy": -1045.265250692562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -3.0417590141296387,
+      "fy": -796.2139282226562,
+      "nodes": [
+        {
+          "text": "awesome deep learning papers",
+          "url": "https://github.com/terryum/awesome-deep-learning-papers",
+          "fx": 137.95824098587036,
+          "fy": -963.2139282226562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "essential cheat sheets  ️",
+          "url": "https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5",
+          "fx": 137.95824098587036,
+          "fy": -921.2139282226562,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome deep learning resources",
+          "url": "https://github.com/guillaume-chevalier/awesome-deep-learning-resources",
+          "fx": 137.95824098587036,
+          "fy": -879.2139282226562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "deep review",
+          "note": "collaboratively written review paper on deep learning, genomics, and precision medicine",
+          "url": "https://greenelab.github.io/deep-review/",
+          "fx": 137.95824098587036,
+          "fy": -837.2139282226562,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "deep learning software slide",
+          "url": "http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture8.pdf",
+          "fx": 137.95824098587036,
+          "fy": -795.2139282226562,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "open source deep learning curriculum  ️",
+          "url": "http://www.deeplearningweekly.com/blog/open-source-deep-learning-curriculum/",
+          "fx": 137.95824098587036,
+          "fy": -758.2139282226562,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "on the computational complexity of deep learning",
+          "url": "http://lear.inrialpes.fr/workshop/osl2015/slides/osl2015_shalev_shwartz.pdf",
+          "fx": 137.95824098587036,
+          "fy": -691.2139282226562,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "deep learning summaries and notes",
+          "url": "https://github.com/dennybritz/deeplearning-papernotes",
+          "fx": 137.95824098587036,
+          "fy": -629.2139282226562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "applications",
+      "url": "",
+      "fx": -525.7765810373149,
+      "fy": -502.83798334218034,
+      "nodes": []
+    },
+    {
+      "text": "AlphaGo  ️",
+      "url": "/machine-learning/deep-learning/alphago",
+      "fx": -774.5327576754387,
+      "fy": -459.98122258771923,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 372.0351867675781,
+      "fy": -366.8230209350586,
+      "nodes": [
+        {
+          "text": "16: why randomness is important for deep learning  ️",
+          "url": "http://blog.evjang.com/2016/07/randomness-deep-learning.html",
+          "fx": 541.0351867675781,
+          "fy": -634.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "16: what product breakthroughs will recent advances in deep learning enable?  ️",
+          "url": "http://blog.evjang.com/2016/07/what-product-breakthroughs-will-recent.html",
+          "fx": 541.0351867675781,
+          "fy": -567.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "17: everything that works works because it's bayesian: why deep nets generalize?  ️",
+          "url": "http://www.inference.vc/everything-that-works-works-because-its-bayesian-2/",
+          "fx": 541.0351867675781,
+          "fy": -451.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "17: deep learning  ️",
+          "url": "https://www.technologyreview.com/s/513696/deep-learning/",
+          "fx": 541.0351867675781,
+          "fy": -359.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "17: zero to one  ️",
+          "url": "https://medium.com/@SamPutnam/deep-learning-download-and-run-a9a1e374d2d9",
+          "fx": 541.0351867675781,
+          "fy": -317.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "17: deep learning and virtual tense machines  ️",
+          "url": "https://zigasajovic.github.io/Deep-Learning-and-Virtual-Tensor-Machines/",
+          "fx": 541.0351867675781,
+          "fy": -275.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "17: activation functions its types - which is better?  ️",
+          "url": "https://medium.com/towards-data-science/activation-functions-and-its-types-which-is-better-a9a5310cc8f",
+          "fx": 541.0351867675781,
+          "fy": -208.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "17: when not to use deep learning  ️",
+          "url": "http://hyperparameter.space/blog/when-not-to-use-deep-learning/",
+          "fx": 541.0351867675781,
+          "fy": -141.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "17: the future of deep learning  ️",
+          "url": "https://blog.keras.io/the-future-of-deep-learning.html",
+          "fx": 541.0351867675781,
+          "fy": -74.3230209350586,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "autonomous driving  ️",
+      "url": "/machine-learning/deep-learning/autonomous-driving",
+      "fx": -708.8905214241751,
+      "fy": -327.8245351936067,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -324.02888591967667,
+      "fy": -49.50411322241882,
+      "nodes": [
+        {
+          "text": "1. deep learning made simple  ️",
+          "url": "https://blog.vivekpanyam.com/deep-learning-made-simple-part-1/",
+          "fx": -135.02888591967667,
+          "fy": -435.0041132224188,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. an end to end implementation of a machine learning pipeline  ️",
+          "url": "https://spandan-madan.github.io/DeepLearningProject/",
+          "fx": -135.02888591967667,
+          "fy": -393.0041132224188,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the limitations of deep learning  ️",
+          "url": "https://blog.keras.io/the-limitations-of-deep-learning.html",
+          "fx": -135.02888591967667,
+          "fy": -301.0041132224188,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. deep learning",
+          "note": "one of the best introductions to the field, assumes you have the mathematical background to follow it",
+          "url": "http://www.deeplearningbook.org",
+          "fx": -135.02888591967667,
+          "fy": -234.00411322241882,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. deep learning in a nutshell  ️",
+          "url": "http://nikhilbuduma.com/2014/12/29/deep-learning-in-a-nutshell/",
+          "fx": -135.02888591967667,
+          "fy": -192.00411322241882,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. foundations for deep learning",
+          "url": "https://github.com/pauli-space/foundations_for_deep_learning",
+          "fx": -135.02888591967667,
+          "fy": -150.00411322241882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. deep reinforcement learning",
+          "url": "http://rll.berkeley.edu/deeprlcourse/",
+          "fx": -135.02888591967667,
+          "fy": -83.00411322241882,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. designing, visualising and understanding deep neural networks",
+          "url": "https://bcourses.berkeley.edu/courses/1453965/pages/cs294-129-designing-visualizing-and-understanding-deep-neural-networks",
+          "fx": -135.02888591967667,
+          "fy": -16.004113222418823,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. practical deep learning for coders",
+          "url": "http://course.fast.ai/",
+          "fx": -135.02888591967667,
+          "fy": 75.99588677758118,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "1. learn TensorFlow and deep learning, without a Ph.D",
+          "url": "https://cloud.google.com/blog/big-data/2017/01/learn-tensorflow-and-deep-learning-without-a-phd",
+          "fx": -135.02888591967667,
+          "fy": 142.99588677758118,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. creative applications of deep learning with tensorflow",
+          "url": "https://www.kadenze.com/courses/creative-applications-of-deep-learning-with-tensorflow/info",
+          "fx": -135.02888591967667,
+          "fy": 209.99588677758118,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. grokking deep learning",
+          "url": "https://www.manning.com/books/grokking-deep-learning",
+          "fx": -135.02888591967667,
+          "fy": 276.9958867775812,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. tutorial on deep learning",
+          "url": "http://ai.stanford.edu/~quocle/tutorial1.pdf",
+          "fx": -135.02888591967667,
+          "fy": 318.9958867775812,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. deep neural nets",
+          "url": "https://www.youtube.com/watch?v=VrMHA3yX_QI&amp;list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&amp;index=13",
+          "fx": -135.02888591967667,
+          "fy": 360.9958867775812,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(169, 255, 0, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 546.5571084925673,
+      "fy": 70.57153118020074,
+      "nodes": [
+        {
+          "text": "15: how to learn an algorithm",
+          "url": "https://www.youtube.com/watch?v=mF5-tr7qAF4&amp;feature=youtu.be",
+          "fx": 689.5571084925673,
+          "fy": 24.571531180200736,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "13: deep learning, self-taught learning and unsupervised feature learning",
+          "url": "https://www.youtube.com/watch?v=n1ViNeWhC24",
+          "fx": 689.5571084925673,
+          "fy": 91.57153118020074,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "transfer learning  ️",
+      "url": "/machine-learning/deep-learning/transfer-learning",
+      "fx": -559.8513953931171,
+      "fy": 155.9316865934593,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 638.9833199686764,
+      "fy": 244.42554634393196,
+      "nodes": [
+        {
+          "text": "the terrible deep learning list",
+          "url": "https://github.com/samdeeplearning/The-Terrible-Deep-Learning-List",
+          "fx": 837.9833199686764,
+          "fy": 256.92554634393196,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "deep learning",
+      "target": "basics",
+      "curve": {
+        "x": -77.6588,
+        "y": 515.381
+      }
+    },
+    {
+      "source": "applications",
+      "target": "autonomous driving  ️",
+      "curve": {
+        "x": -73.807,
+        "y": 87.5067
+      }
+    },
+    {
+      "source": "help",
+      "target": "deep learning",
+      "curve": {
+        "x": -72.3358,
+        "y": -140.774
+      }
+    },
+    {
+      "source": "deep learning",
+      "target": "applications",
+      "curve": {
+        "x": -171.782,
+        "y": 287.463
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -259.372,
+        "y": -170.45
+      }
+    },
+    {
+      "source": "talks",
+      "target": "articles",
+      "curve": {
+        "x": -144.071,
+        "y": -166.293
+      }
+    },
+    {
+      "source": "applications",
+      "target": "AlphaGo  ️",
+      "curve": {
+        "x": -133.128,
+        "y": 21.4284
+      }
+    },
+    {
+      "source": "basics",
+      "target": "transfer learning  ️",
+      "curve": {
+        "x": -102.662,
+        "y": 102.717
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "talks",
+      "curve": {
+        "x": -58.9631,
+        "y": -86.9271
+      }
+    }
+  ],
+  "id": 754
+}

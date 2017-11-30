@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - computer science - algorithms - graph - dijkstras",
+  "tag": "Dijkstras algorithm",
+  "nodes": [
+    {
+      "text": "Dijkstras algorithm",
+      "url": "http://www.wikiwand.com/en/Dijkstra%27s_algorithm",
+      "fx": 388.45489351418007,
+      "fy": -28.165331066456588,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 565.7294477982953,
+      "fy": 94.89528586647714,
+      "nodes": [
+        {
+          "text": "visualisation of algorithm",
+          "url": "https://visualgo.net/en/sssp?slide=1",
+          "fx": 702.7294477982953,
+          "fy": 106.39528586647714,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 448.9289814342152,
+      "fy": 198.33567324551666,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=GazC3A4OQTE",
+          "fx": 604.9289814342152,
+          "fy": 209.83567324551666,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Dijkstras algorithm",
+      "target": "basics",
+      "curve": {
+        "x": -4.01296,
+        "y": 112.001
+      }
+    },
+    {
+      "source": "help",
+      "target": "Dijkstras algorithm",
+      "curve": {
+        "x": -49.6373,
+        "y": -60.2803
+      }
+    }
+  ],
+  "id": 263
+}

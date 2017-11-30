@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - magnets - magnetic field",
+  "tag": "magnetic fields",
+  "nodes": [
+    {
+      "text": "magnetic field",
+      "url": "http://www.wikiwand.com/en/Magnetic_field",
+      "fx": -105.5078125,
+      "fy": -244.609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -60.83203125,
+      "fy": -110.8515625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=OQ6m_w0TS_A",
+          "fx": 95.16796875,
+          "fy": -99.3515625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "magnetic field",
+      "target": "basics",
+      "curve": {
+        "x": -1.91211,
+        "y": 65.6289
+      }
+    }
+  ],
+  "id": 1437
+}

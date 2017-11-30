@@ -1,0 +1,113 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebraic structures",
+      "url": "http://www.wikiwand.com/en/Algebraic_structure",
+      "fx": 95.05664298555735,
+      "fy": -172.60325171470873,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "groups  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups",
+      "fx": 170.85161479090027,
+      "fy": -31.178353483292483,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "monoids  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/monoids",
+      "fx": -1.5018601190474783,
+      "fy": -31.140625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rings  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/rings",
+      "fx": 329.0989317602042,
+      "fy": -27.971859056122412,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "modules  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/modules",
+      "fx": -164.17250951776646,
+      "fy": -27.670843908629422,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fields  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/fields",
+      "fx": 597.6182289334258,
+      "fy": -26.006082414352875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lattices  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/lattices",
+      "fx": 458.7098879646835,
+      "fy": -25.85674116674005,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "algebraic structures",
+      "target": "monoids  ️",
+      "curve": {
+        "x": -80.2792,
+        "y": 69.4813
+      }
+    },
+    {
+      "source": "algebraic structures",
+      "target": "groups  ️",
+      "curve": {
+        "x": 2.14749,
+        "y": 69.4624
+      }
+    },
+    {
+      "source": "algebraic structures",
+      "target": "rings  ️",
+      "curve": {
+        "x": 76.2711,
+        "y": 71.0657
+      }
+    },
+    {
+      "source": "algebraic structures",
+      "target": "modules  ️",
+      "curve": {
+        "x": -173.009,
+        "y": 60.6761
+      }
+    },
+    {
+      "source": "algebraic structures",
+      "target": "lattices  ️",
+      "curve": {
+        "x": 178.587,
+        "y": 66.9394
+      }
+    },
+    {
+      "source": "algebraic structures",
+      "target": "fields  ️",
+      "curve": {
+        "x": 319.281,
+        "y": 59.4548
+      }
+    }
+  ],
+  "id": 829
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - programming - software development - software specifications",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software requirements specification",
+      "url": "http://www.wikiwand.com/en/Software_requirements_specification",
+      "fx": 5.626662234042669,
+      "fy": -288.5851894946809,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 192.93184840425204,
+      "fy": -137.65757978716863,
+      "nodes": [
+        {
+          "text": "15: a deep specification for dropbox",
+          "url": "https://www.youtube.com/watch?v=Y2jQe8DFzUM",
+          "fx": 383.93184840425204,
+          "fy": -137.15757978716863,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "formal verification  ️",
+      "url": "/programming/software-development/software-specifications/formal-verification",
+      "fx": -141.6535904255379,
+      "fy": -93.156249999968,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "software requirements specification",
+      "curve": {
+        "x": -65.1526,
+        "y": -67.9638
+      }
+    },
+    {
+      "source": "software requirements specification",
+      "target": "formal verification  ️",
+      "curve": {
+        "x": -78.8901,
+        "y": 91.4645
+      }
+    }
+  ],
+  "id": 1730
+}

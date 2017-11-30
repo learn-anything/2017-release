@@ -1,0 +1,79 @@
+{
+  "title": "learn anything - medicine - diseases - cancer",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cancer",
+      "url": "http://www.wikiwand.com/en/Cancer",
+      "fx": -17.38568398178802,
+      "fy": -139.8413182947021,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/cancer/",
+          "fx": 171.61431601821198,
+          "fy": -125.84131829470209,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -9.538182947020232,
+      "fy": 12.151697019828362,
+      "nodes": [
+        {
+          "text": "1. why we haven’t cured cancer?",
+          "url": "https://www.youtube.com/watch?v=7tzaWOdvGMw",
+          "fx": 146.46181705297977,
+          "fy": -36.34830298017164,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. cancer: introduction I",
+          "url": "https://www.youtube.com/watch?v=M5VM62MvKxM",
+          "fx": 146.46181705297977,
+          "fy": 3.6516970198283616,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. cancer: introduction II",
+          "url": "https://www.youtube.com/watch?v=H376Q6H0Se4",
+          "fx": 146.46181705297977,
+          "fy": 43.65169701982836,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. cancer: metastasis",
+          "url": "https://www.youtube.com/watch?v=5fVLacverEY",
+          "fx": 146.46181705297977,
+          "fy": 83.65169701982836,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cancer",
+      "target": "basics",
+      "curve": {
+        "x": -4.32625,
+        "y": 74.7466
+      }
+    }
+  ],
+  "id": 1153
+}

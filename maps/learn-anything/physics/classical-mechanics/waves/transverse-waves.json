@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - transverse waves",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "transverse waves",
+      "url": "http://www.wikiwand.com/en/Transverse_wave",
+      "fx": -81.625,
+      "fy": -243.7421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -12.983205211949098,
+      "fy": -102.91842403508684,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=-iO81v42dQA",
+          "fx": 150.0167947880509,
+          "fy": -90.41842403508684,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "polarisation  ️",
+      "url": "/physics/classical-mechanics/waves/transverse-waves/polarisation",
+      "fx": -176.49417036802015,
+      "fy": 38.78319321065976,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "transverse waves",
+      "target": "basics",
+      "curve": {
+        "x": -0.679104,
+        "y": 69.6619
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polarisation  ️",
+      "curve": {
+        "x": -69.7555,
+        "y": 70.8508
+      }
+    }
+  ],
+  "id": 1395
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - human brain - neurolinguistics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neurolinguistics",
+      "url": "http://www.wikiwand.com/en/Neurolinguistics",
+      "fx": -48.6953125,
+      "fy": -321.9296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 6.91796875,
+      "fy": -179.06640625,
+      "nodes": [
+        {
+          "text": "1. language and the brain",
+          "url": "https://www.youtube.com/watch?v=Yq7ozVixqDs",
+          "fx": 162.91796875,
+          "fy": -167.56640625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurolinguistics",
+      "target": "basics",
+      "curve": {
+        "x": 0.306641,
+        "y": 70.1816
+      }
+    }
+  ],
+  "id": 1252
+}

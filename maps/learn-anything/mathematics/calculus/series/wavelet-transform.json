@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - mathematics - calculus - series - wavelet transform",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "wavelet transform",
+      "url": "http://www.wikiwand.com/en/Wavelet_transform",
+      "fx": 158.4921875,
+      "fy": -303.2421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 211.15234375,
+      "fy": -160.265625,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=ZnmvUCtUAEE",
+          "fx": 374.15234375,
+          "fy": -166.265625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "http://gwyddion.net/documentation/user-guide-en/wavelet-transform.html",
+          "fx": 374.15234375,
+          "fy": -124.265625,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "wavelet transform",
+      "target": "basics",
+      "curve": {
+        "x": -8.91992,
+        "y": 70.7383
+      }
+    }
+  ],
+  "id": 904
+}

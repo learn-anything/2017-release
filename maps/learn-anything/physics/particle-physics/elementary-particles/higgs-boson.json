@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - particle physics - elementary particles - higgs boson",
+  "tag": "Higgs boson",
+  "nodes": [
+    {
+      "text": "Higgs boson",
+      "url": "http://www.wikiwand.com/en/Higgs_boson",
+      "fx": -24.453125,
+      "fy": -276.18359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 13.96484375,
+      "fy": -135.01953125,
+      "nodes": [
+        {
+          "text": "1. demystifying the Higgs boson with Leonard Susskind",
+          "url": "https://www.youtube.com/watch?v=JqNg819PiZY",
+          "fx": 169.96484375,
+          "fy": -134.51953125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Higgs boson",
+      "target": "basics",
+      "curve": {
+        "x": -2.29102,
+        "y": 69.332
+      }
+    }
+  ],
+  "id": 1504
+}

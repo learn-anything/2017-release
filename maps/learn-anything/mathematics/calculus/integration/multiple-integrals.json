@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - calculus - integration - multiple integrals",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "multiple integrals",
+      "url": "http://www.wikiwand.com/en/Multiple_integral",
+      "fx": 46.96028037383178,
+      "fy": -135.3975613317757,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 102.73875584112159,
+      "fy": -3.4507885514018426,
+      "nodes": [
+        {
+          "text": "1. intro to double integrals",
+          "url": "https://www.youtube.com/watch?v=lv_awaaT6gY",
+          "fx": 258.7387558411216,
+          "fy": -11.950788551401843,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. double and triple integrals",
+          "url": "https://www.youtube.com/watch?v=85zGYB-34jQ",
+          "fx": 258.7387558411216,
+          "fy": 28.049211448598157,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "surface integrals  ️",
+      "url": "/mathematics/calculus/integration/multiple-integrals/surface-integrals",
+      "fx": -23.428140862944247,
+      "fy": 142.79330583756348,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "multiple integrals",
+      "target": "basics",
+      "curve": {
+        "x": -2.61076,
+        "y": 64.7234
+      }
+    },
+    {
+      "source": "basics",
+      "target": "surface integrals  ️",
+      "curve": {
+        "x": -40.5834,
+        "y": 73.122
+      }
+    }
+  ],
+  "id": 890
+}

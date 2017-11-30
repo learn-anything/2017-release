@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - thermodynamics - laws of thermodynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "laws of thermodynamics",
+      "url": "http://www.wikiwand.com/en/Laws_of_thermodynamics",
+      "fx": 28.471644559352626,
+      "fy": -117.55061263489205,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 117.09138938848923,
+      "fy": 11.732492131294862,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=dL9NfiJjV14",
+          "fx": 273.09138938848923,
+          "fy": 23.232492131294862,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "black hole thermodynamics  ️",
+      "url": "/physics/thermodynamics/laws-of-thermodynamics/black-hole-thermodynamics",
+      "fx": -95.01885335170721,
+      "fy": 141.93161562055474,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "laws of thermodynamics",
+      "target": "basics",
+      "curve": {
+        "x": -5.94013,
+        "y": 63.3916
+      }
+    },
+    {
+      "source": "basics",
+      "target": "black hole thermodynamics  ️",
+      "curve": {
+        "x": -58.3051,
+        "y": 65.0996
+      }
+    }
+  ],
+  "id": 1551
+}

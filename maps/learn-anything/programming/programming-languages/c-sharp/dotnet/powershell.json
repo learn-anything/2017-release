@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - programming - programming languages - c sharp - dotnet - powershell",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "powershell",
+      "url": "http://www.wikiwand.com/en/PowerShell",
+      "fx": -15.918123245239258,
+      "fy": -132.70076858997345,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/PowerShell/",
+          "fx": 208.08187675476074,
+          "fy": -158.70076858997345,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/PowerShell/PowerShell",
+          "fx": 208.08187675476074,
+          "fy": -118.70076858997345,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/janikvonrotz/awesome-powershell",
+          "fx": 208.08187675476074,
+          "fy": -78.70076858997345,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 107.86383928571445,
+      "fy": -2.638950892857167,
+      "nodes": [
+        {
+          "text": "powershell best practices and style guide",
+          "url": "https://github.com/PoshCode/PowerShellPracticeAndStyle",
+          "fx": 244.86383928571445,
+          "fy": -2.138950892857167,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 11.919270833333258,
+      "fy": 99.50818452370879,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://social.technet.microsoft.com/wiki/contents/articles/183.windows-powershell-survival-guide.aspx#Introduction_and_Getting_Started",
+          "fx": 193.91927083333326,
+          "fy": 114.00818452370879,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "powershell",
+      "curve": {
+        "x": -40.141,
+        "y": -63.7809
+      }
+    },
+    {
+      "source": "powershell",
+      "target": "basics",
+      "curve": {
+        "x": -3.0813,
+        "y": 114.854
+      }
+    }
+  ],
+  "id": 1579
+}

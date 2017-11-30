@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - matter - crystallography - crystal structures",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "crystal structures",
+      "url": "http://www.wikiwand.com/en/Crystal_structure",
+      "fx": -84.0546875,
+      "fy": -209.97265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -22.640625,
+      "fy": -80.81640625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Rm-i1c7zr6Q",
+          "fx": 133.359375,
+          "fy": -69.31640625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "quasicrystals  ️",
+      "url": "/physics/matter/crystallography/crystal-structures/quasicrystals",
+      "fx": -161.35831298679568,
+      "fy": 48.72278888280778,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "crystal structures",
+      "target": "basics",
+      "curve": {
+        "x": 1.95703,
+        "y": 63.3281
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quasicrystals  ️",
+      "curve": {
+        "x": -54.6088,
+        "y": 64.7696
+      }
+    }
+  ],
+  "id": 1477
+}

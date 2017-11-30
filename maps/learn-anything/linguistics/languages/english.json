@@ -1,0 +1,117 @@
+{
+  "title": "learn anything - linguistics - languages - english",
+  "tag": "english language",
+  "nodes": [
+    {
+      "text": "english language",
+      "url": "http://www.wikiwand.com/en/English_language",
+      "fx": -125.16838693618774,
+      "fy": -147.32944107055664,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/EnglishLearning/",
+          "fx": 153.83161306381226,
+          "fy": -153.32944107055664,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://ell.stackexchange.com/",
+          "fx": 153.83161306381226,
+          "fy": -113.32944107055664,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 41.65720942982455,
+      "fy": -20.064692982458723,
+      "nodes": [
+        {
+          "text": "lingualeo",
+          "url": "https://lingualeo.com/chooselanguage?returnUrl=",
+          "fx": 178.65720942982455,
+          "fy": -39.56469298245872,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "guide to grammar &amp; writing",
+          "url": "http://grammar.ccc.commnet.edu/grammar/",
+          "fx": 178.65720942982455,
+          "fy": -5.564692982458723,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "thesaurus",
+          "url": "http://www.thesaurus.com/",
+          "fx": 178.65720942982455,
+          "fy": 28.435307017541277,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -105.08589996371325,
+      "fy": 138.98107391491266,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/en/ar/Learn-English-Online",
+          "fx": 76.91410003628675,
+          "fy": 119.48107391491266,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn american english",
+          "url": "http://learnamericanenglishonline.com/",
+          "fx": 76.91410003628675,
+          "fy": 153.48107391491266,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. clozemaster",
+          "url": "https://www.clozemaster.com/",
+          "fx": 76.91410003628675,
+          "fy": 187.48107391491266,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "english language",
+      "target": "basics",
+      "curve": {
+        "x": -20.7088,
+        "y": 141.905
+      }
+    },
+    {
+      "source": "help",
+      "target": "english language",
+      "curve": {
+        "x": -47.9128,
+        "y": -62.3824
+      }
+    }
+  ],
+  "id": 722
+}

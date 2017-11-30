@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - software - tooling - application generators - jhipster",
+  "tag": "JHipster generator",
+  "nodes": [
+    {
+      "text": "JHipster",
+      "url": "https://jhipster.github.io/",
+      "fx": -98.33984375,
+      "fy": -299.8984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/jhipster",
+          "fx": 81.66015625,
+          "fy": -308.3984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/feel7iii/awesome-JHipster",
+          "fx": 81.66015625,
+          "fy": -266.3984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -93.75300480769249,
+      "fy": -169.82572115384642,
+      "nodes": [
+        {
+          "text": "1. quick start",
+          "url": "https://jhipster.github.io/",
+          "fx": 69.24699519230751,
+          "fy": -154.82572115384642,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "JHipster",
+      "target": "basics",
+      "curve": {
+        "x": -1.95658,
+        "y": 65.0364
+      }
+    }
+  ],
+  "id": 1792
+}

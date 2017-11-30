@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - machine learning - generative models",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "generative models",
+      "url": "http://www.wikiwand.com/en/Generative_model",
+      "fx": 113.85366586538464,
+      "fy": -139.42397836538464,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 322.8653033395592,
+      "fy": -5.998436120388476,
+      "nodes": [
+        {
+          "text": "17: deep generative models for speech and images",
+          "url": "https://www.youtube.com/watch?v=vEAq_sBf1CA",
+          "fx": 521.8653033395592,
+          "fy": -5.998436120388476,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 153.11335449902094,
+      "fy": 156.4546993073048,
+      "nodes": [
+        {
+          "text": "1. deep generative models",
+          "url": "http://www.deeplearningbook.org/contents/generative_models.html",
+          "fx": 316.11335449902094,
+          "fy": 110.9546993073048,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. on discriminative vs generative classifiers: a comparison of logistic regression and naive Bayes",
+          "url": "http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes.pdf",
+          "fx": 316.11335449902094,
+          "fy": 152.9546993073048,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "generative models",
+      "curve": {
+        "x": -76.2558,
+        "y": -65.9628
+      }
+    },
+    {
+      "source": "generative models",
+      "target": "basics",
+      "curve": {
+        "x": -17.6202,
+        "y": 147.189
+      }
+    }
+  ],
+  "id": 757
+}

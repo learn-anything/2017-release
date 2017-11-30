@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - aws - aws lambda",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "aws lambda",
+      "url": "http://www.wikiwand.com/en/AWS_Lambda",
+      "fx": 39.01349431818187,
+      "fy": -103.18714488636363,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 74.74857954545473,
+      "fy": 69.80255681818187,
+      "nodes": [
+        {
+          "text": "1. aws lambda in plain english",
+          "url": "https://www.expeditedssl.com/aws-lambda-in-plain-english",
+          "fx": 230.74857954545473,
+          "fy": 64.30255681818187,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. get started with aws lambda",
+          "url": "https://www.youtube.com/watch?v=fSUEk6iMW88&amp;list=PLzvRQMJ9HDiSQMe68cti8cupI0mzLk1Gc",
+          "fx": 230.74857954545473,
+          "fy": 98.30255681818187,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "aws lambda",
+      "target": "basics",
+      "curve": {
+        "x": -2.38246,
+        "y": 85.2449
+      }
+    }
+  ],
+  "id": 1701
+}

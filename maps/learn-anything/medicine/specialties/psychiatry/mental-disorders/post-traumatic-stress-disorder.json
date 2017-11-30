@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders - post traumatic stress disorder",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "post traumatic stress disorder",
+      "url": "http://www.wikiwand.com/en/Posttraumatic_stress_disorder",
+      "fx": 60.410000683216595,
+      "fy": -174.68392857540857,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 187.27734375,
+      "fy": -51.19140625,
+      "nodes": [
+        {
+          "text": "1. causes, symptoms, treatment &amp; pathology",
+          "url": "https://www.youtube.com/watch?v=hzSx4rMyVjI",
+          "fx": 343.27734375,
+          "fy": -50.69140625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "post traumatic stress disorder",
+      "target": "basics",
+      "curve": {
+        "x": -2.31633,
+        "y": 60.4963
+      }
+    }
+  ],
+  "id": 1170
+}

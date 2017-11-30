@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - sociology - social influence",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "social influence",
+      "url": "http://www.wikiwand.com/en/Social_influence",
+      "fx": 105.12109375,
+      "fy": -131.4453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146.2109375,
+      "fy": 9.828125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=UGxGDdQnC1Y",
+          "fx": 309.2109375,
+          "fy": 22.328125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "psychological manipulation",
+      "url": "http://www.wikiwand.com/en/Psychological_manipulation",
+      "fx": -87.31813162544165,
+      "fy": 163.74050353356904,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "social influence",
+      "target": "basics",
+      "curve": {
+        "x": -1.20508,
+        "y": 70.6367
+      }
+    },
+    {
+      "source": "basics",
+      "target": "psychological manipulation",
+      "curve": {
+        "x": -64.2645,
+        "y": 84.9562
+      }
+    }
+  ],
+  "id": 1788
+}

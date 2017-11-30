@@ -1,0 +1,186 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - distributions",
+  "tag": "probability distributions",
+  "nodes": [
+    {
+      "text": "probability distributions",
+      "url": "http://www.wikiwand.com/en/Probability_distribution",
+      "fx": -271.82103924418595,
+      "fy": -346.692132994186,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -185.85828355268814,
+      "fy": -229.5802346877134,
+      "nodes": [
+        {
+          "text": "1. study of probability distributions, mean and standard deviation",
+          "url": "https://www.youtube.com/watch?v=WNgcmn5cXjI",
+          "fx": -29.858283552688135,
+          "fy": -229.0802346877134,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Poisson distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/poisson-distribution",
+      "fx": -779.9316463921014,
+      "fy": -86.90952562347172,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Pareto distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/pareto-distribution",
+      "fx": -523.891378567914,
+      "fy": -85.34613373523644,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "binomial distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/binomial-distribution",
+      "fx": -282.92205436862173,
+      "fy": -85.0712359162415,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "normal distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/normal-distribution",
+      "fx": -13.370320896097155,
+      "fy": -84.26212616719522,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Bernoulli distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/bernoulli-distribution",
+      "fx": -1039.4437746063,
+      "fy": -81.8222194881887,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "statistical dispersion",
+      "url": "http://www.wikiwand.com/en/Statistical_dispersion",
+      "fx": -2100.083514871092,
+      "fy": -80.35144885136106,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "parametric models",
+      "url": "http://www.wikiwand.com/en/Parametric_model",
+      "fx": -1818.0227481617649,
+      "fy": -78.12109375000006,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "F-distribution  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/f-distribution",
+      "fx": -1236.9619445800781,
+      "fy": -77.68475914001465,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "joint probability distributions  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions/joint-probability-distributions",
+      "fx": -1563.0997255536402,
+      "fy": -77.61425541588744,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "probability distributions",
+      "target": "basics",
+      "curve": {
+        "x": -1.76863,
+        "y": 57.306
+      }
+    },
+    {
+      "source": "basics",
+      "target": "normal distribution  ️",
+      "curve": {
+        "x": 120.744,
+        "y": 73.9091
+      }
+    },
+    {
+      "source": "basics",
+      "target": "binomial distribution  ️",
+      "curve": {
+        "x": -17.7819,
+        "y": 72.2545
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Pareto distribution  ️",
+      "curve": {
+        "x": -142.267,
+        "y": 72.1171
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Poisson distribution  ️",
+      "curve": {
+        "x": -267.287,
+        "y": 71.3354
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Bernoulli distribution  ️",
+      "curve": {
+        "x": -443.362,
+        "y": 33.3094
+      }
+    },
+    {
+      "source": "basics",
+      "target": "F-distribution  ️",
+      "curve": {
+        "x": -694.817,
+        "y": 46.6346
+      }
+    },
+    {
+      "source": "basics",
+      "target": "joint probability distributions  ️",
+      "curve": {
+        "x": -839.365,
+        "y": 28.5163
+      }
+    },
+    {
+      "source": "basics",
+      "target": "parametric models",
+      "curve": {
+        "x": -1073.67,
+        "y": 28.048
+      }
+    },
+    {
+      "source": "basics",
+      "target": "statistical dispersion",
+      "curve": {
+        "x": -1172.5,
+        "y": -0.27493
+      }
+    }
+  ],
+  "id": 1092
+}

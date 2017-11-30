@@ -1,0 +1,108 @@
+{
+  "title": "learn anything - web development - browsers - chrome - chrome dev tools",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "chrome dev tools",
+      "url": "",
+      "fx": 19.57194010416663,
+      "fy": -198.2138671875001,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/ChromeDevTools/awesome-chrome-devtools",
+          "fx": 290.57194010416663,
+          "fy": -185.7138671875001,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 192.37660268268212,
+      "fy": -73.75245412391456,
+      "nodes": [
+        {
+          "text": "chrome dev tool tips",
+          "url": "https://umaar.com/dev-tips/",
+          "fx": 333.3766026826821,
+          "fy": -92.25245412391456,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "150 animated tips on chrome dev tools  ️",
+          "url": "https://medium.com/@umaar/increase-your-web-development-skill-set-150-animated-tips-on-chrome-devtools-4a30155e6b8e",
+          "fx": 333.3766026826821,
+          "fy": -55.25245412391456,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 263.23055466761923,
+      "fy": 60.650804784085835,
+      "nodes": [
+        {
+          "text": "16: debugging the web",
+          "url": "https://www.youtube.com/watch?v=HF1luRD4Qmk",
+          "fx": 406.23055466761923,
+          "fy": 73.15080478408584,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 66.70300023771665,
+      "fy": 172.5854067315836,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "https://developer.chrome.com/devtools",
+          "fx": 229.70300023771665,
+          "fy": 187.5854067315836,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "chrome dev tools",
+      "target": "basics",
+      "curve": {
+        "x": -1.18447,
+        "y": 185.399
+      }
+    },
+    {
+      "source": "help",
+      "target": "chrome dev tools",
+      "curve": {
+        "x": -53.9023,
+        "y": -62.2307
+      }
+    },
+    {
+      "source": "talks",
+      "target": "help",
+      "curve": {
+        "x": -35.927,
+        "y": -67.2016
+      }
+    }
+  ],
+  "id": 1853
+}

@@ -1,0 +1,97 @@
+{
+  "title": "learn anything - web development - web scraping",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web scraping",
+      "url": "http://www.wikiwand.com/en/Web_scraping",
+      "fx": -184.8185776280477,
+      "fy": -530.8915223244876,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -154.4611226303315,
+      "fy": -397.2578495260707,
+      "nodes": [
+        {
+          "text": "1. web scraping",
+          "url": "https://automatetheboringstuff.com/chapter11/",
+          "fx": 27.538877369668512,
+          "fy": -424.7578495260707,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. web scraping with python: collecting data from the modern web",
+          "url": "http://www.goodreads.com/book/show/25752783-web-scraping-with-python",
+          "fx": 27.538877369668512,
+          "fy": -390.7578495260707,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "libraries",
+      "url": "",
+      "fx": -238.13869160353556,
+      "fy": -285.0823469065657,
+      "nodes": []
+    },
+    {
+      "text": "beautiful soup",
+      "url": "https://www.crummy.com/software/BeautifulSoup/",
+      "fx": -167.5400390625,
+      "fy": -140.1142578125,
+      "nodes": []
+    },
+    {
+      "text": "scrapy",
+      "url": "https://github.com/scrapy/scrapy",
+      "fx": -331.8990087798147,
+      "fy": -140.77924262152777,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "libraries",
+      "target": "scrapy",
+      "curve": {
+        "x": -59.1302,
+        "y": 72.1516
+      }
+    },
+    {
+      "source": "libraries",
+      "target": "beautiful soup",
+      "curve": {
+        "x": 49.7993,
+        "y": 72.484
+      }
+    },
+    {
+      "source": "web scraping",
+      "target": "basics",
+      "curve": {
+        "x": -8.07127,
+        "y": 65.5668
+      }
+    },
+    {
+      "source": "basics",
+      "target": "libraries",
+      "curve": {
+        "x": -39.0888,
+        "y": 56.0878
+      }
+    }
+  ],
+  "id": 1929
+}

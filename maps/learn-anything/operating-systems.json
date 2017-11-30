@@ -1,0 +1,329 @@
+{
+  "title": "learn anything - operating systems",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "operating systems",
+      "url": "http://www.wikiwand.com/en/Operating_system",
+      "fx": 251.3148935132391,
+      "fy": -475.97220586951545,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/osdev/",
+          "fx": 544.3148935132391,
+          "fy": -461.97220586951545,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 426.2742287551856,
+      "fy": -312.80940529692236,
+      "nodes": [
+        {
+          "text": "bootstrap yourself to write an OS from scratch",
+          "url": "https://github.com/tuhdo/os01",
+          "fx": 563.2742287551856,
+          "fy": -408.30940529692236,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "xv6 - a simple, unix-like teaching operating system",
+          "url": "https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf",
+          "fx": 563.2742287551856,
+          "fy": -346.30940529692236,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "writing an OS in Rust",
+          "url": "https://os.phil-opp.com/",
+          "fx": 563.2742287551856,
+          "fy": -290.30940529692236,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "barrelfish operating system",
+          "note": "is a research operating system being built from scratch",
+          "url": "http://www.barrelfish.org/",
+          "fx": 563.2742287551856,
+          "fy": -256.30940529692236,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "os dev wiki",
+          "url": "http://wiki.osdev.org/Main_Page",
+          "fx": 563.2742287551856,
+          "fy": -222.30940529692236,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "OSDev",
+          "url": "http://wiki.osdev.org/Main_Page",
+          "fx": 563.2742287551856,
+          "fy": -188.30940529692236,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 185.19402160312336,
+      "fy": 21.674209828270136,
+      "nodes": [
+        {
+          "text": "1. operating systems: three easy pieces",
+          "note": "is centred around three conceptual pieces that are fundamental to operating systems: virtualisation, concurrency, and persistence",
+          "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "fx": 367.19402160312336,
+          "fy": -126.82579017172986,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. computer science from bottom up",
+          "url": "https://www.bottomupcs.com/",
+          "fx": 367.19402160312336,
+          "fy": -70.82579017172986,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. brief introduction to operating systems",
+          "url": "http://greenteapress.com/thinkos/",
+          "fx": 367.19402160312336,
+          "fy": -14.825790171729864,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. operating systems: from 0 to 1",
+          "url": "https://tuhdo.github.io/os01/",
+          "fx": 367.19402160312336,
+          "fy": 41.174209828270136,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. baking pi – operating systems development",
+          "url": "http://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/",
+          "fx": 367.19402160312336,
+          "fy": 75.17420982827014,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. gate lectures",
+          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq",
+          "fx": 367.19402160312336,
+          "fy": 137.17420982827014,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. the little book about OS development",
+          "url": "https://littleosbook.github.io/",
+          "fx": 367.19402160312336,
+          "fy": 177.17420982827014,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "windows  ️",
+      "url": "/operating-systems/windows",
+      "fx": -20.70330255681995,
+      "fy": 266.32623048262167,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mobile operating systems",
+      "url": "http://www.wikiwand.com/en/Mobile_operating_system",
+      "fx": 142.2452507019043,
+      "fy": 267.80770111083984,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "unix  ️",
+      "url": "/operating-systems/unix",
+      "fx": -150.64038189900964,
+      "fy": 271.0578943365548,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fuchsia  ️",
+      "url": "/operating-systems/fuchsia",
+      "fx": -307.6897878882909,
+      "fy": 272.1813589555718,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "kernel  ️",
+      "url": "/operating-systems/kernel",
+      "fx": -445.1591262817383,
+      "fy": 273.34798431396484,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "file systems  ️",
+      "url": "/operating-systems/file-systems",
+      "fx": -625.3028746488528,
+      "fy": 274.1538660055512,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "android  ️",
+      "url": "/operating-systems/android",
+      "fx": 110.2131218202303,
+      "fy": 381.32131395841907,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "iOS  ️",
+      "url": "/operating-systems/ios",
+      "fx": 264.3139455747371,
+      "fy": 381.8360558384984,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "watchOS  ️",
+      "url": "/operating-systems/watchOS",
+      "fx": 166.9028205871582,
+      "fy": 486.6730651855469,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "tvOS  ️",
+      "url": "/operating-systems/tvOS",
+      "fx": 329.730186502341,
+      "fy": 491.46025319343084,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "operating systems",
+      "target": "basics",
+      "curve": {
+        "x": -62.3105,
+        "y": 248.822
+      }
+    },
+    {
+      "source": "help",
+      "target": "operating systems",
+      "curve": {
+        "x": -55.7297,
+        "y": -81.5814
+      }
+    },
+    {
+      "source": "basics",
+      "target": "windows  ️",
+      "curve": {
+        "x": -97.1986,
+        "y": 122.326
+      }
+    },
+    {
+      "source": "basics",
+      "target": "mobile operating systems",
+      "curve": {
+        "x": 22.0256,
+        "y": 123.067
+      }
+    },
+    {
+      "source": "mobile operating systems",
+      "target": "android  ️",
+      "curve": {
+        "x": -64.0161,
+        "y": 55.5068
+      }
+    },
+    {
+      "source": "mobile operating systems",
+      "target": "iOS  ️",
+      "curve": {
+        "x": 4.03431,
+        "y": 55.7641
+      }
+    },
+    {
+      "source": "iOS  ️",
+      "target": "watchOS  ️",
+      "curve": {
+        "x": -43.2056,
+        "y": 51.1685
+      }
+    },
+    {
+      "source": "iOS  ️",
+      "target": "tvOS  ️",
+      "curve": {
+        "x": 28.4581,
+        "y": 53.5621
+      }
+    },
+    {
+      "source": "basics",
+      "target": "unix  ️",
+      "curve": {
+        "x": -264.253,
+        "y": 122.899
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fuchsia  ️",
+      "curve": {
+        "x": -386.797,
+        "y": 112.223
+      }
+    },
+    {
+      "source": "basics",
+      "target": "kernel  ️",
+      "curve": {
+        "x": -419.709,
+        "y": 90.9444
+      }
+    },
+    {
+      "source": "basics",
+      "target": "file systems  ️",
+      "curve": {
+        "x": -505.987,
+        "y": 61.6031
+      }
+    }
+  ],
+  "id": 1313
+}

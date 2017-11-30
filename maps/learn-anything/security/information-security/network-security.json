@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - security - information security - network security",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "network security",
+      "url": "http://www.wikiwand.com/en/Network_security",
+      "fx": -70.0859375,
+      "fy": -201.32421875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/netsec/",
+          "fx": 205.9140625,
+          "fy": -187.32421875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -17.910092990890803,
+      "fy": -70.28982160931173,
+      "nodes": [
+        {
+          "text": "1. firewalls and network security",
+          "url": "https://www.youtube.com/watch?v=XEqnE_sDzSk",
+          "fx": 138.0899070091092,
+          "fy": -58.78982160931173,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "network security",
+      "target": "basics",
+      "curve": {
+        "x": -3.91208,
+        "y": 64.2672
+      }
+    }
+  ],
+  "id": 1774
+}

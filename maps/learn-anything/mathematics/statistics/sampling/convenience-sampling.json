@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - sampling - convenience sampling",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "convenience sampling",
+      "url": "http://www.wikiwand.com/en/Convenience_sampling",
+      "fx": 216.5,
+      "fy": -208.34375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": 313.54406474820144,
+      "fy": -17.2351056654677,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=MJjq0NILrnk",
+          "fx": 464.54406474820144,
+          "fy": -4.7351056654676995,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "convenience sampling",
+      "target": "basis",
+      "curve": {
+        "x": -1.97797,
+        "y": 94.8043
+      }
+    }
+  ],
+  "id": 1112
+}

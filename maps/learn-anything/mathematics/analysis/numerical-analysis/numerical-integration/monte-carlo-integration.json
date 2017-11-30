@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - analysis - numerical analysis - numerical integration - monte carlo integration",
+  "tag": "Monte Carlo integration",
+  "nodes": [
+    {
+      "text": "Monte Carlo integration",
+      "url": "http://www.wikiwand.com/en/Monte_Carlo_integration",
+      "fx": 340.9030448717948,
+      "fy": -120.06009615384613,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 431.83513621794384,
+      "fy": 27.67160790592692,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=MKnjsqYVG4Y",
+          "fx": 594.8351362179438,
+          "fy": 40.17160790592692,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Monte Carlo integration",
+      "target": "basics",
+      "curve": {
+        "x": -3.78395,
+        "y": 73.1159
+      }
+    }
+  ],
+  "id": 869
+}

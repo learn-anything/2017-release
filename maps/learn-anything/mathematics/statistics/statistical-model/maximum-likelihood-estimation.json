@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model - maximum likelihood estimation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "maximum likelihood estimation",
+      "url": "http://www.wikiwand.com/en/Maximum_likelihood_estimation",
+      "fx": 104.96875,
+      "fy": -213.34375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 232.9296875,
+      "fy": -65.91796875,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=I_dhPETvll8",
+          "fx": 388.9296875,
+          "fy": -54.41796875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "maximum likelihood estimation",
+      "target": "basics",
+      "curve": {
+        "x": -3.51953,
+        "y": 72.4629
+      }
+    }
+  ],
+  "id": 1121
+}

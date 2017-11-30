@@ -1,0 +1,103 @@
+{
+  "title": "learn anything - machine learning - neural networks - generative adversarial networks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "generative adversarial networks",
+      "url": "http://www.wikiwand.com/en/Generative_adversarial_networks",
+      "fx": 36.28776041666674,
+      "fy": -282.14400337837833,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 291.35076007753696,
+      "fy": -116.64339449948773,
+      "nodes": [
+        {
+          "text": "17: generative models and GANs  ️",
+          "url": "https://medium.com/towards-data-science/generative-models-and-gans-fe7efc20020b",
+          "fx": 460.35076007753696,
+          "fy": -183.64339449948773,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "17: abusing GANs to make 8-bit pixel art  ️",
+          "url": "https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7",
+          "fx": 460.35076007753696,
+          "fy": -141.64339449948773,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "17: a step-by-step guide to synthesising adversarial examples  ️",
+          "url": "http://www.anishathalye.com/2017/07/25/synthesizing-adversarial-examples/",
+          "fx": 460.35076007753696,
+          "fy": -74.64339449948773,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 96.5807629870128,
+      "fy": 119.8063277867966,
+      "nodes": [
+        {
+          "text": "1. Ian Goodfellow : generative adversarial networks",
+          "url": "https://www.youtube.com/watch?v=HN9NRhm9waY",
+          "fx": 259.5807629870128,
+          "fy": 65.3063277867966,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. introduction to GANs with code in TensorFlow  ️",
+          "url": "http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/",
+          "fx": 259.5807629870128,
+          "fy": 132.3063277867966,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. delving deep into GANs",
+          "url": "https://github.com/GKalliatakis/Delving-deep-into-GANs",
+          "fx": 259.5807629870128,
+          "fy": 199.3063277867966,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "generative adversarial networks",
+      "target": "basics",
+      "curve": {
+        "x": -40.8535,
+        "y": 199.725
+      }
+    },
+    {
+      "source": "articles",
+      "target": "generative adversarial networks",
+      "curve": {
+        "x": -58.0315,
+        "y": -81.5003
+      }
+    }
+  ],
+  "id": 780
+}

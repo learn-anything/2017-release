@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - programming - version control - semantic versioning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "semantic versioning",
+      "url": "http://www.wikiwand.com/en/Software_versioning",
+      "fx": 42.98828125,
+      "fy": -100.71875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 120,
+      "fy": 38.7890625,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://semver.org/",
+          "fx": 283,
+          "fy": 53.7890625,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "compatible versioning",
+      "url": "https://github.com/staltz/comver",
+      "fx": -84.72689573459684,
+      "fy": 208.8199792653428,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "semantic versioning",
+      "target": "basics",
+      "curve": {
+        "x": -2.49414,
+        "y": 69.0039
+      }
+    },
+    {
+      "source": "basics",
+      "target": "compatible versioning",
+      "curve": {
+        "x": -56.3634,
+        "y": 85.7655
+      }
+    }
+  ],
+  "id": 1742
+}

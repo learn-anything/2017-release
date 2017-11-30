@@ -1,0 +1,93 @@
+{
+  "title": "learn anything - mathematics - type theory - dependent type theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "dependent type theory",
+      "url": "http://www.wikiwand.com/en/Dependent_type",
+      "fx": 179.61074122536957,
+      "fy": -296.1307565010422,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/dependent_types/",
+          "fx": 511.61074122536957,
+          "fy": -282.1307565010422,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 380.4554065680403,
+      "fy": -177.2996959472132,
+      "nodes": [
+        {
+          "text": "16: dependent types in haskell: theory and practice",
+          "url": "http://cs.brynmawr.edu/%7Erae/papers/2016/thesis/eisenberg-thesis.pdf",
+          "fx": 571.4554065680403,
+          "fy": -176.7996959472132,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 253.856203258547,
+      "fy": -66.31640625,
+      "nodes": [
+        {
+          "text": "1. introduction to dependent type theory",
+          "url": "https://www.youtube.com/watch?v=y-lX1mx5_i0&amp;list=PLt7hcIEdZLAnbUxKaG7XIynEWrozOBtXU",
+          "fx": 409.856203258547,
+          "fy": -65.81640625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "agda programming language  ️",
+      "url": "/programming/programming-languages/agda",
+      "fx": 17.092962846347632,
+      "fy": 53.16286209070512,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "dependent type theory",
+      "target": "basics",
+      "curve": {
+        "x": -6.87727,
+        "y": 113.657
+      }
+    },
+    {
+      "source": "basics",
+      "target": "agda programming language  ️",
+      "curve": {
+        "x": -60.3816,
+        "y": 60.9896
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "dependent type theory",
+      "curve": {
+        "x": -65.1723,
+        "y": -58.1655
+      }
+    }
+  ],
+  "id": 1147
+}

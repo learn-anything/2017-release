@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - sociology - discourse - persuasion",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "persuasion",
+      "url": "http://www.wikiwand.com/en/Persuasion",
+      "fx": 216.6953125,
+      "fy": -230.25,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 252.38500292056005,
+      "fy": -78.71728971964956,
+      "nodes": [
+        {
+          "text": "1. science of persuasion",
+          "url": "https://www.youtube.com/watch?v=cFdCzN7RYbw",
+          "fx": 415.38500292056005,
+          "fy": -66.21728971964956,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "persuasion",
+      "target": "basics",
+      "curve": {
+        "x": -1.40515,
+        "y": 75.0164
+      }
+    }
+  ],
+  "id": 1782
+}

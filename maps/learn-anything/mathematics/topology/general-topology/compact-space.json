@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - topology - general topology - compact space",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "compact space",
+      "url": "http://www.wikiwand.com/en/Compact_space",
+      "fx": -95.75390625,
+      "fy": -162.4609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.4765625,
+      "fy": -2.265625,
+      "nodes": [
+        {
+          "text": "1. compactness definition",
+          "url": "https://www.youtube.com/watch?v=Ki1Y7QAPlX8",
+          "fx": 109.5234375,
+          "fy": -10.765625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. compactness lecture",
+          "url": "https://www.youtube.com/watch?v=Buu8mrechqM",
+          "fx": 109.5234375,
+          "fy": 31.234375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "compact space",
+      "target": "basics",
+      "curve": {
+        "x": -9.86133,
+        "y": 79.3477
+      }
+    }
+  ],
+  "id": 1135
+}

@@ -1,0 +1,203 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "java libraries",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Java_Class_Library",
+      "fx": 54.0546875,
+      "fy": -122.15625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "database",
+      "url": "",
+      "fx": -91.49339122497338,
+      "fy": 24.292995575010423,
+      "nodes": []
+    },
+    {
+      "text": "build systems",
+      "url": "",
+      "fx": -344.95073381064276,
+      "fy": 24.676260524620602,
+      "nodes": []
+    },
+    {
+      "text": "testing",
+      "url": "",
+      "fx": 484.7787124772872,
+      "fy": 27.562821430776125,
+      "nodes": []
+    },
+    {
+      "text": "web",
+      "url": "",
+      "fx": 151.26893028846177,
+      "fy": 39.54712084790208,
+      "nodes": []
+    },
+    {
+      "text": "spark  ️",
+      "url": "/programming/programming-languages/java/java-libraries/spark",
+      "fx": -9.496380978058369,
+      "fy": 131.95110441076974,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hibernate ORM  ️",
+      "url": "/programming/programming-languages/java/java-libraries/hibernate",
+      "fx": -254.55242322166345,
+      "fy": 132.28748653945485,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Ant",
+      "url": "https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html",
+      "fx": -592.0858909372445,
+      "fy": 135.26460244536634,
+      "nodes": []
+    },
+    {
+      "text": "Maven",
+      "url": "https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html",
+      "fx": -492.6773376464844,
+      "fy": 135.65234756469727,
+      "nodes": []
+    },
+    {
+      "text": "Gradle",
+      "url": "https://docs.gradle.org/4.0/userguide/userguide.html",
+      "fx": -385.5484619140625,
+      "fy": 135.70905303955078,
+      "nodes": []
+    },
+    {
+      "text": "JUnit  ️",
+      "url": "/programming/programming-languages/java/java-libraries/junit",
+      "fx": 482.96675718226334,
+      "fy": 134.35511454538982,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "spring  ️",
+      "url": "/programming/programming-languages/java/java-libraries/spring",
+      "fx": 134.92632244133995,
+      "fy": 135.13413884352872,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dropwizard  ️",
+      "url": "/programming/programming-languages/java/java-libraries/dropwizard",
+      "fx": 276.3959886280214,
+      "fy": 136.96686995154175,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "java libraries",
+      "target": "web",
+      "curve": {
+        "x": 23.6071,
+        "y": 79.6017
+      }
+    },
+    {
+      "source": "java libraries",
+      "target": "database",
+      "curve": {
+        "x": -92.7741,
+        "y": 71.9746
+      }
+    },
+    {
+      "source": "database",
+      "target": "hibernate ORM  ️",
+      "curve": {
+        "x": -81.5295,
+        "y": 53.9972
+      }
+    },
+    {
+      "source": "web",
+      "target": "spark  ️",
+      "curve": {
+        "x": -70.1327,
+        "y": 47.452
+      }
+    },
+    {
+      "source": "web",
+      "target": "spring  ️",
+      "curve": {
+        "x": 3.3287,
+        "y": 49.0435
+      }
+    },
+    {
+      "source": "web",
+      "target": "dropwizard  ️",
+      "curve": {
+        "x": 85.3135,
+        "y": 49.9599
+      }
+    },
+    {
+      "source": "java libraries",
+      "target": "testing",
+      "curve": {
+        "x": 189.362,
+        "y": 73.6095
+      }
+    },
+    {
+      "source": "testing",
+      "target": "JUnit  ️",
+      "curve": {
+        "x": -4.40598,
+        "y": 53.3961
+      }
+    },
+    {
+      "source": "java libraries",
+      "target": "build systems",
+      "curve": {
+        "x": -209.753,
+        "y": 72.1663
+      }
+    },
+    {
+      "source": "build systems",
+      "target": "Gradle",
+      "curve": {
+        "x": -36.2989,
+        "y": 55.5164
+      }
+    },
+    {
+      "source": "build systems",
+      "target": "Maven",
+      "curve": {
+        "x": -101.479,
+        "y": 50.7388
+      }
+    },
+    {
+      "source": "build systems",
+      "target": "Ant",
+      "curve": {
+        "x": -170.766,
+        "y": 39.026
+      }
+    }
+  ],
+  "id": 1609
+}

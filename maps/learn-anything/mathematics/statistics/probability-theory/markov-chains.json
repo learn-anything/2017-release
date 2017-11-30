@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - markov chains",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "markov chains",
+      "url": "http://www.wikiwand.com/en/Markov_chain",
+      "fx": 301.43359375,
+      "fy": -221.94921875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/sublimino/awesome-funny-markov",
+          "fx": 559.43359375,
+          "fy": -207.94921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 428.703125,
+      "fy": -115.01171875,
+      "nodes": [
+        {
+          "text": "17: introduction to hidden markov models with python networkx and sklearn  ️",
+          "url": "http://www.blackarbs.com/blog/introduction-hidden-markov-models-python-networkx-sklearn/2/9/2017",
+          "fx": 589.703125,
+          "fy": -125.51171875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 337.18154080962313,
+      "fy": 21.951654905913983,
+      "nodes": [
+        {
+          "text": "1. visually explained",
+          "url": "http://setosa.io/ev/markov-chains/",
+          "fx": 519.1815408096231,
+          "fy": 13.451654905913983,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. N-Grams and markov chains",
+          "url": "https://www.youtube.com/watch?list=PLRqwX-V7Uu6ah9Oqs_BFQIbGIn1XynsVT&amp;v=v4kL0OHuxXs",
+          "fx": 519.1815408096231,
+          "fy": 53.45165490591398,
+          "nodes": [
+            {
+              "text": "code",
+              "url": "http://shiffman.net/a2z/markov/",
+              "fx": 870.1815408096231,
+              "fy": 56.45165490591398,
+              "nodes": [],
+              "color": "rgba(36, 170, 255, 1.0)"
+            }
+          ],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Markov Chain Monte Carlo  ️",
+      "url": "/mathematics/statistics/probability-theory/markov-chains/markov-chain-monte-carlo",
+      "fx": 113.36729655774104,
+      "fy": 183.10719714995764,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "markov chains",
+      "target": "basics",
+      "curve": {
+        "x": -0.62603,
+        "y": 121.951
+      }
+    },
+    {
+      "source": "articles",
+      "target": "markov chains",
+      "curve": {
+        "x": -40.3848,
+        "y": -53.4688
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Markov Chain Monte Carlo  ️",
+      "curve": {
+        "x": -74.1571,
+        "y": 80.5778
+      }
+    }
+  ],
+  "id": 1095
+}

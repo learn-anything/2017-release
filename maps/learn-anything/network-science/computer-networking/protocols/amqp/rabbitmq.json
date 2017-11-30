@@ -1,0 +1,75 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - amqp - rabbitmq",
+  "tag": "RabbitMQ",
+  "nodes": [
+    {
+      "text": "RabbitMQ",
+      "url": "http://www.wikiwand.com/en/RabbitMQ",
+      "fx": -22.7265625,
+      "fy": -246.3046875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/rabbitmq/rabbitmq-server",
+          "fx": 196.2734375,
+          "fy": -232.3046875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 110.7265625,
+      "fy": -139.77252674102783,
+      "nodes": [
+        {
+          "text": "RabbitMQ tutorials",
+          "url": "http://www.rabbitmq.com/getstarted.html",
+          "fx": 247.7265625,
+          "fy": -125.27252674102783,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 3.45699942111969,
+      "fy": -40.87240982055664,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://www.rabbitmq.com/tutorials/tutorial-one-python.html",
+          "fx": 159.4569994211197,
+          "fy": -26.37240982055664,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "RabbitMQ",
+      "curve": {
+        "x": -46.2266,
+        "y": -52.0161
+      }
+    },
+    {
+      "source": "RabbitMQ",
+      "target": "basics",
+      "curve": {
+        "x": -2.65822,
+        "y": 101.466
+      }
+    }
+  ],
+  "id": 1213
+}

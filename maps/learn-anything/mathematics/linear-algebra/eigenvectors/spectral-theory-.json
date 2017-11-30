@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - mathematics - linear algebra - eigenvectors - spectral theory ",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spectral theory",
+      "url": "http://www.wikiwand.com/en/Spectral_theory",
+      "fx": -93.69140625,
+      "fy": -149.015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.54296875,
+      "fy": -14.59375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=WBqxm4y-Ejg&amp;t=109s",
+          "fx": 105.45703125,
+          "fy": -40.09375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. motivation for spectral theory",
+          "url": "https://www.reddit.com/r/math/comments/6jqetq/motivation_for_spectral_theory/djgadvu/",
+          "fx": 105.45703125,
+          "fy": -0.09375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. history of spectral theory",
+          "url": "https://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/L.A.SteenVol80No4.pdf",
+          "fx": 105.45703125,
+          "fy": 39.90625,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "spectral theory",
+      "target": "basics",
+      "curve": {
+        "x": -4.67578,
+        "y": 65.9609
+      }
+    }
+  ],
+  "id": 973
+}

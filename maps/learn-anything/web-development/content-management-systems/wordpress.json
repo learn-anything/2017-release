@@ -1,0 +1,94 @@
+{
+  "title": "learn anything - web development - content management systems - wordpress",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "wordpress",
+      "url": "http://www.wikiwand.com/en/WordPress",
+      "fx": -54.7698403994242,
+      "fy": -160.91963450113929,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Wordpress/",
+          "fx": 167.2301596005758,
+          "fy": -186.91963450113929,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://wordpress.stackexchange.com/",
+          "fx": 167.2301596005758,
+          "fy": -146.91963450113929,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/miziomon/awesome-wordpress",
+          "fx": 167.2301596005758,
+          "fy": -106.91963450113929,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 114.30621364312742,
+      "fy": -0.554839691517941,
+      "nodes": [
+        {
+          "text": "14: where to learn wordpress development  ️",
+          "url": "https://poststatus.com/learn-wordpress-development/",
+          "fx": 276.3062136431274,
+          "fy": -0.05483969151794099,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -40.22981770833337,
+      "fy": 124.51627604166663,
+      "nodes": [
+        {
+          "text": "1. getting started with wordpress",
+          "url": "https://codex.wordpress.org/Getting_Started_with_WordPress",
+          "fx": 115.77018229166663,
+          "fy": 139.01627604166663,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "wordpress",
+      "target": "basics",
+      "curve": {
+        "x": -9.22999,
+        "y": 141.468
+      }
+    },
+    {
+      "source": "articles",
+      "target": "wordpress",
+      "curve": {
+        "x": -69.538,
+        "y": -78.9324
+      }
+    }
+  ],
+  "id": 1861
+}

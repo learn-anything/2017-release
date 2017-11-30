@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - neuroscience - computational neuroscience",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computational neuroscience",
+      "url": "http://www.wikiwand.com/en/Computational_neuroscience",
+      "fx": -112.2265625,
+      "fy": -274.765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -8.6171875,
+      "fy": -142.70703125,
+      "nodes": [
+        {
+          "text": "1. what’s computational about computational neuroscience  ️",
+          "url": "https://nucambiguous.wordpress.com/2013/07/07/whats-computational-about-computational-neuroscience/",
+          "fx": 173.3828125,
+          "fy": -173.20703125,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is computational neuroscience",
+          "url": "https://www.youtube.com/watch?v=d5oqIxhTU8I",
+          "fx": 173.3828125,
+          "fy": -111.20703125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "computational neuroscience",
+      "target": "basics",
+      "curve": {
+        "x": -4.69531,
+        "y": 64.7793
+      }
+    }
+  ],
+  "id": 1239
+}

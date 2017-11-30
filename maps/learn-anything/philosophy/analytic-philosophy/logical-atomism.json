@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - analytic philosophy - logical atomism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "logical atomism",
+      "url": "http://www.wikiwand.com/en/Logical_atomism",
+      "fx": -57.5859375,
+      "fy": -270.58984375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -19.6328125,
+      "fy": -106.046875,
+      "nodes": [
+        {
+          "text": "1. Russell’s logical atomism  ️",
+          "url": "https://plato.stanford.edu/entries/logical-atomism/",
+          "fx": 143.3671875,
+          "fy": -93.546875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "logical atomism",
+      "target": "basics",
+      "curve": {
+        "x": -11.2734,
+        "y": 81.5215
+      }
+    }
+  ],
+  "id": 1314
+}

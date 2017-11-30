@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - physics - classical mechanics - forces",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "forces",
+      "url": "http://www.wikiwand.com/en/Force",
+      "fx": 61.18917410714289,
+      "fy": -49.68805803571428,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 71.48065476190527,
+      "fy": 99.40922619045915,
+      "nodes": [
+        {
+          "text": "1. what is a force?",
+          "url": "https://www.youtube.com/watch?v=GmlMV7bA0TM",
+          "fx": 227.48065476190527,
+          "fy": 90.90922619045915,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what forces are acting on you?",
+          "url": "https://www.youtube.com/watch?v=aJc4DEkSq4I",
+          "fx": 227.48065476190527,
+          "fy": 130.90922619045915,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "work  ️",
+      "url": "/physics/classical-mechanics/forces/work",
+      "fx": -23.133206390023247,
+      "fy": 236.65055365253227,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "conservative forces  ️",
+      "url": "/physics/classical-mechanics/forces/conservative-forces",
+      "fx": 123.84676535088863,
+      "fy": 239.06958803258203,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "forces",
+      "target": "basics",
+      "curve": {
+        "x": -1.60426,
+        "y": 73.2986
+      }
+    },
+    {
+      "source": "basics",
+      "target": "work  ️",
+      "curve": {
+        "x": -50.5569,
+        "y": 68.6206
+      }
+    },
+    {
+      "source": "basics",
+      "target": "conservative forces  ️",
+      "curve": {
+        "x": 52.6831,
+        "y": 69.8302
+      }
+    }
+  ],
+  "id": 1367
+}

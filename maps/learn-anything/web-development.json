@@ -1,0 +1,446 @@
+{
+  "title": "learn anything - web development",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web development",
+      "url": "https://www.wikiwand.com/en/Web_development",
+      "fx": 522.4492377770791,
+      "fy": -877.0251209435535,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/webdev/",
+          "fx": 811.4492377770791,
+          "fy": -863.0251209435535,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 727.9975256815788,
+      "fy": -695.6818839707998,
+      "nodes": [
+        {
+          "text": "visual overview of what web development entails and what you can learn",
+          "url": "https://github.com/kamranahmedse/developer-roadmap",
+          "fx": 864.9975256815788,
+          "fy": -805.1818839707998,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: a study plan to cure javascript fatigue  ️",
+          "url": "https://medium.freecodecamp.com/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1",
+          "fx": 864.9975256815788,
+          "fy": -721.1818839707998,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "web development with cs foundations path",
+          "url": "https://forum.freecodecamp.com/t/computer-guide-web-development-with-computer-science-foundations-comprehensive-path/64516",
+          "fx": 864.9975256815788,
+          "fy": -659.1818839707998,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome project boilerplates",
+          "url": "https://github.com/melvin0008/awesome-projects-boilerplates",
+          "fx": 864.9975256815788,
+          "fy": -603.1818839707998,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "spell book of modern webdev",
+          "url": "https://github.com/dexteryy/spellbook-of-modern-webdev",
+          "fx": 864.9975256815788,
+          "fy": -563.1818839707998,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 490.13714150082774,
+      "fy": -457.8372472512891,
+      "nodes": [
+        {
+          "text": "1. freecodecamp",
+          "note": "go from the beginning and work through all the exercises, they are really fun",
+          "url": "https://www.freecodecamp.com",
+          "fx": 672.1371415008277,
+          "fy": -466.3372472512891,
+          "nodes": [
+            {
+              "text": "forum",
+              "url": "https://forum.freecodecamp.com/",
+              "fx": 934.1371415008277,
+              "fy": -466.3372472512891,
+              "nodes": [],
+              "category": "chat",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. you don’t know js series",
+          "note": "goes over javascript language in detail",
+          "url": "https://github.com/getify/You-Dont-Know-JS",
+          "fx": 672.1371415008277,
+          "fy": -426.3372472512891,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "web performance  ️",
+      "url": "/web-development/web-performance",
+      "fx": -7.155883144521567,
+      "fy": -305.5486926481674,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "backend  ️",
+      "url": "/web-development/backend",
+      "fx": 628.1292788879189,
+      "fy": -305.197419927214,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "javascript libraries  ️",
+      "url": "/web-development/javascript-libraries",
+      "fx": 231.86595095062626,
+      "fy": -305.10423043160256,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "front end  ️",
+      "url": "/web-development/front-end",
+      "fx": 468.8110165754508,
+      "fy": -304.0837717839454,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "search engines  ️",
+      "url": "/web-development/search-engines",
+      "fx": -613.275842437568,
+      "fy": -303.8290759815376,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web design  ️",
+      "url": "/web-development/web-design",
+      "fx": -191.22000387854155,
+      "fy": -303.81300709307584,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web crawlers  ️",
+      "url": "/web-development/web-crawlers",
+      "fx": -389.8668610550309,
+      "fy": -302.92407148105553,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "static site generators  ️",
+      "url": "/web-development/static-site-generators",
+      "fx": -881.6211452114942,
+      "fy": -302.8409983001434,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "browsers  ️",
+      "url": "/web-development/browsers",
+      "fx": 806.1320402032406,
+      "fy": -301.6834220088733,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web API’s  ️",
+      "url": "/web-development/web-api",
+      "fx": -1052.5906450320513,
+      "fy": -301.41945623636127,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "progressive web apps  ️",
+      "url": "/web-development/progressive-web-apps",
+      "fx": -1333.1655910326085,
+      "fy": -299.3738111413045,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "site reliability  ️",
+      "url": "/web-development/site-reliability",
+      "fx": -1527.9982460754875,
+      "fy": -296.46698067167927,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web scraping  ️",
+      "url": "/web-development/web-scraping",
+      "fx": -1734.5546875,
+      "fy": -293.29296875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "search engine optimisation  ️",
+      "url": "/web-development/search-engine-optimisation",
+      "fx": -2066.423177083335,
+      "fy": -284.1640624999949,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ajax  ️",
+      "url": "/web-development/ajax",
+      "fx": -2553.8757486718123,
+      "fy": -282.90220905172384,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "offline first  ️",
+      "url": "/web-development/offline-first",
+      "fx": -2729.194090392366,
+      "fy": -282.3661523462206,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "content management systems  ️",
+      "url": "/web-development/content-management-systems",
+      "fx": -2408.892186857135,
+      "fy": -285.65278905524883,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "DOM  ️",
+      "url": "/web-development/dom",
+      "fx": 823.4070333553937,
+      "fy": -197.49313961919597,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "full stack  ️",
+      "url": "/web-development/full-stack",
+      "fx": 540.0695244408739,
+      "fy": -172.48270525987527,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "web development",
+      "target": "basics",
+      "curve": {
+        "x": -44.656,
+        "y": 209.594
+      }
+    },
+    {
+      "source": "web development",
+      "target": "help",
+      "curve": {
+        "x": 68.7742,
+        "y": 90.6717
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web design  ️",
+      "curve": {
+        "x": -404.521,
+        "y": 75.6684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web performance  ️",
+      "curve": {
+        "x": -223.146,
+        "y": 76.1442
+      }
+    },
+    {
+      "source": "basics",
+      "target": "javascript libraries  ️",
+      "curve": {
+        "x": -103.636,
+        "y": 76.3664
+      }
+    },
+    {
+      "source": "basics",
+      "target": "front end  ️",
+      "curve": {
+        "x": 2.3369,
+        "y": 78.127
+      }
+    },
+    {
+      "source": "basics",
+      "target": "backend  ️",
+      "curve": {
+        "x": 78.4521,
+        "y": 81.6523
+      }
+    },
+    {
+      "source": "basics",
+      "target": "browsers  ️",
+      "curve": {
+        "x": 202.937,
+        "y": 93.2486
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web crawlers  ️",
+      "curve": {
+        "x": -529.779,
+        "y": 57.6911
+      }
+    },
+    {
+      "source": "basics",
+      "target": "search engines  ️",
+      "curve": {
+        "x": -588.188,
+        "y": 42.0152
+      }
+    },
+    {
+      "source": "front end  ️",
+      "target": "full stack  ️",
+      "curve": {
+        "x": 35.1293,
+        "y": 65.8005
+      }
+    },
+    {
+      "source": "backend  ️",
+      "target": "full stack  ️",
+      "curve": {
+        "x": -44.0299,
+        "y": 66.3574
+      }
+    },
+    {
+      "source": "basics",
+      "target": "static site generators  ️",
+      "curve": {
+        "x": -788.965,
+        "y": 25.3708
+      }
+    },
+    {
+      "source": "browsers  ️",
+      "target": "DOM  ️",
+      "curve": {
+        "x": -7.6125,
+        "y": 50.8451
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web API’s  ️",
+      "curve": {
+        "x": -1107.78,
+        "y": 13.6598
+      }
+    },
+    {
+      "source": "basics",
+      "target": "progressive web apps  ️",
+      "curve": {
+        "x": -1254.69,
+        "y": 7.92567
+      }
+    },
+    {
+      "source": "basics",
+      "target": "site reliability  ️",
+      "curve": {
+        "x": -1361.46,
+        "y": -27.9974
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web scraping  ️",
+      "curve": {
+        "x": -1520.96,
+        "y": -73.806
+      }
+    },
+    {
+      "source": "basics",
+      "target": "search engine optimisation  ️",
+      "curve": {
+        "x": -1664.19,
+        "y": -29.778
+      }
+    },
+    {
+      "source": "basics",
+      "target": "content management systems  ️",
+      "curve": {
+        "x": -1776.95,
+        "y": -80.1801
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ajax  ️",
+      "curve": {
+        "x": -2031.88,
+        "y": -142.611
+      }
+    },
+    {
+      "source": "basics",
+      "target": "offline first  ️",
+      "curve": {
+        "x": -2120.5,
+        "y": -163.728
+      }
+    }
+  ],
+  "id": 1930
+}

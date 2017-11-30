@@ -1,0 +1,210 @@
+{
+  "title": "learn anything - network science - computer networking - protocols",
+  "tag": "networking protocols",
+  "nodes": [
+    {
+      "text": "protocols",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Communications_protocol",
+      "fx": -42.0806726365397,
+      "fy": -425.87931916524707,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "MQTT  ️",
+      "url": "/network-science/computer-networking/protocols/mqtt",
+      "fx": -417.0270577428644,
+      "fy": -251.6650412463972,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "tcp/ip  ️",
+      "url": "/network-science/computer-networking/protocols/tcp-ip",
+      "fx": -274.75141358196515,
+      "fy": -251.1240740395537,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "irc  ️",
+      "url": "/network-science/computer-networking/protocols/irc",
+      "fx": -30.393035652223716,
+      "fy": -250.0376739817217,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "BitTorrent  ️",
+      "url": "/network-science/computer-networking/protocols/bittorrent",
+      "fx": -595.7239141949153,
+      "fy": -249.34383275953388,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "http  ️",
+      "url": "/network-science/computer-networking/protocols/http",
+      "fx": -142.80126236431056,
+      "fy": -246.05196556188173,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ssh  ️",
+      "url": "/network-science/computer-networking/protocols/ssh",
+      "fx": 74.49513966584004,
+      "fy": -244.93049422965555,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "WebSocket  ️",
+      "url": "/network-science/computer-networking/protocols/websocket",
+      "fx": 181.525634765625,
+      "fy": -241.7728271484375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "IPFS  ️",
+      "url": "/network-science/computer-networking/protocols/ipfs",
+      "fx": 361.64825439453125,
+      "fy": -240.02977752685547,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "WebRTC  ️",
+      "url": "/network-science/computer-networking/protocols/webrtc",
+      "fx": 479.7574234008789,
+      "fy": -236.1245574951172,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "AMQP  ️",
+      "url": "/network-science/computer-networking/protocols/amqp",
+      "fx": 757.1203078772205,
+      "fy": -232.66193602070996,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "TLS  ️",
+      "url": "/network-science/computer-networking/protocols/tls",
+      "fx": 637.8561096191406,
+      "fy": -232.39275360107422,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "RADIUS  ️",
+      "url": "/network-science/computer-networking/protocols/radius",
+      "fx": 893.9562853294442,
+      "fy": -227.23994214804827,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "protocols",
+      "target": "tcp/ip  ️",
+      "curve": {
+        "x": -124.336,
+        "y": 87.3782
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "http  ️",
+      "curve": {
+        "x": -69.8599,
+        "y": 88.6642
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "irc  ️",
+      "curve": {
+        "x": -10.1563,
+        "y": 87.9212
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "ssh  ️",
+      "curve": {
+        "x": 37.7879,
+        "y": 89.2252
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "WebSocket  ️",
+      "curve": {
+        "x": 108.053,
+        "y": 90.8032
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "IPFS  ️",
+      "curve": {
+        "x": 220.023,
+        "y": 93.9925
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "WebRTC  ️",
+      "curve": {
+        "x": 306.615,
+        "y": 81.281
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "MQTT  ️",
+      "curve": {
+        "x": -282.455,
+        "y": 89.5183
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "TLS  ️",
+      "curve": {
+        "x": 450.937,
+        "y": 75.6747
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "BitTorrent  ️",
+      "curve": {
+        "x": -319.044,
+        "y": 58.2658
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "AMQP  ️",
+      "curve": {
+        "x": 560.776,
+        "y": 92.6282
+      }
+    },
+    {
+      "source": "protocols",
+      "target": "RADIUS  ️",
+      "curve": {
+        "x": 647.827,
+        "y": 48.8509
+      }
+    }
+  ],
+  "id": 1227
+}

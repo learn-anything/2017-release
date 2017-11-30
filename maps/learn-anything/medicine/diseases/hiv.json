@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - medicine - diseases - hiv",
+  "tag": "HIV",
+  "nodes": [
+    {
+      "text": "HIV",
+      "url": "http://www.wikiwand.com/en/HIV",
+      "fx": -38.64453125,
+      "fy": -131.78125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. the science of HIV / AIDS",
+          "url": "https://www.youtube.com/watch?v=FDVNdn0CvKI",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "HIV",
+      "target": "basics",
+      "curve": {
+        "x": -4.67773,
+        "y": 63.6406
+      }
+    }
+  ],
+  "id": 1155
+}

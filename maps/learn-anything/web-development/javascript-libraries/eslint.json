@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - javascript libraries - eslint",
+  "tag": "ESLint",
+  "nodes": [
+    {
+      "text": "ESLint",
+      "url": "https://github.com/eslint/eslint",
+      "fx": 70.72350692749023,
+      "fy": -10.40326976776123,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/dustinspecker/awesome-eslint",
+          "fx": 256.72350692749023,
+          "fy": 3.5967302322387695,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 82.00629058441564,
+      "fy": 156.8207690746657,
+      "nodes": [
+        {
+          "text": "1. getting started with ESLint",
+          "url": "http://eslint.org/docs/user-guide/getting-started",
+          "fx": 238.00629058441564,
+          "fy": 171.3207690746657,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ESLint",
+      "target": "basics",
+      "curve": {
+        "x": -1.85861,
+        "y": 82.3623
+      }
+    }
+  ],
+  "id": 1889
+}

@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - programming - programming languages - idris",
+  "tag": "idris programming language",
+  "nodes": [
+    {
+      "text": "idris",
+      "url": "http://www.wikiwand.com/en/Idris_(programming_language)",
+      "fx": -81.64403195488717,
+      "fy": -395.86460291353376,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Idris/",
+          "fx": 82.35596804511283,
+          "fy": -401.86460291353376,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/idris-lang/Idris-dev",
+          "fx": 82.35596804511283,
+          "fy": -361.86460291353376,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 29.1615363959977,
+      "fy": -278.0795066661405,
+      "nodes": [
+        {
+          "text": "dependently typed functional programming with idris",
+          "url": "https://vimeo.com/61576198",
+          "fx": 166.1615363959977,
+          "fy": -294.5795066661405,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "overview of idris",
+          "url": "https://www.idris-lang.org/",
+          "fx": 166.1615363959977,
+          "fy": -232.5795066661405,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -93.01617980182618,
+      "fy": -165.68276966066298,
+      "nodes": [
+        {
+          "text": "1. type-driven development with idris",
+          "url": "https://www.manning.com/books/type-driven-development-with-idris",
+          "fx": 88.98382019817382,
+          "fy": -165.18276966066298,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "idris",
+      "target": "basics",
+      "curve": {
+        "x": -7.68608,
+        "y": 113.841
+      }
+    },
+    {
+      "source": "help",
+      "target": "idris",
+      "curve": {
+        "x": -48.6528,
+        "y": -57.6425
+      }
+    }
+  ],
+  "id": 1602
+}

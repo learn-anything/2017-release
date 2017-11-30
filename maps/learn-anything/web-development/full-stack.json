@@ -1,0 +1,200 @@
+{
+  "title": "learn anything - web development - full stack",
+  "tag": "full stack web development",
+  "nodes": [
+    {
+      "text": "full stack development",
+      "note": "",
+      "url": "",
+      "fx": 153.9638198408661,
+      "fy": -279.96303052666565,
+      "nodes": []
+    },
+    {
+      "text": "meteor  ️",
+      "url": "/web-development/javascript-libraries/meteor",
+      "fx": 539.8218620236908,
+      "fy": -127.35125908341945,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "django  ️",
+      "url": "/web-development/full-stack/django",
+      "fx": 703.2366082572155,
+      "fy": -125.11424961861178,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ruby on rails  ️",
+      "url": "/programming/programming-languages/ruby/ruby-on-rails",
+      "fx": 853.9849855531102,
+      "fy": -123.69468044854148,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mongoDB  ️",
+      "url": "/databases/nosql-databases/mongodb",
+      "fx": 199.87047112506366,
+      "fy": -117.57777678448213,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "MEAN",
+      "url": "http://www.wikiwand.com/en/MEAN_(software_bundle)",
+      "fx": -19.183835050500875,
+      "fy": -51.91360460403308,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "express  ️",
+      "url": "/web-development/javascript-libraries/express",
+      "fx": 206.02658346424937,
+      "fy": -33.963485064713495,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "MERN",
+      "url": "http://mern.io",
+      "fx": 456.2565083080599,
+      "fy": -29.810750076736213,
+      "nodes": []
+    },
+    {
+      "text": "node.js  ️",
+      "url": "/web-development/backend/nodejs",
+      "fx": 202.8604303442911,
+      "fy": 44.89859987341822,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "angular 2  ️",
+      "url": "/web-development/javascript-libraries/angular-2",
+      "fx": -166.60663326457382,
+      "fy": 74.24964533245884,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "react js  ️",
+      "url": "/web-development/javascript-libraries/react",
+      "fx": 492.83893100049636,
+      "fy": 97.29515378686733,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "MEAN",
+      "target": "angular 2  ️",
+      "curve": {
+        "x": -87.1461,
+        "y": 81.1387
+      }
+    },
+    {
+      "source": "MEAN",
+      "target": "node.js  ️",
+      "curve": {
+        "x": 64.7104,
+        "y": 74.9585
+      }
+    },
+    {
+      "source": "full stack development",
+      "target": "MEAN",
+      "curve": {
+        "x": -122.574,
+        "y": 114.025
+      }
+    },
+    {
+      "source": "MERN",
+      "target": "react js  ️",
+      "curve": {
+        "x": 58.281,
+        "y": 68.9164
+      }
+    },
+    {
+      "source": "full stack development",
+      "target": "MERN",
+      "curve": {
+        "x": 115.396,
+        "y": 125.076
+      }
+    },
+    {
+      "source": "full stack development",
+      "target": "meteor  ️",
+      "curve": {
+        "x": 183.811,
+        "y": 77.5563
+      }
+    },
+    {
+      "source": "full stack development",
+      "target": "django  ️",
+      "curve": {
+        "x": 328.733,
+        "y": 77.8048
+      }
+    },
+    {
+      "source": "full stack development",
+      "target": "ruby on rails  ️",
+      "curve": {
+        "x": 373.167,
+        "y": 52.6225
+      }
+    },
+    {
+      "source": "MERN",
+      "target": "express  ️",
+      "curve": {
+        "x": -114.865,
+        "y": -0.826349
+      }
+    },
+    {
+      "source": "MEAN",
+      "target": "express  ️",
+      "curve": {
+        "x": 132.954,
+        "y": 14.7631
+      }
+    },
+    {
+      "source": "MERN",
+      "target": "node.js  ️",
+      "curve": {
+        "x": -62.0221,
+        "y": 51.4036
+      }
+    },
+    {
+      "source": "MEAN",
+      "target": "mongoDB  ️",
+      "curve": {
+        "x": 116.956,
+        "y": -45.2642
+      }
+    },
+    {
+      "source": "MERN",
+      "target": "mongoDB  ️",
+      "curve": {
+        "x": -112.443,
+        "y": -42.6335
+      }
+    }
+  ],
+  "id": 1880
+}

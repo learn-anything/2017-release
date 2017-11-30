@@ -1,0 +1,106 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "biomolecules",
+      "url": "http://www.wikiwand.com/en/Biomolecule",
+      "fx": 112.35807291666663,
+      "fy": -278.5319552951389,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 153.69800804093575,
+      "fy": -151.80333687406926,
+      "nodes": [
+        {
+          "text": "1. biological molecules - you are what you eat",
+          "url": "https://www.youtube.com/watch?v=H8WJ2KENlK0",
+          "fx": 316.69800804093575,
+          "fy": -151.80333687406926,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "carbohydrates  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/carbohydrates",
+      "fx": -215.62108617771173,
+      "fy": -20.71467263256011,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lipids  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/lipids",
+      "fx": 24.192526982929962,
+      "fy": -18.28586084400115,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "nucleic acids  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids",
+      "fx": 316.818633393613,
+      "fy": -16.59639573097229,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "proteins  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/proteins",
+      "fx": 159.68771743774414,
+      "fy": -16.469017267227173,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "biomolecules",
+      "target": "basics",
+      "curve": {
+        "x": -4.08003,
+        "y": 62.6143
+      }
+    },
+    {
+      "source": "basics",
+      "target": "carbohydrates  ️",
+      "curve": {
+        "x": -165.41,
+        "y": 65.5443
+      }
+    },
+    {
+      "source": "basics",
+      "target": "lipids  ️",
+      "curve": {
+        "x": -68.2527,
+        "y": 66.7587
+      }
+    },
+    {
+      "source": "basics",
+      "target": "proteins  ️",
+      "curve": {
+        "x": 6.49485,
+        "y": 67.6672
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nucleic acids  ️",
+      "curve": {
+        "x": 98.0603,
+        "y": 67.6035
+      }
+    }
+  ],
+  "id": 1468
+}

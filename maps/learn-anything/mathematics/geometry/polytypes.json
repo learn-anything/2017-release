@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - geometry - polytypes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polytypes",
+      "url": "http://www.wikiwand.com/en/Polytope",
+      "fx": 167.984375,
+      "fy": -226.0078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 307.32746505737305,
+      "fy": -113.12890625,
+      "nodes": [
+        {
+          "text": "16: perfect shapes in higher dimensions",
+          "url": "https://www.youtube.com/watch?v=2s4TqVAbfz4",
+          "fx": 505.32746505737305,
+          "fy": -113.12890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 189.21633911132812,
+      "fy": 2.7473955154418945,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=xpv8eco4u4s",
+          "fx": 352.2163391113281,
+          "fy": 15.247395515441895,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polytypes",
+      "target": "basics",
+      "curve": {
+        "x": -4.88402,
+        "y": 113.628
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "polytypes",
+      "curve": {
+        "x": -63.1715,
+        "y": -55.6895
+      }
+    }
+  ],
+  "id": 957
+}

@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - front end - html - html5 - canvas",
+  "tag": "html canvas",
+  "nodes": [
+    {
+      "text": "canvas",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "fx": -35.66015625,
+      "fy": -121.56640625,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/raphamorim/awesome-canvas",
+          "fx": 126.33984375,
+          "fy": -110.06640625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -33.734375,
+      "fy": -0.95703125,
+      "nodes": [
+        {
+          "text": "1. basic usage",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
+          "fx": 122.265625,
+          "fy": 13.54296875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "canvas",
+      "target": "basics",
+      "curve": {
+        "x": -0.537109,
+        "y": 60.3047
+      }
+    }
+  ],
+  "id": 1873
+}

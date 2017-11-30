@@ -1,0 +1,156 @@
+{
+  "title": "learn anything - programming - programming languages - typescript",
+  "tag": "typescript programming language",
+  "nodes": [
+    {
+      "text": "typescript",
+      "url": "http://www.wikiwand.com/en/TypeScript",
+      "fx": -89.41238100165572,
+      "fy": -388.1430308360928,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/typescript/",
+          "fx": 126.58761899834428,
+          "fy": -434.1430308360928,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/Microsoft/TypeScript",
+          "fx": 126.58761899834428,
+          "fy": -394.1430308360928,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/typescript",
+          "fx": 126.58761899834428,
+          "fy": -354.1430308360928,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/dzharii/awesome-typescript",
+          "fx": 126.58761899834428,
+          "fy": -314.1430308360928,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 30.852888271508505,
+      "fy": -223.0881378303302,
+      "nodes": [
+        {
+          "text": "awesome typescript projects",
+          "url": "https://github.com/brookshi/awesome-typescript-projects",
+          "fx": 167.8528882715085,
+          "fy": -242.5881378303302,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "high quality TypeScript type definitions",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+          "fx": 167.8528882715085,
+          "fy": -202.5881378303302,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 106.91309036249538,
+      "fy": -93.527682513419,
+      "nodes": [
+        {
+          "text": "17: typescript in slack  ️",
+          "url": "https://slack.engineering/typescript-at-slack-a81307fa288d",
+          "fx": 268.9130903624954,
+          "fy": -102.027682513419,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: reddit choses typescript  ️",
+          "url": "https://redditblog.com/2017/06/30/why-we-chose-typescript/",
+          "fx": 268.9130903624954,
+          "fy": -62.027682513418995,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -83.13448715209961,
+      "fy": 36.33427058466225,
+      "nodes": [
+        {
+          "text": "1. typescript deep dive",
+          "url": "https://basarat.gitbooks.io/typescript/",
+          "fx": 98.86551284790039,
+          "fy": 30.83427058466225,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. typescript quick start",
+          "url": "https://www.typescriptlang.org/docs/tutorial.html",
+          "fx": 98.86551284790039,
+          "fy": 70.83427058466225,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "typescript",
+      "curve": {
+        "x": -47.6326,
+        "y": -82.5274
+      }
+    },
+    {
+      "source": "typescript",
+      "target": "basics",
+      "curve": {
+        "x": -4.61104,
+        "y": 212.239
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -44.2801,
+        "y": -64.7803
+      }
+    }
+  ],
+  "id": 1663
+}

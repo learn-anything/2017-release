@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - physics - electromagnetism - lorentz force - maxwells equations",
+  "tag": "Maxwell’s equations",
+  "nodes": [
+    {
+      "text": "Maxwell’s equations",
+      "url": "http://www.wikiwand.com/en/Maxwell%27s_equations",
+      "fx": 343.59375,
+      "fy": -561.6328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 550.64453125,
+      "fy": -436.40625,
+      "nodes": [
+        {
+          "text": "can any of Maxwell’s equations be deduced from the others?",
+          "url": "https://www.reddit.com/r/askscience/comments/56lzsq/can_any_of_maxwells_equations_be_deduced_from_the/",
+          "fx": 741.64453125,
+          "fy": -435.90625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 410.875,
+      "fy": -230.5390625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=K40lNL3KsJ4",
+          "fx": 566.875,
+          "fy": -281.0390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Maxwell’s equations - basic derivation",
+          "url": "https://www.youtube.com/watch?v=AWI70HXrbG0",
+          "fx": 566.875,
+          "fy": -241.0390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. Maxwell’s equations - the mechanical universe",
+          "url": "https://www.youtube.com/watch?v=SS4tcajTsW8",
+          "fx": 566.875,
+          "fy": -179.0390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Maxwell’s equations",
+      "target": "basics",
+      "curve": {
+        "x": -4.35938,
+        "y": 164.297
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "Maxwell’s equations",
+      "curve": {
+        "x": -74.2754,
+        "y": -61.3633
+      }
+    }
+  ],
+  "id": 1434
+}

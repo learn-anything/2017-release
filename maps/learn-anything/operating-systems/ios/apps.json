@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - operating systems - ios - apps",
+  "tag": "iOS apps",
+  "nodes": [
+    {
+      "text": "iOS apps",
+      "url": "https://github.com/learn-anything/ios-apps",
+      "fx": -8.684616169865308,
+      "fy": -160.91730521386282,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new iOS apps",
+      "url": "",
+      "fx": -47.53401898734194,
+      "fy": 3.093698654920729,
+      "nodes": [
+        {
+          "text": "open source iOS apps",
+          "url": "https://github.com/dkhamsing/open-source-ios-apps",
+          "fx": 235.46598101265806,
+          "fy": -5.406301345079271,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "iOS setup",
+          "url": "https://github.com/nikitavoloboev/my-ios",
+          "fx": 235.46598101265806,
+          "fy": 36.59369865492073,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "iOS apps",
+      "target": "find new iOS apps",
+      "curve": {
+        "x": -6.1747,
+        "y": 80.7555
+      }
+    }
+  ],
+  "id": 1276
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - engineering - aerospace engineering - aircraft",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "aircraft",
+      "url": "http://www.wikiwand.com/en/Aircraft",
+      "fx": -34.4140625,
+      "fy": -178.81640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -25.90625,
+      "fy": -59.046875,
+      "nodes": [
+        {
+          "text": "1. how do airplanes fly?",
+          "url": "https://www.youtube.com/watch?v=YyeX6ArxCYI",
+          "fx": 130.09375,
+          "fy": -47.546875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "drones  ️",
+      "url": "/engineering/aerospace-engineering/aircraft/drones",
+      "fx": -131.1886003521132,
+      "fy": 66.40580985917506,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "aircraft",
+      "target": "basics",
+      "curve": {
+        "x": -3.74611,
+        "y": 58.6348
+      }
+    },
+    {
+      "source": "basics",
+      "target": "drones  ️",
+      "curve": {
+        "x": -51.3912,
+        "y": 62.7263
+      }
+    }
+  ],
+  "id": 509
+}

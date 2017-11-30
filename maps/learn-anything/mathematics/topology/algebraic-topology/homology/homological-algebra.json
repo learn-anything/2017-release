@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - topology - algebraic topology - homology - homological algebra",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "homological algebra",
+      "url": "http://www.wikiwand.com/en/Homological_algebra",
+      "fx": -125.67578125000006,
+      "fy": -146.55078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.5859375,
+      "fy": -2.703125,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=zlnfLg06QhA&amp;list=PLCgncMh0TrCmqr36zCc6I96EhPwAt3ZVh",
+          "fx": 102.4140625,
+          "fy": -11.203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. homological algebra and data",
+          "url": "https://www.math.upenn.edu/%7Eghrist/preprints/HAD.pdf",
+          "fx": 102.4140625,
+          "fy": 28.796875,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "homological algebra",
+      "target": "basics",
+      "curve": {
+        "x": -2.20508,
+        "y": 70.6738
+      }
+    }
+  ],
+  "id": 1127
+}

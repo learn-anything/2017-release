@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space - normed vector space",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "normed vector space",
+      "url": "http://www.wikiwand.com/en/Normed_vector_space",
+      "fx": 329.93473800505046,
+      "fy": -181.8952283249158,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 415.9376954739522,
+      "fy": -36.11423286629912,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=VXwXkME9uWU",
+          "fx": 578.9376954739522,
+          "fy": -23.61423286629912,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Banach spaces  ️",
+      "url": "/mathematics/linear-algebra/vectors/vector-space/normed-vector-space/banach-spaces",
+      "fx": 225.48966130239535,
+      "fy": 105.19690306886241,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "normed vector space",
+      "target": "basics",
+      "curve": {
+        "x": -1.99852,
+        "y": 72.1405
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Banach spaces  ️",
+      "curve": {
+        "x": -75.224,
+        "y": 70.6556
+      }
+    }
+  ],
+  "id": 991
+}

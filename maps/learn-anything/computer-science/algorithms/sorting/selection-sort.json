@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - computer science - algorithms - sorting - selection sort",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "selection sort",
+      "url": "http://www.wikiwand.com/en/Selection_sort",
+      "fx": 107.83203125000006,
+      "fy": -231.1710636127596,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 261.9643916913917,
+      "fy": -96.79163575668724,
+      "nodes": [
+        {
+          "text": "visualisation",
+          "url": "https://visualgo.net/en/sorting",
+          "fx": 398.9643916913917,
+          "fy": -85.29163575668724,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.87076822916663,
+      "fy": 12.935221354166629,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=GUDLRan2DWM",
+          "fx": 299.87076822916663,
+          "fy": 24.43522135416663,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "selection sort",
+      "curve": {
+        "x": -49.3162,
+        "y": -65.9397
+      }
+    },
+    {
+      "source": "selection sort",
+      "target": "basics",
+      "curve": {
+        "x": -4.98063,
+        "y": 120.803
+      }
+    }
+  ],
+  "id": 280
+}

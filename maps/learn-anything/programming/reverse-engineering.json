@@ -1,0 +1,197 @@
+{
+  "title": "learn anything - programming - reverse engineering",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "reverse engineering",
+      "url": "https://www.google.nl/search?q=reverse+engineering&amp;hl=en&amp;safe=off&amp;gws_rd=cr&amp;ei=Hn38WMCLAZDPwQLN5qfgAw",
+      "fx": -134.05067121478874,
+      "fy": -338.0700374119717,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ReverseEngineering/",
+          "fx": 168.94932878521126,
+          "fy": -364.0700374119717,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://reverseengineering.stackexchange.com/",
+          "fx": 168.94932878521126,
+          "fy": -324.0700374119717,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/wtsxDev/reverse-engineering",
+          "fx": 168.94932878521126,
+          "fy": -284.0700374119717,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 46.398885807520855,
+      "fy": -211.39650479504763,
+      "nodes": [
+        {
+          "text": "0x00 sec",
+          "url": "https://0x00sec.org/",
+          "fx": 183.39888580752086,
+          "fy": -199.89650479504763,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 98.22892086942454,
+      "fy": -56.93022894523506,
+      "nodes": [
+        {
+          "text": "reverse engineering stickies.app  ️",
+          "url": "https://lowlevelbits.org/reverse-engineering-stickies.app/",
+          "fx": 260.22892086942454,
+          "fy": -107.43022894523506,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "16: reverse engineering visual novels 101  ️",
+          "url": "https://hackernoon.com/reverse-engineering-visual-novels-101-d0bc3bf7ab8",
+          "fx": 260.22892086942454,
+          "fy": -67.43022894523506,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: finding the lost vikings – reversing a virtual machine  ️",
+          "url": "https://ryiron.wordpress.com/2017/02/01/finding-the-lost-vikings-reversing-a-virtual-machine/",
+          "fx": 260.22892086942454,
+          "fy": -5.430228945235058,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 187.33408087072246,
+      "fy": 104.2851716162453,
+      "nodes": [
+        {
+          "text": "hopper disassembler",
+          "url": "https://www.hopperapp.com/",
+          "fx": 329.33408087072246,
+          "fy": 84.7851716162453,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "REC Studio ",
+          "note": "interactive decompiler",
+          "url": "http://www.backerstreet.com/rec/rec.htm",
+          "fx": 329.33408087072246,
+          "fy": 118.7851716162453,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "hachoir",
+          "url": "https://hachoir3.readthedocs.io/",
+          "fx": 329.33408087072246,
+          "fy": 152.7851716162453,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -76.15569982394356,
+      "fy": 250.6868948063384,
+      "nodes": [
+        {
+          "text": "1. guide for beginners",
+          "url": "https://0x00sec.org/t/re-guide-for-beginners-methodology-and-tools/2242",
+          "fx": 105.84430017605644,
+          "fy": 214.1868948063384,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. hacking: the art of exploitation",
+          "url": "https://www.goodreads.com/book/show/61619.Hacking",
+          "fx": 105.84430017605644,
+          "fy": 248.1868948063384,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. modern binary exploitation",
+          "url": "https://github.com/RPISEC/MBE",
+          "fx": 105.84430017605644,
+          "fy": 310.1868948063384,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "reverse engineering",
+      "target": "basics",
+      "curve": {
+        "x": -0.55256,
+        "y": 294.378
+      }
+    },
+    {
+      "source": "tools",
+      "target": "articles",
+      "curve": {
+        "x": -39.5525,
+        "y": -80.6077
+      }
+    },
+    {
+      "source": "help",
+      "target": "reverse engineering",
+      "curve": {
+        "x": -48.7249,
+        "y": -62.0867
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -32.165,
+        "y": -77.2332
+      }
+    }
+  ],
+  "id": 1686
+}

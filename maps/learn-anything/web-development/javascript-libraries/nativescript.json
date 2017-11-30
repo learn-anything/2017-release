@@ -1,0 +1,100 @@
+{
+  "title": "learn anything - web development - javascript libraries - nativescript",
+  "tag": "NativeScript",
+  "nodes": [
+    {
+      "text": "NativeScript",
+      "url": "https://github.com/NativeScript/NativeScript",
+      "fx": -13.29052734375,
+      "fy": -39.654864490147474,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 114.50606998760975,
+      "fy": 67.58125113333904,
+      "nodes": [
+        {
+          "text": "awesome nativescript",
+          "url": "https://github.com/jbristowe/awesome-nativescript",
+          "fx": 251.50606998760975,
+          "fy": 59.08125113333904,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome nativescript 2",
+          "url": "https://github.com/DeviantJS/awesome-nativescript",
+          "fx": 251.50606998760975,
+          "fy": 99.08125113333904,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 182.92752659574455,
+      "fy": 171.51487699467958,
+      "nodes": [
+        {
+          "text": "nativescript speech recognition",
+          "url": "https://github.com/EddyVerbruggen/nativescript-speech-recognition",
+          "fx": 373.92752659574455,
+          "fy": 183.01487699467958,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 13.600029113444862,
+      "fy": 282.09415500722037,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "http://docs.nativescript.org/",
+          "fx": 169.60002911344486,
+          "fy": 296.59415500722037,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "NativeScript",
+      "target": "basics",
+      "curve": {
+        "x": -6.80472,
+        "y": 159.625
+      }
+    },
+    {
+      "source": "help",
+      "target": "NativeScript",
+      "curve": {
+        "x": -38.8983,
+        "y": -52.3681
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -47.7107,
+        "y": -51.9668
+      }
+    }
+  ],
+  "id": 1896
+}

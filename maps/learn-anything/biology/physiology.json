@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - biology - physiology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "physiology",
+      "url": "http://www.wikiwand.com/en/Physiology",
+      "fx": -87.5546875,
+      "fy": -156.55859375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Physiology/",
+          "fx": 135.4453125,
+          "fy": -142.55859375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -68.66796875,
+      "fy": -36.32421875,
+      "nodes": [
+        {
+          "text": "1. introduction to anatomy &amp; physiology",
+          "url": "https://www.youtube.com/watch?v=uBGl2BujkPQ&amp;t=14s",
+          "fx": 113.33203125,
+          "fy": -35.82421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "homeostasis  ️",
+      "url": "/biology/physiology/homeostasis",
+      "fx": -196.26953125,
+      "fy": 95.9453125,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "physiology",
+      "target": "basics",
+      "curve": {
+        "x": -7.30664,
+        "y": 58.8672
+      }
+    },
+    {
+      "source": "basics",
+      "target": "homeostasis  ️",
+      "curve": {
+        "x": -48.8008,
+        "y": 67.3848
+      }
+    }
+  ],
+  "id": 131
+}

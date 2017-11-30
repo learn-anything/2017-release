@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - higher-order functions",
+  "tag": "higher-order functions",
+  "nodes": [
+    {
+      "text": "higher-order functions",
+      "url": "http://www.wikiwand.com/en/Higher-order_function",
+      "fx": 104.93333435058594,
+      "fy": -171.90643882751465,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 183.1171875,
+      "fy": -23.30078125,
+      "nodes": [
+        {
+          "text": "1. explanation in javascript",
+          "url": "https://www.youtube.com/watch?v=BMUiFMZr7vk",
+          "fx": 339.1171875,
+          "fy": -11.80078125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "higher-order functions",
+      "target": "basics",
+      "curve": {
+        "x": -3.15807,
+        "y": 73.0528
+      }
+    }
+  ],
+  "id": 838
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - nucleic acids - dna - dna repair",
+  "tag": "DNA repair",
+  "nodes": [
+    {
+      "text": "DNA repair",
+      "url": "http://www.wikiwand.com/en/DNA_repair",
+      "fx": -46.9296875,
+      "fy": -183.70703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -18.3046875,
+      "fy": -56.61328125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=sr-ajrgvg5s",
+          "fx": 137.6953125,
+          "fy": -45.11328125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "DNA repair",
+      "target": "basics",
+      "curve": {
+        "x": -3.1875,
+        "y": 62.2969
+      }
+    }
+  ],
+  "id": 1458
+}

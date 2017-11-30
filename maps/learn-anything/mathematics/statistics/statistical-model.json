@@ -1,0 +1,129 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "statistical models",
+      "url": "http://www.wikiwand.com/en/Statistical_model",
+      "fx": -259.2108515133647,
+      "fy": -39.028326454402475,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "probabilistic graphical models  ️",
+      "url": "/mathematics/statistics/statistical-model/probabilistic-graphical-models",
+      "fx": -271.1274424356127,
+      "fy": 155.7792668821951,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "model selection  ️",
+      "url": "/mathematics/statistics/statistical-model/model-selection",
+      "fx": 81.46866607666016,
+      "fy": 156.0712776184082,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "probabilistic programming  ️",
+      "url": "/mathematics/statistics/statistical-model/probabilistic-programming",
+      "fx": -1136.6849453829225,
+      "fy": 157.16772590256483,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "maximum likelihood estimation  ️",
+      "url": "/mathematics/statistics/statistical-model/maximum-likelihood-estimation",
+      "fx": -1499.7680431547617,
+      "fy": 157.88913690476193,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "conditional random fields  ️",
+      "url": "/mathematics/statistics/statistical-model/conditional-random-fields",
+      "fx": -815.4329427083331,
+      "fy": 158.76106770833167,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Gaussian process  ️",
+      "url": "/mathematics/statistics/statistical-model/gaussian-process",
+      "fx": -514.2885513305664,
+      "fy": 158.96113967895508,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Gaussian mixture model  ️",
+      "url": "/mathematics/statistics/statistical-model/gaussian-mixture-model",
+      "fx": 320.94949674954387,
+      "fy": 159.1982421875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "statistical models",
+      "target": "probabilistic graphical models  ️",
+      "curve": {
+        "x": 26.7917,
+        "y": 97.4038
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "model selection  ️",
+      "curve": {
+        "x": 169.589,
+        "y": 97.5498
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "Gaussian process  ️",
+      "curve": {
+        "x": -130.539,
+        "y": 97.7447
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "conditional random fields  ️",
+      "curve": {
+        "x": -266.611,
+        "y": 97.6447
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "probabilistic programming  ️",
+      "curve": {
+        "x": -451.525,
+        "y": 81.3793
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "maximum likelihood estimation  ️",
+      "curve": {
+        "x": -710.987,
+        "y": 50.1018
+      }
+    },
+    {
+      "source": "statistical models",
+      "target": "Gaussian mixture model  ️",
+      "curve": {
+        "x": 358.71,
+        "y": 68.9485
+      }
+    }
+  ],
+  "id": 1125
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - physicalism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "physicalism",
+      "url": "http://www.wikiwand.com/en/Physicalism",
+      "fx": -80.59375,
+      "fy": -164.328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.5,
+      "fy": -33.079506215469564,
+      "nodes": [
+        {
+          "text": "1. identity theory  ️",
+          "url": "http://isites.harvard.edu/fs/docs/icb.topic1338689.files/Smart%20Sensations%20and%20Brain%20Processes.pdf",
+          "fx": 108.5,
+          "fy": -41.579506215469564,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. sensation and brain process  ️",
+          "url": "http://philosophyfaculty.ucsd.edu/faculty/rarneson/Courses/SMARTJACKphil1.pdf",
+          "fx": 108.5,
+          "fy": -1.5795062154695643,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "physicalism",
+      "target": "basics",
+      "curve": {
+        "x": -2.45312,
+        "y": 64.3743
+      }
+    }
+  ],
+  "id": 1345
+}

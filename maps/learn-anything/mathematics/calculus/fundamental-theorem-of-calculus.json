@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - fundamental theorem of calculus",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fundamental theorem of calculus",
+      "url": "http://www.wikiwand.com/en/Fundamental_theorem_of_calculus",
+      "fx": 84.93640350877183,
+      "fy": -188.95360471491233,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 158.4473684210525,
+      "fy": -1.263157894782978,
+      "nodes": [
+        {
+          "text": "1. integration and the fundamental theorem of calculus",
+          "url": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+          "fx": 321.4473684210525,
+          "fy": -13.763157894782978,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "fundamental theorem of calculus",
+      "target": "basics",
+      "curve": {
+        "x": -7.74452,
+        "y": 85.8452
+      }
+    }
+  ],
+  "id": 884
+}

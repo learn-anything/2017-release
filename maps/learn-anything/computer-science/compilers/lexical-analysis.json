@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - computer science - compilers - lexical analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lexical analysis",
+      "url": "http://www.wikiwand.com/en/Lexical_analysis",
+      "fx": -89.28515625,
+      "fy": -134.55078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 107.37109375,
+      "fy": -5.8373144157088745,
+      "nodes": [
+        {
+          "text": "flex",
+          "url": "https://github.com/westes/flex",
+          "fx": 249.37109375,
+          "fy": 5.6626855842911255,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -41.625,
+      "fy": 128.0078125,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=WccZQSERfCM",
+          "fx": 114.375,
+          "fy": 139.5078125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "lexical analysis",
+      "target": "basics",
+      "curve": {
+        "x": -1.66992,
+        "y": 130.029
+      }
+    },
+    {
+      "source": "tools",
+      "target": "lexical analysis",
+      "curve": {
+        "x": -81.5781,
+        "y": -63.1067
+      }
+    }
+  ],
+  "id": 288
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - computational physics - monte carlo methods - particle filters",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "particle filters",
+      "url": "http://www.wikiwand.com/en/Particle_filter",
+      "fx": -108.36160714285711,
+      "fy": 0.5,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -67.47969608516473,
+      "fy": 137.82413289833573,
+      "nodes": [
+        {
+          "text": "1. notes on filtering  ️",
+          "url": "http://frnsys.com/ai_notes/artificial_intelligence/filtering.html",
+          "fx": 88.52030391483527,
+          "fy": 149.32413289833573,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "particle filters",
+      "target": "basics",
+      "curve": {
+        "x": -2.05904,
+        "y": 67.412
+      }
+    }
+  ],
+  "id": 1401
+}

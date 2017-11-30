@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model - probabilistic programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "probabilistic programming",
+      "url": "",
+      "fx": -125.69140625,
+      "fy": -132.20703125,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -42.842329545454504,
+      "fy": 30.263185523715435,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=7BjqGEl6mRs",
+          "fx": 113.1576704545455,
+          "fy": -20.236814476284565,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is probabilistic programming?  ️",
+          "url": "https://www.oreilly.com/ideas/probabilistic-programming",
+          "fx": 113.1576704545455,
+          "fy": 19.763185523715435,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. probabilistic programming &amp; Bayesian methods for hackers",
+          "url": "http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/",
+          "fx": 113.1576704545455,
+          "fy": 81.76318552371544,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "probabilistic programming",
+      "target": "basics",
+      "curve": {
+        "x": -2.82546,
+        "y": 81.2351
+      }
+    }
+  ],
+  "id": 1124
+}

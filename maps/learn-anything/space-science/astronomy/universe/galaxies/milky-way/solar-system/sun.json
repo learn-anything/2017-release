@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - space science - astronomy - universe - galaxies - milky way - solar system - sun",
+  "tag": "the sun",
+  "nodes": [
+    {
+      "text": "sun",
+      "url": "http://www.wikiwand.com/en/Sun",
+      "fx": -189.0859375,
+      "fy": -220,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": -75.32265009842513,
+      "fy": -100.31429593394137,
+      "nodes": [
+        {
+          "text": "timelapse of the Sun",
+          "url": "https://www.youtube.com/watch?v=ipvfwPqh3V4",
+          "fx": 115.67734990157487,
+          "fy": -88.81429593394137,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": -184.93859515368467,
+      "fy": -7.945582802840022,
+      "nodes": [
+        {
+          "text": "1. the sun",
+          "url": "https://www.youtube.com/watch?v=b22HKFMIfWo",
+          "fx": -38.93859515368467,
+          "fy": 3.554417197159978,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "sun",
+      "curve": {
+        "x": -58.1316,
+        "y": -58.5929
+      }
+    },
+    {
+      "source": "sun",
+      "target": "basis",
+      "curve": {
+        "x": -1.42633,
+        "y": 104.777
+      }
+    }
+  ],
+  "id": 1834
+}

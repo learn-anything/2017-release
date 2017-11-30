@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - mathematics - logic - combinatory logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "combinatory logic",
+      "note": "is a notation to eliminate the need for quantified variables in mathematical logic  It was introduced by Moses Schönfinkel and Haskell Curry and has more recently been used in computer science as a theoretical model of computation and also as a basis for the design of functional programming languages.",
+      "url": "http://www.wikiwand.com/en/Combinatory_logic",
+      "fx": 68.828125,
+      "fy": -125.89453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 142.046875,
+      "fy": 23.66015625,
+      "nodes": [
+        {
+          "text": "1.combinatorial logic - introduction to FPGA and CPLD",
+          "url": "https://www.youtube.com/watch?v=82ox6JpfDvg",
+          "fx": 298.046875,
+          "fy": 24.16015625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "combinatory logic",
+      "target": "basics",
+      "curve": {
+        "x": -2.89062,
+        "y": 73.5273
+      }
+    }
+  ],
+  "id": 999
+}

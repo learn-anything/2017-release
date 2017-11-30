@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - web development - web crawlers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web crawlers",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Web_crawler",
+      "fx": -128.7338986280488,
+      "fy": -96.57755335365857,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/scrapinghub/",
+          "fx": 144.2661013719512,
+          "fy": -102.57755335365857,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/BruceDone/awesome-crawler",
+          "fx": 144.2661013719512,
+          "fy": -62.57755335365857,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "gain",
+      "url": "https://github.com/gaojiuli/gain",
+      "fx": -227.41039049605695,
+      "fy": 78.13656473500839,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "sukhoi",
+      "url": "https://github.com/iogf/sukhoi",
+      "fx": 56.50770547945194,
+      "fy": 78.1528253424658,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "creeper",
+      "url": "https://github.com/wspl/creeper",
+      "fx": -100.1014039109391,
+      "fy": 78.34632910751736,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "web crawlers",
+      "target": "creeper",
+      "curve": {
+        "x": -2.43379,
+        "y": 87.4619
+      }
+    },
+    {
+      "source": "web crawlers",
+      "target": "gain",
+      "curve": {
+        "x": -73.8382,
+        "y": 87.357
+      }
+    },
+    {
+      "source": "web crawlers",
+      "target": "sukhoi",
+      "curve": {
+        "x": 70.8708,
+        "y": 87.3652
+      }
+    }
+  ],
+  "id": 1923
+}

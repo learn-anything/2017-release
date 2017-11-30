@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - mathematics - set theory - naive set theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "naive set theory",
+      "url": "http://www.wikiwand.com/en/Naive_set_theory",
+      "fx": 19.414411544799805,
+      "fy": 1.2031726837158203,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 70.5837572674418,
+      "fy": 131.9808171738025,
+      "nodes": [
+        {
+          "text": "1. naive set theory by Paul Halmos",
+          "url": "https://www.scribd.com/document/344437565/Paul-R-Halmos-Naive-Set-Theory-pdf",
+          "fx": 226.5837572674418,
+          "fy": 123.4808171738025,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. naive set theory explained",
+          "url": "https://www.youtube.com/watch?v=TWgSVuLHzLA",
+          "fx": 226.5837572674418,
+          "fy": 163.4808171738025,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Russell’s paradox  ️",
+      "url": "/mathematics/set-theory/naive-set-theory/russells-paradox",
+      "fx": 129.47334125550015,
+      "fy": 254.2394622092661,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "domain of a function  ️",
+      "url": "/mathematics/set-theory/naive-set-theory/domain-of-a-function",
+      "fx": -144.19884857167324,
+      "fy": 256.11734519329485,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "naive set theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.66533,
+        "y": 64.1388
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Russell’s paradox  ️",
+      "curve": {
+        "x": 54.4448,
+        "y": 61.1293
+      }
+    },
+    {
+      "source": "basics",
+      "target": "domain of a function  ️",
+      "curve": {
+        "x": -75.6413,
+        "y": 62.0683
+      }
+    }
+  ],
+  "id": 1070
+}

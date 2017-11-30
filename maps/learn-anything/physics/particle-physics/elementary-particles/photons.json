@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - particle physics - elementary particles - photons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "photons",
+      "url": "http://www.wikiwand.com/en/Photon",
+      "fx": 36.73395944148922,
+      "fy": -173.93251329787233,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 53.10049511575278,
+      "fy": -23.05820955441959,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Y0048AI5uEQ",
+          "fx": 216.10049511575278,
+          "fy": -31.55820955441959,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. single photon interference",
+          "url": "https://www.youtube.com/watch?v=GzbKb59my3U",
+          "fx": 216.10049511575278,
+          "fy": 10.44179044558041,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Planck constant  ️",
+      "url": "/physics/particle-physics/elementary-particles/photons/planck-constant",
+      "fx": -85.87795182619675,
+      "fy": 116.39810295969778,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "photons",
+      "target": "basics",
+      "curve": {
+        "x": -4.06673,
+        "y": 74.6872
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Planck constant  ️",
+      "curve": {
+        "x": -37.9892,
+        "y": 70.4782
+      }
+    }
+  ],
+  "id": 1509
+}

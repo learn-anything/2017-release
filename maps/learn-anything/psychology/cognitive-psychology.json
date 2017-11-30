@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - psychology - cognitive psychology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cognitive psychology",
+      "url": "http://www.wikiwand.com/en/Cognitive_psychology",
+      "fx": 39.9177188873291,
+      "fy": -128.73751175403595,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 233.8696136474606,
+      "fy": -1.3283969031440392,
+      "nodes": [
+        {
+          "text": "cognitive psychology playlist",
+          "url": "https://www.youtube.com/watch?v=rMHus-0wFSo&amp;list=PLViF3fAf2KEHKZxU3EjbWqxdyOiW3j1uf&amp;index=2",
+          "fx": 370.8696136474606,
+          "fy": 10.17160309685596,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 116.66717190212671,
+      "fy": 106.32402144538037,
+      "nodes": [
+        {
+          "text": "1. how your mind can amaze and betray you",
+          "url": "https://www.youtube.com/watch?v=R-sVnmmw6WY",
+          "fx": 272.6671719021267,
+          "fy": 106.82402144538037,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "perceptual psychology",
+      "url": "http://www.wikiwand.com/en/Perceptual_psychology",
+      "fx": -40.68104383680475,
+      "fy": 257.37386067708906,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cognitive psychology",
+      "target": "basics",
+      "curve": {
+        "x": -1.62527,
+        "y": 116.281
+      }
+    },
+    {
+      "source": "help",
+      "target": "cognitive psychology",
+      "curve": {
+        "x": -52.2259,
+        "y": -62.4546
+      }
+    },
+    {
+      "source": "basics",
+      "target": "perceptual psychology",
+      "curve": {
+        "x": -34.9241,
+        "y": 76.7749
+      }
+    }
+  ],
+  "id": 1751
+}

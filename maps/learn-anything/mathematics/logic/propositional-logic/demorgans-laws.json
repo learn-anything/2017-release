@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - demorgans laws",
+  "tag": "De Morgan’s laws",
+  "nodes": [
+    {
+      "text": "De Morgan’s laws",
+      "url": "http://www.wikiwand.com/en/De_Morgan%27s_laws",
+      "fx": 119.3325407608695,
+      "fy": -80.3598845108695,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 185.63999560421996,
+      "fy": 79.44916602283234,
+      "nodes": [
+        {
+          "text": "1. DeMorgan’s laws of negation",
+          "url": "https://www.youtube.com/watch?v=tKnS3s8fOu4",
+          "fx": 348.63999560421996,
+          "fy": 79.44916602283234,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "De Morgan’s laws",
+      "target": "basics",
+      "curve": {
+        "x": -3.09627,
+        "y": 79.1545
+      }
+    }
+  ],
+  "id": 1015
+}

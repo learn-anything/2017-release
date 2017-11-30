@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - programming - software development - software testing - test driven development",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "test driven development",
+      "url": "http://www.wikiwand.com/en/Test-driven_development",
+      "fx": 155.77633990921777,
+      "fy": -195.811561627095,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 215.01208973463667,
+      "fy": -11.914629888268223,
+      "nodes": [
+        {
+          "text": "1. test-driven development with python",
+          "url": "http://www.obeythetestinggoat.com/pages/book.html#toc",
+          "fx": 397.0120897346367,
+          "fy": -62.41462988826822,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. test driven development",
+          "url": "http://wiki.c2.com/?TestDrivenDevelopment",
+          "fx": 397.0120897346367,
+          "fy": -0.4146298882682231,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. test driven development: by example",
+          "url": "http://www.goodreads.com/book/show/387190.Test_Driven_Development",
+          "fx": 397.0120897346367,
+          "fy": 39.58537011173178,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "test driven development",
+      "target": "basics",
+      "curve": {
+        "x": -17.3821,
+        "y": 90.6987
+      }
+    }
+  ],
+  "id": 1734
+}

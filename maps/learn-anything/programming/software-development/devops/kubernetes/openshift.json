@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - programming - software development - devops - kubernetes - openshift",
+  "tag": "openshift origin",
+  "nodes": [
+    {
+      "text": "openshift",
+      "url": "http://www.wikiwand.com/en/OpenShift",
+      "fx": 66.8828125,
+      "fy": -401.53125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/openshift/",
+          "fx": 276.8828125,
+          "fy": -407.53125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/openshift/origin",
+          "fx": 276.8828125,
+          "fy": -367.53125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 235.4122488318975,
+      "fy": -304.71080002712847,
+      "nodes": [
+        {
+          "text": "open shift ansible",
+          "url": "https://github.com/openshift/openshift-ansible",
+          "fx": 377.4122488318975,
+          "fy": -293.21080002712847,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 86.85919952392578,
+      "fy": -210.7611312866211,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://docs.openshift.org/latest/getting_started/index.html",
+          "fx": 242.85919952392578,
+          "fy": -196.2611312866211,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "openshift",
+      "target": "basics",
+      "curve": {
+        "x": -3.51181,
+        "y": 94.1351
+      }
+    },
+    {
+      "source": "tools",
+      "target": "openshift",
+      "curve": {
+        "x": -67.2647,
+        "y": -47.1602
+      }
+    }
+  ],
+  "id": 1715
+}

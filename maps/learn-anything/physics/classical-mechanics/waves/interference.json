@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - interference",
+  "tag": "interference of waves",
+  "nodes": [
+    {
+      "text": "interference (wave propagation)",
+      "url": "http://www.wikiwand.com/en/Interference_(wave_propagation)",
+      "fx": 49.296875,
+      "fy": -152.94921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 89.06640625,
+      "fy": 13.909886853448256,
+      "nodes": [
+        {
+          "text": "1. interference and diffraction",
+          "url": "https://www.youtube.com/watch?v=oYFEWoxuB1I",
+          "fx": 252.06640625,
+          "fy": 5.409886853448256,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. interference patterns",
+          "url": "https://www.youtube.com/watch?v=CRhsPoTOHIU",
+          "fx": 252.06640625,
+          "fy": 47.409886853448256,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interference (wave propagation)",
+      "target": "basics",
+      "curve": {
+        "x": -18.623,
+        "y": 94.7658
+      }
+    }
+  ],
+  "id": 1390
+}

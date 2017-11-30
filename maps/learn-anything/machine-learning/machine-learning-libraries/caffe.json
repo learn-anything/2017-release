@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - caffe",
+  "tag": "caffe library",
+  "nodes": [
+    {
+      "text": "caffe",
+      "url": "https://github.com/BVLC/caffe",
+      "fx": -15.881510416666629,
+      "fy": -260.1329844732705,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/MichaelXin/Awesome-Caffe",
+          "fx": 162.11848958333337,
+          "fy": -246.13298447327048,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -31.532755374908447,
+      "fy": -94.91063007618652,
+      "nodes": [
+        {
+          "text": "1. a practical introduction to deep learning with caffe and python  ️",
+          "url": "http://adilmoujahid.com/posts/2016/06/introduction-deep-learning-python-caffe/",
+          "fx": 157.46724462509155,
+          "fy": -107.41063007618652,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "caffe",
+      "target": "basics",
+      "curve": {
+        "x": -11.5756,
+        "y": 81.3611
+      }
+    }
+  ],
+  "id": 759
+}

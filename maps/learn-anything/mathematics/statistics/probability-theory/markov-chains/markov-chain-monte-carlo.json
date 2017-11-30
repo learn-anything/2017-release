@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - markov chains - markov chain monte carlo",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "Markov Chain Monte Carlo",
+      "url": "http://www.wikiwand.com/en/Markov_chain_Monte_Carlo",
+      "fx": -139.83984375,
+      "fy": -148.67578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Markov Chain Monte Carlo",
+      "target": "basics",
+      "curve": {
+        "x": -6.58008,
+        "y": 72.0879
+      }
+    }
+  ],
+  "id": 1094
+}

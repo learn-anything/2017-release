@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - optics - fermats principle",
+  "tag": "Fermat’s principle",
+  "nodes": [
+    {
+      "text": "Fermat’s principle",
+      "url": "http://www.wikiwand.com/en/Fermat%27s_principle",
+      "fx": 122.35873219936718,
+      "fy": -59.82688884493672,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 172.32416930379736,
+      "fy": 81.23882515827279,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=4x51raXM7gs",
+          "fx": 328.32416930379736,
+          "fy": 92.73882515827279,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Snell’s law  ️",
+      "url": "/physics/optics/fermats-principle/snells-law",
+      "fx": 52.80078125,
+      "fy": 205.2763671875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fermat’s principle",
+      "target": "basics",
+      "curve": {
+        "x": -0.267281,
+        "y": 70.5329
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Snell’s law  ️",
+      "curve": {
+        "x": -51.0117,
+        "y": 62.0188
+      }
+    }
+  ],
+  "id": 1497
+}

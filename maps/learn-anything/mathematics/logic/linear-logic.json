@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - logic - linear logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear logic",
+      "url": "http://www.wikiwand.com/en/Linear_logic",
+      "fx": 110.47679138183594,
+      "fy": -140.15272617340088,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 142.01605262583735,
+      "fy": 0.3267008716401847,
+      "nodes": [
+        {
+          "text": "1. linear types can change the world!",
+          "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.31.5002&amp;rep=rep1&amp;type=pdf",
+          "fx": 298.01605262583735,
+          "fy": -30.173299128359815,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. linear logic, session types and deadlock-freedom",
+          "url": "https://www.youtube.com/watch?v=R7pJDDNy--k",
+          "fx": 298.01605262583735,
+          "fy": 31.826700871640185,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear logic",
+      "target": "basics",
+      "curve": {
+        "x": -0.980369,
+        "y": 68.9897
+      }
+    }
+  ],
+  "id": 1006
+}

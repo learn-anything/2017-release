@@ -1,0 +1,64 @@
+{
+  "title": "learn anything - software - tooling - ide",
+  "tag": "IDE",
+  "nodes": [
+    {
+      "text": "IDE",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Integrated_development_environment",
+      "fx": -147.29826108870975,
+      "fy": -167.1241179435484,
+      "nodes": []
+    },
+    {
+      "text": "Xcode  ️",
+      "url": "/software/tooling/ide/xcode",
+      "fx": -182.9811668395996,
+      "fy": -40.15315318107605,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "IntelliJ",
+      "url": "https://www.jetbrains.com/idea/",
+      "fx": -285.4083355434784,
+      "fy": -37.49008259872733,
+      "nodes": []
+    },
+    {
+      "text": "android studio  ️",
+      "url": "/software/tooling/ide/android-studio",
+      "fx": -41.466237676531705,
+      "fy": -38.072727152145376,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "IDE",
+      "target": "IntelliJ",
+      "curve": {
+        "x": -63.0551,
+        "y": 64.816
+      }
+    },
+    {
+      "source": "IDE",
+      "target": "Xcode  ️",
+      "curve": {
+        "x": -11.3415,
+        "y": 63.4854
+      }
+    },
+    {
+      "source": "IDE",
+      "target": "android studio  ️",
+      "curve": {
+        "x": 70.916,
+        "y": 64.5257
+      }
+    }
+  ],
+  "id": 1799
+}

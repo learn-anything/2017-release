@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - psychology - social psychology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "social psychology",
+      "url": "http://www.wikiwand.com/en/Social_psychology",
+      "fx": -96.40639343857765,
+      "fy": -148.46615982055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -30.91381054581211,
+      "fy": -24.185978738046344,
+      "nodes": [
+        {
+          "text": "1. social thinking",
+          "url": "https://www.youtube.com/watch?v=h6HLDV0T5Q8",
+          "fx": 125.08618945418789,
+          "fy": -12.685978738046344,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "social psychology",
+      "target": "basics",
+      "curve": {
+        "x": -0.00370855,
+        "y": 60.8901
+      }
+    }
+  ],
+  "id": 1759
+}

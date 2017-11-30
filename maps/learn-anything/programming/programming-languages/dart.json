@@ -1,0 +1,79 @@
+{
+  "title": "learn anything - programming - programming languages - dart",
+  "tag": "dart programming language",
+  "nodes": [
+    {
+      "text": "dart",
+      "url": "http://www.wikiwand.com/en/Dart_(programming_language)",
+      "fx": -89.39081284403801,
+      "fy": -177.39975357055664,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/dartlang/",
+          "fx": 73.60918715596199,
+          "fy": -223.39975357055664,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/dart-lang/sdk",
+          "fx": 73.60918715596199,
+          "fy": -183.39975357055664,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/dart",
+          "fx": 73.60918715596199,
+          "fy": -143.39975357055664,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/yissachar/awesome-dart",
+          "fx": 73.60918715596199,
+          "fy": -103.39975357055664,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -97.3984375,
+      "fy": 12.72265625,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://www.dartlang.org/guides/get-started",
+          "fx": 84.6015625,
+          "fy": 27.22265625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dart",
+      "target": "basics",
+      "curve": {
+        "x": -5.75385,
+        "y": 93.811
+      }
+    }
+  ],
+  "id": 1587
+}

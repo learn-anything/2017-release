@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - atoms - atomic physics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "atomic physics",
+      "url": "http://www.wikiwand.com/en/Atomic_physics",
+      "fx": 189.5703125,
+      "fy": -266.140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 242.66853137859948,
+      "fy": -124.86567644027713,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Agu68RGaoWM",
+          "fx": 405.6685313785995,
+          "fy": -112.36567644027713,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "atomic physics",
+      "target": "basics",
+      "curve": {
+        "x": -2.45089,
+        "y": 69.8875
+      }
+    }
+  ],
+  "id": 1453
+}

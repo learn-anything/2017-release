@@ -1,0 +1,131 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electromagnetic radiation",
+      "url": "http://www.wikiwand.com/en/Electromagnetic_radiation",
+      "fx": -141.78515625,
+      "fy": -165.6875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -49.9843064692983,
+      "fy": -3.9794407894735855,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=dzyPT7kxp8M",
+          "fx": 106.0156935307017,
+          "fy": -23.479440789473585,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. what does not emit electromagnetic radiation?",
+          "url": "https://www.reddit.com/r/askscience/comments/3uc5gn/what_does_not_emit_electromagnetic_radiation/cxdnuu7/",
+          "fx": 106.0156935307017,
+          "fy": 16.520559210526415,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "light  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/light",
+      "fx": 132.9245468019327,
+      "fy": 116.79890369979819,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "black-body radiation  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/black-body-radiation",
+      "fx": -482.53026580810547,
+      "fy": 173.74126052856445,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "redshift  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/redshift",
+      "fx": -25.221724280212925,
+      "fy": 175.02908591027858,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "microwaves  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/microwaves",
+      "fx": -212.80001766123678,
+      "fy": 175.67263858876333,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "radio waves  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/radio-waves",
+      "fx": -665.6757398566958,
+      "fy": 176.1280175440935,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electromagnetic radiation",
+      "target": "basics",
+      "curve": {
+        "x": -3.84958,
+        "y": 79.604
+      }
+    },
+    {
+      "source": "basics",
+      "target": "light  ️",
+      "curve": {
+        "x": 79.2943,
+        "y": 81.0689
+      }
+    },
+    {
+      "source": "basics",
+      "target": "redshift  ️",
+      "curve": {
+        "x": 14.6313,
+        "y": 89.5042
+      }
+    },
+    {
+      "source": "basics",
+      "target": "microwaves  ️",
+      "curve": {
+        "x": -71.4079,
+        "y": 89.826
+      }
+    },
+    {
+      "source": "basics",
+      "target": "black-body radiation  ️",
+      "curve": {
+        "x": -184.523,
+        "y": 88.8604
+      }
+    },
+    {
+      "source": "basics",
+      "target": "radio waves  ️",
+      "curve": {
+        "x": -350.225,
+        "y": 69.2881
+      }
+    }
+  ],
+  "id": 1433
+}

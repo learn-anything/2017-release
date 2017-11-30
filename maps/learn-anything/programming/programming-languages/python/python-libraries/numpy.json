@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - programming - programming languages - python - python libraries - numpy",
+  "tag": "numpy library",
+  "nodes": [
+    {
+      "text": "numpy",
+      "url": "http://www.wikiwand.com/en/NumPy",
+      "fx": -134.31535050675666,
+      "fy": -338.6514991554054,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basis",
+      "note": "",
+      "url": "",
+      "fx": -111.74239864864865,
+      "fy": -209.11782094594605,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://www.scipy.org/scipylib/download.html",
+          "fx": 60.257601351351354,
+          "fy": -262.61782094594605,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. numpy tutorial",
+          "url": "http://www.labri.fr/perso/nrougier/teaching/numpy/numpy.html",
+          "fx": 60.257601351351354,
+          "fy": -228.61782094594605,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. python numpy tutorial",
+          "url": "http://cs231n.github.io/python-numpy-tutorial/",
+          "fx": 60.257601351351354,
+          "fy": -194.61782094594605,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "2. from python to numpy",
+          "url": "http://www.labri.fr/perso/nrougier/from-python-to-numpy/",
+          "fx": 60.257601351351354,
+          "fy": -160.61782094594605,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "3. 100 numpy exercises",
+          "url": "http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html",
+          "fx": 60.257601351351354,
+          "fy": -126.61782094594605,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "numpy",
+      "target": "basis",
+      "curve": {
+        "x": 0.536476,
+        "y": 63.5168
+      }
+    }
+  ],
+  "id": 1636
+}

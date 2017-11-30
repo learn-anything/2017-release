@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - symmetry - rotational symmetry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "rotational symmetry",
+      "url": "http://www.wikiwand.com/en/Rotational_symmetry",
+      "fx": 124.390625,
+      "fy": -196.40234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 193.34375,
+      "fy": -49.75390625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=MpFfmDGPpVg",
+          "fx": 356.34375,
+          "fy": -37.25390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "rotational symmetry",
+      "target": "basics",
+      "curve": {
+        "x": -5.52344,
+        "y": 72.5742
+      }
+    }
+  ],
+  "id": 963
+}

@@ -1,0 +1,108 @@
+{
+  "title": "learn anything - mathematics - topology - algebraic topology - homology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "homology",
+      "url": "http://www.wikiwand.com/en/Homology_(mathematics)",
+      "fx": -36.58017113095252,
+      "fy": -80.25911458333334,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 95.45312500000011,
+      "fy": 13.095238095251716,
+      "nodes": [
+        {
+          "text": "intuition of the meaning of homology groups   ️",
+          "url": "https://math.stackexchange.com/questions/40149/intuition-of-the-meaning-of-homology-groups",
+          "fx": 232.4531250000001,
+          "fy": 13.595238095251716,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -23.111793154761926,
+      "fy": 116.49479166666663,
+      "nodes": [
+        {
+          "text": "1. introduction to homology",
+          "url": "https://www.youtube.com/watch?v=ShWdSNJeuOg",
+          "fx": 132.88820684523807,
+          "fy": 96.99479166666663,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. links, homology cobordism and Milnor’s invariants",
+          "url": "https://www.youtube.com/watch?v=XRyaYo9B-zA",
+          "fx": 132.88820684523807,
+          "fy": 136.99479166666663,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "homological algebra  ️",
+      "url": "/mathematics/topology/algebraic-topology/homology/homological-algebra",
+      "fx": -274.5036169368413,
+      "fy": 244.06046973901482,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "simplical homology",
+      "url": "http://www.wikiwand.com/en/Simplicial_homology",
+      "fx": 6.906622023809405,
+      "fy": 245.56956845239358,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "homology",
+      "target": "basics",
+      "curve": {
+        "x": -8.26581,
+        "y": 97.127
+      }
+    },
+    {
+      "source": "help",
+      "target": "homology",
+      "curve": {
+        "x": -46.2666,
+        "y": -45.4272
+      }
+    },
+    {
+      "source": "basics",
+      "target": "homological algebra  ️",
+      "curve": {
+        "x": -87.4459,
+        "y": 65.0328
+      }
+    },
+    {
+      "source": "basics",
+      "target": "simplical homology",
+      "curve": {
+        "x": 50.7592,
+        "y": 65.7874
+      }
+    }
+  ],
+  "id": 1128
+}

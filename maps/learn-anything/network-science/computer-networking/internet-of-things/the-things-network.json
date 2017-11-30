@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - network science - computer networking - internet of things - the things network",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "the things network",
+      "url": "https://www.thethingsnetwork.org/",
+      "fx": 110.30859375,
+      "fy": -248.58552631578948,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/TheThingsNetwork",
+          "fx": 391.30859375,
+          "fy": -236.08552631578948,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 295.53869505879095,
+      "fy": -137.80941174401374,
+      "nodes": [
+        {
+          "text": "forum",
+          "url": "https://www.thethingsnetwork.org/forum/",
+          "fx": 436.53869505879095,
+          "fy": -125.30941174401374,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 167.73730151784105,
+      "fy": -18.27008639631441,
+      "nodes": [
+        {
+          "text": "1. documentation",
+          "url": "https://www.thethingsnetwork.org/docs/",
+          "fx": 330.73730151784105,
+          "fy": -21.77008639631441,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. wiki",
+          "url": "https://www.thethingsnetwork.org/wiki/Home",
+          "fx": 330.73730151784105,
+          "fy": 15.229913603685588,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "the things network",
+      "target": "basics",
+      "curve": {
+        "x": -0.785646,
+        "y": 115.158
+      }
+    },
+    {
+      "source": "help",
+      "target": "the things network",
+      "curve": {
+        "x": -57.6151,
+        "y": -55.3881
+      }
+    }
+  ],
+  "id": 1208
+}

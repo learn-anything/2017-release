@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - life - work - independent development",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "independent development",
+      "url": "",
+      "fx": -136.3359375,
+      "fy": -293.77734375,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/mezod/awesome-indie",
+          "fx": 197.6640625,
+          "fy": -282.27734375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 16.94140625,
+      "fy": -171.23046875,
+      "nodes": [
+        {
+          "text": "awesome hacking spots",
+          "url": "https://github.com/diasdavid/awesome-hacking-spots",
+          "fx": 153.94140625,
+          "fy": -179.73046875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome digital nomads",
+          "url": "https://github.com/cbovis/awesome-digital-nomads",
+          "fx": 153.94140625,
+          "fy": -139.73046875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 86.81640625,
+      "fy": -37.8046875,
+      "nodes": [
+        {
+          "text": "nomad list",
+          "url": "https://nomadlist.com/",
+          "fx": 228.81640625,
+          "fy": -23.3046875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "independent development",
+      "curve": {
+        "x": -27.3887,
+        "y": -61.2734
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -36.1875,
+        "y": -66.7129
+      }
+    }
+  ],
+  "id": 700
+}

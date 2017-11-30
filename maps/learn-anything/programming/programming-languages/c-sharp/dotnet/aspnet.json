@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - programming - programming languages - c sharp - dotnet - aspnet",
+  "tag": "ASP.NET",
+  "nodes": [
+    {
+      "text": "ASP.NET",
+      "url": "http://www.wikiwand.com/en/ASP.NET",
+      "fx": -91.17519946808511,
+      "fy": -158.3214760638298,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 36.19199465826796,
+      "fy": -52.30313935675326,
+      "nodes": [
+        {
+          "text": "14: how do I learn ASP.NET  ️",
+          "url": "https://www.codeproject.com/Articles/724245/But-How-Do-I-Learn-ASP-NET",
+          "fx": 173.19199465826796,
+          "fy": -40.80313935675326,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -69.7948097471824,
+      "fy": 75.53479485286533,
+      "nodes": [
+        {
+          "text": "1. introduction to ASP.NET Core",
+          "url": "https://mva.microsoft.com/en-US/training-courses/introduction-to-aspnet-core-with-visual-studio-2017-16841?l=JWZaodE6C_5706218965",
+          "fx": 112.2051902528176,
+          "fy": 50.03479485286533,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. ASP.NET overview",
+          "url": "https://msdn.microsoft.com/en-us/library/4w3ex9c2.aspx",
+          "fx": 112.2051902528176,
+          "fy": 90.03479485286533,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. intermediate ASP.NET Core",
+          "url": "https://mva.microsoft.com/en-US/training-courses/intermediate-aspnet-core-10-16964?l=Kvl35KmJD_4306218965",
+          "fx": 112.2051902528176,
+          "fy": 124.03479485286533,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "ASP.NET Core  ️",
+      "url": "/programming/programming-languages/c-sharp/dotnet/aspnet/aspnet-core",
+      "fx": -203.3309685323767,
+      "fy": 227.78195637432214,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "ASP.NET",
+      "curve": {
+        "x": -45.6836,
+        "y": -51.7592
+      }
+    },
+    {
+      "source": "ASP.NET",
+      "target": "basics",
+      "curve": {
+        "x": -2.55981,
+        "y": 115.678
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ASP.NET Core  ️",
+      "curve": {
+        "x": -55.0181,
+        "y": 76.1236
+      }
+    }
+  ],
+  "id": 1578
+}

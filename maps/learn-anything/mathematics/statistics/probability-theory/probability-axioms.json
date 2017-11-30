@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - probability axioms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "probability axioms",
+      "url": "http://www.wikiwand.com/en/Probability_axioms",
+      "fx": 80.44921875,
+      "fy": -88.34375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 148.85869565217388,
+      "fy": 76.94531249999994,
+      "nodes": [
+        {
+          "text": "1. probability models and axioms",
+          "url": "https://www.youtube.com/watch?v=j9WZyLZCBzs",
+          "fx": 311.8586956521739,
+          "fy": 43.44531249999994,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. story proofs, axioms of probability",
+          "url": "https://www.youtube.com/watch?v=FJd_1H3rZGg",
+          "fx": 311.8586956521739,
+          "fy": 110.44531249999994,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "probability axioms",
+      "target": "basics",
+      "curve": {
+        "x": -1.79526,
+        "y": 81.8945
+      }
+    }
+  ],
+  "id": 1096
+}

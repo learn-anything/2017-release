@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - mathematics - analysis - measure theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "measure theory",
+      "url": "http://www.wikiwand.com/en/Measure_(mathematics)",
+      "fx": -10.72265625,
+      "fy": -295.35546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 32.12109375,
+      "fy": -142.42578125,
+      "nodes": [
+        {
+          "text": "1. an introduction to measure theory",
+          "url": "https://terrytao.files.wordpress.com/2012/12/gsm-126-tao5-measure-book.pdf",
+          "fx": 214.12109375,
+          "fy": -161.92578125,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. music and measure theory",
+          "url": "https://www.youtube.com/watch?v=cyW5z-M2yzw",
+          "fx": 214.12109375,
+          "fy": -99.92578125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "measure theory",
+      "target": "basics",
+      "curve": {
+        "x": -6.32812,
+        "y": 75.2148
+      }
+    }
+  ],
+  "id": 868
+}

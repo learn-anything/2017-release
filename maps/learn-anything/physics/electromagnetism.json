@@ -1,0 +1,156 @@
+{
+  "title": "learn anything - physics - electromagnetism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electromagnetism",
+      "url": "http://www.wikiwand.com/en/Electromagnetism",
+      "fx": -42.203125,
+      "fy": -303.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 19.640625,
+      "fy": -183.29296875,
+      "nodes": [
+        {
+          "text": "1. electromagnetism explained",
+          "url": "https://www.youtube.com/watch?v=Dc8Vay7mRss",
+          "fx": 175.640625,
+          "fy": -211.79296875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. magnetism crash course",
+          "url": "https://www.youtube.com/watch?v=s94suB5uLWw",
+          "fx": 175.640625,
+          "fy": -171.79296875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to electrodynamics",
+          "url": "http://kestrel.nmt.edu/~mce/Electromagnetics_by_Griffiths-1.pdf",
+          "fx": 175.640625,
+          "fy": -131.79296875,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Maxwell stress tensor  ️",
+      "url": "/physics/electromagnetism/maxwell-stress-tensor",
+      "fx": -977.8691784406053,
+      "fy": 3.9004059556574475,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "electromagnetic field  ️",
+      "url": "/physics/electromagnetism/electromagnetic-field",
+      "fx": -707.8109588623047,
+      "fy": 5.759945869445801,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "electromagnetic radiation  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation",
+      "fx": -446.6848373413086,
+      "fy": 7.281640529632568,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "magnets  ️",
+      "url": "/physics/electromagnetism/magnet",
+      "fx": -142.7307763850731,
+      "fy": 9.217588750466462,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "electricity  ️",
+      "url": "/physics/electromagnetism/electricity",
+      "fx": 14.560152610637033,
+      "fy": 10.0856766789434,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Lorentz force  ️",
+      "url": "/physics/electromagnetism/lorentz-force",
+      "fx": 177.07049763405098,
+      "fy": 10.934190719732328,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electromagnetism",
+      "target": "basics",
+      "curve": {
+        "x": -2.07813,
+        "y": 58.9511
+      }
+    },
+    {
+      "source": "basics",
+      "target": "magnets  ️",
+      "curve": {
+        "x": -78.4358,
+        "y": 96.2545
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Lorentz force  ️",
+      "curve": {
+        "x": 93.965,
+        "y": 97.1136
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electromagnetic field  ️",
+      "curve": {
+        "x": -331.726,
+        "y": 94.5265
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electromagnetic radiation  ️",
+      "curve": {
+        "x": -190.663,
+        "y": 95.2873
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electricity  ️",
+      "curve": {
+        "x": 4.20979,
+        "y": 96.6889
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Maxwell stress tensor  ️",
+      "curve": {
+        "x": -553.036,
+        "y": 57.1514
+      }
+    }
+  ],
+  "id": 1439
+}

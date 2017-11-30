@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - programming - programming languages - swift - swift package manager",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "swift package manager",
+      "url": "https://github.com/apple/swift-package-manager",
+      "fx": -128.6953125,
+      "fy": -243.6328125,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 68.8203125,
+      "fy": -126.09375,
+      "nodes": [
+        {
+          "text": "documentation",
+          "url": "https://github.com/apple/swift-package-manager/tree/master/Documentation",
+          "fx": 205.8203125,
+          "fy": -114.59375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.91015625,
+      "fy": -25.32421875,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "https://swift.org/package-manager/#conceptual-overview",
+          "fx": 112.08984375,
+          "fy": -10.82421875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "swift package manager",
+      "curve": {
+        "x": -48.5078,
+        "y": -57.5195
+      }
+    },
+    {
+      "source": "swift package manager",
+      "target": "basics",
+      "curve": {
+        "x": -3.10742,
+        "y": 107.904
+      }
+    }
+  ],
+  "id": 1661
+}

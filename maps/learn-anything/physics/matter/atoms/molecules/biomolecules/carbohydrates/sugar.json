@@ -1,0 +1,131 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - carbohydrates - sugar",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sugar",
+      "url": "http://www.wikiwand.com/en/Sugar",
+      "fx": 52.625,
+      "fy": -93.34765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 61.9453125,
+      "fy": 47.62890625,
+      "nodes": [
+        {
+          "text": "1. how sugar affects the brain",
+          "url": "https://www.youtube.com/watch?v=lEXBxijQREo",
+          "fx": 224.9453125,
+          "fy": 39.12890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what if you only drank soda?",
+          "url": "https://www.youtube.com/watch?v=Y52e551lU50",
+          "fx": 224.9453125,
+          "fy": 81.12890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "glucose",
+      "url": "http://www.wikiwand.com/en/Glucose",
+      "fx": 105.44460227273055,
+      "fy": 188.56392045454947,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "monosaccharides",
+      "url": "http://www.wikiwand.com/en/Monosaccharide",
+      "fx": -151.89022434650178,
+      "fy": 189.07068564476185,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "disaccharides",
+      "url": "http://www.wikiwand.com/en/Disaccharide",
+      "fx": -235.65073690900488,
+      "fy": 316.5034979934919,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "cellulose",
+      "url": "http://www.wikiwand.com/en/Cellulose",
+      "fx": 29.461136255525957,
+      "fy": 317.6129198321797,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "glycogen",
+      "url": "http://www.wikiwand.com/en/Glycogen",
+      "fx": 205.9729744450127,
+      "fy": 318.6387541020871,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "sugar",
+      "target": "basics",
+      "curve": {
+        "x": -1.08984,
+        "y": 69.7383
+      }
+    },
+    {
+      "source": "monosaccharides",
+      "target": "disaccharides",
+      "curve": {
+        "x": -51.6303,
+        "y": 63.7164
+      }
+    },
+    {
+      "source": "glucose",
+      "target": "cellulose",
+      "curve": {
+        "x": -35.9917,
+        "y": 64.5245
+      }
+    },
+    {
+      "source": "glucose",
+      "target": "glycogen",
+      "curve": {
+        "x": 53.2642,
+        "y": 65.0374
+      }
+    },
+    {
+      "source": "basics",
+      "target": "monosaccharides",
+      "curve": {
+        "x": -70.6678,
+        "y": 71.4709
+      }
+    },
+    {
+      "source": "basics",
+      "target": "glucose",
+      "curve": {
+        "x": 33.2496,
+        "y": 71.2175
+      }
+    }
+  ],
+  "id": 1455
+}

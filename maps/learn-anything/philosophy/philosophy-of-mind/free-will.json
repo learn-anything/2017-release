@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - free will",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "free will",
+      "note": "ability to choose between different possible courses of action",
+      "url": "http://www.wikiwand.com/en/Free_will",
+      "fx": 120.734375,
+      "fy": -121.34765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.04296875,
+      "fy": 28,
+      "nodes": [
+        {
+          "text": "1. lecture on free will",
+          "url": "http://www.scottaaronson.com/democritus/lec18.html",
+          "fx": 310.04296875,
+          "fy": 22,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Sam Harris on free will",
+          "url": "https://www.youtube.com/watch?v=pCofmZlC72g",
+          "fx": 310.04296875,
+          "fy": 59,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "compatibilism",
+      "url": "http://www.wikiwand.com/en/Compatibilism",
+      "fx": -48.941822528839225,
+      "fy": 158.05577334235693,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "determinism",
+      "url": "http://www.wikiwand.com/en/Determinism",
+      "fx": 188.3359120972516,
+      "fy": 158.1829205771504,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "free will",
+      "target": "basics",
+      "curve": {
+        "x": -3.3457,
+        "y": 73.9238
+      }
+    },
+    {
+      "source": "basics",
+      "target": "compatibilism",
+      "curve": {
+        "x": -79.9924,
+        "y": 65.0279
+      }
+    },
+    {
+      "source": "basics",
+      "target": "determinism",
+      "curve": {
+        "x": 42.6465,
+        "y": 65.8415
+      }
+    }
+  ],
+  "id": 1336
+}

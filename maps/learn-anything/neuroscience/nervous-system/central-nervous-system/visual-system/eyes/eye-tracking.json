@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - nervous system - central nervous system - visual system - eyes - eye tracking",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "eye tracking",
+      "url": "http://www.wikiwand.com/en/Eye_tracking",
+      "fx": 62.70524691358014,
+      "fy": -254.54788773148147,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 134.93776982743702,
+      "fy": -108.13527218602053,
+      "nodes": [
+        {
+          "text": "theory,practice and standardisation of eye-tracking technology",
+          "url": "https://www.youtube.com/watch?v=GVvY8KfXXgE",
+          "fx": 274.937769827437,
+          "fy": -107.63527218602053,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "talks",
+      "target": "eye tracking",
+      "curve": {
+        "x": -11.8662,
+        "y": -71.9563
+      }
+    }
+  ],
+  "id": 1260
+}

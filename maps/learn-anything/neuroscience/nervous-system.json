@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - neuroscience - nervous system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nervous system",
+      "url": "http://www.wikiwand.com/en/Nervous_system",
+      "fx": 21.66844019396558,
+      "fy": -100.14035560344831,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 75.31034482758093,
+      "fy": 38.620689655202455,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=x4PPZCLnVkA",
+          "fx": 231.31034482758093,
+          "fy": 50.120689655202455,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "central nervous system  ️",
+      "url": "/neuroscience/nervous-system/central-nervous-system",
+      "fx": -61.6281186286235,
+      "fy": 144.24895897167642,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "neurons  ️",
+      "url": "/neuroscience/nervous-system/neurons",
+      "fx": -217.85181999206543,
+      "fy": 145.48373794555664,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "peripheral nervous system  ️",
+      "url": "/neuroscience/nervous-system/peripheral-nervous-system",
+      "fx": 229.96224832214762,
+      "fy": 146.07959312080538,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "neurological disorders  ️",
+      "url": "/neuroscience/nervous-system/neurological-disorders",
+      "fx": -655.9278997199748,
+      "fy": 146.61197676559345,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "synapses  ️",
+      "url": "/neuroscience/nervous-system/synapses",
+      "fx": -382.7866516113281,
+      "fy": 147.29985809326172,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "nervous system",
+      "target": "basics",
+      "curve": {
+        "x": -1.42905,
+        "y": 68.1305
+      }
+    },
+    {
+      "source": "basics",
+      "target": "central nervous system  ️",
+      "curve": {
+        "x": -23.4692,
+        "y": 54.0641
+      }
+    },
+    {
+      "source": "basics",
+      "target": "peripheral nervous system  ️",
+      "curve": {
+        "x": 129.326,
+        "y": 54.9794
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neurons  ️",
+      "curve": {
+        "x": -156.259,
+        "y": 37.7834
+      }
+    },
+    {
+      "source": "basics",
+      "target": "synapses  ️",
+      "curve": {
+        "x": -268.267,
+        "y": 23.4138
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neurological disorders  ️",
+      "curve": {
+        "x": -402.048,
+        "y": -0.443277
+      }
+    }
+  ],
+  "id": 1271
+}

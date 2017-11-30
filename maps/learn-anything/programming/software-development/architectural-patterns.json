@@ -1,0 +1,49 @@
+{
+  "title": "learn anything - programming - software development - architectural patterns",
+  "tag": "software architectural patterns",
+  "nodes": [
+    {
+      "text": "architectural patterns",
+      "url": "http://www.wikiwand.com/en/Architectural_pattern",
+      "fx": 77.953125,
+      "fy": -198.56640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Model-view-controller  ️",
+      "url": "/programming/software-development/architectural-patterns/mvc",
+      "fx": -72.7890625,
+      "fy": -65.25390625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Flux  ️",
+      "url": "/programming/software-development/architectural-patterns/flux",
+      "fx": 213.751625722541,
+      "fy": -63.139315390171305,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "architectural patterns",
+      "target": "Model-view-controller  ️",
+      "curve": {
+        "x": -74.3715,
+        "y": 66.6562
+      }
+    },
+    {
+      "source": "architectural patterns",
+      "target": "Flux  ️",
+      "curve": {
+        "x": 22.1493,
+        "y": 66.4635
+      }
+    }
+  ],
+  "id": 1691
+}

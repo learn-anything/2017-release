@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - software - tooling - messaging - discord",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "discord",
+      "url": "http://www.wikiwand.com/en/Discord_(software)",
+      "fx": -132.4453125,
+      "fy": -332.49609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -23.62109375,
+      "fy": -208.85546875,
+      "nodes": [
+        {
+          "text": "discord resources",
+          "url": "https://github.com/beautiful-discord-community/resources",
+          "fx": 113.37890625,
+          "fy": -197.35546875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "discord",
+      "curve": {
+        "x": -40.1621,
+        "y": -60.5703
+      }
+    }
+  ],
+  "id": 1800
+}

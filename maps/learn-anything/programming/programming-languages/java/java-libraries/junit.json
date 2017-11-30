@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries - junit",
+  "tag": "JUnit",
+  "nodes": [
+    {
+      "text": "JUnit",
+      "url": "https://github.com/junit-team/junit4",
+      "fx": -56.83984375,
+      "fy": -128.8203125,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 54.52327302408764,
+      "fy": -31.388146642220363,
+      "nodes": [
+        {
+          "text": "JUnit cheat sheet",
+          "url": "https://zeroturnaround.com/rebellabs/junit-cheat-sheet/",
+          "fx": 191.52327302408764,
+          "fy": -16.888146642220363,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.8769089366516,
+      "fy": 78.1875,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://github.com/junit-team/junit4/wiki/Getting-started",
+          "fx": 108.1230910633484,
+          "fy": 89.6875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "JUnit",
+      "target": "basics",
+      "curve": {
+        "x": -0.0185326,
+        "y": 102.254
+      }
+    },
+    {
+      "source": "help",
+      "target": "JUnit",
+      "curve": {
+        "x": -46.4316,
+        "y": -47.4661
+      }
+    }
+  ],
+  "id": 1605
+}

@@ -1,0 +1,65 @@
+{
+  "title": "learn anything - more - documentaries",
+  "tag": "new documentaries",
+  "nodes": [
+    {
+      "text": "documentaries",
+      "url": "https://github.com/learn-anything/documentaries",
+      "fx": 70.62890625,
+      "fy": -205.328125,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new documentaries",
+      "url": "",
+      "fx": 30.29332386363626,
+      "fy": -37.28238948551467,
+      "nodes": [
+        {
+          "text": "documentary heaven",
+          "url": "http://documentaryheaven.com/",
+          "fx": 345.29332386363626,
+          "fy": -73.78238948551467,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "top documentary films",
+          "url": "http://topdocumentaryfilms.com/",
+          "fx": 345.29332386363626,
+          "fy": -39.78238948551467,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "documentary storm",
+          "url": "https://documentarystorm.com/",
+          "fx": 345.29332386363626,
+          "fy": -5.7823894855146705,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "curiosity stream",
+          "url": "https://curiositystream.com/",
+          "fx": 345.29332386363626,
+          "fy": 28.21761051448533,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "documentaries",
+      "target": "find new documentaries",
+      "curve": {
+        "x": -13.9624,
+        "y": 82.7729
+      }
+    }
+  ],
+  "id": 1183
+}

@@ -1,0 +1,78 @@
+{
+  "title": "learn anything - operating systems - unix - macos - apps",
+  "tag": "macOS apps",
+  "nodes": [
+    {
+      "text": "macOS apps",
+      "url": "https://github.com/learn-anything/macos-apps",
+      "fx": -87.25254524886884,
+      "fy": -23.1024580992202,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new apps",
+      "url": "",
+      "fx": -84.33732759905342,
+      "fy": 153.11430811953562,
+      "nodes": [
+        {
+          "text": "personalised macOS",
+          "url": "https://github.com/nikitavoloboev/my-mac-os",
+          "fx": 141.66267240094658,
+          "fy": 73.61430811953562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome open source macOS apps",
+          "url": "https://github.com/jeffreyjackson/mac-apps",
+          "fx": 141.66267240094658,
+          "fy": 113.61430811953562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome mac",
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "fx": 141.66267240094658,
+          "fy": 175.61430811953562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome macOS",
+          "url": "https://github.com/iCHAIT/awesome-macOS",
+          "fx": 141.66267240094658,
+          "fy": 215.61430811953562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "macOS setup",
+          "url": "https://github.com/nikitavoloboev/my-mac-os",
+          "fx": 141.66267240094658,
+          "fy": 255.61430811953562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "macOS apps",
+      "target": "find new apps",
+      "curve": {
+        "x": -3.5424,
+        "y": 86.8584
+      }
+    }
+  ],
+  "id": 1295
+}

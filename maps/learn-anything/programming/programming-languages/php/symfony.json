@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - programming - programming languages - php - symfony",
+  "tag": "symfony framework",
+  "nodes": [
+    {
+      "text": "symfony",
+      "url": "https://github.com/symfony/symfony",
+      "fx": -55.700265407562256,
+      "fy": -73.93261157058362,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/sitepoint-editors/awesome-symfony",
+          "fx": 147.29973459243774,
+          "fy": -59.93261157058362,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 109.79248586403514,
+      "fy": 31.047450665878046,
+      "nodes": [
+        {
+          "text": "symfony education",
+          "url": "https://github.com/pehapkari/awesome-symfony-education",
+          "fx": 246.79248586403514,
+          "fy": 42.547450665878046,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -36.02301954732502,
+      "fy": 133.93698559668138,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://symfony.com/doc/current/page_creation.html",
+          "fx": 119.97698045267498,
+          "fy": 148.43698559668138,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "symfony",
+      "target": "basics",
+      "curve": {
+        "x": -1.91137,
+        "y": 102.685
+      }
+    },
+    {
+      "source": "help",
+      "target": "symfony",
+      "curve": {
+        "x": -66.2464,
+        "y": -51.24
+      }
+    }
+  ],
+  "id": 1628
+}

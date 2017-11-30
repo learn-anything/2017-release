@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - psychology - decision making - leadership",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "leadership",
+      "url": "http://www.wikiwand.com/en/Leadership",
+      "fx": 71.25701415233118,
+      "fy": -70.43666780911951,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 96.43587112426758,
+      "fy": 77.52093887329102,
+      "nodes": [
+        {
+          "text": "1. why good leaders make you feel safe",
+          "url": "https://www.youtube.com/watch?v=lmyZMtPVodo",
+          "fx": 252.43587112426758,
+          "fy": 58.020938873291016,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how great leaders inspire action",
+          "url": "https://www.youtube.com/watch?v=qp0HIF3SfI4",
+          "fx": 252.43587112426758,
+          "fy": 120.02093887329102,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "leadership",
+      "target": "basics",
+      "curve": {
+        "x": -3.41057,
+        "y": 72.7288
+      }
+    }
+  ],
+  "id": 1753
+}

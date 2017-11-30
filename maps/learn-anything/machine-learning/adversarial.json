@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - machine learning - adversarial",
+  "tag": "adversarial machine learning",
+  "nodes": [
+    {
+      "text": "adversarial machine learning",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Adversarial_machine_learning",
+      "fx": -118.86328125,
+      "fy": -154.64453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 84.58721855838587,
+      "fy": -37.41062257249723,
+      "nodes": [
+        {
+          "text": "awesome adversarial machine learning",
+          "url": "https://github.com/yenchenlin/awesome-adversarial-machine-learning",
+          "fx": 221.58721855838587,
+          "fy": -36.91062257249723,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "adversarial machine learning",
+      "curve": {
+        "x": -35.9752,
+        "y": -57.367
+      }
+    }
+  ],
+  "id": 749
+}

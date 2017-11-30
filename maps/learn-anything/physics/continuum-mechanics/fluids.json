@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - physics - continuum mechanics - fluids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fluids",
+      "url": "http://www.wikiwand.com/en/Fluid",
+      "fx": -48.22438108766244,
+      "fy": -184.05377435064935,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -45.2987012987013,
+      "fy": -64.23985389610397,
+      "nodes": [
+        {
+          "text": "1. fluids at rest",
+          "url": "https://www.youtube.com/watch?v=b5SqYuWT4-4",
+          "fx": 110.7012987012987,
+          "fy": -52.739853896103966,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fluid mechanics  ️",
+      "url": "/physics/continuum-mechanics/fluids/fluid-mechanics",
+      "fx": -232.73396915584408,
+      "fy": 52.691609172078074,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "magnetohydrodynamics  ️",
+      "url": "/physics/continuum-mechanics/fluids/magnetohydrodynamics",
+      "fx": -17.1943359375,
+      "fy": 64.255859375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "fluids",
+      "target": "basics",
+      "curve": {
+        "x": -3.03716,
+        "y": 58.657
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fluid mechanics  ️",
+      "curve": {
+        "x": -65.9676,
+        "y": 59.7157
+      }
+    },
+    {
+      "source": "basics",
+      "target": "magnetohydrodynamics  ️",
+      "curve": {
+        "x": 52.5522,
+        "y": 64.2479
+      }
+    }
+  ],
+  "id": 1412
+}

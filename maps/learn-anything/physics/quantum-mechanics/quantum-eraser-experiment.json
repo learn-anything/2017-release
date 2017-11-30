@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum eraser experiment",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum eraser experiment",
+      "url": "http://www.wikiwand.com/en/Quantum_eraser_experiment",
+      "fx": 134.87890625,
+      "fy": -45.0859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "delayed choice quantum eraser  ️",
+      "url": "/physics/quantum-mechanics/quantum-eraser-experiment/delayed-choice-quantum-eraser",
+      "fx": -41.0234375,
+      "fy": 88.98828125,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum eraser experiment",
+      "target": "delayed choice quantum eraser  ️",
+      "curve": {
+        "x": -86.4512,
+        "y": 65.7871
+      }
+    }
+  ],
+  "id": 1525
+}

@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - network science - computer networking - routing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "routing",
+      "url": "http://www.wikiwand.com/en/Routing",
+      "fx": 57.12109375,
+      "fy": -382.26171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 69.64676339285859,
+      "fy": -233.87639508926185,
+      "nodes": [
+        {
+          "text": "1. the routing process",
+          "url": "https://www.youtube.com/watch?v=C5YfkR8LGm0",
+          "fx": 232.6467633928586,
+          "fy": -221.37639508926185,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "static routing",
+      "url": "http://www.wikiwand.com/en/Static_routing",
+      "fx": -97.99939594072146,
+      "fy": -77.9471649484538,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "dynamic routing",
+      "url": "http://www.wikiwand.com/en/Dynamic_routing",
+      "fx": 122.19507087628028,
+      "fy": -77.72265624999989,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "routing",
+      "target": "basics",
+      "curve": {
+        "x": -2.23717,
+        "y": 73.4427
+      }
+    },
+    {
+      "source": "basics",
+      "target": "static routing",
+      "curve": {
+        "x": -60.3231,
+        "y": 78.7146
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dynamic routing",
+      "curve": {
+        "x": 57.5242,
+        "y": 78.8269
+      }
+    }
+  ],
+  "id": 1230
+}

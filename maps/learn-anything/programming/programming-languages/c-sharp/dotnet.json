@@ -1,0 +1,119 @@
+{
+  "title": "learn anything - programming - programming languages - c sharp - dotnet",
+  "tag": ".NET framework",
+  "nodes": [
+    {
+      "text": ".NET framework",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/.NET_Framework",
+      "fx": -3.787865787572173,
+      "fy": -100.31794165462429,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/dotnet/",
+          "fx": 296.2121342124278,
+          "fy": -106.31794165462429,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/quozd/awesome-dotnet",
+          "fx": 296.2121342124278,
+          "fy": -66.31794165462429,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 193.68947763037738,
+      "fy": 10.746740278015523,
+      "nodes": [
+        {
+          "text": "awesome .NET core",
+          "url": "https://github.com/thangchung/awesome-dotnet-core",
+          "fx": 330.6894776303774,
+          "fy": 22.246740278015523,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "powershell  ️",
+      "url": "/programming/programming-languages/c-sharp/dotnet/powershell",
+      "fx": -185.91395350030098,
+      "fy": 57.844374931607774,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 292.90625000000045,
+      "fy": 138.8086993243242,
+      "nodes": [
+        {
+          "text": "17: F# has won me over: coming to .Net world from outside .Net  ️",
+          "url": "http://www.prigrammer.com/?p=363",
+          "fx": 454.90625000000045,
+          "fy": 139.3086993243242,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "ASP.NET  ️",
+      "url": "/programming/programming-languages/c-sharp/dotnet/aspnet",
+      "fx": -25.486306017557695,
+      "fy": 178.02398251616967,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": ".NET framework",
+      "curve": {
+        "x": -64.4886,
+        "y": -54.2823
+      }
+    },
+    {
+      "source": ".NET framework",
+      "target": "ASP.NET  ️",
+      "curve": {
+        "x": -33.5993,
+        "y": 139.171
+      }
+    },
+    {
+      "source": ".NET framework",
+      "target": "powershell  ️",
+      "curve": {
+        "x": -117.313,
+        "y": 77.8312
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -55.8584,
+        "y": -64.031
+      }
+    }
+  ],
+  "id": 1580
+}

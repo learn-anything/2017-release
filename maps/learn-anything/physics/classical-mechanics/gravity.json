@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - classical mechanics - gravity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "gravity",
+      "url": "http://www.wikiwand.com/en/Gravity",
+      "fx": 42.88681220095691,
+      "fy": -155.02683911483254,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 156.2707465322394,
+      "fy": -42.29324638444268,
+      "nodes": [
+        {
+          "text": "askscience: gravity",
+          "url": "https://www.reddit.com/r/askscience/search?q=gravity&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 347.2707465322394,
+          "fy": -30.793246384442682,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 50.213886887608055,
+      "fy": 55.50675432276665,
+      "nodes": [
+        {
+          "text": "1. what is gravity",
+          "url": "https://www.youtube.com/watch?v=p_o4aY7xkXg",
+          "fx": 206.21388688760806,
+          "fy": 47.00675432276665,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. is gravity an illusion?",
+          "url": "https://www.youtube.com/watch?v=NblR01hHK6U",
+          "fx": 206.21388688760806,
+          "fy": 87.00675432276665,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "gravity",
+      "target": "basics",
+      "curve": {
+        "x": -3.83646,
+        "y": 104.017
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "gravity",
+      "curve": {
+        "x": -44.442,
+        "y": -55.1168
+      }
+    }
+  ],
+  "id": 1368
+}

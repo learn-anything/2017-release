@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - physics - classical mechanics - lagrangian mechanics",
+  "tag": "Lagrangian mechanics",
+  "nodes": [
+    {
+      "text": "Lagrangian mechanics",
+      "url": "http://www.wikiwand.com/en/Lagrangian_mechanics",
+      "fx": 91.99999999999977,
+      "fy": -151.47265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 159.2421875,
+      "fy": -1.234375,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=zhk9xLjrmi4",
+          "fx": 315.2421875,
+          "fy": 13.265625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Lagrangian mechanics",
+      "target": "basics",
+      "curve": {
+        "x": -10.1289,
+        "y": 73.8691
+      }
+    }
+  ],
+  "id": 1374
+}

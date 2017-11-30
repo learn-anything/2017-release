@@ -1,0 +1,88 @@
+{
+  "title": "learn anything - mathematics - discrete",
+  "tag": "discrete math",
+  "nodes": [
+    {
+      "text": "discrete",
+      "url": "http://www.wikiwand.com/en/Discrete_mathematics",
+      "fx": 130.796875,
+      "fy": -133.85546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 151.5,
+      "fy": 10.16796875,
+      "nodes": [
+        {
+          "text": "1. mathematics for computer science",
+          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/",
+          "fx": 333.5,
+          "fy": -51.33203125,
+          "nodes": [
+            {
+              "text": "on youtube",
+              "url": "https://www.youtube.com/playlist?list=PLB7540DEDD482705B",
+              "fx": 643.5,
+              "fy": -40.33203125,
+              "nodes": [],
+              "category": "video",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. discrete mathematics and its applications",
+          "url": "http://www.goodreads.com/book/show/1800803.Discrete_Mathematics_and_its_Applications",
+          "fx": 333.5,
+          "fy": 10.66796875,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. concrete mathematics: a foundation for computer science",
+          "url": "http://www.goodreads.com/book/show/112243.Concrete_Mathematics",
+          "fx": 333.5,
+          "fy": 72.66796875,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "coding theory",
+      "note": "is the study of the properties of codes and their respective fitness for specific applications   codes are used for data compression, cryptography, error-correction and networking  there are four types of coding  1. data compression (or, source coding)  2. error correction (or channel coding)  3. cryptographic coding  4. line coding",
+      "url": "http://www.wikiwand.com/en/Coding_theory",
+      "fx": 30.15960273279336,
+      "fy": 181.84912702429153,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "discrete",
+      "target": "basics",
+      "curve": {
+        "x": -0.398438,
+        "y": 70.7617
+      }
+    },
+    {
+      "source": "basics",
+      "target": "coding theory",
+      "curve": {
+        "x": -43.4202,
+        "y": 87.0906
+      }
+    }
+  ],
+  "id": 928
+}

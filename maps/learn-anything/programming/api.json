@@ -1,0 +1,143 @@
+{
+  "title": "learn anything - programming - api",
+  "tag": "application programming interfaces",
+  "nodes": [
+    {
+      "text": "application programming interface",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Application_programming_interface",
+      "fx": -70.6640625,
+      "fy": -240.9296875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/TonnyL/Awesome_APIs",
+          "fx": 284.3359375,
+          "fy": -214.4296875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 112.84332815783796,
+      "fy": -81.51842212501867,
+      "nodes": [
+        {
+          "text": "awesome RESTful apis",
+          "url": "https://github.com/Kikobeats/awesome-api",
+          "fx": 249.84332815783796,
+          "fy": -90.01842212501867,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "API security checklist",
+          "url": "https://github.com/shieldfy/API-Security-Checklist",
+          "fx": 249.84332815783796,
+          "fy": -50.018422125018674,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "GraphQL  ️",
+      "url": "/programming/query-languages/graphql",
+      "fx": -156.57162332214756,
+      "fy": 10.052328020134269,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "REST  ️",
+      "url": "/programming/api/rest",
+      "fx": -290.9091642089836,
+      "fy": 10.880823332594503,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 213.58295822143555,
+      "fy": 42.73417568206787,
+      "nodes": [
+        {
+          "text": "17: pragmatic API versioning  ️",
+          "url": "https://fly.io/articles/pragmatic-api-versioning/",
+          "fx": 375.58295822143555,
+          "fy": 54.23417568206787,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 294.5,
+      "fy": 169.5,
+      "nodes": [
+        {
+          "text": "collective list of APIs",
+          "url": "http://apilist.fun",
+          "fx": 485.5,
+          "fy": 184,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "application programming interface",
+      "curve": {
+        "x": -43.7537,
+        "y": -72.2056
+      }
+    },
+    {
+      "source": "application programming interface",
+      "target": "REST  ️",
+      "curve": {
+        "x": -191.446,
+        "y": 116.884
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -56.6198,
+        "y": -62.1263
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -47.7085,
+        "y": -63.3829
+      }
+    },
+    {
+      "source": "application programming interface",
+      "target": "GraphQL  ️",
+      "curve": {
+        "x": -78.9538,
+        "y": 119.241
+      }
+    }
+  ],
+  "id": 1558
+}

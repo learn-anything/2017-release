@@ -1,0 +1,196 @@
+{
+  "title": "learn anything - programming - programming languages - assembly",
+  "tag": "assembly programming",
+  "nodes": [
+    {
+      "text": "assembly",
+      "url": "http://www.wikiwand.com/en/Assembly_language",
+      "fx": -15.105491329479719,
+      "fy": -470.87639992774564,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/asm/",
+          "fx": 209.89450867052028,
+          "fy": -498.87639992774564,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/assembly",
+          "fx": 209.89450867052028,
+          "fy": -456.87639992774564,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/jaspergould/awesome-asm",
+          "fx": 209.89450867052028,
+          "fy": -414.87639992774564,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -6.437816112716632,
+      "fy": -163.44808977601173,
+      "nodes": [
+        {
+          "text": "1. from math to machine: translating a function to machine code  ️",
+          "url": "https://briansteffens.github.io/2017/02/20/from-math-to-machine.html",
+          "fx": 182.56218388728337,
+          "fy": -330.9480897760117,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "1. c to assembler",
+          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/video-lectures/lecture-6-c-to-assembler/",
+          "fx": 182.56218388728337,
+          "fy": -238.94808977601173,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. compiling c to printable x86, to make an executable research paper",
+          "url": "https://www.youtube.com/watch?v=LA_DrBwkiJA",
+          "fx": 182.56218388728337,
+          "fy": -196.94808977601173,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. the art of assembly language programming",
+          "url": "https://courses.engr.illinois.edu/ece390/books/artofasm/artofasm.html",
+          "fx": 182.56218388728337,
+          "fy": -104.94808977601173,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. programming from the ground up",
+          "url": "http://www.cs.princeton.edu/courses/archive/spr08/cos217/reading/ProgrammingGroundUp-1-0-lettersize.pdf",
+          "fx": 182.56218388728337,
+          "fy": -37.94808977601173,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. pc assembly language",
+          "url": "http://zoo.cs.yale.edu/classes/cs422/2014fa/readings/pcasm-book.pdf",
+          "fx": 182.56218388728337,
+          "fy": 29.051910223988273,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "instruction set architectures",
+      "url": "http://www.wikiwand.com/en/Instruction_set_architecture",
+      "fx": -275.39453125,
+      "fy": 76.15234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "WebAssembly  ️",
+      "url": "/programming/programming-languages/assembly/WebAssembly",
+      "fx": 61.76051417951567,
+      "fy": 99.98182819383283,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "MIPS",
+      "url": "http://www.wikiwand.com/en/MIPS_architecture",
+      "fx": -15.614919839570575,
+      "fy": 203.07765302609664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "x86  ️",
+      "url": "/programming/programming-languages/assembly/x86",
+      "fx": -146.58537946428578,
+      "fy": 205.08129152823926,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ARM  ️",
+      "url": "/programming/programming-languages/assembly/arm",
+      "fx": -290.09813760004545,
+      "fy": 205.6018716022345,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "instruction set architectures",
+      "target": "x86  ️",
+      "curve": {
+        "x": 17.9046,
+        "y": 65.7148
+      }
+    },
+    {
+      "source": "instruction set architectures",
+      "target": "MIPS",
+      "curve": {
+        "x": 80.1398,
+        "y": 63.4627
+      }
+    },
+    {
+      "source": "assembly",
+      "target": "basics",
+      "curve": {
+        "x": -9.66616,
+        "y": 152.464
+      }
+    },
+    {
+      "source": "basics",
+      "target": "instruction set architectures",
+      "curve": {
+        "x": -79.7283,
+        "y": 121.05
+      }
+    },
+    {
+      "source": "basics",
+      "target": "WebAssembly  ️",
+      "curve": {
+        "x": 39.1383,
+        "y": 139.089
+      }
+    },
+    {
+      "source": "instruction set architectures",
+      "target": "ARM  ️",
+      "curve": {
+        "x": -58.1018,
+        "y": 64.7248
+      }
+    }
+  ],
+  "id": 1575
+}

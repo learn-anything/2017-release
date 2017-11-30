@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - web development - javascript libraries - webpack",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "webpack",
+      "url": "https://github.com/webpack/webpack",
+      "fx": -51.83203125,
+      "fy": -262.546875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/webpack/",
+          "fx": 158.16796875,
+          "fy": -268.546875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/webpack-contrib/awesome-webpack",
+          "fx": 158.16796875,
+          "fy": -228.546875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 75.16735081214688,
+      "fy": -133.32222659978493,
+      "nodes": [
+        {
+          "text": "16: webpack - the confusing parts  ️",
+          "url": "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9",
+          "fx": 212.16735081214688,
+          "fy": -121.82222659978493,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -93.37979715305312,
+      "fy": -14.964951821746013,
+      "nodes": [
+        {
+          "text": "1. webpack: the core concepts",
+          "url": "http://webpack.academy/p/the-core-concepts",
+          "fx": 88.62020284694688,
+          "fy": -20.464951821746013,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to webpack",
+          "url": "https://survivejs.com/webpack/introduction/",
+          "fx": 88.62020284694688,
+          "fy": 19.535048178253987,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "webpack plugins  ️",
+      "url": "/web-development/javascript-libraries/webpack/webpack-plugins",
+      "fx": -226.4216316858499,
+      "fy": 125.15527136116384,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "webpack",
+      "curve": {
+        "x": -52.4997,
+        "y": -64.6123
+      }
+    },
+    {
+      "source": "webpack",
+      "target": "basics",
+      "curve": {
+        "x": -27.0239,
+        "y": 123.79
+      }
+    },
+    {
+      "source": "basics",
+      "target": "webpack plugins  ️",
+      "curve": {
+        "x": -49.2709,
+        "y": 70.0601
+      }
+    }
+  ],
+  "id": 1906
+}

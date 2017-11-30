@@ -1,0 +1,106 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "molecules",
+      "url": "http://www.wikiwand.com/en/Molecule",
+      "fx": -69.11596167087555,
+      "fy": -186.21824264526367,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -40.11912766270609,
+      "fy": -36.10984331513595,
+      "nodes": [
+        {
+          "text": "1. what’s the difference between an atom a molecule?",
+          "url": "https://www.youtube.com/watch?v=RbbOBPfH_uk",
+          "fx": 115.88087233729391,
+          "fy": -35.60984331513595,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "biomolecules  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules",
+      "fx": -334.4980428606641,
+      "fy": 101.0320187496535,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "macromolecules",
+      "url": "http://www.wikiwand.com/en/Macromolecule",
+      "fx": -571.0620871721334,
+      "fy": 101.78530362740923,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "polymers  ️",
+      "url": "/physics/matter/atoms/molecules/polymers",
+      "fx": 59.715868698046734,
+      "fy": 104.5566750223079,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "monomers",
+      "url": "http://www.wikiwand.com/en/Monomer",
+      "fx": -122.08443170681892,
+      "fy": 105.1994573569612,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "molecules",
+      "target": "basics",
+      "curve": {
+        "x": -1.00158,
+        "y": 73.8042
+      }
+    },
+    {
+      "source": "basics",
+      "target": "biomolecules  ️",
+      "curve": {
+        "x": -131.939,
+        "y": 68.571
+      }
+    },
+    {
+      "source": "basics",
+      "target": "monomers",
+      "curve": {
+        "x": -23.7327,
+        "y": 71.9047
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polymers  ️",
+      "curve": {
+        "x": 63.4175,
+        "y": 71.5833
+      }
+    },
+    {
+      "source": "basics",
+      "target": "macromolecules",
+      "curve": {
+        "x": -299.015,
+        "y": 46.4001
+      }
+    }
+  ],
+  "id": 1470
+}

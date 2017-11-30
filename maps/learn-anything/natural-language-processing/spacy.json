@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - natural language processing - spacy",
+  "tag": "spaCy library",
+  "nodes": [
+    {
+      "text": "spaCy",
+      "url": "https://github.com/explosion/spaCy",
+      "fx": -60.19921875,
+      "fy": -136.265625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/spacynlp/",
+          "fx": 134.80078125,
+          "fy": -122.265625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 54.82014905857716,
+      "fy": -26.628595711250966,
+      "nodes": [
+        {
+          "text": "tutorials",
+          "url": "https://spacy.io/docs/usage/tutorials",
+          "fx": 195.82014905857716,
+          "fy": -30.128595711250966,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "docs",
+          "url": "http://alpha.spacy.io/docs/",
+          "fx": 195.82014905857716,
+          "fy": 6.871404288749034,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": 95.30101006799157,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://spacy.io/docs/usage/",
+          "fx": 112,
+          "fy": 110.30101006799157,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "spaCy",
+      "target": "basics",
+      "curve": {
+        "x": -3.40039,
+        "y": 115.033
+      }
+    },
+    {
+      "source": "help",
+      "target": "spaCy",
+      "curve": {
+        "x": -44.0096,
+        "y": -54.0685
+      }
+    }
+  ],
+  "id": 1201
+}

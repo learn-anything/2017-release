@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - linear algebra - eigenvectors",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "eigenvectors and eigenvalues",
+      "url": "http://www.wikiwand.com/en/Eigenvalues_and_eigenvectors",
+      "fx": 74.22041349809876,
+      "fy": -84.21096720532319,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 195.3851513573585,
+      "fy": 53.55339881318491,
+      "nodes": [
+        {
+          "text": "1. visual explanation",
+          "url": "http://setosa.io/ev/eigenvectors-and-eigenvalues/",
+          "fx": 351.3851513573585,
+          "fy": 65.05339881318491,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "spectral theory  ️",
+      "url": "/mathematics/linear-algebra/eigenvectors/spectral-theory-",
+      "fx": 66.8232421875,
+      "fy": 202.2978515625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "eigenvectors and eigenvalues",
+      "target": "basics",
+      "curve": {
+        "x": -1.41763,
+        "y": 67.6322
+      }
+    },
+    {
+      "source": "basics",
+      "target": "spectral theory  ️",
+      "curve": {
+        "x": -45.281,
+        "y": 74.3722
+      }
+    }
+  ],
+  "id": 974
+}

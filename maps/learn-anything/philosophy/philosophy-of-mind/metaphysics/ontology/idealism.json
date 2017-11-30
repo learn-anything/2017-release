@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - metaphysics - ontology - idealism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "idealism",
+      "url": "http://www.wikiwand.com/en/Idealism",
+      "fx": -105.828125,
+      "fy": -444.62890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -96.38385719476764,
+      "fy": -301.3539698401092,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://plato.stanford.edu/entries/idealism/",
+          "fx": 66.61614280523236,
+          "fy": -288.8539698401092,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "idealism",
+      "target": "basics",
+      "curve": {
+        "x": -7.27787,
+        "y": 70.8875
+      }
+    }
+  ],
+  "id": 1339
+}

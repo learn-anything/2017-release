@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups - group theory - abelian group",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "abelian group",
+      "url": "http://www.wikiwand.com/en/Abelian_group",
+      "fx": -267.53125,
+      "fy": -204.09375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -224.71493252840924,
+      "fy": -44.6171875,
+      "nodes": [
+        {
+          "text": "1. definition of abelian group",
+          "url": "https://www.youtube.com/watch?v=z9Ntoo-Ko18",
+          "fx": -68.71493252840924,
+          "fy": -64.1171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what does it mean for a group to be Abelian   ️",
+          "url": "https://math.stackexchange.com/a/818080/143616",
+          "fx": -68.71493252840924,
+          "fy": -24.1171875,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "bimodule",
+      "url": "http://www.wikiwand.com/en/Bimodule",
+      "fx": -318.01351127320936,
+      "fy": 115.40421916445655,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "abelian group",
+      "target": "basics",
+      "curve": {
+        "x": -2.09184,
+        "y": 78.4883
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bimodule",
+      "curve": {
+        "x": -32.8993,
+        "y": 81.2607
+      }
+    }
+  ],
+  "id": 817
+}

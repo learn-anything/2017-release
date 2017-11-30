@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - space science - astronomy - stars",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stars",
+      "url": "http://www.wikiwand.com/en/Star",
+      "fx": 80.6796875,
+      "fy": -215.78125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 84.64944076538086,
+      "fy": -86.3146915435791,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ld75W1dz-h0",
+          "fx": 240.64944076538086,
+          "fy": -74.8146915435791,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "stellar evolution  ️",
+      "url": "/space-science/astronomy/stars/stellar-evolution",
+      "fx": -63.1181640625,
+      "fy": 53.419921875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "stars",
+      "target": "basics",
+      "curve": {
+        "x": -1.76513,
+        "y": 63.4833
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stellar evolution  ️",
+      "curve": {
+        "x": -53.6338,
+        "y": 69.8673
+      }
+    }
+  ],
+  "id": 1830
+}

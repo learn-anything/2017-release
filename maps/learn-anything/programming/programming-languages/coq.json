@@ -1,0 +1,88 @@
+{
+  "title": "learn anything - programming - programming languages - coq",
+  "tag": "coq programming language",
+  "nodes": [
+    {
+      "text": "coq",
+      "url": "http://www.wikiwand.com/en/Coq",
+      "fx": -65.796875,
+      "fy": -236.9921875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Coq/",
+          "fx": 96.203125,
+          "fy": -262.9921875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/coq/coq",
+          "fx": 96.203125,
+          "fy": -222.9921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/coq",
+          "fx": 96.203125,
+          "fy": -182.9921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -100.7890625,
+      "fy": -51.39453125,
+      "nodes": [
+        {
+          "text": "1. software foundations",
+          "url": "https://softwarefoundations.cis.upenn.edu/current/index.html",
+          "fx": 81.2109375,
+          "fy": -87.89453125,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. software foundations by Benjamin Pierce",
+          "url": "https://www.youtube.com/watch?v=KKrD4JcfW90&amp;list=PLGCr8P_YncjUT7gXUVJWSoefQ40gTOz89",
+          "fx": 81.2109375,
+          "fy": -47.89453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. tutorial by Mike Nahas",
+          "url": "https://coq.inria.fr/tutorial-nahas",
+          "fx": 81.2109375,
+          "fy": 14.10546875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "coq",
+      "target": "basics",
+      "curve": {
+        "x": -18.9961,
+        "y": 91.5488
+      }
+    }
+  ],
+  "id": 1584
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - programming - software development - agile software development - scrum",
+  "tag": "Scrum",
+  "nodes": [
+    {
+      "text": "Scrum",
+      "url": "http://www.wikiwand.com/en/Scrum_(software_development)",
+      "fx": -32.70835901796818,
+      "fy": -120.29297256469727,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 76.37713068181824,
+      "fy": -16.136097301136374,
+      "nodes": [
+        {
+          "text": "16: why I’m not a big fan of Scrum  ️",
+          "url": "http://okigiveup.net/not-big-fan-of-scrum/",
+          "fx": 238.37713068181824,
+          "fy": -4.636097301136374,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -20.78516185283661,
+      "fy": 98.25006792762065,
+      "nodes": [
+        {
+          "text": "1. intro to Scrum in under 10 minutes",
+          "url": "https://www.youtube.com/watch?v=XU0llRltyFM",
+          "fx": 135.2148381471634,
+          "fy": 98.75006792762065,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Scrum",
+      "target": "basics",
+      "curve": {
+        "x": -1.7884,
+        "y": 108.022
+      }
+    },
+    {
+      "source": "articles",
+      "target": "Scrum",
+      "curve": {
+        "x": -48.2927,
+        "y": -50.8284
+      }
+    }
+  ],
+  "id": 1687
+}

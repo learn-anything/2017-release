@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - optics - refractive index",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "refractive index",
+      "url": "http://www.wikiwand.com/en/Refractive_index",
+      "fx": 167.86712598425197,
+      "fy": -0.9215366633857798,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 215.55319148936132,
+      "fy": 133.42553191487696,
+      "nodes": [
+        {
+          "text": "1. refraction of light",
+          "url": "https://www.youtube.com/watch?v=DR-8ZRCHCXI",
+          "fx": 378.5531914893613,
+          "fy": 145.92553191487696,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "refractive index",
+      "target": "basics",
+      "curve": {
+        "x": -4.90697,
+        "y": 66.4235
+      }
+    }
+  ],
+  "id": 1499
+}

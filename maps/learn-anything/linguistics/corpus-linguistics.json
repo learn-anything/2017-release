@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - linguistics - corpus linguistics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "corpus linguistics",
+      "url": "http://www.wikiwand.com/en/Corpus_linguistics",
+      "fx": 90.73437500000011,
+      "fy": -135.6328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.84765625,
+      "fy": 2.4453125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=32RjJ-lA-8Q",
+          "fx": 303.84765625,
+          "fy": 13.9453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "part-of-speech tagging  ️",
+      "url": "/linguistics/corpus-linguistics/part-of-speech-tagging",
+      "fx": -88.68773674242414,
+      "fy": 115.11215672353319,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "corpus linguistics",
+      "target": "basics",
+      "curve": {
+        "x": -3.19336,
+        "y": 67.7891
+      }
+    },
+    {
+      "source": "basics",
+      "target": "part-of-speech tagging  ️",
+      "curve": {
+        "x": -80.7677,
+        "y": 56.3335
+      }
+    }
+  ],
+  "id": 708
+}

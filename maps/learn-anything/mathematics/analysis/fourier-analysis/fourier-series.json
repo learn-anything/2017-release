@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - analysis - fourier analysis - fourier series",
+  "tag": "Fourier series",
+  "nodes": [
+    {
+      "text": "Fourier series",
+      "url": "http://www.wikiwand.com/en/Fourier_series",
+      "fx": 278.25365802675594,
+      "fy": -97.02684730351177,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 315.0494878762545,
+      "fy": 32.91398411374831,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=x04dnqg-iPw",
+          "fx": 478.0494878762545,
+          "fy": 45.41398411374831,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fourier series",
+      "target": "basics",
+      "curve": {
+        "x": 1.39791,
+        "y": 64.9704
+      }
+    }
+  ],
+  "id": 861
+}

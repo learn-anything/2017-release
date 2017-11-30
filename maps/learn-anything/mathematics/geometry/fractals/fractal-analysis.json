@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - mathematics - geometry - fractals - fractal analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fractal analysis",
+      "url": "http://www.wikiwand.com/en/Fractal_analysis",
+      "fx": 46.25841495646762,
+      "fy": -129.41149720149252,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 99.85074626865662,
+      "fy": -2.423196517372105,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://imagej.nih.gov/ij/plugins/fraclac/FLHelp/Fractals.htm",
+          "fx": 262.8507462686566,
+          "fy": -20.923196517372105,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. understanding fractal analysis",
+          "url": "http://www.biourbanism.org/wp-content/uploads/2013/10/UNDERSTANDING-FRACTAL-ANALYSIS.pdf",
+          "fx": 262.8507462686566,
+          "fy": 16.076803482627895,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "fractal analysis",
+      "target": "basics",
+      "curve": {
+        "x": -0.953834,
+        "y": 62.7441
+      }
+    }
+  ],
+  "id": 947
+}

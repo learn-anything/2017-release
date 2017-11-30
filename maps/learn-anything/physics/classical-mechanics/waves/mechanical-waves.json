@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - mechanical waves",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mechanical waves",
+      "url": "http://www.wikiwand.com/en/Mechanical_wave",
+      "fx": -55.06250286102295,
+      "fy": -127.14880418777466,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 19.495464324951172,
+      "fy": 8.61193323135376,
+      "nodes": [
+        {
+          "text": "1. mechanical waves and sound",
+          "url": "https://www.youtube.com/watch?v=c38H6UKt3_I",
+          "fx": 182.49546432495117,
+          "fy": 8.61193323135376,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "acoustics  ️",
+      "url": "/physics/classical-mechanics/waves/mechanical-waves/acoustics",
+      "fx": -92.50802993774414,
+      "fy": 145.70053672790527,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "mechanical waves",
+      "target": "basics",
+      "curve": {
+        "x": 7.52898,
+        "y": 67.8804
+      }
+    },
+    {
+      "source": "basics",
+      "target": "acoustics  ️",
+      "curve": {
+        "x": -48.2517,
+        "y": 68.5443
+      }
+    }
+  ],
+  "id": 1392
+}

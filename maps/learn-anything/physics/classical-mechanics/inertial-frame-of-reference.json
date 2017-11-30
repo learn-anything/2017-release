@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - inertial frame of reference",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "inertial frame of reference",
+      "url": "http://www.wikiwand.com/en/Inertial_frame_of_reference",
+      "fx": 38.7578125,
+      "fy": -102.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 139.9756405279503,
+      "fy": 33.20001940993791,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=8xiIP2B6L3M",
+          "fx": 295.9756405279503,
+          "fy": 44.70001940993791,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Mach’s principle  ️",
+      "url": "/physics/classical-mechanics/inertial-frame-of-reference/machs-principle",
+      "fx": -36.27102177713596,
+      "fy": 171.17747809257685,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "inertial frame of reference",
+      "target": "basics",
+      "curve": {
+        "x": 0.85891,
+        "y": 66.7914
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Mach’s principle  ️",
+      "curve": {
+        "x": -66.1233,
+        "y": 68.9887
+      }
+    }
+  ],
+  "id": 1372
+}

@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - programming - api - rest",
+  "tag": "REST api",
+  "nodes": [
+    {
+      "text": "REST",
+      "url": "http://www.wikiwand.com/en/Representational_state_transfer",
+      "fx": 163.33674568965523,
+      "fy": -212.58218091475095,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/rest/",
+          "fx": 342.33674568965523,
+          "fy": -218.58218091475095,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/marmelab/awesome-rest",
+          "fx": 342.33674568965523,
+          "fy": -178.58218091475095,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 170.01248091689934,
+      "fy": -58.94146426915614,
+      "nodes": [
+        {
+          "text": "1. what is RESTful programming?  ️",
+          "url": "https://stackoverflow.com/a/671132/3067664",
+          "fx": 326.01248091689934,
+          "fy": -47.44146426915614,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "REST",
+      "target": "basics",
+      "curve": {
+        "x": -2.41214,
+        "y": 75.5703
+      }
+    }
+  ],
+  "id": 1557
+}

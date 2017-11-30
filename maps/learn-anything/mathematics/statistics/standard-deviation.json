@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - standard deviation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "standard deviation",
+      "url": "http://www.wikiwand.com/en/Standard_deviation",
+      "fx": 187.1251370614035,
+      "fy": -189.83004385964915,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 244.56140350877183,
+      "fy": -43.54385964913763,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=09kiX3p5Vek",
+          "fx": 407.56140350877183,
+          "fy": -31.04385964913763,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "standard deviation",
+      "target": "basics",
+      "curve": {
+        "x": -8.53187,
+        "y": 72.3931
+      }
+    }
+  ],
+  "id": 1117
+}

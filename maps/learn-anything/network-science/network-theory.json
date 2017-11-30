@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - network science - network theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "network theory",
+      "url": "http://www.wikiwand.com/en/Network_theory",
+      "fx": 32.375,
+      "fy": -143.37109375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 80.1171875,
+      "fy": 5.6171875,
+      "nodes": [
+        {
+          "text": "1. introduction network theory",
+          "url": "https://www.youtube.com/watch?v=FTTDJmb5T4E&amp;list=PLfDaOYdi9aZwlZNAU0gl0rZ-SctZJcLe7",
+          "fx": 236.1171875,
+          "fy": 17.1171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "link analysis  ️",
+      "url": "/network-science/network-theory/link-analysis",
+      "fx": -55.91322357382546,
+      "fy": 132.25115352343357,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "network theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.62891,
+        "y": 73.2441
+      }
+    },
+    {
+      "source": "basics",
+      "target": "link analysis  ️",
+      "curve": {
+        "x": -55.7652,
+        "y": 63.317
+      }
+    }
+  ],
+  "id": 1234
+}

@@ -1,0 +1,71 @@
+{
+  "title": "learn anything - programming - programming languages - visual basic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "visual basic",
+      "url": "http://www.wikiwand.com/en/Visual_Basic",
+      "fx": 30.765625,
+      "fy": -68.80859375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/visualbasic/",
+          "fx": 261.765625,
+          "fy": -54.80859375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 44.249355279126235,
+      "fy": 84.10194174757282,
+      "nodes": [
+        {
+          "text": "1. visual basic fundamentals",
+          "url": "https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners",
+          "fx": 226.24935527912623,
+          "fy": 55.60194174757282,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. visual basic tutorial",
+          "url": "https://www.youtube.com/watch?v=3FkWddODLno",
+          "fx": 226.24935527912623,
+          "fy": 95.60194174757282,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. programming basic and sorting",
+          "url": "https://www.youtube.com/watch?v=Ou2A-JWszVA",
+          "fx": 226.24935527912623,
+          "fy": 135.60194174757282,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "visual basic",
+      "target": "basics",
+      "curve": {
+        "x": -12.0081,
+        "y": 75.2053
+      }
+    }
+  ],
+  "id": 1664
+}

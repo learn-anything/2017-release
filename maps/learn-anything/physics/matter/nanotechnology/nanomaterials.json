@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - nanotechnology - nanomaterials",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nanomaterials",
+      "url": "http://www.wikiwand.com/en/Nanomaterials",
+      "fx": 92.6875,
+      "fy": -101.859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 135,
+      "fy": 28.276157641700422,
+      "nodes": [
+        {
+          "text": "1. nanomaterials - Julia Greer",
+          "url": "https://www.youtube.com/watch?v=qoTY-na781I",
+          "fx": 298,
+          "fy": 40.77615764170042,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "nanomaterials",
+      "target": "basics",
+      "curve": {
+        "x": -5.09375,
+        "y": 64.3178
+      }
+    }
+  ],
+  "id": 1484
+}

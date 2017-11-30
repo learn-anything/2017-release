@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - entrepreneurship - startups - funding - crowdfunding",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "crowdfunding",
+      "url": "http://www.wikiwand.com/en/Crowdfunding",
+      "fx": 143.3981963734567,
+      "fy": -243.16005979938274,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 274.4301621510674,
+      "fy": -121.34217506631302,
+      "nodes": [
+        {
+          "text": "predicting the success of kickstarter campaigns",
+          "url": "http://vincent.etter.io/publications/etter2013cosn.pdf",
+          "fx": 473.4301621510674,
+          "fy": -121.34217506631302,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 379.62467352381043,
+      "fy": -1.038661418558263,
+      "nodes": [
+        {
+          "text": "kickstarter",
+          "url": "https://www.kickstarter.com/",
+          "fx": 525.6246735238104,
+          "fy": 13.961338581441737,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 185.149550449701,
+      "fy": 108.37980628307952,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://ec.europa.eu/growth/tools-databases/crowdfunding-guide/what-is/explained_en",
+          "fx": 348.149550449701,
+          "fy": 123.37980628307952,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "crowdfunding",
+      "target": "basics",
+      "curve": {
+        "x": -4.87432,
+        "y": 175.02
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "crowdfunding",
+      "curve": {
+        "x": -48.766,
+        "y": -60.1589
+      }
+    },
+    {
+      "source": "tools",
+      "target": "interesting",
+      "curve": {
+        "x": -39.3473,
+        "y": -60.1518
+      }
+    }
+  ],
+  "id": 544
+}

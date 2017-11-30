@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - simple harmonic motion",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "simple harmonic motion",
+      "url": "http://www.wikiwand.com/en/Simple_harmonic_motion",
+      "fx": -134.609375,
+      "fy": -125.82421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=jxstE6A_CYQ",
+          "fx": 116.5,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "complex harmonic motion",
+      "url": "http://www.wikiwand.com/en/Complex_harmonic_motion",
+      "fx": -287.3209379879545,
+      "fy": 155.10184000765764,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "simple harmonic motion",
+      "target": "basics",
+      "curve": {
+        "x": -2.94531,
+        "y": 60.6621
+      }
+    },
+    {
+      "source": "basics",
+      "target": "complex harmonic motion",
+      "curve": {
+        "x": -70.9105,
+        "y": 78.5509
+      }
+    }
+  ],
+  "id": 1384
+}

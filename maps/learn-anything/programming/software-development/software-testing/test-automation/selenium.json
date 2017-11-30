@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - programming - software development - software testing - test automation - selenium",
+  "tag": "selenium testing",
+  "nodes": [
+    {
+      "text": "selenium",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Selenium_(software)",
+      "fx": -62.44921875,
+      "fy": -174.33984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/SeleniumHQ/selenium",
+          "fx": 170.55078125,
+          "fy": -180.33984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/christian-bromann/awesome-selenium",
+          "fx": 170.55078125,
+          "fy": -140.33984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -29.696990277830082,
+      "fy": -33.16505919629611,
+      "nodes": [
+        {
+          "text": "1. selenium docs",
+          "url": "http://docs.seleniumhq.org/docs/",
+          "fx": 126.30300972216992,
+          "fy": -18.665059196296113,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "selenium",
+      "target": "basics",
+      "curve": {
+        "x": -2.87389,
+        "y": 69.3374
+      }
+    }
+  ],
+  "id": 1732
+}

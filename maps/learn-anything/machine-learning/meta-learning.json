@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - machine learning - meta learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "meta learning",
+      "url": "http://www.wikiwand.com/en/Meta_learning_(computer_science)",
+      "fx": 31.80859375,
+      "fy": -222.4921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 178.98836135864258,
+      "fy": -96.45793342590332,
+      "nodes": [
+        {
+          "text": "model-agnostic meta-learning for fast adaptation of deep networks",
+          "url": "http://proceedings.mlr.press/v70/finn17a/finn17a.pdf",
+          "fx": 377.9883613586426,
+          "fy": -142.45793342590332,
+          "nodes": [
+            {
+              "text": "code",
+              "url": "https://github.com/cbfinn/maml",
+              "fx": 726.9883613586426,
+              "fy": -117.45793342590332,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(0, 224, 161, 1.0)"
+            }
+          ],
+          "category": "paper",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "learning to learn using gradient descent",
+          "url": "http://snowedin.net/tmp/Hochreiter2001.pdf",
+          "fx": 377.9883613586426,
+          "fy": -50.45793342590332,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 72.9390869140625,
+      "fy": 65.78901290893555,
+      "nodes": [
+        {
+          "text": "1. learning to learn  ️",
+          "url": "http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/",
+          "fx": 235.9390869140625,
+          "fy": 78.28901290893555,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "meta learning",
+      "curve": {
+        "x": -57.3399,
+        "y": -62.2671
+      }
+    },
+    {
+      "source": "meta learning",
+      "target": "basics",
+      "curve": {
+        "x": -4.68475,
+        "y": 143.391
+      }
+    }
+  ],
+  "id": 768
+}

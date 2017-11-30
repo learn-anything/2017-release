@@ -1,0 +1,98 @@
+{
+  "title": "learn anything - operating systems - unix - macos - launchd",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "launchd",
+      "url": "http://www.launchd.info",
+      "fx": 90.9043703007518,
+      "fy": -236.51882636278197,
+      "nodes": []
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 187.72926787380266,
+      "fy": -137.52257822635892,
+      "nodes": [
+        {
+          "text": "launched",
+          "url": "http://launched.zerowidth.com/",
+          "fx": 329.72926787380266,
+          "fy": -123.02257822635892,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 252.77380280087095,
+      "fy": -44.66283420036012,
+      "nodes": [
+        {
+          "text": "12: schedule jobs using launchd  ️",
+          "url": "https://nathangrigg.com/2012/07/schedule-jobs-using-launchd",
+          "fx": 414.77380280087095,
+          "fy": -33.16283420036012,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 86.66075601077625,
+      "fy": 60.163103573189005,
+      "nodes": [
+        {
+          "text": "1. introduction ",
+          "url": "http://www.launchd.info/",
+          "fx": 242.66075601077625,
+          "fy": 54.663103573189005,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. launchd overview",
+          "url": "https://www.youtube.com/watch?v=Ci9hh-LUdss",
+          "fx": 242.66075601077625,
+          "fy": 88.663103573189,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "launchd",
+      "target": "basics",
+      "curve": {
+        "x": -5.62181,
+        "y": 148.341
+      }
+    },
+    {
+      "source": "tools",
+      "target": "launchd",
+      "curve": {
+        "x": -41.4124,
+        "y": -49.4981
+      }
+    },
+    {
+      "source": "articles",
+      "target": "tools",
+      "curve": {
+        "x": -37.5223,
+        "y": -46.4299
+      }
+    }
+  ],
+  "id": 1299
+}

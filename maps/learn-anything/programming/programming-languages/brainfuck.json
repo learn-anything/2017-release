@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - programming - programming languages - brainfuck",
+  "tag": "brainfuck programming language",
+  "nodes": [
+    {
+      "text": "brainfuck",
+      "url": "http://www.wikiwand.com/en/Brainfuck",
+      "fx": -69.48046875,
+      "fy": -226.48828125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/brainfuck/",
+          "fx": 140.51953125,
+          "fy": -212.48828125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "implementations",
+      "url": "",
+      "fx": 60.316375732421875,
+      "fy": -128.54586029052734,
+      "nodes": [
+        {
+          "text": "written in C",
+          "url": "https://github.com/fabianishere/brainfuck",
+          "fx": 307.3163757324219,
+          "fy": -117.04586029052734,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 216.1273199285573,
+      "fy": -22.768818102286446,
+      "nodes": [
+        {
+          "text": "brainfuck visualiser",
+          "url": "http://fatiherikli.github.io/brainfuck-visualizer/",
+          "fx": 407.1273199285573,
+          "fy": -11.268818102286446,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -39.19877570994686,
+      "fy": 101.21252181001762,
+      "nodes": [
+        {
+          "text": "1. learn brainfuck in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/brainfuck/",
+          "fx": 116.80122429005314,
+          "fy": 115.71252181001762,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "implementations",
+      "target": "brainfuck",
+      "curve": {
+        "x": -74.1484,
+        "y": -47.7212
+      }
+    },
+    {
+      "source": "brainfuck",
+      "target": "basics",
+      "curve": {
+        "x": 1.64085,
+        "y": 162.6
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "implementations",
+      "curve": {
+        "x": -63.9055,
+        "y": -52.8885
+      }
+    }
+  ],
+  "id": 1576
+}

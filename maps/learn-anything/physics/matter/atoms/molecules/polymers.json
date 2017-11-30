@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - polymers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polymers",
+      "url": "http://www.wikiwand.com/en/Polymer",
+      "fx": 132.66015625,
+      "fy": -108.9296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=rHxxLYzJ8Sw&amp;t=165s",
+          "fx": 309,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polymers",
+      "target": "basics",
+      "curve": {
+        "x": -7.83008,
+        "y": 70.7148
+      }
+    }
+  ],
+  "id": 1469
+}

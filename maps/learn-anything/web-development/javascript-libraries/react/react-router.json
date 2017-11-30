@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - web development - javascript libraries - react - react router",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "react router",
+      "url": "https://github.com/ReactTraining/react-router",
+      "fx": -75.66015625,
+      "fy": -148.08984375,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -44.526117149758534,
+      "fy": -1.8062537741546407,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=_Fzl0Cim6F8",
+          "fx": 111.47388285024147,
+          "fy": 9.69374622584536,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "react router",
+      "target": "basics",
+      "curve": {
+        "x": -3.18298,
+        "y": 71.8918
+      }
+    }
+  ],
+  "id": 1898
+}

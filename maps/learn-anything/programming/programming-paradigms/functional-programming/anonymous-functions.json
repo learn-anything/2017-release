@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - programming - programming paradigms - functional programming - anonymous functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "anonymous functions",
+      "url": "http://www.wikiwand.com/en/Anonymous_function",
+      "fx": 85.64453125,
+      "fy": 207.125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 253.42828859875578,
+      "fy": 332.3403661526627,
+      "nodes": [
+        {
+          "text": "16: can you create recursion using only anonymous functions?  ️",
+          "url": "https://medium.com/@zaven/can-you-create-recursion-using-only-anonymous-functions-8b9481938410",
+          "fx": 444.4282885987558,
+          "fy": 332.8403661526627,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 159.6232072456396,
+      "fy": 462.73654412504385,
+      "nodes": [
+        {
+          "text": "1. named function expressions demystified  ️",
+          "url": "http://kangax.github.io/nfe/",
+          "fx": 315.6232072456396,
+          "fy": 463.23654412504385,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "anonymous functions",
+      "curve": {
+        "x": -53.8919,
+        "y": -61.3577
+      }
+    },
+    {
+      "source": "anonymous functions",
+      "target": "basics",
+      "curve": {
+        "x": -1.76066,
+        "y": 126.556
+      }
+    }
+  ],
+  "id": 1669
+}

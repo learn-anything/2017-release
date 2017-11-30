@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - multivariable calculus - differential form",
+  "tag": "differential forms",
+  "nodes": [
+    {
+      "text": "differential form",
+      "url": "http://www.wikiwand.com/en/Differential_form",
+      "fx": -64.84244585037231,
+      "fy": -83.97964286804199,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -11.3828125,
+      "fy": 55.05479907989502,
+      "nodes": [
+        {
+          "text": "1. intro to differential forms",
+          "url": "https://www.youtube.com/watch?v=M5wrnwlm8lw&amp;list=PLB8F2D70E034E9C29",
+          "fx": 144.6171875,
+          "fy": 66.55479907989502,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "differential form",
+      "target": "basics",
+      "curve": {
+        "x": -0.520183,
+        "y": 68.2672
+      }
+    }
+  ],
+  "id": 893
+}

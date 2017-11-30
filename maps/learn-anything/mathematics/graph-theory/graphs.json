@@ -1,0 +1,89 @@
+{
+  "title": "learn anything - mathematics - graph theory - graphs",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "graphs",
+      "url": "http://www.wikiwand.com/en/Graph_(discrete_mathematics)",
+      "fx": 336.8343272900763,
+      "fy": -498.52612118320604,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 347.20812310580254,
+      "fy": -360.2783505819452,
+      "nodes": [
+        {
+          "text": "1. properties of graphs",
+          "url": "https://www.youtube.com/watch?v=AfYqN3fGapc",
+          "fx": 510.20812310580254,
+          "fy": -347.7783505819452,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "directed graphs",
+      "url": "http://www.wikiwand.com/en/Directed_graph",
+      "fx": 87.40321350097656,
+      "fy": -216.3129425048828,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "undirected graphs",
+      "url": "http://mathinsight.org/definition/undirected_graph",
+      "fx": 342.1779392482521,
+      "fy": -213.53458260489504,
+      "nodes": []
+    },
+    {
+      "text": "parity games  ️",
+      "url": "/mathematics/graph-theory/graphs/parity-games",
+      "fx": 89.46484375,
+      "fy": -65.6826171875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "directed graphs",
+      "curve": {
+        "x": -99.1525,
+        "y": 72.7327
+      }
+    },
+    {
+      "source": "graphs",
+      "target": "basics",
+      "curve": {
+        "x": -3.8131,
+        "y": 68.3739
+      }
+    },
+    {
+      "source": "basics",
+      "target": "undirected graphs",
+      "curve": {
+        "x": 26.4849,
+        "y": 73.3719
+      }
+    },
+    {
+      "source": "directed graphs",
+      "target": "parity games  ️",
+      "curve": {
+        "x": -16.7192,
+        "y": 74.5652
+      }
+    }
+  ],
+  "id": 970
+}

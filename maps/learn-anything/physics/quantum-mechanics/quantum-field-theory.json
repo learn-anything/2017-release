@@ -1,0 +1,226 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum field theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum field theory",
+      "url": "http://www.wikiwand.com/en/Quantum_field_theory",
+      "fx": -205.6293303717748,
+      "fy": -482.4031386873548,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -16.09492853457209,
+      "fy": -382.5206491987675,
+      "nodes": [
+        {
+          "text": "of particular significance  ️",
+          "note": "by quantum field theorist Matt Strassler",
+          "url": "https://profmattstrassler.com/2013/09/23/quantum-field-theory-string-theory-and-predictions/",
+          "fx": 120.90507146542791,
+          "fy": -371.0206491987675,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 89.58903590300599,
+      "fy": -288.10108346804395,
+      "nodes": [
+        {
+          "text": "17: quantum fields: the real building blocks of the universe",
+          "url": "https://www.youtube.com/watch?v=zNVQfWC_evg",
+          "fx": 229.589035903006,
+          "fy": -287.60108346804395,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -171.93338704449718,
+      "fy": -118.76407651605388,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=FBeALt3rxEA",
+          "fx": 10.06661295550282,
+          "fy": -198.26407651605388,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. overview of QFT",
+          "url": "https://www.youtube.com/watch?v=ATcrrzJFtBY&amp;app=desktop",
+          "fx": 10.06661295550282,
+          "fy": -158.26407651605388,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. David Tong’s lectures on QFT",
+          "url": "http://www.damtp.cam.ac.uk/user/tong/qft.html",
+          "fx": 10.06661295550282,
+          "fy": -118.26407651605388,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. particles, fields and the future of physics",
+          "url": "https://www.youtube.com/watch?v=gEKSpZPByD0&amp;t=4472s",
+          "fx": 10.06661295550282,
+          "fy": -78.26407651605388,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. quantum field theory in a nutshell",
+          "url": "https://img.fireden.net/tg/image/1459/87/1459871465465.pdf",
+          "fx": 10.06661295550282,
+          "fy": -16.264076516053876,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "quantum electrodynamics  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/quantum-electrodynamics",
+      "fx": -116.30651760101318,
+      "fy": 82.1265754699707,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "conformal field theory",
+      "url": "http://www.wikiwand.com/en/Conformal_field_theory",
+      "fx": -385.4302673339844,
+      "fy": 84.369140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Casimir effect  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/casimir-effect",
+      "fx": -583.5244369506836,
+      "fy": 87.20372772216797,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Feynman diagrams  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/feynman-diagrams",
+      "fx": -831.5329864193152,
+      "fy": 89.45070067015513,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fields  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/fields",
+      "fx": -955.8631046006484,
+      "fy": 92.13650823023511,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "topological quantum field theory  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/topological-quantum-field-theory",
+      "fx": -1355.452255187247,
+      "fy": 94.20116396763137,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum field theory",
+      "target": "basics",
+      "curve": {
+        "x": -22.152,
+        "y": 180.57
+      }
+    },
+    {
+      "source": "help",
+      "target": "quantum field theory",
+      "curve": {
+        "x": -51.0172,
+        "y": -48.6912
+      }
+    },
+    {
+      "source": "talks",
+      "target": "help",
+      "curve": {
+        "x": -53.5919,
+        "y": -47.2097
+      }
+    },
+    {
+      "source": "basics",
+      "target": "conformal field theory",
+      "curve": {
+        "x": -71.9985,
+        "y": 102.817
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quantum electrodynamics  ️",
+      "curve": {
+        "x": 65.3134,
+        "y": 100.445
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Casimir effect  ️",
+      "curve": {
+        "x": -214.222,
+        "y": 89.7275
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Feynman diagrams  ️",
+      "curve": {
+        "x": -370.316,
+        "y": 71.5432
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fields  ️",
+      "curve": {
+        "x": -502.133,
+        "y": 49.1417
+      }
+    },
+    {
+      "source": "basics",
+      "target": "topological quantum field theory  ️",
+      "curve": {
+        "x": -697.942,
+        "y": 49.2458
+      }
+    }
+  ],
+  "id": 1532
+}

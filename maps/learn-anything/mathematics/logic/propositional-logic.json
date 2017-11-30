@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "propositional logic",
+      "url": "http://www.wikiwand.com/en/Propositional_calculus",
+      "fx": 89.2421875,
+      "fy": -128.5625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 155.14612989323837,
+      "fy": 21.386009786476905,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=paRt4R71d8s",
+          "fx": 318.14612989323837,
+          "fy": 33.886009786476905,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "propositions  ️",
+      "url": "/mathematics/logic/propositional-logic/propositions",
+      "fx": 41.478036880493164,
+      "fy": 155.1717758178711,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "De Morgan’s laws  ️",
+      "url": "/mathematics/logic/propositional-logic/demorgans-laws",
+      "fx": 241.6031036376953,
+      "fy": 155.9523582458496,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "modal logic  ️",
+      "url": "/mathematics/logic/propositional-logic/modal-logic",
+      "fx": -151.58683628318556,
+      "fy": 156.86821073008855,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "propositional logic",
+      "target": "basics",
+      "curve": {
+        "x": -3.54803,
+        "y": 74.2243
+      }
+    },
+    {
+      "source": "basics",
+      "target": "De Morgan’s laws  ️",
+      "curve": {
+        "x": 71.4784,
+        "y": 67.2832
+      }
+    },
+    {
+      "source": "basics",
+      "target": "propositions  ️",
+      "curve": {
+        "x": -42.584,
+        "y": 66.8929
+      }
+    },
+    {
+      "source": "basics",
+      "target": "modal logic  ️",
+      "curve": {
+        "x": -158.935,
+        "y": 39.4847
+      }
+    }
+  ],
+  "id": 1021
+}

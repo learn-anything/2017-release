@@ -1,0 +1,295 @@
+{
+  "title": "learn anything - software - tooling - text editors - vim",
+  "tag": "vim text editor",
+  "nodes": [
+    {
+      "text": "vim",
+      "url": "http://www.wikiwand.com/en/Vim_(text_editor)",
+      "fx": 45.08663303047342,
+      "fy": -39.17233016855812,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/vim/vim",
+          "fx": 203.08663303047342,
+          "fy": -85.17233016855812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/vim/",
+          "fx": 203.08663303047342,
+          "fy": -45.17233016855812,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "vim magic",
+          "url": "https://www.reddit.com/r/vim_magic/",
+          "fx": 203.08663303047342,
+          "fy": -5.172330168558119,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/mhinz/vim-galore",
+          "fx": 203.08663303047342,
+          "fy": 34.82766983144188,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 133.80445861816406,
+      "fy": 134.14203262329102,
+      "nodes": [
+        {
+          "text": "vim casts screencasts",
+          "url": "http://vimcasts.org/episodes/archive/",
+          "fx": 270.80445861816406,
+          "fy": 125.64203262329102,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "from novice to professional",
+          "url": "http://derekwyatt.org/vim/tutorials/novice/",
+          "fx": 270.80445861816406,
+          "fy": 165.64203262329102,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 423.02439643596813,
+      "fy": 342.7115152293237,
+      "nodes": [
+        {
+          "text": "vim text objects  ️",
+          "url": "http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/",
+          "fx": 585.0243964359681,
+          "fy": 212.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "operator, the true power of vim  ️",
+          "url": "http://whileimautomaton.net/2008/11/vimm3/operator",
+          "fx": 585.0243964359681,
+          "fy": 252.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "survive vim with these 5 simple tricks  ️",
+          "url": "http://www.theodo.fr/blog/2017/02/survive-vim-with-these-5-simple-tricks/",
+          "fx": 585.0243964359681,
+          "fy": 292.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "why neovim is better than vim  ️",
+          "url": "https://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/",
+          "fx": 585.0243964359681,
+          "fy": 354.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "14: vim commands and piping  ️",
+          "url": "http://seejohncode.com/2014/01/27/vim-commands-piping/",
+          "fx": 585.0243964359681,
+          "fy": 394.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "17: vim tips &amp; tricks  ️",
+          "url": "https://bluz71.github.io/2017/05/15/vim-tips-tricks.html",
+          "fx": 585.0243964359681,
+          "fy": 434.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: current treats &amp; future wants of Neovim  ️",
+          "url": "https://bluz71.github.io/2017/06/28/current-treats-future-wants-of-neovim.html",
+          "fx": 585.0243964359681,
+          "fy": 474.2115152293237,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -64.23135860560774,
+      "fy": 429.77998602651326,
+      "nodes": [
+        {
+          "text": "1. complete vimtutor",
+          "note": "will go over the basics of modal text editing in an interactive way",
+          "url": "http://linuxcommand.org/man_pages/vimtutor1.html",
+          "fx": 117.76864139439226,
+          "fy": 347.27998602651326,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. vim adventures",
+          "url": "https://vim-adventures.com/",
+          "fx": 117.76864139439226,
+          "fy": 381.27998602651326,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. interactive vim tutorial",
+          "url": "http://openvim.com/",
+          "fx": 117.76864139439226,
+          "fy": 421.27998602651326,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "2. you don’t grok vi",
+          "url": "http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118",
+          "fx": 117.76864139439226,
+          "fy": 461.27998602651326,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. coming home to vim  ️",
+          "url": "http://stevelosh.com/blog/2010/09/coming-home-to-vim/",
+          "fx": 117.76864139439226,
+          "fy": 495.27998602651326,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "3. practical vim",
+          "url": "https://www.goodreads.com/book/show/13607232-practical-vim",
+          "fx": 117.76864139439226,
+          "fy": 535.2799860265133,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "vim plugins  ️",
+      "url": "/software/tooling/text-editors/vim/plugins",
+      "fx": -214.62179434564973,
+      "fy": 551.7896757435811,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 535.3423351419383,
+      "fy": 597.9356431632204,
+      "nodes": [
+        {
+          "text": "space vim",
+          "url": "https://github.com/liuchengxu/space-vim",
+          "fx": 726.3423351419383,
+          "fy": 609.4356431632204,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "viml  ️",
+      "note": "the programming language created to extend vim",
+      "url": "/software/tooling/text-editors/vim/viml",
+      "fx": 12.613867083098057,
+      "fy": 628.4002028385447,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "vim",
+      "curve": {
+        "x": -46.1088,
+        "y": -86.6573
+      }
+    },
+    {
+      "source": "vim",
+      "target": "basics",
+      "curve": {
+        "x": -55.159,
+        "y": 233.226
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -193.297,
+        "y": -91.7279
+      }
+    },
+    {
+      "source": "basics",
+      "target": "viml  ️",
+      "curve": {
+        "x": 26.1726,
+        "y": 99.3105
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -74.3025,
+        "y": -114.126
+      }
+    },
+    {
+      "source": "basics",
+      "target": "vim plugins  ️",
+      "curve": {
+        "x": -63.6952,
+        "y": 62.2548
+      }
+    }
+  ],
+  "id": 1818
+}

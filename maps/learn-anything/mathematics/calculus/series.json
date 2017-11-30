@@ -1,0 +1,186 @@
+{
+  "title": "learn anything - mathematics - calculus - series",
+  "tag": "mathematical series",
+  "nodes": [
+    {
+      "text": "series",
+      "url": "http://www.wikiwand.com/en/Series_(mathematics)",
+      "fx": -17.03125,
+      "fy": -177.8515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -9.175837253584291,
+      "fy": -36.602626568100334,
+      "nodes": [
+        {
+          "text": "1. sequence and series tutorial",
+          "url": "https://www.youtube.com/watch?v=Kxh7yJC9Jr0&amp;list=PL9F4EF58B2CA7F1C9",
+          "fx": 146.8241627464157,
+          "fy": -25.102626568100334,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "geometric series  ️",
+      "url": "/mathematics/calculus/series/geometric-series",
+      "fx": -336.81025314331055,
+      "fy": 88.40503311157227,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Taylor series  ️",
+      "url": "/mathematics/calculus/series/taylor-series",
+      "fx": -112.72350692749023,
+      "fy": 88.58586883544922,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "wavelet transform  ️",
+      "url": "/mathematics/calculus/series/wavelet-transform",
+      "fx": 73.38637924194336,
+      "fy": 90.31449890136719,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "divergent series",
+      "url": "http://www.wikiwand.com/en/Divergent_series",
+      "fx": -555.9793855735486,
+      "fy": 91.8081287983764,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "power series  ️",
+      "url": "/mathematics/calculus/series/power-series",
+      "fx": -760.5994873046875,
+      "fy": 95.4163818359375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Dirichlet series  ️",
+      "url": "/mathematics/calculus/series/dirichlet-series",
+      "fx": -977.645478934463,
+      "fy": 96.66901674593498,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "convergent series",
+      "url": "http://www.wikiwand.com/en/Convergent_series",
+      "fx": -1220.9140625,
+      "fy": 97.67578125000011,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "harmonic series  ️",
+      "url": "/mathematics/calculus/series/harmonic-series",
+      "fx": -646.8355853062667,
+      "fy": 218.87133565584406,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Ramanujan summation  ️",
+      "url": "/mathematics/calculus/series/ramanujan-summation",
+      "fx": -412.4666914179536,
+      "fy": 220.23653822162498,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "series",
+      "target": "basics",
+      "curve": {
+        "x": -2.0723,
+        "y": 69.3745
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Taylor series  ️",
+      "curve": {
+        "x": -31.2739,
+        "y": 63.8442
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometric series  ️",
+      "curve": {
+        "x": -141.068,
+        "y": 62.5038
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wavelet transform  ️",
+      "curve": {
+        "x": 67.0311,
+        "y": 63.4586
+      }
+    },
+    {
+      "source": "basics",
+      "target": "power series  ️",
+      "curve": {
+        "x": -452.048,
+        "y": 16.4001
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Dirichlet series  ️",
+      "curve": {
+        "x": -558.727,
+        "y": -10.9931
+      }
+    },
+    {
+      "source": "basics",
+      "target": "divergent series",
+      "curve": {
+        "x": -281.977,
+        "y": 47.0081
+      }
+    },
+    {
+      "source": "basics",
+      "target": "convergent series",
+      "curve": {
+        "x": -800.438,
+        "y": 24.4132
+      }
+    },
+    {
+      "source": "divergent series",
+      "target": "harmonic series  ️",
+      "curve": {
+        "x": -52.4281,
+        "y": 62.2816
+      }
+    },
+    {
+      "source": "divergent series",
+      "target": "Ramanujan summation  ️",
+      "curve": {
+        "x": 88.2563,
+        "y": 64.2142
+      }
+    }
+  ],
+  "id": 905
+}

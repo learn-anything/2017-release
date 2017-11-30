@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - programming - software development - devops - continuous integration - jenkins",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "jenkins",
+      "url": "https://jenkins.io/",
+      "fx": 179.26524697580646,
+      "fy": -213.72177419354836,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/jenkinsci/",
+          "fx": 346.26524697580646,
+          "fy": -243.22177419354836,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/jenkinsci/jenkins",
+          "fx": 346.26524697580646,
+          "fy": -201.22177419354836,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/sahilsk/awesome-jenkins",
+          "fx": 346.26524697580646,
+          "fy": -159.22177419354836,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 178.69666708669354,
+      "fy": -50.67408014112897,
+      "nodes": [
+        {
+          "text": "1. guided tour",
+          "url": "https://jenkins.io/doc/",
+          "fx": 341.69666708669354,
+          "fy": -35.67408014112897,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "jenkins",
+      "target": "basics",
+      "curve": {
+        "x": -1.28429,
+        "y": 81.5238
+      }
+    }
+  ],
+  "id": 1710
+}

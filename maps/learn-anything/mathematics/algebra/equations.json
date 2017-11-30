@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - mathematics - algebra - equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "equations",
+      "url": "http://www.wikiwand.com/en/Equation",
+      "fx": 120.38671875,
+      "fy": -169.53948217975199,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": -30.637138429751985,
+      "nodes": [
+        {
+          "text": "1. solving 2-step equations",
+          "url": "https://www.youtube.com/watch?v=LDIiYKYvvdA",
+          "fx": 310,
+          "fy": -18.137138429751985,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "parametric equations  ️",
+      "url": "/mathematics/algebra/equations/parametric-equations",
+      "fx": -748.9325346887487,
+      "fy": 129.44936577001738,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "quadratic equations",
+      "url": "http://www.wikiwand.com/en/Quadratic_equation",
+      "fx": 384.6267623901367,
+      "fy": 130.6501007080078,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "algebraic equations",
+      "url": "http://www.wikiwand.com/en/Algebraic_equation",
+      "fx": -434.69487380981445,
+      "fy": 130.93421936035156,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "simultaneous equations",
+      "url": "http://www.wikiwand.com/en/Simultaneous_equations",
+      "fx": -162.60868310928345,
+      "fy": 133.21691513061523,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "linear equations  ️",
+      "url": "/mathematics/algebra/equations/linear-equations",
+      "fx": 150.49700927734375,
+      "fy": 133.4662628173828,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "equations",
+      "target": "basics",
+      "curve": {
+        "x": -2.94336,
+        "y": 68.7012
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic equations",
+      "curve": {
+        "x": -250.597,
+        "y": 81.5357
+      }
+    },
+    {
+      "source": "basics",
+      "target": "simultaneous equations",
+      "curve": {
+        "x": -104.304,
+        "y": 82.677
+      }
+    },
+    {
+      "source": "basics",
+      "target": "linear equations  ️",
+      "curve": {
+        "x": 32.4985,
+        "y": 82.8017
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quadratic equations",
+      "curve": {
+        "x": 159.564,
+        "y": 81.3936
+      }
+    },
+    {
+      "source": "basics",
+      "target": "parametric equations  ️",
+      "curve": {
+        "x": -479.354,
+        "y": 29.3957
+      }
+    }
+  ],
+  "id": 837
+}

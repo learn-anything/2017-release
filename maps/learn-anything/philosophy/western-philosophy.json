@@ -1,0 +1,106 @@
+{
+  "title": "learn anything - philosophy - western philosophy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "western philosophy",
+      "url": "http://www.wikiwand.com/en/Western_philosophy",
+      "fx": -119.5,
+      "fy": -173.62254679951695,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.212679942664636,
+      "fy": -46.34045927279942,
+      "nodes": [
+        {
+          "text": "1 the story of western philosophy",
+          "url": "https://www.youtube.com/watch?v=QkP4g9e86qA",
+          "fx": 108.78732005733536,
+          "fy": -34.84045927279942,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "stoicism",
+      "url": "http://www.wikiwand.com/en/Stoicism",
+      "fx": -340.16968042341875,
+      "fy": 29.14768790215396,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "stoicism  ️",
+      "url": "/philosophy/western-philosophy/stoicism",
+      "fx": 155.341796875,
+      "fy": 117.9453125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hedonism",
+      "url": "http://www.wikiwand.com/en/Hedonism",
+      "fx": -227.60235023498535,
+      "fy": 118.70607948303223,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "skepticism",
+      "url": "http://www.wikiwand.com/en/Skepticism",
+      "fx": -49.42705154418945,
+      "fy": 167.2668228149414,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "western philosophy",
+      "target": "basics",
+      "curve": {
+        "x": -0.60634,
+        "y": 62.391
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stoicism",
+      "curve": {
+        "x": -142.229,
+        "y": 37.7441
+      }
+    },
+    {
+      "source": "basics",
+      "target": "hedonism",
+      "curve": {
+        "x": -82.4448,
+        "y": 82.5233
+      }
+    },
+    {
+      "source": "basics",
+      "target": "skepticism",
+      "curve": {
+        "x": 8.64281,
+        "y": 106.804
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stoicism  ️",
+      "curve": {
+        "x": 112.777,
+        "y": 83.3929
+      }
+    }
+  ],
+  "id": 1362
+}

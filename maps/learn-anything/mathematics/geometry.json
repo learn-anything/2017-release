@@ -1,0 +1,403 @@
+{
+  "title": "learn anything - mathematics - geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "geometry",
+      "url": "http://www.wikiwand.com/en/Geometry",
+      "fx": 38.21763358062299,
+      "fy": -698.1338055262278,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 178.56395543104145,
+      "fy": -571.9567221472457,
+      "nodes": [
+        {
+          "text": "sine and cosine",
+          "url": "http://setosa.io/ev/sine-and-cosine/",
+          "fx": 319.56395543104145,
+          "fy": -592.9567221472457,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "geometry, algebra, and intuition  ️",
+          "url": "http://www.shapeoperator.com/2017/02/28/geometry-algebra-intuition/",
+          "fx": 319.56395543104145,
+          "fy": -550.9567221472457,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -3.1168337622553963,
+      "fy": -379.59648643782714,
+      "nodes": [
+        {
+          "text": "1. Euclid’s elements",
+          "url": "https://www.math.ubc.ca/~cass/euclid/byrne.html",
+          "fx": 185.8831662377446,
+          "fy": -421.59648643782714,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. high school geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
+          "fx": 185.8831662377446,
+          "fy": -379.59648643782714,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. geometry from euclid to knots",
+          "url": "http://www.goodreads.com/book/show/8001419-geometry-from-euclid-to-knots",
+          "fx": 185.8831662377446,
+          "fy": -337.59648643782714,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "symmetry  ️",
+      "url": "/mathematics/geometry/symmetry",
+      "fx": -635.897497520729,
+      "fy": -333.36470170454527,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "spheres  ️",
+      "url": "/mathematics/geometry/spheres",
+      "fx": -708.7629571920618,
+      "fy": -239.16242989493912,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "descriptive geometry  ️",
+      "url": "/mathematics/geometry/descriptive-geometry",
+      "fx": 383.6758007473413,
+      "fy": -202.69025844997827,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "polytypes  ️",
+      "url": "/mathematics/geometry/polytypes",
+      "fx": -674.2987441927985,
+      "fy": -165.34474811265954,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "incidence geometry  ️",
+      "url": "/mathematics/geometry/incidence-geometry",
+      "fx": 410.7489115397136,
+      "fy": -103.31463125016944,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "coordinate systems  ️",
+      "url": "/mathematics/geometry/coordinate-systems",
+      "fx": -732.5927071893223,
+      "fy": -67.29600643110473,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "polygons",
+      "url": "http://www.wikiwand.com/en/Polygon",
+      "fx": 455.3976836622678,
+      "fy": -6.231702302631447,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "tensors  ️",
+      "url": "/mathematics/geometry/tensors",
+      "fx": -667.3659469094591,
+      "fy": 30.71854415830188,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "projective geometry  ️",
+      "note": "is the study of geometric properties that are invariant with respect to projective transformations  this means, that compared to elementary geometry, projective geometry has a different setting, projective space, and a selective set of basic geometric concepts  the bass intuitions are that projective space has more points than Euclidean space, for a given dimension, and that geometric transformations are permitted that transform the extra points (called ‘points at infinity’) to Euclidean points, and vice versa",
+      "url": "/mathematics/geometry/projective-geometry",
+      "fx": 375.9967795736578,
+      "fy": 109.4653984146911,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "trigonometry  ️",
+      "url": "/mathematics/geometry/trigonometry",
+      "fx": -712.577814419037,
+      "fy": 119.71199360152713,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fractals  ️",
+      "note": "is a mathematical set that exhibits a repeating pattern displayed at every scale  is also known as expanding symmetry or evolving symmetry if the replication is exactly the same at every scale, it is called a self-similar pattern (i.e. Menger Sponge)  fractals can also be nearly the same at different levels   they include the idea of a detailed pattern that repeats itself  they are different from other geometric figures because of the way in which they scale  doubling the edge lengths of a polygon multiples its area by four, which is two (the ratio of the new to the old side length) raised to the power of two (here the dimension of the space the polygon resides in)  likewise, if the radius of a sphere is doubled, its volume scales by eight (to the power of its dimension)  this power is called the fractal dimension of the fractal and it usually exceeds the fractal’s topological dimension  they are usually nowhere differentiable  an infinite fractal curve can be conceived of as winding through space differently from an ordinary line, still being a 1-dimensional line yet having a fractal dimension indication it also resembles a surface",
+      "url": "/mathematics/geometry/fractals",
+      "fx": 361.6785724524293,
+      "fy": 215.6650069265654,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "geometric algebra  ️",
+      "url": "/mathematics/geometry/geometric-algebra",
+      "fx": -711.3938789373121,
+      "fy": 223.55020044634995,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "pi  ️",
+      "note": "is a mathematical constant   it is the ratio of a circle’s circumference to its diameter, commonly approximated as 3.14159  being an irrational number, π cannot be expressed exactly as a fraction  fractions such as 22/7 and other rational numbers are commonly used to approximate π  the digits appear to be randomly distributed  the digit sequence of π is conjectured to satisfy a specific kind of statistical randomness, but to date no proof of this has been discovered  it is a transcendental number, i.e. a number that is not the root of any non-zero polynomial having rational coefficients   this transcendence of π implies that it is impossible to solve the ancient challenge of squaring the circle with a compass and straightedge",
+      "url": "/mathematics/geometry/pi",
+      "fx": -336.73519365326695,
+      "fy": 301.1085888518006,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "euclidean space  ️",
+      "note": "encompasses the two-dimensional Euclidean plane, the three-dimensional space of Euclidean geometry and certain other spaces  Euclidean spaces also generalise to higher dimensions  from modern viewpoint, there is essentially only one Euclidean space of each dimension  one way to think of the Euclidean plane is a set of points satisfying certain relationships, expressible in terms of distance and angle  for example, there are two fundamental operations (referred to as motions) on the plane  one is translation, which means a shifting of the plane so that every point is shifted in the same direction and by the same distance  the other is rotation about a fixed point in the plane, in which every point in the plane turns about that fixed point through the same angle  one of the basic tenets of Euclidean geometry is that two figures (usually considered as subsets) of the plane should be considered equivalent (congruent) if one can be transformed into the other by some sequence of translations, rotations and reflections",
+      "url": "/mathematics/geometry/euclidean-space",
+      "fx": -638.2699589448816,
+      "fy": 317.0005432898257,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "algebraic geometry  ️",
+      "url": "/mathematics/geometry/algebraic-geometry",
+      "fx": 120.87750244140625,
+      "fy": 335.44580078125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computational geometry  ️",
+      "url": "/mathematics/geometry/computational-geometry",
+      "fx": -391.08203125,
+      "fy": 407.6640625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "taxicab geometry",
+      "url": "http://www.wikiwand.com/en/Taxicab_geometry",
+      "fx": 366.0384063720703,
+      "fy": 416.5468292236328,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "differential geometry  ️",
+      "url": "/mathematics/geometry/differential-geometry",
+      "fx": -18.615365982055664,
+      "fy": 443.1542663574219,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "information geometry  ️",
+      "url": "/mathematics/geometry/information-geometry",
+      "fx": -182.84652880942258,
+      "fy": 520.8948164261438,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "geometry",
+      "target": "basics",
+      "curve": {
+        "x": -34.9172,
+        "y": 158.018
+      }
+    },
+    {
+      "source": "help",
+      "target": "geometry",
+      "curve": {
+        "x": -51.1732,
+        "y": -61.8385
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic geometry  ️",
+      "curve": {
+        "x": 97.9987,
+        "y": 358.77
+      }
+    },
+    {
+      "source": "basics",
+      "target": "differential geometry  ️",
+      "curve": {
+        "x": 30.5012,
+        "y": 412.626
+      }
+    },
+    {
+      "source": "basics",
+      "target": "pi  ️",
+      "curve": {
+        "x": -188.878,
+        "y": 334.804
+      }
+    },
+    {
+      "source": "basics",
+      "target": "euclidean space  ️",
+      "curve": {
+        "x": -294.576,
+        "y": 349.549
+      }
+    },
+    {
+      "source": "basics",
+      "target": "projective geometry  ️",
+      "curve": {
+        "x": 218.5,
+        "y": 265.043
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometric algebra  ️",
+      "curve": {
+        "x": -327.137,
+        "y": 302.824
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fractals  ️",
+      "curve": {
+        "x": 187.512,
+        "y": 303.524
+      }
+    },
+    {
+      "source": "basics",
+      "target": "trigonometry  ️",
+      "curve": {
+        "x": -347.229,
+        "y": 249.654
+      }
+    },
+    {
+      "source": "basics",
+      "target": "tensors  ️",
+      "curve": {
+        "x": -336.373,
+        "y": 205.157
+      }
+    },
+    {
+      "source": "basics",
+      "target": "computational geometry  ️",
+      "curve": {
+        "x": -125.705,
+        "y": 399.846
+      }
+    },
+    {
+      "source": "basics",
+      "target": "information geometry  ️",
+      "curve": {
+        "x": -85.2812,
+        "y": 568.932
+      }
+    },
+    {
+      "source": "basics",
+      "target": "coordinate systems  ️",
+      "curve": {
+        "x": -338.737,
+        "y": 156.15
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polygons",
+      "curve": {
+        "x": 220.91,
+        "y": 229.09
+      }
+    },
+    {
+      "source": "basics",
+      "target": "incidence geometry  ️",
+      "curve": {
+        "x": 212.086,
+        "y": 175.504
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polytypes  ️",
+      "curve": {
+        "x": -334.34,
+        "y": 107.126
+      }
+    },
+    {
+      "source": "basics",
+      "target": "spheres  ️",
+      "curve": {
+        "x": -355.323,
+        "y": 70.2171
+      }
+    },
+    {
+      "source": "basics",
+      "target": "descriptive geometry  ️",
+      "curve": {
+        "x": 173.818,
+        "y": 122.645
+      }
+    },
+    {
+      "source": "basics",
+      "target": "taxicab geometry",
+      "curve": {
+        "x": 212.793,
+        "y": 441.4
+      }
+    },
+    {
+      "source": "basics",
+      "target": "symmetry  ️",
+      "curve": {
+        "x": -314.89,
+        "y": 23.1159
+      }
+    }
+  ],
+  "id": 968
+}

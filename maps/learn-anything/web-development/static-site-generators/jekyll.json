@@ -1,0 +1,81 @@
+{
+  "title": "learn anything - web development - static site generators - jekyll",
+  "tag": "jekyll static generator",
+  "nodes": [
+    {
+      "text": "jekyll",
+      "url": "https://github.com/jekyll/jekyll",
+      "fx": 170.6499481201172,
+      "fy": -217.42187428474426,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 277.203125,
+      "fy": -114.71875,
+      "nodes": [
+        {
+          "text": "awesome jekyll",
+          "url": "https://github.com/planetjekyll/awesome-jekyll",
+          "fx": 414.203125,
+          "fy": -103.21875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 169.7734375,
+      "fy": -21,
+      "nodes": [
+        {
+          "text": "1. what is jekyll",
+          "url": "https://jekyllrb.com/docs/home/",
+          "fx": 325.7734375,
+          "fy": -6.5,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "jekyll themes",
+      "url": "http://jekyllthemes.org/",
+      "fx": 34.62703804347626,
+      "fy": 122.13136116597161,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "jekyll",
+      "curve": {
+        "x": -45.0266,
+        "y": -50.1016
+      }
+    },
+    {
+      "source": "jekyll",
+      "target": "basics",
+      "curve": {
+        "x": -3.93826,
+        "y": 96.9609
+      }
+    },
+    {
+      "source": "basics",
+      "target": "jekyll themes",
+      "curve": {
+        "x": -53.0732,
+        "y": 71.5657
+      }
+    }
+  ],
+  "id": 1918
+}

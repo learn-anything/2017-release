@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - machine learning - neural networks - feedforward neural network - extreme learning machines",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "extreme learning machines",
+      "url": "http://www.wikiwand.com/en/Extreme_learning_machine",
+      "fx": 296.651978140394,
+      "fy": -0.5499923029556157,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 597.7931034482759,
+      "fy": 113.96551724137674,
+      "nodes": [
+        {
+          "text": "implementation in python",
+          "url": "https://github.com/dclambert/Python-ELM",
+          "fx": 734.7931034482759,
+          "fy": 125.46551724137674,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 387.58189655172407,
+      "fy": 239.3643780788177,
+      "nodes": [
+        {
+          "text": "1. what’s so great about extreme learning machines?",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/34u0go/yann_lecun_whats_so_great_about_extreme_learning/",
+          "fx": 543.5818965517241,
+          "fy": 219.8643780788177,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. learning without iterative tuning",
+          "url": "https://www.youtube.com/watch?v=KiLuYCC33-Y",
+          "fx": 543.5818965517241,
+          "fy": 281.8643780788177,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "extreme learning machines",
+      "target": "basics",
+      "curve": {
+        "x": -7.78504,
+        "y": 118.707
+      }
+    },
+    {
+      "source": "help",
+      "target": "extreme learning machines",
+      "curve": {
+        "x": -92.5706,
+        "y": -56.0078
+      }
+    }
+  ],
+  "id": 777
+}

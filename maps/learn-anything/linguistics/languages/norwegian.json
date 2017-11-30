@@ -1,0 +1,100 @@
+{
+  "title": "learn anything - linguistics - languages - norwegian",
+  "tag": "norwegian language",
+  "nodes": [
+    {
+      "text": "norwegian language",
+      "url": "http://www.wikiwand.com/en/Norwegian_language",
+      "fx": -165.92475880872485,
+      "fy": -200.05439911912754,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/norsk/",
+          "fx": 143.07524119127515,
+          "fy": -186.05439911912754,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 33.04991319444446,
+      "fy": -90.20442708333331,
+      "nodes": [
+        {
+          "text": "norwegian phrases",
+          "url": "http://mylanguages.org/norwegian_phrases.php",
+          "fx": 170.04991319444446,
+          "fy": -75.70442708333331,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -129.25082778930664,
+      "fy": 36.58643808972079,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/no-BO/en/Learn-Norwegian-(Bokm%C3%A5l)-Online",
+          "fx": 52.74917221069336,
+          "fy": 51.08643808972079,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "practice",
+      "url": "",
+      "fx": -86.03794475655434,
+      "fy": 165.54667602996244,
+      "nodes": [
+        {
+          "text": "newspaper in simple norwegian",
+          "url": "http://www.klartale.no/",
+          "fx": 84.96205524344566,
+          "fy": 180.04667602996244,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "norwegian language",
+      "target": "basics",
+      "curve": {
+        "x": -19.913,
+        "y": 117.07
+      }
+    },
+    {
+      "source": "help",
+      "target": "norwegian language",
+      "curve": {
+        "x": -56.4873,
+        "y": -53.675
+      }
+    },
+    {
+      "source": "basics",
+      "target": "practice",
+      "curve": {
+        "x": 18.8564,
+        "y": 64.4801
+      }
+    }
+  ],
+  "id": 733
+}

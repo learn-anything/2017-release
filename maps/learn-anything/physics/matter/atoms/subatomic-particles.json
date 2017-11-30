@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - physics - matter - atoms - subatomic particles",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "subatomic particles",
+      "url": "http://www.wikiwand.com/en/Subatomic_particle",
+      "fx": 6.361206054687386,
+      "fy": -198.54272460937494,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 79.33409202755911,
+      "fy": -68.57523375984852,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=eD7hXLRqWWM",
+          "fx": 242.3340920275591,
+          "fy": -56.075233759848516,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "electrons  ️",
+      "url": "/physics/matter/atoms/subatomic-particles/electrons",
+      "fx": -129.30576505054864,
+      "fy": 46.63070270207322,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "protons  ️",
+      "url": "/physics/matter/atoms/subatomic-particles/protons",
+      "fx": 48.42637252807617,
+      "fy": 49.33706283569336,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "neutrons  ️",
+      "url": "/physics/matter/atoms/subatomic-particles/neutrons",
+      "fx": 202.56624248086598,
+      "fy": 50.252075358488355,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "subatomic particles",
+      "target": "basics",
+      "curve": {
+        "x": -3.76356,
+        "y": 64.2337
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electrons  ️",
+      "curve": {
+        "x": -89.8199,
+        "y": 58.353
+      }
+    },
+    {
+      "source": "basics",
+      "target": "protons  ️",
+      "curve": {
+        "x": -12.7039,
+        "y": 58.9562
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neutrons  ️",
+      "curve": {
+        "x": 67.1161,
+        "y": 59.4137
+      }
+    }
+  ],
+  "id": 1474
+}

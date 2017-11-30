@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - representation theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "representation theory",
+      "url": "http://www.wikiwand.com/en/Representation_theory",
+      "fx": -109.45319676399231,
+      "fy": -61.16894865036011,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -32.7109375,
+      "fy": 134.8984375,
+      "nodes": [
+        {
+          "text": "1. linear representations of finite groups",
+          "url": "http://isites.harvard.edu/fs/docs/icb.topic1381051.files/serre-representation-theory.pdf",
+          "fx": 123.2890625,
+          "fy": 64.3984375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. representation theory basics",
+          "url": "https://www.youtube.com/watch?v=9rDzaKASMTM",
+          "fx": 123.2890625,
+          "fy": 126.3984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. representation theory of lie groups and lie algebras",
+          "url": "https://www.youtube.com/watch?v=h-d8TUg022A",
+          "fx": 123.2890625,
+          "fy": 166.3984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is representation theory?",
+          "url": "https://math.berkeley.edu/%7Eteleman/math/RepThry.pdf",
+          "fx": 123.2890625,
+          "fy": 228.3984375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "representation theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.12887,
+        "y": 96.7837
+      }
+    }
+  ],
+  "id": 833
+}

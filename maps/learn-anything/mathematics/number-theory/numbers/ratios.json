@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - ratios",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ratios",
+      "url": "http://www.wikiwand.com/en/Ratio",
+      "fx": -47.2109375,
+      "fy": -184.3515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.7890625,
+      "fy": -47.703125,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=puku5vUCOcE",
+          "fx": 119.2109375,
+          "fy": -35.203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "golden ratio  ️",
+      "url": "/mathematics/number-theory/numbers/ratios/golden-ratio",
+      "fx": -206.39856053149617,
+      "fy": 79.66387795275057,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "ratios",
+      "target": "basics",
+      "curve": {
+        "x": -0.289062,
+        "y": 67.5742
+      }
+    },
+    {
+      "source": "basics",
+      "target": "golden ratio  ️",
+      "curve": {
+        "x": -68.3047,
+        "y": 63.6835
+      }
+    }
+  ],
+  "id": 1048
+}

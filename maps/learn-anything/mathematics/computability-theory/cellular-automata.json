@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - computability theory - cellular automata",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cellular automata",
+      "url": "http://www.wikiwand.com/en/Cellular_automaton",
+      "fx": 83.0859375,
+      "fy": -242.953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 257.5144456334432,
+      "fy": -148.3950603316673,
+      "nodes": [
+        {
+          "text": "3D cellular automata",
+          "url": "http://cubes.io/",
+          "fx": 448.5144456334432,
+          "fy": -156.8950603316673,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2D cellular automata posters",
+          "url": "https://imgur.com/a/cz7V2",
+          "fx": 448.5144456334432,
+          "fy": -116.89506033166731,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 145.55249043231515,
+      "fy": -28.90104703453318,
+      "nodes": [
+        {
+          "text": "1. cellular automata explained",
+          "url": "http://natureofcode.com/book/chapter-7-cellular-automata/",
+          "fx": 327.55249043231515,
+          "fy": -14.401047034533178,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "cellular automata",
+      "curve": {
+        "x": -64.7143,
+        "y": -46.029
+      }
+    },
+    {
+      "source": "cellular automata",
+      "target": "basics",
+      "curve": {
+        "x": -0.0167235,
+        "y": 105.776
+      }
+    }
+  ],
+  "id": 922
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics - bayesian inference",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "bayesian inference",
+      "url": "http://www.wikiwand.com/en/Bayesian_inference",
+      "fx": -48.015625,
+      "fy": -240.33203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 22.2109375,
+      "fy": -111.37890625,
+      "nodes": [
+        {
+          "text": "1. how it works",
+          "url": "https://brohrer.github.io/how_bayesian_inference_works.html",
+          "fx": 178.2109375,
+          "fy": -99.87890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "variational Bayesian methods  ️",
+      "url": "/mathematics/statistics/bayesian-statistics/bayesian-inference/variational-bayesian-methods",
+      "fx": -200.85431654676256,
+      "fy": 12.249943794963997,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "bayesian inference",
+      "target": "basics",
+      "curve": {
+        "x": 0.363281,
+        "y": 63.2266
+      }
+    },
+    {
+      "source": "basics",
+      "target": "variational Bayesian methods  ️",
+      "curve": {
+        "x": -60.2826,
+        "y": 61.8144
+      }
+    }
+  ],
+  "id": 1076
+}

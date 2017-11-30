@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - random variables - stochastic processes - ito calculus",
+  "tag": "Ito calculus",
+  "nodes": [
+    {
+      "text": "Itô calculus",
+      "url": "http://www.wikiwand.com/en/It%C3%B4_calculus",
+      "fx": 172.20481418918916,
+      "fy": -104.734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 199.17567567567608,
+      "fy": 52.48648648649197,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Z5yRMMVUC5w",
+          "fx": 362.1756756756761,
+          "fy": 64.98648648649197,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Ito’s lemma  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes/ito-calculus/itos-lemma",
+      "fx": 65.07083702920306,
+      "fy": 185.35900825600436,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Itô calculus",
+      "target": "basics",
+      "curve": {
+        "x": -6.01457,
+        "y": 77.8604
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Ito’s lemma  ️",
+      "curve": {
+        "x": -55.3024,
+        "y": 66.4363
+      }
+    }
+  ],
+  "id": 1099
+}

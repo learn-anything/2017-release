@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - linguistics - computational linguistics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computational linguistics",
+      "url": "http://www.wikiwand.com/en/Computational_linguistics",
+      "fx": -122.4375,
+      "fy": -167.91015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -36.6484375,
+      "fy": -41.38580799102783,
+      "nodes": [
+        {
+          "text": "1. speech and language processing",
+          "url": "http://www.deepsky.com/~merovech/voynich/voynich_manchu_reference_materials/PDFs/jurafsky_martin.pdf",
+          "fx": 126.3515625,
+          "fy": -41.38580799102783,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "speech synthesis  ️",
+      "url": "/linguistics/computational-linguistics/speech-synthesis",
+      "fx": -262.2826704545455,
+      "fy": 88.79119318181813,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "speech recognition  ️",
+      "url": "/linguistics/computational-linguistics/speech-recognition",
+      "fx": -3.3374280587165686,
+      "fy": 89.01101953743216,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "computational linguistics",
+      "target": "basics",
+      "curve": {
+        "x": -5.35547,
+        "y": 62.0122
+      }
+    },
+    {
+      "source": "basics",
+      "target": "speech recognition  ️",
+      "curve": {
+        "x": 45.1555,
+        "y": 65.1984
+      }
+    },
+    {
+      "source": "basics",
+      "target": "speech synthesis  ️",
+      "curve": {
+        "x": -85.3171,
+        "y": 65.0885
+      }
+    }
+  ],
+  "id": 706
+}

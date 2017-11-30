@@ -1,0 +1,192 @@
+{
+  "title": "learn anything - web development - content management systems",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "content management system",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Content_management_system",
+      "fx": -248.73200347383022,
+      "fy": -271.8453284726703,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/postlight/awesome-cms",
+          "fx": 180.26799652616978,
+          "fy": -257.8453284726703,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "API first",
+      "url": "",
+      "fx": 113.4232954545455,
+      "fy": -96.18087121212119,
+      "nodes": []
+    },
+    {
+      "text": "built-in solutions",
+      "url": "",
+      "fx": -275.0246010638283,
+      "fy": -95.5856050531915,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 179.50511743860466,
+      "fy": 25.64160901717571,
+      "nodes": [
+        {
+          "text": "1. API-based CMS approach  ️",
+          "url": "https://css-tricks.com/api-based-cms-approach/",
+          "fx": 335.50511743860466,
+          "fy": 37.14160901717571,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "GRAV",
+      "url": "https://getgrav.org/",
+      "fx": -668.0179884453781,
+      "fy": 66.38488051470608,
+      "nodes": []
+    },
+    {
+      "text": "wordpress  ️",
+      "url": "/web-development/content-management-systems/wordpress",
+      "fx": -549.2994079589844,
+      "fy": 64.15751075744629,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Drupal  ️",
+      "url": "/web-development/content-management-systems/drupal",
+      "fx": -364.5367717266818,
+      "fy": 64.48386628343815,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Joomla",
+      "url": "http://www.wikiwand.com/en/Joomla",
+      "fx": -219.60106905512583,
+      "fy": 65.30862872214493,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "TYPO3",
+      "url": "http://www.wikiwand.com/en/TYPO3",
+      "fx": -64.61598112289897,
+      "fy": 65.98830849157639,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "prismic",
+      "url": "https://prismic.io/quickstart#?lang=php",
+      "fx": 332.5216899671052,
+      "fy": 171.9580078125,
+      "nodes": []
+    },
+    {
+      "text": "contentful",
+      "url": "https://www.contentful.com/guides/",
+      "fx": 167.2958984375,
+      "fy": 175.71715666118416,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "content management system",
+      "target": "built-in solutions",
+      "curve": {
+        "x": -59.1463,
+        "y": 86.8799
+      }
+    },
+    {
+      "source": "built-in solutions",
+      "target": "wordpress  ️",
+      "curve": {
+        "x": -142.888,
+        "y": 81.1216
+      }
+    },
+    {
+      "source": "built-in solutions",
+      "target": "Drupal  ️",
+      "curve": {
+        "x": -59.5061,
+        "y": 81.2847
+      }
+    },
+    {
+      "source": "built-in solutions",
+      "target": "Joomla",
+      "curve": {
+        "x": 14.7118,
+        "y": 81.6971
+      }
+    },
+    {
+      "source": "built-in solutions",
+      "target": "TYPO3",
+      "curve": {
+        "x": 91.9543,
+        "y": 82.037
+      }
+    },
+    {
+      "source": "content management system",
+      "target": "API first",
+      "curve": {
+        "x": 115.828,
+        "y": 86.5822
+      }
+    },
+    {
+      "source": "API first",
+      "target": "basics",
+      "curve": {
+        "x": 30.0409,
+        "y": 60.9112
+      }
+    },
+    {
+      "source": "basics",
+      "target": "contentful",
+      "curve": {
+        "x": 1.89539,
+        "y": 75.0378
+      }
+    },
+    {
+      "source": "basics",
+      "target": "prismic",
+      "curve": {
+        "x": 78.2583,
+        "y": 73.1582
+      }
+    },
+    {
+      "source": "built-in solutions",
+      "target": "GRAV",
+      "curve": {
+        "x": -274.587,
+        "y": 40.3954
+      }
+    }
+  ],
+  "id": 1862
+}

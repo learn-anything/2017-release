@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - philosophy - spirituality - afterlife",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "afterlife",
+      "url": "http://www.wikiwand.com/en/Afterlife",
+      "fx": -23.59375,
+      "fy": -290.390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 61.62160852713146,
+      "fy": -151.88959544574902,
+      "nodes": [
+        {
+          "text": "what happens after you die theories",
+          "url": "http://imgur.com/gallery/7Cv3t",
+          "fx": 260.62160852713146,
+          "fy": -172.88959544574902,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "discussion of an afterlife",
+          "url": "https://www.reddit.com/r/DMT/comments/6n04ql/discussion_of_an_afterlife/",
+          "fx": 260.62160852713146,
+          "fy": -105.88959544574902,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "afterlife",
+      "curve": {
+        "x": -42.6077,
+        "y": -68.5005
+      }
+    }
+  ],
+  "id": 1351
+}

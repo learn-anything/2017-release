@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - matter - atoms - subatomic particles - protons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "protons",
+      "url": "http://www.wikiwand.com/en/Proton",
+      "fx": -53.23859097076968,
+      "fy": -234.20891117405242,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 56.99876419090401,
+      "fy": -109.8591931477797,
+      "nodes": [
+        {
+          "text": "when protons collide",
+          "url": "https://www.youtube.com/watch?v=_wxFYcEuLYo",
+          "fx": 255.998764190904,
+          "fy": -97.3591931477797,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.280264639639654,
+      "fy": 18.53244650900899,
+      "nodes": [
+        {
+          "text": "1. the nucleus explained",
+          "url": "https://www.youtube.com/watch?v=FSyAehMdpyI",
+          "fx": 115.71973536036035,
+          "fy": 31.03244650900899,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "protons",
+      "target": "basics",
+      "curve": {
+        "x": -7.77084,
+        "y": 125.621
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "protons",
+      "curve": {
+        "x": -53.3687,
+        "y": -61.4249
+      }
+    }
+  ],
+  "id": 1473
+}

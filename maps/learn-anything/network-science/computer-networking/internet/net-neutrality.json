@@ -1,0 +1,79 @@
+{
+  "title": "learn anything - network science - computer networking - internet - net neutrality",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "net neutrality",
+      "url": "http://www.wikiwand.com/en/Net_neutrality",
+      "fx": -348.6486556154823,
+      "fy": -1722.3167896044827,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/netneutrality/",
+          "fx": -94.64865561548231,
+          "fy": -1708.3167896044827,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -311.170733095718,
+      "fy": -1520.8323339931505,
+      "nodes": [
+        {
+          "text": "1. why net neutrality matters",
+          "url": "https://www.youtube.com/watch?v=K88BU3kjZ-c&amp;feature=youtu.be",
+          "fx": -148.170733095718,
+          "fy": -1596.3323339931505,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. Defend Net Neutrality",
+          "url": "https://www.youtube.com/watch?v=wtt2aSV8wdw",
+          "fx": -148.170733095718,
+          "fy": -1554.3323339931505,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. net neutrality explained by John Oliver: part I",
+          "url": "https://www.youtube.com/watch?v=fpbOEoRrHyU",
+          "fx": -148.170733095718,
+          "fy": -1512.3323339931505,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. net neutrality explained by John Oliver: part II",
+          "url": "https://www.youtube.com/watch?v=92vuuZt7wak",
+          "fx": -148.170733095718,
+          "fy": -1445.3323339931505,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "net neutrality",
+      "target": "basics",
+      "curve": {
+        "x": -4.26104,
+        "y": 99.9922
+      }
+    }
+  ],
+  "id": 1207
+}

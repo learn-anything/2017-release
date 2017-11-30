@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - software - tooling - spreadsheets",
+  "tag": "spreadsheets software",
+  "nodes": [
+    {
+      "text": "spreadsheets",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Spreadsheet",
+      "fx": -87.78515625,
+      "fy": -186.0390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "google sheets",
+      "url": "http://www.wikiwand.com/en/Google_Docs,_Sheets_and_Slides",
+      "fx": 91.01917797157603,
+      "fy": -68.69702842377268,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "excel  ️",
+      "url": "/software/tooling/spreadsheets/excel",
+      "fx": -188.0734106613162,
+      "fy": -63.379209589075174,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "numbers",
+      "url": "http://www.wikiwand.com/en/Numbers_(spreadsheet)",
+      "fx": -76.18036265432113,
+      "fy": 13.290600187984523,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "spreadsheets",
+      "target": "numbers",
+      "curve": {
+        "x": -4.69763,
+        "y": 99.6648
+      }
+    },
+    {
+      "source": "spreadsheets",
+      "target": "excel  ️",
+      "curve": {
+        "x": -82.6441,
+        "y": 60.0799
+      }
+    },
+    {
+      "source": "spreadsheets",
+      "target": "google sheets",
+      "curve": {
+        "x": 76.9022,
+        "y": 57.421
+      }
+    }
+  ],
+  "id": 1812
+}

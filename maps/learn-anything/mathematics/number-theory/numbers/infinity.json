@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - infinity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "infinity",
+      "url": "http://www.wikiwand.com/en/Infinity",
+      "fx": 92.28633499145508,
+      "fy": -84.06467819213867,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 223.8778935185203,
+      "fy": 33.90702160490952,
+      "nodes": [
+        {
+          "text": "is 1 closer to infinity than 0?",
+          "url": "https://www.reddit.com/r/askscience/comments/2k7wpe/is_1_closer_to_infinity_than_0/clisttm/",
+          "fx": 414.8778935185203,
+          "fy": 45.40702160490952,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 73.99472736625876,
+      "fy": 177.75083590532063,
+      "nodes": [
+        {
+          "text": "1. how big is infinity?",
+          "url": "https://www.youtube.com/watch?v=UPA3bwVVzGI",
+          "fx": 229.99472736625876,
+          "fy": 149.25083590532063,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. infinity is bigger than you think",
+          "url": "https://www.youtube.com/watch?v=elvOZm0d4H0",
+          "fx": 229.99472736625876,
+          "fy": 189.25083590532063,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. how to count past infinity",
+          "url": "https://www.youtube.com/watch?v=SrU9YDoXE88",
+          "fx": 229.99472736625876,
+          "fy": 229.25083590532063,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "infinity",
+      "target": "basics",
+      "curve": {
+        "x": -15.8958,
+        "y": 129.657
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "infinity",
+      "curve": {
+        "x": -67.7958,
+        "y": -57.7358
+      }
+    }
+  ],
+  "id": 1043
+}

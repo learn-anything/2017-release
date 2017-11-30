@@ -1,0 +1,108 @@
+{
+  "title": "learn anything - mathematics - geometry - euclidean space - solid geometry - polyhedrons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polyhedrons",
+      "url": "http://www.wikiwand.com/en/Polyhedron",
+      "fx": 181.90054086538453,
+      "fy": -252.3590282914201,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 326.49158653846155,
+      "fy": -133.8611027644231,
+      "nodes": [
+        {
+          "text": "",
+          "url": "",
+          "fx": 525.4915865384615,
+          "fy": -118.8611027644231,
+          "nodes": [
+            {
+              "text": "unwrapping a polyhedron in mathematica",
+              "url": "https://gfycat.com/DeliriousTintedJoey",
+              "fx": 635.4915865384615,
+              "fy": -133.8611027644231,
+              "nodes": [],
+              "category": "image",
+              "color": "rgba(104, 255, 109, 1.0)"
+            }
+          ],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 213.81885147094727,
+      "fy": -40.99590873718262,
+      "nodes": [
+        {
+          "text": "1. what are polyhedrons   ️",
+          "url": "https://math.stackexchange.com/questions/1478038/what-are-polyhedrons",
+          "fx": 376.81885147094727,
+          "fy": -28.495908737182617,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "dual polyhedron",
+      "url": "http://www.wikiwand.com/en/Dual_polyhedron",
+      "fx": 40.87805451127804,
+      "fy": 83.80611685463657,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "catalan solid",
+      "url": "http://www.wikiwand.com/en/Catalan_solid",
+      "fx": 13.215197802536295,
+      "fy": 234.6702480941742,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "polyhedrons",
+      "target": "basics",
+      "curve": {
+        "x": -6.54085,
+        "y": 104.931
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "polyhedrons",
+      "curve": {
+        "x": -58.7955,
+        "y": -58.499
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dual polyhedron",
+      "curve": {
+        "x": -62.7204,
+        "y": 62.401
+      }
+    },
+    {
+      "source": "dual polyhedron",
+      "target": "catalan solid",
+      "curve": {
+        "x": -22.8314,
+        "y": 75.4321
+      }
+    }
+  ],
+  "id": 944
+}

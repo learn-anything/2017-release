@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - physics - electromagnetism - electricity - electric current",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electric current",
+      "url": "http://www.wikiwand.com/en/Electric_current",
+      "fx": -72.89376154556646,
+      "fy": -154.9393088054187,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -23.727563115763587,
+      "fy": -13.929264162561594,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=HXOok3mfMLM",
+          "fx": 132.2724368842364,
+          "fy": -2.4292641625615943,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "electrical resistivity  ️",
+      "url": "/physics/electromagnetism/electricity/electric-current/electrical-resistivity",
+      "fx": -304.61884236453204,
+      "fy": 112.81396243842346,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "voltage  ️",
+      "url": "/physics/electromagnetism/electricity/electric-current/voltage",
+      "fx": -37.87431917989204,
+      "fy": 114.64825253416154,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Kirchhoff’s circuit laws  ️",
+      "url": "/physics/electromagnetism/electricity/electric-current/kirchhoffs-circuit-laws",
+      "fx": 102.47510542027885,
+      "fy": 117.29802468510337,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electric current",
+      "target": "basics",
+      "curve": {
+        "x": -1.6669,
+        "y": 69.255
+      }
+    },
+    {
+      "source": "basics",
+      "target": "voltage  ️",
+      "curve": {
+        "x": -5.32332,
+        "y": 64.2887
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electrical resistivity  ️",
+      "curve": {
+        "x": -101.946,
+        "y": 69.6216
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Kirchhoff’s circuit laws  ️",
+      "curve": {
+        "x": 98.3513,
+        "y": 65.6136
+      }
+    }
+  ],
+  "id": 1419
+}

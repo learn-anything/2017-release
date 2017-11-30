@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - programming - software development - devops - puppet",
+  "tag": "puppet configuration management",
+  "nodes": [
+    {
+      "text": "puppet",
+      "url": "http://www.wikiwand.com/en/Puppet_(software)",
+      "fx": -66.97410534274184,
+      "fy": -109.5865045362903,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/olindata/awesome-puppet",
+          "fx": 125.02589465725816,
+          "fy": -95.5865045362903,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 91.7133812119074,
+      "fy": 15.741578158781692,
+      "nodes": [
+        {
+          "text": "puppet debugger",
+          "url": "https://github.com/nwops/puppet-debugger",
+          "fx": 233.7133812119074,
+          "fy": 27.241578158781692,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.98713976518002,
+      "fy": 130.23590192125243,
+      "nodes": [
+        {
+          "text": "1. how puppet works",
+          "url": "https://www.youtube.com/watch?v=QFcqvBk1gNA",
+          "fx": 102.01286023481998,
+          "fy": 124.73590192125243,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. learning resources",
+          "url": "https://puppet.com/resources",
+          "fx": 102.01286023481998,
+          "fy": 164.73590192125243,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "puppet",
+      "target": "basics",
+      "curve": {
+        "x": -2.50652,
+        "y": 118.661
+      }
+    },
+    {
+      "source": "tools",
+      "target": "puppet",
+      "curve": {
+        "x": -66.8437,
+        "y": -61.414
+      }
+    }
+  ],
+  "id": 1718
+}

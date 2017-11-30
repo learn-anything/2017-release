@@ -1,0 +1,63 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - tcp-ip",
+  "tag": "tcp/ip",
+  "nodes": [
+    {
+      "text": "tcp/ip",
+      "url": "http://www.wikiwand.com/en/Internet_protocol_suite",
+      "fx": -69.7890625,
+      "fy": -380.72265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -76.5195621997118,
+      "fy": -236.8830909729004,
+      "nodes": [
+        {
+          "text": "1. packets, routing and reliability",
+          "note": "- what keeps the Internet running and how information is broken down into packets",
+          "url": "https://www.youtube.com/watch?v=AYdF7b3nMto",
+          "fx": 105.4804378002882,
+          "fy": -265.3830909729004,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. how the internet works  ️",
+          "note": "- goes over what internet is in friendly terms",
+          "url": "https://thesquareplanet.com/blog/how-the-internet-works/",
+          "fx": 105.4804378002882,
+          "fy": -225.3830909729004,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "3. tcp/ip guide",
+          "url": "http://www.tcpipguide.com/free/index.htm",
+          "fx": 105.4804378002882,
+          "fy": -185.3830909729004,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tcp/ip",
+      "target": "basics",
+      "curve": {
+        "x": -9.11525,
+        "y": 70.6694
+      }
+    }
+  ],
+  "id": 1222
+}

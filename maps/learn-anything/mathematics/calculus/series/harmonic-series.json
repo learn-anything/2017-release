@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - calculus - series - harmonic series",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "harmonic series",
+      "url": "http://www.wikiwand.com/en/Harmonic_series_(mathematics)",
+      "fx": 106.99609375,
+      "fy": -171.3671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 160.55078125,
+      "fy": -24.515625,
+      "nodes": [
+        {
+          "text": "1. prove that harmonic series is divergent",
+          "url": "https://www.youtube.com/watch?v=lmmH2SVCbTM",
+          "fx": 323.55078125,
+          "fy": -24.515625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "harmonic",
+      "url": "http://www.wikiwand.com/en/Harmonic",
+      "fx": 10.507004310344769,
+      "fy": 122.1856142241503,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "harmonic series",
+      "target": "basics",
+      "curve": {
+        "x": -4.47266,
+        "y": 72.6758
+      }
+    },
+    {
+      "source": "basics",
+      "target": "harmonic",
+      "curve": {
+        "x": -60.2719,
+        "y": 74.1006
+      }
+    }
+  ],
+  "id": 900
+}

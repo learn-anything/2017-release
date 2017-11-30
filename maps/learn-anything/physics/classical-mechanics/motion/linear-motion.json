@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - motion - linear motion",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear motion",
+      "url": "http://www.wikiwand.com/en/Linear_motion",
+      "fx": 102.1171875,
+      "fy": -111.171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 135.19921875,
+      "fy": 17.57421875,
+      "nodes": [
+        {
+          "text": "1. motion in a straight line",
+          "url": "https://www.youtube.com/watch?v=ZM8ECpBuQYE&amp;t=30s",
+          "fx": 291.19921875,
+          "fy": 29.07421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear motion",
+      "target": "basics",
+      "curve": {
+        "x": -5.20898,
+        "y": 63.123
+      }
+    }
+  ],
+  "id": 1378
+}

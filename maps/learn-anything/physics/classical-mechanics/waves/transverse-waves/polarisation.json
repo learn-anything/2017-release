@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - transverse waves - polarisation",
+  "tag": "polarisation of waves",
+  "nodes": [
+    {
+      "text": "polarisation",
+      "url": "http://www.wikiwand.com/en/Polarization_(waves)",
+      "fx": 129.734375,
+      "fy": -175.5625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 163.72265625,
+      "fy": -18.67578125,
+      "nodes": [
+        {
+          "text": "1. polarisation of light, linear and circular light waves",
+          "url": "https://www.youtube.com/watch?v=HH58VmUbOKM",
+          "fx": 326.72265625,
+          "fy": -18.67578125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polarisation",
+      "target": "basics",
+      "curve": {
+        "x": -2.75586,
+        "y": 77.6934
+      }
+    }
+  ],
+  "id": 1394
+}

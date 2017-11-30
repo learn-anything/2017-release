@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - particle physics - beyond the standard model",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "beyond the standard model",
+      "url": "http://www.wikiwand.com/en/Physics_beyond_the_Standard_Model",
+      "fx": 25.91890746124045,
+      "fy": -96.61461361434112,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 121.51174164539611,
+      "fy": 58.492542009359056,
+      "nodes": [
+        {
+          "text": "1. lectures by Robert Mann",
+          "url": "https://www.youtube.com/watch?v=rTiPVz19D7g",
+          "fx": 284.5117416453961,
+          "fy": 70.99254200935906,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "beyond the standard model",
+      "target": "basics",
+      "curve": {
+        "x": -4.95358,
+        "y": 77.5536
+      }
+    }
+  ],
+  "id": 1502
+}

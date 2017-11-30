@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - light - speed of light",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "speed of light",
+      "url": "http://www.wikiwand.com/en/Speed_of_light",
+      "fx": 117.65147749765333,
+      "fy": -233.1183817157461,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 263.3420884868009,
+      "fy": -120.27712594060637,
+      "nodes": [
+        {
+          "text": "askscience: speed of light",
+          "url": "https://www.reddit.com/r/askscience/search?q=speed%20of%20light&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 454.3420884868009,
+          "fy": -108.77712594060637,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146.0607366756518,
+      "fy": 25.314801858814462,
+      "nodes": [
+        {
+          "text": "1. the speed of light is not about light",
+          "url": "https://www.youtube.com/watch?v=msVuCEs8Ydo",
+          "fx": 302.0607366756518,
+          "fy": -5.185198141185538,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. what’s the reference for speed of light?",
+          "url": "https://www.reddit.com/r/askscience/comments/681n8d/whats_reference_point_for_the_speed_of_light/dguypsi/",
+          "fx": 302.0607366756518,
+          "fy": 56.81480185881446,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "speed of light",
+      "target": "basics",
+      "curve": {
+        "x": -9.04537,
+        "y": 127.967
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "speed of light",
+      "curve": {
+        "x": -58.3453,
+        "y": -55.1706
+      }
+    }
+  ],
+  "id": 1428
+}

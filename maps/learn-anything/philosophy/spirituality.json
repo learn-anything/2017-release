@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - philosophy - spirituality",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spirituality",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Spirituality",
+      "fx": -118.44389008985081,
+      "fy": -295.2762914562797,
+      "nodes": [
+        {
+          "text": "psychonaut",
+          "url": "https://www.reddit.com/r/Psychonaut/",
+          "fx": 123.55610991014919,
+          "fy": -301.2762914562797,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "rational psychonaut",
+          "url": "https://www.reddit.com/r/RationalPsychonaut/",
+          "fx": 123.55610991014919,
+          "fy": -261.2762914562797,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -77.96583304802516,
+      "fy": -152.78883125447425,
+      "nodes": [
+        {
+          "text": "1. Alan Watts - spirituality - why we need it",
+          "url": "https://www.youtube.com/watch?v=pgJ1EAHqWxA",
+          "fx": 78.03416695197484,
+          "fy": -152.28883125447425,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "religion  ️",
+      "url": "/philosophy/spirituality/religion",
+      "fx": -245.92609850331928,
+      "fy": -26.46988685817587,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "God  ️",
+      "url": "/philosophy/spirituality/god",
+      "fx": -102.6698169708252,
+      "fy": -25.359536051750183,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "afterlife  ️",
+      "url": "/philosophy/spirituality/afterlife",
+      "fx": 13.258956755049894,
+      "fy": -24.34161931818153,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "spirituality",
+      "target": "basics",
+      "curve": {
+        "x": -1.26097,
+        "y": 69.9937
+      }
+    },
+    {
+      "source": "basics",
+      "target": "religion  ️",
+      "curve": {
+        "x": -75.2301,
+        "y": 64.4095
+      }
+    },
+    {
+      "source": "basics",
+      "target": "God  ️",
+      "curve": {
+        "x": -16.852,
+        "y": 63.7146
+      }
+    },
+    {
+      "source": "basics",
+      "target": "afterlife  ️",
+      "curve": {
+        "x": 58.3867,
+        "y": 64.2236
+      }
+    }
+  ],
+  "id": 1357
+}

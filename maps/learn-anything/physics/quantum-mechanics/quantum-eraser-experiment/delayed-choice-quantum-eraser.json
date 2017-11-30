@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum eraser experiment - delayed choice quantum eraser",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "delayed choice quantum eraser",
+      "url": "http://www.wikiwand.com/en/Delayed_choice_quantum_eraser",
+      "fx": -163.8671875,
+      "fy": -126.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -41.41796875,
+      "fy": 3.08203125,
+      "nodes": [
+        {
+          "text": "1. the quantum eraser rewrites the past",
+          "url": "https://www.youtube.com/watch?v=8ORLN_KwAgs",
+          "fx": 114.58203125,
+          "fy": 3.58203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "delayed choice quantum eraser",
+      "target": "basics",
+      "curve": {
+        "x": -3.02539,
+        "y": 63.6387
+      }
+    }
+  ],
+  "id": 1524
+}

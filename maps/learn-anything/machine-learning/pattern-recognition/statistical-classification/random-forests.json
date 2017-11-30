@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - statistical classification - random forests",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "random forest",
+      "url": "http://www.wikiwand.com/en/Random_forest",
+      "fx": -101.32421875,
+      "fy": -199.16796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -54.9883355034724,
+      "fy": -21.8486328125,
+      "nodes": [
+        {
+          "text": "1. machine learning - random forests",
+          "url": "https://www.youtube.com/watch?v=3kYujfDgmNk",
+          "fx": 101.0116644965276,
+          "fy": -21.3486328125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "random forest",
+      "target": "basics",
+      "curve": {
+        "x": -1.33206,
+        "y": 87.4097
+      }
+    }
+  ],
+  "id": 793
+}

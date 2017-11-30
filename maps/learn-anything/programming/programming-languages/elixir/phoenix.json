@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - programming languages - elixir - phoenix",
+  "tag": "phoenix framework",
+  "nodes": [
+    {
+      "text": "phoenix",
+      "url": "https://github.com/phoenixframework/phoenix",
+      "fx": -3.6117795678072753,
+      "fy": -120.09911896461665,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/droptheplot/awesome-phoenix",
+          "fx": 195.38822043219272,
+          "fy": -106.09911896461665,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 11.44691857626276,
+      "fy": 9.110864328783691,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://www.phoenixframework.org/docs/overview",
+          "fx": 167.44691857626276,
+          "fy": 23.61086432878369,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "phoenix",
+      "target": "basics",
+      "curve": {
+        "x": -3.22065,
+        "y": 63.355
+      }
+    }
+  ],
+  "id": 1588
+}

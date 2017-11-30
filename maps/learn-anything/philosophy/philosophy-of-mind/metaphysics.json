@@ -1,0 +1,191 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - metaphysics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "metaphysics",
+      "url": "http://www.wikiwand.com/en/Metaphysics",
+      "fx": -223.42800715782118,
+      "fy": -413.8229748603352,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Metaphysics/",
+          "fx": 17.571992842178815,
+          "fy": -399.8229748603352,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": -63.67157009450875,
+      "fy": -288.10180811150184,
+      "nodes": [
+        {
+          "text": "Leibniz’s metaphysics  ️",
+          "url": "http://www.typewriterpeople.com/leibnizs-metaphysics/",
+          "fx": 127.32842990549125,
+          "fy": -276.60180811150184,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -203.8240131578949,
+      "fy": -129.59868421052624,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://plato.stanford.edu/entries/metaphysics/",
+          "fx": -47.82401315789491,
+          "fy": -169.09868421052624,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to metaphysics",
+          "url": "https://www.youtube.com/watch?v=qKq0Afmsj-U",
+          "fx": -47.82401315789491,
+          "fy": -129.09868421052624,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Alan Watts - an introduction to metaphysics",
+          "url": "https://www.youtube.com/watch?v=ksUYxdX8PRg",
+          "fx": -47.82401315789491,
+          "fy": -89.09868421052624,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "emergence  ️",
+      "url": "/philosophy/philosophy-of-mind/metaphysics/emergence",
+      "fx": 19.566753387451172,
+      "fy": 63.058372497558594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "atomism",
+      "url": "http://www.wikiwand.com/en/Atomism",
+      "fx": -286.6696548461914,
+      "fy": 63.12735176086426,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "monism",
+      "url": "http://www.wikiwand.com/en/Monism",
+      "fx": -856.5443720782279,
+      "fy": 63.51104216595752,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "ontology  ️",
+      "url": "/philosophy/philosophy-of-mind/metaphysics/ontology",
+      "fx": -133.56329917907715,
+      "fy": 64.22986602783203,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "relativism",
+      "url": "http://www.wikiwand.com/en/Relativism",
+      "fx": -706.4698718243743,
+      "fy": 66.41996693972544,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "process philosophy",
+      "url": "http://www.wikiwand.com/en/Process_philosophy",
+      "fx": -537.7567901611328,
+      "fy": 66.81367492675781,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "metaphysics",
+      "target": "basics",
+      "curve": {
+        "x": -11.448,
+        "y": 140.862
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ontology  ️",
+      "curve": {
+        "x": 40.1304,
+        "y": 96.9142
+      }
+    },
+    {
+      "source": "basics",
+      "target": "emergence  ️",
+      "curve": {
+        "x": 122.695,
+        "y": 96.3285
+      }
+    },
+    {
+      "source": "basics",
+      "target": "atomism",
+      "curve": {
+        "x": -55.7148,
+        "y": 86.4942
+      }
+    },
+    {
+      "source": "basics",
+      "target": "process philosophy",
+      "curve": {
+        "x": -155.849,
+        "y": 91.0773
+      }
+    },
+    {
+      "source": "basics",
+      "target": "relativism",
+      "curve": {
+        "x": -269.811,
+        "y": 83.6511
+      }
+    },
+    {
+      "source": "basics",
+      "target": "monism",
+      "curve": {
+        "x": -431.161,
+        "y": 80.9181
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "metaphysics",
+      "curve": {
+        "x": -67.3782,
+        "y": -61.6106
+      }
+    }
+  ],
+  "id": 1342
+}

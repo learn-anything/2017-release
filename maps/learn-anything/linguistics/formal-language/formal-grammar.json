@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - linguistics - formal language - formal grammar",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "formal grammar",
+      "url": "http://www.wikiwand.com/en/Formal_grammar",
+      "fx": 139.2249138944893,
+      "fy": -201.59583063316057,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "context-free grammar  ️",
+      "url": "/linguistics/formal-language/formal-grammar/context-free-grammar",
+      "fx": -87.7682501680107,
+      "fy": -56.400621639785015,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "formal grammar",
+      "target": "context-free grammar  ️",
+      "curve": {
+        "x": -106.997,
+        "y": 71.8476
+      }
+    }
+  ],
+  "id": 711
+}

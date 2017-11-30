@@ -1,0 +1,93 @@
+{
+  "title": "learn anything - network science - computer networking - internet of things",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "internet of things",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Internet_of_things",
+      "fx": -171.95887201010476,
+      "fy": -465.58892726333886,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/IOT/",
+          "fx": 132.04112798989524,
+          "fy": -471.58892726333886,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/HQarroum/awesome-iot",
+          "fx": 132.04112798989524,
+          "fy": -431.58892726333886,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -5.227798327031792,
+      "fy": -331.93184409549485,
+      "nodes": [
+        {
+          "text": "awesome IOT hybrid",
+          "url": "https://github.com/weblancaster/awesome-IoT-hybrid",
+          "fx": 131.7722016729682,
+          "fy": -320.43184409549485,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "communities",
+      "url": "",
+      "fx": -267.44184104993144,
+      "fy": -330.47179105141436,
+      "nodes": []
+    },
+    {
+      "text": "the things network  ️",
+      "url": "/network-science/computer-networking/internet-of-things/the-things-network",
+      "fx": -420.7949066612947,
+      "fy": -198.40498063328744,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "internet of things",
+      "curve": {
+        "x": -55.3656,
+        "y": -66.8285
+      }
+    },
+    {
+      "source": "internet of things",
+      "target": "communities",
+      "curve": {
+        "x": -70.2415,
+        "y": 66.3085
+      }
+    },
+    {
+      "source": "communities",
+      "target": "the things network  ️",
+      "curve": {
+        "x": -63.6765,
+        "y": 66.0334
+      }
+    }
+  ],
+  "id": 1209
+}

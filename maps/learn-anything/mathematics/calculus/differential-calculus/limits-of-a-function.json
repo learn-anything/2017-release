@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - calculus - differential calculus - limits of a function",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "limits of a function",
+      "url": "http://www.wikiwand.com/en/Limit_of_a_function",
+      "fx": 78.73046875,
+      "fy": -102.4140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146.72374770220586,
+      "fy": 18.08992034313735,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=jlLlxgwCt6o",
+          "fx": 309.72374770220586,
+          "fy": 30.58992034313735,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "L’Hopital’s rule  ️",
+      "url": "/mathematics/calculus/differential-calculus/limits-of-a-function/lhopitals-rule",
+      "fx": -15.279833026960773,
+      "fy": 158.05014935661768,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "limits of a function",
+      "target": "basics",
+      "curve": {
+        "x": -2.50336,
+        "y": 59.502
+      }
+    },
+    {
+      "source": "basics",
+      "target": "L’Hopital’s rule  ️",
+      "curve": {
+        "x": -61.7518,
+        "y": 69.9801
+      }
+    }
+  ],
+  "id": 882
+}

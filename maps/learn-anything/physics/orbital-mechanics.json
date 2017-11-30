@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - orbital mechanics",
+  "tag": "orbital mechainics",
+  "nodes": [
+    {
+      "text": "orbital mechanics",
+      "url": "http://www.wikiwand.com/en/Orbital_mechanics",
+      "fx": -35.01021072848391,
+      "fy": 39.540583005050735,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 16.88672668953268,
+      "fy": 167.58280932418694,
+      "nodes": [
+        {
+          "text": "1. kerbal space program",
+          "url": "http://store.steampowered.com/app/220200/Kerbal_Space_Program/",
+          "fx": 198.88672668953268,
+          "fy": 182.08280932418694,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "orbital mechanics",
+      "target": "basics",
+      "curve": {
+        "x": 0.198469,
+        "y": 62.7711
+      }
+    }
+  ],
+  "id": 1501
+}

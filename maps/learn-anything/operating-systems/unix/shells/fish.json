@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - operating systems - unix - shells - fish",
+  "tag": "fish shell",
+  "nodes": [
+    {
+      "text": "fish shell",
+      "note": "",
+      "url": "https://fishshell.com/",
+      "fx": -80.09169591982095,
+      "fy": -416.39089390627,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/fish-shell/fish-shell",
+          "fx": 120.90830408017905,
+          "fy": -424.89089390627,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/jbucaran/awesome-fish",
+          "fx": 120.90830408017905,
+          "fy": -384.89089390627,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -69.27777777777771,
+      "fy": -301.1698908730159,
+      "nodes": [
+        {
+          "text": "1. fish tutorial",
+          "url": "https://fishshell.com/docs/current/tutorial.html",
+          "fx": 86.72222222222229,
+          "fy": -286.6698908730159,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "fish shell",
+      "target": "basics",
+      "curve": {
+        "x": -5.84304,
+        "y": 57.6105
+      }
+    }
+  ],
+  "id": 1304
+}

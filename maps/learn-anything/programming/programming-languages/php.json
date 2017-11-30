@@ -1,0 +1,251 @@
+{
+  "title": "learn anything - programming - programming languages - php",
+  "tag": "php programming language",
+  "nodes": [
+    {
+      "text": "php",
+      "url": "http://www.wikiwand.com/en/PHP",
+      "fx": -147.0060992324561,
+      "fy": -340.2259457236842,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/PHP/",
+          "fx": 15.993900767543892,
+          "fy": -386.2259457236842,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/php/php-src",
+          "fx": 15.993900767543892,
+          "fy": -346.2259457236842,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/php",
+          "fx": 15.993900767543892,
+          "fy": -306.2259457236842,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ziadoz/awesome-php",
+          "fx": 15.993900767543892,
+          "fy": -266.2259457236842,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -144.89453125,
+      "fy": -170.1604187252965,
+      "nodes": [
+        {
+          "text": "1. php the right way",
+          "url": "http://www.phptherightway.com/",
+          "fx": 11.10546875,
+          "fy": -158.6604187252965,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "dependency management",
+      "url": "",
+      "fx": -554.6671602347934,
+      "fy": -113.13047469032949,
+      "nodes": []
+    },
+    {
+      "text": "XHProf",
+      "url": "https://github.com/phacility/xhprof",
+      "fx": 232.9493554656832,
+      "fy": -91.45254042160582,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "debugger",
+      "url": "",
+      "fx": 47.91501116359166,
+      "fy": -70.03566649060713,
+      "nodes": []
+    },
+    {
+      "text": "xDebug",
+      "url": "https://github.com/xdebug/xdebug",
+      "fx": 224.25687542632602,
+      "fy": -10.571721527444652,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "web frameworks",
+      "url": "",
+      "fx": -95.4433484570734,
+      "fy": 9.155673903197567,
+      "nodes": []
+    },
+    {
+      "text": "composer  ️",
+      "url": "/programming/programming-languages/php-/composer",
+      "fx": -664.1871484917406,
+      "fy": 7.753653592107867,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "testing",
+      "url": "",
+      "fx": -230.0008599746168,
+      "fy": 23.129497528075945,
+      "nodes": []
+    },
+    {
+      "text": "CodeIgniter",
+      "url": "https://github.com/bcit-ci/CodeIgniter",
+      "fx": 120.46729480429576,
+      "fy": 120.95147479496143,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "laravel  ️",
+      "url": "/web-development/backend/laravel",
+      "fx": -191.55177911094984,
+      "fy": 124.68996043161701,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "PHPUnit",
+      "url": "https://github.com/sebastianbergmann/phpunit",
+      "fx": -356.1341080402011,
+      "fy": 132.64910489952263,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "symfony  ️",
+      "url": "/programming/programming-languages/php/symfony",
+      "fx": -32.773029971491496,
+      "fy": 173.82949365352522,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "php",
+      "target": "basics",
+      "curve": {
+        "x": -0.694214,
+        "y": 83.7825
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dependency management",
+      "curve": {
+        "x": -178.386,
+        "y": 28.515
+      }
+    },
+    {
+      "source": "dependency management",
+      "target": "composer  ️",
+      "curve": {
+        "x": -72.76,
+        "y": 60.4421
+      }
+    },
+    {
+      "source": "basics",
+      "target": "debugger",
+      "curve": {
+        "x": 103.905,
+        "y": 50.0624
+      }
+    },
+    {
+      "source": "debugger",
+      "target": "xDebug",
+      "curve": {
+        "x": 83.9209,
+        "y": 29.732
+      }
+    },
+    {
+      "source": "debugger",
+      "target": "XHProf",
+      "curve": {
+        "x": 86.5172,
+        "y": -10.7084
+      }
+    },
+    {
+      "source": "basics",
+      "target": "web frameworks",
+      "curve": {
+        "x": 47.9756,
+        "y": 89.658
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "laravel  ️",
+      "curve": {
+        "x": -71.5542,
+        "y": 57.7672
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "symfony  ️",
+      "curve": {
+        "x": 19.8352,
+        "y": 83.5869
+      }
+    },
+    {
+      "source": "basics",
+      "target": "testing",
+      "curve": {
+        "x": -41.8032,
+        "y": 96.645
+      }
+    },
+    {
+      "source": "testing",
+      "target": "PHPUnit",
+      "curve": {
+        "x": -51.8166,
+        "y": 56.0098
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "CodeIgniter",
+      "curve": {
+        "x": 125.374,
+        "y": 48.7181
+      }
+    }
+  ],
+  "id": 1630
+}

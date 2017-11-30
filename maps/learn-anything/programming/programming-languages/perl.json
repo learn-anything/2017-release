@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - programming - programming languages - perl",
+  "tag": "perl programming language",
+  "nodes": [
+    {
+      "text": "perl",
+      "url": "http://www.wikiwand.com/en/Perl",
+      "fx": -75.26850032806396,
+      "fy": -209.75445175170898,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/perl/",
+          "fx": 85.73149967193604,
+          "fy": -255.75445175170898,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/Perl/perl5",
+          "fx": 85.73149967193604,
+          "fy": -215.75445175170898,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/perl",
+          "fx": 85.73149967193604,
+          "fy": -175.75445175170898,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/hachiojipm/awesome-perl",
+          "fx": 85.73149967193604,
+          "fy": -135.75445175170898,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 3.0737827434096516,
+      "fy": -86.46310145355926,
+      "nodes": [
+        {
+          "text": "perl tutorials",
+          "url": "https://learn.perl.org/tutorials/",
+          "fx": 140.07378274340965,
+          "fy": -71.96310145355926,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -86.21311773255854,
+      "fy": 16.061349321694024,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "http://perldoc.perl.org/perlintro.html",
+          "fx": 95.78688226744146,
+          "fy": 10.561349321694024,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. modern perl",
+          "url": "http://modernperlbooks.com/books/modern_perl_2016/index.html",
+          "fx": 95.78688226744146,
+          "fy": 44.561349321694024,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "perl",
+      "curve": {
+        "x": -33.1711,
+        "y": -60.3956
+      }
+    },
+    {
+      "source": "perl",
+      "target": "basics",
+      "curve": {
+        "x": -13.2223,
+        "y": 111.658
+      }
+    }
+  ],
+  "id": 1627
+}

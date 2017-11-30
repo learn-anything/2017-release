@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - euclidean space - affine space - convex sets",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "convex sets",
+      "url": "http://www.wikiwand.com/en/Convex_set",
+      "fx": 22.296875,
+      "fy": -396.55078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 55.51594716495015,
+      "fy": -239.22084407218807,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=VcTIOQpRG1o",
+          "fx": 218.51594716495015,
+          "fy": -226.72084407218807,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "convex sets",
+      "target": "basics",
+      "curve": {
+        "x": -5.14046,
+        "y": 77.915
+      }
+    }
+  ],
+  "id": 941
+}

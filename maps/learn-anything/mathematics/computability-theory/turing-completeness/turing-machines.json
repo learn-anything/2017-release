@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - computability theory - turing completeness - turing machines",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "turing machines",
+      "url": "http://www.wikiwand.com/en/Turing_machine",
+      "fx": -100.234375,
+      "fy": -150.12890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -45,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=dNRDvLACg5Q&amp;t=2s",
+          "fx": 111,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "neural turing machines  ️",
+      "url": "/mathematics/computability-theory/turing-completeness/turing-machines/neural-turing-machines",
+      "fx": -222.43540051679588,
+      "fy": 124.7157622738905,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "turing machines",
+      "target": "basics",
+      "curve": {
+        "x": -1.13281,
+        "y": 72.8145
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neural turing machines  ️",
+      "curve": {
+        "x": -51.9677,
+        "y": 63.3579
+      }
+    }
+  ],
+  "id": 925
+}

@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - web development - browsers - v8",
+  "tag": "v8 javascript engine",
+  "nodes": [
+    {
+      "text": "chrome v8",
+      "url": "http://www.wikiwand.com/en/Chrome_V8",
+      "fx": -21.740737275449078,
+      "fy": -99.17713791167665,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 110.31016092814264,
+      "fy": 8.171032934124355,
+      "nodes": [
+        {
+          "text": "awesome v8",
+          "url": "https://github.com/stevemao/awesome-v8",
+          "fx": 247.31016092814264,
+          "fy": 2.671032934124355,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "ignition: an interpreter for v8",
+          "url": "https://docs.google.com/presentation/d/1OqjVqRhtwlKeKfvMdX6HaCIu9wpZsrzqpIVIwQSuiXQ/edit#slide=id.g1453eb7f19_0_10",
+          "fx": 247.31016092814264,
+          "fy": 42.671032934124355,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 6.174827273890742,
+      "fy": 118.54800992803126,
+      "nodes": [
+        {
+          "text": "1. how the V8 engine works  ️",
+          "url": "http://thibaultlaurens.github.io/javascript/2013/04/29/how-the-v8-engine-works",
+          "fx": 188.17482727389074,
+          "fy": 110.04800992803126,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. javascript start-up performance  ️",
+          "url": "https://medium.com/reloading/javascript-start-up-performance-69200f43b201",
+          "fx": 188.17482727389074,
+          "fy": 150.04800992803126,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "chrome v8",
+      "target": "basics",
+      "curve": {
+        "x": -2.79222,
+        "y": 107.613
+      }
+    },
+    {
+      "source": "help",
+      "target": "chrome v8",
+      "curve": {
+        "x": -44.5254,
+        "y": -52.4241
+      }
+    }
+  ],
+  "id": 1858
+}

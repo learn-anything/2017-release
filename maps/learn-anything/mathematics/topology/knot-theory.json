@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - topology - knot theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "knot theory",
+      "url": "http://www.wikiwand.com/en/Knot_theory",
+      "fx": -101.61328125,
+      "fy": -128.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -83.73046875,
+      "fy": 29.83984375,
+      "nodes": [
+        {
+          "text": "1. introduction to knot theory",
+          "url": "http://www.math.uconn.edu/~giambrone/mathclub.pdf",
+          "fx": 98.26953125,
+          "fy": 2.33984375,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. the knot book: an elementary introduction to the mathematical theory of knots",
+          "url": "http://www.goodreads.com/book/show/1795589.The_Knot_Book",
+          "fx": 98.26953125,
+          "fy": 36.33984375,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "knot theory",
+      "target": "basics",
+      "curve": {
+        "x": -9.30859,
+        "y": 78.0176
+      }
+    }
+  ],
+  "id": 1138
+}

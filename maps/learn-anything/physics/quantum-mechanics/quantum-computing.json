@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum computing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum computing",
+      "url": "http://www.wikiwand.com/en/Quantum_computing",
+      "fx": 210.41871279761892,
+      "fy": -321.36514136904765,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 212.49124609828698,
+      "fy": -99.41092298199771,
+      "nodes": [
+        {
+          "text": "1. Shor, I’ll do it  ️",
+          "url": "http://www.scottaaronson.com/blog/?p=208",
+          "fx": 394.491246098287,
+          "fy": -200.91092298199771,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. quantum computers explained – limits of human technology",
+          "url": "https://www.youtube.com/watch?v=JhHMJCUmq28",
+          "fx": 394.491246098287,
+          "fy": -160.91092298199771,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. an introduction to quantum computing, without the physics",
+          "url": "https://arxiv.org/abs/1708.03684",
+          "fx": 394.491246098287,
+          "fy": -98.91092298199771,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. quantum computing since Democritus",
+          "url": "http://www.scottaaronson.com/democritus/default.html",
+          "fx": 394.491246098287,
+          "fy": -36.910922981997714,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. quantum computation",
+          "url": "https://ocw.mit.edu/courses/mathematics/18-435j-quantum-computation-fall-2003/",
+          "fx": 394.491246098287,
+          "fy": 25.089077018002286,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Holevo's theorem",
+      "url": "http://www.wikiwand.com/en/Holevo%27s_theorem",
+      "fx": 45.31636458748801,
+      "fy": 84.2181563023031,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum computing",
+      "target": "basics",
+      "curve": {
+        "x": -37.4638,
+        "y": 109.727
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Holevo's theorem",
+      "curve": {
+        "x": -64.5874,
+        "y": 91.8145
+      }
+    }
+  ],
+  "id": 1522
+}

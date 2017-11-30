@@ -1,0 +1,70 @@
+{
+  "title": "learn anything - programming - programming languages - matlab",
+  "tag": "matlab programming language",
+  "nodes": [
+    {
+      "text": "matlab",
+      "url": "http://www.wikiwand.com/en/MATLAB",
+      "fx": -83.8984375,
+      "fy": -248.4609375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/matlab/",
+          "fx": 105.1015625,
+          "fy": -234.4609375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -71.44921875,
+      "fy": -100.88671875,
+      "nodes": [
+        {
+          "text": "1. introduction to matlab programming",
+          "url": "https://ocw.mit.edu/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/index.htm",
+          "fx": 110.55078125,
+          "fy": -148.38671875,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1.  matlab  in 2 hours",
+          "url": "https://matlabacademy.mathworks.com/R2016b/portal.html?course=gettingstarted&amp;s_cid=learn_ONRAMP_BAN",
+          "fx": 110.55078125,
+          "fy": -86.38671875,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. matlab programming for engineers",
+          "url": "http://www.goodreads.com/book/show/4419119-matlab-programming-for-engineers",
+          "fx": 110.55078125,
+          "fy": -52.38671875,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "matlab",
+      "target": "basics",
+      "curve": {
+        "x": -2.02539,
+        "y": 72.5371
+      }
+    }
+  ],
+  "id": 1620
+}

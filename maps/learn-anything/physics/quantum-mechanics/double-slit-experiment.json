@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - quantum mechanics - double-slit experiment",
+  "tag": "double-slit experiment",
+  "nodes": [
+    {
+      "text": "double-slit experiment",
+      "url": "http://www.wikiwand.com/en/Double-slit_experiment",
+      "fx": 71.04296875,
+      "fy": -215.14550781250006,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 159.88145616319446,
+      "fy": -70.15644892942862,
+      "nodes": [
+        {
+          "text": "1. the quantum experiment that broke reality",
+          "url": "https://www.youtube.com/watch?v=p-MNSLsjjdo",
+          "fx": 322.88145616319446,
+          "fy": -91.15644892942862,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. single photon interference",
+          "url": "https://www.youtube.com/watch?v=GzbKb59my3U&amp;t=210s",
+          "fx": 322.88145616319446,
+          "fy": -24.15644892942862,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "double-slit experiment",
+      "target": "basics",
+      "curve": {
+        "x": -2.08076,
+        "y": 71.7445
+      }
+    }
+  ],
+  "id": 1521
+}

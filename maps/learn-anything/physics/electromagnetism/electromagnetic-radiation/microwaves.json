@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - microwaves",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "microwaves",
+      "url": "http://www.wikiwand.com/en/Microwave",
+      "fx": 308.49609375,
+      "fy": -34.75,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 459.0083999633789,
+      "fy": 58.82383918762207,
+      "nodes": [
+        {
+          "text": "askscience: microwaves",
+          "url": "https://www.reddit.com/r/askscience/search?q=microwaves&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 650.0083999633789,
+          "fy": 70.32383918762207,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 346.01737293287385,
+      "fy": 161.87545598243872,
+      "nodes": [
+        {
+          "text": "1. why are radio frequencies split into radio waves and microwaves?",
+          "url": "https://www.reddit.com/r/askscience/comments/445uqi/why_are_radio_frequencies_split_into_radio_waves/",
+          "fx": 502.01737293287385,
+          "fy": 162.37545598243872,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "microwaves",
+      "curve": {
+        "x": -64.2562,
+        "y": -45.5369
+      }
+    },
+    {
+      "source": "microwaves",
+      "target": "basics",
+      "curve": {
+        "x": -0.98936,
+        "y": 97.0627
+      }
+    }
+  ],
+  "id": 1430
+}

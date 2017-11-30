@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - radio waves",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "radio waves",
+      "url": "http://www.wikiwand.com/en/Radio_wave",
+      "fx": -5.5234375,
+      "fy": -314.03125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 28.52448855525995,
+      "fy": -169.12770295033613,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=sRX2EY5Ubto",
+          "fx": 191.52448855525995,
+          "fy": -156.62770295033613,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "radio waves",
+      "target": "basics",
+      "curve": {
+        "x": -4.47604,
+        "y": 71.7018
+      }
+    }
+  ],
+  "id": 1431
+}

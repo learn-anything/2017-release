@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups - group theory - lie groups",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lie groups",
+      "url": "http://www.wikiwand.com/en/Lie_group",
+      "fx": -59.31672194600105,
+      "fy": -175.44662857055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -59.42569674404672,
+      "fy": -31.50137209774823,
+      "nodes": [
+        {
+          "text": "1. introduction to lie groups and lie algebras",
+          "url": "http://www.math.stonybrook.edu/~kirillov/liegroups/liegroups.pdf",
+          "fx": 122.57430325595328,
+          "fy": -82.00137209774823,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. lie groups - an approach through invariants and representations",
+          "url": "https://books.google.nl/books?id=Sl8OAGYRz_AC&amp;dq=Procesi+Lie+groups&amp;printsec=frontcover&amp;source=bl&amp;ots=8LwROHsMyF&amp;sig=HUTjse0dj6r2K-CcAFjteYyTwD0&amp;hl=en&amp;ei=uabnSuPNF4H2sgOd96ybBQ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;redir_esc=y#v=onepage&amp;q&amp;f=false",
+          "fx": 122.57430325595328,
+          "fy": -20.00137209774823,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. lie groups and lie algebras",
+          "url": "https://www.youtube.com/watch?v=q1riFCCsUU4",
+          "fx": 122.57430325595328,
+          "fy": 41.99862790225177,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "lie algebra  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory/lie-groups/lie-algebra",
+      "fx": -148.07998807944796,
+      "fy": 106.01519080775552,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "lie groups",
+      "target": "basics",
+      "curve": {
+        "x": -14.8045,
+        "y": 70.7226
+      }
+    },
+    {
+      "source": "basics",
+      "target": "lie algebra  ️",
+      "curve": {
+        "x": -42.3271,
+        "y": 68.7583
+      }
+    }
+  ],
+  "id": 820
+}

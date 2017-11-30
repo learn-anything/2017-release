@@ -1,0 +1,103 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - galois theory",
+  "tag": "Galois theory",
+  "nodes": [
+    {
+      "text": "Galois theory",
+      "url": "http://www.wikiwand.com/en/Galois_theory",
+      "fx": -116.53942087155951,
+      "fy": -79.30393491972484,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -90.1135321100918,
+      "fy": 179.36098767201838,
+      "nodes": [
+        {
+          "text": "1. Galois: biography of a great thinker",
+          "url": "https://www.youtube.com/watch?v=Mc0bvea6G3I",
+          "fx": 72.8864678899082,
+          "fy": 74.36098767201838,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "1. Galois theory for beginners",
+          "url": "http://www.math.jhu.edu/~smahanta/Teaching/Spring10/Stillwell.pdf",
+          "fx": 72.8864678899082,
+          "fy": 141.36098767201838,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=cxNq-hQwvn0",
+          "fx": 72.8864678899082,
+          "fy": 183.36098767201838,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Galois theory in 1500 words  ️",
+          "url": "http://www.tinyepiphany.com/2011/12/galois-theory-in-1500-words.html",
+          "fx": 72.8864678899082,
+          "fy": 225.36098767201838,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. what is Galois theory  ️",
+          "url": "http://www.math3ma.com/mathema/2015/8/31/what-is-galois-theory-anyway",
+          "fx": 72.8864678899082,
+          "fy": 267.3609876720184,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. the revolutionary Galois theory  ️",
+          "url": "http://www.science4all.org/article/galois-theory/",
+          "fx": 72.8864678899082,
+          "fy": 309.3609876720184,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fundamental  theorem of Galois theory",
+      "url": "http://www.wikiwand.com/en/Fundamental_theorem_of_Galois_theory",
+      "fx": -301.00301932367154,
+      "fy": 444.46893399003613,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Galois theory",
+      "target": "basics",
+      "curve": {
+        "x": -9.28706,
+        "y": 128.082
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fundamental  theorem of Galois theory",
+      "curve": {
+        "x": -59.4447,
+        "y": 139.804
+      }
+    }
+  ],
+  "id": 830
+}

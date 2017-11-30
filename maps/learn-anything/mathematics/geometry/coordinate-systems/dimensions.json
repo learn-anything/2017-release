@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - mathematics - geometry - coordinate systems - dimensions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "dimensions",
+      "url": "http://www.wikiwand.com/en/Dimension",
+      "fx": 170.12109375,
+      "fy": -250.91796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 205.50000000000512,
+      "fy": -68.6958476027284,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=f3FGMJ6TNF0",
+          "fx": 368.5000000000051,
+          "fy": -131.6958476027284,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. Carl Sagan describes 4th dimension",
+          "url": "https://www.youtube.com/watch?v=N0WjV6MmCyM",
+          "fx": 368.5000000000051,
+          "fy": -89.6958476027284,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. extra dimensions",
+          "url": "https://www.youtube.com/watch?v=75p6_pQ3jBo",
+          "fx": 368.5000000000051,
+          "fy": -22.695847602728406,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. the sixth dimension",
+          "url": "https://www.youtube.com/watch?v=O4eXU8VHM2g",
+          "fx": 368.5000000000051,
+          "fy": 19.304152397271594,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dimensions",
+      "target": "basics",
+      "curve": {
+        "x": -2.56054,
+        "y": 90.3611
+      }
+    }
+  ],
+  "id": 936
+}

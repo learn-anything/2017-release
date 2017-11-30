@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - geometry - spheres",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spheres",
+      "url": "http://www.wikiwand.com/en/Sphere",
+      "fx": 85.53929227941171,
+      "fy": -81.64485777863777,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 188.88034539473688,
+      "fy": 31.522615131579016,
+      "nodes": [
+        {
+          "text": "how to turn a sphere inside out",
+          "url": "https://www.youtube.com/watch?v=R_w4HYXuo9M&amp;feature=related",
+          "fx": 387.8803453947369,
+          "fy": 44.022615131579016,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "3-spheres  ️",
+      "url": "/mathematics/geometry/spheres/3-spheres",
+      "fx": -66.67647058823343,
+      "fy": 68.30882352937817,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "spheres",
+      "target": "3-spheres  ️",
+      "curve": {
+        "x": -78.6079,
+        "y": 74.2268
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "spheres",
+      "curve": {
+        "x": -48.9205,
+        "y": -55.8337
+      }
+    }
+  ],
+  "id": 962
+}

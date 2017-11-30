@@ -1,0 +1,97 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - transformations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "transformations",
+      "url": "http://www.wikiwand.com/en/Transformation_(function)",
+      "fx": 22.450321992009663,
+      "fy": -441.7918312893595,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "affine transformation  ️",
+      "url": "/mathematics/algebra/functions/transformations/affine-transformations",
+      "fx": -167.56857299804688,
+      "fy": -284.7597351074219,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "reflections",
+      "url": "http://www.wikiwand.com/en/Reflection_(mathematics)",
+      "fx": 91.5234260559082,
+      "fy": -284.40802001953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "linear transformation  ️",
+      "url": "/mathematics/algebra/functions/transformations/linear-transformations",
+      "fx": 436.7526168823242,
+      "fy": -284.37769317626953,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rotation",
+      "url": "http://www.wikiwand.com/en/Rotation_(mathematics)",
+      "fx": -325.8185905513907,
+      "fy": -283.605903338669,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "translations",
+      "url": "http://www.wikiwand.com/en/Translation_(geometry)",
+      "fx": 258.62144470214844,
+      "fy": -282.87765884399414,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "transformations",
+      "target": "affine transformation  ️",
+      "curve": {
+        "x": -91.5094,
+        "y": 77.266
+      }
+    },
+    {
+      "source": "transformations",
+      "target": "reflections",
+      "curve": {
+        "x": 15.0366,
+        "y": 77.4419
+      }
+    },
+    {
+      "source": "transformations",
+      "target": "translations",
+      "curve": {
+        "x": 101.586,
+        "y": 78.2071
+      }
+    },
+    {
+      "source": "transformations",
+      "target": "rotation",
+      "curve": {
+        "x": -233.777,
+        "y": 53.5449
+      }
+    },
+    {
+      "source": "transformations",
+      "target": "linear transformation  ️",
+      "curve": {
+        "x": 243.511,
+        "y": 75.1074
+      }
+    }
+  ],
+  "id": 846
+}

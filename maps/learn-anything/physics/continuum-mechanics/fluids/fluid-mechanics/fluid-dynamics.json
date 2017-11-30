@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - physics - continuum mechanics - fluids - fluid mechanics - fluid dynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fluid dynamics",
+      "url": "http://www.wikiwand.com/en/Fluid_dynamics",
+      "fx": 29.71991785465036,
+      "fy": -388.72637189961046,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 173.01065758590767,
+      "fy": -272.55335191565763,
+      "nodes": [
+        {
+          "text": "can the equations of fluid dynamics be used to describe/model the flow of electrons?",
+          "url": "",
+          "fx": 372.01065758590767,
+          "fy": -285.05335191565763,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 78.34606046365923,
+      "fy": -158.1942355889725,
+      "nodes": [
+        {
+          "text": "1. fluid mechanics by Frank White",
+          "url": "https://www.goodreads.com/book/show/191681.Fluid_Mechanics",
+          "fx": 241.34606046365923,
+          "fy": -158.1942355889725,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "cnoidal waves",
+      "url": "http://www.wikiwand.com/en/Cnoidal_wave",
+      "fx": -185.28989604654362,
+      "fy": 17.532989441438588,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "fluid dynamics",
+      "curve": {
+        "x": -53.3954,
+        "y": -57.3365
+      }
+    },
+    {
+      "source": "fluid dynamics",
+      "target": "basics",
+      "curve": {
+        "x": -2.93693,
+        "y": 114.516
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cnoidal waves",
+      "curve": {
+        "x": -107.568,
+        "y": 88.6136
+      }
+    }
+  ],
+  "id": 1407
+}

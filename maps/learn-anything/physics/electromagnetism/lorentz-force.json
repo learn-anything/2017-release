@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - physics - electromagnetism - lorentz force",
+  "tag": "Lorentz force",
+  "nodes": [
+    {
+      "text": "Lorentz force",
+      "url": "http://www.wikiwand.com/en/Lorentz_force",
+      "fx": -18.1598127365113,
+      "fy": -100.41251175403596,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 163.98153409090924,
+      "fy": 0.045738636363580554,
+      "nodes": [
+        {
+          "text": "a magnet's fall slowed by Lorentz forces from a copper pipe",
+          "url": "http://i.imgur.com/NqloZbV.gif",
+          "fx": 354.98153409090924,
+          "fy": -30.45426136363642,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "this motor is driven by the lorentz force",
+          "url": "https://66.media.tumblr.com/77c85a1821caef704bfcf28d6d7b2b4c/tumblr_oc44c9Uiz71tedol3o1_500.gif",
+          "fx": 354.98153409090924,
+          "fy": 31.54573863636358,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 26.205468750000023,
+      "fy": 131.91953124999998,
+      "nodes": [
+        {
+          "text": "1. what is Lorentz force",
+          "url": "https://www.youtube.com/watch?v=gINzRCOOs-8",
+          "fx": 182.20546875000002,
+          "fy": 143.41953124999998,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Maxwell’s equations  ️",
+      "url": "/physics/electromagnetism/lorentz-force/maxwells-equations",
+      "fx": -99.208984375,
+      "fy": 284.3671875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "Lorentz force",
+      "curve": {
+        "x": -77.3207,
+        "y": -48.9791
+      }
+    },
+    {
+      "source": "Lorentz force",
+      "target": "basics",
+      "curve": {
+        "x": -0.317359,
+        "y": 114.916
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Maxwell’s equations  ️",
+      "curve": {
+        "x": -31.9572,
+        "y": 76.2238
+      }
+    }
+  ],
+  "id": 1435
+}

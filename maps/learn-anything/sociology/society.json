@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - sociology - society",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "society",
+      "note": "is a group of people involved in persistent social interaction, or a large social grouping sharing the same geographical or social territory, typically subject to the same political authority and dominant cultural expectations  they are characterised by patterns of relationships (social relations) between individuals who share a distinctive culture and institutions",
+      "url": "http://www.wikiwand.com/en/Society",
+      "fx": -58.477571980337075,
+      "fy": -207.98652563202245,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 93.45689957865386,
+      "fy": -36.079617275328246,
+      "nodes": [
+        {
+          "text": "escape to another world  ️",
+          "url": "https://www.1843magazine.com/features/escape-to-another-world",
+          "fx": 292.45689957865386,
+          "fy": -90.57961727532825,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "Alan Watts -  how society keeps tricking you",
+          "url": "https://www.youtube.com/watch?v=7ly9xssV9UM",
+          "fx": 292.45689957865386,
+          "fy": -48.579617275328246,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "Alan Watts - escape societies brainwashing",
+          "url": "https://www.youtube.com/watch?v=rXcwotCqLkw",
+          "fx": 292.45689957865386,
+          "fy": 18.420382724671754,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "society",
+      "curve": {
+        "x": -69.2172,
+        "y": -85.2035
+      }
+    }
+  ],
+  "id": 1789
+}

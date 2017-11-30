@@ -1,0 +1,171 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "matrices",
+      "url": "http://www.wikiwand.com/en/Matrix_(mathematics)",
+      "fx": 104.91853044696552,
+      "fy": -168.22177632927833,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 230.78225806451667,
+      "fy": -67.77570564516122,
+      "nodes": [
+        {
+          "text": "matrix multiplication",
+          "url": "http://matrixmultiplication.xyz/",
+          "fx": 371.78225806451667,
+          "fy": -55.275705645161224,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 52.89407692411908,
+      "fy": 36.49826635435278,
+      "nodes": [
+        {
+          "text": "1. intro to matrices",
+          "url": "http://immersivemath.com/ila/ch06_matrices/ch06.html",
+          "fx": 215.89407692411908,
+          "fy": 30.49826635435278,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the matrix cookbook",
+          "url": "http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf",
+          "fx": 215.89407692411908,
+          "fy": 72.49826635435278,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "transpose  ️",
+      "url": "/mathematics/linear-algebra/matrices/transpose",
+      "fx": -1120.0707994794052,
+      "fy": 167.62561051990645,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "matrix factorisation  ️",
+      "url": "/mathematics/linear-algebra/matrices/matrix-factorisation",
+      "fx": -150.62948894500732,
+      "fy": 167.77673721313477,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rank  ️",
+      "url": "/mathematics/linear-algebra/matrices/rank",
+      "fx": -276.4075760983658,
+      "fy": 168.23416179337244,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "determinants  ️",
+      "url": "/mathematics/linear-algebra/matrices/determinants",
+      "fx": 111.52043151855469,
+      "fy": 168.96657943725586,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "matrix multiplication  ️",
+      "url": "/mathematics/linear-algebra/matrices/matrix-multiplication",
+      "fx": -938.9062500000048,
+      "fy": 169.0703124999934,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "singular value decomposition  ️",
+      "url": "/mathematics/linear-algebra/matrices/singular-value-decomposition",
+      "fx": -664.5585764801671,
+      "fy": 169.87828453626992,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "matrices",
+      "target": "basics",
+      "curve": {
+        "x": -32.7622,
+        "y": 101.109
+      }
+    },
+    {
+      "source": "basics",
+      "target": "matrix factorisation  ️",
+      "curve": {
+        "x": -66.2618,
+        "y": 66.8893
+      }
+    },
+    {
+      "source": "help",
+      "target": "matrices",
+      "curve": {
+        "x": -46.1819,
+        "y": -48.973
+      }
+    },
+    {
+      "source": "basics",
+      "target": "determinants  ️",
+      "curve": {
+        "x": 44.3131,
+        "y": 66.2342
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rank  ️",
+      "curve": {
+        "x": -220.721,
+        "y": 41.7338
+      }
+    },
+    {
+      "source": "basics",
+      "target": "singular value decomposition  ️",
+      "curve": {
+        "x": -350.732,
+        "y": 37.031
+      }
+    },
+    {
+      "source": "basics",
+      "target": "matrix multiplication  ️",
+      "curve": {
+        "x": -542.963,
+        "y": 2.69227
+      }
+    },
+    {
+      "source": "basics",
+      "target": "transpose  ️",
+      "curve": {
+        "x": -757.142,
+        "y": -9.98531
+      }
+    }
+  ],
+  "id": 983
+}

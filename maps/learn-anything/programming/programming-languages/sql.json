@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - programming - programming languages - sql",
+  "tag": "SQL",
+  "nodes": [
+    {
+      "text": "SQL",
+      "url": "http://www.wikiwand.com/en/SQL",
+      "fx": -50.005580357142776,
+      "fy": -148.14940137987008,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/SQL/",
+          "fx": 116.99441964285722,
+          "fy": -154.14940137987008,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/danhuss/awesome-sql",
+          "fx": 116.99441964285722,
+          "fy": -114.14940137987008,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -59.71877904236317,
+      "fy": -13.94272232055664,
+      "nodes": [
+        {
+          "text": "1. SQL the hard way",
+          "url": "https://learncodethehardway.org/sql/",
+          "fx": 122.28122095763683,
+          "fy": -19.44272232055664,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. SQL tutorial",
+          "url": "https://community.modeanalytics.com/sql/tutorial/introduction-to-sql/",
+          "fx": 122.28122095763683,
+          "fy": 20.55727767944336,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "SQL injections  ️",
+      "url": "/programming/programming-languages/sql/sql-injections",
+      "fx": -187.10001843657813,
+      "fy": 110.58559181414637,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "SQL",
+      "target": "basics",
+      "curve": {
+        "x": -7.6066,
+        "y": 65.8534
+      }
+    },
+    {
+      "source": "basics",
+      "target": "SQL injections  ️",
+      "curve": {
+        "x": -49.4406,
+        "y": 62.2642
+      }
+    }
+  ],
+  "id": 1653
+}

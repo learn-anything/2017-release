@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - condensed matter physics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "condensed matter physics",
+      "url": "http://www.wikiwand.com/en/Condensed_matter_physics",
+      "fx": -277.72184619815664,
+      "fy": -32.5047523041475,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -177.11693548387075,
+      "fy": 119.95283698158033,
+      "nodes": [
+        {
+          "text": "1. so close and such a stranger: documentary about condensed matter physics",
+          "url": "https://www.youtube.com/watch?v=3De1rLxvzyU",
+          "fx": -21.116935483870748,
+          "fy": 78.45283698158033,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. principles of condensed matter physics",
+          "url": "http://www.dsf.unica.it/~fiore/libricorsoptr/Chaikin%20Lubensky%20-%20Principles%20of%20Condensed%20Matter%20Physics.jb2.pdf",
+          "fx": -21.116935483870748,
+          "fy": 162.45283698158033,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "solid-state physics  ️",
+      "url": "/physics/condensed-matter-physics/solid-state-physics",
+      "fx": -265.98827830227935,
+      "fy": 268.42259516860486,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "condensed matter physics",
+      "target": "basics",
+      "curve": {
+        "x": -2.44754,
+        "y": 74.9788
+      }
+    },
+    {
+      "source": "basics",
+      "target": "solid-state physics  ️",
+      "curve": {
+        "x": -9.68565,
+        "y": 75.4848
+      }
+    }
+  ],
+  "id": 1406
+}

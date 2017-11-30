@@ -1,0 +1,119 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - nixos",
+  "tag": "nixOS distro",
+  "nodes": [
+    {
+      "text": "nixOS",
+      "url": "https://nixos.org/",
+      "fx": 87.69709186537659,
+      "fy": -131.61552884743884,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/NixOS/",
+          "fx": 240.6970918653766,
+          "fy": -160.11552884743884,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/NixOS",
+          "fx": 240.6970918653766,
+          "fy": -120.11552884743884,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/jhedev/awesome-nix",
+          "fx": 240.6970918653766,
+          "fy": -80.11552884743884,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 172.1886695359285,
+      "fy": 5.569486027944151,
+      "nodes": [
+        {
+          "text": "16: introduction to NixOS",
+          "url": "https://www.youtube.com/watch?v=VivXSoovUFI",
+          "fx": 312.1886695359285,
+          "fy": 17.06948602794415,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 49.350542360121835,
+      "fy": 136.27936162597945,
+      "nodes": [
+        {
+          "text": "1. about nixOS",
+          "url": "https://nixos.org/nixos/about.html",
+          "fx": 231.35054236012184,
+          "fy": 130.77936162597945,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. installing nixOS  ️",
+          "url": "https://chris-martin.org/2015/installing-nixos",
+          "fx": 231.35054236012184,
+          "fy": 164.77936162597945,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "nix packages",
+      "url": "https://github.com/NixOS/nixpkgs",
+      "fx": -75.57467710854905,
+      "fy": 278.23408037648005,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "nixOS",
+      "target": "basics",
+      "curve": {
+        "x": -25.4233,
+        "y": 132.697
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nix packages",
+      "curve": {
+        "x": -46.4626,
+        "y": 72.2274
+      }
+    },
+    {
+      "source": "talks",
+      "target": "nixOS",
+      "curve": {
+        "x": -38.9958,
+        "y": -68.5925
+      }
+    }
+  ],
+  "id": 1288
+}

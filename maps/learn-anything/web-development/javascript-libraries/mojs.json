@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - javascript libraries - mojs",
+  "tag": "mojs motion graphics library",
+  "nodes": [
+    {
+      "text": "mojs",
+      "url": "http://mojs.io/",
+      "fx": -33.16796875,
+      "fy": -121.984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/legomushroom/mojs",
+          "fx": 108.83203125,
+          "fy": -110.484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "http://mojs.io/tutorials/shape/",
+          "fx": 109.5,
+          "fy": 12.5,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mojs",
+      "target": "basics",
+      "curve": {
+        "x": -3.16602,
+        "y": 59.9922
+      }
+    }
+  ],
+  "id": 1895
+}

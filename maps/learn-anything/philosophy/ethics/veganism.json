@@ -1,0 +1,89 @@
+{
+  "title": "learn anything - philosophy - ethics - veganism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "veganism",
+      "url": "http://www.wikiwand.com/en/Veganism",
+      "fx": -98.00390625,
+      "fy": -312.86328125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/vegan/",
+          "fx": 114.99609375,
+          "fy": -298.86328125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -130.9934019952491,
+      "fy": -81.8903180412496,
+      "nodes": [
+        {
+          "text": "1. adhguru -   don’t be identified as a vegan or vegetarian",
+          "url": "https://www.youtube.com/watch?v=sv6DlBMPMw4",
+          "fx": 51.00659800475091,
+          "fy": -183.3903180412496,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. go vegan for life: yours, theirs, and ours",
+          "url": "https://sunaku.github.io/vegan-for-life.html#whats-this-about",
+          "fx": 51.00659800475091,
+          "fy": -121.3903180412496,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. earthlings",
+          "url": "http://www.nationearth.com/",
+          "fx": 51.00659800475091,
+          "fy": -59.3903180412496,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. Food, Inc",
+          "url": "https://letterboxd.com/film/food-inc/",
+          "fx": 51.00659800475091,
+          "fy": -19.3903180412496,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. advice for new vegans (B12, protein and more)",
+          "url": "https://www.youtube.com/watch?v=OGoZ-oJjy7U",
+          "fx": 51.00659800475091,
+          "fy": 20.6096819587504,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "veganism",
+      "target": "basics",
+      "curve": {
+        "x": -30.7447,
+        "y": 114.237
+      }
+    }
+  ],
+  "id": 1322
+}

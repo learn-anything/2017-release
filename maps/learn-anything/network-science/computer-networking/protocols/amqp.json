@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - amqp",
+  "tag": "AMQP protocol",
+  "nodes": [
+    {
+      "text": "Advanced Message Queuing Protocol",
+      "url": "http://www.wikiwand.com/en/Advanced_Message_Queuing_Protocol",
+      "fx": -34.92578125,
+      "fy": -252.171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 164.5234375000001,
+      "fy": -102.912590579675,
+      "nodes": [
+        {
+          "text": "AMQP spec",
+          "url": "https://www.rabbitmq.com/resources/specs/amqp0-9.pdf",
+          "fx": 301.5234375000001,
+          "fy": -88.412590579675,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "RabbitMQ  ️",
+      "url": "/network-science/computer-networking/protocols/amqp/rabbitmq",
+      "fx": -111.17959872159088,
+      "fy": -51.536487926136374,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "Advanced Message Queuing Protocol",
+      "curve": {
+        "x": -42.7246,
+        "y": -67.1296
+      }
+    },
+    {
+      "source": "Advanced Message Queuing Protocol",
+      "target": "RabbitMQ  ️",
+      "curve": {
+        "x": -74.6269,
+        "y": 94.0677
+      }
+    }
+  ],
+  "id": 1214
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum field theory - fields",
+  "tag": "fields in physics",
+  "nodes": [
+    {
+      "text": "fields",
+      "url": "http://www.wikiwand.com/en/Field_(physics)",
+      "fx": 159.0703125,
+      "fy": -154.64719401979914,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": 165.62431735436894,
+      "fy": -23.485436893203882,
+      "nodes": [
+        {
+          "text": "1. what are fields  ️",
+          "url": "https://physics.stackexchange.com/a/13158/44665",
+          "fx": 316.62431735436894,
+          "fy": -31.985436893203882,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is a field",
+          "url": "https://www.youtube.com/watch?v=7BK166SL-ig",
+          "fx": 316.62431735436894,
+          "fy": 10.014563106796118,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Gauge theory  ️",
+      "url": "/physics/quantum-mechanics/quantum-field-theory/fields/gauge-theory",
+      "fx": -8.597572653210023,
+      "fy": 106.51288530520424,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "fields",
+      "target": "basis",
+      "curve": {
+        "x": 3.777,
+        "y": 65.5809
+      }
+    },
+    {
+      "source": "basis",
+      "target": "Gauge theory  ️",
+      "curve": {
+        "x": -66.1109,
+        "y": 64.9992
+      }
+    }
+  ],
+  "id": 1529
+}

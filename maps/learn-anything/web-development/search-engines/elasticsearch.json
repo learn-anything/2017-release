@@ -1,0 +1,70 @@
+{
+  "title": "learn anything - web development - search engines - elasticsearch",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "Elasticsearch",
+      "url": "http://www.wikiwand.com/en/Elasticsearch",
+      "fx": -150.84303220591153,
+      "fy": -99.4171106008659,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/dzharii/awesome-elasticsearch",
+          "fx": 110.15696779408847,
+          "fy": -85.4171106008659,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -134.1702876285633,
+      "fy": 90.91596989965097,
+      "nodes": [
+        {
+          "text": "1. the complete guide to the  ELK  stack   ️",
+          "url": "https://logz.io/learn/complete-guide-elk-stack/#An",
+          "fx": 28.8297123714367,
+          "fy": 48.915969899650975,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. learn Elasticsearch",
+          "url": "https://github.com/dwyl/learn-elasticsearch",
+          "fx": 28.8297123714367,
+          "fy": 115.91596989965097,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Elasticsearch in action",
+          "url": "https://www.manning.com/books/elasticsearch-in-action",
+          "fx": 28.8297123714367,
+          "fy": 157.91596989965097,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Elasticsearch",
+      "target": "basics",
+      "curve": {
+        "x": -14.1636,
+        "y": 93.9167
+      }
+    }
+  ],
+  "id": 1912
+}

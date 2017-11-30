@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - proofs - induction",
+  "tag": "proof by induction",
+  "nodes": [
+    {
+      "text": "induction",
+      "url": "http://www.wikiwand.com/en/Mathematical_induction",
+      "fx": -37.866600036621094,
+      "fy": -154.14978408813477,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -18.00493222475052,
+      "fy": -23.866339683532715,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "http://muattiyah.com/posts/2017-06-12-mathematical-induction.html",
+          "fx": 137.99506777524948,
+          "fy": -12.366339683532715,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "induction",
+      "target": "basics",
+      "curve": {
+        "x": -3.56917,
+        "y": 63.8917
+      }
+    }
+  ],
+  "id": 1013
+}

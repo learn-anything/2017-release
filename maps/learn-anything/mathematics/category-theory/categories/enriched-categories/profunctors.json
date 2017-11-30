@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - category theory - categories - enriched categories - profunctors",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "profunctors",
+      "url": "http://www.wikiwand.com/en/Profunctor",
+      "fx": 25.745494944150323,
+      "fy": -149.65797929555345,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 59.839003078273095,
+      "fy": -4.1257709206127515,
+      "nodes": [
+        {
+          "text": "1. monodical categories, functoriality of ADTs, profunctors",
+          "url": "https://www.youtube.com/watch?v=wtIKd8AhJOc",
+          "fx": 215.8390030782731,
+          "fy": -34.62577092061275,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. profunctor optics: the categorical view  ️",
+          "url": "https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/",
+          "fx": 215.8390030782731,
+          "fy": 27.37422907938725,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "profunctor optics  ️",
+      "url": "/mathematics/category-theory/categories/enriched-categories/profunctors/profunctor-optics",
+      "fx": -106.25500506693061,
+      "fy": 123.40384909973614,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "profunctors",
+      "target": "basics",
+      "curve": {
+        "x": -1.70325,
+        "y": 71.5161
+      }
+    },
+    {
+      "source": "basics",
+      "target": "profunctor optics  ️",
+      "curve": {
+        "x": -58.797,
+        "y": 63.7648
+      }
+    }
+  ],
+  "id": 910
+}

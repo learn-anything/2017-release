@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - mathematics - topology - topological spaces - manifolds - differentiable manifolds",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "differentiable manifolds",
+      "url": "http://www.wikiwand.com/en/Differentiable_manifold",
+      "fx": 53.64453125,
+      "fy": -91.4296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 112.2194907027299,
+      "fy": 44.8418206998262,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=g_8pcqvYyzk",
+          "fx": 275.2194907027299,
+          "fy": 57.3418206998262,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "symplectic manifolds",
+      "url": "http://www.wikiwand.com/en/Symplectic_manifold",
+      "fx": -90.45884272222293,
+      "fy": 185.82068267110094,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "symplectic geometry  ️",
+      "url": "/mathematics/topology/differential-topology/symplectic-geometry",
+      "fx": -105.4109064569542,
+      "fy": 322.50289735099363,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "differentiable manifolds",
+      "target": "basics",
+      "curve": {
+        "x": -10.9625,
+        "y": 68.1357
+      }
+    },
+    {
+      "source": "basics",
+      "target": "symplectic manifolds",
+      "curve": {
+        "x": -67.3392,
+        "y": 70.4894
+      }
+    },
+    {
+      "source": "symplectic manifolds",
+      "target": "symplectic geometry  ️",
+      "curve": {
+        "x": -17.3934,
+        "y": 68.3411
+      }
+    }
+  ],
+  "id": 1141
+}

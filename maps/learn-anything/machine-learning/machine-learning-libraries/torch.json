@@ -1,0 +1,62 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - torch",
+  "tag": "torch library",
+  "nodes": [
+    {
+      "text": "torch",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Torch_(machine_learning)",
+      "fx": -117.35546875,
+      "fy": -355.94140625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/torch/torch7",
+          "fx": 82.64453125,
+          "fy": -361.94140625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/carpedm20/awesome-torch",
+          "fx": 82.64453125,
+          "fy": -321.94140625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "implementations",
+      "url": "",
+      "fx": -39.53472736430615,
+      "fy": -191.53752023349426,
+      "nodes": [
+        {
+          "text": "neural conversational model in Torch",
+          "url": "https://github.com/macournoyer/neuralconvo",
+          "fx": 207.46527263569385,
+          "fy": -191.03752023349426,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "implementations",
+      "target": "torch",
+      "curve": {
+        "x": -50.6604,
+        "y": -80.9519
+      }
+    }
+  ],
+  "id": 766
+}

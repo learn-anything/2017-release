@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - time dilation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "time dilation",
+      "url": "http://www.wikiwand.com/en/Time_dilation",
+      "fx": 91.80632179014151,
+      "fy": -144.76269014420046,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 237.05073238973034,
+      "fy": -45.12748930216503,
+      "nodes": [
+        {
+          "text": "can you see time dilation?",
+          "url": "https://www.reddit.com/r/askscience/comments/4wey58/can_you_see_time_dialation/d66h0o1/",
+          "fx": 436.05073238973034,
+          "fy": -32.62748930216503,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 132,
+      "fy": 55.32762096774195,
+      "nodes": [
+        {
+          "text": "1. relativity and time dilation",
+          "url": "https://www.youtube.com/watch?v=aZrjMmMBa_8",
+          "fx": 295,
+          "fy": 67.82762096774195,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "time dilation",
+      "target": "basics",
+      "curve": {
+        "x": -1.15317,
+        "y": 99.2951
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "time dilation",
+      "curve": {
+        "x": -60.3722,
+        "y": -49.0676
+      }
+    }
+  ],
+  "id": 1554
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - philosophy - philosophy of science",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "philosophy of science",
+      "url": "http://www.wikiwand.com/en/Philosophy_of_science",
+      "fx": -36.93359375,
+      "fy": -136.359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 45.39169034090685,
+      "fy": 31.697798295421023,
+      "nodes": [
+        {
+          "text": "1. philosophy of science with Hilary Putman",
+          "url": "https://www.youtube.com/watch?v=et8kDNF_nEc",
+          "fx": 201.39169034090685,
+          "fy": 32.19779829542102,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "falsifiability",
+      "url": "http://www.wikiwand.com/en/Falsifiability",
+      "fx": 55.08394624876223,
+      "fy": 162.78758640108197,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "philosophy of science",
+      "target": "basics",
+      "curve": {
+        "x": -0.587358,
+        "y": 82.7786
+      }
+    },
+    {
+      "source": "basics",
+      "target": "falsifiability",
+      "curve": {
+        "x": 11.3461,
+        "y": 65.5449
+      }
+    }
+  ],
+  "id": 1348
+}

@@ -1,0 +1,302 @@
+{
+  "title": "learn anything - web development - backend",
+  "tag": "backend development",
+  "nodes": [
+    {
+      "text": "backend development ",
+      "note": "",
+      "url": "",
+      "fx": -1498.7082966947735,
+      "fy": -899.0736306714209,
+      "nodes": []
+    },
+    {
+      "text": "c#  ️",
+      "url": "/programming/programming-languages/c-sharp",
+      "fx": -1111.1970915514073,
+      "fy": -873.7816524504269,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "java  ️",
+      "url": "/programming/programming-languages/java",
+      "fx": -1137.9885007022476,
+      "fy": -792.7491221910112,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "symfony  ️",
+      "url": "/programming/programming-languages/php/symfony",
+      "fx": -980.25390625,
+      "fy": -770.25390625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "php  ️",
+      "url": "/programming/programming-languages/php",
+      "fx": -1123.5374150706473,
+      "fy": -692.1394810052024,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "laravel  ️",
+      "fx": -959.9360365500816,
+      "fy": -675.1213204799553,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "go  ️",
+      "url": "/programming/programming-languages/go",
+      "fx": -1748.7118469938616,
+      "fy": -652.5840007675807,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "pyramid",
+      "url": "https://trypyramid.com/",
+      "fx": -961.9539695945946,
+      "fy": -594.8454391891897,
+      "nodes": []
+    },
+    {
+      "text": "ruby  ️",
+      "url": "/programming/programming-languages/ruby",
+      "fx": -1626.1175698412874,
+      "fy": -589.4823099016896,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "node.js  ️",
+      "url": "/web-development/backend/nodejs",
+      "fx": -1451.7429739620836,
+      "fy": -569.4477472516611,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "python  ️",
+      "url": "/programming/programming-languages/python",
+      "fx": -1153.2974649101423,
+      "fy": -560.70618556701,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "flask",
+      "url": "http://flask.pocoo.org/",
+      "fx": -946.2862334203971,
+      "fy": -526.3981452123427,
+      "nodes": []
+    },
+    {
+      "text": "ruby on rails  ️",
+      "url": "/programming/programming-languages/ruby/ruby-on-rails",
+      "fx": -1814.5085442818227,
+      "fy": -486.5618869849413,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sinatra",
+      "url": "https://github.com/sinatra/sinatra",
+      "fx": -1599.4310169584726,
+      "fy": -485.87109883345124,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "django  ️",
+      "url": "/web-development/full-stack/django",
+      "fx": -963.1403798117724,
+      "fy": -442.20811936409063,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hapi",
+      "url": "https://github.com/hapijs/hapi",
+      "fx": -1380.688411562683,
+      "fy": -398.52251324422843,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "koa",
+      "url": "https://github.com/koajs/koa",
+      "fx": -1267.5936239650268,
+      "fy": -396.8613079524804,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "express  ️",
+      "url": "/web-development/javascript-libraries/express",
+      "fx": -1525.8125875880737,
+      "fy": -394.9790409541894,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sails.js",
+      "url": "https://github.com/balderdashy/sails",
+      "fx": -1158.4919128417969,
+      "fy": -394.847900390625,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "backend development ",
+      "target": "go  ️",
+      "curve": {
+        "x": -201.197,
+        "y": 124.495
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "ruby  ️",
+      "curve": {
+        "x": -98.4547,
+        "y": 156.046
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "node.js  ️",
+      "curve": {
+        "x": -4.76772,
+        "y": 166.063
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "python  ️",
+      "curve": {
+        "x": 137.205,
+        "y": 170.434
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "php  ️",
+      "curve": {
+        "x": 145.335,
+        "y": 104.717
+      }
+    },
+    {
+      "source": "ruby  ️",
+      "target": "ruby on rails  ️",
+      "curve": {
+        "x": -76.6955,
+        "y": 51.4602
+      }
+    },
+    {
+      "source": "ruby  ️",
+      "target": "sinatra",
+      "curve": {
+        "x": 18.3433,
+        "y": 51.8056
+      }
+    },
+    {
+      "source": "node.js  ️",
+      "target": "express  ️",
+      "curve": {
+        "x": -35.7849,
+        "y": 87.2344
+      }
+    },
+    {
+      "source": "node.js  ️",
+      "target": "hapi",
+      "curve": {
+        "x": 28.5272,
+        "y": 85.4626
+      }
+    },
+    {
+      "source": "node.js  ️",
+      "target": "koa",
+      "curve": {
+        "x": 83.8246,
+        "y": 86.2932
+      }
+    },
+    {
+      "source": "node.js  ️",
+      "target": "sails.js",
+      "curve": {
+        "x": 144.876,
+        "y": 87.3
+      }
+    },
+    {
+      "source": "python  ️",
+      "target": "pyramid",
+      "curve": {
+        "x": 90.9217,
+        "y": -18.3196
+      }
+    },
+    {
+      "source": "python  ️",
+      "target": "flask",
+      "curve": {
+        "x": 90.7556,
+        "y": 15.904
+      }
+    },
+    {
+      "source": "python  ️",
+      "target": "django  ️",
+      "curve": {
+        "x": 94.8285,
+        "y": 59.249
+      }
+    },
+    {
+      "source": "php  ️",
+      "target": "symfony  ️",
+      "curve": {
+        "x": 81.6418,
+        "y": -39.0572
+      }
+    },
+    {
+      "source": "php  ️",
+      "target": "laravel  ️",
+      "curve": {
+        "x": 87.0507,
+        "y": 8.50908
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "java  ️",
+      "curve": {
+        "x": 130.86,
+        "y": 53.1623
+      }
+    },
+    {
+      "source": "backend development ",
+      "target": "c#  ️",
+      "curve": {
+        "x": 148.256,
+        "y": 13.896
+      }
+    }
+  ],
+  "id": 1852
+}

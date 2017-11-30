@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - life - social skills",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "social skills",
+      "url": "http://www.wikiwand.com/en/Social_skills",
+      "fx": -44.27864583333337,
+      "fy": -183.92838541666669,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/socialskills/",
+          "fx": 182.72135416666663,
+          "fy": -189.92838541666669,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "interpersonal skills   ️",
+          "url": "https://interpersonal.stackexchange.com/users/login?ssrc=beta&amp;returnurl=%2f",
+          "fx": 182.72135416666663,
+          "fy": -149.92838541666669,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 84.50086019984906,
+      "fy": -48.42880373303137,
+      "nodes": [
+        {
+          "text": "1. Alan Watts on anxiety",
+          "url": "https://www.youtube.com/watch?v=DtwTjlJjZeg",
+          "fx": 221.50086019984906,
+          "fy": -36.92880373303137,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "social skills",
+      "curve": {
+        "x": -41.8898,
+        "y": -66.4998
+      }
+    }
+  ],
+  "id": 696
+}

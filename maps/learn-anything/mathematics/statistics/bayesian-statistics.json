@@ -1,0 +1,124 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "bayesian statistics",
+      "url": "http://www.wikiwand.com/en/Bayesian_statistics",
+      "fx": -65.63662790697674,
+      "fy": 54.52797965116281,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -32.20390337163451,
+      "fy": 192.6760811124709,
+      "nodes": [
+        {
+          "text": "1. bayesian statistics notes  ️",
+          "url": "http://frnsys.com/ai_notes/foundations/bayesian_statistics.html",
+          "fx": 156.7960966283655,
+          "fy": 153.1760811124709,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. a guide to bayesian statistics",
+          "url": "https://www.countbayesie.com/blog/2016/5/1/a-guide-to-bayesian-statistics",
+          "fx": 156.7960966283655,
+          "fy": 195.1760811124709,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. doing bayesian data analysis",
+          "url": "http://www.goodreads.com/book/show/9003187-doing-bayesian-data-analysis",
+          "fx": 156.7960966283655,
+          "fy": 232.1760811124709,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "principle of maximum entropy  ️",
+      "url": "/mathematics/statistics/bayesian-statistics/principle-of-maximum-entropy",
+      "fx": -982.7657653443115,
+      "fy": 341.1782021893713,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Bayes’ theorem  ️",
+      "url": "/mathematics/statistics/bayesian-statistics/bayes-theorem",
+      "fx": -573.7328613281251,
+      "fy": 344.05784606933594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bayesian inference  ️",
+      "url": "/mathematics/statistics/bayesian-statistics/bayesian-inference",
+      "fx": 30.04835523617362,
+      "fy": 344.26463272270144,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bayesian machine learning  ️",
+      "url": "/mathematics/statistics/bayesian-statistics/bayesian-machine-learning",
+      "fx": -328.5985591888427,
+      "fy": 344.3918334960937,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "bayesian statistics",
+      "target": "basics",
+      "curve": {
+        "x": -17.5336,
+        "y": 67.824
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bayesian inference  ️",
+      "curve": {
+        "x": 59.3762,
+        "y": 77.0443
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bayesian machine learning  ️",
+      "curve": {
+        "x": -109.448,
+        "y": 75.8579
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Bayes’ theorem  ️",
+      "curve": {
+        "x": -278.253,
+        "y": 60.1941
+      }
+    },
+    {
+      "source": "basics",
+      "target": "principle of maximum entropy  ️",
+      "curve": {
+        "x": -497.593,
+        "y": 47.3136
+      }
+    }
+  ],
+  "id": 1079
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - nuclear physics - nuclear reactions - nuclear chain reactions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nuclear chain reactions",
+      "url": "http://www.wikiwand.com/en/Nuclear_chain_reaction",
+      "fx": -144.80078125,
+      "fy": -152.16015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -60.32421875,
+      "fy": -14.1640625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=izqYe3Svv4U",
+          "fx": 95.67578125,
+          "fy": -2.6640625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "nuclear weapons  ️",
+      "url": "/physics/nuclear-physics/nuclear-reactions/nuclear-chain-reactions/nuclear-weapons",
+      "fx": -200.05129482071698,
+      "fy": 152.5290712151733,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "nuclear chain reactions",
+      "target": "basics",
+      "curve": {
+        "x": -2.51172,
+        "y": 67.748
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nuclear weapons  ️",
+      "curve": {
+        "x": -45.6135,
+        "y": 83.3466
+      }
+    }
+  ],
+  "id": 1493
+}

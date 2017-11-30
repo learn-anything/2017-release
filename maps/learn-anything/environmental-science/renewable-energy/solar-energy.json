@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - environmental science - renewable energy - solar energy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "solar energy",
+      "url": "http://www.wikiwand.com/en/Solar_energy",
+      "fx": -60.03362274169922,
+      "fy": -177.61718654632568,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "solar panels  ️",
+      "url": "/environmental-science/renewable-energy/solar-energy/solar-panels",
+      "fx": -158.56491980088435,
+      "fy": -42.61366150438715,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "solar energy",
+      "target": "solar panels  ️",
+      "curve": {
+        "x": -56.7656,
+        "y": 66.2518
+      }
+    }
+  ],
+  "id": 552
+}

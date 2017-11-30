@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - linguistics - linguistic modality",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linguistic modality",
+      "url": "http://www.wikiwand.com/en/Linguistic_modality",
+      "fx": 81.296875,
+      "fy": -128.7578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141,
+      "fy": 26,
+      "nodes": [
+        {
+          "text": "1. modality and language",
+          "url": "http://web.mit.edu/fintel/fintel-2006-modality.pdf",
+          "fx": 304,
+          "fy": 38.5,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linguistic modality",
+      "target": "basics",
+      "curve": {
+        "x": -5.14844,
+        "y": 76.6289
+      }
+    }
+  ],
+  "id": 742
+}

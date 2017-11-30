@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - statistics - arithmetic mean",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "arithmetic mean",
+      "url": "http://www.wikiwand.com/en/Arithmetic_mean",
+      "fx": -27.48828125,
+      "fy": -126.55078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 19,
+      "fy": 26,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=mU_aWnQIv-g",
+          "fx": 182,
+          "fy": 38.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "inequality of arithmetic and geometric means",
+      "url": "http://www.wikiwand.com/en/Inequality_of_arithmetic_and_geometric_means",
+      "fx": -214.3735844947705,
+      "fy": 192.443162020891,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "arithmetic mean",
+      "target": "basics",
+      "curve": {
+        "x": -8.00586,
+        "y": 75.5254
+      }
+    },
+    {
+      "source": "basics",
+      "target": "inequality of arithmetic and geometric means",
+      "curve": {
+        "x": -65.1868,
+        "y": 91.2216
+      }
+    }
+  ],
+  "id": 1073
+}

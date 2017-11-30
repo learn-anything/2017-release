@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - neuroscience - nervous system - neurons - neurogenesis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neurogenesis",
+      "url": "http://www.wikiwand.com/en/Neurogenesis",
+      "fx": 12.79190856873322,
+      "fy": -166.6045645101566,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 146.33071524064178,
+      "fy": -54.568014705882376,
+      "nodes": [
+        {
+          "text": "how to support neurogenesis",
+          "url": "https://www.reddit.com/r/Nootropics/comments/2fa6o0/how_to_support_neurogenesis/ck7c8jm/",
+          "fx": 283.3307152406418,
+          "fy": -43.068014705882376,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 199.961496845302,
+      "fy": 62.3787738525275,
+      "nodes": [
+        {
+          "text": "14: neurogenesis - grow new brain cells with exercise",
+          "url": "https://www.youtube.com/watch?v=h4NfYd4wq7o",
+          "fx": 390.961496845302,
+          "fy": 62.8787738525275,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "neurogenesis",
+      "curve": {
+        "x": -39.0194,
+        "y": -54.7683
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -40.3154,
+        "y": -58.4734
+      }
+    }
+  ],
+  "id": 1267
+}

@@ -1,0 +1,154 @@
+{
+  "title": "learn anything - physics - matter",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "matter",
+      "url": "http://www.wikiwand.com/en/Matter",
+      "fx": -109.48828125,
+      "fy": -153.328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -101.51953029632568,
+      "fy": 0.14901256561279297,
+      "nodes": [
+        {
+          "text": "1. what is matter?",
+          "url": "https://www.youtube.com/watch?v=Fxeb3Pc4PA4",
+          "fx": 54.480469703674316,
+          "fy": 11.649012565612793,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "state of matter  ️",
+      "url": "/physics/matter/state-of-matter",
+      "fx": -142.87867823540694,
+      "fy": 129.29662298387098,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "atoms  ️",
+      "url": "/physics/matter/atoms",
+      "fx": -285.1120031682028,
+      "fy": 129.66276041664958,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "nanotechnology  ️",
+      "url": "/physics/matter/nanotechnology",
+      "fx": 67.43134382328071,
+      "fy": 132.38388741660162,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dark matter  ️",
+      "url": "/physics/matter/dark-matter",
+      "fx": -464.50248239416453,
+      "fy": 134.06503333861656,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "matter waves  ️",
+      "url": "/physics/matter/matter-waves",
+      "fx": -675.0310387778005,
+      "fy": 135.2684912786267,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "crystallography  ️",
+      "url": "/physics/matter/crystallography",
+      "fx": -1037.495844043724,
+      "fy": 139.40199992210626,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "phases  ️",
+      "url": "/physics/matter/phases",
+      "fx": -822.8400692296192,
+      "fy": 139.52137051569525,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "matter",
+      "target": "basics",
+      "curve": {
+        "x": -3.51562,
+        "y": 75.4885
+      }
+    },
+    {
+      "source": "basics",
+      "target": "state of matter  ️",
+      "curve": {
+        "x": 5.07048,
+        "y": 65.8239
+      }
+    },
+    {
+      "source": "basics",
+      "target": "atoms  ️",
+      "curve": {
+        "x": -92.0462,
+        "y": 64.7569
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dark matter  ️",
+      "curve": {
+        "x": -187.884,
+        "y": 50.6335
+      }
+    },
+    {
+      "source": "basics",
+      "target": "matter waves  ️",
+      "curve": {
+        "x": -319.46,
+        "y": 31.5047
+      }
+    },
+    {
+      "source": "basics",
+      "target": "phases  ️",
+      "curve": {
+        "x": -441.85,
+        "y": 14.8936
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nanotechnology  ️",
+      "curve": {
+        "x": 106.225,
+        "y": 66.1174
+      }
+    },
+    {
+      "source": "basics",
+      "target": "crystallography  ️",
+      "curve": {
+        "x": -551.9,
+        "y": 13.6913
+      }
+    }
+  ],
+  "id": 1490
+}

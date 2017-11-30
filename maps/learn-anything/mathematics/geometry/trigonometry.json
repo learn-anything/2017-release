@@ -1,0 +1,102 @@
+{
+  "title": "learn anything - mathematics - geometry - trigonometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "trigonometry",
+      "url": "http://www.wikiwand.com/en/Trigonometry",
+      "fx": -82.01224927769772,
+      "fy": -355.31289978969244,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 75.15319741644919,
+      "fy": -258.13424303881186,
+      "nodes": [
+        {
+          "text": "sin, cos and tan visualised",
+          "url": "http://i.imgur.com/4SdeGNW.gif",
+          "fx": 266.1531974164492,
+          "fy": -246.63424303881186,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -82.86503756827278,
+      "fy": -126.60618326969518,
+      "nodes": [
+        {
+          "text": "1. a universe of triangles",
+          "url": "https://www.youtube.com/watch?v=KdyvizaygyY",
+          "fx": 99.13496243172722,
+          "fy": -166.10618326969518,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. how to learn trigonometry intuitively  ️",
+          "url": "https://betterexplained.com/articles/intuitive-trigonometry/",
+          "fx": 99.13496243172722,
+          "fy": -126.10618326969518,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. khan academy trigonometry",
+          "url": "https://www.khanacademy.org/math/trigonometry",
+          "fx": 99.13496243172722,
+          "fy": -64.10618326969518,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "trigonometric functions  ️",
+      "url": "/mathematics/geometry/trigonometry/trigonometric-functions",
+      "fx": -202.32331730769238,
+      "fy": 6.245584772370762,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "trigonometry",
+      "target": "basics",
+      "curve": {
+        "x": -21.6764,
+        "y": 113.103
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "trigonometry",
+      "curve": {
+        "x": -66.0827,
+        "y": -47.3393
+      }
+    },
+    {
+      "source": "basics",
+      "target": "trigonometric functions  ️",
+      "curve": {
+        "x": -28.9791,
+        "y": 66.4258
+      }
+    }
+  ],
+  "id": 967
+}

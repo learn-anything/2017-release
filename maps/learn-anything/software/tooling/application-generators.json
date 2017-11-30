@@ -1,0 +1,48 @@
+{
+  "title": "learn anything - software - tooling - application generators",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "application generators",
+      "url": "",
+      "fx": 177.59387765522865,
+      "fy": -292.9077052696078,
+      "nodes": []
+    },
+    {
+      "text": "JHipster  ️",
+      "url": "/software/tooling/application-generators/jhipster",
+      "fx": 95.47265624999989,
+      "fy": -137.1121068218955,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "yeoman  ️",
+      "url": "/software/tooling/application-generators/yeoman",
+      "fx": 297.9169381840437,
+      "fy": -135.18997515841028,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "application generators",
+      "target": "JHipster  ️",
+      "curve": {
+        "x": -75.3106,
+        "y": 77.8978
+      }
+    },
+    {
+      "source": "application generators",
+      "target": "yeoman  ️",
+      "curve": {
+        "x": 25.4115,
+        "y": 78.8589
+      }
+    }
+  ],
+  "id": 1794
+}

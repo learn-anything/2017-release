@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - mathematics - model theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "model theory",
+      "url": "https://www.wikiwand.com/en/Model_theory",
+      "fx": 97.15625,
+      "fy": -120.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 142.5,
+      "fy": 10.87109375,
+      "nodes": [
+        {
+          "text": "1. a course in model theory: an introduction to contemporary mathematical logic",
+          "url": "http://www.goodreads.com/book/show/3629882-a-course-in-model-theory",
+          "fx": 324.5,
+          "fy": 0.37109375,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "model theory",
+      "target": "basics",
+      "curve": {
+        "x": 0.171875,
+        "y": 64.6269
+      }
+    }
+  ],
+  "id": 1032
+}

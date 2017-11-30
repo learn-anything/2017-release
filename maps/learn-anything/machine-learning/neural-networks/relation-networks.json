@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - machine learning - neural networks - relation networks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "relation networks",
+      "url": "",
+      "fx": 391.54296875,
+      "fy": -9.6328125,
+      "nodes": []
+    },
+    {
+      "text": "papers",
+      "url": "",
+      "fx": 472.4609375,
+      "fy": 141.6953125,
+      "nodes": [
+        {
+          "text": "17: a simple neural network module for relational reasoning",
+          "url": "https://arxiv.org/abs/1706.01427",
+          "fx": 633.4609375,
+          "fy": 142.1953125,
+          "nodes": [
+            {
+              "text": "implementation",
+              "url": "https://github.com/therne/relation-networks-tensorflow",
+              "fx": 995.4609375,
+              "fy": 153.1953125,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "papers",
+      "target": "relation networks",
+      "curve": {
+        "x": -17.709,
+        "y": -75.6641
+      }
+    }
+  ],
+  "id": 786
+}

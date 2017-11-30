@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - web development - javascript libraries - threejs",
+  "tag": "three.js",
+  "nodes": [
+    {
+      "text": "three.js",
+      "url": "https://github.com/mrdoob/three.js/",
+      "fx": 23.707033157348633,
+      "fy": -49.36132097244263,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/fritx/awesome-threejs",
+          "fx": 216.70703315734863,
+          "fy": -35.36132097244263,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 150.1943044354839,
+      "fy": 41.57258064516134,
+      "nodes": [
+        {
+          "text": "three.js editor",
+          "url": "https://threejs.org/editor/",
+          "fx": 291.1943044354839,
+          "fy": 56.07258064516134,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 234.45860635080635,
+      "fy": 152.7779107862903,
+      "nodes": [
+        {
+          "text": "infinite tubes",
+          "url": "https://tympanus.net/Development/InfiniteTubes/",
+          "fx": 425.45860635080635,
+          "fy": 164.2779107862903,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 38.50311619525223,
+      "fy": 259.9582314900513,
+      "nodes": [
+        {
+          "text": "1. hello world  ️",
+          "url": "https://medium.com/@necsoft/three-js-101-hello-world-part-1-443207b1ebe1",
+          "fx": 220.50311619525223,
+          "fy": 254.45823149005128,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. getting started",
+          "url": "https://threejs.org/docs/index.html#manual/introduction/Creating-a-scene",
+          "fx": 220.50311619525223,
+          "fy": 294.4582314900513,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tools",
+      "target": "three.js",
+      "curve": {
+        "x": -49.2436,
+        "y": -44.217
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "tools",
+      "curve": {
+        "x": -55.6322,
+        "y": -55.6027
+      }
+    },
+    {
+      "source": "three.js",
+      "target": "basics",
+      "curve": {
+        "x": -1.85196,
+        "y": 153.41
+      }
+    }
+  ],
+  "id": 1904
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - human brain - thalamus - limbic system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "limbic system",
+      "url": "http://www.wikiwand.com/en/Limbic_system",
+      "fx": 102.95703125,
+      "fy": -64.6875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 138.87109375,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=CAOnSbDSaOw",
+          "fx": 301.87109375,
+          "fy": 61.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "limbic system",
+      "target": "basics",
+      "curve": {
+        "x": 0.457033,
+        "y": 56.8437
+      }
+    }
+  ],
+  "id": 1256
+}

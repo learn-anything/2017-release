@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - browsers - firefox",
+  "tag": "firefox browser",
+  "nodes": [
+    {
+      "text": "firefox",
+      "url": "http://www.wikiwand.com/en/Firefox",
+      "fx": 82.58757485029935,
+      "fy": -97.98212949101793,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/Hunter-Github/awesome-firefox",
+          "fx": 263.58757485029935,
+          "fy": -83.98212949101793,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 94.00051891143903,
+      "fy": 33.9368081180865,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://support.mozilla.org/en-US/products/firefox/get-started",
+          "fx": 250.00051891143903,
+          "fy": 48.4368081180865,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "firefox",
+      "target": "basics",
+      "curve": {
+        "x": -0.543532,
+        "y": 64.7096
+      }
+    }
+  ],
+  "id": 1855
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - mqtt",
+  "tag": "MQTT protocol",
+  "nodes": [
+    {
+      "text": "MQTT",
+      "url": "http://www.wikiwand.com/en/MQTT",
+      "fx": -96.71542553191489,
+      "fy": -44.35688164893622,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/hobbyquaker/awesome-mqtt",
+          "fx": 86.28457446808511,
+          "fy": -30.356881648936223,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": -88.31453758266798,
+      "fy": 97.00217602777144,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "http://www.hivemq.com/blog/how-to-get-started-with-mqtt",
+          "fx": 57.68546241733202,
+          "fy": 111.50217602777144,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "MQTT",
+      "target": "basis",
+      "curve": {
+        "x": -5.04956,
+        "y": 69.4291
+      }
+    }
+  ],
+  "id": 1219
+}

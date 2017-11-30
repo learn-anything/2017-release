@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - oscillations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "oscillations",
+      "url": "http://www.wikiwand.com/en/Oscillation",
+      "fx": 77.67578125,
+      "fy": -217.97395833333337,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 108.14901307049922,
+      "fy": -82.98183059692377,
+      "nodes": [
+        {
+          "text": "1. periodic oscillations",
+          "url": "https://www.youtube.com/watch?v=KgLYi2acPDI",
+          "fx": 271.1490130704992,
+          "fy": -70.48183059692377,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "wavelets  ️",
+      "url": "/physics/classical-mechanics/oscillations/wavelets",
+      "fx": 3.3828125,
+      "fy": 46.38671875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "oscillations",
+      "target": "basics",
+      "curve": {
+        "x": -3.51339,
+        "y": 66.746
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wavelets  ️",
+      "curve": {
+        "x": -46.8831,
+        "y": 64.6843
+      }
+    }
+  ],
+  "id": 1381
+}

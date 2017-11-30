@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - web development - front end - html - html5",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "HTML5",
+      "url": "http://www.wikiwand.com/en/HTML5",
+      "fx": -18.857648982558203,
+      "fy": -122.71220930232556,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/diegocard/awesome-html5",
+          "fx": 175.1423510174418,
+          "fy": -108.71220930232556,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -3.894530773162842,
+      "fy": 30.894473791122437,
+      "nodes": [
+        {
+          "text": "1. MDN guide",
+          "url": "https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5",
+          "fx": 152.10546922683716,
+          "fy": 45.39447379112244,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "canvas  ️",
+      "url": "/web-development/front-end/html/html5/canvas",
+      "fx": -88.06408975290685,
+      "fy": 151.59017736318071,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "HTML5",
+      "target": "basics",
+      "curve": {
+        "x": -2.01844,
+        "y": 75.5534
+      }
+    },
+    {
+      "source": "basics",
+      "target": "canvas  ️",
+      "curve": {
+        "x": -40.5848,
+        "y": 60.3479
+      }
+    }
+  ],
+  "id": 1874
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - psychology - personality",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "personality",
+      "url": "http://www.wikiwand.com/en/Personality",
+      "fx": 153.39054358696387,
+      "fy": -174.9238641043096,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 183.42342342342374,
+      "fy": -50.33333333328687,
+      "nodes": [
+        {
+          "text": "1. measuring personality",
+          "url": "https://www.youtube.com/watch?v=sUrV6oZ3zsk",
+          "fx": 346.42342342342374,
+          "fy": -37.83333333328687,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Rorschach test  ️",
+      "url": "/psychology/personality/rorschach-test",
+      "fx": 22.621120782366347,
+      "fy": 77.26468339692605,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "personality",
+      "target": "basics",
+      "curve": {
+        "x": -3.23356,
+        "y": 61.5453
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Rorschach test  ️",
+      "curve": {
+        "x": -58.9011,
+        "y": 63.799
+      }
+    }
+  ],
+  "id": 1758
+}

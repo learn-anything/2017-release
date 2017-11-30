@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - space science",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "space science",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Outline_of_space_science",
+      "fx": -194.89301947848264,
+      "fy": -208.91399684873943,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://space.stackexchange.com/",
+          "fx": 87.10698052151736,
+          "fy": -194.91399684873943,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 6.874232700892776,
+      "fy": -105.77176339285722,
+      "nodes": [
+        {
+          "text": "PBS space time",
+          "url": "https://www.youtube.com/channel/UC7_gcs09iThXybpVgjHZ_7g/videos",
+          "fx": 143.87423270089278,
+          "fy": -94.27176339285722,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "astronomy  ️",
+      "note": "studies celestial objects and phenomena   applies mathematics, physics and chemistry, in effort to explain the origin of those objects and phenomena and their evolution  objects of interest include planets, moons, stars, galaxies and comets  while the phenomena include supernovae explosions, gamma ray bursts and cosmic microwave background radiation",
+      "url": "/space-science/astronomy",
+      "fx": -93.94330088794231,
+      "fy": -1.177267074584961,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "physical cosmology  ️",
+      "url": "/space-science/physical-cosmology",
+      "fx": -347.0732421875,
+      "fy": 1.1315104166666856,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "space science",
+      "target": "astronomy  ️",
+      "curve": {
+        "x": 41.9749,
+        "y": 103.868
+      }
+    },
+    {
+      "source": "help",
+      "target": "space science",
+      "curve": {
+        "x": -64.3836,
+        "y": -50.3211
+      }
+    },
+    {
+      "source": "space science",
+      "target": "physical cosmology  ️",
+      "curve": {
+        "x": -77.8401,
+        "y": 103.773
+      }
+    }
+  ],
+  "id": 1843
+}

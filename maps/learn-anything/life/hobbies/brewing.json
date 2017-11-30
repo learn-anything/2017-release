@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - life - hobbies - brewing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "brewing",
+      "url": "http://www.wikiwand.com/en/Brewing",
+      "fx": -68.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Homebrewing/",
+          "fx": 130.5,
+          "fy": 12,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 62.20453308139179,
+      "fy": 105.8759697742882,
+      "nodes": [
+        {
+          "text": "brulosophy  ️",
+          "url": "http://brulosophy.com/",
+          "fx": 199.2045330813918,
+          "fy": 97.3759697742882,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "homebrew talk  ️",
+          "url": "http://www.homebrewtalk.com/",
+          "fx": 199.2045330813918,
+          "fy": 137.3759697742882,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.84887737079828,
+      "fy": 221.31378116961434,
+      "nodes": [
+        {
+          "text": "1. how to brew",
+          "url": "http://www.howtobrew.com/",
+          "fx": 105.15112262920172,
+          "fy": 232.81378116961434,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "brewing",
+      "curve": {
+        "x": -49.8523,
+        "y": -52.688
+      }
+    },
+    {
+      "source": "brewing",
+      "target": "basics",
+      "curve": {
+        "x": -1.92444,
+        "y": 110.407
+      }
+    }
+  ],
+  "id": 683
+}

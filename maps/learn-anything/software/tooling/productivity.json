@@ -1,0 +1,138 @@
+{
+  "title": "learn anything - software - tooling - productivity",
+  "tag": "productivity software",
+  "nodes": [
+    {
+      "text": "productivity",
+      "note": "",
+      "url": "",
+      "fx": -12.224785518898898,
+      "fy": -328.9179532078912,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/programmingtools/",
+          "fx": 215.7752144811011,
+          "fy": -317.4179532078912,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "macOS",
+      "url": "http://www.wikiwand.com/en/Macintosh_operating_systems",
+      "fx": -253.95298243613138,
+      "fy": -210.23463161496363,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "terminal",
+      "url": "",
+      "fx": 181.16772702634125,
+      "fy": -206.08718603204585,
+      "nodes": []
+    },
+    {
+      "text": "alfred  ️",
+      "url": "/software/tooling/productivity/alfred",
+      "fx": -250.10663767881408,
+      "fy": -105.78489774550076,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "karabiner  ️",
+      "url": "/software/tooling/productivity/karabiner",
+      "fx": -412.3867107548326,
+      "fy": -103.90725003103569,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hammerspoon  ️",
+      "url": "/software/tooling/productivity/hammerspoon",
+      "fx": -123.66009039907044,
+      "fy": -102.87452071385138,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hyper  ️",
+      "url": "/software/tooling/productivity/hyper",
+      "fx": 146.91682330827052,
+      "fy": -90.50677474937345,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "tmux  ️",
+      "url": "/software/tooling/productivity/tmux",
+      "fx": 281.6531572634344,
+      "fy": -87.88483438581233,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "macOS",
+      "target": "karabiner  ️",
+      "curve": {
+        "x": -75.4669,
+        "y": 53.1637
+      }
+    },
+    {
+      "source": "macOS",
+      "target": "alfred  ️",
+      "curve": {
+        "x": -2.82682,
+        "y": 52.2249
+      }
+    },
+    {
+      "source": "macOS",
+      "target": "hammerspoon  ️",
+      "curve": {
+        "x": 88.1464,
+        "y": 54.9301
+      }
+    },
+    {
+      "source": "terminal",
+      "target": "tmux  ️",
+      "curve": {
+        "x": 43.7428,
+        "y": 59.1011
+      }
+    },
+    {
+      "source": "productivity",
+      "target": "macOS",
+      "curve": {
+        "x": -122.614,
+        "y": 60.5917
+      }
+    },
+    {
+      "source": "productivity",
+      "target": "terminal",
+      "curve": {
+        "x": 88.6963,
+        "y": 61.4154
+      }
+    },
+    {
+      "source": "terminal",
+      "target": "hyper  ️",
+      "curve": {
+        "x": -15.1255,
+        "y": 59.0402
+      }
+    }
+  ],
+  "id": 1810
+}

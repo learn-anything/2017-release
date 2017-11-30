@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic field",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electromagnetic field",
+      "url": "http://www.wikiwand.com/en/Electromagnetic_field",
+      "fx": -51.33751678466797,
+      "fy": -132.77393770217896,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 21.7578125,
+      "fy": 13.296875,
+      "nodes": [
+        {
+          "text": "1. electric fields",
+          "url": "https://www.youtube.com/watch?v=mdulzEfQXDE",
+          "fx": 177.7578125,
+          "fy": 4.796875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is an electromagnetic field",
+          "url": "https://www.reddit.com/r/askscience/comments/463jy1/what_is_actually_an_electromagnetic_field/d027d17/",
+          "fx": 177.7578125,
+          "fy": 44.796875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "electric charge  ️",
+      "url": "/physics/electromagnetism/electromagnetic-field/electric-charge",
+      "fx": -163.173083563536,
+      "fy": 155.47045493784526,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "electromagnetic tensor  ️",
+      "url": "/physics/electromagnetism/electromagnetic-field/electromagnetic-tensor",
+      "fx": 48.61276928639802,
+      "fy": 157.84299896145967,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electromagnetic field",
+      "target": "basics",
+      "curve": {
+        "x": -2.70234,
+        "y": 71.7854
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electric charge  ️",
+      "curve": {
+        "x": -73.7154,
+        "y": 71.0867
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electromagnetic tensor  ️",
+      "curve": {
+        "x": 53.1775,
+        "y": 72.2731
+      }
+    }
+  ],
+  "id": 1424
+}

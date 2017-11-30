@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - programming - software development - software architecture",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software architecture",
+      "url": "http://www.wikiwand.com/en/Software_architecture",
+      "fx": -72.67555223534316,
+      "fy": -222.79214469726054,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -16.981903076171875,
+      "fy": -46.38825559616089,
+      "nodes": [
+        {
+          "text": "1. system design primer",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "fx": 165.01809692382812,
+          "fy": -102.88825559616089,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. the architecture of open source applications",
+          "url": "http://aosabook.org/en/index.html",
+          "fx": 165.01809692382812,
+          "fy": -62.88825559616089,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. system design interview",
+          "url": "https://github.com/checkcheckzz/system-design-interview",
+          "fx": 165.01809692382812,
+          "fy": -6.888255596160889,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. systems design",
+          "url": "https://www.hiredintech.com/classrooms/system-design/lesson/55",
+          "fx": 165.01809692382812,
+          "fy": 33.11174440383911,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "service-oriented architecture",
+      "url": "http://www.wikiwand.com/en/Service-oriented_architecture",
+      "fx": -199.60965302491138,
+      "fy": 98.41564724199281,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "microservices  ️",
+      "url": "/programming/software-development/software-architecture/microservices",
+      "fx": -196.82232926065183,
+      "fy": 255.20747180451133,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "software architecture",
+      "target": "basics",
+      "curve": {
+        "x": -7.65323,
+        "y": 88.2016
+      }
+    },
+    {
+      "source": "basics",
+      "target": "service-oriented architecture",
+      "curve": {
+        "x": -41.0639,
+        "y": 73.652
+      }
+    },
+    {
+      "source": "service-oriented architecture",
+      "target": "microservices  ️",
+      "curve": {
+        "x": -31.6063,
+        "y": 78.3959
+      }
+    }
+  ],
+  "id": 1727
+}

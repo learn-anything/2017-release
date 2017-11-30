@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - life - parenting",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "parenting",
+      "url": "",
+      "fx": -119.890625,
+      "fy": -198.3515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": -29.2734375,
+      "fy": -67.2890625,
+      "nodes": [
+        {
+          "text": "parenting: who is it really for?  ️",
+          "url": "https://sivers.org/pa",
+          "fx": 139.7265625,
+          "fy": -54.7890625,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "parenting",
+      "curve": {
+        "x": -32.0586,
+        "y": -64.7812
+      }
+    }
+  ]
+}

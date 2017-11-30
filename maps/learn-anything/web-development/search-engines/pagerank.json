@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - web development - search engines - pagerank",
+  "tag": "PageRank algorithm",
+  "nodes": [
+    {
+      "text": "PageRank",
+      "url": "http://www.wikiwand.com/en/PageRank",
+      "fx": 134.10546875,
+      "fy": -164.296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 160.87109375,
+      "fy": -10.3984375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.rose-hulman.edu/%7Ebryan/googleFinalVersionFixed.pdf",
+          "fx": 323.87109375,
+          "fy": 2.1015625,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "PageRank",
+      "target": "basics",
+      "curve": {
+        "x": -3.86719,
+        "y": 76.1992
+      }
+    }
+  ],
+  "id": 1913
+}

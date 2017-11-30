@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - modules",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "modules",
+      "url": "http://www.wikiwand.com/en/Module_(mathematics)",
+      "fx": 38.5390625,
+      "fy": -91.65625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 59.625,
+      "fy": 42.68359375,
+      "nodes": [
+        {
+          "text": "1. what is a module?",
+          "url": "https://www.youtube.com/watch?v=IvukAijXgLE",
+          "fx": 215.625,
+          "fy": 54.18359375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "modules",
+      "target": "basics",
+      "curve": {
+        "x": -1.70703,
+        "y": 65.9199
+      }
+    }
+  ],
+  "id": 826
+}

@@ -1,0 +1,71 @@
+{
+  "title": "learn anything - programming - programming languages - fortran",
+  "tag": "fortran programming language",
+  "nodes": [
+    {
+      "text": "fortran",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Fortran",
+      "fx": -49.6796875,
+      "fy": -144.36328125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/fortran/",
+          "fx": 162.3203125,
+          "fy": -170.36328125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/fortran",
+          "fx": 162.3203125,
+          "fy": -130.36328125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/rabbiabram/awesome-fortran",
+          "fx": 162.3203125,
+          "fy": -90.36328125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 62.09328283525406,
+      "fy": 14.500892766848722,
+      "nodes": [
+        {
+          "text": "functional fortran",
+          "url": "https://github.com/wavebitscientific/functional-fortran",
+          "fx": 253.09328283525406,
+          "fy": 26.00089276684872,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "fortran",
+      "curve": {
+        "x": -50.6365,
+        "y": -78.1821
+      }
+    }
+  ],
+  "id": 1594
+}

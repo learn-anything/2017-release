@@ -1,0 +1,89 @@
+{
+  "title": "learn anything - programming - software development - build automation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "build automation",
+      "url": "http://www.wikiwand.com/en/Build_automation",
+      "fx": -31.8125,
+      "fy": -115.68359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 23.483922004699707,
+      "fy": 28.845640182495117,
+      "nodes": [
+        {
+          "text": "1. build automation introduction",
+          "url": "https://www.youtube.com/watch?v=0YnoRtbJv6w",
+          "fx": 179.4839220046997,
+          "fy": 40.34564018249512,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Gradle  ️",
+      "url": "/programming/software-development/build-automation/gradle",
+      "fx": -148.8625529870326,
+      "fy": 171.68581680279283,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "cmake  ️",
+      "url": "/programming/software-development/build-automation/cmake",
+      "fx": 126.99997356984454,
+      "fy": 173.45891798116895,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "jenkins  ️",
+      "fx": -10.135604858398438,
+      "fy": 173.82377243041992,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "build automation",
+      "target": "basics",
+      "curve": {
+        "x": -2.85179,
+        "y": 71.0146
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Gradle  ️",
+      "curve": {
+        "x": -86.4232,
+        "y": 71.4201
+      }
+    },
+    {
+      "source": "basics",
+      "target": "jenkins  ️",
+      "curve": {
+        "x": -8.5598,
+        "y": 73.739
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cmake  ️",
+      "curve": {
+        "x": 52.508,
+        "y": 72.3066
+      }
+    }
+  ],
+  "id": 1694
+}

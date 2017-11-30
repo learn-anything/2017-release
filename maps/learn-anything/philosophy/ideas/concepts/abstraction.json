@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - philosophy - ideas - concepts - abstraction",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "abstraction",
+      "url": "http://www.wikiwand.com/en/Abstraction",
+      "fx": 98.296875,
+      "fy": -109.6484375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 132.36907087053555,
+      "fy": 41.09912109374994,
+      "nodes": [
+        {
+          "text": "1. the art of abstraction",
+          "url": "https://www.youtube.com/watch?v=p7nGcY73epw",
+          "fx": 288.36907087053555,
+          "fy": 12.599121093749943,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. on the spectrum of abstraction",
+          "url": "https://www.youtube.com/watch?v=mVVNJKv9esE",
+          "fx": 288.36907087053555,
+          "fy": 52.59912109374994,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. on Abstraction – Zach Tellman",
+          "url": "https://www.youtube.com/watch?v=x9pxbnFC4aQ",
+          "fx": 288.36907087053555,
+          "fy": 92.59912109374994,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "abstraction",
+      "target": "basics",
+      "curve": {
+        "x": -0.963897,
+        "y": 74.1238
+      }
+    }
+  ],
+  "id": 1325
+}

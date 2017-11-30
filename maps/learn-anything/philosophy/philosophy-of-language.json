@@ -1,0 +1,154 @@
+{
+  "title": "learn anything - philosophy - philosophy of language",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "philosophy of language",
+      "url": "http://www.wikiwand.com/en/Philosophy_of_language",
+      "fx": 55.59362122252719,
+      "fy": -156.669685782967,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.8631524725272,
+      "fy": -21.306404532967008,
+      "nodes": [
+        {
+          "text": "1. language &amp; meaning",
+          "url": "https://www.youtube.com/watch?v=zmwgmt7wcv8",
+          "fx": 310.8631524725272,
+          "fy": -8.806404532967008,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "indexicality",
+      "url": "http://www.wikiwand.com/en/Indexicality",
+      "fx": -475.29293548308897,
+      "fy": 196.20479772756778,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "demonstratives",
+      "url": "http://www.wikiwand.com/en/Demonstrative",
+      "fx": -291.15931998931455,
+      "fy": 197.93829153249942,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "nouns",
+      "url": "http://www.wikiwand.com/en/Noun",
+      "fx": -62.04566776000547,
+      "fy": 201.24530981252872,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "verbs",
+      "url": "http://www.wikiwand.com/en/Verb",
+      "fx": 78.05095947540713,
+      "fy": 203.86663625906192,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "adverbs",
+      "url": "http://www.wikiwand.com/en/Adverb",
+      "fx": 393.11851501464844,
+      "fy": 204.97037887573242,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "adjectives",
+      "url": "http://www.wikiwand.com/en/Adjective",
+      "fx": 211.13507355011416,
+      "fy": 205.07486532400333,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "determiners",
+      "url": "http://www.wikiwand.com/en/Determiner",
+      "fx": 552.5205078125,
+      "fy": 208.1806640625,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "philosophy of language",
+      "target": "basics",
+      "curve": {
+        "x": -3.36523,
+        "y": 66.9316
+      }
+    },
+    {
+      "source": "basics",
+      "target": "indexicality",
+      "curve": {
+        "x": -311.824,
+        "y": 90.7987
+      }
+    },
+    {
+      "source": "basics",
+      "target": "demonstratives",
+      "curve": {
+        "x": -190.011,
+        "y": 110.372
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nouns",
+      "curve": {
+        "x": -97.7044,
+        "y": 112.026
+      }
+    },
+    {
+      "source": "basics",
+      "target": "verbs",
+      "curve": {
+        "x": -29.4061,
+        "y": 113.337
+      }
+    },
+    {
+      "source": "basics",
+      "target": "adjectives",
+      "curve": {
+        "x": 66.4758,
+        "y": 113.941
+      }
+    },
+    {
+      "source": "basics",
+      "target": "adverbs",
+      "curve": {
+        "x": 180.207,
+        "y": 116.355
+      }
+    },
+    {
+      "source": "basics",
+      "target": "determiners",
+      "curve": {
+        "x": 267.294,
+        "y": 110.587
+      }
+    }
+  ],
+  "id": 1332
+}

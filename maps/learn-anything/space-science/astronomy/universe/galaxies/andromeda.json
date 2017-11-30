@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - space science - astronomy - universe - galaxies - andromeda",
+  "tag": "andromeda galaxy",
+  "nodes": [
+    {
+      "text": "andromeda galaxy",
+      "url": "http://www.wikiwand.com/en/Andromeda_Galaxy",
+      "fx": -153.1870877826633,
+      "fy": -271.3534272927136,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -88.69140625,
+      "fy": -122.06640625,
+      "nodes": [
+        {
+          "text": "1. gigapixels of andromeda",
+          "url": "https://www.youtube.com/watch?v=udAL48P5NJU",
+          "fx": 67.30859375,
+          "fy": -110.56640625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "andromeda galaxy",
+      "target": "basics",
+      "curve": {
+        "x": -8.75216,
+        "y": 73.3935
+      }
+    }
+  ],
+  "id": 1833
+}

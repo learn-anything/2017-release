@@ -1,0 +1,126 @@
+{
+  "title": "learn anything - more - books",
+  "tag": "new books",
+  "nodes": [
+    {
+      "text": "books",
+      "note": "",
+      "url": "https://github.com/learn-anything/books",
+      "fx": -106.41015625,
+      "fy": -91.54163691690462,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new books",
+      "url": "",
+      "fx": -156.53358267865678,
+      "fy": 145.9596302112795,
+      "nodes": [
+        {
+          "text": "goodreads",
+          "url": "https://www.goodreads.com/",
+          "fx": 80.46641732134322,
+          "fy": 12.459630211279489,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "free programming books",
+          "url": "https://github.com/EbookFoundation/free-programming-books",
+          "fx": 80.46641732134322,
+          "fy": 46.45963021127949,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "free programming books 2",
+          "url": "http://breue.com/free_programming_books",
+          "fx": 80.46641732134322,
+          "fy": 86.45963021127949,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "mind expanding books",
+          "url": "https://github.com/hackerkid/Mind-Expanding-Books",
+          "fx": 80.46641732134322,
+          "fy": 120.45963021127949,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "awesome fantasy",
+          "url": "https://github.com/RichardLitt/awesome-fantasy",
+          "fx": 80.46641732134322,
+          "fy": 160.4596302112795,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "awesome scifi",
+          "url": "https://github.com/sindresorhus/awesome-scifi",
+          "fx": 80.46641732134322,
+          "fy": 200.4596302112795,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "reddit top books",
+          "url": "http://reddittopbooks.com/tech/",
+          "fx": 80.46641732134322,
+          "fy": 240.4596302112795,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "book authority",
+          "url": "https://bookauthority.org/",
+          "fx": 80.46641732134322,
+          "fy": 274.4596302112795,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "kooba",
+          "url": "http://kooba.run/",
+          "fx": 80.46641732134322,
+          "fy": 308.4596302112795,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "biographies  ️",
+      "url": "/more/books/biographies",
+      "fx": -195.45891146519568,
+      "fy": 372.0212862318839,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "books",
+      "target": "find new books",
+      "curve": {
+        "x": -25.5617,
+        "y": 117.501
+      }
+    },
+    {
+      "source": "find new books",
+      "target": "biographies  ️",
+      "curve": {
+        "x": -48.1903,
+        "y": 117.119
+      }
+    }
+  ],
+  "id": 1180
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - value theory - aesthetics - beauty",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "beauty",
+      "url": "http://www.wikiwand.com/en/Beauty",
+      "fx": 49.53515625,
+      "fy": -93.87109375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 94.01953125,
+      "fy": 42.12890625,
+      "nodes": [
+        {
+          "text": "16: beauty in physics, mathematics and biology",
+          "url": "https://www.youtube.com/watch?v=WllJrHX_3ZI",
+          "fx": 293.01953125,
+          "fy": 42.12890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "beauty",
+      "curve": {
+        "x": -22.7422,
+        "y": -67.25
+      }
+    }
+  ],
+  "id": 1358
+}

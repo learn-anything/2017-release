@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - particle physics - elementary particles - neutrino - neutrino oscillations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neutrino oscillations",
+      "url": "http://www.wikiwand.com/en/Neutrino_oscillation",
+      "fx": 80.609375,
+      "fy": -135.25,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146.70703125,
+      "fy": -7.66796875,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=7fgKBJDMO54",
+          "fx": 302.70703125,
+          "fy": 3.83203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "neutrino oscillations",
+      "target": "basics",
+      "curve": {
+        "x": -1.70117,
+        "y": 62.541
+      }
+    }
+  ],
+  "id": 1506
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - optics - fermats principle - snells law",
+  "tag": "Snell’s law",
+  "nodes": [
+    {
+      "text": "Snell’s law",
+      "url": "http://www.wikiwand.com/en/Snell's_law",
+      "fx": 216.11123100828718,
+      "fy": -109.23422392955797,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 235.12983425414086,
+      "fy": 31.060773480569992,
+      "nodes": [
+        {
+          "text": "1. refraction and Snell’s law",
+          "url": "https://www.youtube.com/watch?v=y55tzg_jW9I",
+          "fx": 391.12983425414086,
+          "fy": 42.56077348056999,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Snell’s law",
+      "target": "basics",
+      "curve": {
+        "x": -6.4907,
+        "y": 68.8975
+      }
+    }
+  ],
+  "id": 1496
+}

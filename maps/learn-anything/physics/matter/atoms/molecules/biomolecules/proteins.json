@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - proteins",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "proteins",
+      "url": "http://www.wikiwand.com/en/Protein",
+      "fx": 101.31927577014221,
+      "fy": -513.8059834123222,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 120.22846889952154,
+      "fy": -389.59674043062216,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=2Jgb_DpaQhM",
+          "fx": 283.22846889952154,
+          "fy": -377.09674043062216,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "amino acids  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/proteins/amino-acids",
+      "fx": -53.7667350769043,
+      "fy": -255.39026260375977,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "protein folding  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/proteins/protein-folding",
+      "fx": 145.37289005475088,
+      "fy": -253.4780019034735,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "proteins",
+      "target": "basics",
+      "curve": {
+        "x": -2.0454,
+        "y": 61.3546
+      }
+    },
+    {
+      "source": "basics",
+      "target": "amino acids  ️",
+      "curve": {
+        "x": -64.9976,
+        "y": 67.8532
+      }
+    },
+    {
+      "source": "basics",
+      "target": "protein folding  ️",
+      "curve": {
+        "x": 31.3222,
+        "y": 68.0594
+      }
+    }
+  ],
+  "id": 1467
+}

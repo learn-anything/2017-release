@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - programming - programming languages - f sharp",
+  "tag": "F",
+  "nodes": [
+    {
+      "text": "f sharp",
+      "url": "http://www.wikiwand.com/en/F_Sharp_(programming_language)",
+      "fx": -71.7578125,
+      "fy": -204.35546875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/fsharp/",
+          "fx": 118.2421875,
+          "fy": -210.35546875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/fsharp/fsharp",
+          "fx": 118.2421875,
+          "fy": -170.35546875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 26.716321945190316,
+      "fy": -108.33506965637207,
+      "nodes": [
+        {
+          "text": "awesome f#",
+          "url": "https://github.com/fsprojects/awesome-fsharp",
+          "fx": 163.71632194519032,
+          "fy": -96.83506965637207,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 104.1480178833009,
+      "fy": -7.203004201253293,
+      "nodes": [
+        {
+          "text": "16: why isn’t F# the king of .NET?  ️",
+          "url": "https://hackernoon.com/why-isnt-f-the-king-of-net-2a9a1963e087",
+          "fx": 266.1480178833009,
+          "fy": -6.703004201253293,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -60.83412023440951,
+      "fy": 85.16637811905309,
+      "nodes": [
+        {
+          "text": "1. getting started with F#",
+          "url": "http://www.tryfsharp.org/Learn/getting-started",
+          "fx": 121.16587976559049,
+          "fy": 99.66637811905309,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "f sharp",
+      "curve": {
+        "x": -35.987,
+        "y": -46.7602
+      }
+    },
+    {
+      "source": "f sharp",
+      "target": "basics",
+      "curve": {
+        "x": -3.03815,
+        "y": 143.511
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -44.9658,
+        "y": -50.566
+      }
+    }
+  ],
+  "id": 1592
+}

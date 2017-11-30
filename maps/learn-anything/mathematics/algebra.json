@@ -1,0 +1,257 @@
+{
+  "title": "learn anything - mathematics - algebra",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebra",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Algebra",
+      "fx": -98.14320011409723,
+      "fy": -539.7117139959432,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Algebra/",
+          "fx": 120.85679988590277,
+          "fy": -525.7117139959432,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 108.76867182114574,
+      "fy": -404.8203297783347,
+      "nodes": [
+        {
+          "text": "algebra rules",
+          "url": "http://algebrarules.com/",
+          "fx": 245.76867182114574,
+          "fy": -435.3203297783347,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "linear algebra notation",
+          "url": "https://en.wikibooks.org/wiki/Linear_Algebra/Notation",
+          "fx": 245.76867182114574,
+          "fy": -401.3203297783347,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "basic symbols and algebra notations",
+          "url": "https://lagunita.stanford.edu/c4x/Engineering/QMSE-01/asset/Math_1_Basic_Symbols_and_Algebra_Notations.pdf",
+          "fx": 245.76867182114574,
+          "fy": -367.3203297783347,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "elementary algebra",
+      "note": "considered to be essential for any study of mathematics, science, or engineering  differed from arithmetic in the use of abstractions, such as using letters to stand for numbers that are either unknown or allowed to take on many values",
+      "url": "http://www.wikiwand.com/en/Elementary_algebra",
+      "fx": -225.10904121398926,
+      "fy": -320.83496251599536,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 227.8143884995411,
+      "fy": -255.84310239904056,
+      "nodes": [
+        {
+          "text": "graphical algebra and fourier analysis",
+          "url": "https://acko.net/files/gltalks/toolsforthought/#0",
+          "fx": 418.8143884995411,
+          "fy": -255.34310239904056,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -142.43859781618187,
+      "fy": -172.01723093363648,
+      "nodes": [
+        {
+          "text": "1. what is algebra?",
+          "url": "https://www.reddit.com/r/math/comments/5etsob/what_is_algebra/daf3f6l/",
+          "fx": 13.561402183818132,
+          "fy": -180.51723093363648,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. algebra basics",
+          "url": "https://www.youtube.com/watch?v=NybHckSEQBI",
+          "fx": 13.561402183818132,
+          "fy": -140.51723093363648,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "boolean algebra  ️",
+      "url": "/mathematics/algebra/boolean-algebra",
+      "fx": -438.33238220214844,
+      "fy": -45.03996753692627,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "quadratic equations  ️",
+      "url": "/mathematics/algebra/quadratic-equations",
+      "fx": -874.0544819078947,
+      "fy": -43.51123903508767,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "polynomials  ️",
+      "url": "/mathematics/algebra/polynomials",
+      "fx": -620.4649251302084,
+      "fy": -43.42659505208326,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "abstract algebra  ️",
+      "note": "is the study of algebraic structures  it includes study of groups, rings, fields, modules, vector spaces, lattices and algebras  algebraic structures, with their associated homomorphisms, form mathematical categories",
+      "url": "/mathematics/algebra/abstract-algebra",
+      "fx": -217.4521797326297,
+      "fy": -43.40694848572764,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "functions  ️",
+      "url": "/mathematics/algebra/functions",
+      "fx": 36.96597269472875,
+      "fy": -43.25277842483831,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "inequalities  ️",
+      "url": "/mathematics/algebra/inequalities",
+      "fx": -1057.5078125,
+      "fy": -42.1875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "equations  ️",
+      "url": "/mathematics/algebra/equations",
+      "fx": -1231.2102233917042,
+      "fy": -38.891040269498035,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "algebra",
+      "target": "elementary algebra",
+      "curve": {
+        "x": -37.2329,
+        "y": 109.438
+      }
+    },
+    {
+      "source": "help",
+      "target": "algebra",
+      "curve": {
+        "x": -89.2059,
+        "y": -66.1957
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -73.0229,
+        "y": -74.4886
+      }
+    },
+    {
+      "source": "elementary algebra",
+      "target": "basics",
+      "curve": {
+        "x": -0.914778,
+        "y": 73.1589
+      }
+    },
+    {
+      "source": "basics",
+      "target": "abstract algebra  ️",
+      "curve": {
+        "x": -1.50686,
+        "y": 65.5551
+      }
+    },
+    {
+      "source": "basics",
+      "target": "boolean algebra  ️",
+      "curve": {
+        "x": -118.947,
+        "y": 64.7385
+      }
+    },
+    {
+      "source": "basics",
+      "target": "functions  ️",
+      "curve": {
+        "x": 107.418,
+        "y": 64.638
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polynomials  ️",
+      "curve": {
+        "x": -251.017,
+        "y": 23.0742
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quadratic equations  ️",
+      "curve": {
+        "x": -415.145,
+        "y": 12.4374
+      }
+    },
+    {
+      "source": "basics",
+      "target": "inequalities  ️",
+      "curve": {
+        "x": -551.962,
+        "y": 20.4698
+      }
+    },
+    {
+      "source": "basics",
+      "target": "equations  ️",
+      "curve": {
+        "x": -740.495,
+        "y": 6.9336
+      }
+    }
+  ],
+  "id": 854
+}

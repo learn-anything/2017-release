@@ -1,0 +1,127 @@
+{
+  "title": "learn anything - mathematics - optimisation - gradient descent",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "gradient descent",
+      "url": "http://www.wikiwand.com/en/Gradient_descent",
+      "fx": -121.5087890625,
+      "fy": -295.6769353693182,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 60.22052192687977,
+      "fy": -178.10420504483312,
+      "nodes": [
+        {
+          "text": "gradient descent example",
+          "url": "https://github.com/mattnedrich/GradientDescentExample",
+          "fx": 197.22052192687977,
+          "fy": -166.60420504483312,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 170.4254379272461,
+      "fy": -81.25379943847656,
+      "nodes": [
+        {
+          "text": "17: types of optimisation algorithms used in neural networks and ways to optimise gradient descent  ️",
+          "url": "https://medium.com/towards-data-science/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f",
+          "fx": 332.4254379272461,
+          "fy": -91.75379943847656,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -105.0940113067627,
+      "fy": 104.90919812520349,
+      "nodes": [
+        {
+          "text": "1. gradient descent",
+          "url": "https://www.youtube.com/watch?v=LN0PLnDpGN4",
+          "fx": 50.905988693237305,
+          "fy": 6.409198125203488,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. learning with gradient descent",
+          "url": "http://neuralnetworksanddeeplearning.com/chap1.html#learning_with_gradient_descent",
+          "fx": 50.905988693237305,
+          "fy": 46.40919812520349,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. neural networks demystified : gradient descent",
+          "url": "https://www.youtube.com/watch?v=5u0jaA3qAGk",
+          "fx": 50.905988693237305,
+          "fy": 80.40919812520349,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. neural network in 13 lines of python - gradient descent  ️",
+          "url": "http://iamtrask.github.io/2015/07/27/python-network-part2/",
+          "fx": 50.905988693237305,
+          "fy": 142.4091981252035,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. overview of gradient descent optimisation algorithms  ️",
+          "url": "http://sebastianruder.com/optimizing-gradient-descent/",
+          "fx": 50.905988693237305,
+          "fy": 204.4091981252035,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "gradient descent",
+      "target": "basics",
+      "curve": {
+        "x": -22.5426,
+        "y": 199.044
+      }
+    },
+    {
+      "source": "help",
+      "target": "gradient descent",
+      "curve": {
+        "x": -55.3646,
+        "y": -57.5363
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -61.3525,
+        "y": -48.4252
+      }
+    }
+  ],
+  "id": 1056
+}

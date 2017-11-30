@@ -1,0 +1,148 @@
+{
+  "title": "learn anything - programming - programming languages - assembly - WebAssembly",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "WebAssembly",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/WebAssembly",
+      "fx": -105.37109375,
+      "fy": -214.51766159188037,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/WebAssembly/",
+          "fx": 194.62890625,
+          "fy": -242.51766159188037,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/WebAssembly",
+          "fx": 194.62890625,
+          "fy": -200.51766159188037,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/mbasso/awesome-wasm",
+          "fx": 194.62890625,
+          "fy": -158.51766159188037,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 96.91579390623463,
+      "fy": 3.0768492896592647,
+      "nodes": [
+        {
+          "text": "bringing the web up to speed with WebAssembly",
+          "url": "https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf",
+          "fx": 237.91579390623463,
+          "fy": -63.923150710340735,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "what makes WebAssembly fast?  ️",
+          "url": "https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/",
+          "fx": 237.91579390623463,
+          "fy": 3.0768492896592647,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "game of life implemented in WebAssembly",
+          "url": "https://github.com/blaze33/way-of-life",
+          "fx": 237.91579390623463,
+          "fy": 70.07684928965926,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 216.96986607141798,
+      "fy": 184.23586309523796,
+      "nodes": [
+        {
+          "text": "17: compiling for the web with webassembly",
+          "url": "https://www.youtube.com/watch?v=6v4E6oksar0",
+          "fx": 359.969866071418,
+          "fy": 184.23586309523796,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -58.713131486569296,
+      "fy": 317.16669528388,
+      "nodes": [
+        {
+          "text": "1. intro to WebAssembly  ️",
+          "url": "https://www.codelitt.com/blog/web-assembly/",
+          "fx": 104.2868685134307,
+          "fy": 296.16669528388,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. get started using WebAssembly",
+          "url": "https://egghead.io/courses/get-started-using-webassembly-wasm",
+          "fx": 104.2868685134307,
+          "fy": 338.16669528388,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "WebAssembly",
+      "curve": {
+        "x": -71.3934,
+        "y": -107.547
+      }
+    },
+    {
+      "source": "WebAssembly",
+      "target": "basics",
+      "curve": {
+        "x": -8.17101,
+        "y": 264.593
+      }
+    },
+    {
+      "source": "talks",
+      "target": "help",
+      "curve": {
+        "x": -75.6505,
+        "y": -89.5862
+      }
+    }
+  ],
+  "id": 1572
+}

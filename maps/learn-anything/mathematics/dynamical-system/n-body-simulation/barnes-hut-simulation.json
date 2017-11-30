@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - dynamical system - n-body simulation - barnes-hut simulation",
+  "tag": "Barnes-Hut simulation",
+  "nodes": [
+    {
+      "text": "Barnes-Hut simulation",
+      "url": "http://www.wikiwand.com/en/Barnes%E2%80%93Hut_simulation",
+      "fx": -39.428633817668015,
+      "fy": -421.329870161392,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 174.9441236413046,
+      "fy": -302.1710258152201,
+      "nodes": [
+        {
+          "text": "OpenCL based Barnes-Hut n-body simulation",
+          "url": "https://www.youtube.com/watch?v=vJ8ld5WgUz4",
+          "fx": 373.9441236413046,
+          "fy": -302.1710258152201,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 44.34045356252909,
+      "fy": -175.00357403962505,
+      "nodes": [
+        {
+          "text": "1. explanation   ️",
+          "url": "http://arborjs.org/docs/barnes-hut",
+          "fx": 207.3404535625291,
+          "fy": -162.50357403962505,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Barnes-Hut simulation",
+      "target": "basics",
+      "curve": {
+        "x": -4.61546,
+        "y": 122.413
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "Barnes-Hut simulation",
+      "curve": {
+        "x": -69.6864,
+        "y": -58.8294
+      }
+    }
+  ],
+  "id": 929
+}

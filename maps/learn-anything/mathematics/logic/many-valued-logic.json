@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - mathematics - logic - many-valued logic",
+  "tag": "many-valued logic",
+  "nodes": [
+    {
+      "text": "many-valued logic",
+      "url": "http://www.wikiwand.com/en/Many-valued_logic",
+      "fx": -124.94921875,
+      "fy": -134.63671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -59.16796875,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://plato.stanford.edu/entries/logic-manyvalued/",
+          "fx": 103.83203125,
+          "fy": 13,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fuzzy logic  ️",
+      "url": "/mathematics/logic/many-valued-logic/fuzzy-logic",
+      "fx": -207.36328125,
+      "fy": 145.28515625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "many-valued logic",
+      "target": "basics",
+      "curve": {
+        "x": -4.10938,
+        "y": 65.5684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fuzzy logic  ️",
+      "curve": {
+        "x": -56.8477,
+        "y": 74.3926
+      }
+    }
+  ],
+  "id": 1008
+}

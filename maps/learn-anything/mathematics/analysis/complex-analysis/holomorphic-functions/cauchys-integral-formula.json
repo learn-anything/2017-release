@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis - holomorphic functions - cauchys integral formula",
+  "tag": "Cauchy's integral formula",
+  "nodes": [
+    {
+      "text": "Cauchy's integral formula",
+      "url": "http://www.wikiwand.com/en/Cauchy%27s_integral_formula",
+      "fx": 253.67578125000006,
+      "fy": -234.125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 356.3379134241226,
+      "fy": -68.12159533079074,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=WJOf4PfoHow",
+          "fx": 519.3379134241226,
+          "fy": -55.62159533079074,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Cauchy's integral formula",
+      "target": "basics",
+      "curve": {
+        "x": -2.66893,
+        "y": 82.2517
+      }
+    }
+  ],
+  "id": 857
+}

@@ -1,0 +1,109 @@
+{
+  "title": "learn anything - life - relationships",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "interpersonal relationships",
+      "url": "http://www.wikiwand.com/en/Interpersonal_relationship",
+      "fx": -123.58707048160181,
+      "fy": -222.88762713592158,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 77.5435853721408,
+      "fy": -105.66465275824896,
+      "nodes": [
+        {
+          "text": "16: the one thing to save your relationships  ️",
+          "url": "https://themission.co/the-one-thing-to-save-your-relationships-c259f82bd2d",
+          "fx": 246.5435853721408,
+          "fy": -105.66465275824896,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -166.97763151117704,
+      "fy": 20.287847858525595,
+      "nodes": [
+        {
+          "text": "1. how to win friends and influence people",
+          "url": "http://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People",
+          "fx": 22.022368488822963,
+          "fy": -13.212152141474405,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Alan Watts: love &amp; selfishness",
+          "url": "https://www.youtube.com/watch?v=n7CXhRdo5Ss",
+          "fx": 22.022368488822963,
+          "fy": 53.787847858525595,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "friendship  ️",
+      "url": "/life/relationships/friendship",
+      "fx": -254.3218435929648,
+      "fy": 161.3782977386935,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "seduction  ️",
+      "url": "/life/relationships/seduction",
+      "fx": -71.31066981978063,
+      "fy": 163.98484616937515,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interpersonal relationships",
+      "target": "basics",
+      "curve": {
+        "x": -70.6952,
+        "y": 120.338
+      }
+    },
+    {
+      "source": "basics",
+      "target": "seduction  ️",
+      "curve": {
+        "x": 55.5835,
+        "y": 71.8485
+      }
+    },
+    {
+      "source": "articles",
+      "target": "interpersonal relationships",
+      "curve": {
+        "x": -50.5653,
+        "y": -57.3615
+      }
+    },
+    {
+      "source": "basics",
+      "target": "friendship  ️",
+      "curve": {
+        "x": -42.6721,
+        "y": 70.5452
+      }
+    }
+  ],
+  "id": 695
+}

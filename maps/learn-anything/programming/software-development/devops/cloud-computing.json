@@ -1,0 +1,164 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cloud computing",
+      "url": "http://www.wikiwand.com/en/Cloud_computing",
+      "fx": 171.5386618589747,
+      "fy": -84.54029780982899,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/cloudcomputing/",
+          "fx": 450.5386618589747,
+          "fy": -70.54029780982899,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 227.72208867521374,
+      "fy": 26.44217414529919,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=QYzJl0Zrc4M",
+          "fx": 383.72208867521374,
+          "fy": 37.94217414529919,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "salesforce  ️",
+      "url": "/programming/software-development/devops/cloud-computing/salesforce",
+      "fx": -333.4434242248535,
+      "fy": 186.82368850708008,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "google cloud  ️",
+      "url": "/programming/software-development/devops/cloud-computing/google-cloud",
+      "fx": -30.258216857910156,
+      "fy": 188.8505516052246,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "firebase  ️",
+      "url": "/programming/software-development/devops/cloud-computing/firebase",
+      "fx": 600.3082427978516,
+      "fy": 190.2764663696289,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "heroku  ️",
+      "url": "/programming/software-development/devops/cloud-computing/heroku",
+      "fx": -167.33830451965332,
+      "fy": 190.3227767944336,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "aws  ️",
+      "url": "/programming/software-development/devops/cloud-computing/aws",
+      "fx": 488.1844787597656,
+      "fy": 190.95792388916016,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "azure  ️",
+      "url": "/programming/software-development/devops/cloud-computing/azure",
+      "fx": 364.08934783935547,
+      "fy": 191.08337020874023,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "digital ocean  ️",
+      "url": "/programming/software-development/devops/cloud-computing/digital-ocean",
+      "fx": 174.9068946838379,
+      "fy": 192.39278411865234,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cloud computing",
+      "target": "basics",
+      "curve": {
+        "x": -2.65829,
+        "y": 54.2412
+      }
+    },
+    {
+      "source": "basics",
+      "target": "heroku  ️",
+      "curve": {
+        "x": -214.867,
+        "y": 74.4263
+      }
+    },
+    {
+      "source": "basics",
+      "target": "google cloud  ️",
+      "curve": {
+        "x": -106.99,
+        "y": 82.4542
+      }
+    },
+    {
+      "source": "basics",
+      "target": "digital ocean  ️",
+      "curve": {
+        "x": -12.4076,
+        "y": 82.9753
+      }
+    },
+    {
+      "source": "basics",
+      "target": "azure  ️",
+      "curve": {
+        "x": 73.1836,
+        "y": 83.5706
+      }
+    },
+    {
+      "source": "basics",
+      "target": "aws  ️",
+      "curve": {
+        "x": 164.91,
+        "y": 85.2907
+      }
+    },
+    {
+      "source": "basics",
+      "target": "firebase  ️",
+      "curve": {
+        "x": 255.42,
+        "y": 81.0871
+      }
+    },
+    {
+      "source": "basics",
+      "target": "salesforce  ️",
+      "curve": {
+        "x": -296.341,
+        "y": 56.0046
+      }
+    }
+  ],
+  "id": 1709
+}

@@ -1,0 +1,127 @@
+{
+  "title": "learn anything - machine learning - neural networks - backpropagation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "backpropagation",
+      "url": "http://www.wikiwand.com/en/Backpropagation",
+      "fx": -11.190894841500494,
+      "fy": -244.41385481862847,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 194.98891559829053,
+      "fy": -134.03605769230774,
+      "nodes": [
+        {
+          "text": "backpropagation through timed vanishing gradients  ️",
+          "url": "http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/",
+          "fx": 385.98891559829053,
+          "fy": -133.53605769230774,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 15.095196409438358,
+      "fy": 102.64137038360514,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://cs231n.github.io/optimization-2/",
+          "fx": 171.09519640943836,
+          "fy": -15.858629616394865,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. you should understand backpropagation  ️",
+          "url": "https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b",
+          "fx": 171.09519640943836,
+          "fy": 18.141370383605135,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. how the backpropagation algorithm works  ️",
+          "url": "http://neuralnetworksanddeeplearning.com/chap2.html",
+          "fx": 171.09519640943836,
+          "fy": 80.14137038360514,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. backpropagation neural network",
+          "url": "https://www.youtube.com/watch?v=WZDMNM36PsM",
+          "fx": 171.09519640943836,
+          "fy": 142.14137038360514,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. backpropagation algorithm",
+          "url": "https://www.youtube.com/watch?v=LOc_y67AzCA",
+          "fx": 171.09519640943836,
+          "fy": 182.14137038360514,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. visual explanation of backpropagation",
+          "url": "https://github.com/rasbt/python-machine-learning-book/blob/master/faq/visual-backpropagation.md",
+          "fx": 171.09519640943836,
+          "fy": 222.14137038360514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "backpropagation through time  ️",
+      "url": "/machine-learning/neural-networks/backpropagation/backpropagation-through-time",
+      "fx": -248.7527555717054,
+      "fy": 278.70049178828526,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "backpropagation",
+      "target": "basics",
+      "curve": {
+        "x": -19.8569,
+        "y": 172.277
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "backpropagation",
+      "curve": {
+        "x": -78.8399,
+        "y": -53.9389
+      }
+    },
+    {
+      "source": "basics",
+      "target": "backpropagation through time  ️",
+      "curve": {
+        "x": -76.674,
+        "y": 88.0296
+      }
+    }
+  ],
+  "id": 772
+}

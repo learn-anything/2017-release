@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - web development - browsers - headless",
+  "tag": "headless browsers",
+  "nodes": [
+    {
+      "text": "headless browsers",
+      "url": "http://www.wikiwand.com/en/Headless_browser",
+      "fx": -121.32421875,
+      "fy": -191.65625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 42.34149966032601,
+      "fy": -95.3515625,
+      "nodes": [
+        {
+          "text": "list of all headless web browsers",
+          "url": "https://github.com/dhamaniasad/HeadlessBrowsers",
+          "fx": 179.341499660326,
+          "fy": -83.8515625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 118.43057914402186,
+      "fy": 15.41410495922355,
+      "nodes": [
+        {
+          "text": "tagUI",
+          "url": "https://github.com/tebelorg/TagUI",
+          "fx": 309.43057914402186,
+          "fy": 26.91410495922355,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -78.85294117647061,
+      "fy": 123.05330882352928,
+      "nodes": [
+        {
+          "text": "1. what are headless browsers",
+          "url": "https://www.youtube.com/watch?v=udkiQSpXKw4",
+          "fx": 77.14705882352939,
+          "fy": 134.55330882352928,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "headless browsers",
+      "curve": {
+        "x": -41.8329,
+        "y": -46.9023
+      }
+    },
+    {
+      "source": "headless browsers",
+      "target": "basics",
+      "curve": {
+        "x": -14.0144,
+        "y": 156.105
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -51.5445,
+        "y": -55.3828
+      }
+    }
+  ],
+  "id": 1856
+}

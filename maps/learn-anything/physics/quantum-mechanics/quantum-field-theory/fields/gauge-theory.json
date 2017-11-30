@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum field theory - fields - gauge theory",
+  "tag": "Gauge theory",
+  "nodes": [
+    {
+      "text": "Gauge theory",
+      "url": "http://www.wikiwand.com/en/Gauge_theory",
+      "fx": 202.828125,
+      "fy": -131.1875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 237.6381555316092,
+      "fy": 25.10695043103459,
+      "nodes": [
+        {
+          "text": "1. introduction to Gauge theory, symmetry &amp; Higgs",
+          "url": "https://www.youtube.com/watch?v=v6bgABUyT3c",
+          "fx": 400.6381555316092,
+          "fy": 25.10695043103459,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Gauge theory",
+      "target": "basics",
+      "curve": {
+        "x": -0.594985,
+        "y": 78.1472
+      }
+    }
+  ],
+  "id": 1528
+}

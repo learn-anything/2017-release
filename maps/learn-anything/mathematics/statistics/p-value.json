@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - statistics - p-value",
+  "tag": "p-value",
+  "nodes": [
+    {
+      "text": "p-value",
+      "url": "http://www.wikiwand.com/en/P-value",
+      "fx": 49.90234375,
+      "fy": -188.734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 158.625,
+      "fy": -82.6796875,
+      "nodes": [
+        {
+          "text": "science isn’t broken  ️",
+          "url": "https://fivethirtyeight.com/features/science-isnt-broken/#part1",
+          "fx": 320.625,
+          "fy": -71.1796875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 53.164189739411995,
+      "fy": 19.935158794810206,
+      "nodes": [
+        {
+          "text": "1. what does p-value tell us",
+          "url": "https://www.youtube.com/watch?v=-MKT3yLDkqk",
+          "fx": 209.164189739412,
+          "fy": 31.435158794810206,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "p-value",
+      "curve": {
+        "x": -46.3613,
+        "y": -51.7773
+      }
+    },
+    {
+      "source": "p-value",
+      "target": "basics",
+      "curve": {
+        "x": -7.86908,
+        "y": 103.085
+      }
+    }
+  ],
+  "id": 1081
+}

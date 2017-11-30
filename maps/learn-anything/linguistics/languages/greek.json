@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - linguistics - languages - greek",
+  "tag": "greek language",
+  "nodes": [
+    {
+      "text": "greek language",
+      "url": "http://www.wikiwand.com/en/Greek_language",
+      "fx": -100.45703125,
+      "fy": -209.8046875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/GREEK/",
+          "fx": 165.54296875,
+          "fy": -195.8046875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -44.70589114832649,
+      "fy": -48.8755980860974,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/el/en/Learn-Greek-Online",
+          "fx": 111.29410885167351,
+          "fy": -34.3755980860974,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "greek language",
+      "target": "basics",
+      "curve": {
+        "x": 0.37557,
+        "y": 79.2145
+      }
+    }
+  ],
+  "id": 726
+}

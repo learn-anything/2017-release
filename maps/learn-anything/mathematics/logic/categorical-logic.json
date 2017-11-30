@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - categorical logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "categorical logic",
+      "url": "http://www.wikiwand.com/en/Categorical_logic",
+      "fx": 105.421875,
+      "fy": -118.578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 149.40364583333337,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. video series",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_4184141781&amp;feature=iv&amp;list=PLz0n_SjOttTcESSCIAzDG1UoJlyjjR0bq&amp;src_vid=YxBShJU_CKs",
+          "fx": 312.40364583333337,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "categorical logic",
+      "target": "basics",
+      "curve": {
+        "x": -10.0091,
+        "y": 75.5391
+      }
+    }
+  ],
+  "id": 998
+}

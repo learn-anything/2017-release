@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebellum",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cerebellum",
+      "url": "http://www.wikiwand.com/en/Cerebellum",
+      "fx": -51.35546875,
+      "fy": -324.1531209096858,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -22.0703125,
+      "fy": -187.609375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=wGn5Ji0rtsU",
+          "fx": 140.9296875,
+          "fy": -175.109375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "muscle memory",
+      "url": "http://www.wikiwand.com/en/Muscle_memory",
+      "fx": -215.55859375,
+      "fy": -47.90234375,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cerebellum",
+      "target": "basics",
+      "curve": {
+        "x": -4.35742,
+        "y": 67.5219
+      }
+    },
+    {
+      "source": "basics",
+      "target": "muscle memory",
+      "curve": {
+        "x": -64.9941,
+        "y": 70.6035
+      }
+    }
+  ],
+  "id": 1241
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - matrix factorisation - non-negative matrix factorisation",
+  "tag": "non-negative matrix factorisation",
+  "nodes": [
+    {
+      "text": "non-negative matrix factorisation",
+      "url": "http://www.wikiwand.com/en/Non-negative_matrix_factorization",
+      "fx": -114.55859375,
+      "fy": -218.40625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.664228236508166,
+      "fy": -45.97077489792275,
+      "nodes": [
+        {
+          "text": "1. non-negative matrix factorisation lecture",
+          "url": "https://www.youtube.com/watch?v=UQGEB3Q5-fQ",
+          "fx": 102.33577176349183,
+          "fy": -65.47077489792275,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. NMF explanation",
+          "url": "https://www.youtube.com/watch?v=nsHbkVMaUGk",
+          "fx": 102.33577176349183,
+          "fy": -3.4707748979227517,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "non-negative matrix factorisation",
+      "target": "basics",
+      "curve": {
+        "x": -1.30282,
+        "y": 78.7177
+      }
+    }
+  ],
+  "id": 977
+}

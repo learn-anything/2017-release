@@ -1,0 +1,115 @@
+{
+  "title": "learn anything - mathematics - geometry - symmetry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "symmetry",
+      "url": "http://www.wikiwand.com/en/Symmetry",
+      "fx": 204.01101090604038,
+      "fy": -414.76085360738244,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 350.7075651978421,
+      "fy": -288.0028851918704,
+      "nodes": [
+        {
+          "text": "10 beautiful examples of symmetry in nature  ️",
+          "url": "http://listverse.com/2013/04/21/10-beautiful-examples-of-symmetry-in-nature/",
+          "fx": 549.7075651978421,
+          "fy": -288.0028851918704,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 218.43512561274474,
+      "fy": -174.94117647063615,
+      "nodes": [
+        {
+          "text": "1. what is symmetry  ️",
+          "url": "https://www.livescience.com/51100-what-is-symmetry.html",
+          "fx": 381.43512561274474,
+          "fy": -162.44117647063615,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "rotational symmetry  ️",
+      "url": "/mathematics/geometry/symmetry/rotational-symmetry",
+      "fx": -198.90660843152887,
+      "fy": -28.659826144365297,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "reflection symmetry",
+      "url": "http://www.wikiwand.com/en/Reflection_symmetry",
+      "fx": 88.43249526457964,
+      "fy": -24.44912347563411,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "translational symmetry",
+      "url": "http://www.wikiwand.com/en/Translational_symmetry",
+      "fx": 374.66899510922394,
+      "fy": -23.601896221248637,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "symmetry",
+      "target": "basics",
+      "curve": {
+        "x": -8.78795,
+        "y": 119.16
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rotational symmetry  ️",
+      "curve": {
+        "x": -168.671,
+        "y": 73.8907
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reflection symmetry",
+      "curve": {
+        "x": -25.2513,
+        "y": 75.996
+      }
+    },
+    {
+      "source": "basics",
+      "target": "translational symmetry",
+      "curve": {
+        "x": 124.867,
+        "y": 76.4196
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "symmetry",
+      "curve": {
+        "x": -66.3483,
+        "y": -62.629
+      }
+    }
+  ],
+  "id": 964
+}

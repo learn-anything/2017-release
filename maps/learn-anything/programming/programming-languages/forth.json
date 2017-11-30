@@ -1,0 +1,102 @@
+{
+  "title": "learn anything - programming - programming languages - forth",
+  "tag": "forth programming language",
+  "nodes": [
+    {
+      "text": "forth",
+      "url": "http://www.wikiwand.com/en/Forth_(programming_language)",
+      "fx": 15.0859375,
+      "fy": -244.1640625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Forth/",
+          "fx": 184.0859375,
+          "fy": -230.1640625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 112.40625,
+      "fy": -143.546875,
+      "nodes": [
+        {
+          "text": "awesome forth",
+          "url": "https://github.com/lawrencewoodman/awesome-forth",
+          "fx": 249.40625,
+          "fy": -132.046875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 157.7491287174721,
+      "fy": -31.829707829925667,
+      "nodes": [
+        {
+          "text": "17: forth: the hacker’s language  ️",
+          "url": "http://hackaday.com/2017/01/27/forth-the-hackers-language/",
+          "fx": 319.7491287174721,
+          "fy": -20.329707829925667,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 20.94223962608021,
+      "fy": 52.34483966893538,
+      "nodes": [
+        {
+          "text": "1. learn Forth in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/forth/",
+          "fx": 202.9422396260802,
+          "fy": 66.84483966893538,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "forth",
+      "curve": {
+        "x": -40.6602,
+        "y": -49.0586
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -28.9214,
+        "y": -55.8586
+      }
+    },
+    {
+      "source": "forth",
+      "target": "basics",
+      "curve": {
+        "x": -0.321849,
+        "y": 147.004
+      }
+    }
+  ],
+  "id": 1593
+}

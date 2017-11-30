@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum state - wave function",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "wave function",
+      "url": "http://www.wikiwand.com/en/Wave_function",
+      "fx": 87.53125,
+      "fy": -57.71875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 133.0859375,
+      "fy": 87.89453125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=KRRnMS1sm6Y",
+          "fx": 296.0859375,
+          "fy": 66.89453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. quantum wave function visualisation",
+          "url": "https://www.youtube.com/watch?v=KKr91v7yLcM",
+          "fx": 296.0859375,
+          "fy": 108.89453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "wave function collapse",
+      "url": "http://www.wikiwand.com/en/Wave_function_collapse",
+      "fx": -106.90199530516412,
+      "fy": 235.8925322770151,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "wave function",
+      "target": "basics",
+      "curve": {
+        "x": -3.47266,
+        "y": 72.0566
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wave function collapse",
+      "curve": {
+        "x": -78.494,
+        "y": 73.999
+      }
+    }
+  ],
+  "id": 1538
+}

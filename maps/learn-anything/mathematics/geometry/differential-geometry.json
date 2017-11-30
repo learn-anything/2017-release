@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - mathematics - geometry - differential geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "differential geometry",
+      "url": "http://www.wikiwand.com/en/Differential_geometry",
+      "fx": -99.26171875,
+      "fy": -168.16015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 96.5236573543848,
+      "fy": -73.04715109620417,
+      "nodes": [
+        {
+          "text": "where is differential geometry useful?",
+          "url": "https://www.reddit.com/r/math/comments/24tv9c/where_is_differential_geometry_useful/",
+          "fx": 233.5236573543848,
+          "fy": -72.54715109620417,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -53.27677367724425,
+      "fy": 81.14377907733206,
+      "nodes": [
+        {
+          "text": "1. differential geometry lecture",
+          "url": "https://www.youtube.com/watch?v=6xgtMQ7WSzQ",
+          "fx": 128.72322632275575,
+          "fy": 19.643779077332056,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. differential geometry of curves and surfaces",
+          "url": "http://www.math.uni.lodz.pl/~maczar/ggk/do%20Carmo,%20Differential%20Geometry%20of%20Curves%20and%20Surfaces.pdf",
+          "fx": 128.72322632275575,
+          "fy": 59.643779077332056,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. differential geometry: connections, curvature and characteristic classes",
+          "url": "http://www.goodreads.com/book/show/34187207-differential-geometry",
+          "fx": 128.72322632275575,
+          "fy": 121.64377907733206,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "differential geometry",
+      "target": "basics",
+      "curve": {
+        "x": -15.2575,
+        "y": 123.401
+      }
+    },
+    {
+      "source": "help",
+      "target": "differential geometry",
+      "curve": {
+        "x": -54.8927,
+        "y": -46.3065
+      }
+    }
+  ],
+  "id": 940
+}

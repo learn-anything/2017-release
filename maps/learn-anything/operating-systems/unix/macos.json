@@ -1,0 +1,297 @@
+{
+  "title": "learn anything - operating systems - unix - macos",
+  "tag": "macOS",
+  "nodes": [
+    {
+      "text": "macOS",
+      "url": "http://www.wikiwand.com/en/Macintosh_operating_systems",
+      "fx": -123.24285326736208,
+      "fy": -631.4490714645588,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/MacOS/",
+          "fx": 83.75714673263792,
+          "fy": -659.4490714645588,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://apple.stackexchange.com/",
+          "fx": 83.75714673263792,
+          "fy": -617.4490714645588,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/iCHAIT/awesome-macOS",
+          "fx": 83.75714673263792,
+          "fy": -575.4490714645588,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 47.48898662156796,
+      "fy": -345.27551058631514,
+      "nodes": [
+        {
+          "text": "reverse engineering resources",
+          "url": "http://pewpewthespells.com/re.html",
+          "fx": 188.48898662156796,
+          "fy": -514.7755105863151,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "macOS shell scripts",
+          "url": "https://github.com/liyanage/macosx-shell-scripts",
+          "fx": 188.48898662156796,
+          "fy": -477.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome macOS command line",
+          "url": "https://github.com/herrbischoff/awesome-osx-command-line",
+          "fx": 188.48898662156796,
+          "fy": -435.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "quick look plugins",
+          "url": "https://github.com/sindresorhus/quick-look-plugins",
+          "fx": 188.48898662156796,
+          "fy": -368.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "macOS security and privacy guide",
+          "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+          "fx": 188.48898662156796,
+          "fy": -326.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "awesome mac",
+          "url": "https://github.com/jaywcjlove/awesome-mac",
+          "fx": 188.48898662156796,
+          "fy": -259.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "awesome OS X command line",
+          "url": "https://github.com/herrbischoff/awesome-osx-command-line",
+          "fx": 188.48898662156796,
+          "fy": -217.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "tools for macOS",
+          "url": "https://github.com/morgant/tools-osx",
+          "fx": 188.48898662156796,
+          "fy": -150.77551058631514,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 292.0940057635398,
+      "fy": -62.49047548084354,
+      "nodes": [
+        {
+          "text": "awesome macOS screensavers",
+          "url": "https://github.com/aharris88/awesome-macos-screensavers",
+          "fx": 491.0940057635398,
+          "fy": -62.49047548084354,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -201.23287934407062,
+      "fy": -54.38531559630792,
+      "nodes": [
+        {
+          "text": "1. brew package manager",
+          "url": "https://brew.sh/",
+          "fx": -12.232879344070625,
+          "fy": -57.88531559630792,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. macOS internals",
+          "url": "http://osxbook.com/",
+          "fx": -12.232879344070625,
+          "fy": -20.88531559630792,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "launchd  ️",
+      "url": "/operating-systems/unix/macos/launchd",
+      "fx": 67.43094877151566,
+      "fy": 66.39849679971769,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 497.51560948746646,
+      "fy": 68.66423798554229,
+      "nodes": [
+        {
+          "text": "14: mac keyboard shortcuts  ️",
+          "url": "http://mattgemmell.com/mac-keyboard-shortcuts/",
+          "fx": 666.5156094874665,
+          "fy": 14.164237985542286,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "16: migrating from iOS to mac   —   part I: app anatomy  ️",
+          "url": "http://martiancraft.com/blog/2016/05/ios-to-mac-1/",
+          "fx": 666.5156094874665,
+          "fy": 56.164237985542286,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "16: take control of your trackpad on macOS  ️",
+          "url": "https://medium.com/@NikitaVoloboev/take-control-of-your-trackpad-on-macos-45c581f542e0",
+          "fx": 666.5156094874665,
+          "fy": 123.16423798554229,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "automation  ️",
+      "url": "/operating-systems/unix/macos/automation",
+      "fx": -93.15316436644775,
+      "fy": 151.07943640703536,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "apps  ️",
+      "url": "/operating-systems/unix/macos/apps",
+      "fx": -240.8118276632639,
+      "fy": 162.7248688811187,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "cocoa  ️",
+      "url": "/programming/programming-languages/swift/apple-frameworks/cocoa",
+      "fx": -402.13654765725175,
+      "fy": 162.90066154530052,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "launchd  ️",
+      "curve": {
+        "x": 99.4724,
+        "y": 70.0369
+      }
+    },
+    {
+      "source": "basics",
+      "target": "automation  ️",
+      "curve": {
+        "x": 65.0398,
+        "y": 102.732
+      }
+    },
+    {
+      "source": "macOS",
+      "target": "basics",
+      "curve": {
+        "x": -48.745,
+        "y": 287.282
+      }
+    },
+    {
+      "source": "help",
+      "target": "macOS",
+      "curve": {
+        "x": -70.866,
+        "y": -141.837
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -222.59,
+        "y": -82.6443
+      }
+    },
+    {
+      "source": "articles",
+      "target": "interesting",
+      "curve": {
+        "x": -95.4608,
+        "y": -65.5773
+      }
+    },
+    {
+      "source": "basics",
+      "target": "apps  ️",
+      "curve": {
+        "x": -22.2895,
+        "y": 109.805
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cocoa  ️",
+      "curve": {
+        "x": -100.202,
+        "y": 109.893
+      }
+    }
+  ],
+  "id": 1300
+}

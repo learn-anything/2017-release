@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - web development - web design - responsive web development",
+  "tag": "responsive web design",
+  "nodes": [
+    {
+      "text": "responsive web design",
+      "url": "http://www.wikiwand.com/en/Responsive_web_design",
+      "fx": 104.125,
+      "fy": -117.75390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 188.68359375,
+      "fy": 24.87109375,
+      "nodes": [
+        {
+          "text": "1. 9 basics principles of responsive web design  ️",
+          "url": "http://blog.froont.com/9-basic-principles-of-responsive-web-design/",
+          "fx": 344.68359375,
+          "fy": 25.37109375,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "responsive web design",
+      "target": "basics",
+      "curve": {
+        "x": -2.2207,
+        "y": 70.0625
+      }
+    }
+  ],
+  "id": 1925
+}

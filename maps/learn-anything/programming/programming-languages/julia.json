@@ -1,0 +1,145 @@
+{
+  "title": "learn anything - programming - programming languages - julia",
+  "tag": "julia programming language",
+  "nodes": [
+    {
+      "text": "julia",
+      "url": "http://www.wikiwand.com/en/Julia_(programming_language)",
+      "fx": -39.82466096698113,
+      "fy": -338.92334905660374,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Julia/",
+          "fx": 121.17533903301887,
+          "fy": -384.92334905660374,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/JuliaLang/julia",
+          "fx": 121.17533903301887,
+          "fy": -344.92334905660374,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/julia",
+          "fx": 121.17533903301887,
+          "fy": -304.92334905660374,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/svaksha/Julia.jl",
+          "fx": 121.17533903301887,
+          "fy": -264.92334905660374,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 48.946952327605345,
+      "fy": -182.22437286376953,
+      "nodes": [
+        {
+          "text": "julia learning resources",
+          "url": "https://julialang.org/learning/",
+          "fx": 185.94695232760535,
+          "fy": -184.72437286376953,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "julia docs",
+          "url": "https://docs.julialang.org/en/latest/#Manual-1",
+          "fx": 185.94695232760535,
+          "fy": -150.72437286376953,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 124.05182850745405,
+      "fy": -51.497708720545575,
+      "nodes": [
+        {
+          "text": "17: some fun with pi in julia  ️",
+          "url": "http://julialang.org/blog/2017/03/piday",
+          "fx": 286.05182850745405,
+          "fy": -39.997708720545575,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -52.25930608416547,
+      "fy": 60.919319805586156,
+      "nodes": [
+        {
+          "text": "1. learn Julia in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/julia/",
+          "fx": 129.74069391583453,
+          "fy": 55.419319805586156,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. programming in julia",
+          "url": "https://lectures.quantecon.org/jl/learning_julia.html",
+          "fx": 129.74069391583453,
+          "fy": 89.41931980558616,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "julia",
+      "curve": {
+        "x": -38.3858,
+        "y": -77.0995
+      }
+    },
+    {
+      "source": "julia",
+      "target": "basics",
+      "curve": {
+        "x": -7.46732,
+        "y": 198.671
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -43.8024,
+        "y": -65.3633
+      }
+    }
+  ],
+  "id": 1616
+}

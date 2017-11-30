@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - regression analysis - linear regression - generalised linear models",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "generalised linear models",
+      "url": "http://www.wikiwand.com/en/Generalized_linear_model",
+      "fx": 108.91796875,
+      "fy": -208.03125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 208.88711353224153,
+      "fy": -61.052101835912595,
+      "nodes": [
+        {
+          "text": "1. introduction to generalised linear models",
+          "url": "https://www.youtube.com/watch?v=vpKpFMUMaVw",
+          "fx": 364.88711353224153,
+          "fy": -60.552101835912595,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "generalised linear models",
+      "target": "basics",
+      "curve": {
+        "x": -0.0154276,
+        "y": 72.2396
+      }
+    }
+  ],
+  "id": 1107
+}

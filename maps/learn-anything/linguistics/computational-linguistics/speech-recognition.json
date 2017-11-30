@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - linguistics - computational linguistics - speech recognition",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "speech recognition",
+      "url": "http://www.wikiwand.com/en/Speech_recognition",
+      "fx": -114.11328125,
+      "fy": -137.18359375,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/edobashira/speech-language-processing",
+          "fx": 184.88671875,
+          "fy": -123.18359375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": 12.59375,
+      "nodes": [
+        {
+          "text": "1. deep learning for speech recognition",
+          "url": "https://www.youtube.com/watch?v=g-sndkf7mCs",
+          "fx": 109.5,
+          "fy": -17.90625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. guide to speech recognition algorithms",
+          "url": "https://www.youtube.com/watch?v=i9Gn2QYrYpo",
+          "fx": 109.5,
+          "fy": 44.09375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "speech recognition",
+      "target": "basics",
+      "curve": {
+        "x": -1.94336,
+        "y": 73.6387
+      }
+    }
+  ],
+  "id": 704
+}

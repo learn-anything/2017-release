@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - algebra - equations - parametric equations - lissajous curve",
+  "tag": "Lissajous curve",
+  "nodes": [
+    {
+      "text": "Lissajous curve",
+      "url": "http://www.wikiwand.com/en/Lissajous_curve",
+      "fx": -106.6640625,
+      "fy": -223.14453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 82.6171875,
+      "fy": -95.88469934463501,
+      "nodes": [
+        {
+          "text": "mesmerising graph",
+          "url": "https://www.desmos.com/calculator/8bofo9jxrf",
+          "fx": 281.6171875,
+          "fy": -104.38469934463501,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "animated Lissajous",
+          "url": "http://imgur.com/vLoiQuN",
+          "fx": 281.6171875,
+          "fy": -62.38469934463501,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -55.08203125,
+      "fy": 16.875,
+      "nodes": [
+        {
+          "text": "1. Lissajous figures explanation",
+          "url": "https://www.youtube.com/watch?v=aUi8SnGGfG8",
+          "fx": 107.91796875,
+          "fy": 29.375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "Lissajous curve",
+      "curve": {
+        "x": -73.3906,
+        "y": -62.8799
+      }
+    },
+    {
+      "source": "Lissajous curve",
+      "target": "basics",
+      "curve": {
+        "x": -4.45898,
+        "y": 119.26
+      }
+    }
+  ],
+  "id": 1932
+}

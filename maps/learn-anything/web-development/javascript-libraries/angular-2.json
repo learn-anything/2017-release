@@ -1,0 +1,113 @@
+{
+  "title": "learn anything - web development - javascript libraries - angular 2",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "Angular 2",
+      "url": "https://angular.io/",
+      "fx": -82.70987401832463,
+      "fy": -333.7287099149215,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Angular2/",
+          "fx": 102.29012598167537,
+          "fy": -362.2287099149215,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/angular/angular.js",
+          "fx": 102.29012598167537,
+          "fy": -322.2287099149215,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/AngularClass/awesome-angular",
+          "fx": 102.29012598167537,
+          "fy": -282.2287099149215,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 66.18698458047083,
+      "fy": -215.22092784319824,
+      "nodes": [
+        {
+          "text": "awesome angular components",
+          "url": "https://github.com/brillout/awesome-angular-components",
+          "fx": 203.18698458047083,
+          "fy": -203.72092784319824,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -143.655957619093,
+      "fy": -51.19116491925149,
+      "nodes": [
+        {
+          "text": "1. learn angular 2 development",
+          "url": "https://coursetro.com/courses/8/Learn-Angular-2-Development-with-our-Free-Course",
+          "fx": 38.34404238090701,
+          "fy": -98.69116491925149,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. create angular application in typescript",
+          "note": "typescript",
+          "url": "https://angular.io/docs/ts/latest/tutorial/",
+          "fx": 38.34404238090701,
+          "fy": -58.69116491925149,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. build a whatsapp clone with Meteor, Ionic 2 and angular 2",
+          "url": "https://angular-meteor.com/tutorials/whatsapp2/",
+          "fx": 38.34404238090701,
+          "fy": -2.6911649192514915,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "Angular 2",
+      "curve": {
+        "x": -54.1984,
+        "y": -58.0038
+      }
+    },
+    {
+      "source": "Angular 2",
+      "target": "basics",
+      "curve": {
+        "x": -45.9729,
+        "y": 140.018
+      }
+    }
+  ],
+  "id": 1881
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - general relativity - equivalence principle",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "equivalence principle",
+      "url": "http://www.wikiwand.com/en/Equivalence_principle",
+      "fx": 56.71484375,
+      "fy": -140.2265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 130.7578125,
+      "fy": -7.9609375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=eU2hGIrBULA",
+          "fx": 286.7578125,
+          "fy": 3.5390625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "equivalence principle",
+      "target": "basics",
+      "curve": {
+        "x": -2.72852,
+        "y": 64.8828
+      }
+    }
+  ],
+  "id": 1446
+}

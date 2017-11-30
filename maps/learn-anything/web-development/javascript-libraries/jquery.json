@@ -1,0 +1,103 @@
+{
+  "title": "learn anything - web development - javascript libraries - jquery",
+  "tag": "jQuery",
+  "nodes": [
+    {
+      "text": "jQuery",
+      "url": "https://github.com/jquery/jquery",
+      "fx": -8.241830860638743,
+      "fy": -185.4663458310988,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/jquery/",
+          "fx": 176.75816913936126,
+          "fy": -191.4663458310988,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/petk/awesome-jquery",
+          "fx": 176.75816913936126,
+          "fy": -151.4663458310988,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 78.52343749999886,
+      "fy": -71.57940051020023,
+      "nodes": [
+        {
+          "text": "10 things I learned from the jQuery source",
+          "url": "https://www.youtube.com/watch?v=i_qE1iAmjFg",
+          "fx": 215.52343749999886,
+          "fy": -91.07940051020023,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "jQuery tips everyone should know",
+          "url": "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know",
+          "fx": 215.52343749999886,
+          "fy": -29.07940051020023,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -27.82676977040819,
+      "fy": 83.2426658163281,
+      "nodes": [
+        {
+          "text": "1. jQuery on code academy",
+          "url": "https://www.codecademy.com/learn/jquery",
+          "fx": 154.1732302295918,
+          "fy": 80.7426658163281,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. jquery tutorial",
+          "url": "https://www.w3schools.com/jquery/",
+          "fx": 154.1732302295918,
+          "fy": 114.7426658163281,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "jQuery",
+      "target": "basics",
+      "curve": {
+        "x": -9.79247,
+        "y": 134.355
+      }
+    },
+    {
+      "source": "help",
+      "target": "jQuery",
+      "curve": {
+        "x": -31.3826,
+        "y": -55.6934
+      }
+    }
+  ],
+  "id": 1893
+}

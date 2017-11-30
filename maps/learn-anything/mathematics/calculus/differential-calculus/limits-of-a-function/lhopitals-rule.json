@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - differential calculus - limits of a function - lhopitals rule",
+  "tag": "LHopital's rule",
+  "nodes": [
+    {
+      "text": "L'Hôpital's rule",
+      "url": "http://www.wikiwand.com/en/L%27H%C3%B4pital%27s_rule",
+      "fx": -34.05215116132763,
+      "fy": -152.19689815922789,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 10.9142484664917,
+      "fy": -9.320374429225922,
+      "nodes": [
+        {
+          "text": "1. L’Hospital’s rule and indeterminate quotients",
+          "url": "https://www.youtube.com/watch?v=Sp0G-VggAoU",
+          "fx": 173.9142484664917,
+          "fy": -9.320374429225922,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "L'Hôpital's rule",
+      "target": "basics",
+      "curve": {
+        "x": -5.2668,
+        "y": 70.6883
+      }
+    }
+  ],
+  "id": 881
+}

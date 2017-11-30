@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - lattices",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lattices",
+      "url": "http://www.wikiwand.com/en/Lattice_(order)",
+      "fx": 0.70703125,
+      "fy": -133.10546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 16.5,
+      "fy": -5,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=qPtGlrb_sXg",
+          "fx": 172.5,
+          "fy": 6.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "theta function of a lattice",
+      "url": "http://www.wikiwand.com/en/Theta_function_of_a_lattice",
+      "fx": -184.1376008064517,
+      "fy": 128.07232862910746,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "lattices",
+      "target": "basics",
+      "curve": {
+        "x": -0.603516,
+        "y": 62.8027
+      }
+    },
+    {
+      "source": "basics",
+      "target": "theta function of a lattice",
+      "curve": {
+        "x": -52.0688,
+        "y": 67.7862
+      }
+    }
+  ],
+  "id": 825
+}

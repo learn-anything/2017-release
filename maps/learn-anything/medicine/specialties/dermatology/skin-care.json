@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - medicine - specialties - dermatology - skin care",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "skin care",
+      "url": "http://www.wikiwand.com/en/Skin_care",
+      "fx": 98.21510709269648,
+      "fy": -155.08545470505618,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/SkincareAddiction/",
+          "fx": 306.2151070926965,
+          "fy": -141.08545470505618,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 118.10406704112154,
+      "fy": -6.911511885109519,
+      "nodes": [
+        {
+          "text": "1. how the sun sees you",
+          "url": "https://www.youtube.com/watch?v=o9BqrSAHbTc",
+          "fx": 274.10406704112154,
+          "fy": -15.411511885109519,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. getting started",
+          "url": "https://www.reddit.com/r/SkincareAddiction/wiki/index",
+          "fx": 274.10406704112154,
+          "fy": 24.58848811489048,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "skin care",
+      "target": "basics",
+      "curve": {
+        "x": -3.05552,
+        "y": 72.837
+      }
+    }
+  ],
+  "id": 1165
+}

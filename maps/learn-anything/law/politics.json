@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - law - politics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "politics",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Politics",
+      "fx": 343.23240740247843,
+      "fy": -315.03121040850436,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://politics.stackexchange.com/",
+          "fx": 568.2324074024784,
+          "fy": -301.03121040850436,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "political corruption  ️",
+      "url": "/law/politics/political-corruption",
+      "fx": 32.18834369685345,
+      "fy": -155.50123565051018,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "political science  ️",
+      "url": "/law/politics/political-science",
+      "fx": 294.9638583669954,
+      "fy": -153.4382007762788,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "politics",
+      "target": "political science  ️",
+      "curve": {
+        "x": -18.1342,
+        "y": 79.546
+      }
+    },
+    {
+      "source": "politics",
+      "target": "political corruption  ️",
+      "curve": {
+        "x": -142.272,
+        "y": 79.015
+      }
+    }
+  ],
+  "id": 675
+}

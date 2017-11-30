@@ -1,0 +1,327 @@
+{
+  "title": "learn anything - operating systems - unix - linux",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linux",
+      "url": "http://www.wikiwand.com/en/Linux",
+      "fx": 55.41412658548529,
+      "fy": -186.84844369209665,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/linux/",
+          "fx": 223.4141265854853,
+          "fy": -232.84844369209665,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://unix.stackexchange.com/",
+          "fx": 223.4141265854853,
+          "fy": -192.84844369209665,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/torvalds/linux",
+          "fx": 223.4141265854853,
+          "fy": -152.84844369209665,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/aleksandar-todorovic/awesome-linux",
+          "fx": 223.4141265854853,
+          "fy": -112.84844369209665,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 148.80628967285156,
+      "fy": 65.71826553344727,
+      "nodes": [
+        {
+          "text": "linux commands in structured order",
+          "url": "http://linoxide.com/guide/linux-command-shelf.html",
+          "fx": 285.80628967285156,
+          "fy": -27.781734466552734,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "linux resources",
+          "url": "https://linux.zeef.com/paul.reiber",
+          "fx": 285.80628967285156,
+          "fy": 6.218265533447266,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "linux kernel newbies",
+          "url": "https://kernelnewbies.org/",
+          "fx": 285.80628967285156,
+          "fy": 40.218265533447266,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "linux cheatsheets",
+          "url": "https://github.com/cirosantilli/linux-cheat",
+          "fx": 285.80628967285156,
+          "fy": 74.21826553344727,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "linux information project",
+          "note": "dedicated to providing high quality, comprehensive and easily accessible information about Linux and other free software",
+          "url": "http://www.linfo.org/",
+          "fx": 285.80628967285156,
+          "fy": 114.21826553344727,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "linux from scratch",
+          "url": "http://www.linuxfromscratch.org/",
+          "fx": 285.80628967285156,
+          "fy": 148.21826553344727,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "linux kernel exploitation",
+          "url": "https://github.com/xairy/linux-kernel-exploitation",
+          "fx": 285.80628967285156,
+          "fy": 182.21826553344727,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 340.67644884239553,
+      "fy": 306.1800955658547,
+      "nodes": [
+        {
+          "text": "16: monitoring and tuning the linux networking stack: receiving data  ️",
+          "url": "https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/",
+          "fx": 502.67644884239553,
+          "fy": 306.6800955658547,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -153.50873248334722,
+      "fy": 322.70843535444897,
+      "nodes": [
+        {
+          "text": "1. kernel explained",
+          "url": "https://consolia-comic.com/comics/kernel",
+          "fx": 28.491267516652783,
+          "fy": 266.20843535444897,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. linux academy",
+          "url": "https://linuxacademy.com/",
+          "fx": 28.491267516652783,
+          "fy": 300.20843535444897,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. linux insides",
+          "note": "goes over the linux kernel and its insides",
+          "url": "https://0xax.gitbooks.io/linux-insides/content/index.html",
+          "fx": 28.491267516652783,
+          "fy": 334.20843535444897,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. linux journey",
+          "url": "https://linuxjourney.com/",
+          "fx": 28.491267516652783,
+          "fy": 368.20843535444897,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. build yourself a linux",
+          "url": "https://github.com/MichielDerhaeg/build-linux",
+          "fx": 28.491267516652783,
+          "fy": 402.20843535444897,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 418.9381820436504,
+      "fy": 477.0514758678869,
+      "nodes": [
+        {
+          "text": "01: the origins of linux—Linus Torvalds",
+          "url": "https://www.youtube.com/watch?v=WVTWCPoUt8w&amp;feature=youtu.be&amp;t=19m57s",
+          "fx": 609.9381820436504,
+          "fy": 457.5514758678869,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: conversation with Linus Torvalds",
+          "url": "https://www.youtube.com/watch?v=Efi9wa4Fwds",
+          "fx": 609.9381820436504,
+          "fy": 497.5514758678869,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Wayland  ️",
+      "url": "/operating-systems/unix/linux/wayland",
+      "fx": -337.15384203767167,
+      "fy": 491.9273865582189,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "containers  ️",
+      "url": "/operating-systems/unix/linux/containers",
+      "fx": 38.37563014792215,
+      "fy": 494.0317203177258,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "distributions  ️",
+      "url": "/operating-systems/unix/linux/distributions",
+      "fx": -164.8369314721291,
+      "fy": 494.23352813720703,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "iptables  ️",
+      "url": "/operating-systems/unix/linux/iptables",
+      "fx": -646.7745454645307,
+      "fy": 494.38672790294936,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "systemd  ️",
+      "url": "/operating-systems/unix/linux/systemd",
+      "fx": -494.1360452586207,
+      "fy": 495.5255926724178,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -164.623,
+        "y": -68.434
+      }
+    },
+    {
+      "source": "basics",
+      "target": "distributions  ️",
+      "curve": {
+        "x": 7.33585,
+        "y": 85.7624
+      }
+    },
+    {
+      "source": "linux",
+      "target": "basics",
+      "curve": {
+        "x": -99.2113,
+        "y": 254.778
+      }
+    },
+    {
+      "source": "help",
+      "target": "linux",
+      "curve": {
+        "x": -46.1962,
+        "y": -126.283
+      }
+    },
+    {
+      "source": "basics",
+      "target": "containers  ️",
+      "curve": {
+        "x": 98.4422,
+        "y": 85.6616
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -33.6309,
+        "y": -85.4357
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Wayland  ️",
+      "curve": {
+        "x": -93.3225,
+        "y": 84.6095
+      }
+    },
+    {
+      "source": "basics",
+      "target": "systemd  ️",
+      "curve": {
+        "x": -201.958,
+        "y": 65.6859
+      }
+    },
+    {
+      "source": "basics",
+      "target": "iptables  ️",
+      "curve": {
+        "x": -312.996,
+        "y": 49.2141
+      }
+    }
+  ],
+  "id": 1294
+}

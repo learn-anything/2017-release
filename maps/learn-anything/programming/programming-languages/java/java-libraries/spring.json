@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries - spring",
+  "tag": "spring framework",
+  "nodes": [
+    {
+      "text": "spring",
+      "url": "http://www.wikiwand.com/en/Spring_Framework",
+      "fx": -38.25,
+      "fy": -292.12890625,
+      "nodes": [
+        {
+          "text": "source",
+          "url": "https://github.com/spring-projects/spring-framework",
+          "fx": 144.75,
+          "fy": -278.12890625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 75.36880848930457,
+      "fy": -179.12925300804147,
+      "nodes": [
+        {
+          "text": "SpringDeveloper",
+          "url": "https://www.youtube.com/user/SpringSourceDev/videos",
+          "fx": 212.36880848930457,
+          "fy": -184.62925300804147,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "guides",
+          "url": "https://spring.io/guides",
+          "fx": 212.36880848930457,
+          "fy": -144.62925300804147,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -36.27669030343009,
+      "fy": -43.598561180738784,
+      "nodes": [
+        {
+          "text": "1. spring framework tutorial for beginners",
+          "url": "https://www.udemy.com/spring-tutorial-for-beginners/",
+          "fx": 145.7233096965699,
+          "fy": -60.098561180738784,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. spring tutorial",
+          "url": "https://www.tutorialspoint.com/spring/",
+          "fx": 145.7233096965699,
+          "fy": 1.901438819261216,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "spring boot  ️",
+      "url": "/programming/programming-languages/java/java-libraries/spring/spring-boot",
+      "fx": -128.4127768987339,
+      "fy": 69.4853639240514,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "spring",
+      "curve": {
+        "x": -45.3094,
+        "y": -55.2498
+      }
+    },
+    {
+      "source": "spring",
+      "target": "basics",
+      "curve": {
+        "x": -5.76335,
+        "y": 123.015
+      }
+    },
+    {
+      "source": "basics",
+      "target": "spring boot  ️",
+      "curve": {
+        "x": -41.068,
+        "y": 56.542
+      }
+    }
+  ],
+  "id": 1608
+}

@@ -1,0 +1,151 @@
+{
+  "title": "learn anything - physics - general relativity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "general relativity",
+      "url": "http://www.wikiwand.com/en/General_relativity",
+      "fx": -138.6138200431035,
+      "fy": -137.7187662227851,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 16.76248470252665,
+      "fy": -15.69882737224441,
+      "nodes": [
+        {
+          "text": "lecture notes on general relativity",
+          "url": "http://www.preposterousuniverse.com/grnotes/",
+          "fx": 153.76248470252665,
+          "fy": -21.19882737224441,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "general relativity tutorial  ️",
+          "url": "http://math.ucr.edu/home/baez/gr/gr.html",
+          "fx": 153.76248470252665,
+          "fy": 12.80117262775559,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -109.31247834735052,
+      "fy": 184.57326743436192,
+      "nodes": [
+        {
+          "text": "1. general relativity",
+          "url": "https://www.youtube.com/watch?v=JRZgW1YjCKk&amp;index=10&amp;list=PLpGHT1n4-mAvcXwzOIz3dHnGZaQP1LEib",
+          "fx": 72.68752165264948,
+          "fy": 103.57326743436192,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. curved space  ️",
+          "url": "http://www.feynmanlectures.caltech.edu/II_42.html",
+          "fx": 72.68752165264948,
+          "fy": 143.57326743436192,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. a most incomprehensible thing: notes towards a very gentle introduction to the mathematics of relativity",
+          "url": "http://www.goodreads.com/book/show/22745100-a-most-incomprehensible-thing",
+          "fx": 72.68752165264948,
+          "fy": 183.57326743436192,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. a fist course in general relativity",
+          "url": "http://www.goodreads.com/book/show/53520.A_First_Course_in_General_Relativity",
+          "fx": 72.68752165264948,
+          "fy": 288.5732674343619,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Einstein field equations  ️",
+      "url": "/physics/general-relativity/einstein-field-equations",
+      "fx": -626.2394587320574,
+      "fy": 374.54822069377997,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "spacetime  ️",
+      "url": "/physics/general-relativity/spacetime",
+      "fx": -71.25781250000011,
+      "fy": 377.2527613146551,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "equivalence principle  ️",
+      "url": "/physics/general-relativity/equivalence-principle",
+      "fx": -337.6210937500001,
+      "fy": 378.9157986111112,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "general relativity",
+      "curve": {
+        "x": -44.1882,
+        "y": -59.76
+      }
+    },
+    {
+      "source": "general relativity",
+      "target": "basics",
+      "curve": {
+        "x": -14.0994,
+        "y": 159.896
+      }
+    },
+    {
+      "source": "basics",
+      "target": "spacetime  ️",
+      "curve": {
+        "x": 21.5274,
+        "y": 96.3398
+      }
+    },
+    {
+      "source": "basics",
+      "target": "equivalence principle  ️",
+      "curve": {
+        "x": -88.1543,
+        "y": 97.1713
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Einstein field equations  ️",
+      "curve": {
+        "x": -220.714,
+        "y": 96.2375
+      }
+    }
+  ],
+  "id": 1451
+}

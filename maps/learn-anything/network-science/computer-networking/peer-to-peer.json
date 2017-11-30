@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - network science - computer networking - peer to peer",
+  "tag": "peer to peer networks",
+  "nodes": [
+    {
+      "text": "peer to peer",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Peer-to-peer",
+      "fx": -87.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/steve-vincent/awesome-decentralized",
+          "fx": 176.5,
+          "fy": 12,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 19.538503642397473,
+      "fy": 103.50076969049718,
+      "nodes": [
+        {
+          "text": "state of peer-to-peer (p2p) communication across network address translators (NATs)",
+          "url": "https://tools.ietf.org/html/rfc5128",
+          "fx": 156.53850364239747,
+          "fy": 93.00076969049718,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "peer to peer",
+      "curve": {
+        "x": -28.2693,
+        "y": -51.5004
+      }
+    }
+  ],
+  "id": 1212
+}

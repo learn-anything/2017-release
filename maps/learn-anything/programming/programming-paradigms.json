@@ -1,0 +1,218 @@
+{
+  "title": "learn anything - programming - programming paradigms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "programming paradigms",
+      "url": "http://www.wikiwand.com/en/Programming_paradigm",
+      "fx": 120.02790435360953,
+      "fy": -269.21740747231786,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 212.655029296875,
+      "fy": -134.5539550781251,
+      "nodes": [
+        {
+          "text": "1. different styles of programming",
+          "url": "https://www.youtube.com/watch?v=sqV3pL5x8PI",
+          "fx": 368.655029296875,
+          "fy": -123.05395507812511,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "functional programming  ️",
+      "url": "/programming/programming-paradigms/functional-programming",
+      "fx": 68.01381301879883,
+      "fy": 170.38461303710938,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dynamic programming",
+      "url": "http://www.wikiwand.com/en/Dynamic_programming",
+      "fx": -220.68079478346465,
+      "fy": 172.04675196850394,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "dataflow programming  ️",
+      "url": "/programming/programming-paradigms/dataflow-programming",
+      "fx": -1345.2794342041016,
+      "fy": 172.42292022705078,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "logic programming  ️",
+      "url": "/programming/programming-paradigms/logic-programming",
+      "fx": 364.5687026977539,
+      "fy": 173.65871047973633,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "declarative programming  ️",
+      "url": "/programming/programming-paradigms/declarative-programming",
+      "fx": -1054.2757110595703,
+      "fy": 174.18109512329102,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "stream processing  ️",
+      "url": "/programming/programming-paradigms/stream-processing",
+      "fx": -474.26377533394736,
+      "fy": 174.27429713536725,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "generic programming  ️",
+      "url": "/programming/programming-paradigms/generic-programming",
+      "fx": -755.3004127358483,
+      "fy": 174.32080385220115,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "reactive programming  ️",
+      "url": "/programming/programming-paradigms/reactive-programming",
+      "fx": 608.6993103027344,
+      "fy": 174.8662338256836,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "metaprogramming  ️",
+      "url": "/programming/programming-paradigms/metaprogramming",
+      "fx": -1587.4136679292928,
+      "fy": 176.08049242423624,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "object oriented  ️",
+      "url": "/programming/programming-paradigms/object-oriented",
+      "fx": 880.7879031150646,
+      "fy": 176.45293942879766,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "modular programming",
+      "url": "http://www.wikiwand.com/en/Modular_programming",
+      "fx": 1102.194741345906,
+      "fy": 176.80663507491613,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "programming paradigms",
+      "target": "basics",
+      "curve": {
+        "x": -2.18644,
+        "y": 66.0817
+      }
+    },
+    {
+      "source": "basics",
+      "target": "generic programming  ️",
+      "curve": {
+        "x": -442.978,
+        "y": 155.687
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stream processing  ️",
+      "curve": {
+        "x": -308.959,
+        "y": 155.664
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dynamic programming",
+      "curve": {
+        "x": -173.168,
+        "y": 154.55
+      }
+    },
+    {
+      "source": "basics",
+      "target": "functional programming  ️",
+      "curve": {
+        "x": -26.0706,
+        "y": 153.719
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logic programming  ️",
+      "curve": {
+        "x": 110.957,
+        "y": 155.356
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reactive programming  ️",
+      "curve": {
+        "x": 240.022,
+        "y": 155.96
+      }
+    },
+    {
+      "source": "basics",
+      "target": "object oriented  ️",
+      "curve": {
+        "x": 360.566,
+        "y": 156.753
+      }
+    },
+    {
+      "source": "basics",
+      "target": "modular programming",
+      "curve": {
+        "x": 487.77,
+        "y": 156.93
+      }
+    },
+    {
+      "source": "basics",
+      "target": "declarative programming  ️",
+      "curve": {
+        "x": -610.731,
+        "y": 134.559
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dataflow programming  ️",
+      "curve": {
+        "x": -827.613,
+        "y": 141.642
+      }
+    },
+    {
+      "source": "basics",
+      "target": "metaprogramming  ️",
+      "curve": {
+        "x": -1055.11,
+        "y": 64.4256
+      }
+    }
+  ],
+  "id": 1683
+}

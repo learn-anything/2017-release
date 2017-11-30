@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - programming - programming paradigms - logic programming - constraint logic programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "constraint logic programming",
+      "url": "http://www.wikiwand.com/en/Constraint_logic_programming",
+      "fx": -83.12109375,
+      "fy": -186.50390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 10.37109375,
+      "fy": -48.21484375,
+      "nodes": [
+        {
+          "text": "1. introduction to constraint logic programming",
+          "url": "https://www.youtube.com/watch?v=84amHOgCEe8",
+          "fx": 192.37109375,
+          "fy": -47.71484375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "constraint logic programming",
+      "target": "basics",
+      "curve": {
+        "x": -13.0039,
+        "y": 67.8945
+      }
+    }
+  ],
+  "id": 1676
+}

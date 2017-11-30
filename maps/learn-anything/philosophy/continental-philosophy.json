@@ -1,0 +1,129 @@
+{
+  "title": "learn anything - philosophy - continental philosophy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "continental philosophy",
+      "url": "http://www.wikiwand.com/en/Continental_philosophy",
+      "fx": 670.6877151902427,
+      "fy": -313.2194163322381,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "existentialism  ️",
+      "url": "/philosophy/philosophy-of-mind/existentialism",
+      "fx": 753.4259796142578,
+      "fy": -97.59723663330078,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "phenomenology  ️",
+      "url": "/philosophy/philosophy-of-mind/phenomenology",
+      "fx": 45.063507080078125,
+      "fy": -97.2702693939209,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hermeneutics",
+      "url": "http://www.wikiwand.com/en/Hermeneutics",
+      "fx": 540.3205871582031,
+      "fy": -96.04001045227051,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "critical theory",
+      "url": "http://www.wikiwand.com/en/Critical_theory",
+      "fx": 961.5188140869141,
+      "fy": -95.87264060974121,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "post-structuralism",
+      "url": "http://www.wikiwand.com/en/Post-structuralism",
+      "fx": 284.2002258300781,
+      "fy": -95.62841415405273,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "speculative realism",
+      "url": "http://www.wikiwand.com/en/Speculative_realism",
+      "fx": 1170.60205078125,
+      "fy": -95.1243782043457,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "german idealsim",
+      "url": "http://www.wikiwand.com/en/German_idealism",
+      "fx": 1436.5653693762777,
+      "fy": -94.60921523517413,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "continental philosophy",
+      "target": "phenomenology  ️",
+      "curve": {
+        "x": -366.921,
+        "y": 96.1219
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "post-structuralism",
+      "curve": {
+        "x": -216.244,
+        "y": 108.046
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "existentialism  ️",
+      "curve": {
+        "x": 16.6191,
+        "y": 107.811
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "hermeneutics",
+      "curve": {
+        "x": -88.6836,
+        "y": 108.59
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "critical theory",
+      "curve": {
+        "x": 162.025,
+        "y": 114.537
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "speculative realism",
+      "curve": {
+        "x": 307.524,
+        "y": 109.048
+      }
+    },
+    {
+      "source": "continental philosophy",
+      "target": "german idealsim",
+      "curve": {
+        "x": 499.482,
+        "y": 102.688
+      }
+    }
+  ],
+  "id": 1316
+}

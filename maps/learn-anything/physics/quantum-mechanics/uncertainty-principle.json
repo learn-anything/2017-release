@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - quantum mechanics - uncertainty principle",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "uncertainty principle",
+      "url": "http://www.wikiwand.com/en/Uncertainty_principle",
+      "fx": -16.27734375,
+      "fy": -317.328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 57.10462622548994,
+      "fy": -157.7733908780532,
+      "nodes": [
+        {
+          "text": "1. what is the Heisenberg uncertainty principle?",
+          "url": "https://www.youtube.com/watch?v=TQKELOE9eY4",
+          "fx": 213.10462622548994,
+          "fy": -157.2733908780532,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "uncertainty principle",
+      "target": "basics",
+      "curve": {
+        "x": -1.30902,
+        "y": 78.5274
+      }
+    }
+  ],
+  "id": 1542
+}

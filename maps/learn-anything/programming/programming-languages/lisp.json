@@ -1,0 +1,157 @@
+{
+  "title": "learn anything - programming - programming languages - lisp",
+  "tag": "lisp programming language",
+  "nodes": [
+    {
+      "text": "lisp",
+      "url": "http://www.wikiwand.com/en/Lisp_(programming_language)",
+      "fx": -73.94054093634247,
+      "fy": -237.11616083618947,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/lisp/",
+          "fx": 83.05945906365753,
+          "fy": -263.11616083618947,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/common-lisp",
+          "fx": 83.05945906365753,
+          "fy": -223.11616083618947,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/CodyReichert/awesome-cl",
+          "fx": 83.05945906365753,
+          "fy": -183.11616083618947,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 25.845347800401555,
+      "fy": -88.40772008881254,
+      "nodes": [
+        {
+          "text": "fear of macros  ️",
+          "url": "http://www.greghendershott.com/fear-of-macros/index.html",
+          "fx": 162.84534780040156,
+          "fy": -76.90772008881254,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 86.22398253920016,
+      "fy": 23.238684118260664,
+      "nodes": [
+        {
+          "text": "14: why racket, why lisp?  ️",
+          "url": "http://beautifulracket.com/appendix/why-racket-why-lisp.html",
+          "fx": 248.22398253920016,
+          "fy": 34.738684118260664,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -164.37967501896765,
+      "fy": 191.0283687233457,
+      "nodes": [
+        {
+          "text": "1. build your own lisp",
+          "url": "http://www.buildyourownlisp.com/chapter1_introduction",
+          "fx": 17.620324981032354,
+          "fy": 122.5283687233457,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. lisp quickstart",
+          "url": "http://cs.gmu.edu/~sean/lisp/LispTutorial.html",
+          "fx": 17.620324981032354,
+          "fy": 162.5283687233457,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. on lisp",
+          "url": "http://ep.yimg.com/ty/cdn/paulgraham/onlisp.pdf",
+          "fx": 17.620324981032354,
+          "fy": 202.5283687233457,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. let over lambda - 50 years of lisp",
+          "url": "https://letoverlambda.com/index.cl/toc",
+          "fx": 17.620324981032354,
+          "fy": 242.5283687233457,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. lisp in small pieces",
+          "url": "https://www.goodreads.com/book/show/1168500.Lisp_in_Small_Pieces",
+          "fx": 17.620324981032354,
+          "fy": 282.5283687233457,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "lisp",
+      "curve": {
+        "x": -44.893,
+        "y": -73.1041
+      }
+    },
+    {
+      "source": "lisp",
+      "target": "basics",
+      "curve": {
+        "x": -45.4696,
+        "y": 212.823
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -36.4394,
+        "y": -55.8232
+      }
+    }
+  ],
+  "id": 1618
+}

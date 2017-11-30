@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - classical mechanics - harmonic oscillators",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "harmonic oscillators",
+      "url": "http://www.wikiwand.com/en/Harmonic_oscillator",
+      "fx": 316.8203125,
+      "fy": -60.28515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 507.0214878370781,
+      "fy": 57.94916396581834,
+      "nodes": [
+        {
+          "text": "why is quantum field theory formulated in terms of harmonic oscillators?",
+          "url": "https://www.quora.com/Why-is-quantum-field-theory-formulated-in-terms-of-harmonic-oscillators",
+          "fx": 706.0214878370781,
+          "fy": 45.44916396581834,
+          "nodes": [],
+          "category": "quora",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 376.0016526935482,
+      "fy": 208.70747176739337,
+      "nodes": [
+        {
+          "text": "1. energy of simple harmonic oscillators",
+          "url": "https://www.youtube.com/watch?v=nvc78QWnDH4",
+          "fx": 539.0016526935482,
+          "fy": 175.20747176739337,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. intuition about simple harmonic oscillators",
+          "url": "https://www.youtube.com/watch?v=ZcZQsj6YAgU",
+          "fx": 539.0016526935482,
+          "fy": 242.20747176739337,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "harmonic oscillators",
+      "target": "basics",
+      "curve": {
+        "x": -8.15933,
+        "y": 133.246
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "harmonic oscillators",
+      "curve": {
+        "x": -66.1006,
+        "y": -57.8672
+      }
+    }
+  ],
+  "id": 1370
+}

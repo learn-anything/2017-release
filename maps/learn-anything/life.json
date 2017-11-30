@@ -1,0 +1,162 @@
+{
+  "title": "learn anything - life",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "life",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Life",
+      "fx": -41.12136361535988,
+      "fy": -183.1013239924411,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "lifestyle",
+      "url": "http://www.wikiwand.com/en/Lifestyle_(sociology)",
+      "fx": -191.9701123354772,
+      "fy": -36.092332014598526,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "work  ️",
+      "url": "/life/work",
+      "fx": -42.250609772545886,
+      "fy": -32.10624037470137,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "relationships  ️",
+      "url": "/life/relationships",
+      "fx": 87.8964614868164,
+      "fy": -30.255517601966858,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "productivity  ️",
+      "url": "/life/productivity",
+      "fx": 276.0366097037763,
+      "fy": -28.267943719949017,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "meaning of life  ️",
+      "url": "/life/meaning-of-life",
+      "fx": 457.3396444361226,
+      "fy": -25.955228365384414,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "social skills  ️",
+      "url": "/life/social-skills",
+      "fx": 664.9381737724291,
+      "fy": -21.65448189073595,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "quantified self  ️",
+      "url": "/life/quantified-self",
+      "fx": -428.0243252840909,
+      "fy": 59.320223721590935,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hobbies  ️",
+      "url": "/life/hobbies",
+      "fx": -91.78627762326789,
+      "fy": 91.81255489113096,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "travelling  ️",
+      "url": "/life/travelling",
+      "fx": -218.92376764628477,
+      "fy": 202.22659516393685,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "life",
+      "target": "lifestyle",
+      "curve": {
+        "x": -65.1744,
+        "y": 73.5045
+      }
+    },
+    {
+      "source": "lifestyle",
+      "target": "hobbies  ️",
+      "curve": {
+        "x": 44.5919,
+        "y": 62.7025
+      }
+    },
+    {
+      "source": "life",
+      "target": "work  ️",
+      "curve": {
+        "x": -9.06458,
+        "y": 74.2475
+      }
+    },
+    {
+      "source": "life",
+      "target": "relationships  ️",
+      "curve": {
+        "x": 102.157,
+        "y": 73.0869
+      }
+    },
+    {
+      "source": "lifestyle",
+      "target": "travelling  ️",
+      "curve": {
+        "x": -71.3744,
+        "y": 131.504
+      }
+    },
+    {
+      "source": "lifestyle",
+      "target": "quantified self  ️",
+      "curve": {
+        "x": -110.277,
+        "y": 46.4563
+      }
+    },
+    {
+      "source": "life",
+      "target": "productivity  ️",
+      "curve": {
+        "x": 199.145,
+        "y": 63.655
+      }
+    },
+    {
+      "source": "life",
+      "target": "meaning of life  ️",
+      "curve": {
+        "x": 349.31,
+        "y": 55.8086
+      }
+    },
+    {
+      "source": "life",
+      "target": "social skills  ️",
+      "curve": {
+        "x": 511.378,
+        "y": 79.4251
+      }
+    }
+  ],
+  "id": 703
+}

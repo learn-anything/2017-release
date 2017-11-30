@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - philosophy - reasoning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "reasoning",
+      "url": "http://www.wikiwand.com/en/Reason",
+      "fx": 86.87799127252265,
+      "fy": -141.12880067567576,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 113.56042305198889,
+      "fy": -26.706679524602123,
+      "nodes": [
+        {
+          "text": "1. deductive and inductive reasoning",
+          "url": "https://www.youtube.com/watch?v=WAdpPABoTzE",
+          "fx": 269.5604230519889,
+          "fy": -26.206679524602123,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "intuition",
+      "url": "http://www.wikiwand.com/en/Intuition",
+      "fx": -507.1655174595147,
+      "fy": 123.71296179143644,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "critical thinking  ️",
+      "url": "/philosophy/reasoning/critical-thinking",
+      "fx": -352.6191824906775,
+      "fy": 127.24139629936298,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "deductive reasoning",
+      "url": "http://www.wikiwand.com/en/Deductive_reasoning",
+      "fx": 115.56240534715312,
+      "fy": 127.33465361913784,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "abductive reasoning",
+      "url": "http://www.wikiwand.com/en/Abductive_reasoning",
+      "fx": 382.404264856556,
+      "fy": 128.19672131147547,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "inductive reasoning",
+      "url": "http://www.wikiwand.com/en/Inductive_reasoning",
+      "fx": -139.16664351066004,
+      "fy": 128.64218332634908,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "reasoning",
+      "target": "basics",
+      "curve": {
+        "x": -1.40878,
+        "y": 55.9611
+      }
+    },
+    {
+      "source": "basics",
+      "target": "critical thinking  ️",
+      "curve": {
+        "x": -224.074,
+        "y": 62.2397
+      }
+    },
+    {
+      "source": "basics",
+      "target": "inductive reasoning",
+      "curve": {
+        "x": -97.3635,
+        "y": 77.6745
+      }
+    },
+    {
+      "source": "basics",
+      "target": "deductive reasoning",
+      "curve": {
+        "x": 39.2511,
+        "y": 78.2707
+      }
+    },
+    {
+      "source": "basics",
+      "target": "abductive reasoning",
+      "curve": {
+        "x": 172.672,
+        "y": 78.7017
+      }
+    },
+    {
+      "source": "basics",
+      "target": "intuition",
+      "curve": {
+        "x": -384.987,
+        "y": 37.2952
+      }
+    }
+  ],
+  "id": 1350
+}

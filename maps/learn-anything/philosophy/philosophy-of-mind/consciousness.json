@@ -1,0 +1,160 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - consciousness",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "consciousness",
+      "url": "http://www.wikiwand.com/en/Consciousness",
+      "fx": -392.0274122807016,
+      "fy": -276.09772478070164,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/RationalPsychonaut/",
+          "fx": -130.02741228070158,
+          "fy": -262.09772478070164,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": -258.6451557461928,
+      "fy": -170.77944248210292,
+      "nodes": [
+        {
+          "text": "the war on consciousness",
+          "url": "https://www.youtube.com/watch?v=Y0c5nIvJH7w",
+          "fx": -118.64515574619281,
+          "fy": -159.27944248210292,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": -200.3060995683279,
+      "fy": -56.37138034506114,
+      "nodes": [
+        {
+          "text": "14: why physicists are saying consciousness is a state of matter, like a solid, a liquid or a gas  ️",
+          "url": "https://medium.com/the-physics-arxiv-blog/why-physicists-are-saying-consciousness-is-a-state-of-matter-like-a-solid-a-liquid-or-a-gas-5e7ed624986d",
+          "fx": -38.30609956832791,
+          "fy": -86.87138034506114,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awakening  ️",
+          "url": "https://www.theatlantic.com/magazine/archive/2013/01/awakening/309188/",
+          "fx": -38.30609956832791,
+          "fy": -2.871380345061141,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -411.6611875997356,
+      "fy": 105.61782103351203,
+      "nodes": [
+        {
+          "text": "1. consciousness wiki",
+          "url": "https://plato.stanford.edu/entries/consciousness/",
+          "fx": -255.66118759973563,
+          "fy": 69.11782103351203,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Giulio Tononi on consciousness",
+          "url": "https://www.youtube.com/watch?v=zvJyMmw2Thw",
+          "fx": -255.66118759973563,
+          "fy": 103.11782103351203,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. what’s the essence of consciousness",
+          "url": "https://www.youtube.com/watch?v=CQ0I8BvvXNc",
+          "fx": -255.66118759973563,
+          "fy": 143.11782103351203,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "attention schema theory  ️",
+      "url": "/philosophy/philosophy-of-mind/consciousness/attention-schema-theory",
+      "fx": -436.5888462984626,
+      "fy": 257.32509086731284,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "hypnosis",
+      "url": "http://www.wikiwand.com/en/Hypnosis",
+      "fx": -597.5398780906576,
+      "fy": 259.73338770604414,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "talks",
+      "target": "consciousness",
+      "curve": {
+        "x": -36.1911,
+        "y": -51.4091
+      }
+    },
+    {
+      "source": "articles",
+      "target": "talks",
+      "curve": {
+        "x": -34.6696,
+        "y": -57.2041
+      }
+    },
+    {
+      "source": "consciousness",
+      "target": "basics",
+      "curve": {
+        "x": -36.3169,
+        "y": 189.608
+      }
+    },
+    {
+      "source": "basics",
+      "target": "attention schema theory  ️",
+      "curve": {
+        "x": 27.7861,
+        "y": 75.8536
+      }
+    },
+    {
+      "source": "basics",
+      "target": "hypnosis",
+      "curve": {
+        "x": -98.4514,
+        "y": 72.0112
+      }
+    }
+  ],
+  "id": 1334
+}

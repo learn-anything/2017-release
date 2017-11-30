@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - expected value",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "expected value",
+      "url": "http://www.wikiwand.com/en/Expected_value",
+      "fx": 92.0390625,
+      "fy": -381.5625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 142.7259381377579,
+      "fy": -257.11403084384136,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=DAjVAEDil_Q",
+          "fx": 298.7259381377579,
+          "fy": -245.61403084384136,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "expected value",
+      "target": "basics",
+      "curve": {
+        "x": -1.65656,
+        "y": 60.9742
+      }
+    }
+  ],
+  "id": 1093
+}

@@ -1,0 +1,79 @@
+{
+  "title": "learn anything - programming - software development - build automation - cmake",
+  "tag": "CMake",
+  "nodes": [
+    {
+      "text": "cmake",
+      "url": "http://www.wikiwand.com/en/CMake",
+      "fx": -143.0068008093525,
+      "fy": -312.67578125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/cmake/",
+          "fx": 44.99319919064749,
+          "fy": -358.67578125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/Kitware/CMake",
+          "fx": 44.99319919064749,
+          "fy": -318.67578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/cmake",
+          "fx": 44.99319919064749,
+          "fy": -278.67578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/onqtam/awesome-cmake",
+          "fx": 44.99319919064749,
+          "fy": -238.67578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -131.46644559352376,
+      "fy": -106.41670413673239,
+      "nodes": [
+        {
+          "text": "1. learn CMake’s scripting language in 15 minutes  ️",
+          "url": "http://preshing.com/20170522/learn-cmakes-scripting-language-in-15-minutes/",
+          "fx": 24.53355440647624,
+          "fy": -105.91670413673239,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cmake",
+      "target": "basics",
+      "curve": {
+        "x": -2.22982,
+        "y": 101.88
+      }
+    }
+  ],
+  "id": 1692
+}

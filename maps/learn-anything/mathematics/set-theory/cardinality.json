@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - set theory - cardinality",
+  "tag": "cardinality of sets",
+  "nodes": [
+    {
+      "text": "cardinality",
+      "url": "http://www.wikiwand.com/en/Cardinality",
+      "fx": -75.18359375,
+      "fy": -141.15234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. cardinality of sets",
+          "url": "https://www.youtube.com/watch?v=K8whYBarK8M",
+          "fx": 112,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "cardinal numbers  ️",
+      "url": "/mathematics/set-theory/cardinality/cardinal-numbers",
+      "fx": -231.02807038655214,
+      "fy": 143.30324811167065,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cardinality",
+      "target": "basics",
+      "curve": {
+        "x": -3.28711,
+        "y": 69.5762
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cardinal numbers  ️",
+      "curve": {
+        "x": -65.014,
+        "y": 72.6516
+      }
+    }
+  ],
+  "id": 1066
+}

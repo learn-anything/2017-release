@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - distributions - pareto distribution",
+  "tag": "Pareto distribution",
+  "nodes": [
+    {
+      "text": "Pareto distribution",
+      "url": "http://www.wikiwand.com/en/Pareto_distribution",
+      "fx": -142.98828125,
+      "fy": -132.3125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -78.01171875,
+      "fy": 2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=TcEWRykSgwE",
+          "fx": 77.98828125,
+          "fy": 13.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Pareto distribution",
+      "target": "basics",
+      "curve": {
+        "x": -1.26172,
+        "y": 65.9062
+      }
+    }
+  ],
+  "id": 1090
+}

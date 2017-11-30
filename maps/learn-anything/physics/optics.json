@@ -1,0 +1,100 @@
+{
+  "title": "learn anything - physics - optics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "optics",
+      "url": "http://www.wikiwand.com/en/Optics",
+      "fx": -51.66732548639686,
+      "fy": -134.00522232055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -49.62890672683716,
+      "fy": 2.9696531295776367,
+      "nodes": [
+        {
+          "text": "1. learn optics",
+          "url": "http://www.learnoptics.com/",
+          "fx": 132.37109327316284,
+          "fy": -5.530346870422363,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. waves &amp; optics",
+          "url": "https://www.edx.org/course/waves-optics-ricex-phys201x",
+          "fx": 132.37109327316284,
+          "fy": 34.46965312957764,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Fermat’s principle  ️",
+      "url": "/physics/optics/fermats-principle",
+      "fx": -278.2472114562988,
+      "fy": 135.72095489501953,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "geometrical optics  ️",
+      "url": "/physics/optics/geometrical-optics",
+      "fx": -519.315532700422,
+      "fy": 137.0722573839662,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "refractive index  ️",
+      "url": "/physics/optics/refractive-index",
+      "fx": -44.118608474731445,
+      "fy": 141.68565368652344,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "optics",
+      "target": "basics",
+      "curve": {
+        "x": -5.48079,
+        "y": 67.2374
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Fermat’s principle  ️",
+      "curve": {
+        "x": -95.5586,
+        "y": 66.3756
+      }
+    },
+    {
+      "source": "basics",
+      "target": "refractive index  ️",
+      "curve": {
+        "x": 15.7552,
+        "y": 69.358
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometrical optics  ️",
+      "curve": {
+        "x": -244.143,
+        "y": 41.2352
+      }
+    }
+  ],
+  "id": 1500
+}

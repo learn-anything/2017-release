@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - random variables",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "random variables",
+      "url": "http://www.wikiwand.com/en/Random_variable",
+      "fx": -117.5859375,
+      "fy": -143.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.6886792452832,
+      "fy": 5.379127358490507,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "http://www.stat.yale.edu/Courses/1997-98/101/ranvar.htm",
+          "fx": 109.3113207547168,
+          "fy": -3.120872641509493,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=IYdiKeQ9xEI",
+          "fx": 109.3113207547168,
+          "fy": 38.87912735849051,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "random matrices  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/random-matrices",
+      "fx": 43.44286346435547,
+      "fy": 144.48448181152344,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "stochastic processes  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes",
+      "fx": -281.0020591085273,
+      "fy": 149.28997093023247,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "random variables",
+      "target": "basics",
+      "curve": {
+        "x": -2.30137,
+        "y": 73.8732
+      }
+    },
+    {
+      "source": "basics",
+      "target": "random matrices  ️",
+      "curve": {
+        "x": 67.8157,
+        "y": 69.5527
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stochastic processes  ️",
+      "curve": {
+        "x": -88.9521,
+        "y": 62.2958
+      }
+    }
+  ],
+  "id": 1104
+}

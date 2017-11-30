@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - programming - programming languages - ruby  - hanami",
+  "tag": "hanami web framework",
+  "nodes": [
+    {
+      "text": "hanami",
+      "url": "http://hanamirb.org/",
+      "fx": -46.65625,
+      "fy": -58.94921875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/hanami/hanami",
+          "fx": 117.34375,
+          "fy": -67.44921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/davydovanton/awesome-hanami",
+          "fx": 117.34375,
+          "fy": -27.44921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.62893807888031,
+      "fy": 55.91274642944336,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "http://hanamirb.org/guides/getting-started/",
+          "fx": 107.37106192111969,
+          "fy": 70.41274642944336,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "hanami",
+      "target": "basics",
+      "curve": {
+        "x": -2.98634,
+        "y": 57.4309
+      }
+    }
+  ],
+  "id": 1645
+}

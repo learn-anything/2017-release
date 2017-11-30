@@ -1,0 +1,103 @@
+{
+  "title": "learn anything - software - tooling - ide - xcode",
+  "tag": "Xcode",
+  "nodes": [
+    {
+      "text": "Xcode",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Xcode",
+      "fx": -147.90234375,
+      "fy": -289.1796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -46.75558035714289,
+      "fy": -179.29668898809524,
+      "nodes": [
+        {
+          "text": "xcode shortucts  ️",
+          "url": "http://www.ithinkers.com.ua/blog-en/2016/12/23/xcode-shortcuts",
+          "fx": 90.24441964285711,
+          "fy": -187.79668898809524,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome Xcode extensions",
+          "url": "https://github.com/tib/awesome-xcode-extensions",
+          "fx": 90.24441964285711,
+          "fy": -147.79668898809524,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "colour themes",
+      "url": "",
+      "fx": -28.660104851973415,
+      "fy": -62.15635279605766,
+      "nodes": [
+        {
+          "text": "washed out",
+          "url": "https://github.com/hollance/WashedOut",
+          "fx": 198.33989514802659,
+          "fy": -50.65635279605766,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 92.5,
+      "fy": 54.25,
+      "nodes": [
+        {
+          "text": "tulsi",
+          "note": "Xcode Project Generator For Bazel",
+          "url": "https://github.com/bazelbuild/tulsi",
+          "fx": 234.5,
+          "fy": 65.75,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "Xcode",
+      "curve": {
+        "x": -38.5733,
+        "y": -53.6915
+      }
+    },
+    {
+      "source": "colour themes",
+      "target": "help",
+      "curve": {
+        "x": -31.5478,
+        "y": -58.5702
+      }
+    },
+    {
+      "source": "tools",
+      "target": "colour themes",
+      "curve": {
+        "x": -39.3301,
+        "y": -58.2032
+      }
+    }
+  ],
+  "id": 1798
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - programming paradigms - generic programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "generic programming",
+      "url": "http://www.wikiwand.com/en/Generic_programming",
+      "fx": 287.41796875,
+      "fy": -96.56640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 363.641358303248,
+      "fy": 70.72833935017724,
+      "nodes": [
+        {
+          "text": "1. explanation   ️",
+          "url": "https://stackoverflow.com/a/3862556/3067664",
+          "fx": 519.641358303248,
+          "fy": 82.22833935017724,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "generic programming",
+      "target": "basics",
+      "curve": {
+        "x": -2.88831,
+        "y": 82.3974
+      }
+    }
+  ],
+  "id": 1675
+}

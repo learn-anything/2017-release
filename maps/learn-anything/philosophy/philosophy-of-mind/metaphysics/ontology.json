@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - metaphysics - ontology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ontology",
+      "url": "http://www.wikiwand.com/en/Ontology",
+      "fx": 11.800377155172328,
+      "fy": -228.3549299568965,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 31.862068965520166,
+      "fy": -97.89655172419504,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=FN2zwqE_Qo0",
+          "fx": 194.86206896552017,
+          "fy": -85.39655172419504,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "realism  ️",
+      "url": "/philosophy/philosophy-of-mind/metaphysics/ontology/realism",
+      "fx": -97.53631201823316,
+      "fy": 25.036967259388803,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "idealism  ️",
+      "url": "/philosophy/philosophy-of-mind/metaphysics/ontology/idealism",
+      "fx": 55.88942307692287,
+      "fy": 27.97475961538464,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "ontology",
+      "target": "basics",
+      "curve": {
+        "x": -2.96915,
+        "y": 64.4792
+      }
+    },
+    {
+      "source": "basics",
+      "target": "realism  ️",
+      "curve": {
+        "x": -55.4492,
+        "y": 62.2168
+      }
+    },
+    {
+      "source": "basics",
+      "target": "idealism  ️",
+      "curve": {
+        "x": 16.0137,
+        "y": 62.9357
+      }
+    }
+  ],
+  "id": 1341
+}

@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - physics - particle physics - quasiparticles",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quasiparticles",
+      "url": "http://www.wikiwand.com/en/Quasiparticle",
+      "fx": 89.7890625,
+      "fy": -107.75390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 241.41752049180343,
+      "fy": 10.16188524586886,
+      "nodes": [
+        {
+          "text": "list of quasiparticles",
+          "url": "http://www.wikiwand.com/en/List_of_quasiparticles",
+          "fx": 440.41752049180343,
+          "fy": 22.66188524586886,
+          "nodes": [],
+          "category": "wiki",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 128.5645069660684,
+      "fy": 138.60694016736886,
+      "nodes": [
+        {
+          "text": "1. emergent quantum quasiparticles",
+          "url": "https://www.youtube.com/watch?v=KbsnY--LFh0",
+          "fx": 291.5645069660684,
+          "fy": 138.60694016736886,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "phonons  ️",
+      "url": "/physics/condensed-matter-physics/solid-state-physics/phonons",
+      "fx": 2.987781954887055,
+      "fy": 277.38948934837106,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quasiparticles",
+      "target": "basics",
+      "curve": {
+        "x": -6.61227,
+        "y": 122.431
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "quasiparticles",
+      "curve": {
+        "x": -58.8142,
+        "y": -58.2079
+      }
+    },
+    {
+      "source": "basics",
+      "target": "phonons  ️",
+      "curve": {
+        "x": -56.7884,
+        "y": 69.3913
+      }
+    }
+  ],
+  "id": 1514
+}

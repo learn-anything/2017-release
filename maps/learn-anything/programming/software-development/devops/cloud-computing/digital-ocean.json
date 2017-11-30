@@ -1,0 +1,125 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - digital ocean",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "digital ocean",
+      "url": "https://www.digitalocean.com/",
+      "fx": 10.111384178405388,
+      "fy": -495.23612251455927,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/digitalocean",
+          "fx": 222.1113841784054,
+          "fy": -483.73612251455927,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 125.69577625570753,
+      "fy": -393.3622288812785,
+      "nodes": [
+        {
+          "text": "tutorials",
+          "url": "https://www.digitalocean.com/community/tutorials",
+          "fx": 262.69577625570753,
+          "fy": -378.8622288812785,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 199.19092725292194,
+      "fy": -300.62274478233024,
+      "nodes": [
+        {
+          "text": "doctl",
+          "url": "https://github.com/digitalocean/doctl",
+          "fx": 341.19092725292194,
+          "fy": -289.12274478233024,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "API",
+      "url": "",
+      "fx": 309.2512146810592,
+      "fy": -187.79838179986456,
+      "nodes": [
+        {
+          "text": "godo",
+          "url": "https://github.com/digitalocean/godo",
+          "fx": 439.2512146810592,
+          "fy": -176.29838179986456,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 29.886992377627962,
+      "fy": -102.95956602971825,
+      "nodes": [
+        {
+          "text": "1. how to install nginx on ubuntu  ️",
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04",
+          "fx": 185.88699237762796,
+          "fy": -91.45956602971825,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "API",
+      "target": "tools",
+      "curve": {
+        "x": -52.0301,
+        "y": -56.4122
+      }
+    },
+    {
+      "source": "help",
+      "target": "digital ocean",
+      "curve": {
+        "x": -39.0422,
+        "y": -50.9369
+      }
+    },
+    {
+      "source": "digital ocean",
+      "target": "basics",
+      "curve": {
+        "x": -4.1122,
+        "y": 196.138
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -37.9976,
+        "y": -46.3697
+      }
+    }
+  ],
+  "id": 1704
+}

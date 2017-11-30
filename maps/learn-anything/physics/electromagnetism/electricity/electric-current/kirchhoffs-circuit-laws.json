@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - electricity - electric current - kirchhoffs circuit laws",
+  "tag": "Kirchhoff's circuit laws",
+  "nodes": [
+    {
+      "text": "Kirchhoff’s circuit laws",
+      "url": "http://www.wikiwand.com/en/Kirchhoff%27s_circuit_laws",
+      "fx": 57.8046875,
+      "fy": -100.48046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. how to solve a Kirchhoff’s rules problem",
+          "url": "https://www.youtube.com/watch?v=Z2QDXjG2ynU",
+          "fx": 306,
+          "fy": 49,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Kirchhoff’s circuit laws",
+      "target": "basics",
+      "curve": {
+        "x": -3.65234,
+        "y": 73.9902
+      }
+    }
+  ],
+  "id": 1416
+}

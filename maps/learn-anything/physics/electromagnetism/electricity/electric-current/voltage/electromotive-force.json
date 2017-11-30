@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - electricity - electric current - voltage - electromotive force",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electromotive force",
+      "url": "http://www.wikiwand.com/en/Electromotive_force",
+      "fx": 73.87109375,
+      "fy": -92.05475252866745,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.5,
+      "fy": 41,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=cbSKkrzdXe4",
+          "fx": 299.5,
+          "fy": 52.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "electromotive force",
+      "target": "basics",
+      "curve": {
+        "x": -0.935547,
+        "y": 65.2774
+      }
+    }
+  ],
+  "id": 1417
+}

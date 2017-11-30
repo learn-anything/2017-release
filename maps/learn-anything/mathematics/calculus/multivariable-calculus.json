@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - calculus - multivariable calculus",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "multivariable calculus",
+      "url": "http://www.wikiwand.com/en/Multivariable_calculus",
+      "fx": -61.8203125,
+      "fy": -355.91015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 16.071557971014386,
+      "fy": -227.107563405797,
+      "nodes": [
+        {
+          "text": "1. multivariable calculus",
+          "url": "https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/video-lectures/",
+          "fx": 172.07155797101439,
+          "fy": -215.607563405797,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "differential form  ️",
+      "url": "/mathematics/calculus/multivariable-calculus/differential-form",
+      "fx": -104.53766606280215,
+      "fy": -75.32480374394504,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "multivariable calculus",
+      "target": "basics",
+      "curve": {
+        "x": -1.55406,
+        "y": 63.1513
+      }
+    },
+    {
+      "source": "basics",
+      "target": "differential form  ️",
+      "curve": {
+        "x": -40.3046,
+        "y": 75.8914
+      }
+    }
+  ],
+  "id": 894
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - topology - differential topology - symplectic geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "symplectic geometry",
+      "url": "http://www.wikiwand.com/en/Symplectic_geometry",
+      "fx": 82.0684223790322,
+      "fy": -71.26159274193549,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 135.70060483870975,
+      "fy": 53.9042338709678,
+      "nodes": [
+        {
+          "text": "1. symplectic geometry by Dusa Mcduff",
+          "url": "https://www.youtube.com/watch?v=QyNAiEZhBW8",
+          "fx": 297.70060483870975,
+          "fy": 53.9042338709678,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "symplectic manifolds",
+      "url": "http://www.wikiwand.com/en/Symplectic_manifold",
+      "fx": -13.603326612903174,
+      "fy": 188.03679435483605,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "symplectic geometry",
+      "target": "basics",
+      "curve": {
+        "x": -8.68391,
+        "y": 62.5829
+      }
+    },
+    {
+      "source": "basics",
+      "target": "symplectic manifolds",
+      "curve": {
+        "x": -30.902,
+        "y": 67.8163
+      }
+    }
+  ],
+  "id": 1133
+}

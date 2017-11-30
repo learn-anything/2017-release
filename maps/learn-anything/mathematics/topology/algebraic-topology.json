@@ -1,0 +1,116 @@
+{
+  "title": "learn anything - mathematics - topology - algebraic topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebraic topology",
+      "url": "http://www.wikiwand.com/en/Algebraic_topology",
+      "fx": -69.0546875,
+      "fy": -302.171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -13.021252858492176,
+      "fy": -173.8079806800106,
+      "nodes": [
+        {
+          "text": "1. introduction to algebraic topology",
+          "url": "https://www.youtube.com/watch?v=kdpbfOzkJzI",
+          "fx": 168.97874714150782,
+          "fy": -193.3079806800106,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. algebraic topology",
+          "url": "http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf",
+          "fx": 168.97874714150782,
+          "fy": -131.3079806800106,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "homology  ️",
+      "url": "/mathematics/topology/algebraic-topology/homology",
+      "fx": -86.58158153244074,
+      "fy": -30.155191163097243,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "homotopy theory  ️",
+      "url": "/mathematics/topology/algebraic-topology/homotopy-theory",
+      "fx": 88.64038085937557,
+      "fy": -29.569231305803555,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Hurewicz theorem",
+      "url": "http://www.wikiwand.com/en/Hurewicz_theorem",
+      "fx": -662.1426809210584,
+      "fy": -25.846293524392763,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Eilenberg–Steenrod axioms",
+      "url": "http://www.wikiwand.com/en/Eilenberg%E2%80%93Steenrod_axioms",
+      "fx": -410.13418311403746,
+      "fy": -25.679687500035698,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "algebraic topology",
+      "target": "basics",
+      "curve": {
+        "x": -6.23329,
+        "y": 62.9319
+      }
+    },
+    {
+      "source": "basics",
+      "target": "homology  ️",
+      "curve": {
+        "x": -42.2905,
+        "y": 81.2863
+      }
+    },
+    {
+      "source": "basics",
+      "target": "homotopy theory  ️",
+      "curve": {
+        "x": 68.5808,
+        "y": 72.1194
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Eilenberg–Steenrod axioms",
+      "curve": {
+        "x": -157.806,
+        "y": 74.0641
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Hurewicz theorem",
+      "curve": {
+        "x": -342.19,
+        "y": 49.7924
+      }
+    }
+  ],
+  "id": 1130
+}

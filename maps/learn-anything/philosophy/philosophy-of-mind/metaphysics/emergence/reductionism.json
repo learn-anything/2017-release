@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - metaphysics - emergence - reductionism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "reductionism",
+      "url": "http://www.wikiwand.com/en/Reductionism",
+      "fx": 200.69020871350358,
+      "fy": -204.65217267335765,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 234.36496350364996,
+      "fy": -56.47445255478095,
+      "nodes": [
+        {
+          "text": "1. chaos and reductionism",
+          "url": "https://www.youtube.com/watch?v=_njf8jwEGRo",
+          "fx": 397.36496350364996,
+          "fy": -43.97445255478095,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "reductionism",
+      "target": "basics",
+      "curve": {
+        "x": -6.91262,
+        "y": 73.3389
+      }
+    }
+  ],
+  "id": 1337
+}

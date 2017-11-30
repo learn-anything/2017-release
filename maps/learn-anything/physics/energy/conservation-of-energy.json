@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - energy - conservation of energy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "conservation of energy",
+      "url": "http://www.wikiwand.com/en/Conservation_of_energy",
+      "fx": 152.30859375,
+      "fy": -118.03125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 228.85546875,
+      "fy": 21.19140625,
+      "nodes": [
+        {
+          "text": "1. simple proof of conservation of energy",
+          "url": "https://www.youtube.com/watch?v=PplaBASQ_3M",
+          "fx": 384.85546875,
+          "fy": 21.69140625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "conservation of energy",
+      "target": "basics",
+      "curve": {
+        "x": -5.72656,
+        "y": 68.3613
+      }
+    }
+  ],
+  "id": 1440
+}

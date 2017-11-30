@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - mathematics - lambda calculus",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lambda calculus",
+      "url": "http://www.wikiwand.com/en/Lambda_calculus",
+      "fx": -94.53283739089966,
+      "fy": -397.579738451087,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 66.1253129710318,
+      "fy": -277.7040071902068,
+      "nodes": [
+        {
+          "text": "compiling to lambda-calculus: turtles all the way down  ️",
+          "url": "http://matt.might.net/articles/compiling-up-to-lambda-calculus/",
+          "fx": 203.1253129710318,
+          "fy": -308.2040071902068,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "whiteboard problems in pure lambda calculus  ️",
+          "url": "http://www.jtolds.com/writing/2017/03/whiteboard-problems-in-pure-lambda-calculus/",
+          "fx": 203.1253129710318,
+          "fy": -246.20400719020682,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 122.56178160483785,
+      "fy": -135.15060202083242,
+      "nodes": [
+        {
+          "text": "a simple model of the lambda calculus",
+          "url": "https://github.com/jozefg/graph-models/blob/master/graphs.pdf",
+          "fx": 313.56178160483785,
+          "fy": -134.65060202083242,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -113.55294094914973,
+      "fy": 5.873725310615782,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=eis11j_iGMs",
+          "fx": 68.44705905085027,
+          "fy": 0.3737253106157823,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. learn lambda calculus",
+          "url": "http://safalra.com/lambda-calculus/",
+          "fx": 68.44705905085027,
+          "fy": 40.37372531061578,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "lambda calculus",
+      "curve": {
+        "x": -46.0791,
+        "y": -58.6879
+      }
+    },
+    {
+      "source": "lambda calculus",
+      "target": "basics",
+      "curve": {
+        "x": -39.0101,
+        "y": 200.477
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -41.7182,
+        "y": -71.2767
+      }
+    }
+  ],
+  "id": 972
+}

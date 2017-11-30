@@ -1,0 +1,103 @@
+{
+  "title": "learn anything - linguistics - languages - chinese",
+  "tag": "chinese language",
+  "nodes": [
+    {
+      "text": "chinese language",
+      "url": "http://www.wikiwand.com/en/Chinese_language",
+      "fx": -136.93551336547546,
+      "fy": -118.24361234455432,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ChineseLanguage/",
+          "fx": 148.06448663452454,
+          "fy": -124.24361234455432,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://chinese.stackexchange.com/",
+          "fx": 148.06448663452454,
+          "fy": -84.24361234455432,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 35.14831495285034,
+      "fy": -20.77504301071167,
+      "nodes": [
+        {
+          "text": "17: how to learn chinese for free  ️",
+          "url": "http://www.alllanguageresources.com/free-resources-to-learn-chinese/",
+          "fx": 172.14831495285034,
+          "fy": -9.27504301071167,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -80.76646779220982,
+      "fy": 85.47716006855768,
+      "nodes": [
+        {
+          "text": "1. learning chinese characters",
+          "url": "http://www.goodreads.com/book/show/805242.Learning_Chinese_Characters",
+          "fx": 101.23353220779018,
+          "fy": 96.97716006855768,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "mandarin  ️",
+      "url": "/linguistics/languages/chinese/mandarin",
+      "fx": -125.8619993540035,
+      "fy": 224.64482396640994,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "chinese language",
+      "curve": {
+        "x": -49.0419,
+        "y": -47.4843
+      }
+    },
+    {
+      "source": "chinese language",
+      "target": "basics",
+      "curve": {
+        "x": -10.6655,
+        "y": 100.61
+      }
+    },
+    {
+      "source": "basics",
+      "target": "mandarin  ️",
+      "curve": {
+        "x": -22.2978,
+        "y": 69.5838
+      }
+    }
+  ],
+  "id": 719
+}

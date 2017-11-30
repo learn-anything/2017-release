@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - condensed matter physics - solid-state physics - phonons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "phonons",
+      "url": "http://www.wikiwand.com/en/Phonon",
+      "fx": 122.3203125,
+      "fy": -100.875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145,
+      "fy": 33,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=SsknqM0gCB4",
+          "fx": 308,
+          "fy": 12,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. phonon energy levels in crystal and crystal structures",
+          "url": "https://www.youtube.com/watch?v=lcVaTjSpn7Y",
+          "fx": 308,
+          "fy": 54,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "phonons",
+      "target": "basics",
+      "curve": {
+        "x": -2.41016,
+        "y": 66.1875
+      }
+    }
+  ],
+  "id": 1404
+}

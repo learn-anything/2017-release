@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - linguistics - semantics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "semantics",
+      "url": "http://www.wikiwand.com/en/Semantics",
+      "fx": 70.82421875,
+      "fy": -315.63671875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/semantics/",
+          "fx": 302.82421875,
+          "fy": -301.63671875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 100.46141514636872,
+      "fy": -180.5659545923554,
+      "nodes": [
+        {
+          "text": "1. overview of semantics",
+          "url": "https://www.youtube.com/watch?v=8QZWx_XAO1w",
+          "fx": 263.4614151463687,
+          "fy": -189.0659545923554,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the meaning of meaning",
+          "url": "http://s-f-walker.org.uk/pubsebooks/pdfs/ogden-richards-meaning-all.pdf",
+          "fx": 263.4614151463687,
+          "fy": -147.0659545923554,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "semantics",
+      "target": "basics",
+      "curve": {
+        "x": -2.4314,
+        "y": 66.7854
+      }
+    }
+  ],
+  "id": 744
+}

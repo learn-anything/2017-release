@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - neural networks - recurrent neural networks - hopfield networks",
+  "tag": "Hopfield networks",
+  "nodes": [
+    {
+      "text": "Hopfield networks",
+      "url": "http://www.wikiwand.com/en/Hopfield_network",
+      "fx": -29.65625,
+      "fy": -149.64453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 24.625,
+      "fy": -9.3828125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=gfPUWwBkXZY",
+          "fx": 180.625,
+          "fy": 2.1171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Hopfield networks",
+      "target": "basics",
+      "curve": {
+        "x": -6.60938,
+        "y": 68.8809
+      }
+    }
+  ],
+  "id": 784
+}

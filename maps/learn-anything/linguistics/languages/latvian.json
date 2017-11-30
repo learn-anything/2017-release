@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - linguistics - languages - latvian",
+  "tag": "latvian language",
+  "nodes": [
+    {
+      "text": "latvian language",
+      "url": "http://www.wikiwand.com/en/Latvian_language",
+      "fx": 116.22265625,
+      "fy": -424.25,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learnlatvian/",
+          "fx": 388.22265625,
+          "fy": -410.25,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 165.23828125,
+      "fy": -288.828125,
+      "nodes": [
+        {
+          "text": "1. latvian grammar",
+          "url": "http://valoda.ailab.lv/latval/vispareji/lgram-ww/lgrame.htm",
+          "fx": 321.23828125,
+          "fy": -274.328125,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "latvian language",
+      "target": "basics",
+      "curve": {
+        "x": -4.49219,
+        "y": 66.4609
+      }
+    }
+  ],
+  "id": 732
+}

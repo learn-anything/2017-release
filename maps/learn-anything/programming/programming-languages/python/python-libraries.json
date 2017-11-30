@@ -1,0 +1,280 @@
+{
+  "title": "learn anything - programming - programming languages - python - python libraries",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quilt",
+      "url": "https://github.com/quiltdata/quilt",
+      "fx": 140.75,
+      "fy": -146,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "python libraries",
+      "note": "",
+      "url": "https://pypi.python.org/pypi",
+      "fx": -325.46722755528856,
+      "fy": -130.60274874190827,
+      "nodes": []
+    },
+    {
+      "text": "scipy  ️",
+      "url": "/programming/programming-languages/python/python-libraries/scipy",
+      "fx": 126.7265625,
+      "fy": -50.795654296875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "science",
+      "url": "",
+      "fx": -43.26018659761735,
+      "fy": -24.905350406706816,
+      "nodes": []
+    },
+    {
+      "text": "machine learning   ️",
+      "url": "/machine-learning/machine-learning-libraries",
+      "fx": -653.2280769561904,
+      "fy": 47.95364057470505,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "numpy  ️",
+      "note": "python package for scientific computing  contains  a powerful N-dimensional array object  sophisticated (broadcasting) functions  useful linear algebra, Fourier transform or random number capabilities",
+      "url": "/programming/programming-languages/python/python-libraries/numpy",
+      "fx": 122.53345184560453,
+      "fy": 49.69938846664866,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "testing",
+      "url": "",
+      "fx": -31.847888230726312,
+      "fy": 118.96722743261137,
+      "nodes": []
+    },
+    {
+      "text": "py.test",
+      "url": "https://docs.pytest.org/en/latest/",
+      "fx": 152.78249082684465,
+      "fy": 159.60617934548554,
+      "nodes": []
+    },
+    {
+      "text": "web frameworks",
+      "url": "",
+      "fx": -452.13959713243696,
+      "fy": 161.70951418951165,
+      "nodes": []
+    },
+    {
+      "text": "pyramid",
+      "url": "https://trypyramid.com/",
+      "fx": -634.7925731613053,
+      "fy": 204.84502200134,
+      "nodes": []
+    },
+    {
+      "text": "database",
+      "url": "",
+      "fx": -101.83072447797736,
+      "fy": 238.6326142071664,
+      "nodes": []
+    },
+    {
+      "text": "doctest",
+      "url": "http://www.wikiwand.com/en/Doctest",
+      "fx": 104.27786452673672,
+      "fy": 246.47166985004083,
+      "nodes": []
+    },
+    {
+      "text": "async",
+      "url": "https://hackernoon.com/asynchronous-python-45df84b82434",
+      "fx": -242.02591112932782,
+      "fy": 270.28184433653166,
+      "nodes": []
+    },
+    {
+      "text": "flask  ️",
+      "url": "/programming/programming-languages/python/python-libraries/flask",
+      "fx": -569.3064480792013,
+      "fy": 294.47332059927294,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "django  ️",
+      "url": "/web-development/full-stack/django",
+      "fx": -452.7706029165229,
+      "fy": 348.7671260083358,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "SQLAlchemy  ️",
+      "url": "/programming/programming-languages/python/python-libraries/sqlalchemy",
+      "fx": -6.188097735646579,
+      "fy": 358.7872069920761,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "tornado",
+      "url": "http://www.tornadoweb.org/en/stable/",
+      "fx": -304.64440245224137,
+      "fy": 380.8331064450082,
+      "nodes": []
+    },
+    {
+      "text": "gevent",
+      "url": "http://www.gevent.org/",
+      "fx": -160.17010564574048,
+      "fy": 389.1755563063389,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "database",
+      "target": "SQLAlchemy  ️",
+      "curve": {
+        "x": 63.3213,
+        "y": 61.3273
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "flask  ️",
+      "curve": {
+        "x": -86.0835,
+        "y": 66.3819
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "pyramid",
+      "curve": {
+        "x": -110.827,
+        "y": 21.5678
+      }
+    },
+    {
+      "source": "async",
+      "target": "tornado",
+      "curve": {
+        "x": -26.8092,
+        "y": 55.2756
+      }
+    },
+    {
+      "source": "async",
+      "target": "gevent",
+      "curve": {
+        "x": 42.9279,
+        "y": 59.4469
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "science",
+      "curve": {
+        "x": 124.104,
+        "y": 52.8487
+      }
+    },
+    {
+      "source": "testing",
+      "target": "doctest",
+      "curve": {
+        "x": 70.063,
+        "y": 63.7522
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "async",
+      "curve": {
+        "x": 20.7207,
+        "y": 200.442
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "web frameworks",
+      "curve": {
+        "x": -59.8362,
+        "y": 146.156
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "testing",
+      "curve": {
+        "x": 127.81,
+        "y": 124.785
+      }
+    },
+    {
+      "source": "science",
+      "target": "scipy  ️",
+      "curve": {
+        "x": 79.493,
+        "y": -12.9451
+      }
+    },
+    {
+      "source": "science",
+      "target": "numpy  ️",
+      "curve": {
+        "x": 81.1472,
+        "y": 37.3024
+      }
+    },
+    {
+      "source": "web frameworks",
+      "target": "django  ️",
+      "curve": {
+        "x": -22.5655,
+        "y": 93.5288
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "database",
+      "curve": {
+        "x": 98.8185,
+        "y": 184.617
+      }
+    },
+    {
+      "source": "testing",
+      "target": "py.test",
+      "curve": {
+        "x": 92.0653,
+        "y": 20.3194
+      }
+    },
+    {
+      "source": "python libraries",
+      "target": "machine learning   ️",
+      "curve": {
+        "x": -157.63,
+        "y": 90.5282
+      }
+    },
+    {
+      "source": "science",
+      "target": "quilt",
+      "curve": {
+        "x": 91.5051,
+        "y": -59.2973
+      }
+    }
+  ],
+  "id": 1639
+}

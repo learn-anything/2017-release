@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - existentialism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "existentialism",
+      "url": "http://www.wikiwand.com/en/Existentialism",
+      "fx": 99.10546875,
+      "fy": -84.61328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=YaDvRdLMkHs",
+          "fx": 308,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "existentialism",
+      "target": "basics",
+      "curve": {
+        "x": -1.30273,
+        "y": 58.5566
+      }
+    }
+  ],
+  "id": 1335
+}

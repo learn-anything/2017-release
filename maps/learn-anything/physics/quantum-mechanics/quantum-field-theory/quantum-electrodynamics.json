@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum field theory - quantum electrodynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum electrodynamics",
+      "url": "http://www.wikiwand.com/en/Quantum_electrodynamics",
+      "fx": 105.79296875,
+      "fy": -106.57924107142856,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 203.96391752577335,
+      "fy": 37.16884714322396,
+      "nodes": [
+        {
+          "text": "1. lectures by Richard Feynman",
+          "url": "https://www.youtube.com/watch?v=eLQ2atfqk2c&amp;list=PL8590A6E18255B3F4",
+          "fx": 359.96391752577335,
+          "fy": 17.668847143223957,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. QED:  the strange theory of light and matter",
+          "url": "https://www.goodreads.com/book/show/5552.QED",
+          "fx": 359.96391752577335,
+          "fy": 57.66884714322396,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum electrodynamics",
+      "target": "basics",
+      "curve": {
+        "x": -2.16453,
+        "y": 70.6241
+      }
+    }
+  ],
+  "id": 1530
+}

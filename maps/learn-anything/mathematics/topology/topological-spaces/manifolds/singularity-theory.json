@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - topology - topological spaces - manifolds - singularity theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "singularity theory",
+      "url": "http://www.wikiwand.com/en/Singularity_theory",
+      "fx": 66.23828125,
+      "fy": -295.77734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 123.03528225806451,
+      "fy": -166.66015624991599,
+      "nodes": [
+        {
+          "text": "1. singularity theory and symplectic topology",
+          "url": "https://math.berkeley.edu/~giventh/papers/arn.pdf",
+          "fx": 286.0352822580645,
+          "fy": -166.66015624991599,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "singularity theory",
+      "target": "basics",
+      "curve": {
+        "x": -4.8515,
+        "y": 63.8086
+      }
+    }
+  ],
+  "id": 1142
+}

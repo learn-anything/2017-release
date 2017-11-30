@@ -1,0 +1,71 @@
+{
+  "title": "learn anything - programming - programming languages - prolog",
+  "tag": "prolog programming language",
+  "nodes": [
+    {
+      "text": "prolog",
+      "url": "http://www.wikiwand.com/en/Prolog",
+      "fx": -61,
+      "fy": -114.61328125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/prolog/",
+          "fx": 124,
+          "fy": -120.61328125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/SWI-Prolog/swipl-devel",
+          "fx": 124,
+          "fy": -80.61328125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -65.64332633706476,
+      "fy": 19.2900342039801,
+      "nodes": [
+        {
+          "text": "1. the power of prolog",
+          "url": "https://www.metalevel.at/prolog",
+          "fx": 116.35667366293524,
+          "fy": -0.20996579601990106,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. do-it-yourself course for beginners",
+          "url": "http://cs.union.edu/%7Estriegnk/courses/esslli04prolog/",
+          "fx": 116.35667366293524,
+          "fy": 39.7900342039801,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "prolog",
+      "target": "basics",
+      "curve": {
+        "x": -9.57166,
+        "y": 65.7016
+      }
+    }
+  ],
+  "id": 1632
+}

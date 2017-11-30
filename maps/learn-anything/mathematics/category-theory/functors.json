@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - mathematics - category theory - functors",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "functors",
+      "url": "http://www.wikiwand.com/en/Functor",
+      "fx": -35.76233959650028,
+      "fy": -436.7189210050935,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -21.170544013595872,
+      "fy": -295.2553022683124,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://ncatlab.org/nlab/show/functor",
+          "fx": 141.82945598640413,
+          "fy": -345.7553022683124,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=FyoQjkwsy7o",
+          "fx": 141.82945598640413,
+          "fy": -303.7553022683124,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. stuff, structure and properties  ️",
+          "url": "https://ncatlab.org/nlab/show/stuff%2C+structure%2C+property",
+          "fx": 141.82945598640413,
+          "fy": -261.7553022683124,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. contravariant functors  ️",
+          "url": "https://ncatlab.org/nlab/show/contravariant+functor",
+          "fx": 141.82945598640413,
+          "fy": -219.7553022683124,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "functor category",
+      "url": "http://www.wikiwand.com/en/Functor_category",
+      "fx": -29.73819351196289,
+      "fy": -126.64804458618164,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Yoneda lemma  ️",
+      "url": "/mathematics/category-theory/functors/yoneda-lemma",
+      "fx": -255.86803140063614,
+      "fy": -125.27443374780455,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "functors",
+      "target": "basics",
+      "curve": {
+        "x": -4.4541,
+        "y": 69.9818
+      }
+    },
+    {
+      "source": "basics",
+      "target": "functor category",
+      "curve": {
+        "x": 27.9662,
+        "y": 85.0536
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Yoneda lemma  ️",
+      "curve": {
+        "x": -96.5987,
+        "y": 84.9904
+      }
+    }
+  ],
+  "id": 916
+}

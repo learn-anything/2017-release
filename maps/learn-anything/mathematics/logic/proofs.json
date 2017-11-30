@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - mathematics - logic - proofs",
+  "tag": "mathematical proofs",
+  "nodes": [
+    {
+      "text": "mathematical proofs",
+      "url": "http://www.wikiwand.com/en/Mathematical_proof",
+      "fx": 115.3314248002282,
+      "fy": -374.0893978310503,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 188.36545923749236,
+      "fy": -216.47001205545502,
+      "nodes": [
+        {
+          "text": "1. how to solve it",
+          "url": "https://notendur.hi.is/hei2/teaching/Polya_HowToSolveIt.pdf",
+          "fx": 344.36545923749236,
+          "fy": -269.970012055455,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. proof techniques",
+          "url": "https://stanford.edu/~jtysu/proofs.pdf",
+          "fx": 344.36545923749236,
+          "fy": -229.97001205545502,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction to mathematical arguments",
+          "url": "https://math.berkeley.edu/~hutching/teach/proofs.pdf",
+          "fx": 344.36545923749236,
+          "fy": -195.97001205545502,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. proof from the books",
+          "url": "https://www.goodreads.com/book/show/696238.Proofs_from_THE_BOOK",
+          "fx": 344.36545923749236,
+          "fy": -139.97001205545502,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "induction  ️",
+      "url": "/mathematics/logic/proofs/induction",
+      "fx": 42.47773462981729,
+      "fy": -97.56427857957243,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "mathematical proofs",
+      "target": "basics",
+      "curve": {
+        "x": -2.23298,
+        "y": 77.5597
+      }
+    },
+    {
+      "source": "basics",
+      "target": "induction  ️",
+      "curve": {
+        "x": -66.6939,
+        "y": 59.4529
+      }
+    }
+  ],
+  "id": 1014
+}

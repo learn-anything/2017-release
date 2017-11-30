@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - philosophy - spirituality - religion - buddhism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "buddhism",
+      "url": "http://www.wikiwand.com/en/Buddhism",
+      "fx": -166.35540400552497,
+      "fy": -273.3397574240331,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Buddhism/",
+          "fx": 51.644595994475026,
+          "fy": -279.3397574240331,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://buddhism.stackexchange.com/",
+          "fx": 51.644595994475026,
+          "fy": -239.33975742403314,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -1.0718930635838433,
+      "fy": -161.28802384393066,
+      "nodes": [
+        {
+          "text": "dharma seed",
+          "url": "http://dharmaseed.org/",
+          "fx": 135.92810693641616,
+          "fy": -146.78802384393066,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -173.2201895977712,
+      "fy": -58.922080959785035,
+      "nodes": [
+        {
+          "text": "1. what the buddha taught",
+          "url": "http://www.dhammaweb.net/books/Dr_Walpola_Rahula_What_the_Buddha_Taught.pdf",
+          "fx": 8.779810402228804,
+          "fy": -67.42208095978503,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. alan watts: buddhism",
+          "url": "https://www.youtube.com/watch?v=HmrebXca-ZE",
+          "fx": 8.779810402228804,
+          "fy": -27.422080959785035,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tibetan buddhism",
+      "url": "http://www.wikiwand.com/en/Tibetan_Buddhism",
+      "fx": -264.8071610028004,
+      "fy": 65.37629283375486,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "buddhism",
+      "target": "basics",
+      "curve": {
+        "x": -18.9323,
+        "y": 105.959
+      }
+    },
+    {
+      "source": "basics",
+      "target": "tibetan buddhism",
+      "curve": {
+        "x": -27.2935,
+        "y": 62.1491
+      }
+    },
+    {
+      "source": "help",
+      "target": "buddhism",
+      "curve": {
+        "x": -62.3918,
+        "y": -54.7759
+      }
+    }
+  ],
+  "id": 1353
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - nuclear physics - nuclear reactions - nuclear chain reactions - nuclear weapons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nuclear weapons",
+      "url": "http://www.wikiwand.com/en/Nuclear_weapon",
+      "fx": 379.80078125,
+      "fy": 20.14453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 433.12009050543395,
+      "fy": 181.08602288249415,
+      "nodes": [
+        {
+          "text": "1. how atomic bomb works",
+          "url": "https://www.youtube.com/watch?v=-Nc0wCrkk00",
+          "fx": 589.120090505434,
+          "fy": 192.58602288249415,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "nuclear weapons",
+      "target": "basics",
+      "curve": {
+        "x": -4.59035,
+        "y": 79.2207
+      }
+    }
+  ],
+  "id": 1492
+}

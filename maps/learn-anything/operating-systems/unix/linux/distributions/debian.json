@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - debian",
+  "tag": "debian linux",
+  "nodes": [
+    {
+      "text": "debian",
+      "url": "http://www.wikiwand.com/en/Debian",
+      "fx": -153.51171875,
+      "fy": -164.20703125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/debian/",
+          "fx": 34.48828125,
+          "fy": -150.20703125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": -32.82604733660651,
+      "fy": -40.97067772359827,
+      "nodes": [
+        {
+          "text": "aptly",
+          "url": "https://github.com/smira/aptly",
+          "fx": 109.1739526633935,
+          "fy": -29.47067772359827,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -135.23625478371173,
+      "fy": 82.4010301094462,
+      "nodes": [
+        {
+          "text": "1. getting debian",
+          "url": "https://www.debian.org/distrib/",
+          "fx": 20.76374521628827,
+          "fy": 79.9010301094462,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. installation guide",
+          "url": "https://www.debian.org/releases/stable/installmanual",
+          "fx": 20.76374521628827,
+          "fy": 113.9010301094462,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "debian",
+      "target": "basics",
+      "curve": {
+        "x": 1.13773,
+        "y": 122.054
+      }
+    },
+    {
+      "source": "tools",
+      "target": "debian",
+      "curve": {
+        "x": -48.8428,
+        "y": -60.3682
+      }
+    }
+  ],
+  "id": 1285
+}

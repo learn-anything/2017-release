@@ -1,0 +1,49 @@
+{
+  "title": "learn anything - programming - markup languages",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "markup languages",
+      "url": "http://www.wikiwand.com/en/Markup_language",
+      "fx": 51.830162048339844,
+      "fy": -37.81950283050537,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "markdown  ️",
+      "url": "/programming/markup-languages/markdown",
+      "fx": 115.46988293051379,
+      "fy": 92.00797771902694,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "HTML  ️",
+      "url": "/web-development/front-end/html",
+      "fx": -35.41015625,
+      "fy": 93.4432708648036,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "markup languages",
+      "target": "HTML  ️",
+      "curve": {
+        "x": -71.8702,
+        "y": 65.6314
+      }
+    },
+    {
+      "source": "markup languages",
+      "target": "markdown  ️",
+      "curve": {
+        "x": 6.81986,
+        "y": 63.6637
+      }
+    }
+  ],
+  "id": 1563
+}

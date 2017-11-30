@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - matrix factorisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "matrix factorisation",
+      "url": "http://www.wikiwand.com/en/Matrix_decomposition",
+      "fx": 33.952355930313274,
+      "fy": -132.08090180274579,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 101.89977498926532,
+      "fy": 22.01222451094975,
+      "nodes": [
+        {
+          "text": "1. example of matrix factorisation",
+          "url": "https://www.youtube.com/watch?v=o8PiWO8C3zs",
+          "fx": 257.8997749892653,
+          "fy": 2.51222451094975,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. matrix factorisation: a simple tutorial and implantation in python  ️",
+          "url": "http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/",
+          "fx": 257.8997749892653,
+          "fy": 42.51222451094975,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "non-negative matrix factorisation  ️",
+      "url": "/mathematics/linear-algebra/matrices/matrix-factorisation/non-negative-matrix-factorisation",
+      "fx": -60.43229166666674,
+      "fy": 155.6438210227268,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "matrix factorisation",
+      "target": "basics",
+      "curve": {
+        "x": -1.52629,
+        "y": 75.7966
+      }
+    },
+    {
+      "source": "basics",
+      "target": "non-negative matrix factorisation  ️",
+      "curve": {
+        "x": -49.416,
+        "y": 73.0658
+      }
+    }
+  ],
+  "id": 978
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - systems theory - cybernetics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cybernetics",
+      "url": "http://www.wikiwand.com/en/Cybernetics",
+      "fx": 95.453125,
+      "fy": -135.5078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 127,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Cvorr7587dE",
+          "fx": 290,
+          "fy": 0.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. cybernetics or control and communication in the animal and the machine",
+          "url": "http://uberty.org/wp-content/uploads/2015/07/Norbert_Wiener_Cybernetics.pdf",
+          "fx": 290,
+          "fy": 42.5,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cybernetics",
+      "target": "basics",
+      "curve": {
+        "x": -4.72656,
+        "y": 84.0039
+      }
+    }
+  ],
+  "id": 1844
+}

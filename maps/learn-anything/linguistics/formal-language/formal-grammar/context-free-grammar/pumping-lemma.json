@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - linguistics - formal language - formal grammar - context-free grammar - pumping lemma",
+  "tag": "pumping lemma for context-free languages",
+  "nodes": [
+    {
+      "text": "pumping lemma for context-free languages",
+      "url": "http://www.wikiwand.com/en/Pumping_lemma_for_context-free_languages",
+      "fx": 46.318882761437976,
+      "fy": -119.02131842320256,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141,
+      "fy": 63,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=4B7mdjbAlEw&amp;feature=youtu.be",
+          "fx": 304,
+          "fy": 75.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "pumping lemma for context-free languages",
+      "target": "basics",
+      "curve": {
+        "x": -6.65944,
+        "y": 83.0107
+      }
+    }
+  ],
+  "id": 709
+}

@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - operating systems - unix - linux - wayland",
+  "tag": "Wayland protocol",
+  "nodes": [
+    {
+      "text": "wayland",
+      "url": "http://www.wikiwand.com/en/Wayland_(display_server_protocol)",
+      "fx": 2.062424659729004,
+      "fy": -53.58907425403595,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/wayland/",
+          "fx": 204.062424659729,
+          "fy": -39.58907425403595,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 20.1328125,
+      "fy": 88.20703125,
+      "nodes": [
+        {
+          "text": "1. an introduction to Wayland  ️",
+          "url": "https://drewdevault.com/2017/06/10/Introduction-to-Wayland.html",
+          "fx": 176.1328125,
+          "fy": 99.70703125,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "wayland",
+      "target": "basics",
+      "curve": {
+        "x": -2.96478,
+        "y": 69.6481
+      }
+    }
+  ],
+  "id": 1293
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - particle physics - elementary particles - photons - planck constant",
+  "tag": "Planck constant",
+  "nodes": [
+    {
+      "text": "Planck constant",
+      "url": "http://www.wikiwand.com/en/Planck_constant",
+      "fx": 92.10546875,
+      "fy": -85.90625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146,
+      "fy": 86.375,
+      "nodes": [
+        {
+          "text": "1. Planck’s constant and the origin of quantum mechanics",
+          "url": "https://www.youtube.com/watch?v=tQSbms5MDvY",
+          "fx": 309,
+          "fy": 52.875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what’s the significance of Planck’s constant?",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/5gu63x/eli5_whats_the_significance_of_plancks_constant/dav986n/",
+          "fx": 309,
+          "fy": 119.875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Planck constant",
+      "target": "basics",
+      "curve": {
+        "x": -4.55273,
+        "y": 85.3906
+      }
+    }
+  ],
+  "id": 1508
+}

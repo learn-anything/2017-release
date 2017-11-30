@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - query languages",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "query languages",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Query_language",
+      "fx": 25.63187966417911,
+      "fy": -87.2075559701492,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "graphQL  ️",
+      "url": "/programming/query-languages/graphql",
+      "fx": -43.546058768656735,
+      "fy": 37.93650886194024,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "SQL  ️",
+      "url": "/programming/programming-languages/sql",
+      "fx": 130.05567863805948,
+      "fy": 39.645988806008575,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "query languages",
+      "target": "graphQL  ️",
+      "curve": {
+        "x": -61.089,
+        "y": 61.322
+      }
+    },
+    {
+      "source": "query languages",
+      "target": "SQL  ️",
+      "curve": {
+        "x": 17.9619,
+        "y": 62.1768
+      }
+    }
+  ],
+  "id": 1685
+}

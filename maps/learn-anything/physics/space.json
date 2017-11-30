@@ -1,0 +1,104 @@
+{
+  "title": "learn anything - physics - space",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "space",
+      "url": "http://www.wikiwand.com/en/Space",
+      "fx": 46.29138020106723,
+      "fy": -206.5913425513676,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/space/",
+          "fx": 238.29138020106723,
+          "fy": -192.5913425513676,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 166.27514785375342,
+      "fy": -91.6544137612367,
+      "nodes": [
+        {
+          "text": "space album",
+          "url": "http://imgur.com/a/uymmM",
+          "fx": 365.2751478537534,
+          "fy": -79.1544137612367,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -17.676757812500114,
+      "fy": 88.53796073717933,
+      "nodes": [
+        {
+          "text": "1. what is space",
+          "url": "https://www.youtube.com/watch?v=5JMyOvf_z9k",
+          "fx": 145.3232421874999,
+          "fy": 38.03796073717933,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. what is the shape of space?",
+          "url": "https://www.youtube.com/watch?v=oCK5oGmRtxQ&amp;feature=youtu.be",
+          "fx": 145.3232421874999,
+          "fy": 80.03796073717933,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. empty space is not empty",
+          "url": "https://www.youtube.com/watch?v=J3xLuZNKhlY",
+          "fx": 145.3232421874999,
+          "fy": 122.03796073717933,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is something",
+          "url": "https://www.youtube.com/watch?v=X9otDixAtFw",
+          "fx": 145.3232421874999,
+          "fy": 164.03796073717933,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "space",
+      "target": "basics",
+      "curve": {
+        "x": -39.2341,
+        "y": 146.815
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "space",
+      "curve": {
+        "x": -61.7419,
+        "y": -56.7185
+      }
+    }
+  ],
+  "id": 1545
+}

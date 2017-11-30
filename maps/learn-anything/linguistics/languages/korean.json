@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - linguistics - languages - korean",
+  "tag": "korean language",
+  "nodes": [
+    {
+      "text": "korean language",
+      "url": "http://www.wikiwand.com/en/Korean_language",
+      "fx": -132.5390625,
+      "fy": -187.7578125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Korean/",
+          "fx": 144.4609375,
+          "fy": -173.7578125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -79.01171875,
+      "fy": -40.2734375,
+      "nodes": [
+        {
+          "text": "1. Jenny’s Korean",
+          "url": "https://www.youtube.com/watch?v=0ZhOeA0RD9o&amp;list=PLD23131AAFBD857F5",
+          "fx": 102.98828125,
+          "fy": -28.7734375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "korean language",
+      "target": "basics",
+      "curve": {
+        "x": -3.48633,
+        "y": 72.4922
+      }
+    }
+  ],
+  "id": 731
+}

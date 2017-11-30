@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - programming languages - sql - sql injections",
+  "tag": "SQL injections",
+  "nodes": [
+    {
+      "text": "SQL injections",
+      "url": "http://www.wikiwand.com/en/SQL_injection",
+      "fx": 43.63809742647061,
+      "fy": -215.2143841911764,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 89.00762101715532,
+      "fy": -73.65755208330131,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ciNHn38EyRc",
+          "fx": 245.00762101715532,
+          "fy": -93.15755208330131,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. hacking websites with SQL injection",
+          "url": "https://www.youtube.com/watch?v=_jKylhJtPmI",
+          "fx": 245.00762101715532,
+          "fy": -53.15755208330131,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "SQL injections",
+      "target": "basics",
+      "curve": {
+        "x": -2.56524,
+        "y": 69.5284
+      }
+    }
+  ],
+  "id": 1652
+}

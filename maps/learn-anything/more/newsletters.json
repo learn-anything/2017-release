@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - more - newsletters",
+  "tag": "new newsletters",
+  "nodes": [
+    {
+      "text": "newsletters",
+      "url": "https://github.com/learn-anything/newsletters",
+      "fx": -141.04720052083326,
+      "fy": -153.88085937500006,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new newsletters",
+      "url": "",
+      "fx": -175.26790364583337,
+      "fy": -17.630859375,
+      "nodes": [
+        {
+          "text": "awesome newsletters",
+          "url": "https://github.com/vredniy/awesome-newsletters",
+          "fx": 106.73209635416663,
+          "fy": -6.130859375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "newsletters",
+      "target": "find new newsletters",
+      "curve": {
+        "x": -5.36035,
+        "y": 66.875
+      }
+    }
+  ],
+  "id": 1186
+}

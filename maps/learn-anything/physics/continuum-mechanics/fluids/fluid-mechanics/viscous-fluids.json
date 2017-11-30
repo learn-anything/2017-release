@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - continuum mechanics - fluids - fluid mechanics - viscous fluids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "viscous fluids",
+      "url": "http://www.wikiwand.com/en/Viscous_liquid",
+      "fx": -106.4040607829669,
+      "fy": -227.685310782967,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -63.646355488578706,
+      "fy": -106.69352791878168,
+      "nodes": [
+        {
+          "text": "1. viscosity and Poiseuille flow",
+          "url": "https://www.youtube.com/watch?v=G3bO8RcRgxQ",
+          "fx": 92.3536445114213,
+          "fy": -95.19352791878168,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Navier-Stokes equations  ️",
+      "url": "/physics/continuum-mechanics/fluids/fluid-mechanics/viscous-fluids/navier-stokes-equations",
+      "fx": -238.89800126903526,
+      "fy": 16.842996510152034,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "viscous fluids",
+      "target": "basics",
+      "curve": {
+        "x": -1.37115,
+        "y": 59.2459
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Navier-Stokes equations  ️",
+      "curve": {
+        "x": -49.1258,
+        "y": 61.7683
+      }
+    }
+  ],
+  "id": 1409
+}

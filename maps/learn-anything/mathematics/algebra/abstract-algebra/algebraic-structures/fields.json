@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - fields",
+  "tag": "fields in mathematics",
+  "nodes": [
+    {
+      "text": "fields",
+      "url": "http://www.wikiwand.com/en/Field_(mathematics)",
+      "fx": 57.43950957369941,
+      "fy": -221.35718479046244,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 62.69942196531929,
+      "fy": -73.39306358381037,
+      "nodes": [
+        {
+          "text": "1. definition of a field",
+          "url": "https://www.youtube.com/watch?v=bjp4nF8TW7s",
+          "fx": 225.6994219653193,
+          "fy": -81.89306358381037,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. infinite fields",
+          "url": "https://www.youtube.com/watch?v=9hmr_Fjot_8",
+          "fx": 225.6994219653193,
+          "fy": -39.893063583810374,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "field extensions  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/fields/field-extensions",
+      "fx": -103.04007198033707,
+      "fy": 48.4711530021068,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "fields",
+      "target": "basics",
+      "curve": {
+        "x": -1.87004,
+        "y": 73.2321
+      }
+    },
+    {
+      "source": "basics",
+      "target": "field extensions  ️",
+      "curve": {
+        "x": -61.1197,
+        "y": 60.9321
+      }
+    }
+  ],
+  "id": 816
+}

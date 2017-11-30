@@ -1,0 +1,125 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "complex analysis",
+      "url": "http://www.wikiwand.com/en/Complex_analysis",
+      "fx": -77.46253188775506,
+      "fy": -228.94650829081638,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 90.54663584183766,
+      "fy": -110.51490752550382,
+      "nodes": [
+        {
+          "text": "how useful is complex analysis?",
+          "url": "https://www.reddit.com/r/math/comments/64ddep/how_useful_is_complex_analysis/",
+          "fx": 227.54663584183766,
+          "fy": -99.01490752550382,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -30.638780462498403,
+      "fy": 6.1813908012545085,
+      "nodes": [
+        {
+          "text": "1. introduction to complex analysis",
+          "url": "https://www.coursera.org/learn/complex-analysis",
+          "fx": 151.3612195375016,
+          "fy": -2.3186091987454915,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. complex analysis",
+          "url": "http://www.goodreads.com/book/show/202427.Complex_Analysis",
+          "fx": 151.3612195375016,
+          "fy": 37.68139080125451,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Euler’s formula  ️",
+      "url": "/mathematics/analysis/complex-analysis/eulers-formula",
+      "fx": 129.82547829367888,
+      "fy": 162.24784065015388,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "holomorphic functions  ️",
+      "url": "/mathematics/analysis/complex-analysis/holomorphic-functions",
+      "fx": -169.38281250000102,
+      "fy": 162.87085700757473,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Residue theorem  ️",
+      "url": "/mathematics/analysis/complex-analysis/residue-theorem",
+      "fx": -399.27391098484554,
+      "fy": 164.49739583333337,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "complex analysis",
+      "target": "basics",
+      "curve": {
+        "x": -7.83812,
+        "y": 116.314
+      }
+    },
+    {
+      "source": "help",
+      "target": "complex analysis",
+      "curve": {
+        "x": -48.0046,
+        "y": -57.9658
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Euler’s formula  ️",
+      "curve": {
+        "x": 92.2322,
+        "y": 78.0332
+      }
+    },
+    {
+      "source": "basics",
+      "target": "holomorphic functions  ️",
+      "curve": {
+        "x": -40.122,
+        "y": 78.3447
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Residue theorem  ️",
+      "curve": {
+        "x": -177.811,
+        "y": 61.8817
+      }
+    }
+  ],
+  "id": 860
+}

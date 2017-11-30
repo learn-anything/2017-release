@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - logic - polish notation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polish notation",
+      "url": "http://www.wikiwand.com/en/Polish_notation",
+      "fx": 133.79296875,
+      "fy": -407.9140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "reverse polish notation",
+      "url": "http://www.wikiwand.com/en/Reverse_Polish_notation",
+      "fx": -69.1640625,
+      "fy": -275.9921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -6.481687213302848,
+      "fy": -128.2717173165138,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=7ha78yWRDlE",
+          "fx": 149.51831278669715,
+          "fy": -136.7717173165138,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. reverse polish grows on trees",
+          "url": "https://www.youtube.com/watch?v=TrfcJCulsF4",
+          "fx": 149.51831278669715,
+          "fy": -96.77171731651379,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polish notation",
+      "target": "reverse polish notation",
+      "curve": {
+        "x": -83.7285,
+        "y": 65.9609
+      }
+    },
+    {
+      "source": "reverse polish notation",
+      "target": "basics",
+      "curve": {
+        "x": -12.1588,
+        "y": 72.6102
+      }
+    }
+  ],
+  "id": 1010
+}

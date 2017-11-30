@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - programming - programming languages - racket",
+  "tag": "racket programming language",
+  "nodes": [
+    {
+      "text": "racket",
+      "url": "http://www.wikiwand.com/en/Racket_(programming_language)",
+      "fx": -85.23377432997825,
+      "fy": -265.84489638915835,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Racket/",
+          "fx": 97.76622567002175,
+          "fy": -271.84489638915835,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/racket/racket",
+          "fx": 97.76622567002175,
+          "fy": -231.84489638915835,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 15.70217538367342,
+      "fy": -154.42558334896984,
+      "nodes": [
+        {
+          "text": "official site",
+          "url": "https://racket-lang.org/",
+          "fx": 152.70217538367342,
+          "fy": -139.92558334896984,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -86.35841278720284,
+      "fy": -27.16580533662841,
+      "nodes": [
+        {
+          "text": "1. beautiful racket",
+          "url": "http://beautifulracket.com/",
+          "fx": 95.64158721279716,
+          "fy": -35.66580533662841,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the racket guide",
+          "url": "https://docs.racket-lang.org/guide/",
+          "fx": 95.64158721279716,
+          "fy": 4.334194663371591,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "racket",
+      "curve": {
+        "x": -38.968,
+        "y": -54.4597
+      }
+    },
+    {
+      "source": "racket",
+      "target": "basics",
+      "curve": {
+        "x": -7.31232,
+        "y": 118.089
+      }
+    }
+  ],
+  "id": 1643
+}

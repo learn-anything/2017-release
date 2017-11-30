@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - machine learning - neural networks - activation functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "activation functions",
+      "url": "http://www.wikiwand.com/en/Activation_function",
+      "fx": 72.79557482587984,
+      "fy": -173.77713755498525,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 137.38739604976922,
+      "fy": -1.2390750803388073,
+      "nodes": [
+        {
+          "text": "1. what is the role of the activation function in a neural network?",
+          "url": "https://www.quora.com/What-is-the-role-of-the-activation-function-in-a-neural-network",
+          "fx": 293.3873960497692,
+          "fy": -73.73907508033881,
+          "nodes": [],
+          "category": "quora",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. activation functions and its types - which is better?  ️",
+          "url": "https://medium.com/towards-data-science/activation-functions-and-its-types-which-is-better-a9a5310cc8f",
+          "fx": 293.3873960497692,
+          "fy": -11.739075080338807,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. comprehensive list of activation function in neural networks with pros/cons   ️",
+          "url": "https://stats.stackexchange.com/questions/115258/comprehensive-list-of-activation-functions-in-neural-networks-with-pros-cons",
+          "fx": 293.3873960497692,
+          "fy": 50.26092491966119,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "activation functions",
+      "target": "basics",
+      "curve": {
+        "x": -3.95409,
+        "y": 85.019
+      }
+    }
+  ],
+  "id": 770
+}

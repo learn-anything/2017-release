@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - medicine - neurology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neurology",
+      "url": "http://www.wikiwand.com/en/Neurology",
+      "fx": -76.1953125,
+      "fy": -152.53515625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/neurology/",
+          "fx": 139.8046875,
+          "fy": -138.53515625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.111901197604766,
+      "fy": 9.330955276946156,
+      "nodes": [
+        {
+          "text": "1. introduction to neural cell types",
+          "url": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology/nervous-system-introduction/v/introduction-to-neural-cell-types",
+          "fx": 107.88809880239523,
+          "fy": -41.169044723053844,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. advanced nervous system physiology",
+          "url": "https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor",
+          "fx": 107.88809880239523,
+          "fy": -1.1690447230538439,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. molecular neuropharmacology : a foundation for clinical neuroscience",
+          "url": "http://www.goodreads.com/book/show/22535583-molecular-neuropharmacology",
+          "fx": 107.88809880239523,
+          "fy": 60.830955276946156,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "neurodegeneration  ️",
+      "url": "/medicine/neurology/neurodegeneration",
+      "fx": -277.0356039977322,
+      "fy": 126.57757864755138,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurology",
+      "target": "basics",
+      "curve": {
+        "x": -0.958294,
+        "y": 79.6831
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neurodegeneration  ️",
+      "curve": {
+        "x": -92.2118,
+        "y": 58.6233
+      }
+    }
+  ],
+  "id": 1164
+}

@@ -1,0 +1,120 @@
+{
+  "title": "learn anything - software - tooling - spreadsheets - excel",
+  "tag": "excel software",
+  "nodes": [
+    {
+      "text": "microsoft excel",
+      "url": "http://www.wikiwand.com/en/Microsoft_Excel",
+      "fx": -70.04945849867738,
+      "fy": -322.8806423611111,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/excel/",
+          "fx": 192.95054150132262,
+          "fy": -308.8806423611111,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 61.53639964255456,
+      "fy": -198.25488143200454,
+      "nodes": [
+        {
+          "text": "excel is fun",
+          "url": "https://www.youtube.com/user/ExcelIsFun/videos",
+          "fx": 198.53639964255456,
+          "fy": -223.75488143200454,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "excel functions",
+          "url": "https://www.techonthenet.com/excel/formulas/",
+          "fx": 198.53639964255456,
+          "fy": -183.75488143200454,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "tutorials by chandoo  ️",
+          "url": "http://chandoo.org/",
+          "fx": 198.53639964255456,
+          "fy": -149.75488143200454,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 113.60868458016205,
+      "fy": -52.67688676036846,
+      "nodes": [
+        {
+          "text": "15: you suck at excel with Joel Spolsky",
+          "url": "https://www.youtube.com/watch?v=0nbkaYsR94c",
+          "fx": 304.60868458016205,
+          "fy": -52.17688676036846,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -63.68653931693416,
+      "fy": 47.48975962684278,
+      "nodes": [
+        {
+          "text": "1. learn excel",
+          "url": "https://www.udemy.com/tutorials/learn-excel/",
+          "fx": 118.31346068306584,
+          "fy": 58.98975962684278,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "microsoft excel",
+      "curve": {
+        "x": -34.2929,
+        "y": -61.0628
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -39.5361,
+        "y": -72.7889
+      }
+    },
+    {
+      "source": "microsoft excel",
+      "target": "basics",
+      "curve": {
+        "x": -23.5685,
+        "y": 183.936
+      }
+    }
+  ],
+  "id": 1811
+}

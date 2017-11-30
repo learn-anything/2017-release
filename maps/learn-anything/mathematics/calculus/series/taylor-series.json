@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - series - taylor series",
+  "tag": "Taylor series",
+  "nodes": [
+    {
+      "text": "Taylor series",
+      "url": "http://www.wikiwand.com/en/Taylor_series",
+      "fx": -111.48080798983574,
+      "fy": -140.16537857055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -68.9687809497118,
+      "fy": -8.284276962280273,
+      "nodes": [
+        {
+          "text": "1. visual explanation",
+          "url": "https://www.youtube.com/watch?v=3d6DsjIBzJ4",
+          "fx": 87.0312190502882,
+          "fy": 3.2157230377197266,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Taylor series",
+      "target": "basics",
+      "curve": {
+        "x": 0.756014,
+        "y": 64.6906
+      }
+    }
+  ],
+  "id": 903
+}

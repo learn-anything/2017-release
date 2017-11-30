@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - marketing - advertising",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "advertising",
+      "url": "http://www.wikiwand.com/en/Advertising",
+      "fx": -78.91453182697296,
+      "fy": -174.91537857055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "if you think this can be improved in any way ",
+      "url": "",
+      "fx": -47.5000309497118,
+      "fy": -28.42566151089136,
+      "nodes": [
+        {
+          "text": "1. breakthrough advertising",
+          "url": "http://www.goodreads.com/book/show/8662312-breakthrough-advertising",
+          "fx": 134.4999690502882,
+          "fy": -47.92566151089136,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. hey, Whipple, squeeze this: a guide to creating great ads",
+          "url": "http://www.goodreads.com/book/show/239409.Hey_Whipple_Squeeze_This",
+          "fx": 134.4999690502882,
+          "fy": -7.925661510891359,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "online advertising  ️",
+      "url": "/marketing/advertising/online-advertising",
+      "fx": -274.3125190734863,
+      "fy": 103.87030220031738,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Google AdWords  ️",
+      "url": "/marketing/advertising/google-adwords",
+      "fx": -38.65349736774556,
+      "fy": 106.07382465698112,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "advertising",
+      "target": "basics",
+      "curve": {
+        "x": -1.54275,
+        "y": 71.9949
+      }
+    },
+    {
+      "source": "basics",
+      "target": "online advertising  ️",
+      "curve": {
+        "x": -95.4063,
+        "y": 66.1479
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Google AdWords  ️",
+      "curve": {
+        "x": 22.4233,
+        "y": 67.2497
+      }
+    }
+  ],
+  "id": 807
+}

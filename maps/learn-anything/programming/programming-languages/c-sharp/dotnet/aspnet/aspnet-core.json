@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - programming languages - c sharp - dotnet - aspnet - aspnet core",
+  "tag": "ASP.NET Core",
+  "nodes": [
+    {
+      "text": "ASP.NET Core",
+      "url": "http://www.wikiwand.com/en/ASP.NET_Core",
+      "fx": -112.67578125,
+      "fy": -247.91015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -63.25273771367529,
+      "fy": -88.7327056623667,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://docs.microsoft.com/en-us/aspnet/core/getting-started",
+          "fx": 92.74726228632471,
+          "fy": -105.2327056623667,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. getting started with ASP.NET Core in VS 2017",
+          "url": "https://www.youtube.com/watch?v=yDp-sHGKTWo",
+          "fx": 92.74726228632471,
+          "fy": -71.2327056623667,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ASP.NET Core",
+      "target": "basics",
+      "curve": {
+        "x": -0.788478,
+        "y": 78.3387
+      }
+    }
+  ],
+  "id": 1577
+}

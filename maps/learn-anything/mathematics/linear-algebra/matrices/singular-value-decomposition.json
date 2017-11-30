@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - singular value decomposition",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "singular value decomposition",
+      "url": "http://www.wikiwand.com/en/Singular_value_decomposition",
+      "fx": -104.984375,
+      "fy": -158.38671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 12.518798828125,
+      "fy": -18.059326171875057,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=mBcLRGuAFUk",
+          "fx": 168.518798828125,
+          "fy": -6.559326171875057,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "singular value decomposition",
+      "target": "basics",
+      "curve": {
+        "x": -0.998413,
+        "y": 68.9137
+      }
+    }
+  ],
+  "id": 981
+}

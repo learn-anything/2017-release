@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - peano axioms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "peano axioms",
+      "url": "http://www.wikiwand.com/en/Peano_axioms",
+      "fx": 96.78169129184096,
+      "fy": -242.35373627092048,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141.20083682008362,
+      "fy": -71.33054393299551,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=0hTipItVdYY",
+          "fx": 304.2008368200836,
+          "fy": -58.83054393299551,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "peano axioms",
+      "target": "basics",
+      "curve": {
+        "x": -4.54043,
+        "y": 84.7616
+      }
+    }
+  ],
+  "id": 1009
+}

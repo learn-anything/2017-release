@@ -1,0 +1,107 @@
+{
+  "title": "learn anything - operating systems - unix - macos - automation - keyboard maestro",
+  "tag": "keyboard maestro app",
+  "nodes": [
+    {
+      "text": "keyboard maestro",
+      "url": "https://www.keyboardmaestro.com/main/",
+      "fx": -112.5,
+      "fy": -226.78515625,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 10.550109587103975,
+      "fy": -121.88192873303171,
+      "nodes": [
+        {
+          "text": "forum",
+          "url": "https://forum.keyboardmaestro.com/latest",
+          "fx": 151.55010958710398,
+          "fy": -127.88192873303171,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "wiki",
+          "url": "https://wiki.keyboardmaestro.com/User_Manual",
+          "fx": 151.55010958710398,
+          "fy": -85.88192873303171,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 51.045823865195416,
+      "fy": 4.850188587778689,
+      "nodes": [
+        {
+          "text": "best macros list",
+          "url": "https://forum.keyboardmaestro.com/t/best-macro-list/4118",
+          "fx": 250.04582386519542,
+          "fy": -1.149811412221311,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "km macros collection",
+          "url": "https://github.com/nikitavoloboev/km-macros",
+          "fx": 250.04582386519542,
+          "fy": 35.85018858777869,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 119.3338189592497,
+      "fy": 139.15082831636914,
+      "nodes": [
+        {
+          "text": "insta cloning  ️",
+          "url": "https://medium.com/@NikitaVoloboev/insta-cloning-ff5f38eb1d32",
+          "fx": 288.3338189592497,
+          "fy": 151.65082831636914,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "keyboard maestro",
+      "curve": {
+        "x": -27.2751,
+        "y": -52.4516
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -34.7478,
+        "y": -63.3661
+      }
+    },
+    {
+      "source": "articles",
+      "target": "interesting",
+      "curve": {
+        "x": -26.644,
+        "y": -67.1503
+      }
+    }
+  ],
+  "id": 1297
+}

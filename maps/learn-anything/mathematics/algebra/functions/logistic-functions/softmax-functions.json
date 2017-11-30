@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - logistic functions - softmax functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "softmax functions",
+      "url": "http://www.wikiwand.com/en/Softmax_function",
+      "fx": 141.35617897727275,
+      "fy": -405.27736178311443,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 202.52272727272737,
+      "fy": -262.3181818181818,
+      "nodes": [
+        {
+          "text": "1. the softmax output function",
+          "url": "https://www.youtube.com/watch?v=mlaLLQofmR8",
+          "fx": 358.52272727272737,
+          "fy": -250.8181818181818,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "softmax functions",
+      "target": "basics",
+      "curve": {
+        "x": -2.16673,
+        "y": 70.2296
+      }
+    }
+  ],
+  "id": 840
+}

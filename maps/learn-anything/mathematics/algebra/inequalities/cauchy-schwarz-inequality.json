@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - inequalities - cauchy-schwarz inequality",
+  "tag": "Cauchy-Schwarz inequality",
+  "nodes": [
+    {
+      "text": "Cauchy-Schwarz inequality",
+      "url": "http://www.wikiwand.com/en/Cauchy%E2%80%93Schwarz_inequality",
+      "fx": 84.07753314393938,
+      "fy": -113.53852982954538,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 185.64275568181802,
+      "fy": 60.48123816293372,
+      "nodes": [
+        {
+          "text": "1. proof of the Cauchy-Schwarz inequality",
+          "url": "https://www.youtube.com/watch?v=r2PogGDl8_U",
+          "fx": 348.642755681818,
+          "fy": 60.48123816293372,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Hölder's inequality  ️",
+      "url": "/mathematics/algebra/inequalities/cauchy-schwarz-inequality/holders-inequality",
+      "fx": -45.801373106050505,
+      "fy": 224.96727035983906,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Cauchy-Schwarz inequality",
+      "target": "basics",
+      "curve": {
+        "x": -9.21739,
+        "y": 86.2599
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Hölder's inequality  ️",
+      "curve": {
+        "x": -86.7221,
+        "y": 82.243
+      }
+    }
+  ],
+  "id": 849
+}

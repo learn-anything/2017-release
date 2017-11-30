@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - philosophy - decision theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "decision theory",
+      "url": "http://www.wikiwand.com/en/Decision_theory",
+      "fx": -81.98046875,
+      "fy": -195.63671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -32.7828369140625,
+      "fy": -61.43359375,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=r7HEKtockRs&amp;t=2s",
+          "fx": 123.2171630859375,
+          "fy": -69.93359375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to decision theory",
+          "url": "http://www.goodreads.com/book/show/11729796-an-introduction-to-decision-theory",
+          "fx": 123.2171630859375,
+          "fy": -29.93359375,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "decision theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.40118,
+        "y": 65.8516
+      }
+    }
+  ],
+  "id": 1317
+}

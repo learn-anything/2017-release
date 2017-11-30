@@ -1,0 +1,62 @@
+{
+  "title": "learn anything - physics - special relativity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "special relativity",
+      "url": "http://www.wikiwand.com/en/Special_relativity",
+      "fx": -95.2734375,
+      "fy": -428.88671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -55.336363952437296,
+      "fy": -275.2847786901989,
+      "nodes": [
+        {
+          "text": "1. space, time and einstein",
+          "url": "http://www.worldscienceu.com/courses/university/space-time-and-einstein",
+          "fx": 126.6636360475627,
+          "fy": -303.7847786901989,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Einstein for everyone",
+          "url": "http://www.pitt.edu/%7Ejdnorton/teaching/HPS_0410/index.html",
+          "fx": 126.6636360475627,
+          "fy": -263.7847786901989,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. special relativity",
+          "note": "calculus",
+          "url": "http://www.worldscienceu.com/courses/university/special-relativity",
+          "fx": 126.6636360475627,
+          "fy": -223.7847786901989,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "special relativity",
+      "target": "basics",
+      "curve": {
+        "x": -7.78147,
+        "y": 75.551
+      }
+    }
+  ],
+  "id": 1546
+}

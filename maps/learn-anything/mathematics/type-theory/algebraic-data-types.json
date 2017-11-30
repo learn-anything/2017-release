@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - mathematics - type theory - algebraic data types",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebraic data types",
+      "url": "http://www.wikiwand.com/en/Algebraic_data_type",
+      "fx": -146.46484375,
+      "fy": -87.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 65.71097574673024,
+      "fy": 42.816596434670316,
+      "nodes": [
+        {
+          "text": "the derivative of a regular type is its type of one-hole contexts",
+          "url": "http://strictlypositive.org/diff.pdf",
+          "fx": 256.71097574673024,
+          "fy": 43.316596434670316,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -82.32081228956224,
+      "fy": 212.56861875077465,
+      "nodes": [
+        {
+          "text": "1. algebraic data types explained",
+          "url": "https://www.youtube.com/watch?v=w1WMykh7AxA",
+          "fx": 73.67918771043776,
+          "fy": 162.06861875077465,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. the algebra of algebraic data types",
+          "url": "https://www.youtube.com/watch?v=YScIPA8RbVE",
+          "fx": 73.67918771043776,
+          "fy": 202.06861875077465,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the algebra (and calculus) of algebraic data types  ️",
+          "url": "https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types",
+          "fx": 73.67918771043776,
+          "fy": 264.06861875077465,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "algebraic data types",
+      "target": "basics",
+      "curve": {
+        "x": -6.42799,
+        "y": 148.976
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "algebraic data types",
+      "curve": {
+        "x": -76.3379,
+        "y": -64.0997
+      }
+    }
+  ],
+  "id": 1146
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - electromagnetism - electricity - electric current - voltage",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "voltage",
+      "url": "http://www.wikiwand.com/en/Voltage",
+      "fx": -56.16796875,
+      "fy": -133.58203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.15020057821232,
+      "fy": 3.390958489489833,
+      "nodes": [
+        {
+          "text": "1. what is voltage",
+          "url": "https://www.youtube.com/watch?v=TBt-kxYfync",
+          "fx": 109.84979942178768,
+          "fy": -5.109041510510167,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. voltage vs power vs energy",
+          "url": "https://www.youtube.com/watch?v=YdbhnmA4M9g",
+          "fx": 109.84979942178768,
+          "fy": 34.89095848948983,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "electromotive force  ️",
+      "url": "/physics/electromagnetism/electricity/electric-current/voltage/electromotive-force",
+      "fx": -124.2191124355669,
+      "fy": 138.1728817654639,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "voltage",
+      "target": "basics",
+      "curve": {
+        "x": -3.99112,
+        "y": 67.2365
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electromotive force  ️",
+      "curve": {
+        "x": -3.28446,
+        "y": 68.6409
+      }
+    }
+  ],
+  "id": 1418
+}

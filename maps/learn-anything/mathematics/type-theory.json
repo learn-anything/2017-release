@@ -1,0 +1,242 @@
+{
+  "title": "learn anything - mathematics - type theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "type theory",
+      "url": "http://www.wikiwand.com/en/Type_theory",
+      "fx": 76.0546875,
+      "fy": -145.72265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 248.92194065868046,
+      "fy": -57.34085010908001,
+      "nodes": [
+        {
+          "text": "homotopy type theory: univalent foundations of mathematics",
+          "url": "http://perimeterinstitute.ca/personal/tfritz/2014/hott.html",
+          "fx": 385.92194065868046,
+          "fy": -53.84085010908001,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 335.80009230193446,
+      "fy": 44.73074296773956,
+      "nodes": [
+        {
+          "text": "12: type safety in five easy lemmas  ️",
+          "url": "http://siek.blogspot.nl/2012/08/type-safety-in-five-easy-lemmas.html",
+          "fx": 497.80009230193446,
+          "fy": 45.23074296773956,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 620.5038343282561,
+      "fy": 140.41161716052954,
+      "nodes": [
+        {
+          "text": "16: truth about types",
+          "url": "https://www.youtube.com/watch?v=dgrucfgv2Tw",
+          "fx": 760.5038343282561,
+          "fy": 151.91161716052954,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 41.15003073240166,
+      "fy": 256.782932194617,
+      "nodes": [
+        {
+          "text": "1. where to start learning type theory  ️",
+          "url": "http://purelytheoretical.com/sywtltt.html",
+          "fx": 223.15003073240166,
+          "fy": 135.282932194617,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. proofs and types",
+          "url": "http://www.paultaylor.eu/stable/prot.pdf",
+          "fx": 223.15003073240166,
+          "fy": 197.282932194617,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. type theory and functional programming",
+          "url": "https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/",
+          "fx": 223.15003073240166,
+          "fy": 237.282932194617,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. resources for learning type theory",
+          "url": "https://github.com/jozefg/learn-tt",
+          "fx": 223.15003073240166,
+          "fy": 299.282932194617,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. propositions as types",
+          "url": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+          "fx": 223.15003073240166,
+          "fy": 361.282932194617,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. introduction to type theory",
+          "url": "http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf",
+          "fx": 223.15003073240166,
+          "fy": 401.282932194617,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "polymorphism  ️",
+      "url": "/mathematics/type-theory/polymorphism",
+      "fx": -427.7365235201776,
+      "fy": 491.48049079741065,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "algebraic data types  ️",
+      "url": "/mathematics/type-theory/algebraic-data-types",
+      "fx": -224.76681341832983,
+      "fy": 492.2024328813719,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "intuitionistic type theory",
+      "url": "http://www.wikiwand.com/en/Intuitionistic_type_theory",
+      "fx": 42.10432463201778,
+      "fy": 493.3661280723785,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "homotopy type theory  ️",
+      "url": "/mathematics/type-theory/homotopy-type-theory",
+      "fx": -112.08011896793948,
+      "fy": 604.334353292734,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dependent type theory  ️",
+      "url": "/mathematics/type-theory/dependent-type-theory",
+      "fx": 171.50020968801834,
+      "fy": 605.8772899746291,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "type theory",
+      "target": "basics",
+      "curve": {
+        "x": -35.4524,
+        "y": 200.002
+      }
+    },
+    {
+      "source": "help",
+      "target": "type theory",
+      "curve": {
+        "x": -63.6836,
+        "y": -42.9409
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -49.6891,
+        "y": -51.0359
+      }
+    },
+    {
+      "source": "basics",
+      "target": "intuitionistic type theory",
+      "curve": {
+        "x": 39.727,
+        "y": 119.542
+      }
+    },
+    {
+      "source": "intuitionistic type theory",
+      "target": "homotopy type theory  ️",
+      "curve": {
+        "x": -80.3422,
+        "y": 55.4841
+      }
+    },
+    {
+      "source": "intuitionistic type theory",
+      "target": "dependent type theory  ️",
+      "curve": {
+        "x": 55.6979,
+        "y": 55.0056
+      }
+    },
+    {
+      "source": "talks",
+      "target": "articles",
+      "curve": {
+        "x": -143.011,
+        "y": -33.1707
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic data types  ️",
+      "curve": {
+        "x": -108.208,
+        "y": 117.71
+      }
+    },
+    {
+      "source": "basics",
+      "target": "polymorphism  ️",
+      "curve": {
+        "x": -266.189,
+        "y": 85.0324
+      }
+    }
+  ],
+  "id": 1151
+}

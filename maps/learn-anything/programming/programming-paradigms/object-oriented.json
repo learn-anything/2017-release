@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - programming paradigms - object oriented",
+  "tag": "object oriented programming",
+  "nodes": [
+    {
+      "text": "object oriented programming",
+      "url": "http://www.wikiwand.com/en/Object-oriented_programming",
+      "fx": -190.0314263701439,
+      "fy": -180.95836639404297,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -65.5390934497118,
+      "fy": -33.133307695388794,
+      "nodes": [
+        {
+          "text": "1. practical object oriented design in ruby",
+          "url": "http://www.goodreads.com/book/show/13507787-practical-object-oriented-design-in-ruby",
+          "fx": 90.4609065502882,
+          "fy": -32.633307695388794,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "object oriented programming",
+      "target": "basics",
+      "curve": {
+        "x": -0.00383354,
+        "y": 72.6625
+      }
+    }
+  ],
+  "id": 1679
+}

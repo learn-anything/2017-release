@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - medicine - neurology - neurodegeneration - alzheimers disease",
+  "tag": "Alzheimer’s disease",
+  "nodes": [
+    {
+      "text": "Alzheimer’s disease",
+      "url": "http://www.wikiwand.com/en/Alzheimer%27s_disease",
+      "fx": 78.9765625,
+      "fy": -92.06640625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Alzheimers/",
+          "fx": 381.9765625,
+          "fy": -78.06640625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.5,
+      "fy": 41,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=yJXTXN4xrI8",
+          "fx": 299.5,
+          "fy": 52.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Alzheimer’s disease",
+      "target": "basics",
+      "curve": {
+        "x": 2.51172,
+        "y": 66.5332
+      }
+    }
+  ],
+  "id": 1161
+}

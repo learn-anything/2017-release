@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - philosophy - philosophical methodology - thought experiments",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "thought experiments",
+      "url": "http://www.wikiwand.com/en/Thought_experiment",
+      "fx": 277.9375,
+      "fy": -336.28515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 481.2631032387212,
+      "fy": -210.36351373894814,
+      "nodes": [
+        {
+          "text": "Mary’s room: a philosophical thought experiment",
+          "url": "https://www.youtube.com/watch?v=mGYmiQkah4o",
+          "fx": 680.2631032387212,
+          "fy": -256.36351373894814,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "Schrödinger's cat: a thought experiment in quantum mechanics",
+          "url": "https://www.youtube.com/watch?v=UjaAxUO6-Uw",
+          "fx": 680.2631032387212,
+          "fy": -189.36351373894814,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 332.08222489316245,
+      "fy": -25.890785256461584,
+      "nodes": [
+        {
+          "text": "1 what are thought experiments",
+          "url": "https://www.youtube.com/watch?v=Zb_YaUbhkwM",
+          "fx": 495.08222489316245,
+          "fy": -34.390785256461584,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. thought experiments series",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_93259041&amp;feature=iv&amp;list=PLz0n_SjOttTdRm0LPlJxUYoD7Xafp09sj&amp;src_vid=YxBShJU_CKs",
+          "fx": 495.08222489316245,
+          "fy": 7.609214743538416,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "thought experiments",
+      "target": "basics",
+      "curve": {
+        "x": -15.6776,
+        "y": 154.447
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "thought experiments",
+      "curve": {
+        "x": -67.9128,
+        "y": -62.2108
+      }
+    }
+  ],
+  "id": 1330
+}

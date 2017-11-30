@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - mechanical waves - acoustics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "acoustics",
+      "url": "http://www.wikiwand.com/en/Acoustics",
+      "fx": -77.0390625,
+      "fy": -129.875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Acoustics/",
+          "fx": 148.9609375,
+          "fy": -115.875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.41061580882342,
+      "fy": 13.732709099264753,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=-S6FPeJW60s",
+          "fx": 109.58938419117658,
+          "fy": 5.232709099264753,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. how acoustic physics works",
+          "url": "https://www.youtube.com/watch?v=dof2W38_eQ8",
+          "fx": 109.58938419117658,
+          "fy": 47.23270909926475,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "acoustics",
+      "target": "basics",
+      "curve": {
+        "x": -3.93578,
+        "y": 71.0539
+      }
+    }
+  ],
+  "id": 1391
+}

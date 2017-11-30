@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - earth science - atmospheric sciences",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "atmospheric sciences",
+      "url": "http://www.wikiwand.com/en/Atmospheric_sciences",
+      "fx": 35.96875,
+      "fy": -160.60546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "atmosphere  ️",
+      "url": "/earth-science/atmospheric-sciences/atmosphere",
+      "fx": -50.36429471032761,
+      "fy": -23.92183800015107,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "atmospheric sciences",
+      "target": "atmosphere  ️",
+      "curve": {
+        "x": -72.6665,
+        "y": 67.0918
+      }
+    }
+  ],
+  "id": 454
+}

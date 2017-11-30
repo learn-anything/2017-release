@@ -1,0 +1,65 @@
+{
+  "title": "learn anything - operating systems - ios - fastlane",
+  "tag": "Fastlane",
+  "nodes": [
+    {
+      "text": "Fastlane",
+      "url": "https://github.com/fastlane/fastlane",
+      "fx": -86.33984375,
+      "fy": -227.64453125,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 58.198394373843485,
+      "fy": -118.4576444123922,
+      "nodes": [
+        {
+          "text": "docs",
+          "url": "https://docs.fastlane.tools/",
+          "fx": 195.19839437384348,
+          "fy": -103.9576444123922,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -65.47353390643468,
+      "fy": -41.340425441139644,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://fabric.io/features/distribution?utm_campaign=fastlane.tools",
+          "fx": 90.52646609356532,
+          "fy": -26.840425441139644,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fastlane",
+      "target": "basics",
+      "curve": {
+        "x": -1.31685,
+        "y": 91.9021
+      }
+    },
+    {
+      "source": "help",
+      "target": "Fastlane",
+      "curve": {
+        "x": -55.7691,
+        "y": -53.3434
+      }
+    }
+  ],
+  "id": 1277
+}

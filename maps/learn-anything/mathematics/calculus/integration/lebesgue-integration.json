@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - integration - lebesgue integration",
+  "tag": "Lebesgue Integration",
+  "nodes": [
+    {
+      "text": "Lebesgue integration",
+      "url": "http://www.wikiwand.com/en/Lebesgue_integration",
+      "fx": -63.453125,
+      "fy": -193.58203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 12.51171875,
+      "fy": -26.80078125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=EUE-D6z8Sbo",
+          "fx": 168.51171875,
+          "fy": -15.30078125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Lebesgue integration",
+      "target": "basics",
+      "curve": {
+        "x": -2.26758,
+        "y": 82.1406
+      }
+    }
+  ],
+  "id": 887
+}

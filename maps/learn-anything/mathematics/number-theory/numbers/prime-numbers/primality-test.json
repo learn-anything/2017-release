@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - prime numbers - primality test",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "primality test",
+      "url": "http://www.wikiwand.com/en/Primality_test",
+      "fx": 174.90611432344042,
+      "fy": -298.70403337432623,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basis",
+      "url": "",
+      "fx": 217.74862938596493,
+      "fy": -177.43393640350877,
+      "nodes": [
+        {
+          "text": "1. fool-proof test for primes",
+          "url": "https://www.youtube.com/watch?v=HvMSRWTE2mI",
+          "fx": 368.74862938596493,
+          "fy": -164.93393640350877,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "ASK primality test",
+      "url": "http://www.wikiwand.com/en/AKS_primality_test",
+      "fx": 21.933024716097748,
+      "fy": -52.97203823189642,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "primality test",
+      "target": "basis",
+      "curve": {
+        "x": -4.07874,
+        "y": 59.885
+      }
+    },
+    {
+      "source": "basis",
+      "target": "ASK primality test",
+      "curve": {
+        "x": -59.6578,
+        "y": 62.9809
+      }
+    }
+  ],
+  "id": 1045
+}

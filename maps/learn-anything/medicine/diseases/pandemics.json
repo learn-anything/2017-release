@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - medicine - diseases - pandemics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "pandemics",
+      "url": "http://www.wikiwand.com/en/Pandemic",
+      "fx": 124.09626454959505,
+      "fy": -302.952255187247,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 151.87253289473836,
+      "fy": -147.39353491898316,
+      "nodes": [
+        {
+          "text": "1. how pandemics spread",
+          "url": "https://www.youtube.com/watch?v=UG8YbNbdaco",
+          "fx": 314.87253289473836,
+          "fy": -134.89353491898316,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "pandemics",
+      "target": "basics",
+      "curve": {
+        "x": -5.61187,
+        "y": 77.0294
+      }
+    }
+  ],
+  "id": 1158
+}

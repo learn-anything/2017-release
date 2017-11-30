@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - multi-task learning",
+  "tag": "multi-task learning",
+  "nodes": [
+    {
+      "text": "multi-task learning",
+      "url": "http://www.wikiwand.com/en/Multi-task_learning",
+      "fx": 64.42578125,
+      "fy": -112.421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 128,
+      "fy": 23.65625,
+      "nodes": [
+        {
+          "text": "1. overview of multi-task learning for deep learning  ️",
+          "url": "http://ruder.io/multi-task/index.html",
+          "fx": 291,
+          "fy": 23.65625,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "multi-task learning",
+      "target": "basics",
+      "curve": {
+        "x": -4.71289,
+        "y": 67.2891
+      }
+    }
+  ],
+  "id": 769
+}

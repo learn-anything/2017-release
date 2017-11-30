@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - general relativity - einstein field equations",
+  "tag": "Einstein field equations",
+  "nodes": [
+    {
+      "text": "Einstein field equations",
+      "url": "http://www.wikiwand.com/en/Einstein_field_equations",
+      "fx": -131.5546875,
+      "fy": -156.8515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": 4.241367403314882,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=foRPKAKZWx8",
+          "fx": 112,
+          "fy": -16.758632596685118,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Einstein’s general theory of relativity",
+          "url": "https://www.youtube.com/watch?v=hbmf0bB38h0&amp;spfreload=10",
+          "fx": 112,
+          "fy": 25.241367403314882,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Einstein field equations",
+      "target": "basics",
+      "curve": {
+        "x": -7.97266,
+        "y": 79.7965
+      }
+    }
+  ],
+  "id": 1445
+}

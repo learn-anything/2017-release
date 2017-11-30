@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - statistical classification - probabilistic classification - naive bayes classifier",
+  "tag": "Naive Bayes classifier",
+  "nodes": [
+    {
+      "text": "Naive Bayes classifier",
+      "url": "http://www.wikiwand.com/en/Naive_Bayes_classifier",
+      "fx": -123.4765625,
+      "fy": -133.41796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.62890625,
+      "fy": 18.84765625,
+      "nodes": [
+        {
+          "text": "1. practical explanation of Naive Bayes classifier  ️",
+          "url": "https://monkeylearn.com/blog/practical-explanation-naive-bayes-classifier/",
+          "fx": 105.37109375,
+          "fy": -8.65234375,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to Bayesian classification",
+          "url": "http://software.ucv.ro/~cmihaescu/ro/teaching/AIR/docs/Lab4-NaiveBayes.pdf",
+          "fx": 105.37109375,
+          "fy": 53.34765625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Naive Bayes classifier",
+      "target": "basics",
+      "curve": {
+        "x": -4.82617,
+        "y": 74.8828
+      }
+    }
+  ],
+  "id": 791
+}

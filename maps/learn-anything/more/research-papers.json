@@ -1,0 +1,158 @@
+{
+  "title": "learn anything - more - research papers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "research papers",
+      "note": "",
+      "url": "https://github.com/learn-anything/research-papers",
+      "fx": -105,
+      "fy": -301.2579195205479,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find research papers",
+      "url": "",
+      "fx": -145.24583681452202,
+      "fy": 84.68199635899282,
+      "nodes": [
+        {
+          "text": "arxiv",
+          "url": "https://arxiv.org/",
+          "fx": 156.75416318547798,
+          "fy": -206.81800364100718,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "papers we love",
+          "url": "http://paperswelove.org/",
+          "fx": 156.75416318547798,
+          "fy": -169.81800364100718,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "arxiv sanity preserver",
+          "url": "http://www.arxiv-sanity.com/",
+          "fx": 156.75416318547798,
+          "fy": -132.81800364100718,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "google scholar",
+          "url": "https://scholar.google.nl/",
+          "fx": 156.75416318547798,
+          "fy": -95.81800364100718,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "lobal",
+          "url": "https://www.lobal.io/",
+          "fx": 156.75416318547798,
+          "fy": -58.81800364100718,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "research in production",
+          "url": "https://github.com/evnm/research-in-production",
+          "fx": 156.75416318547798,
+          "fy": -21.81800364100718,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "awesome deep learning papers",
+          "url": "https://github.com/endymecy/awesome-deeplearning-resources",
+          "fx": 156.75416318547798,
+          "fy": 20.18199635899282,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "summaries and notes on deep learning research papers",
+          "url": "https://github.com/dennybritz/deeplearning-papernotes",
+          "fx": 156.75416318547798,
+          "fy": 87.18199635899282,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "inspire",
+          "url": "https://inspirehep.net/",
+          "fx": 156.75416318547798,
+          "fy": 154.18199635899282,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "parallel &amp; distributed operating systems group",
+          "url": "https://pdos.csail.mit.edu/publications/",
+          "fx": 156.75416318547798,
+          "fy": 191.18199635899282,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "google brain team",
+          "url": "https://research.google.com/teams/brain/",
+          "fx": 156.75416318547798,
+          "fy": 253.18199635899282,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "recommend papers",
+          "url": "https://recommend-papers.org/",
+          "fx": 156.75416318547798,
+          "fy": 290.1819963589928,
+          "nodes": [],
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "PLOS",
+          "url": "https://www.plos.org/",
+          "fx": 156.75416318547798,
+          "fy": 327.1819963589928,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "classic papers",
+          "url": "https://scholar.google.com/citations?view_op=list_classic_articles&amp;hl=en&amp;by=2006",
+          "fx": 156.75416318547798,
+          "fy": 364.1819963589928,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "two minute papers",
+          "url": "https://www.youtube.com/user/keeroyz/videos",
+          "fx": 156.75416318547798,
+          "fy": 401.1819963589928,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "research papers",
+      "target": "find research papers",
+      "curve": {
+        "x": -16.1229,
+        "y": 192.97
+      }
+    }
+  ],
+  "id": 1191
+}

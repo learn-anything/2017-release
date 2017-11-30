@@ -1,0 +1,75 @@
+{
+  "title": "learn anything - programming - software development - agile software development",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "agile software development",
+      "url": "http://www.wikiwand.com/en/Agile_software_development",
+      "fx": -95.02177526595733,
+      "fy": -157.96642287234044,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 11.058292555939033,
+      "fy": -17.15847441689482,
+      "nodes": [
+        {
+          "text": "1. manifesto for agile software development",
+          "url": "http://agilemanifesto.org/",
+          "fx": 167.05829255593903,
+          "fy": -53.65847441689482,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. what is agile development",
+          "url": "https://www.youtube.com/watch?v=-zDct5d2smY",
+          "fx": 167.05829255593903,
+          "fy": 2.341525583105181,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the art of agile development",
+          "url": "https://poetiosity.files.wordpress.com/2011/04/art_of_agile_development.pdf",
+          "fx": 167.05829255593903,
+          "fy": 42.34152558310518,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Scrum  ️",
+      "url": "/programming/software-development/agile-software-development/scrum",
+      "fx": -80.81647208567415,
+      "fy": 108.86203037219104,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "agile software development",
+      "target": "basics",
+      "curve": {
+        "x": -1.45997,
+        "y": 69.1539
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Scrum  ️",
+      "curve": {
+        "x": -45.4374,
+        "y": 63.0103
+      }
+    }
+  ],
+  "id": 1688
+}

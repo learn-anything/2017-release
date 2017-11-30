@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - network science - computer networking - network traffic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "network traffic",
+      "url": "http://www.wikiwand.com/en/Network_traffic",
+      "fx": 81.1015625,
+      "fy": -179.99609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 233.59313201904297,
+      "fy": -63.82299613952637,
+      "nodes": [
+        {
+          "text": "net glimpse",
+          "url": "https://github.com/kristian-lange/net-glimpse",
+          "fx": 379.59313201904297,
+          "fy": -51.32299613952637,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 126.16036987304688,
+      "fy": 44.88465690612793,
+      "nodes": [
+        {
+          "text": "1. understand routed network traffic flows",
+          "url": "https://www.youtube.com/watch?v=y6wZ2-4YKQk",
+          "fx": 289.1603698730469,
+          "fy": 44.88465690612793,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "network traffic",
+      "target": "basics",
+      "curve": {
+        "x": -3.4706,
+        "y": 111.69
+      }
+    },
+    {
+      "source": "tools",
+      "target": "network traffic",
+      "curve": {
+        "x": -45.9958,
+        "y": -57.3365
+      }
+    }
+  ],
+  "id": 1211
+}

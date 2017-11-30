@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - machine learning - decision tree learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "decision tree learning",
+      "url": "http://www.wikiwand.com/en/Decision_tree_learning",
+      "fx": -438.32421875,
+      "fy": 114.4140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -357.69617533488235,
+      "fy": 253.666636054538,
+      "nodes": [
+        {
+          "text": "1. machine learning - decision trees",
+          "url": "https://www.youtube.com/watch?v=-dCtJjlEEgM",
+          "fx": -201.69617533488235,
+          "fy": 245.166636054538,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how decision trees work",
+          "url": "https://www.youtube.com/watch?v=eKD5gxPPeY0",
+          "fx": -201.69617533488235,
+          "fy": 285.166636054538,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "decision tree learning",
+      "target": "basics",
+      "curve": {
+        "x": -0.435978,
+        "y": 68.3763
+      }
+    }
+  ],
+  "id": 750
+}

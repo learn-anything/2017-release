@@ -1,0 +1,313 @@
+{
+  "title": "learn anything - network science - computer networking",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computer networking",
+      "url": "http://www.wikiwand.com/en/Computer_network",
+      "fx": 308.5902218765532,
+      "fy": -697.9217654598278,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://networkengineering.stackexchange.com/",
+          "fx": 628.5902218765532,
+          "fy": -683.9217654598278,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 507.11645661328794,
+      "fy": -567.3080895162367,
+      "nodes": [
+        {
+          "text": "awesome network analysis",
+          "url": "https://github.com/briatte/awesome-network-analysis",
+          "fx": 644.1164566132879,
+          "fy": -628.3080895162367,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "collection of tools developed by other researchers in the Computer Science area to process network traces",
+          "url": "https://github.com/caesar0301/awesome-pcaptools",
+          "fx": 644.1164566132879,
+          "fy": -588.3080895162367,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "what happens when",
+          "url": "https://github.com/alex/what-happens-when",
+          "fx": 644.1164566132879,
+          "fy": -483.3080895162367,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 254.07590535634608,
+      "fy": -171.04544098588383,
+      "nodes": [
+        {
+          "text": "1. computer networking: a top-down approach",
+          "url": "http://www.bau.edu.jo/UserPortal/UserProfile/PostsAttach/10617_1870_1.pdf",
+          "fx": 436.0759053563461,
+          "fy": -429.54544098588383,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. unix network programming, volume 1: the sockets networking API",
+          "url": "https://scoecomp.files.wordpress.com/2014/02/2003-unix-network-programming-vol-1-3rd-ed.pdf",
+          "fx": 436.0759053563461,
+          "fy": -367.54544098588383,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. high performance browser networking",
+          "url": "https://hpbn.co/",
+          "fx": 436.0759053563461,
+          "fy": -283.54544098588383,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to computer networking by Stanford",
+          "url": "https://suclass.stanford.edu/courses/course-v1%3AEngineering%2BCS144%2BFall2016/courseware/ac9d1eef5aaa4bb5bcfe4d42f51f0f5b/c5c384e648cf404c837d05497c6e36b0/",
+          "fx": 436.0759053563461,
+          "fy": -221.54544098588383,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. network protocols for anyone who knows a programming language  ️",
+          "url": "https://www.destroyallsoftware.com/compendium/network-protocols/97d3ba4c24d21147",
+          "fx": 436.0759053563461,
+          "fy": -159.54544098588383,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. computer networking and solutions",
+          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_If_GCGDEOYensUC5Ur-L9MR",
+          "fx": 436.0759053563461,
+          "fy": -75.54544098588383,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. beej's guide to network programming",
+          "url": "http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html",
+          "fx": 436.0759053563461,
+          "fy": -13.545440985883829,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. an introduction to computer networks",
+          "url": "http://intronetworks.cs.luc.edu/current/html/",
+          "fx": 436.0759053563461,
+          "fy": 48.45455901411617,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to networking",
+          "url": "https://www.youtube.com/playlist?list=PLF360ED1082F6F2A5",
+          "fx": 436.0759053563461,
+          "fy": 110.45455901411617,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "software-defined networking  ️",
+      "url": "/network-science/computer-networking/software-defined-networking",
+      "fx": -85.05657427651545,
+      "fy": 183.37897872924805,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "protocols  ️",
+      "url": "/network-science/computer-networking/protocols",
+      "fx": -250.96206665039062,
+      "fy": 185.40719604492188,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "internet of things  ️",
+      "note": "is the inter-networking of physical devices, vehicles (also referred to as \"connected devices\" and \"smart devices\"), buildings, and other items—embedded with electronics, software, sensors, actuators, and network connectivity that enable these objects to collect and exchange data",
+      "url": "/network-science/computer-networking/internet-of-things",
+      "fx": 249.89517161885237,
+      "fy": 185.97150358606575,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "peer to peer  ️",
+      "url": "/network-science/computer-networking/peer-to-peer",
+      "fx": -436.33768463134766,
+      "fy": 187.53400421142578,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "internet  ️",
+      "url": "/network-science/computer-networking/internet",
+      "fx": -579.4438934326172,
+      "fy": 190.57941055297852,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "proxy server  ️",
+      "url": "/network-science/computer-networking/proxy-server",
+      "fx": -765.5084206448187,
+      "fy": 193.38123196066567,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "emails  ️",
+      "url": "/network-science/computer-networking/emails",
+      "fx": -904.7203801945179,
+      "fy": 195.1871960654288,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "network traffic  ️",
+      "url": "/network-science/computer-networking/network-traffic",
+      "fx": -1268.596578271734,
+      "fy": 197.1326893637763,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "routing  ️",
+      "url": "/network-science/computer-networking/routing",
+      "fx": -1048.606843171296,
+      "fy": 197.74397369123926,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "computer networking",
+      "curve": {
+        "x": -53.5131,
+        "y": -64.0569
+      }
+    },
+    {
+      "source": "computer networking",
+      "target": "basics",
+      "curve": {
+        "x": -61.0072,
+        "y": 263.438
+      }
+    },
+    {
+      "source": "basics",
+      "target": "protocols  ️",
+      "curve": {
+        "x": -245.77,
+        "y": 178.226
+      }
+    },
+    {
+      "source": "basics",
+      "target": "software-defined networking  ️",
+      "curve": {
+        "x": -112.566,
+        "y": 178.462
+      }
+    },
+    {
+      "source": "basics",
+      "target": "peer to peer  ️",
+      "curve": {
+        "x": -383.516,
+        "y": 163.114
+      }
+    },
+    {
+      "source": "basics",
+      "target": "internet of things  ️",
+      "curve": {
+        "x": 27.6596,
+        "y": 178.508
+      }
+    },
+    {
+      "source": "basics",
+      "target": "internet  ️",
+      "curve": {
+        "x": -508.12,
+        "y": 152.098
+      }
+    },
+    {
+      "source": "basics",
+      "target": "proxy server  ️",
+      "curve": {
+        "x": -577.371,
+        "y": 111.409
+      }
+    },
+    {
+      "source": "basics",
+      "target": "emails  ️",
+      "curve": {
+        "x": -777.098,
+        "y": 111.375
+      }
+    },
+    {
+      "source": "basics",
+      "target": "routing  ️",
+      "curve": {
+        "x": -914.31,
+        "y": 122.429
+      }
+    },
+    {
+      "source": "basics",
+      "target": "network traffic  ️",
+      "curve": {
+        "x": -1001.54,
+        "y": 90.0384
+      }
+    }
+  ],
+  "id": 1232
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - linear discriminant analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear discriminant analysis",
+      "url": "http://www.wikiwand.com/en/Linear_discriminant_analysis",
+      "fx": 36.01953125,
+      "fy": -130.99609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 137.49999618530273,
+      "fy": 5.17008113861084,
+      "nodes": [
+        {
+          "text": "1. clear explanation",
+          "url": "https://www.youtube.com/watch?v=azXCzI57Yfc",
+          "fx": 293.49999618530273,
+          "fy": 16.67008113861084,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear discriminant analysis",
+      "target": "basics",
+      "curve": {
+        "x": -1.75977,
+        "y": 66.8331
+      }
+    }
+  ],
+  "id": 789
+}

@@ -1,0 +1,100 @@
+{
+  "title": "learn anything - mathematics - analysis - numerical analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "numerical analysis",
+      "note": "is the study of algorithms that use numerical approximation (as opposed to general symbolic manipulations) for the problems of mathematical analysis ",
+      "url": "http://www.wikiwand.com/en/Numerical_analysis",
+      "fx": -84.78515625,
+      "fy": -235.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -13.260385000234805,
+      "fy": -96.89879372844155,
+      "nodes": [
+        {
+          "text": "1. introduction by Stanford",
+          "url": "https://www.youtube.com/watch?v=dkT8yuI2d50&amp;list=PLiblimOYZzCe-Db8QrClczmyhX0YC25n0",
+          "fx": 142.7396149997652,
+          "fy": -105.39879372844155,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. theoretical numerical analysis",
+          "url": "http://www.springer.com/gp/book/9781441904577",
+          "fx": 142.7396149997652,
+          "fy": -65.39879372844155,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "rate of convergence",
+      "url": "http://www.wikiwand.com/en/Rate_of_convergence",
+      "fx": -505.01788015463967,
+      "fy": 49.306137242269244,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "numerical integration  ️",
+      "url": "/mathematics/analysis/numerical-analysis/numerical-integration",
+      "fx": 10.367186864216933,
+      "fy": 49.60345999399817,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "numerical methods  ️",
+      "url": "/mathematics/analysis/numerical-analysis/numerical-methods",
+      "fx": -242.71669705185707,
+      "fy": 50.48940608638736,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "numerical analysis",
+      "target": "basics",
+      "curve": {
+        "x": -4.48761,
+        "y": 68.242
+      }
+    },
+    {
+      "source": "basics",
+      "target": "numerical integration  ️",
+      "curve": {
+        "x": 44.3138,
+        "y": 73.2511
+      }
+    },
+    {
+      "source": "basics",
+      "target": "numerical methods  ️",
+      "curve": {
+        "x": -85.9782,
+        "y": 73.6941
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rate of convergence",
+      "curve": {
+        "x": -222.594,
+        "y": 57.5798
+      }
+    }
+  ],
+  "id": 872
+}

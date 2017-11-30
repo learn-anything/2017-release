@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - security - authentication",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "authentication",
+      "url": "http://www.wikiwand.com/en/Authentication",
+      "fx": 103.43808049535608,
+      "fy": -214.05184549148598,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "passwords  ️",
+      "url": "/security/authentication/passwords",
+      "fx": 14.10526315789491,
+      "fy": -90.87166215163597,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "authentication",
+      "target": "passwords  ️",
+      "curve": {
+        "x": -51.6664,
+        "y": 61.5901
+      }
+    }
+  ],
+  "id": 1764
+}

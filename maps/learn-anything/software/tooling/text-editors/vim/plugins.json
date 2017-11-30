@@ -1,0 +1,97 @@
+{
+  "title": "learn anything - software - tooling - text editors - vim - plugins",
+  "tag": "vim plugins",
+  "nodes": [
+    {
+      "text": "plugin manager",
+      "url": "",
+      "fx": 155.6475805165819,
+      "fy": -289.66103316326524,
+      "nodes": [
+        {
+          "text": "vim-plug",
+          "url": "https://github.com/junegunn/vim-plug",
+          "fx": 393.6475805165819,
+          "fy": -278.16103316326524,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "vim plugins",
+      "url": "",
+      "fx": 174.18359375,
+      "fy": -61.82421875,
+      "nodes": [
+        {
+          "text": "vim-go",
+          "url": "https://github.com/fatih/vim-go",
+          "fx": 374.18359375,
+          "fy": -130.32421875,
+          "nodes": [
+            {
+              "text": "tutorial",
+              "url": "https://github.com/fatih/vim-go-tutorial",
+              "fx": 530.18359375,
+              "fy": -130.32421875,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "undotree",
+          "url": "https://github.com/mbbill/undotree",
+          "fx": 374.18359375,
+          "fy": -90.32421875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "vim-grepper",
+          "url": "https://github.com/mhinz/vim-grepper",
+          "fx": 374.18359375,
+          "fy": -50.32421875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "vim quickrun",
+          "url": "https://github.com/thinca/vim-quickrun",
+          "fx": 374.18359375,
+          "fy": -10.32421875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "neomake",
+          "url": "https://github.com/neomake/neomake",
+          "fx": 374.18359375,
+          "fy": 29.67578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "plugin manager",
+      "target": "vim plugins",
+      "curve": {
+        "x": -0.231993,
+        "y": 113.918
+      }
+    }
+  ],
+  "id": 1816
+}

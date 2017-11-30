@@ -1,0 +1,62 @@
+{
+  "title": "learn anything - programming - programming languages - agda",
+  "tag": "agda programming language",
+  "nodes": [
+    {
+      "text": "agda",
+      "url": "http://www.wikiwand.com/en/Agda_(programming_language)",
+      "fx": -36.88700877458814,
+      "fy": -148.1949862012891,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/agda/",
+          "fx": 136.11299122541186,
+          "fy": -154.1949862012891,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/agda/agda",
+          "fx": 136.11299122541186,
+          "fy": -114.19498620128911,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -60.439100555157665,
+      "fy": -5.289103119967706,
+      "nodes": [
+        {
+          "text": "1. learn you an agda",
+          "url": "http://learnyouanagda.liamoc.net/toc.html",
+          "fx": 121.56089944484233,
+          "fy": 6.210896880032294,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "agda",
+      "target": "basics",
+      "curve": {
+        "x": -16.026,
+        "y": 70.2029
+      }
+    }
+  ],
+  "id": 1570
+}

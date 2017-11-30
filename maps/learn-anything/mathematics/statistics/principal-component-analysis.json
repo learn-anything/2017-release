@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - principal component analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "principal component analysis",
+      "url": "http://www.wikiwand.com/en/Principal_component_analysis",
+      "fx": 166.85546875,
+      "fy": -144.890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 280.04114339953276,
+      "fy": -14.332286799065457,
+      "nodes": [
+        {
+          "text": "1. visual explanation",
+          "url": "http://setosa.io/ev/principal-component-analysis/",
+          "fx": 436.04114339953276,
+          "fy": -2.832286799065457,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "principal component analysis",
+      "target": "basics",
+      "curve": {
+        "x": -5.15716,
+        "y": 64.0292
+      }
+    }
+  ],
+  "id": 1082
+}

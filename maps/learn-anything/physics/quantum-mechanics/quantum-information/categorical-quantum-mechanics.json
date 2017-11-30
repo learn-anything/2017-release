@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum information - categorical quantum mechanics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "categorical quantum mechanics",
+      "url": "http://www.wikiwand.com/en/Categorical_quantum_mechanics",
+      "fx": 185.16487913763046,
+      "fy": -136.9654970601045,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 239.920111147782,
+      "fy": 62.381069063708196,
+      "nodes": [
+        {
+          "text": "1. categorical quantum mechanics: the ‘monoidal' approach",
+          "url": "https://www.youtube.com/watch?v=3QpPj_raMps",
+          "fx": 402.920111147782,
+          "fy": 3.881069063708196,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Bob Coecke ‘a survey of categorical quantum mechanics’",
+          "url": "https://www.youtube.com/watch?v=6GEp2rSd2Qs",
+          "fx": 402.920111147782,
+          "fy": 95.8810690637082,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "categorical quantum mechanics",
+      "target": "basics",
+      "curve": {
+        "x": -8.87238,
+        "y": 91.6733
+      }
+    }
+  ],
+  "id": 1535
+}

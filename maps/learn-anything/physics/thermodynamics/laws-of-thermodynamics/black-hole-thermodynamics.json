@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - thermodynamics - laws of thermodynamics - black hole thermodynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "black hole thermodynamics",
+      "url": "http://www.wikiwand.com/en/Black_hole_thermodynamics",
+      "fx": 166.3217561141305,
+      "fy": -38.225288722826036,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 265.9649859944052,
+      "fy": 97.36134453789407,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=hIvrYfwUyZQ",
+          "fx": 421.9649859944052,
+          "fy": 108.86134453789407,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "black hole thermodynamics",
+      "target": "basics",
+      "curve": {
+        "x": -4.92839,
+        "y": 66.5433
+      }
+    }
+  ],
+  "id": 1550
+}

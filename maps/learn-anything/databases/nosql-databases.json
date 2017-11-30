@@ -1,0 +1,98 @@
+{
+  "title": "learn anything - databases - nosql databases",
+  "tag": "noSQL databases",
+  "nodes": [
+    {
+      "text": "noSQL databases",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/NoSQL",
+      "fx": 0.1073165546704331,
+      "fy": -200.7493816886511,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "mongoDB  ️",
+      "url": "/databases/nosql-databases/mongodb",
+      "fx": -162.7247570782173,
+      "fy": -49.275160549132806,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "cassandra  ️",
+      "url": "/databases/nosql-databases/cassandra",
+      "fx": 19.742781521847974,
+      "fy": -47.83928339141545,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "redis  ️",
+      "url": "/databases/nosql-databases/redis",
+      "fx": -281.83635032467726,
+      "fy": -47.780194995849115,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "NewSQL  ️",
+      "url": "/databases/nosql-databases/newsql",
+      "fx": 199.51634216308594,
+      "fy": -45.72853946685791,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "realm  ️",
+      "url": "/databases/nosql-databases/realm",
+      "fx": 356.6612870065792,
+      "fy": -42.70867598684208,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "noSQL databases",
+      "target": "redis  ️",
+      "curve": {
+        "x": -226.216,
+        "y": 70.185
+      }
+    },
+    {
+      "source": "noSQL databases",
+      "target": "mongoDB  ️",
+      "curve": {
+        "x": -106.166,
+        "y": 74.4871
+      }
+    },
+    {
+      "source": "noSQL databases",
+      "target": "cassandra  ️",
+      "curve": {
+        "x": -14.6822,
+        "y": 75.205
+      }
+    },
+    {
+      "source": "noSQL databases",
+      "target": "NewSQL  ️",
+      "curve": {
+        "x": 113.297,
+        "y": 86.3277
+      }
+    },
+    {
+      "source": "noSQL databases",
+      "target": "realm  ️",
+      "curve": {
+        "x": 186.12,
+        "y": 71.5974
+      }
+    }
+  ],
+  "id": 411
+}

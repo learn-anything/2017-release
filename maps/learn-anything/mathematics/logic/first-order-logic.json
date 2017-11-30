@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - mathematics - logic - first-order logic",
+  "tag": "first-order logic",
+  "nodes": [
+    {
+      "text": "first-order logic",
+      "url": "http://www.wikiwand.com/en/First-order_logic",
+      "fx": 193.25390625,
+      "fy": -231.61238668893122,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 236.9775199581237,
+      "fy": -62.200934544188215,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=73AUBVOW-sM",
+          "fx": 399.9775199581237,
+          "fy": -112.70093454418821,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. predicate calculus",
+          "url": "https://www.youtube.com/playlist?list=PLz0n_SjOttTdmuoo6q8v2GNDEY-YiEiQc",
+          "fx": 399.9775199581237,
+          "fy": -70.70093454418821,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. propositional logic",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_878697351&amp;feature=iv&amp;list=PLz0n_SjOttTd0nC-t2Usgbk54oayqkkNg&amp;src_vid=YxBShJU_CKs",
+          "fx": 399.9775199581237,
+          "fy": -28.700934544188215,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. inference in first order logic",
+          "url": "https://www.youtube.com/watch?v=I0QAdG68K0o",
+          "fx": 399.9775199581237,
+          "fy": 13.299065455811785,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "higher-order logic  ️",
+      "url": "/mathematics/logic/first-order-logic/higher-order-logic",
+      "fx": 26.840814431919398,
+      "fy": 73.85479236441654,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "first-order logic",
+      "target": "basics",
+      "curve": {
+        "x": -6.63819,
+        "y": 83.9558
+      }
+    },
+    {
+      "source": "basics",
+      "target": "higher-order logic  ️",
+      "curve": {
+        "x": -77.8184,
+        "y": 68.0278
+      }
+    }
+  ],
+  "id": 1003
+}

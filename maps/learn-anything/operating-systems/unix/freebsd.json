@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - operating systems - unix - freebsd",
+  "tag": "FreeBSD",
+  "nodes": [
+    {
+      "text": "FreeBSD",
+      "url": "http://www.wikiwand.com/en/FreeBSD",
+      "fx": -125.37109375,
+      "fy": -227.55078125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/freebsd/",
+          "fx": 82.62890625,
+          "fy": -233.55078125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/freebsd/freebsd",
+          "fx": 82.62890625,
+          "fy": -193.55078125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -103.75390625,
+      "fy": -76.890625,
+      "nodes": [
+        {
+          "text": "1. FreeBSD handbook ",
+          "url": "https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/",
+          "fx": 52.24609375,
+          "fy": -62.390625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "FreeBSD",
+      "target": "basics",
+      "curve": {
+        "x": -11.6914,
+        "y": 74.0801
+      }
+    }
+  ],
+  "id": 1281
+}

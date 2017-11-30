@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - linguistics - translation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "translation",
+      "url": "http://www.wikiwand.com/en/Translation",
+      "fx": -102.34191617785382,
+      "fy": -139.6880437271061,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "machine translation  ️",
+      "url": "/linguistics/translation/machine-translation",
+      "fx": -237.27180631868157,
+      "fy": 10.603079212456805,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "translation",
+      "target": "machine translation  ️",
+      "curve": {
+        "x": -52.465,
+        "y": 74.3955
+      }
+    }
+  ],
+  "id": 747
+}

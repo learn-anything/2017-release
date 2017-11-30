@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - software development - programming style",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "programming style",
+      "url": "http://www.wikiwand.com/en/Programming_style",
+      "fx": 243.40733781645577,
+      "fy": -132.21840387658222,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 301.72995780589713,
+      "fy": 15.742616033735544,
+      "nodes": [
+        {
+          "text": "1. awesome guidelines",
+          "url": "https://github.com/Kristories/awesome-guidelines",
+          "fx": 464.72995780589713,
+          "fy": 28.242616033735544,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "programming style",
+      "target": "basics",
+      "curve": {
+        "x": -8.33869,
+        "y": 73.2305
+      }
+    }
+  ],
+  "id": 1725
+}

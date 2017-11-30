@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - wave-particle duality",
+  "tag": "wave-particle duality",
+  "nodes": [
+    {
+      "text": "wave-particle duality",
+      "url": "http://www.wikiwand.com/en/Wave%E2%80%93particle_duality",
+      "fx": 14.33188522196258,
+      "fy": -150.4044246495327,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 194.50102124183036,
+      "fy": -38.3690767973855,
+      "nodes": [
+        {
+          "text": "askscience: wave-particle duality",
+          "url": "https://www.reddit.com/r/askscience/search?q=wave-particle%20duality&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 385.50102124183036,
+          "fy": -26.869076797385503,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 87.46122955607427,
+      "fy": 58.37179406425895,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=zDQH5x7svfg",
+          "fx": 243.46122955607427,
+          "fy": 69.87179406425895,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "wave-particle duality",
+      "target": "basics",
+      "curve": {
+        "x": -2.18532,
+        "y": 103.138
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "wave-particle duality",
+      "curve": {
+        "x": -60.0846,
+        "y": -54.7677
+      }
+    }
+  ],
+  "id": 1543
+}

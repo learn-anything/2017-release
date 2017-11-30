@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - web development - javascript libraries - cyclejs",
+  "tag": "cycle.js library",
+  "nodes": [
+    {
+      "text": "cycle.js",
+      "url": "https://github.com/cyclejs/cyclejs",
+      "fx": 3.623989053225614,
+      "fy": -186.63917985273653,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/cyclejs-community/awesome-cyclejs",
+          "fx": 207.6239890532256,
+          "fy": -172.63917985273653,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 117.11966463414694,
+      "fy": -44.90872713414615,
+      "nodes": [
+        {
+          "text": "17: why i’m switching from react to cycle.js  ️",
+          "url": "https://www.sitepoint.com/switching-from-react-to-cycle-js/",
+          "fx": 286.11966463414694,
+          "fy": -78.40872713414615,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "17: a unified theory of everything for javascript  ️",
+          "url": "https://medium.com/open-collective/cycle-js-a-unified-theory-of-everything-for-javascript-e266ac9a59ad",
+          "fx": 286.11966463414694,
+          "fy": -11.408727134146147,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -101.8526763944302,
+      "fy": 110.07700507337051,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://cycle.js.org/getting-started.html",
+          "fx": 87.1473236055698,
+          "fy": 125.07700507337051,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cycle.js",
+      "target": "basics",
+      "curve": {
+        "x": -61.9884,
+        "y": 147.108
+      }
+    },
+    {
+      "source": "articles",
+      "target": "cycle.js",
+      "curve": {
+        "x": -48.9979,
+        "y": -69.6153
+      }
+    }
+  ],
+  "id": 1884
+}

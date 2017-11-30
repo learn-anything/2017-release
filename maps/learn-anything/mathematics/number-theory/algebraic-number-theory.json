@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - number theory - algebraic number theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebraic number theory",
+      "url": "http://www.wikiwand.com/en/Algebraic_number_theory",
+      "fx": 4.875,
+      "fy": -71.890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 96.14266939252332,
+      "fy": 70.03913551399523,
+      "nodes": [
+        {
+          "text": "1. algebraic theory of numbers",
+          "url": "http://wstein.org/edu/2010/581b/books/samuel-algebraic_theory_of_numbers.pdf",
+          "fx": 252.14266939252332,
+          "fy": 61.539135513995234,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=kpJB_ez8d-s&amp;list=PLS3WLIIQXmMJU2wh0WDLsyMh_evP8m7os",
+          "fx": 252.14266939252332,
+          "fy": 101.53913551399523,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "algebraic number theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.11617,
+        "y": 69.7149
+      }
+    }
+  ],
+  "id": 1033
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum - cerebral cortex - occipital lobe",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "occipital lobe",
+      "url": "http://www.wikiwand.com/en/Occipital_lobe",
+      "fx": 153.36328125,
+      "fy": -130.1484375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 191.56640625,
+      "fy": 23.51171875,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Cmd6UqWrMXs",
+          "fx": 354.56640625,
+          "fy": 36.01171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "occipital lobe",
+      "target": "basics",
+      "curve": {
+        "x": -5.39844,
+        "y": 76.0801
+      }
+    }
+  ],
+  "id": 1244
+}

@@ -1,0 +1,141 @@
+{
+  "title": "learn anything - web development - static site generators - hugo",
+  "tag": "hugo static generator",
+  "nodes": [
+    {
+      "text": "hugo",
+      "url": "https://gohugo.io/",
+      "fx": 65.16609390219696,
+      "fy": -410.977192113771,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/gohugo/",
+          "fx": 214.16609390219696,
+          "fy": -419.477192113771,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/gohugoio/hugo",
+          "fx": 214.16609390219696,
+          "fy": -377.477192113771,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 187.47678549495708,
+      "fy": -281.9625527652691,
+      "nodes": [
+        {
+          "text": "forum",
+          "url": "https://discourse.gohugo.io/",
+          "fx": 328.4767854949571,
+          "fy": -287.9625527652691,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "docs",
+          "url": "https://gohugo.io/documentation/",
+          "fx": 328.4767854949571,
+          "fy": -245.9625527652691,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 267.02805404336505,
+      "fy": -138.31912601200452,
+      "nodes": [
+        {
+          "text": "17: migrating from Jekyll + GitHub pages to Hugo + Netlify  ️",
+          "url": "https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/",
+          "fx": 436.02805404336505,
+          "fy": -138.31912601200452,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -131.87483124898347,
+      "fy": -23.608229354102434,
+      "nodes": [
+        {
+          "text": "1. intro to hugo",
+          "url": "https://gohugo.io/overview/introduction/",
+          "fx": 31.12516875101653,
+          "fy": -42.108229354102434,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. a gentle introduction to creating a minimal hugo site  ️",
+          "url": "http://arunrocks.com/minimal-hugo-site-tutorial/",
+          "fx": 31.12516875101653,
+          "fy": -5.108229354102434,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "hugo themes",
+      "url": "https://themes.gohugo.io/",
+      "fx": -261.1058988246848,
+      "fy": 88.36730964572149,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "hugo",
+      "target": "basics",
+      "curve": {
+        "x": -102.77,
+        "y": 192.435
+      }
+    },
+    {
+      "source": "basics",
+      "target": "hugo themes",
+      "curve": {
+        "x": -49.3655,
+        "y": 55.9878
+      }
+    },
+    {
+      "source": "help",
+      "target": "hugo",
+      "curve": {
+        "x": -52.1553,
+        "y": -63.2573
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -46.7756,
+        "y": -71.8217
+      }
+    }
+  ],
+  "id": 1917
+}

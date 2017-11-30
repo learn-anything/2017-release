@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - space science - astronomy - universe",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "universe",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Universe",
+      "fx": 204.84921566205537,
+      "fy": -239.43330039525685,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 240.24283596837972,
+      "fy": -122.59683794468765,
+      "nodes": [
+        {
+          "text": "1. what is the universe?",
+          "url": "https://www.youtube.com/watch?v=nrTsvn9usVQ",
+          "fx": 396.2428359683797,
+          "fy": -142.09683794468765,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. misconceptions about the universe",
+          "url": "https://www.youtube.com/watch?v=XBr4GkRnY04",
+          "fx": 396.2428359683797,
+          "fy": -102.09683794468765,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Big Bang theory  ️",
+      "url": "/space-science/astronomy/universe/big-bang",
+      "fx": 113.64808654785156,
+      "fy": 20.999418258666992,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "galaxies  ️",
+      "note": "is gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter  they range in size from dwarfs with just a few billion stars, to giants with one hundred trillion stars, each orbiting its galaxy's centre of mass  are categorised according to their visual morphology as elliptical, spiral and irregular  estimates of the number of galaxies in the observable universe range from 200 billion to 2 trillion or more, containing more stars than all the grains of sand on planet earth  the space between galaxies is filled with a tenuous gas having an average density of less than one atom per cubic meter  the majority of galaxies are gravitationally organised into groups, clusters, and superclusters  at the largest scale, these associations are generally arranged into sheets and filaments surrounded by immense voids  the largest structure of galaxies yet recognised is a cluster of superclusters, that has been named Laniakea",
+      "url": "/space-science/astronomy/universe/galaxies",
+      "fx": 334.7705764770508,
+      "fy": 21.896987915039062,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "multiverse  ️",
+      "url": "/space-science/astronomy/universe/multiverse",
+      "fx": -52.445067405700684,
+      "fy": 24.26087474822998,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "universe",
+      "target": "basics",
+      "curve": {
+        "x": -0.30319,
+        "y": 57.1682
+      }
+    },
+    {
+      "source": "basics",
+      "target": "galaxies  ️",
+      "curve": {
+        "x": 64.7639,
+        "y": 73.4969
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Big Bang theory  ️",
+      "curve": {
+        "x": -50.0474,
+        "y": 71.7981
+      }
+    },
+    {
+      "source": "basics",
+      "target": "multiverse  ️",
+      "curve": {
+        "x": -171.92,
+        "y": 52.811
+      }
+    }
+  ],
+  "id": 1839
+}

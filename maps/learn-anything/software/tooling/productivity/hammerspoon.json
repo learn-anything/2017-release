@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - software - tooling - productivity - hammerspoon",
+  "tag": "hammerspoon macOS automation",
+  "nodes": [
+    {
+      "text": "hammerspoon",
+      "url": "http://www.hammerspoon.org/",
+      "fx": -74.71589541046308,
+      "fy": -194.60279661086713,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/hammerspoon/",
+          "fx": 168.28410458953692,
+          "fy": -224.10279661086713,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/Hammerspoon/hammerspoon",
+          "fx": 168.28410458953692,
+          "fy": -182.10279661086713,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ashfinal/awesome-hammerspoon",
+          "fx": 168.28410458953692,
+          "fy": -140.10279661086713,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 46.84636994577761,
+      "fy": 18.40779189236946,
+      "nodes": [
+        {
+          "text": "Anycomplete",
+          "url": "https://github.com/nathancahill/Anycomplete",
+          "fx": 245.8463699457776,
+          "fy": -23.59220810763054,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "spoons",
+          "url": "https://github.com/Hammerspoon/hammerspoon/blob/master/SPOONS.md#what-is-a-spoon",
+          "fx": 245.8463699457776,
+          "fy": 18.40779189236946,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "how to make modules for Hammerspoon",
+          "url": "https://github.com/asmagill/HS_ModuleWalkthrough",
+          "fx": 245.8463699457776,
+          "fy": 60.40779189236946,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -141.29399658108673,
+      "fy": 183.23177539852566,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "http://www.hammerspoon.org/go/",
+          "fx": 47.70600341891327,
+          "fy": 198.23177539852566,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "hammerspoon",
+      "target": "basics",
+      "curve": {
+        "x": -51.7891,
+        "y": 188.916
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "hammerspoon",
+      "curve": {
+        "x": -49.7811,
+        "y": -106.505
+      }
+    }
+  ],
+  "id": 1806
+}

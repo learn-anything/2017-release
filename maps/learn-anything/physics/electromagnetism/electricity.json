@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - physics - electromagnetism - electricity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electricity",
+      "url": "http://www.wikiwand.com/en/Electricity",
+      "fx": -74.625,
+      "fy": -172.72265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.4208733974358,
+      "fy": -56.71935096153845,
+      "nodes": [
+        {
+          "text": "1. electric charge",
+          "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A",
+          "fx": 105.5791266025642,
+          "fy": -45.21935096153845,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "electric current  ️",
+      "url": "/physics/electromagnetism/electricity/electric-current",
+      "fx": -178.09096498842587,
+      "fy": 71.1400101273149,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "electrical energy",
+      "url": "http://www.wikiwand.com/en/Electrical_energy",
+      "fx": 43.11293717616559,
+      "fy": 72.74093264248705,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "electrochemical cells",
+      "url": "http://www.wikiwand.com/en/Electrochemical_cell",
+      "fx": 20.295688291139186,
+      "fy": 191.91317246835445,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "electronics  ️",
+      "url": "/engineering/electrical-engineering/electronics",
+      "fx": -170.12022569444412,
+      "fy": 198.84273726850745,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "batteries  ️",
+      "url": "/physics/electromagnetism/electricity/batteries",
+      "fx": 74.41535400411419,
+      "fy": 316.76056862213363,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electricity",
+      "target": "basics",
+      "curve": {
+        "x": -1.64794,
+        "y": 56.7516
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electric current  ️",
+      "curve": {
+        "x": -56.752,
+        "y": 66.3623
+      }
+    },
+    {
+      "source": "electric current  ️",
+      "target": "electronics  ️",
+      "curve": {
+        "x": -5.26463,
+        "y": 63.8514
+      }
+    },
+    {
+      "source": "basics",
+      "target": "electrical energy",
+      "curve": {
+        "x": 76.0169,
+        "y": 65.9801
+      }
+    },
+    {
+      "source": "electrical energy",
+      "target": "electrochemical cells",
+      "curve": {
+        "x": -8.40862,
+        "y": 58.3361
+      }
+    },
+    {
+      "source": "electrochemical cells",
+      "target": "batteries  ️",
+      "curve": {
+        "x": -0.190167,
+        "y": 62.4237
+      }
+    }
+  ],
+  "id": 1420
+}

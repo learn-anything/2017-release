@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - analysis - harmonic analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "harmonic analysis",
+      "url": "http://www.wikiwand.com/en/Harmonic_analysis",
+      "fx": 272.62890625,
+      "fy": -194.6640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 331.11931818181813,
+      "fy": -44.74218749999994,
+      "nodes": [
+        {
+          "text": "1. what is harmonic analysis?",
+          "url": "https://www.reddit.com/r/math/comments/2ze7qo/what_is_harmonic_analysis/cpi5574/",
+          "fx": 487.11931818181813,
+          "fy": -64.24218749999994,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. basic functional and harmonic analysis",
+          "url": "https://www.youtube.com/watch?v=VaBsRThJu3s&amp;list=PLun8-Z_lTkC6x1sq8fRpuQAvIz2rK9xFb",
+          "fx": 487.11931818181813,
+          "fy": -24.242187499999943,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "harmonic analysis",
+      "target": "basics",
+      "curve": {
+        "x": -3.75479,
+        "y": 73.7109
+      }
+    }
+  ],
+  "id": 867
+}

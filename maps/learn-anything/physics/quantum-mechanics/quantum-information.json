@@ -1,0 +1,107 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum information",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum information",
+      "url": "http://www.wikiwand.com/en/Quantum_information",
+      "fx": -148.1640625,
+      "fy": -168.4453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -85.20356898055911,
+      "fy": -46.311238160518485,
+      "nodes": [
+        {
+          "text": "1. introduction to quantum information",
+          "url": "https://www.youtube.com/watch?v=Q4xBlSi_fOs",
+          "fx": 96.79643101944089,
+          "fy": -45.811238160518485,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "no-communication theorem",
+      "url": "http://www.wikiwand.com/en/No-go_theorem",
+      "fx": -58.91745873946161,
+      "fy": 87.79805224454856,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "categorical quantum mechanics  ️",
+      "url": "/physics/quantum-mechanics/quantum-information/categorical-quantum-mechanics",
+      "fx": -724.9738311767578,
+      "fy": 87.95783615112305,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "quantum superposition",
+      "url": "http://www.wikiwand.com/en/Quantum_superposition",
+      "fx": -355.8108188290936,
+      "fy": 88.74001186709006,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "quantum teleportation  ️",
+      "url": "/physics/quantum-mechanics/quantum-information/quantum-teleportation",
+      "fx": -999.1123499441649,
+      "fy": 91.8598461055276,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum information",
+      "target": "basics",
+      "curve": {
+        "x": -8.01975,
+        "y": 59.817
+      }
+    },
+    {
+      "source": "basics",
+      "target": "no-communication theorem",
+      "curve": {
+        "x": 68.3931,
+        "y": 68.3047
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quantum superposition",
+      "curve": {
+        "x": -97.0536,
+        "y": 68.7756
+      }
+    },
+    {
+      "source": "basics",
+      "target": "categorical quantum mechanics  ️",
+      "curve": {
+        "x": -286.456,
+        "y": 40.7433
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quantum teleportation  ️",
+      "curve": {
+        "x": -473.424,
+        "y": 12.256
+      }
+    }
+  ],
+  "id": 1537
+}

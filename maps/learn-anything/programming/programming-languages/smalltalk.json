@@ -1,0 +1,136 @@
+{
+  "title": "learn anything - programming - programming languages - smalltalk",
+  "tag": "smalltalk programming language",
+  "nodes": [
+    {
+      "text": "smalltalk",
+      "url": "http://www.wikiwand.com/en/Smalltalk",
+      "fx": -123.58045212765956,
+      "fy": -366.14166657729925,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/smalltalk/",
+          "fx": 81.41954787234044,
+          "fy": -372.14166657729925,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/bonzini/smalltalk",
+          "fx": 81.41954787234044,
+          "fy": -332.14166657729925,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 8.810180740816918,
+      "fy": -257.48022868268265,
+      "nodes": [
+        {
+          "text": "on smalltalk  ️",
+          "url": "http://onsmalltalk.com/",
+          "fx": 145.81018074081692,
+          "fy": -245.98022868268265,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 67.56319510668061,
+      "fy": -154.59156871317595,
+      "nodes": [
+        {
+          "text": "the early history of smalltalk",
+          "url": "http://worrydream.com/EarlyHistoryOfSmalltalk/",
+          "fx": 258.5631951066806,
+          "fy": -143.09156871317595,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 165.5123342648269,
+      "fy": -41.66186413970456,
+      "nodes": [
+        {
+          "text": "07: on the smalltalk browser  ️",
+          "url": "http://onsmalltalk.com/on-the-smalltalk-browser",
+          "fx": 327.5123342648269,
+          "fy": -30.161864139704562,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -214.0451999795422,
+      "fy": 34.93290967675938,
+      "nodes": [
+        {
+          "text": "1. GNU smalltalk koans",
+          "url": "http://skim.la/gnu_smalltalk_koans/",
+          "fx": -32.04519997954219,
+          "fy": 49.43290967675938,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "smalltalk",
+      "target": "basics",
+      "curve": {
+        "x": -63.9824,
+        "y": 199.287
+      }
+    },
+    {
+      "source": "articles",
+      "target": "interesting",
+      "curve": {
+        "x": -41.7246,
+        "y": -56.4649
+      }
+    },
+    {
+      "source": "help",
+      "target": "smalltalk",
+      "curve": {
+        "x": -49.1953,
+        "y": -53.0807
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -42.8765,
+        "y": -51.4443
+      }
+    }
+  ],
+  "id": 1650
+}

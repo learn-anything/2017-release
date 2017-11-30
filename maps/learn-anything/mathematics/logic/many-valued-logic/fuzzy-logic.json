@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - logic - many-valued logic - fuzzy logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fuzzy logic",
+      "url": "http://www.wikiwand.com/en/Fuzzy_logic",
+      "fx": -77.73828125,
+      "fy": -159.0859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -52.08203125,
+      "fy": -7.01953125,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=rln_kZbYaWc",
+          "fx": 110.91796875,
+          "fy": -15.51953125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. fuzzy logic - computerphile",
+          "url": "https://www.youtube.com/watch?v=r804UF8Ia4c",
+          "fx": 110.91796875,
+          "fy": 26.48046875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "fuzzy logic",
+      "target": "basics",
+      "curve": {
+        "x": -4.42188,
+        "y": 75.2832
+      }
+    }
+  ],
+  "id": 1007
+}

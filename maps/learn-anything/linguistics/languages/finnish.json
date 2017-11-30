@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - linguistics - languages - finnish",
+  "tag": "finnish language",
+  "nodes": [
+    {
+      "text": "Finnish language",
+      "url": "http://www.wikiwand.com/en/Finnish_language",
+      "fx": -76.93359374999989,
+      "fy": -225.59375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/LearnFinnish/",
+          "fx": 202.0664062500001,
+          "fy": -211.59375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -18.48046875,
+      "fy": -85.19140625,
+      "nodes": [
+        {
+          "text": "1. how should I start learning Finnish?",
+          "url": "https://www.reddit.com/r/LearnFinnish/wiki/faq#wiki_how_should_i_start_learning_finnish.3F",
+          "fx": 137.51953125,
+          "fy": -84.69140625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Finnish language",
+      "target": "basics",
+      "curve": {
+        "x": -1.52344,
+        "y": 68.9512
+      }
+    }
+  ],
+  "id": 723
+}

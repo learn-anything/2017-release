@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - geometry - descriptive geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "descriptive geometry",
+      "url": "http://www.wikiwand.com/en/Descriptive_geometry",
+      "fx": 289.68270645775624,
+      "fy": -78.54025277008316,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 368.14777265591954,
+      "fy": 76.3271031180144,
+      "nodes": [
+        {
+          "text": "1. elements of descriptive geometry",
+          "url": "http://www.math.harvard.edu/~knill/history/darstellend/Church.pdf",
+          "fx": 531.1477726559195,
+          "fy": 30.327103118014406,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. Shaum’s outline of theory and problems of descriptive geometry",
+          "url": "http://www.math.harvard.edu/~knill/history/darstellend/Schaum.pdf",
+          "fx": 531.1477726559195,
+          "fy": 97.3271031180144,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "descriptive geometry",
+      "target": "basics",
+      "curve": {
+        "x": -4.51747,
+        "y": 76.6837
+      }
+    }
+  ],
+  "id": 939
+}

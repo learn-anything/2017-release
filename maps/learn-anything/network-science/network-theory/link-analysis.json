@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - network science - network theory - link analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "link analysis",
+      "url": "http://www.wikiwand.com/en/Link_analysis",
+      "fx": -89.70703125,
+      "fy": -166.7734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -56.052870639534945,
+      "fy": -7.573582848837134,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://nlp.stanford.edu/IR-book/html/htmledition/link-analysis-1.html",
+          "fx": 99.94712936046506,
+          "fy": -13.073582848837134,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. link analysis and PageRank",
+          "url": "https://www.youtube.com/watch?v=fL41WSVDunM",
+          "fx": 99.94712936046506,
+          "fy": 20.926417151162866,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "link analysis",
+      "target": "basics",
+      "curve": {
+        "x": -2.42292,
+        "y": 78.3499
+      }
+    }
+  ],
+  "id": 1233
+}

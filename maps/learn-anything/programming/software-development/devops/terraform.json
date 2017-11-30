@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - programming - software development - devops - terraform",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "terraform",
+      "url": "https://www.terraform.io/",
+      "fx": 22.602279243119142,
+      "fy": 100.69850200688074,
+      "nodes": [
+        {
+          "text": "source",
+          "url": "https://github.com/hashicorp/terraform",
+          "fx": 203.60227924311914,
+          "fy": 92.19850200688074,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/shuaibiyy/awesome-terraform",
+          "fx": 203.60227924311914,
+          "fy": 132.19850200688074,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 170.6051971925134,
+      "fy": 217.50091911764702,
+      "nodes": [
+        {
+          "text": "17: terraform gotchas and how we work around them  ️",
+          "url": "https://heap.engineering/terraform-gotchas/",
+          "fx": 332.6051971925134,
+          "fy": 218.00091911764702,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 6.360378440367185,
+      "fy": 331.2809633027222,
+      "nodes": [
+        {
+          "text": "1. intro to terraform",
+          "url": "https://www.terraform.io/intro/index.html",
+          "fx": 188.36037844036719,
+          "fy": 345.7809633027222,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "terraform",
+      "target": "basics",
+      "curve": {
+        "x": -14.371,
+        "y": 115.291
+      }
+    },
+    {
+      "source": "articles",
+      "target": "terraform",
+      "curve": {
+        "x": -69.2515,
+        "y": -58.4012
+      }
+    }
+  ],
+  "id": 1719
+}

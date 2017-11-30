@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - life - productivity - time management",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "time management",
+      "url": "http://www.wikiwand.com/en/Time_management",
+      "fx": 11.06640625,
+      "fy": 34.79296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 182.52407563555425,
+      "fy": 156.64321160009325,
+      "nodes": [
+        {
+          "text": "why time management is running our lives  ️",
+          "url": "https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives",
+          "fx": 344.52407563555425,
+          "fy": 106.14321160009325,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "time management at Khan Academy  ️",
+          "url": "http://engineering.khanacademy.org/posts/time-management-multiple-authors.htm",
+          "fx": 344.52407563555425,
+          "fy": 168.14321160009325,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "10 time management tips  ️",
+          "url": "http://www.thesimpledollar.com/most-time-management-is-rubbish-here-are-ten-things-that-work-for-me/",
+          "fx": 344.52407563555425,
+          "fy": 230.14321160009325,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 49.978515625,
+      "fy": 336.705078125,
+      "nodes": [
+        {
+          "text": "1. mind management (not time management)  ️",
+          "url": "http://kadavy.net/blog/posts/mind-management-intro/",
+          "fx": 205.978515625,
+          "fy": 337.205078125,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "time management",
+      "curve": {
+        "x": -53.4789,
+        "y": -59.6751
+      }
+    },
+    {
+      "source": "time management",
+      "target": "basics",
+      "curve": {
+        "x": -14.2939,
+        "y": 149.706
+      }
+    }
+  ],
+  "id": 690
+}

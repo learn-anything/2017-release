@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - linguistics - translation - machine translation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "machine translation",
+      "url": "http://www.wikiwand.com/en/Machine_translation",
+      "fx": 79.716064453125,
+      "fy": -227.99099004836313,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 279.0114724295479,
+      "fy": -96.77436787741522,
+      "nodes": [
+        {
+          "text": "16: language translation with deep learning and the magic of sequences  ️",
+          "url": "https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa",
+          "fx": 448.0114724295479,
+          "fy": -109.27436787741522,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141.1925277709961,
+      "fy": 38.06524181365967,
+      "nodes": [
+        {
+          "text": "1. why computers suck at translation",
+          "url": "https://www.youtube.com/watch?v=GAgp7nXdkLU",
+          "fx": 304.1925277709961,
+          "fy": 38.06524181365967,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "neural machine translation  ️",
+      "url": "/linguistics/translation/machine-translation/neural-machine-translation",
+      "fx": -38.892578125,
+      "fy": 176.802734375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "machine translation",
+      "target": "basics",
+      "curve": {
+        "x": -9.01177,
+        "y": 132.278
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neural machine translation  ️",
+      "curve": {
+        "x": -33.7926,
+        "y": 70.1188
+      }
+    },
+    {
+      "source": "articles",
+      "target": "machine translation",
+      "curve": {
+        "x": -61.3977,
+        "y": -64.8583
+      }
+    }
+  ],
+  "id": 746
+}

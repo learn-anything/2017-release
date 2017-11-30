@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - programming paradigms - declarative programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "declarative programming",
+      "url": "http://www.wikiwand.com/en/Declarative_programming",
+      "fx": 93.49609375,
+      "fy": -118.8125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 183.03125,
+      "fy": 26.40234375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=yGh0bjzj4IQ",
+          "fx": 339.03125,
+          "fy": 37.90234375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "declarative programming",
+      "target": "basics",
+      "curve": {
+        "x": -3.98242,
+        "y": 71.3574
+      }
+    }
+  ],
+  "id": 1668
+}

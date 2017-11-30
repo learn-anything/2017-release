@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries - hibernate",
+  "tag": "hibernate ORM",
+  "nodes": [
+    {
+      "text": "hibernate",
+      "url": "https://github.com/hibernate/hibernate-orm",
+      "fx": 26.18486705801081,
+      "fy": -60.62316557320446,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 51.522099447508026,
+      "fy": 77.7900552486085,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "http://docs.jboss.org/hibernate/orm/5.2/quickstart/html_single/",
+          "fx": 207.52209944750803,
+          "fy": 92.2900552486085,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "hibernate",
+      "target": "basics",
+      "curve": {
+        "x": -1.33138,
+        "y": 67.9566
+      }
+    }
+  ],
+  "id": 1604
+}

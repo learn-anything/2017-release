@@ -1,0 +1,79 @@
+{
+  "title": "learn anything - programming - programming languages - groovy",
+  "tag": "groovy programming language",
+  "nodes": [
+    {
+      "text": "groovy",
+      "url": "http://www.wikiwand.com/en/Groovy_(programming_language)",
+      "fx": -64.65979246030827,
+      "fy": -59.97193023207271,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/groovy/",
+          "fx": 123.34020753969173,
+          "fy": -105.97193023207271,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/apache/groovy",
+          "fx": 123.34020753969173,
+          "fy": -65.97193023207271,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/groovy",
+          "fx": 123.34020753969173,
+          "fy": -25.971930232072708,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/kdabir/awesome-groovy",
+          "fx": 123.34020753969173,
+          "fy": 14.028069767927292,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -71.55047397550652,
+      "fy": 134.0080004394788,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "http://groovy-lang.org/documentation.html#gettingstarted",
+          "fx": 110.44952602449348,
+          "fy": 148.5080004394788,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "groovy",
+      "target": "basics",
+      "curve": {
+        "x": -11.4453,
+        "y": 95.7397
+      }
+    }
+  ],
+  "id": 1599
+}

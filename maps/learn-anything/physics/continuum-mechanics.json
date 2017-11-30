@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - continuum mechanics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "continuum mechanics",
+      "url": "http://www.wikiwand.com/en/Continuum_mechanics",
+      "fx": -129.41796875,
+      "fy": -150.1875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.946776119564106,
+      "fy": -31.59160353808238,
+      "nodes": [
+        {
+          "text": "1. lectures on continuum physics",
+          "url": "https://www.youtube.com/watch?v=iI4LfHVjSR4&amp;list=PLJhG_d-Sp_JHvh47eZ8fSuUCUdp86i__y",
+          "fx": 109.0532238804359,
+          "fy": -31.09160353808238,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fluids  ️",
+      "url": "/physics/continuum-mechanics/fluids",
+      "fx": -138.12402921597652,
+      "fy": 83.3401904585798,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "continuum mechanics",
+      "target": "basics",
+      "curve": {
+        "x": -1.2644,
+        "y": 58.0479
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fluids  ️",
+      "curve": {
+        "x": -48.3386,
+        "y": 57.4659
+      }
+    }
+  ],
+  "id": 1413
+}

@@ -1,0 +1,87 @@
+{
+  "title": "learn anything - programming languages - c   - qt",
+  "tag": "Qt framework",
+  "nodes": [
+    {
+      "text": "Qt",
+      "url": "http://www.wikiwand.com/en/Qt_(software)",
+      "fx": 123.50390625,
+      "fy": -359.73828125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Qt5/",
+          "fx": 272.50390625,
+          "fy": -405.73828125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/qt",
+          "fx": 272.50390625,
+          "fy": -365.73828125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/insideqt/awesome-qt",
+          "fx": 272.50390625,
+          "fy": -325.73828125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome 2",
+          "url": "https://github.com/JesseTG/awesome-qt",
+          "fx": 272.50390625,
+          "fy": -285.73828125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 108.5094039351851,
+      "fy": -163.18525752314815,
+      "nodes": [
+        {
+          "text": "1. how to learn Qt",
+          "url": "http://doc.qt.io/qt-4.8/how-to-learn-qt.html",
+          "fx": 264.5094039351851,
+          "fy": -168.68525752314815,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. mastering Qt 5",
+          "url": "https://github.com/PacktPublishing/Mastering-Qt-5",
+          "fx": 264.5094039351851,
+          "fy": -134.68525752314815,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Qt",
+      "target": "basics",
+      "curve": {
+        "x": -5.74725,
+        "y": 97.0263
+      }
+    }
+  ],
+  "id": 1745
+}

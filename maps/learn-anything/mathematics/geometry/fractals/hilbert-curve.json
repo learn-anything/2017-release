@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - fractals - hilbert curve",
+  "tag": "Hilbert curve",
+  "nodes": [
+    {
+      "text": "Hilbert curve",
+      "url": "http://www.wikiwand.com/en/Hilbert_curve",
+      "fx": 9.26953125,
+      "fy": -296.43359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 45.6875,
+      "fy": -158.09375,
+      "nodes": [
+        {
+          "text": "1. Hilbert's Curve: Is infinite math useful?",
+          "url": "https://www.youtube.com/watch?v=3s7h2MHQtxc",
+          "fx": 201.6875,
+          "fy": -157.59375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Hilbert curve",
+      "target": "basics",
+      "curve": {
+        "x": -3.04102,
+        "y": 67.9199
+      }
+    }
+  ],
+  "id": 949
+}

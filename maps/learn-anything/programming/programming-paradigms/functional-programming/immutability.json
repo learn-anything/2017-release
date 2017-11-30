@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - programming - programming paradigms - functional programming - immutability",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "immutability",
+      "url": "http://www.wikiwand.com/en/Immutable_object",
+      "fx": 165.78246753246754,
+      "fy": -306.9827008928571,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 320.4701704545449,
+      "fy": -187.34263392857173,
+      "nodes": [
+        {
+          "text": "immutability: putting the dream machine to work",
+          "url": "https://www.youtube.com/watch?v=SiFwRtCnxv4",
+          "fx": 460.4701704545449,
+          "fy": -206.84263392857173,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "immutable data and react",
+          "url": "https://www.youtube.com/watch?v=I7IdS-PbEgI",
+          "fx": 460.4701704545449,
+          "fy": -144.84263392857173,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 198.6056124864716,
+      "fy": -66.93308644482693,
+      "nodes": [
+        {
+          "text": "1. what is meant by immutable?   ️",
+          "url": "https://stackoverflow.com/a/279522/3067664",
+          "fx": 354.6056124864716,
+          "fy": -55.43308644482693,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "immutability",
+      "target": "basics",
+      "curve": {
+        "x": -3.08843,
+        "y": 118.775
+      }
+    },
+    {
+      "source": "talks",
+      "target": "immutability",
+      "curve": {
+        "x": -53.8439,
+        "y": -58.57
+      }
+    }
+  ],
+  "id": 1671
+}

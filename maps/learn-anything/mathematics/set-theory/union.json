@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - set theory - union",
+  "tag": "union in set theory",
+  "nodes": [
+    {
+      "text": "union",
+      "url": "http://www.wikiwand.com/en/Union_(set_theory)",
+      "fx": 39.99581094457017,
+      "fy": -229.2668445984163,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 44.82133994428773,
+      "fy": -94.10465954569923,
+      "nodes": [
+        {
+          "text": "1. union and intersection explained",
+          "url": "https://www.youtube.com/watch?v=En8fI2ixepo",
+          "fx": 207.82133994428773,
+          "fy": -94.10465954569923,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "disjoint union",
+      "url": "http://www.wikiwand.com/en/Disjoint_union",
+      "fx": -102.28422934322032,
+      "fy": 37.11897510593212,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "union",
+      "target": "basics",
+      "curve": {
+        "x": -2.83724,
+        "y": 66.8311
+      }
+    },
+    {
+      "source": "basics",
+      "target": "disjoint union",
+      "curve": {
+        "x": -49.3028,
+        "y": 66.3618
+      }
+    }
+  ],
+  "id": 1071
+}

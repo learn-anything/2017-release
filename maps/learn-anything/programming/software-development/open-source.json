@@ -1,0 +1,171 @@
+{
+  "title": "learn anything - programming - software development - open source",
+  "tag": "open source development",
+  "nodes": [
+    {
+      "text": "open source",
+      "url": "http://www.wikiwand.com/en/Open-source_software",
+      "fx": -114,
+      "fy": -151.02734375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/opensource/",
+          "fx": 126,
+          "fy": -137.02734375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 19.900352478027344,
+      "fy": -56.12710380554199,
+      "nodes": [
+        {
+          "text": "open source guides",
+          "url": "https://opensource.guide/",
+          "fx": 156.90035247802734,
+          "fy": -61.62710380554199,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "open source supporters",
+          "url": "https://github.com/ossfriendly/open-source-supporters",
+          "fx": 156.90035247802734,
+          "fy": -27.627103805541992,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 100.61328125,
+      "fy": 41.96455223880605,
+      "nodes": [
+        {
+          "text": "12: a taxonomy of help vampires  ️",
+          "url": "http://jasonwryan.com/blog/2012/03/17/vampires/",
+          "fx": 262.61328125,
+          "fy": 22.46455223880605,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "16: beginner’s bumpy journey through the world of open source  ️",
+          "url": "https://medium.freecodecamp.com/a-beginners-very-bumpy-journey-through-the-world-of-open-source-4d108d540b39",
+          "fx": 262.61328125,
+          "fy": 62.46455223880605,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -93.42705094636369,
+      "fy": 187.07089088212183,
+      "nodes": [
+        {
+          "text": "1. guide to contributing to open source",
+          "url": "https://opensource.guide/how-to-contribute/",
+          "fx": 88.57294905363631,
+          "fy": 159.57089088212183,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. what it feels like to be an open-source maintainer  ️",
+          "url": "https://nolanlawson.com/2017/03/05/what-it-feels-like-to-be-an-open-source-maintainer/",
+          "fx": 88.57294905363631,
+          "fy": 215.57089088212183,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "build",
+      "url": "",
+      "fx": -144.68532201425364,
+      "fy": 374.01112942197403,
+      "nodes": [
+        {
+          "text": "awesome foss apps",
+          "url": "https://github.com/jwaterfaucett/awesome-foss-apps",
+          "fx": -2.685322014253643,
+          "fy": 345.51112942197403,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome open source apps",
+          "url": "https://github.com/unicodeveloper/awesome-opensource-apps",
+          "fx": -2.685322014253643,
+          "fy": 385.51112942197403,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome for beginners",
+          "url": "https://github.com/MunGell/awesome-for-beginners",
+          "fx": -2.685322014253643,
+          "fy": 425.51112942197403,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "open source",
+      "target": "basics",
+      "curve": {
+        "x": -10.7135,
+        "y": 167.799
+      }
+    },
+    {
+      "source": "help",
+      "target": "open source",
+      "curve": {
+        "x": -41.2002,
+        "y": -46.2001
+      }
+    },
+    {
+      "source": "basics",
+      "target": "build",
+      "curve": {
+        "x": -29.1291,
+        "y": 93.4702
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -46.6065,
+        "y": -49.0458
+      }
+    }
+  ],
+  "id": 1724
+}

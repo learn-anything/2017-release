@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics - principle of maximum entropy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "principle of maximum entropy",
+      "url": "http://www.wikiwand.com/en/Principle_of_maximum_entropy",
+      "fx": -60.13952817118218,
+      "fy": -455.70749307266016,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 75.55611517394107,
+      "fy": -284.41745169879175,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ynCkUHPEDOI",
+          "fx": 238.55611517394107,
+          "fy": -271.91745169879175,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "principle of maximum entropy",
+      "target": "basics",
+      "curve": {
+        "x": -1.65218,
+        "y": 84.895
+      }
+    }
+  ],
+  "id": 1078
+}

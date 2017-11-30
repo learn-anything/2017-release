@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - mathematics - analysis - real analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "real analysis",
+      "url": "http://www.wikiwand.com/en/Real_analysis",
+      "fx": 167.70428493449788,
+      "fy": -113.78733965611357,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 187.79687499999545,
+      "fy": 22.089929039294418,
+      "nodes": [
+        {
+          "text": "1. real analysis",
+          "url": "https://www.youtube.com/watch?v=sqEyWLGvvdw&amp;list=PL04BA7A9EB907EDAF",
+          "fx": 369.79687499999545,
+          "fy": -6.410070960705582,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introductory real analysis",
+          "url": "http://www.goodreads.com/book/show/218517.Introductory_Real_Analysis",
+          "fx": 369.79687499999545,
+          "fy": 33.58992903929442,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. self study real analysis",
+          "url": "https://www.youtube.com/watch?v=xO_sIS2nEGg",
+          "fx": 369.79687499999545,
+          "fy": 73.58992903929442,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "real analysis",
+      "target": "basics",
+      "curve": {
+        "x": -9.9537,
+        "y": 66.6887
+      }
+    }
+  ],
+  "id": 873
+}

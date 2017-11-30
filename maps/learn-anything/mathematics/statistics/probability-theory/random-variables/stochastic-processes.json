@@ -1,0 +1,124 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - random variables - stochastic processes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stochastic processes",
+      "url": "http://www.wikiwand.com/en/Stochastic_process",
+      "fx": 304.08203125,
+      "fy": -33.8359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 359.20712505466463,
+      "fy": 134.59309895826294,
+      "nodes": [
+        {
+          "text": "1. stochastic processes I",
+          "url": "https://www.youtube.com/watch?v=TuTmC8aOQJE",
+          "fx": 522.2071250546646,
+          "fy": 92.59309895826294,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. stochastic processes II",
+          "url": "https://www.youtube.com/watch?v=PPl-7_RL0Ko",
+          "fx": 522.2071250546646,
+          "fy": 134.59309895826294,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. stochastic processes in physics and chemistry",
+          "url": "https://www.goodreads.com/book/show/979942.Stochastic_Processes_in_Physics_and_Chemistry",
+          "fx": 522.2071250546646,
+          "fy": 176.59309895826294,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "stochastic differential equations  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes/stochastic-differential-equations",
+      "fx": 412.6627655029297,
+      "fy": 308.9974594116211,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Martingales  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes/martingales",
+      "fx": 219.53929901123047,
+      "fy": 309.4300079345703,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "random walk  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes/random-walk",
+      "fx": -174.5441429549913,
+      "fy": 310.08328781731257,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Itô calculus  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables/stochastic-processes/ito-calculus",
+      "fx": 30.44585418701172,
+      "fy": 311.29955291748047,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "stochastic processes",
+      "target": "basics",
+      "curve": {
+        "x": -11.4375,
+        "y": 83.4645
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Martingales  ️",
+      "curve": {
+        "x": -49.3339,
+        "y": 88.1685
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stochastic differential equations  ️",
+      "curve": {
+        "x": 70.0648,
+        "y": 91.93
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Itô calculus  ️",
+      "curve": {
+        "x": -163.591,
+        "y": 70.6415
+      }
+    },
+    {
+      "source": "basics",
+      "target": "random walk  ️",
+      "curve": {
+        "x": -273.846,
+        "y": 46.6113
+      }
+    }
+  ],
+  "id": 1103
+}

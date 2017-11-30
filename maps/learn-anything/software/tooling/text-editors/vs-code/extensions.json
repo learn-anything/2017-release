@@ -1,0 +1,358 @@
+{
+  "title": "learn anything - software - tooling - text editors - vs code - extensions",
+  "tag": "vs code extensions",
+  "nodes": [
+    {
+      "text": "vs code extensions",
+      "url": "https://marketplace.visualstudio.com/vscode",
+      "fx": -187.55190031493976,
+      "fy": -642.426173522409,
+      "nodes": []
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": -16.093312324930025,
+      "fy": -491.07654207516333,
+      "nodes": [
+        {
+          "text": "17: VS code treasures  ️",
+          "url": "https://medium.com/@0x1AD2/visual-studio-code-treasures-1accae07c60a",
+          "fx": 152.90668767506997,
+          "fy": -478.57654207516333,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -170.0392589062717,
+      "fy": -350.8507150295562,
+      "nodes": [
+        {
+          "text": "1. extending visual studio code",
+          "url": "https://code.visualstudio.com/docs/extensions/overview",
+          "fx": -7.039258906271698,
+          "fy": -335.8507150295562,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting extensions",
+      "url": "",
+      "fx": 122.47548818769144,
+      "fy": 329.1698768123812,
+      "nodes": [
+        {
+          "text": "advanced new file",
+          "url": "https://github.com/dkundel/vscode-new-file",
+          "fx": 434.47548818769144,
+          "fy": -283.3301231876188,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "vs code go",
+          "url": "https://github.com/Microsoft/vscode-go",
+          "fx": 434.47548818769144,
+          "fy": -241.33012318761882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "code runner",
+          "url": "https://github.com/formulahendry/vscode-code-runner",
+          "fx": 434.47548818769144,
+          "fy": -199.33012318761882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "applescript",
+          "url": "https://github.com/idleberg/vscode-applescript",
+          "fx": 434.47548818769144,
+          "fy": -157.33012318761882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "prettier",
+          "url": "https://github.com/esbenp/prettier-vscode",
+          "fx": 434.47548818769144,
+          "fy": -115.33012318761882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "vim",
+          "url": "https://github.com/VSCodeVim/Vim",
+          "fx": 434.47548818769144,
+          "fy": -73.33012318761882,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "file icons",
+          "url": "https://github.com/file-icons/vscode",
+          "fx": 434.47548818769144,
+          "fy": -31.330123187618824,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "bookmarks",
+          "url": "https://github.com/alefragnani/vscode-bookmarks",
+          "fx": 434.47548818769144,
+          "fy": 10.669876812381176,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "dash",
+          "url": "https://github.com/deerawan/vscode-dash",
+          "fx": 434.47548818769144,
+          "fy": 52.669876812381176,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "chrome debug",
+          "url": "https://github.com/Microsoft/vscode-chrome-debug",
+          "fx": 434.47548818769144,
+          "fy": 94.66987681238118,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "docker",
+          "url": "https://github.com/microsoft/vscode-docker",
+          "fx": 434.47548818769144,
+          "fy": 136.66987681238118,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "empty indent",
+          "url": "https://github.com/DmitryDorofeev/vscode-empty-indent",
+          "fx": 434.47548818769144,
+          "fy": 178.66987681238118,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "endwise",
+          "url": "https://github.com/kaiwood/vscode-endwise",
+          "fx": 434.47548818769144,
+          "fy": 220.66987681238118,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "ESLint",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint",
+          "fx": 434.47548818769144,
+          "fy": 262.6698768123812,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "haskell highlighting",
+          "url": "https://github.com/JustusAdam/language-haskell",
+          "fx": 434.47548818769144,
+          "fy": 299.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "HTML snippets",
+          "url": "https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets",
+          "fx": 434.47548818769144,
+          "fy": 341.6698768123812,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "indent rainbow",
+          "url": "https://github.com/oderwat/vscode-indent-rainbow",
+          "fx": 434.47548818769144,
+          "fy": 378.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "javascript snippet pack",
+          "url": "https://github.com/akamud/vscode-javascript-snippet-pack",
+          "fx": 434.47548818769144,
+          "fy": 420.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "MagicPython",
+          "url": "https://github.com/MagicStack/MagicPython",
+          "fx": 434.47548818769144,
+          "fy": 462.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "react component",
+          "url": "https://github.com/remicass/vscode-exts/tree/master/react-component",
+          "fx": 434.47548818769144,
+          "fy": 504.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "react native tools",
+          "url": "https://github.com/Microsoft/vscode-react-native",
+          "fx": 434.47548818769144,
+          "fy": 546.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "relative path",
+          "url": "https://github.com/jakob101/RelativePath",
+          "fx": 434.47548818769144,
+          "fy": 588.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "remote vs code",
+          "url": "https://github.com/rafaelmaiolla/remote-vscode",
+          "fx": 434.47548818769144,
+          "fy": 630.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "vs code ruby",
+          "url": "https://github.com/rubyide/vscode-ruby",
+          "fx": 434.47548818769144,
+          "fy": 672.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "rusty code",
+          "url": "https://github.com/saviorisdead/RustyCode",
+          "fx": 434.47548818769144,
+          "fy": 714.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "todo parser",
+          "url": "https://github.com/kantlove/vscode-todo-parser",
+          "fx": 434.47548818769144,
+          "fy": 756.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "tslint",
+          "url": "https://github.com/Microsoft/vscode-tslint",
+          "fx": 434.47548818769144,
+          "fy": 798.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "styled components",
+          "url": "https://github.com/styled-components/vscode-styled-components",
+          "fx": 434.47548818769144,
+          "fy": 840.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "vue",
+          "url": "https://github.com/LiuJi-Jim/vscode-vue",
+          "fx": 434.47548818769144,
+          "fy": 882.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "wakatime",
+          "url": "https://github.com/wakatime/vscode-wakatime",
+          "fx": 434.47548818769144,
+          "fy": 924.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "git lens",
+          "url": "https://github.com/eamodio/vscode-gitlens",
+          "fx": 434.47548818769144,
+          "fy": 966.6698768123812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "vs code extensions",
+      "target": "basics",
+      "curve": {
+        "x": -33.7211,
+        "y": 141.208
+      }
+    },
+    {
+      "source": "basics",
+      "target": "interesting extensions",
+      "curve": {
+        "x": 180.219,
+        "y": 338.405
+      }
+    },
+    {
+      "source": "articles",
+      "target": "vs code extensions",
+      "curve": {
+        "x": -55.2293,
+        "y": -75.6748
+      }
+    }
+  ],
+  "id": 1819
+}

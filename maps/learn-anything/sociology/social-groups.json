@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - sociology - social groups",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "social groups",
+      "url": "http://www.wikiwand.com/en/Social_group",
+      "fx": -58.8515625,
+      "fy": -225.39453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -23.450307675262025,
+      "fy": -94.36889807857688,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=_wFZ5Dbj8DA",
+          "fx": 139.54969232473798,
+          "fy": -81.86889807857688,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "group dynamics  ️",
+      "url": "/sociology/social-groups/group-dynamics",
+      "fx": -224.64972088941897,
+      "fy": 56.758789347179004,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "social groups",
+      "target": "basics",
+      "curve": {
+        "x": 0.45063,
+        "y": 65.5129
+      }
+    },
+    {
+      "source": "basics",
+      "target": "group dynamics  ️",
+      "curve": {
+        "x": -76.5997,
+        "y": 75.5638
+      }
+    }
+  ],
+  "id": 1787
+}

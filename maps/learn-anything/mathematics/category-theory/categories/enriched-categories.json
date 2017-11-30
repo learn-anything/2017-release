@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - category theory - categories - enriched categories",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "enriched categories",
+      "url": "http://www.wikiwand.com/en/Enriched_category",
+      "fx": 14.291347287735789,
+      "fy": -301.47685731132077,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 88.40123820754945,
+      "fy": -148.7323113206608,
+      "nodes": [
+        {
+          "text": "1. introduction  ️",
+          "url": "https://ncatlab.org/nlab/show/enriched+category",
+          "fx": 251.40123820754945,
+          "fy": -169.7323113206608,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. metric spaces and enriched categories",
+          "url": "https://www.youtube.com/watch?v=be7rx29eMr4&amp;t=88s",
+          "fx": 251.40123820754945,
+          "fy": -127.73231132066081,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "profunctors  ️",
+      "url": "/mathematics/category-theory/categories/enriched-categories/profunctors",
+      "fx": -55.268734056122184,
+      "fy": -18.08561862244528,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "enriched categories",
+      "target": "basics",
+      "curve": {
+        "x": -3.69505,
+        "y": 75.6223
+      }
+    },
+    {
+      "source": "basics",
+      "target": "profunctors  ️",
+      "curve": {
+        "x": -51.835,
+        "y": 66.0733
+      }
+    }
+  ],
+  "id": 911
+}

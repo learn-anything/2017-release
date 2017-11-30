@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - machine learning - neural networks - feedforward neural network",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "feedforward neural network",
+      "url": "http://www.wikiwand.com/en/Feedforward_neural_network",
+      "fx": -153.2109375,
+      "fy": -206.85546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.184810772613105,
+      "fy": -70.3359375,
+      "nodes": [
+        {
+          "text": "1. feedforward neural network - artificial neuron",
+          "url": "https://www.youtube.com/watch?v=SGZ6BttHMPw",
+          "fx": 109.8151892273869,
+          "fy": -69.8359375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "extreme learning machines  ️",
+      "url": "/machine-learning/neural-networks/feedforward-neural-network/extreme-learning-machines",
+      "fx": -364.58304595947266,
+      "fy": 71.86862564086914,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "universal approximation theory  ️",
+      "url": "/machine-learning/neural-networks/feedforward-neural-network/universal-approximation-theory",
+      "fx": -42.952994168660325,
+      "fy": 75.33300313995221,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "feedforward neural network",
+      "target": "basics",
+      "curve": {
+        "x": -0.986936,
+        "y": 67.0098
+      }
+    },
+    {
+      "source": "basics",
+      "target": "extreme learning machines  ️",
+      "curve": {
+        "x": -113.199,
+        "y": 71.1023
+      }
+    },
+    {
+      "source": "basics",
+      "target": "universal approximation theory  ️",
+      "curve": {
+        "x": 55.8659,
+        "y": 72.8345
+      }
+    }
+  ],
+  "id": 779
+}

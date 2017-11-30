@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - psychology - behaviour analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "behaviour analysis",
+      "url": "http://www.wikiwand.com/en/Applied_behavior_analysis",
+      "fx": -107.11328125,
+      "fy": -120.08203125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/BehaviorAnalysis/",
+          "fx": 183.88671875,
+          "fy": -106.08203125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.880228136882124,
+      "fy": 2.2151853612167542,
+      "nodes": [
+        {
+          "text": "1. paradox of organisation change",
+          "url": "https://www.goodreads.com/book/show/333362.Paradox_of_Organizational_Change",
+          "fx": 108.11977186311788,
+          "fy": 13.715185361216754,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "behaviour analysis",
+      "target": "basics",
+      "curve": {
+        "x": 2.86653,
+        "y": 61.1486
+      }
+    }
+  ],
+  "id": 1749
+}

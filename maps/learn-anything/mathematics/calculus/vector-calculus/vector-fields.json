@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - calculus - vector calculus - vector fields",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "vector fields",
+      "url": "http://www.wikiwand.com/en/Vector_field",
+      "fx": 107.33203125,
+      "fy": -92.73828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.5,
+      "fy": 30,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=71Z1RVYZ8HY",
+          "fx": 299.5,
+          "fy": 21.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. visualisation",
+          "url": "http://vf.rohanp.xyz/",
+          "fx": 299.5,
+          "fy": 61.5,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "vector flow",
+      "url": "http://www.wikiwand.com/en/Vector_flow",
+      "fx": 20.4296875,
+      "fy": 163.98828125,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "vector fields",
+      "target": "basics",
+      "curve": {
+        "x": -1.66602,
+        "y": 60.1191
+      }
+    },
+    {
+      "source": "basics",
+      "target": "vector flow",
+      "curve": {
+        "x": -44.0352,
+        "y": 68.2441
+      }
+    }
+  ],
+  "id": 906
+}

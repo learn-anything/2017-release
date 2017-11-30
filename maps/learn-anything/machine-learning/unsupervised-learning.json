@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - machine learning - unsupervised learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "unsupervised learning",
+      "url": "http://www.wikiwand.com/en/Unsupervised_learning",
+      "fx": -65.50018501281738,
+      "fy": -37.30001175403595,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 142.81627155172418,
+      "fy": 82.04714439658153,
+      "nodes": [
+        {
+          "text": "17: the next frontier in AI, unsupervised learning",
+          "url": "https://www.youtube.com/watch?v=9qZMyfVcq30",
+          "fx": 282.8162715517242,
+          "fy": 82.54714439658153,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 2.0621632543101214,
+      "fy": 202.65315193965506,
+      "nodes": [
+        {
+          "text": "1. unsupervised learning explained",
+          "url": "https://www.youtube.com/watch?v=1qtfILYSDJY",
+          "fx": 158.06216325431012,
+          "fy": 194.15315193965506,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. notes on unsupervised learning  ️",
+          "url": "http://frnsys.com/ai_notes/machine_learning/unsupervised_learning.html",
+          "fx": 158.06216325431012,
+          "fy": 234.15315193965506,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "talks",
+      "target": "unsupervised learning",
+      "curve": {
+        "x": -58.1582,
+        "y": -58.4236
+      }
+    },
+    {
+      "source": "unsupervised learning",
+      "target": "basics",
+      "curve": {
+        "x": -8.21883,
+        "y": 118.727
+      }
+    }
+  ],
+  "id": 801
+}

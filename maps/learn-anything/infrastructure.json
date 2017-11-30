@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - infrastructure",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "infrastructure",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Infrastructure",
+      "fx": -0.010114544308294171,
+      "fy": -435.4748802922562,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "waste management",
+      "url": "http://www.wikiwand.com/en/Waste_management",
+      "fx": 149.05258070161995,
+      "fy": -309.8646728411313,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "transportation  ️",
+      "url": "/infrastructure/transportation",
+      "fx": -281.8730132248229,
+      "fy": -307.745126913715,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "urban planning  ️",
+      "url": "/infrastructure/urban-planning",
+      "fx": -68.5603572148508,
+      "fy": -307.1127426386474,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "infrastructure",
+      "target": "transportation  ️",
+      "curve": {
+        "x": -177.861,
+        "y": 59.1571
+      }
+    },
+    {
+      "source": "infrastructure",
+      "target": "urban planning  ️",
+      "curve": {
+        "x": -37.275,
+        "y": 62.9312
+      }
+    },
+    {
+      "source": "infrastructure",
+      "target": "waste management",
+      "curve": {
+        "x": 89.7808,
+        "y": 62.8051
+      }
+    }
+  ],
+  "id": 664
+}

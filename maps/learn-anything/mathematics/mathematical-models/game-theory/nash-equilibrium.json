@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - mathematical models - game theory - nash equilibrium",
+  "tag": "Nash equilibrium",
+  "nodes": [
+    {
+      "text": "Nash equilibrium",
+      "url": "http://www.wikiwand.com/en/Nash_equilibrium",
+      "fx": -29.253931045532227,
+      "fy": -104.1107063293457,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 30.136691093444824,
+      "fy": 39.64931344985962,
+      "nodes": [
+        {
+          "text": "1. what is Nash equilibrium",
+          "url": "https://www.youtube.com/watch?v=0i7p9DNvtjk",
+          "fx": 186.13669109344482,
+          "fy": 31.14931344985962,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Nash equilibrium examples",
+          "url": "https://www.youtube.com/watch?v=6rs_EQpxTI4",
+          "fx": 186.13669109344482,
+          "fy": 71.14931344985962,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Nash equilibrium",
+      "target": "basics",
+      "curve": {
+        "x": -0.554689,
+        "y": 70.63
+      }
+    }
+  ],
+  "id": 1027
+}

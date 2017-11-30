@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - front end - css - bulma",
+  "tag": "bulma css framework",
+  "nodes": [
+    {
+      "text": "bulma",
+      "url": "http://bulma.io/",
+      "fx": -44.07703993055554,
+      "fy": -117.80266203703707,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/jgthms/bulma",
+          "fx": 114.92296006944446,
+          "fy": -105.30266203703707,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "http://bulma.io/documentation/overview/start/",
+          "fx": 112,
+          "fy": 13,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "bulma",
+      "target": "basics",
+      "curve": {
+        "x": -2.46148,
+        "y": 57.9013
+      }
+    }
+  ],
+  "id": 1865
+}

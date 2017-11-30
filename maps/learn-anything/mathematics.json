@@ -1,0 +1,832 @@
+{
+  "title": "learn anything - mathematics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mathematics",
+      "url": "https://www.wikiwand.com/en/Mathematics",
+      "fx": 771.1052692980331,
+      "fy": -1349.613547709739,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/math/",
+          "fx": 1029.1052692980331,
+          "fy": -1377.613547709739,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://math.stackexchange.com/",
+          "fx": 1029.1052692980331,
+          "fy": -1335.613547709739,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/rossant/awesome-math",
+          "fx": 1029.1052692980331,
+          "fy": -1293.613547709739,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 793.0625296907479,
+      "fy": -1157.6028725760323,
+      "nodes": [
+        {
+          "text": "1. map of mathematics",
+          "note": "this will give you an overview of how vast the field is and will spark your interest",
+          "url": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
+          "fx": 982.0625296907479,
+          "fy": -1220.6028725760323,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what does it feel to invent math?",
+          "url": "https://www.youtube.com/watch?v=XFDM1ip5HdU",
+          "fx": 982.0625296907479,
+          "fy": -1178.6028725760323,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. khan academy math",
+          "note": "cover everything, fast forward videos as that may save time, just make sure to not lose on comprehension and rewatch or google phrases and parts that you don’t understand  do the exercises, they are very important",
+          "url": "https://www.khanacademy.org/math",
+          "fx": 982.0625296907479,
+          "fy": -1111.6028725760323,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. how to read mathematics  ️",
+          "url": "http://web.stonehill.edu/compsci/History_Math/math-read.htm",
+          "fx": 982.0625296907479,
+          "fy": -1069.6028725760323,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 1342.4547424316406,
+      "fy": -992.4034729003906,
+      "nodes": [
+        {
+          "text": "napkin project",
+          "url": "http://web.evanchen.cc/napkin.html",
+          "fx": 1483.4547424316406,
+          "fy": -1358.4034729003906,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "undergraduate mathematics bibliography",
+          "note": "annotated bibliography of books that may be useful to undergraduates in pure mathematics",
+          "url": "https://github.com/ystael/chicago-ug-math-bib",
+          "fx": 1483.4547424316406,
+          "fy": -1321.4034729003906,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "how to become a pure mathematician",
+          "url": "http://hbpms.blogspot.nl/",
+          "fx": 1483.4547424316406,
+          "fy": -1254.4034729003906,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "better explained",
+          "url": "https://betterexplained.com/",
+          "fx": 1483.4547424316406,
+          "fy": -1192.4034729003906,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "world of mathematics",
+          "url": "http://world.mathigon.org/",
+          "fx": 1483.4547424316406,
+          "fy": -1155.4034729003906,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "math insight",
+          "url": "http://mathinsight.org/",
+          "fx": 1483.4547424316406,
+          "fy": -1113.4034729003906,
+          "nodes": [],
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "audio/video courses and lectures on math  ️",
+          "url": "http://www.infocobuild.com/education/audio-video-courses/mathematics/mathematics.html",
+          "fx": 1483.4547424316406,
+          "fy": -1076.4034729003906,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "free and open-source textbooks  ️",
+          "url": "https://dcernst.github.io/resources/free-and-open-source-textbooks/",
+          "fx": 1483.4547424316406,
+          "fy": -1009.4034729003906,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "explained visually",
+          "url": "http://setosa.io/ev/",
+          "fx": 1483.4547424316406,
+          "fy": -942.4034729003906,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "math concepts map",
+          "url": "https://fkcd.ca/bHd.svg",
+          "fx": 1483.4547424316406,
+          "fy": -900.4034729003906,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "map of the Tricki",
+          "note": "quick solutions to problems",
+          "url": "http://www.tricki.org/tricki/map",
+          "fx": 1483.4547424316406,
+          "fy": -863.4034729003906,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "for potential PhD students  ️",
+          "url": "http://math.stanford.edu/%7Evakil/potentialstudents.html",
+          "fx": 1483.4547424316406,
+          "fy": -826.4034729003906,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "math with python",
+          "url": "https://github.com/calebmadrigal/math-with-python",
+          "fx": 1483.4547424316406,
+          "fy": -784.4034729003906,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "online mathematics text books",
+          "url": "http://people.math.gatech.edu/~cain/textbooks/onlinebooks.html",
+          "fx": 1483.4547424316406,
+          "fy": -742.4034729003906,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "geometric representation of math",
+          "url": "http://nada.kth.se/%7Eaxelhu/mapthematics.pdf",
+          "fx": 1483.4547424316406,
+          "fy": -705.4034729003906,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "Fermat’s library",
+          "url": "http://fermatslibrary.com/",
+          "fx": 1483.4547424316406,
+          "fy": -638.4034729003906,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "tips on reading mathematics",
+          "url": "https://www.reddit.com/r/math/comments/51bs9t/tips_on_reading_mathematics/",
+          "fx": 1483.4547424316406,
+          "fy": -601.4034729003906,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "algebra  ️",
+      "note": "is the study of mathematical symbols and the rules for manipulating these symbols  it is a unifying thread of almost all of mathematics  it includes everything from elementary equation solving to the study of abstractions such as groups, rings, and fields  it gives methods for solving equations and expressing formulas that are much easier (for those who know how to use them) than the older method of writing everything out in words",
+      "url": "/mathematics/algebra",
+      "fx": 7.4333900529810535,
+      "fy": -701.3892412953594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "discrete  ️",
+      "note": "is the study of mathematical structures that are fundamentally discrete rather than continuous  in contrast to real numbers that have the property of varying ‘smoothly’, the objects studied in discrete math - such as integers, graphs, and statements in logic - do not vary smoothly in this way, but have distinct, separated values  discrete objects can often be enumerated by integers  more formally, discrete mathematics deals with countable sets (sets that have the same cardinality as subsets of the natural numbers, including rational numbers but not real numbers)  the set of objects studied in discrete math can be finite and infinite",
+      "url": "/mathematics/discrete",
+      "fx": -472.2006738386225,
+      "fy": -700.8802088553005,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dynamical systems  ️",
+      "url": "/mathematics/dynamical-system",
+      "fx": 189.78552455783165,
+      "fy": -700.1942602629151,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "math notation  ️",
+      "url": "/mathematics/math-notation",
+      "fx": -728.8042271670251,
+      "fy": -699.9164448777393,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mathematical models  ️",
+      "url": "/mathematics/mathematical-models",
+      "fx": -284.84398022651624,
+      "fy": -699.850020432754,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sequences  ️",
+      "url": "/mathematics/sequences",
+      "fx": -932.4987244897959,
+      "fy": -699.4818239795917,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "analysis  ️",
+      "note": "deals with limits and related theories, such as differentiation, integration, measure, infinite series and analytic functions  these theories are usually studied in the context of real and complex numbers and functions  analysis evolved from calculus, which involved the elementary concepts and techniques of analysis  analysis may be distinguished from geometry, however it can be applied to any space of mathematical objects that has a definition of nearness (a topological space) or specific distances between objects (a metric space)",
+      "url": "/mathematics/analysis",
+      "fx": 710.1894518520633,
+      "fy": -698.7951128687005,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "statistics  ️",
+      "note": "deals with the collection, analysis, interpretation, presentation and organisation of data  it deals with all aspects of data including the planning of data collection in terms of the design of surveys and experiments  in applying statistics to a problem, it is common practice to start with a population or process to be studied  populations can be diverse topics such as ‘all persons living in a country’ or ‘every atom composing a crystal’",
+      "url": "/mathematics/statistics",
+      "fx": 925.4689220510893,
+      "fy": -694.3582902770688,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "logic  ️",
+      "note": "is the systematic study of the form of arguments  a valid argument is one where there is a specific relation of logical support between the assumptions of the argument and its conclusion   the validity of an argument is determined by its logical form, not by its content",
+      "url": "/mathematics/logic",
+      "fx": 464.0134407089936,
+      "fy": -690.7349536344542,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "geometry  ️",
+      "note": "studies shapes, sizes, relative positions of figures and the properties of space  deals with lengths, areas and volumes",
+      "url": "/mathematics/geometry",
+      "fx": 1132.4214818200398,
+      "fy": -688.2347308018408,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "graph theory  ️",
+      "note": "a graph is an abstract representation of a number of points that are connected by lines  each point is usually called a vertex (more than one are called vertices), and the lines are called edges  graphs are a tool for modelling relationships  they are used to find answers to a number of problems",
+      "url": "/mathematics/graph-theory",
+      "fx": -509.4862060546875,
+      "fy": -608.3034133911133,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "combinatorics  ️",
+      "note": "mathematics of counting without actually counting  is the study of finite or countable discrete structures  it includes counting the structures of a given kind and size (enumerative combinatorics), deciding when certain criteria can be met, and constructing and analysing objects meeting the criteria (as in combinatorial designs and matroid theory), finding ‘largest’, ‘smallest’, or ‘optimal’ objects (external combinatorics and combinatorial optimisation), and studying combinatorial structures arising in an algebraic context, or applying algebraic techniques to combinatorial problems (algebraic combinatorics)",
+      "url": "/mathematics/combinatorics",
+      "fx": -753.6360626220703,
+      "fy": -604.5443344116211,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "type theory  ️",
+      "url": "/mathematics/type-theory",
+      "fx": 284.3824691772461,
+      "fy": -598.522834777832,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "category theory  ️",
+      "note": "formalises mathematical structure and its concepts in terms of a collection of objects and of arrows (also called morphisms)  a category has two basic properties  1. the ability to compose the arrows associatively   2. and the existence of an identity arrow for each object  the language of category theory has been used to formalise concepts of other high-level abstractions such as sets, rings and groups  in category theory, morphisms obey conditions specific to category theory itself  it has practical applications in programming language theory, in particular for the study of monads in functional programming",
+      "url": "/mathematics/category-theory",
+      "fx": -209.8684196472168,
+      "fy": -596.7182159423828,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "linear algebra  ️",
+      "note": "came from trying to solve systems of linear equations  vectors and matrices are used to solve these systems  main objects of study currently are vector spaces and linear mappings between vector spaces  it describes ways to solve and manipulate (rearrange) systems of linear equations  it uses a system of notation for describing system behaviour, called a matrix",
+      "url": "/mathematics/linear-algebra",
+      "fx": 49.263938903808594,
+      "fy": -596.1403274536133,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "optimisation  ️",
+      "url": "/mathematics/optimisation",
+      "fx": 944.3952604375748,
+      "fy": -591.4730675521163,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "set theory  ️",
+      "note": "study of sets where sets are collections of objects  we refer to these objects as “elements” “members” of the set  to write a set, one wraps the numbers in {curly brackets} and separates them with commas:   e.g. {1,2,3} holds 1, 2 and 3  was invented in 1874",
+      "url": "/mathematics/set-theory",
+      "fx": 473.5049819946289,
+      "fy": -589.5644760131836,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "calculus  ️",
+      "note": "study of continuous change, in the same way that geometry is the study of shape and algebra is the study of generalisations of arithmetic operations  differential and integral calculus are connected by the fundamental theorem of calculus, which states that differentiation is the reverse process to integration",
+      "url": "/mathematics/calculus",
+      "fx": 677.3332907229048,
+      "fy": -584.4835300481726,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "topology  ️",
+      "note": "study of abstract shapes  is concerned with the properties of space that are preserved under continuous deformations, such as stretching, crumpling and bending, but not tearing or gluing  this can be studied by considering a collection of subsets, called open sets, that satisfy certain properties, turning the given set into what is known as a topological space  important topological properties include connectedness and compactness  it developed as a field of study out of geometry and set theory, through analysis of concepts such as space, dimension and transformation",
+      "url": "/mathematics/topology",
+      "fx": 1161.0161437988281,
+      "fy": -576.822265625,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computability theory  ️",
+      "url": "/mathematics/computability-theory",
+      "fx": 521.7273712158203,
+      "fy": -518.3064880371094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 1453.1666259765625,
+      "fy": -507.17493438720703,
+      "nodes": [
+        {
+          "text": "wolfram alpha",
+          "url": "https://www.wolframalpha.com/",
+          "fx": 1599.1666259765625,
+          "fy": -513.174934387207,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "math live playground",
+          "url": "https://mathlive.io/sprint14/index.html",
+          "fx": 1599.1666259765625,
+          "fy": -471.17493438720703,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "number theory  ️",
+      "url": "/mathematics/number-theory",
+      "fx": -46.26789449139517,
+      "fy": -506.8174197806453,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "model theory  ️",
+      "url": "/mathematics/model-theory",
+      "fx": 293.99315479877805,
+      "fy": -496.08669284917653,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ergodic theory  ️",
+      "url": "/mathematics/ergodic-theory",
+      "fx": 886.6244842768078,
+      "fy": -488.68555936421694,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lambda calculus  ️",
+      "note": "is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution  it is a universal model of computation that can be used to simulate any single-taped Turing machine   it consists of constructing lambda terms and performing reduction operations on them",
+      "url": "/mathematics/lambda-calculus",
+      "fx": 488.32311248779297,
+      "fy": -414.95033264160156,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "chaos theory  ️",
+      "url": "/mathematics/chaos-theory",
+      "fx": 754.4729614257812,
+      "fy": -405.7981872558594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 1611.966605350889,
+      "fy": -210.46910147831363,
+      "nodes": [
+        {
+          "text": "there’s more to mathematics than rigour and proofs  ️",
+          "url": "https://terrytao.wordpress.com/career-advice/there%E2%80%99s-more-to-mathematics-than-rigour-and-proofs/",
+          "fx": 1780.966605350889,
+          "fy": -411.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "does one have to be a genius to do maths?  ️",
+          "url": "https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/",
+          "fx": 1780.966605350889,
+          "fy": -344.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "16: toward an exploratory medium for mathematics  ️",
+          "url": "http://cognitivemedium.com/emm/emm.html",
+          "fx": 1780.966605350889,
+          "fy": -277.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "how to play mathematics  ️",
+          "url": "https://aeon.co/essays/theres-more-maths-in-slugs-and-corals-than-we-can-think-of",
+          "fx": 1780.966605350889,
+          "fy": -210.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "the unreasonable effectiveness of mathematics in the natural sciences  ️",
+          "url": "",
+          "fx": 1780.966605350889,
+          "fy": -168.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "the reasonable ineffectiveness of mathematics  ️",
+          "url": "https://pdfs.semanticscholar.org/462d/7b6b1ee8243b6aa8897be3cf306239fb43c6.pdf",
+          "fx": 1780.966605350889,
+          "fy": -76.46910147831363,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "John Conway: genius behind the numbers  ️",
+          "url": "https://www.52-insights.com/john-conway-genius-behind-the-numbers/",
+          "fx": 1780.966605350889,
+          "fy": -9.469101478313632,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 1658.2962614179219,
+      "fy": 188.8682851786716,
+      "nodes": [
+        {
+          "text": "math album",
+          "url": "http://imgur.com/a/hmK2C",
+          "fx": 1857.2962614179219,
+          "fy": 159.3682851786716,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "geometric math",
+          "url": "http://imgur.com/a/7ThWP",
+          "fx": 1857.2962614179219,
+          "fy": 201.3682851786716,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "py wonderland",
+          "url": "https://github.com/neozhaoliang/pywonderland",
+          "fx": 1857.2962614179219,
+          "fy": 243.3682851786716,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "help",
+      "curve": {
+        "x": 218.633,
+        "y": 162.526
+      }
+    },
+    {
+      "source": "basics",
+      "target": "statistics  ️",
+      "curve": {
+        "x": 72.2032,
+        "y": 232.871
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometry  ️",
+      "curve": {
+        "x": 170.18,
+        "y": 234.684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logic  ️",
+      "curve": {
+        "x": -167.774,
+        "y": 234.683
+      }
+    },
+    {
+      "source": "geometry  ️",
+      "target": "topology  ️",
+      "curve": {
+        "x": 12.5473,
+        "y": 55.7062
+      }
+    },
+    {
+      "source": "mathematics",
+      "target": "basics",
+      "curve": {
+        "x": -4.52138,
+        "y": 94.7554
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebra  ️",
+      "curve": {
+        "x": -389.815,
+        "y": 229.355
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "linear algebra  ️",
+      "curve": {
+        "x": 12.2154,
+        "y": 41.8908
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "computability theory  ️",
+      "curve": {
+        "x": 117.658,
+        "y": 83.3619
+      }
+    },
+    {
+      "source": "computability theory  ️",
+      "target": "lambda calculus  ️",
+      "curve": {
+        "x": -25.7021,
+        "y": 51.678
+      }
+    },
+    {
+      "source": "basics",
+      "target": "discrete  ️",
+      "curve": {
+        "x": -704.318,
+        "y": 223.796
+      }
+    },
+    {
+      "source": "discrete  ️",
+      "target": "graph theory  ️",
+      "curve": {
+        "x": -15.1428,
+        "y": 45.0384
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "model theory  ️",
+      "curve": {
+        "x": -71.5911,
+        "y": 99.3318
+      }
+    },
+    {
+      "source": "basics",
+      "target": "analysis  ️",
+      "curve": {
+        "x": -37.4364,
+        "y": 230.653
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "calculus  ️",
+      "curve": {
+        "x": -15.928,
+        "y": 57.1558
+      }
+    },
+    {
+      "source": "discrete  ️",
+      "target": "combinatorics  ️",
+      "curve": {
+        "x": -136.728,
+        "y": 35.9141
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "chaos theory  ️",
+      "curve": {
+        "x": 67.6453,
+        "y": 122.083
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "set theory  ️",
+      "curve": {
+        "x": 16.7458,
+        "y": 50.5852
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "type theory  ️",
+      "curve": {
+        "x": -75.0654,
+        "y": 46.106
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "category theory  ️",
+      "curve": {
+        "x": -90.151,
+        "y": 52.3355
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "ergodic theory  ️",
+      "curve": {
+        "x": 102.968,
+        "y": 105.055
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "number theory  ️",
+      "curve": {
+        "x": -38.7531,
+        "y": 100.161
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "optimisation  ️",
+      "curve": {
+        "x": 120.353,
+        "y": 53.661
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dynamical systems  ️",
+      "curve": {
+        "x": -282.139,
+        "y": 228.704
+      }
+    },
+    {
+      "source": "basics",
+      "target": "mathematical models  ️",
+      "curve": {
+        "x": -502.693,
+        "y": 223.918
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -104.568,
+        "y": -210.551
+      }
+    },
+    {
+      "source": "articles",
+      "target": "tools",
+      "curve": {
+        "x": -84.4,
+        "y": -148.353
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -46.9226,
+        "y": -196.583
+      }
+    },
+    {
+      "source": "basics",
+      "target": "math notation  ️",
+      "curve": {
+        "x": -813.478,
+        "y": 195.261
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sequences  ️",
+      "curve": {
+        "x": -1200.64,
+        "y": 208.646
+      }
+    }
+  ],
+  "id": 1152
+}

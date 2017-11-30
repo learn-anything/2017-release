@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - linguistics - languages - swedish",
+  "tag": "swedish language",
+  "nodes": [
+    {
+      "text": "swedish language",
+      "url": "http://www.wikiwand.com/en/Swedish_language",
+      "fx": -114,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Svenska/",
+          "fx": 176,
+          "fy": 12,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 113.12812500000007,
+      "fy": 114.23750000000013,
+      "nodes": [
+        {
+          "text": "best way to learn swedish in Sweden",
+          "url": "https://www.reddit.com/r/Svenska/comments/5sj893/best_way_to_learn_swedish_in_sweden/ddfqq02/",
+          "fx": 250.12812500000007,
+          "fy": 114.73750000000013,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -53.40781249999998,
+      "fy": 233.06718750000016,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/sv/en/Learn-Swedish-Online",
+          "fx": 102.59218750000002,
+          "fy": 227.56718750000016,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn swedish",
+          "url": "https://learningswedish.se/courses/1",
+          "fx": 102.59218750000002,
+          "fy": 261.56718750000016,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "swedish language",
+      "target": "basics",
+      "curve": {
+        "x": -3.20391,
+        "y": 116.284
+      }
+    },
+    {
+      "source": "help",
+      "target": "swedish language",
+      "curve": {
+        "x": -75.3141,
+        "y": -56.8688
+      }
+    }
+  ],
+  "id": 738
+}

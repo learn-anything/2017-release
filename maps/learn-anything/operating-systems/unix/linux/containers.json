@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - operating systems - unix - linux - containers",
+  "tag": "linux containers",
+  "nodes": [
+    {
+      "text": "LXC",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/LXC",
+      "fx": -13.12109375,
+      "fy": -328.5390204973118,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/Friz-zy/awesome-linux-containers",
+          "fx": 177.87890625,
+          "fy": -314.5390204973118,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 1.60389894859793,
+      "fy": -184.16807827104412,
+      "nodes": [
+        {
+          "text": "1. what are counters made from?",
+          "url": "https://www.youtube.com/watch?v=sK5i-N34im8",
+          "fx": 157.60389894859793,
+          "fy": -172.66807827104412,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "LXC",
+      "target": "basics",
+      "curve": {
+        "x": -1.3875,
+        "y": 70.9355
+      }
+    }
+  ],
+  "id": 1282
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - neuroscience - nervous system - central nervous system - visual system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "visual system",
+      "url": "http://www.wikiwand.com/en/Visual_system",
+      "fx": -12.956872888513544,
+      "fy": -133.8091812200305,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 19.689337599681267,
+      "fy": -10.235550413479928,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=o0DYP-u1rNM",
+          "fx": 175.68933759968127,
+          "fy": -18.735550413479928,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. visual pathway and lesions",
+          "url": "https://www.youtube.com/watch?v=cG5ZuK0_qtc",
+          "fx": 175.68933759968127,
+          "fy": 21.264449586520072,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "eyes  ️",
+      "url": "/neuroscience/nervous-system/central-nervous-system/visual-system/eyes",
+      "fx": -66.64148761040633,
+      "fy": 96.21565413520648,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "visual system",
+      "target": "basics",
+      "curve": {
+        "x": -6.42689,
+        "y": 60.5367
+      }
+    },
+    {
+      "source": "basics",
+      "target": "eyes  ️",
+      "curve": {
+        "x": -39.9154,
+        "y": 54.4756
+      }
+    }
+  ],
+  "id": 1263
+}

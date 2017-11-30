@@ -1,0 +1,116 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - modal logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "modal logic",
+      "url": "http://www.wikiwand.com/en/Modal_logic",
+      "fx": 160.11215227601156,
+      "fy": -384.92657153179186,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 193.17711995575087,
+      "fy": -242.41313736039172,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=EaCLZ9OZzAg",
+          "fx": 356.17711995575087,
+          "fy": -302.9131373603917,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. 3 months of modal logics",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_1130932363&amp;feature=iv&amp;list=PLz0n_SjOttTfP_liEHPNCzvESZsh5eirP&amp;src_vid=YxBShJU_CKs",
+          "fx": 356.17711995575087,
+          "fy": -260.9131373603917,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. modern origins of modal logic  ️",
+          "url": "https://plato.stanford.edu/entries/logic-modal-origins/",
+          "fx": 356.17711995575087,
+          "fy": -218.91313736039172,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. modal logic slides",
+          "url": "http://web.pacuit.org/classes/modal-spr2012/eplogic.pdf",
+          "fx": 356.17711995575087,
+          "fy": -151.91313736039172,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "temporal logic  ️",
+      "url": "/mathematics/logic/propositional-logic/modal-logic/temporal-logic",
+      "fx": -61.914011376441636,
+      "fy": -68.07635720754627,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "deontic logic  ️",
+      "url": "/mathematics/logic/propositional-logic/modal-logic/deontic-logic",
+      "fx": -278.20420881502434,
+      "fy": -68.00307080924733,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "epistemic modal logic  ️",
+      "url": "/mathematics/logic/propositional-logic/modal-logic/epistemic-modal-logic",
+      "fx": 155.22956484243934,
+      "fy": -66.75142275001559,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "modal logic",
+      "target": "basics",
+      "curve": {
+        "x": -3.96751,
+        "y": 70.5067
+      }
+    },
+    {
+      "source": "basics",
+      "target": "temporal logic  ️",
+      "curve": {
+        "x": -109.046,
+        "y": 87.1684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "epistemic modal logic  ️",
+      "curve": {
+        "x": 19.0262,
+        "y": 87.8308
+      }
+    },
+    {
+      "source": "basics",
+      "target": "deontic logic  ️",
+      "curve": {
+        "x": -228.827,
+        "y": 60.2402
+      }
+    }
+  ],
+  "id": 1019
+}

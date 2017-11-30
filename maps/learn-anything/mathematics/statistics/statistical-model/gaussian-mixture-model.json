@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model - gaussian mixture model",
+  "tag": "Gaussian mixture model",
+  "nodes": [
+    {
+      "text": "mixture model",
+      "url": "http://www.wikiwand.com/en/Mixture_model",
+      "fx": -88.828125,
+      "fy": -126.96484375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Rkl30Fr2S38",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mixture model",
+      "target": "basics",
+      "curve": {
+        "x": -3.58594,
+        "y": 61.2324
+      }
+    }
+  ],
+  "id": 1119
+}

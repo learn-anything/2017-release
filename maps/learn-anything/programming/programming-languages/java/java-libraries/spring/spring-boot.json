@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - programming - programming languages - java - java libraries - spring - spring boot",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spring boot",
+      "url": "https://github.com/spring-projects/spring-boot",
+      "fx": -57.48046875,
+      "fy": -151.19921875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/stunstunstun/awesome-spring-boot",
+          "fx": 172.51953125,
+          "fy": -137.19921875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 75.74812413469135,
+      "fy": -44.130269110973245,
+      "nodes": [
+        {
+          "text": "docs",
+          "url": "https://spring.io/docs/reference",
+          "fx": 212.74812413469135,
+          "fy": -29.630269110973245,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -26.26171875,
+      "fy": 84.28230794270843,
+      "nodes": [
+        {
+          "text": "1. binding an application with spring boot",
+          "url": "https://spring.io/guides/gs/spring-boot/",
+          "fx": 129.73828125,
+          "fy": 56.78230794270843,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn spring boot (MVC) in 50 minutes",
+          "url": "https://www.youtube.com/watch?v=Ke7Tr4RgRTs",
+          "fx": 129.73828125,
+          "fy": 112.78230794270843,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "spring boot",
+      "target": "basics",
+      "curve": {
+        "x": -2.89062,
+        "y": 116.491
+      }
+    },
+    {
+      "source": "help",
+      "target": "spring boot",
+      "curve": {
+        "x": -43.3643,
+        "y": -52.2845
+      }
+    }
+  ],
+  "id": 1607
+}

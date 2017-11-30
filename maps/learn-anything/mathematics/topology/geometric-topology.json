@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - topology - geometric topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "geometric topology",
+      "url": "http://www.wikiwand.com/en/Geometric_topology",
+      "fx": 249.6484375,
+      "fy": -232.66796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 314.3768702378394,
+      "fy": -88.82147790045155,
+      "nodes": [
+        {
+          "text": "1. topology &amp; geometry",
+          "url": "https://www.youtube.com/watch?v=SXHHvoaSctc",
+          "fx": 469.3768702378394,
+          "fy": -77.32147790045155,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "geometric topology",
+      "target": "basics",
+      "curve": {
+        "x": -4.13578,
+        "y": 70.6732
+      }
+    }
+  ],
+  "id": 1137
+}

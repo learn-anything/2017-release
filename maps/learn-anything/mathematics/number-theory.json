@@ -1,0 +1,116 @@
+{
+  "title": "learn anything - mathematics - number theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "number theory",
+      "url": "http://www.wikiwand.com/en/Number_theory",
+      "fx": -152.65390624999998,
+      "fy": -142.3640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -136.64803408375292,
+      "fy": -12.699307304785862,
+      "nodes": [
+        {
+          "text": "1. an introduction to the theory of numbers",
+          "url": "http://www.goodreads.com/book/show/585623.An_Introduction_to_the_Theory_of_Numbers",
+          "fx": 45.35196591624708,
+          "fy": -43.19930730478586,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. elementary number theory and its applications",
+          "url": "https://www.goodreads.com/book/show/722471.Elementary_Number_Theory_and_Its_Applications",
+          "fx": 45.35196591624708,
+          "fy": 18.80069269521414,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "arithmetic  ️",
+      "url": "/mathematics/number-theory/arithmetic",
+      "fx": -105.46815719031895,
+      "fy": 122.26171525339095,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "algebraic number theory  ️",
+      "url": "/mathematics/number-theory/algebraic-number-theory",
+      "fx": -567.0711212158203,
+      "fy": 123.57420349121094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "numbers  ️",
+      "url": "/mathematics/number-theory/numbers",
+      "fx": -267.40741978609617,
+      "fy": 124.14597259358277,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Fermat’s last theorem  ️",
+      "url": "/mathematics/number-theory/fermats-last-theorem",
+      "fx": -837.1656746031745,
+      "fy": 125.51587301587301,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "number theory",
+      "target": "basics",
+      "curve": {
+        "x": -17.7471,
+        "y": 63.5824
+      }
+    },
+    {
+      "source": "basics",
+      "target": "arithmetic  ️",
+      "curve": {
+        "x": 16.84,
+        "y": 67.4805
+      }
+    },
+    {
+      "source": "basics",
+      "target": "numbers  ️",
+      "curve": {
+        "x": -68.8797,
+        "y": 68.4226
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic number theory  ️",
+      "curve": {
+        "x": -210.583,
+        "y": 35.4618
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Fermat’s last theorem  ️",
+      "curve": {
+        "x": -431.475,
+        "y": 30.6427
+      }
+    }
+  ],
+  "id": 1052
+}

@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - programming languages - python - asyncio",
+  "tag": "python asyncio",
+  "nodes": [
+    {
+      "text": "asyncio",
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "fx": 202.62320458074532,
+      "fy": -221.05791440217388,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/timofurrer/awesome-asyncio",
+          "fx": 369.6232045807453,
+          "fy": -209.55791440217388,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 203.09889363354273,
+      "fy": -94.25989906836747,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://docs.python.org/3/library/asyncio-eventloop.html",
+          "fx": 359.09889363354273,
+          "fy": -79.75989906836747,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "asyncio",
+      "target": "basics",
+      "curve": {
+        "x": -2.51216,
+        "y": 63.399
+      }
+    }
+  ],
+  "id": 1634
+}

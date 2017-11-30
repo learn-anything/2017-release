@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - software - tooling - productivity - tmux",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "tmux",
+      "url": "http://www.wikiwand.com/en/Tmux",
+      "fx": 24.53866771270566,
+      "fy": -231.69569449409562,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/rothgar/awesome-tmux",
+          "fx": 196.53866771270566,
+          "fy": -217.69569449409562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 146.3515625,
+      "fy": -125.44921875000006,
+      "nodes": [
+        {
+          "text": "tmux cheat sheet",
+          "url": "https://gist.github.com/henrik/1967800",
+          "fx": 283.3515625,
+          "fy": -113.94921875000006,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 247.49609375,
+      "fy": -5.820312500000057,
+      "nodes": [
+        {
+          "text": "hey tmux",
+          "url": "https://github.com/junegunn/heytmux",
+          "fx": 389.49609375,
+          "fy": 5.679687499999943,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -10.324225734987863,
+      "fy": 112.28676129557607,
+      "nodes": [
+        {
+          "text": "1. learn tmux",
+          "url": "http://minimul.com/teaches/tmux",
+          "fx": 171.67577426501214,
+          "fy": 103.78676129557607,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. vim + tmux",
+          "url": "https://www.youtube.com/watch?v=5r6yzFEXajQ",
+          "fx": 171.67577426501214,
+          "fy": 143.78676129557607,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tmux",
+      "target": "basics",
+      "curve": {
+        "x": -21.4314,
+        "y": 170.741
+      }
+    },
+    {
+      "source": "help",
+      "target": "tmux",
+      "curve": {
+        "x": -52.1564,
+        "y": -51.8732
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -51.8223,
+        "y": -59.8145
+      }
+    }
+  ],
+  "id": 1809
+}

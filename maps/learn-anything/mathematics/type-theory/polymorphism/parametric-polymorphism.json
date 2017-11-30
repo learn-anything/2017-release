@@ -1,0 +1,91 @@
+{
+  "title": "learn anything - mathematics - type theory - polymorphism - parametric polymorphism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "parametric polymorphism",
+      "url": "http://www.wikiwand.com/en/Parametric_polymorphism",
+      "fx": -71.54247485632163,
+      "fy": -246.32197603686114,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 117.04627990722656,
+      "fy": -132.7882537403326,
+      "nodes": [
+        {
+          "text": "16: adventures in parametric polymorphism",
+          "url": "https://www.youtube.com/watch?v=Tc9vs_HFHVo",
+          "fx": 257.04627990722656,
+          "fy": -132.2882537403326,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 177.03950360177578,
+      "fy": -16.83424289747211,
+      "nodes": [
+        {
+          "text": "17: guarded impredicative polymorphism",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/impredicative-Jul17.pdf",
+          "fx": 368.0395036017758,
+          "fy": -16.33424289747211,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 4.873969589613353,
+      "fy": 83.05261243561984,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parametric_Polymorphism",
+          "fx": 160.87396958961335,
+          "fy": 97.55261243561984,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "parametric polymorphism",
+      "target": "basics",
+      "curve": {
+        "x": -12.2918,
+        "y": 163.437
+      }
+    },
+    {
+      "source": "talks",
+      "target": "parametric polymorphism",
+      "curve": {
+        "x": -39.7944,
+        "y": -55.5169
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "talks",
+      "curve": {
+        "x": -42.7466,
+        "y": -57.977
+      }
+    }
+  ],
+  "id": 1149
+}

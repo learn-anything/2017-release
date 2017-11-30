@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - webrtc",
+  "tag": "WebRTC",
+  "nodes": [
+    {
+      "text": "WebRTC",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/WebRTC",
+      "fx": -56.31936233108104,
+      "fy": -161.38196790540536,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/WebRTC/",
+          "fx": 179.68063766891896,
+          "fy": -167.38196790540536,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/webrtc",
+          "fx": 179.68063766891896,
+          "fy": -127.38196790540536,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 82.90478902249708,
+      "fy": -36.83471436113922,
+      "nodes": [
+        {
+          "text": "everything about WebRTC",
+          "url": "https://github.com/muaz-khan/WebRTC-Experiment",
+          "fx": 219.90478902249708,
+          "fy": -25.33471436113922,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -62.02259290540519,
+      "fy": 70.20016891891885,
+      "nodes": [
+        {
+          "text": "1. a real world guide to WebRTC  ️",
+          "url": "https://deepstreamhub.com/tutorials/protocols/webrtc-intro/",
+          "fx": 93.97740709459481,
+          "fy": 64.70016891891885,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction",
+          "url": "https://codelabs.developers.google.com/codelabs/webrtc-web/#0",
+          "fx": 93.97740709459481,
+          "fy": 104.70016891891885,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "WebTorrent  ️",
+      "url": "/network-science/computer-networking/protocols/webrtc/webtorrent",
+      "fx": -211.0074539113465,
+      "fy": 192.13702637173822,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "WebRTC",
+      "curve": {
+        "x": -51.3621,
+        "y": -61.0236
+      }
+    },
+    {
+      "source": "WebRTC",
+      "target": "basics",
+      "curve": {
+        "x": -22.8516,
+        "y": 114.541
+      }
+    },
+    {
+      "source": "basics",
+      "target": "WebTorrent  ️",
+      "curve": {
+        "x": -55.7424,
+        "y": 62.2185
+      }
+    }
+  ],
+  "id": 1225
+}

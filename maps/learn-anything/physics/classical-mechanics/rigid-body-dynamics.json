@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - rigid body dynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "rigid body dynamics",
+      "url": "http://www.wikiwand.com/en/Rigid_body_dynamics",
+      "fx": 59.12109375,
+      "fy": -102.40234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 137.23653017241384,
+      "fy": 47.389008620689594,
+      "nodes": [
+        {
+          "text": "1. dynamics of rigid bodies",
+          "url": "https://www.youtube.com/watch?v=mx2P1_M-7UA",
+          "fx": 300.23653017241384,
+          "fy": 59.889008620689594,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "rigid body dynamics",
+      "target": "basics",
+      "curve": {
+        "x": -2.69228,
+        "y": 74.1457
+      }
+    }
+  ],
+  "id": 1383
+}

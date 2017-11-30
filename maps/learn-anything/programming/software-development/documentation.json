@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - software development - documentation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "documentation",
+      "url": "http://www.wikiwand.com/en/Documentation",
+      "fx": 121.2265625,
+      "fy": -111.40234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 170.0546875,
+      "fy": 4.98046875,
+      "nodes": [
+        {
+          "text": "1. writing great documentation",
+          "url": "https://www.youtube.com/watch?v=z3fRu9pkuXE",
+          "fx": 326.0546875,
+          "fy": 16.48046875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "documentation",
+      "target": "basics",
+      "curve": {
+        "x": -2.33594,
+        "y": 56.9414
+      }
+    }
+  ],
+  "id": 1721
+}

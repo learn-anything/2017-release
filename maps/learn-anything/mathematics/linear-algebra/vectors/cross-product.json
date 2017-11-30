@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - cross product",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cross product",
+      "url": "http://www.wikiwand.com/en/Cross_product",
+      "fx": 42.776939392089844,
+      "fy": -135.11026906967163,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 83.33203125,
+      "fy": -4,
+      "nodes": [
+        {
+          "text": "1. intro to vector product",
+          "url": "http://immersivemath.com/ila/ch04_vectorproduct/ch04.html",
+          "fx": 239.33203125,
+          "fy": -12.5,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. intuitive explanation  ️",
+          "url": "https://betterexplained.com/articles/cross-product/",
+          "fx": 239.33203125,
+          "fy": 27.5,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cross product",
+      "target": "basics",
+      "curve": {
+        "x": -3.97245,
+        "y": 64.3051
+      }
+    }
+  ],
+  "id": 985
+}

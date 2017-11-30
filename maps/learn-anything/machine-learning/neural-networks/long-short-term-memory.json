@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - machine learning - neural networks - long short term memory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "long short term memory",
+      "url": "http://www.wikiwand.com/en/Long_short-term_memory",
+      "fx": 105.21484375,
+      "fy": -31.18359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 347.9431838886828,
+      "fy": 95.78449531064194,
+      "nodes": [
+        {
+          "text": "17: echo sequences of random integers  ️",
+          "url": "http://machinelearningmastery.com/how-to-use-an-encoder-decoder-lstm-to-echo-sequences-of-random-integers/",
+          "fx": 546.9431838886828,
+          "fy": 95.78449531064194,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 205.2240881122866,
+      "fy": 222.36565504692618,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=93rzMHtYT_0",
+          "fx": 368.2240881122866,
+          "fy": 234.86565504692618,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "long short term memory",
+      "target": "basics",
+      "curve": {
+        "x": -1.24538,
+        "y": 126.025
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "long short term memory",
+      "curve": {
+        "x": -79.1142,
+        "y": -62.734
+      }
+    }
+  ],
+  "id": 781
+}

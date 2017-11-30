@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - mathematics - chaos theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "chaos theory",
+      "url": "http://www.wikiwand.com/en/Chaos_theory",
+      "fx": -107.50708462732916,
+      "fy": -211.63586956521738,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -111.37594016886646,
+      "fy": -47.5654539499223,
+      "nodes": [
+        {
+          "text": "1. Chaos: motion and determinism",
+          "url": "https://www.youtube.com/watch?v=c0gDLEHbYCk",
+          "fx": 77.62405983113354,
+          "fy": -105.5654539499223,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. nonlinear dynamics and chaos: with applications to physics, biology, chemistry, and engineering",
+          "url": "http://www.goodreads.com/book/show/116164.Nonlinear_Dynamics_and_Chaos",
+          "fx": 77.62405983113354,
+          "fy": -38.5654539499223,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Lorenz system  ️",
+      "url": "/mathematics/chaos-theory/lorenz-system",
+      "fx": -241.1835876843943,
+      "fy": 125.1280328027949,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "chaos theory",
+      "target": "basics",
+      "curve": {
+        "x": -23.9344,
+        "y": 80.7852
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Lorenz system  ️",
+      "curve": {
+        "x": -52.9038,
+        "y": 86.3467
+      }
+    }
+  ],
+  "id": 920
+}

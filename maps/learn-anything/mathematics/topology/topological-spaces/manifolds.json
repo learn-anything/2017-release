@@ -1,0 +1,99 @@
+{
+  "title": "learn anything - mathematics - topology - topological spaces - manifolds",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "manifolds",
+      "url": "http://www.wikiwand.com/en/Manifold",
+      "fx": 511.234375,
+      "fy": -145.9765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 537.3123361013864,
+      "fy": 7.980277534985305,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=zIjBArHTPZ4",
+          "fx": 700.3123361013864,
+          "fy": -13.019722465014695,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is a manifold by Mikhail Gromov",
+          "url": "https://www.youtube.com/watch?v=u5DLpAqX4YA",
+          "fx": 700.3123361013864,
+          "fy": 28.980277534985305,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "cobordism  ️",
+      "url": "/mathematics/topology/topological-spaces/manifolds/cobordism",
+      "fx": 179.6197947727817,
+      "fy": 184.11973190307617,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "singularity theory  ️",
+      "url": "/mathematics/topology/topological-spaces/manifolds/singularity-theory",
+      "fx": 363.5979766845703,
+      "fy": 184.81496810913086,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "differentiable manifolds  ️",
+      "url": "/mathematics/topology/topological-spaces/manifolds/differentiable-manifolds",
+      "fx": 614.8730663681599,
+      "fy": 186.21331208056108,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "manifolds",
+      "target": "basics",
+      "curve": {
+        "x": -2.46102,
+        "y": 76.2284
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cobordism  ️",
+      "curve": {
+        "x": -160.596,
+        "y": 88.8198
+      }
+    },
+    {
+      "source": "basics",
+      "target": "singularity theory  ️",
+      "curve": {
+        "x": -60.6072,
+        "y": 88.4173
+      }
+    },
+    {
+      "source": "basics",
+      "target": "differentiable manifolds  ️",
+      "curve": {
+        "x": 79.0304,
+        "y": 89.1165
+      }
+    }
+  ],
+  "id": 1143
+}

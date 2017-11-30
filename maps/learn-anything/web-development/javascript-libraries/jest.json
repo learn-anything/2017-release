@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - web development - javascript libraries - jest",
+  "tag": "jest testing library",
+  "nodes": [
+    {
+      "text": "jest",
+      "url": "https://github.com/facebook/jest",
+      "fx": -59.316405296325684,
+      "fy": -141.42709732055664,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 33.037540435791016,
+      "fy": -26.68764591217041,
+      "nodes": [
+        {
+          "text": "jest cheat sheet",
+          "url": "https://github.com/sapegin/jest-cheat-sheet#jest-cheat-sheet",
+          "fx": 170.03754043579102,
+          "fy": -15.18764591217041,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -66.47194839455187,
+      "fy": 73.05789470672607,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://facebook.github.io/jest/docs/en/getting-started.html",
+          "fx": 115.52805160544813,
+          "fy": 87.55789470672607,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "jest",
+      "curve": {
+        "x": -40.927,
+        "y": -56.1197
+      }
+    },
+    {
+      "source": "jest",
+      "target": "basics",
+      "curve": {
+        "x": -4.07777,
+        "y": 105.992
+      }
+    }
+  ],
+  "id": 1892
+}

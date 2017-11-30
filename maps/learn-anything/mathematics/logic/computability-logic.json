@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - mathematics - logic - computability logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computability logic",
+      "url": "http://www.wikiwand.com/en/Computability_logic",
+      "fx": 85.16796875,
+      "fy": -101.27734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://www.csc.villanova.edu/~japaridz/ICL.pdf",
+          "fx": 310,
+          "fy": 49,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "computability logic",
+      "target": "basics",
+      "curve": {
+        "x": -6.83398,
+        "y": 66.8887
+      }
+    }
+  ],
+  "id": 1000
+}

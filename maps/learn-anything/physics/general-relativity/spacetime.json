@@ -1,0 +1,119 @@
+{
+  "title": "learn anything - physics - general relativity - spacetime",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "spacetime",
+      "url": "http://www.wikiwand.com/en/Spacetime",
+      "fx": -71.4464410998396,
+      "fy": 17.02589703439301,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -56.92272418478262,
+      "fy": 177.9270755491973,
+      "nodes": [
+        {
+          "text": "1. why spacetime?  ️",
+          "url": "http://www.pitt.edu/~jdnorton/teaching/HPS_0410/chapters_2017_Jan_1/spacetime/index.html",
+          "fx": 132.07727581521738,
+          "fy": 102.4270755491973,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. what is spacetime, really?  ️",
+          "url": "http://blog.stephenwolfram.com/2015/12/what-is-spacetime-really/",
+          "fx": 132.07727581521738,
+          "fy": 144.4270755491973,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. general relativity &amp; curved spacetime explained",
+          "url": "https://www.youtube.com/watch?v=AwhKZ3fd9JA",
+          "fx": 132.07727581521738,
+          "fy": 186.4270755491973,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. are space and time an illusion?",
+          "url": "https://www.youtube.com/watch?v=YycAzdtUIko",
+          "fx": 132.07727581521738,
+          "fy": 253.4270755491973,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "spacetime symmetries",
+      "url": "http://www.wikiwand.com/en/Spacetime_symmetries",
+      "fx": -630.5897306539396,
+      "fy": 375.68056132604363,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "black holes  ️",
+      "note": "is a region of spacetime exhibiting such strong gravitational effects that nothing - not even particles and electromagnetic radiation such as light - can escape from inside  the theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole  the boundary of the region from which no escape is possible is called the event horizon  black holes of stellar mass are expected to form when very massive stars collapse at the end of their life cycle",
+      "url": "/physics/general-relativity/spacetime/black-holes",
+      "fx": -48.220777035527135,
+      "fy": 377.67080722876415,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "gravitational waves  ️",
+      "url": "/physics/general-relativity/spacetime/gravitational-waves",
+      "fx": -315.35300492560975,
+      "fy": 378.877281956708,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "spacetime",
+      "target": "basics",
+      "curve": {
+        "x": -8.98814,
+        "y": 79.2005
+      }
+    },
+    {
+      "source": "basics",
+      "target": "black holes  ️",
+      "curve": {
+        "x": 8.85101,
+        "y": 99.8719
+      }
+    },
+    {
+      "source": "basics",
+      "target": "gravitational waves  ️",
+      "curve": {
+        "x": -107.465,
+        "y": 100.475
+      }
+    },
+    {
+      "source": "basics",
+      "target": "spacetime symmetries",
+      "curve": {
+        "x": -245.584,
+        "y": 99.6267
+      }
+    }
+  ],
+  "id": 1450
+}

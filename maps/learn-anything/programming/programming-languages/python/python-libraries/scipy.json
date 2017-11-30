@@ -1,0 +1,40 @@
+{
+  "title": "learn anything - programming - programming languages - python - python libraries - scipy",
+  "tag": "scipy library",
+  "nodes": [
+    {
+      "text": "scipy",
+      "url": "https://www.scipy.org/",
+      "fx": 192.42675049173795,
+      "fy": -314.7044626995198,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 178.6834776548119,
+      "fy": -189.25226836219957,
+      "nodes": [
+        {
+          "text": "1. scipy lecture notes",
+          "url": "http://www.scipy-lectures.org/",
+          "fx": 341.6834776548119,
+          "fy": -174.25226836219957,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "scipy",
+      "target": "basics",
+      "curve": {
+        "x": -3.87164,
+        "y": 62.7261
+      }
+    }
+  ],
+  "id": 1637
+}

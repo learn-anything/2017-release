@@ -1,0 +1,49 @@
+{
+  "title": "learn anything - mathematics - geometry - incidence geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "incidence geometry",
+      "url": "http://www.wikiwand.com/en/Incidence_geometry",
+      "fx": 303.71978968631186,
+      "fy": -154.48335016634977,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "incidence structures",
+      "url": "http://www.wikiwand.com/en/Incidence_structure",
+      "fx": 109.9514615019009,
+      "fy": 3.6310598859510037,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "linear spaces  ️",
+      "url": "/mathematics/geometry/incidence-geometry/linear-spaces",
+      "fx": -24.8720703125,
+      "fy": 139.513671875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "incidence geometry",
+      "target": "incidence structures",
+      "curve": {
+        "x": -95.8842,
+        "y": 79.0572
+      }
+    },
+    {
+      "source": "incidence structures",
+      "target": "linear spaces  ️",
+      "curve": {
+        "x": -84.6618,
+        "y": 67.9413
+      }
+    }
+  ],
+  "id": 954
+}

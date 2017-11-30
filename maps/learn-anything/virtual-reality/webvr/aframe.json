@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - virtual reality - webvr - aframe",
+  "tag": "a-frame virtual reality framework",
+  "nodes": [
+    {
+      "text": "A-Frame",
+      "url": "https://aframe.io/",
+      "fx": -79.32316930970148,
+      "fy": -300.27990904850753,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/aframevr/awesome-aframe",
+          "fx": 97.67683069029852,
+          "fy": -288.77990904850753,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -100.03812966417911,
+      "fy": -133.49102145521738,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://aframe.io/docs/0.5.0/introduction/getting-started.html",
+          "fx": 81.96187033582089,
+          "fy": -166.99102145521738,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. A-Frame school",
+          "url": "https://aframe.io/aframe-school/#/",
+          "fx": 81.96187033582089,
+          "fy": -132.99102145521738,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. how to build your first multi-user virtual reality experience",
+          "url": "https://github.com/haydenjameslee/networked-aframe/blob/master/docs/Tutorial:%20Create%20your%20first%20Networked-Aframe%20experience.md",
+          "fx": 81.96187033582089,
+          "fy": -98.99102145521738,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "A-Frame",
+      "target": "basics",
+      "curve": {
+        "x": -15.6075,
+        "y": 83.3954
+      }
+    }
+  ],
+  "id": 1846
+}

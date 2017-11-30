@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum entanglement",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum entanglement",
+      "url": "http://www.wikiwand.com/en/Quantum_entanglement",
+      "fx": -59.01953125,
+      "fy": -133.72265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 17.947765261627865,
+      "fy": 24.62091206395354,
+      "nodes": [
+        {
+          "text": "1. quantum entanglement and the great bohr-einstein debate",
+          "url": "https://www.youtube.com/watch?v=tafGL02EUOA",
+          "fx": 199.94776526162786,
+          "fy": -5.87908793604646,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. quantum entanglement &amp; spooky action at a distance",
+          "url": "https://www.youtube.com/watch?v=ZuvK-od647c",
+          "fx": 199.94776526162786,
+          "fy": 56.12091206395354,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum entanglement",
+      "target": "basics",
+      "curve": {
+        "x": -6.76635,
+        "y": 77.9218
+      }
+    }
+  ],
+  "id": 1523
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - general relativity - spacetime - black holes - primordial black holes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "primordial black holes",
+      "url": "http://www.wikiwand.com/en/Primordial_black_hole",
+      "fx": 304.609375,
+      "fy": 40.23828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 388.9715909090911,
+      "fy": 178.69981060606062,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=gs3mtZPySeM",
+          "fx": 544.9715909090911,
+          "fy": 190.19981060606062,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "primordial black holes",
+      "target": "basics",
+      "curve": {
+        "x": 0.181108,
+        "y": 67.9808
+      }
+    }
+  ],
+  "id": 1447
+}

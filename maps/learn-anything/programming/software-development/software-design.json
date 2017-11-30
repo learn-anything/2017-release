@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - software development - software design",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software design",
+      "url": "http://www.wikiwand.com/en/Software_design",
+      "fx": -20.1796875,
+      "fy": -251.14453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 14.044906496062481,
+      "fy": -69.13656496063635,
+      "nodes": [
+        {
+          "text": "1. difference between software architecture and software design",
+          "url": "https://www.youtube.com/watch?v=i7aKW7YNOxY",
+          "fx": 177.04490649606248,
+          "fy": -115.13656496063635,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. three flaws in software design",
+          "url": "https://www.youtube.com/watch?v=JOAq3YN45YE",
+          "fx": 177.04490649606248,
+          "fy": -23.13656496063635,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "software design",
+      "target": "basics",
+      "curve": {
+        "x": -6.1377,
+        "y": 91.004
+      }
+    }
+  ],
+  "id": 1728
+}

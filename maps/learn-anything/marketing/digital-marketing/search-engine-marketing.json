@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - marketing - digital marketing - search engine marketing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "search engine marketing",
+      "url": "http://www.wikiwand.com/en/Search_engine_marketing",
+      "fx": 90.03515625,
+      "fy": -116.73046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 185.9937500000001,
+      "fy": 47.254687500000045,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=lkB9FsPvUyU",
+          "fx": 348.9937500000001,
+          "fy": 59.754687500000045,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "search engine marketing",
+      "target": "basics",
+      "curve": {
+        "x": -4.7707,
+        "y": 81.2426
+      }
+    }
+  ],
+  "id": 810
+}

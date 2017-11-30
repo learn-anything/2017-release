@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - optimisation - linear programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear programming",
+      "url": "http://www.wikiwand.com/en/Linear_programming",
+      "fx": 69.80078125,
+      "fy": -99.59765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.9140625,
+      "fy": 39,
+      "nodes": [
+        {
+          "text": "1. linear programming: LP, reductions, simplex",
+          "url": "https://www.youtube.com/watch?v=WwMz2fJwUCg",
+          "fx": 306.9140625,
+          "fy": 18,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. consise introduction",
+          "url": "https://www.math.ucla.edu/~tom/LP.pdf",
+          "fx": 306.9140625,
+          "fy": 85,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear programming",
+      "target": "basics",
+      "curve": {
+        "x": -2.19336,
+        "y": 68.5488
+      }
+    }
+  ],
+  "id": 1057
+}

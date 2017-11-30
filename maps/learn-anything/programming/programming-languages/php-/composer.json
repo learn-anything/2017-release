@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - programming languages - php  - composer",
+  "tag": "composer php",
+  "nodes": [
+    {
+      "text": "composer",
+      "url": "https://getcomposer.org/",
+      "fx": 128.9414062500001,
+      "fy": -58.98828125,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/jakoch/awesome-composer",
+          "fx": 318.9414062500001,
+          "fy": -47.48828125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145.5,
+      "fy": 79.54296875,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://getcomposer.org/doc/00-intro.md",
+          "fx": 301.5,
+          "fy": 94.04296875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "composer",
+      "target": "basics",
+      "curve": {
+        "x": -0.220701,
+        "y": 69.2656
+      }
+    }
+  ],
+  "id": 1629
+}

@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - mathematics - topology - morse theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "morse theory",
+      "url": "http://www.wikiwand.com/en/Morse_theory",
+      "fx": -37.8515625,
+      "fy": -268.046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -6.758278917910388,
+      "fy": -138.41796875,
+      "nodes": [
+        {
+          "text": "1. morse theory",
+          "url": "http://www.goodreads.com/book/show/1246821.Morse_Theory_",
+          "fx": 174.2417210820896,
+          "fy": -146.91796875,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. lectures",
+          "url": "https://www.youtube.com/watch?v=yun73TgUDyg",
+          "fx": 174.2417210820896,
+          "fy": -106.91796875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "morse theory",
+      "target": "basics",
+      "curve": {
+        "x": -6.95336,
+        "y": 63.5645
+      }
+    }
+  ],
+  "id": 1139
+}

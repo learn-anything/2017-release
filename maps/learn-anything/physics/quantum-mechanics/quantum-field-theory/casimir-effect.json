@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum field theory - casimir effect",
+  "tag": "Casimir effect",
+  "nodes": [
+    {
+      "text": "Casimir effect",
+      "url": "http://www.wikiwand.com/en/Casimir_effect",
+      "fx": 162.14838088768113,
+      "fy": -113.74060235507244,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 208.80434782608688,
+      "fy": 26.608695652135054,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=IRcmqZkGOK4",
+          "fx": 364.8043478260869,
+          "fy": 38.108695652135054,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Casimir effect",
+      "target": "basics",
+      "curve": {
+        "x": -0.172017,
+        "y": 68.9246
+      }
+    }
+  ],
+  "id": 1526
+}

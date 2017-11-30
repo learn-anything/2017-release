@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - network science - network topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "network topology",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Network_topology",
+      "fx": -111.08203125,
+      "fy": -163.84765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 74.74596118062186,
+      "fy": -59.405656944690634,
+      "nodes": [
+        {
+          "text": "15: plotting tools for networks, part I  ️",
+          "url": "https://lwn.net/Articles/639998/",
+          "fx": 215.74596118062186,
+          "fy": -59.405656944690634,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "mesh networks  ️",
+      "url": "/network-science/network-topology/mesh-networks",
+      "fx": -262.4375,
+      "fy": 7.59375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "network topology",
+      "target": "mesh networks  ️",
+      "curve": {
+        "x": -76.1777,
+        "y": 85.7207
+      }
+    },
+    {
+      "source": "help",
+      "target": "network topology",
+      "curve": {
+        "x": -49.414,
+        "y": -50.971
+      }
+    }
+  ],
+  "id": 1236
+}

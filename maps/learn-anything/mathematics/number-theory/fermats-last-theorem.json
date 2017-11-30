@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - mathematics - number theory - fermats last theorem",
+  "tag": "Fermat's last theorem",
+  "nodes": [
+    {
+      "text": "Fermat’s last theorem",
+      "url": "http://www.wikiwand.com/en/Fermat%27s_Last_Theorem",
+      "fx": 159.7421875,
+      "fy": -249.76953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 232.05617569191793,
+      "fy": -88.86886450753065,
+      "nodes": [
+        {
+          "text": "1. explanation - Numberphile",
+          "url": "https://www.youtube.com/watch?v=qiNcEguuFSA",
+          "fx": 395.05617569191793,
+          "fy": -97.36886450753065,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what is Fermat’s last theorem",
+          "url": "https://www.youtube.com/watch?v=1BSFyEIY2BY",
+          "fx": 395.05617569191793,
+          "fy": -55.368864507530645,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Andrew Wile’s proof",
+      "url": "http://www.wikiwand.com/en/Wiles%27s_proof_of_Fermat%27s_Last_Theorem",
+      "fx": 70.4758112980769,
+      "fy": 79.57091346153834,
+      "nodes": [
+        {
+          "text": "the proof",
+          "url": "https://www.math.wisc.edu/~boston/869.pdf",
+          "fx": 398.4758112980769,
+          "fy": 93.57091346153834,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fermat’s last theorem",
+      "target": "basics",
+      "curve": {
+        "x": -8.84301,
+        "y": 79.7004
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Andrew Wile’s proof",
+      "curve": {
+        "x": -39.5402,
+        "y": 84.9699
+      }
+    }
+  ],
+  "id": 1039
+}

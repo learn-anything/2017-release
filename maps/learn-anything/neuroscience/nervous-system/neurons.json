@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - neuroscience - nervous system - neurons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neurons",
+      "url": "http://www.wikiwand.com/en/Neuron",
+      "fx": -61.27755546569824,
+      "fy": -109.22209644317627,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -47.5,
+      "fy": 11.33984375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=HZh0A-lWSmY",
+          "fx": 108.5,
+          "fy": 2.83984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. anatomy of a neuron",
+          "url": "https://www.youtube.com/watch?v=ob5U8zPbAX4",
+          "fx": 108.5,
+          "fy": 42.83984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "neurogenesis  ️",
+      "url": "/neuroscience/nervous-system/neurons/neurogenesis",
+      "fx": -183.20260055371955,
+      "fy": 142.95478069692763,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurons",
+      "target": "basics",
+      "curve": {
+        "x": -4.11122,
+        "y": 59.0309
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neurogenesis  ️",
+      "curve": {
+        "x": -52.1013,
+        "y": 65.8075
+      }
+    }
+  ],
+  "id": 1268
+}

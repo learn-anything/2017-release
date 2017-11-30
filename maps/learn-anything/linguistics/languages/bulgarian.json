@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - linguistics - languages - bulgarian",
+  "tag": "bulgarian language",
+  "nodes": [
+    {
+      "text": "bulgarian language",
+      "url": "http://www.wikiwand.com/en/Bulgarian_language",
+      "fx": -117.50018337368965,
+      "fy": -115.10287857055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -65.1328434497118,
+      "fy": 38.65712928771973,
+      "nodes": [
+        {
+          "text": "1. bulgarian courses",
+          "url": "https://www.livelingua.com/project/dli/Bulgarian/",
+          "fx": 116.8671565502882,
+          "fy": 53.15712928771973,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "bulgarian language",
+      "target": "basics",
+      "curve": {
+        "x": -9.31633,
+        "y": 75.63
+      }
+    }
+  ],
+  "id": 717
+}

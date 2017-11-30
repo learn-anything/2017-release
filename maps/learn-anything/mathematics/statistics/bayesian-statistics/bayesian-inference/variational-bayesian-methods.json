@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics - bayesian inference - variational bayesian methods",
+  "tag": "variational Bayesian methods",
+  "nodes": [
+    {
+      "text": "variational Bayesian methods",
+      "url": "http://www.wikiwand.com/en/Variational_Bayesian_methods",
+      "fx": 110.828125,
+      "fy": -303.3828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 234.90746866295285,
+      "fy": -124.20277681056649,
+      "nodes": [
+        {
+          "text": "1. machine learning: variational inference",
+          "url": "https://www.youtube.com/watch?v=2pEkWk-LHmU",
+          "fx": 397.90746866295285,
+          "fy": -124.20277681056649,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "variational Bayesian methods",
+      "target": "basics",
+      "curve": {
+        "x": -2.46033,
+        "y": 88.84
+      }
+    }
+  ],
+  "id": 1075
+}

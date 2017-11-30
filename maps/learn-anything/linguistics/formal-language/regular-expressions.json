@@ -1,0 +1,178 @@
+{
+  "title": "learn anything - linguistics - formal language - regular expressions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "regular expressions",
+      "url": "http://www.wikiwand.com/en/Regular_expression",
+      "fx": -106.70915178030987,
+      "fy": -364.7576860475146,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/aloisdg/awesome-regex",
+          "fx": 216.29084821969013,
+          "fy": -350.7576860475146,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 90.66804027557373,
+      "fy": -205.44020080566406,
+      "nodes": [
+        {
+          "text": "regex101",
+          "note": "test your regular expressions interactively",
+          "url": "https://regex101.com/",
+          "fx": 231.66804027557373,
+          "fy": -264.44020080566406,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "regex crossword",
+          "url": "https://regexcrossword.com/",
+          "fx": 231.66804027557373,
+          "fy": -227.44020080566406,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "regular expression cheat sheet",
+          "url": "http://regexlib.com/(X(1)A(2CWF2KXUX7c9221yJq7Bv0iaffj5UBl227yDw6UG255ueG8Lup6BWQSn7TxJtU0w2Gj2tFhxuYS_OMmTxjw9lHGh78-5T94_oHYMy-XKbR3CwS2l_p5v-i6-6np-vdcK4AxqP-DAxQXWViuZZs2Pn-RyxOMx3wpNIegAnYJO8b0GBv_JmVn5fIFfRvwPMt7L0))/CheatSheet.aspx?AspxAutoDetectCookieSupport=1",
+          "fx": 231.66804027557373,
+          "fy": -190.44020080566406,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "regex golf",
+          "url": "https://alf.nu/RegexGolf",
+          "fx": 231.66804027557373,
+          "fy": -153.44020080566406,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "RegExr",
+          "url": "http://regexr.com/",
+          "fx": 231.66804027557373,
+          "fy": -116.44020080566406,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 174.2892654220766,
+      "fy": -1.7479707792297177,
+      "nodes": [
+        {
+          "text": "07: regular expression matching can be simple and fast  ️",
+          "url": "https://swtch.com/~rsc/regexp/regexp1.html",
+          "fx": 343.2892654220766,
+          "fy": -35.24797077922972,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "12: how google code search worked  ️",
+          "url": "https://swtch.com/%7Ersc/regexp/regexp4.html",
+          "fx": 343.2892654220766,
+          "fy": 31.752029220770282,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -168.94901404442749,
+      "fy": 265.8253540683103,
+      "nodes": [
+        {
+          "text": "1. learn regex",
+          "url": "https://github.com/zeeshanu/learn-regex",
+          "fx": 20.050985955572514,
+          "fy": 174.32535406831028,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. regex tutorial",
+          "url": "http://www.rexegg.com/",
+          "fx": 20.050985955572514,
+          "fy": 216.32535406831028,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. 30 minute regex tutorial",
+          "url": "https://www.codeproject.com/articles/9099/the-minute-regex-tutorial",
+          "fx": 20.050985955572514,
+          "fy": 253.32535406831028,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. understanding and using regular expressions",
+          "url": "https://www.youtube.com/watch?v=_6QBBT9Sq1U",
+          "fx": 20.050985955572514,
+          "fy": 290.3253540683103,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. mastering regular expressions",
+          "url": "http://www.goodreads.com/book/show/583628.Mastering_Regular_Expressions",
+          "fx": 20.050985955572514,
+          "fy": 357.3253540683103,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "regular expressions",
+      "target": "basics",
+      "curve": {
+        "x": -56.6199,
+        "y": 315.29
+      }
+    },
+    {
+      "source": "help",
+      "target": "regular expressions",
+      "curve": {
+        "x": -61.1884,
+        "y": -79.6589
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -48.0606,
+        "y": -101.846
+      }
+    }
+  ],
+  "id": 712
+}

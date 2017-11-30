@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - medicine - anesthesia",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "anesthesia",
+      "url": "http://www.wikiwand.com/en/Anesthesia",
+      "fx": -54.765625,
+      "fy": -300.2734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -29,
+      "fy": -121.046875,
+      "nodes": [
+        {
+          "text": "1. how does anesthesia work?",
+          "url": "https://www.youtube.com/watch?v=B_tTymvDWXk",
+          "fx": 134,
+          "fy": -108.546875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "anesthesia",
+      "target": "basics",
+      "curve": {
+        "x": -5.61719,
+        "y": 88.8633
+      }
+    }
+  ]
+}

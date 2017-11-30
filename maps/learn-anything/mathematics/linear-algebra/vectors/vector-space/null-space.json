@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space - null space",
+  "tag": "null space of vector space",
+  "nodes": [
+    {
+      "text": "null space",
+      "url": "http://www.wikiwand.com/en/Kernel_(linear_algebra)",
+      "fx": -92.9375,
+      "fy": -242.43246964928056,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -63.25,
+      "fy": -96.8828125,
+      "nodes": [
+        {
+          "text": "1. inverse matrices, column space and null space",
+          "url": "https://www.youtube.com/watch?v=uQhTuRlWMxw",
+          "fx": 99.75,
+          "fy": -117.8828125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. null space of a vector space",
+          "url": "https://www.youtube.com/watch?v=xRJCdbFY17k",
+          "fx": 99.75,
+          "fy": -50.8828125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "null space",
+      "target": "basics",
+      "curve": {
+        "x": -2.40625,
+        "y": 72.0248
+      }
+    }
+  ],
+  "id": 992
+}

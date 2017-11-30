@@ -1,0 +1,35 @@
+{
+  "name": "learn-anything",
+  "version": "1.0.0",
+  "description": "Search Interactive Mind Maps to Learn Anything : https://learn-anything.xyz",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Angelo Gazzola",
+      "email": "angelo@nglgzz.com",
+      "url": "https://github.com/nglgzz"
+    },
+    {
+      "name": "Nikita Voloboev",
+      "email": "nikita.voloboev@icloud.com",
+      "url": "https://github.com/nikitavoloboev"
+    }
+  ],
+  "repository": "nikitavoloboev/learn-anything",
+  "scripts": {
+    "setup": "node scripts/setupES.js",
+    "setup:prod": "NODE_ENV='production' node ./scripts/setupES.js",
+    "update": "node scripts/fetchMaps.js && ./scripts/updateES.sh",
+    "update:prod": "node scripts/fetchMaps.js && NODE_ENV='production' ./scripts/updateES.sh"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.100.0",
+    "axios": "^0.16.2",
+    "elasticsearch": "^13.3.1",
+    "es6-promise-pool": "^2.5.0",
+    "fs-extra": "^4.0.1",
+    "fs-walk": "^0.0.1",
+    "http-aws-es": "^2.0.5",
+    "sitemap": "^1.13.0"
+  }
+}

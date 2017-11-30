@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - programming - programming language design",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "language design",
+      "url": "",
+      "fx": 80.1867445928741,
+      "fy": -327.63299141221034,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 220.54323049194227,
+      "fy": -224.5806827820191,
+      "nodes": [
+        {
+          "text": "the design and implementation of probabilistic programming languages",
+          "url": "http://dippl.org/",
+          "fx": 357.54323049194227,
+          "fy": -251.5806827820191,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome compilers",
+          "url": "https://github.com/aalhour/awesome-compilers",
+          "fx": 357.54323049194227,
+          "fy": -174.5806827820191,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 113.78870750990245,
+      "fy": -132.3629960488018,
+      "nodes": [
+        {
+          "text": "1. beautiful racket",
+          "note": "- amazing book covering how to make your own programming language with racket ",
+          "url": "http://beautifulracket.com/",
+          "fx": 295.78870750990245,
+          "fy": -120.86299604880179,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "language design",
+      "target": "basics",
+      "curve": {
+        "x": -5.94902,
+        "y": 97.635
+      }
+    },
+    {
+      "source": "help",
+      "target": "language design",
+      "curve": {
+        "x": -42.6782,
+        "y": -51.5262
+      }
+    }
+  ],
+  "id": 1569
+}

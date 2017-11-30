@@ -1,0 +1,618 @@
+{
+  "title": "learn anything - web development - front end",
+  "tag": "front end development",
+  "nodes": [
+    {
+      "text": "front end",
+      "url": "http://www.wikiwand.com/en/Front-end_web_development",
+      "fx": 930.1911549041456,
+      "fy": -891.094528402675,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Frontend/",
+          "fx": 1138.1911549041456,
+          "fy": -897.094528402675,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+          "fx": 1138.1911549041456,
+          "fy": -857.0945284026748,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 1039.7980011707273,
+      "fy": -766.443129523053,
+      "nodes": [
+        {
+          "text": "front end resources",
+          "url": "https://enboard.co/frontend/",
+          "fx": 1176.7980011707273,
+          "fy": -771.943129523053,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "spell book of modern webdev",
+          "url": "https://github.com/dexteryy/spellbook-of-modern-webdev",
+          "fx": 1176.7980011707273,
+          "fy": -737.943129523053,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 882.0657909901661,
+      "fy": -638.9887802593275,
+      "nodes": [
+        {
+          "text": "1. front end guide",
+          "url": "https://github.com/grab/front-end-guide",
+          "fx": 1064.065790990166,
+          "fy": -647.4887802593275,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. freecodecamp",
+          "note": "go from the beginning and work through all the exercises, they are really fun",
+          "url": "https://www.freecodecamp.com",
+          "fx": 1064.065790990166,
+          "fy": -607.4887802593275,
+          "nodes": [
+            {
+              "text": "forum",
+              "url": "https://forum.freecodecamp.com/",
+              "fx": 1326.065790990166,
+              "fy": -607.4887802593275,
+              "nodes": [],
+              "category": "chat",
+              "color": "rgba(36, 170, 255, 1.0)"
+            }
+          ],
+          "category": "interactive",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "CSS3  ️",
+      "url": "/web-development/front-end/css/css3",
+      "fx": 1243.0873281226836,
+      "fy": -545.3790523580651,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "HTML  ️",
+      "url": "/web-development/front-end/html",
+      "fx": 686.5228559759648,
+      "fy": -544.0883977223475,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "CSS  ️",
+      "url": "/web-development/front-end/css",
+      "fx": 1008.5141112840424,
+      "fy": -528.5415803560744,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "styled components  ️",
+      "url": "/web-development/front-end/css/styled-components",
+      "fx": 1184.3525403491956,
+      "fy": -454.050451869241,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "HTML5  ️",
+      "url": "/web-development/front-end/html/html5",
+      "fx": 553.2780385376011,
+      "fy": -429.5980010704927,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "javascript  ️",
+      "url": "/programming/programming-languages/javascript",
+      "fx": 855.1500246161656,
+      "fy": -407.9767984554468,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "task runners",
+      "url": "",
+      "fx": 851.8730040330151,
+      "fy": -278.55973082322333,
+      "nodes": []
+    },
+    {
+      "text": "module loader/bundler",
+      "url": "https://webpack.github.io/docs/loaders.html",
+      "fx": 1506.4654408188394,
+      "fy": -277.29630225147747,
+      "nodes": []
+    },
+    {
+      "text": "typescript  ️",
+      "url": "/programming/programming-languages/typescript",
+      "fx": 1774.586342901256,
+      "fy": -279.57401276300857,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "package manager",
+      "url": "",
+      "fx": 1091.3895566239314,
+      "fy": -274.7620805730954,
+      "nodes": []
+    },
+    {
+      "text": "web components  ️",
+      "url": "/web-development/front-end/web-components",
+      "fx": 1951.2365350773566,
+      "fy": -276.2686178893614,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "testing",
+      "url": "",
+      "fx": 1322.5755831781155,
+      "fy": -271.87416598400984,
+      "nodes": []
+    },
+    {
+      "text": "frameworks",
+      "url": "",
+      "fx": 499.6912802419355,
+      "fy": -268.77784778225805,
+      "nodes": []
+    },
+    {
+      "text": "ES6  ️",
+      "url": "/programming/programming-languages/javascript/es6",
+      "fx": 676.3379698253816,
+      "fy": -271.1411999437146,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "npm scripts",
+      "url": "https://docs.npmjs.com/misc/scripts",
+      "fx": 696.017826625279,
+      "fy": -178.44756507873535,
+      "nodes": []
+    },
+    {
+      "text": "gulp",
+      "url": "https://github.com/gulpjs/gulp",
+      "fx": 977.5085359949644,
+      "fy": -179.36328315734863,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "grunt  ️",
+      "url": "/web-development/javascript-libraries/grunt",
+      "fx": 853.6662190755208,
+      "fy": -178.54452514648438,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "npm  ️",
+      "url": "/programming/programming-languages/javascript/npm",
+      "fx": 1093.4459838867188,
+      "fy": -173.01318550109863,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "yarn",
+      "url": "https://github.com/yarnpkg/yarn",
+      "fx": 1209.3128509521484,
+      "fy": -172.92107963562012,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "mocha",
+      "url": "https://mochajs.org/",
+      "fx": 1429.1328735351562,
+      "fy": -162.78445625305176,
+      "nodes": []
+    },
+    {
+      "text": "webpack  ️",
+      "url": "/web-development/javascript-libraries/webpack",
+      "fx": 1653.1185913085938,
+      "fy": -165.07349395751953,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "jasmine",
+      "url": "https://jasmine.github.io/",
+      "fx": 1538.10400390625,
+      "fy": -162.1407356262207,
+      "nodes": []
+    },
+    {
+      "text": "jest  ️",
+      "url": "/web-development/javascript-libraries/jest",
+      "fx": 1323.2052001953125,
+      "fy": -164.19062995910645,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "requireJS / AMD",
+      "url": "http://requirejs.org/",
+      "fx": 1811.2091674804688,
+      "fy": -160.7352294921875,
+      "nodes": []
+    },
+    {
+      "text": "preact  ️",
+      "url": "/web-development/javascript-libraries/preact",
+      "fx": 417.57733154296875,
+      "fy": -125.48646450042736,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "inferno",
+      "url": "https://github.com/infernojs/inferno",
+      "fx": 552.3495635986328,
+      "fy": -124.41577911376953,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "vue.js  ️",
+      "url": "/web-development/javascript-libraries-/vuejs",
+      "fx": 291.0352554321289,
+      "fy": -123.46325874328613,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "react  ️",
+      "url": "/web-development/javascript-libraries/react",
+      "fx": 169.35914611816406,
+      "fy": -123.40617322921764,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "angular  ️",
+      "url": "/web-development/javascript-libraries/angularjs",
+      "fx": 21.589630126953125,
+      "fy": -122.06597995758068,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "ember js  ️",
+      "url": "/web-development/javascript-libraries/emberjs",
+      "fx": -136.16109371185303,
+      "fy": -119.04307746887207,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "flux  ️",
+      "url": "/programming/software-development/architectural-patterns/flux",
+      "fx": 122.79539113230817,
+      "fy": -11.370446935874838,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "redux  ️",
+      "url": "/web-development/javascript-libraries/redux",
+      "fx": 236.55369825485855,
+      "fy": -10.768922483764868,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "task runners",
+      "target": "npm scripts",
+      "curve": {
+        "x": -79.1777,
+        "y": 50.0561
+      }
+    },
+    {
+      "source": "task runners",
+      "target": "grunt  ️",
+      "curve": {
+        "x": -15.1034,
+        "y": 50.0076
+      }
+    },
+    {
+      "source": "task runners",
+      "target": "gulp",
+      "curve": {
+        "x": 44.5678,
+        "y": 49.5982
+      }
+    },
+    {
+      "source": "package manager",
+      "target": "npm  ️",
+      "curve": {
+        "x": -29.7218,
+        "y": 50.8745
+      }
+    },
+    {
+      "source": "package manager",
+      "target": "yarn",
+      "curve": {
+        "x": 27.7116,
+        "y": 50.9205
+      }
+    },
+    {
+      "source": "react  ️",
+      "target": "flux  ️",
+      "curve": {
+        "x": -34.0318,
+        "y": 54.7678
+      }
+    },
+    {
+      "source": "react  ️",
+      "target": "redux  ️",
+      "curve": {
+        "x": 27.8473,
+        "y": 55.0686
+      }
+    },
+    {
+      "source": "testing",
+      "target": "jest  ️",
+      "curve": {
+        "x": -6.93512,
+        "y": 53.8417
+      }
+    },
+    {
+      "source": "testing",
+      "target": "mocha",
+      "curve": {
+        "x": 53.7786,
+        "y": 54.5448
+      }
+    },
+    {
+      "source": "testing",
+      "target": "jasmine",
+      "curve": {
+        "x": 137.367,
+        "y": 50.987
+      }
+    },
+    {
+      "source": "module loader/bundler",
+      "target": "webpack  ️",
+      "curve": {
+        "x": 50.0766,
+        "y": 57.3614
+      }
+    },
+    {
+      "source": "module loader/bundler",
+      "target": "requireJS / AMD",
+      "curve": {
+        "x": 163.923,
+        "y": 58.2805
+      }
+    },
+    {
+      "source": "help",
+      "target": "front end",
+      "curve": {
+        "x": -37.0535,
+        "y": -61.0757
+      }
+    },
+    {
+      "source": "basics",
+      "target": "HTML  ️",
+      "curve": {
+        "x": -101.771,
+        "y": 48.7002
+      }
+    },
+    {
+      "source": "basics",
+      "target": "javascript  ️",
+      "curve": {
+        "x": -5.70788,
+        "y": 116.756
+      }
+    },
+    {
+      "source": "basics",
+      "target": "CSS  ️",
+      "curve": {
+        "x": 59.9742,
+        "y": 56.4736
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "ES6  ️",
+      "curve": {
+        "x": -101.406,
+        "y": 68.4178
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "task runners",
+      "curve": {
+        "x": -2.38851,
+        "y": 63.4585
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "package manager",
+      "curve": {
+        "x": 130.37,
+        "y": 65.3574
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "frameworks",
+      "curve": {
+        "x": -179.979,
+        "y": 68.3495
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "react  ️",
+      "curve": {
+        "x": -173.166,
+        "y": 73.9358
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "inferno",
+      "curve": {
+        "x": 22.5791,
+        "y": 73.431
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "preact  ️",
+      "curve": {
+        "x": -45.807,
+        "y": 72.8957
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "vue.js  ️",
+      "curve": {
+        "x": -110.578,
+        "y": 73.9073
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "angular  ️",
+      "curve": {
+        "x": -262.359,
+        "y": 55.8833
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "ember js  ️",
+      "curve": {
+        "x": -355.507,
+        "y": 37.8578
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "testing",
+      "curve": {
+        "x": 314.277,
+        "y": 73.9845
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "module loader/bundler",
+      "curve": {
+        "x": 403.78,
+        "y": 53.8651
+      }
+    },
+    {
+      "source": "CSS  ️",
+      "target": "CSS3  ️",
+      "curve": {
+        "x": 120.036,
+        "y": -8.41873
+      }
+    },
+    {
+      "source": "CSS  ️",
+      "target": "styled components  ️",
+      "curve": {
+        "x": 120.669,
+        "y": 37.2455
+      }
+    },
+    {
+      "source": "HTML  ️",
+      "target": "HTML5  ️",
+      "curve": {
+        "x": -63.6224,
+        "y": 57.2452
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "typescript  ️",
+      "curve": {
+        "x": 650.963,
+        "y": 56.6805
+      }
+    },
+    {
+      "source": "javascript  ️",
+      "target": "web components  ️",
+      "curve": {
+        "x": 770.113,
+        "y": 34.9493
+      }
+    },
+    {
+      "source": "front end",
+      "target": "basics",
+      "curve": {
+        "x": -30.5627,
+        "y": 124.803
+      }
+    }
+  ],
+  "id": 1878
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - trigonometry - trigonometric functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "trigonometric functions",
+      "url": "http://www.wikiwand.com/en/Trigonometric_functions",
+      "fx": -131.3828125,
+      "fy": -135.91015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. sine and cosine",
+          "url": "http://setosa.io/ev/sine-and-cosine/",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "trigonometric functions",
+      "target": "basics",
+      "curve": {
+        "x": -2.05859,
+        "y": 65.7051
+      }
+    }
+  ],
+  "id": 966
+}

@@ -1,0 +1,148 @@
+{
+  "title": "learn anything - programming - programming languages - javascript - npm",
+  "tag": "npm package manager",
+  "nodes": [
+    {
+      "text": "npm",
+      "url": "https://github.com/npm/npm",
+      "fx": 101.58848710782775,
+      "fy": -454.8814183995206,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/parro-it/awesome-micro-npm-packages",
+          "fx": 269.58848710782775,
+          "fy": -440.8814183995206,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "awesome packages",
+      "url": "",
+      "fx": 205.98110228397945,
+      "fy": -328.7083121612467,
+      "nodes": [
+        {
+          "text": "delightful npm packages",
+          "url": "https://github.com/feross/awesome-mad-science",
+          "fx": 485.98110228397945,
+          "fy": -337.2083121612467,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "maintenance modules",
+          "url": "https://github.com/maxogden/maintenance-modules",
+          "fx": 485.98110228397945,
+          "fy": -297.2083121612467,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "find packages",
+      "url": "",
+      "fx": 366.2222958234123,
+      "fy": -204.34132748732043,
+      "nodes": [
+        {
+          "text": "npms",
+          "url": "https://npms.io/",
+          "fx": 591.2222958234123,
+          "fy": -189.84132748732043,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -35.38287095052863,
+      "fy": -139.30823039193444,
+      "nodes": [
+        {
+          "text": "1. what is npm?",
+          "url": "https://docs.npmjs.com/getting-started/what-is-npm",
+          "fx": 120.61712904947137,
+          "fy": -124.80823039193444,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 494.75409210587645,
+      "fy": -88.88827349538644,
+      "nodes": [
+        {
+          "text": "cost of npm packages",
+          "url": "http://cost-of-modules.herokuapp.com/",
+          "fx": 636.7540921058765,
+          "fy": -74.38827349538644,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "npm scripts",
+      "url": "https://docs.npmjs.com/misc/scripts",
+      "fx": -155.08218396109106,
+      "fy": -12.64272528840695,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "awesome packages",
+      "target": "npm",
+      "curve": {
+        "x": -80.1963,
+        "y": -61.8366
+      }
+    },
+    {
+      "source": "npm",
+      "target": "basics",
+      "curve": {
+        "x": -71.4857,
+        "y": 156.536
+      }
+    },
+    {
+      "source": "find packages",
+      "target": "awesome packages",
+      "curve": {
+        "x": -72.5971,
+        "y": -56.5933
+      }
+    },
+    {
+      "source": "basics",
+      "target": "npm scripts",
+      "curve": {
+        "x": -47.5997,
+        "y": 63.3328
+      }
+    },
+    {
+      "source": "tools",
+      "target": "find packages",
+      "curve": {
+        "x": -43.5159,
+        "y": -57.7265
+      }
+    }
+  ],
+  "id": 1613
+}

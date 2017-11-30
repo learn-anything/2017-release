@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - physics - thermodynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "thermodynamics",
+      "url": "http://www.wikiwand.com/en/Thermodynamics",
+      "fx": -41.171875,
+      "fy": -249.28156565656565,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 18.22707201086962,
+      "fy": -102.67824388586962,
+      "nodes": [
+        {
+          "text": "1. thermodynamics &amp; kinetics",
+          "url": "https://www.youtube.com/watch?v=kLqduWF6GXE",
+          "fx": 174.22707201086962,
+          "fy": -131.17824388586962,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. thermodynamics crash course",
+          "url": "https://www.youtube.com/watch?v=4i1MUWJoI0U",
+          "fx": 174.22707201086962,
+          "fy": -91.17824388586962,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. second law of thermodynamics",
+          "url": "https://www.youtube.com/watch?v=C0fGk1d4oIc",
+          "fx": 174.22707201086962,
+          "fy": -51.17824388586962,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "heat transfer  ️",
+      "url": "/physics/thermodynamics/heat-transfer",
+      "fx": 98.73620223999023,
+      "fy": 39.18260192871094,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "laws of thermodynamics  ️",
+      "url": "/physics/thermodynamics/laws-of-thermodynamics",
+      "fx": -212.77164288949268,
+      "fy": 55.77391304347816,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "thermodynamics",
+      "target": "basics",
+      "curve": {
+        "x": -0.800531,
+        "y": 72.0517
+      }
+    },
+    {
+      "source": "basics",
+      "target": "heat transfer  ️",
+      "curve": {
+        "x": 54.2546,
+        "y": 70.9304
+      }
+    },
+    {
+      "source": "basics",
+      "target": "laws of thermodynamics  ️",
+      "curve": {
+        "x": -74.9993,
+        "y": 79.2261
+      }
+    }
+  ],
+  "id": 1552
+}

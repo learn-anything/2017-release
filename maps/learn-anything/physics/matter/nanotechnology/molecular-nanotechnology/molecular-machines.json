@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - nanotechnology - molecular nanotechnology - molecular machines",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "molecular machines",
+      "url": "http://www.wikiwand.com/en/Molecular_machine",
+      "fx": -224.04529587765967,
+      "fy": -278.3972739361703,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -151.09740259740283,
+      "fy": -127.98701298702383,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=vELfuiUpKM0",
+          "fx": 4.902597402597166,
+          "fy": -116.48701298702383,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "molecular machines",
+      "target": "basics",
+      "curve": {
+        "x": -1.27605,
+        "y": 73.9551
+      }
+    }
+  ],
+  "id": 1481
+}

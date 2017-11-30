@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - machine learning - supervised learning - boosting",
+  "tag": "boosting in machine learning",
+  "nodes": [
+    {
+      "text": "boosting",
+      "url": "http://www.wikiwand.com/en/Boosting_(machine_learning)",
+      "fx": 258.0265242569932,
+      "fy": -160.27319165209792,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 275.56534090908565,
+      "fy": -31.101781031520716,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=UHBmv7qCey4&amp;list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&amp;index=18",
+          "fx": 438.56534090908565,
+          "fy": -18.601781031520716,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "boosting",
+      "target": "basics",
+      "curve": {
+        "x": -4.48059,
+        "y": 63.8357
+      }
+    }
+  ],
+  "id": 797
+}

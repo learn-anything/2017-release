@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - physics - particle physics - elementary particles - neutrino",
+  "tag": "neutrino particles",
+  "nodes": [
+    {
+      "text": "neutrino",
+      "url": "http://www.wikiwand.com/en/Neutrino",
+      "fx": -19.382790789578166,
+      "fy": -51.04873101633109,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -7.880443135246082,
+      "fy": 71.4783768784153,
+      "nodes": [
+        {
+          "text": "1. what is a neutrino",
+          "url": "https://www.youtube.com/watch?v=lAAmAbJvvJg",
+          "fx": 148.11955686475392,
+          "fy": 11.978376878415304,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. why neutrinos matter",
+          "url": "https://www.youtube.com/watch?v=nkydJXigkRE",
+          "fx": 148.11955686475392,
+          "fy": 51.978376878415304,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. neutrinos: nature’s identity thieves",
+          "url": "https://www.youtube.com/watch?v=RGv-pcKRf6Q",
+          "fx": 148.11955686475392,
+          "fy": 91.9783768784153,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. neutrino nobel prize",
+          "url": "https://www.youtube.com/watch?v=XQHw7qQrpf0",
+          "fx": 148.11955686475392,
+          "fy": 153.9783768784153,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "neutrino oscillations  ️",
+      "url": "/physics/particle-physics/elementary-particles/neutrino/neutrino-oscillations",
+      "fx": -146.68469807710835,
+      "fy": 207.157805596275,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neutrino",
+      "target": "basics",
+      "curve": {
+        "x": -5.24883,
+        "y": 60.0135
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neutrino oscillations  ️",
+      "curve": {
+        "x": -41.9022,
+        "y": 67.8397
+      }
+    }
+  ],
+  "id": 1507
+}

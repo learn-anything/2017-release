@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - algebra - equations - linear equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear equations",
+      "url": "http://www.wikiwand.com/en/Linear_equation",
+      "fx": -103.25390625,
+      "fy": -159.3359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. linear equations - part I",
+          "url": "https://www.youtube.com/watch?v=bAerID24QJ0",
+          "fx": 112,
+          "fy": -31.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. linear equations - part II",
+          "url": "https://www.youtube.com/watch?v=bAerID24QJ0",
+          "fx": 112,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "3. linear equations - part III",
+          "url": "https://www.youtube.com/watch?v=bAerID24QJ0",
+          "fx": 112,
+          "fy": 52.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear equations",
+      "target": "basics",
+      "curve": {
+        "x": -4.62305,
+        "y": 77.918
+      }
+    }
+  ],
+  "id": 836
+}

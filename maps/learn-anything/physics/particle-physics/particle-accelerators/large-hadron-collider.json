@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - particle physics - particle accelerators - large hadron collider",
+  "tag": "Large Hadron Collider",
+  "nodes": [
+    {
+      "text": "Large Hadron Collider",
+      "url": "http://www.wikiwand.com/en/Large_Hadron_Collider",
+      "fx": 102.37109375,
+      "fy": -301.8203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 316.5451967138863,
+      "fy": -181.7991498870254,
+      "nodes": [
+        {
+          "text": "putting your hand in the Large Hadron Collider",
+          "url": "https://www.youtube.com/watch?v=_NMqPT6oKJ8",
+          "fx": 515.5451967138863,
+          "fy": -181.7991498870254,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 190.26431379431108,
+      "fy": -54.12420096787184,
+      "nodes": [
+        {
+          "text": "1. how does it work",
+          "url": "https://www.youtube.com/watch?v=qQNpucos9wc",
+          "fx": 353.2643137943111,
+          "fy": -75.12420096787184,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. whats left to do at the Large Hadron Collider",
+          "url": "https://www.youtube.com/watch?v=Jf6cdU4a930",
+          "fx": 353.2643137943111,
+          "fy": -33.12420096787184,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "Large Hadron Collider",
+      "curve": {
+        "x": -70.0871,
+        "y": -59.2606
+      }
+    },
+    {
+      "source": "Large Hadron Collider",
+      "target": "basics",
+      "curve": {
+        "x": -2.05339,
+        "y": 123.098
+      }
+    }
+  ],
+  "id": 1512
+}

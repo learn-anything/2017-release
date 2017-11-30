@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - dom",
+  "tag": "document object model",
+  "nodes": [
+    {
+      "text": "document object model",
+      "url": "http://www.wikiwand.com/en/Document_Object_Model",
+      "fx": 5.5390625,
+      "fy": -78.45703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 85.79766414141409,
+      "fy": 78.1215672348485,
+      "nodes": [
+        {
+          "text": "1. introduction to the DOM",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+          "fx": 267.7976641414141,
+          "fy": 50.6215672348485,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. how browsers work: behind the scenes of modern web browsers",
+          "url": "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/",
+          "fx": 267.7976641414141,
+          "fy": 84.6215672348485,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "document object model",
+      "target": "basics",
+      "curve": {
+        "x": -6.3707,
+        "y": 77.0393
+      }
+    }
+  ],
+  "id": 1863
+}

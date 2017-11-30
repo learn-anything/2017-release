@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - physics - energy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "energy",
+      "url": "http://www.wikiwand.com/en/Energy",
+      "fx": -17.01953125,
+      "fy": -183.703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 1.5689868927001953,
+      "fy": -48.19976234436035,
+      "nodes": [
+        {
+          "text": "1. what is energy",
+          "url": "https://www.youtube.com/watch?v=CW0_S5YpYVo",
+          "fx": 157.5689868927002,
+          "fy": -36.69976234436035,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "conservation of energy  ️",
+      "url": "/physics/energy/conservation-of-energy",
+      "fx": 86.38194932864451,
+      "fy": 100.59687100383627,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dark energy  ️",
+      "url": "/physics/energy/dark-energy",
+      "fx": -113.32361917038008,
+      "fy": 101.01471515098302,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "power",
+      "url": "http://www.wikiwand.com/en/Power_(physics)",
+      "fx": -680.9412364130435,
+      "fy": 104.11531929347814,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "potential energy  ️",
+      "url": "/physics/energy/potential-energy",
+      "fx": -534.0221362421285,
+      "fy": 104.58916967795085,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "kinetic energy  ️",
+      "url": "/physics/energy/kinetic-energy",
+      "fx": -315.17929252356464,
+      "fy": 104.59457981566948,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "energy",
+      "target": "basics",
+      "curve": {
+        "x": 1.29426,
+        "y": 66.5017
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dark energy  ️",
+      "curve": {
+        "x": -45.1963,
+        "y": 74.6072
+      }
+    },
+    {
+      "source": "basics",
+      "target": "conservation of energy  ️",
+      "curve": {
+        "x": 79.4065,
+        "y": 74.3983
+      }
+    },
+    {
+      "source": "basics",
+      "target": "kinetic energy  ️",
+      "curve": {
+        "x": -151.103,
+        "y": 66.9511
+      }
+    },
+    {
+      "source": "basics",
+      "target": "potential energy  ️",
+      "curve": {
+        "x": -303.287,
+        "y": 60.3555
+      }
+    },
+    {
+      "source": "basics",
+      "target": "power",
+      "curve": {
+        "x": -438.731,
+        "y": 38.9952
+      }
+    }
+  ],
+  "id": 1444
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - calculus - differential calculus - derivatives - differential equations - ordinary differential equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ordinary differential equations",
+      "url": "http://www.wikiwand.com/en/Ordinary_differential_equation",
+      "fx": 9.9296875,
+      "fy": -321.75,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 134.33141121031747,
+      "fy": -171.17306857638897,
+      "nodes": [
+        {
+          "text": "1. examples and explanations",
+          "url": "https://www.youtube.com/watch?v=HKvP2ESjJbA&amp;list=PLwIFHT1FWIUJYuP5y6YEM4WWrY4kEmIuS",
+          "fx": 290.33141121031747,
+          "fy": -190.67306857638897,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. numerical methods of ordinary differential equations",
+          "url": "https://www.youtube.com/watch?v=bP2Ug7Mm5RE&amp;list=PLYdroRCLMg5PhZqzEJJlyLo55-1Vdd4Bd",
+          "fx": 290.33141121031747,
+          "fy": -150.67306857638897,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "numerical methods for ordinary differential equations",
+      "url": "http://www.wikiwand.com/en/Numerical_methods_for_ordinary_differential_equations",
+      "fx": -68.705078125,
+      "fy": -30.2890625,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "ordinary differential equations",
+      "target": "basics",
+      "curve": {
+        "x": -2.04914,
+        "y": 74.0385
+      }
+    },
+    {
+      "source": "basics",
+      "target": "numerical methods for ordinary differential equations",
+      "curve": {
+        "x": -44.5182,
+        "y": 77.942
+      }
+    }
+  ],
+  "id": 876
+}

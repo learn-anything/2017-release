@@ -1,0 +1,173 @@
+{
+  "title": "learn anything - programming - programming languages - elm",
+  "tag": "elm programming language",
+  "nodes": [
+    {
+      "text": "elm",
+      "url": "http://www.wikiwand.com/en/Elm_(programming_language)",
+      "fx": -158.22265625,
+      "fy": -386.08984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/elm/",
+          "fx": 1.77734375,
+          "fy": -432.08984375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/elm-lang",
+          "fx": 1.77734375,
+          "fy": -392.08984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/elm",
+          "fx": 1.77734375,
+          "fy": -352.08984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/isRuslan/awesome-elm",
+          "fx": 1.77734375,
+          "fy": -312.08984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -63.7109375,
+      "fy": -256.0390625,
+      "nodes": [
+        {
+          "text": "elm cheat sheet",
+          "url": "https://github.com/izdi/elm-cheat-sheet",
+          "fx": 73.2890625,
+          "fy": -244.5390625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 2.119958012115603,
+      "fy": -135.77417745044193,
+      "nodes": [
+        {
+          "text": "compilers as assistants  ️",
+          "url": "http://elm-lang.org/blog/compilers-as-assistants",
+          "fx": 164.1199580121156,
+          "fy": -124.27417745044193,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 118.04738640069809,
+      "fy": -15.880352021155204,
+      "nodes": [
+        {
+          "text": "16: code is the easy part",
+          "url": "https://www.youtube.com/watch?v=DSjbTC-hvqQ&amp;feature=youtu.be",
+          "fx": 258.0473864006981,
+          "fy": -4.380352021155204,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -157.08805534638554,
+      "fy": 110.56461784638543,
+      "nodes": [
+        {
+          "text": "1. why elm?",
+          "url": "http://www.oreilly.com/web-platform/free/files/why-elm.pdf",
+          "fx": 24.911944653614455,
+          "fy": 71.06461784638543,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. functional programming in elm",
+          "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Home.html",
+          "fx": 24.911944653614455,
+          "fy": 111.06461784638543,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. 25 elm exercises",
+          "url": "https://github.com/bryanjenningz/25-elm-examples",
+          "fx": 24.911944653614455,
+          "fy": 173.06461784638543,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "elm",
+      "target": "basics",
+      "curve": {
+        "x": -0.432699,
+        "y": 247.077
+      }
+    },
+    {
+      "source": "help",
+      "target": "elm",
+      "curve": {
+        "x": -41.5059,
+        "y": -63.7754
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -39.1655,
+        "y": -60.1325
+      }
+    },
+    {
+      "source": "talks",
+      "target": "articles",
+      "curve": {
+        "x": -52.4637,
+        "y": -59.9469
+      }
+    }
+  ],
+  "id": 1590
+}

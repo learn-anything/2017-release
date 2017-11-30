@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - web development - web api",
+  "tag": "web APIs",
+  "nodes": [
+    {
+      "text": "web API",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Web_API",
+      "fx": -27.20904876373629,
+      "fy": -261.4701665521978,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 108.97917592141448,
+      "fy": -156.1964212998409,
+      "nodes": [
+        {
+          "text": "web APIs list",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+          "fx": 245.97917592141448,
+          "fy": -141.6964212998409,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "WebExtensions  ️",
+      "url": "/web-development/web-api/webextensions",
+      "fx": -276.57503568558803,
+      "fy": -49.800838297635835,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "WebAudio  ️",
+      "url": "/web-development/web-api/webaudio",
+      "fx": -42.71469840354314,
+      "fy": -49.1392899493257,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "web API",
+      "curve": {
+        "x": -51.5941,
+        "y": -51.3869
+      }
+    },
+    {
+      "source": "web API",
+      "target": "WebAudio  ️",
+      "curve": {
+        "x": -9.75282,
+        "y": 106.165
+      }
+    },
+    {
+      "source": "web API",
+      "target": "WebExtensions  ️",
+      "curve": {
+        "x": -115.183,
+        "y": 105.835
+      }
+    }
+  ],
+  "id": 1922
+}

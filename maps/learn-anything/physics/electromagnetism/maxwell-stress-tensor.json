@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - electromagnetism - maxwell stress tensor",
+  "tag": "Maxwell stress tensor",
+  "nodes": [
+    {
+      "text": "Maxwell stress tensor",
+      "url": "http://www.wikiwand.com/en/Maxwell_stress_tensor",
+      "fx": -138.28125,
+      "fy": -139.49609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=I7YFhZdi6L0",
+          "fx": 112,
+          "fy": -10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the stress tensor",
+          "url": "https://www.youtube.com/watch?v=uO_bW2zzrNU",
+          "fx": 112,
+          "fy": 31.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Maxwell stress tensor",
+      "target": "basics",
+      "curve": {
+        "x": 6.14062,
+        "y": 68.748
+      }
+    }
+  ],
+  "id": 1438
+}

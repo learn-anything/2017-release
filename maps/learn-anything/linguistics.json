@@ -1,0 +1,249 @@
+{
+  "title": "learn anything - linguistics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linguistics",
+      "url": "http://www.wikiwand.com/en/Linguistics",
+      "fx": -149.60738179831435,
+      "fy": -320.30244361455715,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://linguistics.stackexchange.com/",
+          "fx": 64.39261820168565,
+          "fy": -366.30244361455715,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/linguistics/",
+          "fx": 64.39261820168565,
+          "fy": -326.30244361455715,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "ask linguistics",
+          "url": "https://www.reddit.com/r/asklinguistics/",
+          "fx": 64.39261820168565,
+          "fy": -286.30244361455715,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/theimpossibleastronaut/awesome-linguistics",
+          "fx": 64.39261820168565,
+          "fy": -246.30244361455715,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -136.6802827661686,
+      "fy": -133.44853103522127,
+      "nodes": [
+        {
+          "text": "1. course in general linguistics",
+          "url": "http://home.wlu.edu/~levys/courses/anth252f2006/saussure.pdf",
+          "fx": 45.3197172338314,
+          "fy": -152.94853103522127,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. the atoms of language: the mind's hidden rules of grammar",
+          "url": "https://www.goodreads.com/book/show/926311.The_Atoms_Of_Language",
+          "fx": 45.3197172338314,
+          "fy": -112.94853103522127,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "morphology  ️",
+      "url": "/linguistics/morphology",
+      "fx": -450.11610583843674,
+      "fy": 25.160235176534,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computational linguistics  ️",
+      "url": "/linguistics/computational-linguistics",
+      "fx": -78.83876433006935,
+      "fy": 25.265833980176808,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "formal language  ️",
+      "url": "/linguistics/formal-language",
+      "fx": -669.4616088867188,
+      "fy": 25.409942626953125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "corpus linguistics  ️",
+      "url": "/linguistics/corpus-linguistics",
+      "fx": -900.5564727783203,
+      "fy": 29.38484764099121,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "languages  ️",
+      "url": "/linguistics/languages",
+      "fx": -258.47427515040124,
+      "fy": 30.41741519050686,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "linguistic modality  ️",
+      "url": "/linguistics/linguistic-modality",
+      "fx": -1138.118741054029,
+      "fy": 32.0069880291054,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "semantics  ️",
+      "url": "/linguistics/semantics",
+      "fx": -1311.3671874999998,
+      "fy": 33.650178380648185,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "phonology",
+      "url": "http://www.wikiwand.com/en/Phonology",
+      "fx": -1486.4586758872333,
+      "fy": 35.67095332182646,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "translation  ️",
+      "url": "/linguistics/translation",
+      "fx": -347.3984375,
+      "fy": 151.16354549632342,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "phonetics",
+      "url": "http://www.wikiwand.com/en/Phonetics",
+      "fx": -1575.9825571925182,
+      "fy": 155.20771327557077,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "linguistics",
+      "target": "basics",
+      "curve": {
+        "x": -1.28647,
+        "y": 93.427
+      }
+    },
+    {
+      "source": "basics",
+      "target": "languages  ️",
+      "curve": {
+        "x": -51.3971,
+        "y": 83.183
+      }
+    },
+    {
+      "source": "basics",
+      "target": "computational linguistics  ️",
+      "curve": {
+        "x": 70.6707,
+        "y": 80.6072
+      }
+    },
+    {
+      "source": "basics",
+      "target": "morphology  ️",
+      "curve": {
+        "x": -116.051,
+        "y": 52.7195
+      }
+    },
+    {
+      "source": "basics",
+      "target": "formal language  ️",
+      "curve": {
+        "x": -284.174,
+        "y": 43.7025
+      }
+    },
+    {
+      "source": "basics",
+      "target": "corpus linguistics  ️",
+      "curve": {
+        "x": -449.255,
+        "y": 33.5026
+      }
+    },
+    {
+      "source": "languages  ️",
+      "target": "translation  ️",
+      "curve": {
+        "x": -51.712,
+        "y": 59.1231
+      }
+    },
+    {
+      "source": "basics",
+      "target": "linguistic modality  ️",
+      "curve": {
+        "x": -602.475,
+        "y": 7.86103
+      }
+    },
+    {
+      "source": "basics",
+      "target": "semantics  ️",
+      "curve": {
+        "x": -795.812,
+        "y": 16.397
+      }
+    },
+    {
+      "source": "phonology",
+      "target": "phonetics",
+      "curve": {
+        "x": -46.2619,
+        "y": 59.7684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "phonology",
+      "curve": {
+        "x": -950.592,
+        "y": 17.3527
+      }
+    }
+  ],
+  "id": 748
+}

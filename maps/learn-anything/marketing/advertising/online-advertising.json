@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - marketing - advertising - online advertising",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "online advertising",
+      "url": "http://www.wikiwand.com/en/Online_advertising",
+      "fx": -84.171875,
+      "fy": -204.61328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -33.7265625,
+      "fy": -43.18359375,
+      "nodes": [
+        {
+          "text": "1. the evolution of online display advertising",
+          "url": "https://www.youtube.com/watch?v=1C0n_9DOlwE",
+          "fx": 122.2734375,
+          "fy": -42.68359375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "AdWords",
+      "url": "http://www.wikiwand.com/en/AdWords",
+      "fx": -202.8034188034187,
+      "fy": 114.93162393164755,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "online advertising",
+      "target": "basics",
+      "curve": {
+        "x": -6.52734,
+        "y": 79.4648
+      }
+    },
+    {
+      "source": "basics",
+      "target": "AdWords",
+      "curve": {
+        "x": -70.7884,
+        "y": 80.3076
+      }
+    }
+  ],
+  "id": 806
+}

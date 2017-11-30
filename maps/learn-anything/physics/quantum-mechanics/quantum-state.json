@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum state",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum state",
+      "url": "http://www.wikiwand.com/en/Quantum_state",
+      "fx": 116.94129554655876,
+      "fy": -227.15315030364377,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 171.92165327341547,
+      "fy": -73.47950572752012,
+      "nodes": [
+        {
+          "text": "1. introduction to quantum mechanics, probability amplitudes and quantum state",
+          "url": "https://www.youtube.com/watch?v=AufmV0P6mA0",
+          "fx": 334.9216532734155,
+          "fy": -119.47950572752012,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. quantum states and Puali exclusion",
+          "url": "https://www.youtube.com/watch?v=RcD-v5-3U-M",
+          "fx": 334.9216532734155,
+          "fy": -27.47950572752012,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "wave function  ️",
+      "url": "/physics/quantum-mechanics/quantum-state/wave-function",
+      "fx": 16.030997399279954,
+      "fy": 90.81663255667485,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum state",
+      "target": "basics",
+      "curve": {
+        "x": -0.00982442,
+        "y": 76.0868
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wave function  ️",
+      "curve": {
+        "x": -59.6953,
+        "y": 82.1481
+      }
+    }
+  ],
+  "id": 1539
+}

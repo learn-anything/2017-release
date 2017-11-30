@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - mathematics - geometry - algebraic geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "algebraic geometry",
+      "url": "http://www.wikiwand.com/en/Algebraic_geometry",
+      "fx": -53.2890625,
+      "fy": -427.68359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 108.52854859983904,
+      "fy": -312.513818461489,
+      "nodes": [
+        {
+          "text": "why is algebraic geometry so versatile?",
+          "url": "https://www.reddit.com/r/math/comments/r519l/why_is_modernalgebraic_geometry_so_versatile/c42y5bt/",
+          "fx": 245.52854859983904,
+          "fy": -312.013818461489,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 156.8112953006936,
+      "fy": -192.08708201117315,
+      "nodes": [
+        {
+          "text": "symplectic algebraic geometry and quiver varieties",
+          "url": "https://web.stanford.edu/~tonyfeng/Ginzburg.pdf",
+          "fx": 347.8112953006936,
+          "fy": -191.58708201117315,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -21.213649482843607,
+      "fy": 4.02365624502761,
+      "nodes": [
+        {
+          "text": "1. the rising sea: foundations of algebraic geometry notes",
+          "url": "http://math.stanford.edu/%7Evakil/216blog/",
+          "fx": 160.7863505171564,
+          "fy": -57.47634375497239,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction to algebraic geometry",
+          "url": "http://math.stanford.edu/%7Evakil/725/course.html",
+          "fx": 160.7863505171564,
+          "fy": 4.52365624502761,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. an introduction to algebraic geometry",
+          "url": "http://www.math.lsa.umich.edu/%7Ewfulton/CurveBook.pdf",
+          "fx": 160.7863505171564,
+          "fy": 66.52365624502761,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "algebraic geometry",
+      "curve": {
+        "x": -40.1588,
+        "y": -56.3349
+      }
+    },
+    {
+      "source": "algebraic geometry",
+      "target": "basics",
+      "curve": {
+        "x": -19.9623,
+        "y": 214.604
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -37.6414,
+        "y": -60.2134
+      }
+    }
+  ],
+  "id": 934
+}

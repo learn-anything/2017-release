@@ -1,0 +1,95 @@
+{
+  "title": "learn anything - physics - particle physics - string theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "string theory",
+      "url": "http://www.wikiwand.com/en/String_theory",
+      "fx": -150.2748395877892,
+      "fy": -168.12026738406576,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -108.96997668025267,
+      "fy": 41.78022249500765,
+      "nodes": [
+        {
+          "text": "1. making sense of string theory",
+          "url": "https://www.ted.com/talks/brian_greene_on_string_theory",
+          "fx": 73.03002331974733,
+          "fy": -70.21977750499235,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the case for string theory",
+          "url": "https://www.youtube.com/watch?v=Q8ccXzM3x8A",
+          "fx": 73.03002331974733,
+          "fy": -30.21977750499235,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. the elegant universe: superstrings, hidden dimensions and the quest for the ultimate theory",
+          "url": "http://www.goodreads.com/book/show/8049273-the-elegant-universe",
+          "fx": 73.03002331974733,
+          "fy": 9.78022249500765,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1 a first course in string theory",
+          "url": "http://www.goodreads.com/book/show/17360.A_First_Course_in_String_Theory",
+          "fx": 73.03002331974733,
+          "fy": 114.78022249500765,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. string theory and M-theory: a modern introduction",
+          "url": "http://www.goodreads.com/book/show/222587.String_Theory_and_M_Theory",
+          "fx": 73.03002331974733,
+          "fy": 154.78022249500765,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "superstring theory",
+      "url": "http://www.wikiwand.com/en/Superstring_theory",
+      "fx": -244.8656248229761,
+      "fy": 207.80938438225132,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "string theory",
+      "target": "basics",
+      "curve": {
+        "x": -0.0975682,
+        "y": 103.7
+      }
+    },
+    {
+      "source": "basics",
+      "target": "superstring theory",
+      "curve": {
+        "x": -34.4478,
+        "y": 84.2646
+      }
+    }
+  ],
+  "id": 1516
+}

@@ -1,0 +1,288 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory",
+  "tag": "probabiliy theory",
+  "nodes": [
+    {
+      "text": "probability theory",
+      "url": "http://www.wikiwand.com/en/Probability_theory",
+      "fx": 18.319942987806826,
+      "fy": -567.4084883567871,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 193.03046071399376,
+      "fy": -401.46073171789607,
+      "nodes": [
+        {
+          "text": "probability notes  ️",
+          "url": "http://frnsys.com/ai_notes/foundations/probability.html",
+          "fx": 330.03046071399376,
+          "fy": -493.96073171789607,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "probability theory review for machine learning",
+          "url": "https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf",
+          "fx": 330.03046071399376,
+          "fy": -453.96073171789607,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "the probability and statistics cookbook",
+          "url": "https://github.com/mavam/stat-cookbook",
+          "fx": 330.03046071399376,
+          "fy": -397.96073171789607,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "probability theory overview",
+          "url": "http://www.cedar.buffalo.edu/~srihari/CSE574/Chap1/Probability-Theory.pdf",
+          "fx": 330.03046071399376,
+          "fy": -335.96073171789607,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "probability theory for machine learning",
+          "url": "http://www.cs.toronto.edu/~urtasun/courses/CSC411_Fall16/tutorial1.pdf",
+          "fx": 330.03046071399376,
+          "fy": -301.96073171789607,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 2.7363247546496723,
+      "fy": -153.0642302299288,
+      "nodes": [
+        {
+          "text": "1. Grinstead and Snell’s introduction to probability",
+          "url": "https://www.math.dartmouth.edu//~prob/prob/prob.pdf",
+          "fx": 184.73632475464967,
+          "fy": -220.5642302299288,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. probability theory: the logic of science",
+          "url": "http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf",
+          "fx": 184.73632475464967,
+          "fy": -158.5642302299288,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. probability: theory and examples",
+          "url": "http://www.goodreads.com/book/show/9632300-probability",
+          "fx": 184.73632475464967,
+          "fy": -96.5642302299288,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. review of probability theory",
+          "url": "http://cs229.stanford.edu/section/cs229-prob.pdf",
+          "fx": 184.73632475464967,
+          "fy": -56.564230229928796,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "probability distributions  ️",
+      "url": "/mathematics/statistics/probability-theory/distributions",
+      "fx": -242.517070660405,
+      "fy": 79.18478810639533,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "prediction market",
+      "url": "http://www.wikiwand.com/en/Prediction_market",
+      "fx": -485.732203609409,
+      "fy": 79.96989906272495,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "markov chains  ️",
+      "note": "are stochastic processes that satisfy the Markov property (sometimes characterised as ‘memorylessness’)  a process satisfies the Markov property if one can make predictions for the future of the process based solely on its present state just as well as one could knowing the process’s full history, hence independently from such history (i.e. conditional on the present state of the system, its future and paste states are independent)  a Markov chain is a type of Markov process that has either discrete state space or discrete index set (often representing time), but the precise definition of a Markov chain varies",
+      "url": "/mathematics/statistics/probability-theory/markov-chains",
+      "fx": 51.847304043704526,
+      "fy": 80.81032321877683,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "conditional probability  ️",
+      "url": "/mathematics/statistics/probability-theory/conditional-probability",
+      "fx": -756.2307586669922,
+      "fy": 82.46343231201172,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sample space",
+      "url": "http://www.wikiwand.com/en/Sample_space",
+      "fx": -2232.912569665605,
+      "fy": 85.65535429936267,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "expected value  ️",
+      "url": "/mathematics/statistics/probability-theory/expected-value",
+      "fx": -968.3375946969668,
+      "fy": 87.93832859841825,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "randomness  ️",
+      "url": "/mathematics/statistics/probability-theory/randomness",
+      "fx": -2016.2945556640625,
+      "fy": 88.61287689208984,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "random variables  ️",
+      "url": "/mathematics/statistics/probability-theory/random-variables",
+      "fx": -1202.2441151638952,
+      "fy": 91.15647361491597,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Kolmogorov extension theorem",
+      "url": "http://www.wikiwand.com/en/Kolmogorov_extension_theorem",
+      "fx": -1820.8750272224859,
+      "fy": 93.65788594178719,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "probability axioms  ️",
+      "url": "/mathematics/statistics/probability-theory/probability-axioms",
+      "fx": -1448.2169524336284,
+      "fy": 93.77316095132744,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "probability theory",
+      "target": "basics",
+      "curve": {
+        "x": -39.2918,
+        "y": 205.922
+      }
+    },
+    {
+      "source": "basics",
+      "target": "markov chains  ️",
+      "curve": {
+        "x": 50.0551,
+        "y": 118.187
+      }
+    },
+    {
+      "source": "basics",
+      "target": "prediction market",
+      "curve": {
+        "x": -218.485,
+        "y": 117.766
+      }
+    },
+    {
+      "source": "basics",
+      "target": "probability distributions  ️",
+      "curve": {
+        "x": -116.127,
+        "y": 116.124
+      }
+    },
+    {
+      "source": "basics",
+      "target": "conditional probability  ️",
+      "curve": {
+        "x": -380.379,
+        "y": 92.7443
+      }
+    },
+    {
+      "source": "basics",
+      "target": "expected value  ️",
+      "curve": {
+        "x": -539.942,
+        "y": 68.2901
+      }
+    },
+    {
+      "source": "help",
+      "target": "probability theory",
+      "curve": {
+        "x": -51.1054,
+        "y": -81.7238
+      }
+    },
+    {
+      "source": "basics",
+      "target": "random variables  ️",
+      "curve": {
+        "x": -702.373,
+        "y": 46.1338
+      }
+    },
+    {
+      "source": "basics",
+      "target": "probability axioms  ️",
+      "curve": {
+        "x": -959.891,
+        "y": 76.6921
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Kolmogorov extension theorem",
+      "curve": {
+        "x": -1102.94,
+        "y": 69.1653
+      }
+    },
+    {
+      "source": "basics",
+      "target": "randomness  ️",
+      "curve": {
+        "x": -1366.36,
+        "y": 35.0065
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sample space",
+      "curve": {
+        "x": -1373.82,
+        "y": -0.380591
+      }
+    }
+  ],
+  "id": 1106
+}

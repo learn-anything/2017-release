@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - energy - potential energy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "potential energy",
+      "url": "http://www.wikiwand.com/en/Potential_energy",
+      "fx": 210.89453125,
+      "fy": -165.49609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 256.73046875,
+      "fy": -36.98828125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=8a4D2xqHBF4",
+          "fx": 412.73046875,
+          "fy": -25.48828125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "potential energy",
+      "target": "basics",
+      "curve": {
+        "x": -5.83203,
+        "y": 63.0039
+      }
+    }
+  ],
+  "id": 1443
+}

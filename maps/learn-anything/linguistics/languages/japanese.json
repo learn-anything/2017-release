@@ -1,0 +1,120 @@
+{
+  "title": "learn anything - linguistics - languages - japanese",
+  "tag": "japanese language",
+  "nodes": [
+    {
+      "text": "japanese language",
+      "url": "http://www.wikiwand.com/en/Japanese_language",
+      "fx": -99.4140625,
+      "fy": -256.77734375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/LearnJapanese/",
+          "fx": 197.5859375,
+          "fy": -262.77734375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://japanese.stackexchange.com/",
+          "fx": 197.5859375,
+          "fy": -222.77734375,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 58.6875,
+      "fy": -139.65386284722229,
+      "nodes": [
+        {
+          "text": "how I learned to learn japanese",
+          "url": "https://www.reddit.com/r/LearnJapanese/comments/4vhe30/6_months_later_how_i_learned_to_learn_japanese/",
+          "fx": 195.6875,
+          "fy": -145.15386284722229,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "remembering the Kanji",
+          "url": "https://www.memrise.com/course/43670/remembering-the-kanji-volume-1/",
+          "fx": 195.6875,
+          "fy": -105.15386284722229,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 301.9305555555552,
+      "fy": -15.958333333333314,
+      "nodes": [
+        {
+          "text": "17: how I learned japanese interview  ️",
+          "url": "https://www.koipun.com/blog/how-i-learned-japanese-bryan-from-kuro-pixel",
+          "fx": 463.9305555555552,
+          "fy": -15.458333333333314,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -50.12314642398837,
+      "fy": 101.6302836277743,
+      "nodes": [
+        {
+          "text": "1. the path to japanese fluency  ️",
+          "url": "https://kumasensei.net/the-path-to-japanese-fluency/",
+          "fx": 131.87685357601163,
+          "fy": 113.1302836277743,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "japanese language",
+      "target": "basics",
+      "curve": {
+        "x": -10.6046,
+        "y": 177.954
+      }
+    },
+    {
+      "source": "help",
+      "target": "japanese language",
+      "curve": {
+        "x": -39.0508,
+        "y": -57.3117
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -146.833,
+        "y": -43.4493
+      }
+    }
+  ],
+  "id": 730
+}

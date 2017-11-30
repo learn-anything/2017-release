@@ -1,0 +1,100 @@
+{
+  "title": "learn anything - physics - continuum mechanics - fluids - fluid mechanics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fluid mechanics",
+      "url": "http://www.wikiwand.com/en/Fluid_mechanics",
+      "fx": -37.45703125,
+      "fy": -137.78125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 13.919905891980193,
+      "fy": 12.741004756546658,
+      "nodes": [
+        {
+          "text": "1. intro to fluid mechanics",
+          "url": "https://www.youtube.com/watch?v=pAuQ4Hj2ZrU",
+          "fx": 169.9199058919802,
+          "fy": -32.75899524345334,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. fluids in motion",
+          "url": "https://www.youtube.com/watch?v=fJefjG3xhW0",
+          "fx": 169.9199058919802,
+          "fy": 7.241004756546658,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. fundamentals of fluid mechanics",
+          "url": "https://www.vssut.ac.in/lecture_notes/lecture1427495313.pdf",
+          "fx": 169.9199058919802,
+          "fy": 47.24100475654666,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to fluid mechanics",
+          "url": "http://www.efm.leeds.ac.uk/CIVE/CIVE1400/PDF/Notes/section_all2.pdf",
+          "fx": 169.9199058919802,
+          "fy": 81.24100475654666,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "viscous fluids  ️",
+      "url": "/physics/continuum-mechanics/fluids/fluid-mechanics/viscous-fluids",
+      "fx": -171.36599159240723,
+      "fy": 192.12716674804688,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fluid dynamics  ️",
+      "url": "/physics/continuum-mechanics/fluids/fluid-mechanics/fluid-dynamics",
+      "fx": 23.76836271367597,
+      "fy": 194.22482638888903,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "fluid mechanics",
+      "target": "basics",
+      "curve": {
+        "x": -2.06153,
+        "y": 74.0112
+      }
+    },
+    {
+      "source": "basics",
+      "target": "viscous fluids  ️",
+      "curve": {
+        "x": -69.893,
+        "y": 90.943
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fluid dynamics  ️",
+      "curve": {
+        "x": 22.6743,
+        "y": 90.7419
+      }
+    }
+  ],
+  "id": 1410
+}

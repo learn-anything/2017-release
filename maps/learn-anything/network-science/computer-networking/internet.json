@@ -1,0 +1,134 @@
+{
+  "title": "learn anything - network science - computer networking - internet",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "internet",
+      "url": "http://www.wikiwand.com/en/Internet",
+      "fx": -61.37759387351764,
+      "fy": -178.82806324110672,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 82.07962779973252,
+      "fy": -79.09323534260756,
+      "nodes": [
+        {
+          "text": "the shape of the internet is changing  ️",
+          "url": "http://carlos.bueno.org/2013/03/internet-shape.html",
+          "fx": 244.07962779973252,
+          "fy": -78.59323534260756,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -79.91193181818187,
+      "fy": 90.87748064883596,
+      "nodes": [
+        {
+          "text": "1. how the internet works  ️",
+          "url": "https://thesquareplanet.com/blog/how-the-internet-works/",
+          "fx": 102.08806818181813,
+          "fy": 40.377480648835956,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. the internet: packets, routing and reliability",
+          "url": "https://www.youtube.com/watch?v=AYdF7b3nMto",
+          "fx": 102.08806818181813,
+          "fy": 80.37748064883596,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. how the internet works for developers",
+          "url": "https://www.youtube.com/watch?v=e4S8zfLdLgQ",
+          "fx": 102.08806818181813,
+          "fy": 142.37748064883596,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "net neutrality  ️",
+      "url": "/network-science/computer-networking/internet/net-neutrality",
+      "fx": -258.7307139923997,
+      "fy": 266.54700269633156,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "domain names",
+      "url": "http://www.wikiwand.com/en/Domain_name",
+      "fx": -63.554547991071104,
+      "fy": 269.5512695312501,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "domain name system  ️",
+      "url": "/network-science/computer-networking/internet/domain-name-system",
+      "fx": -95.39026096888949,
+      "fy": 412.195894105094,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "internet",
+      "target": "basics",
+      "curve": {
+        "x": -19.0172,
+        "y": 133.603
+      }
+    },
+    {
+      "source": "articles",
+      "target": "internet",
+      "curve": {
+        "x": -63.4786,
+        "y": -48.6174
+      }
+    },
+    {
+      "source": "basics",
+      "target": "net neutrality  ️",
+      "curve": {
+        "x": -81.4094,
+        "y": 87.8347
+      }
+    },
+    {
+      "source": "domain names",
+      "target": "domain name system  ️",
+      "curve": {
+        "x": 1.6177,
+        "y": 70.5723
+      }
+    },
+    {
+      "source": "basics",
+      "target": "domain names",
+      "curve": {
+        "x": 27.9287,
+        "y": 90.5869
+      }
+    }
+  ],
+  "id": 1210
+}

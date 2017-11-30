@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space - dual spaces",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "dual spaces",
+      "url": "http://www.wikiwand.com/en/Dual_space",
+      "fx": 108.30859375,
+      "fy": -107.03387303743966,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. explanation: part I",
+          "url": "https://www.youtube.com/watch?v=kxOpozNkUg4",
+          "fx": 310,
+          "fy": -1.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. explanation: part II",
+          "url": "https://www.youtube.com/watch?v=58H91KsZTcQ",
+          "fx": 310,
+          "fy": 40.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "3. explanation: part III",
+          "url": "https://www.youtube.com/watch?v=CqWhvSJHBqI",
+          "fx": 310,
+          "fy": 82.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "4. explanation: part IV",
+          "url": "https://www.youtube.com/watch?v=bh4r8WcZakw",
+          "fx": 310,
+          "fy": 124.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dual spaces",
+      "target": "basics",
+      "curve": {
+        "x": -2.9043,
+        "y": 77.2669
+      }
+    }
+  ],
+  "id": 988
+}

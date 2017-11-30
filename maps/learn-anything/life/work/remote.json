@@ -1,0 +1,124 @@
+{
+  "title": "learn anything - life - work - remote",
+  "tag": "remote work",
+  "nodes": [
+    {
+      "text": "remote work",
+      "url": "",
+      "fx": -66.61561343818903,
+      "fy": -95.93005180358887,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/jessicard/remote-jobs",
+          "fx": 145.38438656181097,
+          "fy": -84.43005180358887,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 55.996299075275715,
+      "fy": 21.49173629133611,
+      "nodes": [
+        {
+          "text": "awesome hacking spots",
+          "url": "https://github.com/diasdavid/awesome-hacking-spots",
+          "fx": 192.99629907527572,
+          "fy": 32.99173629133611,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 108.56329618516656,
+      "fy": 131.631208958892,
+      "nodes": [
+        {
+          "text": "nomad list",
+          "url": "https://nomadlist.com/",
+          "fx": 250.56329618516656,
+          "fy": 146.131208958892,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -65.89447016858344,
+      "fy": 232.43777793361892,
+      "nodes": [
+        {
+          "text": "1. ultimate guide to remote work",
+          "url": "https://zapier.com/learn/remote-work/",
+          "fx": 90.10552983141656,
+          "fy": 243.93777793361892,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "find remote work",
+      "url": "",
+      "fx": -122.30531299133668,
+      "fy": 381.4887112903473,
+      "nodes": [
+        {
+          "text": "remote friendly",
+          "url": "https://remotefriendly.work/",
+          "fx": 128.69468700866332,
+          "fy": 395.9887112903473,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "remote work",
+      "target": "basics",
+      "curve": {
+        "x": -13.6395,
+        "y": 164.184
+      }
+    },
+    {
+      "source": "help",
+      "target": "remote work",
+      "curve": {
+        "x": -42.5559,
+        "y": -58.7109
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -27.5335,
+        "y": -55.0697
+      }
+    },
+    {
+      "source": "basics",
+      "target": "find remote work",
+      "curve": {
+        "x": -4.45542,
+        "y": 74.5255
+      }
+    }
+  ],
+  "id": 701
+}

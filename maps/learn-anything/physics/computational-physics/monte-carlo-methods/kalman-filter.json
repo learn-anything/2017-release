@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - computational physics - monte carlo methods - kalman filter",
+  "tag": "Kalman filter",
+  "nodes": [
+    {
+      "text": "Kalman filter",
+      "url": "http://www.wikiwand.com/en/Kalman_filter",
+      "fx": -87.6259962618351,
+      "fy": -205.91873359680176,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51.54216483235359,
+      "fy": -45.449047565460205,
+      "nodes": [
+        {
+          "text": "1. how a Kalman filter works, in pictures  ️",
+          "url": "http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/",
+          "fx": 104.45783516764641,
+          "fy": -44.949047565460205,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Kalman filter",
+      "target": "basics",
+      "curve": {
+        "x": -2.45808,
+        "y": 78.9848
+      }
+    }
+  ],
+  "id": 1400
+}

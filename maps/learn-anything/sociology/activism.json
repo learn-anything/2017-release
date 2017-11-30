@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - sociology - activism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "activism",
+      "note": "consists of efforts to promote, impede, or direct social, political, economic, and/or environmental reform or stasis with the desire to make improvements in society  forms of activism range from writing letters to newspapers or to politicians, political campaigning, economic activism such as boycotts or preferentially patronising businesses, rallies, street marches, strikes, sit-ins, and hunger strikes",
+      "url": "http://www.wikiwand.com/en/Activism",
+      "fx": -95.16796875,
+      "fy": -420.71875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 15.212673611111086,
+      "fy": -303.2117800245097,
+      "nodes": [
+        {
+          "text": "tools for activism",
+          "url": "https://github.com/drewrwilson/toolsforactivism",
+          "fx": 156.2126736111111,
+          "fy": -290.7117800245097,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 71.74357264002663,
+      "fy": -180.8452198126256,
+      "nodes": [
+        {
+          "text": "NoamChomsky - becoming a political activist",
+          "url": "https://www.youtube.com/watch?v=ikCgqzekFqM",
+          "fx": 270.7435726400266,
+          "fy": -180.8452198126256,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "activism",
+      "curve": {
+        "x": -31.4403,
+        "y": -58.0035
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -42.7654,
+        "y": -61.1833
+      }
+    }
+  ],
+  "id": 1781
+}

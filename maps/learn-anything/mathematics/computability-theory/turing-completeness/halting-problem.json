@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - computability theory - turing completeness - halting problem",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "halting problem",
+      "url": "http://www.wikiwand.com/en/Halting_problem",
+      "fx": -105.8203125,
+      "fy": -117.98046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.519067796610216,
+      "fy": 10.610897775423837,
+      "nodes": [
+        {
+          "text": "1. turing &amp; the halting problem",
+          "url": "https://www.youtube.com/watch?v=macM_MtS_w4",
+          "fx": 105.48093220338978,
+          "fy": 22.110897775423837,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "halting problem",
+      "target": "basics",
+      "curve": {
+        "x": -0.0993776,
+        "y": 63.0457
+      }
+    }
+  ],
+  "id": 923
+}

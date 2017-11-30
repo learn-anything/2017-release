@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis - holomorphic functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "holomorphic functions",
+      "url": "http://www.wikiwand.com/en/Holomorphic_function",
+      "fx": 113.91796875000011,
+      "fy": -206.02115885416669,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 199.33333333333326,
+      "fy": -65.04557291665003,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=lIBGZIykXNw",
+          "fx": 362.33333333333326,
+          "fy": -52.54557291665003,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Cauchy's integral formula  ️",
+      "url": "/mathematics/analysis/complex-analysis/holomorphic-functions/cauchys-integral-formula",
+      "fx": -25.704752604168846,
+      "fy": 91.27864583334292,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "holomorphic functions",
+      "target": "basics",
+      "curve": {
+        "x": -4.04232,
+        "y": 69.7378
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Cauchy's integral formula  ️",
+      "curve": {
+        "x": -58.519,
+        "y": 78.9121
+      }
+    }
+  ],
+  "id": 858
+}

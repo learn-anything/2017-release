@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - redshift",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "redshift",
+      "url": "http://www.wikiwand.com/en/Redshift",
+      "fx": -65,
+      "fy": -271.31640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -54.36328125,
+      "fy": -128.4296875,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=mx2M_ZKXM_c",
+          "fx": 101.63671875,
+          "fy": -116.9296875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "redshift",
+      "target": "basics",
+      "curve": {
+        "x": -3.93164,
+        "y": 70.1934
+      }
+    }
+  ],
+  "id": 1432
+}

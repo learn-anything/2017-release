@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - proteins - amino acids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "amino acids",
+      "url": "http://www.wikiwand.com/en/Amino_acid",
+      "fx": 102.96099580223881,
+      "fy": -86.57655083955223,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141,
+      "fy": 37.330806902985046,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Pk4d9lY48GI",
+          "fx": 304,
+          "fy": 49.830806902985046,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "glutamine",
+      "url": "http://www.wikiwand.com/en/Glutamine",
+      "fx": -119.0102653503418,
+      "fy": 172.00559616088867,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "aspartic acid",
+      "url": "http://www.wikiwand.com/en/Aspartic_acid",
+      "fx": -325.1382865905762,
+      "fy": 174.64366912841797,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "lysine",
+      "url": "http://www.wikiwand.com/en/Lysine",
+      "fx": 55.07584571838379,
+      "fy": 174.7316551208496,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "threonine",
+      "url": "http://www.wikiwand.com/en/Threonine",
+      "fx": 188.1519546508789,
+      "fy": 177.4619483947754,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "alanine",
+      "url": "http://www.wikiwand.com/en/Alanine",
+      "fx": 358.10906982421875,
+      "fy": 179.31727600097656,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "amino acids",
+      "target": "basics",
+      "curve": {
+        "x": -2.9805,
+        "y": 61.2037
+      }
+    },
+    {
+      "source": "basics",
+      "target": "aspartic acid",
+      "curve": {
+        "x": -240.042,
+        "y": 46.8517
+      }
+    },
+    {
+      "source": "basics",
+      "target": "glutamine",
+      "curve": {
+        "x": -130.849,
+        "y": 68.0874
+      }
+    },
+    {
+      "source": "basics",
+      "target": "lysine",
+      "curve": {
+        "x": -45.2121,
+        "y": 68.7004
+      }
+    },
+    {
+      "source": "basics",
+      "target": "threonine",
+      "curve": {
+        "x": 30.326,
+        "y": 70.0656
+      }
+    },
+    {
+      "source": "basics",
+      "target": "alanine",
+      "curve": {
+        "x": 150.949,
+        "y": 71.7432
+      }
+    }
+  ],
+  "id": 1465
+}

@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - mathematics - algebra - boolean algebra",
+  "tag": "boolean logic",
+  "nodes": [
+    {
+      "text": "boolean algebra",
+      "url": "http://www.wikiwand.com/en/Boolean_algebra",
+      "fx": -96.40234375,
+      "fy": -176.59765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 76.41451452899446,
+      "fy": -87.18410702888542,
+      "nodes": [
+        {
+          "text": "boolean operators: cheat sheet",
+          "url": "https://hsl.lib.umn.edu/biomed/help/boolean-operators",
+          "fx": 213.41451452899446,
+          "fy": -72.68410702888542,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 152.1096196864562,
+      "fy": 24.303196212337923,
+      "nodes": [
+        {
+          "text": "1938: symbolic analysis of relay and switching circuits",
+          "url": "http://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425-MIT.pdf?sequence=2",
+          "fx": 343.1096196864562,
+          "fy": 24.803196212337923,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -60.93538888891135,
+      "fy": 151.5994556913314,
+      "nodes": [
+        {
+          "text": "1. boolean logic &amp; logic gates",
+          "url": "https://www.youtube.com/watch?v=gI-qXk7XojA",
+          "fx": 121.06461111108865,
+          "fy": 163.0994556913314,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "boolean algebra",
+      "target": "basics",
+      "curve": {
+        "x": -11.2665,
+        "y": 162.849
+      }
+    },
+    {
+      "source": "help",
+      "target": "boolean algebra",
+      "curve": {
+        "x": -52.6584,
+        "y": -43.4568
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -51.3476,
+        "y": -55.7437
+      }
+    }
+  ],
+  "id": 835
+}

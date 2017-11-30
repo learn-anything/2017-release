@@ -1,0 +1,99 @@
+{
+  "title": "learn anything - philosophy - ideas",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ideas",
+      "url": "http://www.wikiwand.com/en/Idea",
+      "fx": 43.7578125,
+      "fy": -241.09375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 163.6474309815951,
+      "fy": -140.55080521472382,
+      "nodes": [
+        {
+          "text": "where do the ideas come from?",
+          "url": "https://www.youtube.com/watch?v=G3XMEMJUkWw",
+          "fx": 354.6474309815951,
+          "fy": -129.05080521472382,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 44.35817631418479,
+      "fy": -55.9093222199657,
+      "nodes": [
+        {
+          "text": "1. what is an idea?",
+          "url": "https://www.youtube.com/watch?v=SObDW4fXRZQ",
+          "fx": 200.3581763141848,
+          "fy": -44.4093222199657,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "new ideas  ️",
+      "url": "/philosophy/ideas/new-ideas",
+      "fx": 104.39572886819474,
+      "fy": 70.83045308022918,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "concepts  ️",
+      "url": "/philosophy/ideas/concepts",
+      "fx": -80.67113095238085,
+      "fy": 72.73602843915342,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "ideas",
+      "target": "basics",
+      "curve": {
+        "x": -4.44982,
+        "y": 91.3422
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "ideas",
+      "curve": {
+        "x": -63.9448,
+        "y": -49.0215
+      }
+    },
+    {
+      "source": "basics",
+      "target": "new ideas  ️",
+      "curve": {
+        "x": 38.5188,
+        "y": 63.3699
+      }
+    },
+    {
+      "source": "basics",
+      "target": "concepts  ️",
+      "curve": {
+        "x": -55.7647,
+        "y": 64.3227
+      }
+    }
+  ],
+  "id": 1328
+}

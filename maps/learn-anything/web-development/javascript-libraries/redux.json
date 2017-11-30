@@ -1,0 +1,166 @@
+{
+  "title": "learn anything - web development - javascript libraries - redux",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "redux",
+      "url": "https://github.com/reactjs/redux",
+      "fx": -27.285615414789845,
+      "fy": -333.08123141071815,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/reduxjs/",
+          "fx": 157.71438458521015,
+          "fy": -340.08123141071815,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/brillout/awesome-redux",
+          "fx": 157.71438458521015,
+          "fy": -298.0812314107181,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 93.69911198778573,
+      "fy": -195.25223943278746,
+      "nodes": [
+        {
+          "text": "slim redux",
+          "note": "redux without the sanity checks in a single file",
+          "url": "https://gist.github.com/gaearon/ffd88b0e4f00b22c3159",
+          "fx": 234.69911198778573,
+          "fy": -203.75223943278746,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "react redux cheat sheet",
+          "url": "https://github.com/uanders/react-redux-cheatsheet",
+          "fx": 234.69911198778573,
+          "fy": -161.75223943278746,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 253.6466670652635,
+      "fy": -63.72618383290438,
+      "nodes": [
+        {
+          "text": "16: two weird tricks with redux  ️",
+          "url": "http://jlongster.com/Two-Weird-Tricks-with-Redux",
+          "fx": 422.6466670652635,
+          "fy": -51.22618383290438,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -203.41116488311866,
+      "fy": 197.96091153858436,
+      "nodes": [
+        {
+          "text": "1. getting started with redux",
+          "url": "https://egghead.io/courses/getting-started-with-redux",
+          "fx": -14.411164883118659,
+          "fy": 95.46091153858436,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. redux readme",
+          "url": "http://redux.js.org/",
+          "fx": -14.411164883118659,
+          "fy": 137.46091153858436,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. redux tutorial",
+          "url": "https://www.youtube.com/watch?v=1w-oQ-i1XB8",
+          "fx": -14.411164883118659,
+          "fy": 174.46091153858436,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. full-stack redux tutorial",
+          "url": "http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
+          "fx": -14.411164883118659,
+          "fy": 216.46091153858436,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. building react applications with idiomatic redux",
+          "url": "https://egghead.io/courses/building-react-applications-with-idiomatic-redux",
+          "fx": -14.411164883118659,
+          "fy": 258.46091153858436,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "2. redux optimisation guide  ️",
+          "url": "https://reactrocket.com/post/react-redux-optimization/",
+          "fx": -14.411164883118659,
+          "fy": 325.46091153858436,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "redux",
+      "target": "basics",
+      "curve": {
+        "x": -93.5627,
+        "y": 264.271
+      }
+    },
+    {
+      "source": "help",
+      "target": "redux",
+      "curve": {
+        "x": -50.2424,
+        "y": -67.6644
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -86.9738,
+        "y": -65.763
+      }
+    }
+  ],
+  "id": 1902
+}

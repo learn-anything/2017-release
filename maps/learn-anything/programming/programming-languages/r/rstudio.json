@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - programming - programming languages - r - rstudio",
+  "tag": "RStudio",
+  "nodes": [
+    {
+      "text": "RStudio",
+      "url": "http://www.wikiwand.com/en/RStudio",
+      "fx": -36.41799496644296,
+      "fy": -246.03140729865765,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/RStudio/",
+          "fx": 163.58200503355704,
+          "fy": -252.03140729865765,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/rstudio/rstudio",
+          "fx": 163.58200503355704,
+          "fy": -212.03140729865765,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 72.89585623085406,
+      "fy": -140.03865564274037,
+      "nodes": [
+        {
+          "text": "awesome rshiny",
+          "url": "https://github.com/grabear/awesome-rshiny",
+          "fx": 209.89585623085406,
+          "fy": -128.53865564274037,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -38.1790365309148,
+      "fy": -30.693574550157166,
+      "nodes": [
+        {
+          "text": "1. RStudio training",
+          "url": "https://www.youtube.com/watch?v=UYclmg1_KLk&amp;list=PLMkWBA5iK7oGk4jvwpPG7D1GmMQngXt5a",
+          "fx": 117.8209634690852,
+          "fy": -19.193574550157166,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "RStudio",
+      "target": "basics",
+      "curve": {
+        "x": -11.8805,
+        "y": 106.419
+      }
+    },
+    {
+      "source": "help",
+      "target": "RStudio",
+      "curve": {
+        "x": -38.9069,
+        "y": -51.7464
+      }
+    }
+  ],
+  "id": 1641
+}

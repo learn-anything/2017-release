@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - mathematics - computability theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computability theory",
+      "url": "http://www.wikiwand.com/en/Computability_theory",
+      "fx": -73.69921875,
+      "fy": -188.58984375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -23.867218494415283,
+      "fy": -38.04194498062134,
+      "nodes": [
+        {
+          "text": "1. basic computability theory",
+          "url": "https://www.staff.science.uu.nl/~ooste110/syllabi/compthmoeder.pdf",
+          "fx": 158.13278150558472,
+          "fy": -68.54194498062134,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. classical recursion theory: the theory of functions and sets of natural numbers",
+          "url": "http://www.goodreads.com/book/show/923516.Classical_Recursion_Theory",
+          "fx": 158.13278150558472,
+          "fy": -28.541944980621338,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "cellular automata  ️",
+      "url": "/mathematics/computability-theory/cellular-automata",
+      "fx": 55.989432410111704,
+      "fy": 120.81749786571254,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "turing completeness  ️",
+      "url": "/mathematics/computability-theory/turing-completeness",
+      "fx": -207.45636929214186,
+      "fy": 128.42933556198295,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "computability theory",
+      "target": "basics",
+      "curve": {
+        "x": -13.584,
+        "y": 74.0239
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cellular automata  ️",
+      "curve": {
+        "x": 57.4283,
+        "y": 79.4297
+      }
+    },
+    {
+      "source": "basics",
+      "target": "turing completeness  ️",
+      "curve": {
+        "x": -66.7946,
+        "y": 83.2356
+      }
+    }
+  ],
+  "id": 927
+}

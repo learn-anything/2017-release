@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers - prime numbers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "prime numbers",
+      "url": "http://www.wikiwand.com/en/Prime_number",
+      "fx": -102.01171875,
+      "fy": -249.30601917613637,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 50.83163968430233,
+      "fy": -113.36737269999469,
+      "nodes": [
+        {
+          "text": "16: the last digit of prime numbers",
+          "url": "https://www.youtube.com/watch?v=YVvfY_lFUZ8",
+          "fx": 249.83163968430233,
+          "fy": -155.3673726999947,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "16: how the found the world’s biggest prime number",
+          "url": "https://www.youtube.com/watch?v=lEvXcTYqtKU",
+          "fx": 249.83163968430233,
+          "fy": -113.36737269999469,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "17: pi hiding in prime regularities",
+          "url": "https://www.youtube.com/watch?v=NaL_Cb42WyY",
+          "fx": 249.83163968430233,
+          "fy": -46.36737269999469,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "primality test  ️",
+      "url": "/mathematics/number-theory/numbers/prime-numbers/primality-test",
+      "fx": -273.5058604083215,
+      "fy": -62.57457942836271,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "prime numbers",
+      "curve": {
+        "x": -56.1717,
+        "y": -67.2193
+      }
+    },
+    {
+      "source": "prime numbers",
+      "target": "primality test  ️",
+      "curve": {
+        "x": -100.497,
+        "y": 92.6154
+      }
+    }
+  ],
+  "id": 1046
+}

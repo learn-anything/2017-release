@@ -1,0 +1,94 @@
+{
+  "title": "learn anything - web development - full stack - django",
+  "tag": "django library",
+  "nodes": [
+    {
+      "text": "django",
+      "url": "http://www.wikiwand.com/en/Django_(web_framework)",
+      "fx": -36.659478343124874,
+      "fy": 131.1571706000795,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/django/django",
+          "fx": 152.34052165687513,
+          "fy": 125.1571706000795,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/rosarior/awesome-django",
+          "fx": 152.34052165687513,
+          "fy": 165.1571706000795,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -62.83172464089023,
+      "fy": 289.59936937071126,
+      "nodes": [
+        {
+          "text": "1. writing your first django app",
+          "url": "https://docs.djangoproject.com/en/1.11/intro/tutorial01/",
+          "fx": 119.16827535910977,
+          "fy": 287.09936937071126,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. django girls tutorial",
+          "url": "https://tutorial.djangogirls.org/en/",
+          "fx": 119.16827535910977,
+          "fy": 321.09936937071126,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "libraries",
+      "url": "",
+      "fx": -133.70467163705575,
+      "fy": 415.77645145939096,
+      "nodes": [
+        {
+          "text": "django REST framework",
+          "url": "https://github.com/encode/django-rest-framework",
+          "fx": 33.29532836294425,
+          "fy": 427.27645145939096,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "django",
+      "target": "basics",
+      "curve": {
+        "x": -21.3361,
+        "y": 77.9717
+      }
+    },
+    {
+      "source": "basics",
+      "target": "libraries",
+      "curve": {
+        "x": -32.6865,
+        "y": 63.0885
+      }
+    }
+  ],
+  "id": 1879
+}

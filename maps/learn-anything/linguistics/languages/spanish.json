@@ -1,0 +1,93 @@
+{
+  "title": "learn anything - linguistics - languages - spanish",
+  "tag": "spanish language",
+  "nodes": [
+    {
+      "text": "spanish language",
+      "url": "http://www.wikiwand.com/en/Spanish_language",
+      "fx": -151.42980527877808,
+      "fy": -198.64194107055664,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Spanish/",
+          "fx": 133.57019472122192,
+          "fy": -204.64194107055664,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://spanish.stackexchange.com/",
+          "fx": 133.57019472122192,
+          "fy": -164.64194107055664,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 58.4921875,
+      "fy": -91.1484375,
+      "nodes": [
+        {
+          "text": "spanish dict",
+          "url": "http://www.spanishdict.com/",
+          "fx": 195.4921875,
+          "fy": -76.6484375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -113.98049974441528,
+      "fy": 23.063379287719727,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/es/en/Learn-Spanish-Online",
+          "fx": 68.01950025558472,
+          "fy": 20.563379287719727,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. clozemaster",
+          "url": "https://www.clozemaster.com/about",
+          "fx": 68.01950025558472,
+          "fy": 54.56337928771973,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "spanish language",
+      "target": "basics",
+      "curve": {
+        "x": -13.5254,
+        "y": 109.602
+      }
+    },
+    {
+      "source": "help",
+      "target": "spanish language",
+      "curve": {
+        "x": -67.961,
+        "y": -52.4968
+      }
+    }
+  ],
+  "id": 737
+}

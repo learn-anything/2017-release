@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - programming - programming languages - pascal - delphi",
+  "tag": "Delphi programming language",
+  "nodes": [
+    {
+      "text": "Delphi",
+      "url": "http://www.wikiwand.com/en/Delphi_(programming_language)",
+      "fx": -13.28125,
+      "fy": -236.99617686170217,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/delphi/",
+          "fx": 170.71875,
+          "fy": -242.99617686170217,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/Fr0sT-Brutal/awesome-delphi",
+          "fx": 170.71875,
+          "fy": -202.99617686170217,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -6.600232712765887,
+      "fy": -60.66381316489361,
+      "nodes": [
+        {
+          "text": "1. beginner’s guide to Delphi programming  ️",
+          "url": "https://www.thoughtco.com/beginners-guide-to-delphi-programming-1057657",
+          "fx": 149.3997672872341,
+          "fy": -60.16381316489361,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Delphi",
+      "target": "basics",
+      "curve": {
+        "x": -3.65949,
+        "y": 86.9162
+      }
+    }
+  ],
+  "id": 1625
+}

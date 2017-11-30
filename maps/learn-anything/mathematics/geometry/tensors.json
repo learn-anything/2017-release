@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - geometry - tensors",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "tensors",
+      "url": "http://www.wikiwand.com/en/Tensor",
+      "fx": -63.10386029411768,
+      "fy": -149.4864430147059,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -52.90554050567596,
+      "fy": -31.84628966718259,
+      "nodes": [
+        {
+          "text": "1. what’s a tensor?",
+          "url": "https://www.youtube.com/watch?v=f5liqUk0ZTw",
+          "fx": 103.09445949432404,
+          "fy": -71.34628966718259,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what are tensors for",
+          "url": "https://www.youtube.com/watch?v=e0eJXttPRZI",
+          "fx": 103.09445949432404,
+          "fy": -31.34628966718259,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. tensors explained intuitively: covariant, contravariant, rank",
+          "url": "https://www.youtube.com/watch?v=CliW7kSxxWU",
+          "fx": 103.09445949432404,
+          "fy": 8.653710332817411,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tensor fields",
+      "url": "http://www.wikiwand.com/en/Tensor_field",
+      "fx": -201.95104086042312,
+      "fy": 103.1110119786834,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "tensors",
+      "target": "basics",
+      "curve": {
+        "x": -1.90084,
+        "y": 57.5701
+      }
+    },
+    {
+      "source": "basics",
+      "target": "tensor fields",
+      "curve": {
+        "x": -61.7727,
+        "y": 67.4787
+      }
+    }
+  ],
+  "id": 965
+}

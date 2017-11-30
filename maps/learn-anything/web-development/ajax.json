@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - ajax",
+  "tag": "Ajax",
+  "nodes": [
+    {
+      "text": "ajax",
+      "url": "http://www.wikiwand.com/en/Ajax_(programming)",
+      "fx": -50.00018784403801,
+      "fy": -148.85678482055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.67724815313363,
+      "fy": -8.908493636310993,
+      "nodes": [
+        {
+          "text": "1. intro to ajax",
+          "url": "https://developer.mozilla.org/en-US/docs/AJAX",
+          "fx": 112.32275184686637,
+          "fy": -14.408493636310993,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. what is ajax?",
+          "url": "https://www.youtube.com/watch?v=3l13qGLTgNw",
+          "fx": 112.32275184686637,
+          "fy": 19.591506363689007,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ajax",
+      "target": "basics",
+      "curve": {
+        "x": 1.41147,
+        "y": 68.7241
+      }
+    }
+  ],
+  "id": 1849
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - nucleic acids - dna - genomes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "genomes",
+      "url": "http://www.wikiwand.com/en/Genome",
+      "fx": 204.10149002075195,
+      "fy": -156.78686141967773,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 215.71162280701742,
+      "fy": -46.16378837719293,
+      "nodes": [
+        {
+          "text": "1. what is a genome?",
+          "url": "https://www.youtube.com/watch?v=WBE8Mn9ts6A",
+          "fx": 371.7116228070174,
+          "fy": -34.66378837719293,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "genomics  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna/genomes/genomics",
+      "fx": 104.46916118421063,
+      "fy": 79.0716145832883,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "genomes",
+      "target": "basics",
+      "curve": {
+        "x": -7.94494,
+        "y": 54.0615
+      }
+    },
+    {
+      "source": "basics",
+      "target": "genomics  ️",
+      "curve": {
+        "x": -48.1212,
+        "y": 62.6177
+      }
+    }
+  ],
+  "id": 1461
+}

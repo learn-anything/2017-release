@@ -1,0 +1,136 @@
+{
+  "title": "learn anything - programming - programming languages - c sharp",
+  "tag": "c",
+  "nodes": [
+    {
+      "text": "c#",
+      "url": "http://www.wikiwand.com/en/C_Sharp_(programming_language)",
+      "fx": -84.88145913145684,
+      "fy": -107.91536403457673,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/csharp/",
+          "fx": 65.11854086854316,
+          "fy": -93.91536403457673,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -5.977864547480635,
+      "fy": -5.923817113527491,
+      "nodes": [
+        {
+          "text": "c# algorithms",
+          "url": "https://github.com/aalhour/C-Sharp-Algorithms",
+          "fx": 131.02213545251936,
+          "fy": -14.423817113527491,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "c# language design",
+          "url": "https://github.com/dotnet/csharplang",
+          "fx": 131.02213545251936,
+          "fy": 25.57618288647251,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -148.7607076209889,
+      "fy": 110.74049584907391,
+      "nodes": [
+        {
+          "text": "1. c# fundamentals for beginners",
+          "url": "https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949",
+          "fx": 33.23929237901109,
+          "fy": 82.24049584907391,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. begin to code with c#",
+          "url": "https://static1.squarespace.com/static/5019271be4b0807297e8f404/t/5824ad58f7e0ab31fc216843/1478798685347/CSharp+Book+2016+Rob+Miles+8.2.pdf",
+          "fx": 33.23929237901109,
+          "fy": 122.24049584907391,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. threading in c#",
+          "url": "http://www.albahari.com/threading/",
+          "fx": 33.23929237901109,
+          "fy": 162.2404958490739,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "frameworks",
+      "url": "",
+      "fx": -230.41688867200878,
+      "fy": 224.19928219443875,
+      "nodes": []
+    },
+    {
+      "text": ".NET framework  ️",
+      "url": "/programming/programming-languages/c-sharp/dotnet",
+      "fx": -268.7587369283041,
+      "fy": 327.58760271574306,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "c#",
+      "target": "basics",
+      "curve": {
+        "x": -41.6897,
+        "y": 108.078
+      }
+    },
+    {
+      "source": "help",
+      "target": "c#",
+      "curve": {
+        "x": -24.9518,
+        "y": -49.7457
+      }
+    },
+    {
+      "source": "basics",
+      "target": "frameworks",
+      "curve": {
+        "x": -35.3281,
+        "y": 56.7294
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": ".NET framework  ️",
+      "curve": {
+        "x": -1.67092,
+        "y": 52.9442
+      }
+    }
+  ],
+  "id": 1581
+}

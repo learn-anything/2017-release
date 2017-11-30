@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - linguistics - languages - czech",
+  "tag": "czech language",
+  "nodes": [
+    {
+      "text": "Czech language",
+      "url": "http://www.wikiwand.com/en/Czech_language",
+      "fx": 16.171512603759766,
+      "fy": -188.1010913848877,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learnczech/",
+          "fx": 289.17151260375977,
+          "fy": -174.1010913848877,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 75.28515625,
+      "fy": -51.34375,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/cs/en/Learn-Czech-Online",
+          "fx": 231.28515625,
+          "fy": -36.84375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Czech language",
+      "target": "basics",
+      "curve": {
+        "x": 0.306822,
+        "y": 67.1287
+      }
+    }
+  ],
+  "id": 720
+}

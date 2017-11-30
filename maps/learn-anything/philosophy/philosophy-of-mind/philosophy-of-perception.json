@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - philosophy of perception",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "philosophy of perception",
+      "url": "http://www.wikiwand.com/en/Philosophy_of_perception",
+      "fx": 42.11002604166674,
+      "fy": -339.7324218749999,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 265.01831169307593,
+      "fy": -219.22592979751158,
+      "nodes": [
+        {
+          "text": "John Searle on perception &amp; philosophy of mind",
+          "url": "https://www.youtube.com/watch?v=Oh2NylJZRHs",
+          "fx": 464.01831169307593,
+          "fy": -219.22592979751158,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141.01801943229088,
+      "fy": -73.92970733403536,
+      "nodes": [
+        {
+          "text": "1. the contents of perception  ️",
+          "url": "https://plato.stanford.edu/entries/perception-contents/",
+          "fx": 304.0180194322909,
+          "fy": -82.42970733403536,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. the problem of perception  ️",
+          "url": "https://plato.stanford.edu/entries/perception-problem/",
+          "fx": 304.0180194322909,
+          "fy": -40.429707334035356,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "philosophy of perception",
+      "curve": {
+        "x": -67.2041,
+        "y": -59.5032
+      }
+    },
+    {
+      "source": "philosophy of perception",
+      "target": "basics",
+      "curve": {
+        "x": -3.796,
+        "y": 132.151
+      }
+    }
+  ],
+  "id": 1344
+}

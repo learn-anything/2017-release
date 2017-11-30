@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - network science - computer networking - emails",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "emails",
+      "url": "http://www.wikiwand.com/en/Email",
+      "fx": 186.60926611498246,
+      "fy": -93.84569631968651,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/jonathandion/awesome-emails",
+          "fx": 370.60926611498246,
+          "fy": -79.84569631968651,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 191.92007839720225,
+      "fy": 26.16027874562667,
+      "nodes": [
+        {
+          "text": "1. how email works",
+          "url": "https://www.youtube.com/watch?v=x28ciavQ4mI",
+          "fx": 347.92007839720225,
+          "fy": 37.66027874562667,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "emails",
+      "target": "basics",
+      "curve": {
+        "x": 2.65541,
+        "y": 60.003
+      }
+    }
+  ],
+  "id": 1205
+}

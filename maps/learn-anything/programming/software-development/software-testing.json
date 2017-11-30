@@ -1,0 +1,160 @@
+{
+  "title": "learn anything - programming - software development - software testing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software testing",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Software_testing",
+      "fx": -163.82052485768054,
+      "fy": -242.27288873438548,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://sqa.stackexchange.com/",
+          "fx": 132.17947514231946,
+          "fy": -248.27288873438548,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/TheJambo/awesome-testing",
+          "fx": 132.17947514231946,
+          "fy": -208.27288873438548,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 49.730168620173,
+      "fy": -146.24806205126168,
+      "nodes": [
+        {
+          "text": "software testing books  ️",
+          "url": "http://www.testuff.com/software-testing-books-for-the-lazy-newbie/",
+          "fx": 186.730168620173,
+          "fy": -154.74806205126168,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "software testing books",
+          "url": "https://github.com/ligurio/free-software-testing-books/blob/master/free-software-testing-books.md",
+          "fx": 186.730168620173,
+          "fy": -114.74806205126168,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -99.84003825247055,
+      "fy": -47.048474758732766,
+      "nodes": [
+        {
+          "text": "1. lessons learned in software testing: a context-driven approach",
+          "url": "http://www.goodreads.com/book/show/599997.Lessons_Learned_in_Software_Testing",
+          "fx": 56.15996174752945,
+          "fy": -46.548474758732766,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "test driven development  ️",
+      "url": "/programming/software-development/software-testing/test-driven-development",
+      "fx": -108.80456675844675,
+      "fy": 83.08424153431201,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Test Anything Protocol  ️",
+      "url": "/programming/software-development/software-testing/tap",
+      "fx": -817.2960246598575,
+      "fy": 86.16167091836746,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "test automation  ️",
+      "url": "/programming/software-development/software-testing/test-automation",
+      "fx": -331.72446065989146,
+      "fy": 86.4787436548101,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "unit testing  ️",
+      "url": "/programming/software-development/software-testing/unit-testing",
+      "fx": -520.5878413193892,
+      "fy": 87.26517224474026,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "software testing",
+      "target": "basics",
+      "curve": {
+        "x": -3.00976,
+        "y": 96.3623
+      }
+    },
+    {
+      "source": "basics",
+      "target": "test driven development  ️",
+      "curve": {
+        "x": 42.5177,
+        "y": 66.3163
+      }
+    },
+    {
+      "source": "help",
+      "target": "software testing",
+      "curve": {
+        "x": -67.0253,
+        "y": -46.7624
+      }
+    },
+    {
+      "source": "basics",
+      "target": "test automation  ️",
+      "curve": {
+        "x": -95.1922,
+        "y": 66.7636
+      }
+    },
+    {
+      "source": "basics",
+      "target": "unit testing  ️",
+      "curve": {
+        "x": -240.674,
+        "y": 41.5307
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Test Anything Protocol  ️",
+      "curve": {
+        "x": -349.37,
+        "y": 29.7269
+      }
+    }
+  ],
+  "id": 1736
+}

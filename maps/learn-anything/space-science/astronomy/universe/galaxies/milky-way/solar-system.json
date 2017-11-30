@@ -1,0 +1,173 @@
+{
+  "title": "learn anything - space science - astronomy - universe - galaxies - milky way - solar system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sun  ️",
+      "note": "is the star at the centre of the Solar System  it is nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process  it is by far the most important source of energy for life on Earth",
+      "url": "/space-science/astronomy/universe/galaxies/milky-way/solar-system/sun",
+      "fx": 145.27948738495172,
+      "fy": -307.9339187502493,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "solar system",
+      "note": "is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly  it formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud",
+      "url": "http://www.wikiwand.com/en/Solar_System",
+      "fx": -334.039314516129,
+      "fy": -227.62462197580646,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "mercury",
+      "url": "http://www.wikiwand.com/en/Mercury_(planet)",
+      "fx": 146.34537808511584,
+      "fy": -217.23046915047007,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "venus",
+      "url": "http://www.wikiwand.com/en/Venus",
+      "fx": 151.5289942360647,
+      "fy": -120.27010183915809,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "earth",
+      "url": "http://www.wikiwand.com/en/Earth",
+      "fx": 152.98020184424615,
+      "fy": -38.17068688378197,
+      "nodes": [
+        {
+          "text": "5 major extinctions of our planet",
+          "url": "http://i.imgur.com/Do1IJqQ.gifv",
+          "fx": 325.98020184424615,
+          "fy": -24.17068688378197,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "mars",
+      "url": "http://www.wikiwand.com/en/Mars",
+      "fx": 149.83615856409222,
+      "fy": 41.53704191086081,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "jupiter",
+      "url": "http://www.wikiwand.com/en/Jupiter",
+      "fx": 153.88585752998245,
+      "fy": 122.94346941106028,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "saturn",
+      "url": "http://www.wikiwand.com/en/Saturn",
+      "fx": 148.27902996924615,
+      "fy": 214.28594576927924,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "uranus",
+      "url": "http://www.wikiwand.com/en/Uranus",
+      "fx": 145.07395184424615,
+      "fy": 301.04571139427924,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "neptune",
+      "url": "http://www.wikiwand.com/en/Neptune",
+      "fx": 144.79660809424615,
+      "fy": 389.43633639427924,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "solar system",
+      "target": "venus",
+      "curve": {
+        "x": 194.777,
+        "y": 114.787
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "earth",
+      "curve": {
+        "x": 176.916,
+        "y": 165.88
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "jupiter",
+      "curve": {
+        "x": 159.337,
+        "y": 283.019
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "neptune",
+      "curve": {
+        "x": 150.898,
+        "y": 507.652
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "uranus",
+      "curve": {
+        "x": 143.873,
+        "y": 410.547
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "saturn",
+      "curve": {
+        "x": 142.565,
+        "y": 304.358
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "sun  ️",
+      "curve": {
+        "x": 219.409,
+        "y": -40.1546
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "mars",
+      "curve": {
+        "x": 164.41,
+        "y": 212.339
+      }
+    },
+    {
+      "source": "solar system",
+      "target": "mercury",
+      "curve": {
+        "x": 196.142,
+        "y": 28.4555
+      }
+    }
+  ],
+  "id": 1835
+}

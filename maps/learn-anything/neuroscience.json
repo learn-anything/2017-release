@@ -1,0 +1,185 @@
+{
+  "title": "learn anything - neuroscience",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neuroscience",
+      "url": "http://www.wikiwand.com/en/Neuroscience",
+      "fx": -160.7580652087927,
+      "fy": -392.57469565479465,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/neuro/",
+          "fx": 87.24193479120731,
+          "fy": -378.57469565479465,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 17.10633366256127,
+      "fy": -296.3310241699219,
+      "nodes": [
+        {
+          "text": "neuroscience concepts mind map",
+          "url": "https://fkcd.ca/nWf.svg",
+          "fx": 154.10633366256127,
+          "fy": -301.8310241699219,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome neuroscience",
+          "url": "https://github.com/analyticalmonk/awesome-neuroscience",
+          "fx": 154.10633366256127,
+          "fy": -267.8310241699219,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 70.73630259210768,
+      "fy": -181.61195737791616,
+      "nodes": [
+        {
+          "text": "07: how brain science will change computing",
+          "url": "https://www.youtube.com/watch?v=G6CVj5IQkzk",
+          "fx": 261.7363025921077,
+          "fy": -181.11195737791616,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -153.98643099251444,
+      "fy": -92.00861239298598,
+      "nodes": [
+        {
+          "text": "1. principles of neural science",
+          "url": "https://www.goodreads.com/book/show/826396.Principles_of_Neural_Science",
+          "fx": 28.013569007485557,
+          "fy": -100.50861239298598,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. neuroscience online",
+          "url": "http://nba.uth.tmc.edu/neuroscience/m/index.htm",
+          "fx": 28.013569007485557,
+          "fy": -60.50861239298598,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "brain computer interface  ️",
+      "note": "is a direct communication pathway between an enhanced or wired brain and an external device  they are often directed at researching, mapping, assisting, augmenting, or repairing human cognitive or sensory-motor functions",
+      "url": "/neuroscience/brain-computer-interface",
+      "fx": -251.62929725646973,
+      "fy": 54.324241638183594,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "human brain  ️",
+      "url": "/neuroscience/human-brain",
+      "fx": 80.35373696654142,
+      "fy": 56.59579953664547,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "nervous system  ️",
+      "url": "/neuroscience/nervous-system",
+      "fx": -815.1863967080146,
+      "fy": 59.473461354961614,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computational neuroscience  ️",
+      "url": "/neuroscience/computational-neuroscience",
+      "fx": -598.1428783406168,
+      "fy": 61.01439459198264,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neuroscience",
+      "target": "basics",
+      "curve": {
+        "x": -14.1142,
+        "y": 150.283
+      }
+    },
+    {
+      "source": "help",
+      "target": "neuroscience",
+      "curve": {
+        "x": -65.9322,
+        "y": -48.1219
+      }
+    },
+    {
+      "source": "basics",
+      "target": "brain computer interface  ️",
+      "curve": {
+        "x": -7.32146,
+        "y": 74.4164
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -40.315,
+        "y": -57.3595
+      }
+    },
+    {
+      "source": "basics",
+      "target": "computational neuroscience  ️",
+      "curve": {
+        "x": -172.078,
+        "y": 77.7615
+      }
+    },
+    {
+      "source": "basics",
+      "target": "human brain  ️",
+      "curve": {
+        "x": 131.67,
+        "y": 75.5522
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nervous system  ️",
+      "curve": {
+        "x": -330.651,
+        "y": 48.7176
+      }
+    }
+  ],
+  "id": 1272
+}

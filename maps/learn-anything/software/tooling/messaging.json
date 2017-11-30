@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - software - tooling - messaging",
+  "tag": "messaging software",
+  "nodes": [
+    {
+      "text": "instant messaging",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Instant_messaging",
+      "fx": -239.1875,
+      "fy": -281.39453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "telegram  ️",
+      "url": "/software/tooling/messaging/telegram",
+      "fx": -353.0453224182129,
+      "fy": -154.30316228451943,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "discord  ️",
+      "url": "/software/tooling/messaging/discord",
+      "fx": -183.947125564653,
+      "fy": -151.11967991247866,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "slack  ️",
+      "url": "/software/tooling/messaging/slack",
+      "fx": -33.06295993912522,
+      "fy": -149.48703690239802,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "instant messaging",
+      "target": "slack  ️",
+      "curve": {
+        "x": 66.5623,
+        "y": 64.7037
+      }
+    },
+    {
+      "source": "instant messaging",
+      "target": "discord  ️",
+      "curve": {
+        "x": -3.12981,
+        "y": 65.1374
+      }
+    },
+    {
+      "source": "instant messaging",
+      "target": "telegram  ️",
+      "curve": {
+        "x": -84.6789,
+        "y": 63.5457
+      }
+    }
+  ],
+  "id": 1803
+}

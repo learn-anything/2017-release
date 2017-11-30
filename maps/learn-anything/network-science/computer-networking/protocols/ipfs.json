@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - ipfs",
+  "tag": "IPFS",
+  "nodes": [
+    {
+      "text": "InterPlanetary File System",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/InterPlanetary_File_System",
+      "fx": -138.5058121980677,
+      "fy": -157.08944746376812,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ipfs/",
+          "fx": 247.4941878019323,
+          "fy": -163.08944746376812,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ipfs/awesome-ipfs",
+          "fx": 247.4941878019323,
+          "fy": -123.08944746376812,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 130.06760762163992,
+      "fy": -35.02147429461638,
+      "nodes": [
+        {
+          "text": "IFPS discuss",
+          "url": "https://discuss.ipfs.io/",
+          "fx": 267.0676076216399,
+          "fy": -23.521474294616382,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -19.722146739131745,
+      "fy": 72.9487469806939,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://ipfs.io/docs/getting-started/",
+          "fx": 136.27785326086826,
+          "fy": 87.4487469806939,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "InterPlanetary File System",
+      "curve": {
+        "x": -78.5367,
+        "y": -59.7839
+      }
+    },
+    {
+      "source": "InterPlanetary File System",
+      "target": "basics",
+      "curve": {
+        "x": 1.89183,
+        "y": 113.769
+      }
+    }
+  ],
+  "id": 1217
+}

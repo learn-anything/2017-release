@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - health - fitness - sports - football",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "football",
+      "url": "http://www.wikiwand.com/en/Football",
+      "fx": -65,
+      "fy": -140.46036585365857,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/soccer/",
+          "fx": 128,
+          "fy": -126.46036585365857,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.73551829268274,
+      "fy": 15.353658536606986,
+      "nodes": [
+        {
+          "text": "1. how can an adult learn to play football?",
+          "url": "https://www.quora.com/How-can-an-adult-learn-to-play-football",
+          "fx": 109.26448170731726,
+          "fy": 15.853658536606986,
+          "nodes": [],
+          "category": "quora",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "football",
+      "target": "basics",
+      "curve": {
+        "x": -0.117759,
+        "y": 76.657
+      }
+    }
+  ],
+  "id": 585
+}

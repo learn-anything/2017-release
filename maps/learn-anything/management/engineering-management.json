@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - management - engineering management",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "engineering management",
+      "url": "http://www.wikiwand.com/en/Engineering_management",
+      "fx": -141.59880828857422,
+      "fy": -147.17684936523438,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 88.29768447334891,
+      "fy": -39.37615568925304,
+      "nodes": [
+        {
+          "text": "12: the dark craft of engineering management",
+          "url": "http://laurathomson.com/2012/08/07/the-dark-craft-of-engineering-management/",
+          "fx": 250.2976844733489,
+          "fy": -35.87615568925304,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -38.752111637845815,
+      "fy": 98.1766841496136,
+      "nodes": [
+        {
+          "text": "1. managing humans: biting and humorous tales of a software engineering manager",
+          "url": "http://www.goodreads.com/book/show/1317946.Managing_Humans",
+          "fx": 117.24788836215419,
+          "fy": 87.6766841496136,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "engineering management",
+      "curve": {
+        "x": -66.4483,
+        "y": -52.6503
+      }
+    },
+    {
+      "source": "engineering management",
+      "target": "basics",
+      "curve": {
+        "x": 1.42335,
+        "y": 121.427
+      }
+    }
+  ],
+  "id": 803
+}

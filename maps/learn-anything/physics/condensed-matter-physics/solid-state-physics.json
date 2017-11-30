@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - condensed matter physics - solid-state physics",
+  "tag": "solid-state physics",
+  "nodes": [
+    {
+      "text": "solid-state physics",
+      "url": "http://www.wikiwand.com/en/Solid-state_physics",
+      "fx": 83.89453125,
+      "fy": -115.4609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 148.04296875,
+      "fy": 35,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=RImqF8z91fU&amp;list=PLtTPtV8SRcxi91n9Mni2xcQX4KhjX91xp",
+          "fx": 311.04296875,
+          "fy": 47.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "phonons  ️",
+      "url": "/physics/condensed-matter-physics/solid-state-physics/phonons",
+      "fx": 59.46484375,
+      "fy": 187.73046875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "solid-state physics",
+      "target": "basics",
+      "curve": {
+        "x": -5.92578,
+        "y": 74.4805
+      }
+    },
+    {
+      "source": "basics",
+      "target": "phonons  ️",
+      "curve": {
+        "x": -38.2891,
+        "y": 76.3652
+      }
+    }
+  ],
+  "id": 1405
+}

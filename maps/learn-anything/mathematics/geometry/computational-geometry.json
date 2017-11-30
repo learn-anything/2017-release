@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - geometry - computational geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computational geometry",
+      "url": "http://www.wikiwand.com/en/Computational_geometry",
+      "fx": -234.38671875,
+      "fy": -170.40234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -141.8238811728395,
+      "fy": 0.6523919753088308,
+      "nodes": [
+        {
+          "text": "1. computational geometry in python  ️",
+          "url": "https://blancosilva.github.io/post/2014/10/28/Computational-Geometry-in-Python.html",
+          "fx": 14.176118827160508,
+          "fy": -49.84760802469117,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. computational geometry lectures",
+          "url": "https://www.youtube.com/watch?v=cnHJo5vzGPE&amp;list=PLESnaHRvLM-72xIXf8dL2EOqN8UgAZMj7",
+          "fx": 14.176118827160508,
+          "fy": 12.15239197530883,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. computational geometry: algorithms and applications",
+          "url": "http://www.goodreads.com/book/show/316275.Computational_Geometry",
+          "fx": 14.176118827160508,
+          "fy": 52.15239197530883,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "computational geometry",
+      "target": "basics",
+      "curve": {
+        "x": -1.46858,
+        "y": 84.2773
+      }
+    }
+  ],
+  "id": 935
+}

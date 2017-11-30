@@ -1,0 +1,63 @@
+{
+  "title": "learn anything - neuroscience - human brain - sleep - lucid dreaming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lucid dreaming",
+      "url": "http://www.wikiwand.com/en/Lucid_dream",
+      "fx": -109.96875,
+      "fy": -275.078125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/LucidDreaming/",
+          "fx": 150.03125,
+          "fy": -261.078125,
+          "nodes": [
+            {
+              "text": "wiki",
+              "url": "https://www.reddit.com/r/LucidDreaming/wiki/index",
+              "fx": 260.03125,
+              "fy": -261.078125,
+              "nodes": [],
+              "category": "reddit",
+              "color": "rgba(175, 54, 242, 1.0)"
+            }
+          ],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -67.02149487492738,
+      "fy": -140.12196018760005,
+      "nodes": [
+        {
+          "text": "1. progressive guide to lucid dreaming",
+          "url": "https://www.reddit.com/r/LucidDreaming/comments/5tan87/a_progressive_guide_to_lucid_dreaming/",
+          "fx": 114.97850512507262,
+          "fy": -139.62196018760005,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "lucid dreaming",
+      "target": "basics",
+      "curve": {
+        "x": -4.52637,
+        "y": 66.2281
+      }
+    }
+  ],
+  "id": 1254
+}

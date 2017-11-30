@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders - depression",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "depression",
+      "url": "http://www.wikiwand.com/en/Depression_(mood)",
+      "fx": -96.28515625,
+      "fy": -191.83203125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/depression/",
+          "fx": 130.71484375,
+          "fy": -177.83203125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -5.1484375,
+      "fy": -60.07421875,
+      "nodes": [
+        {
+          "text": "Alan Watts: worry, disease, depression and the mind",
+          "url": "https://www.youtube.com/watch?v=ChGUVLSpWh4&amp;t=4s",
+          "fx": 131.8515625,
+          "fy": -79.57421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "Alan Watts on suicide",
+          "url": "https://www.youtube.com/watch?v=f_HkQ4-x4P4",
+          "fx": 131.8515625,
+          "fy": -17.57421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "depression",
+      "target": "help",
+      "curve": {
+        "x": 27.8184,
+        "y": 64.6289
+      }
+    }
+  ],
+  "id": 1169
+}

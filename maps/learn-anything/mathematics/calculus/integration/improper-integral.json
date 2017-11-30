@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - calculus - integration - improper integral",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "improper integral",
+      "url": "http://www.wikiwand.com/en/Improper_integral",
+      "fx": 149.27589224726785,
+      "fy": -264.9453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 204.4485344342653,
+      "fy": -105.68741964002095,
+      "nodes": [
+        {
+          "text": "1. basic idea and example",
+          "url": "https://www.youtube.com/watch?v=85-HNJyuyrU",
+          "fx": 367.4485344342653,
+          "fy": -114.18741964002095,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=g-M8FHslgdk",
+          "fx": 367.4485344342653,
+          "fy": -72.18741964002095,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "improper integral",
+      "target": "basics",
+      "curve": {
+        "x": -5.41367,
+        "y": 78.8789
+      }
+    }
+  ],
+  "id": 886
+}

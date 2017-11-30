@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - programming - programming languages - javascript - promises",
+  "tag": "javascript promises",
+  "nodes": [
+    {
+      "text": "promise objects",
+      "url": "https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+      "fx": 37.96875,
+      "fy": -114.4107521186441,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/wbinnssmith/awesome-promises",
+          "fx": 278.96875,
+          "fy": -102.9107521186441,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 178.998313044969,
+      "fy": -12.66159674426848,
+      "nodes": [
+        {
+          "text": "promise fun",
+          "url": "https://github.com/sindresorhus/promise-fun",
+          "fx": 315.998313044969,
+          "fy": -1.1615967442684791,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 71.54780190677968,
+      "fy": 93.26393605641402,
+      "nodes": [
+        {
+          "text": "1. the promise of a burger party  ️",
+          "url": "https://kosamari.com/notes/the-promise-of-a-burger-party",
+          "fx": 227.54780190677968,
+          "fy": 104.76393605641402,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+         "text": "2. Promises, Syntax, Races, and All YouTube Playlist",
+          "url": "https://www.youtube.com/watch?v=SmPouEFKOBg&list=PLyuRouwmQCjngZXVn48vYmPK_1yAF-fLw",
+          "nodes": [],
+          "category": "video tutorial playlist",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "promise objects",
+      "target": "basics",
+      "curve": {
+        "x": -2.21048,
+        "y": 103.837
+      }
+    },
+    {
+      "source": "help",
+      "target": "promise objects",
+      "curve": {
+        "x": -46.7648,
+        "y": -50.8745
+      }
+    }
+  ],
+  "id": 1614
+}

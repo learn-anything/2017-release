@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - more - courses",
+  "tag": "new courses",
+  "nodes": [
+    {
+      "text": "courses",
+      "url": "https://github.com/learn-anything/courses",
+      "fx": -76.64453125,
+      "fy": -197.296875,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new courses",
+      "url": "",
+      "fx": -126.43894584346299,
+      "fy": -27.197495479947463,
+      "nodes": [
+        {
+          "text": "awesome courses",
+          "url": "https://github.com/prakhar1989/awesome-courses",
+          "fx": 125.56105415653701,
+          "fy": -83.69749547994746,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "MIT open courseware",
+          "url": "https://ocw.mit.edu/index.htm",
+          "fx": 125.56105415653701,
+          "fy": -43.69749547994746,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "coursera",
+          "url": "https://www.coursera.org/",
+          "fx": 125.56105415653701,
+          "fy": -9.697495479947463,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "udacity",
+          "url": "https://www.udacity.com/",
+          "fx": 125.56105415653701,
+          "fy": 24.302504520052537,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "edX",
+          "url": "https://www.edx.org/",
+          "fx": 125.56105415653701,
+          "fy": 58.30250452005254,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "courses",
+      "target": "find new courses",
+      "curve": {
+        "x": -22.8973,
+        "y": 83.7997
+      }
+    }
+  ],
+  "id": 1181
+}

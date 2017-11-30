@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - geometry - coordinate systems - polar coordinate system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polar coordinate system",
+      "url": "http://www.wikiwand.com/en/Polar_coordinate_system",
+      "fx": 212.109375,
+      "fy": -85.28515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 302.19140625,
+      "fy": 86.921875,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=r0fv9V9GHdo",
+          "fx": 465.19140625,
+          "fy": 32.421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. basic graphing with polar coordinates",
+          "url": "https://www.youtube.com/watch?v=rHnbyuBSLRQ",
+          "fx": 465.19140625,
+          "fy": 74.421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "3. finding areas in polar coordinates",
+          "url": "https://www.youtube.com/watch?v=RrVEuywFhjg",
+          "fx": 465.19140625,
+          "fy": 141.421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polar coordinate system",
+      "target": "basics",
+      "curve": {
+        "x": 1.54102,
+        "y": 86.1035
+      }
+    }
+  ],
+  "id": 937
+}

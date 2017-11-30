@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - conditional probability",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "conditional probability",
+      "url": "http://www.wikiwand.com/en/Conditional_probability",
+      "fx": 91.51171875,
+      "fy": -122.33984375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 167.22265625,
+      "fy": 1.98046875,
+      "nodes": [
+        {
+          "text": "1. visual explanation",
+          "url": "http://setosa.io/ev/conditional-probability/",
+          "fx": 323.22265625,
+          "fy": 13.48046875,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "conditional probability",
+      "target": "basics",
+      "curve": {
+        "x": -3.89453,
+        "y": 60.9102
+      }
+    }
+  ],
+  "id": 1083
+}

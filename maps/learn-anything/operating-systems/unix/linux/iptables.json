@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - operating systems - unix - linux - iptables",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "iptables",
+      "url": "http://www.wikiwand.com/en/Iptables",
+      "fx": -58.0625,
+      "fy": -137.28125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. an in-depth guide to iptables",
+          "url": "https://www.booleanworld.com/depth-guide-iptables-linux-firewall/",
+          "fx": 109.5,
+          "fy": 12.5,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "iptables",
+      "target": "basics",
+      "curve": {
+        "x": -4.46875,
+        "y": 66.3906
+      }
+    }
+  ],
+  "id": 1291
+}

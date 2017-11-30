@@ -1,0 +1,70 @@
+{
+  "title": "learn anything - programming - programming languages - purescript",
+  "tag": "purescript programming language",
+  "nodes": [
+    {
+      "text": "purescript",
+      "url": "https://github.com/purescript/purescript",
+      "fx": 75.75287828947376,
+      "fy": -142.52782346491227,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/purescript/",
+          "fx": 293.75287828947376,
+          "fy": -168.52782346491227,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/purescript",
+          "fx": 293.75287828947376,
+          "fy": -128.52782346491227,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/passy/awesome-purescript",
+          "fx": 293.75287828947376,
+          "fy": -88.52782346491227,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 101.6121390716379,
+      "fy": 42.71274214183006,
+      "nodes": [
+        {
+          "text": "1. purescript by example",
+          "url": "https://leanpub.com/purescript/read",
+          "fx": 257.6121390716379,
+          "fy": 54.21274214183006,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "purescript",
+      "target": "basics",
+      "curve": {
+        "x": -2.57037,
+        "y": 91.3705
+      }
+    }
+  ],
+  "id": 1633
+}

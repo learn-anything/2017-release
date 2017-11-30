@@ -1,0 +1,181 @@
+{
+  "title": "learn anything - programming - programming languages - objective c",
+  "tag": "objective c programming language",
+  "nodes": [
+    {
+      "text": "objective c",
+      "url": "http://www.wikiwand.com/en/Objective-C",
+      "fx": -106,
+      "fy": -293.8456503378378,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ObjectiveC/",
+          "fx": 118,
+          "fy": -279.8456503378378,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 1.8821091179376026,
+      "fy": -174.02047624673924,
+      "nodes": [
+        {
+          "text": "objc style guide",
+          "url": "https://github.com/NYTimes/objective-c-style-guide",
+          "fx": 138.8821091179376,
+          "fy": -222.52047624673924,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "objc cheat sheet",
+          "url": "https://github.com/iwasrobbed/Objective-C-CheatSheet",
+          "fx": 138.8821091179376,
+          "fy": -182.52047624673924,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "mike ash  ️",
+          "url": "https://mikeash.com/pyblog/",
+          "fx": 138.8821091179376,
+          "fy": -142.52047624673924,
+          "nodes": [],
+          "category": "blog",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "14: digging into objective-c runtime  ️",
+          "url": "https://artandlogic.com/2014/01/digging-into-the-objective-c-runtime/",
+          "fx": 138.8821091179376,
+          "fy": -102.52047624673924,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -84.05250883102417,
+      "fy": -27.976689279079437,
+      "nodes": [
+        {
+          "text": "1. effective objective-c 2.0",
+          "url": "http://www.goodreads.com/book/show/17297099-effective-objective-c-2-0",
+          "fx": 97.94749116897583,
+          "fy": -16.476689279079437,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "memory management",
+      "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html",
+      "fx": -65.85541684286943,
+      "fy": 69.13882282802035,
+      "nodes": []
+    },
+    {
+      "text": "automatic reference counting",
+      "url": "http://www.wikiwand.com/en/Automatic_Reference_Counting",
+      "fx": 213.24778245548225,
+      "fy": 56.16628579093788,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Blocks",
+      "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html",
+      "fx": 159.2052093614334,
+      "fy": 177.15628085928995,
+      "nodes": []
+    },
+    {
+      "text": "concurrent programming",
+      "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html",
+      "fx": -181.21803325688063,
+      "fy": 197.31952408256893,
+      "nodes": []
+    },
+    {
+      "text": "GCD Queue",
+      "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html",
+      "fx": 149.0960007360336,
+      "fy": 243.61803554651988,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "objective c",
+      "curve": {
+        "x": -32.191,
+        "y": -58.6626
+      }
+    },
+    {
+      "source": "objective c",
+      "target": "basics",
+      "curve": {
+        "x": -6.02626,
+        "y": 131.684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "memory management",
+      "curve": {
+        "x": 55.8486,
+        "y": 48.5578
+      }
+    },
+    {
+      "source": "memory management",
+      "target": "automatic reference counting",
+      "curve": {
+        "x": 157.052,
+        "y": 1.01373
+      }
+    },
+    {
+      "source": "basics",
+      "target": "concurrent programming",
+      "curve": {
+        "x": -86.8294,
+        "y": 117.108
+      }
+    },
+    {
+      "source": "concurrent programming",
+      "target": "Blocks",
+      "curve": {
+        "x": 126.712,
+        "y": -10.0816
+      }
+    },
+    {
+      "source": "concurrent programming",
+      "target": "GCD Queue",
+      "curve": {
+        "x": 136.657,
+        "y": 23.1493
+      }
+    }
+  ],
+  "id": 1622
+}

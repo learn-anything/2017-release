@@ -1,0 +1,147 @@
+{
+  "title": "learn anything - network science",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "network science",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Network_science",
+      "fx": 320.13873936364257,
+      "fy": -442.51661250411917,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "semantic networks",
+      "url": "http://www.wikiwand.com/en/Semantic_network",
+      "fx": 634.7532778047128,
+      "fy": -241.56943841874232,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "biological networks",
+      "url": "http://www.wikiwand.com/en/Biological_network",
+      "fx": 386.2884521484375,
+      "fy": -239.40916442871094,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "computer networking  ️",
+      "note": "computer network is a telecommunications network which allows nodes to share resources  in computer networks, networked computing devices exchange data with each other using a data link",
+      "url": "/network-science/computer-networking",
+      "fx": -266.9644584655762,
+      "fy": -238.89255905151367,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "complex networks",
+      "url": "http://www.wikiwand.com/en/Complex_network",
+      "fx": 1123.8419867235634,
+      "fy": -238.6139091394025,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "network topology  ️",
+      "url": "/network-science/network-topology",
+      "fx": -512.8932952880859,
+      "fy": -238.56880569458008,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "social networks",
+      "url": "http://www.wikiwand.com/en/Social_network",
+      "fx": 900.0078448043721,
+      "fy": -238.14142365092619,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "telecommunications networks",
+      "url": "http://www.wikiwand.com/en/Telecommunications_network",
+      "fx": 27.151290893554688,
+      "fy": -237.5531234741211,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "network theory  ️",
+      "url": "/network-science/network-theory",
+      "fx": -723.039891098485,
+      "fy": -236.41193181818159,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "network science",
+      "target": "computer networking  ️",
+      "curve": {
+        "x": -289.551,
+        "y": 100.562
+      }
+    },
+    {
+      "source": "network science",
+      "target": "telecommunications networks",
+      "curve": {
+        "x": -125.744,
+        "y": 101.232
+      }
+    },
+    {
+      "source": "network science",
+      "target": "biological networks",
+      "curve": {
+        "x": 39.3249,
+        "y": 101.554
+      }
+    },
+    {
+      "source": "network science",
+      "target": "semantic networks",
+      "curve": {
+        "x": 163.058,
+        "y": 100.474
+      }
+    },
+    {
+      "source": "network science",
+      "target": "social networks",
+      "curve": {
+        "x": 287.935,
+        "y": 102.188
+      }
+    },
+    {
+      "source": "network science",
+      "target": "complex networks",
+      "curve": {
+        "x": 406.352,
+        "y": 101.952
+      }
+    },
+    {
+      "source": "network science",
+      "target": "network topology  ️",
+      "curve": {
+        "x": -469.803,
+        "y": 85.5903
+      }
+    },
+    {
+      "source": "network science",
+      "target": "network theory  ️",
+      "curve": {
+        "x": -660.386,
+        "y": 56.0211
+      }
+    }
+  ],
+  "id": 1237
+}

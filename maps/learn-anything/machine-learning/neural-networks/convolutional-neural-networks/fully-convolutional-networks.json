@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - machine learning - neural networks - convolutional neural networks - fully convolutional networks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fully convolutional networks",
+      "url": "https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf",
+      "fx": 59.2313081095042,
+      "fy": -103.83890754132233,
+      "nodes": [],
+      "category": "paper"
+    },
+    {
+      "text": "implementations",
+      "url": "",
+      "fx": 289.84871632020577,
+      "fy": 16.25952416091735,
+      "nodes": [
+        {
+          "text": "in TensorFlow",
+          "url": "https://github.com/MarvinTeichmann/tensorflow-fcn",
+          "fx": 550.8487163202058,
+          "fy": 28.75952416091735,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 139.1170280612265,
+      "fy": 140.064811862245,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://computing.ece.vt.edu/~f15ece6504/slides/L13_FCN.pdf",
+          "fx": 302.1170280612265,
+          "fy": 155.064811862245,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "implementations",
+      "target": "fully convolutional networks",
+      "curve": {
+        "x": -88.5587,
+        "y": -60.0492
+      }
+    },
+    {
+      "source": "fully convolutional networks",
+      "target": "basics",
+      "curve": {
+        "x": -11.3071,
+        "y": 121.952
+      }
+    }
+  ],
+  "id": 774
+}

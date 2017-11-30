@@ -1,0 +1,165 @@
+{
+  "title": "learn anything - operating systems - unix - shells - bash",
+  "tag": "bash shell",
+  "nodes": [
+    {
+      "text": "bash",
+      "url": "http://www.wikiwand.com/en/Bash_(Unix_shell)",
+      "fx": -65.62109375,
+      "fy": -304.9252897350993,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/bash/",
+          "fx": 106.37890625,
+          "fy": -290.9252897350993,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 33.15321097468677,
+      "fy": -204.14998549657156,
+      "nodes": [
+        {
+          "text": "bash one liners",
+          "url": "https://github.com/janosgyerik/bashoneliners",
+          "fx": 170.15321097468677,
+          "fy": -232.64998549657156,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "bash notes",
+          "url": "https://github.com/jp2011/bash-playground",
+          "fx": 170.15321097468677,
+          "fy": -192.64998549657156,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "bash snippets",
+          "url": "https://github.com/alexanderepstein/Bash-Snippets",
+          "fx": 170.15321097468677,
+          "fy": -152.64998549657156,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 109.7975993377488,
+      "fy": -75.82905629139123,
+      "nodes": [
+        {
+          "text": "explain shell",
+          "note": "match command-line arguments to their help text",
+          "url": "https://github.com/idank/explainshell",
+          "fx": 251.7975993377488,
+          "fy": -81.32905629139123,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "spellcheck",
+          "note": "static analysis tool for shell scripts",
+          "url": "https://github.com/koalaman/shellcheck",
+          "fx": 251.7975993377488,
+          "fy": -47.329056291391225,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -94.19381208609263,
+      "fy": 83.92435844366923,
+      "nodes": [
+        {
+          "text": "1. bash guide",
+          "url": "https://github.com/Idnan/bash-guide",
+          "fx": 87.80618791390737,
+          "fy": 21.424358443669234,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. learn you bash",
+          "url": "https://github.com/denysdovhan/learnyoubash",
+          "fx": 87.80618791390737,
+          "fy": 61.424358443669234,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. bash handbook",
+          "url": "https://github.com/denysdovhan/bash-handbook",
+          "fx": 87.80618791390737,
+          "fy": 101.42435844366923,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "2. advanced bash scripting",
+          "url": "http://www.tldp.org/LDP/abs/html/",
+          "fx": 87.80618791390737,
+          "fy": 141.42435844366923,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "2. practice",
+          "url": "http://exercism.io/languages/bash/launch",
+          "fx": 87.80618791390737,
+          "fy": 175.42435844366923,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "bash",
+      "curve": {
+        "x": -40.6372,
+        "y": -49.1377
+      }
+    },
+    {
+      "source": "bash",
+      "target": "basics",
+      "curve": {
+        "x": -18.2863,
+        "y": 193.174
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -39.5723,
+        "y": -64.1604
+      }
+    }
+  ],
+  "id": 1302
+}

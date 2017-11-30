@@ -1,0 +1,96 @@
+{
+  "title": "learn anything - programming - competitive programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "competitive programming",
+      "url": "http://www.wikiwand.com/en/Competitive_programming",
+      "fx": -208.77930068969738,
+      "fy": -167.447437286377,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/lnishan/awesome-competitive-programming",
+          "fx": 149.22069931030262,
+          "fy": -153.447437286377,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -156.3890417980889,
+      "fy": 16.823327033750502,
+      "nodes": [
+        {
+          "text": "1. ACM curriculum",
+          "url": "https://github.com/AhmadElsagheer/Competitive-programming-library/tree/master/curriculum",
+          "fx": 25.610958201911103,
+          "fy": -31.676672966249498,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. competitive programming 1",
+          "url": "https://www.goodreads.com/book/show/22820951-competitive-programming",
+          "fx": 25.610958201911103,
+          "fy": 8.323327033750502,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. competitive programming 2",
+          "url": "https://www.goodreads.com/book/show/21464930-competitive-programming-2",
+          "fx": 25.610958201911103,
+          "fy": 48.3233270337505,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "3. competitive programming 3",
+          "url": "https://www.goodreads.com/book/show/22820968-competitive-programming-3",
+          "fx": 25.610958201911103,
+          "fy": 88.3233270337505,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "practice  ️",
+      "url": "/programming/practice",
+      "fx": -191.8825822442999,
+      "fy": 148.00232197691992,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "competitive programming",
+      "target": "basics",
+      "curve": {
+        "x": -24.3049,
+        "y": 90.8858
+      }
+    },
+    {
+      "source": "basics",
+      "target": "practice  ️",
+      "curve": {
+        "x": -20.4968,
+        "y": 65.5895
+      }
+    }
+  ],
+  "id": 1559
+}

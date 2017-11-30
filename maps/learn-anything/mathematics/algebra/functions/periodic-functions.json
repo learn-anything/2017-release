@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - periodic functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "periodic functions",
+      "url": "http://www.wikiwand.com/en/Periodic_function",
+      "fx": -100.73577117919922,
+      "fy": -167.64062404632568,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -41.379733979701996,
+      "fy": -7.171874523162842,
+      "nodes": [
+        {
+          "text": "1. periodic functions and Laplace transforms",
+          "url": "https://www.youtube.com/watch?v=ZDHmF5PBk-8",
+          "fx": 114.620266020298,
+          "fy": -6.671874523162842,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "quasiperiodic functions",
+      "url": "http://www.wikiwand.com/en/Quasiperiodic_function",
+      "fx": -204.4004197761194,
+      "fy": 126.82268345768784,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "periodic functions",
+      "target": "basics",
+      "curve": {
+        "x": -3.07198,
+        "y": 78.9844
+      }
+    },
+    {
+      "source": "basics",
+      "target": "quasiperiodic functions",
+      "curve": {
+        "x": -36.7603,
+        "y": 68.2473
+      }
+    }
+  ],
+  "id": 842
+}

@@ -1,0 +1,116 @@
+{
+  "title": "learn anything - mathematics - optimisation - loss functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "loss functions",
+      "url": "http://www.wikiwand.com/en/Loss_function",
+      "fx": 1.2886674069181936,
+      "fy": -345.72752242117406,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 146.3867073059082,
+      "fy": -234.60587882995605,
+      "nodes": [
+        {
+          "text": "L1 vs L2 loss function  ️",
+          "url": "http://rishy.github.io/ml/2015/07/28/l1-vs-l2-loss/",
+          "fx": 308.3867073059082,
+          "fy": -223.10587882995605,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 24.982902486910916,
+      "fy": -65.67612892670155,
+      "nodes": [
+        {
+          "text": "1. understanding loss functions",
+          "url": "https://www.youtube.com/watch?v=Lo7e4lfbn6Q",
+          "fx": 180.98290248691092,
+          "fy": -125.17612892670155,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. loss functions explained",
+          "url": "http://cs231n.github.io/neural-networks-2/#losses",
+          "fx": 180.98290248691092,
+          "fy": -85.17612892670155,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. sigmoid neurons",
+          "url": "http://neuralnetworksanddeeplearning.com/chap1.html#sigmoid_neurons",
+          "fx": 180.98290248691092,
+          "fy": -51.17612892670155,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. making sense of logarithmic loss  ️",
+          "url": "http://www.exegetic.biz/blog/2015/12/making-sense-logarithmic-loss/",
+          "fx": 180.98290248691092,
+          "fy": -17.17612892670155,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. the cross-entropy cost function",
+          "url": "http://neuralnetworksanddeeplearning.com/chap3.html#the_cross-entropy_cost_function",
+          "fx": 180.98290248691092,
+          "fy": 22.82387107329845,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "loss functions for classification",
+      "url": "http://www.wikiwand.com/en/Loss_functions_for_classification",
+      "fx": -224.11626717931927,
+      "fy": 60.88653468586381,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "loss functions",
+      "target": "basics",
+      "curve": {
+        "x": -11.9029,
+        "y": 138.776
+      }
+    },
+    {
+      "source": "basics",
+      "target": "loss functions for classification",
+      "curve": {
+        "x": -63.5495,
+        "y": 64.5313
+      }
+    },
+    {
+      "source": "articles",
+      "target": "loss functions",
+      "curve": {
+        "x": -50.299,
+        "y": -54.3108
+      }
+    }
+  ],
+  "id": 1058
+}

@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - mathematics - topology - applied topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "applied topology",
+      "url": "",
+      "fx": 103.94921875000023,
+      "fy": -96.80859375,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 148,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. elementary applied topology",
+          "url": "https://www.math.upenn.edu/%7Eghrist/notes.html",
+          "fx": 311,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "topological data analysis  ️",
+      "url": "/data-science/data-analysis/topological-data-analysis",
+      "fx": -79.125,
+      "fy": 190.90234375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "applied topology",
+      "target": "basics",
+      "curve": {
+        "x": -2.97461,
+        "y": 65.4043
+      }
+    },
+    {
+      "source": "basics",
+      "target": "topological data analysis  ️",
+      "curve": {
+        "x": -61.0625,
+        "y": 79.2012
+      }
+    }
+  ],
+  "id": 1131
+}

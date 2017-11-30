@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - physics - matter - nanotechnology - molecular nanotechnology - nanorobotics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nanorobotics",
+      "url": "http://www.wikiwand.com/en/Nanorobotics",
+      "fx": 100.203125,
+      "fy": -119.12890625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/nanorobotics/",
+          "fx": 360.203125,
+          "fy": -105.12890625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 246.58906173706055,
+      "fy": 15.385505676269531,
+      "nodes": [
+        {
+          "text": "16:the three laws of nanorobotics",
+          "url": "https://www.youtube.com/watch?v=Gw9KWUAq6w8",
+          "fx": 445.58906173706055,
+          "fy": 15.385505676269531,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 144.8639259338379,
+      "fy": 149.00417518615723,
+      "nodes": [
+        {
+          "text": "1. the world's smallest robots: rise of the nanomachines",
+          "url": "https://www.youtube.com/watch?v=loaqIqKCmog",
+          "fx": 307.8639259338379,
+          "fy": 149.00417518615723,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "nanorobotics",
+      "target": "basics",
+      "curve": {
+        "x": -1.9196,
+        "y": 133.317
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "nanorobotics",
+      "curve": {
+        "x": -57.943,
+        "y": -66.5072
+      }
+    }
+  ],
+  "id": 1482
+}

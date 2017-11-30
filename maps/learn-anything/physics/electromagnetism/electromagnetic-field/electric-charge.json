@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic field - electric charge",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electric charge",
+      "url": "http://www.wikiwand.com/en/Electric_charge",
+      "fx": -46.56640625,
+      "fy": -237.046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 4.536330856643531,
+      "fy": -76.64816433564386,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=TFlVWf8JX4A&amp;t=16s",
+          "fx": 167.53633085664353,
+          "fy": -64.14816433564386,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Coulomb’s law  ️",
+      "url": "/physics/electromagnetism/electromagnetic-field/electric-charge/coulombs-law",
+      "fx": -171.9211738782052,
+      "fy": 76.66997195512465,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "electric charge",
+      "target": "basics",
+      "curve": {
+        "x": -2.69863,
+        "y": 79.4494
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Coulomb’s law  ️",
+      "curve": {
+        "x": -67.7288,
+        "y": 76.6591
+      }
+    }
+  ],
+  "id": 1422
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - space science - physical cosmology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "physical cosmology",
+      "url": "http://www.wikiwand.com/en/Physical_cosmology",
+      "fx": 160.34375,
+      "fy": -300.0625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 230.5937500000001,
+      "fy": -149.1229292169063,
+      "nodes": [
+        {
+          "text": "1. lectures on cosmology",
+          "url": "https://www.youtube.com/watch?v=P-medYaqVak",
+          "fx": 393.5937500000001,
+          "fy": -136.6229292169063,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "cosmological constant  ️",
+      "url": "/space-science/physical-cosmology/cosmological-constant",
+      "fx": 19.5322265625,
+      "fy": -15.4423828125,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "physical cosmology",
+      "target": "basics",
+      "curve": {
+        "x": -5.875,
+        "y": 74.7198
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cosmological constant  ️",
+      "curve": {
+        "x": -65.5308,
+        "y": 66.8403
+      }
+    }
+  ],
+  "id": 1842
+}

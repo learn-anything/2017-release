@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - software - tooling - messaging - telegram",
+  "tag": "telegram messenger",
+  "nodes": [
+    {
+      "text": "telegram",
+      "url": "http://www.wikiwand.com/en/Telegram_(messaging_service)",
+      "fx": -28.644609593633504,
+      "fy": -440.0027912196828,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Telegram/",
+          "fx": 177.3553904063665,
+          "fy": -446.0027912196828,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ebertti/awesome-telegram",
+          "fx": 177.3553904063665,
+          "fy": -406.0027912196828,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 76.92061692841207,
+      "fy": -303.2827845982141,
+      "nodes": [
+        {
+          "text": "17: why isn’t telegram end-to-end encrypted by default?   ️",
+          "url": "http://telegra.ph/Why-Isnt-Telegram-End-to-End-Encrypted-by-Default-08-14",
+          "fx": 267.9206169284121,
+          "fy": -302.7827845982141,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "bots  ️",
+      "url": "/software/bots",
+      "fx": -69.26171875,
+      "fy": -191.484375,
+      "nodes": [
+        {
+          "text": "awesome telegram bots",
+          "url": "https://github.com/DenisIzmaylov/awesome-telegram-bots",
+          "fx": 97.73828125,
+          "fy": -177.484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "mindmap"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -75.3515625,
+      "fy": -66.9609375,
+      "nodes": [
+        {
+          "text": "1. introduction for developers",
+          "url": "https://core.telegram.org/bots",
+          "fx": 80.6484375,
+          "fy": -52.4609375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "telegram",
+      "target": "bots  ️",
+      "curve": {
+        "x": -37.0585,
+        "y": 123.009
+      }
+    },
+    {
+      "source": "bots  ️",
+      "target": "basics",
+      "curve": {
+        "x": 1.20508,
+        "y": 62.2617
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "telegram",
+      "curve": {
+        "x": -49.0326,
+        "y": -67.11
+      }
+    }
+  ],
+  "id": 1802
+}

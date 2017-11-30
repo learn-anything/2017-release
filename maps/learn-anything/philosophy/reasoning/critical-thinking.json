@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - philosophy - reasoning - critical thinking",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "critical thinking",
+      "url": "http://www.wikiwand.com/en/Critical_thinking",
+      "fx": 4.8046875,
+      "fy": -129.60546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 157.66028389440305,
+      "fy": -10.887584309490421,
+      "nodes": [
+        {
+          "text": "Harry Potter and the methods of rationality",
+          "url": "http://www.hpmor.com/",
+          "fx": 348.66028389440305,
+          "fy": -10.387584309490421,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 42.357421875000114,
+      "fy": 123.71940104166669,
+      "nodes": [
+        {
+          "text": "1. falsifiability: one key to critical thinking",
+          "url": "https://www.youtube.com/watch?v=zPR_5TOsh-Y",
+          "fx": 198.3574218750001,
+          "fy": 124.21940104166669,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "critical thinking",
+      "target": "basics",
+      "curve": {
+        "x": -7.22363,
+        "y": 125.412
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "critical thinking",
+      "curve": {
+        "x": -59.1778,
+        "y": -58.1089
+      }
+    }
+  ],
+  "id": 1349
+}

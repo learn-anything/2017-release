@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - forces - conservative forces",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "conservative forces",
+      "url": "http://www.wikiwand.com/en/Conservative_force",
+      "fx": -115.8203125,
+      "fy": -144.9453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -45.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=iba4gUeQN0w",
+          "fx": 110.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "conservative forces",
+      "target": "basics",
+      "curve": {
+        "x": 6.16016,
+        "y": 71.4727
+      }
+    }
+  ],
+  "id": 1365
+}

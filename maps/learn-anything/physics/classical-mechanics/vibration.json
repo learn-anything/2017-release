@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - classical mechanics - vibration",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "vibration",
+      "url": "http://www.wikiwand.com/en/Vibration",
+      "fx": 53.22265625,
+      "fy": -152.12890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 73.1796875,
+      "fy": -8.359375,
+      "nodes": [
+        {
+          "text": "1. what is the law of vibration?",
+          "url": "https://www.youtube.com/watch?v=P8vHa8zD7jY",
+          "fx": 229.1796875,
+          "fy": 3.140625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "sound  ️",
+      "url": "/physics/classical-mechanics/vibration/sound",
+      "fx": -31.740234375,
+      "fy": 134.1640625,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "vibration",
+      "target": "basics",
+      "curve": {
+        "x": -2.02148,
+        "y": 70.6348
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sound  ️",
+      "curve": {
+        "x": -52.71,
+        "y": 71.2617
+      }
+    }
+  ],
+  "id": 1386
+}

@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - mathematics - logic - informal logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "informal logic",
+      "url": "http://www.wikiwand.com/en/Informal_logic",
+      "fx": 110.48046875,
+      "fy": -118.44921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 151.04296875,
+      "fy": 7.1484375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://plato.stanford.edu/entries/logic-informal/",
+          "fx": 314.04296875,
+          "fy": 22.1484375,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "informal logic",
+      "target": "basics",
+      "curve": {
+        "x": -3.96875,
+        "y": 62.0488
+      }
+    }
+  ],
+  "id": 1005
+}

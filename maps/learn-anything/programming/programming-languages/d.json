@@ -1,0 +1,88 @@
+{
+  "title": "learn anything - programming - programming languages - d",
+  "tag": "d programming language",
+  "nodes": [
+    {
+      "text": "D",
+      "url": "http://www.wikiwand.com/en/D_(programming_language)",
+      "fx": -60.46875,
+      "fy": -194.46484375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/d_language/",
+          "fx": 81.53125,
+          "fy": -240.46484375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/dlang/dmd",
+          "fx": 81.53125,
+          "fy": -200.46484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/d",
+          "fx": 81.53125,
+          "fy": -160.46484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/zhaopuming/awesome-d",
+          "fx": 81.53125,
+          "fy": -120.46484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -86.8725245986077,
+      "fy": 13.680160379354106,
+      "nodes": [
+        {
+          "text": "1. welcome to D",
+          "url": "https://tour.dlang.org/",
+          "fx": 95.1274754013923,
+          "fy": 8.180160379354106,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. programming in D",
+          "url": "https://www.goodreads.com/book/show/25928594-programming-in-d",
+          "fx": 95.1274754013923,
+          "fy": 42.180160379354106,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "D",
+      "target": "basics",
+      "curve": {
+        "x": -8.95188,
+        "y": 102.822
+      }
+    }
+  ],
+  "id": 1586
+}

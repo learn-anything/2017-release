@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - machine learning - deep learning - autonomous driving",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "autonomous driving",
+      "url": "http://www.wikiwand.com/en/Autonomous_car",
+      "fx": -163.94140625,
+      "fy": -262.6640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 50.210780622490006,
+      "fy": -131.75909889558233,
+      "nodes": [
+        {
+          "text": "apollo",
+          "note": "open autonomous driving platform",
+          "url": "https://github.com/ApolloAuto/apollo",
+          "fx": 249.21078062249,
+          "fy": -119.25909889558233,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -110.55543654503049,
+      "fy": -16.732781701518775,
+      "nodes": [
+        {
+          "text": "1. learning to drive  ️",
+          "url": "http://lab.janhuenermann.de/article/learning-to-drive",
+          "fx": 52.44456345496951,
+          "fy": -4.232781701518775,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "autonomous driving",
+      "target": "basics",
+      "curve": {
+        "x": -10.807,
+        "y": 121.716
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "autonomous driving",
+      "curve": {
+        "x": -75.5761,
+        "y": -64.7025
+      }
+    }
+  ],
+  "id": 752
+}

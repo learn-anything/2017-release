@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - spheres - 3-spheres - poincare conjecture",
+  "tag": "Poincare conjecture",
+  "nodes": [
+    {
+      "text": "Poincare conjecture",
+      "url": "http://www.wikiwand.com/en/Poincar%C3%A9_conjecture",
+      "fx": 281.62890625,
+      "fy": -204.34765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 355.45938670412295,
+      "fy": -15.937617041186343,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=GItmC9lxeco",
+          "fx": 518.459386704123,
+          "fy": -3.4376170411863427,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Poincare conjecture",
+      "target": "basics",
+      "curve": {
+        "x": -4.08476,
+        "y": 93.455
+      }
+    }
+  ],
+  "id": 960
+}

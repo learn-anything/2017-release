@@ -1,0 +1,75 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - bittorrent",
+  "tag": "BitTorrent protocol",
+  "nodes": [
+    {
+      "text": "BitTorrent",
+      "url": "http://www.wikiwand.com/en/BitTorrent",
+      "fx": -30.18749237060547,
+      "fy": -149.79111862182617,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 84.73582458496094,
+      "fy": -38.85326528549194,
+      "nodes": [
+        {
+          "text": "spec",
+          "url": "http://jonas.nitro.dk/bittorrent/bittorrent-rfc.html",
+          "fx": 221.73582458496094,
+          "fy": -24.353265285491943,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -5.85546875,
+      "fy": 90.15625,
+      "nodes": [
+        {
+          "text": "1. how does BitTorrent work?  ️",
+          "url": "https://www.howtogeek.com/141257/htg-explains-how-does-bittorrent-work/",
+          "fx": 150.14453125,
+          "fy": 81.65625,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. BitTorrent as fast as possible",
+          "url": "https://www.youtube.com/watch?v=EkkFT1bRCT0",
+          "fx": 150.14453125,
+          "fy": 121.65625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "BitTorrent",
+      "curve": {
+        "x": -38.2117,
+        "y": -54.2189
+      }
+    },
+    {
+      "source": "BitTorrent",
+      "target": "basics",
+      "curve": {
+        "x": -2.33399,
+        "y": 118.724
+      }
+    }
+  ],
+  "id": 1215
+}

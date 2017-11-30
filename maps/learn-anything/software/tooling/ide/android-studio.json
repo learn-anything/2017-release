@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - software - tooling - ide - android studio",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "Android Studio",
+      "url": "http://www.wikiwand.com/en/Android_Studio",
+      "fx": -54.12109375,
+      "fy": -143.5,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -5.056357780712119,
+      "fy": 4.404229177812624,
+      "nodes": [
+        {
+          "text": "1. meet android studio",
+          "url": "https://developer.android.com/studio/intro/index.html",
+          "fx": 150.94364221928788,
+          "fy": 18.904229177812624,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Android Studio",
+      "target": "basics",
+      "curve": {
+        "x": -1.96763,
+        "y": 72.7021
+      }
+    }
+  ],
+  "id": 1797
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - distributions - binomial distribution",
+  "tag": "binomial distributions",
+  "nodes": [
+    {
+      "text": "binomial distribution",
+      "url": "http://www.wikiwand.com/en/Binomial_distribution",
+      "fx": 127.78515625,
+      "fy": -154.875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 194.62890625,
+      "fy": -19.7109375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ConmIDAzRqI",
+          "fx": 350.62890625,
+          "fy": -8.2109375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "binomial distribution",
+      "target": "basics",
+      "curve": {
+        "x": -4.32812,
+        "y": 66.332
+      }
+    }
+  ],
+  "id": 1085
+}

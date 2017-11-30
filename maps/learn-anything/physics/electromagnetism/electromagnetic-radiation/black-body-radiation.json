@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - black-body radiation",
+  "tag": "black-body radiation",
+  "nodes": [
+    {
+      "text": "black-body radiation",
+      "url": "http://www.wikiwand.com/en/Black-body_radiation",
+      "fx": -48.37890625,
+      "fy": -147.78515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 21.564253826530603,
+      "fy": 3.9725079999104764,
+      "nodes": [
+        {
+          "text": "1. properties of light: blackbody radiation",
+          "url": "https://www.youtube.com/watch?v=oU8cUN6ZXeQ",
+          "fx": 177.5642538265306,
+          "fy": 4.472507999910476,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Unruh effect  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/black-body-radiation/unruh-effect",
+      "fx": -105.44017269736855,
+      "fy": 148.18482310687443,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "black-body radiation",
+      "target": "basics",
+      "curve": {
+        "x": -4.02842,
+        "y": 74.6289
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Unruh effect  ️",
+      "curve": {
+        "x": -50.2522,
+        "y": 72.1062
+      }
+    }
+  ],
+  "id": 1426
+}

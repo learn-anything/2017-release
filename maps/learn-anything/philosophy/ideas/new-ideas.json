@@ -1,0 +1,111 @@
+{
+  "title": "learn anything - philosophy - ideas - new ideas",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "project ideas",
+      "url": "",
+      "fx": -308.2600083210059,
+      "fy": -219.252057137574,
+      "nodes": [
+        {
+          "text": "list of practical projects to code in any language",
+          "url": "https://github.com/karan/Projects",
+          "fx": -94.2600083210059,
+          "fy": -352.752057137574,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome foss apps",
+          "url": "https://github.com/jwaterfaucett/awesome-foss-apps",
+          "fx": -94.2600083210059,
+          "fy": -290.752057137574,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome open source apps",
+          "url": "https://github.com/unicodeveloper/awesome-opensource-apps",
+          "fx": -94.2600083210059,
+          "fy": -250.752057137574,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome for beginners",
+          "url": "https://github.com/MunGell/awesome-for-beginners",
+          "fx": -94.2600083210059,
+          "fy": -210.752057137574,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "mega project ideas list",
+          "url": "http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/",
+          "fx": -94.2600083210059,
+          "fy": -170.752057137574,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "cool github projects",
+          "url": "https://www.reddit.com/r/coolgithubprojects/",
+          "fx": -94.2600083210059,
+          "fy": -136.752057137574,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "collective list of APIs",
+          "url": "http://apilist.fun",
+          "fx": -94.2600083210059,
+          "fy": -96.75205713757401,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "public APIs",
+          "url": "https://github.com/toddmotto/public-apis",
+          "fx": -94.2600083210059,
+          "fy": -62.75205713757401,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -219.8159730295282,
+      "fy": 39.96153510811405,
+      "nodes": [
+        {
+          "text": "marketing side projects",
+          "url": "https://www.sideprojectchecklist.com/",
+          "fx": -82.81597302952821,
+          "fy": 54.46153510811405,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "project ideas",
+      "target": "help",
+      "curve": {
+        "x": 24.972,
+        "y": 129.607
+      }
+    }
+  ],
+  "id": 1327
+}

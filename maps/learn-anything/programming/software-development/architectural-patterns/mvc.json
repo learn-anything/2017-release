@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - software development - architectural patterns - mvc",
+  "tag": "Model-view-controller",
+  "nodes": [
+    {
+      "text": "Model-view-controller",
+      "url": "http://www.wikiwand.com/en/Model%E2%80%93view%E2%80%93controller",
+      "fx": -38.05078125,
+      "fy": -160.7578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 38,
+      "fy": -4.69921875,
+      "nodes": [
+        {
+          "text": "1. explanation - with legos  ️",
+          "url": "https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/",
+          "fx": 194,
+          "fy": -13.19921875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. detailed explanation",
+          "url": "https://www.youtube.com/watch?v=1IsL6g2ixak",
+          "fx": 194,
+          "fy": 26.80078125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Model-view-controller",
+      "target": "basics",
+      "curve": {
+        "x": -3.47461,
+        "y": 76.7793
+      }
+    }
+  ],
+  "id": 1690
+}

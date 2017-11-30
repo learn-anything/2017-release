@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - experimental philosophy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "experimental philosophy",
+      "url": "http://www.wikiwand.com/en/Experimental_philosophy",
+      "fx": 164.852391098485,
+      "fy": -275.20063920454544,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 262.83333333333474,
+      "fy": -119.77272727267086,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=EVoZCOVzdaU",
+          "fx": 425.83333333333474,
+          "fy": -107.27272727267086,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "experimental philosophy",
+      "target": "basics",
+      "curve": {
+        "x": -2.75953,
+        "y": 76.964
+      }
+    }
+  ],
+  "id": 1324
+}

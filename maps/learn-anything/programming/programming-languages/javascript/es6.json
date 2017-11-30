@@ -1,0 +1,104 @@
+{
+  "title": "learn anything - programming - programming languages - javascript - es6",
+  "tag": "ES6",
+  "nodes": [
+    {
+      "text": "ES6",
+      "url": "https://github.com/lukehoban/es6features",
+      "fx": 242.1519145361948,
+      "fy": -483.5344734361136,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 355.13437029780175,
+      "fy": -379.7870408142505,
+      "nodes": [
+        {
+          "text": "es6 quick notes",
+          "url": "https://github.com/voxsim/knowledge/tree/master/programming-languages/javascript",
+          "fx": 492.13437029780175,
+          "fy": -388.2870408142505,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "es6 tools",
+          "url": "https://github.com/addyosmani/es6-tools",
+          "fx": 492.02835986079003,
+          "fy": -348.33956919559813,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 225.02560683364277,
+      "fy": -210.99448508741148,
+      "nodes": [
+        {
+          "text": "1. practical ES6",
+          "url": "https://ponyfoo.com/books/practical-es6/chapters",
+          "fx": 407.02560683364277,
+          "fy": -259.4944850874115,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. exploring ES6",
+          "url": "http://exploringjs.com/es6/",
+          "fx": 407.02560683364277,
+          "fy": -219.49448508741148,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. javascript style guide",
+          "url": "https://github.com/airbnb/javascript",
+          "fx": 407.02560683364277,
+          "fy": -179.49448508741148,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. ES6 for humans",
+          "url": "https://github.com/metagrover/ES6-for-humans",
+          "fx": 407.02560683364277,
+          "fy": -139.49448508741148,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "ES6",
+      "curve": {
+        "x": -49.4912,
+        "y": -50.6237
+      }
+    },
+    {
+      "source": "ES6",
+      "target": "basics",
+      "curve": {
+        "x": -10.8132,
+        "y": 135.02
+      }
+    }
+  ],
+  "id": 1611
+}

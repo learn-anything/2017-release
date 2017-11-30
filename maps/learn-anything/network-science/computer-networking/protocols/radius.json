@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - radius",
+  "tag": "RADIUS protocol",
+  "nodes": [
+    {
+      "text": "Remote Authentication Dial-In User Service",
+      "url": "http://www.wikiwand.com/en/RADIUS",
+      "fx": -131.84765625,
+      "fy": -216.19140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -33.1789445935583,
+      "fy": -23.673768213190215,
+      "nodes": [
+        {
+          "text": "1. overview and details of the protocol",
+          "url": "http://www.tml.tkk.fi/Studies/T-110.551/2003/papers/12.pdf",
+          "fx": 122.8210554064417,
+          "fy": -23.173768213190215,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Remote Authentication Dial-In User Service",
+      "target": "basics",
+      "curve": {
+        "x": -4.91564,
+        "y": 88.7588
+      }
+    }
+  ],
+  "id": 1220
+}

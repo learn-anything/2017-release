@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - software - tooling - productivity - karabiner",
+  "tag": "karabiner macOS app",
+  "nodes": [
+    {
+      "text": "karabiner",
+      "url": "https://pqrs.org/osx/karabiner/",
+      "fx": -104.6015625,
+      "fy": -247.1796875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/tekezo/Karabiner-Elements",
+          "fx": 77.3984375,
+          "fy": -235.6796875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -99.35399265552996,
+      "fy": -152.18629392281105,
+      "nodes": [
+        {
+          "text": "1. private.xml reference",
+          "url": "https://pqrs.org/osx/karabiner/xml.html.en",
+          "fx": 82.64600734447004,
+          "fy": -137.68629392281105,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "karabiner",
+      "target": "basics",
+      "curve": {
+        "x": -3.87621,
+        "y": 47.4967
+      }
+    }
+  ],
+  "id": 1808
+}

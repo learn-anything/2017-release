@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - mathematics - analysis - fourier analysis",
+  "tag": "Fourier analysis",
+  "nodes": [
+    {
+      "text": "Fourier analysis",
+      "url": "http://www.wikiwand.com/en/Fourier_analysis",
+      "fx": -93.22701263427734,
+      "fy": -148.8474407196045,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -70.15009150772835,
+      "fy": -15.748826795589821,
+      "nodes": [
+        {
+          "text": "1. Fourier transform, Fourier series and frequency spectrum",
+          "url": "https://www.youtube.com/watch?v=r18Gi8lSkfM",
+          "fx": 85.84990849227165,
+          "fy": -35.24882679558982,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Fourier series explanation",
+          "url": "https://www.youtube.com/watch?v=x04dnqg-iPw",
+          "fx": 85.84990849227165,
+          "fy": 26.75117320441018,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Fourier series  ️",
+      "url": "/mathematics/analysis/fourier-analysis/fourier-series",
+      "fx": -86.82444417476654,
+      "fy": 110.15691375732422,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Fourier transform  ️",
+      "url": "/mathematics/analysis/fourier-analysis/fourier-transform",
+      "fx": -316.9441012596898,
+      "fy": 110.72214147286832,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fourier analysis",
+      "target": "basics",
+      "curve": {
+        "x": -7.46154,
+        "y": 66.5493
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Fourier series  ️",
+      "curve": {
+        "x": 7.41282,
+        "y": 62.9529
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Fourier transform  ️",
+      "curve": {
+        "x": -99.147,
+        "y": 63.2355
+      }
+    }
+  ],
+  "id": 865
+}

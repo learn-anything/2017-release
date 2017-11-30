@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - incidence geometry - linear spaces",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "linear spaces",
+      "url": "http://www.wikiwand.com/en/Linear_space_(geometry)",
+      "fx": 71.56127929687489,
+      "fy": -163.762451171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 106.53608247422676,
+      "fy": -8.628865979368243,
+      "nodes": [
+        {
+          "text": "1. linear subspaces",
+          "url": "https://www.youtube.com/watch?v=pMFv6liWK4M",
+          "fx": 269.53608247422676,
+          "fy": 3.8711340206317573,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "linear spaces",
+      "target": "basics",
+      "curve": {
+        "x": 0.737402,
+        "y": 77.5668
+      }
+    }
+  ],
+  "id": 953
+}

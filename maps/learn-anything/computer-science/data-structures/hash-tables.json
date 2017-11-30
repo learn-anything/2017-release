@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - computer science - data structures - hash tables",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "hash tables",
+      "url": "http://www.wikiwand.com/en/Hash_table",
+      "fx": -110.33984375,
+      "fy": -435.92578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 39.36318506993143,
+      "fy": -309.29536533816423,
+      "nodes": [
+        {
+          "text": "17: writing a damn fast hash table with tiny memory footprints  ️",
+          "url": "http://www.idryman.org/blog/2017/05/03/writing-a-damn-fast-hash-table-with-tiny-memory-footprints/",
+          "fx": 230.36318506993143,
+          "fy": -308.79536533816423,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "f",
+      "url": "",
+      "fx": -97.42641129032268,
+      "fy": -150.5831653225806,
+      "nodes": [
+        {
+          "text": "1. know your hash tables  ️",
+          "url": "http://www.zeroequalsfalse.press/2017/02/20/hashtables/",
+          "fx": 84.57358870967732,
+          "fy": -159.0831653225806,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. hash tables explained",
+          "url": "https://www.youtube.com/watch?v=shs0KM3wKv8",
+          "fx": 84.57358870967732,
+          "fy": -119.08316532258061,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "hash tables",
+      "curve": {
+        "x": -58.3515,
+        "y": -62.0652
+      }
+    },
+    {
+      "source": "hash tables",
+      "target": "basics",
+      "curve": {
+        "x": -18.7933,
+        "y": 141.422
+      }
+    }
+  ],
+  "id": 322
+}

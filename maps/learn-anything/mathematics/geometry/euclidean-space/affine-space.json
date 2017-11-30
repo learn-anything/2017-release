@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - geometry - euclidean space - affine space",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "affine space",
+      "url": "http://www.wikiwand.com/en/Affine_space",
+      "fx": -83.48646349009903,
+      "fy": -131.60635829207916,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -39.79370358910887,
+      "fy": 13.593285891089124,
+      "nodes": [
+        {
+          "text": "1. three dimensional affine geometry",
+          "url": "https://www.youtube.com/watch?v=I8MQyeNWdHw",
+          "fx": 123.20629641089113,
+          "fy": -19.906714108910876,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. vector spaces vs affine spaces  ️",
+          "url": "https://math.stackexchange.com/a/185803/143616",
+          "fx": 123.20629641089113,
+          "fy": 47.093285891089124,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "convex sets  ️",
+      "url": "/mathematics/geometry/euclidean-space/affine-space/convex-sets",
+      "fx": -172.87909962871288,
+      "fy": 148.72996596542373,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "affine space",
+      "target": "basics",
+      "curve": {
+        "x": 0.096375,
+        "y": 71.8499
+      }
+    },
+    {
+      "source": "basics",
+      "target": "convex sets  ️",
+      "curve": {
+        "x": -52.7927,
+        "y": 67.5683
+      }
+    }
+  ],
+  "id": 942
+}

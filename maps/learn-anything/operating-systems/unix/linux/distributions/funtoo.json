@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - funtoo",
+  "tag": "funtoo distro",
+  "nodes": [
+    {
+      "text": "funtoo",
+      "url": "http://www.wikiwand.com/en/Gentoo_Linux",
+      "fx": -36.699429898648646,
+      "fy": -125.08773226351343,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/funtoo/",
+          "fx": 119.30057010135135,
+          "fy": -113.58773226351343,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. install funtoo",
+          "url": "http://www.funtoo.org/Install",
+          "fx": 109.5,
+          "fy": 12.5,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "funtoo",
+      "target": "basics",
+      "curve": {
+        "x": -4.90029,
+        "y": 61.5439
+      }
+    }
+  ],
+  "id": 1286
+}

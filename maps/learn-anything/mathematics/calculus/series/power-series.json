@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - mathematics - calculus - series - power series",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "power series",
+      "url": "http://www.wikiwand.com/en/Power_series",
+      "fx": -92.03125,
+      "fy": -136.2265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": 3,
+      "nodes": [
+        {
+          "text": "1. power series, calculus of power series, ratio test",
+          "url": "https://www.youtube.com/watch?v=TGD-TP1c7i4",
+          "fx": 112,
+          "fy": 3,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "generalised hypergeometric function",
+      "url": "http://www.wikiwand.com/en/Generalized_hypergeometric_function",
+      "fx": -262.69010416666663,
+      "fy": 158.42317708333348,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basic hypergeometric series",
+      "url": "http://www.wikiwand.com/en/Basic_hypergeometric_series",
+      "fx": -406.29550253378386,
+      "fy": 341.76921452702686,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "power series",
+      "target": "basics",
+      "curve": {
+        "x": -3.23438,
+        "y": 68.8633
+      }
+    },
+    {
+      "source": "basics",
+      "target": "generalised hypergeometric function",
+      "curve": {
+        "x": -51.5951,
+        "y": 85.7116
+      }
+    },
+    {
+      "source": "generalised hypergeometric function",
+      "target": "basic hypergeometric series",
+      "curve": {
+        "x": -70.5527,
+        "y": 91.673
+      }
+    }
+  ],
+  "id": 901
+}

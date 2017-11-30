@@ -1,0 +1,75 @@
+{
+  "title": "learn anything - programming - software development - devops - chef",
+  "tag": "chef configuration management",
+  "nodes": [
+    {
+      "text": "chef",
+      "url": "http://www.wikiwand.com/en/Chef_(software)",
+      "fx": -48.4473852040818,
+      "fy": -157.84502551020412,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 63.077173057867526,
+      "fy": -55.86351163046692,
+      "nodes": [
+        {
+          "text": "awesome chef",
+          "url": "https://github.com/obazoud/awesome-chef",
+          "fx": 200.07717305786753,
+          "fy": -44.36351163046692,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -46.27975934865526,
+      "fy": 44.007723993184584,
+      "nodes": [
+        {
+          "text": "1. getting started with chef",
+          "url": "http://gettingstartedwithchef.com/",
+          "fx": 135.72024065134474,
+          "fy": 41.507723993184584,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. beginner’s guide to chef",
+          "url": "https://www.linode.com/docs/applications/configuration-management/beginners-guide-chef/",
+          "fx": 135.72024065134474,
+          "fy": 75.50772399318458,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "chef",
+      "curve": {
+        "x": -48.5123,
+        "y": -49.7408
+      }
+    },
+    {
+      "source": "chef",
+      "target": "basics",
+      "curve": {
+        "x": -1.41619,
+        "y": 99.6764
+      }
+    }
+  ],
+  "id": 1700
+}

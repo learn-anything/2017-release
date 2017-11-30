@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves - total internal reflection",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "total internal reflection",
+      "url": "http://www.wikiwand.com/en/Total_internal_reflection",
+      "fx": 74.32837792266196,
+      "fy": -21.471813174460408,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 156.14695340501783,
+      "fy": 127.52329749103319,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=WRuatAcd2WY",
+          "fx": 319.1469534050178,
+          "fy": 139.6648745519651,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "total internal reflection",
+      "target": "basics",
+      "curve": {
+        "x": -4.09071,
+        "y": 73.7476
+      }
+    }
+  ],
+  "id": 1393
+}

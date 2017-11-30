@@ -1,0 +1,88 @@
+{
+  "title": "learn anything - programming - programming languages - lua",
+  "tag": "lua programming language",
+  "nodes": [
+    {
+      "text": "lua",
+      "url": "http://www.wikiwand.com/en/Lua_(programming_language)",
+      "fx": -91.44140625,
+      "fy": -299.84765625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/lua/",
+          "fx": 61.55859375,
+          "fy": -345.84765625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/lua/lua",
+          "fx": 61.55859375,
+          "fy": -305.84765625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/lua",
+          "fx": 61.55859375,
+          "fy": -265.84765625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/LewisJEllis/awesome-lua",
+          "fx": 61.55859375,
+          "fy": -225.84765625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -120.1875,
+      "fy": -108.953125,
+      "nodes": [
+        {
+          "text": "1. learn lua in 15 minutes",
+          "url": "http://tylerneylon.com/a/learn-lua/",
+          "fx": 61.8125,
+          "fy": -114.453125,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. lua missions",
+          "url": "https://github.com/kikito/lua_missions",
+          "fx": 61.8125,
+          "fy": -80.453125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "lua",
+      "target": "basics",
+      "curve": {
+        "x": -13.623,
+        "y": 94.1966
+      }
+    }
+  ],
+  "id": 1619
+}

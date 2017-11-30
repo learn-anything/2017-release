@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - programming - version control - git - git hooks",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "git hooks",
+      "url": "https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks",
+      "fx": -82.61023694248831,
+      "fy": -119.25520833333331,
+      "nodes": []
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 11.244250838344215,
+      "fy": -7.410614958575934,
+      "nodes": [
+        {
+          "text": "git hooks made easy",
+          "url": "https://github.com/typicode/husky",
+          "fx": 153.24425083834421,
+          "fy": 4.089385041424066,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 61.59858535805631,
+      "fy": 105.77533567774924,
+      "nodes": [
+        {
+          "text": "15: git hooks for front end developer  ️",
+          "url": "http://blog.bradleygore.com/2015/08/06/git-hooks-for-the-front-end-developer/",
+          "fx": 223.5985853580563,
+          "fy": 106.27533567774924,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tools",
+      "target": "git hooks",
+      "curve": {
+        "x": -37.1772,
+        "y": -55.9223
+      }
+    },
+    {
+      "source": "articles",
+      "target": "tools",
+      "curve": {
+        "x": -30.1772,
+        "y": -56.593
+      }
+    }
+  ],
+  "id": 1739
+}

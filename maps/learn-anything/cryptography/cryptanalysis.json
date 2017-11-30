@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - cryptography - cryptanalysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cryptanalysis",
+      "url": "http://www.wikiwand.com/en/Cryptanalysis",
+      "fx": 132.82475987554108,
+      "fy": -325.7217261904761,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 292.12639096082546,
+      "fy": -213.7881317138672,
+      "nodes": [
+        {
+          "text": "15: differential cryptanalysis for dummies  ️",
+          "url": "http://blog.ioactive.com/2015/07/differential-cryptanalysis-for-dummies.html",
+          "fx": 454.12639096082546,
+          "fy": -213.2881317138672,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 168.32941017316546,
+      "fy": -120.9395292207779,
+      "nodes": [
+        {
+          "text": "1. crypto challenges",
+          "url": "https://cryptopals.com/",
+          "fx": 324.32941017316546,
+          "fy": -106.4395292207779,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "cryptanalysis",
+      "curve": {
+        "x": -59.1508,
+        "y": -54.7168
+      }
+    },
+    {
+      "source": "cryptanalysis",
+      "target": "basics",
+      "curve": {
+        "x": -4.24767,
+        "y": 101.141
+      }
+    }
+  ],
+  "id": 366
+}

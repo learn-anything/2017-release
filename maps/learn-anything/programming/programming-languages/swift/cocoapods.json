@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - programming - programming languages - swift - cocoapods",
+  "tag": "CocoaPods",
+  "nodes": [
+    {
+      "text": "CocoaPods",
+      "url": "https://cocoapods.org/",
+      "fx": 95.4921875,
+      "fy": -240.71484375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/CocoaPods/CocoaPods",
+          "fx": 300.4921875,
+          "fy": -229.21484375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 231.16085188356192,
+      "fy": -139.84405979631492,
+      "nodes": [
+        {
+          "text": "CocoaPods specs",
+          "url": "https://github.com/CocoaPods/Specs",
+          "fx": 368.1608518835619,
+          "fy": -148.34405979631492,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "cheat sheet",
+          "url": "https://gist.github.com/StuartMorris0/7081909",
+          "fx": 368.1608518835619,
+          "fy": -108.34405979631492,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 116.51685855263167,
+      "fy": -39.818256578947285,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://guides.cocoapods.org/using/getting-started.html",
+          "fx": 272.5168585526317,
+          "fy": -25.318256578947285,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "CocoaPods",
+      "curve": {
+        "x": -50.8343,
+        "y": -50.4354
+      }
+    },
+    {
+      "source": "CocoaPods",
+      "target": "basics",
+      "curve": {
+        "x": -1.73766,
+        "y": 100.448
+      }
+    }
+  ],
+  "id": 1658
+}

@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - mathematics - geometry - projective geometry",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "projective geometry",
+      "note": "is the study of geometric properties that are invariant with respect to projective transformations  this means, that compared to elementary geometry, projective geometry has a different setting, projective space, and a selective set of basic geometric concepts  the bass intuitions are that projective space has more points than Euclidean space, for a given dimension, and that geometric transformations are permitted that transform the extra points (called ‘points at infinity’) to Euclidean points, and vice versa",
+      "url": "http://www.wikiwand.com/en/Projective_geometry",
+      "fx": -139.3046875,
+      "fy": -149.2578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": 8.33984375,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=NYK0GBQVngs",
+          "fx": 112,
+          "fy": -33.66015625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. geometry revisited",
+          "url": "http://www.aproged.pt/biblioteca/geometryrevisited_coxetergreitzer.pdf",
+          "fx": 112,
+          "fy": 8.33984375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. foundations of projective geometry",
+          "url": "https://www.youtube.com/watch?v=hhT6NOdawtg",
+          "fx": 112,
+          "fy": 50.33984375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "projective geometry",
+      "target": "basics",
+      "curve": {
+        "x": -3.09766,
+        "y": 78.0488
+      }
+    }
+  ],
+  "id": 958
+}

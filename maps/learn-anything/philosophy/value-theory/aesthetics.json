@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - philosophy - value theory - aesthetics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "aesthetics",
+      "url": "http://www.wikiwand.com/en/Aesthetics",
+      "fx": 161.89453125,
+      "fy": -274.1010044642858,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 188.8472900390625,
+      "fy": -130.27143096923828,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=gDL4Zf2yEa4",
+          "fx": 351.8472900390625,
+          "fy": -138.77143096923828,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. aesthetic appreciation",
+          "url": "https://www.youtube.com/watch?v=NZ5duzln2wI",
+          "fx": 351.8472900390625,
+          "fy": -96.77143096923828,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "beauty  ️",
+      "url": "/philosophy/value-theory/aesthetics/beauty",
+      "fx": 85.53175978200738,
+      "fy": -2.6870491468154114,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "aesthetics",
+      "target": "basics",
+      "curve": {
+        "x": -3.77362,
+        "y": 71.1648
+      }
+    },
+    {
+      "source": "basics",
+      "target": "beauty  ️",
+      "curve": {
+        "x": -50.9078,
+        "y": 63.7922
+      }
+    }
+  ],
+  "id": 1359
+}

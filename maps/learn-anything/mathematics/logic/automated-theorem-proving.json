@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - mathematics - logic - automated theorem proving",
+  "tag": "automated theory proving",
+  "nodes": [
+    {
+      "text": "automated theorem proving",
+      "url": "http://www.wikiwand.com/en/Automated_theorem_proving",
+      "fx": 38.765625,
+      "fy": -205.61328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "papers",
+      "url": "",
+      "fx": 296.58409288194605,
+      "fy": -100.24441189236899,
+      "nodes": [
+        {
+          "text": "10: automated theorem proving in Quaigroup and loop theory",
+          "url": "http://www.karlin.mff.cuni.cz/~stanovsk/math/qptp.pdf",
+          "fx": 457.58409288194605,
+          "fy": -99.74441189236899,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 144.9931640625001,
+      "fy": 58.437988281249886,
+      "nodes": [
+        {
+          "text": "1. what is automated theorem proving?",
+          "url": "http://www.cs.miami.edu/~tptp/OverviewOfATP.html",
+          "fx": 300.9931640625001,
+          "fy": 13.937988281249886,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. a survey of automated theorem proving",
+          "url": "https://www.youtube.com/watch?v=Nydg-N83VYc",
+          "fx": 300.9931640625001,
+          "fy": 69.93798828124989,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. automated theorem proving",
+          "url": "https://www.cs.cmu.edu/~fp/courses/atp/handouts/atp.pdf",
+          "fx": 300.9931640625001,
+          "fy": 131.9379882812499,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "automated theorem proving",
+      "target": "basics",
+      "curve": {
+        "x": -2.38623,
+        "y": 130.776
+      }
+    },
+    {
+      "source": "papers",
+      "target": "automated theorem proving",
+      "curve": {
+        "x": -74.6592,
+        "y": -51.4344
+      }
+    }
+  ],
+  "id": 997
+}

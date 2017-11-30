@@ -1,0 +1,144 @@
+{
+  "title": "learn anything - mathematics - mathematical models - game theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "game theory",
+      "url": "http://www.wikiwand.com/en/Game_theory",
+      "fx": -54.93548103932585,
+      "fy": -317.58277738764036,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -27.879702752278376,
+      "fy": -77.28107641395997,
+      "nodes": [
+        {
+          "text": "1. ELI 5: game theory",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/3749u4/eli5_game_theory_relating_to_mathematics_and_john/crjqgxi/",
+          "fx": 128.12029724772162,
+          "fy": -218.78107641395997,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "1. game theory: the science of decision-making",
+          "url": "https://www.youtube.com/watch?v=MHS-htjGgSY",
+          "fx": 128.12029724772162,
+          "fy": -178.78107641395997,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the evolution of trust",
+          "url": "http://ncase.me/trust/",
+          "fx": 128.12029724772162,
+          "fy": -116.78107641395997,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. game theory wth 165 solved exercises",
+          "url": "https://arxiv.org/pdf/1512.06808.pdf",
+          "fx": 128.12029724772162,
+          "fy": -76.78107641395997,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. game theory",
+          "url": "https://www.coursera.org/learn/game-theory-1",
+          "fx": 128.12029724772162,
+          "fy": -14.781076413959966,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "2. game theory I: an introduction",
+          "url": "http://www.game-theory-class.org/game-theory-I.html",
+          "fx": 128.12029724772162,
+          "fy": 25.218923586040034,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "3. game theory II: advanced applications",
+          "url": "http://www.game-theory-class.org/game-theory-II.html",
+          "fx": 128.12029724772162,
+          "fy": 65.21892358604003,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "evolutionary game theory  ️",
+      "url": "/mathematics/mathematical-models/game-theory/evolutionary-game-theory",
+      "fx": -272.4348646145087,
+      "fy": 198.03207365533729,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rational choice theory  ️",
+      "url": "/mathematics/mathematical-models/game-theory/rational-choice-theory",
+      "fx": -776.2238889910017,
+      "fy": 199.78224168691156,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Nash equilibrium  ️",
+      "url": "/mathematics/mathematical-models/game-theory/nash-equilibrium",
+      "fx": -503.63483987636994,
+      "fy": 200.84189224439103,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "game theory",
+      "target": "basics",
+      "curve": {
+        "x": -7.72211,
+        "y": 118.901
+      }
+    },
+    {
+      "source": "basics",
+      "target": "evolutionary game theory  ️",
+      "curve": {
+        "x": -80.0276,
+        "y": 137.657
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Nash equilibrium  ️",
+      "curve": {
+        "x": -214.628,
+        "y": 139.062
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rational choice theory  ️",
+      "curve": {
+        "x": -398.893,
+        "y": 98.7537
+      }
+    }
+  ],
+  "id": 1030
+}

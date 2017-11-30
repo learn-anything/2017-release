@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - programming - programming languages - haskell - liquid haskell",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "liquid haskell",
+      "url": "https://ucsd-progsys.github.io/liquidhaskell-blog/",
+      "fx": -45.703125,
+      "fy": -247.7265625,
+      "nodes": []
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 88.2421875,
+      "fy": -135.34375,
+      "nodes": [
+        {
+          "text": "deriving law-abiding instances",
+          "url": "https://arxiv.org/pdf/1708.02328.pdf",
+          "fx": 287.2421875,
+          "fy": -122.84375,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -28.33194637298584,
+      "fy": -28.215357780456543,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://ucsd-progsys.github.io/lh-workshop/",
+          "fx": 134.66805362701416,
+          "fy": -15.715357780456543,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "liquid haskell",
+      "target": "basics",
+      "curve": {
+        "x": -6.56441,
+        "y": 109.756
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "liquid haskell",
+      "curve": {
+        "x": -60.7227,
+        "y": -56.1914
+      }
+    }
+  ],
+  "id": 1600
+}

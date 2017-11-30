@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - physics - computational physics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computational physics",
+      "url": "http://www.wikiwand.com/en/Computational_physics",
+      "fx": -127.24609375,
+      "fy": -199.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "monte carlo methods  ️",
+      "url": "/physics/computational-physics/monte-carlo-methods",
+      "fx": -205.515625,
+      "fy": -13.46484375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "computational physics",
+      "target": "monte carlo methods  ️",
+      "curve": {
+        "x": -48.8848,
+        "y": 91.8652
+      }
+    }
+  ],
+  "id": 1403
+}

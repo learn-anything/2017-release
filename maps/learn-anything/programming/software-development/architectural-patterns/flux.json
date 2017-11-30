@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - programming - software development - architectural patterns - flux",
+  "tag": "Flux software architecture",
+  "nodes": [
+    {
+      "text": "Flux architecture",
+      "url": "",
+      "fx": 5.74609375,
+      "fy": -152.60546875,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 46.12070009689637,
+      "fy": -5.281371124044881,
+      "nodes": [
+        {
+          "text": "1. introduction  ️",
+          "url": "https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture",
+          "fx": 202.12070009689637,
+          "fy": 6.218628875955119,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Flux architecture",
+      "target": "basics",
+      "curve": {
+        "x": -2.5627,
+        "y": 73.662
+      }
+    }
+  ],
+  "id": 1689
+}

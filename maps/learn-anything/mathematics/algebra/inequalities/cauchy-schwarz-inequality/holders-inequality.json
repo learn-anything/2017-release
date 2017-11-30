@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - inequalities - cauchy-schwarz inequality - holders inequality",
+  "tag": "Holder's inequality",
+  "nodes": [
+    {
+      "text": "Hölder's inequality",
+      "url": "http://www.wikiwand.com/en/H%C3%B6lder%27s_inequality",
+      "fx": 79.48046875,
+      "fy": -103.96484375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=kxQiKaIuyOg",
+          "fx": 310,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Hölder's inequality",
+      "target": "basics",
+      "curve": {
+        "x": -2.99023,
+        "y": 68.2324
+      }
+    }
+  ],
+  "id": 848
+}

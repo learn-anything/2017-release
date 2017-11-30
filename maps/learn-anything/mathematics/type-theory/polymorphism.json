@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - mathematics - type theory - polymorphism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polymorphism",
+      "url": "http://www.wikiwand.com/en/Polymorphism_(computer_science)",
+      "fx": 71.08673095703125,
+      "fy": -177.22413558691323,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 282.2610890563102,
+      "fy": -81.52732529606607,
+      "nodes": [
+        {
+          "text": "1. polymorphism that just works  ️",
+          "url": "http://tobyho.com/2015/06/23/polymorphism-that-just-works/",
+          "fx": 444.2610890563102,
+          "fy": -70.02732529606607,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 117.62147887323954,
+      "fy": 20.75940300896309,
+      "nodes": [
+        {
+          "text": "1. polymorphism for dummies  ️",
+          "url": "http://www.haskellforall.com/2015/10/polymorphism-for-dummies.html",
+          "fx": 273.62147887323954,
+          "fy": 12.25940300896309,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. simple explanation   ️",
+          "url": "https://stackoverflow.com/a/7748957/3067664",
+          "fx": 273.62147887323954,
+          "fy": 52.25940300896309,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "parametric polymorphism  ️",
+      "url": "/mathematics/type-theory/polymorphism/parametric-polymorphism",
+      "fx": -95.30198965827412,
+      "fy": 147.40366456834545,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "polymorphism",
+      "target": "basics",
+      "curve": {
+        "x": -1.48263,
+        "y": 97.7418
+      }
+    },
+    {
+      "source": "articles",
+      "target": "polymorphism",
+      "curve": {
+        "x": -82.3372,
+        "y": -46.5984
+      }
+    },
+    {
+      "source": "basics",
+      "target": "parametric polymorphism  ️",
+      "curve": {
+        "x": -66.2117,
+        "y": 63.3221
+      }
+    }
+  ],
+  "id": 1150
+}

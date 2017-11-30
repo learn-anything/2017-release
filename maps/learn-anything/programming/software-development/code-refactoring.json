@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - software development - code refactoring",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "code refactoring",
+      "url": "http://www.wikiwand.com/en/Code_refactoring",
+      "fx": -95.69921875,
+      "fy": -163.6328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.328125,
+      "fy": -16.3828125,
+      "nodes": [
+        {
+          "text": "1. refactoring: improving the design of existing code",
+          "url": "https://www.csie.ntu.edu.tw/~r95004/Refactoring_improving_the_design_of_existing_code.pdf",
+          "fx": 112.671875,
+          "fy": -35.8828125,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is refactoring",
+          "url": "https://www.youtube.com/watch?v=7VdSoCqrr8w",
+          "fx": 112.671875,
+          "fy": 26.1171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "code refactoring",
+      "target": "basics",
+      "curve": {
+        "x": -3.31445,
+        "y": 72.375
+      }
+    }
+  ],
+  "id": 1695
+}

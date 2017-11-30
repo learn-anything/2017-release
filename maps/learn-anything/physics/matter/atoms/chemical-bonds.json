@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - matter - atoms - chemical bonds",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "chemical bonds",
+      "url": "http://www.wikiwand.com/en/Chemical_bond",
+      "fx": 356.8046875,
+      "fy": -103.57421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 407.23984678987154,
+      "fy": 63.67649562251688,
+      "nodes": [
+        {
+          "text": "1. types of chemical bonds",
+          "url": "https://www.youtube.com/watch?v=QXT4OVM4vXI",
+          "fx": 563.2398467898715,
+          "fy": 75.17649562251688,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "chemical compounds",
+      "url": "http://www.wikiwand.com/en/Chemical_compound",
+      "fx": 263.373046875,
+      "fy": 204.9443359375,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "chemical bonds",
+      "target": "basics",
+      "curve": {
+        "x": -3.28242,
+        "y": 82.3754
+      }
+    },
+    {
+      "source": "basics",
+      "target": "chemical compounds",
+      "curve": {
+        "x": -30.4334,
+        "y": 71.8839
+      }
+    }
+  ],
+  "id": 1454
+}

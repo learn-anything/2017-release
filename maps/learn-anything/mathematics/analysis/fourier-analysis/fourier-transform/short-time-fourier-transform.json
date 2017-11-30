@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - analysis - fourier analysis - fourier transform - short-time fourier transform",
+  "tag": "short-time Fourier transform",
+  "nodes": [
+    {
+      "text": "short-time Fourier transform",
+      "url": "http://www.wikiwand.com/en/Short-time_Fourier_transform",
+      "fx": 48.07421875,
+      "fy": -110.14447463768118,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 149.51687153917158,
+      "fy": 53.15043068088602,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=g1_wcbGUcDY",
+          "fx": 312.5168715391716,
+          "fy": 65.65043068088602,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Gabor transform  ️",
+      "url": "/mathematics/analysis/fourier-analysis/fourier-transform/short-time-fourier-transform/gabor-transform",
+      "fx": -9.925751278772395,
+      "fy": 213.89625959079274,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "short-time Fourier transform",
+      "target": "basics",
+      "curve": {
+        "x": -1.52867,
+        "y": 81.6475
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Gabor transform  ️",
+      "curve": {
+        "x": -55.2213,
+        "y": 80.3729
+      }
+    }
+  ],
+  "id": 863
+}

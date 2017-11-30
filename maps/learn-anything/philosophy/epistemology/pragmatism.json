@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - philosophy - epistemology - pragmatism",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "pragmatism",
+      "url": "http://www.wikiwand.com/en/Pragmatism",
+      "fx": -83.20703125,
+      "fy": -142.83203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://plato.stanford.edu/entries/pragmatism/",
+          "fx": 112,
+          "fy": 13,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "pragmatism",
+      "target": "basics",
+      "curve": {
+        "x": -4.89648,
+        "y": 69.666
+      }
+    }
+  ],
+  "id": 1319
+}

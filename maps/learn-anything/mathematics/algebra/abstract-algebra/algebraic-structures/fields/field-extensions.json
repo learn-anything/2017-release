@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - fields - field extensions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "field extensions",
+      "url": "http://www.wikiwand.com/en/Field_extension",
+      "fx": 240.6484375000001,
+      "fy": -153.54513888888886,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 299.1111111111053,
+      "fy": -15.436197916633148,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=Yk4U9M3y7M0",
+          "fx": 462.1111111111053,
+          "fy": -2.936197916633148,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "field extensions",
+      "target": "basics",
+      "curve": {
+        "x": 0.18967,
+        "y": 69.0545
+      }
+    }
+  ],
+  "id": 815
+}

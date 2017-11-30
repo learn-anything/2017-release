@@ -1,0 +1,54 @@
+{
+  "title": "learn anything - games - card",
+  "tag": "card games",
+  "nodes": [
+    {
+      "text": "card games",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Card_game",
+      "fx": -177.77429736635224,
+      "fy": -298.80998285595217,
+      "nodes": [
+        {
+          "text": "1337: poker  ️",
+          "url": "/games/card/poker",
+          "fx": 82.22570263364776,
+          "fy": -324.80998285595217,
+          "nodes": [],
+          "category": "mindmap",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1601: blackjack",
+          "url": "http://www.wikiwand.com/en/Blackjack",
+          "fx": 82.22570263364776,
+          "fy": -284.80998285595217,
+          "nodes": [],
+          "category": "wiki",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1925: contract bridge",
+          "url": "http://www.wikiwand.com/en/Contract_bridge",
+          "fx": 82.22570263364776,
+          "fy": -244.80998285595217,
+          "nodes": [
+            {
+              "text": "learn to play bridge",
+              "url": "http://www.rpbridge.net/1a00.htm",
+              "fx": 355.22570263364776,
+              "fy": -241.80998285595217,
+              "nodes": [],
+              "color": "rgba(255, 189, 10, 1.0)"
+            }
+          ],
+          "category": "wiki",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    }
+  ],
+  "connections": [],
+  "id": 567
+}

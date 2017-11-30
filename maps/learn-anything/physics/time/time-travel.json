@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - time - time travel",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "time travel",
+      "url": "http://www.wikiwand.com/en/Time_travel",
+      "fx": 151.58866567460313,
+      "fy": -229.35553075396842,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 300.01921129983555,
+      "fy": -105.29849329448882,
+      "nodes": [
+        {
+          "text": "would it be possible to use time dilation to travel into the future?",
+          "url": "https://www.reddit.com/r/askscience/comments/2pta7j/would_it_be_possible_to_use_time_dilation_to/cmzta4a/",
+          "fx": 499.01921129983555,
+          "fy": -105.29849329448882,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 175.8672866821289,
+      "fy": 0.6020631790161133,
+      "nodes": [
+        {
+          "text": "1. is time travel possible?",
+          "url": "https://www.youtube.com/watch?v=pQC3ErD1YwE",
+          "fx": 338.8672866821289,
+          "fy": 13.102063179016113,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "time travel",
+      "target": "basics",
+      "curve": {
+        "x": -4.61069,
+        "y": 114.229
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "time travel",
+      "curve": {
+        "x": -66.4653,
+        "y": -61.2785
+      }
+    }
+  ],
+  "id": 1553
+}

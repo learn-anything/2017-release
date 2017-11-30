@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - programming - programming languages - go - interfaces",
+  "tag": "go interfaces",
+  "nodes": [
+    {
+      "text": "go interfaces",
+      "url": "",
+      "fx": -7.828461647033691,
+      "fy": -123.8763313293457,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 18.499972343444824,
+      "fy": 0.801630973815918,
+      "nodes": [
+        {
+          "text": "1. how to user interfaces in Go  ️",
+          "url": "http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go",
+          "fx": 174.49997234344482,
+          "fy": 12.301630973815918,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "go interfaces",
+      "target": "basics",
+      "curve": {
+        "x": -1.58578,
+        "y": 62.339
+      }
+    }
+  ],
+  "id": 1597
+}

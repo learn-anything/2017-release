@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - medicine - diseases - influenza",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "influenza",
+      "url": "http://www.wikiwand.com/en/Influenza",
+      "fx": 140.71875,
+      "fy": -262.41015625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 156.71126152073737,
+      "fy": -105.51447292626727,
+      "nodes": [
+        {
+          "text": "1. causes,  symptoms,  diagnosis and treatment",
+          "url": "https://www.youtube.com/watch?v=T_me5EF0ne4",
+          "fx": 312.71126152073737,
+          "fy": -105.01447292626727,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "influenza",
+      "target": "basics",
+      "curve": {
+        "x": -4.50374,
+        "y": 77.1978
+      }
+    }
+  ],
+  "id": 1156
+}

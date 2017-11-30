@@ -1,0 +1,315 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - tensorflow",
+  "tag": "tensorflow library",
+  "nodes": [
+    {
+      "text": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "fx": -71.61473473837214,
+      "fy": -141.75777396053562,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/tensorflow/",
+          "fx": 159.38526526162786,
+          "fy": -148.75777396053562,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/jtoy/awesome-tensorflow",
+          "fx": 159.38526526162786,
+          "fy": -106.75777396053562,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 67.13113291013087,
+      "fy": 40.73038127547056,
+      "nodes": [
+        {
+          "text": "recurrent neural networks - a short tensorflow tutorial",
+          "url": "https://github.com/silicon-valley-data-science/RNN-Tutorial",
+          "fx": 208.13113291013087,
+          "fy": -34.76961872452944,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "bare bone examples of machine learning in TensorFlow",
+          "url": "https://github.com/jostmey/NakedTensor",
+          "fx": 208.13113291013087,
+          "fy": 32.23038127547056,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "tensorflow resources",
+          "url": "https://github.com/skcript/tensorflow-resources",
+          "fx": 208.13113291013087,
+          "fy": 99.23038127547056,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "NakedTensor",
+          "note": "bare bottom simplest example of machine learning in tensorflow",
+          "url": "https://github.com/jostmey/NakedTensor",
+          "fx": 208.13113291013087,
+          "fy": 141.23038127547056,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "implementations",
+      "url": "",
+      "fx": 121.05937194824219,
+      "fy": 231.64734268188477,
+      "nodes": [
+        {
+          "text": "DeepSearch",
+          "url": "https://github.com/mozilla/DeepSpeech",
+          "fx": 382.0593719482422,
+          "fy": 181.14734268188477,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "models built with TensorFlow",
+          "url": "https://github.com/tensorflow/models",
+          "fx": 382.0593719482422,
+          "fy": 223.14734268188477,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "ebgan",
+          "url": "https://github.com/buriburisuri/ebgan",
+          "fx": 382.0593719482422,
+          "fy": 265.14734268188477,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "transformer",
+          "url": "https://github.com/Kyubyong/transformer",
+          "fx": 382.0593719482422,
+          "fy": 307.14734268188477,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -193.65890921659252,
+      "fy": 532.077230427684,
+      "nodes": [
+        {
+          "text": "1. TensorFlow world",
+          "url": "https://github.com/astorfi/TensorFlow-World",
+          "fx": -4.658909216592519,
+          "fy": 404.57723042768396,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. TensorFlow: a primer  ️",
+          "url": "https://blog.metaflow.fr/tensorflow-a-primer-4b3fa0978be3",
+          "fx": -4.658909216592519,
+          "fy": 446.57723042768396,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. get started with tensorflow",
+          "url": "https://www.tensorflow.org/get_started/get_started",
+          "fx": -4.658909216592519,
+          "fy": 488.57723042768396,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. effective TensorFlow",
+          "url": "https://github.com/vahidk/EffectiveTensorflow",
+          "fx": -4.658909216592519,
+          "fy": 525.577230427684,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "1. tensorflow examples for beginners",
+          "url": "https://github.com/aymericdamien/TensorFlow-Examples",
+          "fx": -4.658909216592519,
+          "fy": 567.577230427684,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. Tensorflow and deep learning - without a PhD by Martin Görner",
+          "url": "https://www.youtube.com/watch?v=vq2nnJ4g6N0",
+          "fx": -4.658909216592519,
+          "fy": 634.577230427684,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 454.3246307373047,
+      "fy": 547.7583923339844,
+      "nodes": [
+        {
+          "text": "how to turn text summarisation with TensorFlow  ️",
+          "url": "http://pavel.surmenok.com/2016/10/15/how-to-run-text-summarization-with-tensorflow/",
+          "fx": 623.3246307373047,
+          "fy": 334.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "15: generative adversarial nets in tensorflow  ️",
+          "url": "http://blog.evjang.com/2016/06/generative-adversarial-nets-in.html",
+          "fx": 623.3246307373047,
+          "fy": 401.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "15: implementing a CNN for text classification in TensorFlow  ️",
+          "url": "http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/",
+          "fx": 623.3246307373047,
+          "fy": 468.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "16: understanding and implementing deepmind's DRAW model  ️",
+          "url": "http://blog.evjang.com/2016/06/understanding-and-implementing.html",
+          "fx": 623.3246307373047,
+          "fy": 535.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "16: adversarial exploration policies for robust model learning  ️",
+          "url": "http://blog.evjang.com/2016/06/adversarial-exploration-policies-for.html",
+          "fx": 623.3246307373047,
+          "fy": 627.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "16: introduction to TensorFlow - CPU vs GPU  ️",
+          "url": "https://medium.com/@erikhallstrm/hello-world-tensorflow-649b15aed18c",
+          "fx": 623.3246307373047,
+          "fy": 719.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "16: RNNs in TensorFlow  ️",
+          "url": "http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/",
+          "fx": 623.3246307373047,
+          "fy": 786.2583923339844,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 489.65653228759766,
+      "fy": 865.9808044433594,
+      "nodes": [
+        {
+          "text": "TensorBox",
+          "url": "https://github.com/TensorBox/TensorBox",
+          "fx": 688.6565322875977,
+          "fy": 878.4808044433594,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "tensorflow",
+      "curve": {
+        "x": -54.6229,
+        "y": -91.244
+      }
+    },
+    {
+      "source": "tensorflow",
+      "target": "basics",
+      "curve": {
+        "x": -70.2721,
+        "y": 336.916
+      }
+    },
+    {
+      "source": "implementations",
+      "target": "help",
+      "curve": {
+        "x": -77.8163,
+        "y": -86.6115
+      }
+    },
+    {
+      "source": "articles",
+      "target": "implementations",
+      "curve": {
+        "x": -158.863,
+        "y": -127.963
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -24.916,
+        "y": -159.111
+      }
+    }
+  ],
+  "id": 765
+}

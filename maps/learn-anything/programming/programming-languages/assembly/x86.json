@@ -1,0 +1,59 @@
+{
+  "title": "learn anything - programming - programming languages - assembly - x86",
+  "tag": "x86 architecture",
+  "nodes": [
+    {
+      "text": "x86",
+      "url": "http://www.wikiwand.com/en/X86",
+      "fx": 80.7265625,
+      "fy": -248.7734375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 79.33566241197184,
+      "fy": -93.7632592429577,
+      "nodes": [
+        {
+          "text": "1. introductory intel x86",
+          "url": "http://opensecuritytraining.info/IntroX86.html",
+          "fx": 235.33566241197184,
+          "fy": -119.2632592429577,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. x86 assembly guide",
+          "url": "http://www.cs.virginia.edu/%7Eevans/cs216/guides/x86.html",
+          "fx": 235.33566241197184,
+          "fy": -79.2632592429577,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. x86 assembly",
+          "url": "https://en.wikibooks.org/wiki/X86_Assembly",
+          "fx": 235.33566241197184,
+          "fy": -45.2632592429577,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "x86",
+      "target": "basics",
+      "curve": {
+        "x": -1.94545,
+        "y": 76.2551
+      }
+    }
+  ],
+  "id": 1574
+}

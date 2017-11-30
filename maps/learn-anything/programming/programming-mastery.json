@@ -1,0 +1,137 @@
+{
+  "title": "learn anything - programming - programming mastery",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "programming mastery",
+      "note": "",
+      "url": "",
+      "fx": -193.4553477806959,
+      "fy": -154.2230987548828,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 29.642192720653043,
+      "fy": -36.33607135133116,
+      "nodes": [
+        {
+          "text": "what every programmer should know about memory",
+          "url": "https://people.freebsd.org/%7Elstewart/articles/cpumemory.pdf",
+          "fx": 166.64219272065304,
+          "fy": -66.83607135133116,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "list of practical projects that anyone can solve",
+          "url": "https://github.com/karan/Projects",
+          "fx": 166.64219272065304,
+          "fy": -4.836071351331157,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "inspiration",
+      "url": "",
+      "fx": 205.2523440515207,
+      "fy": 127.46482296332636,
+      "nodes": [
+        {
+          "text": "awesome programmers",
+          "url": "https://github.com/rekihattori/awesome-programmers",
+          "fx": 395.2523440515207,
+          "fy": 138.96482296332636,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -160.30047417480273,
+      "fy": 353.0483862939144,
+      "nodes": [
+        {
+          "text": "1. clean code: a handbook of agile software craftsmanship",
+          "url": "https://github.com/rmsadik/x/blob/master/CleanCode/Clean%20Code.pdf",
+          "fx": -4.30047417480273,
+          "fy": 251.5483862939144,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. study path for clean code",
+          "url": "https://github.com/joebew42/study-path",
+          "fx": -4.30047417480273,
+          "fy": 313.5483862939144,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. how I became a better programmer  ️",
+          "url": "http://jlongster.com/How-I-Became-Better-Programmer",
+          "fx": -4.30047417480273,
+          "fy": 353.5483862939144,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. the pragmatic programmer: from journeyman to master",
+          "url": "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer",
+          "fx": -4.30047417480273,
+          "fy": 415.5483862939144,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. code complete",
+          "url": "https://www.goodreads.com/book/show/4845.Code_Complete",
+          "fx": -4.30047417480273,
+          "fy": 477.5483862939144,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "programming mastery",
+      "curve": {
+        "x": -71.5488,
+        "y": -58.9434
+      }
+    },
+    {
+      "source": "inspiration",
+      "target": "help",
+      "curve": {
+        "x": -101.055,
+        "y": -81.9004
+      }
+    },
+    {
+      "source": "programming mastery",
+      "target": "basics",
+      "curve": {
+        "x": -25.1726,
+        "y": 253.636
+      }
+    }
+  ],
+  "id": 1666
+}

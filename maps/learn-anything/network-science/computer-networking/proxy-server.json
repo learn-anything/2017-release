@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - network science - computer networking - proxy server",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "proxy server",
+      "url": "http://www.wikiwand.com/en/Proxy_server",
+      "fx": -0.47265625,
+      "fy": -155.86505365371704,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 37.94088203463207,
+      "fy": -32.11076163419915,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Dk7h_stCXb0",
+          "fx": 193.94088203463207,
+          "fy": -20.61076163419915,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "reverse proxies  ️",
+      "url": "/network-science/computer-networking/proxy-server/reverse-proxies",
+      "fx": -83.06222943722878,
+      "fy": 106.71739718613776,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "proxy server",
+      "target": "basics",
+      "curve": {
+        "x": -1.29323,
+        "y": 60.6271
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reverse proxies  ️",
+      "curve": {
+        "x": -44.5016,
+        "y": 69.4141
+      }
+    }
+  ],
+  "id": 1229
+}

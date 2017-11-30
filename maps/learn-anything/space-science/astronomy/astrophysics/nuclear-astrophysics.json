@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - space science - astronomy - astrophysics - nuclear astrophysics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nuclear astrophysics",
+      "url": "http://www.wikiwand.com/en/Nuclear_astrophysics",
+      "fx": 7.578125,
+      "fy": -372.265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 81.65234375,
+      "fy": -193.88671875,
+      "nodes": [
+        {
+          "text": "1. astrophysics and cosmology",
+          "url": "https://www.youtube.com/watch?v=VYxYuaDvdM0",
+          "fx": 237.65234375,
+          "fy": -213.38671875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. nuclear astrophysics: from stars to nuclei",
+          "url": "https://www.youtube.com/watch?v=E-45tX8mgY0",
+          "fx": 237.65234375,
+          "fy": -173.38671875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "nuclear astrophysics",
+      "target": "basics",
+      "curve": {
+        "x": -1.96289,
+        "y": 87.9395
+      }
+    }
+  ],
+  "id": 1826
+}

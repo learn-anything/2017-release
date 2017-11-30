@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - programming - programming languages - pascal",
+  "tag": "pascal programming language",
+  "nodes": [
+    {
+      "text": "pascal",
+      "url": "http://www.wikiwand.com/en/Pascal_(programming_language)",
+      "fx": -61.48828125,
+      "fy": -171.47265625,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/pascal/",
+          "fx": 124.51171875,
+          "fy": -157.47265625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.41796875,
+      "fy": -26.42578125,
+      "nodes": [
+        {
+          "text": "1. modern object pascal introduction",
+          "url": "http://castle-engine.io/modern_pascal_introduction.html",
+          "fx": 105.58203125,
+          "fy": -22.92578125,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Delphi  ️",
+      "url": "/programming/programming-languages/pascal/delphi",
+      "fx": -145.03910872781057,
+      "fy": 101.47781065089976,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "pascal",
+      "target": "basics",
+      "curve": {
+        "x": -1.96484,
+        "y": 71.2734
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Delphi  ️",
+      "curve": {
+        "x": -47.5606,
+        "y": 63.9518
+      }
+    }
+  ],
+  "id": 1626
+}

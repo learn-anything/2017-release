@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - physics - nuclear physics - nuclear reactions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nuclear reactions",
+      "url": "http://www.wikiwand.com/en/Nuclear_reaction",
+      "fx": -139.01171875,
+      "fy": -186.99609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "nuclear chain reactions  ️",
+      "url": "/physics/nuclear-physics/nuclear-reactions/nuclear-chain-reactions",
+      "fx": -256.2399825783971,
+      "fy": -29.29992378050497,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "nuclear reactions",
+      "target": "nuclear chain reactions  ️",
+      "curve": {
+        "x": -52.3642,
+        "y": 77.5981
+      }
+    }
+  ],
+  "id": 1494
+}

@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - topology - general topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "general topology",
+      "url": "http://www.wikiwand.com/en/General_topology",
+      "fx": 192.5703125,
+      "fy": -230.33984375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 249.45960679945028,
+      "fy": -57.65617845696909,
+      "nodes": [
+        {
+          "text": "1. general topology by James R. Munkres",
+          "url": "http://www.maths.ed.ac.uk/~aar/papers/munkres2.pdf",
+          "fx": 412.4596067994503,
+          "fy": -91.15617845696909,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. set theory and general topology",
+          "url": "https://www.youtube.com/watch?v=TL-QWMr7-9E",
+          "fx": 412.4596067994503,
+          "fy": -24.156178456969087,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "compact space  ️",
+      "url": "/mathematics/topology/general-topology/compact-space",
+      "fx": 120.70749370276849,
+      "fy": 90.01377518891672,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "general topology",
+      "target": "basics",
+      "curve": {
+        "x": -4.55535,
+        "y": 85.5918
+      }
+    },
+    {
+      "source": "basics",
+      "target": "compact space  ️",
+      "curve": {
+        "x": -41.3761,
+        "y": 73.835
+      }
+    }
+  ],
+  "id": 1136
+}

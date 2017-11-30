@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - space science - astronomy - stars - stellar evolution - supernova",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "supernova",
+      "url": "http://www.wikiwand.com/en/Supernova",
+      "fx": -69.52734375,
+      "fy": -122.62109375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 39.82421875,
+      "fy": 1.42578125,
+      "nodes": [
+        {
+          "text": "how long does a supernova last?",
+          "url": "https://www.reddit.com/r/askscience/comments/1wzlwe/how_long_does_a_supernova_last/cf6ucb3/",
+          "fx": 230.82421875,
+          "fy": 12.92578125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51.41015625,
+      "fy": 110.32421875,
+      "nodes": [
+        {
+          "text": "1. high mass stars",
+          "url": "https://www.youtube.com/watch?v=PWx9DurgPn8",
+          "fx": 104.58984375,
+          "fy": 121.82421875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "supernova",
+      "target": "basics",
+      "curve": {
+        "x": -7.44141,
+        "y": 115.223
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "supernova",
+      "curve": {
+        "x": -46.9258,
+        "y": -60.7734
+      }
+    }
+  ],
+  "id": 1828
+}

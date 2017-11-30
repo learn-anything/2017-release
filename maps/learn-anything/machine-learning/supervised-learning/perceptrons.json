@@ -1,0 +1,57 @@
+{
+  "title": "learn anything - machine learning - supervised learning - perceptrons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "perceptrons",
+      "url": "http://www.wikiwand.com/en/Perceptron",
+      "fx": -93.75390625,
+      "fy": -208.859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -60.1332859848485,
+      "fy": -45.850812815656695,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons",
+          "fx": 95.8667140151515,
+          "fy": -76.3508128156567,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. explanation II",
+          "url": "http://natureofcode.com/book/chapter-10-neural-networks/#chapter10_figure3",
+          "fx": 95.8667140151515,
+          "fy": -42.350812815656695,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. single-layer neural networks - perceptrons",
+          "url": "http://computing.dcu.ie/~humphrys/Notes/Neural/single.neural.html",
+          "fx": 95.8667140151515,
+          "fy": -8.350812815656695,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "perceptrons",
+      "target": "basics",
+      "curve": {
+        "x": -3.18969,
+        "y": 80.2543
+      }
+    }
+  ],
+  "id": 798
+}

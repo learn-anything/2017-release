@@ -1,0 +1,82 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - mxnet",
+  "tag": "MXNet",
+  "nodes": [
+    {
+      "text": "MXNet",
+      "url": "https://github.com/dmlc/mxnet",
+      "fx": -255.4637702767177,
+      "fy": -280.0766638835877,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": -137.41315535214244,
+      "fy": -150.44689933445858,
+      "nodes": [
+        {
+          "text": "16: using MXNet for recommendation modeling at scale ",
+          "url": "",
+          "fx": 2.5868446478575606,
+          "fy": -146.94689933445858,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -260.4385117811654,
+      "fy": -22.677908221524262,
+      "nodes": [
+        {
+          "text": "1. MXNet how to",
+          "url": "http://mxnet.io/how_to/index.html",
+          "fx": -104.4385117811654,
+          "fy": -45.17790822152426,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. MXNet tutorials",
+          "url": "http://mxnet.io/tutorials/index.html",
+          "fx": -104.4385117811654,
+          "fy": -11.177908221524262,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. MXNet tutorial for Nvidia GTC",
+          "url": "https://github.com/dmlc/mxnet-gtc-tutorial",
+          "fx": -104.4385117811654,
+          "fy": 22.822091778475738,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "MXNet",
+      "target": "basics",
+      "curve": {
+        "x": -9.23737,
+        "y": 127.449
+      }
+    },
+    {
+      "source": "talks",
+      "target": "MXNet",
+      "curve": {
+        "x": -46.7753,
+        "y": -63.5649
+      }
+    }
+  ],
+  "id": 761
+}

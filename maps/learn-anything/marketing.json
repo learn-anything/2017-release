@@ -1,0 +1,210 @@
+{
+  "title": "learn anything - marketing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "marketing",
+      "url": "http://www.wikiwand.com/en/Marketing",
+      "fx": -64.16622920980694,
+      "fy": -382.8829336071209,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/marketing/",
+          "fx": 152.83377079019306,
+          "fy": -368.8829336071209,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 55.45492300710043,
+      "fy": -279.4517804865375,
+      "nodes": [
+        {
+          "text": "growth tools",
+          "url": "http://growthtools.io/",
+          "fx": 192.45492300710043,
+          "fy": -264.9517804865375,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -110.99180831971341,
+      "fy": -77.16281670800862,
+      "nodes": [
+        {
+          "text": "1. marketing for engineers",
+          "url": "https://github.com/LisaDziuba/Marketing-for-Engineers",
+          "fx": 71.00819168028659,
+          "fy": -189.66281670800862,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. contagious: why things catch on",
+          "url": "https://www.goodreads.com/book/show/15801967-contagious",
+          "fx": 71.00819168028659,
+          "fy": -149.66281670800862,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how brands grow: what marketers don't know",
+          "url": "https://www.goodreads.com/book/show/9128288-how-brands-grow",
+          "fx": 71.00819168028659,
+          "fy": -87.66281670800862,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. positioning: the battle for your mind: how to be seen and heard in the overcrowded marketplace",
+          "url": "https://www.goodreads.com/book/show/760025.Positioning",
+          "fx": 71.00819168028659,
+          "fy": -25.66281670800862,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. traction",
+          "url": "http://tractionbook.com/",
+          "fx": 71.00819168028659,
+          "fy": 58.33718329199138,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "advertising  ️",
+      "url": "/marketing/advertising",
+      "fx": -526.1994934082031,
+      "fy": 111.15018463134766,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "digital marketing  ️",
+      "url": "/marketing/digital-marketing",
+      "fx": -343.56883362058875,
+      "fy": 111.27779775989325,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "growth hacking  ️",
+      "note": "how to accelerate startup growth, acquire and keep new customers",
+      "url": "/marketing/growth-hacking",
+      "fx": -115.70538545477496,
+      "fy": 111.74366130740532,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "multi-level marketing  ️",
+      "url": "/marketing/multi-level-marketing",
+      "fx": -1018.4154663085938,
+      "fy": 113.01947212219238,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "affiliate marketing  ️",
+      "url": "/marketing/affiliate-marketing",
+      "fx": -758.3227081298828,
+      "fy": 114.1647777557373,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "branding  ️",
+      "url": "/marketing/branding",
+      "fx": -1173.4270213117252,
+      "fy": 117.95716148479323,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "marketing",
+      "target": "basics",
+      "curve": {
+        "x": -24.9128,
+        "y": 152.86
+      }
+    },
+    {
+      "source": "basics",
+      "target": "growth hacking  ️",
+      "curve": {
+        "x": 11.3933,
+        "y": 94.4532
+      }
+    },
+    {
+      "source": "help",
+      "target": "marketing",
+      "curve": {
+        "x": -39.8105,
+        "y": -50.4657
+      }
+    },
+    {
+      "source": "basics",
+      "target": "digital marketing  ️",
+      "curve": {
+        "x": -93.0385,
+        "y": 95.4703
+      }
+    },
+    {
+      "source": "basics",
+      "target": "advertising  ️",
+      "curve": {
+        "x": -256.61,
+        "y": 79.0474
+      }
+    },
+    {
+      "source": "basics",
+      "target": "affiliate marketing  ️",
+      "curve": {
+        "x": -346.033,
+        "y": 52.9216
+      }
+    },
+    {
+      "source": "basics",
+      "target": "multi-level marketing  ️",
+      "curve": {
+        "x": -514.778,
+        "y": 36.0169
+      }
+    },
+    {
+      "source": "basics",
+      "target": "branding  ️",
+      "curve": {
+        "x": -749.125,
+        "y": 35.7462
+      }
+    }
+  ],
+  "id": 814
+}

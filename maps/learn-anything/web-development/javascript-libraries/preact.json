@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - javascript libraries - preact",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "preact",
+      "url": "https://github.com/developit/preact",
+      "fx": 20.39066292475718,
+      "fy": -65.30188106796118,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/ooade/awesome-preact",
+          "fx": 205.39066292475718,
+          "fy": -51.301881067961176,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 10.575203868695098,
+      "fy": 85.08331791679052,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://preactjs.com/guide/getting-started",
+          "fx": 166.5752038686951,
+          "fy": 99.58331791679052,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "preact",
+      "target": "basics",
+      "curve": {
+        "x": -12.1577,
+        "y": 73.9426
+      }
+    }
+  ],
+  "id": 1897
+}

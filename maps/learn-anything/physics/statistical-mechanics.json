@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - physics - statistical mechanics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "statistical mechanics",
+      "url": "http://www.wikiwand.com/en/Statistical_mechanics",
+      "fx": 47,
+      "fy": -123.953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 126.44933315219009,
+      "fy": 5.480237767175936,
+      "nodes": [
+        {
+          "text": "1. lectures by Stanford",
+          "url": "https://www.youtube.com/watch?v=D1RzvXDXyqA&amp;list=PLXLSbKIMm0kjxyp45FIY62XNgHk4ywSaH",
+          "fx": 282.4493331521901,
+          "fy": 16.980237767175936,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "entropy  ️",
+      "url": "/physics/statistical-mechanics/entropy",
+      "fx": 17.045249048223127,
+      "fy": 137.5866909898475,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "statistical mechanics",
+      "target": "basics",
+      "curve": {
+        "x": 0.224667,
+        "y": 63.4667
+      }
+    },
+    {
+      "source": "basics",
+      "target": "entropy  ️",
+      "curve": {
+        "x": -51.952,
+        "y": 66.0532
+      }
+    }
+  ],
+  "id": 1548
+}

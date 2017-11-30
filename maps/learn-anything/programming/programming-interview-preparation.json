@@ -1,0 +1,370 @@
+{
+  "title": "learn anything - programming - programming interview preparation",
+  "tag": "programming interviews",
+  "nodes": [
+    {
+      "text": "prepare",
+      "note": "",
+      "url": "",
+      "fx": 312.3360366821289,
+      "fy": -697.1460113525391,
+      "nodes": [
+        {
+          "text": "1. choose a programming language",
+          "note": "java, python are the two great choices",
+          "url": "",
+          "fx": 513.3360366821289,
+          "fy": -885.1460113525391,
+          "nodes": [
+            {
+              "text": "java  ️",
+              "url": "/programming/programming-languages/java",
+              "fx": 851.3360366821289,
+              "fy": -896.1460113525391,
+              "nodes": [],
+              "category": "mindmap",
+              "color": "rgba(104, 255, 109, 1.0)"
+            },
+            {
+              "text": "python  ️",
+              "url": "/programming/programming-languages/python",
+              "fx": 851.3360366821289,
+              "fy": -854.1460113525391,
+              "nodes": [],
+              "category": "mindmap",
+              "color": "rgba(104, 255, 109, 1.0)"
+            }
+          ],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. coding interview university",
+          "note": "is a complete study plan that covers algorithms, data structures and various cs topics",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "fx": 513.3360366821289,
+          "fy": -812.1460113525391,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. cracking the coding interview",
+          "note": "covers a great range of questions you may get asked with solutions  is quite useful to attempt to do all the exercises yourself",
+          "url": "https://www.goodreads.com/book/show/12544648-cracking-the-coding-interview",
+          "fx": 513.3360366821289,
+          "fy": -770.1460113525391,
+          "nodes": [
+            {
+              "text": "check your work with official answers for the book",
+              "url": "https://github.com/careercup/ctci",
+              "fx": 901.3360366821289,
+              "fy": -770.1460113525391,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(83, 201, 255, 1.0)"
+            }
+          ],
+          "category": "non-free book",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. elements of programming interviews",
+          "url": "http://www.goodreads.com/book/show/16253895-elements-of-programming-interviews",
+          "fx": 513.3360366821289,
+          "fy": -703.1460113525391,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. leetcode grinding guide",
+          "url": "https://www.reddit.com/r/cscareerquestions/comments/6luszf/a_leetcode_grinding_guide/",
+          "fx": 513.3360366821289,
+          "fy": -636.1460113525391,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "2. leetcode",
+          "note": "start from easy problems and go from there  do not get demotivated if you don’t manage to come up with solutions of your own  do not look at solutions straight away and try your best to first understand the problem and then give your best solution to the problem",
+          "url": "https://leetcode.com",
+          "fx": 513.3360366821289,
+          "fy": -549.6460113525391,
+          "nodes": [
+            {
+              "text": "in python",
+              "url": "https://github.com/csujedihy/lc-all-solutions",
+              "fx": 712.3360366821289,
+              "fy": -594.1460113525391,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(255, 254, 60, 1.0)"
+            },
+            {
+              "text": "in java",
+              "url": "https://github.com/gouthampradhan/leetcode",
+              "fx": 712.3360366821289,
+              "fy": -552.1460113525391,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(255, 254, 60, 1.0)"
+            },
+            {
+              "text": "in go",
+              "url": "https://github.com/nikitavoloboev/go-leetcode",
+              "fx": 712.3360366821289,
+              "fy": -510.14601135253906,
+              "nodes": [],
+              "category": "github",
+              "color": "rgba(255, 254, 60, 1.0)"
+            }
+          ],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "2. interviewbit",
+          "url": "https://www.interviewbit.com/",
+          "fx": 513.3360366821289,
+          "fy": -468.14601135253906,
+          "nodes": [],
+          "color": "rgba(169, 255, 0, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interview questions  ️",
+      "url": "/programming/programming-interview-preparation/interview-questions",
+      "fx": 83.08586896929819,
+      "fy": -489.90332736713117,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "find work  ️",
+      "url": "/life/work",
+      "fx": 78.23854057921244,
+      "fy": -363.98871412625033,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 986.0176391601562,
+      "fy": -330.5851631164551,
+      "nodes": [
+        {
+          "text": "coding interview in java",
+          "note": "goes over various solutions for problems in Java",
+          "url": "http://www.programcreek.com/wp-content/uploads/2012/11/coding-interview-6.pdf",
+          "fx": 1127.0176391601562,
+          "fy": -635.5851631164551,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "algoDS",
+          "url": "https://github.com/sherxon/AlgoDS",
+          "fx": 1127.0176391601562,
+          "fy": -593.5851631164551,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "interactive coding challenges",
+          "url": "https://github.com/donnemartin/interactive-coding-challenges",
+          "fx": 1127.0176391601562,
+          "fy": -551.5851631164551,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "great overview of programming topics",
+          "url": "https://docs.google.com/document/d/1VNoEUzBtyCw0fDw0X_bvuhmCwz1qhNjETPJc5VRZqm8/edit",
+          "fx": 1127.0176391601562,
+          "fy": -509.5851631164551,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "technical interview cheatsheet",
+          "url": "https://gist.github.com/TSiege/cbb0507082bb18ff7e4b",
+          "fx": 1127.0176391601562,
+          "fy": -447.5851631164551,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "hacking a google interview",
+          "url": "http://courses.csail.mit.edu/iap/interview/materials.php",
+          "fx": 1127.0176391601562,
+          "fy": -410.5851631164551,
+          "nodes": [],
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "cs career questions",
+          "url": "https://www.reddit.com/r/cscareerquestions/",
+          "fx": 1127.0176391601562,
+          "fy": -373.5851631164551,
+          "nodes": [
+            {
+              "text": "wiki",
+              "url": "https://www.reddit.com/r/cscareerquestions/wiki/index",
+              "fx": 1405.0176391601562,
+              "fy": -373.5851631164551,
+              "nodes": [],
+              "category": "reddit",
+              "color": "rgba(104, 255, 109, 1.0)"
+            }
+          ],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "getting a gig",
+          "url": "https://github.com/cassidoo/getting-a-gig",
+          "fx": 1127.0176391601562,
+          "fy": -331.5851631164551,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "interview cake",
+          "note": "list of very detailed solutions to 44 problems",
+          "url": "https://www.interviewcake.com/",
+          "fx": 1127.0176391601562,
+          "fy": -289.5851631164551,
+          "nodes": [],
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "gainlo blog",
+          "url": "http://blog.gainlo.co/?utm_source=Gainlo&amp;utm_medium=header&amp;utm_campaign=Gainlo",
+          "fx": 1127.0176391601562,
+          "fy": -252.58516311645508,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "interviews",
+          "url": "https://github.com/kdn251/interviews",
+          "fx": 1127.0176391601562,
+          "fy": -215.58516311645508,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "how to approach tech internships",
+          "url": "https://evykassirer.github.io/playing-the-internship-game/",
+          "fx": 1127.0176391601562,
+          "fy": -173.58516311645508,
+          "nodes": [],
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "everything you need to know for interviews",
+          "url": "https://github.com/andreis/interview",
+          "fx": 1127.0176391601562,
+          "fy": -111.58516311645508,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "mind map of algorithms, data structures and computer science",
+          "url": "https://www.mindmeister.com/936304672/algorithms-data-structures-computer-science-math#",
+          "fx": 1127.0176391601562,
+          "fy": -44.58516311645508,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 1018.7712097167969,
+      "fy": 240.6938018798828,
+      "nodes": [
+        {
+          "text": "preparing for a technical interview: algorithms, data structures and computer science  ️",
+          "url": "http://www.primaryobjects.com/2017/03/28/preparing-for-a-technical-interview-algorithms-data-structures-and-computer-science/",
+          "fx": 1187.7712097167969,
+          "fy": 103.19380187988281,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "how I got my dream job in the tech industry without a CS degree  ️",
+          "url": "https://billmei.net/blog/silicon-valley-job-search",
+          "fx": 1187.7712097167969,
+          "fy": 219.1938018798828,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "13: four steps to Google, without a degree  ️",
+          "url": "https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e",
+          "fx": 1187.7712097167969,
+          "fy": 311.1938018798828,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "17: how to interview engineers  ️",
+          "url": "http://blog.triplebyte.com/how-to-interview-engineers",
+          "fx": 1187.7712097167969,
+          "fy": 378.1938018798828,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "prepare",
+      "curve": {
+        "x": -470.59,
+        "y": -23.9783
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -46.1892,
+        "y": -241.577
+      }
+    },
+    {
+      "source": "prepare",
+      "target": "interview questions  ️",
+      "curve": {
+        "x": -95.3747,
+        "y": 103.621
+      }
+    },
+    {
+      "source": "interview questions  ️",
+      "target": "find work  ️",
+      "curve": {
+        "x": -17.6737,
+        "y": 64.2073
+      }
+    }
+  ],
+  "id": 1568
+}

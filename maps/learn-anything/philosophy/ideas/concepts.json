@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - philosophy - ideas - concepts",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "concepts",
+      "url": "http://www.wikiwand.com/en/Concept",
+      "fx": -24.82938508064524,
+      "fy": -387.1261340725806,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "abstraction  ️",
+      "url": "/philosophy/ideas/concepts/abstraction",
+      "fx": -167.60994855394836,
+      "fy": -276.6140850945351,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "concepts",
+      "target": "abstraction  ️",
+      "curve": {
+        "x": -74.3903,
+        "y": 54.006
+      }
+    }
+  ],
+  "id": 1326
+}

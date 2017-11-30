@@ -1,0 +1,133 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic radiation - light",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "light",
+      "url": "http://www.wikiwand.com/en/Light",
+      "fx": 10.602991992864645,
+      "fy": -246.89251326481764,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "ask",
+      "url": "",
+      "fx": 154.45014647661833,
+      "fy": -132.88506443726737,
+      "nodes": [
+        {
+          "text": "askscience",
+          "url": "https://www.reddit.com/r/askscience/search?q=light&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 284.45014647661833,
+          "fy": -141.38506443726737,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "stack   ️",
+          "url": "https://physics.stackexchange.com/search?tab=newest&amp;q=light",
+          "fx": 284.45014647661833,
+          "fy": -101.38506443726737,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -7.418573156486673,
+      "fy": -20.428791044652655,
+      "nodes": [
+        {
+          "text": "1. what is light?",
+          "url": "https://www.youtube.com/watch?v=IXxZRZxafEQ",
+          "fx": 148.58142684351333,
+          "fy": -28.928791044652655,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. light is waves",
+          "url": "https://www.youtube.com/watch?v=IRBfpBPELmE",
+          "fx": 148.58142684351333,
+          "fy": 11.071208955347345,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "photons  ️",
+      "url": "/physics/particle-physics/elementary-particles/photons",
+      "fx": -247.00537072992506,
+      "fy": 121.0411102195219,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "speed of light  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/light/speed-of-light",
+      "fx": 96.14668303727717,
+      "fy": 121.22148853358453,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "light field  ️",
+      "url": "/physics/electromagnetism/electromagnetic-radiation/light/light-field",
+      "fx": -80.25986428934141,
+      "fy": 121.72014951488666,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "light",
+      "target": "basics",
+      "curve": {
+        "x": -11.0108,
+        "y": 111.982
+      }
+    },
+    {
+      "source": "ask",
+      "target": "light",
+      "curve": {
+        "x": -78.6736,
+        "y": -55.7537
+      }
+    },
+    {
+      "source": "basics",
+      "target": "light field  ️",
+      "curve": {
+        "x": -31.1706,
+        "y": 71.0745
+      }
+    },
+    {
+      "source": "basics",
+      "target": "speed of light  ️",
+      "curve": {
+        "x": 67.7827,
+        "y": 70.8251
+      }
+    },
+    {
+      "source": "basics",
+      "target": "photons  ️",
+      "curve": {
+        "x": -116.528,
+        "y": 64.1872
+      }
+    }
+  ],
+  "id": 1429
+}

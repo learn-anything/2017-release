@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - nucleic acids - dna - dna replication",
+  "tag": "DNA replication",
+  "nodes": [
+    {
+      "text": "DNA replication",
+      "url": "http://www.wikiwand.com/en/DNA_replication",
+      "fx": 129.21875,
+      "fy": -137.3828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 271.703125,
+      "fy": -33.04296875,
+      "nodes": [
+        {
+          "text": "DNA replication by DNA polymerase",
+          "url": "https://i.imgur.com/original/S/8/Q/Q/S8QQRI4",
+          "fx": 462.703125,
+          "fy": -32.54296875,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 176.36189516129025,
+      "fy": 107.07724294354841,
+      "nodes": [
+        {
+          "text": "1. molecular visualisation of DNA",
+          "url": "https://www.youtube.com/watch?v=OjPcT1uUZiE",
+          "fx": 332.36189516129025,
+          "fy": 87.57724294354841,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. close-up view of DNA replication yields surprises  ️",
+          "url": "https://www.ucdavis.edu/news/close-view-dna-replication-yields-surprises",
+          "fx": 332.36189516129025,
+          "fy": 127.57724294354841,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "DNA replication",
+      "target": "basics",
+      "curve": {
+        "x": -4.17843,
+        "y": 120.98
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "DNA replication",
+      "curve": {
+        "x": -52.2422,
+        "y": -50.9199
+      }
+    }
+  ],
+  "id": 1459
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups - group theory - sylow theorems",
+  "tag": "Sylow theorems",
+  "nodes": [
+    {
+      "text": "Sylow theorems",
+      "url": "http://www.wikiwand.com/en/Sylow_theorems",
+      "fx": -100.06927108764648,
+      "fy": -139.68309020996094,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.852609395980835,
+      "fy": 2.4989376068115234,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=MVojEjXdVgA",
+          "fx": 109.14739060401917,
+          "fy": 13.998937606811523,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Sylow theorems",
+      "target": "basics",
+      "curve": {
+        "x": -2.39167,
+        "y": 69.841
+      }
+    }
+  ],
+  "id": 821
+}

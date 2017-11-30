@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - programming - programming paradigms - logic programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "logic programming",
+      "url": "http://www.wikiwand.com/en/Logic_programming",
+      "fx": -131.1796875,
+      "fy": -275.44140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -79.94921875,
+      "fy": -130.8046875,
+      "nodes": [
+        {
+          "text": "1. try logic programming: a gently intro to prolog  ️",
+          "url": "https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/",
+          "fx": 102.05078125,
+          "fy": -150.3046875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. logic programming lecture",
+          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/8a-logic-programming-part-1/",
+          "fx": 102.05078125,
+          "fy": -88.3046875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "constraint logic programming  ️",
+      "url": "/programming/programming-paradigms/logic-programming/constraint-logic-programming",
+      "fx": -338.88340972888864,
+      "fy": 24.87417889841703,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "prolog  ️",
+      "url": "/programming/programming-languages/prolog",
+      "fx": 68.77643075433866,
+      "fy": 31.89631134269075,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "logic programming",
+      "target": "basics",
+      "curve": {
+        "x": -9.38477,
+        "y": 71.0684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "constraint logic programming  ️",
+      "curve": {
+        "x": -82.9671,
+        "y": 85.3395
+      }
+    },
+    {
+      "source": "basics",
+      "target": "prolog  ️",
+      "curve": {
+        "x": 75.1128,
+        "y": 82.6005
+      }
+    }
+  ],
+  "id": 1677
+}

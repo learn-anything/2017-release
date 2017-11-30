@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - offline first",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "offline first",
+      "url": "",
+      "fx": 183.24609375,
+      "fy": -116.72265625,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/pazguille/offline-first",
+          "fx": 372.24609375,
+          "fy": -105.22265625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 200.60252305328356,
+      "fy": 6.81967213115712,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "https://developer.chrome.com/apps/offline_apps",
+          "fx": 356.60252305328356,
+          "fy": 21.31967213115712,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "offline first",
+      "target": "basics",
+      "curve": {
+        "x": 0.428215,
+        "y": 61.7712
+      }
+    }
+  ],
+  "id": 1909
+}

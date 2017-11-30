@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - matter - atoms - subatomic particles - neutrons",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "neutrons",
+      "url": "http://www.wikiwand.com/en/Neutron",
+      "fx": 144.9921875,
+      "fy": -251.80078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 164.30539772727275,
+      "fy": -105.45596590909099,
+      "nodes": [
+        {
+          "text": "1. discovery of the neutron",
+          "url": "https://www.youtube.com/watch?v=_7DAlvRI1M4",
+          "fx": 327.30539772727275,
+          "fy": -92.95596590909099,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "neutrons",
+      "target": "basics",
+      "curve": {
+        "x": -3.84339,
+        "y": 72.4224
+      }
+    }
+  ],
+  "id": 1472
+}

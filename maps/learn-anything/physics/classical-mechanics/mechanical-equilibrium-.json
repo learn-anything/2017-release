@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - classical mechanics - mechanical equilibrium ",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mechanical equilibrium",
+      "url": "http://www.wikiwand.com/en/Mechanical_equilibrium",
+      "fx": 27.265625,
+      "fy": -87.75390625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 263.0354930559439,
+      "fy": 34.0624458314864,
+      "nodes": [
+        {
+          "text": "equilibrium in reference to chemistry",
+          "url": "https://www.youtube.com/watch?v=g5wNg_dKsYY",
+          "fx": 454.0354930559439,
+          "fy": 34.5624458314864,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 109.30315767585557,
+      "fy": 134.9117751901141,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=cIBtw1IUnSw",
+          "fx": 265.3031576758556,
+          "fy": 146.4117751901141,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mechanical equilibrium",
+      "target": "basics",
+      "curve": {
+        "x": -4.73123,
+        "y": 110.083
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "mechanical equilibrium",
+      "curve": {
+        "x": -80.8849,
+        "y": -59.6582
+      }
+    }
+  ],
+  "id": 1375
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - determinants",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "determinants",
+      "url": "http://www.wikiwand.com/en/Determinant",
+      "fx": 244.21514423076928,
+      "fy": -219.82173978365387,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 290.39122596152845,
+      "fy": -95.47318209128099,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://immersivemath.com/ila/ch07_determinants/ch07.html",
+          "fx": 446.39122596152845,
+          "fy": -83.97318209128099,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "determinants",
+      "target": "basics",
+      "curve": {
+        "x": 0.838041,
+        "y": 60.9243
+      }
+    }
+  ],
+  "id": 976
+}

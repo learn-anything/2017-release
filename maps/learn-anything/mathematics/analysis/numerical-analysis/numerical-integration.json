@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - analysis - numerical analysis - numerical integration",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "numerical integration",
+      "url": "http://www.wikiwand.com/en/Numerical_integration",
+      "fx": 79.69140625,
+      "fy": -108.20703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. numerical integration with Trapezoidal and Simpson’s rule",
+          "url": "https://www.youtube.com/watch?v=RTX-ik_8i-k",
+          "fx": 310,
+          "fy": 49,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Monte Carlo integration  ️",
+      "url": "/mathematics/analysis/numerical-analysis/numerical-integration/monte-carlo-integration",
+      "fx": -58.304071721148375,
+      "fy": 191.47685516578088,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "numerical integration",
+      "target": "basics",
+      "curve": {
+        "x": -1.0957,
+        "y": 78.6035
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Monte Carlo integration  ️",
+      "curve": {
+        "x": -62.402,
+        "y": 71.2384
+      }
+    }
+  ],
+  "id": 870
+}

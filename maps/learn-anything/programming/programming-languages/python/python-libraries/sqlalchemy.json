@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - programming - programming languages - python - python libraries - sqlalchemy",
+  "tag": "SQLAlchemy",
+  "nodes": [
+    {
+      "text": "SQLAlchemy",
+      "url": "https://github.com/zzzeek/sqlalchemy",
+      "fx": -80.2734375,
+      "fy": -271.80078125,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/dahlia/awesome-sqlalchemy",
+          "fx": 164.7265625,
+          "fy": -257.80078125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.21732305936064,
+      "fy": -122.06200057076592,
+      "nodes": [
+        {
+          "text": "1. documentation",
+          "url": "http://docs.sqlalchemy.org/en/latest/orm/tutorial.html",
+          "fx": 109.78267694063936,
+          "fy": -107.56200057076592,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "SQLAlchemy",
+      "target": "basics",
+      "curve": {
+        "x": -5.22194,
+        "y": 73.6194
+      }
+    }
+  ],
+  "id": 1638
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - propositions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "propositions",
+      "url": "http://www.wikiwand.com/en/Proposition",
+      "fx": -87.4765625,
+      "fy": -147.92578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -51,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=0s_VgdpswV8",
+          "fx": 112,
+          "fy": 10.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "propositions",
+      "target": "basics",
+      "curve": {
+        "x": -4.01172,
+        "y": 72.2129
+      }
+    }
+  ],
+  "id": 1020
+}

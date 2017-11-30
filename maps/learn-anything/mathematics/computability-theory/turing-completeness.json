@@ -1,0 +1,117 @@
+{
+  "title": "learn anything - mathematics - computability theory - turing completeness",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "turing completeness",
+      "url": "http://www.wikiwand.com/en/Turing_completeness",
+      "fx": -110.87903923879969,
+      "fy": -271.4240591261122,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 68.75429037035713,
+      "fy": -147.23208220945412,
+      "nodes": [
+        {
+          "text": "17: on the turing completeness of powerpoint",
+          "url": "https://www.youtube.com/watch?v=uNjxe8ShM-8",
+          "fx": 259.7542903703571,
+          "fy": -166.73208220945412,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "is C actually turing complete   ️",
+          "url": "https://cs.stackexchange.com/questions/60965/is-c-actually-turing-complete",
+          "fx": 259.7542903703571,
+          "fy": -104.73208220945412,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -106.2422184497118,
+      "fy": -33.27255821228027,
+      "nodes": [
+        {
+          "text": "1. control flow  ️",
+          "url": "http://www.craftinginterpreters.com/control-flow.html",
+          "fx": 49.7577815502882,
+          "fy": -41.77255821228027,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. turing complete",
+          "url": "https://www.youtube.com/watch?v=RPQD7-AOjMI",
+          "fx": 49.7577815502882,
+          "fy": -1.7725582122802734,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "turing machines  ️",
+      "url": "/mathematics/computability-theory/turing-completeness/turing-machines",
+      "fx": -69.30351738700165,
+      "fy": 91.02539583908242,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "halting problem  ️",
+      "url": "/mathematics/computability-theory/turing-completeness/halting-problem",
+      "fx": -299.89445422535243,
+      "fy": 94.56417620305166,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "turing completeness",
+      "target": "basics",
+      "curve": {
+        "x": -36.4317,
+        "y": 117.825
+      }
+    },
+    {
+      "source": "basics",
+      "target": "halting problem  ️",
+      "curve": {
+        "x": -76.326,
+        "y": 63.9183
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "turing completeness",
+      "curve": {
+        "x": -59.8167,
+        "y": -60.846
+      }
+    },
+    {
+      "source": "basics",
+      "target": "turing machines  ️",
+      "curve": {
+        "x": 36.9694,
+        "y": 62.149
+      }
+    }
+  ],
+  "id": 926
+}

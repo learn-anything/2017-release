@@ -1,0 +1,178 @@
+{
+  "title": "learn anything - web development - javascript libraries - rxjs",
+  "tag": "RxJS library",
+  "nodes": [
+    {
+      "text": "RxJS",
+      "url": "https://github.com/Reactive-Extensions/RxJS",
+      "fx": 86.04676635177054,
+      "fy": -325.5427695380317,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 219.2531509399414,
+      "fy": -228.1292953491211,
+      "nodes": [
+        {
+          "text": "how to think majorly in terms of streams",
+          "url": "https://github.com/staltz/ama/issues/24",
+          "fx": 356.2531509399414,
+          "fy": -306.6292953491211,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "introduction to reactive programming you've been missing",
+          "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+          "fx": 356.2531509399414,
+          "fy": -244.6292953491211,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "RxMarbles",
+          "url": "http://rxmarbles.com/",
+          "fx": 356.2531509399414,
+          "fy": -160.6292953491211,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "Rx visualiser",
+          "url": "https://rxviz.com/",
+          "fx": 356.2531509399414,
+          "fy": -126.6292953491211,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 307.31783433394,
+      "fy": -36.52860394391155,
+      "nodes": [
+        {
+          "text": "15: what if the user was a function?",
+          "url": "https://www.youtube.com/watch?v=1zj7M1LnJV4",
+          "fx": 447.31783433394,
+          "fy": -56.02860394391155,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "16: you will learn RxJS",
+          "url": "https://www.youtube.com/watch?v=uQ1zhJHclvs",
+          "fx": 447.31783433394,
+          "fy": 5.971396056088452,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 614.7156939175043,
+      "fy": 87.04925813521925,
+      "nodes": [
+        {
+          "text": "16: learning observable by building observable  ️",
+          "url": "https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87",
+          "fx": 776.7156939175043,
+          "fy": 67.54925813521925,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "16: how vs cold observables  ️",
+          "url": "https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339",
+          "fx": 776.7156939175043,
+          "fy": 129.54925813521925,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 48.19780095418298,
+      "fy": 123.73214672229915,
+      "nodes": [
+        {
+          "text": "1. learn RxJS",
+          "url": "https://www.learnrxjs.io/",
+          "fx": 230.19780095418298,
+          "fy": 90.23214672229915,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn RxJS with exercises ",
+          "url": "http://reactivex.io/learnrx/",
+          "fx": 230.19780095418298,
+          "fy": 130.23214672229915,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "functional programming in javascript",
+          "url": "http://reactivex.io/learnrx/",
+          "fx": 230.19780095418298,
+          "fy": 164.23214672229915,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "RxJS",
+      "curve": {
+        "x": -57.1032,
+        "y": -47.4567
+      }
+    },
+    {
+      "source": "RxJS",
+      "target": "basics",
+      "curve": {
+        "x": -23.6744,
+        "y": 223.387
+      }
+    },
+    {
+      "source": "talks",
+      "target": "help",
+      "curve": {
+        "x": -44.7823,
+        "y": -95.8004
+      }
+    },
+    {
+      "source": "articles",
+      "target": "talks",
+      "curve": {
+        "x": -213.304,
+        "y": -43.8983
+      }
+    }
+  ],
+  "id": 1903
+}

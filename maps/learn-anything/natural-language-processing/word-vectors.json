@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - natural language processing - word vectors",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "word vectors",
+      "url": "",
+      "fx": 146.47965996696018,
+      "fy": -330.85839413546256,
+      "nodes": []
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 254.2812787813889,
+      "fy": -220.04182421298503,
+      "nodes": [
+        {
+          "text": "16: word embedding models  ️",
+          "url": "http://ruder.io/word-embeddings-1/index.html",
+          "fx": 423.2812787813889,
+          "fy": -207.54182421298503,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 87.02492234150236,
+      "fy": -42.10374345653372,
+      "nodes": [
+        {
+          "text": "1. Word2Vec tutorial  ️",
+          "url": "http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/",
+          "fx": 250.02492234150236,
+          "fy": -127.60374345653372,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the amazing power of word vectors  ️",
+          "url": "https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/",
+          "fx": 250.02492234150236,
+          "fy": -85.60374345653372,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. Word2Vec parameter learning explained",
+          "url": "https://arxiv.org/pdf/1411.2738.pdf",
+          "fx": 250.02492234150236,
+          "fy": -18.60374345653372,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. use Word2Vec for movie reviews",
+          "url": "https://www.kaggle.com/c/word2vec-nlp-tutorial",
+          "fx": 250.02492234150236,
+          "fy": 48.39625654346628,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "word vectors",
+      "target": "basics",
+      "curve": {
+        "x": -45.7274,
+        "y": 144.377
+      }
+    },
+    {
+      "source": "articles",
+      "target": "word vectors",
+      "curve": {
+        "x": -39.4008,
+        "y": -55.4083
+      }
+    }
+  ],
+  "id": 1203
+}

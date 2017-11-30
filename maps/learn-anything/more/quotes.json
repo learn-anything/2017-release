@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - more - quotes",
+  "tag": "new quotes",
+  "nodes": [
+    {
+      "text": "quotes",
+      "url": "https://github.com/learn-anything/quotes",
+      "fx": -19.43866219008271,
+      "fy": -158.53144369834712,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "find new quotes",
+      "url": "",
+      "fx": -66.30349302685954,
+      "fy": -10.64162577479334,
+      "nodes": [
+        {
+          "text": "awesome IT quotes",
+          "url": "https://github.com/victorlaerte/awesome-it-quotes",
+          "fx": 176.69650697314046,
+          "fy": -16.14162577479334,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "goodreads popular quotes",
+          "url": "https://www.goodreads.com/quotes",
+          "fx": 176.69650697314046,
+          "fy": 23.85837422520666,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "quotes",
+      "target": "find new quotes",
+      "curve": {
+        "x": -11.6824,
+        "y": 72.6949
+      }
+    }
+  ],
+  "id": 1189
+}

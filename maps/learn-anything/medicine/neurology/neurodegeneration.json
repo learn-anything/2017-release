@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - medicine - neurology - neurodegeneration",
+  "tag": "neurogeneration",
+  "nodes": [
+    {
+      "text": "neurodegeneration",
+      "url": "http://www.wikiwand.com/en/Neurodegeneration",
+      "fx": 96.37109375,
+      "fy": -180.74609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 159.4375,
+      "fy": -60.125,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "https://www.youtube.com/watch?v=RImBxfVH9H4",
+          "fx": 315.4375,
+          "fy": -48.625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Alzheimer’s disease  ️",
+      "url": "/medicine/neurology/neurodegeneration/alzheimers-disease",
+      "fx": -70.78972917665021,
+      "fy": 53.09134764940745,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Parkinson's disease  ️",
+      "url": "/medicine/neurology/neurodegeneration/parkinsons-disease",
+      "fx": 185.71959914664285,
+      "fy": 57.98502150937611,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "neurodegeneration",
+      "target": "basics",
+      "curve": {
+        "x": 2.0332,
+        "y": 59.0605
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Alzheimer’s disease  ️",
+      "curve": {
+        "x": -85.3636,
+        "y": 56.6082
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Parkinson's disease  ️",
+      "curve": {
+        "x": 43.8911,
+        "y": 59.055
+      }
+    }
+  ],
+  "id": 1163
+}

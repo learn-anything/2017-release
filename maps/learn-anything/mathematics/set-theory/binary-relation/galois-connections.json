@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - set theory - binary relation - galois connections",
+  "tag": "Galois connections",
+  "nodes": [
+    {
+      "text": "Galois connections",
+      "url": "http://www.wikiwand.com/en/Galois_connection",
+      "fx": 75.7890625,
+      "fy": -104.67578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 132.2805420711975,
+      "fy": 50.227801375404454,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=EF_6QaQ_M-s",
+          "fx": 288.2805420711975,
+          "fy": 61.727801375404454,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Galois connections",
+      "target": "basics",
+      "curve": {
+        "x": -5.00426,
+        "y": 76.2018
+      }
+    }
+  ],
+  "id": 1063
+}

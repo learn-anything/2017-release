@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - linguistics - languages - italian",
+  "tag": "italian language",
+  "nodes": [
+    {
+      "text": "italian",
+      "url": "http://www.wikiwand.com/en/Italian_language",
+      "fx": -30.390625,
+      "fy": -176.09765625,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://italian.stackexchange.com/",
+          "fx": 147.609375,
+          "fy": -182.09765625,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/italianlearning/",
+          "fx": 147.609375,
+          "fy": -142.09765625,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "i",
+      "url": "",
+      "fx": -36.51953125,
+      "fy": -35.890625,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/it/en/Learn-Italian-Online",
+          "fx": 145.48046875,
+          "fy": -21.390625,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "italian",
+      "target": "basics",
+      "curve": {
+        "x": -8.56445,
+        "y": 68.8535
+      }
+    }
+  ],
+  "id": 729
+}

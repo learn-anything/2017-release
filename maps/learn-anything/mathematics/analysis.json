@@ -1,0 +1,203 @@
+{
+  "title": "learn anything - mathematics - analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "analysis",
+      "url": "http://www.wikiwand.com/en/Mathematical_analysis",
+      "fx": -76.60012115641712,
+      "fy": -361.76913435828874,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -58.591911764705856,
+      "fy": -182.52299883021385,
+      "nodes": [
+        {
+          "text": "1. principles of mathematical analysis",
+          "url": "http://www.goodreads.com/book/show/292079.Principles_of_Mathematical_Analysis",
+          "fx": 123.40808823529414,
+          "fy": -264.02299883021385,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. elements of the theory of functions and functional analysis",
+          "url": "https://www.goodreads.com/book/show/521655.Elements_of_the_Theory_of_Functions_and_Functional_Analysis",
+          "fx": 123.40808823529414,
+          "fy": -202.02299883021385,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. visual complex analysis",
+          "url": "https://www.goodreads.com/book/show/149800.Visual_Complex_Analysis",
+          "fx": 123.40808823529414,
+          "fy": -140.02299883021385,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. introductory functional analysis with applications",
+          "url": "http://www.goodreads.com/book/show/241452.Introductory_Functional_Analysis_with_Applications",
+          "fx": 123.40808823529414,
+          "fy": -100.02299883021385,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "real analysis  ️",
+      "note": "deals with real numbers and real-valued functions of a real variable  in particular, it deals with the analytic properties of real functions and sequences, including convergence and limits of sequences of real numbers, the calculus of the real numbers, and continuity, smoothness and related properties of real-valued functions",
+      "url": "/mathematics/analysis/real-analysis",
+      "fx": -523.6487067086357,
+      "fy": -69.2495438711984,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fourier analysis  ️",
+      "note": "is the study of the way general functions may be represented or approximated by sums of simpler trigonometric functions  it grew from the study of Fourier series which shows that representing a function as a sum of trigonometric functions greatly simplifies the study of heat transfer  the decomposition process is called a Fourier transformation",
+      "url": "/mathematics/analysis/fourier-analysis",
+      "fx": -530.1339142568977,
+      "fy": 11.322760022402463,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "harmonic analysis  ️",
+      "url": "/mathematics/analysis/harmonic-analysis",
+      "fx": -526.4985383100279,
+      "fy": 99.87646778959243,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "space-filling curve  ️",
+      "url": "/mathematics/analysis/space-filling-curve",
+      "fx": 370.77933396635876,
+      "fy": 119.40237483609144,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "functional analysis  ️",
+      "note": "the core of this study is formed by the study of vector spaces endowed with some kind of limit-related structure (e.g. inner product, norm, topology, etc.) and the linear functions defined on these spaces and respecting these structures in a suitable sense",
+      "url": "/mathematics/analysis/functional-analysis",
+      "fx": -421.0980529785155,
+      "fy": 187.38346099853504,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "complex analysis  ️",
+      "note": "investigates functions of complex numbers   as a differentiable function of a complex variable is equal to the sum of its Taylor series (that is, it is analytic), complex analysis is particularly concerned with analytic functions of a complex variable (that is, holomorphic functions)",
+      "url": "/mathematics/analysis/complex-analysis",
+      "fx": 155.11611938476562,
+      "fy": 193.90668106079102,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "measure theory  ️",
+      "url": "/mathematics/analysis/measure-theory",
+      "fx": -242.57920360565186,
+      "fy": 265.88926696777344,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "numerical analysis  ️",
+      "note": "is the study of algorithms that use numerical approximation (as opposed to general symbolic manipulations) for the problems of mathematical analysis ",
+      "url": "/mathematics/analysis/numerical-analysis",
+      "fx": -21.43908905044873,
+      "fy": 270.834491824314,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "analysis",
+      "target": "basics",
+      "curve": {
+        "x": -1.4959,
+        "y": 88.373
+      }
+    },
+    {
+      "source": "basics",
+      "target": "functional analysis  ️",
+      "curve": {
+        "x": -139.206,
+        "y": 197.587
+      }
+    },
+    {
+      "source": "basics",
+      "target": "measure theory  ️",
+      "curve": {
+        "x": -64.2434,
+        "y": 225.456
+      }
+    },
+    {
+      "source": "basics",
+      "target": "numerical analysis  ️",
+      "curve": {
+        "x": 43.3822,
+        "y": 258.082
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fourier analysis  ️",
+      "curve": {
+        "x": -207.771,
+        "y": 119.68
+      }
+    },
+    {
+      "source": "basics",
+      "target": "real analysis  ️",
+      "curve": {
+        "x": -244.759,
+        "y": 51.4269
+      }
+    },
+    {
+      "source": "basics",
+      "target": "complex analysis  ️",
+      "curve": {
+        "x": 110.894,
+        "y": 238.361
+      }
+    },
+    {
+      "source": "basics",
+      "target": "space-filling curve  ️",
+      "curve": {
+        "x": 169.112,
+        "y": 209.091
+      }
+    },
+    {
+      "source": "basics",
+      "target": "harmonic analysis  ️",
+      "curve": {
+        "x": -186.774,
+        "y": 174.512
+      }
+    }
+  ],
+  "id": 875
+}

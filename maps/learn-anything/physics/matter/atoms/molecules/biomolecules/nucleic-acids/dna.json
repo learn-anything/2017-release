@@ -1,0 +1,119 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - nucleic acids - dna",
+  "tag": "DNA",
+  "nodes": [
+    {
+      "text": "DNA",
+      "url": "http://www.wikiwand.com/en/DNA",
+      "fx": -167.09968387752485,
+      "fy": -274.5950316365691,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -183.564304530272,
+      "fy": -155.29483024696526,
+      "nodes": [
+        {
+          "text": "1. 6-letter DNA",
+          "note": "DNA = fundamental code containing just 4 nucleic acid bases  1. adenine 2. thymine 3. guanine 4. cytosine",
+          "url": "https://www.youtube.com/watch?v=Xp9HEp4cYzM",
+          "fx": -1.564304530272011,
+          "fy": -203.79483024696526,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. the structure of DNA",
+          "url": "https://www.youtube.com/watch?v=o_-6JXLYS-k",
+          "fx": -1.564304530272011,
+          "fy": -163.79483024696526,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. DNA structure in detail",
+          "url": "https://www.youtube.com/watch?v=8XIZPVU5YBI",
+          "fx": -1.564304530272011,
+          "fy": -123.79483024696526,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. DNA structure and replication",
+          "url": "https://www.youtube.com/watch?annotation_id=annotation_714738&amp;feature=iv&amp;src_vid=H8WJ2KENlK0&amp;v=8kK2zwjRV0M",
+          "fx": -1.564304530272011,
+          "fy": -83.79483024696526,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "DNA replication  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna/dna-replication",
+      "fx": -445.4132270781081,
+      "fy": 2.3016199352580884,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "genomes  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna/genomes",
+      "fx": -226.75217340225504,
+      "fy": 3.831159931077366,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "DNA repair  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna/dna-repair",
+      "fx": -66.84017209392869,
+      "fy": 4.822916012289397,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "DNA",
+      "target": "basics",
+      "curve": {
+        "x": -11.7323,
+        "y": 58.4001
+      }
+    },
+    {
+      "source": "basics",
+      "target": "genomes  ️",
+      "curve": {
+        "x": -21.3439,
+        "y": 79.563
+      }
+    },
+    {
+      "source": "basics",
+      "target": "DNA replication  ️",
+      "curve": {
+        "x": -131.653,
+        "y": 67.6145
+      }
+    },
+    {
+      "source": "basics",
+      "target": "DNA repair  ️",
+      "curve": {
+        "x": 62.112,
+        "y": 80.0589
+      }
+    }
+  ],
+  "id": 1462
+}

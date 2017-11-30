@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - web development - search engines - solr",
+  "tag": "apache solr",
+  "nodes": [
+    {
+      "text": "Solr",
+      "url": "http://lucene.apache.org/solr/",
+      "fx": -21.976242167384953,
+      "fy": -100.66075274818823,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/xingh/awesome-solr",
+          "fx": 112.02375783261505,
+          "fy": -89.16075274818823,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -36.34914679276221,
+      "fy": 30.339226973678137,
+      "nodes": [
+        {
+          "text": "1. quick start",
+          "url": "http://lucene.apache.org/solr/quickstart.html",
+          "fx": 119.65085320723779,
+          "fy": 44.83922697367814,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Solr",
+      "target": "basics",
+      "curve": {
+        "x": -1.68645,
+        "y": 65.5
+      }
+    }
+  ],
+  "id": 1914
+}

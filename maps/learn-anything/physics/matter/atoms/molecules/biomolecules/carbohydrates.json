@@ -1,0 +1,81 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - carbohydrates",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "carbohydrates",
+      "url": "http://www.wikiwand.com/en/Carbohydrate",
+      "fx": 429.0745493561699,
+      "fy": -185.62479266247476,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "fructose",
+      "url": "http://www.wikiwand.com/en/Fructose",
+      "fx": 347.4383054123732,
+      "fy": -43.7757731958763,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "sugar  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/carbohydrates/sugar",
+      "fx": 190.17806059515635,
+      "fy": -42.86519363485712,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sucrose",
+      "url": "http://www.wikiwand.com/en/Sucrose",
+      "fx": 516.4799362865842,
+      "fy": -39.971300096654204,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "starch",
+      "url": "http://www.wikiwand.com/en/Starch",
+      "fx": 687.218937224091,
+      "fy": -39.87728446237128,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "carbohydrates",
+      "target": "sugar  ️",
+      "curve": {
+        "x": -145.949,
+        "y": 70.6298
+      }
+    },
+    {
+      "source": "carbohydrates",
+      "target": "fructose",
+      "curve": {
+        "x": -64.0681,
+        "y": 70.1745
+      }
+    },
+    {
+      "source": "carbohydrates",
+      "target": "sucrose",
+      "curve": {
+        "x": 28.2027,
+        "y": 72.8267
+      }
+    },
+    {
+      "source": "carbohydrates",
+      "target": "starch",
+      "curve": {
+        "x": 108.822,
+        "y": 72.8738
+      }
+    }
+  ],
+  "id": 1456
+}

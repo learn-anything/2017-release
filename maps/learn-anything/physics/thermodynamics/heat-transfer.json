@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - thermodynamics - heat transfer",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "heat transfer",
+      "url": "http://www.wikiwand.com/en/Heat_transfer",
+      "fx": 151.94140625,
+      "fy": -118.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 191.328125,
+      "fy": 17,
+      "nodes": [
+        {
+          "text": "1. heat transfer - condition, conviction and radiation",
+          "url": "https://www.youtube.com/watch?v=tDs4cFOqTdM",
+          "fx": 347.328125,
+          "fy": 17.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "heat transfer",
+      "target": "basics",
+      "curve": {
+        "x": -1.55664,
+        "y": 66.6914
+      }
+    }
+  ],
+  "id": 1549
+}

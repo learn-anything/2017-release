@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - calculus - series - ramanujan summation",
+  "tag": "Ramanujan summation",
+  "nodes": [
+    {
+      "text": "Ramanujan summation",
+      "url": "http://www.wikiwand.com/en/Ramanujan_summation",
+      "fx": 153.7890625,
+      "fy": -139.25,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 238.99479166666663,
+      "fy": 24.708333333333144,
+      "nodes": [
+        {
+          "text": "1.explanation",
+          "url": "https://www.youtube.com/watch?v=8hgeIDY7We4",
+          "fx": 401.99479166666663,
+          "fy": 37.208333333333144,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Ramanujan summation",
+      "target": "basics",
+      "curve": {
+        "x": -6.14714,
+        "y": 81.2292
+      }
+    }
+  ],
+  "id": 902
+}

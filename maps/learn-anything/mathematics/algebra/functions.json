@@ -1,0 +1,211 @@
+{
+  "title": "learn anything - mathematics - algebra - functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "functions",
+      "url": "http://www.wikiwand.com/en/Function_(mathematics)",
+      "fx": -203.2559742647054,
+      "fy": -256.57731152805957,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -182.13867949563803,
+      "fy": -138.50011296355484,
+      "nodes": [
+        {
+          "text": "1. functions  ️",
+          "url": "http://frnsys.com/ai_notes/foundations/functions.html",
+          "fx": -26.13867949563803,
+          "fy": -147.00011296355484,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what is a function?",
+          "url": "https://www.youtube.com/watch?v=kvGsIo1TmsM",
+          "fx": -26.13867949563803,
+          "fy": -107.00011296355484,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "periodic functions  ️",
+      "url": "/mathematics/algebra/functions/periodic-functions",
+      "fx": -17.576653587444184,
+      "fy": 74.70626690511801,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "transformations  ️",
+      "url": "/mathematics/algebra/functions/transformations",
+      "fx": -240.3987922668457,
+      "fy": 74.97518157958984,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sigmoid functions",
+      "url": "http://www.wikiwand.com/en/Sigmoid_function",
+      "fx": -1005.6422533363316,
+      "fy": 75.51942757538126,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "logistic functions  ️",
+      "url": "/mathematics/algebra/functions/logistic-functions",
+      "fx": -1234.5147341008771,
+      "fy": 75.53063322368428,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "higher-order functions  ️",
+      "url": "/mathematics/algebra/functions/higher-order-functions",
+      "fx": -532.6191329956055,
+      "fy": 76.91680526733398,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "inverse functions  ️",
+      "url": "/mathematics/algebra/functions/inverse-functions",
+      "fx": -759.7624521072792,
+      "fy": 77.1375119731407,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "nowhere continuous function",
+      "url": "http://www.wikiwand.com/en/Nowhere_continuous_function",
+      "fx": -1583.0081173464089,
+      "fy": 77.63346759547596,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "metric",
+      "url": "http://www.wikiwand.com/en/Metric_(mathematics)",
+      "fx": -2283.1662679425845,
+      "fy": 79.31089484238566,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "special functions",
+      "url": "http://www.wikiwand.com/en/Special_functions",
+      "fx": -1818.2290652879165,
+      "fy": 79.34997212085568,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "complex-valued function",
+      "url": "http://www.wikiwand.com/en/Complex-valued_function",
+      "fx": -2133.432317197712,
+      "fy": 81.1729473039428,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "functions",
+      "target": "basics",
+      "curve": {
+        "x": -0.191352,
+        "y": 57.7887
+      }
+    },
+    {
+      "source": "basics",
+      "target": "periodic functions  ️",
+      "curve": {
+        "x": 105.281,
+        "y": 106.603
+      }
+    },
+    {
+      "source": "basics",
+      "target": "transformations  ️",
+      "curve": {
+        "x": -10.88,
+        "y": 106.738
+      }
+    },
+    {
+      "source": "basics",
+      "target": "higher-order functions  ️",
+      "curve": {
+        "x": -140.241,
+        "y": 107.708
+      }
+    },
+    {
+      "source": "basics",
+      "target": "inverse functions  ️",
+      "curve": {
+        "x": -296.065,
+        "y": 71.648
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sigmoid functions",
+      "curve": {
+        "x": -411.221,
+        "y": 67.6426
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logistic functions  ️",
+      "curve": {
+        "x": -642.403,
+        "y": 49.1023
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nowhere continuous function",
+      "curve": {
+        "x": -762.567,
+        "y": 27.0748
+      }
+    },
+    {
+      "source": "basics",
+      "target": "special functions",
+      "curve": {
+        "x": -1052.79,
+        "y": 59.0721
+      }
+    },
+    {
+      "source": "basics",
+      "target": "complex-valued function",
+      "curve": {
+        "x": -1204.22,
+        "y": 40.5283
+      }
+    },
+    {
+      "source": "basics",
+      "target": "metric",
+      "curve": {
+        "x": -1543.08,
+        "y": 52.0012
+      }
+    }
+  ],
+  "id": 847
+}

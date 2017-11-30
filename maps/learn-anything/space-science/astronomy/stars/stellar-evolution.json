@@ -1,0 +1,106 @@
+{
+  "title": "learn anything - space science - astronomy - stars - stellar evolution",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "stellar evolution",
+      "url": "http://www.wikiwand.com/en/Stellar_evolution",
+      "fx": 52.5078125,
+      "fy": -117.1171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 103.4609375,
+      "fy": 18.8515625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=hbF_ELJ0Ues",
+          "fx": 259.4609375,
+          "fy": 30.3515625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "massive star",
+      "url": "http://www.wikiwand.com/en/List_of_most_massive_stars",
+      "fx": -35.35256109022578,
+      "fy": 142.11145050125305,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "red supergiant",
+      "url": "http://www.wikiwand.com/en/Red_supergiant_star",
+      "fx": -48.66901629072731,
+      "fy": 261.20606203007617,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "supernova  ️",
+      "url": "/space-science/astronomy/stars/stellar-evolution/supernova",
+      "fx": -30.81766183035711,
+      "fy": 371.833984375,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "black hole  ️",
+      "url": "/physics/general-relativity/spacetime/black-holes",
+      "fx": -23.4873046875,
+      "fy": 489.3779296875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "stellar evolution",
+      "target": "basics",
+      "curve": {
+        "x": -2.02344,
+        "y": 66.7344
+      }
+    },
+    {
+      "source": "basics",
+      "target": "massive star",
+      "curve": {
+        "x": -55.6567,
+        "y": 61.6299
+      }
+    },
+    {
+      "source": "massive star",
+      "target": "red supergiant",
+      "curve": {
+        "x": -2.40823,
+        "y": 59.5473
+      }
+    },
+    {
+      "source": "red supergiant",
+      "target": "supernova  ️",
+      "curve": {
+        "x": 0.175677,
+        "y": 55.314
+      }
+    },
+    {
+      "source": "supernova  ️",
+      "target": "black hole  ️",
+      "curve": {
+        "x": 2.91518,
+        "y": 58.772
+      }
+    }
+  ],
+  "id": 1829
+}

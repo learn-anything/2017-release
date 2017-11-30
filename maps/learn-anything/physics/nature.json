@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - physics - nature",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nature",
+      "url": "http://www.wikiwand.com/en/Nature",
+      "fx": 165.97265625,
+      "fy": -368.44661458333337,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/NatureIsFuckingLit/",
+          "fx": 357.97265625,
+          "fy": -354.44661458333337,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "awareness",
+      "url": "",
+      "fx": 226.37706759386504,
+      "fy": -242.3938403485908,
+      "nodes": [
+        {
+          "text": "what is nature's worth?",
+          "url": "https://www.youtube.com/watch?v=TartoYpK1yI",
+          "fx": 431.37706759386504,
+          "fy": -229.8938403485908,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 283.692539380433,
+      "fy": -119.88978296952149,
+      "nodes": [
+        {
+          "text": "nature album",
+          "url": "http://imgur.com/a/56pFc",
+          "fx": 482.692539380433,
+          "fy": -128.3897829695215,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "nature makes you happy",
+          "url": "https://www.youtube.com/watch?v=1wkPMUZ9vX4",
+          "fx": 482.692539380433,
+          "fy": -86.38978296952149,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "awareness",
+      "target": "nature",
+      "curve": {
+        "x": -31.9522,
+        "y": -62.2764
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "awareness",
+      "curve": {
+        "x": -26.9078,
+        "y": -61.2521
+      }
+    }
+  ],
+  "id": 1491
+}

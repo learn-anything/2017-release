@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - modal logic - epistemic modal logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "epistemic modal logic",
+      "url": "http://www.wikiwand.com/en/Epistemic_modal_logic",
+      "fx": 78.43359375,
+      "fy": -159.38671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 139.68359375,
+      "fy": -9.66796875,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://plato.stanford.edu/entries/logic-epistemic/",
+          "fx": 302.68359375,
+          "fy": -15.66796875,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. the logic of knowledge series",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_1115757267&amp;feature=iv&amp;list=PLz0n_SjOttTdi5xjJREmgfYT8KR5ChaW3&amp;src_vid=YxBShJU_CKs",
+          "fx": 302.68359375,
+          "fy": 21.33203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "epistemic modal logic",
+      "target": "basics",
+      "curve": {
+        "x": -7.375,
+        "y": 74.8594
+      }
+    }
+  ],
+  "id": 1017
+}

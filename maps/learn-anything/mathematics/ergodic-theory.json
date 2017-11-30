@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - mathematics - ergodic theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ergodic theory",
+      "url": "http://www.wikiwand.com/en/Ergodic_theory",
+      "fx": -196.58203125,
+      "fy": -191.14453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -172.66015625,
+      "fy": -49.109375,
+      "nodes": [
+        {
+          "text": "1. invitation to ergodic theory",
+          "url": "http://bookstore.ams.org/stml-42",
+          "fx": 9.33984375,
+          "fy": -37.609375,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ergodic theory",
+      "target": "basics",
+      "curve": {
+        "x": -13.2891,
+        "y": 69.7676
+      }
+    }
+  ],
+  "id": 933
+}

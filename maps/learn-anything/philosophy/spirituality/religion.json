@@ -1,0 +1,117 @@
+{
+  "title": "learn anything - philosophy - spirituality - religion",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "religion",
+      "url": "http://www.wikiwand.com/en/Religion",
+      "fx": 153.09634422709928,
+      "fy": -242.03191183776872,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 168.71654358251385,
+      "fy": -97.87748800747585,
+      "nodes": [
+        {
+          "text": "1. Alan Watts - Jesus, his religion",
+          "url": "https://www.youtube.com/watch?v=s42V8BGBvTk",
+          "fx": 331.71654358251385,
+          "fy": -185.87748800747585,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Alan Watts - how religion lost its integrity",
+          "url": "https://www.youtube.com/watch?v=NaAkk5q4J5M",
+          "fx": 331.71654358251385,
+          "fy": -118.87748800747585,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. Alan Watts - what is the meaning of God",
+          "url": "https://www.youtube.com/watch?v=sLwN3Wxr-j0",
+          "fx": 331.71654358251385,
+          "fy": -51.87748800747585,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "1. Terence McKenna on religion",
+          "url": "https://www.youtube.com/watch?v=ys7a5wHGqSo",
+          "fx": 331.71654358251385,
+          "fy": 15.122511992524153,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "buddhism  ️",
+      "url": "/philosophy/spirituality/religion/buddhism",
+      "fx": 2.6448631286621094,
+      "fy": 94.42876815795898,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "paganism  ️",
+      "url": "/philosophy/spirituality/religion/paganism",
+      "fx": -178.71185009571673,
+      "fy": 94.48358570896528,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "taoism  ️",
+      "url": "/philosophy/spirituality/religion/taoism",
+      "fx": 180.78412656903743,
+      "fy": 95.4791448744769,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "religion",
+      "target": "basics",
+      "curve": {
+        "x": -1.1899,
+        "y": 71.3271
+      }
+    },
+    {
+      "source": "basics",
+      "target": "buddhism  ️",
+      "curve": {
+        "x": -66.2859,
+        "y": 96.9031
+      }
+    },
+    {
+      "source": "basics",
+      "target": "paganism  ️",
+      "curve": {
+        "x": -184.293,
+        "y": 84.57
+      }
+    },
+    {
+      "source": "basics",
+      "target": "taoism  ️",
+      "curve": {
+        "x": 6.28379,
+        "y": 96.6783
+      }
+    }
+  ],
+  "id": 1356
+}

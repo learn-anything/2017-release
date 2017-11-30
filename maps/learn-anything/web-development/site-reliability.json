@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - web development - site reliability",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "site reliability",
+      "note": "if you think this can be improved in any way ",
+      "url": "http://www.wikiwand.com/en/Site_reliability_engineering",
+      "fx": -88.50038528442383,
+      "fy": 59.95164489746094,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 37.4140625,
+      "fy": 160.70012950897217,
+      "nodes": [
+        {
+          "text": "awesome sre",
+          "url": "https://github.com/dastergon/awesome-sre",
+          "fx": 174.4140625,
+          "fy": 172.20012950897217,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "site reliability",
+      "curve": {
+        "x": -37.2072,
+        "y": -49.1242
+      }
+    }
+  ],
+  "id": 1916
+}

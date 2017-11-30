@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - space science - astronomy - astrophysics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "astrophysics",
+      "url": "http://www.wikiwand.com/en/Astrophysics",
+      "fx": -136.9140625,
+      "fy": -320.359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 23.992092611334215,
+      "fy": -207.70179655865752,
+      "nodes": [
+        {
+          "text": "astroML",
+          "url": "https://github.com/astroML/astroML",
+          "fx": 160.99209261133421,
+          "fy": -196.20179655865752,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -132.25428053306382,
+      "fy": -48.68360956473214,
+      "nodes": [
+        {
+          "text": "1. astrophysics and cosmology",
+          "url": "https://www.youtube.com/watch?v=VYxYuaDvdM0",
+          "fx": 49.74571946693618,
+          "fy": -85.18360956473214,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to astrophysics",
+          "url": "http://w.astro.berkeley.edu/~echiang/Astro7A/astro7.pdf",
+          "fx": 49.74571946693618,
+          "fy": -45.18360956473214,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. an introduction to modern astrophysics",
+          "url": "http://www.goodreads.com/book/show/396218.An_Introduction_to_Modern_Astrophysics",
+          "fx": 49.74571946693618,
+          "fy": -11.183609564732137,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "nuclear astrophysics  ️",
+      "url": "/space-science/astronomy/astrophysics/nuclear-astrophysics",
+      "fx": -229.09279057017557,
+      "fy": 153.13267543859024,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "astrophysics",
+      "target": "basics",
+      "curve": {
+        "x": -18.9201,
+        "y": 134.588
+      }
+    },
+    {
+      "source": "help",
+      "target": "astrophysics",
+      "curve": {
+        "x": -54.4531,
+        "y": -55.0788
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nuclear astrophysics  ️",
+      "curve": {
+        "x": -15.9193,
+        "y": 102.158
+      }
+    }
+  ],
+  "id": 1827
+}

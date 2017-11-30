@@ -1,0 +1,109 @@
+{
+  "title": "learn anything - software",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software",
+      "url": "http://www.wikiwand.com/en/Software",
+      "fx": 498.87094248242295,
+      "fy": -122.46656413485755,
+      "nodes": [
+        {
+          "text": "️",
+          "url": "https://softwarerecs.stackexchange.com/",
+          "fx": 702.870942482423,
+          "fy": -108.46656413485755,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 624.4472104519773,
+      "fy": -7.768626412429398,
+      "nodes": [
+        {
+          "text": "open source software for developers",
+          "url": "https://github.com/httpsGithubParty/FOSS-for-Dev",
+          "fx": 761.4472104519773,
+          "fy": -27.2686264124294,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "discounts for student dev",
+          "url": "https://github.com/AchoArnold/discount-for-student-dev",
+          "fx": 761.4472104519773,
+          "fy": 34.7313735875706,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "software tooling  ️",
+      "url": "/software/tooling",
+      "fx": 315.6912495554674,
+      "fy": 95.64269262779175,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bots  ️",
+      "url": "/software/bots",
+      "fx": 553.4932032297329,
+      "fy": 96.69287062296132,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "web applications  ️",
+      "url": "/software/web-applications",
+      "fx": 74.37071181484566,
+      "fy": 97.12708078510809,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "software",
+      "target": "software tooling  ️",
+      "curve": {
+        "x": -75.5898,
+        "y": 107.805
+      }
+    },
+    {
+      "source": "software",
+      "target": "bots  ️",
+      "curve": {
+        "x": 18.0611,
+        "y": 109.58
+      }
+    },
+    {
+      "source": "help",
+      "target": "software",
+      "curve": {
+        "x": -46.0381,
+        "y": -56.099
+      }
+    },
+    {
+      "source": "software",
+      "target": "web applications  ️",
+      "curve": {
+        "x": -193.5,
+        "y": 109.797
+      }
+    }
+  ],
+  "id": 1825
+}

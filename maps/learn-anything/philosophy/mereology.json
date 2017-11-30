@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - philosophy - mereology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mereology",
+      "url": "http://www.wikiwand.com/en/Mereology",
+      "fx": 232.49330357142844,
+      "fy": -217.0301339285715,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 259.1459426879883,
+      "fy": -73.49863181795388,
+      "nodes": [
+        {
+          "text": "1. explanation  ️",
+          "url": "https://plato.stanford.edu/entries/mereology/",
+          "fx": 422.1459426879883,
+          "fy": -60.99863181795388,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mereology",
+      "target": "basics",
+      "curve": {
+        "x": -4.42368,
+        "y": 71.0158
+      }
+    }
+  ],
+  "id": 1329
+}

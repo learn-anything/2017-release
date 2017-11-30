@@ -1,0 +1,154 @@
+{
+  "title": "learn anything - programming - programming languages - ocaml",
+  "tag": "OCaml programming language",
+  "nodes": [
+    {
+      "text": "OCaml",
+      "url": "http://www.wikiwand.com/en/OCaml",
+      "fx": -30.816423140073994,
+      "fy": 1.1922028943112082,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/ocaml/",
+          "fx": 159.183576859926,
+          "fy": -44.80779710568879,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/ocaml/ocaml",
+          "fx": 159.183576859926,
+          "fy": -4.807797105688792,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/ocaml",
+          "fx": 159.183576859926,
+          "fy": 35.19220289431121,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/rizo/awesome-ocaml",
+          "fx": 159.183576859926,
+          "fy": 75.19220289431121,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 85.02953071080628,
+      "fy": 141.81864393625222,
+      "nodes": [
+        {
+          "text": "type systems",
+          "note": "",
+          "url": "https://github.com/tomprimozic/type-systems",
+          "fx": 276.0295307108063,
+          "fy": 153.31864393625222,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 257.95062146645705,
+      "fy": 231.50016939150203,
+      "nodes": [
+        {
+          "text": "why OCaml",
+          "url": "https://www.youtube.com/watch?v=v1CmGbOGb2I",
+          "fx": 397.95062146645705,
+          "fy": 243.00016939150203,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -135.20697442902588,
+      "fy": 277.65865279773493,
+      "nodes": [
+        {
+          "text": "1. learn OCaml",
+          "url": "https://try.ocamlpro.com/learn-ocaml-demo/#tutorial%3Dfeatures-3-12%26step%3D0%26activity%3Dtryocaml",
+          "fx": 20.793025570974123,
+          "fy": 272.15865279773493,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. real world OCaml",
+          "url": "https://realworldocaml.org/v1/en/html/index.html",
+          "fx": 20.793025570974123,
+          "fy": 306.15865279773493,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "reason  ️",
+      "url": "/programming/programming-languages/ocaml/reasonml",
+      "fx": -192.16555304276312,
+      "fy": 427.47923519736855,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "OCaml",
+      "target": "basics",
+      "curve": {
+        "x": -60.6953,
+        "y": 136.983
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reason  ️",
+      "curve": {
+        "x": -27.4793,
+        "y": 74.9103
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "OCaml",
+      "curve": {
+        "x": -58.173,
+        "y": -69.0632
+      }
+    },
+    {
+      "source": "talks",
+      "target": "interesting",
+      "curve": {
+        "x": -73.7105,
+        "y": -44.8408
+      }
+    }
+  ],
+  "id": 1624
+}

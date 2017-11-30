@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - mathematics - geometry - pi",
+  "tag": "pi constant",
+  "nodes": [
+    {
+      "text": "pi",
+      "url": "http://www.wikiwand.com/en/Pi",
+      "fx": 117.24150815217399,
+      "fy": -433.9650378493789,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 222.77613830566418,
+      "fy": -322.5280135629536,
+      "nodes": [
+        {
+          "text": "digits of pi visualised",
+          "url": "http://i.imgur.com/SBPAbNU.png",
+          "fx": 421.7761383056642,
+          "fy": -352.0280135629536,
+          "nodes": [],
+          "category": "image",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "pi and the golden ratio  ️",
+          "url": "https://johncarlosbaez.wordpress.com/2017/03/07/pi-and-the-golden-ratio/",
+          "fx": 421.7761383056642,
+          "fy": -310.0280135629536,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "pi hiding in prime regularities",
+          "url": "https://www.youtube.com/watch?v=NaL_Cb42WyY",
+          "fx": 421.7761383056642,
+          "fy": -268.0280135629536,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 61.10000065488305,
+      "fy": -107.67605059082217,
+      "nodes": [
+        {
+          "text": "1. visually explained",
+          "url": "http://setosa.io/ev/pi/",
+          "fx": 250.10000065488305,
+          "fy": -179.17605059082217,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. visualising pi",
+          "url": "https://public.tableau.com/views/VisualizingPi/pi?:embed=y&amp;:display_count=no&amp;:showVizHome=no",
+          "fx": 250.10000065488305,
+          "fy": -137.17605059082217,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. pi is beautiful",
+          "url": "https://www.youtube.com/watch?v=NPoj8lk9Fo4",
+          "fx": 250.10000065488305,
+          "fy": -95.17605059082217,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. pi hiding in prime regularities",
+          "url": "https://www.youtube.com/watch?v=NaL_Cb42WyY",
+          "fx": 250.10000065488305,
+          "fy": -53.17605059082217,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "2. understanding e to the pi i",
+          "url": "https://www.youtube.com/watch?v=F_0yfvm0UoU",
+          "fx": 250.10000065488305,
+          "fy": -11.176050590822172,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "pi",
+      "curve": {
+        "x": -64.7673,
+        "y": -54.4685
+      }
+    },
+    {
+      "source": "pi",
+      "target": "basics",
+      "curve": {
+        "x": -24.8208,
+        "y": 161.895
+      }
+    }
+  ],
+  "id": 956
+}

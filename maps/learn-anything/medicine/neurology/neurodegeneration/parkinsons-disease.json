@@ -1,0 +1,61 @@
+{
+  "title": "learn anything - medicine - neurology - neurodegeneration - parkinsons disease",
+  "tag": "Parkinson’s disease",
+  "nodes": [
+    {
+      "text": "Parkinson's disease",
+      "url": "http://www.wikiwand.com/en/Alzheimer%27s_disease",
+      "fx": 75.78125,
+      "fy": -106.7421875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Parkinsons/",
+          "fx": 382.78125,
+          "fy": -92.7421875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145.546875,
+      "fy": 34.33253045127799,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=3n8UjH9h_8I",
+          "fx": 301.546875,
+          "fy": 25.83253045127799,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. in detail explanation",
+          "url": "https://www.youtube.com/watch?v=iO-M7jq-zuY",
+          "fx": 301.546875,
+          "fy": 65.83253045127799,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Parkinson's disease",
+      "target": "basics",
+      "curve": {
+        "x": -2.86719,
+        "y": 69.2874
+      }
+    }
+  ],
+  "id": 1162
+}

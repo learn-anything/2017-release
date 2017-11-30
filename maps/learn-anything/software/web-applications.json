@@ -1,0 +1,34 @@
+{
+  "title": "learn anything - software - web applications",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web applications",
+      "url": "",
+      "fx": -180.06640625,
+      "fy": -13.921875,
+      "nodes": [
+        {
+          "text": "awesome free web apps",
+          "url": "https://github.com/aviaryan/awesome-no-login-web-apps",
+          "fx": 70.93359375,
+          "fy": -22.421875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome self hosted",
+          "url": "https://github.com/Kickball/awesome-selfhosted",
+          "fx": 70.93359375,
+          "fy": 17.578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "id": 1824
+}

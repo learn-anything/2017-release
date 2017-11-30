@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - programming paradigms - metaprogramming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "metaprogramming",
+      "url": "http://www.wikiwand.com/en/Metaprogramming",
+      "fx": 85.7421875,
+      "fy": -117.61328125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 255.52738001613477,
+      "fy": 16.401104293239996,
+      "nodes": [
+        {
+          "text": "16: introduction to metaprogramming in nim  ️",
+          "url": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/",
+          "fx": 453.52738001613477,
+          "fy": 16.401104293239996,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "metaprogramming",
+      "curve": {
+        "x": -56.8926,
+        "y": -66.2572
+      }
+    }
+  ],
+  "id": 1678
+}

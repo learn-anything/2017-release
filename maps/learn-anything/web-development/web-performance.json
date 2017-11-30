@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - web development - web performance",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web perfomance",
+      "url": "http://www.wikiwand.com/en/Web_performance",
+      "fx": -103.05672697776936,
+      "fy": -144.7559040067685,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/davidsonfellipe/awesome-wpo",
+          "fx": 176.94327302223064,
+          "fy": -130.7559040067685,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -55.8136144746195,
+      "fy": 22.485475894531874,
+      "nodes": [
+        {
+          "text": "1. high performance browser networking",
+          "url": "https://hpbn.co/",
+          "fx": 126.1863855253805,
+          "fy": 22.985475894531874,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "web perfomance",
+      "target": "basics",
+      "curve": {
+        "x": -2.62844,
+        "y": 83.6202
+      }
+    }
+  ],
+  "id": 1928
+}

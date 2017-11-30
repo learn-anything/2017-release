@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - physics - electromagnetism - electromagnetic field - electric charge - coulombs law",
+  "tag": "Coulomb’s law",
+  "nodes": [
+    {
+      "text": "Coulomb’s law",
+      "url": "http://www.wikiwand.com/en/Coulomb%27s_law",
+      "fx": -110.625,
+      "fy": -314.1796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -58.92513368983953,
+      "fy": -156.0590741977971,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=yUPdtFqilXo",
+          "fx": 104.07486631016047,
+          "fy": -143.5590741977971,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Coulomb’s law",
+      "target": "basics",
+      "curve": {
+        "x": -2.65007,
+        "y": 78.3103
+      }
+    }
+  ],
+  "id": 1421
+}

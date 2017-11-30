@@ -1,0 +1,131 @@
+{
+  "title": "learn anything - physics - matter - atoms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "atoms",
+      "url": "http://www.wikiwand.com/en/Atom",
+      "fx": 7.573635101318359,
+      "fy": -175.559232711792,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 20.539306938648224,
+      "fy": -28.054054975509644,
+      "nodes": [
+        {
+          "text": "1. how small is an atom?",
+          "url": "https://www.youtube.com/watch?v=_lNF3_30lUE",
+          "fx": 183.53930693864822,
+          "fy": -36.554054975509644,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. what are atoms?",
+          "url": "https://www.youtube.com/watch?v=SggCE0kCJOY",
+          "fx": 183.53930693864822,
+          "fy": 5.4459450244903564,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "chemical bonds  ️",
+      "url": "/physics/matter/atoms/chemical-bonds",
+      "fx": -565.6137390136719,
+      "fy": 117.81061172485352,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "atomic physics  ️",
+      "url": "/physics/matter/atoms/atomic-physics",
+      "fx": -792.6313775510203,
+      "fy": 118.80633503401384,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "molecules  ️",
+      "url": "/physics/matter/atoms/molecules",
+      "fx": -328.5253677368164,
+      "fy": 119.56588745117188,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "atomic nucleus  ️",
+      "url": "/physics/matter/atoms/atomic-nucleus",
+      "fx": 123.69998168945312,
+      "fy": 121.51582717895508,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "subatomic particles  ️",
+      "url": "/physics/matter/atoms/subatomic-particles",
+      "fx": -148.42863869667053,
+      "fy": 121.81510925292969,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "atoms",
+      "target": "basics",
+      "curve": {
+        "x": -0.517164,
+        "y": 72.5026
+      }
+    },
+    {
+      "source": "basics",
+      "target": "molecules  ️",
+      "curve": {
+        "x": -166.032,
+        "y": 73.8099
+      }
+    },
+    {
+      "source": "basics",
+      "target": "chemical bonds  ️",
+      "curve": {
+        "x": -289.951,
+        "y": 57.3901
+      }
+    },
+    {
+      "source": "basics",
+      "target": "subatomic particles  ️",
+      "curve": {
+        "x": -52.234,
+        "y": 74.9346
+      }
+    },
+    {
+      "source": "basics",
+      "target": "atomic nucleus  ️",
+      "curve": {
+        "x": 73.0803,
+        "y": 74.7849
+      }
+    },
+    {
+      "source": "basics",
+      "target": "atomic physics  ️",
+      "curve": {
+        "x": -495.376,
+        "y": 37.645
+      }
+    }
+  ],
+  "id": 1475
+}

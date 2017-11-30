@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - quadratic equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quadratic equations",
+      "url": "http://www.wikiwand.com/en/Quadratic_equation",
+      "fx": 223.5937499999999,
+      "fy": -259.30859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 284.73560049019454,
+      "fy": -108.64077818628147,
+      "nodes": [
+        {
+          "text": "1. how to solve quadratic equations by factoring",
+          "url": "https://www.youtube.com/watch?v=IKyUuvulIbk",
+          "fx": 440.73560049019454,
+          "fy": -108.14077818628147,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "quadratic equations",
+      "target": "basics",
+      "curve": {
+        "x": -4.42907,
+        "y": 74.0839
+      }
+    }
+  ],
+  "id": 853
+}

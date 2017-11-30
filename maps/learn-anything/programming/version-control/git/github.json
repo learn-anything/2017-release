@@ -1,0 +1,145 @@
+{
+  "title": "learn anything - programming - version control - git - github",
+  "tag": "GitHub",
+  "nodes": [
+    {
+      "text": "GitHub",
+      "url": "http://www.wikiwand.com/en/GitHub",
+      "fx": 2.1443656226384746,
+      "fy": -172.11310499609817,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/phillipadsmith/awesome-github",
+          "fx": 193.14436562263847,
+          "fy": -158.11310499609817,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 123.46312064976087,
+      "fy": -19.805017450173523,
+      "nodes": [
+        {
+          "text": "creating a pull request",
+          "url": "https://help.github.com/articles/creating-a-pull-request/",
+          "fx": 260.46312064976087,
+          "fy": -88.30501745017352,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "how to check PR locally    ️",
+          "url": "https://stackoverflow.com/a/32447696/3067664",
+          "fx": 260.46312064976087,
+          "fy": -48.30501745017352,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "github browser extensions",
+          "url": "https://github.com/stefanbuck/awesome-browser-extensions-for-github",
+          "fx": 260.46312064976087,
+          "fy": -8.305017450173523,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "sync a fork with original repo",
+          "url": "https://help.github.com/articles/syncing-a-fork/",
+          "fx": 260.46312064976087,
+          "fy": 31.694982549826477,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "github cheat sheet",
+          "url": "https://github.com/tiimgreen/github-cheat-sheet",
+          "fx": 260.46312064976087,
+          "fy": 71.69498254982648,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -26.89018205961702,
+      "fy": 162.36269563328494,
+      "nodes": [
+        {
+          "text": "1. what is GitHub",
+          "url": "https://guides.github.com/activities/hello-world/",
+          "fx": 129.10981794038298,
+          "fy": 173.86269563328494,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "open source  ️",
+      "url": "/programming/software-development/open-source",
+      "fx": -270.1311690520748,
+      "fy": 278.30562306793695,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "market place",
+      "url": "https://github.com/marketplace/category/code-quality",
+      "fx": -69.20217547211053,
+      "fy": 281.6350666572332,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "GitHub",
+      "target": "basics",
+      "curve": {
+        "x": -23.2672,
+        "y": 165.988
+      }
+    },
+    {
+      "source": "help",
+      "target": "GitHub",
+      "curve": {
+        "x": -47.1594,
+        "y": -74.904
+      }
+    },
+    {
+      "source": "basics",
+      "target": "open source  ️",
+      "curve": {
+        "x": -100.62,
+        "y": 59.2214
+      }
+    },
+    {
+      "source": "basics",
+      "target": "market place",
+      "curve": {
+        "x": 0.843978,
+        "y": 60.8862
+      }
+    }
+  ],
+  "id": 1740
+}

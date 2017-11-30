@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - matrices - matrix multiplication",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "matrix multiplication",
+      "url": "http://www.wikiwand.com/en/Matrix_multiplication",
+      "fx": 77.921875,
+      "fy": -116.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 149,
+      "fy": 29.13671875,
+      "nodes": [
+        {
+          "text": "1. programmer’s intuition for matrix multiplication  ️",
+          "url": "https://betterexplained.com/articles/matrix-multiplication/",
+          "fx": 312,
+          "fy": 29.13671875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "matrix multiplication",
+      "target": "basics",
+      "curve": {
+        "x": -4.46094,
+        "y": 72.166
+      }
+    }
+  ],
+  "id": 979
+}

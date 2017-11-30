@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - randomness",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "randomness",
+      "url": "http://www.wikiwand.com/en/Randomness",
+      "fx": 234.453125,
+      "fy": -293.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 269.2546125461265,
+      "fy": -140.33164206641436,
+      "nodes": [
+        {
+          "text": "1. what is random?",
+          "url": "https://www.youtube.com/watch?v=9rIy0xY99a0",
+          "fx": 432.2546125461265,
+          "fy": -127.83164206641436,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "randomness",
+      "target": "basics",
+      "curve": {
+        "x": -5.34926,
+        "y": 76.0178
+      }
+    }
+  ],
+  "id": 1105
+}

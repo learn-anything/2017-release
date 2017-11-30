@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - heroku",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "heroku",
+      "url": "http://www.wikiwand.com/en/Heroku",
+      "fx": -129.15234375,
+      "fy": -153.8125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Heroku/",
+          "fx": 59.84765625,
+          "fy": -159.8125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ianstormtaylor/awesome-heroku",
+          "fx": 59.84765625,
+          "fy": -119.8125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -109.40625,
+      "fy": 0.23828125,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://devcenter.heroku.com/start",
+          "fx": 46.59375,
+          "fy": 14.73828125,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "heroku",
+      "target": "basics",
+      "curve": {
+        "x": 1.62304,
+        "y": 75.7754
+      }
+    }
+  ],
+  "id": 1707
+}

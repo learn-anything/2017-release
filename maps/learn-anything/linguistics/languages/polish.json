@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - linguistics - languages - polish",
+  "tag": "polish language",
+  "nodes": [
+    {
+      "text": "polish language",
+      "url": "http://www.wikiwand.com/en/Polish_language",
+      "fx": -65.34375,
+      "fy": -102.109375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learnpolish/",
+          "fx": 203.65625,
+          "fy": -88.109375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "if you think this can be improved in any way ",
+      "url": "",
+      "fx": -23.4140625,
+      "fy": 40.0859375,
+      "nodes": [
+        {
+          "text": "1. duolingo",
+          "url": "https://www.duolingo.com/course/pl/en/Learn-Polish-Online",
+          "fx": 158.5859375,
+          "fy": 54.5859375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polish language",
+      "target": "basics",
+      "curve": {
+        "x": -7.28516,
+        "y": 69.8477
+      }
+    }
+  ],
+  "id": 734
+}

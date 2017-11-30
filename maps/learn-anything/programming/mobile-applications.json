@@ -1,0 +1,143 @@
+{
+  "title": "learn anything - programming - mobile applications",
+  "tag": "mobile applications development",
+  "nodes": [
+    {
+      "text": "mobile applications development",
+      "url": "http://www.wikiwand.com/en/Mobile_application_development",
+      "fx": -87.40234375,
+      "fy": -139.3322849025974,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "operating systems",
+      "url": "",
+      "fx": -152.85653409091128,
+      "fy": -22.151887175324987,
+      "nodes": []
+    },
+    {
+      "text": "frameworks",
+      "url": "",
+      "fx": 95.18671780396721,
+      "fy": -19.821350956281833,
+      "nodes": []
+    },
+    {
+      "text": "iOS  ️",
+      "url": "/operating-systems/ios",
+      "fx": -219.45210159289377,
+      "fy": 86.69641214841386,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "android  ️",
+      "url": "/operating-systems/android",
+      "fx": -88.53779376017587,
+      "fy": 87.67019802564164,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "react native  ️",
+      "url": "/web-development/javascript-libraries/react-native",
+      "fx": 69.32244176752556,
+      "fy": 89.99866640947192,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "NativeScript  ️",
+      "url": "/web-development/javascript-libraries/nativescript",
+      "fx": 411.4540221291868,
+      "fy": 93.79343600478006,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Xamarin  ️",
+      "url": "/programming/mobile-applications/xamarin",
+      "fx": 250.96300377833745,
+      "fy": 95.41573520151127,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Xcode  ️",
+      "url": "/software/tooling/ide/xcode",
+      "fx": -336.219427910053,
+      "fy": 196.42329695767194,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "operating systems",
+      "target": "iOS  ️",
+      "curve": {
+        "x": -59.2978,
+        "y": 55.6741
+      }
+    },
+    {
+      "source": "operating systems",
+      "target": "android  ️",
+      "curve": {
+        "x": 14.9094,
+        "y": 56.161
+      }
+    },
+    {
+      "source": "mobile applications development",
+      "target": "operating systems",
+      "curve": {
+        "x": -77.7271,
+        "y": 57.3402
+      }
+    },
+    {
+      "source": "mobile applications development",
+      "target": "frameworks",
+      "curve": {
+        "x": 15.7945,
+        "y": 58.5055
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "react native  ️",
+      "curve": {
+        "x": 2.06786,
+        "y": 54.91
+      }
+    },
+    {
+      "source": "iOS  ️",
+      "target": "Xcode  ️",
+      "curve": {
+        "x": -59.3837,
+        "y": 53.6134
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "Xamarin  ️",
+      "curve": {
+        "x": 90.8125,
+        "y": 54.8182
+      }
+    },
+    {
+      "source": "frameworks",
+      "target": "NativeScript  ️",
+      "curve": {
+        "x": 203.859,
+        "y": 41.5969
+      }
+    }
+  ],
+  "id": 1565
+}

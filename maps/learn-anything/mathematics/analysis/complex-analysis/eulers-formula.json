@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis - eulers formula",
+  "tag": "Eulers formula",
+  "nodes": [
+    {
+      "text": "Euler’s formula",
+      "url": "http://www.wikiwand.com/en/Euler%27s_formula",
+      "fx": -98.4744037828948,
+      "fy": -263.655427631579,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 80.13856907894751,
+      "fy": -155.15102180681725,
+      "nodes": [
+        {
+          "text": "Euler’s formula poem",
+          "url": "https://www.youtube.com/watch?v=zLzLxVeqdQg",
+          "fx": 271.1385690789475,
+          "fy": -143.65102180681725,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -114.99406877865908,
+      "fy": -30.925144195556754,
+      "nodes": [
+        {
+          "text": "1. Euler’s formula with introductory group theory",
+          "url": "https://www.youtube.com/watch?v=mvmuCPvRoWQ&amp;t=1s",
+          "fx": 41.005931221340916,
+          "fy": -50.425144195556754,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. Euler’s formula and graph duality",
+          "url": "https://www.youtube.com/watch?v=-9OUyo8NFZg",
+          "fx": 41.005931221340916,
+          "fy": 11.574855804443246,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Euler’s identity  ️",
+      "url": "/mathematics/analysis/complex-analysis/eulers-formula/eulers-identity",
+      "fx": -257.70872469856033,
+      "fy": 113.28816204954683,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "Euler’s formula",
+      "curve": {
+        "x": -72.3065,
+        "y": -53.0022
+      }
+    },
+    {
+      "source": "Euler’s formula",
+      "target": "basics",
+      "curve": {
+        "x": -34.0098,
+        "y": 115.115
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Euler’s identity  ️",
+      "curve": {
+        "x": -53.6073,
+        "y": 72.1067
+      }
+    }
+  ],
+  "id": 856
+}

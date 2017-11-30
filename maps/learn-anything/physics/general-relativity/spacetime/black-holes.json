@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - physics - general relativity - spacetime - black holes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "black holes",
+      "url": "http://www.wikiwand.com/en/Black_hole",
+      "fx": -186.4296875,
+      "fy": -253.4030075571896,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -167.37497901916504,
+      "fy": -118.97037887573242,
+      "nodes": [
+        {
+          "text": "1. black holes explained",
+          "url": "https://www.youtube.com/watch?v=e-P5IFTqB98",
+          "fx": 14.625020980834961,
+          "fy": -169.47037887573242,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. what if there was a black hole in your pocket?",
+          "url": "https://www.youtube.com/watch?v=8nHBGFKLHZQ",
+          "fx": 14.625020980834961,
+          "fy": -129.47037887573242,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. why black holes could delete the universe – the information paradox",
+          "url": "https://www.youtube.com/watch?v=yWO-cvGETRQ",
+          "fx": 14.625020980834961,
+          "fy": -67.47037887573242,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "primordial black holes  ️",
+      "url": "/physics/general-relativity/spacetime/black-holes/primordial-black-holes",
+      "fx": -261.2624568939209,
+      "fy": 19.472318649291992,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "black holes",
+      "target": "basics",
+      "curve": {
+        "x": -8.72264,
+        "y": 65.9663
+      }
+    },
+    {
+      "source": "basics",
+      "target": "primordial black holes  ️",
+      "curve": {
+        "x": -4.94374,
+        "y": 70.4713
+      }
+    }
+  ],
+  "id": 1448
+}

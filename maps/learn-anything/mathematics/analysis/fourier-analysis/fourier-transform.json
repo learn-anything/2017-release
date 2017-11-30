@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - mathematics - analysis - fourier analysis - fourier transform",
+  "tag": "Fourier transform",
+  "nodes": [
+    {
+      "text": "Fourier transform",
+      "url": "http://www.wikiwand.com/en/Fourier_transform",
+      "fx": 189.24609375,
+      "fy": -461.71875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 235.89250920842653,
+      "fy": -296.19663951058703,
+      "nodes": [
+        {
+          "text": "1. interactive guide to the Fourier Transform  ️",
+          "url": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/",
+          "fx": 398.89250920842653,
+          "fy": -314.69663951058703,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. explanation",
+          "url": "http://gwyddion.net/documentation/user-guide-en/fourier-transform.html",
+          "fx": 398.89250920842653,
+          "fy": -247.69663951058703,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "short-time Fourier transform  ️",
+      "url": "/mathematics/analysis/fourier-analysis/fourier-transform/short-time-fourier-transform",
+      "fx": 28.365048906989728,
+      "fy": -132.78675856307257,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Fourier transform",
+      "target": "basics",
+      "curve": {
+        "x": -10.1768,
+        "y": 82.0111
+      }
+    },
+    {
+      "source": "basics",
+      "target": "short-time Fourier transform  ️",
+      "curve": {
+        "x": -54.7637,
+        "y": 81.7049
+      }
+    }
+  ],
+  "id": 864
+}

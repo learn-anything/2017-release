@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - programming paradigms - functional programming - callback functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "callback functions",
+      "url": "http://www.wikiwand.com/en/Callback_(computer_programming)",
+      "fx": -26.160156249999886,
+      "fy": -175.23046875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 32.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. understand javascript callback functions and use them  ️",
+          "url": "http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/",
+          "fx": 188.5,
+          "fy": -1.5,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "callback functions",
+      "target": "basics",
+      "curve": {
+        "x": -3.91992,
+        "y": 85.3652
+      }
+    }
+  ],
+  "id": 1670
+}

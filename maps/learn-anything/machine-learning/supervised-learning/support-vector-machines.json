@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - machine learning - supervised learning - support vector machines",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "support vector machines",
+      "url": "http://www.wikiwand.com/en/Support_vector_machine",
+      "fx": 14.405423677884642,
+      "fy": -163.35426682692304,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 103.7741031964506,
+      "fy": 29.211891561059872,
+      "nodes": [
+        {
+          "text": "1. introduction to SVM's  ️",
+          "url": "https://monkeylearn.com/blog/introduction-to-support-vector-machines-svm/",
+          "fx": 259.7741031964506,
+          "fy": -49.28810843894013,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. learning: support vector machines",
+          "url": "https://www.youtube.com/watch?v=_PwhiWxHK8o&amp;t=449s",
+          "fx": 259.7741031964506,
+          "fy": -9.288108438940128,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. quick look at support vector machines  ️",
+          "url": "https://generalabstractnonsense.com/2017/03/A-quick-look-at-Support-Vector-Machines/",
+          "fx": 259.7741031964506,
+          "fy": 52.71189156105987,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. lecture notes on support vector machines",
+          "url": "http://cs229.stanford.edu/notes/cs229-notes3.pdf",
+          "fx": 259.7741031964506,
+          "fy": 114.71189156105987,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "support vector machines",
+      "target": "basics",
+      "curve": {
+        "x": -4.31566,
+        "y": 95.033
+      }
+    }
+  ],
+  "id": 799
+}

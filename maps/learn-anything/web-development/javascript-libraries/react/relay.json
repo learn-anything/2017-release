@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - web development - javascript libraries - react - relay",
+  "tag": "Relay framework",
+  "nodes": [
+    {
+      "text": "relay",
+      "url": "https://github.com/facebook/relay",
+      "fx": -29.33708953857422,
+      "fy": -186.0897159576416,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/expede/awesome-relay",
+          "fx": 139.66291046142578,
+          "fy": -172.0897159576416,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -19.726825654506683,
+      "fy": -48.0222909450531,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://facebook.github.io/relay/docs/getting-started.html",
+          "fx": 136.27317434549332,
+          "fy": -33.5222909450531,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "relay",
+      "target": "basics",
+      "curve": {
+        "x": 1.55513,
+        "y": 67.7836
+      }
+    }
+  ],
+  "id": 1899
+}

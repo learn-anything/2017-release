@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - security - information security - cybersecurity - social engineering",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "social engineering",
+      "url": "http://www.wikiwand.com/en/Social_engineering_(security)",
+      "fx": 107.24127906976719,
+      "fy": -128.88905038759697,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 170.9182355112589,
+      "fy": 5.484824889254583,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=r3qDA8AUy8U",
+          "fx": 333.9182355112589,
+          "fy": 17.984824889254583,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "social engineering",
+      "target": "basics",
+      "curve": {
+        "x": -4.66152,
+        "y": 66.4369
+      }
+    }
+  ],
+  "id": 1772
+}

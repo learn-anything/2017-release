@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - programming - software development - devops - continuous integration - travis",
+  "tag": "travis CI",
+  "nodes": [
+    {
+      "text": "travis",
+      "url": "https://travis-ci.org/",
+      "fx": 209.98667494158883,
+      "fy": -174.09991968457948,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 199.8971962616822,
+      "fy": -29.355140186939195,
+      "nodes": [
+        {
+          "text": "1. benefits of continuous integration &amp; using travis CI",
+          "url": "https://www.youtube.com/watch?v=BUmBQ2JiNqI",
+          "fx": 362.8971962616822,
+          "fy": -29.355140186939195,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "travis",
+      "target": "basics",
+      "curve": {
+        "x": -1.54474,
+        "y": 72.3724
+      }
+    }
+  ],
+  "id": 1711
+}

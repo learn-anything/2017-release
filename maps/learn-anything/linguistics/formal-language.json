@@ -1,0 +1,91 @@
+{
+  "title": "learn anything - linguistics - formal language",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "formal language",
+      "url": "http://www.wikiwand.com/en/Formal_language",
+      "fx": 78.96484375,
+      "fy": -118.97265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 136.38671875,
+      "fy": 18.89453125,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=7MBpk4gJRkk",
+          "fx": 292.38671875,
+          "fy": 30.39453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "regular language  ️",
+      "url": "/linguistics/formal-language/regular-language",
+      "fx": -326.32691604201045,
+      "fy": 151.71882617175584,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "formal grammar  ️",
+      "url": "/linguistics/formal-language/formal-grammar",
+      "fx": -98.53630815927932,
+      "fy": 151.84080033037299,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "regular expressions  ️",
+      "note": "are sequences of characters that define a search pattern  usually this pattern is then used by string searching algorithms for ‘find’ or ‘find and replace’ operations on strings  they are used in search engines, search and replace dialogs of word processors and text editors and in text processing utilities like sed and AWK and in lexical analysis",
+      "url": "/linguistics/formal-language/regular-expressions",
+      "fx": 125.39559936523438,
+      "fy": 153.46633529663086,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "formal language",
+      "target": "basics",
+      "curve": {
+        "x": -0.289062,
+        "y": 67.6836
+      }
+    },
+    {
+      "source": "basics",
+      "target": "regular expressions  ️",
+      "curve": {
+        "x": 37.5044,
+        "y": 68.5359
+      }
+    },
+    {
+      "source": "basics",
+      "target": "formal grammar  ️",
+      "curve": {
+        "x": -95.9615,
+        "y": 66.4731
+      }
+    },
+    {
+      "source": "basics",
+      "target": "regular language  ️",
+      "curve": {
+        "x": -216.596,
+        "y": 43.5534
+      }
+    }
+  ],
+  "id": 715
+}

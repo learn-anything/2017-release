@@ -1,0 +1,162 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum - cerebral cortex",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cerebral cortex",
+      "url": "http://www.wikiwand.com/en/Cerebral_cortex",
+      "fx": 87.5472843886464,
+      "fy": -92.12612581877727,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 129.13257368995642,
+      "fy": 40.34047489082968,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=mGxomKWfJXs",
+          "fx": 292.1325736899564,
+          "fy": 34.34047489082968,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. how is cerebrum divided?",
+          "url": "http://cerebrumfunction.net/how-is-the-cerebrum-divided/",
+          "fx": 292.1325736899564,
+          "fy": 76.34047489082968,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "visual cortex  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/visual-cortex",
+      "fx": -1062.6433502873183,
+      "fy": 192.26467155141881,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "frontal lobe  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/frontal-lobe",
+      "fx": -332.96418380737305,
+      "fy": 193.4539031982422,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "parietal lobe  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/parietal-lobe",
+      "fx": -145.76478004455566,
+      "fy": 193.4714698791504,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "motor cortex  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/motor-cortex",
+      "fx": -552.1107673267327,
+      "fy": 193.49203279702976,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "occipital lobe  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/occipital-lobe",
+      "fx": 52.05509166228467,
+      "fy": 194.6466827392578,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "primary somatosensory cortex  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/primary-somatosensory-cortex",
+      "fx": -848.9750010969046,
+      "fy": 180.83963575980124,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "temporal lobe  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex/temporal-lobe",
+      "fx": 263.89144538947266,
+      "fy": 195.98411689810212,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cerebral cortex",
+      "target": "basics",
+      "curve": {
+        "x": -5.70736,
+        "y": 64.9833
+      }
+    },
+    {
+      "source": "basics",
+      "target": "frontal lobe  ️",
+      "curve": {
+        "x": -252.515,
+        "y": 61.0314
+      }
+    },
+    {
+      "source": "basics",
+      "target": "parietal lobe  ️",
+      "curve": {
+        "x": -115.699,
+        "y": 77.3155
+      }
+    },
+    {
+      "source": "basics",
+      "target": "occipital lobe  ️",
+      "curve": {
+        "x": -34.2887,
+        "y": 77.1531
+      }
+    },
+    {
+      "source": "basics",
+      "target": "temporal lobe  ️",
+      "curve": {
+        "x": 85.1294,
+        "y": 77.8218
+      }
+    },
+    {
+      "source": "basics",
+      "target": "motor cortex  ️",
+      "curve": {
+        "x": -331.271,
+        "y": 45.8026
+      }
+    },
+    {
+      "source": "basics",
+      "target": "primary somatosensory cortex  ️",
+      "curve": {
+        "x": -560.961,
+        "y": 26.2252
+      }
+    },
+    {
+      "source": "basics",
+      "target": "visual cortex  ️",
+      "curve": {
+        "x": -738.288,
+        "y": -1.75787
+      }
+    }
+  ],
+  "id": 1249
+}

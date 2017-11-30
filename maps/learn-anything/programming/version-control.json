@@ -1,0 +1,96 @@
+{
+  "title": "learn anything - programming - version control",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "version control",
+      "url": "http://www.wikiwand.com/en/Version_control",
+      "fx": -266.1008811773256,
+      "fy": -221.88640079941854,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "options",
+      "url": "",
+      "fx": -332.6205635070801,
+      "fy": -75.11106872558594,
+      "nodes": []
+    },
+    {
+      "text": "software versioning  ️",
+      "url": "/programming/version-control/software-versioning",
+      "fx": -200.8829154400246,
+      "fy": -74.99255952380958,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "git  ️",
+      "url": "/programming/version-control/git",
+      "fx": -552.0103171020917,
+      "fy": 32.688321355100186,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mercurial",
+      "url": "http://www.wikiwand.com/en/Mercurial",
+      "fx": -441.25152587890625,
+      "fy": 35.939059257507324,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "SVN",
+      "url": "http://www.wikiwand.com/en/Apache_Subversion",
+      "fx": -273.1016159057617,
+      "fy": 37.87339687347412,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "version control",
+      "target": "options",
+      "curve": {
+        "x": -56.7598,
+        "y": 72.1377
+      }
+    },
+    {
+      "source": "options",
+      "target": "git  ️",
+      "curve": {
+        "x": -134.375,
+        "y": 40.6419
+      }
+    },
+    {
+      "source": "options",
+      "target": "mercurial",
+      "curve": {
+        "x": -43.3155,
+        "y": 56.7751
+      }
+    },
+    {
+      "source": "options",
+      "target": "SVN",
+      "curve": {
+        "x": 30.5095,
+        "y": 57.7422
+      }
+    },
+    {
+      "source": "version control",
+      "target": "software versioning  ️",
+      "curve": {
+        "x": 35.859,
+        "y": 72.1969
+      }
+    }
+  ],
+  "id": 1744
+}

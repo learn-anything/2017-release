@@ -1,0 +1,130 @@
+{
+  "title": "learn anything - mathematics - statistics - sampling",
+  "tag": "statistical sampling",
+  "nodes": [
+    {
+      "text": "sampling",
+      "url": "http://www.wikiwand.com/en/Sampling_(statistics)",
+      "fx": -198.86328125,
+      "fy": -424.30381944444446,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -172.6032896924903,
+      "fy": -285.1752428125452,
+      "nodes": [
+        {
+          "text": "1. sampling techniques",
+          "url": "https://www.youtube.com/watch?v=MfkJu7J1LE4",
+          "fx": -9.603289692490307,
+          "fy": -272.6752428125452,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "simple random sampling  ️",
+      "url": "/mathematics/statistics/sampling/simple-random-sampling",
+      "fx": -543.5230475531685,
+      "fy": -34.95518560762764,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "cluster sampling  ️",
+      "url": "/mathematics/statistics/sampling/cluster-sampling",
+      "fx": -789.978324915825,
+      "fy": -34.8125526094276,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "convenience sampling  ️",
+      "url": "/mathematics/statistics/sampling/convenience-sampling",
+      "fx": -217.63190798186054,
+      "fy": -33.70953335498723,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "systematic sampling  ️",
+      "url": "/mathematics/statistics/sampling/systematic-sampling",
+      "fx": 90.1418791806027,
+      "fy": -32.69889521444031,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "stratified sampling  ️",
+      "url": "/mathematics/statistics/sampling/stratified-sampling",
+      "fx": -1051.5141605587585,
+      "fy": -31.875208649640967,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "sampling",
+      "target": "basics",
+      "curve": {
+        "x": -1.12,
+        "y": 68.8143
+      }
+    },
+    {
+      "source": "basics",
+      "target": "simple random sampling  ️",
+      "curve": {
+        "x": -137.21,
+        "y": 125.86
+      }
+    },
+    {
+      "source": "basics",
+      "target": "convenience sampling  ️",
+      "curve": {
+        "x": 24.9857,
+        "y": 126.483
+      }
+    },
+    {
+      "source": "basics",
+      "target": "systematic sampling  ️",
+      "curve": {
+        "x": 173.623,
+        "y": 126.988
+      }
+    },
+    {
+      "source": "sampling",
+      "target": "basics",
+      "curve": {
+        "x": -1.12,
+        "y": 68.8143
+      }
+    },
+    {
+      "source": "basics",
+      "target": "cluster sampling  ️",
+      "curve": {
+        "x": -294.988,
+        "y": 113.509
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stratified sampling  ️",
+      "curve": {
+        "x": -444.862,
+        "y": 84.7867
+      }
+    }
+  ],
+  "id": 1116
+}

@@ -1,0 +1,353 @@
+{
+  "title": "learn anything - programming - programming languages - python",
+  "tag": "python programming language",
+  "nodes": [
+    {
+      "text": "python",
+      "url": "http://www.wikiwand.com/en/Python_(programming_language)",
+      "fx": -18.84579971776475,
+      "fy": -744.9522648802389,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Python/",
+          "fx": 171.15420028223525,
+          "fy": -790.9522648802389,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "",
+          "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
+          "url": "https://github.com/python/cpython",
+          "fx": 171.15420028223525,
+          "fy": -750.9522648802389,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/python",
+          "fx": 171.15420028223525,
+          "fy": -710.9522648802389,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/vinta/awesome-python",
+          "fx": 171.15420028223525,
+          "fy": -670.9522648802389,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 158.2803904914258,
+      "fy": -476.61819076625454,
+      "nodes": [
+        {
+          "text": "python data model",
+          "url": "https://docs.python.org/3/reference/datamodel.html",
+          "fx": 295.2803904914258,
+          "fy": -587.1181907662545,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "scientific python cheat sheet",
+          "url": "https://ipgp.github.io/scientific_python_cheat_sheet/",
+          "fx": 295.2803904914258,
+          "fy": -553.1181907662545,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "structuring your project",
+          "url": "http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/",
+          "fx": 295.2803904914258,
+          "fy": -519.1181907662545,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "style guide for python code",
+          "url": "https://www.python.org/dev/peps/pep-0008/",
+          "fx": 295.2803904914258,
+          "fy": -485.11819076625454,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "cpython internals  ️",
+          "url": "http://pgbovine.net/cpython-internals.htm",
+          "fx": 295.2803904914258,
+          "fy": -451.11819076625454,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "API at a glance",
+          "url": "http://overapi.com/python",
+          "fx": 295.2803904914258,
+          "fy": -411.11819076625454,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "find python books",
+          "url": "http://pythonbooks.org/",
+          "fx": 295.2803904914258,
+          "fy": -377.11819076625454,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "python cheat sheet",
+          "url": "https://github.com/crazyguitar/pysheeet",
+          "fx": 295.2803904914258,
+          "fy": -343.11819076625454,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 455.7839253819375,
+      "fy": -183.5539283546699,
+      "nodes": [
+        {
+          "text": "16: the history behind the decision to move python to github  ️",
+          "url": "https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/",
+          "fx": 617.7839253819375,
+          "fy": -245.0539283546699,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "15: a modern python development toolchain  ️",
+          "url": "http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html",
+          "fx": 617.7839253819375,
+          "fy": -183.0539283546699,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "17: python's instance, class, and static methods demystified  ️",
+          "url": "https://realpython.com/blog/python/instance-class-and-static-methods-demystified/",
+          "fx": 617.7839253819375,
+          "fy": -121.05392835466989,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -122.4129427152568,
+      "fy": -123.62730003609113,
+      "nodes": [
+        {
+          "text": "1. the python tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "fx": 59.587057284743196,
+          "fy": -228.12730003609113,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. dive into python 3",
+          "url": "http://www.diveintopython3.net",
+          "fx": 59.587057284743196,
+          "fy": -194.12730003609113,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn python in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/python3/",
+          "fx": 59.587057284743196,
+          "fy": -154.12730003609113,
+          "nodes": [],
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. automate the boring stuff with python",
+          "url": "https://automatetheboringstuff.com/",
+          "fx": 59.587057284743196,
+          "fy": -120.12730003609113,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. problem solving with algorithms and data structures using python",
+          "url": "http://interactivepython.org/runestone/static/pythonds/index.html",
+          "fx": 59.587057284743196,
+          "fy": -58.12730003609113,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "2. python testing",
+          "url": "http://pythontesting.net/framework/pytest/pytest-introduction/",
+          "fx": 59.587057284743196,
+          "fy": 3.8726999639088717,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "talks",
+      "url": "",
+      "fx": 515.7468317972352,
+      "fy": 10.597422235023373,
+      "nodes": [
+        {
+          "text": "17: so you want to be a python expert?",
+          "url": "https://www.youtube.com/watch?v=cKPlPJyQrt4&amp;index=3&amp;list=WL",
+          "fx": 655.7468317972352,
+          "fy": 11.097422235023373,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "python libraries  ️",
+      "url": "/programming/programming-languages/python/python-libraries",
+      "fx": -176.04714567422695,
+      "fy": 150.09731283340284,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "package manager",
+      "url": "http://www.wikiwand.com/en/Package_manager",
+      "fx": -423.8824124363049,
+      "fy": 152.46657234153315,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "micropython",
+      "url": "https://github.com/micropython/micropython",
+      "fx": 59.61824900283068,
+      "fy": 153.37582197540632,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "asyncio  ️",
+      "url": "/programming/programming-languages/python/asyncio",
+      "fx": -576.552178899078,
+      "fy": 154.30719610091523,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "pip",
+      "url": "https://pypi.python.org/pypi/pip",
+      "fx": -347.6449172072297,
+      "fy": 263.3163255660369,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "python",
+      "target": "basics",
+      "curve": {
+        "x": -53.0336,
+        "y": 310.663
+      }
+    },
+    {
+      "source": "help",
+      "target": "python",
+      "curve": {
+        "x": -82.5632,
+        "y": -134.167
+      }
+    },
+    {
+      "source": "basics",
+      "target": "python libraries  ️",
+      "curve": {
+        "x": -7.06712,
+        "y": 136.863
+      }
+    },
+    {
+      "source": "basics",
+      "target": "package manager",
+      "curve": {
+        "x": -130.734,
+        "y": 138.047
+      }
+    },
+    {
+      "source": "package manager",
+      "target": "pip",
+      "curve": {
+        "x": 4.11881,
+        "y": 55.4249
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -196.692,
+        "y": -92.5201
+      }
+    },
+    {
+      "source": "basics",
+      "target": "micropython",
+      "curve": {
+        "x": 83.6231,
+        "y": 180.28
+      }
+    },
+    {
+      "source": "basics",
+      "target": "asyncio  ️",
+      "curve": {
+        "x": -262.511,
+        "y": 121.78
+      }
+    },
+    {
+      "source": "talks",
+      "target": "articles",
+      "curve": {
+        "x": -24.4815,
+        "y": -97.0757
+      }
+    }
+  ],
+  "id": 1640
+}

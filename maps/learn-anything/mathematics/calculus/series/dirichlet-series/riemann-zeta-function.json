@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - calculus - series - dirichlet series - riemann zeta function",
+  "tag": "Riemann zeta function",
+  "nodes": [
+    {
+      "text": "Riemann zeta function",
+      "url": "http://www.wikiwand.com/en/Riemann_zeta_function",
+      "fx": 124.33499461206895,
+      "fy": -329.42986709770116,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 212.16796875,
+      "fy": -171.72597880747117,
+      "nodes": [
+        {
+          "text": "1. visualising the Riemann zeta function and analytic continuation",
+          "url": "https://www.youtube.com/watch?v=sD0NjbwqlYw",
+          "fx": 375.16796875,
+          "fy": -184.22597880747117,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Riemann hypothesis  ️",
+      "url": "/mathematics/calculus/series/dirichlet-series/riemann-zeta-function/riemann-hypothesis",
+      "fx": -32.99199957044584,
+      "fy": 0.534310566991735,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Riemann zeta function",
+      "target": "basics",
+      "curve": {
+        "x": -2.83351,
+        "y": 78.102
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Riemann hypothesis  ️",
+      "curve": {
+        "x": -80.33,
+        "y": 86.8801
+      }
+    }
+  ],
+  "id": 896
+}

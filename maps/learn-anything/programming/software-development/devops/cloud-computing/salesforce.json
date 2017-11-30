@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - salesforce",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "salesforce",
+      "url": "http://www.wikiwand.com/en/Salesforce.com",
+      "fx": -16.140625,
+      "fy": -362.8984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/salesforce/",
+          "fx": 201.859375,
+          "fy": -388.8984375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://salesforce.stackexchange.com/",
+          "fx": 201.859375,
+          "fy": -348.8984375,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/mailtoharshit/awesome-salesforce",
+          "fx": 201.859375,
+          "fy": -308.8984375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 10.833198051947193,
+      "fy": -182.854093389306,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://developer.salesforce.com/gettingstarted",
+          "fx": 166.8331980519472,
+          "fy": -168.354093389306,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "salesforce",
+      "target": "basics",
+      "curve": {
+        "x": -2.01309,
+        "y": 88.7723
+      }
+    }
+  ],
+  "id": 1708
+}

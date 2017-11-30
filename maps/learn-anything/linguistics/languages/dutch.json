@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - linguistics - languages - dutch",
+  "tag": "dutch language",
+  "nodes": [
+    {
+      "text": "dutch language",
+      "url": "http://www.wikiwand.com/en/Dutch_language",
+      "fx": -101.99999904632568,
+      "fy": -130.89217567443848,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learndutch/",
+          "fx": 165.00000095367432,
+          "fy": -116.89217567443848,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -53.78452034883719,
+      "fy": 0.5381540697674154,
+      "nodes": [
+        {
+          "text": "1. basics of dutch",
+          "url": "https://www.youtube.com/watch?v=YrI2-bZ7wpc&amp;list=UUzvus5I2fyRns04E6ivBftg&amp;index=1",
+          "fx": 128.2154796511628,
+          "fy": 12.038154069767415,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dutch language",
+      "target": "basics",
+      "curve": {
+        "x": -3.64226,
+        "y": 64.4652
+      }
+    }
+  ],
+  "id": 721
+}

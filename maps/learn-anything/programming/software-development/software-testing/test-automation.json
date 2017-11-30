@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - programming - software development - software testing - test automation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "test automation",
+      "url": "http://www.wikiwand.com/en/Test_automation",
+      "fx": -100.45703125,
+      "fy": -225.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.76650073746305,
+      "fy": -79.76032448379277,
+      "nodes": [
+        {
+          "text": "1. why you need an automation testing framework",
+          "url": "https://www.youtube.com/watch?v=ERmJO7R2CRs",
+          "fx": 112.23349926253695,
+          "fy": -79.26032448379277,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "selenium  ️",
+      "url": "/programming/software-development/software-testing/test-automation/selenium",
+      "fx": -115.65684036523896,
+      "fy": 57.7617285894205,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "test automation",
+      "target": "basics",
+      "curve": {
+        "x": -2.15473,
+        "y": 71.8034
+      }
+    },
+    {
+      "source": "basics",
+      "target": "selenium  ️",
+      "curve": {
+        "x": -23.1952,
+        "y": 70.011
+      }
+    }
+  ],
+  "id": 1733
+}

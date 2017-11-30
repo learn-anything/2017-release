@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - software development - devops - docker - docker swarm",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "docker swarm",
+      "url": "https://github.com/docker/swarm",
+      "fx": -96.5,
+      "fy": -149.05859375,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.5390625,
+      "fy": -20.2109375,
+      "nodes": [
+        {
+          "text": "1. overview",
+          "url": "https://docs.docker.com/engine/swarm/",
+          "fx": 107.4609375,
+          "fy": -25.7109375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. docker swarm mode walkthrough",
+          "url": "https://www.youtube.com/watch?v=KC4Ad1DS8xU",
+          "fx": 107.4609375,
+          "fy": 8.2890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "docker swarm",
+      "target": "basics",
+      "curve": {
+        "x": 5.98047,
+        "y": 64.4238
+      }
+    }
+  ],
+  "id": 1713
+}

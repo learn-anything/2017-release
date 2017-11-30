@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - mathematics - statistics - probability theory - random variables - stochastic processes - ito calculus - itos lemma",
+  "tag": "Ito’s lemma",
+  "nodes": [
+    {
+      "text": "Ito’s lemma",
+      "url": "http://www.wikiwand.com/en/It%C3%B4%27s_lemma",
+      "fx": 81.91796875,
+      "fy": -385.41796875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 108.27053829603153,
+      "fy": -250.39051293798354,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=y4VFtCStgFI",
+          "fx": 271.27053829603153,
+          "fy": -292.39051293798354,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. Ito’s lemma applied to finance",
+          "url": "https://www.reddit.com/r/math/comments/25jk6g/everything_about_stochastic_processes/chhvtmv/",
+          "fx": 271.27053829603153,
+          "fy": -250.39051293798354,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. applications of Ito’s lemma",
+          "url": "https://www.youtube.com/watch?v=51L6euO-QPM",
+          "fx": 271.27053829603153,
+          "fy": -183.39051293798354,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Ito’s lemma",
+      "target": "basics",
+      "curve": {
+        "x": -6.57372,
+        "y": 66.7637
+      }
+    }
+  ],
+  "id": 1098
+}

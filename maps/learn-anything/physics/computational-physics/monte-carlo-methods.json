@@ -1,0 +1,83 @@
+{
+  "title": "learn anything - physics - computational physics - monte carlo methods",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "monte carlo methods",
+      "url": "http://www.wikiwand.com/en/Monte_Carlo_method",
+      "fx": -100.98046875,
+      "fy": -229.8828125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -20.635679280750992,
+      "fy": -93.32687771331808,
+      "nodes": [
+        {
+          "text": "1. monte carlo simulation",
+          "url": "https://www.youtube.com/watch?v=OgO1gpXSUzU",
+          "fx": 135.364320719249,
+          "fy": -112.82687771331808,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. monte carlo theory, methods and examples",
+          "url": "http://statweb.stanford.edu/~owen/mc/",
+          "fx": 135.364320719249,
+          "fy": -72.82687771331808,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "particle filters  ️",
+      "url": "/physics/computational-physics/monte-carlo-methods/particle-filters",
+      "fx": -177.64867579573604,
+      "fy": 31.996749920454477,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "Kalman filter  ️",
+      "url": "/physics/computational-physics/monte-carlo-methods/kalman-filter",
+      "fx": 24.599984015345285,
+      "fy": 34.636109335038384,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "monte carlo methods",
+      "target": "basics",
+      "curve": {
+        "x": -0.827605,
+        "y": 67.028
+      }
+    },
+    {
+      "source": "basics",
+      "target": "particle filters  ️",
+      "curve": {
+        "x": -65.7564,
+        "y": 62.6618
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Kalman filter  ️",
+      "curve": {
+        "x": 35.8678,
+        "y": 63.9815
+      }
+    }
+  ],
+  "id": 1402
+}

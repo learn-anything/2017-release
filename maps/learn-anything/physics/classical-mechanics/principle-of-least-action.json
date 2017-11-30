@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - classical mechanics - principle of least action",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "principle of least action",
+      "url": "http://www.wikiwand.com/en/Principle_of_least_action",
+      "fx": 142.16796875,
+      "fy": -225.07421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 215.97265625,
+      "fy": -65.7890625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=xz7jLnWcxMs",
+          "fx": 371.97265625,
+          "fy": -85.2890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Prof. Kenneth Young on principle of least action",
+          "url": "https://www.youtube.com/watch?v=IhlSqwZBW1M",
+          "fx": 371.97265625,
+          "fy": -45.2890625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "principle of least action",
+      "target": "basics",
+      "curve": {
+        "x": -7.59766,
+        "y": 78.3926
+      }
+    }
+  ],
+  "id": 1382
+}

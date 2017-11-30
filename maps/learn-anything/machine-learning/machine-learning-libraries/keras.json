@@ -1,0 +1,137 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - keras",
+  "tag": "keras library",
+  "nodes": [
+    {
+      "text": "keras",
+      "url": "https://github.com/fchollet/keras",
+      "fx": -61.98616784676824,
+      "fy": -326.2876327614377,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/KerasML/",
+          "fx": 114.01383215323176,
+          "fy": -312.2876327614377,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 58.28193787605528,
+      "fy": -232.45381164550776,
+      "nodes": [
+        {
+          "text": "deep learning models",
+          "url": "https://github.com/fchollet/deep-learning-models",
+          "fx": 195.28193787605528,
+          "fy": -257.95381164550776,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "keras resources",
+          "url": "https://github.com/fchollet/keras-resources",
+          "fx": 195.28193787605528,
+          "fy": -217.95381164550776,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "the keras blog",
+          "url": "https://blog.keras.io/index.html",
+          "fx": 195.28193787605528,
+          "fy": -177.95381164550776,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 110.63763618469238,
+      "fy": -115.77850532531733,
+      "nodes": [
+        {
+          "text": "1. building powerful image classification models using very little data  ️",
+          "url": "https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html",
+          "fx": 272.6376361846924,
+          "fy": -126.27850532531733,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -66.34582859369823,
+      "fy": 33.56083173520267,
+      "nodes": [
+        {
+          "text": "1. practical deep learning for coders",
+          "url": "http://course.fast.ai/index.html",
+          "fx": 115.65417140630177,
+          "fy": -2.939168264797331,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. learning deep learning with keras  ️",
+          "url": "http://p.migdal.pl/2017/04/30/teaching-deep-learning.html",
+          "fx": 115.65417140630177,
+          "fy": 59.06083173520267,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. keras docs",
+          "url": "https://keras.io/",
+          "fx": 115.65417140630177,
+          "fy": 99.06083173520267,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "keras",
+      "target": "basics",
+      "curve": {
+        "x": -7.17983,
+        "y": 178.674
+      }
+    },
+    {
+      "source": "help",
+      "target": "keras",
+      "curve": {
+        "x": -50.3841,
+        "y": -45.6669
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -32.4278,
+        "y": -58.3377
+      }
+    }
+  ],
+  "id": 760
+}

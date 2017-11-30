@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - web development - front end - css - bootstrap",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "bootstrap",
+      "url": "https://github.com/twbs/bootstrap",
+      "fx": -92.81673622131348,
+      "fy": -149.21233558654785,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/therebelrobot/awesome-bootstrap",
+          "fx": 122.18326377868652,
+          "fy": -135.21233558654785,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 20.238281726837158,
+      "fy": -40.5543999671936,
+      "nodes": [
+        {
+          "text": "awesome bootstrap checkboxes &amp; radios",
+          "url": "https://github.com/flatlogic/awesome-bootstrap-checkbox",
+          "fx": 157.23828172683716,
+          "fy": -40.0543999671936,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -102.71096849441528,
+      "fy": 53.77192783355713,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "http://getbootstrap.com/getting-started/",
+          "fx": 79.28903150558472,
+          "fy": 68.27192783355713,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "bootstrap",
+      "curve": {
+        "x": -37.0275,
+        "y": -53.079
+      }
+    },
+    {
+      "source": "bootstrap",
+      "target": "basics",
+      "curve": {
+        "x": -19.6971,
+        "y": 100.242
+      }
+    }
+  ],
+  "id": 1864
+}

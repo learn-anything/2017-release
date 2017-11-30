@@ -1,0 +1,85 @@
+{
+  "title": "learn anything - programming - design patterns",
+  "tag": "software design patterns",
+  "nodes": [
+    {
+      "text": "software design patterns",
+      "url": "http://www.wikiwand.com/en/Software_design_pattern",
+      "fx": -144.00037699192762,
+      "fy": -238.03256607055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 89.796875,
+      "fy": -130.453125,
+      "nodes": [
+        {
+          "text": "design patterns in swift",
+          "url": "https://github.com/ochococo/Design-Patterns-In-Swift",
+          "fx": 226.796875,
+          "fy": -135.953125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "design patterns in java",
+          "url": "http://java-design-patterns.com/",
+          "fx": 226.796875,
+          "fy": -95.953125,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -81.07057939769834,
+      "fy": -6.20659764181039,
+      "nodes": [
+        {
+          "text": "1. design patterns for humans",
+          "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
+          "fx": 100.92942060230166,
+          "fy": -14.70659764181039,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. clean code",
+          "url": "https://github.com/rmsadik/x/blob/master/CleanCode/Clean%20Code.pdf",
+          "fx": 100.92942060230166,
+          "fy": 25.29340235818961,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "software design patterns",
+      "target": "basics",
+      "curve": {
+        "x": -17.2851,
+        "y": 114.663
+      }
+    },
+    {
+      "source": "help",
+      "target": "software design patterns",
+      "curve": {
+        "x": -63.3986,
+        "y": -52.5397
+      }
+    }
+  ],
+  "id": 1560
+}

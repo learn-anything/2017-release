@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - natural language processing - sentiment analysis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sentiment analysis",
+      "url": "http://www.wikiwand.com/en/Sentiment_analysis",
+      "fx": -107.07421875,
+      "fy": -305.57421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "implementations",
+      "url": "",
+      "fx": 47.5234375,
+      "fy": -202.42578125,
+      "nodes": [
+        {
+          "text": "twitter sentiment analysis",
+          "url": "https://github.com/bernhard2202/twitter-sentiment-analysis",
+          "fx": 294.5234375,
+          "fy": -190.92578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -51.97265625,
+      "fy": -99.9765625,
+      "nodes": [
+        {
+          "text": "1. sentiment analysis and opinion mining",
+          "url": "https://www.cs.uic.edu/~liub/FBS/SentimentAnalysis-and-OpinionMining.html",
+          "fx": 130.02734375,
+          "fy": -99.4765625,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "implementations",
+      "target": "sentiment analysis",
+      "curve": {
+        "x": -66.0488,
+        "y": -50.3242
+      }
+    },
+    {
+      "source": "sentiment analysis",
+      "target": "basics",
+      "curve": {
+        "x": -6.44922,
+        "y": 101.549
+      }
+    }
+  ],
+  "id": 1200
+}

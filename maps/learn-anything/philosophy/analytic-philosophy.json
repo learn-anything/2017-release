@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - philosophy - analytic philosophy",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "analytic philosophy",
+      "url": "http://www.wikiwand.com/en/Analytic_philosophy",
+      "fx": 180.02734375,
+      "fy": -301.7839078608247,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 228.17339901508183,
+      "fy": -171.34551778468017,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=N25pSGI-b18",
+          "fx": 391.1733990150818,
+          "fy": -158.84551778468017,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "logical atomism  ️",
+      "url": "/philosophy/analytic-philosophy/logical-atomism",
+      "fx": 52.05450570071264,
+      "fy": -47.82526457225174,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "analytic philosophy",
+      "target": "basics",
+      "curve": {
+        "x": -6.92697,
+        "y": 65.2192
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logical atomism  ️",
+      "curve": {
+        "x": -65.8094,
+        "y": 61.7601
+      }
+    }
+  ],
+  "id": 1315
+}

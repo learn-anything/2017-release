@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - number theory - arithmetic - multiplication - exponentiation - logarithms",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "logarithms",
+      "url": "http://www.wikiwand.com/en/Logarithm",
+      "fx": -66.67578125,
+      "fy": -187.140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -43.4140625,
+      "fy": -47.10546875,
+      "nodes": [
+        {
+          "text": "1.explanation",
+          "url": "https://www.youtube.com/watch?v=ZIwmZ9m0byI",
+          "fx": 112.5859375,
+          "fy": -35.60546875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "logarithms",
+      "target": "basics",
+      "curve": {
+        "x": -4.61914,
+        "y": 68.7676
+      }
+    }
+  ],
+  "id": 1035
+}

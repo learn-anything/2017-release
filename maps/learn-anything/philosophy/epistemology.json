@@ -1,0 +1,228 @@
+{
+  "title": "learn anything - philosophy - epistemology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "epistemology",
+      "url": "http://www.wikiwand.com/en/Epistemology",
+      "fx": -44.4843835234642,
+      "fy": -494.0220291451234,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -20.000939896573755,
+      "fy": -366.37717585287686,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=r_Y3utIeTPg",
+          "fx": 161.99906010342625,
+          "fy": -374.87717585287686,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. epistemology: an anthology",
+          "url": "http://www.goodreads.com/book/show/752489.Epistemology",
+          "fx": 161.99906010342625,
+          "fy": -334.87717585287686,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "naturalised epistemology",
+      "url": "http://www.wikiwand.com/en/Naturalized_epistemology",
+      "fx": -804.4892217972699,
+      "fy": 112.22783728206855,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "knowledge  ️",
+      "url": "/philosophy/epistemology/knowledge",
+      "fx": -978.618107066435,
+      "fy": 113.74442740047675,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "foundationalism",
+      "url": "http://www.wikiwand.com/en/Foundationalism",
+      "fx": -505.41933814245385,
+      "fy": 114.04336796271531,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "coherentism",
+      "url": "http://www.wikiwand.com/en/Coherentism",
+      "fx": -282.0404281616211,
+      "fy": 116.28449058532715,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "contextualism",
+      "url": "http://www.wikiwand.com/en/Contextualism",
+      "fx": -95.9166770093143,
+      "fy": 117.57766342163086,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "internalism and externalism",
+      "url": "http://www.wikiwand.com/en/Internalism_and_externalism",
+      "fx": 104.19168090820312,
+      "fy": 118.66010284423828,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "infinitism",
+      "url": "http://www.wikiwand.com/en/Infinitism",
+      "fx": 425.82969665527344,
+      "fy": 120.73538398742676,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "reliabilism",
+      "url": "http://www.wikiwand.com/en/Reliabilism",
+      "fx": 585.8585401501055,
+      "fy": 121.68540469775928,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "pragmatism  ️",
+      "url": "/philosophy/epistemology/pragmatism",
+      "fx": 1116.7829800248246,
+      "fy": 124.45422509495529,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "empiricism",
+      "url": "http://www.wikiwand.com/en/Empiricism",
+      "fx": 937.5465393066406,
+      "fy": 124.65878105163574,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "rationalism",
+      "url": "http://www.wikiwand.com/en/Rationalism",
+      "fx": 753.4821763237433,
+      "fy": 125.24450159529817,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "epistemology",
+      "target": "basics",
+      "curve": {
+        "x": -3.50828,
+        "y": 63.8224
+      }
+    },
+    {
+      "source": "basics",
+      "target": "naturalised epistemology",
+      "curve": {
+        "x": -333.128,
+        "y": 242.595
+      }
+    },
+    {
+      "source": "basics",
+      "target": "knowledge  ️",
+      "curve": {
+        "x": -548.308,
+        "y": 233.023
+      }
+    },
+    {
+      "source": "basics",
+      "target": "foundationalism",
+      "curve": {
+        "x": -207.701,
+        "y": 236.081
+      }
+    },
+    {
+      "source": "basics",
+      "target": "coherentism",
+      "curve": {
+        "x": -117.02,
+        "y": 242.581
+      }
+    },
+    {
+      "source": "basics",
+      "target": "contextualism",
+      "curve": {
+        "x": -20.4579,
+        "y": 243.227
+      }
+    },
+    {
+      "source": "basics",
+      "target": "internalism and externalism",
+      "curve": {
+        "x": 109.846,
+        "y": 243.769
+      }
+    },
+    {
+      "source": "basics",
+      "target": "infinitism",
+      "curve": {
+        "x": 291.97,
+        "y": 261.666
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reliabilism",
+      "curve": {
+        "x": 431.074,
+        "y": 264.754
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rationalism",
+      "curve": {
+        "x": 509.768,
+        "y": 257.362
+      }
+    },
+    {
+      "source": "basics",
+      "target": "empiricism",
+      "curve": {
+        "x": 592.172,
+        "y": 257.76
+      }
+    },
+    {
+      "source": "basics",
+      "target": "pragmatism  ️",
+      "curve": {
+        "x": 734.986,
+        "y": 260.22
+      }
+    }
+  ],
+  "id": 1320
+}

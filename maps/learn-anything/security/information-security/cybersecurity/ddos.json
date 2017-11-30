@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - security - information security - cybersecurity - ddos",
+  "tag": "distributed denial of service",
+  "nodes": [
+    {
+      "text": "distributed denial of service",
+      "url": "http://www.wikiwand.com/en/Denial-of-service_attack",
+      "fx": -39.132527470588684,
+      "fy": -226.18833827972412,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 35.44041883033026,
+      "fy": -84.023525617747,
+      "nodes": [
+        {
+          "text": "1. slow loris attack",
+          "url": "https://www.youtube.com/watch?v=XiFkyR35v2Y",
+          "fx": 191.44041883033026,
+          "fy": -103.523525617747,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. the attack that could disrupt the whole internet",
+          "url": "https://www.youtube.com/watch?v=BcDZS7iYNsA",
+          "fx": 191.44041883033026,
+          "fy": -63.523525617747,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "distributed denial of service",
+      "target": "basics",
+      "curve": {
+        "x": -7.96352,
+        "y": 69.8324
+      }
+    }
+  ],
+  "id": 1767
+}

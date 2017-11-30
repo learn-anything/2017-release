@@ -1,0 +1,199 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups - group theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "group theory",
+      "url": "http://www.wikiwand.com/en/Group_theory",
+      "fx": -171.203125,
+      "fy": -238.07884837962962,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -43.585379464285666,
+      "fy": -116.18315676965227,
+      "nodes": [
+        {
+          "text": "recent group theory research papers",
+          "url": "https://arxiv.org/list/math.GR/recent",
+          "fx": 93.41462053571433,
+          "fy": -143.68315676965227,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "what does modern group theory look like",
+          "url": "https://www.reddit.com/r/math/comments/1t6m5z/what_does_modern_group_theory_look_like/ce4x054/",
+          "fx": 93.41462053571433,
+          "fy": -87.68315676965227,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -142.4316405381595,
+      "fy": 19.41298232956484,
+      "nodes": [
+        {
+          "text": "1. visual group theory",
+          "url": "http://web.bentley.edu/empl/c/ncarter/vgt/index.html",
+          "fx": 39.56835946184049,
+          "fy": -0.08701767043515929,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. Euler’s formula with introductory group theory",
+          "url": "https://www.youtube.com/watch?v=mvmuCPvRoWQ&amp;t=1s",
+          "fx": 39.56835946184049,
+          "fy": 39.91298232956484,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Cayley's theorem  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory/cayleys-theorem",
+      "fx": -1066.616422538161,
+      "fy": 238.98195504467617,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "abelian group  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory/abelian-group",
+      "fx": -823.8387221691584,
+      "fy": 241.52540713854944,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "lie groups  ️",
+      "note": "is a group that is also a differentiable manifold, with the property that the group operations are compatible with the smooth structure  lie groups are smooth differentiable manifolds and as such can be studied using differential calculus, in contrast with the case of more general topological groups  one of the key ideas in the theory of Lie groups is to replace the global object, the group, with its local or linearised version",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory/lie-groups",
+      "fx": -294.95175545285065,
+      "fy": 242.83554092329302,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "geometric group theory",
+      "note": "is the study of infinite, finitely-generated groups using geometric methods",
+      "url": "http://www.wikiwand.com/en/Geometric_group_theory",
+      "fx": -615.0130939492792,
+      "fy": 243.69377004433682,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "semigroups  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/semigroups",
+      "fx": -101.73723483085632,
+      "fy": 244.1340217590332,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "finite groups",
+      "url": "http://www.wikiwand.com/en/Finite_group",
+      "fx": 79.40995762711827,
+      "fy": 244.1791578389831,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Sylow theorems  ️",
+      "url": "/mathematics/algebra/abstract-algebra/algebraic-structures/groups/group-theory/sylow-theorems",
+      "fx": 126.47048595166734,
+      "fy": 381.5416908646663,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "group theory",
+      "target": "basics",
+      "curve": {
+        "x": -7.36427,
+        "y": 127.497
+      }
+    },
+    {
+      "source": "help",
+      "target": "group theory",
+      "curve": {
+        "x": -37.3089,
+        "y": -59.6979
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometric group theory",
+      "curve": {
+        "x": -190.541,
+        "y": 113.39
+      }
+    },
+    {
+      "source": "basics",
+      "target": "lie groups  ️",
+      "curve": {
+        "x": -61.5104,
+        "y": 112.961
+      }
+    },
+    {
+      "source": "basics",
+      "target": "abelian group  ️",
+      "curve": {
+        "x": -355.588,
+        "y": 84.0289
+      }
+    },
+    {
+      "source": "basics",
+      "target": "semigroups  ️",
+      "curve": {
+        "x": 33.0973,
+        "y": 113.611
+      }
+    },
+    {
+      "source": "basics",
+      "target": "finite groups",
+      "curve": {
+        "x": 124.921,
+        "y": 113.633
+      }
+    },
+    {
+      "source": "finite groups",
+      "target": "Sylow theorems  ️",
+      "curve": {
+        "x": 22.2803,
+        "y": 67.4313
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Cayley's theorem  ️",
+      "curve": {
+        "x": -472.061,
+        "y": 54.8167
+      }
+    }
+  ],
+  "id": 822
+}

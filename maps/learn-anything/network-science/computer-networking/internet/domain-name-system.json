@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - network science - computer networking - internet - domain name system",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "domain name system",
+      "url": "http://www.wikiwand.com/en/Domain_Name_System",
+      "fx": 45.89845275878906,
+      "fy": -93.6521806716919,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 132,
+      "fy": 47.000000000000114,
+      "nodes": [
+        {
+          "text": "1. how DNS works",
+          "url": "https://howdns.works/",
+          "fx": 295,
+          "fy": 59.500000000000114,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "domain name system",
+      "target": "basics",
+      "curve": {
+        "x": -2.44923,
+        "y": 69.5761
+      }
+    }
+  ],
+  "id": 1206
+}

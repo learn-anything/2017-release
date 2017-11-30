@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - natural language processing - text classification",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "text classification",
+      "url": "",
+      "fx": -148.6192876344087,
+      "fy": -163.60273857526886,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -102.96236559139788,
+      "fy": -17.55913978500655,
+      "nodes": [
+        {
+          "text": "1. what is text classification",
+          "url": "https://www.youtube.com/watch?v=c3fnHA6yLeY",
+          "fx": 53.037634408602116,
+          "fy": -6.0591397850065505,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "text classification",
+      "target": "basics",
+      "curve": {
+        "x": -1.17154,
+        "y": 73.0218
+      }
+    }
+  ],
+  "id": 1202
+}

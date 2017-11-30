@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - linguistics - languages - chinese - mandarin",
+  "tag": "mandarin chinese",
+  "nodes": [
+    {
+      "text": "mandarin chinese",
+      "url": "http://www.wikiwand.com/en/Mandarin_Chinese",
+      "fx": -164.17578125,
+      "fy": -345.98828125,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/learnmandarin/",
+          "fx": 122.82421875,
+          "fy": -331.98828125,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -110.12313247011957,
+      "fy": -200.4135333664952,
+      "nodes": [
+        {
+          "text": "1. chinese pod",
+          "url": "https://chinesepod.com/",
+          "fx": 71.87686752988043,
+          "fy": -188.9135333664952,
+          "nodes": [],
+          "category": "podcast",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "mandarin chinese",
+      "target": "basics",
+      "curve": {
+        "x": -5.72368,
+        "y": 71.5374
+      }
+    }
+  ],
+  "id": 718
+}

@@ -1,0 +1,74 @@
+{
+  "title": "learn anything - mathematics - logic - first-order logic - higher-order logic",
+  "tag": "higher-order logic",
+  "nodes": [
+    {
+      "text": "higher-order logic",
+      "url": "http://www.wikiwand.com/en/Higher-order_logic",
+      "fx": 113.37253289473688,
+      "fy": -238.9483963815789,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 178.52631578947364,
+      "fy": -96.99999999998317,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://staff.science.uva.nl/j.vanbenthem/docs/HOL.pdf",
+          "fx": 341.52631578947364,
+          "fy": -84.49999999998317,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "type theory  ️",
+      "url": "/mathematics/type-theory",
+      "fx": 5.709633535043508,
+      "fy": 47.68890557261568,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "set theory  ️",
+      "url": "/mathematics/set-theory",
+      "fx": 214.53352701005042,
+      "fy": 49.897220477386895,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "higher-order logic",
+      "target": "basics",
+      "curve": {
+        "x": -2.67311,
+        "y": 70.2242
+      }
+    },
+    {
+      "source": "basics",
+      "target": "type theory  ️",
+      "curve": {
+        "x": -66.9083,
+        "y": 73.0944
+      }
+    },
+    {
+      "source": "basics",
+      "target": "set theory  ️",
+      "curve": {
+        "x": 34.5036,
+        "y": 74.1986
+      }
+    }
+  ],
+  "id": 1002
+}

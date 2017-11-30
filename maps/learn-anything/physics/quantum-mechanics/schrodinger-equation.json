@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - schrodinger equation",
+  "tag": "Schrodinger equation",
+  "nodes": [
+    {
+      "text": "Schrodinger equation",
+      "url": "http://www.wikiwand.com/en/Schr%C3%B6dinger_equation",
+      "fx": 54.44140625000023,
+      "fy": -126.19921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 227.96062198613583,
+      "fy": -14.631933456388879,
+      "nodes": [
+        {
+          "text": "askscience: Schrodinger equation",
+          "url": "https://www.reddit.com/r/askscience/search?q=Schrodinger%20equation&amp;restrict_sr=on&amp;sort=relevance&amp;t=all",
+          "fx": 418.96062198613583,
+          "fy": -3.1319334563888788,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 126.83984375,
+      "fy": 102.49401700949363,
+      "nodes": [
+        {
+          "text": "1. simple derivation of the equation",
+          "url": "https://www.youtube.com/watch?v=IsX5iUKNT2k",
+          "fx": 282.83984375,
+          "fy": 113.99401700949363,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Schrodinger equation",
+      "target": "basics",
+      "curve": {
+        "x": -5.05078,
+        "y": 113.097
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "Schrodinger equation",
+      "curve": {
+        "x": -54.2596,
+        "y": -54.5336
+      }
+    }
+  ],
+  "id": 1541
+}

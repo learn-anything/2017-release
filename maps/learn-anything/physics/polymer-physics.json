@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - physics - polymer physics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "polymer physics",
+      "url": "http://www.wikiwand.com/en/Polymer_physics",
+      "fx": -107.58203125,
+      "fy": -252.20703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -49.1953125,
+      "fy": -96.1740451388888,
+      "nodes": [
+        {
+          "text": "1. polymer physics I",
+          "url": "https://www.youtube.com/watch?v=M6AvgX1Ijfc",
+          "fx": 106.8046875,
+          "fy": -146.6740451388888,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. polymer entanglements - the unsolved problem of polymer physics",
+          "url": "https://www.youtube.com/watch?v=kOnPU7vT2G8&amp;t=1s",
+          "fx": 106.8046875,
+          "fy": -106.6740451388888,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. polymer physics",
+          "url": "https://www.goodreads.com/book/show/1236015.Polymer_Physics",
+          "fx": 106.8046875,
+          "fy": -22.6740451388888,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "polymer physics",
+      "target": "basics",
+      "curve": {
+        "x": -0.306641,
+        "y": 76.7665
+      }
+    }
+  ],
+  "id": 1519
+}

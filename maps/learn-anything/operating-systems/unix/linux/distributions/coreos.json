@@ -1,0 +1,78 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - coreos",
+  "tag": "coreOS",
+  "nodes": [
+    {
+      "text": "coreOS",
+      "url": "http://www.wikiwand.com/en/Container_Linux_by_CoreOS",
+      "fx": -44.76318359375,
+      "fy": -227.81054687500006,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/coreos/",
+          "fx": 151.23681640625,
+          "fy": -253.81054687500006,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/coreos/",
+          "fx": 151.23681640625,
+          "fy": -213.81054687500006,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ramitsurana/awesome-coreos",
+          "fx": 151.23681640625,
+          "fy": -173.81054687500006,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -33.3603515625,
+      "fy": -60.16796875,
+      "nodes": [
+        {
+          "text": "1. container linux quick start",
+          "url": "https://coreos.com/os/docs/latest/quickstart.html",
+          "fx": 122.6396484375,
+          "fy": -65.66796875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. coreOS: an overview",
+          "url": "https://www.youtube.com/watch?v=VF5ecG6vdN8",
+          "fx": 122.6396484375,
+          "fy": -31.66796875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "coreOS",
+      "target": "basics",
+      "curve": {
+        "x": -4.29859,
+        "y": 82.5714
+      }
+    }
+  ],
+  "id": 1284
+}

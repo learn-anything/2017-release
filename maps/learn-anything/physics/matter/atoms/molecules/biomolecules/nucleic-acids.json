@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - nucleic acids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "nucleic acids",
+      "url": "http://www.wikiwand.com/en/Nucleic_acid",
+      "fx": 162.95703125,
+      "fy": -265.921875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 208.73714539007108,
+      "fy": -150.00248792687609,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=NNASRkIU5Fw",
+          "fx": 371.7371453900711,
+          "fy": -137.50248792687609,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "nucleotides",
+      "url": "http://www.wikiwand.com/en/Nucleotide",
+      "fx": 88.6309067231523,
+      "fy": -19.32985564903504,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "RNA  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/rna",
+      "fx": 20.396540578728263,
+      "fy": 101.76491029036634,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "DNA  ️",
+      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna",
+      "fx": 163.23537113825648,
+      "fy": 105.2166463104744,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "nucleic acids",
+      "target": "basics",
+      "curve": {
+        "x": -1.60994,
+        "y": 57.2097
+      }
+    },
+    {
+      "source": "basics",
+      "target": "nucleotides",
+      "curve": {
+        "x": -39.5531,
+        "y": 66.0863
+      }
+    },
+    {
+      "source": "nucleotides",
+      "target": "RNA  ️",
+      "curve": {
+        "x": -51.3672,
+        "y": 60.5474
+      }
+    },
+    {
+      "source": "nucleotides",
+      "target": "DNA  ️",
+      "curve": {
+        "x": 20.3022,
+        "y": 62.2733
+      }
+    }
+  ],
+  "id": 1464
+}

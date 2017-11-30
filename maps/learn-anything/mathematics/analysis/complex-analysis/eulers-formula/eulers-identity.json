@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - analysis - complex analysis - eulers formula - eulers identity",
+  "tag": "Euler’s identity",
+  "nodes": [
+    {
+      "text": "Euler’s identity",
+      "url": "http://www.wikiwand.com/en/Euler%27s_identity",
+      "fx": 102.00390625,
+      "fy": -125.703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.5234375,
+      "fy": 28.886334528688508,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=F_0yfvm0UoU",
+          "fx": 310.5234375,
+          "fy": 41.38633452868851,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Euler’s identity",
+      "target": "basics",
+      "curve": {
+        "x": -4.24023,
+        "y": 76.5447
+      }
+    }
+  ],
+  "id": 855
+}

@@ -1,0 +1,233 @@
+{
+  "title": "learn anything - programming - programming languages - java",
+  "tag": "java programming language",
+  "nodes": [
+    {
+      "text": "java",
+      "url": "http://www.wikiwand.com/en/Java_(programming_language)",
+      "fx": -45.0842563735398,
+      "fy": -552.6714515011979,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/java/",
+          "fx": 123.9157436264602,
+          "fy": -580.6714515011981,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/java",
+          "fx": 123.9157436264602,
+          "fy": -538.671451501198,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/akullpp/awesome-java",
+          "fx": 123.9157436264602,
+          "fy": -496.671451501198,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 168.31485562954288,
+      "fy": -312.10862791113385,
+      "nodes": [
+        {
+          "text": "design patterns in java",
+          "url": "https://github.com/iluwatar/java-design-patterns",
+          "fx": 309.3148556295429,
+          "fy": -449.10862791113385,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome RxJava",
+          "url": "https://github.com/eleventigers/awesome-rxjava",
+          "fx": 309.3148556295429,
+          "fy": -407.10862791113385,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "awesome java 8",
+          "url": "https://github.com/tedyoung/awesome-java8",
+          "fx": 309.3148556295429,
+          "fy": -365.10862791113385,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "close encounters of the java memory model kind",
+          "url": "https://shipilev.net/blog/2016/close-encounters-of-jmm-kind/",
+          "fx": 309.3148556295429,
+          "fy": -323.10862791113385,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "value types for java",
+          "url": "http://cr.openjdk.java.net/~jrose/values/values-0.html",
+          "fx": 309.3148556295429,
+          "fy": -261.10862791113385,
+          "nodes": [],
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "useful java links",
+          "url": "https://github.com/Vedenin/useful-java-links",
+          "fx": 309.3148556295429,
+          "fy": -224.10862791113385,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(169, 255, 0, 1.0)"
+        },
+        {
+          "text": "google java style guide",
+          "url": "http://google.github.io/styleguide/javaguide.html",
+          "fx": 309.3148556295429,
+          "fy": -182.10862791113385,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "learning java by Oracle",
+          "url": "http://docs.oracle.com/javase/tutorial/java/TOC.html",
+          "fx": 309.3148556295429,
+          "fy": -145.10862791113385,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 408.37658885168685,
+      "fy": 1.6767149568158857,
+      "nodes": [
+        {
+          "text": "java version manager",
+          "url": "https://github.com/caarlos0/jvm",
+          "fx": 554.3765888516868,
+          "fy": 14.176714956815886,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -221.07687153456334,
+      "fy": 147.68955169933668,
+      "nodes": [
+        {
+          "text": "1. object-oriented programming with java",
+          "note": "is really good intro to OOP and Java",
+          "url": "http://mooc.fi/courses/2013/programming-part-1/",
+          "fx": -32.07687153456334,
+          "fy": 51.189551699336675,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. programming methodology",
+          "url": "https://see.stanford.edu/Course/CS106A",
+          "fx": -32.07687153456334,
+          "fy": 118.18955169933668,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. programming by doing",
+          "url": "http://www.programmingbydoing.com/",
+          "fx": -32.07687153456334,
+          "fy": 160.18955169933668,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "2. effective java",
+          "url": "https://www.goodreads.com/book/show/105099.Effective_Java_Programming_Language_Guide",
+          "fx": -32.07687153456334,
+          "fy": 202.18955169933668,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "2. java concurrency in practice",
+          "url": "https://www.goodreads.com/book/show/127932.Java_Concurrency_in_Practice",
+          "fx": -32.07687153456334,
+          "fy": 244.18955169933668,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "java libraries  ️",
+      "url": "/programming/programming-languages/java/java-libraries",
+      "fx": -300.238453584558,
+      "fy": 339.33288654003263,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "java",
+      "curve": {
+        "x": -107.45,
+        "y": -120.281
+      }
+    },
+    {
+      "source": "java",
+      "target": "basics",
+      "curve": {
+        "x": -82.4962,
+        "y": 350.181
+      }
+    },
+    {
+      "source": "basics",
+      "target": "java libraries  ️",
+      "curve": {
+        "x": -32.8308,
+        "y": 95.8217
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -178.675,
+        "y": -128.024
+      }
+    }
+  ],
+  "id": 1610
+}

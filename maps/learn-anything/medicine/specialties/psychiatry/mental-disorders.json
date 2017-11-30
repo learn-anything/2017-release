@@ -1,0 +1,122 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mental disorders",
+      "url": "http://www.wikiwand.com/en/Mental_disorder",
+      "fx": -25.0234375,
+      "fy": -196.86810661764707,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 34.78896239807818,
+      "fy": -80.43921993304713,
+      "nodes": [
+        {
+          "text": "1. psychological disorders",
+          "url": "https://www.youtube.com/watch?v=wuhJ-GkRRQc",
+          "fx": 190.78896239807818,
+          "fy": -68.93921993304713,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "schizophrenia  ️",
+      "url": "/medicine/specialties/psychiatry/mental-disorders/schizophrenia",
+      "fx": -292.760154282116,
+      "fy": 10.537665302266987,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "addiction  ️",
+      "url": "/medicine/specialties/psychiatry/mental-disorders/addiction",
+      "fx": 215.63373466227677,
+      "fy": 39.62661930999195,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "depression  ️",
+      "url": "/medicine/specialties/psychiatry/mental-disorders/depression",
+      "fx": 151.61986902056458,
+      "fy": 149.98094090300754,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "post traumatic stress disorder  ️",
+      "url": "/medicine/specialties/psychiatry/mental-disorders/post-traumatic-stress-disorder",
+      "fx": -390.2199283928464,
+      "fy": 180.59410990618903,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "anxiety  ️",
+      "url": "/medicine/specialties/psychiatry/mental-disorders/anxiety",
+      "fx": 6.388131475331079,
+      "fy": 211.37804020710632,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "mental disorders",
+      "target": "basics",
+      "curve": {
+        "x": -0.3438,
+        "y": 56.9644
+      }
+    },
+    {
+      "source": "basics",
+      "target": "addiction  ️",
+      "curve": {
+        "x": 103.922,
+        "y": 61.2829
+      }
+    },
+    {
+      "source": "basics",
+      "target": "depression  ️",
+      "curve": {
+        "x": 62.6751,
+        "y": 116.46
+      }
+    },
+    {
+      "source": "basics",
+      "target": "anxiety  ️",
+      "curve": {
+        "x": -12.9504,
+        "y": 145.909
+      }
+    },
+    {
+      "source": "basics",
+      "target": "post traumatic stress disorder  ️",
+      "curve": {
+        "x": -159.504,
+        "y": 130.517
+      }
+    },
+    {
+      "source": "basics",
+      "target": "schizophrenia  ️",
+      "curve": {
+        "x": -147.025,
+        "y": 45.4884
+      }
+    }
+  ],
+  "id": 1172
+}

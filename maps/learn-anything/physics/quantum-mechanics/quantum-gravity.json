@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - physics - quantum mechanics - quantum gravity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "quantum gravity",
+      "url": "http://www.wikiwand.com/en/Quantum_gravity",
+      "fx": -29.894577741622925,
+      "fy": -20.945175647735596,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 26.42976366009634,
+      "fy": 113.88955054366801,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=CbPWYjnQIO8",
+          "fx": 182.42976366009634,
+          "fy": 94.38955054366801,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. entanglement and complexity: gravity and quantum mechanics",
+          "url": "https://www.youtube.com/watch?v=9crggox5rbc&amp;t=355s",
+          "fx": 182.42976366009634,
+          "fy": 134.389550543668,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "loop quantum gravity  ️",
+      "url": "/physics/quantum-mechanics/quantum-gravity/loop-quantum-gravity",
+      "fx": -140.6482371794864,
+      "fy": 255.67267628205138,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "quantum gravity",
+      "target": "basics",
+      "curve": {
+        "x": -0.837829,
+        "y": 66.1674
+      }
+    },
+    {
+      "source": "basics",
+      "target": "loop quantum gravity  ️",
+      "curve": {
+        "x": -50.289,
+        "y": 70.8916
+      }
+    }
+  ],
+  "id": 1534
+}

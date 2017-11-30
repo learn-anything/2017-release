@@ -1,0 +1,177 @@
+{
+  "title": "learn anything - mathematics - number theory - numbers",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "numbers",
+      "url": "http://www.wikiwand.com/en/Number",
+      "fx": 265.1009077344622,
+      "fy": -154.62445504324774,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "natural numbers  ️",
+      "url": "/mathematics/number-theory/numbers/natural-numbers",
+      "fx": -855.5692161979525,
+      "fy": 10.569710432511329,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "rational numbers",
+      "url": "http://www.wikiwand.com/en/Rational_number",
+      "fx": 341.7723846435547,
+      "fy": 12.207145690917969,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "negative numbers",
+      "url": "http://www.wikiwand.com/en/Negative_number",
+      "fx": 85.62247848510742,
+      "fy": 12.207145690917969,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "prime numbers  ️",
+      "url": "/mathematics/number-theory/numbers/prime-numbers",
+      "fx": -610.3188801994681,
+      "fy": 12.667132931104845,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "real numbers  ️",
+      "url": "/mathematics/number-theory/numbers/real-numbers",
+      "fx": -122.46074356604402,
+      "fy": 13.00535137684085,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "complex numbers  ️",
+      "url": "/mathematics/number-theory/numbers/complex-numbers",
+      "fx": -382.1828269958496,
+      "fy": 13.65966796875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "square roots  ️",
+      "url": "/mathematics/number-theory/numbers/square-roots",
+      "fx": 1128.7453791804637,
+      "fy": 16.389680621407194,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "infinity  ️",
+      "url": "/mathematics/number-theory/numbers/infinity",
+      "fx": 853.0375366210938,
+      "fy": 16.6440486907959,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "irrational numbers",
+      "url": "http://www.wikiwand.com/en/Irrational_number",
+      "fx": 593.1342075892858,
+      "fy": 16.88211495535711,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "ratios  ️",
+      "url": "/mathematics/number-theory/numbers/ratios",
+      "fx": 997.6014099121094,
+      "fy": 17.299132347106934,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "numbers",
+      "target": "complex numbers  ️",
+      "curve": {
+        "x": -315.399,
+        "y": 63.5097
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "real numbers  ️",
+      "curve": {
+        "x": -184.281,
+        "y": 83.8149
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "negative numbers",
+      "curve": {
+        "x": -69.4892,
+        "y": 83.4158
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "rational numbers",
+      "curve": {
+        "x": 56.0861,
+        "y": 83.4158
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "infinity  ️",
+      "curve": {
+        "x": 381.878,
+        "y": 71.3019
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "irrational numbers",
+      "curve": {
+        "x": 185.767,
+        "y": 85.7533
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "ratios  ️",
+      "curve": {
+        "x": 508.634,
+        "y": 63.6399
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "prime numbers  ️",
+      "curve": {
+        "x": -518.049,
+        "y": 29.4947
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "square roots  ️",
+      "curve": {
+        "x": 579.467,
+        "y": 42.4446
+      }
+    },
+    {
+      "source": "numbers",
+      "target": "natural numbers  ️",
+      "curve": {
+        "x": -695.366,
+        "y": 35.4472
+      }
+    }
+  ],
+  "id": 1051
+}

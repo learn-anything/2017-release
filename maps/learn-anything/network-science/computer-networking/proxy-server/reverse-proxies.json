@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - network science - computer networking - proxy server - reverse proxies",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "reverse proxies",
+      "url": "http://www.wikiwand.com/en/Reverse_proxy",
+      "fx": 114.08732339089465,
+      "fy": -398.07190688775546,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 160.7075687129693,
+      "fy": -255.998107307444,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=2fL8Otb9mTE",
+          "fx": 316.7075687129693,
+          "fy": -244.498107307444,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "traefik",
+      "url": "https://github.com/containous/traefik",
+      "fx": 76.7880859375,
+      "fy": -123.98828125,
+      "nodes": [],
+      "category": "github"
+    }
+  ],
+  "connections": [
+    {
+      "source": "reverse proxies",
+      "target": "basics",
+      "curve": {
+        "x": 0.31012,
+        "y": 69.7869
+      }
+    },
+    {
+      "source": "basics",
+      "target": "traefik",
+      "curve": {
+        "x": -35.4597,
+        "y": 67.2549
+      }
+    }
+  ],
+  "id": 1228
+}

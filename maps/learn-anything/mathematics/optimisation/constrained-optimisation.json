@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - optimisation - constrained optimisation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "constrained optimisation",
+      "url": "http://www.wikiwand.com/en/Constrained_optimization",
+      "fx": 14.062369346618652,
+      "fy": -113.17230176925659,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 99.2890625,
+      "fy": 32.80859375,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=vwUV2IDLP8Q",
+          "fx": 255.2890625,
+          "fy": 13.30859375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. constrained optimisation with LaGrange multipliers",
+          "url": "https://www.youtube.com/watch?v=nUfYR5FBGZc",
+          "fx": 255.2890625,
+          "fy": 53.30859375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "constrained optimisation",
+      "target": "basics",
+      "curve": {
+        "x": -5.38665,
+        "y": 71.7404
+      }
+    }
+  ],
+  "id": 1053
+}

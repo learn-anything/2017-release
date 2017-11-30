@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - programming - markup languages - markdown",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "markdown",
+      "url": "http://www.wikiwand.com/en/Markdown",
+      "fx": -154.109375,
+      "fy": -114.69140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -31.053522478070136,
+      "fy": -11.15666118421052,
+      "nodes": [
+        {
+          "text": "awesome markdown",
+          "url": "https://github.com/BubuAnabelas/awesome-markdown",
+          "fx": 105.94647752192986,
+          "fy": 0.34333881578947967,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -126.24561403508937,
+      "fy": 88.33689692981136,
+      "nodes": [
+        {
+          "text": "1. syntax",
+          "url": "https://daringfireball.net/projects/markdown/syntax",
+          "fx": 29.754385964910625,
+          "fy": 102.83689692981136,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "markdown",
+      "curve": {
+        "x": -40.0279,
+        "y": -50.5174
+      }
+    },
+    {
+      "source": "markdown",
+      "target": "basics",
+      "curve": {
+        "x": -2.81812,
+        "y": 100.264
+      }
+    }
+  ],
+  "id": 1562
+}

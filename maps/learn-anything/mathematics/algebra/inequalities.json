@@ -1,0 +1,49 @@
+{
+  "title": "learn anything - mathematics - algebra - inequalities",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "inequalities",
+      "url": "http://www.wikiwand.com/en/Inequality_(mathematics)",
+      "fx": 380.7138717329036,
+      "fy": -283.64167373296385,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Cauchy-Schwarz inequality  ️",
+      "url": "/mathematics/algebra/inequalities/cauchy-schwarz-inequality",
+      "fx": 382.36060855263156,
+      "fy": -151.87417763157902,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "linear inequalities  ️",
+      "url": "/mathematics/algebra/inequalities/linear-inequalities",
+      "fx": 125.93103319377997,
+      "fy": -150.75919557416273,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "inequalities",
+      "target": "linear inequalities  ️",
+      "curve": {
+        "x": -120.641,
+        "y": 65.6912
+      }
+    },
+    {
+      "source": "inequalities",
+      "target": "Cauchy-Schwarz inequality  ️",
+      "curve": {
+        "x": 33.0734,
+        "y": 65.1337
+      }
+    }
+  ],
+  "id": 851
+}

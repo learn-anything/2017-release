@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - arch",
+  "tag": "arch linux",
+  "nodes": [
+    {
+      "text": "arch linux",
+      "url": "http://www.wikiwand.com/en/Arch_Linux",
+      "fx": -80.21484375,
+      "fy": -137.35546875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/archlinux/",
+          "fx": 132.78515625,
+          "fy": -123.35546875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 45.88642026578077,
+      "fy": -35.51380813949976,
+      "nodes": [
+        {
+          "text": "arch linux anywhere",
+          "url": "https://github.com/deadhead420/arch-linux-anywhere",
+          "fx": 236.88642026578077,
+          "fy": -24.01380813949976,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -54.02040074750846,
+      "fy": 64.84826619604809,
+      "nodes": [
+        {
+          "text": "1. installation guide",
+          "url": "https://wiki.archlinux.org/index.php/installation_guide",
+          "fx": 127.97959925249154,
+          "fy": 79.34826619604809,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "arch linux",
+      "curve": {
+        "x": -57.5506,
+        "y": -49.6708
+      }
+    },
+    {
+      "source": "arch linux",
+      "target": "basics",
+      "curve": {
+        "x": -1.15278,
+        "y": 99.8519
+      }
+    }
+  ],
+  "id": 1283
+}

@@ -1,0 +1,73 @@
+{
+  "title": "learn anything - mathematics - set theory - binary relation",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "binary relation",
+      "url": "http://www.wikiwand.com/en/Binary_relation",
+      "fx": -10.406574249267578,
+      "fy": -70.36130809783936,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 34.39878104641696,
+      "fy": 61.08191673452768,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://web.stanford.edu/class/archive/cs/cs103/cs103.1142/lectures/07/Small07.pdf",
+          "fx": 190.39878104641696,
+          "fy": 75.58191673452768,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "order theory",
+      "url": "http://www.wikiwand.com/en/Order_theory",
+      "fx": -82.31087404822358,
+      "fy": 186.95768559644665,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Galois connections  ️",
+      "url": "/mathematics/set-theory/binary-relation/galois-connections",
+      "fx": -118.2890625,
+      "fy": 320.505859375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "binary relation",
+      "target": "basics",
+      "curve": {
+        "x": -1.84732,
+        "y": 64.4716
+      }
+    },
+    {
+      "source": "basics",
+      "target": "order theory",
+      "curve": {
+        "x": -45.3548,
+        "y": 62.9379
+      }
+    },
+    {
+      "source": "order theory",
+      "target": "Galois connections  ️",
+      "curve": {
+        "x": -12.2391,
+        "y": 65.5241
+      }
+    }
+  ],
+  "id": 1064
+}

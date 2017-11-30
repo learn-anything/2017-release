@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - programming - programming languages - python - python libraries - flask",
+  "tag": "flask library",
+  "nodes": [
+    {
+      "text": "flask",
+      "url": "http://flask.pocoo.org/",
+      "fx": -17.353200604838662,
+      "fy": -54.5536794354839,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/flask/",
+          "fx": 121.64679939516134,
+          "fy": -83.0536794354839,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/pallets/flask",
+          "fx": 121.64679939516134,
+          "fy": -43.0536794354839,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/humiaozuzu/awesome-flask",
+          "fx": 121.64679939516134,
+          "fy": -3.0536794354839003,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -39.13540957050952,
+      "fy": 78.0258529724614,
+      "nodes": [
+        {
+          "text": "1. welcome to Flask",
+          "url": "http://flask.pocoo.org/docs/0.12/",
+          "fx": 142.86459042949048,
+          "fy": 92.5258529724614,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "flask",
+      "target": "basics",
+      "curve": {
+        "x": -6.6411,
+        "y": 66.2896
+      }
+    }
+  ],
+  "id": 1635
+}

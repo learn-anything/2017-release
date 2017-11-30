@@ -1,0 +1,201 @@
+{
+  "title": "learn anything - medicine",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "medicine",
+      "url": "http://www.wikiwand.com/en/Medicine",
+      "fx": -139.58042868589746,
+      "fy": -440.2020596590909,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/medicine/",
+          "fx": 69.41957131410254,
+          "fy": -426.2020596590909,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 40.704148471615554,
+      "fy": -333.46950054585153,
+      "nodes": [
+        {
+          "text": "Armando Hasudungan",
+          "url": "https://www.youtube.com/user/armandohasudungan/videos",
+          "fx": 177.70414847161555,
+          "fy": -321.96950054585153,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -142.4828025904585,
+      "fy": -106.06570711169945,
+      "nodes": [
+        {
+          "text": "1. khan academy health and medicine",
+          "url": "https://www.khanacademy.org/science/health-and-medicine",
+          "fx": 39.517197409541495,
+          "fy": -209.56570711169945,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "2. the emperor of all maladies: a biography of cancer",
+          "url": "https://www.goodreads.com/book/show/7170627-the-emperor-of-all-maladies",
+          "fx": 39.517197409541495,
+          "fy": -147.56570711169945,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. mountains beyond mountains: the quest of dr. paul farmer, a man who would cure the world",
+          "url": "https://www.goodreads.com/book/show/10235.Mountains_Beyond_Mountains",
+          "fx": 39.517197409541495,
+          "fy": -86.06170930896508,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. complications: a surgeon's notes on an imperfect science",
+          "url": "https://www.goodreads.com/book/show/4477.Complications",
+          "fx": 39.517197409541495,
+          "fy": -1.565707111699453,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "pathology",
+      "url": "http://www.wikiwand.com/en/Pathology",
+      "fx": -584.2689706959709,
+      "fy": 97.68826904874061,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "diseases  ️",
+      "url": "/medicine/diseases",
+      "fx": -408.7612809627768,
+      "fy": 100.35166447724646,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "symptoms  ️",
+      "url": "/medicine/symptoms",
+      "fx": -67.22350971638707,
+      "fy": 102.15513392857179,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "neurology  ️",
+      "url": "/medicine/neurology",
+      "fx": -751.7609546779792,
+      "fy": 102.65311948622957,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "physiatry",
+      "url": "http://www.wikiwand.com/en/Physical_medicine_and_rehabilitation",
+      "fx": -925.5255041787792,
+      "fy": 102.67605377906978,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "specialties  ️",
+      "url": "/medicine/specialties",
+      "fx": -243.7261498772906,
+      "fy": 103.71622781742576,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "pathology",
+      "curve": {
+        "x": -219.143,
+        "y": 101.877
+      }
+    },
+    {
+      "source": "medicine",
+      "target": "basics",
+      "curve": {
+        "x": -8.20114,
+        "y": 165.818
+      }
+    },
+    {
+      "source": "basics",
+      "target": "diseases  ️",
+      "curve": {
+        "x": -134.389,
+        "y": 103.209
+      }
+    },
+    {
+      "source": "basics",
+      "target": "specialties  ️",
+      "curve": {
+        "x": -48.1217,
+        "y": 104.891
+      }
+    },
+    {
+      "source": "basics",
+      "target": "neurology  ️",
+      "curve": {
+        "x": -341.859,
+        "y": 93.6663
+      }
+    },
+    {
+      "source": "basics",
+      "target": "physiatry",
+      "curve": {
+        "x": -413.17,
+        "y": 79.6014
+      }
+    },
+    {
+      "source": "basics",
+      "target": "symptoms  ️",
+      "curve": {
+        "x": 40.3796,
+        "y": 104.11
+      }
+    },
+    {
+      "source": "help",
+      "target": "medicine",
+      "curve": {
+        "x": -72.1423,
+        "y": -52.1163
+      }
+    }
+  ],
+  "id": 1177
+}

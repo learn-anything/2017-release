@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - philosophy - philosophy of mind - metaphysics - emergence",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "emergence",
+      "url": "http://www.wikiwand.com/en/Emergence",
+      "fx": 116.640625,
+      "fy": -107.296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 151.6800692182411,
+      "fy": 25.472808937296463,
+      "nodes": [
+        {
+          "text": "1. emergence and complexity",
+          "url": "https://www.youtube.com/watch?v=o_ZuWbX-CyE",
+          "fx": 314.6800692182411,
+          "fy": 37.97280893729646,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "reductionism  ️",
+      "url": "/philosophy/philosophy-of-mind/metaphysics/emergence/reductionism",
+      "fx": 25.95246335504885,
+      "fy": 137.98600366451558,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "emergence",
+      "target": "basics",
+      "curve": {
+        "x": -2.48028,
+        "y": 65.6349
+      }
+    },
+    {
+      "source": "basics",
+      "target": "reductionism  ️",
+      "curve": {
+        "x": -47.1138,
+        "y": 56.2566
+      }
+    }
+  ],
+  "id": 1338
+}

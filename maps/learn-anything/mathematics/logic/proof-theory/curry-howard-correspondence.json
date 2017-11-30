@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - logic - proof theory - curry-howard correspondence",
+  "tag": "Curry-Howard correspondence",
+  "nodes": [
+    {
+      "text": "Curry-Howard correspondence",
+      "url": "http://www.wikiwand.com/en/Curry%E2%80%93Howard_correspondence",
+      "fx": -50.88717269897461,
+      "fy": -124.8712272644043,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 76.67184734344482,
+      "fy": 37.977279780955826,
+      "nodes": [
+        {
+          "text": "1. explanation of it   ️",
+          "url": "https://stackoverflow.com/questions/10212660/curry-howard-isomorphism",
+          "fx": 232.67184734344482,
+          "fy": 18.477279780955826,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. type algebra, Curry-Howard-Lambek isomorphism",
+          "url": "https://www.youtube.com/watch?v=iXZR1v3YN-8",
+          "fx": 232.67184734344482,
+          "fy": 58.477279780955826,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Curry-Howard correspondence",
+      "target": "basics",
+      "curve": {
+        "x": -3.22049,
+        "y": 80.1743
+      }
+    }
+  ],
+  "id": 1011
+}

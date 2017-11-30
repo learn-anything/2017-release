@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - programming - software development - dependency injections",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "dependency injections",
+      "url": "http://www.wikiwand.com/en/Dependency_injection",
+      "fx": 192.33984375,
+      "fy": -149.5234375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 280.3045095755692,
+      "fy": 29.742171325087952,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=IKD2-MAkXyQ",
+          "fx": 443.3045095755692,
+          "fy": 42.24217132508795,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "dependency injections",
+      "target": "basics",
+      "curve": {
+        "x": -1.01767,
+        "y": 88.8828
+      }
+    }
+  ],
+  "id": 1698
+}

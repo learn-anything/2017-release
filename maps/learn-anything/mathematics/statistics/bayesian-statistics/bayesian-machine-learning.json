@@ -1,0 +1,75 @@
+{
+  "title": "learn anything - mathematics - statistics - bayesian statistics - bayesian machine learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "bayesian machine learning",
+      "url": "",
+      "fx": -131.74618002027273,
+      "fy": -259.18881607055664,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 61.46668043892532,
+      "fy": -149.44038519519387,
+      "nodes": [
+        {
+          "text": "what is bayesian machine learning?",
+          "url": "https://www.quora.com/What-is-Bayesian-machine-learning",
+          "fx": 198.46668043892532,
+          "fy": -137.94038519519387,
+          "nodes": [],
+          "category": "quora",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -42.398429192099115,
+      "fy": -26.456176880285852,
+      "nodes": [
+        {
+          "text": "1. tiny introduction  ️",
+          "url": "http://mlg.eng.cam.ac.uk/zoubin/bayesian.html",
+          "fx": 113.60157080790088,
+          "fy": -34.95617688028585,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. bayesian machine learning  ️",
+          "url": "http://fastml.com/bayesian-machine-learning/",
+          "fx": 113.60157080790088,
+          "fy": 5.043823119714148,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "bayesian machine learning",
+      "target": "basics",
+      "curve": {
+        "x": -0.576125,
+        "y": 116.366
+      }
+    },
+    {
+      "source": "help",
+      "target": "bayesian machine learning",
+      "curve": {
+        "x": -46.6064,
+        "y": -54.8742
+      }
+    }
+  ],
+  "id": 1077
+}

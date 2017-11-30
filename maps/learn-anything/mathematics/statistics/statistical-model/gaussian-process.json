@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - statistics - statistical model - gaussian process",
+  "tag": "Gaussian processes",
+  "nodes": [
+    {
+      "text": "Gaussian process",
+      "url": "http://www.wikiwand.com/en/Gaussian_process",
+      "fx": -231.5078125,
+      "fy": -238.640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -174.73046875,
+      "fy": -69.08203125,
+      "nodes": [
+        {
+          "text": "1. introduction to Gaussian processes",
+          "url": "https://www.youtube.com/watch?v=4vGiHC35j9s",
+          "fx": -18.73046875,
+          "fy": -68.58203125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Gaussian process",
+      "target": "basics",
+      "curve": {
+        "x": -4.86133,
+        "y": 83.5293
+      }
+    }
+  ],
+  "id": 1120
+}

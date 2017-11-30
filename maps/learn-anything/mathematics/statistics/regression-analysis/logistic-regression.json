@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - mathematics - statistics - regression analysis - logistic regression",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "logistic regression",
+      "url": "http://www.wikiwand.com/en/Logistic_regression",
+      "fx": -103.16796875,
+      "fy": -114.10546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.04296875,
+      "fy": -0.04296875,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "http://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html",
+          "fx": 107.95703125,
+          "fy": 14.45703125,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "logistic regression",
+      "target": "basics",
+      "curve": {
+        "x": -5.4375,
+        "y": 55.7812
+      }
+    }
+  ],
+  "id": 1109
+}

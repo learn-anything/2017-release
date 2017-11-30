@@ -1,0 +1,34 @@
+{
+  "title": "learn anything - biology - human development",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "human development",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Human_development_(biology)",
+      "fx": 41.27734375,
+      "fy": -342.64453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "aging  ️",
+      "url": "/biology/human-development/aging",
+      "fx": 67.39515417800078,
+      "fy": -196.14604208283748,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "human development",
+      "target": "aging  ️",
+      "curve": {
+        "x": -20.6911,
+        "y": 73.2492
+      }
+    }
+  ],
+  "id": 105
+}

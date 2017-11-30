@@ -1,0 +1,101 @@
+{
+  "title": "learn anything - programming - software development - devops - cloud computing - google cloud",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "google cloud platform",
+      "url": "http://www.wikiwand.com/en/Google_Cloud_Platform",
+      "fx": -126.80859375,
+      "fy": -266.34765625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 34.11127321085746,
+      "fy": -154.8130110251572,
+      "nodes": [
+        {
+          "text": "17: espresso makes google cloud faster, more available and cost effective by extending SDN to the public internet  ️",
+          "url": "https://www.blog.google/topics/google-cloud/making-google-cloud-faster-more-available-and-cost-effective-extending-sdn-public-internet-espresso/",
+          "fx": 196.11127321085746,
+          "fy": -206.8130110251572,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: getting started with terraform and google compute engine  ️",
+          "url": "https://blog.elasticbyte.net/getting-started-with-terraform-and-google-compute-engine/",
+          "fx": 196.11127321085746,
+          "fy": -101.81301102515721,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 121.47006107644336,
+      "fy": -17.7999735516147,
+      "nodes": [
+        {
+          "text": "container engine",
+          "url": "https://cloud.google.com/container-engine/",
+          "fx": 263.47006107644336,
+          "fy": -3.2999735516146984,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -63.08915835592359,
+      "fy": 82.9534774319194,
+      "nodes": [
+        {
+          "text": "1. what are the google cloud platform (gcp) services?  ️",
+          "url": "https://hackernoon.com/what-are-the-google-cloud-platform-gcp-services-285f1988957a",
+          "fx": 118.91084164407641,
+          "fy": 83.4534774319194,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "google cloud platform",
+      "curve": {
+        "x": -33.4599,
+        "y": -54.5173
+      }
+    },
+    {
+      "source": "tools",
+      "target": "articles",
+      "curve": {
+        "x": -44.9294,
+        "y": -68.5065
+      }
+    },
+    {
+      "source": "google cloud platform",
+      "target": "basics",
+      "curve": {
+        "x": -10.3903,
+        "y": 173.401
+      }
+    }
+  ],
+  "id": 1706
+}

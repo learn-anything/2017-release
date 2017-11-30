@@ -1,0 +1,43 @@
+{
+  "title": "learn anything - mathematics - topology - computational topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "computational topology",
+      "url": "http://www.wikiwand.com/en/Computational_topology",
+      "fx": -122.16816732287407,
+      "fy": -103.59115982055664,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -39.4570621997118,
+      "fy": 19.145384311676025,
+      "nodes": [
+        {
+          "text": "1. an introduction",
+          "url": "http://www.ee.oulu.fi/research/imag/courses/Vaccarino/Edels_Book.pdf",
+          "fx": 142.5429378002882,
+          "fy": 30.645384311676025,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "computational topology",
+      "target": "basics",
+      "curve": {
+        "x": -4.64445,
+        "y": 60.1183
+      }
+    }
+  ],
+  "id": 1132
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - mathematical models",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "mathematical models",
+      "url": "http://www.wikiwand.com/en/Mathematical_model",
+      "fx": -120.10161228228537,
+      "fy": -304.1390784303314,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -39.75,
+      "fy": -151.5252628504673,
+      "nodes": [
+        {
+          "text": "1. mathematical modelling by MIT",
+          "url": "https://www.youtube.com/watch?v=CgfkEUOFAj0&amp;list=PLFFA35EF8CECBA074",
+          "fx": 116.25,
+          "fy": -140.0252628504673,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "game theory  ️",
+      "url": "/mathematics/mathematical-models/game-theory",
+      "fx": -213.93057424129256,
+      "fy": -5.79827871536537,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "mathematical models",
+      "target": "basics",
+      "curve": {
+        "x": -0.824194,
+        "y": 75.0569
+      }
+    },
+    {
+      "source": "basics",
+      "target": "game theory  ️",
+      "curve": {
+        "x": -65.8403,
+        "y": 74.1135
+      }
+    }
+  ],
+  "id": 1031
+}

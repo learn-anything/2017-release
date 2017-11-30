@@ -1,0 +1,264 @@
+{
+  "title": "learn anything - mathematics - topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "topology",
+      "url": "http://www.wikiwand.com/en/Topology",
+      "fx": -52.47421875000009,
+      "fy": -344.728125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 79.56610086999603,
+      "fy": -214.3215201555214,
+      "nodes": [
+        {
+          "text": "17: stolen necklaces and Borsuk-Ulam",
+          "url": "https://www.youtube.com/watch?v=FhSFkLhDANA",
+          "fx": 278.56610086999603,
+          "fy": -214.3215201555214,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -68.79032728349489,
+      "fy": 14.792919843797733,
+      "nodes": [
+        {
+          "text": "1. topology by Munkres",
+          "url": "http://www.maths.ed.ac.uk/~aar/papers/munkres2.pdf",
+          "fx": 120.20967271650511,
+          "fy": -94.20708015620227,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. geometry and topology",
+          "url": "http://www.math.columbia.edu/%7Ehliu/shp/s17-geometry-and-topology.pdf",
+          "fx": 120.20967271650511,
+          "fy": -52.20708015620227,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "2. topology lectures",
+          "url": "https://www.youtube.com/watch?v=7G4SqIboeig",
+          "fx": 120.20967271650511,
+          "fy": -10.207080156202267,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "3. topology from the differentiable viewpoint",
+          "url": "http://www.maths.ed.ac.uk/~aar/papers/milnortop.pdf",
+          "fx": 120.20967271650511,
+          "fy": 31.792919843797733,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(252, 177, 20, 1.0)"
+        },
+        {
+          "text": "3. euler's gem: the polyhedron formula and the birth of topology",
+          "url": "http://www.goodreads.com/book/show/5182228-euler-s-gem",
+          "fx": 120.20967271650511,
+          "fy": 98.79291984379773,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(255, 254, 60, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "applied topology  ️",
+      "url": "/mathematics/topology/applied-topology",
+      "fx": -1968.8050791110716,
+      "fy": 214.50809329547542,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "knot theory  ️",
+      "url": "/mathematics/topology/knot-theory",
+      "fx": -1720.6875,
+      "fy": 215.07421875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fiber bundle",
+      "url": "http://www.wikiwand.com/en/Fiber_bundle",
+      "fx": -1267.9047546386719,
+      "fy": 215.75254440307617,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "topological spaces  ️",
+      "url": "/mathematics/topology/topological-spaces",
+      "fx": -1071.7831115722656,
+      "fy": 216.22760772705078,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "general topology  ️",
+      "url": "/mathematics/topology/general-topology",
+      "fx": -1518.6298828125,
+      "fy": 216.27783203124977,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computational topology  ️",
+      "url": "/mathematics/topology/computational-topology",
+      "fx": -806.6920623779297,
+      "fy": 217.58037567138672,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "differential topology  ️",
+      "url": "/mathematics/topology/differential-topology",
+      "fx": -226.53203964233398,
+      "fy": 218.7051010131836,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "algebraic topology  ️",
+      "url": "/mathematics/topology/algebraic-topology",
+      "fx": 41.59834289550781,
+      "fy": 219.7921371459961,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "geometric topology  ️",
+      "url": "/mathematics/topology/geometric-topology",
+      "fx": -496.6167907714844,
+      "fy": 222.52765655517578,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "morse theory  ️",
+      "url": "/mathematics/topology/morse-theory",
+      "fx": -276.8020778977083,
+      "fy": 339.55781544702904,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "topology",
+      "target": "basics",
+      "curve": {
+        "x": -20.6581,
+        "y": 178.51
+      }
+    },
+    {
+      "source": "basics",
+      "target": "differential topology  ️",
+      "curve": {
+        "x": -49.3709,
+        "y": 101.956
+      }
+    },
+    {
+      "source": "differential topology  ️",
+      "target": "morse theory  ️",
+      "curve": {
+        "x": -46.1351,
+        "y": 59.1762
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebraic topology  ️",
+      "curve": {
+        "x": 63.5786,
+        "y": 112.509
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometric topology  ️",
+      "curve": {
+        "x": -183.914,
+        "y": 105.117
+      }
+    },
+    {
+      "source": "basics",
+      "target": "computational topology  ️",
+      "curve": {
+        "x": -409.287,
+        "y": 90.2726
+      }
+    },
+    {
+      "source": "basics",
+      "target": "topological spaces  ️",
+      "curve": {
+        "x": -590.434,
+        "y": 59.9204
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fiber bundle",
+      "curve": {
+        "x": -828.76,
+        "y": 80.1829
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "topology",
+      "curve": {
+        "x": -62.2701,
+        "y": -63.9533
+      }
+    },
+    {
+      "source": "basics",
+      "target": "general topology  ️",
+      "curve": {
+        "x": -962.855,
+        "y": 17.1419
+      }
+    },
+    {
+      "source": "basics",
+      "target": "knot theory  ️",
+      "curve": {
+        "x": -1101.81,
+        "y": 17.5668
+      }
+    },
+    {
+      "source": "basics",
+      "target": "applied topology  ️",
+      "curve": {
+        "x": -1265.28,
+        "y": 42.4198
+      }
+    }
+  ],
+  "id": 1145
+}

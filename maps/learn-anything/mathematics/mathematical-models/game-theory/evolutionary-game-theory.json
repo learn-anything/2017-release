@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - mathematical models - game theory - evolutionary game theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "evolutionary game theory",
+      "url": "http://www.wikiwand.com/en/Evolutionary_game_theory",
+      "fx": -56.5111083984375,
+      "fy": -80.35138988494873,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 37.660050675675734,
+      "fy": 96.00295608108121,
+      "nodes": [
+        {
+          "text": "1. game theory: why should I be nice?",
+          "url": "https://www.youtube.com/watch?v=t_pkurcA_nw",
+          "fx": 193.66005067567573,
+          "fy": 76.50295608108121,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. evolutionary game theory",
+          "url": "https://www.youtube.com/watch?v=aP25rlgwD54",
+          "fx": 193.66005067567573,
+          "fy": 138.5029560810812,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "evolutionary game theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.41442,
+        "y": 86.9272
+      }
+    }
+  ],
+  "id": 1026
+}

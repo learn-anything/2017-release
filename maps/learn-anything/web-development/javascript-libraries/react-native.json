@@ -1,0 +1,155 @@
+{
+  "title": "learn anything - web development - javascript libraries - react native",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "react native",
+      "url": "http://www.wikiwand.com/en/React_(JavaScript_library)",
+      "fx": -173.92187499999977,
+      "fy": -324.7519531250002,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/facebook/react-native",
+          "fx": 57.07812500000023,
+          "fy": -330.7519531250002,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/jondot/awesome-react-native",
+          "fx": 57.07812500000023,
+          "fy": -290.7519531250002,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 48.67477478297394,
+      "fy": -177.01694933955133,
+      "nodes": [
+        {
+          "text": "17: powering ubereats with react native and uber engineering  ️",
+          "url": "https://eng.uber.com/ubereats-react-native/",
+          "fx": 210.67477478297394,
+          "fy": -207.51694933955133,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "why i'm not a react native developer  ️",
+          "url": "https://arielelkin.github.io/articles/why-im-not-a-react-native-developer",
+          "fx": 210.67477478297394,
+          "fy": -145.51694933955133,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 250.00570366737657,
+      "fy": -26.398227510851825,
+      "nodes": [
+        {
+          "text": "create react native app",
+          "url": "https://github.com/react-community/create-react-native-app",
+          "fx": 392.00570366737657,
+          "fy": -34.898227510851825,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "metro bundler",
+          "url": "https://github.com/facebook/metro-bundler",
+          "fx": 392.00570366737657,
+          "fy": 5.101772489148175,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -279.357052874548,
+      "fy": 62.95253008480387,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://facebook.github.io/react-native/docs/getting-started.html",
+          "fx": -97.357052874548,
+          "fy": 9.452530084803868,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. react native express",
+          "url": "http://www.reactnativeexpress.com/",
+          "fx": -97.357052874548,
+          "fy": 43.45253008480387,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. react native in 5 minutes",
+          "url": "https://repl.it/site/react_native",
+          "fx": -97.357052874548,
+          "fy": 83.45253008480387,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. intro to react native for an iOS developer  ️",
+          "url": "http://artsy.github.io/blog/2017/07/06/React-Native-for-iOS-devs/",
+          "fx": -97.357052874548,
+          "fy": 117.45253008480387,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "react native",
+      "target": "basics",
+      "curve": {
+        "x": -71.4676,
+        "y": 192.603
+      }
+    },
+    {
+      "source": "tools",
+      "target": "articles",
+      "curve": {
+        "x": -115.876,
+        "y": -48.3769
+      }
+    },
+    {
+      "source": "articles",
+      "target": "react native",
+      "curve": {
+        "x": -94.0483,
+        "y": -72.6175
+      }
+    }
+  ],
+  "id": 1900
+}

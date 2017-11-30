@@ -1,0 +1,138 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - lipids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "lipids",
+      "url": "http://www.wikiwand.com/en/Lipid",
+      "fx": 136.8085399832446,
+      "fy": -302.0720985412029,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 143.2027264030612,
+      "fy": -157.47727997448982,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=VGHD9e3yRIU",
+          "fx": 306.2027264030612,
+          "fy": -144.97727997448982,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "fats",
+      "url": "http://www.wikiwand.com/en/Fat",
+      "fx": -83.13707482084942,
+      "fy": -0.2509045114322248,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "phospholipids",
+      "url": "http://www.wikiwand.com/en/Phospholipid",
+      "fx": 65.38590415643182,
+      "fy": 0.152891314759529,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "steroids",
+      "url": "http://www.wikiwand.com/en/Steroid",
+      "fx": 313.6968231201172,
+      "fy": 0.9577322006225586,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "saturated fat",
+      "url": "http://www.wikiwand.com/en/Saturated_fat",
+      "fx": -315.1865234375,
+      "fy": 108.7607421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "unsaturated fat",
+      "url": "http://www.wikiwand.com/en/Unsaturated_fat",
+      "fx": -107.98981408227837,
+      "fy": 108.7939453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "trans fat",
+      "url": "http://www.wikiwand.com/en/Trans_fat",
+      "fx": -73.92772178622545,
+      "fy": 228.53414635056083,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "fats",
+      "target": "saturated fat",
+      "curve": {
+        "x": -94.2747,
+        "y": 54.5058
+      }
+    },
+    {
+      "source": "fats",
+      "target": "unsaturated fat",
+      "curve": {
+        "x": 7.57359,
+        "y": 53.7724
+      }
+    },
+    {
+      "source": "unsaturated fat",
+      "target": "trans fat",
+      "curve": {
+        "x": -0.218954,
+        "y": 59.8701
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fats",
+      "curve": {
+        "x": -112.42,
+        "y": 79.3632
+      }
+    },
+    {
+      "source": "basics",
+      "target": "phospholipids",
+      "curve": {
+        "x": -12.4084,
+        "y": 79.5651
+      }
+    },
+    {
+      "source": "basics",
+      "target": "steroids",
+      "curve": {
+        "x": 98.247,
+        "y": 79.9675
+      }
+    },
+    {
+      "source": "lipids",
+      "target": "basics",
+      "curve": {
+        "x": -1.05291,
+        "y": 71.5474
+      }
+    }
+  ],
+  "id": 1457
+}

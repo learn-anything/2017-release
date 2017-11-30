@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - number theory - arithmetic - multiplication",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "multiplication",
+      "url": "http://www.wikiwand.com/en/Multiplication",
+      "fx": -79.6953125,
+      "fy": -145.88671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -40.70770202020208,
+      "fy": -13.442313762626327,
+      "nodes": [
+        {
+          "text": "1.multiplication and division",
+          "url": "https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide",
+          "fx": 115.29229797979792,
+          "fy": -1.942313762626327,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "exponentiation   ️",
+      "url": "/mathematics/number-theory/arithmetic/multiplication/exponentiation",
+      "fx": -196.0621859296483,
+      "fy": 107.51511463567829,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "multiplication",
+      "target": "basics",
+      "curve": {
+        "x": -2.75619,
+        "y": 64.9722
+      }
+    },
+    {
+      "source": "basics",
+      "target": "exponentiation   ️",
+      "curve": {
+        "x": -57.4272,
+        "y": 60.4787
+      }
+    }
+  ],
+  "id": 1037
+}

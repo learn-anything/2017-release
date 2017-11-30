@@ -1,0 +1,157 @@
+{
+  "title": "learn anything - programming - programming languages - scala",
+  "tag": "scala programming language",
+  "nodes": [
+    {
+      "text": "scala",
+      "url": "http://www.wikiwand.com/en/Scala_(programming_language)",
+      "fx": -45.132252483901425,
+      "fy": -356.84984938479266,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/scala/scala",
+          "fx": 128.86774751609858,
+          "fy": -402.84984938479266,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/scala/",
+          "fx": 128.86774751609858,
+          "fy": -362.84984938479266,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/scala",
+          "fx": 128.86774751609858,
+          "fy": -322.84984938479266,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/lauris/awesome-scala",
+          "fx": 128.86774751609858,
+          "fy": -282.84984938479266,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 58.6784512904469,
+      "fy": -214.09236646620604,
+      "nodes": [
+        {
+          "text": "scala’s types of types  ️",
+          "url": "http://ktoso.github.io/scala-types-of-types/",
+          "fx": 195.6784512904469,
+          "fy": -222.59236646620604,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "free scala books",
+          "url": "https://github.com/search?q=topic%3Abook+org%3Aunderscoreio&amp;type=Repositories",
+          "fx": 195.6784512904469,
+          "fy": -182.59236646620604,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 91.90331491712766,
+      "fy": -69.99059046961935,
+      "nodes": [
+        {
+          "text": "16: strategic scala style: conciseness &amp; names  ️",
+          "url": "http://www.lihaoyi.com/post/StrategicScalaStyleConcisenessNames.html",
+          "fx": 253.90331491712766,
+          "fy": -89.49059046961935,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: scala interview questions  ️",
+          "url": "http://pedrorijo.com/blog/scala-interview-questions/",
+          "fx": 253.90331491712766,
+          "fy": -27.49059046961935,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -59.2338879939108,
+      "fy": 69.80451524850412,
+      "nodes": [
+        {
+          "text": "1. functional programming principles in scala",
+          "url": "https://www.coursera.org/learn/progfun1",
+          "fx": 122.7661120060892,
+          "fy": 50.30451524850412,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. creative scala",
+          "url": "http://underscore.io/training/courses/creative-scala/",
+          "fx": 122.7661120060892,
+          "fy": 112.30451524850412,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "scala",
+      "target": "basics",
+      "curve": {
+        "x": -4.30073,
+        "y": 213.327
+      }
+    },
+    {
+      "source": "help",
+      "target": "scala",
+      "curve": {
+        "x": -49.9055,
+        "y": -71.3788
+      }
+    },
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -22.8624,
+        "y": -72.0509
+      }
+    }
+  ],
+  "id": 1648
+}

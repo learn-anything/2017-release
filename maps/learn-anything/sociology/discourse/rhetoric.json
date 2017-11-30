@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - sociology - discourse - rhetoric",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "rhetoric",
+      "url": "http://www.wikiwand.com/en/Rhetoric",
+      "fx": 115.59765625,
+      "fy": -149.6953125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 132.22730286907085,
+      "fy": -5.986757227664839,
+      "nodes": [
+        {
+          "text": "1. how to use rhetoric to get what you want",
+          "url": "https://www.youtube.com/watch?v=3klMM9BkW5o",
+          "fx": 295.22730286907085,
+          "fy": -5.986757227664839,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "rhetoric",
+      "target": "basics",
+      "curve": {
+        "x": -1.93518,
+        "y": 71.1043
+      }
+    }
+  ],
+  "id": 1783
+}

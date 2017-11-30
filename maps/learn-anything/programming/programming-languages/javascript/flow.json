@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - programming - programming languages - javascript - flow",
+  "tag": "flow type checking",
+  "nodes": [
+    {
+      "text": "flow",
+      "url": "https://github.com/facebook/flow",
+      "fx": -144.4538901417526,
+      "fy": -73.23799935567007,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/dustinspecker/awesome-flow",
+          "fx": 19.546109858247405,
+          "fy": -59.23799935567007,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -36.40467944587624,
+      "fy": 33.69990335051551,
+      "nodes": [
+        {
+          "text": "typescript vs flow",
+          "url": "https://github.com/niieani/typescript-vs-flowtype",
+          "fx": 100.59532055412376,
+          "fy": 45.19990335051551,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -149.82406839866496,
+      "fy": 133.01372801152456,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://flow.org/en/docs/getting-started/",
+          "fx": 6.175931601335037,
+          "fy": 147.51372801152456,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "flow",
+      "curve": {
+        "x": -47.2746,
+        "y": -52.219
+      }
+    },
+    {
+      "source": "flow",
+      "target": "basics",
+      "curve": {
+        "x": -4.68509,
+        "y": 101.876
+      }
+    }
+  ],
+  "id": 1612
+}

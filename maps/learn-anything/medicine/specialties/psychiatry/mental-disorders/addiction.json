@@ -1,0 +1,63 @@
+{
+  "title": "learn anything - medicine - specialties - psychiatry - mental disorders - addiction",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "addiction",
+      "url": "http://www.wikiwand.com/en/Addiction",
+      "fx": -37.20221185064929,
+      "fy": -233.91462053571428,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/addiction/",
+          "fx": 172.7977881493507,
+          "fy": -219.91462053571428,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -23.524756493506516,
+      "fy": -86.39529220779218,
+      "nodes": [
+        {
+          "text": "1. addiction explained",
+          "url": "https://www.youtube.com/watch?v=ao8L-0nSYzg",
+          "fx": 158.47524350649348,
+          "fy": -105.89529220779218,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. how the internet redesigns your mind",
+          "note": "internet is addicting   context switching is bad as it ‘erases’ short term memory to focus on new task  brain rewires itself to receive pleasure at low cost of effort  cocaine numbs certain connections that help you make rational decisions",
+          "url": "https://www.youtube.com/watch?v=ZWI4_Oe-Qbs",
+          "fx": 158.47524350649348,
+          "fy": -65.89529220779218,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "addiction",
+      "target": "basics",
+      "curve": {
+        "x": -13.1613,
+        "y": 72.5097
+      }
+    }
+  ],
+  "id": 1167
+}

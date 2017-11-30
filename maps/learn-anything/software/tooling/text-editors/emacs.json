@@ -1,0 +1,177 @@
+{
+  "title": "learn anything - software - tooling - text editors - emacs",
+  "tag": "emacs text editor",
+  "nodes": [
+    {
+      "text": "emacs",
+      "url": "https://www.gnu.org/software/emacs/",
+      "fx": -100.57016197720873,
+      "fy": -178.05709311119574,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/emacs-tw/awesome-emacs",
+          "fx": 58.42983802279127,
+          "fy": -166.55709311119574,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 9.563572474888247,
+      "fy": -70.89468749483723,
+      "nodes": [
+        {
+          "text": "15: getting started with emacs? empty your cup  ️",
+          "url": "http://sachachua.com/blog/2015/02/getting-started-emacs-empty-cup/",
+          "fx": 171.56357247488825,
+          "fy": -70.39468749483723,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "videos",
+      "url": "",
+      "fx": 113.98105780522656,
+      "fy": 32.551713441547804,
+      "nodes": [
+        {
+          "text": "emacs multiple cursors",
+          "url": "http://emacsrocks.com/e13.html",
+          "fx": 270.98105780522656,
+          "fy": 44.051713441547804,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 201.13144288027183,
+      "fy": 126.2998268873173,
+      "nodes": [
+        {
+          "text": "hack emacs in Go",
+          "url": "https://github.com/Quasilyte/goism",
+          "fx": 343.13144288027183,
+          "fy": 137.7998268873173,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 263.47277832031205,
+      "fy": 220.37853005847091,
+      "nodes": [
+        {
+          "text": "remacs",
+          "note": "emacs in rust",
+          "url": "https://github.com/Wilfred/remacs",
+          "fx": 454.47277832031205,
+          "fy": 231.87853005847091,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -335.72807532080185,
+      "fy": 290.32036487147354,
+      "nodes": [
+        {
+          "text": "1. practical emacs tutorial",
+          "url": "http://ergoemacs.org/emacs/emacs.html",
+          "fx": -153.72807532080185,
+          "fy": 239.82036487147354,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn elisp in in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/elisp/",
+          "fx": -153.72807532080185,
+          "fy": 279.82036487147354,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. introduction to programming in emacs lisp",
+          "url": "https://www.gnu.org/software/emacs/manual/eintr.html",
+          "fx": -153.72807532080185,
+          "fy": 313.82036487147354,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. emacs lisp reference manual",
+          "url": "https://www.gnu.org/software/emacs/manual/elisp.html",
+          "fx": -153.72807532080185,
+          "fy": 369.82036487147354,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "videos",
+      "target": "articles",
+      "curve": {
+        "x": -50.9588,
+        "y": -51.7232
+      }
+    },
+    {
+      "source": "emacs",
+      "target": "basics",
+      "curve": {
+        "x": -124.829,
+        "y": 234.189
+      }
+    },
+    {
+      "source": "tools",
+      "target": "videos",
+      "curve": {
+        "x": -39.8257,
+        "y": -46.8741
+      }
+    },
+    {
+      "source": "articles",
+      "target": "emacs",
+      "curve": {
+        "x": -55.8169,
+        "y": -53.5813
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "tools",
+      "curve": {
+        "x": -43.4207,
+        "y": -47.0394
+      }
+    }
+  ],
+  "id": 1814
+}

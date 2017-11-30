@@ -1,0 +1,78 @@
+{
+  "title": "learn anything - psychology - creativity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "creativity",
+      "url": "http://www.wikiwand.com/en/Creativitya",
+      "fx": -71.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Creativity/",
+          "fx": 134.5,
+          "fy": 12,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 52.286864178565565,
+      "fy": 113.190279992525,
+      "nodes": [
+        {
+          "text": "imagining your future projects is holding you back  ️",
+          "url": "http://jessicaabel.com/2016/01/27/idea-debt/",
+          "fx": 214.28686417856557,
+          "fy": 113.690279992525,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -55.50480783864407,
+      "fy": 205.53927719631616,
+      "nodes": [
+        {
+          "text": "1. Creativity, Inc",
+          "url": "http://www.goodreads.com/book/show/18077903-creativity-inc",
+          "fx": 126.49519216135593,
+          "fy": 217.03927719631616,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "creativity",
+      "curve": {
+        "x": -50.8934,
+        "y": -56.3451
+      }
+    },
+    {
+      "source": "creativity",
+      "target": "basics",
+      "curve": {
+        "x": -4.5024,
+        "y": 102.52
+      }
+    }
+  ],
+  "id": 1752
+}

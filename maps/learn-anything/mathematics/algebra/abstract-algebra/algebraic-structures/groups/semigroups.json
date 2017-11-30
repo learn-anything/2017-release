@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - groups - semigroups",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "semigroups",
+      "url": "http://www.wikiwand.com/en/Semigroup",
+      "fx": -14.832761764526367,
+      "fy": -144.14191055297852,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 135.68715018656712,
+      "fy": -44.894356343244226,
+      "nodes": [
+        {
+          "text": "what is the difference between a subgroup and semigroup   ️",
+          "url": "https://math.stackexchange.com/questions/1398533/what-is-the-difference-between-a-subgroup-and-semigroup",
+          "fx": 272.6871501865671,
+          "fy": -44.394356343244226,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 12.73758162313436,
+      "fy": 70.40630830223893,
+      "nodes": [
+        {
+          "text": "1. introduction to semigroups and monoids",
+          "url": "http://math.uga.edu/~pete/semigroup.pdf",
+          "fx": 168.73758162313436,
+          "fy": 70.90630830223893,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "semigroups",
+      "target": "basics",
+      "curve": {
+        "x": -5.46483,
+        "y": 106.024
+      }
+    },
+    {
+      "source": "help",
+      "target": "semigroups",
+      "curve": {
+        "x": -51.26,
+        "y": -48.3738
+      }
+    }
+  ],
+  "id": 823
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - mathematics - algebra - equations - parametric equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "parametric equations",
+      "url": "http://www.wikiwand.com/en/Parametric_equation",
+      "fx": -564.3515625,
+      "fy": -198.8671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -481.5390625,
+      "fy": -47.0078125,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=d4KADBFqpR0",
+          "fx": -318.5390625,
+          "fy": -34.5078125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Lissajous curve  ️",
+      "url": "/mathematics/algebra/equations/parametric-equations/lissajous-curve",
+      "fx": -672.21875,
+      "fy": 93.296875,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "parametric equations",
+      "target": "basics",
+      "curve": {
+        "x": -2.59375,
+        "y": 75.1797
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Lissajous curve  ️",
+      "curve": {
+        "x": -73.0898,
+        "y": 70.1523
+      }
+    }
+  ],
+  "id": 1933
+}

@@ -1,0 +1,197 @@
+{
+  "title": "learn anything - mathematics - set theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "set theory",
+      "url": "http://www.wikiwand.com/en/Set_theory",
+      "fx": -123.77734375,
+      "fy": -267.68359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -109.44810212253071,
+      "fy": -123.59029571280996,
+      "nodes": [
+        {
+          "text": "1. naive set theory",
+          "url": "https://www.goodreads.com/book/show/558194.Naive_Set_Theory",
+          "fx": 79.55189787746929,
+          "fy": -196.59029571280996,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. set theory and foundations of mathematics",
+          "url": "http://www.settheory.net/",
+          "fx": 79.55189787746929,
+          "fy": -154.59029571280996,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. set theory and axiomatic systems  ️",
+          "url": "http://0a.io/set-theory-and-axiomatic-systems",
+          "fx": 79.55189787746929,
+          "fy": -87.59029571280996,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. lecture on sets",
+          "url": "http://www.scottaaronson.com/democritus/lec2.html",
+          "fx": 79.55189787746929,
+          "fy": -20.59029571280996,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "naive set theory  ️",
+      "url": "/mathematics/set-theory/naive-set-theory",
+      "fx": -32.981498921197385,
+      "fy": 109.38374064869879,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "binary relation  ️",
+      "url": "/mathematics/set-theory/binary-relation",
+      "fx": -250.75290298461914,
+      "fy": 110.02195358276367,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sets",
+      "url": "http://www.wikiwand.com/en/Set_(mathematics)",
+      "fx": -389.9472535338896,
+      "fy": 111.66686000702396,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Banach-Tarski paradox  ️",
+      "url": "/mathematics/set-theory/banach-tarski-paradox",
+      "fx": -709.4427083333333,
+      "fy": 112.47774621212125,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "disjoint sets",
+      "url": "http://www.wikiwand.com/en/Disjoint_sets",
+      "fx": -133.97613051528265,
+      "fy": 265.0414989722682,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "union  ️",
+      "url": "/mathematics/set-theory/union",
+      "fx": -271.9315672473899,
+      "fy": 265.97057095009177,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "metric spaces  ️",
+      "url": "/mathematics/set-theory/metric-spaces",
+      "fx": -494.6658401489258,
+      "fy": 266.0805320739746,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "cardinality  ️",
+      "url": "/mathematics/set-theory/cardinality",
+      "fx": -670.8032801418445,
+      "fy": 267.16757535460977,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "set theory",
+      "target": "basics",
+      "curve": {
+        "x": -8.08537,
+        "y": 70.7966
+      }
+    },
+    {
+      "source": "basics",
+      "target": "naive set theory  ️",
+      "curve": {
+        "x": 59.9833,
+        "y": 117.737
+      }
+    },
+    {
+      "source": "basics",
+      "target": "binary relation  ️",
+      "curve": {
+        "x": -60.1524,
+        "y": 116.806
+      }
+    },
+    {
+      "source": "basics",
+      "target": "sets",
+      "curve": {
+        "x": -177.711,
+        "y": 99.1853
+      }
+    },
+    {
+      "source": "sets",
+      "target": "metric spaces  ️",
+      "curve": {
+        "x": -35.6094,
+        "y": 76.4568
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Banach-Tarski paradox  ️",
+      "curve": {
+        "x": -297.333,
+        "y": 82.3817
+      }
+    },
+    {
+      "source": "sets",
+      "target": "union  ️",
+      "curve": {
+        "x": 62.0079,
+        "y": 77.1518
+      }
+    },
+    {
+      "source": "sets",
+      "target": "disjoint sets",
+      "curve": {
+        "x": 146.736,
+        "y": 76.6873
+      }
+    },
+    {
+      "source": "sets",
+      "target": "cardinality  ️",
+      "curve": {
+        "x": -157.14,
+        "y": 76.2911
+      }
+    }
+  ],
+  "id": 1072
+}

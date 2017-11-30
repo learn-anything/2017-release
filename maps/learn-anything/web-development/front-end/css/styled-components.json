@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - web development - front end - css - styled components",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "styled components",
+      "url": "https://github.com/styled-components/styled-components",
+      "fx": -134.02477766338143,
+      "fy": -65.64001043219315,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/romellogood/awesome-styled-components",
+          "fx": 165.97522233661857,
+          "fy": -51.64001043219315,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -67.20017486418544,
+      "fy": 105.2005714617278,
+      "nodes": [
+        {
+          "text": "1. basics",
+          "url": "https://www.styled-components.com/docs/basics#motivation",
+          "fx": 88.79982513581456,
+          "fy": 68.7005714617278,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. 5 min intro to styled components  ️",
+          "url": "https://medium.freecodecamp.org/a-5-minute-intro-to-styled-components-41f40eb7cd55",
+          "fx": 88.79982513581456,
+          "fy": 102.7005714617278,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. styling react apps with styled components",
+          "url": "https://www.youtube.com/watch?v=qu4U7lwZTRI",
+          "fx": 88.79982513581456,
+          "fy": 142.7005714617278,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "styled components",
+      "target": "basics",
+      "curve": {
+        "x": -2.5877,
+        "y": 84.1699
+      }
+    }
+  ],
+  "id": 1871
+}

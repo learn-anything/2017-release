@@ -1,0 +1,91 @@
+{
+  "title": "learn anything - operating systems - fuchsia",
+  "tag": "fuchsia OS",
+  "nodes": [
+    {
+      "text": "google Fuchsia",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Google_Fuchsia",
+      "fx": -38.33984375,
+      "fy": -221.26171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 150.2013903226757,
+      "fy": -110.96385860672137,
+      "nodes": [
+        {
+          "text": "17: Google’s not-so-secret new os  ️",
+          "url": "https://techspecs.blog/blog/2017/2/14/googles-not-so-secret-new-os",
+          "fx": 312.2013903226757,
+          "fy": -110.46385860672137,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 339.32216630245284,
+      "fy": 2.233286155513383,
+      "nodes": [
+        {
+          "text": "sandboxing in Fuchsia",
+          "url": "https://fuchsia.googlesource.com/docs/+/master/sandboxing.md",
+          "fx": 530.3221663024528,
+          "fy": 16.733286155513383,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 14.750007769812782,
+      "fy": 125.82261771804713,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://fuchsia.googlesource.com/docs/+/master/getting_started.md",
+          "fx": 170.75000776981278,
+          "fy": 140.32261771804713,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "google Fuchsia",
+      "curve": {
+        "x": -63.7706,
+        "y": -53.8989
+      }
+    },
+    {
+      "source": "google Fuchsia",
+      "target": "basics",
+      "curve": {
+        "x": -5.45507,
+        "y": 172.292
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "articles",
+      "curve": {
+        "x": -101.81,
+        "y": -56.5986
+      }
+    }
+  ],
+  "id": 1275
+}

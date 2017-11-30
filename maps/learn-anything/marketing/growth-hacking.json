@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - marketing - growth hacking",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "growth hacking",
+      "url": "http://www.wikiwand.com/en/Growth_hacking",
+      "fx": 336.67820266812885,
+      "fy": -175.13208150584796,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 504.6445540935674,
+      "fy": -72.38093932748535,
+      "nodes": [
+        {
+          "text": "awesome growth hacking",
+          "url": "https://github.com/btomashvili/awesome-growth-hacking",
+          "fx": 641.6445540935674,
+          "fy": -60.88093932748535,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "if you think this can be improved in any way ",
+      "url": "",
+      "fx": 407.8919706937892,
+      "fy": 26.36017244819078,
+      "nodes": [
+        {
+          "text": "1. growth by Alex Schultz",
+          "url": "https://www.youtube.com/watch?v=n_yHZ_vKjno",
+          "fx": 589.8919706937892,
+          "fy": 37.86017244819078,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "growth hacking",
+      "curve": {
+        "x": -45.2332,
+        "y": -50.1256
+      }
+    },
+    {
+      "source": "growth hacking",
+      "target": "basics",
+      "curve": {
+        "x": 1.60688,
+        "y": 99.4961
+      }
+    }
+  ],
+  "id": 812
+}

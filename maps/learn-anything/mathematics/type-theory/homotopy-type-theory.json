@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - mathematics - type theory - homotopy type theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "homotopy type theory",
+      "url": "http://www.wikiwand.com/en/Homotopy_type_theory",
+      "fx": -126.18359375,
+      "fy": -221.703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -60.005587420885945,
+      "fy": -55.223892405063225,
+      "nodes": [
+        {
+          "text": "1. what is homotopy type theory?",
+          "url": "https://www.reddit.com/r/compsci/comments/19skgi/what_is_homotopy_type_theory_and_are_there_any/c8s5l79/",
+          "fx": 121.99441257911406,
+          "fy": -63.723892405063225,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. homotopy type theory",
+          "url": "https://hott.github.io/book/nightly/hott-online-1075-g3c53219.pdf",
+          "fx": 121.99441257911406,
+          "fy": -23.723892405063225,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "homotopy type theory",
+      "target": "basics",
+      "curve": {
+        "x": -9.41099,
+        "y": 81.9896
+      }
+    }
+  ],
+  "id": 1148
+}

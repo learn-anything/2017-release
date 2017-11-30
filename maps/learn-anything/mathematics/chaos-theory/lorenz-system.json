@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - chaos theory - lorenz system",
+  "tag": "Lorenz system",
+  "nodes": [
+    {
+      "text": "Lorenz system",
+      "url": "http://www.wikiwand.com/en/Lorenz_system",
+      "fx": 82.984375,
+      "fy": -64.70703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 134.2802894467212,
+      "fy": 109.21119364755089,
+      "nodes": [
+        {
+          "text": "1. strange attractors - the butterfly effect",
+          "url": "https://www.youtube.com/watch?v=aAJkLh76QnM",
+          "fx": 297.2802894467212,
+          "fy": 88.21119364755089,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. chaos and butterfly effect",
+          "url": "https://www.youtube.com/watch?v=WepOorvo2I4",
+          "fx": 297.2802894467212,
+          "fy": 155.21119364755089,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Lorenz system",
+      "target": "basics",
+      "curve": {
+        "x": -2.10204,
+        "y": 86.2091
+      }
+    }
+  ],
+  "id": 919
+}

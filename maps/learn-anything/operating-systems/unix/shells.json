@@ -1,0 +1,201 @@
+{
+  "title": "learn anything - operating systems - unix - shells",
+  "tag": "unix shells",
+  "nodes": [
+    {
+      "text": "unix shells",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Unix_shell",
+      "fx": 14.062720546900096,
+      "fy": -396.3054407662716,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/alebcay/awesome-shell",
+          "fx": 273.0627205469001,
+          "fy": -382.3054407662716,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 62.05123910693658,
+      "fy": -262.6938625260668,
+      "nodes": [
+        {
+          "text": "1. unix terminals and shells",
+          "url": "https://www.youtube.com/watch?v=07Q9oqNLXB4",
+          "fx": 225.05123910693658,
+          "fy": -271.1938625260668,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. pretty and fast shell  ️",
+          "url": "https://medium.com/@NikitaVoloboev/pretty-and-fast-shell-97ea870f2805",
+          "fx": 225.05123910693658,
+          "fy": -229.19386252606682,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 235.7707984965549,
+      "fy": -105.18324158280546,
+      "nodes": [
+        {
+          "text": "art of command line",
+          "url": "https://github.com/jlevy/the-art-of-command-line",
+          "fx": 376.7707984965549,
+          "fy": -113.68324158280546,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "terminals are sexy",
+          "url": "https://github.com/k4m4/terminals-are-sexy",
+          "fx": 376.7707984965549,
+          "fy": -71.68324158280546,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "elvish",
+      "url": "https://github.com/elves/elvish",
+      "fx": -339.0548708920186,
+      "fy": -88.25139901911484,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "zsh  ️",
+      "url": "/operating-systems/unix/shells/zsh",
+      "fx": -193.11801122489794,
+      "fy": -86.66009242496477,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "dotfiles  ️",
+      "url": "/operating-systems/unix/shells/dotfiles",
+      "fx": -500.3897470506092,
+      "fy": -85.99985784013006,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bash  ️",
+      "url": "/operating-systems/unix/shells/bash",
+      "fx": -79.65292215210934,
+      "fy": -85.21432228561378,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fish  ️",
+      "url": "/operating-systems/unix/shells/fish",
+      "fx": 49.09993255509505,
+      "fy": -84.46279765766252,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 316.2779857604123,
+      "fy": 33.45416691191912,
+      "nodes": [
+        {
+          "text": "14: configuring your linux for development with zsh, tmux, and vim  ️",
+          "url": "https://www.codementor.io/linux/tutorial/configure-linux-toolset-zsh-tmux-vim",
+          "fx": 485.2779857604123,
+          "fy": 20.954166911919117,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "articles",
+      "target": "help",
+      "curve": {
+        "x": -46.5035,
+        "y": -69.3187
+      }
+    },
+    {
+      "source": "unix shells",
+      "target": "basics",
+      "curve": {
+        "x": 1.49426,
+        "y": 65.5558
+      }
+    },
+    {
+      "source": "help",
+      "target": "basics",
+      "curve": {
+        "x": -82.1097,
+        "y": -78.7553
+      }
+    },
+    {
+      "source": "basics",
+      "target": "fish  ️",
+      "curve": {
+        "x": -5.97565,
+        "y": 90.3655
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bash  ️",
+      "curve": {
+        "x": -66.8521,
+        "y": 89.9897
+      }
+    },
+    {
+      "source": "basics",
+      "target": "zsh  ️",
+      "curve": {
+        "x": -127.084,
+        "y": 89.2668
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dotfiles  ️",
+      "curve": {
+        "x": -315.978,
+        "y": 52.8055
+      }
+    },
+    {
+      "source": "basics",
+      "target": "elvish",
+      "curve": {
+        "x": -236.767,
+        "y": 77.9003
+      }
+    }
+  ],
+  "id": 1306
+}

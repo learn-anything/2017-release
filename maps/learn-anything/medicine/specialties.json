@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - medicine - specialties",
+  "tag": "medical specialties",
+  "nodes": [
+    {
+      "text": "medical specialties",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Specialty_(medicine)",
+      "fx": -99.66015625,
+      "fy": 15.42578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "dermatology  ️",
+      "url": "/medicine/specialties/dermatology",
+      "fx": 53.49536681571226,
+      "fy": 149.58835492815285,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "psychiatry  ️",
+      "url": "/medicine/specialties/psychiatry",
+      "fx": -195.14717457706774,
+      "fy": 150.87030075187977,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "medical specialties",
+      "target": "psychiatry  ️",
+      "curve": {
+        "x": -67.2435,
+        "y": 67.7223
+      }
+    },
+    {
+      "source": "medical specialties",
+      "target": "dermatology  ️",
+      "curve": {
+        "x": 48.5778,
+        "y": 65.8313
+      }
+    }
+  ],
+  "id": 1174
+}

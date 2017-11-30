@@ -1,0 +1,53 @@
+{
+  "title": "learn anything - neuroscience - brain computer interface",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "brain computer interface",
+      "url": "http://www.wikiwand.com/en/Brain%E2%80%93computer_interface",
+      "fx": -183.92745535714278,
+      "fy": -340.53236607142856,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/BCI/",
+          "fx": 164.07254464285722,
+          "fy": -326.53236607142856,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -108.34207589285711,
+      "fy": -191.5675223214286,
+      "nodes": [
+        {
+          "text": "1. neuralink and the brain’s magical future  ️",
+          "url": "http://waitbutwhy.com/2017/04/neuralink.html",
+          "fx": 73.65792410714289,
+          "fy": -191.0675223214286,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "brain computer interface",
+      "target": "basics",
+      "curve": {
+        "x": -6.45733,
+        "y": 74.4826
+      }
+    }
+  ],
+  "id": 1238
+}

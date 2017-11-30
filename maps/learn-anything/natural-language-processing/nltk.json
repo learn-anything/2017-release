@@ -1,0 +1,66 @@
+{
+  "title": "learn anything - natural language processing - nltk",
+  "tag": "natural language toolkit",
+  "nodes": [
+    {
+      "text": "natural language toolkit",
+      "url": "http://www.nltk.org/",
+      "fx": 72.38671875,
+      "fy": -268.43359375,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 291.7632431880953,
+      "fy": -152.81169559890708,
+      "nodes": [
+        {
+          "text": "discussion forum",
+          "url": "https://groups.google.com/forum/#!forum/nltk-users",
+          "fx": 432.7632431880953,
+          "fy": -140.31169559890708,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 149.33848411602207,
+      "fy": -14.1159357734806,
+      "nodes": [
+        {
+          "text": "1. natural language processing with python",
+          "url": "http://www.nltk.org/book/",
+          "fx": 312.3384841160221,
+          "fy": -14.1159357734806,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "natural language toolkit",
+      "curve": {
+        "x": -63.6883,
+        "y": -57.8109
+      }
+    },
+    {
+      "source": "natural language toolkit",
+      "target": "basics",
+      "curve": {
+        "x": -2.02412,
+        "y": 127.159
+      }
+    }
+  ],
+  "id": 1199
+}

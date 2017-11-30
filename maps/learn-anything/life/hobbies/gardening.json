@@ -1,0 +1,80 @@
+{
+  "title": "learn anything - life - hobbies - gardening",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "garderning",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Gardening",
+      "fx": -42.96198987317723,
+      "fy": -202.10952102132467,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/gardening/",
+          "fx": 207.03801012682277,
+          "fy": -208.10952102132467,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://gardening.stackexchange.com/",
+          "fx": 207.03801012682277,
+          "fy": -168.10952102132467,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 32.109953703703695,
+      "fy": -45.35110780423287,
+      "nodes": [
+        {
+          "text": "the rusted garden",
+          "url": "https://www.youtube.com/user/pilarchik/videos",
+          "fx": 169.1099537037037,
+          "fy": -73.85110780423287,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "one yard revolution",
+          "url": "https://www.youtube.com/user/OneYardRevolution/videos",
+          "fx": 169.1099537037037,
+          "fy": -33.85110780423287,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "praxxus",
+          "url": "https://www.youtube.com/user/Praxxus55712/videos",
+          "fx": 169.1099537037037,
+          "fy": 6.148892195767132,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "garderning",
+      "curve": {
+        "x": -15.786,
+        "y": -77.1292
+      }
+    }
+  ],
+  "id": 685
+}

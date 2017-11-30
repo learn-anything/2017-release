@@ -1,0 +1,69 @@
+{
+  "title": "learn anything - programming - programming languages - ocaml - reasonml",
+  "tag": "reasonML",
+  "nodes": [
+    {
+      "text": "reasonML",
+      "note": "",
+      "url": "http://facebook.github.io/reason/",
+      "fx": -44.328075553797476,
+      "fy": -215.50909810126586,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/reasonml/",
+          "fx": 169.67192444620252,
+          "fy": -244.00909810126586,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/facebook/reason",
+          "fx": 169.67192444620252,
+          "fy": -204.00909810126586,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/vramana/awesome-reasonml",
+          "fx": 169.67192444620252,
+          "fy": -164.00909810126586,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -20.180947929177023,
+      "fy": -66.34163459438804,
+      "nodes": [
+        {
+          "text": "1. get started",
+          "url": "https://reasonml.github.io/guide/getting-started/",
+          "fx": 135.81905207082298,
+          "fy": -51.84163459438804,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "reasonML",
+      "target": "basics",
+      "curve": {
+        "x": -2.42644,
+        "y": 74.5837
+      }
+    }
+  ],
+  "id": 1623
+}

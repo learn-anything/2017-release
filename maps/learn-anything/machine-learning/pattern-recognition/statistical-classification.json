@@ -1,0 +1,90 @@
+{
+  "title": "learn anything - machine learning - pattern recognition - statistical classification",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "statistical classification",
+      "url": "http://www.wikiwand.com/en/Statistical_classification",
+      "fx": -78.98828125,
+      "fy": -54.359375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 4.468245967744679,
+      "fy": 120.63860887098099,
+      "nodes": [
+        {
+          "text": "1. data analysis: clustering and classification",
+          "url": "https://www.youtube.com/watch?v=B0TI2q7wgIQ",
+          "fx": 160.46824596774468,
+          "fy": 121.13860887098099,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "random forests  ️",
+      "url": "/machine-learning/pattern-recognition/statistical-classification/random-forests",
+      "fx": -109.87584458349113,
+      "fy": 249.74452242948837,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "probabilistic classification  ️",
+      "url": "/machine-learning/pattern-recognition/statistical-classification/probabilistic-classification",
+      "fx": 103.77633269835542,
+      "fy": 253.61825713594578,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "linear classification  ️",
+      "url": "/machine-learning/pattern-recognition/statistical-classification/linear-classification",
+      "fx": -353.8421206550802,
+      "fy": 254.3949699197861,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "statistical classification",
+      "target": "basics",
+      "curve": {
+        "x": -1.77174,
+        "y": 86.249
+      }
+    },
+    {
+      "source": "basics",
+      "target": "random forests  ️",
+      "curve": {
+        "x": -39.9221,
+        "y": 64.5529
+      }
+    },
+    {
+      "source": "basics",
+      "target": "probabilistic classification  ️",
+      "curve": {
+        "x": 92.154,
+        "y": 66.4898
+      }
+    },
+    {
+      "source": "basics",
+      "target": "linear classification  ️",
+      "curve": {
+        "x": -166.659,
+        "y": 50.3235
+      }
+    }
+  ],
+  "id": 794
+}

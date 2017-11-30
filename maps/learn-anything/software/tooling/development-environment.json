@@ -1,0 +1,510 @@
+{
+  "title": "learn anything - software - tooling - development environment",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "development environment",
+      "url": "",
+      "fx": 75.79785560067933,
+      "fy": -323.4650393534047,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/jondot/awesome-devenv",
+          "fx": 407.7978556006793,
+          "fy": -311.9650393534047,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "vim  ️",
+      "url": "/software/tooling/text-editors/vim",
+      "fx": 293.930037044957,
+      "fy": -172.40935121904306,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sublime text  ️",
+      "url": "/software/tooling/text-editors/sublime-text",
+      "fx": -97.85839650521632,
+      "fy": -112.28234130336057,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "vs code  ️",
+      "url": "/software/tooling/text-editors/vs-code",
+      "fx": 327.740223340527,
+      "fy": -78.97877573899291,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "text editors  ️",
+      "url": "/software/tooling/text-editors",
+      "fx": 110.50665749252119,
+      "fy": -18.417506235217616,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "alfred  ️",
+      "url": "/software/tooling/productivity/alfred",
+      "fx": 626.6130776996995,
+      "fy": 6.188087368878428,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "emacs  ️",
+      "url": "/software/tooling/text-editors/emacs",
+      "fx": -106.00505982350921,
+      "fy": 8.962988895442095,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "atom  ️",
+      "url": "/software/tooling/text-editors/atom",
+      "fx": 341.07543205492425,
+      "fy": 19.410905047667484,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "karabiner  ️",
+      "url": "/software/tooling/productivity/karabiner",
+      "fx": 637.4683954626666,
+      "fy": 94.47668274804732,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "i3",
+      "url": "https://github.com/i3/i3",
+      "fx": -28.521392263772555,
+      "fy": 133.41273609832365,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "typinator",
+      "url": "http://www.ergonis.com/products/typinator/",
+      "fx": 657.7593482592881,
+      "fy": 174.03160644388277,
+      "nodes": []
+    },
+    {
+      "text": "macOS  ️",
+      "url": "/operating-systems/unix/macos",
+      "fx": 302.1722383720887,
+      "fy": 179.4902797965102,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "linux  ️",
+      "url": "/operating-systems/unix/linux",
+      "fx": 131.65764076583372,
+      "fy": 179.8547479284232,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "iTerm",
+      "url": "https://www.iterm2.com/",
+      "fx": 655.5707779430495,
+      "fy": 247.4559235909161,
+      "nodes": []
+    },
+    {
+      "text": "terminator",
+      "url": "https://gnometerminator.blogspot.nl/p/introduction.html",
+      "fx": -51.72915686656631,
+      "fy": 257.2318732443821,
+      "nodes": []
+    },
+    {
+      "text": "textual IRC",
+      "url": "https://www.codeux.com/textual/",
+      "fx": 613.3917023733761,
+      "fy": 317.32359515415146,
+      "nodes": []
+    },
+    {
+      "text": "brew",
+      "url": "http://docs.brew.sh/",
+      "fx": 600.200155264336,
+      "fy": 391.82226778083964,
+      "nodes": []
+    },
+    {
+      "text": "ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "fx": 34.17475754246692,
+      "fy": 394.5540931447887,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "tmux  ️",
+      "url": "/software/tooling/productivity/tmux",
+      "fx": 424.13376687255663,
+      "fy": 437.19647470585045,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "z",
+      "url": "https://github.com/rupa/z",
+      "fx": -28.01031691553601,
+      "fy": 463.7774339529783,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "git  ️",
+      "url": "/programming/version-control/git",
+      "fx": 464.19867395983397,
+      "fy": 520.795056799667,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "thefuck",
+      "url": "https://github.com/nvbn/thefuck",
+      "fx": -122.69002311308077,
+      "fy": 539.9346998086685,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "command line tools  ️",
+      "url": "/software/tooling/cli",
+      "fx": 134.79183509337327,
+      "fy": 540.4226178793524,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "fx": 500.38675038881,
+      "fy": 601.7033833836167,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "howdoi",
+      "url": "https://github.com/gleitz/howdoi",
+      "fx": -121.9501047036083,
+      "fy": 616.6967219716496,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "docker  ️",
+      "url": "/programming/software-development/devops/docker",
+      "fx": 575.8412479146687,
+      "fy": 673.8706101904447,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "vtop",
+      "url": "https://github.com/MrRio/vtop",
+      "fx": -57.249546788674024,
+      "fy": 705.9240547306626,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "messaging  ️",
+      "url": "/software/tooling/messaging",
+      "fx": 173.64907695738918,
+      "fy": 790.4541998604236,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "telegram  ️",
+      "url": "/software/tooling/messaging/telegram",
+      "fx": 428.4464569091797,
+      "fy": 800.8646850585938,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "irc  ️",
+      "url": "/network-science/computer-networking/protocols/irc",
+      "fx": -25.971590909092583,
+      "fy": 849.161754261364,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "slack  ️",
+      "url": "/software/tooling/messaging/slack",
+      "fx": 384.0030288696289,
+      "fy": 913.8789215087891,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "text editors  ️",
+      "target": "vim  ️",
+      "curve": {
+        "x": 69.712,
+        "y": -78.2459
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "vs code  ️",
+      "curve": {
+        "x": 96.6165,
+        "y": -31.5306
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "macOS  ️",
+      "curve": {
+        "x": 83.0828,
+        "y": 97.7039
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "karabiner  ️",
+      "curve": {
+        "x": 171.648,
+        "y": -42.5068
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "alfred  ️",
+      "curve": {
+        "x": 157.72,
+        "y": -86.6511
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "linux  ️",
+      "curve": {
+        "x": -9.1745,
+        "y": 97.8861
+      }
+    },
+    {
+      "source": "messaging  ️",
+      "target": "slack  ️",
+      "curve": {
+        "x": 99.4268,
+        "y": 62.9624
+      }
+    },
+    {
+      "source": "development environment",
+      "target": "text editors  ️",
+      "curve": {
+        "x": -11.1456,
+        "y": 153.774
+      },
+      "text": "choose"
+    },
+    {
+      "source": "messaging  ️",
+      "target": "telegram  ️",
+      "curve": {
+        "x": 129.649,
+        "y": 6.45528
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "typinator",
+      "curve": {
+        "x": 173.294,
+        "y": -3.97935
+      }
+    },
+    {
+      "source": "linux  ️",
+      "target": "command line tools  ️",
+      "curve": {
+        "x": 28.3171,
+        "y": 179.034
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "command line tools  ️",
+      "curve": {
+        "x": -63.6902,
+        "y": 179.216
+      }
+    },
+    {
+      "source": "linux  ️",
+      "target": "i3",
+      "curve": {
+        "x": -92.5895,
+        "y": -24.471
+      }
+    },
+    {
+      "source": "linux  ️",
+      "target": "terminator",
+      "curve": {
+        "x": -86.1934,
+        "y": 37.4386
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "iTerm",
+      "curve": {
+        "x": 164.699,
+        "y": 32.7328
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "textual IRC",
+      "curve": {
+        "x": 156.11,
+        "y": 67.6667
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "tmux  ️",
+      "curve": {
+        "x": 111.671,
+        "y": -51.6131
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "fzf",
+      "curve": {
+        "x": 143.797,
+        "y": 30.6404
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "git  ️",
+      "curve": {
+        "x": 118.703,
+        "y": -11.0638
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "docker  ️",
+      "curve": {
+        "x": 192.025,
+        "y": 97.8295
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "ripgrep",
+      "curve": {
+        "x": -78.5585,
+        "y": -72.9343
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "sublime text  ️",
+      "curve": {
+        "x": -102.183,
+        "y": -46.9324
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "emacs  ️",
+      "curve": {
+        "x": -118.256,
+        "y": 13.6902
+      }
+    },
+    {
+      "source": "text editors  ️",
+      "target": "atom  ️",
+      "curve": {
+        "x": 101.784,
+        "y": 18.9142
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "z",
+      "curve": {
+        "x": -123.151,
+        "y": -38.3226
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "thefuck",
+      "curve": {
+        "x": -156.241,
+        "y": -0.243959
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "howdoi",
+      "curve": {
+        "x": -156.121,
+        "y": 38.1371
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "vtop",
+      "curve": {
+        "x": -130.271,
+        "y": 82.7507
+      }
+    },
+    {
+      "source": "macOS  ️",
+      "target": "brew",
+      "curve": {
+        "x": 136.014,
+        "y": 104.916
+      }
+    },
+    {
+      "source": "command line tools  ️",
+      "target": "messaging  ️",
+      "curve": {
+        "x": -0.321379,
+        "y": 125.016
+      }
+    },
+    {
+      "source": "messaging  ️",
+      "target": "irc  ️",
+      "curve": {
+        "x": -126.06,
+        "y": 28.1038
+      }
+    }
+  ],
+  "id": 1796
+}

@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - physics - classical mechanics - momentum - angular momentum",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "angular momentum",
+      "url": "http://www.wikiwand.com/en/Angular_momentum",
+      "fx": 57.2890625,
+      "fy": -120.89453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 118.94052863436116,
+      "fy": 47.33604074889871,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=sy5NY-Dqdys",
+          "fx": 274.94052863436116,
+          "fy": 38.83604074889871,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. lecture by Walter Lewin",
+          "url": "https://www.youtube.com/watch?v=Mcy4fVLHumI",
+          "fx": 274.94052863436116,
+          "fy": 78.83604074889871,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "angular momentum",
+      "target": "basics",
+      "curve": {
+        "x": -6.17427,
+        "y": 82.8653
+      }
+    }
+  ],
+  "id": 1376
+}

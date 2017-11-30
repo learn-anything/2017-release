@@ -1,0 +1,52 @@
+{
+  "title": "learn anything - marketing - affiliate marketing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "affiliate marketing",
+      "url": "http://www.wikiwand.com/en/Affiliate_marketing",
+      "fx": -7.774003623188264,
+      "fy": -100.8109148550725,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Affiliatemarketing/",
+          "fx": 276.22599637681174,
+          "fy": -86.8109148550725,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 56.61118659420288,
+      "fy": 38.953125,
+      "nodes": [
+        {
+          "text": "1. affiliate marketing for beginners",
+          "url": "https://www.youtube.com/watch?v=2ETEK0ut7gI",
+          "fx": 212.61118659420288,
+          "fy": 50.453125,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "affiliate marketing",
+      "target": "basics",
+      "curve": {
+        "x": 0.192595,
+        "y": 68.632
+      }
+    }
+  ],
+  "id": 808
+}

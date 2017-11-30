@@ -1,0 +1,134 @@
+{
+  "title": "learn anything - software - tooling - text editors - vs code",
+  "tag": "vs code text editor",
+  "nodes": [
+    {
+      "text": "vs code",
+      "url": "https://github.com/Microsoft/vscode",
+      "fx": -117.79405381944457,
+      "fy": -160.37565104166669,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/vscode/",
+          "fx": 92.20594618055543,
+          "fy": -167.37565104166669,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/viatsko/awesome-vscode",
+          "fx": 92.20594618055543,
+          "fy": -125.37565104166669,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -10.929796006944343,
+      "fy": -47.45496961805554,
+      "nodes": [
+        {
+          "text": "vs code tips and tricks",
+          "url": "https://github.com/Microsoft/vscode-tips-and-tricks",
+          "fx": 130.07020399305566,
+          "fy": -53.45496961805554,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "keyboard shortcuts for mac",
+          "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf",
+          "fx": 130.07020399305566,
+          "fy": -11.454969618055543,
+          "nodes": [],
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -122.86760075887082,
+      "fy": 76.89549382527696,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://code.visualstudio.com/docs",
+          "fx": 66.13239924112918,
+          "fy": 91.89549382527696,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "extensions  ️",
+      "url": "/software/tooling/text-editors/vs-code/extensions",
+      "fx": -25.491242232388004,
+      "fy": 201.59571765220335,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "themes",
+      "url": "",
+      "fx": -99.6429259417805,
+      "fy": 329.83138912671245,
+      "nodes": [
+        {
+          "text": "an old hope",
+          "url": "https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode",
+          "fx": 73.3570740582195,
+          "fy": 344.83138912671245,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "vs code",
+      "target": "basics",
+      "curve": {
+        "x": -6.03678,
+        "y": 118.636
+      }
+    },
+    {
+      "source": "help",
+      "target": "vs code",
+      "curve": {
+        "x": -45.1822,
+        "y": -56.4603
+      }
+    },
+    {
+      "source": "basics",
+      "target": "extensions  ️",
+      "curve": {
+        "x": 58.4383,
+        "y": 62.35
+      }
+    },
+    {
+      "source": "basics",
+      "target": "themes",
+      "curve": {
+        "x": -32.0174,
+        "y": 128.729
+      }
+    }
+  ],
+  "id": 1820
+}

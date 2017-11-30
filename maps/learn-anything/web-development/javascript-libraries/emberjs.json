@@ -1,0 +1,60 @@
+{
+  "title": "learn anything - web development - javascript libraries - emberjs",
+  "tag": "ember.js library",
+  "nodes": [
+    {
+      "text": "ember.js",
+      "url": "https://github.com/emberjs/ember.js/",
+      "fx": 84.9865274234694,
+      "fy": -185.21882971938777,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/nmec/awesome-ember",
+          "fx": 287.9865274234694,
+          "fy": -171.21882971938777,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 80.16159119897964,
+      "fy": -39.541852678571445,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://guides.emberjs.com/v2.13.0/getting-started/core-concepts/",
+          "fx": 262.16159119897964,
+          "fy": -42.041852678571445,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. ember 2 tutorial",
+          "url": "http://yoember.com/",
+          "fx": 262.16159119897964,
+          "fy": -8.041852678571445,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ember.js",
+      "target": "basics",
+      "curve": {
+        "x": -14.1625,
+        "y": 71.5883
+      }
+    }
+  ],
+  "id": 1888
+}

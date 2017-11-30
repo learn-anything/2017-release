@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - category theory - natural transformations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "natural transformations",
+      "url": "http://www.wikiwand.com/en/Natural_transformation",
+      "fx": 255.04311899038464,
+      "fy": -145.27774439102564,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 338.6153846153778,
+      "fy": 4.628205128189336,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=2LJC-XD5Ffo",
+          "fx": 501.6153846153778,
+          "fy": -3.871794871810664,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. explanation  ️",
+          "url": "https://ncatlab.org/nlab/show/natural+transformation",
+          "fx": 501.6153846153778,
+          "fy": 38.128205128189336,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "natural transformations",
+      "target": "basics",
+      "curve": {
+        "x": -5.96387,
+        "y": 74.203
+      }
+    }
+  ],
+  "id": 917
+}

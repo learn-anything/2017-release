@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - geometry - geometric algebra",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "geometric algebra",
+      "url": "http://www.wikiwand.com/en/Geometric_algebra",
+      "fx": 81.16015625,
+      "fy": -131.04296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 34,
+      "nodes": [
+        {
+          "text": "1. geometric algebra in 2D",
+          "url": "https://www.youtube.com/watch?v=PNlgMPzj-7Q",
+          "fx": 310,
+          "fy": 46.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "geometric algebra",
+      "target": "basics",
+      "curve": {
+        "x": -3.58008,
+        "y": 81.7715
+      }
+    }
+  ],
+  "id": 952
+}

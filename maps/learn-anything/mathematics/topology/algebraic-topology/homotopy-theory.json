@@ -1,0 +1,99 @@
+{
+  "title": "learn anything - mathematics - topology - algebraic topology - homotopy theory",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "homotopy theory",
+      "url": "https://en.wikipedia.org/wiki/Category:Homotopy_theory",
+      "fx": 85.5078125,
+      "fy": -89.421875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 141.328125,
+      "fy": 56.21484375,
+      "nodes": [
+        {
+          "text": "1. introduction  ️",
+          "url": "https://ncatlab.org/nlab/show/homotopy+theory",
+          "fx": 304.328125,
+          "fy": 47.71484375,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. elementary homotopy theory",
+          "url": "http://www.personal.psu.edu/axk29/TOPOLOGY/Chapter2.pdf",
+          "fx": 304.328125,
+          "fy": 89.71484375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "rational homotopy theory",
+      "url": "http://www.wikiwand.com/en/Rational_homotopy_theory",
+      "fx": -131.1014254385965,
+      "fy": 218.09521198831078,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "stable homotopy theory",
+      "url": "http://www.wikiwand.com/en/Stable_homotopy_theory",
+      "fx": 205.02494517543744,
+      "fy": 218.6377010233947,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "chromatic homotopy theory",
+      "url": "http://www.wikiwand.com/en/Chromatic_homotopy_theory",
+      "fx": 184.33932151242902,
+      "fy": 362.247626642364,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "homotopy theory",
+      "target": "basics",
+      "curve": {
+        "x": 1.91016,
+        "y": 72.8184
+      }
+    },
+    {
+      "source": "basics",
+      "target": "rational homotopy theory",
+      "curve": {
+        "x": -88.9648,
+        "y": 80.9402
+      }
+    },
+    {
+      "source": "basics",
+      "target": "stable homotopy theory",
+      "curve": {
+        "x": 82.3484,
+        "y": 81.9614
+      }
+    },
+    {
+      "source": "stable homotopy theory",
+      "target": "chromatic homotopy theory",
+      "curve": {
+        "x": 0.907188,
+        "y": 71.805
+      }
+    }
+  ],
+  "id": 1129
+}

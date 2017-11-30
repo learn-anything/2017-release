@@ -1,0 +1,147 @@
+{
+  "title": "learn anything - machine learning - machine learning libraries - pytorch",
+  "tag": "pytorch library",
+  "nodes": [
+    {
+      "text": "pytorch",
+      "url": "http://pytorch.org/",
+      "fx": -125.57102997448987,
+      "fy": -428.40194515306126,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/pytorch/pytorch",
+          "fx": 47.428970025510125,
+          "fy": -436.90194515306126,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/bharathgs/Awesome-pytorch-list",
+          "fx": 47.428970025510125,
+          "fy": -394.90194515306126,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -49.94021045918373,
+      "fy": -262.83901271041566,
+      "nodes": [
+        {
+          "text": "pytorch examples",
+          "url": "https://github.com/jcjohnson/pytorch-examples",
+          "fx": 91.05978954081627,
+          "fy": -310.83901271041566,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "pytorch forum",
+          "url": "https://discuss.pytorch.org/",
+          "fx": 91.05978954081627,
+          "fy": -268.83901271041566,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "incredible pytorch",
+          "url": "https://github.com/ritchieng/the-incredible-pytorch",
+          "fx": 91.05978954081627,
+          "fy": -226.83901271041566,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "pytorch tutorials",
+          "url": "http://pytorch.org/tutorials/",
+          "fx": 91.05978954081627,
+          "fy": -184.83901271041566,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -272.8541425627717,
+      "fy": -22.2188702797402,
+      "nodes": [
+        {
+          "text": "1. pytorch tutorial",
+          "url": "https://github.com/yunjey/pytorch-tutorial",
+          "fx": -83.8541425627717,
+          "fy": -103.7188702797402,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 254, 60, 1.0)"
+        },
+        {
+          "text": "1. pytorch tutorial for deep learning research",
+          "url": "https://github.com/yunjey/pytorch-tutorial",
+          "fx": -83.8541425627717,
+          "fy": -61.7188702797402,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. build your neural network",
+          "url": "https://github.com/MorvanZhou/PyTorch-Tutorial",
+          "fx": -83.8541425627717,
+          "fy": 5.281129720259798,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "1. gentle intro to pytorch  ️",
+          "url": "http://blog.gaurav.im/2017/04/24/a-gentle-intro-to-pytorch/",
+          "fx": -83.8541425627717,
+          "fy": 47.2811297202598,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(83, 201, 255, 1.0)"
+        },
+        {
+          "text": "1. deep learning in pytorch",
+          "url": "https://iamtrask.github.io/2017/01/15/pytorch-tutorial/",
+          "fx": -83.8541425627717,
+          "fy": 89.2811297202598,
+          "nodes": [],
+          "color": "rgba(252, 177, 20, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "pytorch",
+      "curve": {
+        "x": -30.3155,
+        "y": -82.7814
+      }
+    },
+    {
+      "source": "pytorch",
+      "target": "basics",
+      "curve": {
+        "x": -76.3915,
+        "y": 203.092
+      }
+    }
+  ],
+  "id": 763
+}

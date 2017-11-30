@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - life - productivity",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "productivity",
+      "url": "http://www.wikiwand.com/en/Productivity",
+      "fx": 123.20478584052807,
+      "fy": -386.0995908017393,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/productivity/",
+          "fx": 354.2047858405281,
+          "fy": -372.0995908017393,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 309.6442642211914,
+      "fy": -291.97115325927734,
+      "nodes": [
+        {
+          "text": "17: project based learning  ️",
+          "url": "https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca",
+          "fx": 471.6442642211914,
+          "fy": -280.47115325927734,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "if you think this can be improved in any way ",
+      "url": "",
+      "fx": 78.6589074915023,
+      "fy": -149.78773841478062,
+      "nodes": [
+        {
+          "text": "1. why procrastinator’s procrastinate  ️",
+          "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
+          "fx": 260.6589074915023,
+          "fy": -189.28773841478062,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. 7 habits of highly effective people",
+          "url": "http://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People",
+          "fx": 260.6589074915023,
+          "fy": -127.28773841478062,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. getting things done",
+          "url": "http://www.goodreads.com/book/show/1633.Getting_Things_Done",
+          "fx": 260.6589074915023,
+          "fy": -87.28773841478062,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "time management  ️",
+      "url": "/life/productivity/time-management",
+      "fx": 12.2536982248522,
+      "fy": -10.32194074621998,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "productivity",
+      "target": "basics",
+      "curve": {
+        "x": -41.0229,
+        "y": 116.906
+      }
+    },
+    {
+      "source": "articles",
+      "target": "productivity",
+      "curve": {
+        "x": -75.9697,
+        "y": -45.8143
+      }
+    },
+    {
+      "source": "basics",
+      "target": "time management  ️",
+      "curve": {
+        "x": -13.2026,
+        "y": 69.7329
+      }
+    }
+  ],
+  "id": 691
+}

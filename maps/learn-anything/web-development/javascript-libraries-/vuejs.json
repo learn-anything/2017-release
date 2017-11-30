@@ -1,0 +1,113 @@
+{
+  "title": "learn anything - web development - javascript libraries  - vuejs",
+  "tag": "vue.js",
+  "nodes": [
+    {
+      "text": "vue.js",
+      "url": "https://github.com/vuejs/vue",
+      "fx": -99.39453125,
+      "fy": -318.96875,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/vuejs/awesome-vue",
+          "fx": 79.60546875,
+          "fy": -304.96875,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 5.148510588470117,
+      "fy": -197.40065565365745,
+      "nodes": [
+        {
+          "text": "vue cli",
+          "url": "https://github.com/vuejs/vue-cli",
+          "fx": 142.14851058847012,
+          "fy": -225.90065565365745,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "vue forum",
+          "url": "https://forum.vuejs.org/",
+          "fx": 142.14851058847012,
+          "fy": -185.90065565365745,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "vue land",
+          "url": "https://vue-land.js.org/",
+          "fx": 142.14851058847012,
+          "fy": -145.90065565365745,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -149.26733903545278,
+      "fy": -48.72228681214153,
+      "nodes": [
+        {
+          "text": "1. vue.js documentation",
+          "url": "https://vuejs.org/v2/guide/",
+          "fx": 32.73266096454722,
+          "fy": -74.22228681214153,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. learn vue 2: step by step",
+          "url": "https://laracasts.com/series/learn-vue-2-step-by-step",
+          "fx": 32.73266096454722,
+          "fy": -40.22228681214153,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. intro to vue.js",
+          "url": "https://github.com/sdras/intro-to-vue",
+          "fx": 32.73266096454722,
+          "fy": -0.22228681214153312,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "vue.js",
+      "curve": {
+        "x": -49.0215,
+        "y": -60.7841
+      }
+    },
+    {
+      "source": "vue.js",
+      "target": "basics",
+      "curve": {
+        "x": -23.4365,
+        "y": 135.124
+      }
+    }
+  ],
+  "id": 1907
+}

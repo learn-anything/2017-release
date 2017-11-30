@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - algebra - functions - inverse functions",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "inverse functions",
+      "url": "http://www.wikiwand.com/en/Inverse_function",
+      "fx": -94.9765625,
+      "fy": -143.14453125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -46.5,
+      "fy": -2,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=nSmFzOpxhbY",
+          "fx": 109.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "inverse functions",
+      "target": "basics",
+      "curve": {
+        "x": -6.51172,
+        "y": 69.3223
+      }
+    }
+  ],
+  "id": 839
+}

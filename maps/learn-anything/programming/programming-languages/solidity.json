@@ -1,0 +1,93 @@
+{
+  "title": "learn anything - programming - programming languages - solidity",
+  "tag": "solidity programming language",
+  "nodes": [
+    {
+      "text": "solidity",
+      "url": "http://www.wikiwand.com/en/Solidity",
+      "fx": -132.79284328256904,
+      "fy": -202.20692347372267,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://github.com/ethereum/solidity",
+          "fx": 56.20715671743096,
+          "fy": -188.20692347372267,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": -8.386268503880274,
+      "fy": -97.95703686404147,
+      "nodes": [
+        {
+          "text": "learn Solidity in Y minutes",
+          "url": "https://learnxinyminutes.com/docs/solidity/",
+          "fx": 128.61373149611973,
+          "fy": -83.45703686404147,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -145.17192293686617,
+      "fy": 64.16696053652032,
+      "nodes": [
+        {
+          "text": "1. ethereum coding guide  ️",
+          "url": "https://blockgeeks.com/guides/how-to-learn-solidity/",
+          "fx": 36.82807706313383,
+          "fy": 41.66696053652032,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to smart contracts",
+          "url": "http://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html",
+          "fx": 36.82807706313383,
+          "fy": 81.66696053652032,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. solidity tutorials",
+          "url": "https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html",
+          "fx": 36.82807706313383,
+          "fy": 115.66696053652032,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "solidity",
+      "target": "basics",
+      "curve": {
+        "x": -14.4396,
+        "y": 131.937
+      }
+    },
+    {
+      "source": "help",
+      "target": "solidity",
+      "curve": {
+        "x": -49.2033,
+        "y": -50.8749
+      }
+    }
+  ],
+  "id": 1651
+}

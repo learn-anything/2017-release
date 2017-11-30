@@ -1,0 +1,50 @@
+{
+  "title": "learn anything - programming - software development - software specifications - formal verification",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "formal verification",
+      "url": "http://www.wikiwand.com/en/Formal_verification",
+      "fx": -50.19921875,
+      "fy": -192.265625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 13.640625,
+      "fy": -38.10546875,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://embedded.eecs.berkeley.edu/research/vis/doc/VisUser/vis_user/node4.html",
+          "fx": 176.640625,
+          "fy": -56.60546875,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. formal program verification in practice   ️",
+          "url": "https://cs.stackexchange.com/questions/13785/formal-program-verification-in-practice",
+          "fx": 176.640625,
+          "fy": -19.60546875,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "formal verification",
+      "target": "basics",
+      "curve": {
+        "x": -2.58008,
+        "y": 76.3301
+      }
+    }
+  ],
+  "id": 1729
+}

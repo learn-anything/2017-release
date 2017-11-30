@@ -1,0 +1,91 @@
+{
+  "title": "learn anything - network science - computer networking - protocols - websocket",
+  "tag": "WebSockets",
+  "nodes": [
+    {
+      "text": "WebSocket",
+      "url": "http://www.wikiwand.com/en/WebSocket",
+      "fx": 21.66796875,
+      "fy": -355.55078125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 190.38573251883656,
+      "fy": -255.71157727911293,
+      "nodes": [
+        {
+          "text": "SSH to WebSockets",
+          "url": "https://github.com/aluzzardi/wssh",
+          "fx": 332.38573251883656,
+          "fy": -244.21157727911293,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "implementation",
+      "url": "",
+      "fx": 284.16436176187176,
+      "fy": -152.6047221076559,
+      "nodes": [
+        {
+          "text": "tiny WebSockets",
+          "url": "https://github.com/uWebSockets/uWebSockets",
+          "fx": 521.1643617618718,
+          "fy": -141.1047221076559,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 49.21116023399679,
+      "fy": -43.77443069750768,
+      "nodes": [
+        {
+          "text": "1. proposed standard",
+          "url": "https://tools.ietf.org/html/rfc6455",
+          "fx": 205.2111602339968,
+          "fy": -29.274430697507682,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "implementation",
+      "target": "tools",
+      "curve": {
+        "x": -70.6394,
+        "y": -51.5535
+      }
+    },
+    {
+      "source": "tools",
+      "target": "WebSocket",
+      "curve": {
+        "x": -61.8589,
+        "y": -48.6696
+      }
+    },
+    {
+      "source": "WebSocket",
+      "target": "basics",
+      "curve": {
+        "x": -5.2284,
+        "y": 154.638
+      }
+    }
+  ],
+  "id": 1226
+}

@@ -1,0 +1,135 @@
+{
+  "title": "learn anything - operating systems - unix - macos - automation",
+  "tag": "macOS automation",
+  "nodes": [
+    {
+      "text": "macOS automation",
+      "url": "",
+      "fx": 59.947986388138474,
+      "fy": -302.4418803722915,
+      "nodes": []
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 207.25117477642516,
+      "fy": -193.25120269136482,
+      "nodes": [
+        {
+          "text": "macOS automation",
+          "url": "https://www.macosxautomation.com/",
+          "fx": 344.25117477642516,
+          "fy": -178.75120269136482,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "applescript  ️",
+      "url": "/programming/programming-languages/applescript",
+      "fx": -168.15224358974285,
+      "fy": -184.07031250000114,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "jxa  ️",
+      "url": "/operating-systems/unix/macos/automation/jxa",
+      "fx": -47.85742795950159,
+      "fy": -99.54210475077599,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "apps",
+      "url": "",
+      "fx": 112.14806175231934,
+      "fy": -49.01262664794922,
+      "nodes": []
+    },
+    {
+      "text": "karabiner  ️",
+      "url": "/software/tooling/productivity/karabiner",
+      "fx": 187.91787252113568,
+      "fy": 82.8044077685422,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "keyboard maestro  ️",
+      "url": "/operating-systems/unix/macos/automation/keyboard-maestro",
+      "fx": -218.18635686678886,
+      "fy": 84.85677509349978,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "alfred  ️",
+      "url": "/software/tooling/productivity/alfred",
+      "fx": 41.526084820841334,
+      "fy": 91.1254582775689,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "macOS automation",
+      "curve": {
+        "x": -39.4016,
+        "y": -54.5953
+      }
+    },
+    {
+      "source": "macOS automation",
+      "target": "apps",
+      "curve": {
+        "x": -6.39993,
+        "y": 126.715
+      }
+    },
+    {
+      "source": "apps",
+      "target": "keyboard maestro  ️",
+      "curve": {
+        "x": -135.667,
+        "y": 66.9347
+      }
+    },
+    {
+      "source": "apps",
+      "target": "alfred  ️",
+      "curve": {
+        "x": -27.061,
+        "y": 71.3191
+      }
+    },
+    {
+      "source": "apps",
+      "target": "karabiner  ️",
+      "curve": {
+        "x": 47.3849,
+        "y": 65.9085
+      }
+    },
+    {
+      "source": "macOS automation",
+      "target": "jxa  ️",
+      "curve": {
+        "x": -84.4027,
+        "y": 102.7
+      }
+    },
+    {
+      "source": "macOS automation",
+      "target": "applescript  ️",
+      "curve": {
+        "x": -133.05,
+        "y": 59.1858
+      }
+    }
+  ],
+  "id": 1298
+}

@@ -1,0 +1,168 @@
+{
+  "title": "learn anything - machine learning - reinforcement learning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "reinforcement learning",
+      "url": "http://www.wikiwand.com/en/Reinforcement_learning",
+      "fx": -22.560627582644656,
+      "fy": -227.96752324380162,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/reinforcementlearning/",
+          "fx": 304.43937241735534,
+          "fy": -213.96752324380162,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 184.64693095730024,
+      "fy": -34.16871484733713,
+      "nodes": [
+        {
+          "text": "deep enforcement learning papers",
+          "url": "https://github.com/muupan/deep-reinforcement-learning-papers",
+          "fx": 321.64693095730024,
+          "fy": -104.66871484733713,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "baselines",
+          "note": "high-quality implementations of reinforcement learning algorithms",
+          "url": "https://github.com/openai/baselines",
+          "fx": 321.64693095730024,
+          "fy": -42.66871484733713,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "practical RL",
+          "url": "https://github.com/yandexdataschool/Practical_RL",
+          "fx": 321.64693095730024,
+          "fy": -2.668714847337128,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "learning reinforcement learning (with code, exercises and solutions)  ️",
+          "url": "http://www.wildml.com/2016/10/learning-reinforcement-learning/",
+          "fx": 321.64693095730024,
+          "fy": 37.33128515266287,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -110.7990451388888,
+      "fy": 322.8575743227733,
+      "nodes": [
+        {
+          "text": "1. reinforcement learning: an introduction",
+          "url": "http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf",
+          "fx": 71.2009548611112,
+          "fy": 153.3575743227733,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. deep reinforcement learning",
+          "url": "http://rll.berkeley.edu/deeprlcourse/",
+          "fx": 71.2009548611112,
+          "fy": 215.3575743227733,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. introduction to reinforcement learning",
+          "url": "https://www.youtube.com/watch?v=2pWv7GOvuf0&amp;feature=youtu.be&amp;list=PL7-jPKtc4r78-wCZcQn5IqyuWhBZ8fOxT",
+          "fx": 71.2009548611112,
+          "fy": 255.3575743227733,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. minimal and clean RL examples",
+          "url": "https://github.com/rlcode/reinforcement-learning",
+          "fx": 71.2009548611112,
+          "fy": 317.3575743227733,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        },
+        {
+          "text": "1. notes on reinforcement learning  ️",
+          "url": "http://frnsys.com/ai_notes/artificial_intelligence/reinforcement_learning.html",
+          "fx": 71.2009548611112,
+          "fy": 357.3575743227733,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. beginner’s guide to reinforcement learning &amp; its implementation  ️",
+          "url": "https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/",
+          "fx": 71.2009548611112,
+          "fy": 397.3575743227733,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(209, 21, 88, 1.0)"
+        },
+        {
+          "text": "1. tutorial for reinforcement learning",
+          "url": "https://web.mst.edu/~gosavia/tutorial.pdf",
+          "fx": 71.2009548611112,
+          "fy": 459.3575743227733,
+          "nodes": [],
+          "color": "rgba(49, 187, 71, 1.0)"
+        },
+        {
+          "text": "2. deep reinforcement learning: from pong to pixels  ️",
+          "url": "http://karpathy.github.io/2016/05/31/rl/",
+          "fx": 71.2009548611112,
+          "fy": 493.3575743227733,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "reinforcement learning",
+      "curve": {
+        "x": -56.1038,
+        "y": -95.6494
+      }
+    },
+    {
+      "source": "reinforcement learning",
+      "target": "basics",
+      "curve": {
+        "x": -86.8692,
+        "y": 274.163
+      }
+    }
+  ],
+  "id": 796
+}

@@ -1,0 +1,137 @@
+{
+  "title": "learn anything - programming - programming languages - r",
+  "tag": "r programming language",
+  "nodes": [
+    {
+      "text": "R",
+      "url": "http://www.wikiwand.com/en/R_(programming_language)",
+      "fx": 53.61062832751304,
+      "fy": -167.19312575595825,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Rlanguage/",
+          "fx": 194.61062832751304,
+          "fy": -213.19312575595825,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/wch/r-source",
+          "fx": 194.61062832751304,
+          "fy": -173.19312575595825,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "trending",
+          "url": "https://github.com/trending/r",
+          "fx": 194.61062832751304,
+          "fy": -133.19312575595825,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/qinwf/awesome-R",
+          "fx": 194.61062832751304,
+          "fy": -93.19312575595825,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 122.70502471923828,
+      "fy": 6.5100870599933955,
+      "nodes": [
+        {
+          "text": "r documentation",
+          "url": "https://www.rdocumentation.org/",
+          "fx": 259.7050247192383,
+          "fy": -15.989912940006604,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "r books",
+          "url": "https://github.com/RomanTsegelskyi/rbooks",
+          "fx": 259.7050247192383,
+          "fy": 18.010087059993396,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "free resources for learning R",
+          "url": "https://stats.stackexchange.com/questions/138/free-resources-for-learning-r",
+          "fx": 259.7050247192383,
+          "fy": 58.010087059993396,
+          "nodes": [],
+          "color": "rgba(34, 205, 224, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 20.2109375,
+      "fy": 123.09375,
+      "nodes": [
+        {
+          "text": "1. R for data science",
+          "url": "http://r4ds.had.co.nz/",
+          "fx": 202.2109375,
+          "fy": 134.59375,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "RStudio  ️",
+      "url": "/programming/programming-languages/r/rstudio",
+      "fx": -76.64089209401698,
+      "fy": 282.6497729700402,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "R",
+      "target": "basics",
+      "curve": {
+        "x": -7.19984,
+        "y": 145.143
+      }
+    },
+    {
+      "source": "help",
+      "target": "R",
+      "curve": {
+        "x": -35.2973,
+        "y": -85.6016
+      }
+    },
+    {
+      "source": "basics",
+      "target": "RStudio  ️",
+      "curve": {
+        "x": -51.1759,
+        "y": 79.778
+      }
+    }
+  ],
+  "id": 1642
+}

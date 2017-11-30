@@ -1,0 +1,97 @@
+{
+  "title": "learn anything - programming - software development - devops - nginx",
+  "tag": "nginx server",
+  "nodes": [
+    {
+      "text": "nginx",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Nginx",
+      "fx": -69.55078125,
+      "fy": -229.15234375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/nginx/",
+          "fx": 132.44921875,
+          "fy": -255.15234375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/nginx/nginx",
+          "fx": 132.44921875,
+          "fy": -215.15234375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/fcambus/nginx-resources",
+          "fx": 132.44921875,
+          "fy": -175.15234375,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 22.07421875,
+      "fy": -111.9453125,
+      "nodes": [
+        {
+          "text": "nginx boilerplate",
+          "url": "https://github.com/nginx-boilerplate/nginx-boilerplate",
+          "fx": 159.07421875,
+          "fy": -100.4453125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 80.8671875,
+      "fy": 9.42578125,
+      "nodes": [
+        {
+          "text": "gixy",
+          "note": "nginx configuration static analyser",
+          "url": "https://github.com/yandex/gixy",
+          "fx": 222.8671875,
+          "fy": 20.92578125,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "nginx",
+      "curve": {
+        "x": -36.0625,
+        "y": -57.3535
+      }
+    },
+    {
+      "source": "tools",
+      "target": "help",
+      "curve": {
+        "x": -30.6465,
+        "y": -60.6855
+      }
+    }
+  ],
+  "id": 1717
+}

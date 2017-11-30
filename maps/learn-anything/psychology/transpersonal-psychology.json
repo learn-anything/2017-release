@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - psychology - transpersonal psychology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "transpersonal psychology",
+      "url": "http://www.wikiwand.com/en/Transpersonal_psychology",
+      "fx": -99.48046875,
+      "fy": -275.44140625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 124.74423112746229,
+      "fy": -146.2899247747169,
+      "nodes": [
+        {
+          "text": "interview with Stanislav Grof",
+          "url": "https://www.youtube.com/watch?v=5ig3eU_oDS0&amp;feature=youtu.be",
+          "fx": 323.7442311274623,
+          "fy": -133.7899247747169,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 5.233622903861487,
+      "fy": -13.220920131834134,
+      "nodes": [
+        {
+          "text": "1. proposal for a radical revision of psychiatry, psychology, &amp; psychotherapy by Stanislav Grof",
+          "url": "https://www.youtube.com/watch?v=i-aSLt3IKUs",
+          "fx": 168.2336229038615,
+          "fy": -37.720920131834134,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "transpersonal psychology",
+      "target": "basics",
+      "curve": {
+        "x": -2.89295,
+        "y": 130.36
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "transpersonal psychology",
+      "curve": {
+        "x": -65.8623,
+        "y": -63.8257
+      }
+    }
+  ],
+  "id": 1760
+}

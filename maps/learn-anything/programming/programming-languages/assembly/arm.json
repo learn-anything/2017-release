@@ -1,0 +1,77 @@
+{
+  "title": "learn anything - programming - programming languages - assembly - arm",
+  "tag": "ARM architecture",
+  "nodes": [
+    {
+      "text": "ARM",
+      "url": "http://www.wikiwand.com/en/ARM_architecture",
+      "fx": -61.513888888888914,
+      "fy": -246.04600694444446,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/arm/",
+          "fx": 110.48611111111109,
+          "fy": -232.04600694444446,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "tools",
+      "url": "",
+      "fx": 34.11670515272351,
+      "fy": -141.1320203145345,
+      "nodes": [
+        {
+          "text": "VisUAL",
+          "note": "a highly visual ARM emulator",
+          "url": "https://salmanarif.bitbucket.io/visual/",
+          "fx": 176.1167051527235,
+          "fy": -126.63202031453449,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -54.86180130640662,
+      "fy": -41.40625229146747,
+      "nodes": [
+        {
+          "text": "1. introduction to arm assembly basics",
+          "url": "https://azeria-labs.com/writing-arm-assembly-part-1/",
+          "fx": 101.13819869359338,
+          "fy": -40.90625229146747,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tools",
+      "target": "ARM",
+      "curve": {
+        "x": -40.3153,
+        "y": -51.207
+      }
+    },
+    {
+      "source": "ARM",
+      "target": "basics",
+      "curve": {
+        "x": -0.673956,
+        "y": 101.07
+      }
+    }
+  ],
+  "id": 1573
+}

@@ -1,0 +1,86 @@
+{
+  "title": "learn anything - security - hacking",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "hacking",
+      "url": "http://www.wikiwand.com/en/Security_hacker",
+      "fx": -51.96875,
+      "fy": -258.53515625,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+          "fx": 146.03125,
+          "fy": -244.53515625,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 71.375,
+      "fy": -114.11328125,
+      "nodes": [
+        {
+          "text": "17: hacking Slack using postMessage and WebSocket-reconnect to steal your precious token  ️",
+          "url": "https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/",
+          "fx": 233.375,
+          "fy": -166.11328125,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "10: applied philosophy a.k.a. \"hacking\"  ️",
+          "url": "https://feross.org/applied-philosophy-a-k-a-hacking/",
+          "fx": 233.375,
+          "fy": -61.11328125,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -79.77734375,
+      "fy": 77.4375,
+      "nodes": [
+        {
+          "text": "1. how to become a hacker",
+          "url": "http://www.catb.org/%7Eesr/faqs/hacker-howto.html",
+          "fx": 102.22265625,
+          "fy": 91.9375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "hacking",
+      "target": "basics",
+      "curve": {
+        "x": -24.4043,
+        "y": 166.737
+      }
+    },
+    {
+      "source": "articles",
+      "target": "hacking",
+      "curve": {
+        "x": -52.6719,
+        "y": -70.9609
+      }
+    }
+  ],
+  "id": 1765
+}

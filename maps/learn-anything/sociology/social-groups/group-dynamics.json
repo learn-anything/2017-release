@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - sociology - social groups - group dynamics",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "group dynamics",
+      "url": "https://www.youtube.com/watch?v=uL6x99-VSBA",
+      "fx": -95.23828125,
+      "fy": -163.0546875,
+      "nodes": [],
+      "category": "video"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -50.5,
+      "fy": -3,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=uL6x99-VSBA",
+          "fx": 112.5,
+          "fy": 9.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "group dynamics",
+      "target": "basics",
+      "curve": {
+        "x": -1.63086,
+        "y": 80.0273
+      }
+    }
+  ],
+  "id": 1786
+}

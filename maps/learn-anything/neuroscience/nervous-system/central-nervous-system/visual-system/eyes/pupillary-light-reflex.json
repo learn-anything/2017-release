@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - neuroscience - nervous system - central nervous system - visual system - eyes - pupillary light reflex",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "pupillary light reflex",
+      "url": "http://www.wikiwand.com/en/Pupillary_light_reflex",
+      "fx": 88.9375,
+      "fy": -71.53515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 144.5,
+      "fy": 54,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=RBJnclxslmQ&amp;t=405s",
+          "fx": 300.5,
+          "fy": 65.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "pupillary light reflex",
+      "target": "basics",
+      "curve": {
+        "x": -0.46875,
+        "y": 62.7676
+      }
+    }
+  ],
+  "id": 1261
+}

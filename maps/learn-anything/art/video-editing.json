@@ -1,0 +1,118 @@
+{
+  "title": "learn anything - art - video editing",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "video editing",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Video_editing",
+      "fx": -58.76953125,
+      "fy": -212.58984375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/VideoEditing/",
+          "fx": 208.23046875,
+          "fy": -218.58984375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://video.stackexchange.com/",
+          "fx": 208.23046875,
+          "fy": -178.58984375,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 90.21827789738688,
+      "fy": -88.33438130990601,
+      "nodes": [
+        {
+          "text": "Justin Odisho",
+          "url": "https://www.youtube.com/user/Justthisgood/videos",
+          "fx": 227.21827789738688,
+          "fy": -96.83438130990601,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "this guy edits",
+          "url": "https://www.youtube.com/user/svenpape/videos",
+          "fx": 227.21827789738688,
+          "fy": -56.83438130990601,
+          "nodes": [],
+          "category": "youtube",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "software",
+      "url": "",
+      "fx": -134.6939191878979,
+      "fy": -48.38813694267526,
+      "nodes": []
+    },
+    {
+      "text": "adobe after effects",
+      "url": "http://www.wikiwand.com/en/Adobe_After_Effects",
+      "fx": -253.9141731262207,
+      "fy": 75.37079429626465,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "adobe premiere pro  ️",
+      "url": "/art/video-editing/adobe-premiere-pro",
+      "fx": -9.777195057097515,
+      "fy": 79.4168789184954,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "video editing",
+      "curve": {
+        "x": -48.4939,
+        "y": -60.8777
+      }
+    },
+    {
+      "source": "video editing",
+      "target": "software",
+      "curve": {
+        "x": -54.2122,
+        "y": 80.8509
+      }
+    },
+    {
+      "source": "software",
+      "target": "adobe after effects",
+      "curve": {
+        "x": -29.6101,
+        "y": 63.1295
+      }
+    },
+    {
+      "source": "software",
+      "target": "adobe premiere pro  ️",
+      "curve": {
+        "x": 87.4584,
+        "y": 63.9025
+      }
+    }
+  ],
+  "id": 62
+}

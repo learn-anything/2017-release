@@ -1,0 +1,115 @@
+{
+  "title": "learn anything - mathematics - calculus - differential calculus - derivatives - differential equations",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "differential equations",
+      "url": "http://www.wikiwand.com/en/Differential_equation",
+      "fx": 383.28515625,
+      "fy": -226.03515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": 440.9765625,
+      "fy": -57.859375,
+      "nodes": [
+        {
+          "text": "1. ten lessons i wish i had learned before i started teaching differential equations",
+          "url": "https://web.williams.edu/Mathematics/lg5/Rota.pdf",
+          "fx": 622.9765625,
+          "fy": -84.859375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "2. learn differential equations",
+          "url": "https://ocw.mit.edu/resources/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/",
+          "fx": 622.9765625,
+          "fy": -7.859375,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "ordinary differential equations  ️",
+      "url": "/mathematics/calculus/differential-calculus/derivatives/differential-equations/ordinary-differential-equations",
+      "fx": 13.95516509013811,
+      "fy": 164.76368219004814,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "partial differential equations  ️",
+      "url": "/mathematics/calculus/differential-calculus/derivatives/differential-equations/partial-differential-equations",
+      "fx": -307.7144125795468,
+      "fy": 165.2421309249504,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bifurcation theory",
+      "url": "http://www.wikiwand.com/en/Bifurcation_theory",
+      "fx": 366.1390191897922,
+      "fy": 166.93459664976274,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "automatic differentiation",
+      "url": "http://www.wikiwand.com/en/Automatic_differentiation",
+      "fx": 602.2825550957334,
+      "fy": 169.89852517748636,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "differential equations",
+      "target": "basics",
+      "curve": {
+        "x": -3.6543,
+        "y": 82.8379
+      }
+    },
+    {
+      "source": "basics",
+      "target": "ordinary differential equations  ️",
+      "curve": {
+        "x": -159.511,
+        "y": 112.561
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bifurcation theory",
+      "curve": {
+        "x": -12.1688,
+        "y": 113.647
+      }
+    },
+    {
+      "source": "basics",
+      "target": "automatic differentiation",
+      "curve": {
+        "x": 122.153,
+        "y": 115.129
+      }
+    },
+    {
+      "source": "basics",
+      "target": "partial differential equations  ️",
+      "curve": {
+        "x": -368.507,
+        "y": 73.785
+      }
+    }
+  ],
+  "id": 878
+}

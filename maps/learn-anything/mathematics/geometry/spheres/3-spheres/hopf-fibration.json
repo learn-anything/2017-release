@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - geometry - spheres - 3-spheres - hopf fibration",
+  "tag": "Hopf fibration",
+  "nodes": [
+    {
+      "text": "Hopf fibration",
+      "url": "http://www.wikiwand.com/en/Hopf_fibration",
+      "fx": 141.5513200431035,
+      "fy": -244.00242456896552,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 179.6034482758621,
+      "fy": -96.50000000005298,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://nilesjohnson.net/hopf-articles/Lyons_Elem-intro-Hopf-fibration.pdf",
+          "fx": 342.6034482758621,
+          "fy": -117.50000000005298,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. visualisations of the Hopf fibration",
+          "url": "https://www.youtube.com/watch?v=QXDQsmL-8Us",
+          "fx": 342.6034482758621,
+          "fy": -75.50000000005298,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Hopf fibration",
+      "target": "basics",
+      "curve": {
+        "x": -5.47394,
+        "y": 73.0012
+      }
+    }
+  ],
+  "id": 959
+}

@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space - vector space model",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "vector space model",
+      "url": "http://www.wikiwand.com/en/Vector_space_model",
+      "fx": 86.47843933105469,
+      "fy": -81.37445259094238,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 144.09579467773438,
+      "fy": 46.157108306884766,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ZEkO8QSlynY",
+          "fx": 300.0957946777344,
+          "fy": 57.657108306884766,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "vector space model",
+      "target": "basics",
+      "curve": {
+        "x": -1.44132,
+        "y": 63.7658
+      }
+    }
+  ],
+  "id": 993
+}

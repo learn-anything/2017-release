@@ -1,0 +1,68 @@
+{
+  "title": "learn anything - mathematics - topology - differential topology",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "differential topology",
+      "url": "http://www.wikiwand.com/en/Differential_topology",
+      "fx": -123.671875,
+      "fy": -272.3203125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -68.51181649597254,
+      "fy": -118.29162154418287,
+      "nodes": [
+        {
+          "text": "1. differential topology lecture",
+          "url": "https://www.youtube.com/watch?v=1LwkljjLBns",
+          "fx": 113.48818350402746,
+          "fy": -137.79162154418287,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. topology from the differentiable viewpoint",
+          "url": "http://www.maths.ed.ac.uk/~aar/papers/milnortop.pdf",
+          "fx": 113.48818350402746,
+          "fy": -97.79162154418287,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "symplectic geometry  ️",
+      "url": "/mathematics/topology/differential-topology/symplectic-geometry",
+      "fx": -239.12777024872446,
+      "fy": 16.865991709183618,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "differential topology",
+      "target": "basics",
+      "curve": {
+        "x": -8.91997,
+        "y": 75.7643
+      }
+    },
+    {
+      "source": "basics",
+      "target": "symplectic geometry  ️",
+      "curve": {
+        "x": -58.558,
+        "y": 67.5788
+      }
+    }
+  ],
+  "id": 1134
+}

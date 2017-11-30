@@ -1,0 +1,110 @@
+{
+  "title": "learn anything - security - information security",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "information security",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Information_security",
+      "fx": -123.88654891304361,
+      "fy": -322.2850713315218,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/netsec/",
+          "fx": 205.1134510869564,
+          "fy": -328.2850713315218,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "️",
+          "url": "https://security.stackexchange.com/",
+          "fx": 205.1134510869564,
+          "fy": -288.2850713315218,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 60.14555027173935,
+      "fy": -191.41143002717388,
+      "nodes": [
+        {
+          "text": "awesome infosec",
+          "url": "https://github.com/onlurking/awesome-infosec",
+          "fx": 197.14555027173935,
+          "fy": -179.91143002717388,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "network security  ️",
+      "url": "/security/information-security/network-security",
+      "fx": -400.1319141421386,
+      "fy": -100.5352515811843,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "sanitisation  ️",
+      "url": "/security/information-security/sanitisation",
+      "fx": -588.3249707819804,
+      "fy": -99.84768557869381,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "computer security  ️",
+      "url": "/security/information-security/cybersecurity",
+      "fx": -159.1784383817319,
+      "fy": -99.10377654132151,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "information security",
+      "curve": {
+        "x": -50.5161,
+        "y": -64.1868
+      }
+    },
+    {
+      "source": "information security",
+      "target": "computer security  ️",
+      "curve": {
+        "x": -27.396,
+        "y": 111.59
+      }
+    },
+    {
+      "source": "information security",
+      "target": "network security  ️",
+      "curve": {
+        "x": -151.373,
+        "y": 110.875
+      }
+    },
+    {
+      "source": "information security",
+      "target": "sanitisation  ️",
+      "curve": {
+        "x": -264.719,
+        "y": 109.969
+      }
+    }
+  ],
+  "id": 1776
+}

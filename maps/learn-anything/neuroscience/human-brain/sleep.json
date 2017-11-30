@@ -1,0 +1,84 @@
+{
+  "title": "learn anything - neuroscience - human brain - sleep",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "sleep",
+      "url": "http://www.wikiwand.com/en/Sleep",
+      "fx": -41.40625,
+      "fy": -318.92578125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -46.7265625,
+      "fy": -189.18359375,
+      "nodes": [
+        {
+          "text": "1. what if you stopped sleeping?",
+          "url": "https://www.youtube.com/watch?v=nNhDkKAvxFk",
+          "fx": 135.2734375,
+          "fy": -197.68359375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. what happens during sleep",
+          "url": "https://www.reddit.com/r/psychology/comments/4snib4/mystery_of_what_sleep_does_to_our_brains_may/d5b0aq7/",
+          "fx": 135.2734375,
+          "fy": -157.68359375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "dreaming",
+      "url": "http://www.wikiwand.com/en/Dream",
+      "fx": -134.064453125,
+      "fy": -59.3076171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "lucid dreaming  ️",
+      "url": "/neuroscience/human-brain/sleep/lucid-dreaming",
+      "fx": -162.71376507241848,
+      "fy": 62.64033057785787,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "sleep",
+      "target": "basics",
+      "curve": {
+        "x": -7.41016,
+        "y": 63.6211
+      }
+    },
+    {
+      "source": "basics",
+      "target": "dreaming",
+      "curve": {
+        "x": -36.1689,
+        "y": 66.188
+      }
+    },
+    {
+      "source": "dreaming",
+      "target": "lucid dreaming  ️",
+      "curve": {
+        "x": -9.57466,
+        "y": 59.724
+      }
+    }
+  ],
+  "id": 1255
+}

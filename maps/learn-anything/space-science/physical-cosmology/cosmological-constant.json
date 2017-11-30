@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - space science - physical cosmology - cosmological constant",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cosmological constant",
+      "url": "http://www.wikiwand.com/en/Cosmological_constant",
+      "fx": 125.01953125,
+      "fy": -125.45703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 213.35781250000002,
+      "fy": 31.564062500000034,
+      "nodes": [
+        {
+          "text": "1. cosmological constant &amp; the end of the universe",
+          "url": "https://www.youtube.com/watch?v=bHqkl51KzmM",
+          "fx": 376.3578125,
+          "fy": 31.564062500000034,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "cosmological constant",
+      "target": "basics",
+      "curve": {
+        "x": -3.58086,
+        "y": 77.7605
+      }
+    }
+  ],
+  "id": 1841
+}

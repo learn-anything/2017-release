@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - linguistics - computational linguistics - speech synthesis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "speech synthesis",
+      "url": "http://www.wikiwand.com/en/Speech_synthesis",
+      "fx": 81.61328125,
+      "fy": -107.5859375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 297.7972196691177,
+      "fy": 11.342715992681292,
+      "nodes": [
+        {
+          "text": "17: deep generative models for speech and images",
+          "url": "https://www.youtube.com/watch?v=vEAq_sBf1CA",
+          "fx": 496.7972196691177,
+          "fy": 11.342715992681292,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 145.47639016544122,
+      "fy": 138.6323529411764,
+      "nodes": [
+        {
+          "text": "1. generative model-based text-to-speech synthesis",
+          "url": "https://www.youtube.com/watch?v=nsrSrYtKkT8",
+          "fx": 308.4763901654412,
+          "fy": 138.6323529411764,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "speech synthesis",
+      "target": "basics",
+      "curve": {
+        "x": -3.31844,
+        "y": 122.359
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "speech synthesis",
+      "curve": {
+        "x": -81.842,
+        "y": -58.7143
+      }
+    }
+  ],
+  "id": 705
+}

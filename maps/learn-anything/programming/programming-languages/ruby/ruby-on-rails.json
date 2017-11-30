@@ -1,0 +1,112 @@
+{
+  "title": "learn anything - programming - programming languages - ruby - ruby on rails",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ruby on rails",
+      "url": "http://www.wikiwand.com/en/Ruby_on_Rails",
+      "fx": -97.67499719982072,
+      "fy": -182.50179211469538,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/rails/",
+          "fx": 139.32500280017928,
+          "fy": -208.50179211469538,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/rails/rails",
+          "fx": 139.32500280017928,
+          "fy": -168.50179211469538,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/ekremkaraca/awesome-rails",
+          "fx": 139.32500280017928,
+          "fy": -128.50179211469538,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 34.518173163082565,
+      "fy": -63.31158294130813,
+      "nodes": [
+        {
+          "text": "awesome rails gems",
+          "url": "https://github.com/hothero/awesome-rails-gem",
+          "fx": 171.51817316308257,
+          "fy": -51.81158294130813,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -66.9843425135457,
+      "fy": 49.84110561493907,
+      "nodes": [
+        {
+          "text": "1. the odin project",
+          "url": "https://www.theodinproject.com/",
+          "fx": 115.0156574864543,
+          "fy": 27.341105614939067,
+          "nodes": [],
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. get started with rails",
+          "url": "http://guides.rubyonrails.org/getting_started.html",
+          "fx": 115.0156574864543,
+          "fy": 61.34110561493907,
+          "nodes": [],
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. ruby on rails tutorial",
+          "url": "https://www.railstutorial.org/",
+          "fx": 115.0156574864543,
+          "fy": 95.34110561493907,
+          "nodes": [],
+          "category": "non-free book",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "ruby on rails",
+      "curve": {
+        "x": -41.0966,
+        "y": -58.3451
+      }
+    },
+    {
+      "source": "ruby on rails",
+      "target": "basics",
+      "curve": {
+        "x": -4.90467,
+        "y": 114.921
+      }
+    }
+  ],
+  "id": 1644
+}

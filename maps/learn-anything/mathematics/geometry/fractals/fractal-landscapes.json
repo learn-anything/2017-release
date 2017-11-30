@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - geometry - fractals - fractal landscapes",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "fractal landscapes",
+      "url": "http://www.wikiwand.com/en/Fractal_landscape",
+      "fx": -4.578125,
+      "fy": -168.78515625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 121.52362804878044,
+      "fy": -24.17172999117969,
+      "nodes": [
+        {
+          "text": "musicians with guns - overstepping artifacts",
+          "url": "https://vimeo.com/87696634",
+          "fx": 320.52362804878044,
+          "fy": -45.17172999117969,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "emergence",
+          "url": "https://vimeo.com/156015647",
+          "fx": 320.52362804878044,
+          "fy": 21.82827000882031,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "fractal landscapes",
+      "curve": {
+        "x": -35.0509,
+        "y": -71.5567
+      }
+    }
+  ],
+  "id": 948
+}

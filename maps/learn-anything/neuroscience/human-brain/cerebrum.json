@@ -1,0 +1,65 @@
+{
+  "title": "learn anything - neuroscience - human brain - cerebrum",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "cerebrum",
+      "url": "http://www.wikiwand.com/en/Cerebrum",
+      "fx": 327.2535990168541,
+      "fy": -283.77883602528095,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "cerebral cortex  ️",
+      "url": "/neuroscience/human-brain/cerebrum/cerebral-cortex",
+      "fx": 21.76629638671875,
+      "fy": -114.76949691772461,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "corpus callosum",
+      "url": "http://www.wikiwand.com/en/Corpus_callosum",
+      "fx": 260.35328537855696,
+      "fy": -109.62542079522353,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basal ganglia",
+      "url": "http://www.wikiwand.com/en/Basal_ganglia",
+      "fx": 512.8960674157304,
+      "fy": -106.37930126404495,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "cerebrum",
+      "target": "cerebral cortex  ️",
+      "curve": {
+        "x": -147.494,
+        "y": 83.7546
+      }
+    },
+    {
+      "source": "cerebrum",
+      "target": "corpus callosum",
+      "curve": {
+        "x": -15.9502,
+        "y": 87.0767
+      }
+    },
+    {
+      "source": "cerebrum",
+      "target": "basal ganglia",
+      "curve": {
+        "x": 101.571,
+        "y": 88.6998
+      }
+    }
+  ],
+  "id": 1250
+}

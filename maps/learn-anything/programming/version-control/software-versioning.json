@@ -1,0 +1,33 @@
+{
+  "title": "learn anything - programming - version control - software versioning",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "software versioning",
+      "url": "http://www.wikiwand.com/en/Software_versioning",
+      "fx": 143.9357638888888,
+      "fy": -172.0447048611111,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "semantic versioning  ️",
+      "url": "/programming/version-control/semantic-versioning",
+      "fx": -9.1847873263888,
+      "fy": -14.032443576388914,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "software versioning",
+      "target": "semantic versioning  ️",
+      "curve": {
+        "x": -82.8103,
+        "y": 78.2561
+      }
+    }
+  ],
+  "id": 1743
+}

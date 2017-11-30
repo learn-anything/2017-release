@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - economics - finance - financial markets",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "financial markets",
+      "url": "http://www.wikiwand.com/en/Financial_market",
+      "fx": 75.421875,
+      "fy": -87.54296875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 133.5,
+      "fy": 30,
+      "nodes": [
+        {
+          "text": "1. introduction",
+          "url": "https://www.youtube.com/watch?v=6OoMQiClXCs",
+          "fx": 289.5,
+          "fy": 41.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Black-Scholes model  ️",
+      "url": "/economics/finance/financial-markets/black-scholes-model",
+      "fx": -72.44140625,
+      "fy": 162.8984375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "financial markets",
+      "target": "basics",
+      "curve": {
+        "x": -1.46094,
+        "y": 57.5215
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Black-Scholes model  ️",
+      "curve": {
+        "x": -69.4707,
+        "y": 66.4492
+      }
+    }
+  ],
+  "id": 484
+}

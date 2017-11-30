@@ -1,0 +1,210 @@
+{
+  "title": "learn anything - programming - programming paradigms - functional programming",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "functional programming",
+      "url": "http://www.wikiwand.com/en/Functional_programming",
+      "fx": -139.04470902444746,
+      "fy": -352.207058832101,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/functionalprogramming/",
+          "fx": 201.95529097555254,
+          "fy": -358.207058832101,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/lucasviola/awesome-functional-programming",
+          "fx": 201.95529097555254,
+          "fy": -318.207058832101,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 82.52939261225197,
+      "fy": -230.32246989026459,
+      "nodes": [
+        {
+          "text": "functional programming jargon",
+          "url": "https://github.com/hemanth/functional-programming-jargon",
+          "fx": 219.52939261225197,
+          "fy": -218.82246989026459,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 116.31361643491914,
+      "fy": -120.50100897973965,
+      "nodes": [
+        {
+          "text": "accepted papers for ICFP'17",
+          "url": "https://github.com/gasche/icfp2017-papers",
+          "fx": 307.31361643491914,
+          "fy": -109.00100897973965,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -110.51159512007234,
+      "fy": 67.66466524142953,
+      "nodes": [
+        {
+          "text": "1. functional programming &amp; haskell",
+          "url": "https://www.youtube.com/watch?v=LnX3B9oaKzw",
+          "fx": 71.48840487992766,
+          "fy": 17.16466524142953,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(255, 189, 10, 1.0)"
+        },
+        {
+          "text": "1. introduction to functional programming",
+          "url": "https://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/all.pdf",
+          "fx": 71.48840487992766,
+          "fy": 57.16466524142953,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "1. lecture series on functional programming",
+          "url": "http://lambda-the-ultimate.org/node/3642",
+          "fx": 71.48840487992766,
+          "fy": 119.16466524142953,
+          "nodes": [],
+          "category": "course",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "callback functions  ️",
+      "url": "/programming/programming-paradigms/functional-programming/callback-functions",
+      "fx": -808.4023624908739,
+      "fy": 249.66072825406786,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "immutability  ️",
+      "url": "/programming/programming-paradigms/functional-programming/immutability",
+      "fx": -276.1894984762017,
+      "fy": 250.97189737325834,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "pure functions  ️",
+      "url": "/programming/programming-paradigms/functional-programming/pure-functions",
+      "fx": -1019.632661679536,
+      "fy": 251.11210246901055,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "anonymous functions  ️",
+      "url": "/programming/programming-paradigms/functional-programming/anonymous-functions",
+      "fx": -560.6559539318245,
+      "fy": 251.66578706264033,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "monads  ️",
+      "url": "/programming/programming-paradigms/functional-programming/monads",
+      "fx": -86.17820637788316,
+      "fy": 252.71737584327866,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "functional programming",
+      "curve": {
+        "x": -59.787,
+        "y": -59.6924
+      }
+    },
+    {
+      "source": "functional programming",
+      "target": "basics",
+      "curve": {
+        "x": -31.9834,
+        "y": 208.684
+      }
+    },
+    {
+      "source": "basics",
+      "target": "monads  ️",
+      "curve": {
+        "x": 9.66677,
+        "y": 92.5264
+      }
+    },
+    {
+      "source": "basics",
+      "target": "immutability  ️",
+      "curve": {
+        "x": -77.0889,
+        "y": 91.6536
+      }
+    },
+    {
+      "source": "basics",
+      "target": "anonymous functions  ️",
+      "curve": {
+        "x": -200.072,
+        "y": 92.0005
+      }
+    },
+    {
+      "source": "basics",
+      "target": "callback functions  ️",
+      "curve": {
+        "x": -368.54,
+        "y": 53.6412
+      }
+    },
+    {
+      "source": "basics",
+      "target": "pure functions  ️",
+      "curve": {
+        "x": -513.702,
+        "y": 45.7822
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "help",
+      "curve": {
+        "x": -30.3921,
+        "y": -54.9107
+      }
+    }
+  ],
+  "id": 1674
+}

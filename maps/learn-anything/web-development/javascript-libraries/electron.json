@@ -1,0 +1,113 @@
+{
+  "title": "learn anything - web development - javascript libraries - electron",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "electron",
+      "url": "http://www.wikiwand.com/en/Electron_(software_framework)",
+      "fx": -178.89453125,
+      "fy": -294.12373621323525,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://twitter.com/electronjs",
+          "fx": 20.10546875,
+          "fy": -320.12373621323525,
+          "nodes": [],
+          "category": "",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "",
+          "url": "https://github.com/electron/electron",
+          "fx": 20.10546875,
+          "fy": -280.12373621323525,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "awesome",
+          "url": "https://github.com/sindresorhus/awesome-electron",
+          "fx": 20.10546875,
+          "fy": -240.12373621323525,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(255, 189, 10, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": -11.418955950435702,
+      "fy": -128.24675755721285,
+      "nodes": [
+        {
+          "text": "16: electron is flash for the desktop  ️",
+          "url": "https://josephg.com/blog/electron-is-flash-for-the-desktop/",
+          "fx": 150.5810440495643,
+          "fy": -147.74675755721285,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "17: how to build your first app with electron  ️",
+          "url": "https://neutrondev.com/how-build-first-app-electron/",
+          "fx": 150.5810440495643,
+          "fy": -107.74675755721285,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -173.56881893382365,
+      "fy": 59.269531250000114,
+      "nodes": [
+        {
+          "text": "1. quick start",
+          "url": "https://electron.atom.io/docs/tutorial/quick-start/",
+          "fx": 8.43118106617635,
+          "fy": 42.769531250000114,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. building a desktop app with electron  ️",
+          "url": "https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658",
+          "fx": 8.43118106617635,
+          "fy": 76.76953125000011,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "electron",
+      "target": "basics",
+      "curve": {
+        "x": -8.08715,
+        "y": 175.447
+      }
+    },
+    {
+      "source": "articles",
+      "target": "electron",
+      "curve": {
+        "x": -74.4878,
+        "y": -81.6885
+      }
+    }
+  ],
+  "id": 1887
+}

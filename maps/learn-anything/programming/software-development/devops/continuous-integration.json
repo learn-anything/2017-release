@@ -1,0 +1,130 @@
+{
+  "title": "learn anything - programming - software development - devops - continuous integration",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "continuous integration",
+      "url": "http://www.wikiwand.com/en/Continuous_integration",
+      "fx": -92.63802083333348,
+      "fy": -423.3720815373563,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/ciandcd/awesome-ciandcd",
+          "fx": 255.36197916666652,
+          "fy": -409.3720815373563,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -11.147687539286721,
+      "fy": -285.01428551509434,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=ymPOI4gWQFY&amp;t=1s",
+          "fx": 151.85231246071328,
+          "fy": -272.51428551509434,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "TeamCity",
+      "url": "https://www.jetbrains.com/teamcity/",
+      "fx": -245.67214965820312,
+      "fy": -155.4503402709961,
+      "nodes": []
+    },
+    {
+      "text": "jenkins  ️",
+      "url": "/programming/software-development/devops/continuous-integration/jenkins",
+      "fx": 22.3203125,
+      "fy": -156.3046875,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "bamboo",
+      "url": "https://www.atlassian.com/software/bamboo",
+      "fx": 178.0181162907529,
+      "fy": -154.71936440926333,
+      "nodes": []
+    },
+    {
+      "text": "drone",
+      "url": "https://github.com/drone/drone",
+      "fx": -384.0211674616885,
+      "fy": -155.21658158760806,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "travis  ️",
+      "url": "/programming/software-development/devops/continuous-integration/travis",
+      "fx": -107.54449052077052,
+      "fy": -154.91722512703677,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "continuous integration",
+      "target": "basics",
+      "curve": {
+        "x": -2.00484,
+        "y": 67.9284
+      }
+    },
+    {
+      "source": "basics",
+      "target": "drone",
+      "curve": {
+        "x": -230.944,
+        "y": 40.7817
+      }
+    },
+    {
+      "source": "basics",
+      "target": "TeamCity",
+      "curve": {
+        "x": -110.763,
+        "y": 64.7819
+      }
+    },
+    {
+      "source": "basics",
+      "target": "travis  ️",
+      "curve": {
+        "x": -50.6985,
+        "y": 65.0485
+      }
+    },
+    {
+      "source": "basics",
+      "target": "jenkins  ️",
+      "curve": {
+        "x": 24.9839,
+        "y": 65.6047
+      }
+    },
+    {
+      "source": "basics",
+      "target": "bamboo",
+      "curve": {
+        "x": 99.083,
+        "y": 65.1474
+      }
+    }
+  ],
+  "id": 1712
+}

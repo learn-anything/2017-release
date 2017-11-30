@@ -1,0 +1,211 @@
+{
+  "title": "learn anything - physics - classical mechanics - waves",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "waves",
+      "url": "http://www.wikiwand.com/en/Wave",
+      "fx": -36.03515625,
+      "fy": -222.171875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -24.63953234265739,
+      "fy": -69.37461756998192,
+      "nodes": [
+        {
+          "text": "1. travelling waves",
+          "url": "https://www.youtube.com/watch?v=TfYCnOvNnFU",
+          "fx": 138.3604676573426,
+          "fy": -90.37461756998192,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. waves: light, sound and the nature of reality",
+          "url": "https://www.youtube.com/watch?v=Io-HXZTepH4",
+          "fx": 138.3604676573426,
+          "fy": -48.37461756998192,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "interference  ️",
+      "url": "/physics/classical-mechanics/waves/interference",
+      "fx": -1673.20927699321,
+      "fy": 80.06961071831131,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "diffraction  ️",
+      "url": "/physics/classical-mechanics/waves/diffraction",
+      "fx": -1873.2728623597425,
+      "fy": 81.07408191367051,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "wavelength  ️",
+      "url": "/physics/classical-mechanics/waves-/wavelength",
+      "fx": -1462.9410427393216,
+      "fy": 82.25204400269297,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "frequency  ️",
+      "url": "/physics/classical-mechanics/waves/frequency",
+      "fx": -1271.8298645019531,
+      "fy": 86.21925354003906,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "wave propagation",
+      "url": "http://www.wikiwand.com/en/Wave_propagation",
+      "fx": -1094.7122344970703,
+      "fy": 90.42098999023438,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "total internal reflection  ️",
+      "url": "/physics/classical-mechanics/waves/total-internal-reflection",
+      "fx": -839.5845642089844,
+      "fy": 91.47192001342773,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "mechanical waves  ️",
+      "url": "/physics/classical-mechanics/waves/mechanical-waves",
+      "fx": -314.02075958251953,
+      "fy": 96.2425708770752,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "wave equation  ️",
+      "url": "/physics/classical-mechanics/waves/wave-equation",
+      "fx": -537.1643343235468,
+      "fy": 96.86958618100857,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "amplitude  ️",
+      "url": "/physics/classical-mechanics/waves/amplitude",
+      "fx": -49.256861745923516,
+      "fy": 97.54250843441264,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "transverse waves  ️",
+      "url": "/physics/classical-mechanics/waves/transverse-waves",
+      "fx": 140.22894633958913,
+      "fy": 100.07752144737788,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "waves",
+      "target": "basics",
+      "curve": {
+        "x": -2.05219,
+        "y": 75.6486
+      }
+    },
+    {
+      "source": "basics",
+      "target": "mechanical waves  ️",
+      "curve": {
+        "x": -114.941,
+        "y": 82.8086
+      }
+    },
+    {
+      "source": "basics",
+      "target": "amplitude  ️",
+      "curve": {
+        "x": -4.30866,
+        "y": 83.4586
+      }
+    },
+    {
+      "source": "basics",
+      "target": "transverse waves  ️",
+      "curve": {
+        "x": 109.434,
+        "y": 84.7261
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wave equation  ️",
+      "curve": {
+        "x": -251.262,
+        "y": 68.8854
+      }
+    },
+    {
+      "source": "basics",
+      "target": "total internal reflection  ️",
+      "curve": {
+        "x": -389.841,
+        "y": 49.8989
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wave propagation",
+      "curve": {
+        "x": -589.564,
+        "y": 26.4759
+      }
+    },
+    {
+      "source": "basics",
+      "target": "frequency  ️",
+      "curve": {
+        "x": -786.325,
+        "y": 13.9532
+      }
+    },
+    {
+      "source": "basics",
+      "target": "wavelength  ️",
+      "curve": {
+        "x": -989.648,
+        "y": 10.1198
+      }
+    },
+    {
+      "source": "basics",
+      "target": "interference  ️",
+      "curve": {
+        "x": -1077.09,
+        "y": -24.524
+      }
+    },
+    {
+      "source": "basics",
+      "target": "diffraction  ️",
+      "curve": {
+        "x": -1336.41,
+        "y": 15.2132
+      }
+    }
+  ],
+  "id": 1398
+}

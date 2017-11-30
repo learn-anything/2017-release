@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - logic - propositional logic - modal logic - deontic logic",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "deontic logic",
+      "url": "http://www.wikiwand.com/en/Deontic_logic",
+      "fx": 119.3828125,
+      "fy": -14.46484375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 152.25390625,
+      "fy": 112.6171875,
+      "nodes": [
+        {
+          "text": "1. the logic of ethics series",
+          "url": "https://www.youtube.com/playlist?annotation_id=annotation_3379912253&amp;feature=iv&amp;list=PLz0n_SjOttTeQ8tcWgyV1o8oIyUvtgxX6&amp;src_vid=YxBShJU_CKs",
+          "fx": 315.25390625,
+          "fy": 125.1171875,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "deontic logic",
+      "target": "basics",
+      "curve": {
+        "x": -7.06445,
+        "y": 62.791
+      }
+    }
+  ],
+  "id": 1016
+}

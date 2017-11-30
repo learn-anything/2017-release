@@ -1,0 +1,67 @@
+{
+  "title": "learn anything - programming - programming languages - swift - libraries - rxswift",
+  "tag": "RxSwift",
+  "nodes": [
+    {
+      "text": "RxSwift",
+      "url": "https://github.com/ReactiveX/RxSwift",
+      "fx": 87.54296875,
+      "fy": -361.13671875,
+      "nodes": [],
+      "category": "github"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 203.81540697674427,
+      "fy": -262.0864825581268,
+      "nodes": [
+        {
+          "text": "Rx visualiser",
+          "url": "https://rxviz.com/",
+          "fx": 340.81540697674427,
+          "fy": -250.58648255812682,
+          "nodes": [],
+          "category": "interactive",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 101.9637470688931,
+      "fy": -175.57844987026482,
+      "nodes": [
+        {
+          "text": "1. getting started",
+          "url": "https://github.com/ReactiveX/RxSwift/blob/master/Documentation/GettingStarted.md",
+          "fx": 257.9637470688931,
+          "fy": -164.07844987026482,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "RxSwift",
+      "target": "basics",
+      "curve": {
+        "x": -2.78961,
+        "y": 91.5291
+      }
+    },
+    {
+      "source": "help",
+      "target": "RxSwift",
+      "curve": {
+        "x": -43.3862,
+        "y": -48.2751
+      }
+    }
+  ],
+  "id": 1659
+}

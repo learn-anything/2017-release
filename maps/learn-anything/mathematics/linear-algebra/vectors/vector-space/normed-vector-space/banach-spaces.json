@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - vectors - vector space - normed vector space - banach spaces",
+  "tag": "Banach spaces",
+  "nodes": [
+    {
+      "text": "Banach spaces",
+      "url": "http://www.wikiwand.com/en/Banach_space",
+      "fx": 91.8359375,
+      "fy": -86.38671875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147,
+      "fy": 55.78515625,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=Fl21lutUIXk&amp;t=524s",
+          "fx": 310,
+          "fy": 68.28515625,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Banach spaces",
+      "target": "basics",
+      "curve": {
+        "x": -0.417969,
+        "y": 70.336
+      }
+    }
+  ],
+  "id": 990
+}

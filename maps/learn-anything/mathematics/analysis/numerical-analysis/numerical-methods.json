@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - mathematics - analysis - numerical analysis - numerical methods",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "numerical methods",
+      "url": "http://www.wikiwand.com/en/Numerical_method",
+      "fx": 73.69140625,
+      "fy": -86.37109375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 147.79012784090912,
+      "fy": 68.10564207927496,
+      "nodes": [
+        {
+          "text": "1. numerical vs analytical methods",
+          "url": "https://www.youtube.com/watch?v=KjBCjVAobVs",
+          "fx": 310.7901278409091,
+          "fy": 34.60564207927496,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "1. introduction to numerical methods",
+          "url": "https://www.math.ust.hk/~machas/numerical-methods.pdf",
+          "fx": 310.7901278409091,
+          "fy": 101.60564207927496,
+          "nodes": [],
+          "category": "free book",
+          "color": "rgba(0, 224, 161, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "numerical methods",
+      "target": "basics",
+      "curve": {
+        "x": -2.45064,
+        "y": 76.4884
+      }
+    }
+  ],
+  "id": 871
+}

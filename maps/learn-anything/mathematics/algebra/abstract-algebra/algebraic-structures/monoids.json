@@ -1,0 +1,76 @@
+{
+  "title": "learn anything - mathematics - algebra - abstract algebra - algebraic structures - monoids",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "monoids",
+      "url": "http://www.wikiwand.com/en/Monoid",
+      "fx": -13.11328125,
+      "fy": -150.9609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 103.7973758012821,
+      "fy": -22.904046474359006,
+      "nodes": [
+        {
+          "text": "14: notions of computation as monoids",
+          "url": "https://arxiv.org/abs/1406.4823",
+          "fx": 294.7973758012821,
+          "fy": -11.404046474359006,
+          "nodes": [],
+          "category": "paper",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -2.565224644128193,
+      "fy": 90.4098532741354,
+      "nodes": [
+        {
+          "text": "1. definition of a monoid    ️",
+          "url": "https://math.stackexchange.com/a/421256/143616",
+          "fx": 153.4347753558718,
+          "fy": 70.9098532741354,
+          "nodes": [],
+          "category": "stack exchange",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "1. moons of programmers: a scala example  ️",
+          "url": "https://www.safaribooksonline.com/blog/2013/05/15/monoids-for-programmers-a-scala-example/",
+          "fx": 153.4347753558718,
+          "fy": 110.9098532741354,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "monoids",
+      "target": "basics",
+      "curve": {
+        "x": -6.97597,
+        "y": 119.435
+      }
+    },
+    {
+      "source": "interesting",
+      "target": "monoids",
+      "curve": {
+        "x": -54.9553,
+        "y": -62.7784
+      }
+    }
+  ],
+  "id": 827
+}

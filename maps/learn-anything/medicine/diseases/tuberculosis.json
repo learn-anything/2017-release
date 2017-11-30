@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - medicine - diseases - tuberculosis",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "tuberculosis",
+      "url": "http://www.wikiwand.com/en/Tuberculosis",
+      "fx": 89.2578125,
+      "fy": -125.31640625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 118.45703125,
+      "fy": 27,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=S0Kak0qQFgM&amp;list=PLSV0y2HpDtXxRO6cKM3Pq5oFEZKgQsOt2",
+          "fx": 274.45703125,
+          "fy": 38.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "tuberculosis",
+      "target": "basics",
+      "curve": {
+        "x": -5.40039,
+        "y": 74.9082
+      }
+    }
+  ],
+  "id": 1159
+}

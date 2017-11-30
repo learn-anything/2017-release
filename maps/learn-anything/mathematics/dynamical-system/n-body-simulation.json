@@ -1,0 +1,92 @@
+{
+  "title": "learn anything - mathematics - dynamical system - n-body simulation",
+  "tag": "N-body simulation",
+  "nodes": [
+    {
+      "text": "N-body simulation",
+      "url": "http://www.wikiwand.com/en/N-body_simulation",
+      "fx": -114,
+      "fy": -321.70703125,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "interesting",
+      "url": "",
+      "fx": 34.140625,
+      "fy": -205.5234375,
+      "nodes": [
+        {
+          "text": "N-Body simulation example",
+          "url": "https://www.youtube.com/watch?v=DoLe1c-eokI",
+          "fx": 225.140625,
+          "fy": -225.0234375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        },
+        {
+          "text": "largest virtual universe ever simulated",
+          "url": "https://www.reddit.com/r/Futurology/comments/6geo7u/the_largest_virtual_universe_ever_simulated/",
+          "fx": 225.140625,
+          "fy": -185.0234375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(36, 170, 255, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -49.30859375,
+      "fy": -86.21875,
+      "nodes": [
+        {
+          "text": "1. what are N-body simulations  ️",
+          "url": "http://physics.princeton.edu/~fpretori/Nbody/intro.htm",
+          "fx": 106.69140625,
+          "fy": -74.71875,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "Barnes-Hut simulation  ️",
+      "url": "/mathematics/dynamical-system/n-body-simulation/barnes-hut-simulation",
+      "fx": -279.49428072914367,
+      "fy": 77.97960932539434,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "interesting",
+      "target": "N-body simulation",
+      "curve": {
+        "x": -48.8203,
+        "y": -56.8418
+      }
+    },
+    {
+      "source": "N-body simulation",
+      "target": "basics",
+      "curve": {
+        "x": -1.6543,
+        "y": 116.494
+      }
+    },
+    {
+      "source": "basics",
+      "target": "Barnes-Hut simulation  ️",
+      "curve": {
+        "x": -72.0928,
+        "y": 83.3492
+      }
+    }
+  ],
+  "id": 930
+}

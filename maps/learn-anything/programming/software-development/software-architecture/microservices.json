@@ -1,0 +1,87 @@
+{
+  "title": "learn anything - programming - software development - software architecture - microservices",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "microservices",
+      "url": "http://www.wikiwand.com/en/Microservices",
+      "fx": -81.4921875,
+      "fy": -74.72113715277777,
+      "nodes": [
+        {
+          "text": "awesome",
+          "url": "https://github.com/mfornos/awesome-microservices",
+          "fx": 169.5078125,
+          "fy": -60.72113715277777,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "articles",
+      "url": "",
+      "fx": 93.43670014477311,
+      "fy": 29.013301809598318,
+      "nodes": [
+        {
+          "text": "17: enough with the microservices  ️",
+          "url": "https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html",
+          "fx": 255.4367001447731,
+          "fy": 29.513301809598318,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "note": "",
+      "url": "",
+      "fx": -80.9446186230798,
+      "fy": 160.86685748348782,
+      "nodes": [
+        {
+          "text": "1. definition of microservices  ️",
+          "url": "https://martinfowler.com/articles/microservices.html",
+          "fx": 101.0553813769202,
+          "fy": 152.36685748348782,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(36, 170, 255, 1.0)"
+        },
+        {
+          "text": "2. netflix guide to microservices",
+          "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+          "fx": 101.0553813769202,
+          "fy": 192.36685748348782,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "microservices",
+      "target": "basics",
+      "curve": {
+        "x": -23.4762,
+        "y": 116.544
+      }
+    },
+    {
+      "source": "articles",
+      "target": "microservices",
+      "curve": {
+        "x": -65.2144,
+        "y": -50.6172
+      }
+    }
+  ],
+  "id": 1726
+}

@@ -1,0 +1,139 @@
+{
+  "title": "learn anything - web development - search engines",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "web search engines",
+      "note": "",
+      "url": "http://www.wikiwand.com/en/Web_search_engine",
+      "fx": -117.18622068998661,
+      "fy": -28.649709302325675,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "Elasticsearch  ️",
+      "url": "/web-development/search-engines/elasticsearch",
+      "fx": -357.15070400575553,
+      "fy": 92.51017392208666,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 113.06559495549016,
+      "fy": 133.46151131408857,
+      "nodes": [
+        {
+          "text": "the anatomy of a large-scale hypertextual web search engine  ️",
+          "url": "http://infolab.stanford.edu/~backrub/google.html",
+          "fx": 254.06559495549016,
+          "fy": 99.96151131408857,
+          "nodes": [],
+          "category": "article",
+          "color": "rgba(104, 255, 109, 1.0)"
+        },
+        {
+          "text": "search engine optimisation",
+          "url": "https://github.com/marcobiedermann/search-engine-optimization",
+          "fx": 254.06559495549016,
+          "fy": 191.96151131408857,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(0, 224, 161, 1.0)"
+        },
+        {
+          "text": "What every software engineer should know about search",
+          "url": "https://medium.com/startup-grind/what-every-software-engineer-should-know-about-search-27d1df99f80d",
+          "fx": 254.06559495549016,
+          "fy": 282.96151131408857,
+          "nodes": [],
+          "category": "article"
+        }
+      ]
+    },
+    {
+      "text": "sphinx",
+      "url": "http://sphinxsearch.com/",
+      "fx": -245.7910667644727,
+      "fy": 189.98538358457307,
+      "nodes": []
+    },
+    {
+      "text": "Solr  ️",
+      "url": "/web-development/search-engines/solr",
+      "fx": -196.30716249200543,
+      "fy": 304.99181010844825,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "PageRank  ️",
+      "url": "/web-development/search-engines/pagerank",
+      "fx": 98.52422664141432,
+      "fy": 307.1923137626263,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "query understanding",
+      "url": "http://www.wikiwand.com/en/Query_understanding",
+      "fx": -185.36328292808025,
+      "fy": 411.66639772532005,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "help",
+      "target": "web search engines",
+      "curve": {
+        "x": -74.8759,
+        "y": -79.8056
+      }
+    },
+    {
+      "source": "web search engines",
+      "target": "Elasticsearch  ️",
+      "curve": {
+        "x": -140.232,
+        "y": 59.3297
+      }
+    },
+    {
+      "source": "web search engines",
+      "target": "sphinx",
+      "curve": {
+        "x": -106.052,
+        "y": 108.067
+      }
+    },
+    {
+      "source": "web search engines",
+      "target": "Solr  ️",
+      "curve": {
+        "x": -87.8105,
+        "y": 165.572
+      }
+    },
+    {
+      "source": "web search engines",
+      "target": "query understanding",
+      "curve": {
+        "x": -44.0886,
+        "y": 218.908
+      }
+    },
+    {
+      "source": "web search engines",
+      "target": "PageRank  ️",
+      "curve": {
+        "x": 77.7823,
+        "y": 226.01
+      }
+    }
+  ],
+  "id": 1915
+}

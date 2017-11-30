@@ -1,0 +1,148 @@
+{
+  "title": "learn anything - physics - matter - atoms - molecules - biomolecules - proteins - protein folding",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "protein folding",
+      "url": "http://www.wikiwand.com/en/Protein_folding",
+      "fx": 100.23046875,
+      "fy": -93.71484375,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/proteindynamics/",
+          "fx": 370.23046875,
+          "fy": -79.71484375,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 146,
+      "fy": 49,
+      "nodes": [
+        {
+          "text": "1. the protein folding revolution",
+          "url": "https://www.youtube.com/watch?v=cAJQbSLlonI",
+          "fx": 309,
+          "fy": 61.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "protein structure",
+      "url": "http://www.wikiwand.com/en/Protein_structure",
+      "fx": -3.072008490896451,
+      "fy": 198.82951116301774,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "alpha helix",
+      "url": "http://www.wikiwand.com/en/Alpha_helix",
+      "fx": 337.6298828125,
+      "fy": 271.2587890625,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "protein secondary structure",
+      "url": "http://www.wikiwand.com/en/Protein_secondary_structure",
+      "fx": -69.73665878989482,
+      "fy": 358.3761645230379,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "beta helix",
+      "url": "http://www.wikiwand.com/en/Beta_helix",
+      "fx": 337.498046875,
+      "fy": 435.6474609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "protein tertiary structure",
+      "url": "http://www.wikiwand.com/en/Protein_tertiary_structure",
+      "fx": -50.214526016746504,
+      "fy": 533.7867013058212,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "protein quaternary structure",
+      "url": "http://www.wikiwand.com/en/Protein_quaternary_structure",
+      "fx": -77.0810565304862,
+      "fy": 690.7371664666477,
+      "nodes": [],
+      "category": "wiki"
+    }
+  ],
+  "connections": [
+    {
+      "source": "protein folding",
+      "target": "basics",
+      "curve": {
+        "x": -3.86524,
+        "y": 70.6074
+      }
+    },
+    {
+      "source": "basics",
+      "target": "protein structure",
+      "curve": {
+        "x": -42.536,
+        "y": 75.6648
+      }
+    },
+    {
+      "source": "protein structure",
+      "target": "protein secondary structure",
+      "curve": {
+        "x": -3.83233,
+        "y": 79.7733
+      }
+    },
+    {
+      "source": "protein secondary structure",
+      "target": "alpha helix",
+      "curve": {
+        "x": 159.933,
+        "y": -43.5587
+      }
+    },
+    {
+      "source": "protein secondary structure",
+      "target": "beta helix",
+      "curve": {
+        "x": 157.367,
+        "y": 38.6356
+      }
+    },
+    {
+      "source": "protein secondary structure",
+      "target": "protein tertiary structure",
+      "curve": {
+        "x": -1.73893,
+        "y": 87.7053
+      }
+    },
+    {
+      "source": "protein tertiary structure",
+      "target": "protein quaternary structure",
+      "curve": {
+        "x": -1.93327,
+        "y": 78.4752
+      }
+    }
+  ],
+  "id": 1466
+}

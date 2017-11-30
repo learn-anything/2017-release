@@ -1,0 +1,51 @@
+{
+  "title": "learn anything - operating systems - unix - linux - distributions - ubuntu",
+  "tag": "",
+  "nodes": [
+    {
+      "text": "ubuntu",
+      "url": "http://www.wikiwand.com/en/Ubuntu_(operating_system)",
+      "fx": -62.5859375,
+      "fy": -155.41796875,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/Ubuntu/",
+          "fx": 128.4140625,
+          "fy": -141.41796875,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -48.54296875,
+      "fy": -24.51171875,
+      "nodes": [
+        {
+          "text": "1.getting started",
+          "url": "https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0",
+          "fx": 107.45703125,
+          "fy": -10.01171875,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "ubuntu",
+      "target": "basics",
+      "curve": {
+        "x": -1.72852,
+        "y": 64.2031
+      }
+    }
+  ],
+  "id": 1289
+}

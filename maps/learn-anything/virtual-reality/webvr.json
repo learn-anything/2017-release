@@ -1,0 +1,107 @@
+{
+  "title": "learn anything - virtual reality - webvr",
+  "tag": "WebVR",
+  "nodes": [
+    {
+      "text": "WebVR",
+      "url": "http://www.wikiwand.com/en/WebVR",
+      "fx": 70.65616122159088,
+      "fy": -376.7748579545455,
+      "nodes": [
+        {
+          "text": "",
+          "url": "https://www.reddit.com/r/WebVR/",
+          "fx": 275.6561612215909,
+          "fy": -362.7748579545455,
+          "nodes": [],
+          "category": "reddit",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ],
+      "category": "wiki"
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 190.84273801813458,
+      "fy": -246.08888834712076,
+      "nodes": [
+        {
+          "text": "slack channel",
+          "url": "https://webvr.slack.com/",
+          "fx": 331.8427380181346,
+          "fy": -233.58888834712076,
+          "nodes": [],
+          "category": "chat",
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 59.36845279186855,
+      "fy": -128.82148598045245,
+      "nodes": [
+        {
+          "text": "1. WebVR API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API",
+          "fx": 222.36845279186855,
+          "fy": -113.82148598045245,
+          "nodes": [],
+          "color": "rgba(104, 255, 109, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "A-Frame  ️",
+      "url": "/virtual-reality/webvr/aframe",
+      "fx": 89.9745024875624,
+      "fy": 11.820429104477853,
+      "nodes": [],
+      "category": "mindmap"
+    },
+    {
+      "text": "React VR",
+      "url": "https://facebook.github.io/react-vr/",
+      "fx": -58.97403606965122,
+      "fy": 14.81327736318417,
+      "nodes": []
+    }
+  ],
+  "connections": [
+    {
+      "source": "WebVR",
+      "target": "basics",
+      "curve": {
+        "x": -16.1439,
+        "y": 123.227
+      }
+    },
+    {
+      "source": "basics",
+      "target": "React VR",
+      "curve": {
+        "x": -51.9212,
+        "y": 71.8174
+      }
+    },
+    {
+      "source": "basics",
+      "target": "A-Frame  ️",
+      "curve": {
+        "x": 28.053,
+        "y": 71.071
+      }
+    },
+    {
+      "source": "help",
+      "target": "WebVR",
+      "curve": {
+        "x": -44.0933,
+        "y": -64.593
+      }
+    }
+  ],
+  "id": 1847
+}

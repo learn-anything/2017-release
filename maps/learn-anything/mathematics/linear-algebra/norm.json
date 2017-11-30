@@ -1,0 +1,42 @@
+{
+  "title": "learn anything - mathematics - linear algebra - norm",
+  "tag": "vector norms",
+  "nodes": [
+    {
+      "text": "vector norms",
+      "url": "http://www.wikiwand.com/en/Norm_(mathematics)",
+      "fx": 88.98046875,
+      "fy": -216.10546875,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": 124.5,
+      "fy": -89.80859375,
+      "nodes": [
+        {
+          "text": "1. explanation",
+          "url": "https://www.youtube.com/watch?v=5fN2J8wYnfw",
+          "fx": 280.5,
+          "fy": -78.30859375,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "vector norms",
+      "target": "basics",
+      "curve": {
+        "x": 13.2598,
+        "y": 61.8984
+      }
+    }
+  ],
+  "id": 984
+}

@@ -1,0 +1,58 @@
+{
+  "title": "learn anything - space science - astronomy - universe - big bang",
+  "tag": "Bing Bang theory",
+  "nodes": [
+    {
+      "text": "Big Bang theory",
+      "url": "http://www.wikiwand.com/en/Big_Bang",
+      "fx": -85.890625,
+      "fy": -150.4609375,
+      "nodes": [],
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -32.07421875,
+      "fy": -9,
+      "nodes": [
+        {
+          "text": "1. the beginning of everything",
+          "url": "https://www.youtube.com/watch?v=wNDGgL73ihY",
+          "fx": 123.92578125,
+          "fy": 2.5,
+          "nodes": [],
+          "category": "video",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    },
+    {
+      "text": "metric expansion of space  ️",
+      "url": "/space-science/astronomy/universe/big-bang/metric-expansion-of-space",
+      "fx": -228.21875,
+      "fy": 138.2734375,
+      "nodes": [],
+      "category": "mindmap"
+    }
+  ],
+  "connections": [
+    {
+      "source": "Big Bang theory",
+      "target": "basics",
+      "curve": {
+        "x": -2.3418,
+        "y": 69.4805
+      }
+    },
+    {
+      "source": "basics",
+      "target": "metric expansion of space  ️",
+      "curve": {
+        "x": -53.0723,
+        "y": 73.6367
+      }
+    }
+  ],
+  "id": 1832
+}

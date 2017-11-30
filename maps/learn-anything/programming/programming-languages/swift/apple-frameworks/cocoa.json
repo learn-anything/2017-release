@@ -1,0 +1,41 @@
+{
+  "title": "learn anything - programming - programming languages - swift - apple frameworks - cocoa",
+  "tag": "Cocoa API",
+  "nodes": [
+    {
+      "text": "Cocoa",
+      "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html",
+      "fx": -149.23817912581706,
+      "fy": 149.72778799019608,
+      "nodes": []
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "fx": -158.44921875,
+      "fy": 273.12109375,
+      "nodes": [
+        {
+          "text": "1. learn cocoa",
+          "note": "a lot of articles",
+          "url": "http://www.cocoadevcentral.com/",
+          "fx": -2.44921875,
+          "fy": 287.62109375,
+          "nodes": [],
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "Cocoa",
+      "target": "basics",
+      "curve": {
+        "x": -5.10552,
+        "y": 61.6967
+      }
+    }
+  ],
+  "id": 1655
+}
