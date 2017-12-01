@@ -17,6 +17,14 @@ These instructions will allow you to set up your own instance of Learn Anything
 to develop with.
 
 ### Dependencies
+
+DynamoD is needed for managing maps and storing them within a database. On linux you can download and run it with the following commands.
+
+    wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip
+    unzip -a dynamodb_local_latest.zip   
+    java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+
 Elasticsearch is needed for fetching maps and suggestions on the website. On
 Linux you can download and run it with the following commands.
 
@@ -25,12 +33,12 @@ Linux you can download and run it with the following commands.
     ./elasticsearch-5.5.2/bin/elasticsearch
 
 ### Running
-Once you have Elasticsearch up and running you can start your local instance of
+Once you have Elasticsearch and DyamoDB up and running you can start your local instance of
 Learn Anything with the commands below.
 
     git clone https://github.com/learn-anything/learn-anything
     cd learn-anything
-    git checkout contrib
+    git checkout dev
     npm run setup
     npm start
 
@@ -126,3 +134,4 @@ If you want to help, you're stuck somewhere, or just want to have a chat with us
      </tr>
   </tbody>
 </table>
+
