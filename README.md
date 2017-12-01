@@ -18,7 +18,7 @@ to develop with.
 
 ### Dependencies
 
-DynamoD is needed for managing maps and storing them within a database. On linux you can download and run it with the following commands.
+DynamoDB is a database needed for managing and storing maps. On linux you can download and run it with the following commands.
 
     wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip
     unzip -a dynamodb_local_latest.zip   
