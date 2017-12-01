@@ -97,11 +97,11 @@ export default class NewResourceForm extends Component {
 
       store.dispatch({
         type: actions.ga.contribution.createResource,
-        payload: {
+        payload: JSON.stringify({
           nodeID: this.props.node.nodeID,
           nodeText: this.props.node.text,
           mapID: this.props.node.mapID,
-        },
+        }, null, 2),
       });
     }
   }
