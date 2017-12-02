@@ -1,70 +1,75 @@
 {
   "title": "learn anything - life - hobbies - carpentry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "carpentry",
-      "url": "http://www.wikiwand.com/en/Carpentry",
-      "fx": -75,
-      "fy": -191.25,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Carpentry/",
-          "fx": 138,
-          "fy": -197.25,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "DIY",
-          "url": "https://www.reddit.com/r/DIY/",
-          "fx": 138,
-          "fy": -157.25,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.5,
-      "fy": -47.890625,
-      "nodes": [
-        {
-          "text": "1. introduction to woodworking",
-          "url": "https://www.youtube.com/watch?v=6OxVVhVMsaA",
-          "fx": 108.5,
-          "fy": -67.390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. beginning woodworking: building a simple bookcase",
-          "url": "https://www.youtube.com/watch?v=ZktBkPOVvd0",
-          "fx": 108.5,
-          "fy": -27.390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "carpentry",
-      "target": "basics",
-      "curve": {
-        "x": -0.5,
-        "y": 70.4297
+  "id": 684,
+  "map": {
+    "text": "carpentry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6OxVVhVMsaA",
+            "text": "1. introduction to woodworking",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZktBkPOVvd0",
+            "text": "1. beginning woodworking: building a simple bookcase",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 684
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Carpentry/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/DIY/",
+        "text": "DIY",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Carpentry",
+        "text": "carpentry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

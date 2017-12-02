@@ -1,53 +1,54 @@
 {
   "title": "learn anything - data science - information retrieval",
   "tag": "",
-  "nodes": [
-    {
-      "text": "information retrieval",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Information_retrieval",
-      "fx": -225.671875,
-      "fy": -151.2265625,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/harpribot/awesome-information-retrieval",
-          "fx": 103.328125,
-          "fy": -137.2265625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -137.12959155701753,
-      "fy": 12.481222587672846,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=5L1qemKyUKA&amp;list=PL6jzv-WeF3aGpZtY64-l3k7ta8SHG136Z",
-          "fx": 18.870408442982466,
-          "fy": 23.981222587672846,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "information retrieval",
-      "target": "basics",
-      "curve": {
-        "x": 1.02114,
-        "y": 80.6039
+  "id": 399,
+  "map": {
+    "text": "information retrieval",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=5L1qemKyUKA&amp;list=PL6jzv-WeF3aGpZtY64-l3k7ta8SHG136Z",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 399
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/harpribot/awesome-information-retrieval",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Information_retrieval",
+        "text": "information retrieval",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

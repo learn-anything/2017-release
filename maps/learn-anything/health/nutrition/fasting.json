@@ -1,87 +1,83 @@
 {
   "title": "learn anything - health - nutrition - fasting",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fasting",
-      "url": "http://www.wikiwand.com/en/Fasting",
-      "fx": -192.86580628453032,
-      "fy": -267.3202045925415,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/fasting/",
-          "fx": -5.865806284530322,
-          "fy": -253.32020459254147,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -57.15185072815541,
-      "fy": -153.48734261225724,
-      "nodes": [
-        {
-          "text": "16: fasting, autophagy and cancer",
-          "url": "https://www.youtube.com/watch?v=eoDDZnfYonw",
-          "fx": 133.8481492718446,
-          "fy": -141.98734261225724,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -229.92211868530467,
-      "fy": -9.81439164475023,
-      "nodes": [
-        {
-          "text": "1. intermittent fasting vs. prolonged fasting: benefits of 1-3 day fasts",
-          "url": "https://www.youtube.com/watch?v=6UShUs1Wb_k",
-          "fx": -47.92211868530467,
-          "fy": -40.31439164475023,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. beginner’s guide to intermittent fasting  ️",
-          "url": "http://jamesclear.com/the-beginners-guide-to-intermittent-fasting",
-          "fx": -47.92211868530467,
-          "fy": 21.68560835524977,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fasting",
-      "target": "basics",
-      "curve": {
-        "x": -26.2782,
-        "y": 127.503
+  "id": 611,
+  "map": {
+    "text": "fasting",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6UShUs1Wb_k",
+            "text": "1. intermittent fasting vs. prolonged fasting: benefits of 1-3 day fasts",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://jamesclear.com/the-beginners-guide-to-intermittent-fasting",
+            "text": "1. beginner’s guide to intermittent fasting  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=eoDDZnfYonw",
+            "text": "16: fasting, autophagy and cancer",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "fasting",
-      "curve": {
-        "x": -68.857,
-        "y": -55.6664
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/fasting/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Fasting",
+        "text": "fasting",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 611
+    ],
+    "author": ""
+  }
 }

@@ -1,68 +1,72 @@
 {
   "title": "learn anything - biology - zoology ",
   "tag": "",
-  "nodes": [
-    {
-      "text": "zoology",
-      "url": "http://www.wikiwand.com/en/Zoology",
-      "fx": -64.8984375,
-      "fy": -155.375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/zoology/",
-          "fx": 142.1015625,
-          "fy": -141.375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -48.7890625,
-      "fy": 2.1182827102803117,
-      "nodes": [
-        {
-          "text": "1. playlist on zoology",
-          "url": "https://www.youtube.com/watch?v=WhFKPaRnTdQ&amp;list=PL133A6BE097ADE33D",
-          "fx": 114.2109375,
-          "fy": 14.618282710280312,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "animals  ️",
-      "url": "/biology/zoology/animals",
-      "fx": -165.21842143691595,
-      "fy": 147.24112879672896,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "zoology",
-      "target": "basics",
-      "curve": {
-        "x": -2.94531,
-        "y": 77.9966
+  "id": 137,
+  "map": {
+    "text": "zoology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "animals  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/zoology/animals",
+                "text": "animals  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WhFKPaRnTdQ&amp;list=PL133A6BE097ADE33D",
+            "text": "1. playlist on zoology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "animals  ️",
-      "curve": {
-        "x": -41.2147,
-        "y": 73.3114
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/zoology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Zoology",
+        "text": "zoology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 137
+    ],
+    "author": ""
+  }
 }

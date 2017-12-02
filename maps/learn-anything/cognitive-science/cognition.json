@@ -1,98 +1,115 @@
 {
   "title": "learn anything - cognitive science - cognition",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cognition",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Cognition",
-      "fx": 95.0662416757242,
-      "fy": -405.9932808524906,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "motivation  ️",
-      "url": "/cognitive-science/cognition/motivation",
-      "fx": 214.46017590408815,
-      "fy": -262.74125260283887,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "learning  ️",
-      "url": "/cognitive-science/cognition/learning",
-      "fx": -111.08920721914262,
-      "fy": -262.5822095520641,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "rationality  ️",
-      "url": "/cognitive-science/cognition/rationality",
-      "fx": 43.025125284488354,
-      "fy": -261.45027696211565,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "emotions  ️",
-      "url": "/cognitive-science/cognition/emotions",
-      "fx": 384.4253692626953,
-      "fy": -260.92856216430664,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cognitive biases  ️",
-      "url": "/cognitive-science/cognition/cognitive-biases",
-      "fx": 543.56640625,
-      "fy": -258.5625,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cognition",
-      "target": "learning  ️",
-      "curve": {
-        "x": -106.078,
-        "y": 71.7055
+  "id": 196,
+  "map": {
+    "text": "cognition",
+    "note": "",
+    "nodes": [
+      {
+        "text": "learning  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/learning",
+            "text": "learning  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "rationality  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/rationality",
+            "text": "rationality  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "motivation  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/motivation",
+            "text": "motivation  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "emotions  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/emotions",
+            "text": "emotions  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "cognitive biases  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/cognitive-biases",
+            "text": "cognitive biases  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "cognition",
-      "target": "rationality  ️",
-      "curve": {
-        "x": -25.2706,
-        "y": 72.2715
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cognition",
+        "text": "cognition",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "cognition",
-      "target": "motivation  ️",
-      "curve": {
-        "x": 48.4474,
-        "y": 70.376
-      }
-    },
-    {
-      "source": "cognition",
-      "target": "emotions  ️",
-      "curve": {
-        "x": 210.934,
-        "y": 69.0313
-      }
-    },
-    {
-      "source": "cognition",
-      "target": "cognitive biases  ️",
-      "curve": {
-        "x": 343.742,
-        "y": 69.3404
-      }
-    }
-  ],
-  "id": 196
+    ],
+    "author": ""
+  }
 }

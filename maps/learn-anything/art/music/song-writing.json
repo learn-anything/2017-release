@@ -1,51 +1,42 @@
 {
   "title": "learn anything - art - music - song writing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "song writing",
-      "url": "",
-      "fx": -74.6953125,
-      "fy": -139.609375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Songwriting/",
-          "fx": 133.3046875,
-          "fy": -128.109375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -52.04296875,
-      "fy": -6.04296875,
-      "nodes": [
-        {
-          "text": "1. how to write a song: creating vocal melodies",
-          "url": "https://www.youtube.com/watch?v=fwiztN_D-uA",
-          "fx": 103.95703125,
-          "fy": -5.54296875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "song writing",
-      "target": "basics",
-      "curve": {
-        "x": -1.67383,
-        "y": 66.7832
+  "id": 53,
+  "map": {
+    "text": "song writing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=fwiztN_D-uA",
+            "text": "1. how to write a song: creating vocal melodies",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 53
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Songwriting/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

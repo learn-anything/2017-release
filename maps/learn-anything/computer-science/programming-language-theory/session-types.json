@@ -1,41 +1,30 @@
 {
   "title": "learn anything - computer science - programming language theory - session types",
   "tag": "",
-  "nodes": [
-    {
-      "text": "session types",
-      "url": "",
-      "fx": 29.550143241882324,
-      "fy": -205.88089752197266,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 57.5,
-      "fy": -82.65625,
-      "nodes": [
-        {
-          "text": "1. session types in programming languages  ️",
-          "url": "http://simonjf.com/2016/05/28/session-type-implementations.html",
-          "fx": 213.5,
-          "fy": -82.15625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "session types",
-      "target": "basics",
-      "curve": {
-        "x": -2.27507,
-        "y": 61.6123
+  "id": 342,
+  "map": {
+    "text": "session types",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://simonjf.com/2016/05/28/session-type-implementations.html",
+            "text": "1. session types in programming languages  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 342
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

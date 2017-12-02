@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - bloom filters",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bloom filters",
-      "url": "http://www.wikiwand.com/en/Bloom_filter",
-      "fx": 102.75390624999989,
-      "fy": -63.578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 134.25949182242994,
-      "fy": 77.3115264797508,
-      "nodes": [
-        {
-          "text": "1. bloom filters by example  ️",
-          "url": "https://llimllib.github.io/bloomfilter-tutorial/",
-          "fx": 297.25949182242994,
-          "fy": 89.8115264797508,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "bloom filters",
-      "target": "basics",
-      "curve": {
-        "x": -2.74721,
-        "y": 69.6948
+  "id": 320,
+  "map": {
+    "text": "bloom filters",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://llimllib.github.io/bloomfilter-tutorial/",
+            "text": "1. bloom filters by example  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 320
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bloom_filter",
+        "text": "bloom filters",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

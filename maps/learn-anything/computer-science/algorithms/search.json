@@ -1,180 +1,188 @@
 {
   "title": "learn anything - computer science - algorithms - search",
   "tag": "search algorithms",
-  "nodes": [
-    {
-      "text": "search algorithms",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Search_algorithm",
-      "fx": -126.94814116379325,
-      "fy": -211.47265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 78.500083111702,
-      "fy": -84.28255388520648,
-      "nodes": [
-        {
-          "text": "list of search algorithms",
-          "url": "https://en.wikipedia.org/wiki/Category:Search_algorithms",
-          "fx": 219.500083111702,
-          "fy": -71.78255388520648,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 276,
+  "map": {
+    "text": "search algorithms",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Category:Search_algorithms",
+            "text": "list of search algorithms",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "binary search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/binary-search",
+                "text": "binary search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Monte Carlo tree search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/monte-carlo-tree-search",
+                "text": "Monte Carlo tree search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "breadth-first search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/breadth-first-search",
+                "text": "breadth-first search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "depth-first search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/depth-first-search",
+                "text": "depth-first search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "string searching  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/string-searching",
+                "text": "string searching  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "A* search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/a-star",
+                "text": "A* search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "minimax search  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/search/minimax-search",
+                "text": "minimax search  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://frnsys.com/ai_notes/artificial_intelligence/search.html",
+            "text": "1. notes on search  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Search_algorithm",
+        "text": "search algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -61.81107415531574,
-      "fy": 12.57428218416527,
-      "nodes": [
-        {
-          "text": "1. notes on search  ️",
-          "url": "http://frnsys.com/ai_notes/artificial_intelligence/search.html",
-          "fx": 101.18892584468426,
-          "fy": 25.07428218416527,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "A* search  ️",
-      "url": "/computer-science/algorithms/search/a-star",
-      "fx": -1013.5357055664062,
-      "fy": 166.96758270263672,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "minimax search  ️",
-      "url": "/computer-science/algorithms/search/minimax-search",
-      "fx": -1247.6703798436158,
-      "fy": 167.62016771367018,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "depth-first search  ️",
-      "url": "/computer-science/algorithms/search/depth-first-search",
-      "fx": -833.3035583496094,
-      "fy": 169.69873428344727,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "binary search  ️",
-      "url": "/computer-science/algorithms/search/binary-search",
-      "fx": -310.10943603515625,
-      "fy": 171.15663528442383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Monte Carlo tree search  ️",
-      "url": "/computer-science/algorithms/search/monte-carlo-tree-search",
-      "fx": -98.0391263961792,
-      "fy": 172.85097122192383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "breadth-first search  ️",
-      "url": "/computer-science/algorithms/search/breadth-first-search",
-      "fx": -581.1892166137695,
-      "fy": 174.08029556274414,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "string searching  ️",
-      "url": "/computer-science/algorithms/search/string-searching",
-      "fx": 220.0527801513672,
-      "fy": 175.1279067993164,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "search algorithms",
-      "curve": {
-        "x": -58.7241,
-        "y": -62.3451
       }
-    },
-    {
-      "source": "search algorithms",
-      "target": "basics",
-      "curve": {
-        "x": -6.68147,
-        "y": 110.773
-      }
-    },
-    {
-      "source": "basics",
-      "target": "binary search  ️",
-      "curve": {
-        "x": -101.149,
-        "y": 80.5411
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Monte Carlo tree search  ️",
-      "curve": {
-        "x": 29.136,
-        "y": 81.3882
-      }
-    },
-    {
-      "source": "basics",
-      "target": "breadth-first search  ️",
-      "curve": {
-        "x": -234.44,
-        "y": 80.753
-      }
-    },
-    {
-      "source": "basics",
-      "target": "depth-first search  ️",
-      "curve": {
-        "x": -385.082,
-        "y": 45.6325
-      }
-    },
-    {
-      "source": "basics",
-      "target": "string searching  ️",
-      "curve": {
-        "x": 186.948,
-        "y": 81.2768
-      }
-    },
-    {
-      "source": "basics",
-      "target": "A* search  ️",
-      "curve": {
-        "x": -620.772,
-        "y": 11.8177
-      }
-    },
-    {
-      "source": "basics",
-      "target": "minimax search  ️",
-      "curve": {
-        "x": -736.929,
-        "y": -4.38594
-      }
-    }
-  ],
-  "id": 276
+    ],
+    "author": ""
+  }
 }

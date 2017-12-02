@@ -1,102 +1,102 @@
 {
   "title": "learn anything - architecture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "architecture",
-      "url": "http://www.wikiwand.com/en/Architecture",
-      "fx": -156.69096585070486,
-      "fy": -225.0648648524662,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "history",
-      "url": "",
-      "fx": -10.674231150793958,
-      "fy": -123.15873015873035,
-      "nodes": [
-        {
-          "text": "history of architecture I",
-          "url": "https://itunes.apple.com/us/course/history-of-architecture-i/id570008367",
-          "fx": 147.32576884920604,
-          "fy": -111.65873015873035,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 4,
+  "map": {
+    "text": "architecture",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "space architecture  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/architecture/space-architecture",
+                "text": "space architecture  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/70133.Architecture",
+            "text": "1. architecture: form, space, &amp; order",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ocw.mit.edu/courses/find-by-topic/#cat=finearts&amp;subcat=architecture&amp;spec=architecturaldesign",
+            "text": "1. MIT architecture courses",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FJfEl6Jhqdk",
+            "text": "1. introduction to architecture",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "history",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://itunes.apple.com/us/course/history-of-architecture-i/id570008367",
+            "text": "history of architecture I",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Architecture",
+        "text": "architecture",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -131.66613674163818,
-      "fy": -11.434494495391846,
-      "nodes": [
-        {
-          "text": "1. architecture: form, space, &amp; order",
-          "url": "https://www.goodreads.com/book/show/70133.Architecture",
-          "fx": 50.333863258361816,
-          "fy": -50.934494495391846,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. MIT architecture courses",
-          "url": "https://ocw.mit.edu/courses/find-by-topic/#cat=finearts&amp;subcat=architecture&amp;spec=architecturaldesign",
-          "fx": 50.333863258361816,
-          "fy": 11.065505504608154,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. introduction to architecture",
-          "url": "https://www.youtube.com/watch?v=FJfEl6Jhqdk",
-          "fx": 50.333863258361816,
-          "fy": 51.065505504608154,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "space architecture  ️",
-      "url": "/architecture/space-architecture",
-      "fx": -207.27470930232607,
-      "fy": 150.7542566445327,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "architecture",
-      "target": "basics",
-      "curve": {
-        "x": 0.51243,
-        "y": 106.816
       }
-    },
-    {
-      "source": "history",
-      "target": "architecture",
-      "curve": {
-        "x": -54.2584,
-        "y": -49.7031
-      }
-    },
-    {
-      "source": "basics",
-      "target": "space architecture  ️",
-      "curve": {
-        "x": -9.80429,
-        "y": 82.3444
-      }
-    }
-  ],
-  "id": 4
+    ],
+    "author": ""
+  }
 }

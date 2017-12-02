@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer science - algorithms - algorithm design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "algorithm design",
-      "url": "http://www.wikiwand.com/en/Algorithm_design",
-      "fx": -147.984375,
-      "fy": -248.41015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -91.625,
-      "fy": -70.90625,
-      "nodes": [
-        {
-          "text": "1. principles of algorithm design",
-          "url": "https://www.youtube.com/watch?v=a_otxyu0mSQ",
-          "fx": 71.375,
-          "fy": -91.90625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. design and analysis of algorithms",
-          "url": "https://www.youtube.com/watch?v=2P-yW7LQr08&amp;list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp",
-          "fx": 71.375,
-          "fy": -49.90625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "algorithm design",
-      "target": "basics",
-      "curve": {
-        "x": -4.57031,
-        "y": 88.002
+  "id": 258,
+  "map": {
+    "text": "algorithm design",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=a_otxyu0mSQ",
+            "text": "1. principles of algorithm design",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2P-yW7LQr08&amp;list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp",
+            "text": "1. design and analysis of algorithms",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 258
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Algorithm_design",
+        "text": "algorithm design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,100 +1,109 @@
 {
   "title": "learn anything - biology - organisms - plants",
   "tag": "",
-  "nodes": [
-    {
-      "text": "plants",
-      "url": "http://www.wikiwand.com/en/Plant",
-      "fx": 153.67062977620083,
-      "fy": -223.69237854803492,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/plants/",
-          "fx": 335.6706297762008,
-          "fy": -209.69237854803492,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 124,
+  "map": {
+    "text": "plants",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "hydroculture",
+            "nodes": [
+              {
+                "text": "hydroponics  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/biology/organisms/plants/hydroponics",
+                    "text": "hydroponics  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Hydroculture",
+                "text": "hydroculture",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "photosynthesis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/plants/photosynthesis",
+                "text": "photosynthesis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9UvlqAVCoqY&amp;t=6s",
+            "text": "1. plant cells",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/plants/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 166.72577783842792,
-      "fy": -100.8457004293345,
-      "nodes": [
-        {
-          "text": "1. plant cells",
-          "url": "https://www.youtube.com/watch?v=9UvlqAVCoqY&amp;t=6s",
-          "fx": 322.7257778384279,
-          "fy": -89.3457004293345,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Plant",
+        "text": "plants",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "hydroculture",
-      "url": "http://www.wikiwand.com/en/Hydroculture",
-      "fx": 40.45740685096155,
-      "fy": 21.7927970467033,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "photosynthesis  ️",
-      "url": "/biology/organisms/plants/photosynthesis",
-      "fx": 277.25,
-      "fy": 45.25,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "hydroponics  ️",
-      "url": "/biology/organisms/plants/hydroponics",
-      "fx": 35.854664836894415,
-      "fy": 143.92206897715005,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "plants",
-      "target": "basics",
-      "curve": {
-        "x": 0.027574,
-        "y": 60.1733
       }
-    },
-    {
-      "source": "basics",
-      "target": "hydroculture",
-      "curve": {
-        "x": -42.3842,
-        "y": 62.5692
-      }
-    },
-    {
-      "source": "hydroculture",
-      "target": "hydroponics  ️",
-      "curve": {
-        "x": -2.55137,
-        "y": 61.0646
-      }
-    },
-    {
-      "source": "basics",
-      "target": "photosynthesis  ️",
-      "curve": {
-        "x": 82.2621,
-        "y": 74.2979
-      }
-    }
-  ],
-  "id": 124
+    ],
+    "author": ""
+  }
 }

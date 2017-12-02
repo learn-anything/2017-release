@@ -1,100 +1,88 @@
 {
   "title": "learn anything - games - video games - hearthstone",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hearthstone",
-      "url": "http://www.wikiwand.com/en/Hearthstone_(video_game)",
-      "fx": 41.80078125,
-      "fy": -175.40234375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/hearthstone/",
-          "fx": 276.80078125,
-          "fy": -161.40234375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 174.1243044118412,
-      "fy": -78.04604071476427,
-      "nodes": [
-        {
-          "text": "top decks",
-          "url": "http://www.hearthstonetopdecks.com/",
-          "fx": 311.1243044118412,
-          "fy": -63.546040714764274,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 265.31973616802975,
-      "fy": 10.616995389353292,
-      "nodes": [
-        {
-          "text": "deck builder",
-          "url": "http://www.hearthpwn.com/deckbuilder",
-          "fx": 407.31973616802975,
-          "fy": 25.116995389353292,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 74.2467341188509,
-      "fy": 99.10316342214014,
-      "nodes": [
-        {
-          "text": "1. beginners guide",
-          "url": "https://www.reddit.com/r/hearthstone/comments/4kzpod/hearthstone_beginners_guide_year_of_the_kraken/",
-          "fx": 230.2467341188509,
-          "fy": 110.60316342214014,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "hearthstone",
-      "curve": {
-        "x": -41.6618,
-        "y": -47.4282
+  "id": 572,
+  "map": {
+    "text": "hearthstone",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.hearthpwn.com/deckbuilder",
+                "text": "deck builder",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.hearthstonetopdecks.com/",
+            "text": "top decks",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/hearthstone/comments/4kzpod/hearthstone_beginners_guide_year_of_the_kraken/",
+            "text": "1. beginners guide",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "hearthstone",
-      "target": "basics",
-      "curve": {
-        "x": -3.52702,
-        "y": 136.003
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/hearthstone/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Hearthstone_(video_game)",
+        "text": "hearthstone",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -46.8477,
-        "y": -44.3315
-      }
-    }
-  ],
-  "id": 572
+    ],
+    "author": ""
+  }
 }

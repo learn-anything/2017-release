@@ -1,68 +1,72 @@
 {
   "title": "learn anything - journalism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "journalism",
-      "url": "http://www.wikiwand.com/en/Journalism",
-      "fx": -70.83203125,
-      "fy": -124.47265625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Journalism/",
-          "fx": 148.16796875,
-          "fy": -110.47265625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -7.04296875,
-      "nodes": [
-        {
-          "text": "1. what is journalism?",
-          "url": "https://www.youtube.com/watch?v=88Midc38AUU",
-          "fx": 109.5,
-          "fy": 4.45703125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "freedom of speech  ️",
-      "url": "/journalism/freedom-of-speech",
-      "fx": -199.099609375,
-      "fy": 116.75720007944915,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "journalism",
-      "target": "basics",
-      "curve": {
-        "x": -3.58398,
-        "y": 57.4648
+  "id": 666,
+  "map": {
+    "text": "journalism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "freedom of speech  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/journalism/freedom-of-speech",
+                "text": "freedom of speech  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=88Midc38AUU",
+            "text": "1. what is journalism?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "freedom of speech  ️",
-      "curve": {
-        "x": -48.2998,
-        "y": 61.9001
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Journalism/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Journalism",
+        "text": "journalism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 666
+    ],
+    "author": ""
+  }
 }

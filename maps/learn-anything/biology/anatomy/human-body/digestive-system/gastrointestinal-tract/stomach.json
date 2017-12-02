@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - anatomy - human body - digestive system - gastrointestinal tract - stomach",
   "tag": "",
-  "nodes": [
-    {
-      "text": "stomach",
-      "url": "http://www.wikiwand.com/en/Stomach",
-      "fx": -74.75326492537306,
-      "fy": -333.0737523320896,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -54.318019290772895,
-      "fy": -202.09541438196095,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=OzLoUCCASwM",
-          "fx": 108.6819807092271,
-          "fy": -189.59541438196095,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stomach",
-      "target": "basics",
-      "curve": {
-        "x": -3.03238,
-        "y": 64.7391
+  "id": 78,
+  "map": {
+    "text": "stomach",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OzLoUCCASwM",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 78
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stomach",
+        "text": "stomach",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - investing - rate of return - internal rate of return",
   "tag": "",
-  "nodes": [
-    {
-      "text": "internal rate of return",
-      "url": "http://www.wikiwand.com/en/Internal_rate_of_return",
-      "fx": -111.65625,
-      "fy": -150.125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -42,
-      "fy": -22.765625,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=OSDDrZZaV8E",
-          "fx": 114,
-          "fy": -11.265625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "internal rate of return",
-      "target": "basics",
-      "curve": {
-        "x": 2.32812,
-        "y": 63.6797
+  "id": 491,
+  "map": {
+    "text": "internal rate of return",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OSDDrZZaV8E",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 491
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Internal_rate_of_return",
+        "text": "internal rate of return",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

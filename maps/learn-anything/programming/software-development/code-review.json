@@ -1,43 +1,43 @@
 {
   "title": "learn anything - programming - software development - code review",
   "tag": "",
-  "nodes": [
-    {
-      "text": "code review",
-      "url": "http://www.wikiwand.com/en/Code_review",
-      "fx": -60.75483247422687,
-      "fy": -179.31680895618553,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -35.65414496854089,
-      "fy": -20.70001840862892,
-      "nodes": [
-        {
-          "text": "1. code review best practices  ️",
-          "url": "https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html",
-          "fx": 146.3458550314591,
-          "fy": -9.200018408628921,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "code review",
-      "target": "basics",
-      "curve": {
-        "x": -7.44966,
-        "y": 78.0584
+  "id": 1699,
+  "map": {
+    "text": "code review",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html",
+            "text": "1. code review best practices  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1696
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Code_review",
+        "text": "code review",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

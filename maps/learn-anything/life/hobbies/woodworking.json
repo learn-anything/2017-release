@@ -1,72 +1,65 @@
 {
   "title": "learn anything - life - hobbies - woodworking",
   "tag": "",
-  "nodes": [
-    {
-      "text": "woodworking",
-      "url": "http://www.wikiwand.com/en/Woodworking",
-      "fx": -243.22265625,
-      "fy": -62.08203125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/woodworking/",
-          "fx": 11.77734375,
-          "fy": -48.08203125,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/woodworking/wiki/index",
-              "fx": 121.77734375,
-              "fy": -48.08203125,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 687,
+  "map": {
+    "text": "woodworking",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/woodworking/comments/xcms3/looking_to_get_started/c5l7gkq/",
+            "text": "1. how to started",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -202.6673728813562,
-      "fy": 69.54316737288138,
-      "nodes": [
-        {
-          "text": "1. how to started",
-          "url": "https://www.reddit.com/r/woodworking/comments/xcms3/looking_to_get_started/c5l7gkq/",
-          "fx": -20.667372881356187,
-          "fy": 50.043167372881385,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. basic set of tools for the woodworking beginner",
-          "url": "https://www.youtube.com/watch?v=3pc-nnAykTQ",
-          "fx": -20.667372881356187,
-          "fy": 90.04316737288138,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "woodworking",
-      "target": "basics",
-      "curve": {
-        "x": -4.47236,
-        "y": 64.5626
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3pc-nnAykTQ",
+            "text": "1. basic set of tools for the woodworking beginner",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 687
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/woodworking/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Woodworking",
+        "text": "woodworking",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

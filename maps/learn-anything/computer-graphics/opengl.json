@@ -1,60 +1,63 @@
 {
   "title": "learn anything - computer graphics - opengl",
   "tag": "openGL",
-  "nodes": [
-    {
-      "text": "OpenGL",
-      "url": "http://www.wikiwand.com/en/OpenGL",
-      "fx": -95.33207137021452,
-      "fy": -105.60888626283662,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/eug/awesome-opengl",
-          "fx": 108.66792862978548,
-          "fy": -91.60888626283662,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -97.15606398809541,
-      "fy": 46.820808531749776,
-      "nodes": [
-        {
-          "text": "1. learn OpenGL",
-          "url": "https://learnopengl.com/#!PBR/Theory",
-          "fx": 84.84393601190459,
-          "fy": 44.320808531749776,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. Anton’s OpenGL 4 tutorials",
-          "url": "http://antongerdelan.net/opengl/",
-          "fx": 84.84393601190459,
-          "fy": 78.32080853174978,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "OpenGL",
-      "target": "basics",
-      "curve": {
-        "x": -9.16199,
-        "y": 74.9645
+  "id": 221,
+  "map": {
+    "text": "OpenGL",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://learnopengl.com/#!PBR/Theory",
+            "text": "1. learn OpenGL",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://antongerdelan.net/opengl/",
+            "text": "1. Anton’s OpenGL 4 tutorials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 221
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/eug/awesome-opengl",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/OpenGL",
+        "text": "OpenGL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

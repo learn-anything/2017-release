@@ -1,131 +1,123 @@
 {
   "title": "learn anything - computer vision - augmented reality",
   "tag": "",
-  "nodes": [
-    {
-      "text": "augmented reality",
-      "url": "http://www.wikiwand.com/en/Augmented_reality",
-      "fx": -149.7140043904958,
-      "fy": -237.1860472623967,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 65.37170600891113,
-      "fy": -114.53353250519308,
-      "nodes": [
-        {
-          "text": "16: hyper-reality",
-          "url": "https://www.youtube.com/watch?v=YJg02ivYzSs",
-          "fx": 256.37170600891113,
-          "fy": -103.03353250519308,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 355,
+  "map": {
+    "text": "augmented reality",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "fif you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "develop",
+            "nodes": [
+              {
+                "text": "AR.js",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://github.com/jeromeetienne/AR.js",
+                    "text": "AR.js",
+                    "category": "github",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "unity  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/game-development/game-engines/unity",
+                    "text": "unity  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "mixed reality  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-vision/augmented-reality/mixed-reality",
+                "text": "mixed reality  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=09vxKN1zLNI",
+            "text": "1. what is augmented reality?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YJg02ivYzSs",
+            "text": "16: hyper-reality",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Augmented_reality",
+        "text": "augmented reality",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "fif you think this can be improved in any way ",
-      "url": "",
-      "fx": -91.03582646537961,
-      "fy": -5.973077220820812,
-      "nodes": [
-        {
-          "text": "1. what is augmented reality?",
-          "url": "https://www.youtube.com/watch?v=09vxKN1zLNI",
-          "fx": 90.96417353462039,
-          "fy": 5.526922779179188,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "mixed reality  ️",
-      "url": "/computer-vision/augmented-reality/mixed-reality",
-      "fx": -19.923828125,
-      "fy": 133.533203125,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "develop",
-      "url": "",
-      "fx": -220.6761127932482,
-      "fy": 141.6970499356279,
-      "nodes": []
-    },
-    {
-      "text": "unity  ️",
-      "url": "/game-development/game-engines/unity",
-      "fx": -124.92463798457447,
-      "fy": 268.69800656827965,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "AR.js",
-      "url": "https://github.com/jeromeetienne/AR.js",
-      "fx": -264.25969857130906,
-      "fy": 269.4932074611379,
-      "nodes": [],
-      "category": "github"
-    }
-  ],
-  "connections": [
-    {
-      "source": "augmented reality",
-      "target": "basics",
-      "curve": {
-        "x": -3.66091,
-        "y": 114.356
       }
-    },
-    {
-      "source": "interesting",
-      "target": "augmented reality",
-      "curve": {
-        "x": -83.2929,
-        "y": -60.0763
-      }
-    },
-    {
-      "source": "basics",
-      "target": "develop",
-      "curve": {
-        "x": -61.3202,
-        "y": 73.835
-      }
-    },
-    {
-      "source": "develop",
-      "target": "AR.js",
-      "curve": {
-        "x": -20.7918,
-        "y": 65.1481
-      }
-    },
-    {
-      "source": "develop",
-      "target": "unity  ️",
-      "curve": {
-        "x": 47.8757,
-        "y": 64.7505
-      }
-    },
-    {
-      "source": "basics",
-      "target": "mixed reality  ️",
-      "curve": {
-        "x": 42.806,
-        "y": 69.7531
-      }
-    }
-  ],
-  "id": 355
+    ],
+    "author": ""
+  }
 }

@@ -1,78 +1,84 @@
 {
   "title": "learn anything - biology - ecology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ecology",
-      "url": "http://www.wikiwand.com/en/Ecology",
-      "fx": -129.703125,
-      "fy": -219.88671875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ecology/",
-          "fx": 68.296875,
-          "fy": -205.88671875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -121.03027343749977,
-      "fy": -72.92692057298729,
-      "nodes": [
-        {
-          "text": "1. khan academy ecology",
-          "url": "https://www.khanacademy.org/science/biology/ecology",
-          "fx": 60.96972656250023,
-          "fy": -81.42692057298729,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. crash course ecology",
-          "url": "https://www.youtube.com/watch?v=sjE-Pkjp3u4&amp;list=PL8dPuuaLjXtNdTKZkV_GiIYXpV9w4WxbX",
-          "fx": 60.96972656250023,
-          "fy": -41.426920572987285,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "sustainability  ️",
-      "url": "/biology/ecology/sustainability",
-      "fx": -226.826171875,
-      "fy": 71.7158203125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "ecology",
-      "target": "basics",
-      "curve": {
-        "x": -6.16357,
-        "y": 72.2299
+  "id": 94,
+  "map": {
+    "text": "ecology",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "sustainability  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/ecology/sustainability",
+                "text": "sustainability  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/science/biology/ecology",
+            "text": "1. khan academy ecology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sjE-Pkjp3u4&amp;list=PL8dPuuaLjXtNdTKZkV_GiIYXpV9w4WxbX",
+            "text": "1. crash course ecology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "sustainability  ️",
-      "curve": {
-        "x": -45.1479,
-        "y": 72.3214
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ecology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ecology",
+        "text": "ecology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 94
+    ],
+    "author": ""
+  }
 }

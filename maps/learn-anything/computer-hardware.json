@@ -1,106 +1,117 @@
 {
   "title": "learn anything - computer hardware",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer hardware",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Computer_hardware",
-      "fx": -353.81840018888147,
-      "fy": -577.1030791295608,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "3d printing  ️",
-      "url": "/computer-hardware/3d-printing",
-      "fx": -121.95447294713858,
-      "fy": -470.5617247146973,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer  ️",
-      "url": "/computer-hardware/computer",
-      "fx": -344.3874806148905,
-      "fy": -449.51149065617665,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "virtualisation  ️",
-      "url": "/computer-hardware/virtualisation",
-      "fx": -152.20888157894728,
-      "fy": -345.62239583333337,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "single-board computers",
-      "url": "http://www.wikiwand.com/en/Single-board_computer",
-      "fx": -502.35898482868765,
-      "fy": -344.55022321428567,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "arduino  ️",
-      "url": "/computer-hardware/arduino",
-      "fx": -364.87393027497217,
-      "fy": -233.15499614197574,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "raspberry pi  ️",
-      "url": "/computer-hardware/raspberry-pi",
-      "fx": -569.5471618727049,
-      "fy": -226.41700180684268,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer hardware",
-      "target": "computer  ️",
-      "curve": {
-        "x": -17.7845,
-        "y": 63.7958
+  "id": 257,
+  "map": {
+    "text": "computer hardware",
+    "note": "",
+    "nodes": [
+      {
+        "text": "computer  ️",
+        "nodes": [
+          {
+            "text": "single-board computers",
+            "nodes": [
+              {
+                "text": "arduino  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-hardware/arduino",
+                    "text": "arduino  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "raspberry pi  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-hardware/raspberry-pi",
+                    "text": "raspberry pi  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Single-board_computer",
+                "text": "single-board computers",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "/computer-hardware/computer",
+            "text": "computer  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "virtualisation  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-hardware/virtualisation",
+            "text": "virtualisation  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "computer  ️",
-      "target": "single-board computers",
-      "curve": {
-        "x": -67.2358,
-        "y": 52.4806
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_hardware",
+        "text": "computer hardware",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "single-board computers",
-      "target": "arduino  ️",
-      "curve": {
-        "x": 44.9925,
-        "y": 54.4476
-      }
-    },
-    {
-      "source": "single-board computers",
-      "target": "raspberry pi  ️",
-      "curve": {
-        "x": -60.5941,
-        "y": 59.0666
-      }
-    },
-    {
-      "source": "computer hardware",
-      "target": "virtualisation  ️",
-      "curve": {
-        "x": 67.1345,
-        "y": 121.072
-      }
-    }
-  ],
-  "id": 257
+    ],
+    "author": ""
+  }
 }

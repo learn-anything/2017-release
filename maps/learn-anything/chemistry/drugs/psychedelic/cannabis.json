@@ -1,61 +1,64 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - cannabis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cannabis",
-      "url": "https://psychonautwiki.org/wiki/Cannabis",
-      "fx": 68.95234375000007,
-      "fy": -240.91953125000003,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/trees/",
-          "fx": 277.95234375000007,
-          "fy": -226.91953125000003,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 94.47031249999998,
-      "fy": -106.25312500000013,
-      "nodes": [
-        {
-          "text": "1. how weed works",
-          "url": "https://www.youtube.com/watch?v=FsJzCdFlpyQ",
-          "fx": 250.47031249999998,
-          "fy": -114.75312500000013,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. Bill Hicks - Marijuana",
-          "url": "https://www.youtube.com/watch?v=DiFgz9ndWKw",
-          "fx": 250.47031249999998,
-          "fy": -74.75312500000013,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "cannabis",
-      "target": "basics",
-      "curve": {
-        "x": -0.491016,
-        "y": 66.0832
+  "id": 155,
+  "map": {
+    "text": "cannabis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=FsJzCdFlpyQ",
+            "text": "1. how weed works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DiFgz9ndWKw",
+            "text": "1. Bill Hicks - Marijuana",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 155
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/trees/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Cannabis",
+        "text": "cannabis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

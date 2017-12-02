@@ -1,78 +1,71 @@
 {
   "title": "learn anything - health - mindfulness - discipline",
   "tag": "",
-  "nodes": [
-    {
-      "text": "discipline",
-      "url": "http://www.wikiwand.com/en/Discipline",
-      "fx": -87.72436361754978,
-      "fy": -331.24857719370857,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/getdisciplined/",
-          "fx": 122.27563638245022,
-          "fy": -317.24857719370857,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/getdisciplined/wiki/index",
-              "fx": 232.27563638245022,
-              "fy": -317.24857719370857,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 603,
+  "map": {
+    "text": "discipline",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/getdisciplined/comments/6il1fr/question_has_anybody_managed_to_turn_his_life/dj71uzq/",
+            "text": "advice",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 80.92704232283472,
-      "fy": -222.78112696850621,
-      "nodes": [
-        {
-          "text": "advice",
-          "url": "https://www.reddit.com/r/getdisciplined/comments/6il1fr/question_has_anybody_managed_to_turn_his_life/dj71uzq/",
-          "fx": 217.92704232283472,
-          "fy": -211.28112696850621,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "procrastination  ️",
-      "url": "/health/mindfulness/discipline/procrastination",
-      "fx": -236.06223761234594,
-      "fy": -196.9028577464718,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "discipline",
-      "curve": {
-        "x": -66.0757,
-        "y": -52.9837
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "procrastination  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/health/mindfulness/discipline/procrastination",
+            "text": "procrastination  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "discipline",
-      "target": "procrastination  ️",
-      "curve": {
-        "x": -68.6689,
-        "y": 65.9229
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/getdisciplined/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Discipline",
+        "text": "discipline",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 603
+    ],
+    "author": ""
+  }
 }

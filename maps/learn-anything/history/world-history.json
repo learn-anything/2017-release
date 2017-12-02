@@ -1,283 +1,282 @@
 {
   "title": "learn anything - history - world history",
   "tag": "",
-  "nodes": [
-    {
-      "text": "world history",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/World_history",
-      "fx": -86.8989403278797,
-      "fy": -682.9659961396728,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 72.24940976229584,
-      "fy": -561.0870972670516,
-      "nodes": [
-        {
-          "text": "timelines of world history",
-          "url": "http://www.wikiwand.com/en/Timelines_of_world_history",
-          "fx": 213.24940976229584,
-          "fy": -548.5870972670516,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -57.821817898671156,
-      "fy": -422.35601785033487,
-      "nodes": [
-        {
-          "text": "1. crash course world history",
-          "url": "https://www.youtube.com/watch?v=Yocja_N5s1I&amp;list=PLBDA2E52FB1EF80C9",
-          "fx": 105.17818210132884,
-          "fy": -455.85601785033487,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "2. crash course world history II",
-          "url": "https://www.youtube.com/watch?v=wyzi9GNZFMU&amp;list=PL8dPuuaLjXtNjasccl-WajpONGX3zoY4M",
-          "fx": 105.17818210132884,
-          "fy": -388.85601785033487,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "memorable events",
-      "note": "the numbers before the names represent the time when the event took place",
-      "url": "",
-      "fx": 193.22731963473802,
-      "fy": -28.75862902992992,
-      "nodes": [
-        {
-          "text": "27 BC - 395: roman empire",
-          "url": "http://www.wikiwand.com/en/Roman_Empire",
-          "fx": 502.227319634738,
-          "fy": -364.2586290299299,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "330-1453: byzantine empire",
-          "url": "http://www.wikiwand.com/en/Byzantine_Empire",
-          "fx": 502.227319634738,
-          "fy": -322.2586290299299,
-          "nodes": [
-            {
-              "text": "12 byzantine rulers",
-              "note": "history lecture podcast covers the little known Byzantine Empire through the study of twelve of its greatest rulers",
-              "url": "https://12byzantinerulers.com/",
-              "fx": 858.227319634738,
-              "fy": -322.2586290299299,
-              "nodes": [],
-              "category": "podcast",
-              "color": "rgba(0, 224, 161, 1.0)"
+  "id": 628,
+  "map": {
+    "text": "world history",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "memorable events",
+            "note": "the numbers before the names represent the time when the event took place",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Roman_Empire",
+                "text": "27 BC - 395: roman empire",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Byzantine_Empire",
+                "text": "330-1453: byzantine empire",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Mongol_Empire",
+                "text": "~1300-1400: mongol empire",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Atlantic_slave_trade",
+                "text": "~1500-1900: transatlantic slave trade",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Industrial_Revolution",
+                "text": "~ 1760-1840: industrial revolution",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/American_Revolution",
+                "text": "1765-1783: american revolution",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Russian_Revolution",
+                "text": "1917: russian revolution",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Great_Depression",
+                "text": "1929-1939: great depression",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Soviet_Union",
+                "text": "1922-1991: ussr",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "/history/world-history/cold-war",
+                "text": "1947-1991: cold war  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Manhattan_Project",
+                "text": "1942-1946: manhattan project",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Berlin_Wall",
+                "text": "1961-1989: berlin wall",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Apollo_11",
+                "text": "1969: apollo 11",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Arab_Spring",
+                "text": "10-12: arab spring",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "pandemics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Black_Death",
+                "text": "1346-1353: black death",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "/medicine/diseases/pandemics",
+                "text": "pandemics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "wars  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/history/world-history/wars",
+                "text": "wars  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Yocja_N5s1I&amp;list=PLBDA2E52FB1EF80C9",
+            "text": "1. crash course world history",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "~1300-1400: mongol empire",
-          "url": "http://www.wikiwand.com/en/Mongol_Empire",
-          "fx": 502.227319634738,
-          "fy": -280.2586290299299,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "~1500-1900: transatlantic slave trade",
-          "url": "http://www.wikiwand.com/en/Atlantic_slave_trade",
-          "fx": 502.227319634738,
-          "fy": -238.25862902992992,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "~ 1760-1840: industrial revolution",
-          "url": "http://www.wikiwand.com/en/Industrial_Revolution",
-          "fx": 502.227319634738,
-          "fy": -171.25862902992992,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "1765-1783: american revolution",
-          "url": "http://www.wikiwand.com/en/American_Revolution",
-          "fx": 502.227319634738,
-          "fy": -104.25862902992992,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "1917: russian revolution",
-          "url": "http://www.wikiwand.com/en/Russian_Revolution",
-          "fx": 502.227319634738,
-          "fy": -37.25862902992992,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1929-1939: great depression",
-          "url": "http://www.wikiwand.com/en/Great_Depression",
-          "fx": 502.227319634738,
-          "fy": 4.741370970070079,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1922-1991: ussr",
-          "url": "http://www.wikiwand.com/en/Soviet_Union",
-          "fx": 502.227319634738,
-          "fy": 71.74137097007008,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1947-1991: cold war  ️",
-          "url": "/history/world-history/cold-war",
-          "fx": 502.227319634738,
-          "fy": 113.74137097007008,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1942-1946: manhattan project",
-          "url": "http://www.wikiwand.com/en/Manhattan_Project",
-          "fx": 502.227319634738,
-          "fy": 155.74137097007008,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "1961-1989: berlin wall",
-          "url": "http://www.wikiwand.com/en/Berlin_Wall",
-          "fx": 502.227319634738,
-          "fy": 222.74137097007008,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "1969: apollo 11",
-          "url": "http://www.wikiwand.com/en/Apollo_11",
-          "fx": 502.227319634738,
-          "fy": 277.2413709700701,
-          "nodes": [
-            {
-              "text": "original Apollo11 guidance computer source code",
-              "url": "https://github.com/chrislgarry/Apollo-11",
-              "fx": 745.227319634738,
-              "fy": 264.7413709700701,
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(104, 255, 109, 1.0)"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=wyzi9GNZFMU&amp;list=PL8dPuuaLjXtNjasccl-WajpONGX3zoY4M",
+            "text": "2. crash course world history II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "10-12: arab spring",
-          "url": "http://www.wikiwand.com/en/Arab_Spring",
-          "fx": 502.227319634738,
-          "fy": 331.7413709700701,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Timelines_of_world_history",
+            "text": "timelines of world history",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/World_history",
+        "text": "world history",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "wars  ️",
-      "url": "/history/world-history/wars",
-      "fx": 17.098451936054175,
-      "fy": -27.28243780417756,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "pandemics  ️",
-      "url": "/medicine/diseases/pandemics",
-      "fx": 106.56818729243912,
-      "fy": 514.9498929603519,
-      "nodes": [
-        {
-          "text": "1346-1353: black death",
-          "url": "http://www.wikiwand.com/en/Black_Death",
-          "fx": 346.5681872924391,
-          "fy": 528.9498929603519,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "world history",
-      "target": "basics",
-      "curve": {
-        "x": -13.4614,
-        "y": 129.055
       }
-    },
-    {
-      "source": "help",
-      "target": "world history",
-      "curve": {
-        "x": -46.8242,
-        "y": -59.6895
-      }
-    },
-    {
-      "source": "basics",
-      "target": "memorable events",
-      "curve": {
-        "x": 132.298,
-        "y": 214.478
-      }
-    },
-    {
-      "source": "basics",
-      "target": "pandemics  ️",
-      "curve": {
-        "x": -5.71686,
-        "y": 489.734
-      }
-    },
-    {
-      "source": "basics",
-      "target": "wars  ️",
-      "curve": {
-        "x": 40.9601,
-        "y": 198.287
-      }
-    }
-  ],
-  "id": 628
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,52 @@
 {
   "title": "learn anything - databases - relational databases - mariadb",
   "tag": "MariaDB",
-  "nodes": [
-    {
-      "text": "MariaDB",
-      "url": "http://www.wikiwand.com/en/MariaDB",
-      "fx": 15.512996831797068,
-      "fy": -291.9386160714286,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/MariaDB",
-          "fx": 220.51299683179707,
-          "fy": -277.9386160714286,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 34.440092165897,
-      "fy": -171.68663594468688,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://mariadb.com/kb/en/mariadb/a-mariadb-primer-01-intro/",
-          "fx": 190.440092165897,
-          "fy": -157.18663594468688,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "MariaDB",
-      "target": "basics",
-      "curve": {
-        "x": -2.78645,
-        "y": 58.876
+  "id": 412,
+  "map": {
+    "text": "MariaDB",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://mariadb.com/kb/en/mariadb/a-mariadb-primer-01-intro/",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 412
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/MariaDB",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/MariaDB",
+        "text": "MariaDB",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

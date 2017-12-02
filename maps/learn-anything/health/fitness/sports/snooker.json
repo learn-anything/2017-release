@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - snooker",
   "tag": "",
-  "nodes": [
-    {
-      "text": "snooker",
-      "url": "http://www.wikiwand.com/en/Snooker",
-      "fx": 58.55056381225586,
-      "fy": -136.10784435272217,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/snooker/",
-          "fx": 258.55056381225586,
-          "fy": -122.10784435272217,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 75.55365953947376,
-      "fy": 35.57833059210532,
-      "nodes": [
-        {
-          "text": "1. rules of snooker",
-          "url": "https://www.youtube.com/watch?v=CjSWUTkupQo",
-          "fx": 231.55365953947376,
-          "fy": 47.07833059210532,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "snooker",
-      "target": "basics",
-      "curve": {
-        "x": -2.49845,
-        "y": 84.5931
+  "id": 591,
+  "map": {
+    "text": "snooker",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=CjSWUTkupQo",
+            "text": "1. rules of snooker",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 591
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/snooker/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Snooker",
+        "text": "snooker",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

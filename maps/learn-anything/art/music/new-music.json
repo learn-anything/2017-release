@@ -1,146 +1,140 @@
 {
   "title": "learn anything - art - music - new music",
   "tag": "",
-  "nodes": [
-    {
-      "text": "find new music",
-      "note": "",
-      "url": "",
-      "fx": -809.0516201761745,
-      "fy": -111.29548843832134,
-      "nodes": [
-        {
-          "text": "listen to this",
-          "url": "https://www.reddit.com/r/listentothis/",
-          "fx": -549.0516201761745,
-          "fy": -273.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "future beats",
-          "url": "https://www.reddit.com/r/futurebeats/",
-          "fx": -549.0516201761745,
-          "fy": -233.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "experimental music",
-          "url": "https://www.reddit.com/r/experimentalmusic/",
-          "fx": -549.0516201761745,
-          "fy": -193.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "future pop music",
-          "url": "https://www.reddit.com/r/futurepopmusic/",
-          "fx": -549.0516201761745,
-          "fy": -153.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "listen to us",
-          "url": "https://www.reddit.com/r/listentous/",
-          "fx": -549.0516201761745,
-          "fy": -113.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "future synth",
-          "url": "https://www.reddit.com/r/futuresynth/",
-          "fx": -549.0516201761745,
-          "fy": -73.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "new retro wave",
-          "url": "https://www.reddit.com/r/newretrowave/",
-          "fx": -549.0516201761745,
-          "fy": -33.79548843832134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "80s electro",
-          "url": "https://www.reddit.com/r/80sElectro/",
-          "fx": -549.0516201761745,
-          "fy": 6.2045115616786575,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "soundcloud",
-          "url": "https://soundcloud.com/stream",
-          "fx": -549.0516201761745,
-          "fy": 46.20451156167866,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "good music",
-          "url": "https://www.youtube.com/playlist?list=PL0nGxteCFLXYA1fsLmlWzY0Tyoo3c7tF-",
-          "fx": -549.0516201761745,
-          "fy": 80.20451156167866,
-          "nodes": [],
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "spotify playlists",
-      "url": "",
-      "fx": -279.9072081952711,
-      "fy": -104.37002732174506,
-      "nodes": [
-        {
-          "text": "music favourites",
-          "url": "https://open.spotify.com/user/nikitavoloboev/playlist/0ERn0U4qZIKC8Dy7RrMMsn",
-          "fx": -45.907208195271096,
-          "fy": -106.87002732174506,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "incredible* music",
-          "url": "https://open.spotify.com/user/nikitavoloboev/playlist/2B9qAF15kRD1ZqcITArr89",
-          "fx": -45.907208195271096,
-          "fy": -72.87002732174506,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "coding music  ️",
-      "url": "/art/music/new-music/coding-music",
-      "fx": -765.8215621016304,
-      "fy": 183.38676228335362,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "find new music",
-      "target": "coding music  ️",
-      "curve": {
-        "x": 11.365,
-        "y": 147.341
+  "id": 52,
+  "map": {
+    "text": "find new music",
+    "note": "",
+    "nodes": [
+      {
+        "text": "coding music  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/art/music/new-music/coding-music",
+            "text": "coding music  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 52
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/listentothis/",
+        "text": "listen to this",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/futurebeats/",
+        "text": "future beats",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/experimentalmusic/",
+        "text": "experimental music",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/futurepopmusic/",
+        "text": "future pop music",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/listentous/",
+        "text": "listen to us",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/futuresynth/",
+        "text": "future synth",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/newretrowave/",
+        "text": "new retro wave",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/80sElectro/",
+        "text": "80s electro",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://soundcloud.com/stream",
+        "text": "soundcloud",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PL0nGxteCFLXYA1fsLmlWzY0Tyoo3c7tF-",
+        "text": "good music",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

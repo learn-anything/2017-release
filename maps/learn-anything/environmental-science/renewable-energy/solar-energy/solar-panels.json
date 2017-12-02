@@ -1,51 +1,53 @@
 {
   "title": "learn anything - environmental science - renewable energy - solar energy - solar panels",
   "tag": "",
-  "nodes": [
-    {
-      "text": "solar panels",
-      "url": "http://www.wikiwand.com/en/Solar_panel",
-      "fx": -137.27779388427734,
-      "fy": -171.97656154632568,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -105.16783022880554,
-      "fy": -19.39647191580093,
-      "nodes": [
-        {
-          "text": "1. simplified explanation",
-          "url": "https://www.reddit.com/r/askscience/comments/6htaz5/how_do_solar_panels_work/dj14t8b/",
-          "fx": 50.83216977119446,
-          "fy": -27.89647191580093,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. how do solar panels work?",
-          "url": "https://www.youtube.com/watch?v=xKxrkht7CpY",
-          "fx": 50.83216977119446,
-          "fy": 12.10352808419907,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "solar panels",
-      "target": "basics",
-      "curve": {
-        "x": -3.69502,
-        "y": 75.04
+  "id": 551,
+  "map": {
+    "text": "solar panels",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/askscience/comments/6htaz5/how_do_solar_panels_work/dj14t8b/",
+            "text": "1. simplified explanation",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xKxrkht7CpY",
+            "text": "1. how do solar panels work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 551
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Solar_panel",
+        "text": "solar panels",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

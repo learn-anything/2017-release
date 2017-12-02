@@ -1,85 +1,81 @@
 {
   "title": "learn anything - health - fitness - yoga",
   "tag": "",
-  "nodes": [
-    {
-      "text": "yoga",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Yoga",
-      "fx": -55.22413793103442,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/yoga/",
-          "fx": 141.77586206896558,
-          "fy": 12,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 70.1450365817908,
-      "fy": 105.20783428230675,
-      "nodes": [
-        {
-          "text": "do yoga with me",
-          "url": "https://www.doyogawithme.com/",
-          "fx": 207.1450365817908,
-          "fy": 99.70783428230675,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "yoga with Adriene",
-          "url": "https://www.youtube.com/user/yogawithadriene/videos",
-          "fx": 207.1450365817908,
-          "fy": 133.70783428230675,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -29.566564078282795,
-      "fy": 194.20245422979804,
-      "nodes": [
-        {
-          "text": "1. learning yoga",
-          "url": "http://www.learningyoga.com/",
-          "fx": 126.4334359217172,
-          "fy": 208.70245422979804,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "yoga",
-      "curve": {
-        "x": -54.1846,
-        "y": -52.3539
+  "id": 599,
+  "map": {
+    "text": "yoga",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.doyogawithme.com/",
+            "text": "do yoga with me",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/yogawithadriene/videos",
+            "text": "yoga with Adriene",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.learningyoga.com/",
+            "text": "1. learning yoga",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "yoga",
-      "target": "basics",
-      "curve": {
-        "x": 2.57879,
-        "y": 96.8512
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/yoga/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Yoga",
+        "text": "yoga",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 599
+    ],
+    "author": ""
+  }
 }

@@ -1,87 +1,95 @@
 {
   "title": "learn anything - economics - business - project management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "project management",
-      "url": "http://www.wikiwand.com/en/Project_management",
-      "fx": -296.64708501642406,
-      "fy": -603.6678747311987,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/projectmanagement/",
-          "fx": 17.352914983575943,
-          "fy": -609.6678747311987,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://pm.stackexchange.com/",
-          "fx": 17.352914983575943,
-          "fy": -569.6678747311987,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": -249.9673876927169,
-      "fy": -451.8557407961195,
-      "nodes": [
-        {
-          "text": "1. project management: the basics for success",
-          "url": "https://www.coursera.org/learn/project-management-basics",
-          "fx": -67.9673876927169,
-          "fy": -471.3557407961195,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. the art of agile development",
-          "url": "https://poetiosity.files.wordpress.com/2011/04/art_of_agile_development.pdf",
-          "fx": -67.9673876927169,
-          "fy": -409.3557407961195,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "event management  ️",
-      "url": "/economics/business/project-management/event-management",
-      "fx": -409.8451564369018,
-      "fy": -319.51990038127985,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "project management",
-      "target": "basics",
-      "curve": {
-        "x": -16.1602,
-        "y": 74.656
+  "id": 468,
+  "map": {
+    "text": "project management",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "event management  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/business/project-management/event-management",
+                "text": "event management  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/learn/project-management-basics",
+            "text": "1. project management: the basics for success",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://poetiosity.files.wordpress.com/2011/04/art_of_agile_development.pdf",
+            "text": "1. the art of agile development",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "event management  ️",
-      "curve": {
-        "x": -57.4388,
-        "y": 66.1679
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/projectmanagement/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://pm.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Project_management",
+        "text": "project management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 468
+    ],
+    "author": ""
+  }
 }

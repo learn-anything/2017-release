@@ -1,51 +1,53 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic components - semiconductor devices - transistor",
   "tag": "transistors",
-  "nodes": [
-    {
-      "text": "transistors",
-      "url": "http://www.wikiwand.com/en/Transistor",
-      "fx": 37.31508209745766,
-      "fy": -149.8137579449152,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 68.83951271186447,
-      "fy": 7.059653072033825,
-      "nodes": [
-        {
-          "text": "1. how does a transistor work?",
-          "url": "https://www.youtube.com/watch?v=IcrBqCFLHIY",
-          "fx": 224.83951271186447,
-          "fy": -12.440346927966175,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. transistors - invention that changed the world",
-          "url": "https://www.youtube.com/watch?v=OwS9aTE2Go4",
-          "fx": 224.83951271186447,
-          "fy": 27.559653072033825,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "transistors",
-      "target": "basics",
-      "curve": {
-        "x": -0.487785,
-        "y": 77.1867
+  "id": 529,
+  "map": {
+    "text": "transistors",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=IcrBqCFLHIY",
+            "text": "1. how does a transistor work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OwS9aTE2Go4",
+            "text": "1. transistors - invention that changed the world",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 529
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Transistor",
+        "text": "transistors",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

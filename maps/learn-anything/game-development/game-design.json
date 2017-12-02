@@ -1,61 +1,64 @@
 {
   "title": "learn anything - game development - game design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "game design",
-      "url": "http://www.wikiwand.com/en/Game_design",
-      "fx": 110.66197494939263,
-      "fy": -106.70559210526307,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/gamedesign/",
-          "fx": 354.66197494939263,
-          "fy": -92.70559210526307,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 147.3056680161942,
-      "fy": 54.70040485826382,
-      "nodes": [
-        {
-          "text": "1. game makers toolkit",
-          "url": "https://www.youtube.com/playlist?list=PLc38fcMFcV_s7Lf6xbeRfWYRt7-Vmi_X9",
-          "fx": 303.3056680161942,
-          "fy": 46.20040485826382,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. extra credits",
-          "url": "https://www.youtube.com/playlist?list=PLB9B0CA00461BB187",
-          "fx": 303.3056680161942,
-          "fy": 86.20040485826382,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "game design",
-      "target": "basics",
-      "curve": {
-        "x": -3.67815,
-        "y": 79.453
+  "id": 556,
+  "map": {
+    "text": "game design",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLc38fcMFcV_s7Lf6xbeRfWYRt7-Vmi_X9",
+            "text": "1. game makers toolkit",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLB9B0CA00461BB187",
+            "text": "1. extra credits",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 556
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/gamedesign/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Game_design",
+        "text": "game design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - art - calligraphy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "calligraphy",
-      "url": "http://www.wikiwand.com/en/Calligraphy",
-      "fx": 91.3982048034668,
-      "fy": -222.6191692352295,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Calligraphy/",
-          "fx": 314.3982048034668,
-          "fy": -208.6191692352295,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 125.15625,
-      "fy": -89.80859375,
-      "nodes": [
-        {
-          "text": "1. how to DIY modern calligraphy",
-          "url": "https://www.youtube.com/watch?v=18EZ9Dq1HII",
-          "fx": 281.15625,
-          "fy": -78.30859375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "calligraphy",
-      "target": "basics",
-      "curve": {
-        "x": 0.129023,
-        "y": 65.1553
+  "id": 10,
+  "map": {
+    "text": "calligraphy",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=18EZ9Dq1HII",
+            "text": "1. how to DIY modern calligraphy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 10
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Calligraphy/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Calligraphy",
+        "text": "calligraphy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

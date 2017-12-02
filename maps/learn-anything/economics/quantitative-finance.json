@@ -1,95 +1,93 @@
 {
   "title": "learn anything - economics - quantitative finance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "quantitative finance",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Mathematical_finance",
-      "fx": -144.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "️",
-          "url": "https://quant.stackexchange.com/",
-          "fx": 181.5,
-          "fy": 12,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 69.11328124999989,
-      "fy": 130.89423076921526,
-      "nodes": [
-        {
-          "text": "quantitative finance reading list",
-          "url": "https://www.quantstart.com/articles/Quantitative-Finance-Reading-List#general-quant-finance-reading",
-          "fx": 206.1132812499999,
-          "fy": 105.39423076921526,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "wilmott forum",
-          "url": "https://forum.wilmott.com/",
-          "fx": 206.1132812499999,
-          "fy": 139.39423076921526,
-          "nodes": [],
-          "category": "chat",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "math finance cheat sheet",
-          "url": "https://github.com/daleroberts/math-finance-cheat-sheet",
-          "fx": 206.1132812499999,
-          "fy": 179.39423076921526,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -67.68195520429833,
-      "fy": 258.35573573972243,
-      "nodes": [
-        {
-          "text": "1. quantitative finance by Paul Wilmott",
-          "url": "https://www.youtube.com/watch?v=vZXCq2fn-Z0&amp;list=PL8DC1113ADB63358E",
-          "fx": 88.31804479570167,
-          "fy": 258.85573573972243,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "quantitative finance",
-      "curve": {
-        "x": -61.3066,
-        "y": -65.1971
+  "id": 503,
+  "map": {
+    "text": "quantitative finance",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.quantstart.com/articles/Quantitative-Finance-Reading-List#general-quant-finance-reading",
+            "text": "quantitative finance reading list",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://forum.wilmott.com/",
+            "text": "wilmott forum",
+            "category": "chat",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/daleroberts/math-finance-cheat-sheet",
+            "text": "math finance cheat sheet",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=vZXCq2fn-Z0&amp;list=PL8DC1113ADB63358E",
+            "text": "1. quantitative finance by Paul Wilmott",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "quantitative finance",
-      "target": "basics",
-      "curve": {
-        "x": -8.84098,
-        "y": 128.928
+    ],
+    "resources": [
+      {
+        "url": "https://quant.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Mathematical_finance",
+        "text": "quantitative finance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 503
+    ],
+    "author": ""
+  }
 }

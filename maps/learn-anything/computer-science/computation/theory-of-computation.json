@@ -1,85 +1,92 @@
 {
   "title": "learn anything - computer science - computation - theory of computation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "theory of computation",
-      "url": "http://www.wikiwand.com/en/Theory_of_computation",
-      "fx": -166.12834344092482,
-      "fy": -156.77896221765565,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -99.62104144644093,
-      "fy": -10.638133414133392,
-      "nodes": [
-        {
-          "text": "1. introduction to the theory of computation",
-          "url": "https://www.goodreads.com/book/show/400716.Introduction_to_the_Theory_of_Computation",
-          "fx": 82.37895855355907,
-          "fy": -30.138133414133392,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. theory of computation",
-          "url": "https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2006/index.htm",
-          "fx": 82.37895855355907,
-          "fy": 31.861866585866608,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 310,
+  "map": {
+    "text": "theory of computation",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "computational complexity theory  ️",
+            "note": "focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other  a computational problem is understood to be a task that is in principle amenable to being solved by a computer, which is equivalent to stating that the problem may be solved mechanical application of mathematical steps, such as an algorithm  one of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory",
+                "text": "computational complexity theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computability theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/mathematics/computability-theory",
+                "text": "computability theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/400716.Introduction_to_the_Theory_of_Computation",
+            "text": "1. introduction to the theory of computation",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2006/index.htm",
+            "text": "1. theory of computation",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Theory_of_computation",
+        "text": "theory of computation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "computational complexity theory  ️",
-      "note": "focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other  a computational problem is understood to be a task that is in principle amenable to being solved by a computer, which is equivalent to stating that the problem may be solved mechanical application of mathematical steps, such as an algorithm  one of the roles of computational complexity theory is to determine the practical limits on what computers can and cannot do",
-      "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory",
-      "fx": -101.70291682993582,
-      "fy": 148.54437389792315,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computability theory  ️",
-      "url": "/mathematics/computability-theory",
-      "fx": -420.6143367428396,
-      "fy": 174.06773399014787,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "theory of computation",
-      "target": "basics",
-      "curve": {
-        "x": -2.74633,
-        "y": 71.8205
       }
-    },
-    {
-      "source": "basics",
-      "target": "computational complexity theory  ️",
-      "curve": {
-        "x": 37.209,
-        "y": 85.8412
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computability theory  ️",
-      "curve": {
-        "x": -173.693,
-        "y": 87.1603
-      }
-    }
-  ],
-  "id": 310
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - journalism - freedom of speech",
   "tag": "",
-  "nodes": [
-    {
-      "text": "freedom of speech",
-      "url": "http://www.wikiwand.com/en/Freedom_of_speech",
-      "fx": -37.25781372375786,
-      "fy": -130.72470474243164,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 27.62890625,
-      "fy": -5.4854865074157715,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=Zeeq0qaEaLw",
-          "fx": 183.62890625,
-          "fy": 6.0145134925842285,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "freedom of speech",
-      "target": "basics",
-      "curve": {
-        "x": -2.80664,
-        "y": 61.3696
+  "id": 665,
+  "map": {
+    "text": "freedom of speech",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Zeeq0qaEaLw",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 665
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Freedom_of_speech",
+        "text": "freedom of speech",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

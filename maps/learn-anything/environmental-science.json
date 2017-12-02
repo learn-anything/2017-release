@@ -1,108 +1,118 @@
 {
   "title": "learn anything - environmental science",
   "tag": "",
-  "nodes": [
-    {
-      "text": "environmental science",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Environmental_science",
-      "fx": 495.310202205882,
-      "fy": -1066.7112782088282,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 592.5272640559587,
-      "fy": -935.6645740598544,
-      "nodes": [
-        {
-          "text": "1. AP environmental science",
-          "url": "https://www.youtube.com/playlist?list=PLllVwaZQkS2qK4Z6xBVDRak8an1-kqsgm",
-          "fx": 748.5272640559587,
-          "fy": -924.1645740598544,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 554,
+  "map": {
+    "text": "environmental science",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "ecology",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Ecology",
+                "text": "ecology",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "sustainability",
+            "nodes": [
+              {
+                "text": "renewable energy  ️",
+                "note": "is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/environmental-science/renewable-energy",
+                    "text": "renewable energy  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "circular economy  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/environmental-science/circular-economy",
+                    "text": "circular economy  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Sustainability",
+                "text": "sustainability",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLllVwaZQkS2qK4Z6xBVDRak8an1-kqsgm",
+            "text": "1. AP environmental science",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Environmental_science",
+        "text": "environmental science",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "sustainability",
-      "url": "http://www.wikiwand.com/en/Sustainability",
-      "fx": 632.9599500367756,
-      "fy": -801.1651499761674,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "ecology",
-      "url": "http://www.wikiwand.com/en/Ecology",
-      "fx": 432.5534984123145,
-      "fy": -800.4068676434388,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "renewable energy  ️",
-      "note": "is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat",
-      "url": "/environmental-science/renewable-energy",
-      "fx": 495.81102743576514,
-      "fy": -676.9926768031753,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "circular economy  ️",
-      "url": "/environmental-science/circular-economy",
-      "fx": 759.6705449470971,
-      "fy": -674.8125604342473,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "sustainability",
-      "target": "renewable energy  ️",
-      "curve": {
-        "x": -57.3245,
-        "y": 62.0862
       }
-    },
-    {
-      "source": "sustainability",
-      "target": "circular economy  ️",
-      "curve": {
-        "x": 66.1053,
-        "y": 61.9263
-      }
-    },
-    {
-      "source": "environmental science",
-      "target": "basics",
-      "curve": {
-        "x": -0.891469,
-        "y": 64.2734
-      }
-    },
-    {
-      "source": "basics",
-      "target": "ecology",
-      "curve": {
-        "x": -69.4869,
-        "y": 68.8789
-      }
-    },
-    {
-      "source": "basics",
-      "target": "sustainability",
-      "curve": {
-        "x": 41.7163,
-        "y": 68.4997
-      }
-    }
-  ],
-  "id": 554
+    ],
+    "author": ""
+  }
 }

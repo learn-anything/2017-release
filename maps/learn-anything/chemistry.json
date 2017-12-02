@@ -1,318 +1,346 @@
 {
   "title": "learn anything - chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "chemistry",
-      "url": "http://www.wikiwand.com/en/Chemistry",
-      "fx": -120.17505535705982,
-      "fy": -596.5237843456164,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/chemistry/",
-          "fx": 93.82494464294018,
-          "fy": -602.5237843456164,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://chemistry.stackexchange.com/",
-          "fx": 93.82494464294018,
-          "fy": -562.5237843456164,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 180,
+  "map": {
+    "text": "chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "drugs  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs",
+                "text": "drugs  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "biochemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/biochemistry",
+                "text": "biochemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "organic chemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/organic-chemistry",
+                "text": "organic chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "inorganic chemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/inorganic-chemistry",
+                "text": "inorganic chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "polymer chemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/polymer-chemistry",
+                "text": "polymer chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "chemical elements  ️",
+            "note": " there are 118 elements that have been identified, of which 94 occur naturally on Earth with the remaining 24 being synthetic elements  there are 80 elements that have at least one stable isotope and 38 that have exclusively radioactive isotopes, which decay over time into other elements  chemical elements constitute all of the ordinary matter of the universe  however astronomical observations suggest that ordinary observable matter makes up only about 15% of the matter in the universe  the remainder is dark matter (composition of this is unknown, but it is not composed of chemical elements)",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/chemical-elements",
+                "text": "chemical elements  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "quantum chemistry  ️",
+            "note": "focuses on the application of quantum mechanics in physical models and experiments of chemical systems",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/quantum-chemistry",
+                "text": "quantum chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "molecular symmetry  ️",
+            "note": "describes the symmetry present in molecules and the classification of molecules according to their symmetry  it is a fundamental concept in chemistry, as it can predict or explain many of a molecule's chemical properties, such as its dipole moment and its allowed spectroscopic transitions (based on selection rules such as the Laporte rule)  various frameworks for the study of molecular symmetry exist, group theory is the predominant one",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/molecular-symmetry",
+                "text": "molecular symmetry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "electrochemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/electrochemistry",
+                "text": "electrochemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "physical chemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/physical-chemistry",
+                "text": "physical chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "chemical reactions  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/chemical-reactions",
+                "text": "chemical reactions  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "analytical chemistry  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/analytical-chemistry",
+                "text": "analytical chemistry  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=P3RXtoYCW4M",
+            "text": "1. the map of chemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLllVwaZQkS2op2kDuFifhStNsS49LAxkZ",
+            "text": "2. AP chemistry essentials",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FSyAehMdpyI&amp;list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr",
+            "text": "2. crash course chemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.khanacademy.org/science/chemistry",
+            "text": "2. khan academy chemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/1081360.General_Chemistry",
+            "text": "2. general chemistry",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.chemguide.co.uk/",
+            "text": "chemguide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/chemistry/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 27.50589348839935,
-      "fy": -496.21304367843675,
-      "nodes": [
-        {
-          "text": "chemguide",
-          "url": "http://www.chemguide.co.uk/",
-          "fx": 164.50589348839935,
-          "fy": -481.71304367843675,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://chemistry.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -106.22029249074762,
-      "fy": -340.54972831912136,
-      "nodes": [
-        {
-          "text": "1. the map of chemistry",
-          "note": "this will give you an overview of how vast the field is and will spark your interest",
-          "url": "https://www.youtube.com/watch?v=P3RXtoYCW4M",
-          "fx": 75.77970750925238,
-          "fy": -409.04972831912136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "2. AP chemistry essentials",
-          "url": "https://www.youtube.com/playlist?list=PLllVwaZQkS2op2kDuFifhStNsS49LAxkZ",
-          "fx": 75.77970750925238,
-          "fy": -369.04972831912136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "2. crash course chemistry",
-          "url": "https://www.youtube.com/watch?v=FSyAehMdpyI&amp;list=PL8dPuuaLjXtPHzzYuWy6fYEaX9mQQ8oGr",
-          "fx": 75.77970750925238,
-          "fy": -329.04972831912136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "2. khan academy chemistry",
-          "url": "https://www.khanacademy.org/science/chemistry",
-          "fx": 75.77970750925238,
-          "fy": -289.04972831912136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. general chemistry",
-          "url": "https://www.goodreads.com/book/show/1081360.General_Chemistry",
-          "fx": 75.77970750925238,
-          "fy": -249.04972831912136,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Chemistry",
+        "text": "chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "drugs  ️",
-      "url": "/chemistry/drugs",
-      "fx": -564.6911926269531,
-      "fy": -2.83516788482666,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "molecular symmetry  ️",
-      "note": "describes the symmetry present in molecules and the classification of molecules according to their symmetry  it is a fundamental concept in chemistry, as it can predict or explain many of a molecule's chemical properties, such as its dipole moment and its allowed spectroscopic transitions (based on selection rules such as the Laporte rule)  various frameworks for the study of molecular symmetry exist, group theory is the predominant one",
-      "url": "/chemistry/molecular-symmetry",
-      "fx": -1391.9566345214844,
-      "fy": -2.346555233001709,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "biochemistry  ️",
-      "url": "/chemistry/biochemistry",
-      "fx": -437.58287048339844,
-      "fy": -1.3115801811218262,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "electrochemistry  ️",
-      "url": "/chemistry/electrochemistry",
-      "fx": -1615.0060230446927,
-      "fy": -0.3536138268193554,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "quantum chemistry  ️",
-      "note": "focuses on the application of quantum mechanics in physical models and experiments of chemical systems",
-      "url": "/chemistry/quantum-chemistry",
-      "fx": -1108.8742980957031,
-      "fy": -0.17800235748291016,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "chemical elements  ️",
-      "note": " there are 118 elements that have been identified, of which 94 occur naturally on Earth with the remaining 24 being synthetic elements  there are 80 elements that have at least one stable isotope and 38 that have exclusively radioactive isotopes, which decay over time into other elements  chemical elements constitute all of the ordinary matter of the universe  however astronomical observations suggest that ordinary observable matter makes up only about 15% of the matter in the universe  the remainder is dark matter (composition of this is unknown, but it is not composed of chemical elements)",
-      "url": "/chemistry/chemical-elements",
-      "fx": -833.7865142822266,
-      "fy": -0.10661029815673828,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "chemical reactions  ️",
-      "url": "/chemistry/chemical-reactions",
-      "fx": -2108.0355834960938,
-      "fy": 0.23501253128051758,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "analytical chemistry  ️",
-      "url": "/chemistry/analytical-chemistry",
-      "fx": -2369.300204918033,
-      "fy": 1.5416880122951397,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "organic chemistry  ️",
-      "url": "/chemistry/organic-chemistry",
-      "fx": -247.4729118347168,
-      "fy": 1.9662890434265137,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "physical chemistry  ️",
-      "url": "/chemistry/physical-chemistry",
-      "fx": -1864.9042358398438,
-      "fy": 2.1184191703796387,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "inorganic chemistry  ️",
-      "url": "/chemistry/inorganic-chemistry",
-      "fx": -11.344337463378906,
-      "fy": 5.38154935836792,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "polymer chemistry  ️",
-      "url": "/chemistry/polymer-chemistry",
-      "fx": 239.80193328857422,
-      "fy": 5.902863502502441,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -1.02259,
-        "y": 127.987
       }
-    },
-    {
-      "source": "basics",
-      "target": "drugs  ️",
-      "curve": {
-        "x": -273.478,
-        "y": 163.647
-      }
-    },
-    {
-      "source": "basics",
-      "target": "biochemistry  ️",
-      "curve": {
-        "x": -151.432,
-        "y": 169.619
-      }
-    },
-    {
-      "source": "help",
-      "target": "chemistry",
-      "curve": {
-        "x": -61.5905,
-        "y": -50.1554
-      }
-    },
-    {
-      "source": "basics",
-      "target": "organic chemistry  ️",
-      "curve": {
-        "x": -37.8763,
-        "y": 172.508
-      }
-    },
-    {
-      "source": "basics",
-      "target": "inorganic chemistry  ️",
-      "curve": {
-        "x": 83.9379,
-        "y": 174.216
-      }
-    },
-    {
-      "source": "basics",
-      "target": "polymer chemistry  ️",
-      "curve": {
-        "x": 181.567,
-        "y": 193.826
-      }
-    },
-    {
-      "source": "basics",
-      "target": "chemical elements  ️",
-      "curve": {
-        "x": -391.621,
-        "y": 166.181
-      }
-    },
-    {
-      "source": "basics",
-      "target": "quantum chemistry  ️",
-      "curve": {
-        "x": -478.827,
-        "y": 170.186
-      }
-    },
-    {
-      "source": "basics",
-      "target": "molecular symmetry  ️",
-      "curve": {
-        "x": -713.85,
-        "y": 156.285
-      }
-    },
-    {
-      "source": "basics",
-      "target": "electrochemistry  ️",
-      "curve": {
-        "x": -871.837,
-        "y": 107.39
-      }
-    },
-    {
-      "source": "basics",
-      "target": "physical chemistry  ️",
-      "curve": {
-        "x": -1019.63,
-        "y": 74.67
-      }
-    },
-    {
-      "source": "basics",
-      "target": "chemical reactions  ️",
-      "curve": {
-        "x": -1100.74,
-        "y": 36.3993
-      }
-    },
-    {
-      "source": "basics",
-      "target": "analytical chemistry  ️",
-      "curve": {
-        "x": -1468.99,
-        "y": 63.3308
-      }
-    }
-  ],
-  "id": 180
+    ],
+    "author": ""
+  }
 }

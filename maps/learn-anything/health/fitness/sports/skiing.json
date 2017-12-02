@@ -1,77 +1,71 @@
 {
   "title": "learn anything - health - fitness - sports - skiing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "skiing",
-      "url": "http://www.wikiwand.com/en/Skiing",
-      "fx": -127.31884765625,
-      "fy": -324.21484374999994,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/skiing/",
-          "fx": 58.68115234375,
-          "fy": -310.21484374999994,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "impressive",
-      "url": "",
-      "fx": -3.8634724617004395,
-      "fy": -199.17642211914062,
-      "nodes": [
-        {
-          "text": "this is skiing",
-          "url": "https://www.youtube.com/watch?v=XWzYOpWi65E",
-          "fx": 200.13652753829956,
-          "fy": -186.67642211914062,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -127.3144760131836,
-      "fy": -81.0330376625061,
-      "nodes": [
-        {
-          "text": "1. learning to ski",
-          "url": "https://www.reddit.com/r/skiing/comments/6p43ii/learning_to_ski/dkmzds5/",
-          "fx": 35.685523986816406,
-          "fy": -68.5330376625061,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "skiing",
-      "target": "basics",
-      "curve": {
-        "x": -5.74781,
-        "y": 120.841
+  "id": 590,
+  "map": {
+    "text": "skiing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/skiing/comments/6p43ii/learning_to_ski/dkmzds5/",
+            "text": "1. learning to ski",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "impressive",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=XWzYOpWi65E",
+            "text": "this is skiing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "impressive",
-      "target": "skiing",
-      "curve": {
-        "x": -66.2277,
-        "y": -61.7692
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/skiing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Skiing",
+        "text": "skiing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 590
+    ],
+    "author": ""
+  }
 }

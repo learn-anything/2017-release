@@ -1,58 +1,61 @@
 {
   "title": "learn anything - cryptography - cryptographic hash functions",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cryptographic hash functions",
-      "url": "http://www.wikiwand.com/en/Cryptographic_hash_function",
-      "fx": 134.3671875,
-      "fy": -247.3046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 252.57690541781403,
-      "fy": -110.26636392332443,
-      "nodes": [
-        {
-          "text": "1. lecture on hash functions",
-          "url": "https://www.youtube.com/watch?v=KqqOXndnvic",
-          "fx": 408.57690541781403,
-          "fy": -98.76636392332443,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 368,
+  "map": {
+    "text": "cryptographic hash functions",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "SHA-1  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/cryptographic-hash-functions/sha",
+                "text": "SHA-1  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=KqqOXndnvic",
+            "text": "1. lecture on hash functions",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cryptographic_hash_function",
+        "text": "cryptographic hash functions",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "SHA-1  ️",
-      "url": "/cryptography/cryptographic-hash-functions/sha",
-      "fx": 160.85087076822936,
-      "fy": 14.555786132812273,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cryptographic hash functions",
-      "target": "basics",
-      "curve": {
-        "x": -13.8951,
-        "y": 67.2692
       }
-    },
-    {
-      "source": "basics",
-      "target": "SHA-1  ️",
-      "curve": {
-        "x": -45.113,
-        "y": 62.4111
-      }
-    }
-  ],
-  "id": 368
+    ],
+    "author": ""
+  }
 }

@@ -1,83 +1,69 @@
 {
   "title": "learn anything - data science - data processing - apache spark - pyspark",
   "tag": "PySpark",
-  "nodes": [
-    {
-      "text": "PySpark",
-      "url": "",
-      "fx": 122.56721895973146,
-      "fy": -322.79226090604016,
-      "nodes": []
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 213.0888213087244,
-      "fy": -234.08326342281975,
-      "nodes": [
-        {
-          "text": "awesome tutorials",
-          "url": "https://github.com/mahmoudparsian/pyspark-tutorial",
-          "fx": 350.0888213087244,
-          "fy": -222.58326342281975,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 61.14338035071455,
-      "fy": -72.74397239429038,
-      "nodes": [
-        {
-          "text": "1. basics of PySpark",
-          "url": "https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/howto/README.md",
-          "fx": 217.14338035071455,
-          "fy": -109.24397239429038,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. get started with PySpark and Jupyter notebook in 3 minutes  ️",
-          "url": "https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f",
-          "fx": 217.14338035071455,
-          "fy": -69.24397239429038,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. key differences in the python API",
-          "url": "https://spark.apache.org/docs/0.9.0/python-programming-guide.html",
-          "fx": 217.14338035071455,
-          "fy": -7.243972394290381,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "PySpark",
-      "curve": {
-        "x": -37.0108,
-        "y": -44.3545
+  "id": 392,
+  "map": {
+    "text": "PySpark",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/mahmoudparsian/pyspark-tutorial",
+            "text": "awesome tutorials",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/mahmoudparsian/pyspark-tutorial/blob/master/howto/README.md",
+            "text": "1. basics of PySpark",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f",
+            "text": "1. get started with PySpark and Jupyter notebook in 3 minutes  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://spark.apache.org/docs/0.9.0/python-programming-guide.html",
+            "text": "1. key differences in the python API",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "PySpark",
-      "target": "basics",
-      "curve": {
-        "x": -34.2119,
-        "y": 125.024
-      }
-    }
-  ],
-  "id": 392
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

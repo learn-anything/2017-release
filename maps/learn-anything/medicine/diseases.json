@@ -1,177 +1,204 @@
 {
   "title": "learn anything - medicine - diseases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "diseases",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Disease",
-      "fx": -20.48046875,
-      "fy": -411.44921875,
-      "nodes": [
-        {
-          "text": "cancer  ️",
-          "url": "/medicine/diseases/cancer",
-          "fx": 224.51953125,
-          "fy": -640.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "tuberculosis  ️",
-          "url": "/medicine/diseases/tuberculosis",
-          "fx": 224.51953125,
-          "fy": -598.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "diabetes  ️",
-          "url": "/medicine/diseases/diabetes",
-          "fx": 224.51953125,
-          "fy": -556.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "ADHD",
-          "url": "http://www.wikiwand.com/en/Attention_deficit_hyperactivity_disorder",
-          "fx": 224.51953125,
-          "fy": -514.94921875,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "alzheimers  ️",
-          "url": "/medicine/neurology/neurodegeneration/alzheimers-disease",
-          "fx": 224.51953125,
-          "fy": -472.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "influenza  ️",
-          "url": "/medicine/diseases/influenza",
-          "fx": 224.51953125,
-          "fy": -430.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "HIV  ️",
-          "url": "/medicine/diseases/hiv",
-          "fx": 224.51953125,
-          "fy": -388.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "coronary artery disease",
-          "url": "http://www.wikiwand.com/en/Coronary_artery_disease",
-          "fx": 224.51953125,
-          "fy": -346.94921875,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "chronic obstructive pulmonary disease",
-          "url": "http://www.wikiwand.com/en/Chronic_obstructive_pulmonary_disease",
-          "fx": 224.51953125,
-          "fy": -304.94921875,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "diarrhea",
-          "url": "http://www.wikiwand.com/en/Diarrhea",
-          "fx": 224.51953125,
-          "fy": -237.94921875,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "malaria  ️",
-          "url": "/medicine/diseases/malaria",
-          "fx": 224.51953125,
-          "fy": -195.94921875,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "measles",
-          "url": "http://www.wikiwand.com/en/Measles",
-          "fx": 224.51953125,
-          "fy": -153.94921875,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "pandemics  ️",
-      "url": "/medicine/diseases/pandemics",
-      "fx": -216.2861201298702,
-      "fy": -207.19778138528227,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "videos",
-      "url": "",
-      "fx": 161.21300976225496,
-      "fy": -32.21582938258496,
-      "nodes": [
-        {
-          "text": "16: the most gruesome parasites – neglected tropical diseases",
-          "url": "https://www.youtube.com/watch?v=qNWWrDBRBqk",
-          "fx": 324.21300976225496,
-          "fy": -90.71582938258496,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "16: genetic engineering and diseases – gene drive &amp; malaria",
-          "url": "https://www.youtube.com/watch?v=TnzcwTyr6cE",
-          "fx": 324.21300976225496,
-          "fy": 1.2841706174150431,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "videos",
-      "target": "diseases",
-      "curve": {
-        "x": -112.511,
-        "y": -191.564
+  "id": 1163,
+  "map": {
+    "text": "diseases",
+    "note": "",
+    "nodes": [
+      {
+        "text": "videos",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=qNWWrDBRBqk",
+            "text": "16: the most gruesome parasites – neglected tropical diseases",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TnzcwTyr6cE",
+            "text": "16: genetic engineering and diseases – gene drive &amp; malaria",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "pandemics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/medicine/diseases/pandemics",
+            "text": "pandemics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "diseases",
-      "target": "pandemics  ️",
-      "curve": {
-        "x": -106.903,
-        "y": 101.376
+    ],
+    "resources": [
+      {
+        "url": "/medicine/diseases/cancer",
+        "text": "cancer  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/diseases/tuberculosis",
+        "text": "tuberculosis  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/diseases/diabetes",
+        "text": "diabetes  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Attention_deficit_hyperactivity_disorder",
+        "text": "ADHD",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/neurology/neurodegeneration/alzheimers-disease",
+        "text": "alzheimers  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/diseases/influenza",
+        "text": "influenza  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/diseases/hiv",
+        "text": "HIV  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Coronary_artery_disease",
+        "text": "coronary artery disease",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Chronic_obstructive_pulmonary_disease",
+        "text": "chronic obstructive pulmonary disease",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Diarrhea",
+        "text": "diarrhea",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/medicine/diseases/malaria",
+        "text": "malaria  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Measles",
+        "text": "measles",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Disease",
+        "text": "diseases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1160
+    ],
+    "author": ""
+  }
 }

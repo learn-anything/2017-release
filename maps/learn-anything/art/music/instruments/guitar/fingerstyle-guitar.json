@@ -1,50 +1,52 @@
 {
   "title": "learn anything - art - music - instruments - guitar - fingerstyle guitar",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fingerstyle guitar",
-      "url": "http://www.wikiwand.com/en/Fingerstyle_guitar",
-      "fx": 105.609375,
-      "fy": -139.69140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 155.046875,
-      "fy": -3.8515625,
-      "nodes": [
-        {
-          "text": "1. how to arrange finger style guitar",
-          "url": "https://www.youtube.com/playlist?list=PLdF1zkcWxN_-Gy7jX4aflhNAo-IwGlvD6",
-          "fx": 311.046875,
-          "fy": -20.3515625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1.fingerstyle guitar lessons and songs",
-          "url": "http://www.guitarnick.com/fingerstyle_and_fingerpicking_-_lessons_and_songs.html",
-          "fx": 311.046875,
-          "fy": 19.6484375,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fingerstyle guitar",
-      "target": "basics",
-      "curve": {
-        "x": -4.78125,
-        "y": 66.6699
+  "id": 35,
+  "map": {
+    "text": "fingerstyle guitar",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLdF1zkcWxN_-Gy7jX4aflhNAo-IwGlvD6",
+            "text": "1. how to arrange finger style guitar",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.guitarnick.com/fingerstyle_and_fingerpicking_-_lessons_and_songs.html",
+            "text": "1.fingerstyle guitar lessons and songs",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 35
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fingerstyle_guitar",
+        "text": "fingerstyle guitar",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

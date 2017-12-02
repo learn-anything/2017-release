@@ -1,135 +1,139 @@
 {
   "title": "learn anything - computer science - computation - theory of computation - computational complexity theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computational complexity theory",
-      "url": "http://www.wikiwand.com/en/Computational_complexity_theory",
-      "fx": 5.3671875,
-      "fy": -244.8203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 247.0937957763672,
-      "fy": -96.20076089972378,
-      "nodes": [
-        {
-          "text": "14: braid is undecidable",
-          "url": "https://arxiv.org/pdf/1412.0784v1.pdf",
-          "fx": 384,
-          "fy": -156.95503121489406,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "closed timelike curves make quantum and classical computing equivalent",
-          "url": "http://www.scottaaronson.com/papers/ctc.pdf",
-          "fx": 384.0937957763672,
-          "fy": -117.70076089972378,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "15: classic nintendo games are (computationally) hard",
-          "url": "https://arxiv.org/pdf/1203.1895v3.pdf",
-          "fx": 384.0937957763672,
-          "fy": -33.700760899723775,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 309,
+  "map": {
+    "text": "computational complexity theory",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://arxiv.org/pdf/1412.0784v1.pdf",
+            "text": "14: braid is undecidable",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.scottaaronson.com/papers/ctc.pdf",
+            "text": "closed timelike curves make quantum and classical computing equivalent",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://arxiv.org/pdf/1203.1895v3.pdf",
+            "text": "15: classic nintendo games are (computationally) hard",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "NP-completeness  ️",
+            "note": "a decision problem is NP-complete when it is both in NP and NP-hard  the set of NP-complete problems is often denoted by NP-C or NPC where NP refers to ‘nondeterministic polynomial time’",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory/np-completeness",
+                "text": "NP-completeness  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "NP-hardness  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory/np-hardness",
+                "text": "NP-hardness  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Cook–Levin theorem",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Cook%E2%80%93Levin_theorem",
+                "text": "Cook–Levin theorem",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://theory.cs.princeton.edu/complexity/book.pdf",
+            "text": "1. computational complexity: a modern approach",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computational_complexity_theory",
+        "text": "computational complexity theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 20.002403788355537,
-      "fy": 65.98191713453207,
-      "nodes": [
-        {
-          "text": "1. computational complexity: a modern approach",
-          "url": "http://theory.cs.princeton.edu/complexity/book.pdf",
-          "fx": 202.00240378835554,
-          "fy": 66.48191713453207,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "NP-hardness  ️",
-      "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory/np-hardness",
-      "fx": -159.53693181818187,
-      "fy": 209.94081439393938,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Cook–Levin theorem",
-      "url": "http://www.wikiwand.com/en/Cook%E2%80%93Levin_theorem",
-      "fx": -432.7015479880284,
-      "fy": 211.3916278571278,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "NP-completeness  ️",
-      "note": "a decision problem is NP-complete when it is both in NP and NP-hard  the set of NP-complete problems is often denoted by NP-C or NPC where NP refers to ‘nondeterministic polynomial time’",
-      "url": "/computer-science/computation/theory-of-computation/computational-complexity-theory/np-completeness",
-      "fx": 46.72597704238365,
-      "fy": 211.97580280783393,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "computational complexity theory",
-      "curve": {
-        "x": -71.3633,
-        "y": -66.8098
       }
-    },
-    {
-      "source": "computational complexity theory",
-      "target": "basics",
-      "curve": {
-        "x": -37.4324,
-        "y": 147.901
-      }
-    },
-    {
-      "source": "basics",
-      "target": "NP-completeness  ️",
-      "curve": {
-        "x": 45.6118,
-        "y": 74.2469
-      }
-    },
-    {
-      "source": "basics",
-      "target": "NP-hardness  ️",
-      "curve": {
-        "x": -81.0197,
-        "y": 71.9794
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Cook–Levin theorem",
-      "curve": {
-        "x": -215.737,
-        "y": 50.3161
-      }
-    }
-  ],
-  "id": 309
+    ],
+    "author": ""
+  }
 }

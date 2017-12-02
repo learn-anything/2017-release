@@ -1,62 +1,78 @@
 {
   "title": "learn anything - games - video games",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer games",
-      "url": "https://github.com/learn-anything/computer-games",
-      "fx": -239.16594314575195,
-      "fy": -27.71273770928383,
-      "nodes": [
-        {
-          "text": "league of legends  ️",
-          "url": "/games/video-games/league-of-legends",
-          "fx": 41.83405685424805,
-          "fy": -93.71273770928383,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "hearthstone  ️",
-          "url": "/games/video-games/hearthstone",
-          "fx": 41.83405685424805,
-          "fy": -53.71273770928383,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "minecraft  ️",
-          "url": "/games/video-games/minecraft",
-          "fx": 41.83405685424805,
-          "fy": -13.712737709283829,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "factorio  ️",
-          "url": "/games/video-games/factorio",
-          "fx": 41.83405685424805,
-          "fy": 26.28726229071617,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "dota 2  ️",
-          "url": "/games/video-games/dota-2",
-          "fx": 41.83405685424805,
-          "fy": 66.28726229071617,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 575,
+  "map": {
+    "text": "computer games",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "/games/video-games/league-of-legends",
+        "text": "league of legends  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "github"
-    }
-  ],
-  "connections": [],
-  "id": 575
+      },
+      {
+        "url": "/games/video-games/hearthstone",
+        "text": "hearthstone  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/games/video-games/minecraft",
+        "text": "minecraft  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/games/video-games/factorio",
+        "text": "factorio  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/games/video-games/dota-2",
+        "text": "dota 2  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/learn-anything/computer-games",
+        "text": "computer games",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

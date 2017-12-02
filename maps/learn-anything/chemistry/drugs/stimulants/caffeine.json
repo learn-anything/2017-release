@@ -1,58 +1,61 @@
 {
   "title": "learn anything - chemistry - drugs - stimulants - caffeine",
   "tag": "",
-  "nodes": [
-    {
-      "text": "caffeine",
-      "url": "https://psychonautwiki.org/wiki/Caffeine",
-      "fx": 9.67146381578948,
-      "fy": -214.83932976973688,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 28.66796875,
-      "fy": -93.78009733606564,
-      "nodes": [
-        {
-          "text": "1. your brain on coffee",
-          "url": "https://www.youtube.com/watch?v=4YOwEqGykDM",
-          "fx": 191.66796875,
-          "fy": -81.28009733606564,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 168,
+  "map": {
+    "text": "caffeine",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "coffee  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/stimulants/caffeine/coffee",
+                "text": "coffee  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=4YOwEqGykDM",
+            "text": "1. your brain on coffee",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://psychonautwiki.org/wiki/Caffeine",
+        "text": "caffeine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "coffee  ️",
-      "url": "/chemistry/drugs/stimulants/caffeine/coffee",
-      "fx": -47.35454898454634,
-      "fy": 33.61104566929612,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "caffeine",
-      "target": "basics",
-      "curve": {
-        "x": -1.50175,
-        "y": 59.7796
       }
-    },
-    {
-      "source": "basics",
-      "target": "coffee  ️",
-      "curve": {
-        "x": -38.7613,
-        "y": 63.6956
-      }
-    }
-  ],
-  "id": 168
+    ],
+    "author": ""
+  }
 }

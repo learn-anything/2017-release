@@ -1,95 +1,93 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - psilocin",
   "tag": "",
-  "nodes": [
-    {
-      "text": "psilocin",
-      "url": "https://psychonautwiki.org/wiki/Psilocin",
-      "fx": 148.71484375,
-      "fy": -181.921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/shrooms/",
-          "fx": 343.71484375,
-          "fy": -167.921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 262.4736532611772,
-      "fy": -47.6963426711942,
-      "nodes": [
-        {
-          "text": "dialogue with Terence McKenna",
-          "url": "https://www.youtube.com/watch?v=ahVfkwxy6aw",
-          "fx": 453.4736532611772,
-          "fy": -67.1963426711942,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "Terence McKenna on psychedelic salon podcast",
-          "url": "https://www.youtube.com/watch?v=K3ctjBT8sZo",
-          "fx": 453.4736532611772,
-          "fy": -27.196342671194202,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 169.67836884064855,
-      "fy": 96.8199691522376,
-      "nodes": [
-        {
-          "text": "1. your brain on shrooms",
-          "url": "https://www.youtube.com/watch?v=F5kqThVON18",
-          "fx": 325.67836884064855,
-          "fy": 77.3199691522376,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. Alan Watts - the use of LSD and psilocybin",
-          "url": "https://www.youtube.com/watch?v=4l90LMpSJM4",
-          "fx": 325.67836884064855,
-          "fy": 117.3199691522376,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "psilocin",
-      "target": "basics",
-      "curve": {
-        "x": 0.731763,
-        "y": 138.121
+  "id": 162,
+  "map": {
+    "text": "psilocin",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=F5kqThVON18",
+            "text": "1. your brain on shrooms",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4l90LMpSJM4",
+            "text": "2. Alan Watts - the use of LSD and psilocybin",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ahVfkwxy6aw",
+            "text": "dialogue with Terence McKenna",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=K3ctjBT8sZo",
+            "text": "Terence McKenna on psychedelic salon podcast",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "psilocin",
-      "curve": {
-        "x": -55.8794,
-        "y": -65.8628
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/shrooms/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Psilocin",
+        "text": "psilocin",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 162
+    ],
+    "author": ""
+  }
 }

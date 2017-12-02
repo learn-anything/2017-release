@@ -1,17 +1,24 @@
 {
   "title": "learn anything - more - youtube channels",
   "tag": "new youtube channels",
-  "nodes": [
-    {
-      "text": "youtube channels",
-      "note": "",
-      "url": "https://github.com/learn-anything/youtube",
-      "fx": -187.42578125,
-      "fy": -94.265625,
-      "nodes": [],
-      "category": "github"
-    }
-  ],
-  "connections": [],
-  "id": 1195
+  "id": 1198,
+  "map": {
+    "text": "youtube channels",
+    "note": "",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://github.com/learn-anything/youtube",
+        "text": "youtube channels",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

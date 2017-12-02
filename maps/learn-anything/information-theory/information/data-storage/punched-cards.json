@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - information - data storage - punched cards",
   "tag": "",
-  "nodes": [
-    {
-      "text": "punched cards",
-      "url": "http://www.wikiwand.com/en/Punched_card",
-      "fx": 81.4609375,
-      "fy": -78.77734375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.5,
-      "fy": 41,
-      "nodes": [
-        {
-          "text": "1. punch card programming",
-          "url": "https://www.youtube.com/watch?v=KG2M4ttzBnY",
-          "fx": 283.5,
-          "fy": 52.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "punched cards",
-      "target": "basics",
-      "curve": {
-        "x": -3.73047,
-        "y": 58.6387
+  "id": 640,
+  "map": {
+    "text": "punched cards",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=KG2M4ttzBnY",
+            "text": "1. punch card programming",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 640
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Punched_card",
+        "text": "punched cards",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,75 +1,80 @@
 {
   "title": "learn anything - art - dancing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "dancing",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Dance",
-      "fx": -72.16796875,
-      "fy": -274.05500315656576,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 49.41293420918919,
-      "fy": -168.8235291907859,
-      "nodes": [
-        {
-          "text": "at intersection of dance and technology",
-          "url": "https://gfycat.com/MixedFrankAlaskankleekai",
-          "fx": 240.4129342091892,
-          "fy": -168.3235291907859,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 15,
+  "map": {
+    "text": "dancing",
+    "note": "",
+    "nodes": [
+      {
+        "text": "list of dances",
+        "nodes": [
+          {
+            "text": "salsa",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Salsa_(dance)",
+                "text": "salsa",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/List_of_dances",
+            "text": "list of dances",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://gfycat.com/MixedFrankAlaskankleekai",
+            "text": "at intersection of dance and technology",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Dance",
+        "text": "dancing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "list of dances",
-      "url": "http://www.wikiwand.com/en/List_of_dances",
-      "fx": -218.2801452020201,
-      "fy": -92.10389046717171,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "salsa",
-      "url": "http://www.wikiwand.com/en/Salsa_(dance)",
-      "fx": -240.18434343434353,
-      "fy": 30.73682133838514,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "dancing",
-      "target": "list of dances",
-      "curve": {
-        "x": -68.3061,
-        "y": 89.7256
       }
-    },
-    {
-      "source": "list of dances",
-      "target": "salsa",
-      "curve": {
-        "x": -29.2021,
-        "y": 61.4204
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "dancing",
-      "curve": {
-        "x": -52.2905,
-        "y": -51.3657
-      }
-    }
-  ],
-  "id": 15
+    ],
+    "author": ""
+  }
 }

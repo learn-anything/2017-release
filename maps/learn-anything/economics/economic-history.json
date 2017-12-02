@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - economic history",
   "tag": "",
-  "nodes": [
-    {
-      "text": "economic history",
-      "url": "http://www.wikiwand.com/en/Economic_history",
-      "fx": 67.65625,
-      "fy": -114.125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 130.4140625,
-      "fy": 10.53515625,
-      "nodes": [
-        {
-          "text": "1. world economic history before industrial revolution",
-          "url": "https://www.youtube.com/watch?v=AvZlXaGEzwg&amp;list=PL2D739D3487D8119E",
-          "fx": 286.4140625,
-          "fy": 11.03515625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "economic history",
-      "target": "basics",
-      "curve": {
-        "x": 0.128906,
-        "y": 61.0801
+  "id": 478,
+  "map": {
+    "text": "economic history",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=AvZlXaGEzwg&amp;list=PL2D739D3487D8119E",
+            "text": "1. world economic history before industrial revolution",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 478
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Economic_history",
+        "text": "economic history",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,74 +1,78 @@
 {
   "title": "learn anything - computer science - computation - interactive computing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "interactive computing",
-      "url": "http://www.wikiwand.com/en/Interactive_computing",
-      "fx": 82.84375,
-      "fy": -133.2578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 268.0249714611931,
-      "fy": 15.80779109598376,
-      "nodes": [
-        {
-          "text": "1997: computer revolution hasn’t happened yet",
-          "url": "https://www.youtube.com/watch?v=oKg1hTOQXoY",
-          "fx": 408.0249714611931,
-          "fy": 16.30779109598376,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 306,
+  "map": {
+    "text": "interactive computing",
+    "nodes": [
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oKg1hTOQXoY",
+            "text": "1997: computer revolution hasn’t happened yet",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "Jupyter notebooks  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/computation/interactive-computing/jupyter-notebooks",
+            "text": "Jupyter notebooks  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "visual programming languages",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Visual_programming_language",
+            "text": "visual programming languages",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Interactive_computing",
+        "text": "interactive computing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Jupyter notebooks  ️",
-      "url": "/computer-science/computation/interactive-computing/jupyter-notebooks",
-      "fx": -0.48922116349740463,
-      "fy": 59.8810232880723,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "visual programming languages",
-      "url": "http://www.wikiwand.com/en/Visual_programming_language",
-      "fx": -380.51171875,
-      "fy": 60.830078125,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "interactive computing",
-      "curve": {
-        "x": -47.3406,
-        "y": -73.2828
       }
-    },
-    {
-      "source": "interactive computing",
-      "target": "Jupyter notebooks  ️",
-      "curve": {
-        "x": -54.9165,
-        "y": 95.3194
-      }
-    },
-    {
-      "source": "interactive computing",
-      "target": "visual programming languages",
-      "curve": {
-        "x": -207.928,
-        "y": 97.0439
-      }
-    }
-  ],
-  "id": 306
+    ],
+    "author": ""
+  }
 }

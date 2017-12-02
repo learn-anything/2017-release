@@ -1,49 +1,60 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits - hardware description languages",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hardware description languages",
-      "url": "http://www.wikiwand.com/en/Hardware_description_language",
-      "fx": 14.049237462574638,
-      "fy": -286.89628555389214,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "VHDL  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages/vhdl",
-      "fx": 198.5363350267088,
-      "fy": -168.10429661507686,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Verilog  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages/verilog",
-      "fx": 2.4197464446106096,
-      "fy": -167.33486152694604,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "hardware description languages",
-      "target": "Verilog  ️",
-      "curve": {
-        "x": -75.8147,
-        "y": 58.5307
+  "id": 527,
+  "map": {
+    "text": "hardware description languages",
+    "nodes": [
+      {
+        "text": "Verilog  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages/verilog",
+            "text": "Verilog  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "VHDL  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages/vhdl",
+            "text": "VHDL  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "hardware description languages",
-      "target": "VHDL  ️",
-      "curve": {
-        "x": 20.7436,
-        "y": 58.146
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Hardware_description_language",
+        "text": "hardware description languages",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 527
+    ],
+    "author": ""
+  }
 }

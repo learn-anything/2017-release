@@ -1,58 +1,61 @@
 {
   "title": "learn anything - agriculture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "agriculture",
-      "url": "http://www.wikiwand.com/en/Agriculture",
-      "fx": 11.272472993827137,
-      "fy": -203.76408179013112,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 43.906110763549805,
-      "fy": -60.042869091033936,
-      "nodes": [
-        {
-          "text": "1. the agricultural revolution",
-          "url": "https://www.youtube.com/watch?v=Yocja_N5s1I&amp;t=7s",
-          "fx": 199.9061107635498,
-          "fy": -48.542869091033936,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 0,
+  "map": {
+    "text": "agriculture",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "farming",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Farm",
+                "text": "farming",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Yocja_N5s1I&amp;t=7s",
+            "text": "1. the agricultural revolution",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Agriculture",
+        "text": "agriculture",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "farming",
-      "url": "http://www.wikiwand.com/en/Farm",
-      "fx": -93.3837890625,
-      "fy": 74.0419921875,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "agriculture",
-      "target": "basics",
-      "curve": {
-        "x": -1.18318,
-        "y": 70.6106
       }
-    },
-    {
-      "source": "basics",
-      "target": "farming",
-      "curve": {
-        "x": -58.8949,
-        "y": 68.2924
-      }
-    }
-  ],
-  "id": 0
+    ],
+    "author": ""
+  }
 }

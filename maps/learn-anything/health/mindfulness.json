@@ -1,206 +1,209 @@
 {
   "title": "learn anything - health - mindfulness",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mindfulness",
-      "url": "http://www.wikiwand.com/en/Mindfulness",
-      "fx": 201.6950385635779,
-      "fy": -669.7998704601424,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Mindfulness/",
-          "fx": 436.6950385635779,
-          "fy": -655.7998704601424,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 610,
+  "map": {
+    "text": "mindfulness",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "zen  ️",
+            "nodes": [
+              {
+                "text": "buddhism  ️",
+                "nodes": [],
+                "resources": [],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/health/mindfulness/zen",
+                "text": "zen  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "minimalism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/minimalism",
+                "text": "minimalism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "meditation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/meditation",
+                "text": "meditation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "discipline  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/discipline",
+                "text": "discipline  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "habits  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/habits",
+                "text": "habits  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "awareness  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/awareness",
+                "text": "awareness  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://misc.equanimity.info/downloads/mindfulness_in_plain_english.pdf",
+            "text": "1. mindfulness in plain english",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.freespiritualebooks.com/uploads/5/0/5/8/50589505/the-book-on-the-taboo-against-knowing-who-you-are-by-alan-watts.pdf",
+            "text": "1. the book by Alan Watts",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7SfZZlpfaN0",
+            "text": "1. Alan Watts explains what awakening means",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/@NikitaVoloboev/what-it-means-to-live-a-conscious-life-c96f6517077",
+            "text": "16: what it means to live a conscious life  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Mindfulness/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 362.66602714448345,
-      "fy": -562.3323385709482,
-      "nodes": [
-        {
-          "text": "16: what it means to live a conscious life  ️",
-          "url": "https://medium.com/@NikitaVoloboev/what-it-means-to-live-a-conscious-life-c96f6517077",
-          "fx": 524.6660271444835,
-          "fy": -561.8323385709482,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Mindfulness",
+        "text": "mindfulness",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 217.60584318084148,
-      "fy": -413.60345576752104,
-      "nodes": [
-        {
-          "text": "1. mindfulness in plain english",
-          "url": "http://misc.equanimity.info/downloads/mindfulness_in_plain_english.pdf",
-          "fx": 373.6058431808415,
-          "fy": -453.10345576752104,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. the book by Alan Watts",
-          "url": "http://www.freespiritualebooks.com/uploads/5/0/5/8/50589505/the-book-on-the-taboo-against-knowing-who-you-are-by-alan-watts.pdf",
-          "fx": 373.6058431808415,
-          "fy": -413.10345576752104,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. Alan Watts explains what awakening means",
-          "url": "https://www.youtube.com/watch?v=7SfZZlpfaN0",
-          "fx": 373.6058431808415,
-          "fy": -373.10345576752104,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "zen  ️",
-      "url": "/health/mindfulness/zen",
-      "fx": -386.4062805175781,
-      "fy": -241.1925163269043,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "awareness  ️",
-      "url": "/health/mindfulness/awareness",
-      "fx": -558.5459756443643,
-      "fy": -240.47816506410254,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "minimalism  ️",
-      "url": "/health/mindfulness/minimalism",
-      "fx": -260.1389691891111,
-      "fy": -240.0419167154568,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "discipline  ️",
-      "url": "/health/mindfulness/discipline",
-      "fx": 115.67623197115358,
-      "fy": -236.091796875,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "meditation  ️",
-      "url": "/health/mindfulness/meditation",
-      "fx": -66.78343874619623,
-      "fy": -234.98120056353594,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "habits  ️",
-      "url": "/health/mindfulness/habits",
-      "fx": 279.6644113672696,
-      "fy": -234.05904557460417,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "buddhism  ️",
-      "fx": -423.0101994063348,
-      "fy": -126.27058161149245,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "mindfulness",
-      "target": "basics",
-      "curve": {
-        "x": -11.7946,
-        "y": 126.848
       }
-    },
-    {
-      "source": "basics",
-      "target": "zen  ️",
-      "curve": {
-        "x": -362.722,
-        "y": 63.6994
-      }
-    },
-    {
-      "source": "basics",
-      "target": "minimalism  ️",
-      "curve": {
-        "x": -220.872,
-        "y": 88.0308
-      }
-    },
-    {
-      "source": "basics",
-      "target": "meditation  ️",
-      "curve": {
-        "x": -125.694,
-        "y": 90.5611
-      }
-    },
-    {
-      "source": "basics",
-      "target": "discipline  ️",
-      "curve": {
-        "x": -37.4648,
-        "y": 90.0058
-      }
-    },
-    {
-      "source": "basics",
-      "target": "habits  ️",
-      "curve": {
-        "x": 62.8016,
-        "y": 86.5478
-      }
-    },
-    {
-      "source": "zen  ️",
-      "target": "buddhism  ️",
-      "curve": {
-        "x": -3.55196,
-        "y": 57.461
-      }
-    },
-    {
-      "source": "articles",
-      "target": "mindfulness",
-      "curve": {
-        "x": -62.2355,
-        "y": -52.4838
-      }
-    },
-    {
-      "source": "basics",
-      "target": "awareness  ️",
-      "curve": {
-        "x": -504.296,
-        "y": 65.3895
-      }
-    }
-  ],
-  "id": 610
+    ],
+    "author": ""
+  }
 }

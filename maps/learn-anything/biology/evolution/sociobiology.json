@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - evolution - sociobiology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "sociobiology",
-      "url": "http://www.wikiwand.com/en/Sociobiology",
-      "fx": 127.99707602339174,
-      "fy": -238.95164016812862,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 166.7126279239768,
-      "fy": -101.08726242689357,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=E-oUnxTwS6g",
-          "fx": 329.7126279239768,
-          "fy": -88.58726242689357,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "sociobiology",
-      "target": "basics",
-      "curve": {
-        "x": -3.64222,
-        "y": 68.1822
+  "id": 97,
+  "map": {
+    "text": "sociobiology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E-oUnxTwS6g",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 97
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Sociobiology",
+        "text": "sociobiology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

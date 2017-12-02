@@ -1,51 +1,53 @@
 {
   "title": "learn anything - cognitive science - cognition - emotions - empathy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "empathy",
-      "url": "http://www.wikiwand.com/en/Empathy",
-      "fx": 39.24609375,
-      "fy": -224.01171875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 58.59375,
-      "fy": -72.43359375,
-      "nodes": [
-        {
-          "text": "1. the power of empathy",
-          "url": "https://www.youtube.com/watch?v=baHrcC8B4WM",
-          "fx": 214.59375,
-          "fy": -80.93359375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. Brene Brown on empathy",
-          "url": "https://www.youtube.com/watch?v=1Evwgu369Jw",
-          "fx": 214.59375,
-          "fy": -40.93359375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "empathy",
-      "target": "basics",
-      "curve": {
-        "x": -2.82617,
-        "y": 74.5391
+  "id": 182,
+  "map": {
+    "text": "empathy",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=baHrcC8B4WM",
+            "text": "1. the power of empathy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1Evwgu369Jw",
+            "text": "1. Brene Brown on empathy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 182
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Empathy",
+        "text": "empathy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

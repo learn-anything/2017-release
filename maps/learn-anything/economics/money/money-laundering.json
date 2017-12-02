@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - money - money laundering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "money laundering",
-      "url": "http://www.wikiwand.com/en/Money_laundering",
-      "fx": 71.38720703125,
-      "fy": -129.03710937499994,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 139.22516556291396,
-      "fy": 2.6821192052949527,
-      "nodes": [
-        {
-          "text": "1. how does money laundering work?",
-          "url": "https://www.youtube.com/watch?v=257wV-AbKaE",
-          "fx": 302.22516556291396,
-          "fy": 2.6821192052949527,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "money laundering",
-      "target": "basics",
-      "curve": {
-        "x": -2.08102,
-        "y": 65.1096
+  "id": 498,
+  "map": {
+    "text": "money laundering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=257wV-AbKaE",
+            "text": "1. how does money laundering work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 498
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Money_laundering",
+        "text": "money laundering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,95 +1,93 @@
 {
   "title": "learn anything - art - drawing - watercolour painting",
   "tag": "watercolour paintings",
-  "nodes": [
-    {
-      "text": "watercolour painting",
-      "url": "http://www.wikiwand.com/en/Watercolor_painting",
-      "fx": 110.50390625,
-      "fy": -243.5625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Watercolor/",
-          "fx": 420.50390625,
-          "fy": -249.5625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "watercolour101",
-          "url": "https://www.reddit.com/r/watercolor101/",
-          "fx": 420.50390625,
-          "fy": -209.5625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "inspiration",
-      "url": "",
-      "fx": 277.5888831967244,
-      "fy": -89.95344518441618,
-      "nodes": [
-        {
-          "text": "watercolour flower painting",
-          "url": "https://www.youtube.com/watch?v=d4JzZ7h25eU",
-          "fx": 467.5888831967244,
-          "fy": -98.45344518441618,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "European Magpie",
-          "url": "https://i.redd.it/j46m8ttdah0z.jpg",
-          "fx": 467.5888831967244,
-          "fy": -58.45344518441618,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 182.68546195652175,
-      "fy": 23.87703804347825,
-      "nodes": [
-        {
-          "text": "1. learn to paint watercolour landscapes",
-          "url": "https://www.youtube.com/watch?v=-klduIIatYk",
-          "fx": 338.68546195652175,
-          "fy": 24.37703804347825,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "inspiration",
-      "target": "watercolour painting",
-      "curve": {
-        "x": -53.5425,
-        "y": -75.5545
+  "id": 20,
+  "map": {
+    "text": "watercolour painting",
+    "nodes": [
+      {
+        "text": "inspiration",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=d4JzZ7h25eU",
+            "text": "watercolour flower painting",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://i.redd.it/j46m8ttdah0z.jpg",
+            "text": "European Magpie",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-klduIIatYk",
+            "text": "1. learn to paint watercolour landscapes",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "watercolour painting",
-      "target": "basics",
-      "curve": {
-        "x": -2.40922,
-        "y": 132.47
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Watercolor/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/watercolor101/",
+        "text": "watercolour101",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Watercolor_painting",
+        "text": "watercolour painting",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 20
+    ],
+    "author": ""
+  }
 }

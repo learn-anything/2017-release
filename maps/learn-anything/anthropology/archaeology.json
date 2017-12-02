@@ -1,77 +1,71 @@
 {
   "title": "learn anything - anthropology - archaeology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "archaeology",
-      "url": "http://www.wikiwand.com/en/Archaeology",
-      "fx": 225.84765625,
-      "fy": -298.390625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Archaeology/",
-          "fx": 462.84765625,
-          "fy": -284.390625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 426.8490879079686,
-      "fy": -190.69162849259504,
-      "nodes": [
-        {
-          "text": "history / archaeology documentaries",
-          "url": "https://www.youtube.com/playlist?list=PLwJVQxW2IAat6kGzPQy5xjRcXbxwhEcar",
-          "fx": 563.8490879079686,
-          "fy": -190.19162849259504,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 256.82124578757373,
-      "fy": -83.27056135375642,
-      "nodes": [
-        {
-          "text": "1. short film on archaeology profession",
-          "url": "https://www.youtube.com/watch?v=ao4vVcfvyuE",
-          "fx": 412.82124578757373,
-          "fy": -82.77056135375642,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "archaeology",
-      "target": "basics",
-      "curve": {
-        "x": -4.76321,
-        "y": 106.31
+  "id": 1,
+  "map": {
+    "text": "archaeology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ao4vVcfvyuE",
+            "text": "1. short film on archaeology profession",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLwJVQxW2IAat6kGzPQy5xjRcXbxwhEcar",
+            "text": "history / archaeology documentaries",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "archaeology",
-      "curve": {
-        "x": -89.0007,
-        "y": -52.5995
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Archaeology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Archaeology",
+        "text": "archaeology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1
+    ],
+    "author": ""
+  }
 }

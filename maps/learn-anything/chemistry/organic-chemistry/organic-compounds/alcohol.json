@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - organic chemistry - organic compounds - alcohol",
   "tag": "",
-  "nodes": [
-    {
-      "text": "alcohol",
-      "url": "http://www.wikiwand.com/en/Alcohol",
-      "fx": -54.578125,
-      "fy": -124.64453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. the science of alcohol",
-          "url": "https://www.youtube.com/watch?v=zP21LH3T9yQ",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "alcohol",
-      "target": "basics",
-      "curve": {
-        "x": -4.96094,
-        "y": 60.0723
+  "id": 174,
+  "map": {
+    "text": "alcohol",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=zP21LH3T9yQ",
+            "text": "1. the science of alcohol",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 174
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Alcohol",
+        "text": "alcohol",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

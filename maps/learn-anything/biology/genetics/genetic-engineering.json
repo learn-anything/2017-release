@@ -1,49 +1,60 @@
 {
   "title": "learn anything - biology - genetics - genetic engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "genetic engineering",
-      "url": "http://www.wikiwand.com/en/Genetic_engineering",
-      "fx": 128.37890625,
-      "fy": -341.58203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "CRISPR  ️",
-      "url": "/biology/genetics/genetic-engineering/crispr",
-      "fx": 38.01283170391207,
-      "fy": -189.9466655028039,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "GMOs  ️",
-      "url": "/biology/genetics/genetic-engineering/gmo",
-      "fx": 213.6219884776567,
-      "fy": -188.5225645949539,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "genetic engineering",
-      "target": "CRISPR  ️",
-      "curve": {
-        "x": -73.683,
-        "y": 75.8177
+  "id": 101,
+  "map": {
+    "text": "genetic engineering",
+    "nodes": [
+      {
+        "text": "CRISPR  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/genetics/genetic-engineering/crispr",
+            "text": "CRISPR  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "GMOs  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/genetics/genetic-engineering/gmo",
+            "text": "GMOs  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "genetic engineering",
-      "target": "GMOs  ️",
-      "curve": {
-        "x": 10.6215,
-        "y": 76.5297
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Genetic_engineering",
+        "text": "genetic engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 101
+    ],
+    "author": ""
+  }
 }

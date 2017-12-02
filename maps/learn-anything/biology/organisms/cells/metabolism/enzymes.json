@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - organisms - cells - metabolism - enzymes",
   "tag": "",
-  "nodes": [
-    {
-      "text": "enzymes",
-      "url": "http://www.wikiwand.com/en/Enzyme",
-      "fx": 201.765625,
-      "fy": -306.5,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 223.5208333333254,
-      "fy": -158.5424890351021,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=ok9esggzN18",
-          "fx": 386.5208333333254,
-          "fy": -167.0424890351021,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. a fun introduction",
-          "url": "https://www.youtube.com/watch?v=XTUm-75-PL4&amp;t=19s",
-          "fx": 386.5208333333254,
-          "fy": -125.04248903510211,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "enzymes",
-      "target": "basics",
-      "curve": {
-        "x": -3.1224,
-        "y": 73.2288
+  "id": 115,
+  "map": {
+    "text": "enzymes",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ok9esggzN18",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=XTUm-75-PL4&amp;t=19s",
+            "text": "1. a fun introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 115
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Enzyme",
+        "text": "enzymes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

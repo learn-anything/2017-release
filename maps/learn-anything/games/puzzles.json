@@ -1,68 +1,71 @@
 {
   "title": "learn anything - games - puzzles",
   "tag": "",
-  "nodes": [
-    {
-      "text": "puzzles",
-      "url": "http://www.wikiwand.com/en/Puzzle",
-      "fx": 40.38671875,
-      "fy": -285.55078125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/puzzles/",
-          "fx": 235.38671875,
-          "fy": -271.55078125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 116.0703125,
-      "fy": -167.4609375,
-      "nodes": [
-        {
-          "text": "great puzzles",
-          "url": "https://github.com/sharkdp/great-puzzles",
-          "fx": 307.0703125,
-          "fy": -155.9609375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "rubik’s cube  ️",
-      "url": "/games/puzzles/rubik-cube",
-      "fx": -157.84561877076408,
-      "fy": -119.23110465116281,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "puzzles",
-      "curve": {
-        "x": -36.8418,
-        "y": -57.7949
+  "id": 569,
+  "map": {
+    "text": "puzzles",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/sharkdp/great-puzzles",
+            "text": "great puzzles",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "rubik’s cube  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/games/puzzles/rubik-cube",
+            "text": "rubik’s cube  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "puzzles",
-      "target": "rubik’s cube  ️",
-      "curve": {
-        "x": -96.1162,
-        "y": 81.9098
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/puzzles/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Puzzle",
+        "text": "puzzles",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 569
+    ],
+    "author": ""
+  }
 }

@@ -1,58 +1,61 @@
 {
   "title": "learn anything - biology - anatomy - human body - circulatory system",
   "tag": "",
-  "nodes": [
-    {
-      "text": "circulatory system",
-      "url": "http://www.wikiwand.com/en/Circulatory_system",
-      "fx": 214.8594023164335,
-      "fy": -371.827305506993,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 277.97819125441504,
-      "fy": -225.4823823482286,
-      "nodes": [
-        {
-          "text": "1. circulatory &amp; respiration systems",
-          "url": "https://www.youtube.com/watch?v=9fxm85Fy4sQ",
-          "fx": 440.97819125441504,
-          "fy": -225.4823823482286,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 77,
+  "map": {
+    "text": "circulatory system",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "heart  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body/circulatory-system/heart",
+                "text": "heart  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9fxm85Fy4sQ",
+            "text": "1. circulatory &amp; respiration systems",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Circulatory_system",
+        "text": "circulatory system",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "heart  ️",
-      "url": "/biology/anatomy/human-body/circulatory-system/heart",
-      "fx": 177.2423513986014,
-      "fy": -76.34680944055697,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "circulatory system",
-      "target": "basics",
-      "curve": {
-        "x": -4.69061,
-        "y": 72.4225
       }
-    },
-    {
-      "source": "basics",
-      "target": "heart  ️",
-      "curve": {
-        "x": -45.8679,
-        "y": 75.3178
-      }
-    }
-  ],
-  "id": 77
+    ],
+    "author": ""
+  }
 }

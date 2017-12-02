@@ -1,74 +1,79 @@
 {
   "title": "learn anything - computer graphics - 3d modelling - texture mapping",
   "tag": "",
-  "nodes": [
-    {
-      "text": "texture mapping",
-      "url": "http://www.wikiwand.com/en/Texture_mapping",
-      "fx": 135.3828125,
-      "fy": -104.06640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 193.76907169117646,
-      "fy": 26.611067012032095,
-      "nodes": [
-        {
-          "text": "1. texture mapping in OpenGL",
-          "url": "https://www.youtube.com/watch?v=Eh0HeTCCgnE",
-          "fx": 349.76907169117646,
-          "fy": 38.111067012032095,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 206,
+  "map": {
+    "text": "texture mapping",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "bump mapping",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Bump_mapping",
+                "text": "bump mapping",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "normal mapping",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Normal_mapping",
+                "text": "normal mapping",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Eh0HeTCCgnE",
+            "text": "1. texture mapping in OpenGL",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Texture_mapping",
+        "text": "texture mapping",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "bump mapping",
-      "url": "http://www.wikiwand.com/en/Bump_mapping",
-      "fx": 48.276242707905,
-      "fy": 167.96083470394728,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "normal mapping",
-      "url": "http://www.wikiwand.com/en/Normal_mapping",
-      "fx": 272.34066611842115,
-      "fy": 169.66467927631595,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "texture mapping",
-      "target": "basics",
-      "curve": {
-        "x": -0.306874,
-        "y": 64.0887
       }
-    },
-    {
-      "source": "basics",
-      "target": "bump mapping",
-      "curve": {
-        "x": -45.4964,
-        "y": 71.9249
-      }
-    },
-    {
-      "source": "basics",
-      "target": "normal mapping",
-      "curve": {
-        "x": 68.7858,
-        "y": 72.7768
-      }
-    }
-  ],
-  "id": 206
+    ],
+    "author": ""
+  }
 }

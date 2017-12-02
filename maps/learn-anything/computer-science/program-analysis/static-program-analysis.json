@@ -1,51 +1,52 @@
 {
   "title": "learn anything - computer science - program analysis - static program analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "static program analysis",
-      "url": "http://www.wikiwand.com/en/Static_program_analysis",
-      "fx": 51.8828125,
-      "fy": -389.1796875,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/mre/awesome-static-analysis",
-          "fx": 357.8828125,
-          "fy": -377.6796875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 120.5,
-      "fy": -240.75,
-      "nodes": [
-        {
-          "text": "1. what is static analysis",
-          "url": "https://www.youtube.com/watch?v=POvX4hYIoxg",
-          "fx": 276.5,
-          "fy": -229.25,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "static program analysis",
-      "target": "basics",
-      "curve": {
-        "x": -3.19141,
-        "y": 74.2148
+  "id": 337,
+  "map": {
+    "text": "static program analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=POvX4hYIoxg",
+            "text": "1. what is static analysis",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 337
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/mre/awesome-static-analysis",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Static_program_analysis",
+        "text": "static program analysis",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

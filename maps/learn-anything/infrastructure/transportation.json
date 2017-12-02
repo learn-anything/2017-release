@@ -1,68 +1,61 @@
 {
   "title": "learn anything - infrastructure - transportation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "transportation",
-      "url": "http://www.wikiwand.com/en/Transport",
-      "fx": 131.6015625,
-      "fy": -248.546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 277.13561602870845,
-      "fy": -104.00366327756882,
-      "nodes": [
-        {
-          "text": "awesome transit",
-          "url": "https://github.com/luqmaan/awesome-transit",
-          "fx": 468.13561602870845,
-          "fy": -92.50366327756882,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 171.52932491028707,
-      "fy": 21.07991925837314,
-      "nodes": [
-        {
-          "text": "1. transport for suburbia: beyond the automobile age",
-          "url": "http://www.goodreads.com/book/show/6800830-transport-for-suburbia",
-          "fx": 353.5293249102871,
-          "fy": 21.57991925837314,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "transportation",
-      "target": "basics",
-      "curve": {
-        "x": -4.28612,
-        "y": 133.563
+  "id": 662,
+  "map": {
+    "text": "transportation",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/6800830-transport-for-suburbia",
+            "text": "1. transport for suburbia: beyond the automobile age",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/luqmaan/awesome-transit",
+            "text": "awesome transit",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "transportation",
-      "curve": {
-        "x": -57.267,
-        "y": -71.0216
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Transport",
+        "text": "transportation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 662
+    ],
+    "author": ""
+  }
 }

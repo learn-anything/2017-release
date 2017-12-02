@@ -1,130 +1,124 @@
 {
   "title": "learn anything - computer science - algorithms - genetic algorithms",
   "tag": "",
-  "nodes": [
-    {
-      "text": "genetic algorithms",
-      "url": "http://www.wikiwand.com/en/Genetic_algorithm",
-      "fx": -112.83083545918362,
-      "fy": -262.37603635204084,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/genetic_algorithms/",
-          "fx": 180.16916454081638,
-          "fy": -248.37603635204084,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 42.92261127737106,
-      "fy": -148.8573299142766,
-      "nodes": [
-        {
-          "text": "list of genetic algorithms",
-          "url": "https://en.wikipedia.org/wiki/Category:Genetic_algorithms",
-          "fx": 179.92261127737106,
-          "fy": -168.3573299142766,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "list of genetic algorithm applications",
-          "url": "http://www.wikiwand.com/en/List_of_genetic_algorithm_applications",
-          "fx": 180.54553608205856,
-          "fy": -128.43345219821214,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 86.28314877087189,
-      "fy": 2.447242817581696,
-      "nodes": [
-        {
-          "text": "genetic algo creates a picture instance of itself",
-          "url": "https://github.com/Murgio/Genetic-Algorithm-Montage",
-          "fx": 277.2831487708719,
-          "fy": 2.947242817581696,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -113.65905394528636,
-      "fy": 111.64304979089746,
-      "nodes": [
-        {
-          "text": "1. genetic algorithms",
-          "url": "https://www.youtube.com/watch?v=kHyNqSnzP8Y",
-          "fx": 68.34094605471364,
-          "fy": 72.14304979089746,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. continuous evolutionary system",
-          "url": "https://www.youtube.com/watch?v=Sx_l2GxBC5w",
-          "fx": 68.34094605471364,
-          "fy": 112.14304979089746,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. genetic algorithms and evolutionary computing",
-          "url": "https://www.youtube.com/watch?v=6l6b78Y4V7Y",
-          "fx": 68.34094605471364,
-          "fy": 152.14304979089746,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "genetic algorithms",
-      "curve": {
-        "x": -38.8767,
-        "y": -55.5094
+  "id": 262,
+  "map": {
+    "text": "genetic algorithms",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/Murgio/Genetic-Algorithm-Montage",
+                "text": "genetic algo creates a picture instance of itself",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Category:Genetic_algorithms",
+            "text": "list of genetic algorithms",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wikiwand.com/en/List_of_genetic_algorithm_applications",
+            "text": "list of genetic algorithm applications",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=kHyNqSnzP8Y",
+            "text": "1. genetic algorithms",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Sx_l2GxBC5w",
+            "text": "1. continuous evolutionary system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6l6b78Y4V7Y",
+            "text": "1. genetic algorithms and evolutionary computing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -35.1803,
-        "y": -75.6523
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/genetic_algorithms/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Genetic_algorithm",
+        "text": "genetic algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "genetic algorithms",
-      "target": "basics",
-      "curve": {
-        "x": -34.6641,
-        "y": 185.759
-      }
-    }
-  ],
-  "id": 262
+    ],
+    "author": ""
+  }
 }

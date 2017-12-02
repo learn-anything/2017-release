@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing - nyqust-shannon sampling theorem",
   "tag": "Nyqust-Shannon sampling theorem",
-  "nodes": [
-    {
-      "text": "Nyqust-Shannon sampling theorem",
-      "url": "http://www.wikiwand.com/en/Nyquist%E2%80%93Shannon_sampling_theorem",
-      "fx": 61.36328125,
-      "fy": -117.62890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 142.671875,
-      "fy": 62.83203125,
-      "nodes": [
-        {
-          "text": "1. sampling, aliasing &amp; Nyquist theorem",
-          "url": "https://www.youtube.com/watch?v=yWqrx08UeUs",
-          "fx": 305.671875,
-          "fy": 62.83203125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Nyqust-Shannon sampling theorem",
-      "target": "basics",
-      "curve": {
-        "x": -11.0957,
-        "y": 82.9805
+  "id": 657,
+  "map": {
+    "text": "Nyqust-Shannon sampling theorem",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yWqrx08UeUs",
+            "text": "1. sampling, aliasing &amp; Nyquist theorem",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 657
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Nyquist%E2%80%93Shannon_sampling_theorem",
+        "text": "Nyqust-Shannon sampling theorem",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,112 +1,113 @@
 {
   "title": "learn anything - engineering - robotics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "robotics",
-      "url": "http://www.wikiwand.com/en/Robotics",
-      "fx": -58.100142045454504,
-      "fy": -431.04175718582894,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/robotics/",
-          "fx": 141.8998579545455,
-          "fy": -457.04175718582894,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://robotics.stackexchange.com/",
-          "fx": 141.8998579545455,
-          "fy": -417.04175718582894,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/Kiloreux/awesome-robotics",
-          "fx": 141.8998579545455,
-          "fy": -377.04175718582894,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 71.72683938284263,
-      "fy": -293.03541060329854,
-      "nodes": [
-        {
-          "text": "robots that learn",
-          "url": "https://blog.openai.com/robots-that-learn/",
-          "fx": 262.7268393828426,
-          "fy": -281.53541060329854,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -67.73381641247306,
-      "fy": -193.18004451246594,
-      "nodes": [
-        {
-          "text": "1. introduction to robotics",
-          "url": "https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/lecture-notes/",
-          "fx": 114.26618358752694,
-          "fy": -181.68004451246594,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "self-reconfiguring modular robot",
-      "url": "http://www.wikiwand.com/en/Self-reconfiguring_modular_robot",
-      "fx": -248.26478943850282,
-      "fy": -63.29169451871667,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "robotics",
-      "target": "basics",
-      "curve": {
-        "x": -8.56684,
-        "y": 118.931
+  "id": 541,
+  "map": {
+    "text": "robotics",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "self-reconfiguring modular robot",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Self-reconfiguring_modular_robot",
+                "text": "self-reconfiguring modular robot",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/lecture-notes/",
+            "text": "1. introduction to robotics",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://blog.openai.com/robots-that-learn/",
+            "text": "robots that learn",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "self-reconfiguring modular robot",
-      "curve": {
-        "x": -38.7655,
-        "y": 72.4442
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/robotics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://robotics.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/Kiloreux/awesome-robotics",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Robotics",
+        "text": "robotics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "robotics",
-      "curve": {
-        "x": -62.6635,
-        "y": -67.7532
-      }
-    }
-  ],
-  "id": 541
+    ],
+    "author": ""
+  }
 }

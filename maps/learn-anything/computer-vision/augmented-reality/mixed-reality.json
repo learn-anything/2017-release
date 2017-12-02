@@ -1,76 +1,71 @@
 {
   "title": "learn anything - computer vision - augmented reality - mixed reality",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mixed reality",
-      "url": "http://www.wikiwand.com/en/Mixed_reality",
-      "fx": -74.79296875,
-      "fy": -226.1875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 80.74477393174618,
-      "fy": -117.08339307202681,
-      "nodes": [
-        {
-          "text": "16: hyper reality",
-          "url": "https://www.youtube.com/watch?v=YJg02ivYzSs&amp;feature=youtu.be",
-          "fx": 279.7447739317462,
-          "fy": -125.58339307202681,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "17: the room of mixed reality",
-          "url": "https://www.youtube.com/watch?v=tKmmFkc9uSE",
-          "fx": 279.7447739317462,
-          "fy": -83.58339307202681,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -36.56188424482832,
-      "fy": -3.0913009805677234,
-      "nodes": [
-        {
-          "text": "1. what is mixed reality?",
-          "url": "https://www.youtube.com/watch?v=u0jqNioU2Lo",
-          "fx": 126.43811575517168,
-          "fy": 9.408699019432277,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mixed reality",
-      "target": "basics",
-      "curve": {
-        "x": -1.63446,
-        "y": 110.298
+  "id": 354,
+  "map": {
+    "text": "mixed reality",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=u0jqNioU2Lo",
+            "text": "1. what is mixed reality?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YJg02ivYzSs&amp;feature=youtu.be",
+            "text": "16: hyper reality",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tKmmFkc9uSE",
+            "text": "17: the room of mixed reality",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "mixed reality",
-      "curve": {
-        "x": -65.7689,
-        "y": -53.3021
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mixed_reality",
+        "text": "mixed reality",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 354
+    ],
+    "author": ""
+  }
 }

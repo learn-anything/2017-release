@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - logic gates - xor",
   "tag": "XOR gate",
-  "nodes": [
-    {
-      "text": "XOR gate",
-      "url": "http://www.wikiwand.com/en/XOR_gate",
-      "fx": -63.328125,
-      "fy": -140.42578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.33203125,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. XOR &amp; half adder",
-          "url": "https://www.youtube.com/watch?v=VPw9vPN-3ac",
-          "fx": 116.66796875,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "XOR gate",
-      "target": "basics",
-      "curve": {
-        "x": -2.50195,
-        "y": 67.9629
+  "id": 532,
+  "map": {
+    "text": "XOR gate",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=VPw9vPN-3ac",
+            "text": "1. XOR &amp; half adder",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 532
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/XOR_gate",
+        "text": "XOR gate",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

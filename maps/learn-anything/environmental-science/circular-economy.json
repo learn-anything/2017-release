@@ -1,42 +1,42 @@
 {
   "title": "learn anything - environmental science - circular economy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "circular economy",
-      "url": "http://www.wikiwand.com/en/Circular_economy",
-      "fx": 83.64453125,
-      "fy": -91.43359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 139.4609375,
-      "fy": 32,
-      "nodes": [
-        {
-          "text": "1. re-thinking progress: the circular economy",
-          "url": "https://www.youtube.com/watch?v=zCRKvDyyHmI",
-          "fx": 295.4609375,
-          "fy": 32.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "circular economy",
-      "target": "basics",
-      "curve": {
-        "x": 3.6582,
-        "y": 61.7168
+  "id": 549,
+  "map": {
+    "text": "circular economy",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=zCRKvDyyHmI",
+            "text": "1. re-thinking progress: the circular economy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 549
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Circular_economy",
+        "text": "circular economy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

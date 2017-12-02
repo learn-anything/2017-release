@@ -1,41 +1,41 @@
 {
   "title": "learn anything - art - music - music theory - harmony",
   "tag": "",
-  "nodes": [
-    {
-      "text": "harmony",
-      "url": "http://www.wikiwand.com/en/Harmony",
-      "fx": 28.44140625,
-      "fy": -197.95703125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 42.5,
-      "fy": -43.80859375,
-      "nodes": [
-        {
-          "text": "1. harmony explained: progress towards a scientific theory of music",
-          "url": "https://arxiv.org/html/1202.4212v2",
-          "fx": 198.5,
-          "fy": -40.30859375,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "harmony",
-      "target": "basics",
-      "curve": {
-        "x": -5.4707,
-        "y": 75.8242
+  "id": 49,
+  "map": {
+    "text": "harmony",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://arxiv.org/html/1202.4212v2",
+            "text": "1. harmony explained: progress towards a scientific theory of music",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 49
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Harmony",
+        "text": "harmony",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,212 +1,199 @@
 {
   "title": "learn anything - games - board games - go",
   "tag": "go game",
-  "nodes": [
-    {
-      "text": "go",
-      "url": "http://www.wikiwand.com/en/Go_(game)",
-      "fx": -44,
-      "fy": -124.9921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/baduk/",
-          "fx": 107,
-          "fy": -110.9921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 57.09553146362305,
-      "fy": -18.198139190673828,
-      "nodes": [
-        {
-          "text": "Hay lees world of Go",
-          "url": "https://www.youtube.com/channel/UCTji1kQNoWIH85dB_Vxka9g/videos",
-          "fx": 194.09553146362305,
-          "fy": -80.69813919067383,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "GoGameGuru  ️",
-          "note": "great commentary on the most important matches between the world's top players",
-          "url": "https://gogameguru.com/",
-          "fx": 194.09553146362305,
-          "fy": -40.69813919067383,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "Dwyrin’s go videos",
-          "url": "https://www.youtube.com/user/dwyrin/videos",
-          "fx": 194.09553146362305,
-          "fy": -0.6981391906738281,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "sensei’s library",
-          "url": "http://senseis.xmp.net/",
-          "fx": 194.09553146362305,
-          "fy": 39.30186080932617,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "free resources for beginners",
-          "url": "https://forums.online-go.com/t/free-resources-for-beginners/6700",
-          "fx": 194.09553146362305,
-          "fy": 73.30186080932617,
-          "nodes": [],
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 104.04985809326172,
-      "fy": 111.35047149658203,
-      "nodes": [
-        {
-          "text": "waltheri",
-          "note": "sophisticated pattern searching",
-          "url": "http://ps.waltheri.net/",
-          "fx": 246.04985809326172,
-          "fy": 108.85047149658203,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "GoKibitz",
-          "note": "free online commentary on games you played",
-          "url": "https://gokibitz.com/",
-          "fx": 246.04985809326172,
-          "fy": 142.85047149658203,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 195.91766357421875,
-      "fy": 214.31203079223633,
-      "nodes": [
-        {
-          "text": "lose your first 50 games as quickly as possible  ️",
-          "url": "http://senseis.xmp.net/?LoseYourFirst50GamesAsQuicklyAsPossible",
-          "fx": 357.91766357421875,
-          "fy": 194.81203079223633,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "hello baduk!  ️",
-          "url": "http://swannodette.github.io/baduk//baduk/2016/01/08/hello-baduk.html",
-          "fx": 357.91766357421875,
-          "fy": 256.8120307922363,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -42.14257742942357,
-      "fy": 344.8447676637127,
-      "nodes": [
-        {
-          "text": "1. learn to play go",
-          "url": "https://online-go.com/learn-to-play-go",
-          "fx": 139.85742257057643,
-          "fy": 342.3447676637127,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. the interactive way to go",
-          "url": "http://playgo.to/iwtg/en/",
-          "fx": 139.85742257057643,
-          "fy": 376.3447676637127,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "play",
-      "url": "",
-      "fx": -31.350839956647746,
-      "fy": 464.08561411048413,
-      "nodes": [
-        {
-          "text": "online go",
-          "url": "https://online-go.com/",
-          "fx": 103.64916004335225,
-          "fy": 478.58561411048413,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "go",
-      "curve": {
-        "x": -47.0478,
-        "y": -52.147
+  "id": 564,
+  "map": {
+    "text": "go",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [
+              {
+                "text": "articles",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://senseis.xmp.net/?LoseYourFirst50GamesAsQuicklyAsPossible",
+                    "text": "lose your first 50 games as quickly as possible  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://swannodette.github.io/baduk//baduk/2016/01/08/hello-baduk.html",
+                    "text": "hello baduk!  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://ps.waltheri.net/",
+                "text": "waltheri",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://gokibitz.com/",
+                "text": "GoKibitz",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/channel/UCTji1kQNoWIH85dB_Vxka9g/videos",
+            "text": "Hay lees world of Go",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://gogameguru.com/",
+            "text": "GoGameGuru  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/dwyrin/videos",
+            "text": "Dwyrin’s go videos",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://senseis.xmp.net/",
+            "text": "sensei’s library",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://forums.online-go.com/t/free-resources-for-beginners/6700",
+            "text": "free resources for beginners",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "play",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://online-go.com/",
+                "text": "online go",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://online-go.com/learn-to-play-go",
+            "text": "1. learn to play go",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://playgo.to/iwtg/en/",
+            "text": "1. the interactive way to go",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "go",
-      "target": "basics",
-      "curve": {
-        "x": 2.17871,
-        "y": 233.668
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/baduk/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Go_(game)",
+        "text": "go",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -24.7272,
-        "y": -64.7743
-      }
-    },
-    {
-      "source": "basics",
-      "target": "play",
-      "curve": {
-        "x": 0.145869,
-        "y": 59.6204
-      }
-    },
-    {
-      "source": "articles",
-      "target": "tools",
-      "curve": {
-        "x": -50.9339,
-        "y": -51.4808
-      }
-    }
-  ],
-  "id": 564
+    ],
+    "author": ""
+  }
 }

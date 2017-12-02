@@ -1,76 +1,70 @@
 {
   "title": "learn anything - computer graphics - shaders",
   "tag": "",
-  "nodes": [
-    {
-      "text": "shaders",
-      "url": "http://www.wikiwand.com/en/Shader",
-      "fx": -72.89866401255131,
-      "fy": -156.55907440185547,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/shaders/",
-          "fx": 126.10133598744869,
-          "fy": -142.55907440185547,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 71.9208984375,
-      "fy": -36.3056640625,
-      "nodes": [
-        {
-          "text": "shader toy",
-          "url": "https://www.shadertoy.com/",
-          "fx": 208.9208984375,
-          "fy": -21.8056640625,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -66.49982988834381,
-      "fy": 53.572787617029746,
-      "nodes": [
-        {
-          "text": "1. introduction to OpenGL shaders",
-          "url": "https://www.youtube.com/watch?v=j_h3GdMtO0M",
-          "fx": 89.50017011165619,
-          "fy": 65.07278761702975,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "shaders",
-      "target": "basics",
-      "curve": {
-        "x": -0.300579,
-        "y": 105.066
+  "id": 231,
+  "map": {
+    "text": "shaders",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=j_h3GdMtO0M",
+            "text": "1. introduction to OpenGL shaders",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.shadertoy.com/",
+            "text": "shader toy",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "shaders",
-      "curve": {
-        "x": -56.9098,
-        "y": -58.8767
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/shaders/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Shader",
+        "text": "shaders",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 231
+    ],
+    "author": ""
+  }
 }

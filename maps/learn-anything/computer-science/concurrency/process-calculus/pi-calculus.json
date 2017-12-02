@@ -1,66 +1,59 @@
 {
   "title": "learn anything - computer science - concurrency - process calculus - pi-calculus",
   "tag": "pi calculus",
-  "nodes": [
-    {
-      "text": "pi-calculus",
-      "url": "http://www.wikiwand.com/en/%CE%A0-calculus",
-      "fx": -73.6875,
-      "fy": -130.48046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 109.91625227742236,
-      "fy": -31.26872036661132,
-      "nodes": [
-        {
-          "text": "Benjamin Pierce’s publications",
-          "url": "http://www.cis.upenn.edu/%7Ebcpierce/papers/index-all.shtml",
-          "fx": 246.91625227742236,
-          "fy": -16.76872036661132,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.12141276262298,
-      "fy": 77.10719769630157,
-      "nodes": [
-        {
-          "text": "1. foundational clcili for programming languages",
-          "url": "http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2433599A211D5F8114A440535AAE2443?doi=10.1.1.39.8777&amp;rep=rep1&amp;type=pdf",
-          "fx": 108.87858723737702,
-          "fy": 77.60719769630157,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "pi-calculus",
-      "target": "basics",
-      "curve": {
-        "x": -3.71696,
-        "y": 102.544
+  "id": 313,
+  "map": {
+    "text": "pi-calculus",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2433599A211D5F8114A440535AAE2443?doi=10.1.1.39.8777&amp;rep=rep1&amp;type=pdf",
+            "text": "1. foundational clcili for programming languages",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.cis.upenn.edu/%7Ebcpierce/papers/index-all.shtml",
+            "text": "Benjamin Pierce’s publications",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "pi-calculus",
-      "curve": {
-        "x": -70.0519,
-        "y": -48.3559
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/%CE%A0-calculus",
+        "text": "pi-calculus",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 313
+    ],
+    "author": ""
+  }
 }

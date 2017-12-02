@@ -1,49 +1,61 @@
 {
   "title": "learn anything - computer hardware - computer - keyboards",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer keyboard",
-      "url": "http://www.wikiwand.com/en/Computer_keyboard",
-      "fx": -134.47796058654785,
-      "fy": -25.5637668967247,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "keyboard technology",
-      "url": "http://www.wikiwand.com/en/Keyboard_technology",
-      "fx": -144.2253859549179,
-      "fy": 91.84707024592126,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "mechanical keyboards  ️",
-      "url": "/computer-hardware/computer/keyboards/mechanical-keyboards",
-      "fx": -224.45770108220063,
-      "fy": 217.26938617890914,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer keyboard",
-      "target": "keyboard technology",
-      "curve": {
-        "x": -1.87371,
-        "y": 58.7054
+  "id": 253,
+  "map": {
+    "text": "computer keyboard",
+    "nodes": [
+      {
+        "text": "keyboard technology",
+        "nodes": [
+          {
+            "text": "mechanical keyboards  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/keyboards/mechanical-keyboards",
+                "text": "mechanical keyboards  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Keyboard_technology",
+            "text": "keyboard technology",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "keyboard technology",
-      "target": "mechanical keyboards  ️",
-      "curve": {
-        "x": -43.8662,
-        "y": 61.4612
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_keyboard",
+        "text": "computer keyboard",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 253
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - zoology - animals - mammals",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mammals",
-      "url": "http://www.wikiwand.com/en/Mammal",
-      "fx": 9.69126157407402,
-      "fy": -293.56004050925924,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 34.22446469907402,
-      "fy": -129.08832465280454,
-      "nodes": [
-        {
-          "text": "1. the three different ways mammals give birth",
-          "url": "https://www.youtube.com/watch?v=sz3Yv3On4lE",
-          "fx": 197.22446469907402,
-          "fy": -129.08832465280454,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mammals",
-      "target": "basics",
-      "curve": {
-        "x": -3.7334,
-        "y": 81.4859
+  "id": 135,
+  "map": {
+    "text": "mammals",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=sz3Yv3On4lE",
+            "text": "1. the three different ways mammals give birth",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 135
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mammal",
+        "text": "mammals",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

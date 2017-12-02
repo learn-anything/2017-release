@@ -1,69 +1,74 @@
 {
   "title": "learn anything - programming - software development - devops - cloud computing - azure",
   "tag": "microsoft azure",
-  "nodes": [
-    {
-      "text": "microsoft azure",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Microsoft_Azure",
-      "fx": -263.35546875,
-      "fy": -168.51953125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/AZURE/",
-          "fx": 28.64453125,
-          "fy": -154.51953125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -140.87851991758237,
-      "fy": -8.978064903846132,
-      "nodes": [
-        {
-          "text": "azure info hub",
-          "url": "https://azureinfohub.azurewebsites.net/",
-          "fx": -3.8785199175823664,
-          "fy": -31.478064903846132,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome azure",
-          "url": "https://github.com/kristofferandreasen/awesome-azure",
-          "fx": -3.8785199175823664,
-          "fy": 2.521935096153868,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "learning paths",
-          "url": "https://azure.microsoft.com/en-in/documentation/learning-paths/",
-          "fx": -3.8785199175823664,
-          "fy": 42.52193509615387,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "microsoft azure",
-      "curve": {
-        "x": -28.9885,
-        "y": -78.5208
+  "id": 1706,
+  "map": {
+    "text": "microsoft azure",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://azureinfohub.azurewebsites.net/",
+            "text": "azure info hub",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/kristofferandreasen/awesome-azure",
+            "text": "awesome azure",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://azure.microsoft.com/en-in/documentation/learning-paths/",
+            "text": "learning paths",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1703
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/AZURE/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Microsoft_Azure",
+        "text": "microsoft azure",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

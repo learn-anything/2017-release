@@ -1,102 +1,101 @@
 {
   "title": "learn anything - computer science - data structures - serialisation - json",
   "tag": "JSON",
-  "nodes": [
-    {
-      "text": "JSON",
-      "url": "http://www.wikiwand.com/en/JSON",
-      "fx": -71.73876404494376,
-      "fy": -321.88351474719104,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/json/",
-          "fx": 109.26123595505624,
-          "fy": -327.88351474719104,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/burningtree/awesome-json",
-          "fx": 109.26123595505624,
-          "fy": -287.88351474719104,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 32.85950667134853,
-      "fy": -216.76711727528084,
-      "nodes": [
-        {
-          "text": "15: schema-free json data infrastructure  ️",
-          "url": "https://drill.apache.org/blog/2015/01/27/schema-free-json-data-infrastructure/",
-          "fx": 169.85950667134853,
-          "fy": -216.26711727528084,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -74.50423728813553,
-      "fy": -125.796875,
-      "nodes": [
-        {
-          "text": "1. introducing json",
-          "url": "http://www.json.org/",
-          "fx": 107.49576271186447,
-          "fy": -111.296875,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "GeoJSON  ️",
-      "url": "/computer-science/data-structures/serialisation/json/geojson",
-      "fx": -157.60894731562064,
-      "fy": 6.502328283841848,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "JSON",
-      "target": "basics",
-      "curve": {
-        "x": -3.38274,
-        "y": 96.7933
+  "id": 331,
+  "map": {
+    "text": "JSON",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "GeoJSON  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/serialisation/json/geojson",
+                "text": "GeoJSON  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.json.org/",
+            "text": "1. introducing json",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://drill.apache.org/blog/2015/01/27/schema-free-json-data-infrastructure/",
+            "text": "15: schema-free json data infrastructure  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "JSON",
-      "curve": {
-        "x": -45.5492,
-        "y": -51.3082
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/json/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/burningtree/awesome-json",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/JSON",
+        "text": "JSON",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "GeoJSON  ️",
-      "curve": {
-        "x": -32.0523,
-        "y": 67.3996
-      }
-    }
-  ],
-  "id": 331
+    ],
+    "author": ""
+  }
 }

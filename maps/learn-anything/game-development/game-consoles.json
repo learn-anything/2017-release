@@ -1,70 +1,83 @@
 {
   "title": "learn anything - game development - game consoles",
   "tag": "",
-  "nodes": [
-    {
-      "text": "video game console",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Video_game_console",
-      "fx": -132.4473157051283,
-      "fy": -253.06009615384613,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "game boy",
-      "url": "http://www.wikiwand.com/en/Game_Boy",
-      "fx": 33.153061224489534,
-      "fy": -139.1224489795917,
-      "nodes": [
-        {
-          "text": "awesome game boy dev",
-          "url": "https://github.com/avivace/awesome-gbdev",
-          "fx": 251.15306122448953,
-          "fy": -125.1224489795917,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "Pico-8",
-      "note": "is a virtual machine designed to mimic a ‘fantasy video game console’",
-      "url": "https://www.lexaloffle.com/pico-8.php",
-      "fx": -87.0938738227116,
-      "fy": -34.51764246748593,
-      "nodes": [
-        {
-          "text": "awesome PICO-8",
-          "url": "https://github.com/felipebueno/awesome-PICO-8",
-          "fx": 96.9061261772884,
-          "fy": -23.017642467485928,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "video game console",
-      "target": "Pico-8",
-      "curve": {
-        "x": -8.07328,
-        "y": 109.271
+  "id": 555,
+  "map": {
+    "text": "video game console",
+    "note": "",
+    "nodes": [
+      {
+        "text": "Pico-8",
+        "note": "is a virtual machine designed to mimic a ‘fantasy video game console’",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/felipebueno/awesome-PICO-8",
+            "text": "awesome PICO-8",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.lexaloffle.com/pico-8.php",
+            "text": "Pico-8",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "game boy",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/avivace/awesome-gbdev",
+            "text": "awesome game boy dev",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wikiwand.com/en/Game_Boy",
+            "text": "game boy",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "video game console",
-      "target": "game boy",
-      "curve": {
-        "x": 52.8002,
-        "y": 55.7188
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Video_game_console",
+        "text": "video game console",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 555
+    ],
+    "author": ""
+  }
 }

@@ -1,61 +1,64 @@
 {
   "title": "learn anything - biology - bioinformatics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bioinformatics",
-      "url": "http://www.wikiwand.com/en/Bioinformatics",
-      "fx": -96.54296875,
-      "fy": -231.03020466549293,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/bioinformatics/",
-          "fx": 156.45703125,
-          "fy": -237.03020466549293,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/danielecook/Awesome-Bioinformatics",
-          "fx": 156.45703125,
-          "fy": -197.03020466549293,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -68.8293353873238,
-      "fy": -68.18783010563362,
-      "nodes": [
-        {
-          "text": "1. rosalind",
-          "url": "http://rosalind.info/about/",
-          "fx": 113.1706646126762,
-          "fy": -53.68783010563362,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "bioinformatics",
-      "target": "basics",
-      "curve": {
-        "x": -3.89318,
-        "y": 80.1712
+  "id": 90,
+  "map": {
+    "text": "bioinformatics",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://rosalind.info/about/",
+            "text": "1. rosalind",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 90
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/bioinformatics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/danielecook/Awesome-Bioinformatics",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Bioinformatics",
+        "text": "bioinformatics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

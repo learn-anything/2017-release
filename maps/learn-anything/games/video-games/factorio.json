@@ -1,84 +1,80 @@
 {
   "title": "learn anything - games - video games - factorio",
   "tag": "",
-  "nodes": [
-    {
-      "text": "factorio",
-      "url": "http://www.wikiwand.com/en/Factorio",
-      "fx": -47.58984375,
-      "fy": -179.5703125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/factorio/",
-          "fx": 147.41015625,
-          "fy": -165.5703125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 66.08474674721197,
-      "fy": -78.31633364317736,
-      "nodes": [
-        {
-          "text": "forum",
-          "url": "https://forums.factorio.com/viewforum.php?f=7",
-          "fx": 203.08474674721197,
-          "fy": -83.81633364317736,
-          "nodes": [],
-          "category": "chat",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "factorio mods",
-          "url": "https://mods.factorio.com/",
-          "fx": 203.08474674721197,
-          "fy": -43.81633364317736,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -37.203125,
-      "fy": 41.09311105947961,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "http://guide.factorio.com/",
-          "fx": 118.796875,
-          "fy": 55.59311105947961,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "factorio",
-      "target": "basics",
-      "curve": {
-        "x": -4.55664,
-        "y": 109.082
+  "id": 571,
+  "map": {
+    "text": "factorio",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://guide.factorio.com/",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://forums.factorio.com/viewforum.php?f=7",
+            "text": "forum",
+            "category": "chat",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://mods.factorio.com/",
+            "text": "factorio mods",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "factorio",
-      "curve": {
-        "x": -42.3373,
-        "y": -49.377
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/factorio/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Factorio",
+        "text": "factorio",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 571
+    ],
+    "author": ""
+  }
 }

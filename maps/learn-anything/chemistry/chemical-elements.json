@@ -1,163 +1,189 @@
 {
   "title": "learn anything - chemistry - chemical elements",
   "tag": "",
-  "nodes": [
-    {
-      "text": "chemical elements",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Chemical_element",
-      "fx": -79.078125,
-      "fy": -181.375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "aluminium  ️",
-      "url": "/chemistry/chemical-elements/aluminium",
-      "fx": -485.1334689170044,
-      "fy": -53.14643170288912,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "periodic table  ️",
-      "url": "/chemistry/chemical-elements/periodic-table",
-      "fx": 48.78155517578125,
-      "fy": -51.5562047958374,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "standard atomic weight  ️",
-      "url": "/chemistry/chemical-elements/standard-atomic-weight",
-      "fx": 245.9059600830078,
-      "fy": -50.67609691619873,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "atomic number  ️",
-      "url": "/chemistry/chemical-elements/atomic-number",
-      "fx": 538.4345508784204,
-      "fy": -40.936446074913874,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "metalloids",
-      "url": "http://www.wikiwand.com/en/Metalloid",
-      "fx": -283.58193108974376,
-      "fy": -17.507962740384585,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "boron",
-      "url": "http://www.wikiwand.com/en/Boron",
-      "fx": -456.5354202840185,
-      "fy": 37.79082992401544,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "hydrogen  ️",
-      "note": "hydrogen is the lightest element on the periodic table",
-      "url": "/chemistry/chemical-elements/hydrogen",
-      "fx": -103.8515360953179,
-      "fy": 68.98496074994432,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "arsenic",
-      "url": "http://www.wikiwand.com/en/Arsenic",
-      "fx": -410.2002494013317,
-      "fy": 123.32247594098703,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "germanium",
-      "url": "http://www.wikiwand.com/en/Germanium",
-      "fx": -300.266777712155,
-      "fy": 196.00733503176366,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "chemical elements",
-      "target": "metalloids",
-      "curve": {
-        "x": -128.002,
-        "y": 81.9335
+  "id": 148,
+  "map": {
+    "text": "chemical elements",
+    "note": "",
+    "nodes": [
+      {
+        "text": "metalloids",
+        "nodes": [
+          {
+            "text": "boron",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Boron",
+                "text": "boron",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "arsenic",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Arsenic",
+                "text": "arsenic",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "germanium",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Germanium",
+                "text": "germanium",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Metalloid",
+            "text": "metalloids",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "hydrogen  ️",
+        "note": "hydrogen is the lightest element on the periodic table",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/chemical-elements/hydrogen",
+            "text": "hydrogen  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "standard atomic weight  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/chemical-elements/standard-atomic-weight",
+            "text": "standard atomic weight  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "atomic number  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/chemical-elements/atomic-number",
+            "text": "atomic number  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "periodic table  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/chemical-elements/periodic-table",
+            "text": "periodic table  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "aluminium  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/chemical-elements/aluminium",
+            "text": "aluminium  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "metalloids",
-      "target": "boron",
-      "curve": {
-        "x": -95.9767,
-        "y": 27.6494
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Chemical_element",
+        "text": "chemical elements",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "metalloids",
-      "target": "arsenic",
-      "curve": {
-        "x": -68.3092,
-        "y": 70.4152
-      }
-    },
-    {
-      "source": "metalloids",
-      "target": "germanium",
-      "curve": {
-        "x": -5.59242,
-        "y": 106.758
-      }
-    },
-    {
-      "source": "chemical elements",
-      "target": "hydrogen  ️",
-      "curve": {
-        "x": -53.0556,
-        "y": 125.18
-      }
-    },
-    {
-      "source": "chemical elements",
-      "target": "standard atomic weight  ️",
-      "curve": {
-        "x": 159.742,
-        "y": 64.0995
-      }
-    },
-    {
-      "source": "chemical elements",
-      "target": "atomic number  ️",
-      "curve": {
-        "x": 335.243,
-        "y": 40.6525
-      }
-    },
-    {
-      "source": "chemical elements",
-      "target": "periodic table  ️",
-      "curve": {
-        "x": 45.9298,
-        "y": 64.9094
-      }
-    },
-    {
-      "source": "chemical elements",
-      "target": "aluminium  ️",
-      "curve": {
-        "x": -279.744,
-        "y": 38.7425
-      }
-    }
-  ],
-  "id": 148
+    ],
+    "author": ""
+  }
 }

@@ -1,33 +1,42 @@
 {
   "title": "learn anything - earth science - atmospheric sciences",
   "tag": "",
-  "nodes": [
-    {
-      "text": "atmospheric sciences",
-      "url": "http://www.wikiwand.com/en/Atmospheric_sciences",
-      "fx": 35.96875,
-      "fy": -160.60546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "atmosphere  ️",
-      "url": "/earth-science/atmospheric-sciences/atmosphere",
-      "fx": -50.36429471032761,
-      "fy": -23.92183800015107,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "atmospheric sciences",
-      "target": "atmosphere  ️",
-      "curve": {
-        "x": -72.6665,
-        "y": 67.0918
+  "id": 454,
+  "map": {
+    "text": "atmospheric sciences",
+    "nodes": [
+      {
+        "text": "atmosphere  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/earth-science/atmospheric-sciences/atmosphere",
+            "text": "atmosphere  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 454
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Atmospheric_sciences",
+        "text": "atmospheric sciences",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,145 +1,138 @@
 {
   "title": "learn anything - health - fitness",
   "tag": "",
-  "nodes": [
-    {
-      "text": "physical fitness",
-      "url": "http://www.wikiwand.com/en/Physical_fitness",
-      "fx": -103.53025748340019,
-      "fy": -364.8392002107276,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Fitness/",
-          "fx": 160.4697425165998,
-          "fy": -370.8392002107276,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/Fitness/wiki/index",
-              "fx": 270.4697425165998,
-              "fy": -370.8392002107276,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 600,
+  "map": {
+    "text": "physical fitness",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way please say",
+        "nodes": [
+          {
+            "text": "strength training  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/fitness/strength-training",
+                "text": "strength training  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "sports  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/fitness/sports",
+                "text": "sports  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "yoga  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/fitness/yoga",
+                "text": "yoga  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/2098799.Starting_Strength",
+            "text": "1. starting strength: basic barbell training",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://fitness.stackexchange.com/",
-          "fx": 160.4697425165998,
-          "fy": -330.8392002107276,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://musclewiki.org/",
+            "text": "interactive muscle wiki",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Fitness/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 67.03023877863075,
-      "fy": -232.4307201643462,
-      "nodes": [
-        {
-          "text": "interactive muscle wiki",
-          "url": "https://musclewiki.org/",
-          "fx": 204.03023877863075,
-          "fy": -220.9307201643462,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://fitness.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way please say",
-      "url": "",
-      "fx": -64.74134159088135,
-      "fy": -81.95309638977051,
-      "nodes": [
-        {
-          "text": "1. starting strength: basic barbell training",
-          "url": "https://www.goodreads.com/book/show/2098799.Starting_Strength",
-          "fx": 117.25865840911865,
-          "fy": -81.45309638977051,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Physical_fitness",
+        "text": "physical fitness",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "strength training  ️",
-      "url": "/health/fitness/strength-training",
-      "fx": 50.49295365666762,
-      "fy": 41.072707578359996,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "yoga  ️",
-      "url": "/health/fitness/yoga",
-      "fx": -210.45834139922135,
-      "fy": 42.13875071048483,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "sports  ️",
-      "url": "/health/fitness/sports",
-      "fx": -91.31585788726807,
-      "fy": 42.27516746520996,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "physical fitness",
-      "target": "basics",
-      "curve": {
-        "x": -2.10553,
-        "y": 141.442
       }
-    },
-    {
-      "source": "help",
-      "target": "physical fitness",
-      "curve": {
-        "x": -60.7802,
-        "y": -66.2042
-      }
-    },
-    {
-      "source": "basics",
-      "target": "strength training  ️",
-      "curve": {
-        "x": 80.3671,
-        "y": 62.7629
-      }
-    },
-    {
-      "source": "basics",
-      "target": "sports  ️",
-      "curve": {
-        "x": -12.7872,
-        "y": 63.3642
-      }
-    },
-    {
-      "source": "basics",
-      "target": "yoga  ️",
-      "curve": {
-        "x": -82.8585,
-        "y": 62.0459
-      }
-    }
-  ],
-  "id": 600
+    ],
+    "author": ""
+  }
 }

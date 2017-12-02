@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - computation - finite-state machine",
   "tag": "finite-state machines",
-  "nodes": [
-    {
-      "text": "finite-state machine",
-      "url": "http://www.wikiwand.com/en/Finite-state_machine",
-      "fx": 71.58984375,
-      "fy": -88.65625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 138.5,
-      "fy": 42,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=hJIST1cEf6A",
-          "fx": 294.5,
-          "fy": 53.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "finite-state machine",
-      "target": "basics",
-      "curve": {
-        "x": -3.54492,
-        "y": 64.0781
+  "id": 304,
+  "map": {
+    "text": "finite-state machine",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hJIST1cEf6A",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 304
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Finite-state_machine",
+        "text": "finite-state machine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

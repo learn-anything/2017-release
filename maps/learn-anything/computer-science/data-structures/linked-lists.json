@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - linked lists",
   "tag": "linked list data structure",
-  "nodes": [
-    {
-      "text": "linked list",
-      "url": "http://www.wikiwand.com/en/Linked_list",
-      "fx": -135.59375,
-      "fy": -209.29296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -114.88834519572958,
-      "fy": -51.46491325622776,
-      "nodes": [
-        {
-          "text": "1. linked lists",
-          "url": "https://www.youtube.com/watch?v=_jQhALI4ujg",
-          "fx": 41.111654804270415,
-          "fy": -39.96491325622776,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "linked list",
-      "target": "basics",
-      "curve": {
-        "x": -3.1473,
-        "y": 77.664
+  "id": 324,
+  "map": {
+    "text": "linked list",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=_jQhALI4ujg",
+            "text": "1. linked lists",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 324
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Linked_list",
+        "text": "linked list",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

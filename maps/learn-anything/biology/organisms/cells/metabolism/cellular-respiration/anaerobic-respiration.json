@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - organisms - cells - metabolism - cellular respiration - anaerobic respiration",
   "tag": "",
-  "nodes": [
-    {
-      "text": "anaerobic respiration",
-      "url": "http://www.wikiwand.com/en/Anaerobic_respiration",
-      "fx": 2.3752011000508446,
-      "fy": -426.3383732034702,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 76.47979797979804,
-      "fy": -286.87878787878583,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=cDC29iBxb3w",
-          "fx": 232.47979797979804,
-          "fy": -275.37878787878583,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "anaerobic respiration",
-      "target": "basics",
-      "curve": {
-        "x": -2.9477,
-        "y": 68.4798
+  "id": 113,
+  "map": {
+    "text": "anaerobic respiration",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cDC29iBxb3w",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 113
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Anaerobic_respiration",
+        "text": "anaerobic respiration",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

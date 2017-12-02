@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - inorganic chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "inorganic chemistry",
-      "url": "http://www.wikiwand.com/en/Inorganic_chemistry",
-      "fx": 61.23046875,
-      "fy": -119.2578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.5,
-      "fy": 24,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=OUj4j6td1es",
-          "fx": 283.5,
-          "fy": 35.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "inorganic chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -3.36523,
-        "y": 70.3789
+  "id": 172,
+  "map": {
+    "text": "inorganic chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OUj4j6td1es",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 172
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Inorganic_chemistry",
+        "text": "inorganic chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

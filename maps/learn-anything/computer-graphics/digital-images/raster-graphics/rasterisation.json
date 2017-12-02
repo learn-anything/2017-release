@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer graphics - digital images - raster graphics - rasterisation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "rasterisation",
-      "url": "http://www.wikiwand.com/en/Rasterisation",
-      "fx": 97.97265625,
-      "fy": -99.90234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 134,
-      "fy": 49,
-      "nodes": [
-        {
-          "text": "1. rasterisation: the big picture",
-          "url": "https://www.youtube.com/watch?v=MOpzrIBoIEE",
-          "fx": 297,
-          "fy": 61.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "rasterisation",
-      "target": "basics",
-      "curve": {
-        "x": 4.76367,
-        "y": 74.4512
+  "id": 213,
+  "map": {
+    "text": "rasterisation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=MOpzrIBoIEE",
+            "text": "1. rasterisation: the big picture",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 213
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rasterisation",
+        "text": "rasterisation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

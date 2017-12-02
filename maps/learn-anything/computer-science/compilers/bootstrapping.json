@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - compilers - bootstrapping",
   "tag": "bootstrapping compilers",
-  "nodes": [
-    {
-      "text": "bootstrapping",
-      "url": "http://www.wikiwand.com/en/Bootstrapping_(compilers)",
-      "fx": 75.98828125,
-      "fy": -95.1171875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 121.5,
-      "fy": 30,
-      "nodes": [
-        {
-          "text": "1. what is bootstrapping",
-          "url": "https://www.youtube.com/watch?v=nslY1s0U9_c",
-          "fx": 277.5,
-          "fy": 41.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "bootstrapping",
-      "target": "basics",
-      "curve": {
-        "x": -1.74414,
-        "y": 61.3086
+  "id": 285,
+  "map": {
+    "text": "bootstrapping",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nslY1s0U9_c",
+            "text": "1. what is bootstrapping",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 285
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bootstrapping_(compilers)",
+        "text": "bootstrapping",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

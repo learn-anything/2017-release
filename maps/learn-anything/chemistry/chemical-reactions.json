@@ -1,58 +1,61 @@
 {
   "title": "learn anything - chemistry - chemical reactions",
   "tag": "",
-  "nodes": [
-    {
-      "text": "chemical reactions",
-      "url": "http://www.wikiwand.com/en/Chemical_reaction",
-      "fx": 130.52734375,
-      "fy": -251.81640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 188.81640625,
-      "fy": -121.48046875,
-      "nodes": [
-        {
-          "text": "1. types of chemical reactions",
-          "url": "https://www.youtube.com/watch?v=aMU1RaRulSo",
-          "fx": 344.81640625,
-          "fy": -109.98046875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 150,
+  "map": {
+    "text": "chemical reactions",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "catalysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/chemical-reactions/catalysis",
+                "text": "catalysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=aMU1RaRulSo",
+            "text": "1. types of chemical reactions",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Chemical_reaction",
+        "text": "chemical reactions",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "catalysis  ️",
-      "url": "/chemistry/chemical-reactions/catalysis",
-      "fx": 79.65843361801069,
-      "fy": 2.989227484447156,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "chemical reactions",
-      "target": "basics",
-      "curve": {
-        "x": 1.39453,
-        "y": 65.168
       }
-    },
-    {
-      "source": "basics",
-      "target": "catalysis  ️",
-      "curve": {
-        "x": -49.829,
-        "y": 62.2348
-      }
-    }
-  ],
-  "id": 150
+    ],
+    "author": ""
+  }
 }

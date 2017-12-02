@@ -1,61 +1,64 @@
 {
   "title": "learn anything - art - comics - manga",
   "tag": "",
-  "nodes": [
-    {
-      "text": "manga",
-      "url": "http://www.wikiwand.com/en/Manga",
-      "fx": -46.2734375,
-      "fy": -294.41796875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/manga/",
-          "fx": 143.7265625,
-          "fy": -300.41796875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://anime.stackexchange.com/",
-          "fx": 143.7265625,
-          "fy": -260.41796875,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -29.320273631840905,
-      "fy": -132.10144589552237,
-      "nodes": [
-        {
-          "text": "1. what is manga?",
-          "url": "https://www.youtube.com/watch?v=OK3Anhkt4a0",
-          "fx": 126.6797263681591,
-          "fy": -120.60144589552237,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "manga",
-      "target": "basics",
-      "curve": {
-        "x": -0.0234181,
-        "y": 79.9083
+  "id": 12,
+  "map": {
+    "text": "manga",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OK3Anhkt4a0",
+            "text": "1. what is manga?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 12
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/manga/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://anime.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Manga",
+        "text": "manga",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

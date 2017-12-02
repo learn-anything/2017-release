@@ -1,52 +1,53 @@
 {
   "title": "learn anything - history - future",
   "tag": "",
-  "nodes": [
-    {
-      "text": "future",
-      "url": "http://www.wikiwand.com/en/Future",
-      "fx": -50.84025478363037,
-      "fy": -120.4427375793457,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Futurology/",
-          "fx": 128.15974521636963,
-          "fy": -106.4427375793457,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 8.584321615830959,
-      "fy": 5.186975596086029,
-      "nodes": [
-        {
-          "text": "the future of programming",
-          "url": "https://vimeo.com/71278954",
-          "fx": 199.58432161583096,
-          "fy": 16.68697559608603,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "future",
-      "curve": {
-        "x": -32.7123,
-        "y": -61.5649
+  "id": 622,
+  "map": {
+    "text": "future",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://vimeo.com/71278954",
+            "text": "the future of programming",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 622
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Futurology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Future",
+        "text": "future",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

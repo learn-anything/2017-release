@@ -1,67 +1,60 @@
 {
   "title": "learn anything - entrepreneurship - innovation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "innovation",
-      "url": "http://www.wikiwand.com/en/Innovation",
-      "fx": -30.824728034488885,
-      "fy": -317.04504458306104,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 85.36013378982125,
-      "fy": -202.31133146367523,
-      "nodes": [
-        {
-          "text": "09: a culture of experimentation - Jeff Bezos",
-          "url": "http://constantbetasoftware.com/2015/12/11/bezos-amazon-culture-of-experimentation.html",
-          "fx": 276.36013378982125,
-          "fy": -201.81133146367523,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.813284518828596,
-      "fy": -90.25500992855854,
-      "nodes": [
-        {
-          "text": "1. what is innovation",
-          "url": "https://www.youtube.com/watch?v=oD7X3KvJAVk",
-          "fx": 116.1867154811714,
-          "fy": -78.75500992855854,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "innovation",
-      "target": "basics",
-      "curve": {
-        "x": -12.9943,
-        "y": 113.395
+  "id": 543,
+  "map": {
+    "text": "innovation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oD7X3KvJAVk",
+            "text": "1. what is innovation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://constantbetasoftware.com/2015/12/11/bezos-amazon-culture-of-experimentation.html",
+            "text": "09: a culture of experimentation - Jeff Bezos",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "innovation",
-      "curve": {
-        "x": -51.0924,
-        "y": -56.1169
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Innovation",
+        "text": "innovation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 543
+    ],
+    "author": ""
+  }
 }

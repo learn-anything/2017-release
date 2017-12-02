@@ -1,159 +1,167 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing - data compression",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data compression",
-      "url": "http://www.wikiwand.com/en/Data_compression",
-      "fx": -108.3359375,
-      "fy": -261.6244976441242,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/datacompression/",
-          "fx": 181.6640625,
-          "fy": -247.62449764412412,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 656,
+  "map": {
+    "text": "data compression",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "lossy compression",
+            "nodes": [
+              {
+                "text": "JPEG  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/information-theory/signals/signal-processing/digital-signal-processing/data-compression/jpeg",
+                    "text": "JPEG  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Lossy_compression",
+                "text": "lossy compression",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "compression algorithms",
+            "nodes": [
+              {
+                "text": "LZ77 and LZ78",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=goOa3DGezUA",
+                    "text": "elegant compression in text",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://www.wikiwand.com/en/LZ77_and_LZ78",
+                    "text": "LZ77 and LZ78",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms",
+                "text": "compression algorithms",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Lto-ajuqW3w",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=M5c_RFKVkko",
+            "text": "1. entropy in compression",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/mavam/compbench",
+            "text": "benchmark and visualisation of various compression algorithms",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/datacompression/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 82.19190984320574,
-      "fy": -132.7051770637899,
-      "nodes": [
-        {
-          "text": "benchmark and visualisation of various compression algorithms",
-          "url": "https://github.com/mavam/compbench",
-          "fx": 273.19190984320574,
-          "fy": -132.2051770637899,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_compression",
+        "text": "data compression",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -59.23581509216581,
-      "fy": -10.507488479262747,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=Lto-ajuqW3w",
-          "fx": 96.76418490783419,
-          "fy": -19.007488479262747,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. entropy in compression",
-          "url": "https://www.youtube.com/watch?v=M5c_RFKVkko",
-          "fx": 96.76418490783419,
-          "fy": 20.992511520737253,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "lossy compression",
-      "url": "http://www.wikiwand.com/en/Lossy_compression",
-      "fx": -287.1023489022908,
-      "fy": 140.09504304426702,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "compression algorithms",
-      "url": "https://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms",
-      "fx": -5.451433634019509,
-      "fy": 144.9085856958763,
-      "nodes": []
-    },
-    {
-      "text": "JPEG  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing/data-compression/jpeg",
-      "fx": -295.4359056122447,
-      "fy": 262.1783322704083,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "LZ77 and LZ78",
-      "url": "http://www.wikiwand.com/en/LZ77_and_LZ78",
-      "fx": 98.94230765653833,
-      "fy": 268.0693303395526,
-      "nodes": [
-        {
-          "text": "elegant compression in text",
-          "url": "https://www.youtube.com/watch?v=goOa3DGezUA",
-          "fx": 365.94230765653833,
-          "fy": 282.0693303395526,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "data compression",
-      "target": "basics",
-      "curve": {
-        "x": -8.94994,
-        "y": 124.309
       }
-    },
-    {
-      "source": "basics",
-      "target": "lossy compression",
-      "curve": {
-        "x": -86.4333,
-        "y": 75.3012
-      }
-    },
-    {
-      "source": "lossy compression",
-      "target": "JPEG  ️",
-      "curve": {
-        "x": -40.4168,
-        "y": 59.7917
-      }
-    },
-    {
-      "source": "basics",
-      "target": "compression algorithms",
-      "curve": {
-        "x": 66.3922,
-        "y": 77.708
-      }
-    },
-    {
-      "source": "compression algorithms",
-      "target": "LZ77 and LZ78",
-      "curve": {
-        "x": 40.4469,
-        "y": 62.8304
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "data compression",
-      "curve": {
-        "x": -70.5139,
-        "y": -63.2097
-      }
-    }
-  ],
-  "id": 656
+    ],
+    "author": ""
+  }
 }

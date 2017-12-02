@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer science - algorithms - search - minimax search",
   "tag": "",
-  "nodes": [
-    {
-      "text": "minimax search",
-      "url": "http://www.wikiwand.com/en/Minimax",
-      "fx": 83.234375,
-      "fy": -92.41796875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 139.12890625,
-      "fy": 52.66015625,
-      "nodes": [
-        {
-          "text": "1. how to build an AI that wins: basics of minimax search  ️",
-          "url": "https://blog.vivekpanyam.com/how-to-build-an-ai-that-wins-the-basics-of-minimax-search/",
-          "fx": 302.12890625,
-          "fy": 19.16015625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. search: games, minimax and alpha-beta",
-          "url": "https://www.youtube.com/watch?v=STjW3eH0Cik",
-          "fx": 302.12890625,
-          "fy": 86.16015625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "minimax search",
-      "target": "basics",
-      "curve": {
-        "x": -2.80273,
-        "y": 71.7891
+  "id": 272,
+  "map": {
+    "text": "minimax search",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://blog.vivekpanyam.com/how-to-build-an-ai-that-wins-the-basics-of-minimax-search/",
+            "text": "1. how to build an AI that wins: basics of minimax search  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=STjW3eH0Cik",
+            "text": "1. search: games, minimax and alpha-beta",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 272
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Minimax",
+        "text": "minimax search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

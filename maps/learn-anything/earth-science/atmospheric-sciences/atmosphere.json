@@ -1,74 +1,79 @@
 {
   "title": "learn anything - earth science - atmospheric sciences - atmosphere",
   "tag": "",
-  "nodes": [
-    {
-      "text": "atmosphere",
-      "url": "http://www.wikiwand.com/en/Atmosphere",
-      "fx": -82.1640625,
-      "fy": -165.7421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.1953125,
-      "fy": -19.984375,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=6LkmD6B2ncs",
-          "fx": 108.8046875,
-          "fy": -8.484375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 453,
+  "map": {
+    "text": "atmosphere",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "atmosphere of Earth",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Atmosphere_of_Earth",
+                "text": "atmosphere of Earth",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "weather  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/earth-science/atmospheric-sciences/atmosphere/weather",
+                "text": "weather  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6LkmD6B2ncs",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Atmosphere",
+        "text": "atmosphere",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "atmosphere of Earth",
-      "url": "http://www.wikiwand.com/en/Atmosphere_of_Earth",
-      "fx": -290.71484375,
-      "fy": 104.6484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "weather  ️",
-      "url": "/earth-science/atmospheric-sciences/atmosphere/weather",
-      "fx": 20.05946828358276,
-      "fy": 107.38805970149252,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "atmosphere",
-      "target": "basics",
-      "curve": {
-        "x": -2.26562,
-        "y": 71.6289
       }
-    },
-    {
-      "source": "basics",
-      "target": "atmosphere of Earth",
-      "curve": {
-        "x": -83.0098,
-        "y": 63.5664
-      }
-    },
-    {
-      "source": "basics",
-      "target": "weather  ️",
-      "curve": {
-        "x": 37.3774,
-        "y": 63.6862
-      }
-    }
-  ],
-  "id": 453
+    ],
+    "author": ""
+  }
 }

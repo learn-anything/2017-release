@@ -1,78 +1,72 @@
 {
   "title": "learn anything - health - fitness - strength training - bodyweight exercises",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bodyweight exercises",
-      "url": "http://www.wikiwand.com/en/Bodyweight_exercise",
-      "fx": -19.53879310344837,
-      "fy": -321.09617941422727,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/bodyweightfitness/",
-          "fx": 302.46120689655163,
-          "fy": -307.09617941422727,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/bodyweightfitness/wiki/index",
-              "fx": 412.46120689655163,
-              "fy": -307.09617941422727,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(36, 170, 255, 1.0)"
+  "id": 596,
+  "map": {
+    "text": "bodyweight exercises",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "calisthenics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/fitness/strength-training/bodyweight-exercises/calisthenics",
+                "text": "calisthenics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine",
+            "text": "1. recommended routine",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 54.74137931034477,
-      "fy": -185.04296875,
-      "nodes": [
-        {
-          "text": "1. recommended routine",
-          "url": "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine",
-          "fx": 210.74137931034477,
-          "fy": -173.54296875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "calisthenics  ️",
-      "url": "/health/fitness/strength-training/bodyweight-exercises/calisthenics",
-      "fx": -100.75018491124274,
-      "fy": -66.3313609467358,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "bodyweight exercises",
-      "target": "basics",
-      "curve": {
-        "x": -4.35991,
-        "y": 66.7766
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "calisthenics  ️",
-      "curve": {
-        "x": -65.9958,
-        "y": 59.3558
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/bodyweightfitness/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Bodyweight_exercise",
+        "text": "bodyweight exercises",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 596
+    ],
+    "author": ""
+  }
 }

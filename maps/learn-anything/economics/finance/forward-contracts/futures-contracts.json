@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - finance - forward contracts - futures contracts",
   "tag": "",
-  "nodes": [
-    {
-      "text": "futures contracts",
-      "url": "http://www.wikiwand.com/en/Futures_contract",
-      "fx": -105.640625,
-      "fy": -184.0234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -54.4765625,
-      "fy": -64.91796875,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=nwR5b6E0Xo4",
-          "fx": 101.5234375,
-          "fy": -53.41796875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "futures contracts",
-      "target": "basics",
-      "curve": {
-        "x": -5.91797,
-        "y": 58.3027
+  "id": 486,
+  "map": {
+    "text": "futures contracts",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nwR5b6E0Xo4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 486
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Futures_contract",
+        "text": "futures contracts",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - design - typography - kerning",
   "tag": "",
-  "nodes": [
-    {
-      "text": "kerning",
-      "url": "http://www.wikiwand.com/en/Kerning",
-      "fx": 136.15234375,
-      "fy": -141.08203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 146.53917100694457,
-      "fy": -10.935546875,
-      "nodes": [
-        {
-          "text": "1. kerning and kerning pairs",
-          "url": "https://www.youtube.com/watch?v=xHeP9bCJMR4",
-          "fx": 302.53917100694457,
-          "fy": 0.564453125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "kerning",
-      "target": "basics",
-      "curve": {
-        "x": -4.30659,
-        "y": 63.8232
+  "id": 439,
+  "map": {
+    "text": "kerning",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=xHeP9bCJMR4",
+            "text": "1. kerning and kerning pairs",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 439
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kerning",
+        "text": "kerning",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

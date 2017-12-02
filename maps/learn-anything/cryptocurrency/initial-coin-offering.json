@@ -1,52 +1,53 @@
 {
   "title": "learn anything - cryptocurrency - initial coin offering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "initial coin offering",
-      "url": "http://www.wikiwand.com/en/Initial_coin_offering",
-      "fx": 29.09375,
-      "fy": -130.546875,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/holographicio/awesome-token-sale",
-          "fx": 333.09375,
-          "fy": -116.546875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 96.3828125,
-      "fy": 0.72265625,
-      "nodes": [
-        {
-          "text": "1. thoughts on tokens  ️",
-          "url": "https://medium.com/@balajis/thoughts-on-tokens-436109aabcbe",
-          "fx": 259.3828125,
-          "fy": 13.22265625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "initial coin offering",
-      "target": "basics",
-      "curve": {
-        "x": -1.60547,
-        "y": 64.8848
+  "id": 364,
+  "map": {
+    "text": "initial coin offering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/@balajis/thoughts-on-tokens-436109aabcbe",
+            "text": "1. thoughts on tokens  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 364
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/holographicio/awesome-token-sale",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Initial_coin_offering",
+        "text": "initial coin offering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

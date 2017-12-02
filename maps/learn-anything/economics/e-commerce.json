@@ -1,108 +1,97 @@
 {
   "title": "learn anything - economics - e-commerce",
   "tag": "e-commerce",
-  "nodes": [
-    {
-      "text": "e-commerce",
-      "url": "http://www.wikiwand.com/en/E-commerce",
-      "fx": 45.58593940734863,
-      "fy": -160.05743217468262,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ecommerce/",
-          "fx": 288.58593940734863,
-          "fy": -146.05743217468262,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 476,
+  "map": {
+    "text": "e-commerce",
+    "nodes": [
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3OcNdxPhAUk&amp;t=1s",
+            "text": "13: e-commerce in China and around the world",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "platforms",
+            "nodes": [
+              {
+                "text": "Magento 2  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/economics/e-commerce/magento-2",
+                    "text": "Magento 2  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwChttp://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwC",
+            "text": "1. what works in e-commerce: meta-analysis of 6700 online experiments",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ecommerce/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 209.79869676672865,
-      "fy": -42.77070228834663,
-      "nodes": [
-        {
-          "text": "13: e-commerce in China and around the world",
-          "url": "https://www.youtube.com/watch?v=3OcNdxPhAUk&amp;t=1s",
-          "fx": 349.79869676672865,
-          "fy": -42.27070228834663,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/E-commerce",
+        "text": "e-commerce",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 79.1314160628068,
-      "fy": 80.95410628020693,
-      "nodes": [
-        {
-          "text": "1. what works in e-commerce: meta-analysis of 6700 online experiments",
-          "url": "http://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwChttp://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwC",
-          "fx": 235.1314160628068,
-          "fy": 70.45410628020693,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "platforms",
-      "url": "",
-      "fx": -67.49929975954024,
-      "fy": 195.24484558310718,
-      "nodes": []
-    },
-    {
-      "text": "Magento 2  ️",
-      "url": "/economics/e-commerce/magento-2",
-      "fx": -185.90200205423025,
-      "fy": 306.579839544459,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "e-commerce",
-      "curve": {
-        "x": -56.3564,
-        "y": -57.3933
       }
-    },
-    {
-      "source": "platforms",
-      "target": "Magento 2  ️",
-      "curve": {
-        "x": -55.9514,
-        "y": 55.6675
-      }
-    },
-    {
-      "source": "e-commerce",
-      "target": "basics",
-      "curve": {
-        "x": -4.97726,
-        "y": 119.256
-      }
-    },
-    {
-      "source": "basics",
-      "target": "platforms",
-      "curve": {
-        "x": -66.5654,
-        "y": 57.1454
-      }
-    }
-  ],
-  "id": 476
+    ],
+    "author": ""
+  }
 }

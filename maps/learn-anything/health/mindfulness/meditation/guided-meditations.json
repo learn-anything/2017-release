@@ -1,43 +1,45 @@
 {
   "title": "learn anything - health - mindfulness - meditation - guided meditations",
   "tag": "",
-  "nodes": [
-    {
-      "text": "guided meditations",
-      "url": "",
-      "fx": -39.50458715596426,
-      "fy": -34.183486238560704,
-      "nodes": [
-        {
-          "text": "Alan Watts - awakening the mind",
-          "url": "https://www.youtube.com/watch?v=jPpUNAFHgxM",
-          "fx": 248.49541284403574,
-          "fy": -101.1834862385607,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "guided meditation by Sam Harris",
-          "url": "https://www.youtube.com/watch?v=OboD7JrT0NE",
-          "fx": 248.49541284403574,
-          "fy": -34.183486238560704,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "imagine meditation by Ram Dass",
-          "url": "https://www.youtube.com/watch?v=geVLGnUpzvc",
-          "fx": 248.49541284403574,
-          "fy": 32.816513761439296,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
+  "id": 605,
+  "map": {
+    "text": "guided meditations",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://www.youtube.com/watch?v=jPpUNAFHgxM",
+        "text": "Alan Watts - awakening the mind",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [],
-  "id": 605
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=OboD7JrT0NE",
+        "text": "guided meditation by Sam Harris",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=geVLGnUpzvc",
+        "text": "imagine meditation by Ram Dass",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

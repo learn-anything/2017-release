@@ -1,51 +1,53 @@
 {
   "title": "learn anything - engineering - mechanical engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mechanical engineering",
-      "url": "http://www.wikiwand.com/en/Mechanical_engineering",
-      "fx": -46.75,
-      "fy": -170.984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 43.30859375,
-      "fy": -7.375,
-      "nodes": [
-        {
-          "text": "1. what is mechanical engineering?",
-          "url": "https://www.youtube.com/watch?v=W74y1RxN6BA",
-          "fx": 199.30859375,
-          "fy": -26.875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. standard handbook for mechanical engineers",
-          "url": "http://doomzdaypreppers.com/wp-content/uploads/2013/10/markshandbook2.pdf",
-          "fx": 199.30859375,
-          "fy": 13.125,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mechanical engineering",
-      "target": "basics",
-      "curve": {
-        "x": -0.970703,
-        "y": 80.5547
+  "id": 539,
+  "map": {
+    "text": "mechanical engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=W74y1RxN6BA",
+            "text": "1. what is mechanical engineering?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://doomzdaypreppers.com/wp-content/uploads/2013/10/markshandbook2.pdf",
+            "text": "2. standard handbook for mechanical engineers",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 539
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mechanical_engineering",
+        "text": "mechanical engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

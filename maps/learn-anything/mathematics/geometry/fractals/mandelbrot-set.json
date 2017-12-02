@@ -1,60 +1,64 @@
 {
   "title": "learn anything - mathematics - geometry - fractals - mandelbrot set",
   "tag": "Mandelbrot set",
-  "nodes": [
-    {
-      "text": "Mandelbrot set",
-      "url": "http://www.wikiwand.com/en/Mandelbrot_set",
-      "fx": 154.34523809523807,
-      "fy": -307.32322668650795,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 200.15935019841288,
-      "fy": -149.04985119056016,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=NGMRB4O922I",
-          "fx": 363.1593501984129,
-          "fy": -191.04985119056016,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. mathematical explanation",
-          "url": "https://www.reddit.com/r/math/comments/6vkyod/never_ending_mandelbrot_zoom/dm1a193/",
-          "fx": 363.1593501984129,
-          "fy": -149.04985119056016,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. the dark side of the Mandelbrot set",
-          "url": "https://www.youtube.com/watch?v=9gk_8mQuerg",
-          "fx": 363.1593501984129,
-          "fy": -107.04985119056016,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Mandelbrot set",
-      "target": "basics",
-      "curve": {
-        "x": -6.34294,
-        "y": 78.3867
+  "id": 953,
+  "map": {
+    "text": "Mandelbrot set",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=NGMRB4O922I",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/math/comments/6vkyod/never_ending_mandelbrot_zoom/dm1a193/",
+            "text": "1. mathematical explanation",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9gk_8mQuerg",
+            "text": "1. the dark side of the Mandelbrot set",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 950
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mandelbrot_set",
+        "text": "Mandelbrot set",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

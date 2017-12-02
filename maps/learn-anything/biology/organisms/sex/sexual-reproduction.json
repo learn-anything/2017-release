@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - organisms - sex - sexual reproduction",
   "tag": "",
-  "nodes": [
-    {
-      "text": "sexual reproduction",
-      "url": "http://www.wikiwand.com/en/Sexual_reproduction",
-      "fx": -5.83984375,
-      "fy": -181.6953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 66.5,
-      "fy": -56.95703125,
-      "nodes": [
-        {
-          "text": "1. the reproductive system",
-          "url": "https://www.youtube.com/watch?v=_7rsH2loIY8",
-          "fx": 222.5,
-          "fy": -65.45703125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. sex &amp; fertilisation",
-          "url": "https://www.youtube.com/watch?v=SUdAEGXLO-8",
-          "fx": 222.5,
-          "fy": -25.45703125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "sexual reproduction",
-      "target": "basics",
-      "curve": {
-        "x": -1.08008,
-        "y": 61.1192
+  "id": 126,
+  "map": {
+    "text": "sexual reproduction",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=_7rsH2loIY8",
+            "text": "1. the reproductive system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=SUdAEGXLO-8",
+            "text": "1. sex &amp; fertilisation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 126
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Sexual_reproduction",
+        "text": "sexual reproduction",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

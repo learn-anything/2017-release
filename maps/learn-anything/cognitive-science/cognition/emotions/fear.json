@@ -1,51 +1,53 @@
 {
   "title": "learn anything - cognitive science - cognition - emotions - fear",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fear",
-      "url": "http://www.wikiwand.com/en/Fear",
-      "fx": 233.91620095802932,
-      "fy": -195.4002052919708,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 222.5038466323848,
-      "fy": -47.91551924348016,
-      "nodes": [
-        {
-          "text": "1. what is fear",
-          "url": "https://www.youtube.com/watch?v=1RWDHWWiWDQ",
-          "fx": 385.5038466323848,
-          "fy": -56.41551924348016,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. don’t be afraid of fear",
-          "url": "https://www.youtube.com/watch?v=7f583ZSdmto",
-          "fx": 385.5038466323848,
-          "fy": -14.415519243480162,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fear",
-      "target": "basics",
-      "curve": {
-        "x": -6.70618,
-        "y": 72.9923
+  "id": 183,
+  "map": {
+    "text": "fear",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=1RWDHWWiWDQ",
+            "text": "1. what is fear",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7f583ZSdmto",
+            "text": "1. don’t be afraid of fear",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 183
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fear",
+        "text": "fear",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

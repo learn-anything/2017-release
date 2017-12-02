@@ -1,96 +1,82 @@
 {
   "title": "learn anything - computer science - algorithms - procedural generation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "procedural generation",
-      "url": "http://www.wikiwand.com/en/Procedural_generation",
-      "fx": 146.6236012102122,
-      "fy": -191.56297835156937,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/proceduralgeneration/",
-          "fx": 492.6236012102122,
-          "fy": -177.56297835156937,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 347.46172514716693,
-      "fy": -52.453520615343564,
-      "nodes": [
-        {
-          "text": "WaveFunctionCollapse",
-          "url": "https://github.com/mxgmn/WaveFunctionCollapse",
-          "fx": 546.4617251471669,
-          "fy": -39.953520615343564,
-          "nodes": [
-            {
-              "text": "demo",
-              "url": "https://www.youtube.com/watch?v=DOQTr2Xmlz0",
-              "fx": 853.4617251471669,
-              "fy": -39.953520615343564,
-              "nodes": [],
-              "category": "video",
-              "color": "rgba(104, 255, 109, 1.0)"
+  "id": 267,
+  "map": {
+    "text": "procedural generation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WumyfLEa6bU",
+            "text": "1. practical procedural generation for everyone",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 226.3735795454544,
-      "fy": 105.94377869641517,
-      "nodes": [
-        {
-          "text": "1. practical procedural generation for everyone",
-          "url": "https://www.youtube.com/watch?v=WumyfLEa6bU",
-          "fx": 389.3735795454544,
-          "fy": 72.44377869641517,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. procedural generation - how games create infinite worlds",
-          "url": "https://www.youtube.com/watch?v=TgbuWfGeG2o",
-          "fx": 389.3735795454544,
-          "fy": 139.44377869641517,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "procedural generation",
-      "target": "basics",
-      "curve": {
-        "x": -5.875,
-        "y": 148.003
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TgbuWfGeG2o",
+            "text": "1. procedural generation - how games create infinite worlds",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+            "text": "WaveFunctionCollapse",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "procedural generation",
-      "curve": {
-        "x": -63.6691,
-        "y": -68.8047
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/proceduralgeneration/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Procedural_generation",
+        "text": "procedural generation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 267
+    ],
+    "author": ""
+  }
 }

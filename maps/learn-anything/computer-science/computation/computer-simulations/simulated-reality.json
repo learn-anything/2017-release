@@ -1,85 +1,81 @@
 {
   "title": "learn anything - computer science - computation - computer simulations - simulated reality",
   "tag": "",
-  "nodes": [
-    {
-      "text": "simulated reality",
-      "url": "http://www.wikiwand.com/en/Simulated_reality",
-      "fx": -26.28125,
-      "fy": -175.66015625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/AWLIAS/",
-          "fx": 245.71875,
-          "fy": -161.66015625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 114.15448434467828,
-      "fy": -64.07296389852962,
-      "nodes": [
-        {
-          "text": "some arguments   ️",
-          "url": "https://worldbuilding.stackexchange.com/a/3140",
-          "fx": 305.1544843446783,
-          "fy": -80.57296389852962,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "the peer-to-peer simulation hypothesis",
-          "url": "https://www.p2p-simulation-hypothesis.com/",
-          "fx": 305.1544843446783,
-          "fy": -40.57296389852962,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 12.526865017166642,
-      "fy": 58.55227925809828,
-      "nodes": [
-        {
-          "text": "1. what if the universe is a computer simulation?",
-          "url": "https://www.youtube.com/watch?v=YOxDb_BbXzU",
-          "fx": 168.52686501716664,
-          "fy": 59.05227925809828,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "simulated reality",
-      "curve": {
-        "x": -49.9679,
-        "y": -54.5436
+  "id": 300,
+  "map": {
+    "text": "simulated reality",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://worldbuilding.stackexchange.com/a/3140",
+            "text": "some arguments   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.p2p-simulation-hypothesis.com/",
+            "text": "the peer-to-peer simulation hypothesis",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YOxDb_BbXzU",
+            "text": "1. what if the universe is a computer simulation?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "simulated reality",
-      "target": "basics",
-      "curve": {
-        "x": -9.59594,
-        "y": 115.857
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/AWLIAS/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Simulated_reality",
+        "text": "simulated reality",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 300
+    ],
+    "author": ""
+  }
 }

@@ -1,172 +1,189 @@
 {
   "title": "learn anything - law - software licenses",
   "tag": "",
-  "nodes": [
-    {
-      "text": "software licenses",
-      "url": "http://www.wikiwand.com/en/Software_license",
-      "fx": 190.06633890084925,
-      "fy": -224.62587553879484,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 414.77581033416755,
-      "fy": -101.05874267359195,
-      "nodes": [
-        {
-          "text": "software licenses in plain english",
-          "url": "https://tldrlegal.com/",
-          "fx": 556.7758103341675,
-          "fy": -119.55874267359195,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "pick a license, any license  ️",
-          "url": "https://blog.codinghorror.com/pick-a-license-any-license/",
-          "fx": 556.7758103341675,
-          "fy": -57.55874267359195,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "MIT",
-      "note": "A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/ source.  There are many variations of this license in use.",
-      "url": "https://opensource.org/licenses/MIT",
-      "fx": 370.7609915033087,
-      "fy": 53.822354656833,
-      "nodes": [
-        {
-          "text": "summary",
-          "url": "https://tldrlegal.com/license/mit-license",
-          "fx": 530.7609915033087,
-          "fy": 68.822354656833,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "GPL",
-      "url": "http://www.wikiwand.com/en/GNU_General_Public_License",
-      "fx": 343.9885553746791,
-      "fy": 143.18268094362918,
-      "nodes": [
-        {
-          "text": "summary",
-          "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)",
-          "fx": 517.9885553746791,
-          "fy": 159.68268094362918,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "Apache",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0",
-      "fx": 317.2641317927215,
-      "fy": 223.06629859935816,
-      "nodes": [
-        {
-          "text": "summary",
-          "url": "https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)",
-          "fx": 492.2641317927215,
-          "fy": 238.06629859935816,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "BSD-3",
-      "url": "https://opensource.org/licenses/BSD-3-Clause",
-      "fx": 288.8971063662308,
-      "fy": 301.2789243370664,
-      "nodes": [
-        {
-          "text": "summary",
-          "url": "https://tldrlegal.com/license/bsd-3-clause-license-(revised)",
-          "fx": 455.8971063662308,
-          "fy": 316.2789243370664,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "GNU",
-      "url": "https://www.gnu.org/licenses/gpl-3.0.html",
-      "fx": 264.1875038413734,
-      "fy": 395.852926347639,
-      "nodes": [
-        {
-          "text": "summary",
-          "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)",
-          "fx": 413.1875038413734,
-          "fy": 410.852926347639,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "software licenses",
-      "target": "MIT",
-      "curve": {
-        "x": 55.3473,
-        "y": 137.974
+  "id": 681,
+  "map": {
+    "text": "software licenses",
+    "nodes": [
+      {
+        "text": "MIT",
+        "note": "A short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/ source.  There are many variations of this license in use.",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/license/mit-license",
+            "text": "summary",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://opensource.org/licenses/MIT",
+            "text": "MIT",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "GPL",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)",
+            "text": "summary",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wikiwand.com/en/GNU_General_Public_License",
+            "text": "GPL",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "Apache",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)",
+            "text": "summary",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.apache.org/licenses/LICENSE-2.0",
+            "text": "Apache",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/",
+            "text": "software licenses in plain english",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://blog.codinghorror.com/pick-a-license-any-license/",
+            "text": "pick a license, any license  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "BSD-3",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/license/bsd-3-clause-license-(revised)",
+            "text": "summary",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://opensource.org/licenses/BSD-3-Clause",
+            "text": "BSD-3",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "GNU",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)",
+            "text": "summary",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+            "text": "GNU",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "software licenses",
-      "target": "GPL",
-      "curve": {
-        "x": -7.17981,
-        "y": 207.079
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Software_license",
+        "text": "software licenses",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "software licenses",
-      "target": "Apache",
-      "curve": {
-        "x": -11.5808,
-        "y": 267.352
-      }
-    },
-    {
-      "source": "help",
-      "target": "software licenses",
-      "curve": {
-        "x": -76.1047,
-        "y": -60.5335
-      }
-    },
-    {
-      "source": "software licenses",
-      "target": "BSD-3",
-      "curve": {
-        "x": -39.2576,
-        "y": 359.212
-      }
-    },
-    {
-      "source": "software licenses",
-      "target": "GNU",
-      "curve": {
-        "x": -56.4963,
-        "y": 425.363
-      }
-    }
-  ],
-  "id": 681
+    ],
+    "author": ""
+  }
 }

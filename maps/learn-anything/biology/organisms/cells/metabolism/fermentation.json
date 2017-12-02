@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - organisms - cells - metabolism - fermentation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fermentation",
-      "url": "http://www.wikiwand.com/en/Fermentation",
-      "fx": -97.08900482382558,
-      "fy": -419.20590394295306,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 37.61744966442939,
-      "fy": -309.2393036913669,
-      "nodes": [
-        {
-          "text": "fermentation: how to get healthy bacteria to your system",
-          "url": "https://www.youtube.com/watch?v=TiigsFnNDuQ",
-          "fx": 228.6174496644294,
-          "fy": -308.7393036913669,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "fermentation",
-      "curve": {
-        "x": -55.1032,
-        "y": -53.7333
+  "id": 116,
+  "map": {
+    "text": "fermentation",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=TiigsFnNDuQ",
+            "text": "fermentation: how to get healthy bacteria to your system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 116
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fermentation",
+        "text": "fermentation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

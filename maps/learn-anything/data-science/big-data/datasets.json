@@ -1,94 +1,118 @@
 {
   "title": "learn anything - data science - big data - datasets",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data sets",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Data_set",
-      "fx": -80.33986562490463,
-      "fy": -165.75131607055664,
-      "nodes": [
-        {
-          "text": "awesome public data sets",
-          "url": "https://github.com/caesar0301/awesome-public-datasets",
-          "fx": 167.66013437509537,
-          "fy": -307.25131607055664,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "awesome json datasets",
-          "url": "https://github.com/jdorfman/awesome-json-datasets",
-          "fx": 167.66013437509537,
-          "fy": -265.25131607055664,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "statistical computing datasets",
-          "url": "http://stat-computing.org/dataexpo/2009/the-data.html",
-          "fx": 167.66013437509537,
-          "fy": -223.25131607055664,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "more awesome datasets",
-          "url": "https://github.com/viisar/awesome-datasets",
-          "fx": 167.66013437509537,
-          "fy": -186.25131607055664,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "open source datasets",
-          "url": "https://deepmind.com/research/open-source/open-source-datasets/",
-          "fx": 167.66013437509537,
-          "fy": -144.25131607055664,
-          "nodes": [],
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "awesome world",
-          "url": "https://github.com/planetopendata/awesome-world",
-          "fx": 167.66013437509537,
-          "fy": -107.25131607055664,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "n-gram models",
-          "url": "https://research.googleblog.com/2006/08/all-our-n-gram-are-belong-to-you.html",
-          "fx": 167.66013437509537,
-          "fy": -65.25131607055664,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "cat dataset",
-          "url": "https://web.archive.org/web/20150703060412/http://137.189.35.203/WebUI/CatDatabase/catData.html",
-          "fx": 167.66013437509537,
-          "fy": -28.25131607055664,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "imagenet",
-          "url": "http://www.image-net.org/",
-          "fx": 167.66013437509537,
-          "fy": 8.74868392944336,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
+  "id": 377,
+  "map": {
+    "text": "data sets",
+    "note": "",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://github.com/caesar0301/awesome-public-datasets",
+        "text": "awesome public data sets",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    }
-  ],
-  "connections": [],
-  "id": 377
+      },
+      {
+        "url": "https://github.com/jdorfman/awesome-json-datasets",
+        "text": "awesome json datasets",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://stat-computing.org/dataexpo/2009/the-data.html",
+        "text": "statistical computing datasets",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/viisar/awesome-datasets",
+        "text": "more awesome datasets",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://deepmind.com/research/open-source/open-source-datasets/",
+        "text": "open source datasets",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/planetopendata/awesome-world",
+        "text": "awesome world",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://research.googleblog.com/2006/08/all-our-n-gram-are-belong-to-you.html",
+        "text": "n-gram models",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://web.archive.org/web/20150703060412/http://137.189.35.203/WebUI/CatDatabase/catData.html",
+        "text": "cat dataset",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.image-net.org/",
+        "text": "imagenet",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_set",
+        "text": "data sets",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

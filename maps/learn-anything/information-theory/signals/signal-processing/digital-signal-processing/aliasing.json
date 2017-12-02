@@ -1,74 +1,80 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing - aliasing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "aliasing",
-      "url": "http://www.wikiwand.com/en/Aliasing",
-      "fx": 216.15490404593425,
-      "fy": -161.9035879239667,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 231.37336500751007,
-      "fy": -38.75316654844846,
-      "nodes": [
-        {
-          "text": "1. sampling, aliasing &amp; Nyquist theorem",
-          "url": "https://www.youtube.com/watch?v=yWqrx08UeUs",
-          "fx": 394.3733650075101,
-          "fy": -38.75316654844846,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 654,
+  "map": {
+    "text": "aliasing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "spatial anti-aliasing",
+            "nodes": [
+              {
+                "text": "supersampling  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/information-theory/signals/signal-processing/digital-signal-processing/aliasing/supersampling",
+                    "text": "supersampling  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Spatial_anti-aliasing",
+                "text": "spatial anti-aliasing",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yWqrx08UeUs",
+            "text": "1. sampling, aliasing &amp; Nyquist theorem",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Aliasing",
+        "text": "aliasing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "spatial anti-aliasing",
-      "url": "http://www.wikiwand.com/en/Spatial_anti-aliasing",
-      "fx": 27.93610491071422,
-      "fy": 105.73549107142867,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "supersampling  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing/aliasing/supersampling",
-      "fx": 36.66562591696004,
-      "fy": 254.7472674589202,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "aliasing",
-      "target": "basics",
-      "curve": {
-        "x": -2.39077,
-        "y": 60.8252
       }
-    },
-    {
-      "source": "basics",
-      "target": "spatial anti-aliasing",
-      "curve": {
-        "x": -63.4686,
-        "y": 72.9943
-      }
-    },
-    {
-      "source": "spatial anti-aliasing",
-      "target": "supersampling  ️",
-      "curve": {
-        "x": -5.63524,
-        "y": 74.5059
-      }
-    }
-  ],
-  "id": 654
+    ],
+    "author": ""
+  }
 }

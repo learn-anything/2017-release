@@ -1,51 +1,53 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - ayahuasca",
   "tag": "",
-  "nodes": [
-    {
-      "text": "Ayahuasca",
-      "url": "https://psychonautwiki.org/wiki/Ayahuasca",
-      "fx": 98.49609375,
-      "fy": -94.359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.5,
-      "fy": 44.25390625,
-      "nodes": [
-        {
-          "text": "1. ayahuasca &amp; the brain",
-          "url": "https://www.youtube.com/watch?v=aufjjU0EYxk",
-          "fx": 283.5,
-          "fy": 35.75390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. your brain on ayahuasca",
-          "url": "https://www.youtube.com/watch?v=cRsJB0taAak",
-          "fx": 283.5,
-          "fy": 75.75390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Ayahuasca",
-      "target": "basics",
-      "curve": {
-        "x": -2.99805,
-        "y": 68.0567
+  "id": 154,
+  "map": {
+    "text": "Ayahuasca",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=aufjjU0EYxk",
+            "text": "1. ayahuasca &amp; the brain",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=cRsJB0taAak",
+            "text": "1. your brain on ayahuasca",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 154
+    ],
+    "resources": [
+      {
+        "url": "https://psychonautwiki.org/wiki/Ayahuasca",
+        "text": "Ayahuasca",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

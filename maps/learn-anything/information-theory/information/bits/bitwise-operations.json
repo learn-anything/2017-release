@@ -1,51 +1,53 @@
 {
   "title": "learn anything - information theory - information - bits - bitwise operations",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bitwise operations",
-      "url": "http://www.wikiwand.com/en/Bitwise_operation",
-      "fx": -107.89453125,
-      "fy": -166.16015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -44.818508037539914,
-      "fy": -5.2066563146916,
-      "nodes": [
-        {
-          "text": "1. low level bit hacks you must know  ️",
-          "url": "http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/",
-          "fx": 118.18149196246009,
-          "fy": -26.2066563146916,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. algorithms: bit manipulation",
-          "url": "https://www.youtube.com/watch?v=NLKQEOgBAnw",
-          "fx": 118.18149196246009,
-          "fy": 40.7933436853084,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "bitwise operations",
-      "target": "basics",
-      "curve": {
-        "x": -4.96199,
-        "y": 79.7267
+  "id": 634,
+  "map": {
+    "text": "bitwise operations",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/",
+            "text": "1. low level bit hacks you must know  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NLKQEOgBAnw",
+            "text": "1. algorithms: bit manipulation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 634
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bitwise_operation",
+        "text": "bitwise operations",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,34 +1,43 @@
 {
   "title": "learn anything - biology - human development",
   "tag": "",
-  "nodes": [
-    {
-      "text": "human development",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Human_development_(biology)",
-      "fx": 41.27734375,
-      "fy": -342.64453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "aging  ️",
-      "url": "/biology/human-development/aging",
-      "fx": 67.39515417800078,
-      "fy": -196.14604208283748,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "human development",
-      "target": "aging  ️",
-      "curve": {
-        "x": -20.6911,
-        "y": 73.2492
+  "id": 105,
+  "map": {
+    "text": "human development",
+    "note": "",
+    "nodes": [
+      {
+        "text": "aging  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/human-development/aging",
+            "text": "aging  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 105
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Human_development_(biology)",
+        "text": "human development",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,179 +1,160 @@
 {
   "title": "learn anything - economics - investing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "investing",
-      "url": "http://www.wikiwand.com/en/Investment",
-      "fx": -119.50633081896547,
-      "fy": -421.91896061912223,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/investing/",
-          "fx": 86.49366918103453,
-          "fy": -407.91896061912223,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 44.13280237388756,
-      "fy": -304.803059483356,
-      "nodes": [
-        {
-          "text": "bogleheads wiki",
-          "note": "",
-          "url": "https://www.bogleheads.org/wiki/Main_Page",
-          "fx": 181.13280237388756,
-          "fy": -338.303059483356,
-          "nodes": [
-            {
-              "text": "investing start-up kit",
-              "url": "https://www.bogleheads.org/wiki/Bogleheads%c2%ae_investing_start-up_kit",
-              "fx": 409.13280237388756,
-              "fy": -338.303059483356,
-              "nodes": [],
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 493,
+  "map": {
+    "text": "investing",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "rate of return  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/investing/rate-of-return",
+                "text": "rate of return  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/106835.The_Intelligent_Investor",
+            "text": "1. intelligent investor",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "investing returns on the market as a whole",
-          "url": "https://github.com/zonination/investing",
-          "fx": 181.13280237388756,
-          "fy": -304.303059483356,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "investopedia",
-          "url": "http://www.investopedia.com/",
-          "fx": 181.13280237388756,
-          "fy": -242.30305948335598,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/203409.Security_Analysis",
+            "text": "2. security analysis: principles and technique",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.reddit.com/r/investing/comments/6qhp6r/10_years_of_warren_buffett_book_recommendations/",
+                    "text": "10 years of Warren Buffet book recommendations",
+                    "category": "reddit",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/",
+                "text": "11: how to make money in the stock market  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.bogleheads.org/wiki/Main_Page",
+            "text": "bogleheads wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/zonination/investing",
+            "text": "investing returns on the market as a whole",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.investopedia.com/",
+            "text": "investopedia",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/investing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 165.1425869032555,
-      "fy": -164.25456541177567,
-      "nodes": [
-        {
-          "text": "11: how to make money in the stock market  ️",
-          "url": "http://www.mrmoneymustache.com/2011/05/18/how-to-make-money-in-the-stock-market/",
-          "fx": 327.1425869032555,
-          "fy": -163.75456541177567,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Investment",
+        "text": "investing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 277.07244318181824,
-      "fy": -39.93821022727286,
-      "nodes": [
-        {
-          "text": "10 years of Warren Buffet book recommendations",
-          "url": "https://www.reddit.com/r/investing/comments/6qhp6r/10_years_of_warren_buffett_book_recommendations/",
-          "fx": 468.07244318181824,
-          "fy": -39.43821022727286,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -231.6835555472378,
-      "fy": 82.12794642268057,
-      "nodes": [
-        {
-          "text": "1. intelligent investor",
-          "url": "https://www.goodreads.com/book/show/106835.The_Intelligent_Investor",
-          "fx": -50.6835555472378,
-          "fy": 62.627946422680566,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. security analysis: principles and technique",
-          "url": "https://www.goodreads.com/book/show/203409.Security_Analysis",
-          "fx": -50.6835555472378,
-          "fy": 102.62794642268057,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "rate of return  ️",
-      "url": "/economics/investing/rate-of-return",
-      "fx": -372.51600810074297,
-      "fy": 214.85985249153578,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "investing",
-      "target": "basics",
-      "curve": {
-        "x": -61.3386,
-        "y": 252.023
       }
-    },
-    {
-      "source": "help",
-      "target": "investing",
-      "curve": {
-        "x": -71.8196,
-        "y": -58.5579
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -87.3873,
-        "y": -67.5803
-      }
-    },
-    {
-      "source": "basics",
-      "target": "rate of return  ️",
-      "curve": {
-        "x": -62.1662,
-        "y": 66.3659
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -99.1489,
-        "y": -62.1582
-      }
-    }
-  ],
-  "id": 493
+    ],
+    "author": ""
+  }
 }

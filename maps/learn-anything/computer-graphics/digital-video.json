@@ -1,59 +1,62 @@
 {
   "title": "learn anything - computer graphics - digital video",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digital video",
-      "url": "http://www.wikiwand.com/en/Digital_video",
-      "fx": -77.67557684926817,
-      "fy": -135.5479760721367,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -55.74812247740272,
-      "fy": -17.049416711487765,
-      "nodes": [
-        {
-          "text": "1. hands on intro to video technology",
-          "url": "https://github.com/leandromoreira/digital_video_introduction",
-          "fx": 126.25187752259728,
-          "fy": -16.549416711487765,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 219,
+  "map": {
+    "text": "digital video",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "streaming  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/digital-video/streaming",
+                "text": "streaming  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/leandromoreira/digital_video_introduction",
+            "text": "1. hands on intro to video technology",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Digital_video",
+        "text": "digital video",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "streaming  ️",
-      "url": "/computer-graphics/digital-video/streaming",
-      "fx": -164.79522174642193,
-      "fy": 109.21416568885036,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "digital video",
-      "target": "basics",
-      "curve": {
-        "x": -8.53627,
-        "y": 57.9993
       }
-    },
-    {
-      "source": "basics",
-      "target": "streaming  ️",
-      "curve": {
-        "x": -53.2735,
-        "y": 63.1318
-      }
-    }
-  ],
-  "id": 219
+    ],
+    "author": ""
+  }
 }

@@ -1,90 +1,97 @@
 {
   "title": "learn anything - biology - anatomy - human body - digestive system - gastrointestinal tract",
   "tag": "",
-  "nodes": [
-    {
-      "text": "gastrointestinal tract",
-      "url": "http://www.wikiwand.com/en/Gastrointestinal_tract",
-      "fx": 121.67307692307702,
-      "fy": -188.18569711538458,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 195.53846153846143,
-      "fy": -53.0000000000158,
-      "nodes": [
-        {
-          "text": "1. meet the gastrointestinal tract",
-          "url": "https://www.youtube.com/watch?v=Oh_Pt_UrtEE",
-          "fx": 358.53846153846143,
-          "fy": -53.0000000000158,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 79,
+  "map": {
+    "text": "gastrointestinal tract",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "large intestine",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Large_intestine",
+                "text": "large intestine",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "small intestine",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Small_intestine",
+                "text": "small intestine",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "stomach  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body/digestive-system/gastrointestinal-tract/stomach",
+                "text": "stomach  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Oh_Pt_UrtEE",
+            "text": "1. meet the gastrointestinal tract",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Gastrointestinal_tract",
+        "text": "gastrointestinal tract",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "large intestine",
-      "url": "http://www.wikiwand.com/en/Large_intestine",
-      "fx": -70.36803054809559,
-      "fy": 72.5873374938966,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "small intestine",
-      "url": "http://www.wikiwand.com/en/Small_intestine",
-      "fx": 160.5888459578806,
-      "fy": 76.02853260869563,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "stomach  ️",
-      "url": "/biology/anatomy/human-body/digestive-system/gastrointestinal-tract/stomach",
-      "fx": 385.05517578125,
-      "fy": 77.76585882483334,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "gastrointestinal tract",
-      "target": "basics",
-      "curve": {
-        "x": -4.06731,
-        "y": 66.8428
       }
-    },
-    {
-      "source": "basics",
-      "target": "large intestine",
-      "curve": {
-        "x": -107.203,
-        "y": 63.5437
-      }
-    },
-    {
-      "source": "basics",
-      "target": "small intestine",
-      "curve": {
-        "x": 9.02519,
-        "y": 65.2643
-      }
-    },
-    {
-      "source": "basics",
-      "target": "stomach  ️",
-      "curve": {
-        "x": 108.008,
-        "y": 66.133
-      }
-    }
-  ],
-  "id": 79
+    ],
+    "author": ""
+  }
 }

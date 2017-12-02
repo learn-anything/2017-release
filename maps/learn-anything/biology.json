@@ -1,421 +1,465 @@
 {
   "title": "learn anything - biology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "biology",
-      "url": "http://www.wikiwand.com/en/Biology",
-      "fx": 78.17770601848815,
-      "fy": -312.67656553993277,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/biology/",
-          "fx": 279.17770601848815,
-          "fy": -319.67656553993277,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://biology.stackexchange.com/",
-          "fx": 279.17770601848815,
-          "fy": -277.67656553993277,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 138,
+  "map": {
+    "text": "biology",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "bioinformatics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/bioinformatics",
+                "text": "bioinformatics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "genetics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/genetics",
+                "text": "genetics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "abiogenesis  ️",
+            "note": "how life came to be from just chemistry",
+            "nodes": [
+              {
+                "text": "evolution  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/biology/evolution",
+                    "text": "evolution  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/biology/abiogenesis",
+                "text": "abiogenesis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "human development  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/human-development",
+                "text": "human development  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "anatomy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy",
+                "text": "anatomy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "ecology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/ecology",
+                "text": "ecology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "physiology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/physiology",
+                "text": "physiology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "botany  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/botany",
+                "text": "botany  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computational biology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/computational-biology",
+                "text": "computational biology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "immunology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/immunology",
+                "text": "immunology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "organisms  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms",
+                "text": "organisms  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "astrobiology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/astrobiology",
+                "text": "astrobiology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "pharmacology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/pharmacology",
+                "text": "pharmacology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "endocrinology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/endocrinology",
+                "text": "endocrinology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "microbiology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/microbiology",
+                "text": "microbiology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "zoology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/zoology-",
+                "text": "zoology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "mathematical biology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/mathematical-biology",
+                "text": "mathematical biology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QnQe0xW_JY4&amp;list=PL3EED4C1D684D3ADF",
+            "text": "1. crash course biology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.khanacademy.org/science/biology",
+            "text": "1. khan academy biology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PL7A750281106CD067",
+            "text": "1. AP biology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NNnIGh9g6fA&amp;list=PL150326949691B199",
+            "text": "1. human behavioural biology",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.edx.org/course/introduction-biology-secret-life-mitx-7-00x-5",
+            "text": "1. introduction to biology",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/61535.The_Selfish_Gene",
+            "text": "1. the selfish gene",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/SirSharpest/Bio-Cramming",
+            "text": "notes on biology",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/biology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 193.72237788156735,
-      "fy": -192.68746401908248,
-      "nodes": [
-        {
-          "text": "notes on biology",
-          "url": "https://github.com/SirSharpest/Bio-Cramming",
-          "fx": 334.72237788156735,
-          "fy": -180.18746401908248,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "https://biology.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 71.483658349483,
-      "fy": 19.093608688630354,
-      "nodes": [
-        {
-          "text": "1. crash course biology",
-          "url": "https://www.youtube.com/watch?v=QnQe0xW_JY4&amp;list=PL3EED4C1D684D3ADF",
-          "fx": 260.483658349483,
-          "fy": -73.40639131136965,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. khan academy biology",
-          "url": "https://www.khanacademy.org/science/biology",
-          "fx": 260.483658349483,
-          "fy": -31.406391311369646,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. AP biology",
-          "url": "https://www.youtube.com/playlist?list=PL7A750281106CD067",
-          "fx": 260.483658349483,
-          "fy": 10.593608688630354,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "1. human behavioural biology",
-          "url": "https://www.youtube.com/watch?v=NNnIGh9g6fA&amp;list=PL150326949691B199",
-          "fx": 260.483658349483,
-          "fy": 52.593608688630354,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. introduction to biology",
-          "url": "https://www.edx.org/course/introduction-biology-secret-life-mitx-7-00x-5",
-          "fx": 260.483658349483,
-          "fy": 94.59360868863035,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1. the selfish gene",
-          "url": "https://www.goodreads.com/book/show/61535.The_Selfish_Gene",
-          "fx": 260.483658349483,
-          "fy": 136.59360868863035,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 254, 60, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Biology",
+        "text": "biology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "botany  ️",
-      "url": "/biology/botany",
-      "fx": -1332.3684539794922,
-      "fy": 247.0178985595703,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computational biology  ️",
-      "url": "/biology/computational-biology",
-      "fx": -1629.4487609863281,
-      "fy": 248.70201110839844,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "genetics  ️",
-      "url": "/biology/genetics",
-      "fx": -184.02000427246094,
-      "fy": 250.04077911376953,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "physiology  ️",
-      "url": "/biology/physiology",
-      "fx": -1186.2930755615234,
-      "fy": 250.06999969482422,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "abiogenesis  ️",
-      "note": "how life came to be from just chemistry",
-      "url": "/biology/abiogenesis",
-      "fx": -20.893342971801758,
-      "fy": 251.2777328491211,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "ecology  ️",
-      "url": "/biology/ecology",
-      "fx": -1002.3837890625,
-      "fy": 251.52851104736328,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "bioinformatics  ️",
-      "url": "/biology/bioinformatics",
-      "fx": -400.1252975463867,
-      "fy": 252.87372589111328,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "immunology  ️",
-      "url": "/biology/immunology",
-      "fx": -1827.3899536132812,
-      "fy": 253.22219848632812,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "anatomy  ️",
-      "url": "/biology/anatomy",
-      "fx": -846.3040161132812,
-      "fy": 253.71379852294922,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "astrobiology  ️",
-      "url": "/biology/astrobiology",
-      "fx": -2025.3286743164062,
-      "fy": 254.74437713623047,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "human development  ️",
-      "url": "/biology/human-development",
-      "fx": -683.2278060913086,
-      "fy": 254.78023529052734,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "pharmacology  ️",
-      "url": "/biology/pharmacology",
-      "fx": -2245.6023559570312,
-      "fy": 255.02124786376953,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "organisms  ️",
-      "url": "/biology/organisms",
-      "fx": 203.24258422851562,
-      "fy": 255.37242889404297,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "endocrinology  ️",
-      "url": "/biology/endocrinology",
-      "fx": -2463.6114501953125,
-      "fy": 258.24535369873047,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "microbiology  ️",
-      "url": "/biology/microbiology",
-      "fx": -2667.615478515625,
-      "fy": 261.0657501220703,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mathematical biology  ️",
-      "url": "/biology/mathematical-biology",
-      "fx": -3156.1926094747496,
-      "fy": 261.12910396716813,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "zoology  ️",
-      "url": "/biology/zoology-",
-      "fx": -2837.377970377604,
-      "fy": 261.29749298095703,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "evolution  ️",
-      "url": "/biology/evolution",
-      "fx": -22.207409175377165,
-      "fy": 358.28421808832695,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "basics",
-      "target": "bioinformatics  ️",
-      "curve": {
-        "x": -225.304,
-        "y": 116.89
       }
-    },
-    {
-      "source": "basics",
-      "target": "genetics  ️",
-      "curve": {
-        "x": -129.752,
-        "y": 115.474
-      }
-    },
-    {
-      "source": "biology",
-      "target": "basics",
-      "curve": {
-        "x": -5.84702,
-        "y": 164.635
-      }
-    },
-    {
-      "source": "basics",
-      "target": "abiogenesis  ️",
-      "curve": {
-        "x": -32.9384,
-        "y": 117.342
-      }
-    },
-    {
-      "source": "abiogenesis  ️",
-      "target": "evolution  ️",
-      "curve": {
-        "x": -7.40705,
-        "y": 53.5033
-      }
-    },
-    {
-      "source": "help",
-      "target": "biology",
-      "curve": {
-        "x": -44.0223,
-        "y": -58.7446
-      }
-    },
-    {
-      "source": "basics",
-      "target": "human development  ️",
-      "curve": {
-        "x": -411.507,
-        "y": 115.404
-      }
-    },
-    {
-      "source": "basics",
-      "target": "anatomy  ️",
-      "curve": {
-        "x": -503.242,
-        "y": 90.8023
-      }
-    },
-    {
-      "source": "basics",
-      "target": "ecology  ️",
-      "curve": {
-        "x": -670.089,
-        "y": 67.154
-      }
-    },
-    {
-      "source": "basics",
-      "target": "physiology  ️",
-      "curve": {
-        "x": -830.183,
-        "y": 64.6107
-      }
-    },
-    {
-      "source": "basics",
-      "target": "botany  ️",
-      "curve": {
-        "x": -1055.86,
-        "y": 65.9685
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computational biology  ️",
-      "curve": {
-        "x": -1086.34,
-        "y": 37.9292
-      }
-    },
-    {
-      "source": "basics",
-      "target": "immunology  ️",
-      "curve": {
-        "x": -1197.37,
-        "y": -8.58428
-      }
-    },
-    {
-      "source": "basics",
-      "target": "organisms  ️",
-      "curve": {
-        "x": 56.1061,
-        "y": 124.021
-      }
-    },
-    {
-      "source": "basics",
-      "target": "astrobiology  ️",
-      "curve": {
-        "x": -1346.91,
-        "y": -22.0091
-      }
-    },
-    {
-      "source": "basics",
-      "target": "pharmacology  ️",
-      "curve": {
-        "x": -1604.79,
-        "y": 10.7561
-      }
-    },
-    {
-      "source": "basics",
-      "target": "endocrinology  ️",
-      "curve": {
-        "x": -1740.36,
-        "y": -37.9494
-      }
-    },
-    {
-      "source": "basics",
-      "target": "microbiology  ️",
-      "curve": {
-        "x": -1987.94,
-        "y": 20.8252
-      }
-    },
-    {
-      "source": "basics",
-      "target": "zoology  ️",
-      "curve": {
-        "x": -2139.42,
-        "y": 22.7628
-      }
-    },
-    {
-      "source": "basics",
-      "target": "mathematical biology  ️",
-      "curve": {
-        "x": -2086.9,
-        "y": -21.6011
-      }
-    }
-  ],
-  "id": 138
+    ],
+    "author": ""
+  }
 }

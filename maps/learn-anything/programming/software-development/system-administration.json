@@ -1,95 +1,93 @@
 {
   "title": "learn anything - programming - software development - system administration",
   "tag": "",
-  "nodes": [
-    {
-      "text": "system administration",
-      "url": "http://www.wikiwand.com/en/System_administrator",
-      "fx": 104.47265625,
-      "fy": -332.36328125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/sysadmin/",
-          "fx": 428.47265625,
-          "fy": -338.36328125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://serverfault.com/",
-          "fx": 428.47265625,
-          "fy": -298.36328125,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 281.625,
-      "fy": -204.39453125,
-      "nodes": [
-        {
-          "text": "awesome sysadmin",
-          "url": "https://github.com/kahun/awesome-sysadmin",
-          "fx": 418.625,
-          "fy": -212.89453125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "comprehensive resources",
-          "url": "https://www.reddit.com/r/sysadmin/wiki/learn",
-          "fx": 418.625,
-          "fy": -172.89453125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 178.0859375,
-      "fy": -73.6171875,
-      "nodes": [
-        {
-          "text": "1. the practice of system and network administration",
-          "url": "http://almus.net/docs/System_and_Network_Administration/The_Practice_of_System_and_Network_Administration(2007).pdf",
-          "fx": 334.0859375,
-          "fy": -73.1171875,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "system administration",
-      "curve": {
-        "x": -41.8262,
-        "y": -62.7344
+  "id": 1740,
+  "map": {
+    "text": "system administration",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/kahun/awesome-sysadmin",
+            "text": "awesome sysadmin",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/sysadmin/wiki/learn",
+            "text": "comprehensive resources",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://almus.net/docs/System_and_Network_Administration/The_Practice_of_System_and_Network_Administration(2007).pdf",
+            "text": "1. the practice of system and network administration",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "system administration",
-      "target": "basics",
-      "curve": {
-        "x": -5.19336,
-        "y": 128.123
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/sysadmin/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://serverfault.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/System_administrator",
+        "text": "system administration",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1737
+    ],
+    "author": ""
+  }
 }

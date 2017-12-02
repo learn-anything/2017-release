@@ -1,86 +1,82 @@
 {
   "title": "learn anything - design - design languages - material design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "material design",
-      "url": "http://www.wikiwand.com/en/Material_Design",
-      "fx": -119.3515625,
-      "fy": -321.95703125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/MaterialDesign/",
-          "fx": 144.6484375,
-          "fy": -327.95703125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/sachin1092/awesome-material",
-          "fx": 144.6484375,
-          "fy": -287.95703125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 29.23828125,
-      "fy": -184.7890625,
-      "nodes": [
-        {
-          "text": "material components for the web",
-          "url": "https://github.com/material-components/material-components-web",
-          "fx": 166.23828125,
-          "fy": -184.2890625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -64.61328125,
-      "fy": -61.3359375,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://material.io/guidelines/#",
-          "fx": 117.38671875,
-          "fy": -46.8359375,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "material design",
-      "curve": {
-        "x": -42.5449,
-        "y": -67.334
+  "id": 422,
+  "map": {
+    "text": "material design",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/material-components/material-components-web",
+            "text": "material components for the web",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://material.io/guidelines/#",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "material design",
-      "target": "basics",
-      "curve": {
-        "x": 0.369137,
-        "y": 129.06
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/MaterialDesign/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/sachin1092/awesome-material",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Material_Design",
+        "text": "material design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 422
+    ],
+    "author": ""
+  }
 }

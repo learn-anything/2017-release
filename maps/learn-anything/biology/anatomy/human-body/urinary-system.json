@@ -1,76 +1,83 @@
 {
   "title": "learn anything - biology - anatomy - human body - urinary system",
   "tag": "",
-  "nodes": [
-    {
-      "text": "urinary system",
-      "url": "http://www.wikiwand.com/en/Urinary_system",
-      "fx": -96.6875,
-      "fy": -131,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -51,
-      "fy": 8.2109375,
-      "nodes": [
-        {
-          "text": "1. the urinary system",
-          "url": "https://www.youtube.com/watch?v=H2VkW9L5QSU",
-          "fx": 112,
-          "fy": -21.2890625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. urinary system: part I",
-          "url": "https://www.youtube.com/watch?v=l128tW1H5a8",
-          "fx": 112,
-          "fy": 20.7109375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "2. urinary system: part II",
-          "url": "https://www.youtube.com/watch?v=DlqyyyvTI3k",
-          "fx": 112,
-          "fy": 62.7109375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
+  "id": 84,
+  "map": {
+    "text": "urinary system",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "kidneys  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body/urinary-system/kidneys",
+                "text": "kidneys  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=H2VkW9L5QSU",
+            "text": "1. the urinary system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=l128tW1H5a8",
+            "text": "1. urinary system: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DlqyyyvTI3k",
+            "text": "2. urinary system: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Urinary_system",
+        "text": "urinary system",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "kidneys  ️",
-      "url": "/biology/anatomy/human-body/urinary-system/kidneys",
-      "fx": -173.71283063139936,
-      "fy": 137.51882465873985,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "urinary system",
-      "target": "basics",
-      "curve": {
-        "x": -4.65625,
-        "y": 68.8555
       }
-    },
-    {
-      "source": "basics",
-      "target": "kidneys  ️",
-      "curve": {
-        "x": -58.6064,
-        "y": 64.6539
-      }
-    }
-  ],
-  "id": 84
+    ],
+    "author": ""
+  }
 }

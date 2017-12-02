@@ -1,87 +1,95 @@
 {
   "title": "learn anything - biology - anatomy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "anatomy",
-      "url": "http://www.wikiwand.com/en/Anatomy",
-      "fx": 84.38591806437728,
-      "fy": -136.03773818975776,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Anatomy/",
-          "fx": 290.3859180643773,
-          "fy": -122.03773818975776,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 61.325335264490036,
-      "fy": 17.61711668403467,
-      "nodes": [
-        {
-          "text": "1. khan academy human anatomy and physiology",
-          "url": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
-          "fx": 243.32533526449004,
-          "fy": -32.88288331596533,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. crash course anatomy &amp; physiology",
-          "url": "https://www.youtube.com/watch?v=uBGl2BujkPQ&amp;list=PL8dPuuaLjXtOAKed_MxxWBNaPno5h3Zs8",
-          "fx": 243.32533526449004,
-          "fy": 29.11711668403467,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. anatomy and physiology",
-          "url": "https://www.youtube.com/playlist?list=PLCC2DB523BA8BCB53",
-          "fx": 243.32533526449004,
-          "fy": 91.11711668403467,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "human body  ️",
-      "url": "/biology/anatomy/human-body",
-      "fx": -88.5575097188995,
-      "fy": 153.6600420321637,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "anatomy",
-      "target": "basics",
-      "curve": {
-        "x": -24.0303,
-        "y": 75.5774
+  "id": 86,
+  "map": {
+    "text": "anatomy",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "human body  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body",
+                "text": "human body  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
+            "text": "1. khan academy human anatomy and physiology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uBGl2BujkPQ&amp;list=PL8dPuuaLjXtOAKed_MxxWBNaPno5h3Zs8",
+            "text": "1. crash course anatomy &amp; physiology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLCC2DB523BA8BCB53",
+            "text": "1. anatomy and physiology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "human body  ️",
-      "curve": {
-        "x": -60.1914,
-        "y": 69.2715
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Anatomy/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Anatomy",
+        "text": "anatomy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 86
+    ],
+    "author": ""
+  }
 }

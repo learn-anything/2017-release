@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - manufacturing engineering - Injection moulding",
   "tag": "injection moulding",
-  "nodes": [
-    {
-      "text": "injection moulding",
-      "url": "http://www.wikiwand.com/en/Injection_moulding",
-      "fx": -110.0129206730769,
-      "fy": -184.96101657388664,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -45.08609843276565,
-      "fy": -50.30504417788859,
-      "nodes": [
-        {
-          "text": "1. plastic injection molding",
-          "url": "https://www.youtube.com/watch?v=RMjtmsr3CqA",
-          "fx": 117.91390156723435,
-          "fy": -37.80504417788859,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "injection moulding",
-      "target": "basics",
-      "curve": {
-        "x": -4.03659,
-        "y": 66.578
+  "id": 537,
+  "map": {
+    "text": "injection moulding",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=RMjtmsr3CqA",
+            "text": "1. plastic injection molding",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 537
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Injection_moulding",
+        "text": "injection moulding",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

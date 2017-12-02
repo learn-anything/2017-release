@@ -1,42 +1,42 @@
 {
   "title": "learn anything - databases - nosql databases - newsql - cockroachdb",
   "tag": "cockroachDB",
-  "nodes": [
-    {
-      "text": "cockroachDB",
-      "url": "https://github.com/cockroachdb/cockroach",
-      "fx": 83.95662307739258,
-      "fy": -130.7864761352539,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 122.03121948242188,
-      "fy": 7.864156723022461,
-      "nodes": [
-        {
-          "text": "1. get started",
-          "url": "https://www.cockroachlabs.com/docs/demo-data-replication.html",
-          "fx": 304.0312194824219,
-          "fy": 22.36415672302246,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "cockroachDB",
-      "target": "basics",
-      "curve": {
-        "x": -4.7127,
-        "y": 68.0753
+  "id": 407,
+  "map": {
+    "text": "cockroachDB",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cockroachlabs.com/docs/demo-data-replication.html",
+            "text": "1. get started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 407
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/cockroachdb/cockroach",
+        "text": "cockroachDB",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

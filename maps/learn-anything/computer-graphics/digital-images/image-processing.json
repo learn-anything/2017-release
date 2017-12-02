@@ -1,102 +1,112 @@
 {
   "title": "learn anything - computer graphics - digital images - image processing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "image processing",
-      "url": "http://www.wikiwand.com/en/Image_processing",
-      "fx": -57.4453125,
-      "fy": -58.3671875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/dip/",
-          "fx": 229.5546875,
-          "fy": -44.3671875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 212,
+  "map": {
+    "text": "image processing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "image kernels  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/digital-images/image-processing/image-kernels",
+                "text": "image kernels  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "super-resolution imaging  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/digital-images/image-processing/super-resolution-imaging",
+                "text": "super-resolution imaging  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://codewords.recurse.com/issues/six/image-processing-101",
+            "text": "1. image processing 101  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fVclEUy_Zpk",
+            "text": "1. why do we need to do image processing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0aVF-fbLUYg",
+            "text": "1. image processing explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/dip/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -2.24609375,
-      "fy": 115.23828125,
-      "nodes": [
-        {
-          "text": "1. image processing 101  ️",
-          "url": "https://codewords.recurse.com/issues/six/image-processing-101",
-          "fx": 153.75390625,
-          "fy": 75.73828125,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. why do we need to do image processing",
-          "url": "https://www.youtube.com/watch?v=fVclEUy_Zpk",
-          "fx": 153.75390625,
-          "fy": 115.73828125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. image processing explained",
-          "url": "https://www.youtube.com/watch?v=0aVF-fbLUYg",
-          "fx": 153.75390625,
-          "fy": 177.73828125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Image_processing",
+        "text": "image processing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "image kernels  ️",
-      "url": "/computer-graphics/digital-images/image-processing/image-kernels",
-      "fx": 30.310205419583326,
-      "fy": 312.8795891608553,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "super-resolution imaging  ️",
-      "url": "/computer-graphics/digital-images/image-processing/super-resolution-imaging",
-      "fx": -276.2882466984092,
-      "fy": 316.59351670289163,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "image processing",
-      "target": "basics",
-      "curve": {
-        "x": -5.15039,
-        "y": 85.5527
       }
-    },
-    {
-      "source": "basics",
-      "target": "image kernels  ️",
-      "curve": {
-        "x": 43.0281,
-        "y": 98.8206
-      }
-    },
-    {
-      "source": "basics",
-      "target": "super-resolution imaging  ️",
-      "curve": {
-        "x": -96.0211,
-        "y": 100.678
-      }
-    }
-  ],
-  "id": 212
+    ],
+    "author": ""
+  }
 }

@@ -1,58 +1,61 @@
 {
   "title": "learn anything - information theory - signals",
   "tag": "",
-  "nodes": [
-    {
-      "text": "signals",
-      "url": "http://www.wikiwand.com/en/Signal",
-      "fx": 27.00390625,
-      "fy": -223.64453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 43.019848493647714,
-      "fy": -83.71247174864294,
-      "nodes": [
-        {
-          "text": "1. what is a signal?",
-          "url": "https://www.youtube.com/watch?v=M0mx8S05v60",
-          "fx": 199.01984849364771,
-          "fy": -72.21247174864294,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 660,
+  "map": {
+    "text": "signals",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "signal processing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals/signal-processing",
+                "text": "signal processing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=M0mx8S05v60",
+            "text": "1. what is a signal?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Signal",
+        "text": "signals",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "signal processing  ️",
-      "url": "/information-theory/signals/signal-processing",
-      "fx": -94.94837353801131,
-      "fy": 65.1126644736841,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "signals",
-      "target": "basics",
-      "curve": {
-        "x": -0.242029,
-        "y": 68.716
       }
-    },
-    {
-      "source": "basics",
-      "target": "signal processing  ️",
-      "curve": {
-        "x": -36.9841,
-        "y": 75.6626
-      }
-    }
-  ],
-  "id": 660
+    ],
+    "author": ""
+  }
 }

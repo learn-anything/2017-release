@@ -1,58 +1,61 @@
 {
   "title": "learn anything - information theory - signals - signal processing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "signal processing",
-      "url": "http://www.wikiwand.com/en/Signal_processing",
-      "fx": 104.21029143879753,
-      "fy": -269.1636764052973,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 153.0954751043762,
-      "fy": -142.3975687753993,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=YmSvQe2FDKs",
-          "fx": 316.0954751043762,
-          "fy": -129.8975687753993,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 659,
+  "map": {
+    "text": "signal processing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "digital signal processing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals/signal-processing/digital-signal-processing",
+                "text": "digital signal processing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YmSvQe2FDKs",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Signal_processing",
+        "text": "signal processing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "digital signal processing  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing",
-      "fx": -64.9562524202251,
-      "fy": -17.903338507591457,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "signal processing",
-      "target": "basics",
-      "curve": {
-        "x": -7.55739,
-        "y": 62.133
       }
-    },
-    {
-      "source": "basics",
-      "target": "digital signal processing  ️",
-      "curve": {
-        "x": -58.0259,
-        "y": 62.9971
-      }
-    }
-  ],
-  "id": 659
+    ],
+    "author": ""
+  }
 }

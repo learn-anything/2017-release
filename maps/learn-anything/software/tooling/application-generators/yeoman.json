@@ -1,59 +1,62 @@
 {
   "title": "learn anything - software - tooling - application generators - yeoman",
   "tag": "Yeoman generator",
-  "nodes": [
-    {
-      "text": "yeoman",
-      "url": "http://yeoman.io/",
-      "fx": -52.12109375,
-      "fy": -146.04296875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/yeoman",
-          "fx": 125.87890625,
-          "fy": -154.54296875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/dar5hak/generator-awesome-list",
-          "fx": 125.87890625,
-          "fy": -112.54296875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -50.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. getting started",
-          "url": "http://yeoman.io/authoring/index.html",
-          "fx": 112.5,
-          "fy": 13,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "yeoman",
-      "target": "basics",
-      "curve": {
-        "x": -2.93945,
-        "y": 72.0215
+  "id": 1796,
+  "map": {
+    "text": "yeoman",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://yeoman.io/authoring/index.html",
+            "text": "1. getting started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1793
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/yeoman",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/dar5hak/generator-awesome-list",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://yeoman.io/",
+        "text": "yeoman",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

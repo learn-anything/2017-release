@@ -1,67 +1,72 @@
 {
   "title": "learn anything - data science - data mining - cluster analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cluster analysis",
-      "url": "http://www.wikiwand.com/en/Cluster_analysis",
-      "fx": 49.23046875,
-      "fy": -228.015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 101.79296875,
-      "fy": -83.92471590909093,
-      "nodes": [
-        {
-          "text": "1. cluster analysis &amp; cluster validation",
-          "url": "https://www.youtube.com/watch?v=PBKxZkOzGxY",
-          "fx": 257.79296875,
-          "fy": -114.42471590909093,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. introduction to cluster analysis with R",
-          "url": "https://www.youtube.com/watch?v=5eDqRysaico",
-          "fx": 257.79296875,
-          "fy": -52.424715909090935,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 389,
+  "map": {
+    "text": "cluster analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "k-means clustering  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-mining/cluster-analysis/k-means-clustering",
+                "text": "k-means clustering  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=PBKxZkOzGxY",
+            "text": "1. cluster analysis &amp; cluster validation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=5eDqRysaico",
+            "text": "1. introduction to cluster analysis with R",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cluster_analysis",
+        "text": "cluster analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "k-means clustering  ️",
-      "url": "/data-science/data-mining/cluster-analysis/k-means-clustering",
-      "fx": -90.56160812073131,
-      "fy": 49.657246569384824,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cluster analysis",
-      "target": "basics",
-      "curve": {
-        "x": -0.71875,
-        "y": 70.7955
       }
-    },
-    {
-      "source": "basics",
-      "target": "k-means clustering  ️",
-      "curve": {
-        "x": -67.6773,
-        "y": 66.791
-      }
-    }
-  ],
-  "id": 389
+    ],
+    "author": ""
+  }
 }

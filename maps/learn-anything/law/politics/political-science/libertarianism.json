@@ -1,84 +1,90 @@
 {
   "title": "learn anything - law - politics - political science - libertarianism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "libertarianism",
-      "url": "http://www.wikiwand.com/en/Libertarianism",
-      "fx": -77.6796875,
-      "fy": -275.7456896551723,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Libertarian/",
-          "fx": 181.3203125,
-          "fy": -261.7456896551723,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 672,
+  "map": {
+    "text": "libertarianism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "agorism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/politics/political-science/libertarianism/agorism",
+                "text": "agorism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "counter-economics",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Counter-economics",
+                "text": "counter-economics",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-2kHLTA9zO0",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Libertarian/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -34.48581004142761,
-      "fy": -113.84969329833984,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=-2kHLTA9zO0",
-          "fx": 128.5141899585724,
-          "fy": -101.34969329833984,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Libertarianism",
+        "text": "libertarianism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "agorism  ️",
-      "url": "/law/politics/political-science/libertarianism/agorism",
-      "fx": -141.70615067349365,
-      "fy": 41.465540321777326,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "counter-economics",
-      "url": "http://www.wikiwand.com/en/Counter-economics",
-      "fx": 31.767741694111237,
-      "fy": 42.18461308020426,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "libertarianism",
-      "target": "basics",
-      "curve": {
-        "x": -2.40306,
-        "y": 80.198
       }
-    },
-    {
-      "source": "basics",
-      "target": "agorism  ️",
-      "curve": {
-        "x": -49.8602,
-        "y": 77.6576
-      }
-    },
-    {
-      "source": "basics",
-      "target": "counter-economics",
-      "curve": {
-        "x": 73.3765,
-        "y": 78.7671
-      }
-    }
-  ],
-  "id": 672
+    ],
+    "author": ""
+  }
 }

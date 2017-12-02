@@ -1,65 +1,78 @@
 {
   "title": "learn anything - design - design languages",
   "tag": "",
-  "nodes": [
-    {
-      "text": "design language",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Design_language",
-      "fx": -247.1633447643685,
-      "fy": -357.94343615061047,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "flat design",
-      "url": "http://www.wikiwand.com/en/Flat_design",
-      "fx": -215.4000466489067,
-      "fy": -231.39052477610215,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "material design  ️",
-      "url": "/design/design-languages/material-design",
-      "fx": -37.85518926165287,
-      "fy": -228.92968307258474,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "fluent design",
-      "url": "http://fluent.microsoft.com/",
-      "fx": -440.17827188745724,
-      "fy": -188.5873395157148,
-      "nodes": []
-    }
-  ],
-  "connections": [
-    {
-      "source": "design language",
-      "target": "material design  ️",
-      "curve": {
-        "x": 101.654,
-        "y": 64.5068
+  "id": 423,
+  "map": {
+    "text": "design language",
+    "note": "",
+    "nodes": [
+      {
+        "text": "material design  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/design/design-languages/material-design",
+            "text": "material design  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "flat design",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Flat_design",
+            "text": "flat design",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "fluent design",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://fluent.microsoft.com/",
+            "text": "fluent design",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "design language",
-      "target": "flat design",
-      "curve": {
-        "x": 1.88165,
-        "y": 63.2765
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Design_language",
+        "text": "design language",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "design language",
-      "target": "fluent design",
-      "curve": {
-        "x": -105.007,
-        "y": 84.6781
-      }
-    }
-  ],
-  "id": 423
+    ],
+    "author": ""
+  }
 }

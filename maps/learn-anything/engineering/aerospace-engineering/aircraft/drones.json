@@ -1,51 +1,53 @@
 {
   "title": "learn anything - engineering - aerospace engineering - aircraft - drones",
   "tag": "",
-  "nodes": [
-    {
-      "text": "drones",
-      "url": "http://www.wikiwand.com/en/Unmanned_aerial_vehicle",
-      "fx": -59.69140625,
-      "fy": -134.46484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. how do drones work?",
-          "url": "https://www.youtube.com/watch?v=d250ix-tyew",
-          "fx": 109.5,
-          "fy": -21.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how do quadcopter and multi copters fly?",
-          "url": "https://www.youtube.com/watch?v=Z_T6LBwuBKY",
-          "fx": 109.5,
-          "fy": 18.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "drones",
-      "target": "basics",
-      "curve": {
-        "x": 5.3457,
-        "y": 66.2324
+  "id": 508,
+  "map": {
+    "text": "drones",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=d250ix-tyew",
+            "text": "1. how do drones work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Z_T6LBwuBKY",
+            "text": "1. how do quadcopter and multi copters fly?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 508
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Unmanned_aerial_vehicle",
+        "text": "drones",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

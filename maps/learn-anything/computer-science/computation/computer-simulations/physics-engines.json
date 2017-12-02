@@ -1,50 +1,52 @@
 {
   "title": "learn anything - computer science - computation - computer simulations - physics engines",
   "tag": "",
-  "nodes": [
-    {
-      "text": "physics engines",
-      "url": "http://www.wikiwand.com/en/Physics_engine",
-      "fx": -76.84765625,
-      "fy": -199.78515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -30.19921875,
-      "fy": -52.3984375,
-      "nodes": [
-        {
-          "text": "1. intro to physics engines",
-          "url": "https://www.youtube.com/watch?v=wB1pcXtEwIs",
-          "fx": 125.80078125,
-          "fy": -57.8984375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. physics engines for dummies",
-          "url": "https://wildbunny.co.uk/blog/2011/04/06/physics-engines-for-dummies/",
-          "fx": 125.80078125,
-          "fy": -17.8984375,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "physics engines",
-      "target": "basics",
-      "curve": {
-        "x": -5.42578,
-        "y": 72.4434
+  "id": 299,
+  "map": {
+    "text": "physics engines",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wB1pcXtEwIs",
+            "text": "1. intro to physics engines",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://wildbunny.co.uk/blog/2011/04/06/physics-engines-for-dummies/",
+            "text": "1. physics engines for dummies",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 299
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Physics_engine",
+        "text": "physics engines",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,97 +1,107 @@
 {
   "title": "learn anything - law - rights - human rights",
   "tag": "",
-  "nodes": [
-    {
-      "text": "human rights",
-      "url": "http://www.wikiwand.com/en/Human_rights",
-      "fx": -67.33586379716974,
-      "fy": -284.26897560384054,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -61.93337264150966,
-      "fy": -31.362795647570863,
-      "nodes": [
-        {
-          "text": "1. what are the universal human rights?",
-          "url": "https://www.youtube.com/watch?v=oh3BbLk5UIQ",
-          "fx": 120.06662735849034,
-          "fy": -58.86279564757086,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. universal declaration of human rights",
-          "url": "http://www.un.org/en/universal-declaration-human-rights/",
-          "fx": 120.06662735849034,
-          "fy": 3.137204352429137,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 679,
+  "map": {
+    "text": "human rights",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "human rights activists",
+            "nodes": [
+              {
+                "text": "amnesty",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.amnesty.org/en/",
+                    "text": "amnesty",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "human rights watch",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.hrw.org/",
+                    "text": "human rights watch",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://www.wikiwand.com/en/Human_rights_activists",
+                "text": "human rights activists",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oh3BbLk5UIQ",
+            "text": "1. what are the universal human rights?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.un.org/en/universal-declaration-human-rights/",
+            "text": "2. universal declaration of human rights",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Human_rights",
+        "text": "human rights",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "human rights activists",
-      "url": "https://www.wikiwand.com/en/Human_rights_activists",
-      "fx": -273.2607421875,
-      "fy": 99.96875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "human rights watch",
-      "url": "https://www.hrw.org/",
-      "fx": -159.8818359375,
-      "fy": 224.5927734375,
-      "nodes": []
-    },
-    {
-      "text": "amnesty",
-      "url": "https://www.amnesty.org/en/",
-      "fx": -310.2461166381836,
-      "fy": 225.50586318969727,
-      "nodes": []
-    }
-  ],
-  "connections": [
-    {
-      "source": "human rights",
-      "target": "basics",
-      "curve": {
-        "x": -19.5488,
-        "y": 125.203
       }
-    },
-    {
-      "source": "basics",
-      "target": "human rights activists",
-      "curve": {
-        "x": -77.6637,
-        "y": 65.6658
-      }
-    },
-    {
-      "source": "human rights activists",
-      "target": "amnesty",
-      "curve": {
-        "x": -55.4927,
-        "y": 61.5186
-      }
-    },
-    {
-      "source": "human rights activists",
-      "target": "human rights watch",
-      "curve": {
-        "x": 44.6914,
-        "y": 62.5278
-      }
-    }
-  ],
-  "id": 679
+    ],
+    "author": ""
+  }
 }

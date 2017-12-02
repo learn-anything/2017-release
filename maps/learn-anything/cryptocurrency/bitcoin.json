@@ -1,194 +1,179 @@
 {
   "title": "learn anything - cryptocurrency - bitcoin",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bitcoin",
-      "url": "http://www.wikiwand.com/en/Bitcoin",
-      "fx": -133.57476872983204,
-      "fy": -412.43298876684696,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/btc/",
-          "fx": 62.425231270167956,
-          "fy": -440.43298876684696,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://bitcoin.stackexchange.com/",
-          "fx": 62.425231270167956,
-          "fy": -398.43298876684696,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/igorbarinov/awesome-bitcoin",
-          "fx": 62.425231270167956,
-          "fy": -356.43298876684696,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 2.11943828731944,
-      "fy": -208.55960812013427,
-      "nodes": [
-        {
-          "text": "real time bitcoin",
-          "url": "https://realtimebitcoin.info/",
-          "fx": 143.11943828731944,
-          "fy": -300.05960812013427,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "14: best resources for learning to build bitcoin and block chain applications  ️",
-          "url": "https://medium.com/zapchain-magazine/the-best-resources-for-learning-to-build-bitcoin-and-block-chain-applications-8de1953506f5",
-          "fx": 143.11943828731944,
-          "fy": -258.05960812013427,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "bitcoin forum",
-          "url": "https://bitcointalk.org/index.php",
-          "fx": 143.11943828731944,
-          "fy": -166.05960812013427,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "CoinSalad",
-          "note": "Bitcoin market stats and charting data on some key components of the Bitcoin network",
-          "url": "https://coinsalad.com/",
-          "fx": 143.11943828731944,
-          "fy": -129.05960812013427,
-          "nodes": [],
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "notes on bitcoin",
-          "url": "https://www.reddit.com/r/cscareerquestions/comments/6hmlxr/what_are_the_most_indemand_software_skills_right/dizweb1/",
-          "fx": 143.11943828731944,
-          "fy": -92.05960812013427,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 254, 60, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -236.02216171027715,
-      "fy": 121.58456648323431,
-      "nodes": [
-        {
-          "text": "1 how bitcoin works",
-          "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4&amp;t=540s",
-          "fx": -47.022161710277146,
-          "fy": 4.084566483234312,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "1. bitcoin: a peer-to-peer electronic cash system",
-          "url": "https://bitcoin.org/bitcoin.pdf",
-          "fx": -47.022161710277146,
-          "fy": 46.08456648323431,
-          "nodes": [
-            {
-              "text": "annotated",
-              "url": "http://fermatslibrary.com/s/bitcoin",
-              "fx": 259.97783828972285,
-              "fy": 61.08456648323431,
-              "nodes": [],
-              "color": "rgba(104, 255, 109, 1.0)"
+  "id": 363,
+  "map": {
+    "text": "bitcoin",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://realtimebitcoin.info/",
+            "text": "real time bitcoin",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. mastering bitcoin",
-          "url": "https://github.com/bitcoinbook/bitcoinbook",
-          "fx": -47.022161710277146,
-          "fy": 113.08456648323431,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. how the bitcoin protocol actually works  ️",
-          "url": "http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/",
-          "fx": -47.022161710277146,
-          "fy": 155.0845664832343,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1. bitcoin explained with emojis",
-          "url": "",
-          "fx": -47.022161710277146,
-          "fy": 245.5845664832343,
-          "nodes": [
-            {
-              "text": "part I  ️",
-              "url": "https://medium.com/@tessr/making-money-530d2bb2b8f7",
-              "fx": 306.97783828972285,
-              "fy": 222.0845664832343,
-              "nodes": [],
-              "category": "article",
-              "color": "rgba(255, 254, 60, 1.0)"
-            },
-            {
-              "text": "part II  ️",
-              "url": "https://medium.com/@tessr/making-money-trustworthy-6c552a1cfc25",
-              "fx": 306.97783828972285,
-              "fy": 264.0845664832343,
-              "nodes": [],
-              "category": "article",
-              "color": "rgba(255, 254, 60, 1.0)"
+          },
+          {
+            "url": "https://medium.com/zapchain-magazine/the-best-resources-for-learning-to-build-bitcoin-and-block-chain-applications-8de1953506f5",
+            "text": "14: best resources for learning to build bitcoin and block chain applications  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(255, 254, 60, 1.0)"
+          },
+          {
+            "url": "https://bitcointalk.org/index.php",
+            "text": "bitcoin forum",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://coinsalad.com/",
+            "text": "CoinSalad",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/cscareerquestions/comments/6hmlxr/what_are_the_most_indemand_software_skills_right/dizweb1/",
+            "text": "notes on bitcoin",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4&amp;t=540s",
+            "text": "1 how bitcoin works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://bitcoin.org/bitcoin.pdf",
+            "text": "1. bitcoin: a peer-to-peer electronic cash system",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/bitcoinbook/bitcoinbook",
+            "text": "1. mastering bitcoin",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/",
+            "text": "1. how the bitcoin protocol actually works  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "",
+            "text": "1. bitcoin explained with emojis",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/btc/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "bitcoin",
-      "curve": {
-        "x": -55.3471,
-        "y": -100.687
+      },
+      {
+        "url": "https://bitcoin.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/igorbarinov/awesome-bitcoin",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Bitcoin",
+        "text": "bitcoin",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "bitcoin",
-      "target": "basics",
-      "curve": {
-        "x": -58.9736,
-        "y": 265.759
-      }
-    }
-  ],
-  "id": 363
+    ],
+    "author": ""
+  }
 }

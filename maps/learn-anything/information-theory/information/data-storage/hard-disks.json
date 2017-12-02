@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - information - data storage - hard disks",
   "tag": "hark disk drives",
-  "nodes": [
-    {
-      "text": "hard disk drives",
-      "url": "http://www.wikiwand.com/en/Hard_disk_drive",
-      "fx": 153.734375,
-      "fy": -255.41015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 205.46484375,
-      "fy": -129.49609375,
-      "nodes": [
-        {
-          "text": "1. hard drives explained  ️",
-          "url": "http://www.explainthatstuff.com/harddrive.html",
-          "fx": 361.46484375,
-          "fy": -117.99609375,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "hard disk drives",
-      "target": "basics",
-      "curve": {
-        "x": -2.38477,
-        "y": 61.707
+  "id": 639,
+  "map": {
+    "text": "hard disk drives",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.explainthatstuff.com/harddrive.html",
+            "text": "1. hard drives explained  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 639
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Hard_disk_drive",
+        "text": "hard disk drives",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

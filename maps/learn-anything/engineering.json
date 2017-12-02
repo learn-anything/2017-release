@@ -1,319 +1,354 @@
 {
   "title": "learn anything - engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "engineering",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Engineering",
-      "fx": 278.0591612347001,
-      "fy": -88.55880184507521,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/AskEngineers/",
-          "fx": 536.0591612347001,
-          "fy": -74.55880184507521,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 542,
+  "map": {
+    "text": "engineering",
+    "note": "",
+    "nodes": [
+      {
+        "text": "electrical engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/electrical-engineering",
+            "text": "electrical engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "civil engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/civil-engineering",
+            "text": "civil engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "mechanical engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/mechanical-engineering",
+            "text": "mechanical engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "aerospace engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/aerospace-engineering",
+            "text": "aerospace engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "biomedical engineering",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Biomedical_engineering",
+            "text": "biomedical engineering",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "computer engineering",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Computer_engineering",
+            "text": "computer engineering",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "industrial engineering",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Industrial_engineering",
+            "text": "industrial engineering",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "chemical engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/chemical-engineering",
+            "text": "chemical engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "robotics  ️",
+        "note": "deals with design, construction, operation and use of robots, as well as computer systems for their control, sensory feedback, and information processing  these technologies are used to develop machines that can substitute for humans  robots can be used in any situation and for any purpose",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/robotics",
+            "text": "robotics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/KimberlyMunoz/empathy-in-engineering",
+            "text": "empathy in engineering",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/engineerguyvideo/featured",
+            "text": "engineer guy",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "mechatronics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/mechatronics",
+            "text": "mechatronics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "control theory  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/control-theory",
+            "text": "control theory  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "domain engineering",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Domain_engineering",
+            "text": "domain engineering",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "computer engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/computer-engineering",
+            "text": "computer engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "audio engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/audio-engineering",
+            "text": "audio engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "bionics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/bionics",
+            "text": "bionics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "manufacturing engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/engineering/manufacturing-engineering",
+            "text": "manufacturing engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/AskEngineers/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 893.2255486002502,
-      "fy": -71.53667099672333,
-      "nodes": [
-        {
-          "text": "empathy in engineering",
-          "url": "https://github.com/KimberlyMunoz/empathy-in-engineering",
-          "fx": 1030.2255486002502,
-          "fy": -80.03667099672333,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "engineer guy",
-          "url": "https://www.youtube.com/user/engineerguyvideo/featured",
-          "fx": 1030.2255486002502,
-          "fy": -40.03667099672333,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Engineering",
+        "text": "engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "mechanical engineering  ️",
-      "url": "/engineering/mechanical-engineering",
-      "fx": 53.58392333984375,
-      "fy": 192.07770919799805,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer engineering  ️",
-      "url": "/engineering/computer-engineering",
-      "fx": -1611.6077161538958,
-      "fy": 192.78640391189361,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "aerospace engineering  ️",
-      "url": "/engineering/aerospace-engineering",
-      "fx": 342.19132232666016,
-      "fy": 193.01269149780273,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "robotics  ️",
-      "note": "deals with design, construction, operation and use of robots, as well as computer systems for their control, sensory feedback, and information processing  these technologies are used to develop machines that can substitute for humans  robots can be used in any situation and for any purpose",
-      "url": "/engineering/robotics",
-      "fx": -355.61792755126953,
-      "fy": 194.88153076171852,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "domain engineering",
-      "url": "http://www.wikiwand.com/en/Domain_engineering",
-      "fx": -1323.0885739063156,
-      "fy": 194.9191585379864,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "bionics  ️",
-      "url": "/engineering/bionics",
-      "fx": -1992.6344675268097,
-      "fy": 195.72375055407764,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mechatronics  ️",
-      "url": "/engineering/mechatronics",
-      "fx": -853.0446428571427,
-      "fy": 195.95758928571428,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "civil engineering  ️",
-      "url": "/engineering/civil-engineering",
-      "fx": -165.49814701080322,
-      "fy": 198.0479850769043,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "audio engineering  ️",
-      "url": "/engineering/audio-engineering",
-      "fx": -1851.8366955500153,
-      "fy": 198.22155789907197,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "biomedical engineering",
-      "url": "http://www.wikiwand.com/en/Biomedical_engineering",
-      "fx": 632.7463942307695,
-      "fy": 198.2922676282053,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "electrical engineering  ️",
-      "url": "/engineering/electrical-engineering",
-      "fx": -640.5023205981502,
-      "fy": 198.60651974403055,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "control theory  ️",
-      "url": "/engineering/control-theory",
-      "fx": -1053.284182250657,
-      "fy": 199.40223097114142,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer engineering",
-      "url": "http://www.wikiwand.com/en/Computer_engineering",
-      "fx": 930.7167583594382,
-      "fy": 199.96365081138617,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "industrial engineering",
-      "url": "http://www.wikiwand.com/en/Industrial_engineering",
-      "fx": 1204.2606154221758,
-      "fy": 202.08609468509007,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "chemical engineering  ️",
-      "url": "/engineering/chemical-engineering",
-      "fx": 1472.9931030273438,
-      "fy": 202.21875762939453,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "manufacturing engineering  ️",
-      "url": "/engineering/manufacturing-engineering",
-      "fx": 1739.1375487029,
-      "fy": 205.26468639031725,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "engineering",
-      "target": "electrical engineering  ️",
-      "curve": {
-        "x": -538.459,
-        "y": 126.251
       }
-    },
-    {
-      "source": "engineering",
-      "target": "civil engineering  ️",
-      "curve": {
-        "x": -211.279,
-        "y": 143.303
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "mechanical engineering  ️",
-      "curve": {
-        "x": -82.2374,
-        "y": 140.317
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "aerospace engineering  ️",
-      "curve": {
-        "x": 50.5665,
-        "y": 140.785
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "biomedical engineering",
-      "curve": {
-        "x": 196.594,
-        "y": 143.424
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "computer engineering",
-      "curve": {
-        "x": 343.079,
-        "y": 144.26
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "industrial engineering",
-      "curve": {
-        "x": 478.101,
-        "y": 145.321
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "chemical engineering  ️",
-      "curve": {
-        "x": 686.84,
-        "y": 145.388
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "robotics  ️",
-      "curve": {
-        "x": -331.338,
-        "y": 141.72
-      }
-    },
-    {
-      "source": "help",
-      "target": "engineering",
-      "curve": {
-        "x": -276.761,
-        "y": 22.6926
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "mechatronics  ️",
-      "curve": {
-        "x": -655.887,
-        "y": 91.0378
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "control theory  ️",
-      "curve": {
-        "x": -811.808,
-        "y": 55.569
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "domain engineering",
-      "curve": {
-        "x": -991.815,
-        "y": 68.3902
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "computer engineering  ️",
-      "curve": {
-        "x": -1055.28,
-        "y": 35.4232
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "audio engineering  ️",
-      "curve": {
-        "x": -1383.92,
-        "y": 48.6929
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "bionics  ️",
-      "curve": {
-        "x": -1496.05,
-        "y": 55.868
-      }
-    },
-    {
-      "source": "engineering",
-      "target": "manufacturing engineering  ️",
-      "curve": {
-        "x": 1008.77,
-        "y": 160.486
-      }
-    }
-  ],
-  "id": 542
+    ],
+    "author": ""
+  }
 }

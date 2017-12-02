@@ -1,156 +1,156 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - lsd",
   "tag": "LSD",
-  "nodes": [
-    {
-      "text": "LSD",
-      "url": "https://psychonautwiki.org/w/index.php/LSD",
-      "fx": 136.33141437469897,
-      "fy": -590.7634847436207,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/LSD/",
-          "fx": 302.33141437469897,
-          "fy": -576.7634847436207,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 259.0874432095692,
-      "fy": -416.53050523591725,
-      "nodes": [
-        {
-          "text": "interview with Stanislav Grof",
-          "url": "https://www.youtube.com/watch?v=5ig3eU_oDS0&amp;feature=youtu.be",
-          "fx": 450.0874432095692,
-          "fy": -496.03050523591725,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "structure of LSD and its receptor explains its potency  ️",
-          "url": "https://www.eurekalert.org/pub_releases/2017-01/cp-sol011917.php",
-          "fx": 450.0874432095692,
-          "fy": -456.03050523591725,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "trippy art",
-          "url": "http://imgur.com/a/auarM",
-          "fx": 450.0874432095692,
-          "fy": -394.03050523591725,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "psychedelic replications",
-          "url": "http://imgur.com/a/ep7CH",
-          "fx": 450.0874432095692,
-          "fy": -354.03050523591725,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "visual drifting on LSD",
-          "url": "https://gfycat.com/MarvelousHiddenAmericankestrel",
-          "fx": 450.0874432095692,
-          "fy": -314.03050523591725,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(49, 187, 71, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "papers",
-      "url": "",
-      "fx": 465.8561326794095,
-      "fy": -195.71031255930285,
-      "nodes": [
-        {
-          "text": "16: crystal structure of an LSD-bound human serotonin receptor",
-          "url": "http://www.cell.com/cell/fulltext/S0092-8674%2816%2931749-4",
-          "fx": 626.8561326794095,
-          "fy": -206.21031255930285,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 59.4832807052685,
-      "fy": -39.959651907419584,
-      "nodes": [
-        {
-          "text": "1. your brain on LSD",
-          "url": "https://www.youtube.com/watch?v=wG5JyorwYPo&amp;t=141s",
-          "fx": 215.4832807052685,
-          "fy": -90.45965190741958,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. the first modern images of a human brain on LSD",
-          "url": "https://www.youtube.com/watch?v=kvalFfavNpU",
-          "fx": 215.4832807052685,
-          "fy": -50.459651907419584,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. Alan Watts - the use of LSD and psilocybin",
-          "url": "https://www.youtube.com/watch?v=4l90LMpSJM4",
-          "fx": 215.4832807052685,
-          "fy": 11.540348092580416,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "LSD",
-      "target": "basics",
-      "curve": {
-        "x": -40.9241,
-        "y": 274.151
+  "id": 158,
+  "map": {
+    "text": "LSD",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wG5JyorwYPo&amp;t=141s",
+            "text": "1. your brain on LSD",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kvalFfavNpU",
+            "text": "2. the first modern images of a human brain on LSD",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4l90LMpSJM4",
+            "text": "2. Alan Watts - the use of LSD and psilocybin",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [
+          {
+            "text": "papers",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.cell.com/cell/fulltext/S0092-8674%2816%2931749-4",
+                "text": "16: crystal structure of an LSD-bound human serotonin receptor",
+                "category": "paper",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=5ig3eU_oDS0&amp;feature=youtu.be",
+            "text": "interview with Stanislav Grof",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.eurekalert.org/pub_releases/2017-01/cp-sol011917.php",
+            "text": "structure of LSD and its receptor explains its potency  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://imgur.com/a/auarM",
+            "text": "trippy art",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://imgur.com/a/ep7CH",
+            "text": "psychedelic replications",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://gfycat.com/MarvelousHiddenAmericankestrel",
+            "text": "visual drifting on LSD",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "LSD",
-      "curve": {
-        "x": -67.6281,
-        "y": -85.8665
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/LSD/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/w/index.php/LSD",
+        "text": "LSD",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "papers",
-      "target": "interesting",
-      "curve": {
-        "x": -121.107,
-        "y": -95.2954
-      }
-    }
-  ],
-  "id": 158
+    ],
+    "author": ""
+  }
 }

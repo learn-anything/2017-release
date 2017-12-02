@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - algorithms - search - breadth-first search",
   "tag": "breadth first search",
-  "nodes": [
-    {
-      "text": "breadth-first search",
-      "url": "http://www.wikiwand.com/en/Breadth-first_search",
-      "fx": -113.58203125,
-      "fy": -142.40234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -45.45703125,
-      "fy": 9.42578125,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=s-CYnVz-uh4",
-          "fx": 110.54296875,
-          "fy": 20.92578125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "breadth-first search",
-      "target": "basics",
-      "curve": {
-        "x": 1.5625,
-        "y": 74.6641
+  "id": 270,
+  "map": {
+    "text": "breadth-first search",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=s-CYnVz-uh4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 270
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Breadth-first_search",
+        "text": "breadth-first search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

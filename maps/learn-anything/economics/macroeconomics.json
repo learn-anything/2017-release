@@ -1,43 +1,43 @@
 {
   "title": "learn anything - economics - macroeconomics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "macroeconomics",
-      "url": "http://www.wikiwand.com/en/Macroeconomics",
-      "fx": -23.92578125,
-      "fy": -370.80859375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 30.5625,
-      "fy": -239.23046875,
-      "nodes": [
-        {
-          "text": "1. khan academy",
-          "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
-          "fx": 212.5625,
-          "fy": -227.73046875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "macroeconomics",
-      "target": "basics",
-      "curve": {
-        "x": -4.50586,
-        "y": 64.539
+  "id": 494,
+  "map": {
+    "text": "macroeconomics",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+            "text": "1. khan academy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 494
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Macroeconomics",
+        "text": "macroeconomics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

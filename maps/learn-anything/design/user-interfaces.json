@@ -1,145 +1,131 @@
 {
   "title": "learn anything - design - user interfaces",
   "tag": "ui design",
-  "nodes": [
-    {
-      "text": "user interfaces",
-      "url": "http://www.wikiwand.com/en/User_interface",
-      "fx": -169.16015625,
-      "fy": -112.5390625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -19.952993697479428,
-      "fy": -5.533646270991255,
-      "nodes": [
-        {
-          "text": "interface lovers",
-          "url": "https://interfacelovers.com/",
-          "fx": 117.04700630252057,
-          "fy": -11.033646270991255,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "code my UI  ️",
-          "url": "https://codemyui.com/",
-          "fx": 117.04700630252057,
-          "fy": 22.966353729008745,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 42.321703299572505,
-      "fy": 116.32900556997089,
-      "nodes": [
-        {
-          "text": "14: the utopian  UI  architect    ️",
-          "note": "Victor practices what he preaches: he doesn’t use computers to build better mousetraps, but to explore and communicate ideas in a way that uniquely exploits the properties and possibilities of a programmable, dynamic, interactive medium.",
-          "url": "https://medium.com/re-form/the-utopian-ui-architect-34dead42a28",
-          "fx": 204.3217032995725,
-          "fy": 76.82900556997089,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "16: thought as technology  ️",
-          "url": "http://cognitivemedium.com/tat/index.html",
-          "fx": 204.3217032995725,
-          "fy": 116.82900556997089,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "16: optimistic  UIs in under 1000 words  ️",
-          "url": "https://uxplanet.org/optimistic-1000-34d9eefe4c05",
-          "fx": 204.3217032995725,
-          "fy": 156.8290055699709,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "newsletters",
-      "url": "",
-      "fx": 185.10517598148454,
-      "fy": 281.4469211938955,
-      "nodes": [
-        {
-          "text": "get craftwork",
-          "url": "https://getcraftwork.com/",
-          "fx": 386.10517598148454,
-          "fy": 292.9469211938955,
-          "nodes": [],
-          "category": "newsletter",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -265.7176995798318,
-      "fy": 347.739036239496,
-      "nodes": [
-        {
-          "text": "1. design better user interfaces",
-          "url": "https://www.coursera.org/specializations/user-interface-design",
-          "fx": -83.71769957983179,
-          "fy": 359.239036239496,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "user interfaces",
-      "target": "basics",
-      "curve": {
-        "x": -74.0288,
-        "y": 228.889
+  "id": 443,
+  "map": {
+    "text": "user interfaces",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/specializations/user-interface-design",
+            "text": "1. design better user interfaces",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "newsletters",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://getcraftwork.com/",
+                    "text": "get craftwork",
+                    "category": "newsletter",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://medium.com/re-form/the-utopian-ui-architect-34dead42a28",
+                "text": "14: the utopian  UI  architect    ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://cognitivemedium.com/tat/index.html",
+                "text": "16: thought as technology  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://uxplanet.org/optimistic-1000-34d9eefe4c05",
+                "text": "16: optimistic  UIs in under 1000 words  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://interfacelovers.com/",
+            "text": "interface lovers",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://codemyui.com/",
+            "text": "code my UI  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "user interfaces",
-      "curve": {
-        "x": -44.1036,
-        "y": -52.2527
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/User_interface",
+        "text": "user interfaces",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -37.3873,
-        "y": -60.9313
-      }
-    },
-    {
-      "source": "newsletters",
-      "target": "articles",
-      "curve": {
-        "x": -81.1417,
-        "y": -82.559
-      }
-    }
-  ],
-  "id": 443
+    ],
+    "author": ""
+  }
 }

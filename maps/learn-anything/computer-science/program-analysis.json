@@ -1,58 +1,61 @@
 {
   "title": "learn anything - computer science - program analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "program analysis",
-      "url": "http://www.wikiwand.com/en/Program_analysis",
-      "fx": -93.3203125,
-      "fy": -149.3125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -32.77173457072615,
-      "fy": -20.909111582947446,
-      "nodes": [
-        {
-          "text": "1. overview of program analysis",
-          "url": "https://www.youtube.com/watch?v=ABqLrCf5BsA",
-          "fx": 123.22826542927385,
-          "fy": -9.409111582947446,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 338,
+  "map": {
+    "text": "program analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "static program analysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/program-analysis/static-program-analysis",
+                "text": "static program analysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ABqLrCf5BsA",
+            "text": "1. overview of program analysis",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Program_analysis",
+        "text": "program analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "static program analysis  ️",
-      "url": "/computer-science/program-analysis/static-program-analysis",
-      "fx": -181.43091946504853,
-      "fy": 120.14131559896339,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "program analysis",
-      "target": "basics",
-      "curve": {
-        "x": -0.975708,
-        "y": 62.9517
       }
-    },
-    {
-      "source": "basics",
-      "target": "static program analysis  ️",
-      "curve": {
-        "x": -36.8296,
-        "y": 70.5252
-      }
-    }
-  ],
-  "id": 338
+    ],
+    "author": ""
+  }
 }

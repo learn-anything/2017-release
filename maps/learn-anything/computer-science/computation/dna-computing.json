@@ -1,43 +1,43 @@
 {
   "title": "learn anything - computer science - computation - dna computing",
   "tag": "DNA computing",
-  "nodes": [
-    {
-      "text": "DNA computing",
-      "note": "DNA computing is the performing of computations using biological molecules rather than traditional silicon chips. In DNA computing, information is represented using the four-character genetic alphabet - A [adenine], G [guanine], C [cytosine], and T [thymine] - rather than the binary alphabet, which is a series of 1s and 0s used by traditional computers.",
-      "url": "http://www.wikiwand.com/en/DNA_computing",
-      "fx": -241.36328125,
-      "fy": -185.72265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -123.4921875,
-      "fy": -33.58203125,
-      "nodes": [
-        {
-          "text": "15: future computing: DNA hard drives",
-          "url": "https://www.youtube.com/watch?v=tBvd7OSDGgQ",
-          "fx": 67.5078125,
-          "fy": -33.08203125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "DNA computing",
-      "curve": {
-        "x": -34.1855,
-        "y": -74.8203
+  "id": 302,
+  "map": {
+    "text": "DNA computing",
+    "note": "DNA computing is the performing of computations using biological molecules rather than traditional silicon chips. In DNA computing, information is represented using the four-character genetic alphabet - A [adenine], G [guanine], C [cytosine], and T [thymine] - rather than the binary alphabet, which is a series of 1s and 0s used by traditional computers.",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tBvd7OSDGgQ",
+            "text": "15: future computing: DNA hard drives",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 302
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/DNA_computing",
+        "text": "DNA computing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

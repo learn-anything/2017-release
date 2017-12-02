@@ -1,305 +1,299 @@
 {
   "title": "learn anything - cognitive science - cognition - learning",
   "tag": "",
-  "nodes": [
-    {
-      "text": "learning",
-      "url": "http://www.wikiwand.com/en/Learning",
-      "fx": -70.06164180581811,
-      "fy": -302.88465581804496,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 79.24923860704575,
-      "fy": -125.71371636677839,
-      "nodes": [
-        {
-          "text": "how to study based on how memory works",
-          "url": "https://www.reddit.com/r/AskReddit/comments/2b0yf8/good_students_how_do_you_go_about_getting_good/cj0qre2/",
-          "fx": 220.24923860704575,
-          "fy": -196.21371636677839,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "getting things done by David Allen",
-          "url": "https://www.youtube.com/watch?v=xfnAK69XUVo",
-          "fx": 220.24923860704575,
-          "fy": -129.21371636677839,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "how can I improve my focus",
-          "url": "https://www.quora.com/How-can-I-improve-my-focus-10/answer/Yishan-Wong?share=1",
-          "fx": 220.24923860704575,
-          "fy": -62.213716366778385,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "notes on learning",
-          "url": "https://www.simongriffee.com/what/learning/",
-          "fx": 220.24923860704575,
-          "fy": -25.213716366778385,
-          "nodes": [],
-          "color": "rgba(252, 177, 20, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 157.0956825158678,
-      "fy": 67.9027381967515,
-      "nodes": [
-        {
-          "text": "17: learning without a mentor: how to become an expert programmer on your own  ️",
-          "url": "https://codewithoutrules.com/2017/04/17/learning-without-a-mentor/",
-          "fx": 326.0956825158678,
-          "fy": 21.9027381967515,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "the timer knows best: why i love the pomodoro technique  ️",
-          "url": "http://heydave.org/post/26317198789/the-timer-knows-best-why-i-love-the-pomodoro",
-          "fx": 326.0956825158678,
-          "fy": 113.9027381967515,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 332.21297191697954,
-      "fy": 242.38345910969065,
-      "nodes": [
-        {
-          "text": "13: good enough good enough",
-          "url": "https://www.youtube.com/watch?v=gHG9FRSlPxw",
-          "fx": 475.21297191697954,
-          "fy": 242.38345910969065,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 549.2532558150672,
-      "fy": 372.50087924529373,
-      "nodes": [
-        {
-          "text": "1939: the usefulness of useless knowledge",
-          "url": "http://fermatslibrary.com/s/the-usefulness-of-useless-knowledge",
-          "fx": 748.2532558150672,
-          "fy": 339.00087924529373,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "Alan Watts - learning the human game",
-          "url": "https://www.youtube.com/watch?v=4dXlLpsU0ao",
-          "fx": 748.2532558150672,
-          "fy": 406.00087924529373,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -196.44666841298442,
-      "fy": 491.74862253770493,
-      "nodes": [
-        {
-          "text": "1. how to study  ️",
-          "url": "http://www.cse.buffalo.edu/~rapaport/howtostudy.html",
-          "fx": -7.4466684129844225,
-          "fy": 386.74862253770493,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. learning how to learn",
-          "url": "https://www.coursera.org/learn/learning-how-to-learn",
-          "fx": -7.4466684129844225,
-          "fy": 428.74862253770493,
-          "nodes": [
-            {
-              "text": "based on this book",
-              "url": "http://www.goodreads.com/book/show/18693655-a-mind-for-numbers",
-              "fx": 305.5533315870156,
-              "fy": 428.74862253770493,
-              "nodes": [],
-              "category": "non-free book",
-              "color": "rgba(0, 224, 161, 1.0)"
+  "id": 193,
+  "map": {
+    "text": "learning",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "talks",
+                "nodes": [
+                  {
+                    "text": "interesting",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://fermatslibrary.com/s/the-usefulness-of-useless-knowledge",
+                        "text": "1939: the usefulness of useless knowledge",
+                        "category": "paper",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      },
+                      {
+                        "url": "https://www.youtube.com/watch?v=4dXlLpsU0ao",
+                        "text": "Alan Watts - learning the human game",
+                        "category": "video",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=gHG9FRSlPxw",
+                    "text": "13: good enough good enough",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://codewithoutrules.com/2017/04/17/learning-without-a-mentor/",
+                "text": "17: learning without a mentor: how to become an expert programmer on your own  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://heydave.org/post/26317198789/the-timer-knows-best-why-i-love-the-pomodoro",
+                "text": "the timer knows best: why i love the pomodoro technique  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/AskReddit/comments/2b0yf8/good_students_how_do_you_go_about_getting_good/cj0qre2/",
+            "text": "how to study based on how memory works",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "course",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. how to learn on your own  ️",
-          "url": "https://metacademy.org/roadmaps/rgrosse/learn_on_your_own",
-          "fx": -7.4466684129844225,
-          "fy": 470.74862253770493,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. why procrastinator’s procrastinate  ️",
-          "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
-          "fx": -7.4466684129844225,
-          "fy": 512.7486225377049,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1. study less, study smart",
-          "url": "https://www.youtube.com/watch?v=IlU-zDU6aQ0&amp;feature=youtu.be",
-          "fx": -7.4466684129844225,
-          "fy": 579.7486225377049,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "1. project based learning  ️",
-          "url": "https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca",
-          "fx": -7.4466684129844225,
-          "fy": 621.7486225377049,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(169, 255, 0, 1.0)"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xfnAK69XUVo",
+            "text": "getting things done by David Allen",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.quora.com/How-can-I-improve-my-focus-10/answer/Yishan-Wong?share=1",
+            "text": "how can I improve my focus",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.simongriffee.com/what/learning/",
+            "text": "notes on learning",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "research  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/learning/research",
+                "text": "research  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "information mapping  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/learning/information-mapping",
+                "text": "information mapping  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "education  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/learning/education",
+                "text": "education  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "learning theories",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Learning_theory_(education)",
+                "text": "learning theories",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.cse.buffalo.edu/~rapaport/howtostudy.html",
+            "text": "1. how to study  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/learning-how-to-learn",
+            "text": "1. learning how to learn",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://metacademy.org/roadmaps/rgrosse/learn_on_your_own",
+            "text": "1. how to learn on your own  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
+            "text": "1. why procrastinator’s procrastinate  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=IlU-zDU6aQ0&amp;feature=youtu.be",
+            "text": "1. study less, study smart",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca",
+            "text": "1. project based learning  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Learning",
+        "text": "learning",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "information mapping  ️",
-      "url": "/cognitive-science/cognition/learning/information-mapping",
-      "fx": -448.7240447998047,
-      "fy": 743.5630035400391,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "education  ️",
-      "url": "/cognitive-science/cognition/learning/education",
-      "fx": -624.8569717407227,
-      "fy": 744.6863555908203,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "learning theories",
-      "url": "http://www.wikiwand.com/en/Learning_theory_(education)",
-      "fx": -865.9588068181815,
-      "fy": 746.8658815982408,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "research  ️",
-      "url": "/cognitive-science/cognition/learning/research",
-      "fx": -149.3407119444047,
-      "fy": 747.8032283689,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "basics",
-      "target": "research  ️",
-      "curve": {
-        "x": 3.55066,
-        "y": 131.129
       }
-    },
-    {
-      "source": "help",
-      "target": "learning",
-      "curve": {
-        "x": -59.4054,
-        "y": -87.3355
-      }
-    },
-    {
-      "source": "learning",
-      "target": "basics",
-      "curve": {
-        "x": -73.6925,
-        "y": 396.066
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -45.1732,
-        "y": -96.8083
-      }
-    },
-    {
-      "source": "basics",
-      "target": "information mapping  ️",
-      "curve": {
-        "x": -100.638,
-        "y": 125.907
-      }
-    },
-    {
-      "source": "basics",
-      "target": "education  ️",
-      "curve": {
-        "x": -222.993,
-        "y": 114.123
-      }
-    },
-    {
-      "source": "talks",
-      "target": "articles",
-      "curve": {
-        "x": -129.175,
-        "y": -64.8527
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "talks",
-      "curve": {
-        "x": -145.18,
-        "y": -49.0711
-      }
-    },
-    {
-      "source": "basics",
-      "target": "learning theories",
-      "curve": {
-        "x": -353.789,
-        "y": 95.8799
-      }
-    }
-  ],
-  "id": 193
+    ],
+    "author": ""
+  }
 }

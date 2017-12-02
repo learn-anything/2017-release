@@ -1,69 +1,63 @@
 {
   "title": "learn anything - health - nutrition - keto",
   "tag": "ketogenic diet",
-  "nodes": [
-    {
-      "text": "ketogenic diet",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Ketogenic_diet",
-      "fx": -55.69140625,
-      "fy": -238.2734375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/keto/",
-          "fx": 224.30859375,
-          "fy": -224.2734375,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/keto/wiki/faq#wiki",
-              "fx": 334.30859375,
-              "fy": -221.2734375,
-              "nodes": [],
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 615,
+  "map": {
+    "text": "ketogenic diet",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://keto-calculator.ankerl.com/",
+            "text": "keto calculator",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 76.6842296511627,
-      "fy": -117.47601744186039,
-      "nodes": [
-        {
-          "text": "keto calculator",
-          "url": "https://keto-calculator.ankerl.com/",
-          "fx": 213.6842296511627,
-          "fy": -130.9760174418604,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "practical resources to get started on keto",
-          "url": "http://www.ketonutrition.org/#",
-          "fx": 213.6842296511627,
-          "fy": -96.97601744186039,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "ketogenic diet",
-      "curve": {
-        "x": -36.9379,
-        "y": -59.1487
+          },
+          {
+            "url": "http://www.ketonutrition.org/#",
+            "text": "practical resources to get started on keto",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 615
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/keto/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ketogenic_diet",
+        "text": "ketogenic diet",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

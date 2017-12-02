@@ -1,100 +1,99 @@
 {
   "title": "learn anything - art - comics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "comics",
-      "url": "http://www.wikiwand.com/en/Comics",
-      "fx": 35.9375,
-      "fy": -284.62890625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/comics/",
-          "fx": 227.9375,
-          "fy": -270.62890625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 145.88243534482297,
-      "fy": -184.10251436780203,
-      "nodes": [
-        {
-          "text": "web comic name",
-          "url": "http://webcomicname.com/",
-          "fx": 336.88243534482297,
-          "fy": -186.60251436780203,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "comics in 3d",
-          "url": "https://sketchfab.com/models/ff42999893be418cb975df148a1463c1",
-          "fx": 336.88243534482297,
-          "fy": -152.60251436780203,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": 41.67343749999998,
-      "fy": -79.92031249999997,
-      "nodes": [
-        {
-          "text": "1. comics for beginners",
-          "url": "https://comicsforbeginners.com/",
-          "fx": 223.67343749999998,
-          "fy": -65.42031249999997,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "manga  ️",
-      "url": "/art/comics/manga",
-      "fx": -13.656047077922267,
-      "fy": 62.29971590909099,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "comics",
-      "curve": {
-        "x": -54.7225,
-        "y": -49.0132
+  "id": 13,
+  "map": {
+    "text": "comics",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://webcomicname.com/",
+            "text": "web comic name",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://sketchfab.com/models/ff42999893be418cb975df148a1463c1",
+            "text": "comics in 3d",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "manga  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/comics/manga",
+                "text": "manga  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://comicsforbeginners.com/",
+            "text": "1. comics for beginners",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "comics",
-      "target": "basics",
-      "curve": {
-        "x": -6.13203,
-        "y": 101.104
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/comics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Comics",
+        "text": "comics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "manga  ️",
-      "curve": {
-        "x": -32.9147,
-        "y": 71.11
-      }
-    }
-  ],
-  "id": 13
+    ],
+    "author": ""
+  }
 }

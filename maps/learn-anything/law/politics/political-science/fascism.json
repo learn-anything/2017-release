@@ -1,42 +1,42 @@
 {
   "title": "learn anything - law - politics - political science - fascism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fascism",
-      "url": "http://www.wikiwand.com/en/Fascism",
-      "fx": -66.61328125,
-      "fy": -120.109375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.reddit.com/r/AskHistorians/comments/22ox1w/what_is_fascism/cgoz902/",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fascism",
-      "target": "basics",
-      "curve": {
-        "x": 0.0566406,
-        "y": 57.8047
+  "id": 670,
+  "map": {
+    "text": "fascism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/AskHistorians/comments/22ox1w/what_is_fascism/cgoz902/",
+            "text": "1. explanation",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 670
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fascism",
+        "text": "fascism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

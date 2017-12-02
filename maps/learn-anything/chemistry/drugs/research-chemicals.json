@@ -1,93 +1,91 @@
 {
   "title": "learn anything - chemistry - drugs - research chemicals",
   "tag": "",
-  "nodes": [
-    {
-      "text": "research chemicals",
-      "url": "https://psychonautwiki.org/wiki/Research_chemicals",
-      "fx": -158.06742931547603,
-      "fy": -463.6625744047619,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/researchchemicals/",
-          "fx": 164.93257068452397,
-          "fy": -449.6625744047619,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 36.61108036050712,
-      "fy": -344.3234727932829,
-      "nodes": [
-        {
-          "text": "TripSit fact sheets",
-          "url": "http://drugs.tripsit.me/",
-          "fx": 177.61108036050712,
-          "fy": -371.3234727932829,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "list of designer drugs",
-          "url": "http://www.wikiwand.com/en/List_of_designer_drugs",
-          "fx": 177.61108036050712,
-          "fy": -334.3234727932829,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "research chemicals big list",
-          "url": "https://www.reddit.com/r/researchchemicals/comments/5wcxlh/i_am_looking_for_a_research_chemical_similar_to/",
-          "fx": 177.61108036050712,
-          "fy": -292.3234727932829,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -89.70928261608594,
-      "fy": -190.9725901490733,
-      "nodes": [
-        {
-          "text": "1. responsible drug use",
-          "url": "https://psychonautwiki.org/wiki/Responsible_drug_use",
-          "fx": 73.29071738391406,
-          "fy": -175.9725901490733,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "research chemicals",
-      "curve": {
-        "x": -59.5893,
-        "y": -59.6696
+  "id": 165,
+  "map": {
+    "text": "research chemicals",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://drugs.tripsit.me/",
+            "text": "TripSit fact sheets",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wikiwand.com/en/List_of_designer_drugs",
+            "text": "list of designer drugs",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/researchchemicals/comments/5wcxlh/i_am_looking_for_a_research_chemical_similar_to/",
+            "text": "research chemicals big list",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Responsible_drug_use",
+            "text": "1. responsible drug use",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "research chemicals",
-      "target": "basics",
-      "curve": {
-        "x": -22.2041,
-        "y": 136.345
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/researchchemicals/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Research_chemicals",
+        "text": "research chemicals",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 165
+    ],
+    "author": ""
+  }
 }

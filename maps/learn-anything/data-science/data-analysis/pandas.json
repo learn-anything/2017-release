@@ -1,79 +1,86 @@
 {
   "title": "learn anything - data science - data analysis - pandas",
   "tag": "pandas library",
-  "nodes": [
-    {
-      "text": "pandas",
-      "url": "http://www.wikiwand.com/en/Pandas_(software)",
-      "fx": -163.97916666666674,
-      "fy": -255.70182291666669,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/pandas-dev/pandas",
-          "fx": 31.020833333333258,
-          "fy": -241.70182291666669,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -151.5456085901826,
-      "fy": -101.9859030156012,
-      "nodes": [
-        {
-          "text": "1. 10 min pandas introduction",
-          "url": "http://pandas.pydata.org/pandas-docs/stable/10min.html",
-          "fx": 30.45439140981739,
-          "fy": -158.4859030156012,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. easier data analysis in Python with pandas",
-          "url": "http://www.datasciencecentral.com/profiles/blogs/easier-data-analysis-in-python-with-pandas-video-series",
-          "fx": 30.45439140981739,
-          "fy": -124.4859030156012,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. intro to pandas data structures  ️",
-          "url": "http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/",
-          "fx": 30.45439140981739,
-          "fy": -62.485903015601195,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. notes on pandas  ️",
-          "url": "http://frnsys.com/ai_notes/appendices/pandas.html",
-          "fx": 30.45439140981739,
-          "fy": -22.485903015601195,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "pandas",
-      "target": "basics",
-      "curve": {
-        "x": -3.53322,
-        "y": 75.6079
+  "id": 384,
+  "map": {
+    "text": "pandas",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://pandas.pydata.org/pandas-docs/stable/10min.html",
+            "text": "1. 10 min pandas introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.datasciencecentral.com/profiles/blogs/easier-data-analysis-in-python-with-pandas-video-series",
+            "text": "1. easier data analysis in Python with pandas",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/",
+            "text": "1. intro to pandas data structures  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://frnsys.com/ai_notes/appendices/pandas.html",
+            "text": "1. notes on pandas  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 384
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/pandas-dev/pandas",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Pandas_(software)",
+        "text": "pandas",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

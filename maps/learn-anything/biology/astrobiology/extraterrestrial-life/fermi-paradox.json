@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - astrobiology - extraterrestrial life - fermi paradox",
   "tag": "Fermi paradox",
-  "nodes": [
-    {
-      "text": "Fermi paradox",
-      "url": "http://www.wikiwand.com/en/Fermi_paradox",
-      "fx": 31.771004098360663,
-      "fy": -218.88242827868856,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 79.70032686653849,
-      "fy": -103.92868611159662,
-      "nodes": [
-        {
-          "text": "1. where are all the aliens? - part I",
-          "url": "https://www.youtube.com/watch?v=sNhhvQGsMEc",
-          "fx": 235.7003268665385,
-          "fy": -112.42868611159662,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. where are all the aliens? - part II",
-          "url": "https://www.youtube.com/watch?v=1fQkVqno-uI",
-          "fx": 235.7003268665385,
-          "fy": -72.42868611159662,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Fermi paradox",
-      "target": "basics",
-      "curve": {
-        "x": -1.53534,
-        "y": 56.2269
+  "id": 87,
+  "map": {
+    "text": "Fermi paradox",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=sNhhvQGsMEc",
+            "text": "1. where are all the aliens? - part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1fQkVqno-uI",
+            "text": "2. where are all the aliens? - part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 87
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fermi_paradox",
+        "text": "Fermi paradox",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,61 +1,64 @@
 {
   "title": "learn anything - art - music - music genres - jazz",
   "tag": "",
-  "nodes": [
-    {
-      "text": "jazz",
-      "url": "http://www.wikiwand.com/en/Jazz",
-      "fx": -50.12890625,
-      "fy": -109.08203125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Jazz/",
-          "fx": 111.87109375,
-          "fy": -95.08203125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -64.48557692307713,
-      "fy": 33.330013736266835,
-      "nodes": [
-        {
-          "text": "1. what is jazz",
-          "url": "https://www.youtube.com/watch?v=BMgKXbtQwoo",
-          "fx": 117.51442307692287,
-          "fy": 27.830013736266835,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. free jazz piano lessons",
-          "url": "http://www.thejazzpianosite.com/",
-          "fx": 117.51442307692287,
-          "fy": 67.83001373626684,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "jazz",
-      "target": "basics",
-      "curve": {
-        "x": -8.67834,
-        "y": 69.956
+  "id": 45,
+  "map": {
+    "text": "jazz",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=BMgKXbtQwoo",
+            "text": "1. what is jazz",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.thejazzpianosite.com/",
+            "text": "1. free jazz piano lessons",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 45
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Jazz/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Jazz",
+        "text": "jazz",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

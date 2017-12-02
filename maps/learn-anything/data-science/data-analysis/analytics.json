@@ -1,84 +1,90 @@
 {
   "title": "learn anything - data science - data analysis - analytics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "analytics",
-      "url": "http://www.wikiwand.com/en/Analytics",
-      "fx": 77.69140625,
-      "fy": -213.68359375,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/onurakpolat/awesome-analytics",
-          "fx": 282.69140625,
-          "fy": -199.68359375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 382,
+  "map": {
+    "text": "analytics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "predictive analytics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/analytics/predictive-analytics",
+                "text": "predictive analytics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "web analytics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/analytics/web-analytics",
+                "text": "web analytics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=_HbjsNaUJ2A",
+            "text": "1. how it works: analytics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/onurakpolat/awesome-analytics",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 100.50542068481445,
-      "fy": -93.72172737121582,
-      "nodes": [
-        {
-          "text": "1. how it works: analytics",
-          "url": "https://www.youtube.com/watch?v=_HbjsNaUJ2A",
-          "fx": 256.50542068481445,
-          "fy": -82.22172737121582,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Analytics",
+        "text": "analytics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "web analytics  ️",
-      "url": "/data-science/data-analysis/analytics/web-analytics",
-      "fx": 125.36039959016364,
-      "fy": 48.056181693989004,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "predictive analytics  ️",
-      "url": "/data-science/data-analysis/analytics/predictive-analytics",
-      "fx": -135.13517556225293,
-      "fy": 48.34643067756713,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "analytics",
-      "target": "basics",
-      "curve": {
-        "x": -0.842993,
-        "y": 58.7309
       }
-    },
-    {
-      "source": "basics",
-      "target": "predictive analytics  ️",
-      "curve": {
-        "x": -82.3203,
-        "y": 72.2841
-      }
-    },
-    {
-      "source": "basics",
-      "target": "web analytics  ️",
-      "curve": {
-        "x": 28.6775,
-        "y": 70.889
-      }
-    }
-  ],
-  "id": 382
+    ],
+    "author": ""
+  }
 }

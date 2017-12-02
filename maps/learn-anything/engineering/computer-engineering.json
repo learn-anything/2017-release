@@ -1,90 +1,97 @@
 {
   "title": "learn anything - engineering - computer engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer engineering",
-      "url": "http://www.wikiwand.com/en/Computer_engineering",
-      "fx": -50.83979797363281,
-      "fy": -212.2441635131836,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 29.620882987976074,
-      "fy": -63.09347057342529,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=avZTQgLs064",
-          "fx": 185.62088298797607,
-          "fy": -51.59347057342529,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 517,
+  "map": {
+    "text": "computer engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "electronics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/electrical-engineering/electronics",
+                "text": "electronics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "programming  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/programming",
+                "text": "programming  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computer science  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science",
+                "text": "computer science  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=avZTQgLs064",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_engineering",
+        "text": "computer engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "programming  ️",
-      "url": "/programming",
-      "fx": -51.90789170502546,
-      "fy": 110.88787059870253,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "electronics  ️",
-      "url": "/engineering/electrical-engineering/electronics",
-      "fx": -224.96603202819824,
-      "fy": 111.5193042755127,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer science  ️",
-      "url": "/computer-science",
-      "fx": 150.11911979088416,
-      "fy": 113.96543078185209,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer engineering",
-      "target": "basics",
-      "curve": {
-        "x": -2.01966,
-        "y": 73.3253
       }
-    },
-    {
-      "source": "basics",
-      "target": "electronics  ️",
-      "curve": {
-        "x": -110.293,
-        "y": 88.5564
-      }
-    },
-    {
-      "source": "basics",
-      "target": "programming  ️",
-      "curve": {
-        "x": -17.7644,
-        "y": 88.2407
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computer science  ️",
-      "curve": {
-        "x": 86.2491,
-        "y": 88.5295
-      }
-    }
-  ],
-  "id": 517
+    ],
+    "author": ""
+  }
 }

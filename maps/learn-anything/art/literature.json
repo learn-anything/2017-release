@@ -1,59 +1,62 @@
 {
   "title": "learn anything - art - literature",
   "tag": "",
-  "nodes": [
-    {
-      "text": "literature",
-      "url": "http://www.wikiwand.com/en/Literature",
-      "fx": 45.63131009615381,
-      "fy": -289.11011618589725,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 68.296875,
-      "fy": -173.30000000000007,
-      "nodes": [
-        {
-          "text": "1. crash course english literature",
-          "url": "https://www.youtube.com/watch?v=MSYw502dJNY&amp;list=PL8dPuuaLjXtOeEc9ME62zTfqc0h6Pe8vb",
-          "fx": 250.296875,
-          "fy": -161.80000000000007,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 30,
+  "map": {
+    "text": "literature",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "literary theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/literature/literary-theory",
+                "text": "literary theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=MSYw502dJNY&amp;list=PL8dPuuaLjXtOeEc9ME62zTfqc0h6Pe8vb",
+            "text": "1. crash course english literature",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Literature",
+        "text": "literature",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "literary theory  ️",
-      "url": "/art/literature/literary-theory",
-      "fx": -41.850054824561425,
-      "fy": -50.75027412280707,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "literature",
-      "target": "basics",
-      "curve": {
-        "x": -7.16722,
-        "y": 56.6551
       }
-    },
-    {
-      "source": "basics",
-      "target": "literary theory  ️",
-      "curve": {
-        "x": -45.8235,
-        "y": 61.2749
-      }
-    }
-  ],
-  "id": 30
+    ],
+    "author": ""
+  }
 }

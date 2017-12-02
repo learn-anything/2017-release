@@ -1,249 +1,240 @@
 {
   "title": "learn anything - cryptocurrency",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cryptocurrency",
-      "url": "http://www.wikiwand.com/en/Cryptocurrency",
-      "fx": 0.19042075591505636,
-      "fy": -591.2779047789593,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/kasketis/awesome-cryptocurrencies",
-          "fx": 278.19042075591506,
-          "fy": -577.2779047789593,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 365,
+  "map": {
+    "text": "cryptocurrency",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "currencies",
+            "nodes": [
+              {
+                "text": "bitcoin  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/cryptocurrency/bitcoin",
+                    "text": "bitcoin  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "monero",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Monero_(cryptocurrency)",
+                    "text": "monero",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "dash",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Dash_(cryptocurrency)",
+                    "text": "dash",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "proof-of-work system",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Proof-of-work_system",
+                "text": "proof-of-work system",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "initial coin offering  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptocurrency/initial-coin-offering",
+                "text": "initial coin offering  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4&amp;t=540s",
+            "text": "1 how bitcoin and other cryptocurrencies work",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/cryptocurrency",
+            "text": "1. bitcoin and cryptocurrency technologies",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://cryptominded.com/starters-guide-cryptocurrencies/",
+            "text": "1. starter’s guide to cryptocurrencies  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=wjyiOXRuUdo",
+                    "text": "17: introduction to cryptocurrencies in haskell",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://blog.eladgil.com/2017/07/cryptocurrencys-netscape-moment.html",
+                "text": "17: cryptocurrency’s Netscape moment  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/kilimchoi/cryptocurrency",
+            "text": "overview of top cryptocurrencies in the market",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://cryptominded.com/",
+            "text": "cryptominded",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/kasketis/awesome-cryptocurrencies",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 173.52766966713853,
-      "fy": -454.1020992663177,
-      "nodes": [
-        {
-          "text": "overview of top cryptocurrencies in the market",
-          "url": "https://github.com/kilimchoi/cryptocurrency",
-          "fx": 314.5276696671385,
-          "fy": -485.1020992663176,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "cryptominded",
-          "url": "https://cryptominded.com/",
-          "fx": 314.5276696671385,
-          "fy": -393.1020992663177,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Cryptocurrency",
+        "text": "cryptocurrency",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 315.3538742620324,
-      "fy": -305.0154426124614,
-      "nodes": [
-        {
-          "text": "17: cryptocurrency’s Netscape moment  ️",
-          "url": "http://blog.eladgil.com/2017/07/cryptocurrencys-netscape-moment.html",
-          "fx": 484.3538742620324,
-          "fy": -305.0154426124614,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 483.46137517508055,
-      "fy": -178.9008243559024,
-      "nodes": [
-        {
-          "text": "17: introduction to cryptocurrencies in haskell",
-          "url": "https://www.youtube.com/watch?v=wjyiOXRuUdo",
-          "fx": 682.4613751750805,
-          "fy": -178.9008243559024,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -140.08970654463462,
-      "fy": -131.16084070294391,
-      "nodes": [
-        {
-          "text": "1 how bitcoin and other cryptocurrencies work",
-          "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4&amp;t=540s",
-          "fx": 48.91029345536538,
-          "fy": -198.16084070294391,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. bitcoin and cryptocurrency technologies",
-          "url": "https://www.coursera.org/learn/cryptocurrency",
-          "fx": 48.91029345536538,
-          "fy": -131.16084070294391,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. starter’s guide to cryptocurrencies  ️",
-          "url": "https://cryptominded.com/starters-guide-cryptocurrencies/",
-          "fx": 48.91029345536538,
-          "fy": -64.16084070294391,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "initial coin offering  ️",
-      "url": "/cryptocurrency/initial-coin-offering",
-      "fx": -624.9514694213867,
-      "fy": 66.88068389892578,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "proof-of-work system",
-      "url": "http://www.wikiwand.com/en/Proof-of-work_system",
-      "fx": -372.8064498901367,
-      "fy": 68.7095832824707,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "currencies",
-      "url": "",
-      "fx": -82.66338324546814,
-      "fy": 71.56587982177734,
-      "nodes": []
-    },
-    {
-      "text": "monero",
-      "url": "http://www.wikiwand.com/en/Monero_(cryptocurrency)",
-      "fx": 94.60990175189386,
-      "fy": 108.57949662642045,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "bitcoin  ️",
-      "url": "/cryptocurrency/bitcoin",
-      "fx": -182.4449700438795,
-      "fy": 189.78781655509283,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "dash",
-      "url": "http://www.wikiwand.com/en/Dash_(cryptocurrency)",
-      "fx": 6.092316691080555,
-      "fy": 192.6236171549017,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cryptocurrency",
-      "target": "basics",
-      "curve": {
-        "x": -83.14,
-        "y": 230.058
       }
-    },
-    {
-      "source": "help",
-      "target": "cryptocurrency",
-      "curve": {
-        "x": -55.4187,
-        "y": -67.3378
-      }
-    },
-    {
-      "source": "basics",
-      "target": "currencies",
-      "curve": {
-        "x": 30.9631,
-        "y": 101.363
-      }
-    },
-    {
-      "source": "currencies",
-      "target": "bitcoin  ️",
-      "curve": {
-        "x": -50.8908,
-        "y": 60.3609
-      }
-    },
-    {
-      "source": "currencies",
-      "target": "monero",
-      "curve": {
-        "x": 90.1367,
-        "y": 19.7568
-      }
-    },
-    {
-      "source": "currencies",
-      "target": "dash",
-      "curve": {
-        "x": 39.6279,
-        "y": 61.7788
-      }
-    },
-    {
-      "source": "basics",
-      "target": "proof-of-work system",
-      "curve": {
-        "x": -81.3579,
-        "y": 101.185
-      }
-    },
-    {
-      "source": "basics",
-      "target": "initial coin offering  ️",
-      "curve": {
-        "x": -266.707,
-        "y": 70.8269
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -102.699,
-        "y": -74.5434
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -113.07,
-        "y": -63.0573
-      }
-    }
-  ],
-  "id": 365
+    ],
+    "author": ""
+  }
 }

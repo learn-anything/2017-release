@@ -1,315 +1,310 @@
 {
   "title": "learn anything - economics - business - companies - facebook",
   "tag": "",
-  "nodes": [
-    {
-      "text": "facebook",
-      "url": "http://www.wikiwand.com/en/Facebook",
-      "fx": 55.690439815438936,
-      "fy": -775.8130914588317,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/AntiFacebook/",
-          "fx": 278.69043981543894,
-          "fy": -761.8130914588317,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 462,
+  "map": {
+    "text": "facebook",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "alternative",
+            "nodes": [
+              {
+                "text": "mastodon",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://mastodon.social/about",
+                    "text": "mastodon",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "privacy concerns",
+            "nodes": [
+              {
+                "text": "issues",
+                "nodes": [
+                  {
+                    "text": "interesting",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://code.facebook.com/posts/",
+                        "text": "engineering blog  ️",
+                        "category": "blog",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://www.theguardian.com/technology/2014/jul/02/facebook-apologises-psychological-experiments-on-users",
+                    "text": "14: Facebook apologies for psychological experiments on users  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://www.youtube.com/watch?v=t7tA3NNKF0Q",
+                    "text": "15: how Facebook is stealing billions of views",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://spideroak.com/articles/facebook-shadow-profiles-a-profile-of-you-that-you-never-created",
+                "text": "16: facebook shadow profiles  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://arstechnica.com/business/2017/05/facebook-helped-advertisers-target-teens-who-feel-worthless/",
+                "text": "17: leaked document reveals facebook conducted research to target emotionally vulnerable and insecure youth",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.reddit.com/r/privacy/comments/5ulggx/zuckerberg_removed_a_line_about_monitoring/",
+                "text": "17: Zuckerberg removed a line about monitoring private messages from his facebook manifesto",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://news.ycombinator.com/item?id=14462785",
+                "text": "17: facebook is an attack on the open web",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://thenextweb.com/facebook/2015/03/31/facebook-tracks-logged-out-users-in-violation-of-eu-law-belgian-privacy-commission-says/#.tnw_OTKkI5gS",
+                "text": "facebook tracks all site vistors, violating eu law",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://trak-in.cdn.ampproject.org/c/trak.in/tags/business/2017/06/07/facebooks-evil-patents-discovered-your-emotions-may-soon-be-secretly-recorded-by-your-own-camera/amp/",
+                "text": "your emotions may soon be secretly recorded by your own camera by Facebook  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://np.reddit.com/r/AntiFacebook/wiki/index",
+                "text": "articles exposing Facebook anti privacy practices",
+                "category": "reddit",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "owns",
+            "nodes": [
+              {
+                "text": "instagram",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Instagram",
+                    "text": "instagram",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "whatsapp",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/WhatsApp",
+                    "text": "whatsapp",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "Oculus VR",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Oculus_VR",
+                    "text": "Oculus VR",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.salimvirani.com//facebook/",
+            "text": "1. get your loved ones off Facebook  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://veekaybee.github.io/facebook-is-collecting-this/",
+            "text": "1. what should you think about when using facebook?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/privacy/comments/6vzuag/facebook_figured_out_my_family_secrets_and_it/dm4iif7/",
+            "text": "1. even more reasons not to use facebook",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://europe-v-facebook.org/EN/Data_Pool/data_pool.html",
+            "text": "1. what kind of data it collects and stores",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://deletefacebook.com/",
+            "text": "2. delete facebook",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/AntiFacebook/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 83.54233805338572,
-      "fy": -571.4256795247396,
-      "nodes": [
-        {
-          "text": "1. get your loved ones off Facebook  ️",
-          "note": "By staying on Facebook, you’re granting them permission to collect and use information about you, regardless of you even using the Internet.   And by staying on, the data they collect on you gets used to create models about your closest friends and family, even the ones who opted out.",
-          "url": "http://www.salimvirani.com//facebook/",
-          "fx": 246.54233805338572,
-          "fy": -687.9256795247396,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. what should you think about when using facebook?  ️",
-          "url": "https://veekaybee.github.io/facebook-is-collecting-this/",
-          "fx": 246.54233805338572,
-          "fy": -620.9256795247396,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. even more reasons not to use facebook",
-          "url": "https://www.reddit.com/r/privacy/comments/6vzuag/facebook_figured_out_my_family_secrets_and_it/dm4iif7/",
-          "fx": 246.54233805338572,
-          "fy": -553.9256795247396,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1. what kind of data it collects and stores",
-          "url": "http://europe-v-facebook.org/EN/Data_Pool/data_pool.html",
-          "fx": 246.54233805338572,
-          "fy": -486.9256795247396,
-          "nodes": [],
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "2. delete facebook",
-          "url": "http://deletefacebook.com/",
-          "fx": 246.54233805338572,
-          "fy": -424.9256795247396,
-          "nodes": [],
-          "color": "rgba(255, 254, 60, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Facebook",
+        "text": "facebook",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "alternative",
-      "url": "",
-      "fx": -247.75334566087122,
-      "fy": -407.40920020275865,
-      "nodes": []
-    },
-    {
-      "text": "mastodon",
-      "url": "https://mastodon.social/about",
-      "fx": -414.250517447246,
-      "fy": -278.8833910784981,
-      "nodes": []
-    },
-    {
-      "text": "owns",
-      "url": "",
-      "fx": -68.45210399310162,
-      "fy": -229.95046282404053,
-      "nodes": []
-    },
-    {
-      "text": "privacy concerns",
-      "url": "",
-      "fx": 238.51863861083984,
-      "fy": -135.44977569580078,
-      "nodes": [
-        {
-          "text": "16: facebook shadow profiles  ️",
-          "url": "https://spideroak.com/articles/facebook-shadow-profiles-a-profile-of-you-that-you-never-created",
-          "fx": 506.51863861083984,
-          "fy": -375.4497756958008,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "17: leaked document reveals facebook conducted research to target emotionally vulnerable and insecure youth",
-          "url": "https://arstechnica.com/business/2017/05/facebook-helped-advertisers-target-teens-who-feel-worthless/",
-          "fx": 506.51863861083984,
-          "fy": -333.4497756958008,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "17: Zuckerberg removed a line about monitoring private messages from his facebook manifesto",
-          "url": "https://www.reddit.com/r/privacy/comments/5ulggx/zuckerberg_removed_a_line_about_monitoring/",
-          "fx": 506.51863861083984,
-          "fy": -222.44977569580078,
-          "nodes": [],
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "17: facebook is an attack on the open web",
-          "url": "https://news.ycombinator.com/item?id=14462785",
-          "fx": 506.51863861083984,
-          "fy": -111.44977569580078,
-          "nodes": [],
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "facebook tracks all site vistors, violating eu law",
-          "note": "Facebook uses a lot of cookies, even if you don't visit the website or login, and it also uses cookies on any site that has a \"like\" button.  Facebook claims this is for security purposes, which is unlikely because they only do some of this tracking in Europe. This was discovered by two European research universities - there's no criminal or civil complaint filed against Facebook and they'll face no penalties.",
-          "url": "https://thenextweb.com/facebook/2015/03/31/facebook-tracks-logged-out-users-in-violation-of-eu-law-belgian-privacy-commission-says/#.tnw_OTKkI5gS",
-          "fx": 506.51863861083984,
-          "fy": -49.44977569580078,
-          "nodes": [],
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "your emotions may soon be secretly recorded by your own camera by Facebook  ️",
-          "url": "https://trak-in.cdn.ampproject.org/c/trak.in/tags/business/2017/06/07/facebooks-evil-patents-discovered-your-emotions-may-soon-be-secretly-recorded-by-your-own-camera/amp/",
-          "fx": 506.51863861083984,
-          "fy": 12.550224304199219,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "articles exposing Facebook anti privacy practices",
-          "url": "https://np.reddit.com/r/AntiFacebook/wiki/index",
-          "fx": 506.51863861083984,
-          "fy": 104.55022430419922,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "Oculus VR",
-      "url": "http://www.wikiwand.com/en/Oculus_VR",
-      "fx": -472.43110929931197,
-      "fy": -96.96331336664662,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "instagram",
-      "url": "http://www.wikiwand.com/en/Instagram",
-      "fx": -281.0000042316142,
-      "fy": -96.49759033085559,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "whatsapp",
-      "url": "http://www.wikiwand.com/en/WhatsApp",
-      "fx": -91.49805110661418,
-      "fy": -95.92923095585559,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "issues",
-      "url": "",
-      "fx": 351.73561337761817,
-      "fy": 280.0270304188464,
-      "nodes": [
-        {
-          "text": "14: Facebook apologies for psychological experiments on users  ️",
-          "url": "https://www.theguardian.com/technology/2014/jul/02/facebook-apologises-psychological-experiments-on-users",
-          "fx": 513.7356133776182,
-          "fy": 234.02703041884638,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "15: how Facebook is stealing billions of views",
-          "url": "https://www.youtube.com/watch?v=t7tA3NNKF0Q",
-          "fx": 513.7356133776182,
-          "fy": 326.0270304188464,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 386.70032590163555,
-      "fy": 469.2155909994891,
-      "nodes": [
-        {
-          "text": "engineering blog  ️",
-          "url": "https://code.facebook.com/posts/",
-          "fx": 585.7003259016356,
-          "fy": 481.7155909994891,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "issues",
-      "target": "privacy concerns",
-      "curve": {
-        "x": -57.1944,
-        "y": -187.929
       }
-    },
-    {
-      "source": "interesting",
-      "target": "issues",
-      "curve": {
-        "x": -26.4823,
-        "y": -94.5943
-      }
-    },
-    {
-      "source": "owns",
-      "target": "instagram",
-      "curve": {
-        "x": -95.524,
-        "y": 66.7264
-      }
-    },
-    {
-      "source": "owns",
-      "target": "whatsapp",
-      "curve": {
-        "x": 7.47703,
-        "y": 67.7606
-      }
-    },
-    {
-      "source": "owns",
-      "target": "Oculus VR",
-      "curve": {
-        "x": -201.23,
-        "y": 54.1678
-      }
-    },
-    {
-      "source": "alternative",
-      "target": "mastodon",
-      "curve": {
-        "x": -82.7485,
-        "y": 64.2629
-      }
-    },
-    {
-      "source": "facebook",
-      "target": "basics",
-      "curve": {
-        "x": -1.07405,
-        "y": 101.444
-      }
-    },
-    {
-      "source": "basics",
-      "target": "alternative",
-      "curve": {
-        "x": -157.147,
-        "y": 82.0082
-      }
-    },
-    {
-      "source": "privacy concerns",
-      "target": "basics",
-      "curve": {
-        "x": -131.78,
-        "y": -210.738
-      }
-    },
-    {
-      "source": "basics",
-      "target": "owns",
-      "curve": {
-        "x": -78.7472,
-        "y": 170.739
-      }
-    }
-  ],
-  "id": 462
+    ],
+    "author": ""
+  }
 }

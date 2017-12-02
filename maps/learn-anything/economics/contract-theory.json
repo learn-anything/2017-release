@@ -1,49 +1,51 @@
 {
   "title": "learn anything - economics - contract theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "contract theory",
-      "url": "http://www.wikiwand.com/en/Contract_theory",
-      "fx": -94.44921875,
-      "fy": -128.65234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/popular-economicsciences2016.pdf",
-          "fx": 110,
-          "fy": -4.5,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. what is contract theory",
-          "url": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/advanced-economicsciences2016.pdf",
-          "fx": 110,
-          "fy": 29.5,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "contract theory",
-      "target": "basics",
-      "curve": {
-        "x": 4.47461,
-        "y": 63.3262
+  "id": 473,
+  "map": {
+    "text": "contract theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/popular-economicsciences2016.pdf",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/advanced-economicsciences2016.pdf",
+            "text": "1. what is contract theory",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 473
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Contract_theory",
+        "text": "contract theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,76 +1,71 @@
 {
   "title": "learn anything - design - design systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "design systems",
-      "url": "",
-      "fx": 13.83680534362793,
-      "fy": -358.7116012573242,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/alexpate/awesome-design-systems",
-          "fx": 268.83680534362793,
-          "fy": -346.2116012573242,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 174.88796881473434,
-      "fy": -242.86067581176758,
-      "nodes": [
-        {
-          "text": "building a visual language by AirBnb  ️",
-          "url": "https://airbnb.design/building-a-visual-language/",
-          "fx": 373.88796881473434,
-          "fy": -263.8606758117676,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "design system structure  ️",
-          "url": "https://daneden.me/2017/07/17/design-system-structure/",
-          "fx": 373.88796881473434,
-          "fy": -196.86067581176758,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "atomic design  ️",
-      "url": "/design/design-systems/atomic-design",
-      "fx": -181.54341491841524,
-      "fy": -176.8811188811328,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "design systems",
-      "curve": {
-        "x": -66.5255,
-        "y": -57.9255
+  "id": 425,
+  "map": {
+    "text": "design systems",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://airbnb.design/building-a-visual-language/",
+            "text": "building a visual language by AirBnb  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://daneden.me/2017/07/17/design-system-structure/",
+            "text": "design system structure  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "atomic design  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/design/design-systems/atomic-design",
+            "text": "atomic design  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "design systems",
-      "target": "atomic design  ️",
-      "curve": {
-        "x": -93.9401,
-        "y": 91.6652
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/alexpate/awesome-design-systems",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 425
+    ],
+    "author": ""
+  }
 }

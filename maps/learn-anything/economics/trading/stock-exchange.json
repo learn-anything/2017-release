@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - trading - stock exchange",
   "tag": "",
-  "nodes": [
-    {
-      "text": "stock exchange",
-      "url": "http://www.wikiwand.com/en/Stock_exchange",
-      "fx": 34.905555725097656,
-      "fy": -228.60068893432617,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 85.9921875,
-      "fy": -92.23046875,
-      "nodes": [
-        {
-          "text": "1. how the stock exchange works",
-          "url": "https://www.youtube.com/watch?v=F3QpgXBtDeo",
-          "fx": 241.9921875,
-          "fy": -80.73046875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stock exchange",
-      "target": "basics",
-      "curve": {
-        "x": -2.95668,
-        "y": 66.9351
+  "id": 505,
+  "map": {
+    "text": "stock exchange",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=F3QpgXBtDeo",
+            "text": "1. how the stock exchange works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 505
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stock_exchange",
+        "text": "stock exchange",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

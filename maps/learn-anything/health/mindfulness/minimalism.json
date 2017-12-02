@@ -1,154 +1,153 @@
 {
   "title": "learn anything - health - mindfulness - minimalism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "minimalism",
-      "url": "http://www.wikiwand.com/en/Minimalism",
-      "fx": 49.376890259642664,
-      "fy": -249.7451625445562,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/minimalism/",
-          "fx": 289.37689025964266,
-          "fy": -235.7451625445562,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "blogs",
-      "url": "",
-      "fx": 217.41935348510742,
-      "fy": -131.55025100708008,
-      "nodes": [
-        {
-          "text": "zen habits  ️",
-          "url": "https://zenhabits.net/",
-          "fx": 370.4193534851074,
-          "fy": -182.05025100708008,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "miss minimalist  ️",
-          "url": "http://www.missminimalist.com/",
-          "fx": 370.4193534851074,
-          "fy": -140.05025100708008,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "minimalist meditations  ️",
-          "url": "http://minimalistmeditations.com/",
-          "fx": 370.4193534851074,
-          "fy": -98.05025100708008,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "becoming minimalist  ️",
-          "url": "https://www.becomingminimalist.com/becoming-minimalist-start-here/",
-          "fx": 370.4193534851074,
-          "fy": -56.05025100708008,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(252, 177, 20, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 424.0646471384887,
-      "fy": 33.39188907606808,
-      "nodes": [
-        {
-          "text": "minimal desks",
-          "url": "http://minimaldesks.com/",
-          "fx": 623.0646471384887,
-          "fy": 27.391889076068082,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "minimal photography",
-          "url": "http://imgur.com/a/IZPbP",
-          "fx": 623.0646471384887,
-          "fy": 64.39188907606808,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": -45.622833346965535,
-      "fy": 115.2340018901013,
-      "nodes": [
-        {
-          "text": "1. minimalism: a beginner’s guide  ️",
-          "url": "https://anuschkarees.com/blog/2014/10/27/minimalism-a-beginners-guide/",
-          "fx": 143.37716665303446,
-          "fy": 115.2340018901013,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "simple living  ️",
-      "url": "/health/mindfulness/minimalism/simple-living",
-      "fx": -72.51024177808824,
-      "fy": 236.6144924245744,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "blogs",
-      "target": "minimalism",
-      "curve": {
-        "x": -61.2712,
-        "y": -57.8475
+  "id": 608,
+  "map": {
+    "text": "minimalism",
+    "nodes": [
+      {
+        "text": "blogs",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://minimaldesks.com/",
+                "text": "minimal desks",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://imgur.com/a/IZPbP",
+                "text": "minimal photography",
+                "category": "image",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://zenhabits.net/",
+            "text": "zen habits  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.missminimalist.com/",
+            "text": "miss minimalist  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://minimalistmeditations.com/",
+            "text": "minimalist meditations  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.becomingminimalist.com/becoming-minimalist-start-here/",
+            "text": "becoming minimalist  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "simple living  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/minimalism/simple-living",
+                "text": "simple living  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://anuschkarees.com/blog/2014/10/27/minimalism-a-beginners-guide/",
+            "text": "1. minimalism: a beginner’s guide  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "minimalism",
-      "target": "basics",
-      "curve": {
-        "x": -65.4998,
-        "y": 181.239
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/minimalism/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Minimalism",
+        "text": "minimalism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "simple living  ️",
-      "curve": {
-        "x": -7.1937,
-        "y": 60.6902
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "blogs",
-      "curve": {
-        "x": -147.745,
-        "y": -64.8002
-      }
-    }
-  ],
-  "id": 608
+    ],
+    "author": ""
+  }
 }

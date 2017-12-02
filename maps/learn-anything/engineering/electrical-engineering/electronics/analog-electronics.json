@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - analog electronics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "analog electronics",
-      "url": "http://www.wikiwand.com/en/Analogue_electronics",
-      "fx": -139.37109375,
-      "fy": -309.8046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -78.90234375,
-      "fy": -139.14453125,
-      "nodes": [
-        {
-          "text": "1. analog electronics series",
-          "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak&amp;list=PLBlnK6fEyqRiw-GZRqfnlVIBz9dxrqHJS",
-          "fx": 77.09765625,
-          "fy": -127.64453125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "analog electronics",
-      "target": "basics",
-      "curve": {
-        "x": -3.26562,
-        "y": 84.0801
+  "id": 521,
+  "map": {
+    "text": "analog electronics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=7jaa1rlW7Ak&amp;list=PLBlnK6fEyqRiw-GZRqfnlVIBz9dxrqHJS",
+            "text": "1. analog electronics series",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 521
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Analogue_electronics",
+        "text": "analog electronics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

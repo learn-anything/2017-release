@@ -1,52 +1,53 @@
 {
   "title": "learn anything - engineering - audio engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "audio engineering",
-      "url": "http://www.wikiwand.com/en/Audio_engineer",
-      "fx": 68.95312881469727,
-      "fy": -102.39910793304443,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/audioengineering/",
-          "fx": 355.95312881469727,
-          "fy": -88.39910793304443,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 132.54296875,
-      "fy": 24,
-      "nodes": [
-        {
-          "text": "1. getting started",
-          "url": "https://www.reddit.com/r/audioengineering/wiki/gettingstarted",
-          "fx": 288.54296875,
-          "fy": 35.5,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "audio engineering",
-      "target": "basics",
-      "curve": {
-        "x": -0.95508,
-        "y": 61.9496
+  "id": 512,
+  "map": {
+    "text": "audio engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/audioengineering/wiki/gettingstarted",
+            "text": "1. getting started",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 512
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/audioengineering/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Audio_engineer",
+        "text": "audio engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

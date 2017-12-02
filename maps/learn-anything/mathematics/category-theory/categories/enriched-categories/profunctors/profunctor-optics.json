@@ -1,50 +1,41 @@
 {
   "title": "learn anything - mathematics - category theory - categories - enriched categories - profunctors - profunctor optics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "profunctor optics",
-      "url": "",
-      "fx": -103.08203125,
-      "fy": -231.69921875,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -59.04296875,
-      "fy": -93.70703125,
-      "nodes": [
-        {
-          "text": "1. profunctor optics: the categorical view  ️",
-          "url": "https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/",
-          "fx": 103.95703125,
-          "fy": -127.20703125,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. pro functor optics: modular data accessors",
-          "url": "https://arxiv.org/abs/1703.10857",
-          "fx": 103.95703125,
-          "fy": -60.20703125,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "profunctor optics",
-      "target": "basics",
-      "curve": {
-        "x": -3.98047,
-        "y": 68.9961
+  "id": 912,
+  "map": {
+    "text": "profunctor optics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://bartoszmilewski.com/2017/07/07/profunctor-optics-the-categorical-view/",
+            "text": "1. profunctor optics: the categorical view  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://arxiv.org/abs/1703.10857",
+            "text": "1. pro functor optics: modular data accessors",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 909
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

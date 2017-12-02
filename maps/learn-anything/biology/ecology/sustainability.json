@@ -1,77 +1,71 @@
 {
   "title": "learn anything - biology - ecology - sustainability",
   "tag": "",
-  "nodes": [
-    {
-      "text": "sustainability",
-      "url": "http://www.wikiwand.com/en/Sustainability",
-      "fx": 82.48046875,
-      "fy": -245.6183492100372,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/sustainability/",
-          "fx": 324.48046875,
-          "fy": -231.6183492100372,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 241.6104748098379,
-      "fy": -117.7583187432981,
-      "nodes": [
-        {
-          "text": "17: the rise of sustainability",
-          "url": "https://www.youtube.com/watch?v=L_skrxnh7Ik",
-          "fx": 432.6104748098379,
-          "fy": -106.2583187432981,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 111.31832313537598,
-      "fy": -20.829168397697913,
-      "nodes": [
-        {
-          "text": "1. population, sustainability and malthus",
-          "url": "https://www.youtube.com/watch?v=QAkW_i0bDpQ",
-          "fx": 267.31832122802734,
-          "fy": -20.592780668053138,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "sustainability",
-      "target": "basics",
-      "curve": {
-        "x": -7.08107,
-        "y": 111.145
+  "id": 93,
+  "map": {
+    "text": "sustainability",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QAkW_i0bDpQ",
+            "text": "1. population, sustainability and malthus",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=L_skrxnh7Ik",
+            "text": "17: the rise of sustainability",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "sustainability",
-      "curve": {
-        "x": -66.815,
-        "y": -62.68
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/sustainability/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Sustainability",
+        "text": "sustainability",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 93
+    ],
+    "author": ""
+  }
 }

@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - computation - computer programs - control flow - continuation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "continuation",
-      "url": "http://www.wikiwand.com/en/Continuation",
-      "fx": 115.02734375,
-      "fy": -86.54296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "implementations",
-      "url": "",
-      "fx": 255.74793724741824,
-      "fy": 45.616127952727425,
-      "nodes": [
-        {
-          "text": "in javascript",
-          "url": "https://github.com/jlongster/unwinder",
-          "fx": 516.7479372474182,
-          "fy": 58.116127952727425,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 144.78515625,
-      "fy": 156.828125,
-      "nodes": [
-        {
-          "text": "1. what’s in a continuation  ️",
-          "url": "http://jlongster.com/Whats-in-a-Continuation",
-          "fx": 307.78515625,
-          "fy": 169.328125,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "continuation",
-      "target": "basics",
-      "curve": {
-        "x": -7.1211,
-        "y": 120.936
+  "id": 294,
+  "map": {
+    "text": "continuation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://jlongster.com/Whats-in-a-Continuation",
+            "text": "1. what’s in a continuation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "implementations",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/jlongster/unwinder",
+            "text": "in javascript",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "implementations",
-      "target": "continuation",
-      "curve": {
-        "x": -72.8603,
-        "y": -65.3295
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Continuation",
+        "text": "continuation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 294
+    ],
+    "author": ""
+  }
 }

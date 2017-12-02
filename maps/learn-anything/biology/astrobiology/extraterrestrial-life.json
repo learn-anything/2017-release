@@ -1,33 +1,42 @@
 {
   "title": "learn anything - biology - astrobiology - extraterrestrial life",
   "tag": "",
-  "nodes": [
-    {
-      "text": "extraterrestrial life",
-      "url": "http://www.wikiwand.com/en/Extraterrestrial_life",
-      "fx": 240.59765625,
-      "fy": -152.22265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "Fermi paradox  ️",
-      "url": "/biology/astrobiology/extraterrestrial-life/fermi-paradox",
-      "fx": 168.578125,
-      "fy": -2.330078125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "extraterrestrial life",
-      "target": "Fermi paradox  ️",
-      "curve": {
-        "x": -50.7598,
-        "y": 73.6963
+  "id": 88,
+  "map": {
+    "text": "extraterrestrial life",
+    "nodes": [
+      {
+        "text": "Fermi paradox  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/astrobiology/extraterrestrial-life/fermi-paradox",
+            "text": "Fermi paradox  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 88
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Extraterrestrial_life",
+        "text": "extraterrestrial life",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,78 +1,73 @@
 {
   "title": "learn anything - games - video games - dota 2",
   "tag": "",
-  "nodes": [
-    {
-      "text": "dota 2",
-      "url": "http://www.wikiwand.com/en/Dota_2",
-      "fx": 44.26221343706243,
-      "fy": -131.75727128082855,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/DotA2/",
-          "fx": 230.26221343706243,
-          "fy": -137.75727128082855,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/DotA2/wiki/faq#wiki_where_can_i_read_up_on_the_history_of_dota.3F",
-              "fx": 340.2622134370624,
-              "fy": -137.75727128082855,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 570,
+  "map": {
+    "text": "dota 2",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://purgegamers.true.io/g/dota-2-guide/",
+            "text": "1. dota 2 guide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "learn dota 2",
-          "url": "https://www.reddit.com/r/learndota2/",
-          "fx": 230.26221343706243,
-          "fy": -97.75727128082855,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 57.70017688679343,
-      "fy": 38.81898584907202,
-      "nodes": [
-        {
-          "text": "1. dota 2 guide",
-          "url": "https://purgegamers.true.io/g/dota-2-guide/",
-          "fx": 213.70017688679343,
-          "fy": 36.31898584907202,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. comprehensive dota 2 guide",
-          "url": "http://steamcommunity.com/sharedfiles/filedetails/?id=123364976",
-          "fx": 213.70017688679343,
-          "fy": 70.31898584907202,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "dota 2",
-      "target": "basics",
-      "curve": {
-        "x": -0.781018,
-        "y": 84.0381
+          },
+          {
+            "url": "http://steamcommunity.com/sharedfiles/filedetails/?id=123364976",
+            "text": "1. comprehensive dota 2 guide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 570
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/DotA2/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/learndota2/",
+        "text": "learn dota 2",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Dota_2",
+        "text": "dota 2",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

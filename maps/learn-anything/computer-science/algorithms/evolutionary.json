@@ -1,58 +1,61 @@
 {
   "title": "learn anything - computer science - algorithms - evolutionary",
   "tag": "evolutionary algorithms",
-  "nodes": [
-    {
-      "text": "evolutionary algorithms",
-      "url": "http://www.wikiwand.com/en/Evolutionary_algorithm",
-      "fx": -103.99327956989248,
-      "fy": -110.84656418010758,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -17.966857433319092,
-      "fy": 8.793275669056811,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=L--IxUH4fac",
-          "fx": 138.0331425666809,
-          "fy": 20.29327566905681,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 261,
+  "map": {
+    "text": "evolutionary algorithms",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "gene expression programming  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/evolutionary/gene-expression-programming",
+                "text": "gene expression programming  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=L--IxUH4fac",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Evolutionary_algorithm",
+        "text": "evolutionary algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "gene expression programming  ️",
-      "url": "/computer-science/algorithms/evolutionary/gene-expression-programming",
-      "fx": -284.6354166666656,
-      "fy": 144.82913306445533,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "evolutionary algorithms",
-      "target": "basics",
-      "curve": {
-        "x": -1.73679,
-        "y": 58.5699
       }
-    },
-    {
-      "source": "basics",
-      "target": "gene expression programming  ️",
-      "curve": {
-        "x": -79.0843,
-        "y": 68.0179
-      }
-    }
-  ],
-  "id": 261
+    ],
+    "author": ""
+  }
 }

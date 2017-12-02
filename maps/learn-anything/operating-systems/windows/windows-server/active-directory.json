@@ -1,52 +1,53 @@
 {
   "title": "learn anything - operating systems - windows - windows server - active directory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "active directory",
-      "url": "http://www.wikiwand.com/en/Active_Directory",
-      "fx": -251.68359375,
-      "fy": -50.74609375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/activedirectory/",
-          "fx": 11.31640625,
-          "fy": -36.74609375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -198.87890625,
-      "fy": 72.51171875,
-      "nodes": [
-        {
-          "text": "1. beginner’s course",
-          "url": "https://mva.microsoft.com/en-us/training-courses/understanding-active-directory-8233?l=aErw3QJy_6904984382",
-          "fx": -42.87890625,
-          "fy": 84.01171875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "active directory",
-      "target": "basics",
-      "curve": {
-        "x": -0.597656,
-        "y": 60.3789
+  "id": 1313,
+  "map": {
+    "text": "active directory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://mva.microsoft.com/en-us/training-courses/understanding-active-directory-8233?l=aErw3QJy_6904984382",
+            "text": "1. beginner’s course",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1310
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/activedirectory/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Active_Directory",
+        "text": "active directory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

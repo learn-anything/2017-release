@@ -1,176 +1,196 @@
 {
   "title": "learn anything - databases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "databases",
-      "url": "http://www.wikiwand.com/en/Database",
-      "fx": 6.899553903385595,
-      "fy": -334.15454859621235,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Database/",
-          "fx": 227.8995539033856,
-          "fy": -360.15454859621235,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://dba.stackexchange.com/",
-          "fx": 227.8995539033856,
-          "fy": -320.15454859621235,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/numetriclabz/awesome-db",
-          "fx": 227.8995539033856,
-          "fy": -280.15454859621235,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 418,
+  "map": {
+    "text": "databases",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "relational databases  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/relational-databases",
+                "text": "relational databases  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "noSQL databases  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/nosql-databases",
+                "text": "noSQL databases  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "database caching",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Database_caching",
+                "text": "database caching",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "distributed databases  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/distributed-databases",
+                "text": "distributed databases  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "graph databases  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/graph-databases",
+                "text": "graph databases  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "time series database  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/time-series-databases",
+                "text": "time series database  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about",
+            "text": "1. databases from Stanford",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_Ic_9b4PcKmlae41cyxEefot",
+            "text": "1. gate lectures",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Database/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 21.890589344574096,
-      "fy": -187.9086332104127,
-      "nodes": [
-        {
-          "text": "1. databases from Stanford",
-          "url": "https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about",
-          "fx": 203.8905893445741,
-          "fy": -196.4086332104127,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. gate lectures",
-          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_Ic_9b4PcKmlae41cyxEefot",
-          "fx": 203.8905893445741,
-          "fy": -156.4086332104127,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://dba.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "distributed databases  ️",
-      "url": "/databases/distributed-databases",
-      "fx": -692.8006359405884,
-      "fy": 41.511917284780566,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "relational databases  ️",
-      "url": "/databases/relational-databases",
-      "fx": -404.2229881286621,
-      "fy": 42.566781997680664,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "noSQL databases  ️",
-      "url": "/databases/nosql-databases",
-      "fx": -146.53618621826172,
-      "fy": 42.56679153442383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "time series database  ️",
-      "url": "/databases/time-series-databases",
-      "fx": -969.2688419117649,
-      "fy": 43.272649684873954,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "database caching",
-      "url": "http://www.wikiwand.com/en/Database_caching",
-      "fx": 92.73653017241418,
-      "fy": 44.745100350215694,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "graph databases  ️",
-      "url": "/databases/graph-databases",
-      "fx": 337.3810663926288,
-      "fy": 45.590967695758195,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "databases",
-      "target": "basics",
-      "curve": {
-        "x": 0.495442,
-        "y": 73.1233
+      },
+      {
+        "url": "https://github.com/numetriclabz/awesome-db",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Database",
+        "text": "databases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "relational databases  ️",
-      "curve": {
-        "x": -182.556,
-        "y": 115.238
-      }
-    },
-    {
-      "source": "basics",
-      "target": "noSQL databases  ️",
-      "curve": {
-        "x": -57.9634,
-        "y": 115.238
-      }
-    },
-    {
-      "source": "basics",
-      "target": "database caching",
-      "curve": {
-        "x": 65.6727,
-        "y": 117.577
-      }
-    },
-    {
-      "source": "basics",
-      "target": "distributed databases  ️",
-      "curve": {
-        "x": -318.345,
-        "y": 115.96
-      }
-    },
-    {
-      "source": "basics",
-      "target": "graph databases  ️",
-      "curve": {
-        "x": 172.495,
-        "y": 116.75
-      }
-    },
-    {
-      "source": "basics",
-      "target": "time series database  ️",
-      "curve": {
-        "x": -583.767,
-        "y": 111.766
-      }
-    }
-  ],
-  "id": 418
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - biology - organisms - plants - hydroponics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hydroponics",
-      "url": "http://www.wikiwand.com/en/Hydroponics",
-      "fx": 86.21875,
-      "fy": -87.015625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/hydro/",
-          "fx": 324.21875,
-          "fy": -73.015625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 116.5,
-      "fy": 30,
-      "nodes": [
-        {
-          "text": "1. how it works",
-          "url": "https://www.youtube.com/watch?v=nXy32Dr4Z4A",
-          "fx": 272.5,
-          "fy": 41.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "hydroponics",
-      "target": "basics",
-      "curve": {
-        "x": -5.35938,
-        "y": 57.2578
+  "id": 122,
+  "map": {
+    "text": "hydroponics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nXy32Dr4Z4A",
+            "text": "1. how it works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 122
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/hydro/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Hydroponics",
+        "text": "hydroponics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

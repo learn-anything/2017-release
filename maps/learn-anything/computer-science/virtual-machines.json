@@ -1,84 +1,80 @@
 {
   "title": "learn anything - computer science - virtual machines",
   "tag": "",
-  "nodes": [
-    {
-      "text": "virtual machine",
-      "url": "http://www.wikiwand.com/en/Virtual_machine",
-      "fx": -102.0859375,
-      "fy": -192.1640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 35.530961990356445,
-      "fy": -87.92094612121582,
-      "nodes": [
-        {
-          "text": "16: bits of advice for the vm writer",
-          "url": "https://www.youtube.com/watch?v=Hqw57GJSrac",
-          "fx": 172.55192184448242,
-          "fy": -87.40829086303711,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 352,
+  "map": {
+    "text": "virtual machine",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Hqw57GJSrac",
+            "text": "16: bits of advice for the vm writer",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "JVM  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/virtual-machines/jvm",
+                "text": "JVM  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLJq3XDLIJkib2h2fObomdFRZrQeJg4UIW",
+            "text": "1. virtual machine summer school",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Virtual_machine",
+        "text": "virtual machine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -71.32505416870117,
-      "fy": 12.703361347317696,
-      "nodes": [
-        {
-          "text": "1. virtual machine summer school",
-          "url": "https://www.youtube.com/playlist?list=PLJq3XDLIJkib2h2fObomdFRZrQeJg4UIW",
-          "fx": 110.67494583129883,
-          "fy": 13.203361347317696,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "JVM  ️",
-      "url": "/computer-science/virtual-machines/jvm",
-      "fx": -133.6880336407105,
-      "fy": 132.99130435897894,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "virtual machine",
-      "curve": {
-        "x": -37.5584,
-        "y": -50.8716
       }
-    },
-    {
-      "source": "virtual machine",
-      "target": "basics",
-      "curve": {
-        "x": -11.1196,
-        "y": 101.184
-      }
-    },
-    {
-      "source": "basics",
-      "target": "JVM  ️",
-      "curve": {
-        "x": -28.1815,
-        "y": 61.394
-      }
-    }
-  ],
-  "id": 352
+    ],
+    "author": ""
+  }
 }

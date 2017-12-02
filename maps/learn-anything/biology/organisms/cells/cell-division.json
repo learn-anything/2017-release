@@ -1,83 +1,91 @@
 {
   "title": "learn anything - biology - organisms - cells - cell division",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cell division",
-      "url": "http://www.wikiwand.com/en/Cell_division",
-      "fx": 261.95103302725124,
-      "fy": -122.54174688981044,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 292.5047549897904,
-      "fy": 4.280300567311258,
-      "nodes": [
-        {
-          "text": "1. mitosis: splitting up is complicated",
-          "url": "https://www.youtube.com/watch?v=L0k-enzoeOM",
-          "fx": 448.5047549897904,
-          "fy": -15.219699432688742,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. cell division and the cell cycle",
-          "url": "https://www.youtube.com/watch?v=Q6ucKWIIFmg",
-          "fx": 448.5047549897904,
-          "fy": 46.78030056731126,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 110,
+  "map": {
+    "text": "cell division",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "cell growth",
+            "nodes": [
+              {
+                "text": "cancer  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/medicine/diseases/cancer",
+                    "text": "cancer  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Cell_growth",
+                "text": "cell growth",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=L0k-enzoeOM",
+            "text": "1. mitosis: splitting up is complicated",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Q6ucKWIIFmg",
+            "text": "1. cell division and the cell cycle",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cell_division",
+        "text": "cell division",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "cell growth",
-      "url": "http://www.wikiwand.com/en/Cell_growth",
-      "fx": 182.18626022338867,
-      "fy": 147.98654174804688,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "cancer  ️",
-      "url": "/medicine/diseases/cancer",
-      "fx": 189.21801549834436,
-      "fy": 278.2946056892928,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cell division",
-      "target": "basics",
-      "curve": {
-        "x": -2.97313,
-        "y": 62.161
       }
-    },
-    {
-      "source": "basics",
-      "target": "cell growth",
-      "curve": {
-        "x": -44.9092,
-        "y": 71.8531
-      }
-    },
-    {
-      "source": "cell growth",
-      "target": "cancer  ️",
-      "curve": {
-        "x": -12.7341,
-        "y": 63.904
-      }
-    }
-  ],
-  "id": 110
+    ],
+    "author": ""
+  }
 }

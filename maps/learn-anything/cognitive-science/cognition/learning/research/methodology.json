@@ -1,42 +1,42 @@
 {
   "title": "learn anything - cognitive science - cognition - learning - research - methodology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "methodology",
-      "url": "http://www.wikiwand.com/en/Methodology",
-      "fx": 197.80078125,
-      "fy": -275.71875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 238.2019082991809,
-      "fy": -122.29821977466173,
-      "nodes": [
-        {
-          "text": "1. intro to research methodology",
-          "url": "https://www.youtube.com/watch?v=1LGuNn9Q0bI",
-          "fx": 401.2019082991809,
-          "fy": -122.29821977466173,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "methodology",
-      "target": "basics",
-      "curve": {
-        "x": -4.04944,
-        "y": 75.9603
+  "id": 191,
+  "map": {
+    "text": "methodology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=1LGuNn9Q0bI",
+            "text": "1. intro to research methodology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 191
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Methodology",
+        "text": "methodology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

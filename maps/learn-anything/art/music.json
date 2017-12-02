@@ -1,218 +1,245 @@
 {
   "title": "learn anything - art - music",
   "tag": "",
-  "nodes": [
-    {
-      "text": "music",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Music",
-      "fx": -93.83140546588515,
-      "fy": -327.4469377076612,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/LetsTalkMusic/",
-          "fx": 113.16859453411485,
-          "fy": -353.4469377076612,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://music.stackexchange.com/",
-          "fx": 113.16859453411485,
-          "fy": -313.4469377076612,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/ciconia/awesome-music",
-          "fx": 113.16859453411485,
-          "fy": -273.4469377076612,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 55,
+  "map": {
+    "text": "music",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/willianjusten/awesome-audio-visualization",
+            "text": "awesome audio visualisation",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/pointblankonline/videos",
+            "text": "point blank music school",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/richard512/findyourmusic",
+            "text": "find your music",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "music theory  ️",
+        "nodes": [
+          {
+            "text": "instruments  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/instruments",
+                "text": "instruments  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "live coding music",
+            "note": "write code and generate music",
+            "nodes": [
+              {
+                "text": "sonic PI  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/art/music/sonic-pi",
+                    "text": "sonic PI  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Live_coding",
+                "text": "live coding music",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "new music  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/new-music",
+                "text": "new music  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "music production  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-production",
+                "text": "music production  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "music genres  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-genres",
+                "text": "music genres  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "song writing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/song-writing",
+                "text": "song writing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "/art/music/music-theory",
+            "text": "music theory  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/LetsTalkMusic/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 22.274261834100685,
-      "fy": -161.73951970571449,
-      "nodes": [
-        {
-          "text": "awesome audio visualisation",
-          "url": "https://github.com/willianjusten/awesome-audio-visualization",
-          "fx": 159.27426183410068,
-          "fy": -190.23951970571449,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "point blank music school",
-          "url": "https://www.youtube.com/user/pointblankonline/videos",
-          "fx": 159.27426183410068,
-          "fy": -150.23951970571449,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "find your music",
-          "url": "https://github.com/richard512/findyourmusic",
-          "fx": 159.27426183410068,
-          "fy": -110.23951970571449,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(34, 205, 224, 1.0)"
+      },
+      {
+        "url": "https://music.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "music theory  ️",
-      "url": "/art/music/music-theory",
-      "fx": -113.74770021645008,
-      "fy": -57.73538961038969,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "music genres  ️",
-      "url": "/art/music/music-genres",
-      "fx": -538.545041346498,
-      "fy": 60.03990175903368,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "instruments  ️",
-      "url": "/art/music/instruments",
-      "fx": -298.0797121732369,
-      "fy": 70.1164229407317,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "live coding music",
-      "note": "write code and generate music",
-      "url": "http://www.wikiwand.com/en/Live_coding",
-      "fx": -109.19459028996403,
-      "fy": 91.27909293103573,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "new music  ️",
-      "url": "/art/music/new-music",
-      "fx": 388.2366943359375,
-      "fy": 102.11244201660156,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "music production  ️",
-      "url": "/art/music/music-production",
-      "fx": 156.14178466796875,
-      "fy": 102.61257743835449,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "song writing  ️",
-      "url": "/art/music/song-writing",
-      "fx": 561.3609924316406,
-      "fy": 104.24084281921387,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "sonic PI  ️",
-      "url": "/art/music/sonic-pi",
-      "fx": 38.84767429094666,
-      "fy": 189.18474229951903,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "music",
-      "curve": {
-        "x": -47.0529,
-        "y": -81.6037
+      },
+      {
+        "url": "https://github.com/ciconia/awesome-music",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Music",
+        "text": "music",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "live coding music",
-      "target": "sonic PI  ️",
-      "curve": {
-        "x": 53.021,
-        "y": 48.9528
-      }
-    },
-    {
-      "source": "music",
-      "target": "music theory  ️",
-      "curve": {
-        "x": -1.70815,
-        "y": 133.606
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "instruments  ️",
-      "curve": {
-        "x": -94.666,
-        "y": 63.9259
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "live coding music",
-      "curve": {
-        "x": 11.5266,
-        "y": 73.2573
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "new music  ️",
-      "curve": {
-        "x": 284.722,
-        "y": 73.795
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "music production  ️",
-      "curve": {
-        "x": 177.888,
-        "y": 80.46
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "music genres  ️",
-      "curve": {
-        "x": -245.522,
-        "y": 29.6229
-      }
-    },
-    {
-      "source": "music theory  ️",
-      "target": "song writing  ️",
-      "curve": {
-        "x": 462.554,
-        "y": 81.0714
-      }
-    }
-  ],
-  "id": 55
+    ],
+    "author": ""
+  }
 }

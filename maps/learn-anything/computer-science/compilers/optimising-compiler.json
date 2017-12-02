@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - compilers - optimising compiler",
   "tag": "",
-  "nodes": [
-    {
-      "text": "optimising compiler",
-      "url": "http://www.wikiwand.com/en/Optimizing_compiler",
-      "fx": 103.39574795081978,
-      "fy": -295.9452484631148,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 297.32440844676046,
-      "fy": -167.88811383191717,
-      "nodes": [
-        {
-          "text": "15: an optimising BF compiler  ️",
-          "url": "http://www.wilfred.me.uk/blog/2015/08/29/an-optimising-bf-compiler/",
-          "fx": 496.32440844676046,
-          "fy": -155.38811383191717,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 165.24009018456377,
-      "fy": -48.61184966030385,
-      "nodes": [
-        {
-          "text": "1. understanding compiler optimisation",
-          "url": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
-          "fx": 328.24009018456377,
-          "fy": -48.61184966030385,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "optimising compiler",
-      "target": "basics",
-      "curve": {
-        "x": -8.82783,
-        "y": 122.917
+  "id": 290,
+  "map": {
+    "text": "optimising compiler",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
+            "text": "1. understanding compiler optimisation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wilfred.me.uk/blog/2015/08/29/an-optimising-bf-compiler/",
+            "text": "15: an optimising BF compiler  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "optimising compiler",
-      "curve": {
-        "x": -66.2143,
-        "y": -63.2786
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Optimizing_compiler",
+        "text": "optimising compiler",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 290
+    ],
+    "author": ""
+  }
 }

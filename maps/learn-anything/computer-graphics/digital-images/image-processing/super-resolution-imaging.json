@@ -1,66 +1,59 @@
 {
   "title": "learn anything - computer graphics - digital images - image processing - super-resolution imaging",
   "tag": "super-resolution imaging",
-  "nodes": [
-    {
-      "text": "super-resolution imaging",
-      "url": "http://www.wikiwand.com/en/Super-resolution_imaging",
-      "fx": -378.60546875,
-      "fy": -138.28515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -158.5078125,
-      "fy": -17.8984375,
-      "nodes": [
-        {
-          "text": "super-resolution revolution",
-          "url": "https://www.youtube.com/watch?v=W-0GWbOFT3w&amp;t=3s",
-          "fx": 32.4921875,
-          "fy": -6.3984375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -290.48828125,
-      "fy": 111.28515625,
-      "nodes": [
-        {
-          "text": "1. what is super-resolution?",
-          "url": "http://www.infognition.com/articles/what_is_super_resolution.html",
-          "fx": -134.48828125,
-          "fy": 125.78515625,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "super-resolution imaging",
-      "target": "basics",
-      "curve": {
-        "x": -4.19141,
-        "y": 123.535
+  "id": 211,
+  "map": {
+    "text": "super-resolution imaging",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.infognition.com/articles/what_is_super_resolution.html",
+            "text": "1. what is super-resolution?",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=W-0GWbOFT3w&amp;t=3s",
+            "text": "super-resolution revolution",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "super-resolution imaging",
-      "curve": {
-        "x": -70.5488,
-        "y": -58.9434
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Super-resolution_imaging",
+        "text": "super-resolution imaging",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 211
+    ],
+    "author": ""
+  }
 }

@@ -1,87 +1,95 @@
 {
   "title": "learn anything - anthropology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "anthropology",
-      "url": "http://www.wikiwand.com/en/Anthropology",
-      "fx": -88.9793831420593,
-      "fy": -325.79322076612885,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Anthropology/",
-          "fx": 156.0206168579407,
-          "fy": -311.79322076612885,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -64.06518724509112,
-      "fy": -115.12751112128456,
-      "nodes": [
-        {
-          "text": "1. introduction to the discipline of anthropology",
-          "url": "https://www.youtube.com/watch?v=J5aglbgTEig",
-          "fx": 117.93481275490888,
-          "fy": -198.62751112128456,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. imagined communities: reflections on the origin and spread of nationalism",
-          "url": "https://www.goodreads.com/book/show/399136.Imagined_Communities",
-          "fx": 117.93481275490888,
-          "fy": -136.62751112128456,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. small places, large issues: an introduction to social and cultural anthropology",
-          "url": "https://www.goodreads.com/book/show/207294.Small_Places_Large_Issues",
-          "fx": 117.93481275490888,
-          "fy": -52.627511121284556,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "archaeology  ️",
-      "url": "/anthropology/archaeology",
-      "fx": -189.2106641699138,
-      "fy": 36.846280602188585,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "anthropology",
-      "target": "basics",
-      "curve": {
-        "x": -10.0429,
-        "y": 104.083
+  "id": 2,
+  "map": {
+    "text": "anthropology",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "archaeology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/anthropology/archaeology",
+                "text": "archaeology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=J5aglbgTEig",
+            "text": "1. introduction to the discipline of anthropology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/399136.Imagined_Communities",
+            "text": "2. imagined communities: reflections on the origin and spread of nationalism",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/207294.Small_Places_Large_Issues",
+            "text": "2. small places, large issues: an introduction to social and cultural anthropology",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "archaeology  ️",
-      "curve": {
-        "x": -56.0727,
-        "y": 75.9869
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Anthropology/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Anthropology",
+        "text": "anthropology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 2
+    ],
+    "author": ""
+  }
 }

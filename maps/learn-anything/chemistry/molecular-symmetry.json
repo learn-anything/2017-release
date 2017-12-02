@@ -1,84 +1,81 @@
 {
   "title": "learn anything - chemistry - molecular symmetry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "molecular symmetry",
-      "url": "http://www.wikiwand.com/en/Molecular_symmetry",
-      "fx": -89.09765625,
-      "fy": -167.28515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 100.11133078783269,
-      "fy": -62.062013589063724,
-      "nodes": [
-        {
-          "text": "symmetry resources",
-          "url": "http://symmetry.otterbein.edu/",
-          "fx": 237.11133078783269,
-          "fy": -75.56201358906372,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "point group symmetry character tables",
-          "url": "http://www.webqc.org/symmetrypointgroup-oh.html",
-          "fx": 237.11133078783269,
-          "fy": -41.562013589063724,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -21.99134404437507,
-      "fy": 87.52865508237596,
-      "nodes": [
-        {
-          "text": "1. chemical applications of group theory",
-          "url": "http://www.goodreads.com/book/show/558450.Chemical_Applications_of_Group_Theory",
-          "fx": 160.00865595562493,
-          "fy": 46.02865508237596,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. molecular symmetry and group theory: a programmed introduction to chemical applications",
-          "url": "http://www.goodreads.com/book/show/558506.Molecular_Symmetry_and_Group_Theory",
-          "fx": 160.00865595562493,
-          "fy": 108.02865508237596,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "molecular symmetry",
-      "target": "basics",
-      "curve": {
-        "x": -4.69684,
-        "y": 126.157
+  "id": 173,
+  "map": {
+    "text": "molecular symmetry",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/558450.Chemical_Applications_of_Group_Theory",
+            "text": "1. chemical applications of group theory",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/558506.Molecular_Symmetry_and_Group_Theory",
+            "text": "1. molecular symmetry and group theory: a programmed introduction to chemical applications",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://symmetry.otterbein.edu/",
+            "text": "symmetry resources",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.webqc.org/symmetrypointgroup-oh.html",
+            "text": "point group symmetry character tables",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "molecular symmetry",
-      "curve": {
-        "x": -51.6045,
-        "y": -51.3616
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Molecular_symmetry",
+        "text": "molecular symmetry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 173
+    ],
+    "author": ""
+  }
 }

@@ -1,59 +1,62 @@
 {
   "title": "learn anything - information theory - information - data storage - cloud storage - storj",
   "tag": "Storj decentralised cloud storage",
-  "nodes": [
-    {
-      "text": "storj",
-      "url": "https://storj.io/",
-      "fx": -79.23828125,
-      "fy": -342.48828125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/Storj/",
-          "fx": 60.76171875,
-          "fy": -350.98828125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/Storj/awesome-storj",
-          "fx": 60.76171875,
-          "fy": -308.98828125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -100.92821631493518,
-      "fy": -200.86059253247834,
-      "nodes": [
-        {
-          "text": "1. usage examples",
-          "url": "https://storj.github.io/core/",
-          "fx": 62.071783685064815,
-          "fy": -185.86059253247834,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "storj",
-      "target": "basics",
-      "curve": {
-        "x": -5.09497,
-        "y": 70.8138
+  "id": 636,
+  "map": {
+    "text": "storj",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://storj.github.io/core/",
+            "text": "1. usage examples",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 636
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/Storj/",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/Storj/awesome-storj",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://storj.io/",
+        "text": "storj",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

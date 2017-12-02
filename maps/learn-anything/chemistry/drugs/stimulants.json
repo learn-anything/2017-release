@@ -1,74 +1,78 @@
 {
   "title": "learn anything - chemistry - drugs - stimulants",
   "tag": "stimulant drugs",
-  "nodes": [
-    {
-      "text": "stimulants",
-      "url": "http://www.wikiwand.com/en/Stimulant",
-      "fx": -143.88181839132483,
-      "fy": -494.3428613429652,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 52.086594585114995,
-      "fy": -390.2244563846359,
-      "nodes": [
-        {
-          "text": "17: placebo stimulants make you think you're performing better",
-          "url": "https://www.youtube.com/watch?v=VB2YTgonB88",
-          "fx": 243.086594585115,
-          "fy": -389.7244563846359,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 169,
+  "map": {
+    "text": "stimulants",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=VB2YTgonB88",
+            "text": "17: placebo stimulants make you think you're performing better",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "amphetamines  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/drugs/stimulants/amphetamines",
+            "text": "amphetamines  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "caffeine  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/chemistry/drugs/stimulants/caffeine",
+            "text": "caffeine  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stimulant",
+        "text": "stimulants",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "amphetamines  ️",
-      "url": "/chemistry/drugs/stimulants/amphetamines",
-      "fx": -314.5871965222285,
-      "fy": -282.67435748442017,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "caffeine  ️",
-      "url": "/chemistry/drugs/stimulants/caffeine",
-      "fx": -92.75812336225499,
-      "fy": -282.14001686169956,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "stimulants",
-      "curve": {
-        "x": -90.9842,
-        "y": -50.8092
       }
-    },
-    {
-      "source": "stimulants",
-      "target": "amphetamines  ️",
-      "curve": {
-        "x": -74.8527,
-        "y": 105.834
-      }
-    },
-    {
-      "source": "stimulants",
-      "target": "caffeine  ️",
-      "curve": {
-        "x": 20.0618,
-        "y": 106.101
-      }
-    }
-  ],
-  "id": 169
+    ],
+    "author": ""
+  }
 }

@@ -1,60 +1,64 @@
 {
   "title": "learn anything - biology - immunology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "immunology",
-      "url": "http://www.wikiwand.com/en/Immunology",
-      "fx": -22.000468254089355,
-      "fy": -103.5208625793457,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 14.414034843444824,
-      "fy": 27.08290719985962,
-      "nodes": [
-        {
-          "text": "1. immunology khan academy",
-          "url": "https://www.youtube.com/watch?v=O1N2rENXq_Y&amp;list=PLNpslXVNsEGNkGKJ3jeTFkNpQAL3l919h",
-          "fx": 170.41403484344482,
-          "fy": -12.41709280014038,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. immunology 101",
-          "url": "https://www.youtube.com/watch?v=gKkvTXLvbhs",
-          "fx": 170.41403484344482,
-          "fy": 27.58290719985962,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. medical microbiology &amp; immunology",
-          "url": "http://www.goodreads.com/book/show/808109.Medical_Microbiology_Immunology",
-          "fx": 170.41403484344482,
-          "fy": 67.58290719985962,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "immunology",
-      "target": "basics",
-      "curve": {
-        "x": 4.95725,
-        "y": 65.3019
+  "id": 106,
+  "map": {
+    "text": "immunology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=O1N2rENXq_Y&amp;list=PLNpslXVNsEGNkGKJ3jeTFkNpQAL3l919h",
+            "text": "1. immunology khan academy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gKkvTXLvbhs",
+            "text": "1. immunology 101",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/808109.Medical_Microbiology_Immunology",
+            "text": "2. medical microbiology &amp; immunology",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 106
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Immunology",
+        "text": "immunology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

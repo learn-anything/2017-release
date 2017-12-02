@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer hardware - computer - gpu - opencl",
   "tag": "OpenCL",
-  "nodes": [
-    {
-      "text": "OpenCL",
-      "url": "http://www.wikiwand.com/en/OpenCL",
-      "fx": -63.74609375,
-      "fy": -194.94921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 90.9001498287671,
-      "fy": -73.30586472602738,
-      "nodes": [
-        {
-          "text": "chlorine",
-          "url": "https://github.com/Polytonic/Chlorine",
-          "fx": 227.9001498287671,
-          "fy": -61.80586472602738,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -48.39437071917803,
-      "fy": 17.697452910958873,
-      "nodes": [
-        {
-          "text": "1. hands on OpenCL",
-          "url": "https://handsonopencl.github.io/",
-          "fx": 133.60562928082197,
-          "fy": 32.19745291095887,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "OpenCL",
-      "target": "basics",
-      "curve": {
-        "x": -4.07414,
-        "y": 105.073
+  "id": 250,
+  "map": {
+    "text": "OpenCL",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://handsonopencl.github.io/",
+            "text": "1. hands on OpenCL",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/Polytonic/Chlorine",
+            "text": "chlorine",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "OpenCL",
-      "curve": {
-        "x": -60.8231,
-        "y": -59.5717
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/OpenCL",
+        "text": "OpenCL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 250
+    ],
+    "author": ""
+  }
 }

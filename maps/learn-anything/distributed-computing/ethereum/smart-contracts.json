@@ -1,90 +1,77 @@
 {
   "title": "learn anything - distributed computing - ethereum - smart contracts",
   "tag": "ethereum smart contracts",
-  "nodes": [
-    {
-      "text": "smart contracts",
-      "url": "http://www.wikiwand.com/en/Smart_contract",
-      "fx": 37.25,
-      "fy": -427.7771516393443,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 206.9312515258789,
-      "fy": -313.3280487060547,
-      "nodes": [
-        {
-          "text": "smart contract best practices",
-          "url": "https://github.com/ConsenSys/smart-contract-best-practices",
-          "fx": 347.9312515258789,
-          "fy": -300.8280487060547,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 256.18093039772737,
-      "fy": -187.7099510732324,
-      "nodes": [
-        {
-          "text": "etherest",
-          "url": "https://www.etherest.io/",
-          "fx": 455.18093039772737,
-          "fy": -172.7099510732324,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 86.37041332765864,
-      "fy": -63.614744845863925,
-      "nodes": [
-        {
-          "text": "1. building a smart contract using the command line",
-          "url": "https://www.ethereum.org/greeter",
-          "fx": 249.37041332765864,
-          "fy": -61.114744845863925,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "smart contracts",
-      "target": "basics",
-      "curve": {
-        "x": -5.93979,
-        "y": 181.331
+  "id": 445,
+  "map": {
+    "text": "smart contracts",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.ethereum.org/greeter",
+            "text": "1. building a smart contract using the command line",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.etherest.io/",
+                "text": "etherest",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/ConsenSys/smart-contract-best-practices",
+            "text": "smart contract best practices",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "smart contracts",
-      "curve": {
-        "x": -48.8406,
-        "y": -56.4746
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Smart_contract",
+        "text": "smart contracts",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -39.1248,
-        "y": -62.809
-      }
-    }
-  ],
-  "id": 445
+    ],
+    "author": ""
+  }
 }

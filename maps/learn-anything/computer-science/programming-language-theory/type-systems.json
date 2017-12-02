@@ -1,123 +1,125 @@
 {
   "title": "learn anything - computer science - programming language theory - type systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "type systems",
-      "url": "http://www.wikiwand.com/en/Type_system",
-      "fx": -115.2107221948819,
-      "fy": -273.1809485728346,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 104.45401111868603,
-      "fy": -162.93702043745225,
-      "nodes": [
-        {
-          "text": "17: where do type systems come from  ️",
-          "url": "http://blog.felipe.rs/2017/07/07/where-do-type-systems-come-from/",
-          "fx": 273.454011118686,
-          "fy": -162.93702043745225,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 345,
+  "map": {
+    "text": "type systems",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "type classes  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/type-systems/type-classes",
+                "text": "type classes  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "gradual typing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/type-systems/gradual-typing",
+                "text": "gradual typing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "type checking",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://wiki.c2.com/?TypeChecking",
+                "text": "type checking",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ozwFIuVfPsQ",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
+            "text": "1. propositions as types",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://blog.felipe.rs/2017/07/07/where-do-type-systems-come-from/",
+            "text": "17: where do type systems come from  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Type_system",
+        "text": "type systems",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -69.51214361190796,
-      "fy": -45.182718716458794,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=ozwFIuVfPsQ",
-          "fx": 93.48785638809204,
-          "fy": -53.682718716458794,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. propositions as types",
-          "url": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
-          "fx": 93.48785638809204,
-          "fy": -11.682718716458794,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "type classes  ️",
-      "url": "/computer-science/programming-language-theory/type-systems/type-classes",
-      "fx": -250.459008967125,
-      "fy": 130.45892278839437,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "type checking",
-      "url": "http://wiki.c2.com/?TypeChecking",
-      "fx": -449.45149947372,
-      "fy": 133.101283444248,
-      "nodes": []
-    },
-    {
-      "text": "gradual typing  ️",
-      "url": "/computer-science/programming-language-theory/type-systems/gradual-typing",
-      "fx": -41.2989742249016,
-      "fy": 134.47982699111503,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "type systems",
-      "target": "basics",
-      "curve": {
-        "x": 2.59929,
-        "y": 112.749
       }
-    },
-    {
-      "source": "basics",
-      "target": "type classes  ️",
-      "curve": {
-        "x": -76.9735,
-        "y": 87.8208
-      }
-    },
-    {
-      "source": "basics",
-      "target": "gradual typing  ️",
-      "curve": {
-        "x": 31.6065,
-        "y": 89.8313
-      }
-    },
-    {
-      "source": "articles",
-      "target": "type systems",
-      "curve": {
-        "x": -86.5824,
-        "y": -54.372
-      }
-    },
-    {
-      "source": "basics",
-      "target": "type checking",
-      "curve": {
-        "x": -180.73,
-        "y": 75.1238
-      }
-    }
-  ],
-  "id": 345
+    ],
+    "author": ""
+  }
 }

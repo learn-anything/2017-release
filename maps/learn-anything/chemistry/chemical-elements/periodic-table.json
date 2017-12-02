@@ -1,67 +1,60 @@
 {
   "title": "learn anything - chemistry - chemical elements - periodic table",
   "tag": "",
-  "nodes": [
-    {
-      "text": "periodic table",
-      "url": "http://www.wikiwand.com/en/Periodic_table",
-      "fx": 256.1328125,
-      "fy": -327.9296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 377.28515625,
-      "fy": -221.9375,
-      "nodes": [
-        {
-          "text": "dynamic periodic table",
-          "url": "http://www.ptable.com/",
-          "fx": 514.28515625,
-          "fy": -210.4375,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 283.29296875,
-      "fy": -109.4296875,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=0RRVV4Diomg",
-          "fx": 439.29296875,
-          "fy": -97.9296875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "periodic table",
-      "curve": {
-        "x": -33.8262,
-        "y": -51.7461
+  "id": 146,
+  "map": {
+    "text": "periodic table",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.ptable.com/",
+            "text": "dynamic periodic table",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=0RRVV4Diomg",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "periodic table",
-      "target": "basics",
-      "curve": {
-        "x": -9.66992,
-        "y": 108
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Periodic_table",
+        "text": "periodic table",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 146
+    ],
+    "author": ""
+  }
 }

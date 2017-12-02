@@ -1,76 +1,71 @@
 {
   "title": "learn anything - physics - quantum mechanics - quantum information - quantum teleportation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "quantum teleportation",
-      "url": "http://www.wikiwand.com/en/Quantum_teleportation",
-      "fx": 105.16258965163945,
-      "fy": -166.3695568647541,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 318.07929123659187,
-      "fy": -49.99200911190428,
-      "nodes": [
-        {
-          "text": "15: quantum communication protocols based on entanglement swapping",
-          "url": "https://arxiv.org/pdf/1504.05904.pdf",
-          "fx": 517.0792912365919,
-          "fy": -62.49200911190428,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 190.43900113437257,
-      "fy": 69.06500239040759,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "http://lightlike.com/teleport/teletalk.pdf",
-          "fx": 353.4390011343726,
-          "fy": 60.565002390407585,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=_qmSdC7aQpY",
-          "fx": 353.4390011343726,
-          "fy": 102.56500239040759,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "quantum teleportation",
-      "target": "basics",
-      "curve": {
-        "x": -3.36179,
-        "y": 116.967
+  "id": 1539,
+  "map": {
+    "text": "quantum teleportation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://lightlike.com/teleport/teletalk.pdf",
+            "text": "1. introduction",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_qmSdC7aQpY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://arxiv.org/pdf/1504.05904.pdf",
+            "text": "15: quantum communication protocols based on entanglement swapping",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "quantum teleportation",
-      "curve": {
-        "x": -69.4584,
-        "y": -57.4388
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Quantum_teleportation",
+        "text": "quantum teleportation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1536
+    ],
+    "author": ""
+  }
 }

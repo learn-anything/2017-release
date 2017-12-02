@@ -1,60 +1,63 @@
 {
   "title": "learn anything - art - music - instruments - synthesiser",
   "tag": "synthesisers",
-  "nodes": [
-    {
-      "text": "synthesiser",
-      "url": "http://www.wikiwand.com/en/Synthesizer",
-      "fx": 98.80859375,
-      "fy": -101.5859375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/synthesizers/",
-          "fx": 325.80859375,
-          "fy": -87.5859375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 130.546875,
-      "fy": 46.93359375,
-      "nodes": [
-        {
-          "text": "1. how does synthesiser work",
-          "url": "http://www.explainthatstuff.com/synthesizers.html",
-          "fx": 286.546875,
-          "fy": 30.43359375,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. fundamentals of synthesiser programming",
-          "url": "https://www.youtube.com/results?search_query=fundamentals+of+synthesiser+programming",
-          "fx": 286.546875,
-          "fy": 64.43359375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "synthesiser",
-      "target": "basics",
-      "curve": {
-        "x": -2.13086,
-        "y": 73.0097
+  "id": 40,
+  "map": {
+    "text": "synthesiser",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.explainthatstuff.com/synthesizers.html",
+            "text": "1. how does synthesiser work",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/results?search_query=fundamentals+of+synthesiser+programming",
+            "text": "1. fundamentals of synthesiser programming",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 40
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/synthesizers/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Synthesizer",
+        "text": "synthesiser",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

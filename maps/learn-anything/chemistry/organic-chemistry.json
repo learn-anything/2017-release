@@ -1,68 +1,73 @@
 {
   "title": "learn anything - chemistry - organic chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "organic chemistry",
-      "url": "http://www.wikiwand.com/en/Organic_chemistry",
-      "fx": -119.27019332627106,
-      "fy": -266.5790519067797,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -98.41796875,
-      "fy": -119.65508319805184,
-      "nodes": [
-        {
-          "text": "1. khan academy organic chemistry",
-          "url": "https://www.khanacademy.org/science/organic-chemistry",
-          "fx": 83.58203125,
-          "fy": -160.65508319805184,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. strategic applications of named reactions in organic synthesis: background and detailed mechanisms",
-          "url": "http://www.goodreads.com/book/show/354826.Strategic_Applications_of_Named_Reactions_in_Organic_Synthesis",
-          "fx": 83.58203125,
-          "fy": -120.65508319805184,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 176,
+  "map": {
+    "text": "organic chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "organic compounds  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/organic-chemistry/organic-compounds",
+                "text": "organic compounds  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/science/organic-chemistry",
+            "text": "1. khan academy organic chemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/354826.Strategic_Applications_of_Named_Reactions_in_Organic_Synthesis",
+            "text": "2. strategic applications of named reactions in organic synthesis: background and detailed mechanisms",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Organic_chemistry",
+        "text": "organic chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "organic compounds  ️",
-      "url": "/chemistry/organic-chemistry/organic-compounds",
-      "fx": -288.8585411417772,
-      "fy": -10.651342285081682,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "organic chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -22.3239,
-        "y": 72.212
       }
-    },
-    {
-      "source": "basics",
-      "target": "organic compounds  ️",
-      "curve": {
-        "x": -70.7203,
-        "y": 54.5019
-      }
-    }
-  ],
-  "id": 176
+    ],
+    "author": ""
+  }
 }

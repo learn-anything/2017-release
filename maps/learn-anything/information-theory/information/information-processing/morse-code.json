@@ -1,52 +1,53 @@
 {
   "title": "learn anything - information theory - information - information processing - morse code",
   "tag": "",
-  "nodes": [
-    {
-      "text": "morse code",
-      "url": "http://www.wikiwand.com/en/Morse_code",
-      "fx": 36.41796875,
-      "fy": -143.44921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/morse/",
-          "fx": 270.41796875,
-          "fy": -129.44921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 65.2734375,
-      "fy": -17.24609375,
-      "nodes": [
-        {
-          "text": "1. how morse code works",
-          "url": "https://www.youtube.com/watch?v=xsDk5_bktFo",
-          "fx": 221.2734375,
-          "fy": -5.74609375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "morse code",
-      "target": "basics",
-      "curve": {
-        "x": -5.32227,
-        "y": 61.8516
+  "id": 647,
+  "map": {
+    "text": "morse code",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=xsDk5_bktFo",
+            "text": "1. how morse code works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 647
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/morse/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Morse_code",
+        "text": "morse code",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

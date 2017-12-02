@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - civil engineering - structural engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "structural engineering",
-      "url": "http://www.wikiwand.com/en/Structural_engineering",
-      "fx": 142.87022236415328,
-      "fy": -102.1275833220709,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 222.01357886904748,
-      "fy": 67.42029389880952,
-      "nodes": [
-        {
-          "text": "1. what is structural engineering?",
-          "url": "https://www.youtube.com/watch?v=od_MpNUzeCE",
-          "fx": 378.0135788690475,
-          "fy": 78.92029389880952,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "structural engineering",
-      "target": "basics",
-      "curve": {
-        "x": -1.67832,
-        "y": 83.5239
+  "id": 515,
+  "map": {
+    "text": "structural engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=od_MpNUzeCE",
+            "text": "1. what is structural engineering?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 515
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Structural_engineering",
+        "text": "structural engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,61 +1,64 @@
 {
   "title": "learn anything - art - anime",
   "tag": "",
-  "nodes": [
-    {
-      "text": "anime",
-      "url": "http://www.wikiwand.com/en/Anime",
-      "fx": 5.999650001525879,
-      "fy": -37.30001175403595,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/anime/",
-          "fx": 187.99965000152588,
-          "fy": -43.30001175403595,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://anime.stackexchange.com/",
-          "fx": 187.99965000152588,
-          "fy": -3.3000117540359497,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 17.627363040123555,
-      "fy": 119.46228780864203,
-      "nodes": [
-        {
-          "text": "1. what is anime?",
-          "url": "https://www.youtube.com/watch?v=Qc0tIjw7fII",
-          "fx": 173.62736304012356,
-          "fy": 130.96228780864203,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "anime",
-      "target": "basics",
-      "curve": {
-        "x": -0.686143,
-        "y": 77.1311
+  "id": 9,
+  "map": {
+    "text": "anime",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Qc0tIjw7fII",
+            "text": "1. what is anime?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 9
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/anime/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://anime.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Anime",
+        "text": "anime",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

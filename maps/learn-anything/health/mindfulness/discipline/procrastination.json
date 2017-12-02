@@ -1,51 +1,53 @@
 {
   "title": "learn anything - health - mindfulness - discipline - procrastination",
   "tag": "",
-  "nodes": [
-    {
-      "text": "procrastination",
-      "url": "http://www.wikiwand.com/en/Procrastination",
-      "fx": 83.4453125,
-      "fy": -111.08203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 130,
-      "fy": 34,
-      "nodes": [
-        {
-          "text": "1. why procrastinator’s procrastinate  ️",
-          "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
-          "fx": 293,
-          "fy": 0.5,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. understanding procrastination  ️",
-          "url": "http://www.johnfn.com/internet.html",
-          "fx": 293,
-          "fy": 67.5,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "procrastination",
-      "target": "basics",
-      "curve": {
-        "x": -4.72266,
-        "y": 71.791
+  "id": 602,
+  "map": {
+    "text": "procrastination",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
+            "text": "1. why procrastinator’s procrastinate  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.johnfn.com/internet.html",
+            "text": "1. understanding procrastination  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 602
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Procrastination",
+        "text": "procrastination",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

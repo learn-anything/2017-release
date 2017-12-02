@@ -1,58 +1,61 @@
 {
   "title": "learn anything - earth science - atmospheric sciences - atmosphere - weather - climate",
   "tag": "",
-  "nodes": [
-    {
-      "text": "climate",
-      "url": "http://www.wikiwand.com/en/Climate",
-      "fx": 234.56316817434208,
-      "fy": -152.87890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 248.43950452302624,
-      "fy": -32.69515830592661,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=fCDaVOlR150",
-          "fx": 403.43950452302624,
-          "fy": -21.19515830592661,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 451,
+  "map": {
+    "text": "climate",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "Global warming  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/earth-science/atmospheric-sciences/atmosphere/weather/climate/global-warming",
+                "text": "Global warming  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=fCDaVOlR150",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Climate",
+        "text": "climate",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Global warming  ️",
-      "url": "/earth-science/atmospheric-sciences/atmosphere/weather/climate/global-warming",
-      "fx": 118.3018007105943,
-      "fy": 109.28815406976759,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "climate",
-      "target": "basics",
-      "curve": {
-        "x": -2.06183,
-        "y": 58.8419
       }
-    },
-    {
-      "source": "basics",
-      "target": "Global warming  ️",
-      "curve": {
-        "x": -44.0689,
-        "y": 70.9917
-      }
-    }
-  ],
-  "id": 451
+    ],
+    "author": ""
+  }
 }

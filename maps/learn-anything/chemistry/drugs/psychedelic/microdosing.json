@@ -1,53 +1,54 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - microdosing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "microdosing",
-      "note": "are sub-perceptual doses which are so low that they are unlikely to induce directly noticeable or perceptible effects",
-      "url": "https://psychonautwiki.org/wiki/Dosage#Microdose",
-      "fx": -102.62890625,
-      "fy": -149.5,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/microdosing/",
-          "fx": 161.37109375,
-          "fy": -135.5,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -7.125,
-      "nodes": [
-        {
-          "text": "1. what is microdosing",
-          "url": "https://www.reddit.com/r/microdosing/wiki/index",
-          "fx": 109.5,
-          "fy": 4.375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "microdosing",
-      "target": "basics",
-      "curve": {
-        "x": 1.06445,
-        "y": 69.9375
+  "id": 161,
+  "map": {
+    "text": "microdosing",
+    "note": "are sub-perceptual doses which are so low that they are unlikely to induce directly noticeable or perceptible effects",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/microdosing/wiki/index",
+            "text": "1. what is microdosing",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 161
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/microdosing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Dosage#Microdose",
+        "text": "microdosing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

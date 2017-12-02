@@ -1,103 +1,91 @@
 {
   "title": "learn anything - biology - human development - longevity",
   "tag": "",
-  "nodes": [
-    {
-      "text": "longevity",
-      "url": "http://www.wikiwand.com/en/Longevity",
-      "fx": 166.19010416666674,
-      "fy": -272.0403645833333,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/longevity/",
-          "fx": 372.19010416666674,
-          "fy": -258.0403645833333,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 282.330585222594,
-      "fy": -150.57984445112004,
-      "nodes": [
-        {
-          "text": "long long life  ️",
-          "url": "http://www.longlonglife.org/en/",
-          "fx": 419.330585222594,
-          "fy": -139.07984445112004,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 343.5926680388907,
-      "fy": -44.496070600405346,
-      "nodes": [
-        {
-          "text": "the Whiton Protocol  ️",
-          "url": "http://joshwhiton.com/health/paleo-anti-aging/",
-          "fx": 534.5926680388907,
-          "fy": -32.996070600405346,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 173.3552315870122,
-      "fy": 65.9061289384739,
-      "nodes": [
-        {
-          "text": "1. David Sinclair - longevity genes",
-          "url": "https://www.youtube.com/watch?v=zt1n6GdUdjY",
-          "fx": 355.3552315870122,
-          "fy": 66.4061289384739,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "longevity",
-      "target": "basics",
-      "curve": {
-        "x": -8.91744,
-        "y": 167.723
+  "id": 104,
+  "map": {
+    "text": "longevity",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=zt1n6GdUdjY",
+            "text": "1. David Sinclair - longevity genes",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://joshwhiton.com/health/paleo-anti-aging/",
+                "text": "the Whiton Protocol  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.longlonglife.org/en/",
+            "text": "long long life  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "longevity",
-      "curve": {
-        "x": -40.8202,
-        "y": -59.4803
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/longevity/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Longevity",
+        "text": "longevity",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -44.131,
-        "y": -53.0419
-      }
-    }
-  ],
-  "id": 104
+    ],
+    "author": ""
+  }
 }

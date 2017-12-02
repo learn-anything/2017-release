@@ -1,41 +1,41 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - digital logic",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digital logic",
-      "url": "https://learn.sparkfun.com/tutorials/digital-logic",
-      "fx": 268.34375,
-      "fy": -353.05078125,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 286.9140625,
-      "fy": -219.04296875,
-      "nodes": [
-        {
-          "text": "1. gate lectures",
-          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_Ica5kK6UypsWpf95Ut2sK3o",
-          "fx": 449.9140625,
-          "fy": -206.54296875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "digital logic",
-      "target": "basics",
-      "curve": {
-        "x": -1.96484,
-        "y": 67.0039
+  "id": 522,
+  "map": {
+    "text": "digital logic",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_Ica5kK6UypsWpf95Ut2sK3o",
+            "text": "1. gate lectures",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 522
+    ],
+    "resources": [
+      {
+        "url": "https://learn.sparkfun.com/tutorials/digital-logic",
+        "text": "digital logic",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,95 +1,104 @@
 {
   "title": "learn anything - design - typography - typeface",
   "tag": "typefaces",
-  "nodes": [
-    {
-      "text": "typeface",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Font",
-      "fx": -20.85083029157181,
-      "fy": -225.48632300227305,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "fonts",
-      "url": "http://www.wikiwand.com/en/Font",
-      "fx": -43.70353618420961,
-      "fy": -92.32201597740226,
-      "nodes": [
-        {
-          "text": "awesome fonts",
-          "url": "https://github.com/brabadu/awesome-fonts",
-          "fx": 127.29646381579039,
-          "fy": -78.32201597740226,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -9.737145712209326,
-      "fy": 62.13374364098843,
-      "nodes": [
-        {
-          "text": "codeface",
-          "note": "typefaces for source code beautification",
-          "url": "https://github.com/chrissimpkins/codeface",
-          "fx": 181.26285428779067,
-          "fy": 19.633743640988428,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "google fonts",
-          "url": "https://fonts.google.com/",
-          "fx": 181.26285428779067,
-          "fy": 59.63374364098843,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "fat squirrel",
-          "url": "https://www.fontsquirrel.com/",
-          "fx": 181.26285428779067,
-          "fy": 93.63374364098843,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "losevka",
-          "url": "https://github.com/be5invis/Iosevka",
-          "fx": 181.26285428779067,
-          "fy": 127.63374364098843,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "typeface",
-      "target": "fonts",
-      "curve": {
-        "x": -26.6764,
-        "y": 65.3322
+  "id": 440,
+  "map": {
+    "text": "typeface",
+    "note": "",
+    "nodes": [
+      {
+        "text": "fonts",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/chrissimpkins/codeface",
+                "text": "codeface",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://fonts.google.com/",
+                "text": "google fonts",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.fontsquirrel.com/",
+                "text": "fat squirrel",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://github.com/be5invis/Iosevka",
+                "text": "losevka",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/brabadu/awesome-fonts",
+            "text": "awesome fonts",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wikiwand.com/en/Font",
+            "text": "fonts",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "fonts",
-      "curve": {
-        "x": -24.2332,
-        "y": -75.9779
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Font",
+        "text": "typeface",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 440
+    ],
+    "author": ""
+  }
 }

@@ -1,142 +1,137 @@
 {
   "title": "learn anything - computer science - virtual machines - jvm",
   "tag": "java virtual machine",
-  "nodes": [
-    {
-      "text": "java virtual machine",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Java_virtual_machine",
-      "fx": -151.27734375,
-      "fy": -405.80078125,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/deephacks/awesome-jvm",
-          "fx": 178.72265625,
-          "fy": -391.80078125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 351,
+  "map": {
+    "text": "java virtual machine",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "talks",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.youtube.com/watch?v=-vizTDSz8NU&amp;t=852s",
+                "text": "16: jvm does that?",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://docs.oracle.com/javase/specs/",
+            "text": "jvm spec",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "vert.x  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/virtual-machines/jvm/vertx",
+                "text": "vert.x  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "RxJava  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/virtual-machines/jvm/rxjava",
+                "text": "RxJava  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.artima.com/insidejvm/ed2/",
+            "text": "1. inside the java virtual machine",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZBJ0u9MaKtM",
+            "text": "1. JVM architecture",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/deephacks/awesome-jvm",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 57.72673007215292,
-      "fy": -312.14863672877226,
-      "nodes": [
-        {
-          "text": "jvm spec",
-          "url": "http://docs.oracle.com/javase/specs/",
-          "fx": 194.72673007215292,
-          "fy": -297.64863672877226,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Java_virtual_machine",
+        "text": "java virtual machine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 193.04011517702202,
-      "fy": -218.42901432885708,
-      "nodes": [
-        {
-          "text": "16: jvm does that?",
-          "url": "https://www.youtube.com/watch?v=-vizTDSz8NU&amp;t=852s",
-          "fx": 333.040115177022,
-          "fy": -206.92901432885708,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -69.87897565038043,
-      "fy": -122.20130394817369,
-      "nodes": [
-        {
-          "text": "1. inside the java virtual machine",
-          "url": "http://www.artima.com/insidejvm/ed2/",
-          "fx": 86.12102434961957,
-          "fy": -127.70130394817369,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. JVM architecture",
-          "url": "https://www.youtube.com/watch?v=ZBJ0u9MaKtM",
-          "fx": 86.12102434961957,
-          "fy": -93.70130394817369,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "vert.x  ️",
-      "url": "/computer-science/virtual-machines/jvm/vertx",
-      "fx": -263.2827297603536,
-      "fy": -7.135926629066205,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "RxJava  ️",
-      "url": "/computer-science/virtual-machines/jvm/rxjava",
-      "fx": -67.09661031420796,
-      "fy": 22.68656079234961,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "java virtual machine",
-      "curve": {
-        "x": -62.7521,
-        "y": -45.5761
       }
-    },
-    {
-      "source": "talks",
-      "target": "help",
-      "curve": {
-        "x": -68.4067,
-        "y": -46.8598
-      }
-    },
-    {
-      "source": "java virtual machine",
-      "target": "basics",
-      "curve": {
-        "x": -2.80082,
-        "y": 140.55
-      }
-    },
-    {
-      "source": "basics",
-      "target": "vert.x  ️",
-      "curve": {
-        "x": -91.4519,
-        "y": 58.7826
-      }
-    },
-    {
-      "source": "basics",
-      "target": "RxJava  ️",
-      "curve": {
-        "x": 3.64119,
-        "y": 72.4439
-      }
-    }
-  ],
-  "id": 351
+    ],
+    "author": ""
+  }
 }

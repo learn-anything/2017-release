@@ -1,75 +1,70 @@
 {
   "title": "learn anything - art - animation - motion graphics - after effects",
   "tag": "adobe after effects",
-  "nodes": [
-    {
-      "text": "adobe after effects",
-      "url": "http://www.wikiwand.com/en/Adobe_After_Effects",
-      "fx": -14,
-      "fy": -2,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 161.72098688873143,
-      "fy": 108.43178965867742,
-      "nodes": [
-        {
-          "text": "places to learn after effects scripting  ️",
-          "url": "https://motionarray.com/blog/places-to-learn-after-effects-scripting-online",
-          "fx": 298.72098688873143,
-          "fy": 108.93178965867742,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 55.00183823529426,
-      "fy": 231.5134803921569,
-      "nodes": [
-        {
-          "text": "1. after effects basics tutorials",
-          "url": "https://blogs.adobe.com/creativecloud/after-effects-basics-tutorials-by-andrew-devis/?segment=dva",
-          "fx": 211.00183823529426,
-          "fy": 226.0134803921569,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. after effects beginner tutorials",
-          "url": "http://mamoworld.com/after-effects-beginner-tutorials",
-          "fx": 211.00183823529426,
-          "fy": 260.0134803921569,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "adobe after effects",
-      "curve": {
-        "x": -48.1105,
-        "y": -53.9659
+  "id": 6,
+  "map": {
+    "text": "adobe after effects",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://motionarray.com/blog/places-to-learn-after-effects-scripting-online",
+            "text": "places to learn after effects scripting  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://blogs.adobe.com/creativecloud/after-effects-basics-tutorials-by-andrew-devis/?segment=dva",
+            "text": "1. after effects basics tutorials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://mamoworld.com/after-effects-beginner-tutorials",
+            "text": "1. after effects beginner tutorials",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "adobe after effects",
-      "target": "basics",
-      "curve": {
-        "x": -0.499081,
-        "y": 115.507
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Adobe_After_Effects",
+        "text": "adobe after effects",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 6
+    ],
+    "author": ""
+  }
 }

@@ -1,133 +1,144 @@
 {
   "title": "learn anything - biology - zoology - animals",
   "tag": "",
-  "nodes": [
-    {
-      "text": "animals",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Animal",
-      "fx": 20.0390625,
-      "fy": 20.3828125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/NatureIsFuckingLit/",
-          "fx": 251.0390625,
-          "fy": 34.3828125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 136,
+  "map": {
+    "text": "animals",
+    "note": "",
+    "nodes": [
+      {
+        "text": "birds  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/zoology/animals/birds",
+            "text": "birds  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "amphibians  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/zoology/animals/amphibians",
+            "text": "amphibians  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "fish  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/zoology/animals/fish",
+            "text": "fish  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "mammals  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/zoology/animals/mammals",
+            "text": "mammals  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "reptiles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Reptile",
+            "text": "reptiles",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://species-in-pieces.com/#",
+            "text": "endangered species",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/NatureIsFuckingLit/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 302.7973961514906,
-      "fy": 140.9178231453849,
-      "nodes": [
-        {
-          "text": "endangered species",
-          "url": "http://species-in-pieces.com/#",
-          "fx": 501.7973961514906,
-          "fy": 153.4178231453849,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Animal",
+        "text": "animals",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "fish  ️",
-      "url": "/biology/zoology/animals/fish",
-      "fx": -379.50745391845703,
-      "fy": 274.746280670166,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mammals  ️",
-      "url": "/biology/zoology/animals/mammals",
-      "fx": -254.87957101182587,
-      "fy": 277.12057471533456,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "amphibians  ️",
-      "url": "/biology/zoology/animals/amphibians",
-      "fx": -64.5834550857544,
-      "fy": 277.7191925048828,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "reptiles",
-      "url": "http://www.wikiwand.com/en/Reptile",
-      "fx": 127.54767608642578,
-      "fy": 280.56434631347656,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "birds  ️",
-      "url": "/biology/zoology/animals/birds",
-      "fx": 277.67977142333984,
-      "fy": 281.9237518310547,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "animals",
-      "target": "birds  ️",
-      "curve": {
-        "x": 122.822,
-        "y": 130.77
       }
-    },
-    {
-      "source": "animals",
-      "target": "amphibians  ️",
-      "curve": {
-        "x": -33.5612,
-        "y": 128.668
-      }
-    },
-    {
-      "source": "animals",
-      "target": "fish  ️",
-      "curve": {
-        "x": -234.948,
-        "y": 111.592
-      }
-    },
-    {
-      "source": "animals",
-      "target": "mammals  ️",
-      "curve": {
-        "x": -132.459,
-        "y": 128.369
-      }
-    },
-    {
-      "source": "animals",
-      "target": "reptiles",
-      "curve": {
-        "x": 52.754,
-        "y": 130.091
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "animals",
-      "curve": {
-        "x": -133.629,
-        "y": -59.0175
-      }
-    }
-  ],
-  "id": 136
+    ],
+    "author": ""
+  }
 }

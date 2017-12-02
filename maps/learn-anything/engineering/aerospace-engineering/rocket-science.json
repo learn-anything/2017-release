@@ -1,110 +1,101 @@
 {
   "title": "learn anything - engineering - aerospace engineering - rocket science",
   "tag": "",
-  "nodes": [
-    {
-      "text": "rocket science",
-      "url": "http://www.wikiwand.com/en/Rocket_science",
-      "fx": -112.65597297555348,
-      "fy": -380.34245581883204,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 56.96788063434633,
-      "fy": -280.22427468348025,
-      "nodes": [
-        {
-          "text": "kerbal space program",
-          "url": "http://www.wikiwand.com/en/Kerbal_Space_Program",
-          "fx": 193.96788063434633,
-          "fy": -268.72427468348025,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -87.3470200822677,
-      "fy": -106.63561077833532,
-      "nodes": [
-        {
-          "text": "1. rocket propulsion elements",
-          "url": "http://www.goodreads.com/book/show/7682536-rocket-propulsion-elements",
-          "fx": 94.6529799177323,
-          "fy": -157.13561077833532,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. orbital mechanics for engineering students",
-          "url": "http://www.goodreads.com/book/show/2534162.Orbital_Mechanics_for_Engineering_Students",
-          "fx": 94.6529799177323,
-          "fy": -117.13561077833532,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. fundamentals of astrodynamics",
-          "url": "http://www.goodreads.com/book/show/901329.Fundamentals_of_Astrodynamics",
-          "fx": 94.6529799177323,
-          "fy": -55.13561077833532,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "making engines",
-      "url": "",
-      "fx": -119.8184887285762,
-      "fy": 55.9902028065145,
-      "nodes": [
-        {
-          "text": "ignition! an informal history of liquid rocket propellants",
-          "url": "https://library.sciencemadness.org/library/books/ignition.pdf",
-          "fx": 120.1815112714238,
-          "fy": 59.4902028065145,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "rocket science",
-      "target": "basics",
-      "curve": {
-        "x": -12.8455,
-        "y": 135.603
+  "id": 510,
+  "map": {
+    "text": "rocket science",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "making engines",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://library.sciencemadness.org/library/books/ignition.pdf",
+                "text": "ignition! an informal history of liquid rocket propellants",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/7682536-rocket-propulsion-elements",
+            "text": "1. rocket propulsion elements",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/2534162.Orbital_Mechanics_for_Engineering_Students",
+            "text": "1. orbital mechanics for engineering students",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/901329.Fundamentals_of_Astrodynamics",
+            "text": "1. fundamentals of astrodynamics",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Kerbal_Space_Program",
+            "text": "kerbal space program",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "making engines",
-      "curve": {
-        "x": 4.76427,
-        "y": 81.3129
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rocket_science",
+        "text": "rocket science",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "help",
-      "target": "rocket science",
-      "curve": {
-        "x": -54.5619,
-        "y": -48.8091
-      }
-    }
-  ],
-  "id": 510
+    ],
+    "author": ""
+  }
 }

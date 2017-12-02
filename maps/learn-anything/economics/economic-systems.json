@@ -1,75 +1,80 @@
 {
   "title": "learn anything - economics - economic systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "economic systems",
-      "url": "http://www.wikiwand.com/en/Economic_system",
-      "fx": -63.28125,
-      "fy": -317.1774553571429,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -10.374587118084378,
-      "fy": -191.90702415358868,
-      "nodes": [
-        {
-          "text": "1. economic systems and macroeconomics",
-          "url": "https://www.youtube.com/watch?v=B43YEW2FvDs",
-          "fx": 171.62541288191562,
-          "fy": -191.40702415358868,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 482,
+  "map": {
+    "text": "economic systems",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "capitalism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/economic-systems/capitalism",
+                "text": "capitalism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "socialism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/economic-systems/socialism",
+                "text": "socialism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=B43YEW2FvDs",
+            "text": "1. economic systems and macroeconomics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Economic_system",
+        "text": "economic systems",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "capitalism  ️",
-      "url": "/economics/economic-systems/capitalism",
-      "fx": -98.15136054421771,
-      "fy": -56.33258928571428,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "socialism  ️",
-      "url": "/economics/economic-systems/socialism",
-      "fx": 74.10393415178567,
-      "fy": -54.71170147746602,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "economic systems",
-      "target": "basics",
-      "curve": {
-        "x": -6.04667,
-        "y": 61.3852
       }
-    },
-    {
-      "source": "basics",
-      "target": "capitalism  ️",
-      "curve": {
-        "x": -35.6384,
-        "y": 67.7871
-      }
-    },
-    {
-      "source": "basics",
-      "target": "socialism  ️",
-      "curve": {
-        "x": 41.9893,
-        "y": 68.5976
-      }
-    }
-  ],
-  "id": 482
+    ],
+    "author": ""
+  }
 }

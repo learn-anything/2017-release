@@ -1,86 +1,82 @@
 {
   "title": "learn anything - art - martial arts - kung fu",
   "tag": "",
-  "nodes": [
-    {
-      "text": "Shaolin Kung Fu",
-      "url": "http://www.wikiwand.com/en/Shaolin_Kung_Fu",
-      "fx": 242.06039144672877,
-      "fy": -325.7981305473295,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/kungfu/",
-          "fx": 518.0603914467288,
-          "fy": -311.7981305473295,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 461.7409195026181,
-      "fy": -219.56020942408304,
-      "nodes": [
-        {
-          "text": "12 exercise for martial arts",
-          "url": "https://www.youtube.com/watch?v=zn6lwPJoSUU",
-          "fx": 598.7409195026181,
-          "fy": -208.06020942408304,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 295.15443467306,
-      "fy": -85.04429269074222,
-      "nodes": [
-        {
-          "text": "1. is it possible to begin learning kung-fu from home?",
-          "url": "https://www.reddit.com/r/kungfu/comments/5cp61v/is_it_possible_to_begin_learning_kungfu_from_home/d9yeebi/",
-          "fx": 451.15443467306,
-          "fy": -104.54429269074222,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. how do I learn Kung Fu?",
-          "url": "https://www.youtube.com/watch?v=vkW-7oyAzsg",
-          "fx": 451.15443467306,
-          "fy": -42.544292690742225,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Shaolin Kung Fu",
-      "target": "basics",
-      "curve": {
-        "x": -3.45298,
-        "y": 119.127
+  "id": 32,
+  "map": {
+    "text": "Shaolin Kung Fu",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/kungfu/comments/5cp61v/is_it_possible_to_begin_learning_kungfu_from_home/d9yeebi/",
+            "text": "1. is it possible to begin learning kung-fu from home?",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=vkW-7oyAzsg",
+            "text": "1. how do I learn Kung Fu?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=zn6lwPJoSUU",
+            "text": "12 exercise for martial arts",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "Shaolin Kung Fu",
-      "curve": {
-        "x": -75.0903,
-        "y": -51.869
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/kungfu/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Shaolin_Kung_Fu",
+        "text": "Shaolin Kung Fu",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 32
+    ],
+    "author": ""
+  }
 }

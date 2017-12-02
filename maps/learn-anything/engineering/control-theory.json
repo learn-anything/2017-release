@@ -1,160 +1,159 @@
 {
   "title": "learn anything - engineering - control theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "control theory",
-      "url": "http://www.wikiwand.com/en/Control_theory",
-      "fx": -1.8515625,
-      "fy": -274.51432291666663,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ControlTheory/",
-          "fx": 249.1484375,
-          "fy": -260.51432291666663,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 520,
+  "map": {
+    "text": "control theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "PID controller  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/control-theory/pid-controller",
+                "text": "PID controller  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "stochastic control  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/control-theory/stochastic-control",
+                "text": "stochastic control  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oBc_BHxw78s",
+            "text": "1. why learn control theory",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://docs.google.com/file/d/0B5vXY4-Kg5GeM2l3V0h3V1Nqanc/view",
+            "text": "2. control system design",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://portal.tpu.ru:7777/SHARED/s/SMIKE/Uchebnaya/Tab5/Modern_Control_Engineering.pdf",
+            "text": "2. modern control engineering",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "papers",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://ieeecss.org/CSM/library/1996/june1996/02-HistoryofAutoCtrl.pdf",
+                "text": "a brief history of automatic control",
+                "category": "paper",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://people.smp.uq.edu.au/YoniNazarathy/Control4406_2014/resources/AstromKumarControlPerspective2014.pdf",
+                "text": "control: a perspective",
+                "category": "paper",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://controlguru.com/table-of-contents/#",
+            "text": "control guru",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ControlTheory/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 170.2324724005889,
-      "fy": -171.22253290812182,
-      "nodes": [
-        {
-          "text": "control guru",
-          "url": "http://controlguru.com/table-of-contents/#",
-          "fx": 307.2324724005889,
-          "fy": -156.72253290812182,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Control_theory",
+        "text": "control theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "papers",
-      "url": "",
-      "fx": 309.53567070004124,
-      "fy": -57.633174941144034,
-      "nodes": [
-        {
-          "text": "a brief history of automatic control",
-          "url": "http://ieeecss.org/CSM/library/1996/june1996/02-HistoryofAutoCtrl.pdf",
-          "fx": 470.53567070004124,
-          "fy": -66.13317494114403,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "control: a perspective",
-          "url": "https://people.smp.uq.edu.au/YoniNazarathy/Control4406_2014/resources/AstromKumarControlPerspective2014.pdf",
-          "fx": 470.53567070004124,
-          "fy": -26.133174941144034,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 44.5036782256924,
-      "fy": 76.23332119719265,
-      "nodes": [
-        {
-          "text": "1. why learn control theory",
-          "url": "https://www.youtube.com/watch?v=oBc_BHxw78s",
-          "fx": 200.5036782256924,
-          "fy": 47.73332119719265,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. control system design",
-          "url": "https://docs.google.com/file/d/0B5vXY4-Kg5GeM2l3V0h3V1Nqanc/view",
-          "fx": 200.5036782256924,
-          "fy": 87.73332119719265,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. modern control engineering",
-          "url": "http://portal.tpu.ru:7777/SHARED/s/SMIKE/Uchebnaya/Tab5/Modern_Control_Engineering.pdf",
-          "fx": 200.5036782256924,
-          "fy": 127.73332119719265,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "PID controller  ️",
-      "url": "/engineering/control-theory/pid-controller",
-      "fx": -139.18096187943274,
-      "fy": 235.9966755319274,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "stochastic control  ️",
-      "url": "/engineering/control-theory/stochastic-control",
-      "fx": 69.533203125,
-      "fy": 238.744140625,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "control theory",
-      "target": "basics",
-      "curve": {
-        "x": -0.572374,
-        "y": 174.123
       }
-    },
-    {
-      "source": "help",
-      "target": "control theory",
-      "curve": {
-        "x": -57.542,
-        "y": -50.3959
-      }
-    },
-    {
-      "source": "papers",
-      "target": "help",
-      "curve": {
-        "x": -79.4016,
-        "y": -56.7947
-      }
-    },
-    {
-      "source": "basics",
-      "target": "PID controller  ️",
-      "curve": {
-        "x": -75.8423,
-        "y": 79.8817
-      }
-    },
-    {
-      "source": "basics",
-      "target": "stochastic control  ️",
-      "curve": {
-        "x": 38.0148,
-        "y": 81.2554
-      }
-    }
-  ],
-  "id": 520
+    ],
+    "author": ""
+  }
 }

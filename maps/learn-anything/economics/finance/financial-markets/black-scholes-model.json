@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - finance - financial markets - black-scholes model",
   "tag": "Black-Scholes model",
-  "nodes": [
-    {
-      "text": "Black-Scholes model",
-      "url": "http://www.wikiwand.com/en/Black%E2%80%93Scholes_model",
-      "fx": -10.952655864438839,
-      "fy": -261.2354648000435,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 71.880964625145,
-      "fy": -124.98356413615619,
-      "nodes": [
-        {
-          "text": "1.introduction",
-          "url": "https://www.youtube.com/watch?v=pr-u4LCFYEY",
-          "fx": 234.880964625145,
-          "fy": -112.48356413615619,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Black-Scholes model",
-      "target": "basics",
-      "curve": {
-        "x": -3.58319,
-        "y": 67.376
+  "id": 483,
+  "map": {
+    "text": "Black-Scholes model",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=pr-u4LCFYEY",
+            "text": "1.introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 483
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Black%E2%80%93Scholes_model",
+        "text": "Black-Scholes model",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

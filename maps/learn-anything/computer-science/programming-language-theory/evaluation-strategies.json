@@ -1,97 +1,114 @@
 {
   "title": "learn anything - computer science - programming language theory - evaluation strategies",
   "tag": "",
-  "nodes": [
-    {
-      "text": "evaluation strategies",
-      "url": "http://www.wikiwand.com/en/Evaluation_strategy",
-      "fx": -118.87890625,
-      "fy": -170.765625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "lazy evaluation  ️",
-      "url": "/computer-science/programming-language-theory/evaluation-strategies/lazy-evaluation",
-      "fx": -607.123941725579,
-      "fy": 18.012832942946147,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "partial evaluation",
-      "url": "http://www.wikiwand.com/en/Partial_evaluation",
-      "fx": -395.2104904893515,
-      "fy": 19.556355601501537,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "short-circuit evaluation",
-      "url": "http://www.wikiwand.com/en/Short-circuit_evaluation",
-      "fx": -158.64311679895343,
-      "fy": 21.744549762377687,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "eager evaluation",
-      "url": "http://www.wikiwand.com/en/Eager_evaluation",
-      "fx": 369.30195894103133,
-      "fy": 24.72225103243943,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "remote evaluation",
-      "url": "http://www.wikiwand.com/en/Remote_evaluation",
-      "fx": 129.63392455335986,
-      "fy": 25.70785602352305,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "evaluation strategies",
-      "target": "short-circuit evaluation",
-      "curve": {
-        "x": -14.8824,
-        "y": 96.2555
+  "id": 341,
+  "map": {
+    "text": "evaluation strategies",
+    "nodes": [
+      {
+        "text": "short-circuit evaluation",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Short-circuit_evaluation",
+            "text": "short-circuit evaluation",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "remote evaluation",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Remote_evaluation",
+            "text": "remote evaluation",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "lazy evaluation  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/programming-language-theory/evaluation-strategies/lazy-evaluation",
+            "text": "lazy evaluation  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "partial evaluation",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Partial_evaluation",
+            "text": "partial evaluation",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "eager evaluation",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Eager_evaluation",
+            "text": "eager evaluation",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "evaluation strategies",
-      "target": "remote evaluation",
-      "curve": {
-        "x": 118.256,
-        "y": 98.2365
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Evaluation_strategy",
+        "text": "evaluation strategies",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "evaluation strategies",
-      "target": "lazy evaluation  ️",
-      "curve": {
-        "x": -264.623,
-        "y": 93.1393
-      }
-    },
-    {
-      "source": "evaluation strategies",
-      "target": "partial evaluation",
-      "curve": {
-        "x": -146.416,
-        "y": 95.1615
-      }
-    },
-    {
-      "source": "evaluation strategies",
-      "target": "eager evaluation",
-      "curve": {
-        "x": 235.09,
-        "y": 97.7445
-      }
-    }
-  ],
-  "id": 341
+    ],
+    "author": ""
+  }
 }

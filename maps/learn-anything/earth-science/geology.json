@@ -1,43 +1,43 @@
 {
   "title": "learn anything - earth science - geology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "geology",
-      "url": "http://www.wikiwand.com/en/Geology",
-      "fx": 216.76171875,
-      "fy": -106.83984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 221.10594892027007,
-      "fy": 27.96366279070503,
-      "nodes": [
-        {
-          "text": "1. annals of the former world",
-          "url": "http://www.goodreads.com/book/show/78.Annals_of_the_Former_World",
-          "fx": 403.10594892027007,
-          "fy": 39.46366279070503,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "geology",
-      "target": "basics",
-      "curve": {
-        "x": -8.57789,
-        "y": 66.1518
+  "id": 455,
+  "map": {
+    "text": "geology",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/78.Annals_of_the_Former_World",
+            "text": "1. annals of the former world",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 455
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Geology",
+        "text": "geology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

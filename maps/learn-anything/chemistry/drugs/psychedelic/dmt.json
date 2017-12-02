@@ -1,165 +1,155 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - dmt",
   "tag": "DMT",
-  "nodes": [
-    {
-      "text": "DMT",
-      "url": "https://psychonautwiki.org/w/index.php/DMT",
-      "fx": 23.75411739864876,
-      "fy": -220.80373733108107,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/DMT/",
-          "fx": 194.75411739864876,
-          "fy": -206.80373733108107,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 135.67928437928913,
-      "fy": -111.59653233193058,
-      "nodes": [
-        {
-          "text": "DMT nexus",
-          "url": "https://www.dmt-nexus.me/forum/",
-          "fx": 272.67928437928913,
-          "fy": -97.09653233193058,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 276.06185255315813,
-      "fy": 55.28842981085916,
-      "nodes": [
-        {
-          "text": "13: the neuropsychological and evolutionary implications of the astonishing effects of DMT",
-          "url": "https://drive.google.com/file/d/0B9XWsRMWmi0qdHdnVTlacmNRdkk/view",
-          "fx": 467.06185255315813,
-          "fy": -99.21157018914084,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "12: Terrence McKenna describes DMT trip",
-          "url": "https://www.youtube.com/watch?v=VavdCpewQbA",
-          "fx": 467.06185255315813,
-          "fy": -15.211570189140843,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "14: moving into the scared wold of DMT  ️",
-          "url": "http://psychedelicfrontier.com/moving-sacred-world-dmt-nick-sand/",
-          "fx": 467.06185255315813,
-          "fy": 46.78842981085916,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "16: DMT: experiencing the impossible",
-          "url": "https://www.youtube.com/watch?v=i2nbnJzervs&amp;t=390s",
-          "fx": 467.06185255315813,
-          "fy": 108.78842981085916,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: David Nichols - DMT  and the pineal gland: facts vs fantasy",
-          "url": "https://www.youtube.com/watch?v=YeeqHUiC8Io",
-          "fx": 467.06185255315813,
-          "fy": 170.78842981085916,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "shadows of dodecahedron",
-          "url": "https://i.imgur.com/zbbo70u.gifv",
-          "fx": 467.06185255315813,
-          "fy": 232.78842981085916,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -37.1661495094354,
-      "fy": 350.8283794698411,
-      "nodes": [
-        {
-          "text": "1. how does DMT work  ️",
-          "url": "http://www.thinkingzygote.com/2012/02/how-dmt-works.html",
-          "fx": 118.8338504905646,
-          "fy": 320.3283794698411,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. dynamic transitions of consciousness: an EEG study using DMT",
-          "url": "https://www.youtube.com/watch?v=sZNtEFQ4iF4&amp;feature=youtu.be",
-          "fx": 118.8338504905646,
-          "fy": 360.3283794698411,
-          "nodes": [
-            {
-              "text": "",
-              "url": "https://www.reddit.com/r/DMT/comments/6qxewl/alpha_brain_waves_are_effectively_ceased_after/",
-              "fx": 480.8338504905646,
-              "fy": 382.3283794698411,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(255, 189, 10, 1.0)"
+  "id": 156,
+  "map": {
+    "text": "DMT",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://drive.google.com/file/d/0B9XWsRMWmi0qdHdnVTlacmNRdkk/view",
+                "text": "13: the neuropsychological and evolutionary implications of the astonishing effects of DMT",
+                "category": "paper",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=VavdCpewQbA",
+                "text": "12: Terrence McKenna describes DMT trip",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://psychedelicfrontier.com/moving-sacred-world-dmt-nick-sand/",
+                "text": "14: moving into the scared wold of DMT  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=i2nbnJzervs&amp;t=390s",
+                "text": "16: DMT: experiencing the impossible",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=YeeqHUiC8Io",
+                "text": "17: David Nichols - DMT  and the pineal gland: facts vs fantasy",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://i.imgur.com/zbbo70u.gifv",
+                "text": "shadows of dodecahedron",
+                "category": "image",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.dmt-nexus.me/forum/",
+            "text": "DMT nexus",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.thinkingzygote.com/2012/02/how-dmt-works.html",
+            "text": "1. how does DMT work  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sZNtEFQ4iF4&amp;feature=youtu.be",
+            "text": "1. dynamic transitions of consciousness: an EEG study using DMT",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/DMT/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "DMT",
-      "curve": {
-        "x": -47.4626,
-        "y": -53.3536
+      },
+      {
+        "url": "https://psychonautwiki.org/w/index.php/DMT",
+        "text": "DMT",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "DMT",
-      "target": "basics",
-      "curve": {
-        "x": -34.2101,
-        "y": 284.567
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -96.73,
-        "y": -79.3757
-      }
-    }
-  ],
-  "id": 156
+    ],
+    "author": ""
+  }
 }

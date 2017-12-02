@@ -1,98 +1,109 @@
 {
   "title": "learn anything - life - hobbies",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hobbies",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Hobby",
-      "fx": 254.93868885869574,
-      "fy": -176.1368885869565,
-      "nodes": [
-        {
-          "text": "programming  ️",
-          "url": "/programming",
-          "fx": 479.93868885869574,
-          "fy": -262.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "gardening  ️",
-          "url": "/life/hobbies/gardening",
-          "fx": 479.93868885869574,
-          "fy": -222.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "knitting  ️",
-          "url": "/life/hobbies/knitting",
-          "fx": 479.93868885869574,
-          "fy": -182.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "woodworking  ️",
-          "url": "/life/hobbies/woodworking",
-          "fx": 479.93868885869574,
-          "fy": -142.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "carpentry  ️",
-          "url": "/life/hobbies/carpentry",
-          "fx": 479.93868885869574,
-          "fy": -102.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "brewing  ️",
-          "url": "/life/hobbies/brewing",
-          "fx": 479.93868885869574,
-          "fy": -62.1368885869565,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(49, 187, 71, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 39.49541440217388,
-      "fy": -15.076936141304145,
-      "nodes": [
-        {
-          "text": "list of hobbies",
-          "url": "http://www.wikiwand.com/en/List_of_hobbies",
-          "fx": 176.49541440217388,
-          "fy": -3.576936141304145,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "hobbies",
-      "curve": {
-        "x": 74.5905,
-        "y": -109.027
+  "id": 688,
+  "map": {
+    "text": "hobbies",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/List_of_hobbies",
+            "text": "list of hobbies",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 688
+    ],
+    "resources": [
+      {
+        "url": "/programming",
+        "text": "programming  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/life/hobbies/gardening",
+        "text": "gardening  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/life/hobbies/knitting",
+        "text": "knitting  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/life/hobbies/woodworking",
+        "text": "woodworking  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/life/hobbies/carpentry",
+        "text": "carpentry  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "/life/hobbies/brewing",
+        "text": "brewing  ️",
+        "category": "mindmap",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Hobby",
+        "text": "hobbies",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

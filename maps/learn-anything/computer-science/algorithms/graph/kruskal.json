@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - algorithms - graph - kruskal",
   "tag": "Kruskal’s algorithm",
-  "nodes": [
-    {
-      "text": "Kruskal’s algorithm",
-      "url": "http://www.wikiwand.com/en/Kruskal%27s_algorithm",
-      "fx": -100.84765625,
-      "fy": -155.046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 105.75305384540218,
-      "fy": -35.96664386462447,
-      "nodes": [
-        {
-          "text": "visualisation",
-          "url": "https://www.cs.usfca.edu/~galles/visualization/Kruskal.html",
-          "fx": 242.75305384540218,
-          "fy": -24.466643864624473,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -42.63671875,
-      "fy": 69.33318865740739,
-      "nodes": [
-        {
-          "text": "1. step by step guide",
-          "url": "https://www.youtube.com/watch?v=5XkK88VEILk",
-          "fx": 113.36328125,
-          "fy": 80.83318865740739,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Kruskal’s algorithm",
-      "target": "basics",
-      "curve": {
-        "x": -6.14453,
-        "y": 110.94
+  "id": 264,
+  "map": {
+    "text": "Kruskal’s algorithm",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=5XkK88VEILk",
+            "text": "1. step by step guide",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.usfca.edu/~galles/visualization/Kruskal.html",
+            "text": "visualisation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "Kruskal’s algorithm",
-      "curve": {
-        "x": -63.3004,
-        "y": -58.2901
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kruskal%27s_algorithm",
+        "text": "Kruskal’s algorithm",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 264
+    ],
+    "author": ""
+  }
 }

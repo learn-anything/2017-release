@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory - pointers",
   "tag": "",
-  "nodes": [
-    {
-      "text": "pointers",
-      "url": "http://www.wikiwand.com/en/Pointer_(computer_programming)",
-      "fx": -192.05859375,
-      "fy": -85.359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -178.4453125,
-      "fy": 44.9375,
-      "nodes": [
-        {
-          "text": "1. pointer fun in C",
-          "url": "https://www.youtube.com/watch?v=mnXkiAKbUPg",
-          "fx": -22.4453125,
-          "fy": 36.4375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. what is a pointer  ️",
-          "url": "https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back",
-          "fx": -22.4453125,
-          "fy": 76.4375,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "pointers",
-      "target": "basics",
-      "curve": {
-        "x": -1.69336,
-        "y": 63.8984
+  "id": 245,
+  "map": {
+    "text": "pointers",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=mnXkiAKbUPg",
+            "text": "1. pointer fun in C",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back",
+            "text": "1. what is a pointer  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 245
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Pointer_(computer_programming)",
+        "text": "pointers",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,179 +1,171 @@
 {
   "title": "learn anything - history - world history - wars",
   "tag": "",
-  "nodes": [
-    {
-      "text": "wars",
-      "url": "http://www.wikiwand.com/en/List_of_wars_by_death_toll",
-      "fx": -125.30669017460025,
-      "fy": -215.55845426476526,
-      "nodes": [
-        {
-          "text": "1803-1815: napoleonic wars",
-          "url": "http://www.wikiwand.com/en/Napoleonic_Wars",
-          "fx": 51.69330982539975,
-          "fy": -428.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1839-1842: first opium war",
-          "url": "http://www.wikiwand.com/en/First_Opium_War",
-          "fx": 51.69330982539975,
-          "fy": -386.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1856-1860: second opium war",
-          "url": "http://www.wikiwand.com/en/Second_Opium_War",
-          "fx": 51.69330982539975,
-          "fy": -344.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1914-1918: world war I",
-          "url": "http://www.wikiwand.com/en/World_War_I",
-          "fx": 51.69330982539975,
-          "fy": -277.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1939-1945: world war II",
-          "note": "1939-1945",
-          "url": "http://www.wikiwand.com/en/World_War_II",
-          "fx": 51.69330982539975,
-          "fy": -201.55845426476526,
-          "nodes": [
-            {
-              "text": "1941-1945: the holocaust",
-              "url": "http://www.wikiwand.com/en/The_Holocaust",
-              "fx": 395.69330982539975,
-              "fy": -235.05845426476526,
-              "nodes": [],
-              "category": "wiki",
-              "color": "rgba(255, 254, 60, 1.0)"
-            },
-            {
-              "text": "1942-1943: battle of stalingrad",
-              "url": "http://www.wikiwand.com/en/Battle_of_Stalingrad",
-              "fx": 395.69330982539975,
-              "fy": -193.05845426476526,
-              "nodes": [],
-              "category": "wiki",
-              "color": "rgba(255, 254, 60, 1.0)"
+  "id": 627,
+  "map": {
+    "text": "wars",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "terrorism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/history/world-history/wars/terrorism",
+                "text": "terrorism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=2NIgqS47m5k",
+            "text": "1. war &amp; human nature",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "wiki",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "1853-1856: crimean war",
-          "url": "http://www.wikiwand.com/en/Crimean_War",
-          "fx": 51.69330982539975,
-          "fy": -126.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "1861-1865: american civil war",
-          "url": "http://www.wikiwand.com/en/American_Civil_War",
-          "fx": 51.69330982539975,
-          "fy": -84.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1955-1975: vietnam war",
-          "url": "http://www.wikiwand.com/en/Vietnam_War",
-          "fx": 51.69330982539975,
-          "fy": -17.05845426476526,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "11-: syrian civil war",
-          "url": "http://www.wikiwand.com/en/Syrian_Civil_War",
-          "fx": 51.69330982539975,
-          "fy": 24.94154573523474,
-          "nodes": [
-            {
-              "text": "searching for syria  ️",
-              "url": "https://searchingforsyria.org/en/",
-              "fx": 325.69330982539975,
-              "fy": 24.94154573523474,
-              "nodes": [],
-              "category": "article",
-              "color": "rgba(83, 201, 255, 1.0)"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jdVLAG_ptQM",
+            "text": "1. war and civilisation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -127.80877749107094,
-      "fy": 121.61889810510297,
-      "nodes": [
-        {
-          "text": "1. war &amp; human nature",
-          "url": "https://www.youtube.com/watch?v=2NIgqS47m5k",
-          "fx": 35.19122250892906,
-          "fy": 113.11889810510297,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. war and civilisation",
-          "url": "https://www.youtube.com/watch?v=jdVLAG_ptQM",
-          "fx": 35.19122250892906,
-          "fy": 155.11889810510297,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "terrorism  ️",
-      "url": "/history/world-history/wars/terrorism",
-      "fx": -312.6641706314879,
-      "fy": 268.6166468425605,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "wars",
-      "target": "basics",
-      "curve": {
-        "x": -4.75104,
-        "y": 167.839
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "terrorism  ️",
-      "curve": {
-        "x": -87.1777,
-        "y": 73.4989
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Napoleonic_Wars",
+        "text": "1803-1815: napoleonic wars",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/First_Opium_War",
+        "text": "1839-1842: first opium war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Second_Opium_War",
+        "text": "1856-1860: second opium war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/World_War_I",
+        "text": "1914-1918: world war I",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/World_War_II",
+        "text": "1939-1945: world war II",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Crimean_War",
+        "text": "1853-1856: crimean war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/American_Civil_War",
+        "text": "1861-1865: american civil war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Vietnam_War",
+        "text": "1955-1975: vietnam war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Syrian_Civil_War",
+        "text": "11-: syrian civil war",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/List_of_wars_by_death_toll",
+        "text": "wars",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 627
+    ],
+    "author": ""
+  }
 }

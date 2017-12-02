@@ -1,51 +1,53 @@
 {
   "title": "learn anything - health - fitness - strength training - bodyweight exercises - calisthenics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "calisthenics",
-      "url": "http://www.wikiwand.com/en/Calisthenics",
-      "fx": 179.5869046422829,
-      "fy": -197.57113074053166,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 219.21447950160598,
-      "fy": -52.07717041805438,
-      "nodes": [
-        {
-          "text": "1. calisthenics explained",
-          "url": "https://www.youtube.com/watch?v=VLOKMjHEyhY",
-          "fx": 382.214479501606,
-          "fy": -73.07717041805438,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. how to start calisthenics - pull ups",
-          "url": "https://www.youtube.com/watch?v=tB3X4TjTIes",
-          "fx": 382.214479501606,
-          "fy": -31.07717041805438,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "calisthenics",
-      "target": "basics",
-      "curve": {
-        "x": -0.936213,
-        "y": 71.997
+  "id": 595,
+  "map": {
+    "text": "calisthenics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=VLOKMjHEyhY",
+            "text": "1. calisthenics explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tB3X4TjTIes",
+            "text": "1. how to start calisthenics - pull ups",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 595
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Calisthenics",
+        "text": "calisthenics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

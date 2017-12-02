@@ -1,94 +1,93 @@
 {
   "title": "learn anything - economics - business - product management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "product management",
-      "url": "http://www.wikiwand.com/en/Product_management",
-      "fx": -178.1484375,
-      "fy": -300.5546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -4.406810158829217,
-      "fy": -188.29982033248683,
-      "nodes": [
-        {
-          "text": "product management advice",
-          "url": "https://github.com/tron1991/open-product-management",
-          "fx": 132.59318984117078,
-          "fy": -204.79982033248683,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "answering real product management questions",
-          "url": "http://ask.goodproductmanager.com/",
-          "fx": 132.59318984117078,
-          "fy": -164.79982033248683,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -120.91603778327885,
-      "fy": -12.344228922169293,
-      "nodes": [
-        {
-          "text": "1. hitchhiker’s guide to product management  ️",
-          "url": "https://yilunzh.com/pm/",
-          "fx": 61.08396221672115,
-          "fy": -51.84422892216929,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. the art of product management",
-          "url": "https://www.youtube.com/watch?v=huTSPanUlQM",
-          "fx": 61.08396221672115,
-          "fy": 10.155771077830707,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. four steps to the epiphany",
-          "url": "http://www.goodreads.com/book/show/762542.The_Four_Steps_to_the_Epiphany",
-          "fx": 61.08396221672115,
-          "fy": 50.15577107783071,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "product management",
-      "curve": {
-        "x": -40.3708,
-        "y": -54.8774
+  "id": 466,
+  "map": {
+    "text": "product management",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/tron1991/open-product-management",
+            "text": "product management advice",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://ask.goodproductmanager.com/",
+            "text": "answering real product management questions",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://yilunzh.com/pm/",
+            "text": "1. hitchhiker’s guide to product management  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=huTSPanUlQM",
+            "text": "1. the art of product management",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/762542.The_Four_Steps_to_the_Epiphany",
+            "text": "1. four steps to the epiphany",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "product management",
-      "target": "basics",
-      "curve": {
-        "x": -13.1338,
-        "y": 142.855
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Product_management",
+        "text": "product management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 466
+    ],
+    "author": ""
+  }
 }

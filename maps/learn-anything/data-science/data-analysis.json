@@ -1,176 +1,175 @@
 {
   "title": "learn anything - data science - data analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data analysis",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Data_analysis",
-      "fx": 9.46502758002407,
-      "fy": -788.6474245027205,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/onurakpolat/awesome-analytics",
-          "fx": 294.46502758002407,
-          "fy": -774.6474245027205,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 387,
+  "map": {
+    "text": "data analysis",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "topological data analysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/topological-data-analysis",
+                "text": "topological data analysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "data quality  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/data-quality",
+                "text": "data quality  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "analytics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/analytics",
+                "text": "analytics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "time series analysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/time-series-analysis",
+                "text": "time series analysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.math.muni.cz/~kolacek/docs/bayesian_data_analysis.pdf",
+            "text": "1. Bayesian Data Analysis",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-analysis/pandas",
+                "text": "pandas  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://github.com/saulpw/visidata",
+                "text": "visidata",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://frnsys.com/ai_notes/in_practice/process.html",
+            "text": "notes on data analysis  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/onurakpolat/awesome-analytics",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 273.55888032039877,
-      "fy": -675.7288387608203,
-      "nodes": [
-        {
-          "text": "notes on data analysis  ️",
-          "url": "http://frnsys.com/ai_notes/in_practice/process.html",
-          "fx": 414.55888032039877,
-          "fy": -663.2288387608203,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_analysis",
+        "text": "data analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 427.40054412591644,
-      "fy": -561.5505959978191,
-      "nodes": [
-        {
-          "text": "pandas  ️",
-          "url": "/data-science/data-analysis/pandas",
-          "fx": 573.4005441259164,
-          "fy": -570.0505959978192,
-          "nodes": [],
-          "category": "mindmap",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "visidata",
-          "url": "https://github.com/saulpw/visidata",
-          "fx": 573.4005441259164,
-          "fy": -528.0505959978192,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 54.69694544055801,
-      "fy": -463.55688076332,
-      "nodes": [
-        {
-          "text": "1. Bayesian Data Analysis",
-          "url": "https://www.math.muni.cz/~kolacek/docs/bayesian_data_analysis.pdf",
-          "fx": 217.696945440558,
-          "fy": -451.05688076332,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "time series analysis  ️",
-      "url": "/data-science/data-analysis/time-series-analysis",
-      "fx": 140.20114657563977,
-      "fy": -268.9773668433138,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "analytics  ️",
-      "url": "/data-science/data-analysis/analytics",
-      "fx": -31.638042953779177,
-      "fy": -267.67822877416097,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "topological data analysis  ️",
-      "url": "/data-science/data-analysis/topological-data-analysis",
-      "fx": -543.8686228928242,
-      "fy": -266.0188751739873,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "data quality  ️",
-      "url": "/data-science/data-analysis/data-quality",
-      "fx": -222.77006962614246,
-      "fy": -264.9419082785555,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -103.801,
-        "y": -48.134
       }
-    },
-    {
-      "source": "data analysis",
-      "target": "basics",
-      "curve": {
-        "x": -7.88404,
-        "y": 161.795
-      }
-    },
-    {
-      "source": "help",
-      "target": "data analysis",
-      "curve": {
-        "x": -109.069,
-        "y": -50.553
-      }
-    },
-    {
-      "source": "basics",
-      "target": "topological data analysis  ️",
-      "curve": {
-        "x": -246.783,
-        "y": 99.519
-      }
-    },
-    {
-      "source": "basics",
-      "target": "data quality  ️",
-      "curve": {
-        "x": -118.734,
-        "y": 100.057
-      }
-    },
-    {
-      "source": "basics",
-      "target": "analytics  ️",
-      "curve": {
-        "x": -29.9175,
-        "y": 98.6893
-      }
-    },
-    {
-      "source": "basics",
-      "target": "time series analysis  ️",
-      "curve": {
-        "x": 82.5021,
-        "y": 98.0398
-      }
-    }
-  ],
-  "id": 387
+    ],
+    "author": ""
+  }
 }

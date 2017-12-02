@@ -1,82 +1,78 @@
 {
   "title": "learn anything - art - digital art",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digital art",
-      "url": "http://www.wikiwand.com/en/Digital_art",
-      "fx": -64.05925396126759,
-      "fy": -297.1930017605634,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "inspiring",
-      "url": "",
-      "fx": 38.51281751713293,
-      "fy": -183.07534223207284,
-      "nodes": [
-        {
-          "text": "ixviii",
-          "url": "https://www.ixviii.io/",
-          "fx": 211.51281751713293,
-          "fy": -168.57534223207284,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 17,
+  "map": {
+    "text": "digital art",
+    "nodes": [
+      {
+        "text": "inspiring",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.ixviii.io/",
+            "text": "ixviii",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "pixel art  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/digital-art/pixel-art",
+                "text": "pixel art  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.ctrlpaint.com/getting-started",
+            "text": "1. digital painting 101",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Digital_art",
+        "text": "digital art",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -54.420398228604995,
-      "fy": -93.28851021847254,
-      "nodes": [
-        {
-          "text": "1. digital painting 101",
-          "url": "https://www.ctrlpaint.com/getting-started",
-          "fx": 127.579601771395,
-          "fy": -78.78851021847254,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "pixel art  ️",
-      "url": "/art/digital-art/pixel-art",
-      "fx": -118.83100784132819,
-      "fy": 21.0483164206654,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "inspiring",
-      "target": "digital art",
-      "curve": {
-        "x": -42.286,
-        "y": -55.8089
       }
-    },
-    {
-      "source": "digital art",
-      "target": "basics",
-      "curve": {
-        "x": -8.43058,
-        "y": 100.702
-      }
-    },
-    {
-      "source": "basics",
-      "target": "pixel art  ️",
-      "curve": {
-        "x": -28.2053,
-        "y": 58.4184
-      }
-    }
-  ],
-  "id": 17
+    ],
+    "author": ""
+  }
 }

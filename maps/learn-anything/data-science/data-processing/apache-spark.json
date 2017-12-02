@@ -1,78 +1,84 @@
 {
   "title": "learn anything - data science - data processing - apache spark",
   "tag": "",
-  "nodes": [
-    {
-      "text": "apache spark",
-      "url": "http://www.wikiwand.com/en/Apache_Spark",
-      "fx": -77.94034754672884,
-      "fy": -229.56465391355135,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/apache/spark",
-          "fx": 172.05965245327116,
-          "fy": -235.56465391355135,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/awesome-spark/awesome-spark",
-          "fx": 172.05965245327116,
-          "fy": -195.56465391355135,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -76.37009286008902,
-      "fy": -80.05710911300935,
-      "nodes": [
-        {
-          "text": "1. learning spark: lightning-fast big data analysis",
-          "url": "http://www.goodreads.com/book/show/24808098-learning-spark",
-          "fx": 105.62990713991098,
-          "fy": -79.55710911300935,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "PySpark  ️",
-      "url": "/data-science/data-processing/apache-spark/pyspark",
-      "fx": -196.02815713367477,
-      "fy": 52.18814267352002,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "apache spark",
-      "target": "basics",
-      "curve": {
-        "x": -22.7149,
-        "y": 73.5033
+  "id": 393,
+  "map": {
+    "text": "apache spark",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "PySpark  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-processing/apache-spark/pyspark",
+                "text": "PySpark  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/24808098-learning-spark",
+            "text": "1. learning spark: lightning-fast big data analysis",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "PySpark  ️",
-      "curve": {
-        "x": -62.829,
-        "y": 66.1226
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/apache/spark",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/awesome-spark/awesome-spark",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Apache_Spark",
+        "text": "apache spark",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 393
+    ],
+    "author": ""
+  }
 }

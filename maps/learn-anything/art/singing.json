@@ -1,59 +1,63 @@
 {
   "title": "learn anything - art - singing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "singing",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Singing",
-      "fx": -175.90177934885935,
-      "fy": -249.90222492870726,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -86.40565589353503,
-      "fy": -137.90120009504108,
-      "nodes": [
-        {
-          "text": "online voice lessons",
-          "url": "https://www.youtube.com/user/EricArceneaux/videos?flow=grid&amp;view=1",
-          "fx": 50.59434410646497,
-          "fy": -160.40120009504108,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "how to find a good voice teacher",
-          "url": "https://www.reddit.com/r/singing/comments/15mmgl/how_to_find_a_good_voice_teacher/",
-          "fx": 50.59434410646497,
-          "fy": -120.40120009504108,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "singing reddit wiki",
-          "url": "https://www.reddit.com/r/singing/wiki/index",
-          "fx": 50.59434410646497,
-          "fy": -86.40120009504108,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "singing",
-      "curve": {
-        "x": -31.2481,
-        "y": -54.7505
+  "id": 60,
+  "map": {
+    "text": "singing",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/EricArceneaux/videos?flow=grid&amp;view=1",
+            "text": "online voice lessons",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/singing/comments/15mmgl/how_to_find_a_good_voice_teacher/",
+            "text": "how to find a good voice teacher",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/singing/wiki/index",
+            "text": "singing reddit wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 60
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Singing",
+        "text": "singing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

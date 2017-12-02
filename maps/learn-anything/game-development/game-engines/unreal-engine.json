@@ -1,62 +1,65 @@
 {
   "title": "learn anything - game development - game engines - unreal engine",
   "tag": "unreal game engine",
-  "nodes": [
-    {
-      "text": "unreal engine",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Unreal_Engine",
-      "fx": -107.29296875,
-      "fy": -203.37899762426906,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/unrealengine/",
-          "fx": 166.70703125,
-          "fy": -189.37899762426906,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 23.136330409356674,
-      "fy": -94.53865131578948,
-      "nodes": [
-        {
-          "text": "unreal engine",
-          "url": "https://www.youtube.com/user/UnrealDevelopmentKit/videos",
-          "fx": 160.13633040935667,
-          "fy": -103.03865131578948,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "tesla dev",
-          "url": "https://www.youtube.com/user/TeslaUE4/videos",
-          "fx": 160.13633040935667,
-          "fy": -63.03865131578948,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "unreal engine",
-      "curve": {
-        "x": -37.4646,
-        "y": -53.1702
+  "id": 560,
+  "map": {
+    "text": "unreal engine",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/UnrealDevelopmentKit/videos",
+            "text": "unreal engine",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/TeslaUE4/videos",
+            "text": "tesla dev",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 560
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/unrealengine/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Unreal_Engine",
+        "text": "unreal engine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

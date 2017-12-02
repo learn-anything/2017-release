@@ -1,76 +1,70 @@
 {
   "title": "learn anything - operating systems - unix - linux - systemd",
   "tag": "",
-  "nodes": [
-    {
-      "text": "systemd",
-      "url": "http://www.wikiwand.com/en/Systemd",
-      "fx": -97.94140625,
-      "fy": -199.83203125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/systemd/systemd",
-          "fx": 106.05859375,
-          "fy": -185.83203125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 33.67554460492056,
-      "fy": -98.86676182663228,
-      "nodes": [
-        {
-          "text": "systemd reference",
-          "url": "https://access.redhat.com/sites/default/files/attachments/rh_systemd_reference_card_0914_jcs_print_2.pdf",
-          "fx": 170.67554460492056,
-          "fy": -84.36676182663228,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -73.28543949127197,
-      "fy": -4.350475039398475,
-      "nodes": [
-        {
-          "text": "1. understanding and using systemd  ️",
-          "url": "https://www.linux.com/learn/understanding-and-using-systemd",
-          "fx": 82.70702743530273,
-          "fy": -4.138813104545875,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "systemd",
-      "target": "basics",
-      "curve": {
-        "x": 0.327983,
-        "y": 96.4908
+  "id": 1295,
+  "map": {
+    "text": "systemd",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.linux.com/learn/understanding-and-using-systemd",
+            "text": "1. understanding and using systemd  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://access.redhat.com/sites/default/files/attachments/rh_systemd_reference_card_0914_jcs_print_2.pdf",
+            "text": "systemd reference",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "systemd",
-      "curve": {
-        "x": -49.0585,
-        "y": -49.2326
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/systemd/systemd",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Systemd",
+        "text": "systemd",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1292
+    ],
+    "author": ""
+  }
 }

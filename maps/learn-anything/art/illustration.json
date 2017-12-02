@@ -1,58 +1,61 @@
 {
   "title": "learn anything - art - illustration",
   "tag": "",
-  "nodes": [
-    {
-      "text": "illustration",
-      "url": "http://www.wikiwand.com/en/Illustration",
-      "fx": 87.07781056501562,
-      "fy": -174.2649840363777,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 111.16341980871323,
-      "fy": -46.108840575701095,
-      "nodes": [
-        {
-          "text": "1. what is the best way to learn how to illustrate?",
-          "url": "https://www.quora.com/What-is-the-best-way-to-learn-how-to-illustrate",
-          "fx": 274.16341980871323,
-          "fy": -46.108840575701095,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 28,
+  "map": {
+    "text": "illustration",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "concept art  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/illustration/concept-art",
+                "text": "concept art  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.quora.com/What-is-the-best-way-to-learn-how-to-illustrate",
+            "text": "1. what is the best way to learn how to illustrate?",
+            "category": "quora",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Illustration",
+        "text": "illustration",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "concept art  ️",
-      "url": "/art/illustration/concept-art",
-      "fx": -56.743613591269764,
-      "fy": 88.7286706349206,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "illustration",
-      "target": "basics",
-      "curve": {
-        "x": -3.7072,
-        "y": 63.3281
       }
-    },
-    {
-      "source": "basics",
-      "target": "concept art  ️",
-      "curve": {
-        "x": -71.4535,
-        "y": 67.4188
-      }
-    }
-  ],
-  "id": 28
+    ],
+    "author": ""
+  }
 }

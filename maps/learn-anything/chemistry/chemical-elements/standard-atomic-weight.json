@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - chemical elements - standard atomic weight",
   "tag": "",
-  "nodes": [
-    {
-      "text": "standard atomic weight",
-      "url": "http://www.wikiwand.com/en/Standard_atomic_weight",
-      "fx": -78.7109375,
-      "fy": -146.43359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 1.8203125,
-      "fy": -6.21484375,
-      "nodes": [
-        {
-          "text": "1. calculating atomic weight",
-          "url": "https://www.youtube.com/watch?v=EPvd-3712U8",
-          "fx": 157.8203125,
-          "fy": 5.28515625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "standard atomic weight",
-      "target": "basics",
-      "curve": {
-        "x": 1.76562,
-        "y": 70.1094
+  "id": 147,
+  "map": {
+    "text": "standard atomic weight",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=EPvd-3712U8",
+            "text": "1. calculating atomic weight",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 147
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Standard_atomic_weight",
+        "text": "standard atomic weight",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

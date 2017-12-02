@@ -1,96 +1,94 @@
 {
   "title": "learn anything - computer vision - opencv",
   "tag": "OpenCV",
-  "nodes": [
-    {
-      "text": "OpenCV",
-      "url": "http://www.wikiwand.com/en/OpenCV",
-      "fx": -68.03374630177518,
-      "fy": -19.247596153846132,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/opencv/",
-          "fx": 135.96625369822482,
-          "fy": -25.247596153846132,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/opencv/opencv",
-          "fx": 135.96625369822482,
-          "fy": 14.752403846153868,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 78.31971153846132,
-      "fy": 105.80464127218971,
-      "nodes": [
-        {
-          "text": "learn OpenCV  ️",
-          "url": "https://www.learnopencv.com/",
-          "fx": 215.31971153846132,
-          "fy": 117.30464127218971,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -60.439537836271484,
-      "fy": 246.774881999939,
-      "nodes": [
-        {
-          "text": "1. learn OpenCV",
-          "url": "https://github.com/spmallick/learnopencv",
-          "fx": 121.56046216372852,
-          "fy": 227.274881999939,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. mastering OpenCV with practical computer vision projects",
-          "url": "https://www.goodreads.com/book/show/19179156-mastering-opencv-with-practical-computer-vision-projects",
-          "fx": 121.56046216372852,
-          "fy": 267.274881999939,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "OpenCV",
-      "target": "basics",
-      "curve": {
-        "x": -8.2029,
-        "y": 131.761
+  "id": 358,
+  "map": {
+    "text": "OpenCV",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/spmallick/learnopencv",
+            "text": "1. learn OpenCV",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/19179156-mastering-opencv-with-practical-computer-vision-projects",
+            "text": "1. mastering OpenCV with practical computer vision projects",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.learnopencv.com/",
+            "text": "learn OpenCV  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "OpenCV",
-      "curve": {
-        "x": -56.4268,
-        "y": -61.2761
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/opencv/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/opencv/opencv",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/OpenCV",
+        "text": "OpenCV",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 358
+    ],
+    "author": ""
+  }
 }

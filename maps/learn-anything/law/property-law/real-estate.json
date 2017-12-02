@@ -1,70 +1,75 @@
 {
   "title": "learn anything - law - property law - real estate",
   "tag": "",
-  "nodes": [
-    {
-      "text": "real estate",
-      "url": "http://www.wikiwand.com/en/Real_estate",
-      "fx": 105.47407670454555,
-      "fy": -98.50994318181824,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/RealEstate/",
-          "fx": 325.47407670454555,
-          "fy": -84.50994318181824,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 117.56329571759261,
-      "fy": 83.646352851431,
-      "nodes": [
-        {
-          "text": "1. if you want to become an agent",
-          "url": "https://www.reddit.com/r/RealEstate/comments/1pvika/so_you_want_to_become_an_agent/",
-          "fx": 273.5632957175926,
-          "fy": 22.146352851431004,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. the skinny on real estate investing",
-          "url": "https://www.goodreads.com/book/show/8710670-the-skinny-on-real-estate-investing",
-          "fx": 273.5632957175926,
-          "fy": 62.146352851431004,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how to flip and reposition small apartment buildings for maximum profit",
-          "url": "https://www.goodreads.com/book/show/2281747.Multi_Family_Millions",
-          "fx": 273.5632957175926,
-          "fy": 124.146352851431,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "real estate",
-      "target": "basics",
-      "curve": {
-        "x": -2.70539,
-        "y": 91.0781
+  "id": 677,
+  "map": {
+    "text": "real estate",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/RealEstate/comments/1pvika/so_you_want_to_become_an_agent/",
+            "text": "1. if you want to become an agent",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/8710670-the-skinny-on-real-estate-investing",
+            "text": "1. the skinny on real estate investing",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/2281747.Multi_Family_Millions",
+            "text": "1. how to flip and reposition small apartment buildings for maximum profit",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 677
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/RealEstate/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Real_estate",
+        "text": "real estate",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

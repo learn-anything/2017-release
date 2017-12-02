@@ -1,156 +1,163 @@
 {
   "title": "learn anything - computer hardware - computer",
   "tag": "computers",
-  "nodes": [
-    {
-      "text": "computer",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Computer",
-      "fx": -25.069768119853507,
-      "fy": -184.26903734253807,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 5.7018229166670835,
-      "fy": -42.46710804703247,
-      "nodes": [
-        {
-          "text": "1. building a modern computer from first principles",
-          "url": "http://www.nand2tetris.org/",
-          "fx": 161.70182291666708,
-          "fy": -92.96710804703247,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. building an 8-bit breadboard computer",
-          "url": "https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU",
-          "fx": 161.70182291666708,
-          "fy": -30.967108047032468,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. computer organisation",
-          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IdI9QZ7bkrhMX2ZpNW0dZUo",
-          "fx": 161.70182291666708,
-          "fy": 31.032891952967532,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 254,
+  "map": {
+    "text": "computer",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "parts",
+            "nodes": [
+              {
+                "text": "motherboard",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Motherboard",
+                    "text": "motherboard",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "GPU  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-hardware/computer/gpu",
+                    "text": "GPU  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "CPU  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-hardware/computer/cpu",
+                    "text": "CPU  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "computer memory  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-hardware/computer/computer-memory",
+                    "text": "computer memory  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "computer architectures  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-architecture",
+                "text": "computer architectures  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.nand2tetris.org/",
+            "text": "1. building a modern computer from first principles",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HyznrdDSSGM&amp;list=PLowKtXNTBypGqImE405J2565dvjafglHU",
+            "text": "1. building an 8-bit breadboard computer",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IdI9QZ7bkrhMX2ZpNW0dZUo",
+            "text": "1. computer organisation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer",
+        "text": "computer",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "computer architectures  ️",
-      "url": "/computer-hardware/computer/computer-architecture",
-      "fx": 38.38409566616167,
-      "fy": 118.77145511158926,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "parts",
-      "url": "",
-      "fx": -79.95435248480885,
-      "fy": 129.56137975056959,
-      "nodes": []
-    },
-    {
-      "text": "motherboard",
-      "url": "http://www.wikiwand.com/en/Motherboard",
-      "fx": -83.87328457832336,
-      "fy": 255.5779037475586,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "CPU  ️",
-      "url": "/computer-hardware/computer/cpu",
-      "fx": -350.6383321101682,
-      "fy": 256.5166106132068,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "GPU  ️",
-      "url": "/computer-hardware/computer/gpu",
-      "fx": -202.99650955200195,
-      "fy": 257.3299560546875,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer memory  ️",
-      "url": "/computer-hardware/computer/computer-memory",
-      "fx": -598.5281250000002,
-      "fy": 258.70208333333323,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "parts",
-      "target": "motherboard",
-      "curve": {
-        "x": 23.0406,
-        "y": 64.2583
       }
-    },
-    {
-      "source": "parts",
-      "target": "GPU  ️",
-      "curve": {
-        "x": -54.771,
-        "y": 65.1343
-      }
-    },
-    {
-      "source": "computer",
-      "target": "basics",
-      "curve": {
-        "x": -5.6142,
-        "y": 69.6509
-      }
-    },
-    {
-      "source": "basics",
-      "target": "parts",
-      "curve": {
-        "x": -45.8281,
-        "y": 86.0142
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computer architectures  ️",
-      "curve": {
-        "x": 38.0911,
-        "y": 81.8693
-      }
-    },
-    {
-      "source": "parts",
-      "target": "CPU  ️",
-      "curve": {
-        "x": -128.842,
-        "y": 64.7276
-      }
-    },
-    {
-      "source": "parts",
-      "target": "computer memory  ️",
-      "curve": {
-        "x": -264.154,
-        "y": 28.2576
-      }
-    }
-  ],
-  "id": 254
+    ],
+    "author": ""
+  }
 }

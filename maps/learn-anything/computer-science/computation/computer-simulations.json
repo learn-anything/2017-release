@@ -1,108 +1,108 @@
 {
   "title": "learn anything - computer science - computation - computer simulations",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer simulations",
-      "url": "http://www.wikiwand.com/en/Computer_simulation",
-      "fx": 47.73023897058829,
-      "fy": -228.0489430147059,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 214.4517709574153,
-      "fy": -100.04176636547624,
-      "nodes": [
-        {
-          "text": "visual 6502",
-          "url": "http://www.visual6502.org/JSSim/index.html",
-          "fx": 405.4517709574153,
-          "fy": -119.54176636547624,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "can a computer simulation create itself inside itself?",
-          "url": "https://www.reddit.com/r/askscience/comments/5cobkg/can_a_computer_simulation_create_itself_inside/d9y4gt9/",
-          "fx": 405.4517709574153,
-          "fy": -79.54176636547624,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 301,
+  "map": {
+    "text": "computer simulations",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.visual6502.org/JSSim/index.html",
+            "text": "visual 6502",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/askscience/comments/5cobkg/can_a_computer_simulation_create_itself_inside/d9y4gt9/",
+            "text": "can a computer simulation create itself inside itself?",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "simulated reality  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-simulations/simulated-reality",
+                "text": "simulated reality  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "physics engines  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-simulations/physics-engines",
+                "text": "physics engines  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OCMafswcNkY",
+            "text": "1. what is simulation?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_simulation",
+        "text": "computer simulations",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 106.64738175675689,
-      "fy": 34.64358108108098,
-      "nodes": [
-        {
-          "text": "1. what is simulation?",
-          "url": "https://www.youtube.com/watch?v=OCMafswcNkY",
-          "fx": 262.6473817567569,
-          "fy": 46.14358108108098,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "simulated reality  ️",
-      "url": "/computer-science/computation/computer-simulations/simulated-reality",
-      "fx": 231.51067130480033,
-      "fy": 171.202667277452,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "physics engines  ️",
-      "url": "/computer-science/computation/computer-simulations/physics-engines",
-      "fx": 5.384073777303001,
-      "fy": 171.93573421177592,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "computer simulations",
-      "curve": {
-        "x": -50.8608,
-        "y": -62.7536
       }
-    },
-    {
-      "source": "computer simulations",
-      "target": "basics",
-      "curve": {
-        "x": -11.7914,
-        "y": 130.096
-      }
-    },
-    {
-      "source": "basics",
-      "target": "simulated reality  ️",
-      "curve": {
-        "x": 91.4316,
-        "y": 69.5295
-      }
-    },
-    {
-      "source": "basics",
-      "target": "physics engines  ️",
-      "curve": {
-        "x": -21.8817,
-        "y": 69.8961
-      }
-    }
-  ],
-  "id": 301
+    ],
+    "author": ""
+  }
 }

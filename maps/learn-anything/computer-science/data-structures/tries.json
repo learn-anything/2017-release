@@ -1,74 +1,69 @@
 {
   "title": "learn anything - computer science - data structures - tries",
   "tag": "trie data structure",
-  "nodes": [
-    {
-      "text": "tries",
-      "url": "http://www.wikiwand.com/en/Trie",
-      "fx": -46.51858176702649,
-      "fy": -227.0872223612078,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 69.01623511441312,
-      "fy": -120.7457952388367,
-      "nodes": [
-        {
-          "text": "practice",
-          "url": "https://www.hackerrank.com/domains/data-structures/trie",
-          "fx": 206.01623511441312,
-          "fy": -106.2457952388367,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -25.416697485207123,
-      "nodes": [
-        {
-          "text": "1. interactive explanation",
-          "url": "https://trie.now.sh/",
-          "fx": 109.5,
-          "fy": -30.916697485207123,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. using tries",
-          "url": "https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/",
-          "fx": 109.5,
-          "fy": 9.083302514792877,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "tries",
-      "target": "basics",
-      "curve": {
-        "x": -2.24071,
-        "y": 99.5853
+  "id": 335,
+  "map": {
+    "text": "tries",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://trie.now.sh/",
+            "text": "1. interactive explanation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/",
+            "text": "1. using tries",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.hackerrank.com/domains/data-structures/trie",
+            "text": "practice",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "tries",
-      "curve": {
-        "x": -50.7674,
-        "y": -51.9207
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Trie",
+        "text": "tries",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 335
+    ],
+    "author": ""
+  }
 }

@@ -1,58 +1,61 @@
 {
   "title": "learn anything - operating systems - kernel",
   "tag": "",
-  "nodes": [
-    {
-      "text": "kernel",
-      "url": "http://www.wikiwand.com/en/Kernel_(operating_system)",
-      "fx": -50.717714905362755,
-      "fy": 0.591433359621476,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.449280362775994,
-      "fy": 131.31452089906446,
-      "nodes": [
-        {
-          "text": "1. what is a kernel",
-          "url": "https://www.youtube.com/watch?v=mycVSMyShk8",
-          "fx": 116.550719637224,
-          "fy": 142.81452089906446,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1282,
+  "map": {
+    "text": "kernel",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "linux  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/operating-systems/unix/linux",
+                "text": "linux  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=mycVSMyShk8",
+            "text": "1. what is a kernel",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kernel_(operating_system)",
+        "text": "kernel",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "linux  ️",
-      "url": "/operating-systems/unix/linux",
-      "fx": -83.04667721519058,
-      "fy": 253.12519778481004,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "kernel",
-      "target": "basics",
-      "curve": {
-        "x": -0.865783,
-        "y": 64.1115
       }
-    },
-    {
-      "source": "basics",
-      "target": "linux  ️",
-      "curve": {
-        "x": -18.7987,
-        "y": 62.1553
-      }
-    }
-  ],
-  "id": 1279
+    ],
+    "author": ""
+  }
 }

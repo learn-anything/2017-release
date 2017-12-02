@@ -1,50 +1,52 @@
 {
   "title": "learn anything - artificial intelligence - knowledge representation and reasoning - description logic",
   "tag": "",
-  "nodes": [
-    {
-      "text": "description logic",
-      "url": "http://www.wikiwand.com/en/Description_logic",
-      "fx": -97.5546875,
-      "fy": -128.7578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. formal foundation for ontology languages and tools",
-          "url": "https://www.cs.ox.ac.uk/ian.horrocks/Seminars/download/Horrocks_Ian_pt1.pdf",
-          "fx": 109.5,
-          "fy": -18.5,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. description logic primer",
-          "url": "https://arxiv.org/pdf/1201.4089.pdf",
-          "fx": 109.5,
-          "fy": 37.5,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "description logic",
-      "target": "basics",
-      "curve": {
-        "x": -4.22266,
-        "y": 62.1289
+  "id": 71,
+  "map": {
+    "text": "description logic",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.ox.ac.uk/ian.horrocks/Seminars/download/Horrocks_Ian_pt1.pdf",
+            "text": "1. formal foundation for ontology languages and tools",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://arxiv.org/pdf/1201.4089.pdf",
+            "text": "1. description logic primer",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 71
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Description_logic",
+        "text": "description logic",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

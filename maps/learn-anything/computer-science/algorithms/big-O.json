@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - algorithms - big O",
   "tag": "big O notation",
-  "nodes": [
-    {
-      "text": "big O notation",
-      "url": "http://www.wikiwand.com/en/Big_O_notation",
-      "fx": 27.3203125,
-      "fy": -156.96484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 179.62018327067665,
-      "fy": -52.08203125,
-      "nodes": [
-        {
-          "text": "big O cheat sheet",
-          "url": "http://bigocheatsheet.com/",
-          "fx": 316.62018327067665,
-          "fy": -37.58203125,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 79.62335526315803,
-      "fy": 66.91652960524095,
-      "nodes": [
-        {
-          "text": "1. introduction to asymptotic notations",
-          "url": "https://www.youtube.com/watch?v=aGjL7YXI31Q",
-          "fx": 261.62335526315803,
-          "fy": 67.41652960524095,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "big O notation",
-      "curve": {
-        "x": -46.6499,
-        "y": -51.1914
+  "id": 259,
+  "map": {
+    "text": "big O notation",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://bigocheatsheet.com/",
+            "text": "big O cheat sheet",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=aGjL7YXI31Q",
+            "text": "1. introduction to asymptotic notations",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "big O notation",
-      "target": "basics",
-      "curve": {
-        "x": 1.40152,
-        "y": 110.691
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Big_O_notation",
+        "text": "big O notation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 259
+    ],
+    "author": ""
+  }
 }

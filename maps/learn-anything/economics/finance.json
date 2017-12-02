@@ -1,106 +1,114 @@
 {
   "title": "learn anything - economics - finance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "finance",
-      "url": "http://www.wikiwand.com/en/Finance",
-      "fx": 166.524520158506,
-      "fy": -198.72339255700297,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 471.71882284382286,
-      "fy": -103.32971845862471,
-      "nodes": [
-        {
-          "text": "articles by Matt Levine  ️",
-          "url": "https://www.bloomberg.com/view/topics/money-stuff",
-          "fx": 670.7188228438229,
-          "fy": -90.82971845862471,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 489,
+  "map": {
+    "text": "finance",
+    "nodes": [
+      {
+        "text": "financial markets  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/finance/financial-markets",
+            "text": "financial markets  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "technical analysis  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/finance/technical-analysis",
+            "text": "technical analysis  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "forward contracts  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/finance/forward-contracts",
+            "text": "forward contracts  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "financial services  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/finance/financial-services",
+            "text": "financial services  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.bloomberg.com/view/topics/money-stuff",
+            "text": "articles by Matt Levine  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Finance",
+        "text": "finance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "financial markets  ️",
-      "url": "/economics/finance/financial-markets",
-      "fx": -279.38691329956055,
-      "fy": 110.53068161010742,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "technical analysis  ️",
-      "url": "/economics/finance/technical-analysis",
-      "fx": -37.26051712036133,
-      "fy": 112.34018325805664,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "forward contracts  ️",
-      "url": "/economics/finance/forward-contracts",
-      "fx": 213.8391571044922,
-      "fy": 113.71540069580078,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "financial services  ️",
-      "url": "/economics/finance/financial-services",
-      "fx": 465.89791358692537,
-      "fy": 118.30343018022546,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "finance",
-      "target": "financial markets  ️",
-      "curve": {
-        "x": -208.705,
-        "y": 153.377
       }
-    },
-    {
-      "source": "finance",
-      "target": "technical analysis  ️",
-      "curve": {
-        "x": -86.1426,
-        "y": 154.282
-      }
-    },
-    {
-      "source": "finance",
-      "target": "forward contracts  ️",
-      "curve": {
-        "x": 76.5406,
-        "y": 138.271
-      }
-    },
-    {
-      "source": "finance",
-      "target": "financial services  ️",
-      "curve": {
-        "x": 203.948,
-        "y": 134.521
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "finance",
-      "curve": {
-        "x": -152.097,
-        "y": -46.9468
-      }
-    }
-  ],
-  "id": 489
+    ],
+    "author": ""
+  }
 }

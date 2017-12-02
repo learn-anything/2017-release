@@ -1,100 +1,98 @@
 {
   "title": "learn anything - computer science - concurrency",
   "tag": "",
-  "nodes": [
-    {
-      "text": "concurrency",
-      "url": "http://www.wikiwand.com/en/Concurrency",
-      "fx": -274.5078125,
-      "fy": -323.33203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -129.68727509895632,
-      "fy": -195.92072894178023,
-      "nodes": [
-        {
-          "text": "16: choose your own derivative",
-          "url": "https://www.cis.upenn.edu/%7Ejpaykin/papers/psf_choose_2016.pdf",
-          "fx": 69.31272490104368,
-          "fy": -183.42072894178023,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 315,
+  "map": {
+    "text": "concurrency",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "process calculus  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/concurrency/process-calculus",
+                "text": "process calculus  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "petri nets  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/concurrency/petri-nets",
+                "text": "petri nets  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://deadlockempire.github.io/",
+            "text": "1. the deadlock empire",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cis.upenn.edu/%7Ejpaykin/papers/psf_choose_2016.pdf",
+            "text": "16: choose your own derivative",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Concurrency",
+        "text": "concurrency",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -255.84765625,
-      "fy": -83.09375,
-      "nodes": [
-        {
-          "text": "1. the deadlock empire",
-          "url": "https://deadlockempire.github.io/",
-          "fx": -66.84765625,
-          "fy": -70.59375,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "process calculus  ️",
-      "url": "/computer-science/concurrency/process-calculus",
-      "fx": -421.5562210083008,
-      "fy": 70.8686990737915,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "petri nets  ️",
-      "url": "/computer-science/concurrency/petri-nets",
-      "fx": -174.4062900543213,
-      "fy": 71.42370295524597,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "concurrency",
-      "target": "basics",
-      "curve": {
-        "x": -11.4199,
-        "y": 118.869
       }
-    },
-    {
-      "source": "basics",
-      "target": "process calculus  ️",
-      "curve": {
-        "x": -66.1043,
-        "y": 76.9813
-      }
-    },
-    {
-      "source": "basics",
-      "target": "petri nets  ️",
-      "curve": {
-        "x": 47.9707,
-        "y": 78.5087
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "concurrency",
-      "curve": {
-        "x": -58.6603,
-        "y": -62.9557
-      }
-    }
-  ],
-  "id": 315
+    ],
+    "author": ""
+  }
 }

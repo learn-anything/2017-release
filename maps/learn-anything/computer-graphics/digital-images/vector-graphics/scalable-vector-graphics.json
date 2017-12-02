@@ -1,78 +1,72 @@
 {
   "title": "learn anything - computer graphics - digital images - vector graphics - scalable vector graphics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "scalable vector graphics",
-      "url": "http://www.wikiwand.com/en/Scalable_Vector_Graphics",
-      "fx": 442.0077896118164,
-      "fy": -63.29702456792194,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/willianjusten/awesome-svg",
-          "fx": 813.0077896118164,
-          "fy": -49.29702456792194,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 644.2951607104158,
-      "fy": 77.37093314116714,
-      "nodes": [
-        {
-          "text": "SVG can do that?",
-          "url": "http://slides.com/sdrasner/svg-can-do-that#/",
-          "fx": 843.2951607104158,
-          "fy": 89.87093314116714,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 488.93716618742656,
-      "fy": 215.67333776557666,
-      "nodes": [
-        {
-          "text": "1. take vector graphics to the web  ️",
-          "url": "https://medium.com/coding-artist/take-vector-graphics-to-the-web-an-introduction-to-svgs-f2ee599351df",
-          "fx": 677.9371661874266,
-          "fy": 215.67333776557666,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "scalable vector graphics",
-      "target": "basics",
-      "curve": {
-        "x": -24.0353,
-        "y": 138.235
+  "id": 215,
+  "map": {
+    "text": "scalable vector graphics",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/coding-artist/take-vector-graphics-to-the-web-an-introduction-to-svgs-f2ee599351df",
+            "text": "1. take vector graphics to the web  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://slides.com/sdrasner/svg-can-do-that#/",
+            "text": "SVG can do that?",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "scalable vector graphics",
-      "curve": {
-        "x": -58.1437,
-        "y": -69.584
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/willianjusten/awesome-svg",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Scalable_Vector_Graphics",
+        "text": "scalable vector graphics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 215
+    ],
+    "author": ""
+  }
 }

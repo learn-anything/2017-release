@@ -1,122 +1,132 @@
 {
   "title": "learn anything - computer science - computation - computer programs - control flow",
   "tag": "",
-  "nodes": [
-    {
-      "text": "control flow",
-      "url": "http://www.wikiwand.com/en/Control_flow",
-      "fx": 6.838055032556213,
-      "fy": -356.6823260285902,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 238.37201025982995,
-      "fy": -245.0727842183992,
-      "nodes": [
-        {
-          "text": "destroy all ifs - perspective from functional programming  ️",
-          "url": "http://degoes.net/articles/destroy-all-ifs",
-          "fx": 407.37201025982995,
-          "fy": -245.0727842183992,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 296,
+  "map": {
+    "text": "control flow",
+    "nodes": [
+      {
+        "text": "gotos",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Goto",
+            "text": "gotos",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "conditionals",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Conditional_(computer_programming)",
+            "text": "conditionals",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "switch statements",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Switch_statement",
+            "text": "switch statements",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://degoes.net/articles/destroy-all-ifs",
+            "text": "destroy all ifs - perspective from functional programming  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "continuation  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/computation/computer-programs/control-flow/continuation",
+            "text": "continuation  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "coroutines  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/computation/computer-programs/control-flow/coroutines",
+            "text": "coroutines  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Control_flow",
+        "text": "control flow",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "coroutines  ️",
-      "url": "/computer-science/computation/computer-programs/control-flow/coroutines",
-      "fx": -655.442744423196,
-      "fy": -133.99970401941385,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "continuation  ️",
-      "url": "/computer-science/computation/computer-programs/control-flow/continuation",
-      "fx": -465.797980129552,
-      "fy": -133.74764749649842,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "gotos",
-      "url": "http://www.wikiwand.com/en/Goto",
-      "fx": -266.660945892334,
-      "fy": -132.46967315673828,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "conditionals",
-      "url": "http://www.wikiwand.com/en/Conditional_(computer_programming)",
-      "fx": -131.48108196258545,
-      "fy": -129.18689727783203,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "switch statements",
-      "url": "http://www.wikiwand.com/en/Switch_statement",
-      "fx": 65.64964294433594,
-      "fy": -128.01809310913086,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "control flow",
-      "target": "gotos",
-      "curve": {
-        "x": -168.404,
-        "y": 100.509
       }
-    },
-    {
-      "source": "control flow",
-      "target": "conditionals",
-      "curve": {
-        "x": -67.6595,
-        "y": 113.748
-      }
-    },
-    {
-      "source": "control flow",
-      "target": "switch statements",
-      "curve": {
-        "x": 38.4058,
-        "y": 113.582
-      }
-    },
-    {
-      "source": "articles",
-      "target": "control flow",
-      "curve": {
-        "x": -97.267,
-        "y": -55.0548
-      }
-    },
-    {
-      "source": "control flow",
-      "target": "continuation  ️",
-      "curve": {
-        "x": -268.565,
-        "y": 67.8963
-      }
-    },
-    {
-      "source": "control flow",
-      "target": "coroutines  ️",
-      "curve": {
-        "x": -394.329,
-        "y": 84.5598
-      }
-    }
-  ],
-  "id": 296
+    ],
+    "author": ""
+  }
 }

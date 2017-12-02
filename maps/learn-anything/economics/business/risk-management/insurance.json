@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - business - risk management - insurance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "insurance",
-      "url": "http://www.wikiwand.com/en/Insurance",
-      "fx": 196.6763746044304,
-      "fy": -368.95564675632914,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 219.16314199395742,
-      "fy": -227.9244712991014,
-      "nodes": [
-        {
-          "text": "1. insurance - basics and types",
-          "url": "https://www.youtube.com/watch?v=hapKVJuQh-U",
-          "fx": 382.1631419939574,
-          "fy": -215.4244712991014,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "insurance",
-      "target": "basics",
-      "curve": {
-        "x": -4.50662,
-        "y": 69.7656
+  "id": 469,
+  "map": {
+    "text": "insurance",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hapKVJuQh-U",
+            "text": "1. insurance - basics and types",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 469
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Insurance",
+        "text": "insurance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

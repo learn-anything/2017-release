@@ -1,155 +1,136 @@
 {
   "title": "learn anything - databases - distributed databases - blockchain",
   "tag": "",
-  "nodes": [
-    {
-      "text": "blockchain",
-      "url": "http://www.wikiwand.com/en/Blockchain",
-      "fx": 259.81334686279297,
-      "fy": 2.132725238800049,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/BlockChain/",
-          "fx": 484.81334686279297,
-          "fy": -3.867274761199951,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/Xel/Blockchain-stuff",
-          "fx": 484.81334686279297,
-          "fy": 36.13272523880005,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 406.1988229799898,
-      "fy": 129.19586262031402,
-      "nodes": [
-        {
-          "text": "awesome non financial blockchain",
-          "url": "https://github.com/machinomy/awesome-non-financial-blockchain",
-          "fx": 597.1988229799898,
-          "fy": 140.69586262031402,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": 198.69457508304924,
-      "fy": 399.2374130166796,
-      "nodes": [
-        {
-          "text": "1. beginner’s guide to blockchain technology",
-          "url": "http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/",
-          "fx": 380.69457508304924,
-          "fy": 271.7374130166796,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. minimum viable blockchain  ️",
-          "url": "https://www.igvita.com/2014/05/05/minimum-viable-block-chain/",
-          "fx": 380.69457508304924,
-          "fy": 327.7374130166796,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. let’s build the tiniest blockchain  ️",
-          "url": "https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b",
-          "fx": 380.69457508304924,
-          "fy": 367.7374130166796,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "1. the blockchain explained to web developers",
-          "url": "",
-          "fx": 380.69457508304924,
-          "fy": 430.7374130166796,
-          "nodes": [
-            {
-              "text": "part 1: the theory",
-              "url": "https://marmelab.com/blog/2016/04/28/blockchain-for-web-developers-the-theory.html",
-              "fx": 738.6945750830492,
-              "fy": 407.7374130166796,
-              "nodes": [],
-              "color": "rgba(34, 205, 224, 1.0)"
-            },
-            {
-              "text": "part 2: in practice",
-              "url": "https://marmelab.com/blog/2016/05/20/blockchain-for-web-developers-in-practice.html",
-              "fx": 738.6945750830492,
-              "fy": 441.7374130166796,
-              "nodes": [],
-              "color": "rgba(34, 205, 224, 1.0)"
-            },
-            {
-              "text": "part 3: the truth",
-              "url": "https://marmelab.com/blog/2016/06/14/blockchain-for-web-developers-the-truth.html",
-              "fx": 738.6945750830492,
-              "fy": 475.7374130166796,
-              "nodes": [],
-              "color": "rgba(34, 205, 224, 1.0)"
+  "id": 401,
+  "map": {
+    "text": "blockchain",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://blockstrap.com/en/a-complete-beginners-guide-to-blockchain-technology/",
+            "text": "1. beginner’s guide to blockchain technology",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. blockchain in 200 lines of code  ️",
-          "url": "https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54",
-          "fx": 380.69457508304924,
-          "fy": 509.7374130166796,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "2. blockchain demo",
-          "url": "https://anders.com/blockchain/",
-          "fx": 380.69457508304924,
-          "fy": 549.7374130166796,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+          },
+          {
+            "url": "https://www.igvita.com/2014/05/05/minimum-viable-block-chain/",
+            "text": "1. minimum viable blockchain  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b",
+            "text": "1. let’s build the tiniest blockchain  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "",
+            "text": "1. the blockchain explained to web developers",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54",
+            "text": "1. blockchain in 200 lines of code  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://anders.com/blockchain/",
+            "text": "2. blockchain demo",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/machinomy/awesome-non-financial-blockchain",
+            "text": "awesome non financial blockchain",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/BlockChain/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "blockchain",
-      "target": "basics",
-      "curve": {
-        "x": -47.8094,
-        "y": 197.301
+      },
+      {
+        "url": "https://github.com/Xel/Blockchain-stuff",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Blockchain",
+        "text": "blockchain",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "blockchain",
-      "curve": {
-        "x": -64.6927,
-        "y": -62.2816
-      }
-    }
-  ],
-  "id": 401
+    ],
+    "author": ""
+  }
 }

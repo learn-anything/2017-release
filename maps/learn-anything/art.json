@@ -1,551 +1,593 @@
 {
   "title": "learn anything - art",
   "tag": "",
-  "nodes": [
-    {
-      "text": "art",
-      "url": "http://www.wikiwand.com/en/Art",
-      "fx": 158.29036665791625,
-      "fy": -805.1715732114337,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Art/",
-          "fx": 314.29036665791625,
-          "fy": -791.1715732114337,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 67,
+  "map": {
+    "text": "art",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "photography  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/photography",
+                "text": "photography  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "filmmaking   ️",
+            "nodes": [
+              {
+                "text": "acting  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/art/acting",
+                    "text": "acting  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/art/filmmaking",
+                "text": "filmmaking   ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "music  ️",
+            "nodes": [
+              {
+                "text": "singing  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/art/singing",
+                    "text": "singing  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/art/music",
+                "text": "music  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "public speaking  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/public-speaking",
+                "text": "public speaking  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "animation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/animation",
+                "text": "animation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "drawing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/drawing",
+                "text": "drawing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "creative coding  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/creative-coding",
+                "text": "creative coding  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "generative art  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/generative-art",
+                "text": "generative art  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "dancing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/dancing",
+                "text": "dancing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "help",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [
+                  {
+                    "text": "articles",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://eev.ee/blog/2017/03/08/utopia/",
+                        "text": "17: utopia  ️",
+                        "category": "article",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "http://imgur.com/a/3m5wf",
+                    "text": "art album",
+                    "category": "image",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://sudoscript.com/reddit-place/",
+                    "text": "when pixels collide  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://www.artstation.com/#",
+                "text": "art station",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.wikiart.org/",
+                "text": "wiki art",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.visual-arts-cork.com/",
+                "text": "art encyclopedia",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "digital art  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/digital-art",
+                "text": "digital art  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "comics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/comics",
+                "text": "comics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "video editing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/video-editing",
+                "text": "video editing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "writing  ️",
+            "nodes": [
+              {
+                "text": "literature  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/art/literature",
+                    "text": "literature  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/art/writing",
+                "text": "writing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "martial arts  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/martial-arts",
+                "text": "martial arts  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "world building  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/world-building",
+                "text": "world building  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "anime  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/anime",
+                "text": "anime  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "calligraphy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/calligraphy",
+                "text": "calligraphy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "comedy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/comedy",
+                "text": "comedy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "fashion  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/fashion",
+                "text": "fashion  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "live coding  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/live-coding",
+                "text": "live coding  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "origami  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/origami",
+                "text": "origami  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "illustration  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/illustration",
+                "text": "illustration  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://vimeo.com/85040589",
+            "text": "1. the gap",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Art/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 149.23116572891263,
-      "fy": -679.5735312753447,
-      "nodes": [
-        {
-          "text": "1. the gap",
-          "url": "https://vimeo.com/85040589",
-          "fx": 312.23116572891263,
-          "fy": -667.0735312753447,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Art",
+        "text": "art",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 600.8253343088973,
-      "fy": -594.2407772516275,
-      "nodes": [
-        {
-          "text": "art station",
-          "url": "https://www.artstation.com/#",
-          "fx": 741.8253343088973,
-          "fy": -616.2407772516275,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "wiki art",
-          "url": "https://www.wikiart.org/",
-          "fx": 741.8253343088973,
-          "fy": -579.2407772516275,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "art encyclopedia",
-          "url": "http://www.visual-arts-cork.com/",
-          "fx": 741.8253343088973,
-          "fy": -542.2407772516275,
-          "nodes": [],
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 795.0377808460207,
-      "fy": -466.18271118501264,
-      "nodes": [
-        {
-          "text": "art album",
-          "url": "http://imgur.com/a/3m5wf",
-          "fx": 994.0377808460207,
-          "fy": -474.68271118501264,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "when pixels collide  ️",
-          "url": "http://sudoscript.com/reddit-place/",
-          "fx": 994.0377808460207,
-          "fy": -432.68271118501264,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 1201.4383763205647,
-      "fy": -302.08319064713214,
-      "nodes": [
-        {
-          "text": "17: utopia  ️",
-          "url": "https://eev.ee/blog/2017/03/08/utopia/",
-          "fx": 1370.4383763205647,
-          "fy": -289.58319064713214,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "photography  ️",
-      "url": "/art/photography",
-      "fx": -648.8918304443359,
-      "fy": -239.32973861694336,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "filmmaking   ️",
-      "url": "/art/filmmaking",
-      "fx": -445.5498962402344,
-      "fy": -238.43372344970703,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "writing  ️",
-      "url": "/art/writing",
-      "fx": -256.49507904052734,
-      "fy": -237.86754608154297,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "digital art  ️",
-      "url": "/art/digital-art",
-      "fx": -815.9437103271484,
-      "fy": -237.53801345825195,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "comics  ️",
-      "url": "/art/comics",
-      "fx": -966.9600524902344,
-      "fy": -235.61687469482422,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "music  ️",
-      "url": "/art/music",
-      "fx": -115.36093711853027,
-      "fy": -234.04550552368164,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "animation  ️",
-      "url": "/art/animation",
-      "fx": 256.9086456298828,
-      "fy": -233.07411193847656,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "video editing  ️",
-      "url": "/art/video-editing",
-      "fx": -1171.712387084961,
-      "fy": -232.655029296875,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "martial arts  ️",
-      "url": "/art/martial-arts",
-      "fx": -1358.4591979980469,
-      "fy": -231.98545455932617,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "drawing  ️",
-      "url": "/art/drawing",
-      "fx": 430.04579162597656,
-      "fy": -230.8778190612793,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "public speaking  ️",
-      "url": "/art/public-speaking",
-      "fx": 22.771141052246094,
-      "fy": -230.69368362426758,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "world building  ️",
-      "url": "/art/world-building",
-      "fx": -1573.0101928710938,
-      "fy": -230.06977081298828,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "creative coding  ️",
-      "url": "/art/creative-coding",
-      "fx": 586.1879577636719,
-      "fy": -229.43180084228516,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "dancing  ️",
-      "url": "/art/dancing",
-      "fx": 1028.4786224365234,
-      "fy": -228.8036346435547,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "generative art  ️",
-      "url": "/art/generative-art",
-      "fx": 816.3312225341797,
-      "fy": -228.69213104248047,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "anime  ️",
-      "url": "/art/anime",
-      "fx": -1710.9869384765625,
-      "fy": -224.99452590942383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "comedy  ️",
-      "url": "/art/comedy",
-      "fx": -2051.954315185547,
-      "fy": -223.40023040771484,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "fashion  ️",
-      "url": "/art/fashion",
-      "fx": -2200.9495239257812,
-      "fy": -221.87196731567383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "origami  ️",
-      "url": "/art/origami",
-      "fx": -2534.8958740234375,
-      "fy": -221.85405731201172,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "live coding  ️",
-      "url": "/art/live-coding",
-      "fx": -2384.9239807128906,
-      "fy": -221.2015724182129,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "calligraphy  ️",
-      "url": "/art/calligraphy",
-      "fx": -1892.9918212890625,
-      "fy": -220.50045013427734,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "illustration  ️",
-      "url": "/art/illustration",
-      "fx": -2708.8546406970063,
-      "fy": -220.30753168202523,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "acting  ️",
-      "url": "/art/acting",
-      "fx": -434.4033445850308,
-      "fy": -133.08349492201478,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "literature  ️",
-      "url": "/art/literature",
-      "fx": -289.55113983154297,
-      "fy": -130.96983909606934,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "singing  ️",
-      "url": "/art/singing",
-      "fx": -129.40118312835693,
-      "fy": -130.86599349975586,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "filmmaking   ️",
-      "target": "acting  ️",
-      "curve": {
-        "x": -6.42672,
-        "y": 52.6751
       }
-    },
-    {
-      "source": "writing  ️",
-      "target": "literature  ️",
-      "curve": {
-        "x": -12.0281,
-        "y": 53.4489
-      }
-    },
-    {
-      "source": "music  ️",
-      "target": "singing  ️",
-      "curve": {
-        "x": -4.52013,
-        "y": 51.5898
-      }
-    },
-    {
-      "source": "basics",
-      "target": "photography  ️",
-      "curve": {
-        "x": -404.749,
-        "y": 197.427
-      }
-    },
-    {
-      "source": "basics",
-      "target": "filmmaking   ️",
-      "curve": {
-        "x": -278.89,
-        "y": 221.821
-      }
-    },
-    {
-      "source": "basics",
-      "target": "music  ️",
-      "curve": {
-        "x": -126.045,
-        "y": 224.014
-      }
-    },
-    {
-      "source": "basics",
-      "target": "public speaking  ️",
-      "curve": {
-        "x": -34.98,
-        "y": 225.691
-      }
-    },
-    {
-      "source": "basics",
-      "target": "animation  ️",
-      "curve": {
-        "x": 68.5887,
-        "y": 224.501
-      }
-    },
-    {
-      "source": "basics",
-      "target": "drawing  ️",
-      "curve": {
-        "x": 151.157,
-        "y": 225.599
-      }
-    },
-    {
-      "source": "basics",
-      "target": "creative coding  ️",
-      "curve": {
-        "x": 245.479,
-        "y": 226.322
-      }
-    },
-    {
-      "source": "basics",
-      "target": "generative art  ️",
-      "curve": {
-        "x": 374.051,
-        "y": 226.692
-      }
-    },
-    {
-      "source": "basics",
-      "target": "dancing  ️",
-      "curve": {
-        "x": 538.955,
-        "y": 210.464
-      }
-    },
-    {
-      "source": "help",
-      "target": "basics",
-      "curve": {
-        "x": -229.302,
-        "y": -26.5407
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -117.905,
-        "y": -54.449
-      }
-    },
-    {
-      "source": "basics",
-      "target": "digital art  ️",
-      "curve": {
-        "x": -547.654,
-        "y": 217.936
-      }
-    },
-    {
-      "source": "basics",
-      "target": "comics  ️",
-      "curve": {
-        "x": -712.575,
-        "y": 216.398
-      }
-    },
-    {
-      "source": "articles",
-      "target": "interesting",
-      "curve": {
-        "x": -199.81,
-        "y": -65.8171
-      }
-    },
-    {
-      "source": "basics",
-      "target": "video editing  ️",
-      "curve": {
-        "x": -910.121,
-        "y": 237.731
-      }
-    },
-    {
-      "source": "basics",
-      "target": "writing  ️",
-      "curve": {
-        "x": -195.363,
-        "y": 222.103
-      }
-    },
-    {
-      "source": "basics",
-      "target": "martial arts  ️",
-      "curve": {
-        "x": -1019.3,
-        "y": 221.504
-      }
-    },
-    {
-      "source": "basics",
-      "target": "world building  ️",
-      "curve": {
-        "x": -1133.31,
-        "y": 194.117
-      }
-    },
-    {
-      "source": "basics",
-      "target": "anime  ️",
-      "curve": {
-        "x": -1143.41,
-        "y": 114.586
-      }
-    },
-    {
-      "source": "basics",
-      "target": "calligraphy  ️",
-      "curve": {
-        "x": -1260.82,
-        "y": 87.349
-      }
-    },
-    {
-      "source": "basics",
-      "target": "comedy  ️",
-      "curve": {
-        "x": -1414.23,
-        "y": 92.2468
-      }
-    },
-    {
-      "source": "basics",
-      "target": "fashion  ️",
-      "curve": {
-        "x": -1580.91,
-        "y": 101.996
-      }
-    },
-    {
-      "source": "basics",
-      "target": "live coding  ️",
-      "curve": {
-        "x": -1536.23,
-        "y": 13.0866
-      }
-    },
-    {
-      "source": "basics",
-      "target": "origami  ️",
-      "curve": {
-        "x": -1980.44,
-        "y": 182.169
-      }
-    },
-    {
-      "source": "basics",
-      "target": "illustration  ️",
-      "curve": {
-        "x": -2061.94,
-        "y": 161.936
-      }
-    },
-    {
-      "source": "art",
-      "target": "basics",
-      "curve": {
-        "x": -2.7796,
-        "y": 62.049
-      }
-    }
-  ],
-  "id": 67
+    ],
+    "author": ""
+  }
 }

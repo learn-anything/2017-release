@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - drugs - stimulants - amphetamines",
   "tag": "",
-  "nodes": [
-    {
-      "text": "amphetamines",
-      "url": "http://www.wikiwand.com/en/Amphetamine",
-      "fx": 75.61940696022702,
-      "fy": -100.15207741477269,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.5,
-      "fy": 30,
-      "nodes": [
-        {
-          "text": "1. how does Adderall work",
-          "url": "https://www.youtube.com/watch?v=nACgo1wFf_U",
-          "fx": 283.5,
-          "fy": 41.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "amphetamines",
-      "target": "basics",
-      "curve": {
-        "x": -0.309703,
-        "y": 63.826
+  "id": 166,
+  "map": {
+    "text": "amphetamines",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nACgo1wFf_U",
+            "text": "1. how does Adderall work",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 166
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Amphetamine",
+        "text": "amphetamines",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

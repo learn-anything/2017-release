@@ -1,41 +1,41 @@
 {
   "title": "learn anything - biology - computational biology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computational biology",
-      "url": "http://www.wikiwand.com/en/Computational_biology",
-      "fx": -131.0001974105835,
-      "fy": -137.22326850891113,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -48.5000309497118,
-      "fy": 16.14447832107544,
-      "nodes": [
-        {
-          "text": "1. foundations of computational and systems biology",
-          "url": "https://www.youtube.com/watch?v=lJzybEXmIj0&amp;list=PLUl4u3cNGP63uK-oWiLgO7LLJV6ZCWXac",
-          "fx": 107.4999690502882,
-          "fy": 19.64447832107544,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "computational biology",
-      "target": "basics",
-      "curve": {
-        "x": -1.24992,
-        "y": 75.4339
+  "id": 92,
+  "map": {
+    "text": "computational biology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lJzybEXmIj0&amp;list=PLUl4u3cNGP63uK-oWiLgO7LLJV6ZCWXac",
+            "text": "1. foundations of computational and systems biology",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 92
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computational_biology",
+        "text": "computational biology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

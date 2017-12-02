@@ -1,146 +1,165 @@
 {
   "title": "learn anything - art - music - music theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "music theory",
-      "url": "http://www.wikiwand.com/en/Music_theory",
-      "fx": -78.05872422456741,
-      "fy": -181.88803482055664,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/musictheory/",
-          "fx": 164.9412757754326,
-          "fy": -167.88803482055664,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 50,
+  "map": {
+    "text": "music theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "music modes",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Mode_(music)",
+                "text": "music modes",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "harmony  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-theory/harmony",
+                "text": "harmony  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=re4Rx0j2eMI&amp;feature=youtu.be",
+            "text": "1. basics of music theory",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://openmusictheory.com/",
+            "text": "1. open music theory",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.musictheory.net/lessons",
+            "text": "1. music theory lessons",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/1419930.Practical_Theory_Complete",
+            "text": "1. practical theory complete: a self-instruction music theory course",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PL1302D94F247600CD",
+            "text": "1. music theory fundamentals",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.daveconservatoire.org/",
+            "text": "1. dave conservatoire",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/edinburgh-music-theory",
+            "text": "1. fundamentals of music theory",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://learningmusic.ableton.com/",
+            "text": "1. get started making music",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/musictheory/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -79.90029815695857,
-      "fy": 99.10934380839637,
-      "nodes": [
-        {
-          "text": "1. basics of music theory",
-          "url": "https://www.youtube.com/watch?v=re4Rx0j2eMI&amp;feature=youtu.be",
-          "fx": 102.09970184304143,
-          "fy": -31.390656191603625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. open music theory",
-          "url": "http://openmusictheory.com/",
-          "fx": 102.09970184304143,
-          "fy": 8.609343808396375,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. music theory lessons",
-          "url": "http://www.musictheory.net/lessons",
-          "fx": 102.09970184304143,
-          "fy": 48.609343808396375,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. practical theory complete: a self-instruction music theory course",
-          "url": "https://www.goodreads.com/book/show/1419930.Practical_Theory_Complete",
-          "fx": 102.09970184304143,
-          "fy": 82.60934380839637,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. music theory fundamentals",
-          "url": "https://www.youtube.com/playlist?list=PL1302D94F247600CD",
-          "fx": 102.09970184304143,
-          "fy": 144.60934380839637,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. dave conservatoire",
-          "note": "free online music school",
-          "url": "http://www.daveconservatoire.org/",
-          "fx": 102.09970184304143,
-          "fy": 184.60934380839637,
-          "nodes": [],
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "1. fundamentals of music theory",
-          "url": "https://www.coursera.org/learn/edinburgh-music-theory",
-          "fx": 102.09970184304143,
-          "fy": 218.60934380839637,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "1. get started making music",
-          "url": "https://learningmusic.ableton.com/",
-          "fx": 102.09970184304143,
-          "fy": 258.6093438083964,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Music_theory",
+        "text": "music theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "harmony  ️",
-      "url": "/art/music/music-theory/harmony",
-      "fx": -296.39271763392867,
-      "fy": 231.02650669642844,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "music modes",
-      "url": "http://www.wikiwand.com/en/Mode_(music)",
-      "fx": -124.45491732070946,
-      "fy": 331.8040784896659,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "music theory",
-      "target": "basics",
-      "curve": {
-        "x": -22.6708,
-        "y": 139.249
       }
-    },
-    {
-      "source": "basics",
-      "target": "music modes",
-      "curve": {
-        "x": -5.52728,
-        "y": 117.598
-      }
-    },
-    {
-      "source": "basics",
-      "target": "harmony  ️",
-      "curve": {
-        "x": -109.496,
-        "y": 65.9586
-      }
-    }
-  ],
-  "id": 50
+    ],
+    "author": ""
+  }
 }

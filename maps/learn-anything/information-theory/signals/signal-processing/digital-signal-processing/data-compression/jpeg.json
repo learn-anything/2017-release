@@ -1,60 +1,64 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing - data compression - jpeg",
   "tag": "JPEG",
-  "nodes": [
-    {
-      "text": "JPEG",
-      "url": "http://www.wikiwand.com/en/JPEG",
-      "fx": -56.79296875,
-      "fy": -141.25,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.44022529069787,
-      "fy": 0.34072189922494545,
-      "nodes": [
-        {
-          "text": "1. JPEG DCT, discrete cosine transform",
-          "url": "https://www.youtube.com/watch?v=Q2aEzeMDHMA",
-          "fx": 108.55977470930213,
-          "fy": -39.159278100775055,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. JPEG ‘files’ &amp; colour",
-          "url": "https://www.youtube.com/watch?v=n_uNPbdenRs",
-          "fx": 108.55977470930213,
-          "fy": 22.840721899224945,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. the problem with JPEG",
-          "url": "https://www.youtube.com/watch?v=yBX8GFqt6GA",
-          "fx": 108.55977470930213,
-          "fy": 62.840721899224945,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "JPEG",
-      "target": "basics",
-      "curve": {
-        "x": -1.07363,
-        "y": 69.5454
+  "id": 655,
+  "map": {
+    "text": "JPEG",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Q2aEzeMDHMA",
+            "text": "1. JPEG DCT, discrete cosine transform",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=n_uNPbdenRs",
+            "text": "1. JPEG ‘files’ &amp; colour",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yBX8GFqt6GA",
+            "text": "2. the problem with JPEG",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 655
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/JPEG",
+        "text": "JPEG",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - programming language theory - evaluation strategies - lazy evaluation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "lazy evaluation",
-      "url": "http://www.wikiwand.com/en/Lazy_evaluation",
-      "fx": 66.69978530534354,
-      "fy": -321.9083671278626,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 113.94203244273979,
-      "fy": -165.45151479009553,
-      "nodes": [
-        {
-          "text": "1. how does lazy evaluation work?  ️",
-          "url": "https://hackhands.com/lazy-evaluation-works-haskell/",
-          "fx": 276.9420324427398,
-          "fy": -165.45151479009553,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "lazy evaluation",
-      "target": "basics",
-      "curve": {
-        "x": -3.87888,
-        "y": 77.4784
+  "id": 340,
+  "map": {
+    "text": "lazy evaluation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://hackhands.com/lazy-evaluation-works-haskell/",
+            "text": "1. how does lazy evaluation work?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 340
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Lazy_evaluation",
+        "text": "lazy evaluation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

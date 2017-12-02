@@ -1,101 +1,89 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - mdma",
   "tag": "MDMA",
-  "nodes": [
-    {
-      "text": "MDMA",
-      "url": "https://psychonautwiki.org/wiki/MDMA",
-      "fx": 11.318530208659695,
-      "fy": -196.54675055449866,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/MDMA/",
-          "fx": 200.3185302086597,
-          "fy": -182.54675055449866,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 118.18966194968561,
-      "fy": -87.50737028301882,
-      "nodes": [
-        {
-          "text": "rolling safe guide",
-          "url": "http://www.rollinballzcrew.com/preload.shtml",
-          "fx": 255.18966194968561,
-          "fy": -73.00737028301882,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 244.12116586119782,
-      "fy": 13.442077020201964,
-      "nodes": [
-        {
-          "text": "documentary on the creator of MDMA",
-          "url": "https://www.youtube.com/watch?v=qXHyKyoHJzo",
-          "fx": 435.1211658611978,
-          "fy": 13.942077020201964,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 16.322432091737028,
-      "fy": 104.71117301019336,
-      "nodes": [
-        {
-          "text": "1. your brain on mdma",
-          "url": "https://www.youtube.com/watch?v=jEAr7ThsYew",
-          "fx": 172.32243209173703,
-          "fy": 116.21117301019336,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "MDMA",
-      "curve": {
-        "x": -40.4356,
-        "y": -53.2697
+  "id": 159,
+  "map": {
+    "text": "MDMA",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.youtube.com/watch?v=qXHyKyoHJzo",
+                "text": "documentary on the creator of MDMA",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.rollinballzcrew.com/preload.shtml",
+            "text": "rolling safe guide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jEAr7ThsYew",
+            "text": "1. your brain on mdma",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "MDMA",
-      "target": "basics",
-      "curve": {
-        "x": -5.74805,
-        "y": 149.379
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/MDMA/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/MDMA",
+        "text": "MDMA",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -76.4658,
-        "y": -50.4747
-      }
-    }
-  ],
-  "id": 159
+    ],
+    "author": ""
+  }
 }

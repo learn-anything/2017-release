@@ -1,127 +1,110 @@
 {
   "title": "learn anything - economics - economic systems - capitalism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "capitalism",
-      "url": "http://www.wikiwand.com/en/Capitalism",
-      "fx": -242.4140625,
-      "fy": -68.84375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -114.73463404504332,
-      "fy": 29.886320134981133,
-      "nodes": [
-        {
-          "text": "democracy at work",
-          "url": "https://www.youtube.com/user/democracyatwrk/videos",
-          "fx": 22.26536595495668,
-          "fy": 41.38632013498113,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": -45.6994049822697,
-      "fy": 127.44827545666311,
-      "nodes": [
-        {
-          "text": "how to be an anticapitalist today  ️",
-          "url": "https://www.jacobinmag.com/2015/12/erik-olin-wright-real-utopias-anticapitalism-democracy/",
-          "fx": 116.3005950177303,
-          "fy": 107.94827545666311,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: why capitalism creates pointless jobs  ️",
-          "url": "http://evonomics.com/why-capitalism-creates-pointless-jobs-david-graeber/",
-          "fx": 116.3005950177303,
-          "fy": 147.9482754566631,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 55.25800015063999,
-      "fy": 246.27633342337094,
-      "nodes": [
-        {
-          "text": "profiting without producing: how finance exploits us all",
-          "url": "https://www.youtube.com/watch?v=6GoQWkyVZq4",
-          "fx": 195.25800015064,
-          "fy": 246.77633342337094,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -223.17252394493596,
-      "fy": 326.054640262685,
-      "nodes": [
-        {
-          "text": "1. capitalism and socialism",
-          "url": "https://www.youtube.com/watch?v=B3u4EFTwprM",
-          "fx": -41.17252394493596,
-          "fy": 337.554640262685,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "articles",
-      "curve": {
-        "x": -44.9787,
-        "y": -59.414
+  "id": 480,
+  "map": {
+    "text": "capitalism",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "talks",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=6GoQWkyVZq4",
+                    "text": "profiting without producing: how finance exploits us all",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://www.jacobinmag.com/2015/12/erik-olin-wright-real-utopias-anticapitalism-democracy/",
+                "text": "how to be an anticapitalist today  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://evonomics.com/why-capitalism-creates-pointless-jobs-david-graeber/",
+                "text": "17: why capitalism creates pointless jobs  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/democracyatwrk/videos",
+            "text": "democracy at work",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=B3u4EFTwprM",
+            "text": "1. capitalism and socialism",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "capitalism",
-      "curve": {
-        "x": -43.5897,
-        "y": -48.115
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Capitalism",
+        "text": "capitalism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -40.7676,
-        "y": -48.781
-      }
-    },
-    {
-      "source": "capitalism",
-      "target": "basics",
-      "curve": {
-        "x": -5.87923,
-        "y": 196.199
-      }
-    }
-  ],
-  "id": 480
+    ],
+    "author": ""
+  }
 }

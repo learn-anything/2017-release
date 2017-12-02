@@ -1,68 +1,61 @@
 {
   "title": "learn anything - information theory - algorithmic information theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "algorithmic information theory",
-      "url": "http://www.wikiwand.com/en/Algorithmic_information_theory",
-      "fx": 31.85397761749789,
-      "fy": -392.7480434272949,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 108.69527435302734,
-      "fy": -214.39580786348586,
-      "nodes": [
-        {
-          "text": "1. life as evolving software",
-          "url": "http://www.youtube.com/watch?v=RlYS_GiAnK8&amp;t=1m35s",
-          "fx": 271.69527435302734,
-          "fy": -201.89580786348586,
-          "nodes": [
-            {
-              "text": "paper",
-              "url": "http://vixra.org/pdf/1202.0076v1.pdf",
-              "fx": 608.6952743530273,
-              "fy": -201.89580786348586,
-              "nodes": [],
-              "category": "paper",
-              "color": "rgba(0, 224, 161, 1.0)"
+  "id": 631,
+  "map": {
+    "text": "algorithmic information theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "Kolmogorov complexity  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/algorithmic-information-theory/kolmogorov-complexity",
+                "text": "Kolmogorov complexity  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.youtube.com/watch?v=RlYS_GiAnK8&amp;t=1m35s",
+            "text": "1. life as evolving software",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Algorithmic_information_theory",
+        "text": "algorithmic information theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Kolmogorov complexity  ️",
-      "url": "/information-theory/algorithmic-information-theory/kolmogorov-complexity",
-      "fx": -86.41344672622301,
-      "fy": -52.68070056566097,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "algorithmic information theory",
-      "target": "basics",
-      "curve": {
-        "x": -2.57935,
-        "y": 81.1761
       }
-    },
-    {
-      "source": "basics",
-      "target": "Kolmogorov complexity  ️",
-      "curve": {
-        "x": -55.8044,
-        "y": 80.8576
-      }
-    }
-  ],
-  "id": 631
+    ],
+    "author": ""
+  }
 }

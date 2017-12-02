@@ -1,70 +1,75 @@
 {
   "title": "learn anything - biology - organisms - cells - stem cells",
   "tag": "",
-  "nodes": [
-    {
-      "text": "stem cells",
-      "url": "http://www.wikiwand.com/en/Stem_cell",
-      "fx": -86.80750971889938,
-      "fy": -169.2394961124403,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/stemcells/",
-          "fx": 131.19249028110062,
-          "fy": -155.2394961124403,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -63.154829545454504,
-      "fy": -2.4990281100477887,
-      "nodes": [
-        {
-          "text": "1. what are stem cells?",
-          "url": "https://www.youtube.com/watch?v=evH0I7Coc54",
-          "fx": 92.8451704545455,
-          "fy": -30.99902811004779,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. stem cells khan academy",
-          "url": "https://www.youtube.com/watch?v=uUH5YI5dTOg",
-          "fx": 92.8451704545455,
-          "fy": 9.000971889952211,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. what can stem cells do?",
-          "url": "https://www.youtube.com/watch?v=K7D6iA7bZG0",
-          "fx": 92.8451704545455,
-          "fy": 49.00097188995221,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stem cells",
-      "target": "basics",
-      "curve": {
-        "x": -3.67366,
-        "y": 82.1202
+  "id": 118,
+  "map": {
+    "text": "stem cells",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=evH0I7Coc54",
+            "text": "1. what are stem cells?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uUH5YI5dTOg",
+            "text": "1. stem cells khan academy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=K7D6iA7bZG0",
+            "text": "1. what can stem cells do?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 118
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/stemcells/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Stem_cell",
+        "text": "stem cells",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

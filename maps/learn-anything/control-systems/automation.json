@@ -1,86 +1,82 @@
 {
   "title": "learn anything - control systems - automation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "automation",
-      "url": "http://www.wikiwand.com/en/Automation",
-      "fx": -42.17891305827902,
-      "fy": -202.86984698393252,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Automate/",
-          "fx": 186.82108694172098,
-          "fy": -188.86984698393252,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 102.01664988360506,
-      "fy": -107.3961173207486,
-      "nodes": [
-        {
-          "text": "will your job be replaced by a robot?",
-          "url": "https://www.replacedbyrobot.info/",
-          "fx": 243.01664988360506,
-          "fy": -103.8961173207486,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -25.8920816373427,
-      "fy": 3.066398043592301,
-      "nodes": [
-        {
-          "text": "1. the rise of the machines – why automation is different this time",
-          "url": "https://www.youtube.com/watch?v=WSKi8HfcxEk",
-          "fx": 156.1079183626573,
-          "fy": -16.4336019564077,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. humans need not apply",
-          "url": "https://www.youtube.com/watch?v=7Pq-S557XQU",
-          "fx": 156.1079183626573,
-          "fy": 45.5663980435923,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "tools",
-      "target": "automation",
-      "curve": {
-        "x": -49.0977,
-        "y": -46.4869
+  "id": 361,
+  "map": {
+    "text": "automation",
+    "nodes": [
+      {
+        "text": "tools",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.replacedbyrobot.info/",
+            "text": "will your job be replaced by a robot?",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WSKi8HfcxEk",
+            "text": "1. the rise of the machines – why automation is different this time",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7Pq-S557XQU",
+            "text": "1. humans need not apply",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "automation",
-      "target": "basics",
-      "curve": {
-        "x": -16.6066,
-        "y": 101.718
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Automate/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Automation",
+        "text": "automation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 361
+    ],
+    "author": ""
+  }
 }

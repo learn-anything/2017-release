@@ -1,58 +1,61 @@
 {
   "title": "learn anything - computer science - computation - computer programs - call stack",
   "tag": "",
-  "nodes": [
-    {
-      "text": "call stack",
-      "url": "http://www.wikiwand.com/en/Call_stack",
-      "fx": 16.25,
-      "fy": -276.7265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 42.445709745763565,
-      "fy": -135.64512711860198,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=Q2sFmqvpBe0",
-          "fx": 205.44570974576357,
-          "fy": -123.14512711860198,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 293,
+  "map": {
+    "text": "call stack",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "stack traces  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-programs/call-stack/stack-traces",
+                "text": "stack traces  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Q2sFmqvpBe0",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Call_stack",
+        "text": "call stack",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "stack traces  ️",
-      "url": "/computer-science/computation/computer-programs/call-stack/stack-traces",
-      "fx": -81.0576171875,
-      "fy": -3.095703125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "call stack",
-      "target": "basics",
-      "curve": {
-        "x": -1.90215,
-        "y": 69.7907
       }
-    },
-    {
-      "source": "basics",
-      "target": "stack traces  ️",
-      "curve": {
-        "x": -42.7517,
-        "y": 67.0247
-      }
-    }
-  ],
-  "id": 293
+    ],
+    "author": ""
+  }
 }

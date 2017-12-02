@@ -1,49 +1,60 @@
 {
   "title": "learn anything - programming - markup languages",
   "tag": "",
-  "nodes": [
-    {
-      "text": "markup languages",
-      "url": "http://www.wikiwand.com/en/Markup_language",
-      "fx": 51.830162048339844,
-      "fy": -37.81950283050537,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "markdown  ️",
-      "url": "/programming/markup-languages/markdown",
-      "fx": 115.46988293051379,
-      "fy": 92.00797771902694,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "HTML  ️",
-      "url": "/web-development/front-end/html",
-      "fx": -35.41015625,
-      "fy": 93.4432708648036,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "markup languages",
-      "target": "HTML  ️",
-      "curve": {
-        "x": -71.8702,
-        "y": 65.6314
+  "id": 1566,
+  "map": {
+    "text": "markup languages",
+    "nodes": [
+      {
+        "text": "HTML  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/web-development/front-end/html",
+            "text": "HTML  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "markdown  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/programming/markup-languages/markdown",
+            "text": "markdown  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "markup languages",
-      "target": "markdown  ️",
-      "curve": {
-        "x": 6.81986,
-        "y": 63.6637
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Markup_language",
+        "text": "markup languages",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1563
+    ],
+    "author": ""
+  }
 }

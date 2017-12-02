@@ -1,209 +1,223 @@
 {
   "title": "learn anything - communication - social media",
   "tag": "",
-  "nodes": [
-    {
-      "text": "social media",
-      "url": "http://www.wikiwand.com/en/Social_media",
-      "fx": 181.07241586538441,
-      "fy": -382.2815504807694,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 351.40967853252687,
-      "fy": -271.0231432914734,
-      "nodes": [
-        {
-          "text": "quit social media",
-          "url": "https://www.youtube.com/watch?v=3E7hkPZ-HTk&amp;t=1s",
-          "fx": 550.4096785325269,
-          "fy": -258.5231432914734,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 198,
+  "map": {
+    "text": "social media",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "centralised",
+            "nodes": [
+              {
+                "text": "facebook  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/economics/business/companies/facebook",
+                    "text": "facebook  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "twitter",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Twitter",
+                    "text": "twitter",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "instagram",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Instagram",
+                    "text": "instagram",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "google+",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Google%2B",
+                    "text": "google+",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "linkedin",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/LinkedIn",
+                    "text": "linkedin",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Centralisation",
+                "text": "centralised",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "decentralised  ️",
+            "nodes": [
+              {
+                "text": "mastodon",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://mastodon.social/about",
+                    "text": "mastodon",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "scuttlebutt",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://www.scuttlebutt.nz/",
+                    "text": "scuttlebutt",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/law/politics/political-science/decentralisation",
+                "text": "decentralised  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=HffWFd_6bJ0",
+            "text": "1. 5 crazy ways social media is changing your brain",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3E7hkPZ-HTk&amp;t=1s",
+            "text": "quit social media",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Social_media",
+        "text": "social media",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 213.50488523573256,
-      "fy": -153.67160359809293,
-      "nodes": [
-        {
-          "text": "1. 5 crazy ways social media is changing your brain",
-          "url": "https://www.youtube.com/watch?v=HffWFd_6bJ0",
-          "fx": 376.50488523573256,
-          "fy": -153.67160359809293,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "centralised",
-      "url": "http://www.wikiwand.com/en/Centralisation",
-      "fx": 0.7393257533180417,
-      "fy": -17.052510966579234,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "decentralised  ️",
-      "url": "/law/politics/political-science/decentralisation",
-      "fx": 225.50492823351897,
-      "fy": -13.14982570767927,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "linkedin",
-      "url": "http://www.wikiwand.com/en/LinkedIn",
-      "fx": -605.422508319659,
-      "fy": 126.31797798740592,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "instagram",
-      "url": "http://www.wikiwand.com/en/Instagram",
-      "fx": -269.34186292270533,
-      "fy": 126.53268417874392,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "facebook  ️",
-      "url": "/economics/business/companies/facebook",
-      "fx": -94.21084904670715,
-      "fy": 126.78216934204102,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "google+",
-      "url": "http://www.wikiwand.com/en/Google%2B",
-      "fx": -442.2492873295937,
-      "fy": 127.65093416887999,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "twitter",
-      "url": "http://www.wikiwand.com/en/Twitter",
-      "fx": 80.61513634279913,
-      "fy": 128.40363393161613,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "mastodon",
-      "url": "https://mastodon.social/about",
-      "fx": 275.7233699852536,
-      "fy": 135.09561845729593,
-      "nodes": []
-    },
-    {
-      "text": "scuttlebutt",
-      "url": "https://www.scuttlebutt.nz/",
-      "fx": 433.2202943313953,
-      "fy": 137.26542060319764,
-      "nodes": []
-    }
-  ],
-  "connections": [
-    {
-      "source": "social media",
-      "target": "basics",
-      "curve": {
-        "x": -5.78377,
-        "y": 113.555
       }
-    },
-    {
-      "source": "interesting",
-      "target": "social media",
-      "curve": {
-        "x": -72.1686,
-        "y": -54.8792
-      }
-    },
-    {
-      "source": "basics",
-      "target": "centralised",
-      "curve": {
-        "x": -95.6328,
-        "y": 68.3095
-      }
-    },
-    {
-      "source": "centralised",
-      "target": "facebook  ️",
-      "curve": {
-        "x": -58.9751,
-        "y": 71.1673
-      }
-    },
-    {
-      "source": "centralised",
-      "target": "twitter",
-      "curve": {
-        "x": 19.9379,
-        "y": 71.9781
-      }
-    },
-    {
-      "source": "basics",
-      "target": "decentralised  ️",
-      "curve": {
-        "x": 23.0001,
-        "y": 70.2609
-      }
-    },
-    {
-      "source": "centralised",
-      "target": "instagram",
-      "curve": {
-        "x": -159.035,
-        "y": 58.6973
-      }
-    },
-    {
-      "source": "decentralised  ️",
-      "target": "mastodon",
-      "curve": {
-        "x": 9.10922,
-        "y": 73.3728
-      }
-    },
-    {
-      "source": "centralised",
-      "target": "google+",
-      "curve": {
-        "x": -261.909,
-        "y": 46.1027
-      }
-    },
-    {
-      "source": "centralised",
-      "target": "linkedin",
-      "curve": {
-        "x": -411.551,
-        "y": 44.5418
-      }
-    },
-    {
-      "source": "decentralised  ️",
-      "target": "scuttlebutt",
-      "curve": {
-        "x": 88.6077,
-        "y": 74.4576
-      }
-    }
-  ],
-  "id": 198
+    ],
+    "author": ""
+  }
 }

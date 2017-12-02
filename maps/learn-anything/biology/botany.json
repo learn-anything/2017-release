@@ -1,62 +1,65 @@
 {
   "title": "learn anything - biology - botany",
   "tag": "",
-  "nodes": [
-    {
-      "text": "botany",
-      "url": "http://www.wikiwand.com/en/Botany",
-      "fx": -107.67578125,
-      "fy": -328.91796875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/botany/",
-          "fx": 81.32421875,
-          "fy": -314.91796875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -93.6796875,
-      "fy": -175.171875,
-      "nodes": [
-        {
-          "text": "1. botany crash course",
-          "url": "https://www.youtube.com/watch?v=9UvlqAVCoqY&amp;list=PLqzQLnR27z26GxF-kebZ_Q5jwife2JHGS",
-          "fx": 88.3203125,
-          "fy": -183.671875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. botany in a day",
-          "url": "http://www.goodreads.com/book/show/743143.Botany_in_a_Day",
-          "fx": 88.3203125,
-          "fy": -143.671875,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "botany",
-      "target": "basics",
-      "curve": {
-        "x": -1.25195,
-        "y": 75.623
+  "id": 91,
+  "map": {
+    "text": "botany",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9UvlqAVCoqY&amp;list=PLqzQLnR27z26GxF-kebZ_Q5jwife2JHGS",
+            "text": "1. botany crash course",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/743143.Botany_in_a_Day",
+            "text": "1. botany in a day",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 91
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/botany/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Botany",
+        "text": "botany",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,77 +1,72 @@
 {
   "title": "learn anything - cryptography - encryption - rsa",
   "tag": "RSA encryption",
-  "nodes": [
-    {
-      "text": "RSA",
-      "url": "http://www.wikiwand.com/en/RSA_(cryptosystem)",
-      "fx": 76.26809210526335,
-      "fy": -162.7259270334927,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 193.92804657785518,
-      "fy": -58.53756307300762,
-      "nodes": [
-        {
-          "text": "simple RSA implementation",
-          "url": "https://github.com/pantaloons/RSA",
-          "fx": 330.9280465778552,
-          "fy": -47.03756307300762,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": 59.5861617822967,
-      "fy": 78.36995364832524,
-      "nodes": [
-        {
-          "text": "1. how does RSA work?",
-          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/30tyf4/how_does_rsa_work_really_mathy/cpvsrrt/",
-          "fx": 241.5861617822967,
-          "fy": 58.869953648325236,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. public key cryptography: Diffie-Hellman key exchange",
-          "url": "https://www.youtube.com/watch?v=3QnD2c4Xovk",
-          "fx": 241.5861617822967,
-          "fy": 98.86995364832524,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "RSA",
-      "target": "basics",
-      "curve": {
-        "x": -11.341,
-        "y": 119.298
+  "id": 370,
+  "map": {
+    "text": "RSA",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/NoStupidQuestions/comments/30tyf4/how_does_rsa_work_really_mathy/cpvsrrt/",
+            "text": "1. how does RSA work?",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3QnD2c4Xovk",
+            "text": "1. public key cryptography: Diffie-Hellman key exchange",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/pantaloons/RSA",
+            "text": "simple RSA implementation",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "RSA",
-      "curve": {
-        "x": -51.08,
-        "y": -50.8442
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/RSA_(cryptosystem)",
+        "text": "RSA",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 370
+    ],
+    "author": ""
+  }
 }

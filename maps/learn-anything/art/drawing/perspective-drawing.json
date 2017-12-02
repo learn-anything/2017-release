@@ -1,93 +1,81 @@
 {
   "title": "learn anything - art - drawing - perspective drawing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "perspective drawing",
-      "url": "",
-      "fx": 133.0546875,
-      "fy": -166.1796875,
-      "nodes": []
-    },
-    {
-      "text": "inspiration",
-      "url": "",
-      "fx": 308.3177718949403,
-      "fy": -52.79582222456179,
-      "nodes": [
-        {
-          "text": "how to keep perspective right",
-          "url": "http://i.imgur.com/evHkah5.gifv",
-          "fx": 498.3177718949403,
-          "fy": -81.29582222456179,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "digital perspective drawing",
-          "url": "http://i.imgur.com/i6uzNvY.gifv",
-          "fx": 498.3177718949403,
-          "fy": -41.29582222456179,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "mind blowing perspective drawing",
-          "url": "https://i.imgur.com/1pZ82r3.gifv",
-          "fx": 498.3177718949403,
-          "fy": -1.295822224561789,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 189.9640946061644,
-      "fy": 101.09712114726028,
-      "nodes": [
-        {
-          "text": "1. beginner’s guide to perspective",
-          "url": "https://www.youtube.com/watch?v=8Wrk9ewCOo0",
-          "fx": 345.9640946061644,
-          "fy": 81.59712114726028,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how to draw a figure in perspective",
-          "url": "https://www.youtube.com/watch?v=XtRwwIuzqSw",
-          "fx": 345.9640946061644,
-          "fy": 121.59712114726028,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "perspective drawing",
-      "target": "basics",
-      "curve": {
-        "x": -2.7953,
-        "y": 133.638
+  "id": 18,
+  "map": {
+    "text": "perspective drawing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8Wrk9ewCOo0",
+            "text": "1. beginner’s guide to perspective",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=XtRwwIuzqSw",
+            "text": "1. how to draw a figure in perspective",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "inspiration",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://i.imgur.com/evHkah5.gifv",
+            "text": "how to keep perspective right",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://i.imgur.com/i6uzNvY.gifv",
+            "text": "digital perspective drawing",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://i.imgur.com/1pZ82r3.gifv",
+            "text": "mind blowing perspective drawing",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "inspiration",
-      "target": "perspective drawing",
-      "curve": {
-        "x": -64.8815,
-        "y": -56.6919
-      }
-    }
-  ],
-  "id": 18
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

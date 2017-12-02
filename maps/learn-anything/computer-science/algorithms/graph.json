@@ -1,98 +1,107 @@
 {
   "title": "learn anything - computer science - algorithms - graph",
   "tag": "graph algorithms",
-  "nodes": [
-    {
-      "text": "graph algorithms",
-      "url": "http://www.wikiwand.com/en/Graph_traversal",
-      "fx": -105.3828125,
-      "fy": -172.54296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.11479205267017,
-      "fy": -38.79842640289087,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "http://www-users.cs.umn.edu/~karypis/parbook/Lectures/AG/chap10_slides.pdf",
-          "fx": 116.88520794732983,
-          "fy": -44.29842640289087,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. introduction to graphs",
-          "url": "https://www.youtube.com/watch?v=gXgEDyodOJU",
-          "fx": 116.88520794732983,
-          "fy": -10.298426402890868,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 266,
+  "map": {
+    "text": "graph algorithms",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "Dijkstras algorithm  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/graph/dijkstras",
+                "text": "Dijkstras algorithm  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Prim’s algorithm  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/graph/prim",
+                "text": "Prim’s algorithm  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Kruskal’s algorithm  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/graph/kruskal",
+                "text": "Kruskal’s algorithm  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www-users.cs.umn.edu/~karypis/parbook/Lectures/AG/chap10_slides.pdf",
+            "text": "1. explanation",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gXgEDyodOJU",
+            "text": "1. introduction to graphs",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Graph_traversal",
+        "text": "graph algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Dijkstras algorithm  ️",
-      "url": "/computer-science/algorithms/graph/dijkstras",
-      "fx": -70.91974639892578,
-      "fy": 96.26941299438477,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Prim’s algorithm  ️",
-      "url": "/computer-science/algorithms/graph/prim",
-      "fx": -304.06033869535145,
-      "fy": 98.83743733439712,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Kruskal’s algorithm  ️",
-      "url": "/computer-science/algorithms/graph/kruskal",
-      "fx": -575.7517907745587,
-      "fy": 99.7626206968933,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "graph algorithms",
-      "target": "basics",
-      "curve": {
-        "x": 2.88401,
-        "y": 66.8723
       }
-    },
-    {
-      "source": "basics",
-      "target": "Dijkstras algorithm  ️",
-      "curve": {
-        "x": 11.3476,
-        "y": 67.534
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Prim’s algorithm  ️",
-      "curve": {
-        "x": -110.723,
-        "y": 68.8179
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Kruskal’s algorithm  ️",
-      "curve": {
-        "x": -266.385,
-        "y": 42.4251
-      }
-    }
-  ],
-  "id": 266
+    ],
+    "author": ""
+  }
 }

@@ -1,249 +1,363 @@
 {
   "title": "learn anything - art - drawing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "drawing",
-      "url": "http://www.wikiwand.com/en/Drawing",
-      "fx": -66.50111607142856,
-      "fy": -377.00902157738096,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/drawing/",
-          "fx": 131.49888392857144,
-          "fy": -363.00902157738096,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 21,
+  "map": {
+    "text": "drawing",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "inspiring",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://drawabox.com/article/ink",
+                    "text": "why ink?  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://themonsterproject.org/monster-gallery",
+                    "text": "2016 monster gallery",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://qz.com/994486/the-way-you-draw-circles-says-a-lot-about-you/?utm_source=facebook.com&amp;utm_medium=atlas-page",
+                    "text": "how cultures around the world draw shapes differently",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://www.quora.com/Why-didn%E2%80%99t-great-painters-of-the-past-reach-the-level-of-realism-achieved-today-by-many-artists/answer/Tyler-Berry-25?srid=OKNi",
+                    "text": "why didn’t great painters of the past reach the level of realism achieved today by many artists?",
+                    "category": "quora",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://imgur.com/a/Aao8R",
+                    "text": "art by James R. Eads",
+                    "category": "image",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://huckleberryfineart.com/artist/rob-gonsalves/",
+                "text": "Huckleberry's art",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.artstation.com/artwork/25JYg",
+                "text": "art by Scott Uminga",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/LighterNoteProd/videos",
+            "text": "art tutorials",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://drawright.com/",
+            "text": "drawing on the right side of the brain",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "inspiring",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://drawabox.com/article/ink",
+                    "text": "why ink?  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://themonsterproject.org/monster-gallery",
+                    "text": "2016 monster gallery",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://qz.com/994486/the-way-you-draw-circles-says-a-lot-about-you/?utm_source=facebook.com&amp;utm_medium=atlas-page",
+                    "text": "how cultures around the world draw shapes differently",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://www.quora.com/Why-didn%E2%80%99t-great-painters-of-the-past-reach-the-level-of-realism-achieved-today-by-many-artists/answer/Tyler-Berry-25?srid=OKNi",
+                    "text": "why didn’t great painters of the past reach the level of realism achieved today by many artists?",
+                    "category": "quora",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://imgur.com/a/Aao8R",
+                    "text": "art by James R. Eads",
+                    "category": "image",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://huckleberryfineart.com/artist/rob-gonsalves/",
+                "text": "Huckleberry's art",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.artstation.com/artwork/25JYg",
+                "text": "art by Scott Uminga",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/LighterNoteProd/videos",
+            "text": "art tutorials",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://drawright.com/",
+            "text": "drawing on the right side of the brain",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "sketching  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/drawing/sketching",
+                "text": "sketching  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "perspective drawing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/drawing/perspective-drawing",
+                "text": "perspective drawing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "watercolour paintings  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/drawing/watercolour-painting",
+                "text": "watercolour paintings  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://drawabox.com/",
+            "text": "1. draw a box",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/3113980-you-can-draw-in-30-days",
+            "text": "1. you can draw in 30 days",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.sketchbook.com/blog/draw-imagination-part-1-precision/",
+            "text": "1. how to draw from imagination exercises  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/drawing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 102.80363482520693,
-      "fy": -276.4766502380371,
-      "nodes": [
-        {
-          "text": "art tutorials",
-          "url": "https://www.youtube.com/user/LighterNoteProd/videos",
-          "fx": 239.80363482520693,
-          "fy": -292.9766502380371,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "drawing on the right side of the brain",
-          "url": "http://drawright.com/",
-          "fx": 239.80363482520693,
-          "fy": -252.9766502380371,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Drawing",
+        "text": "drawing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "inspiring",
-      "url": "",
-      "fx": 188.4911880493164,
-      "fy": -165.7363739013672,
-      "nodes": [
-        {
-          "text": "Huckleberry's art",
-          "url": "http://huckleberryfineart.com/artist/rob-gonsalves/",
-          "fx": 361.4911651611328,
-          "fy": -169.77884483337402,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "art by Scott Uminga",
-          "url": "https://www.artstation.com/artwork/25JYg",
-          "fx": 361.4912109375,
-          "fy": -137.6382179260254,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 342.1854476928711,
-      "fy": -13.409500122070312,
-      "nodes": [
-        {
-          "text": "why ink?  ️",
-          "url": "http://drawabox.com/article/ink",
-          "fx": 533.185417175293,
-          "fy": -105.50501823425293,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2016 monster gallery",
-          "url": "http://themonsterproject.org/monster-gallery",
-          "fx": 533.185417175293,
-          "fy": -67.36966800689697,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "how cultures around the world draw shapes differently",
-          "url": "https://qz.com/994486/the-way-you-draw-circles-says-a-lot-about-you/?utm_source=facebook.com&amp;utm_medium=atlas-page",
-          "fx": 533.1854476928711,
-          "fy": -34.90950012207031,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "why didn’t great painters of the past reach the level of realism achieved today by many artists?",
-          "url": "https://www.quora.com/Why-didn%E2%80%99t-great-painters-of-the-past-reach-the-level-of-realism-achieved-today-by-many-artists/answer/Tyler-Berry-25?srid=OKNi",
-          "fx": 533.1854476928711,
-          "fy": 21.090499877929688,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "art by James R. Eads",
-          "url": "http://imgur.com/a/Aao8R",
-          "fx": 533.1854476928711,
-          "fy": 105.09049987792969,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -85.11759853732053,
-      "fy": 83.55847580618774,
-      "nodes": [
-        {
-          "text": "1. draw a box",
-          "url": "http://drawabox.com/",
-          "fx": 70.88240146267947,
-          "fy": 47.058475806187744,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. you can draw in 30 days",
-          "url": "http://www.goodreads.com/book/show/3113980-you-can-draw-in-30-days",
-          "fx": 70.88240146267947,
-          "fy": 81.05847580618774,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. how to draw from imagination exercises  ️",
-          "url": "https://www.sketchbook.com/blog/draw-imagination-part-1-precision/",
-          "fx": 70.88240146267947,
-          "fy": 121.05847580618774,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "sketching  ️",
-      "url": "/art/drawing/sketching",
-      "fx": 14.506481780394097,
-      "fy": 230.99992669811536,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "perspective drawing  ️",
-      "url": "/art/drawing/perspective-drawing",
-      "fx": -250.45935821533203,
-      "fy": 231.46958923339844,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "watercolour paintings  ️",
-      "url": "/art/drawing/watercolour-painting",
-      "fx": -528.4173014587725,
-      "fy": 231.64468703291084,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "drawing",
-      "curve": {
-        "x": -69.1523,
-        "y": -49.0161
       }
-    },
-    {
-      "source": "inspiring",
-      "target": "help",
-      "curve": {
-        "x": -49.3438,
-        "y": -55.37
-      }
-    },
-    {
-      "source": "help",
-      "target": "drawing",
-      "curve": {
-        "x": -69.1524,
-        "y": -49.0162
-      }
-    },
-    {
-      "source": "drawing",
-      "target": "basics",
-      "curve": {
-        "x": -20.0582,
-        "y": 229.034
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "inspiring",
-      "curve": {
-        "x": -81.3471,
-        "y": -76.1634
-      }
-    },
-    {
-      "source": "basics",
-      "target": "sketching  ️",
-      "curve": {
-        "x": 57.0621,
-        "y": 73.7208
-      }
-    },
-    {
-      "source": "basics",
-      "target": "perspective drawing  ️",
-      "curve": {
-        "x": -51.4208,
-        "y": 73.9556
-      }
-    },
-    {
-      "source": "basics",
-      "target": "watercolour paintings  ️",
-      "curve": {
-        "x": -232.247,
-        "y": 40.2733
-      }
-    }
-  ],
-  "id": 21
+    ],
+    "author": ""
+  }
 }

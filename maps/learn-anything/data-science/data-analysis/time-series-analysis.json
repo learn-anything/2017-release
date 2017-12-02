@@ -1,51 +1,53 @@
 {
   "title": "learn anything - data science - data analysis - time series analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "time series analysis",
-      "url": "http://www.wikiwand.com/en/Time_series",
-      "fx": -4.51953125,
-      "fy": -143.30078125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 68.4140625,
-      "fy": -12.53125,
-      "nodes": [
-        {
-          "text": "1. introduction to time series analysis",
-          "url": "http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm",
-          "fx": 224.4140625,
-          "fy": -32.03125,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. the analysis of time series",
-          "url": "https://www.youtube.com/watch?v=zlZaOnBbpUg",
-          "fx": 224.4140625,
-          "fy": 29.96875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "time series analysis",
-      "target": "basics",
-      "curve": {
-        "x": 5.91211,
-        "y": 64.1348
+  "id": 385,
+  "map": {
+    "text": "time series analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm",
+            "text": "1. introduction to time series analysis",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zlZaOnBbpUg",
+            "text": "1. the analysis of time series",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 385
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Time_series",
+        "text": "time series analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

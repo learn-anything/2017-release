@@ -1,42 +1,42 @@
 {
   "title": "learn anything - health - fitness - sports - parkour",
   "tag": "",
-  "nodes": [
-    {
-      "text": "parkour",
-      "url": "http://www.wikiwand.com/en/Parkour",
-      "fx": -84.91814959049225,
-      "fy": -129.61069107055664,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 13.235116124153137,
-      "fy": -15.735815048217773,
-      "nodes": [
-        {
-          "text": "resurgence",
-          "url": "https://www.youtube.com/watch?v=tdqPQ_yrxng",
-          "fx": 204.23511612415314,
-          "fy": -4.235815048217773,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "parkour",
-      "curve": {
-        "x": -47.5766,
-        "y": -55.6874
+  "id": 588,
+  "map": {
+    "text": "parkour",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tdqPQ_yrxng",
+            "text": "resurgence",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 588
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Parkour",
+        "text": "parkour",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

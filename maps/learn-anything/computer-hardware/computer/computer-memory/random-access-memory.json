@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory - random access memory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "random access memory",
-      "url": "http://www.wikiwand.com/en/Random-access_memory",
-      "fx": -138.9144486784935,
-      "fy": -291.77865982055664,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.1456412906266,
-      "fy": -146.09962310591294,
-      "nodes": [
-        {
-          "text": "1. RAM explained",
-          "url": "https://www.youtube.com/watch?v=PVad0c2cljo",
-          "fx": 108.8543587093734,
-          "fy": -154.59962310591294,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. random access memory",
-          "url": "http://www.rlfbckr.org/work/random-access-memory/",
-          "fx": 108.8543587093734,
-          "fy": -114.59962310591294,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "random access memory",
-      "target": "basics",
-      "curve": {
-        "x": -1.8656,
-        "y": 71.5895
+  "id": 246,
+  "map": {
+    "text": "random access memory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=PVad0c2cljo",
+            "text": "1. RAM explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.rlfbckr.org/work/random-access-memory/",
+            "text": "1. random access memory",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 246
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Random-access_memory",
+        "text": "random access memory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

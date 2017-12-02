@@ -1,43 +1,43 @@
 {
   "title": "learn anything - games - card - poker",
   "tag": "",
-  "nodes": [
-    {
-      "text": "poker",
-      "url": "http://www.wikiwand.com/en/Poker",
-      "fx": -108.0996147958856,
-      "fy": -651.4404987535978,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -104.26356175071317,
-      "fy": -533.2708788420025,
-      "nodes": [
-        {
-          "text": "1. how to learn poker",
-          "url": "https://www.reddit.com/r/poker/comments/3oplz6/how_to_learn/",
-          "fx": 77.73643824928683,
-          "fy": -521.7708788420025,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "poker",
-      "target": "basics",
-      "curve": {
-        "x": -3.83197,
-        "y": 57.8348
+  "id": 566,
+  "map": {
+    "text": "poker",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/poker/comments/3oplz6/how_to_learn/",
+            "text": "1. how to learn poker",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 566
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Poker",
+        "text": "poker",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

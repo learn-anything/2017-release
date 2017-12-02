@@ -1,157 +1,163 @@
 {
   "title": "learn anything - computer science - algorithms - sorting",
   "tag": "sorting algorithms",
-  "nodes": [
-    {
-      "text": "sorting algorithms",
-      "url": "http://www.wikiwand.com/en/Sorting_algorithm",
-      "fx": -104.22443804824559,
-      "fy": -292.046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 87.93157603605471,
-      "fy": -188.56842986009156,
-      "nodes": [
-        {
-          "text": "sorting algos",
-          "url": "http://sorting.at/",
-          "fx": 224.9315760360547,
-          "fy": -197.06842986009156,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "animations",
-          "url": "https://www.toptal.com/developers/sorting-algorithms/",
-          "fx": 224.9315760360547,
-          "fy": -157.06842986009156,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 282,
+  "map": {
+    "text": "sorting algorithms",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://sorting.at/",
+            "text": "sorting algos",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.toptal.com/developers/sorting-algorithms/",
+            "text": "animations",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "quicksort  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/sorting/quicksort",
+                "text": "quicksort  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "bubble sort  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/sorting/bubble-sort",
+                "text": "bubble sort  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "selection sort  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/sorting/selection-sort",
+                "text": "selection sort  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "merge sort  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/sorting/merge-sort",
+                "text": "merge sort  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "topological sort  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/sorting/topological-sort",
+                "text": "topological sort  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Kg4bqzAqRBM",
+            "text": "1. insertion sort, merge sort",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Sorting_algorithm",
+        "text": "sorting algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": -74.42217693236694,
-      "fy": -77.17814009661839,
-      "nodes": [
-        {
-          "text": "1. insertion sort, merge sort",
-          "url": "https://www.youtube.com/watch?v=Kg4bqzAqRBM",
-          "fx": 107.57782306763306,
-          "fy": -65.67814009661839,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "quicksort  ️",
-      "url": "/computer-science/algorithms/sorting/quicksort",
-      "fx": -2.5260245685658447,
-      "fy": 52.06905515863218,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "bubble sort  ️",
-      "url": "/computer-science/algorithms/sorting/bubble-sort",
-      "fx": -194.37969374852833,
-      "fy": 53.76211847212426,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "selection sort  ️",
-      "url": "/computer-science/algorithms/sorting/selection-sort",
-      "fx": -403.31561783257376,
-      "fy": 55.212944380733916,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "merge sort  ️",
-      "url": "/computer-science/algorithms/sorting/merge-sort",
-      "fx": -595.7420201957258,
-      "fy": 58.703246922143194,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "topological sort  ️",
-      "url": "/computer-science/algorithms/sorting/topological-sort",
-      "fx": -818.6897000718391,
-      "fy": 62.99510596264372,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "sorting algorithms",
-      "curve": {
-        "x": -58.328,
-        "y": -50.4892
       }
-    },
-    {
-      "source": "sorting algorithms",
-      "target": "basics",
-      "curve": {
-        "x": -24.5989,
-        "y": 106.184
-      }
-    },
-    {
-      "source": "basics",
-      "target": "quicksort  ️",
-      "curve": {
-        "x": 35.9481,
-        "y": 64.6236
-      }
-    },
-    {
-      "source": "basics",
-      "target": "bubble sort  ️",
-      "curve": {
-        "x": -55.2288,
-        "y": 65.4701
-      }
-    },
-    {
-      "source": "basics",
-      "target": "selection sort  ️",
-      "curve": {
-        "x": -152.404,
-        "y": 62.1195
-      }
-    },
-    {
-      "source": "basics",
-      "target": "merge sort  ️",
-      "curve": {
-        "x": -318.201,
-        "y": 23.2222
-      }
-    },
-    {
-      "source": "basics",
-      "target": "topological sort  ️",
-      "curve": {
-        "x": -412.298,
-        "y": 8.87569
-      }
-    }
-  ],
-  "id": 282
+    ],
+    "author": ""
+  }
 }

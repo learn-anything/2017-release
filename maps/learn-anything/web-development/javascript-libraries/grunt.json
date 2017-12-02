@@ -1,66 +1,59 @@
 {
   "title": "learn anything - web development - javascript libraries - grunt",
   "tag": "grunt task runner",
-  "nodes": [
-    {
-      "text": "grunt",
-      "url": "https://github.com/gruntjs/grunt",
-      "fx": 5.76171875,
-      "fy": -205.140625,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 98.37890815734863,
-      "fy": -97.01862812042236,
-      "nodes": [
-        {
-          "text": "awesome grunt",
-          "url": "https://github.com/brunowego/awesome-grunt",
-          "fx": 235.37890815734863,
-          "fy": -85.51862812042236,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 6.683564186096191,
-      "fy": 13.404926300048828,
-      "nodes": [
-        {
-          "text": "1. getting started",
-          "url": "https://gruntjs.com/getting-started",
-          "fx": 162.6835641860962,
-          "fy": 27.904926300048828,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "grunt",
-      "curve": {
-        "x": -37.0586,
-        "y": -52.811
+  "id": 1895,
+  "map": {
+    "text": "grunt",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/brunowego/awesome-grunt",
+            "text": "awesome grunt",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://gruntjs.com/getting-started",
+            "text": "1. getting started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "grunt",
-      "target": "basics",
-      "curve": {
-        "x": -4.03907,
-        "y": 108.023
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/gruntjs/grunt",
+        "text": "grunt",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1891
+    ],
+    "author": ""
+  }
 }

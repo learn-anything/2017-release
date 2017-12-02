@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - programming language theory - type systems - gradual typing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "gradual typing",
-      "url": "http://www.wikiwand.com/en/Gradual_typing",
-      "fx": -94.50390625,
-      "fy": -140.78125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. explanation  ️",
-          "url": "http://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "gradual typing",
-      "target": "basics",
-      "curve": {
-        "x": -0.748047,
-        "y": 68.1406
+  "id": 343,
+  "map": {
+    "text": "gradual typing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://wphomes.soic.indiana.edu/jsiek/what-is-gradual-typing/",
+            "text": "1. explanation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 343
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Gradual_typing",
+        "text": "gradual typing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

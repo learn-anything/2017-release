@@ -1,119 +1,111 @@
 {
   "title": "learn anything - databases - relational databases - postgresql",
   "tag": "postgreSQL",
-  "nodes": [
-    {
-      "text": "PostgreSQL",
-      "url": "http://www.wikiwand.com/en/PostgreSQL",
-      "fx": -26.7109375,
-      "fy": -287.90625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/PostgreSQL/",
-          "fx": 210.2890625,
-          "fy": -293.90625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/dhamaniasad/awesome-postgres",
-          "fx": 210.2890625,
-          "fy": -253.90625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 102.22116636460828,
-      "fy": -185.01295471191406,
-      "nodes": [
-        {
-          "text": "documentation",
-          "url": "https://www.postgresql.org/docs/current/static/index.html",
-          "fx": 239.22116636460828,
-          "fy": -170.51295471191406,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 144.8258044335148,
-      "fy": -79.22893598002781,
-      "nodes": [
-        {
-          "text": "17: why use postgres  ️",
-          "url": "http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/",
-          "fx": 306.8258044335148,
-          "fy": -98.72893598002781,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "15: postgres full-text search is good enough  ️",
-          "url": "http://rachbelaid.com/postgres-full-text-search-is-good-enough/",
-          "fx": 306.8258044335148,
-          "fy": -58.72893598002781,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -8.816878604699582,
-      "fy": 24.913776941245885,
-      "nodes": [
-        {
-          "text": "1. PostgreSQL exercises",
-          "url": "https://pgexercises.com/",
-          "fx": 173.18312139530042,
-          "fy": 39.413776941245885,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "PostgreSQL",
-      "curve": {
-        "x": -39.4661,
-        "y": -50.1966
+  "id": 414,
+  "map": {
+    "text": "PostgreSQL",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/",
+                "text": "17: why use postgres  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://rachbelaid.com/postgres-full-text-search-is-good-enough/",
+                "text": "15: postgres full-text search is good enough  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.postgresql.org/docs/current/static/index.html",
+            "text": "documentation",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://pgexercises.com/",
+            "text": "1. PostgreSQL exercises",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "PostgreSQL",
-      "target": "basics",
-      "curve": {
-        "x": -11.303,
-        "y": 155.16
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/PostgreSQL/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/dhamaniasad/awesome-postgres",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/PostgreSQL",
+        "text": "PostgreSQL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -27.5522,
-        "y": -52.892
-      }
-    }
-  ],
-  "id": 414
+    ],
+    "author": ""
+  }
 }

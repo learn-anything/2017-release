@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - algorithms - sorting - bubble sort",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bubble sort",
-      "url": "http://www.wikiwand.com/en/Bubble_sort",
-      "fx": 190.2734375,
-      "fy": -231.15234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 350.0330336722899,
-      "fy": -124.76056293650396,
-      "nodes": [
-        {
-          "text": "visualisation of bubble sort",
-          "url": "https://visualgo.net/en/sorting?slide=1",
-          "fx": 491.0330336722899,
-          "fy": -112.26056293650396,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 223.05991304837744,
-      "fy": -18.365056918217533,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=8Kp-8OGwphY&amp;t=1s",
-          "fx": 386.05991304837744,
-          "fy": -5.865056918217533,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "bubble sort",
-      "curve": {
-        "x": -54.1298,
-        "y": -52.4459
+  "id": 277,
+  "map": {
+    "text": "bubble sort",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://visualgo.net/en/sorting?slide=1",
+            "text": "visualisation of bubble sort",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8Kp-8OGwphY&amp;t=1s",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "bubble sort",
-      "target": "basics",
-      "curve": {
-        "x": -3.85676,
-        "y": 105.644
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bubble_sort",
+        "text": "bubble sort",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 277
+    ],
+    "author": ""
+  }
 }

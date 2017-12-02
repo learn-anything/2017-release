@@ -1,85 +1,81 @@
 {
   "title": "learn anything - art - music - music production - ableton live",
   "tag": "Ableton Live",
-  "nodes": [
-    {
-      "text": "Ableton Live",
-      "url": "http://www.wikiwand.com/en/Ableton_Live",
-      "fx": 59.44921875,
-      "fy": -237.34375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ableton/",
-          "fx": 297.44921875,
-          "fy": -223.34375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 217.22877358490587,
-      "fy": -140.42590408802482,
-      "nodes": [
-        {
-          "text": "15: meet the marks: Ableton developers at work",
-          "url": "https://www.youtube.com/watch?v=tILlZRLhBJE",
-          "fx": 408.22877358490587,
-          "fy": -139.92590408802482,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 82.31996855345858,
-      "fy": -21.84994103771453,
-      "nodes": [
-        {
-          "text": "1. Ableton manual",
-          "url": "https://www.ableton.com/en/manual/welcome-to-live/",
-          "fx": 238.31996855345858,
-          "fy": -27.34994103771453,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. beginner’s tutorial",
-          "url": "https://www.youtube.com/watch?v=7wt_NNYMwJY",
-          "fx": 238.31996855345858,
-          "fy": 6.65005896228547,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "Ableton Live",
-      "curve": {
-        "x": -67.1398,
-        "y": -47.2089
+  "id": 47,
+  "map": {
+    "text": "Ableton Live",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tILlZRLhBJE",
+            "text": "15: meet the marks: Ableton developers at work",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.ableton.com/en/manual/welcome-to-live/",
+            "text": "1. Ableton manual",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7wt_NNYMwJY",
+            "text": "1. beginner’s tutorial",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "Ableton Live",
-      "target": "basics",
-      "curve": {
-        "x": -9.06462,
-        "y": 106.497
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ableton/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ableton_Live",
+        "text": "Ableton Live",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 47
+    ],
+    "author": ""
+  }
 }

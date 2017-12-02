@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - anatomy - human body - circulatory system - heart",
   "tag": "",
-  "nodes": [
-    {
-      "text": "heart",
-      "url": "http://www.wikiwand.com/en/Heart",
-      "fx": 26.659126695736404,
-      "fy": -283.0901162790698,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 18.230196220927382,
-      "fy": -152.20155038760998,
-      "nodes": [
-        {
-          "text": "1. how the heart works in 3D",
-          "url": "https://www.youtube.com/watch?v=oHMmtqKgs50",
-          "fx": 181.23019622092738,
-          "fy": -139.70155038760998,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "heart",
-      "target": "basics",
-      "curve": {
-        "x": -8.71446,
-        "y": 64.6943
+  "id": 76,
+  "map": {
+    "text": "heart",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oHMmtqKgs50",
+            "text": "1. how the heart works in 3D",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 76
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Heart",
+        "text": "heart",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

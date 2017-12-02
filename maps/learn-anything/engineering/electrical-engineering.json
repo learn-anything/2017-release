@@ -1,148 +1,156 @@
 {
   "title": "learn anything - engineering - electrical engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "electrical engineering",
-      "url": "http://www.wikiwand.com/en/Electrical_engineering",
-      "fx": -34.31131098272692,
-      "fy": -407.1882239875116,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ElectricalEngineering/",
-          "fx": 281.6886890172731,
-          "fy": -413.1882239875116,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://electronics.stackexchange.com/",
-          "fx": 281.6886890172731,
-          "fy": -373.1882239875116,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 135.8536894181193,
-      "fy": -278.72388426195675,
-      "nodes": [
-        {
-          "text": "all about circuits",
-          "url": "https://www.allaboutcircuits.com/",
-          "fx": 272.8536894181193,
-          "fy": -284.22388426195675,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome electronics",
-          "url": "https://github.com/monostable/awesome-electronics",
-          "fx": 272.8796503403605,
-          "fy": -250.32841841112668,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -40.4562083521198,
-      "fy": -73.4193500395744,
-      "nodes": [
-        {
-          "text": "1. khan academy electrical engineering",
-          "url": "https://www.khanacademy.org/science/electrical-engineering",
-          "fx": 141.5437916478802,
-          "fy": -174.9193500395744,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. circuits and electronics",
-          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/video-lectures/",
-          "fx": 141.5437916478802,
-          "fy": -112.9193500395744,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. lessons in industrial instrumentation",
-          "note": "- really long and has everything you need to know to do instrumentation technician work",
-          "url": "http://www.ibiblio.org/kuphaldt/socratic/sinst/book/liii_2v18.pdf",
-          "fx": 141.5437916478802,
-          "fy": -72.9193500395744,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. lessons in electric circuits",
-          "url": "http://www.ibiblio.org/kuphaldt/electricCircuits/",
-          "fx": 141.5437916478802,
-          "fy": -10.919350039574397,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. electricity and magnetism by Walter Lewin",
-          "url": "https://www.youtube.com/watch?v=rtlJoXxlSFE&amp;list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j",
-          "fx": 141.5437916478802,
-          "fy": 29.080649960425603,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "electronics  ️",
-      "url": "/engineering/electrical-engineering/electronics",
-      "fx": -174.84319540895058,
-      "fy": 78.48055314428984,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "electrical engineering",
-      "target": "basics",
-      "curve": {
-        "x": -43.0724,
-        "y": 165.635
+  "id": 536,
+  "map": {
+    "text": "electrical engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "electronics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/electrical-engineering/electronics",
+                "text": "electronics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/science/electrical-engineering",
+            "text": "1. khan academy electrical engineering",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-002-circuits-and-electronics-spring-2007/video-lectures/",
+            "text": "1. circuits and electronics",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.ibiblio.org/kuphaldt/socratic/sinst/book/liii_2v18.pdf",
+            "text": "2. lessons in industrial instrumentation",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.ibiblio.org/kuphaldt/electricCircuits/",
+            "text": "1. lessons in electric circuits",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=rtlJoXxlSFE&amp;list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j",
+            "text": "1. electricity and magnetism by Walter Lewin",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.allaboutcircuits.com/",
+            "text": "all about circuits",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/monostable/awesome-electronics",
+            "text": "awesome electronics",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "electrical engineering",
-      "curve": {
-        "x": -40.3325,
-        "y": -62.9822
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ElectricalEngineering/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://electronics.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Electrical_engineering",
+        "text": "electrical engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "electronics  ️",
-      "curve": {
-        "x": -63.9435,
-        "y": 75.9499
-      }
-    }
-  ],
-  "id": 536
+    ],
+    "author": ""
+  }
 }

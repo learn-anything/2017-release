@@ -1,59 +1,62 @@
 {
   "title": "learn anything - information theory - information - information processing - character encoding",
   "tag": "",
-  "nodes": [
-    {
-      "text": "character encoding",
-      "url": "http://www.wikiwand.com/en/Character_encoding",
-      "fx": -111.3822577213034,
-      "fy": -304.81228133566935,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -54.329485340551855,
-      "fy": -173.18686173178935,
-      "nodes": [
-        {
-          "text": "1. what every programmer absolutely, positively needs to know about encodings and character sets to work with text  ️",
-          "url": "http://kunststube.net/encoding/",
-          "fx": 127.67051465944814,
-          "fy": -194.18686173178935,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 646,
+  "map": {
+    "text": "character encoding",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "unicode  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information/information-processing/character-encoding/unicode",
+                "text": "unicode  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://kunststube.net/encoding/",
+            "text": "1. what every programmer absolutely, positively needs to know about encodings and character sets to work with text  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Character_encoding",
+        "text": "character encoding",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "unicode  ️",
-      "url": "/information-theory/information/information-processing/character-encoding/unicode",
-      "fx": -132.9777041047372,
-      "fy": -57.52752468935398,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "character encoding",
-      "target": "basics",
-      "curve": {
-        "x": -7.97361,
-        "y": 64.5627
       }
-    },
-    {
-      "source": "basics",
-      "target": "unicode  ️",
-      "curve": {
-        "x": -28.574,
-        "y": 59.0796
-      }
-    }
-  ],
-  "id": 646
+    ],
+    "author": ""
+  }
 }

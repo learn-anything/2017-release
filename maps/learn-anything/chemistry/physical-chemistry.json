@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - physical chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "physical chemistry",
-      "url": "http://www.wikiwand.com/en/Physical_chemistry",
-      "fx": -92.265625,
-      "fy": -182.26953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -30.4296875,
-      "fy": -34.0625,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=B9DuTNaPm4M",
-          "fx": 125.5703125,
-          "fy": -22.5625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "physical chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -3.33203,
-        "y": 72.8535
+  "id": 177,
+  "map": {
+    "text": "physical chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=B9DuTNaPm4M",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 177
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Physical_chemistry",
+        "text": "physical chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

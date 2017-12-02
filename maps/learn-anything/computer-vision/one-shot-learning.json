@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer vision - one-shot learning",
   "tag": "one-shot learning",
-  "nodes": [
-    {
-      "text": "one-shot learning",
-      "url": "http://www.wikiwand.com/en/One-shot_learning",
-      "fx": 75,
-      "fy": -222.7109375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 257.73958129033156,
-      "fy": -103.5430583941112,
-      "nodes": [
-        {
-          "text": "17: OpenAI’s new machine learning system",
-          "url": "https://www.youtube.com/watch?v=b_wG80BTj-w",
-          "fx": 456.73958129033156,
-          "fy": -103.5430583941112,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 140.79336874234218,
-      "fy": 22.260810244804816,
-      "nodes": [
-        {
-          "text": "1. one-shot learning of object categories",
-          "url": "http://authors.library.caltech.edu/5407/1/LIFieeetpam06.pdf",
-          "fx": 303.7933687423422,
-          "fy": 22.260810244804816,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "one-shot learning",
-      "curve": {
-        "x": -65.3698,
-        "y": -58.8339
+  "id": 357,
+  "map": {
+    "text": "one-shot learning",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=b_wG80BTj-w",
+            "text": "17: OpenAI’s new machine learning system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://authors.library.caltech.edu/5407/1/LIFieeetpam06.pdf",
+            "text": "1. one-shot learning of object categories",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "one-shot learning",
-      "target": "basics",
-      "curve": {
-        "x": -2.10332,
-        "y": 121.736
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/One-shot_learning",
+        "text": "one-shot learning",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 357
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - chemical reactions - catalysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "catalysis",
-      "url": "http://www.wikiwand.com/en/Catalysis",
-      "fx": 109.21086549539177,
-      "fy": -199.86058107718895,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 124.54053859447015,
-      "fy": -68.6445852534427,
-      "nodes": [
-        {
-          "text": "1. fundamentals of catalysis",
-          "url": "https://www.youtube.com/watch?v=9BhUc35z7-0",
-          "fx": 287.54053859447015,
-          "fy": -56.1445852534427,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "catalysis",
-      "target": "basics",
-      "curve": {
-        "x": -5.33516,
-        "y": 64.858
+  "id": 149,
+  "map": {
+    "text": "catalysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9BhUc35z7-0",
+            "text": "1. fundamentals of catalysis",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 149
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Catalysis",
+        "text": "catalysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

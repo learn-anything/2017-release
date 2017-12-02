@@ -1,86 +1,82 @@
 {
   "title": "learn anything - computer science - virtual machines - jvm - rxjava",
   "tag": "RxJava",
-  "nodes": [
-    {
-      "text": "RxJava",
-      "url": "https://github.com/ReactiveX/RxJava",
-      "fx": -93.14453125,
-      "fy": -287.09765625,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/lzyzsd/Awesome-RxJava",
-          "fx": 99.85546875,
-          "fy": -273.09765625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "github"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 20.031627136184625,
-      "fy": -180.3155292169282,
-      "nodes": [
-        {
-          "text": "Rx visualiser",
-          "url": "https://rxviz.com/",
-          "fx": 157.03162713618462,
-          "fy": -168.8155292169282,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -74.38498711340185,
-      "fy": -61.28116945875291,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://github.com/ReactiveX/RxJava/wiki",
-          "fx": 81.61501288659815,
-          "fy": -69.78116945875291,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. a  short intro to RxJava  ️",
-          "url": "http://blog.feedpresso.com/2016/01/25/why-you-should-use-rxjava-in-android-a-short-introduction-to-rxjava.html",
-          "fx": 81.61501288659815,
-          "fy": -29.781169458752913,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "RxJava",
-      "curve": {
-        "x": -42.5881,
-        "y": -52.141
+  "id": 349,
+  "map": {
+    "text": "RxJava",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://rxviz.com/",
+            "text": "Rx visualiser",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/ReactiveX/RxJava/wiki",
+            "text": "1. introduction",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://blog.feedpresso.com/2016/01/25/why-you-should-use-rxjava-in-android-a-short-introduction-to-rxjava.html",
+            "text": "1. a  short intro to RxJava  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "RxJava",
-      "target": "basics",
-      "curve": {
-        "x": 0.129772,
-        "y": 111.658
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/lzyzsd/Awesome-RxJava",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/ReactiveX/RxJava",
+        "text": "RxJava",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 349
+    ],
+    "author": ""
+  }
 }

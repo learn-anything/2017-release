@@ -1,52 +1,53 @@
 {
   "title": "learn anything - design - product design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "product design",
-      "url": "http://www.wikiwand.com/en/Product_design",
-      "fx": 145.1875,
-      "fy": -299.2304687499999,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/product_design/",
-          "fx": 426.1875,
-          "fy": -285.2304687499999,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 269.99472101420986,
-      "fy": -132.4858811442151,
-      "nodes": [
-        {
-          "text": "15: intro to product design (with focus on sketching)",
-          "url": "https://www.youtube.com/watch?v=r-UqGtsjKiU",
-          "fx": 468.99472101420986,
-          "fy": -132.4858811442151,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "product design",
-      "curve": {
-        "x": -41.9036,
-        "y": -82.6223
+  "id": 436,
+  "map": {
+    "text": "product design",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=r-UqGtsjKiU",
+            "text": "15: intro to product design (with focus on sketching)",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 436
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/product_design/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Product_design",
+        "text": "product design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

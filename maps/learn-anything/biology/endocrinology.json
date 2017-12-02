@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - endocrinology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "endocrinology",
-      "url": "http://www.wikiwand.com/en/Endocrinology",
-      "fx": 66.1953125,
-      "fy": -106.13671875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 116.5,
-      "fy": 24,
-      "nodes": [
-        {
-          "text": "1. overview",
-          "url": "https://www.youtube.com/watch?v=YcPicFL5Jnw",
-          "fx": 272.5,
-          "fy": 35.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "endocrinology",
-      "target": "basics",
-      "curve": {
-        "x": 0.402344,
-        "y": 63.8184
+  "id": 95,
+  "map": {
+    "text": "endocrinology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YcPicFL5Jnw",
+            "text": "1. overview",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 95
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Endocrinology",
+        "text": "endocrinology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

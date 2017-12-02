@@ -1,78 +1,72 @@
 {
   "title": "learn anything - art - music - instruments - piano",
   "tag": "",
-  "nodes": [
-    {
-      "text": "piano",
-      "url": "http://www.wikiwand.com/en/Piano",
-      "fx": -101.625,
-      "fy": -262.3984375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/piano/",
-          "fx": 75.375,
-          "fy": -248.3984375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 7.845097303423813,
-      "fy": -142.59808128238342,
-      "nodes": [
-        {
-          "text": "what does a pianist see?",
-          "url": "https://www.youtube.com/watch?v=GVvY8KfXXgE",
-          "fx": 198.8450973034238,
-          "fy": -131.09808128238342,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -98.30095791457302,
-      "fy": -44.76332836055275,
-      "nodes": [
-        {
-          "text": "1. online piano",
-          "url": "https://pianu.com/",
-          "fx": 83.69904208542698,
-          "fy": -33.26332836055275,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "piano",
-      "target": "basics",
-      "curve": {
-        "x": -3.58798,
-        "y": 107.568
+  "id": 38,
+  "map": {
+    "text": "piano",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://pianu.com/",
+            "text": "1. online piano",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=GVvY8KfXXgE",
+            "text": "what does a pianist see?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "piano",
-      "curve": {
-        "x": -58.235,
-        "y": -58.6502
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/piano/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Piano",
+        "text": "piano",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 38
+    ],
+    "author": ""
+  }
 }

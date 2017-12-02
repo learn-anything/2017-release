@@ -1,66 +1,59 @@
 {
   "title": "learn anything - network science - computer networking - protocols - webrtc - webtorrent",
   "tag": "WebTorrent",
-  "nodes": [
-    {
-      "text": "WebTorrent",
-      "url": "https://github.com/webtorrent/webtorrent",
-      "fx": -234.4375,
-      "fy": -209.21875,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -90.8515625,
-      "fy": -103.4765625,
-      "nodes": [
-        {
-          "text": "awesome WebTorrent",
-          "url": "https://github.com/DiegoRBaquero/awesome-webtorrent-clones",
-          "fx": 46.1484375,
-          "fy": -91.9765625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -197.6015625,
-      "fy": -13.47265625,
-      "nodes": [
-        {
-          "text": "1. get started",
-          "url": "https://webtorrent.io/intro",
-          "fx": -41.6015625,
-          "fy": 1.02734375,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "WebTorrent",
-      "curve": {
-        "x": -48.293,
-        "y": -51.6211
+  "id": 1227,
+  "map": {
+    "text": "WebTorrent",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/DiegoRBaquero/awesome-webtorrent-clones",
+            "text": "awesome WebTorrent",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://webtorrent.io/intro",
+            "text": "1. get started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "WebTorrent",
-      "target": "basics",
-      "curve": {
-        "x": -0.332031,
-        "y": 96.623
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/webtorrent/webtorrent",
+        "text": "WebTorrent",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1224
+    ],
+    "author": ""
+  }
 }

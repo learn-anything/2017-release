@@ -1,33 +1,42 @@
 {
   "title": "learn anything - computer science - concurrency - process calculus",
   "tag": "",
-  "nodes": [
-    {
-      "text": "process calculus",
-      "url": "http://www.wikiwand.com/en/Process_calculus",
-      "fx": 71.6015625,
-      "fy": -52.1640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "pi-calculus  ️",
-      "url": "/computer-science/concurrency/process-calculus/pi-calculus",
-      "fx": -2.5301995798321286,
-      "fy": 90.23240546220387,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "process calculus",
-      "target": "pi-calculus  ️",
-      "curve": {
-        "x": -50.5659,
-        "y": 71.1982
+  "id": 314,
+  "map": {
+    "text": "process calculus",
+    "nodes": [
+      {
+        "text": "pi-calculus  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/concurrency/process-calculus/pi-calculus",
+            "text": "pi-calculus  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 314
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Process_calculus",
+        "text": "process calculus",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

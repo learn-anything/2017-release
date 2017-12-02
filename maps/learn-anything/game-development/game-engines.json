@@ -1,98 +1,115 @@
 {
   "title": "learn anything - game development - game engines",
   "tag": "",
-  "nodes": [
-    {
-      "text": "game engines",
-      "url": "http://www.wikiwand.com/en/Game_engine",
-      "fx": -128.33203125,
-      "fy": -182.1953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "unreal engine  ️",
-      "url": "/game-development/game-engines/unreal-engine",
-      "fx": 89.06255340576172,
-      "fy": -44.27727127075195,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "LÖVE  ️",
-      "note": "framework in Lua to make 2D games",
-      "url": "/game-development/game-engines/love",
-      "fx": -346.3064753214518,
-      "fy": -44.21203279495239,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "godot  ️",
-      "note": "provides a huge set of common tools to create multi-platform 2D and 3D games",
-      "url": "/game-development/game-engines/godot",
-      "fx": -65.88006782531738,
-      "fy": -43.075279235839844,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "construct",
-      "url": "https://www.construct.net/nl",
-      "fx": 285.1754455566406,
-      "fy": -40.33159001668287,
-      "nodes": []
-    },
-    {
-      "text": "unity  ️",
-      "url": "/game-development/game-engines/unity",
-      "fx": -184.6782324049209,
-      "fy": -42.626130421956304,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "game engines",
-      "target": "LÖVE  ️",
-      "curve": {
-        "x": -127.737,
-        "y": 68.9917
+  "id": 561,
+  "map": {
+    "text": "game engines",
+    "nodes": [
+      {
+        "text": "LÖVE  ️",
+        "note": "framework in Lua to make 2D games",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/game-development/game-engines/love",
+            "text": "LÖVE  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "unity  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/game-development/game-engines/unity",
+            "text": "unity  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "godot  ️",
+        "note": "provides a huge set of common tools to create multi-platform 2D and 3D games",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/game-development/game-engines/godot",
+            "text": "godot  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "unreal engine  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/game-development/game-engines/unreal-engine",
+            "text": "unreal engine  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "construct",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.construct.net/nl",
+            "text": "construct",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "game engines",
-      "target": "unity  ️",
-      "curve": {
-        "x": -49.1731,
-        "y": 69.7845
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Game_engine",
+        "text": "game engines",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "game engines",
-      "target": "godot  ️",
-      "curve": {
-        "x": 12.976,
-        "y": 69.56
-      }
-    },
-    {
-      "source": "game engines",
-      "target": "unreal engine  ️",
-      "curve": {
-        "x": 99.9473,
-        "y": 67.709
-      }
-    },
-    {
-      "source": "game engines",
-      "target": "construct",
-      "curve": {
-        "x": 222.554,
-        "y": 63.9202
-      }
-    }
-  ],
-  "id": 561
+    ],
+    "author": ""
+  }
 }

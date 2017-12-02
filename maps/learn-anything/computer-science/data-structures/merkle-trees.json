@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - merkle trees",
   "tag": "Merkle trees",
-  "nodes": [
-    {
-      "text": "Merkle trees",
-      "url": "http://www.wikiwand.com/en/Merkle_tree",
-      "fx": 138.93359375,
-      "fy": -248.69921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 168.79296875,
-      "fy": -84.609375,
-      "nodes": [
-        {
-          "text": "1. explanation  ️",
-          "url": "https://media.consensys.net/ever-wonder-how-merkle-trees-work-c2f8b7100ed3",
-          "fx": 331.79296875,
-          "fy": -72.109375,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Merkle trees",
-      "target": "basics",
-      "curve": {
-        "x": -7.32031,
-        "y": 81.2949
+  "id": 325,
+  "map": {
+    "text": "Merkle trees",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://media.consensys.net/ever-wonder-how-merkle-trees-work-c2f8b7100ed3",
+            "text": "1. explanation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 325
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Merkle_tree",
+        "text": "Merkle trees",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

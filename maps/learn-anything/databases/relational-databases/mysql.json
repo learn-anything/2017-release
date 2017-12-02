@@ -1,84 +1,80 @@
 {
   "title": "learn anything - databases - relational databases - mysql",
   "tag": "mySQL",
-  "nodes": [
-    {
-      "text": "MySQL",
-      "url": "http://www.wikiwand.com/en/MySQL",
-      "fx": 18.3203125,
-      "fy": -265.8671875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/mysql/",
-          "fx": 212.3203125,
-          "fy": -268.8671875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "http://shlomi-noach.github.io/awesome-mysql/",
-          "fx": 212.3203125,
-          "fy": -228.8671875,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 122.5655354299364,
-      "fy": -167.06747611464976,
-      "nodes": [
-        {
-          "text": "mySQL docs",
-          "url": "https://dev.mysql.com/doc/",
-          "fx": 259.5655354299364,
-          "fy": -152.56747611464976,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 32.565983280254954,
-      "fy": -71.10439888535024,
-      "nodes": [
-        {
-          "text": "1. mySQL Tutorial",
-          "url": "https://www.tutorialspoint.com/mysql/",
-          "fx": 214.56598328025495,
-          "fy": -56.604398885350236,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "MySQL",
-      "curve": {
-        "x": -37.8726,
-        "y": -48.1499
+  "id": 413,
+  "map": {
+    "text": "MySQL",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://dev.mysql.com/doc/",
+            "text": "mySQL docs",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.tutorialspoint.com/mysql/",
+            "text": "1. mySQL Tutorial",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "MySQL",
-      "target": "basics",
-      "curve": {
-        "x": -2.37716,
-        "y": 96.1314
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/mysql/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://shlomi-noach.github.io/awesome-mysql/",
+        "text": "awesome",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/MySQL",
+        "text": "MySQL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 413
+    ],
+    "author": ""
+  }
 }

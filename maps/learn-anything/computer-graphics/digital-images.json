@@ -1,66 +1,79 @@
 {
   "title": "learn anything - computer graphics - digital images",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digital images",
-      "url": "http://www.wikiwand.com/en/Digital_image",
-      "fx": 439.28116569244605,
-      "fy": -225.7081040736131,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "image processing  ️",
-      "url": "/computer-graphics/digital-images/image-processing",
-      "fx": 178.04105777877703,
-      "fy": -93.21543390287775,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "vector graphics  ️",
-      "note": "",
-      "url": "/computer-graphics/digital-images/vector-graphics",
-      "fx": 415.52983330664983,
-      "fy": -92.04461253199588,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "raster graphics  ️",
-      "url": "/computer-graphics/digital-images/raster-graphics",
-      "fx": 660.1320567094397,
-      "fy": -88.62755296187254,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "digital images",
-      "target": "image processing  ️",
-      "curve": {
-        "x": -121.62,
-        "y": 66.2463
+  "id": 217,
+  "map": {
+    "text": "digital images",
+    "nodes": [
+      {
+        "text": "image processing  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-graphics/digital-images/image-processing",
+            "text": "image processing  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "vector graphics  ️",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-graphics/digital-images/vector-graphics",
+            "text": "vector graphics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "raster graphics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-graphics/digital-images/raster-graphics",
+            "text": "raster graphics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "digital images",
-      "target": "vector graphics  ️",
-      "curve": {
-        "x": -1.37567,
-        "y": 66.8317
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Digital_image",
+        "text": "digital images",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "digital images",
-      "target": "raster graphics  ️",
-      "curve": {
-        "x": 105.925,
-        "y": 67.2903
-      }
-    }
-  ],
-  "id": 217
+    ],
+    "author": ""
+  }
 }

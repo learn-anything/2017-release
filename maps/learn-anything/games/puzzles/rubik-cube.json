@@ -1,66 +1,59 @@
 {
   "title": "learn anything - games - puzzles - rubik cube",
   "tag": "rubik’s cube",
-  "nodes": [
-    {
-      "text": "rubik’s cube",
-      "url": "http://www.wikiwand.com/en/Rubik%27s_Cube",
-      "fx": -92.51953125,
-      "fy": -352.9765625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "solving it",
-      "url": "",
-      "fx": 21.285424933862487,
-      "fy": -194.14165839947094,
-      "nodes": [
-        {
-          "text": "beginner’s method",
-          "url": "https://www.youtube.com/watch?v=vlp0-_OPRwA",
-          "fx": 205.2854249338625,
-          "fy": -181.64165839947094,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -58.115928071263625,
-      "fy": -35.12395873089076,
-      "nodes": [
-        {
-          "text": "God’s number is 20",
-          "url": "http://www.cube20.org/",
-          "fx": 140.88407192873638,
-          "fy": -20.123958730890763,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "rubik’s cube",
-      "target": "solving it",
-      "curve": {
-        "x": 40.4025,
-        "y": 78.6675
+  "id": 568,
+  "map": {
+    "text": "rubik’s cube",
+    "nodes": [
+      {
+        "text": "solving it",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=vlp0-_OPRwA",
+            "text": "beginner’s method",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.cube20.org/",
+            "text": "God’s number is 20",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "rubik’s cube",
-      "target": "interesting",
-      "curve": {
-        "x": -33.0663,
-        "y": 171.52
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rubik%27s_Cube",
+        "text": "rubik’s cube",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 568
+    ],
+    "author": ""
+  }
 }

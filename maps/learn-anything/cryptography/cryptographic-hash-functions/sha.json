@@ -1,42 +1,42 @@
 {
   "title": "learn anything - cryptography - cryptographic hash functions - sha",
   "tag": "SHA-1",
-  "nodes": [
-    {
-      "text": "SHA-1",
-      "url": "http://www.wikiwand.com/en/SHA-1",
-      "fx": -66.23046875,
-      "fy": -305.4453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -57.14373802681996,
-      "fy": -153.99096024909971,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=DMtFhACPnTY",
-          "fx": 98.85626197318004,
-          "fy": -142.49096024909971,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "SHA-1",
-      "target": "basics",
-      "curve": {
-        "x": -3.45663,
-        "y": 74.4772
+  "id": 367,
+  "map": {
+    "text": "SHA-1",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DMtFhACPnTY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 367
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/SHA-1",
+        "text": "SHA-1",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

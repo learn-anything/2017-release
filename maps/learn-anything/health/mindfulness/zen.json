@@ -1,71 +1,76 @@
 {
   "title": "learn anything - health - mindfulness - zen",
   "tag": "",
-  "nodes": [
-    {
-      "text": "zen",
-      "url": "http://www.wikiwand.com/en/Zen",
-      "fx": -81.91067874203816,
-      "fy": -176.5332404458598,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/zen/",
-          "fx": 77.08932125796184,
-          "fy": -162.5332404458598,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -100.94173687304078,
-      "fy": -21.52051087382455,
-      "nodes": [
-        {
-          "text": "1. Alan Watts - introduction to zen",
-          "url": "https://www.youtube.com/watch?v=iQle7JxjcrA",
-          "fx": 81.05826312695922,
-          "fy": -50.02051087382455,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. Alan Watts - the taoist way",
-          "url": "https://www.youtube.com/watch?v=Iv9zocKASsM",
-          "fx": 81.05826312695922,
-          "fy": -10.020510873824549,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "3. Alan Watts - how zen traps you",
-          "url": "https://www.youtube.com/watch?v=TWkn2qLLV8I",
-          "fx": 81.05826312695922,
-          "fy": 29.97948912617545,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "zen",
-      "target": "basics",
-      "curve": {
-        "x": -10.2655,
-        "y": 76.2564
+  "id": 609,
+  "map": {
+    "text": "zen",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=iQle7JxjcrA",
+            "text": "1. Alan Watts - introduction to zen",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Iv9zocKASsM",
+            "text": "2. Alan Watts - the taoist way",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TWkn2qLLV8I",
+            "text": "3. Alan Watts - how zen traps you",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 609
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/zen/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Zen",
+        "text": "zen",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

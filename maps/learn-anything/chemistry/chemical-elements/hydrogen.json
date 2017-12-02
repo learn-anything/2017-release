@@ -1,58 +1,61 @@
 {
   "title": "learn anything - chemistry - chemical elements - hydrogen",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hydrogen",
-      "url": "http://www.wikiwand.com/en/Hydrogen",
-      "fx": 22.671875,
-      "fy": -120.66796875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 42.6328125,
-      "fy": 24.47254180908203,
-      "nodes": [
-        {
-          "text": "1. what is hydrogen",
-          "url": "https://www.youtube.com/watch?v=cxFb4hmfVT0",
-          "fx": 198.6328125,
-          "fy": 35.97254180908203,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 145,
+  "map": {
+    "text": "hydrogen",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "hydrogen bonds  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/chemical-elements/hydrogen/hydrogen-bonds",
+                "text": "hydrogen bonds  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cxFb4hmfVT0",
+            "text": "1. what is hydrogen",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Hydrogen",
+        "text": "hydrogen",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "hydrogen bonds  ️",
-      "url": "/chemistry/chemical-elements/hydrogen/hydrogen-bonds",
-      "fx": -130.859375,
-      "fy": 162.84375,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "hydrogen",
-      "target": "basics",
-      "curve": {
-        "x": -4.01953,
-        "y": 71.3202
       }
-    },
-    {
-      "source": "basics",
-      "target": "hydrogen bonds  ️",
-      "curve": {
-        "x": -66.7461,
-        "y": 69.1856
-      }
-    }
-  ],
-  "id": 145
+    ],
+    "author": ""
+  }
 }

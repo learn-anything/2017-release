@@ -1,42 +1,42 @@
 {
   "title": "learn anything - law - governance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "governance",
-      "url": "http://www.wikiwand.com/en/Governance",
-      "fx": -97.8359375,
-      "fy": -81.4140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 2.585721969604492,
-      "fy": 44.1900749206543,
-      "nodes": [
-        {
-          "text": "15: what is good governance?",
-          "url": "https://www.youtube.com/watch?v=E6hWPDUUQ1w",
-          "fx": 193.5857219696045,
-          "fy": 55.6900749206543,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "governance",
-      "curve": {
-        "x": -39.4608,
-        "y": -61.5521
+  "id": 667,
+  "map": {
+    "text": "governance",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=E6hWPDUUQ1w",
+            "text": "15: what is good governance?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 667
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Governance",
+        "text": "governance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

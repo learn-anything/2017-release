@@ -1,42 +1,42 @@
 {
   "title": "learn anything - data science - data analysis - analytics - web analytics - google analytics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "google analytics",
-      "url": "http://www.wikiwand.com/en/Google_Analytics",
-      "fx": 252.53125,
-      "fy": -126.01953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 402.98046875,
-      "fy": 14.45703125,
-      "nodes": [
-        {
-          "text": "17: the google analytics setup I use on every site I build  ️",
-          "url": "https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/",
-          "fx": 564.98046875,
-          "fy": 14.95703125,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "google analytics",
-      "curve": {
-        "x": -47.7246,
-        "y": -68.9883
+  "id": 380,
+  "map": {
+    "text": "google analytics",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build/",
+            "text": "17: the google analytics setup I use on every site I build  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 380
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Google_Analytics",
+        "text": "google analytics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

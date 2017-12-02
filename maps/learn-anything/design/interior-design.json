@@ -1,86 +1,82 @@
 {
   "title": "learn anything - design - interior design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "interior design",
-      "url": "http://www.wikiwand.com/en/Interior_design",
-      "fx": -59.01171875,
-      "fy": -230.3125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/InteriorDesign/",
-          "fx": 194.98828125,
-          "fy": -216.3125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 71.20327240566007,
-      "fy": -127.01341391511454,
-      "nodes": [
-        {
-          "text": "apartment therapy",
-          "url": "http://www.apartmenttherapy.com/",
-          "fx": 208.20327240566007,
-          "fy": -132.51341391511454,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "3D tool for interior design",
-          "url": "http://www.decoraki.co/",
-          "fx": 208.20327240566007,
-          "fy": -98.51341391511454,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -13.585703480891652,
-      "fy": -21.594367646158958,
-      "nodes": [
-        {
-          "text": "1. what does an interior design actually do?",
-          "url": "https://www.youtube.com/watch?v=sEQdqZm0gNE",
-          "fx": 168.41429651910835,
-          "fy": -21.094367646158958,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "interior design",
-      "curve": {
-        "x": -35.8575,
-        "y": -50.3995
+  "id": 435,
+  "map": {
+    "text": "interior design",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.apartmenttherapy.com/",
+            "text": "apartment therapy",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.decoraki.co/",
+            "text": "3D tool for interior design",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=sEQdqZm0gNE",
+            "text": "1. what does an interior design actually do?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interior design",
-      "target": "basics",
-      "curve": {
-        "x": -1.78699,
-        "y": 103.109
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/InteriorDesign/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Interior_design",
+        "text": "interior design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 435
+    ],
+    "author": ""
+  }
 }

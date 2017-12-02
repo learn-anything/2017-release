@@ -1,68 +1,61 @@
 {
   "title": "learn anything - design - graphic design - photoshop",
   "tag": "",
-  "nodes": [
-    {
-      "text": "photoshop",
-      "url": "http://www.wikiwand.com/en/Adobe_Photoshop",
-      "fx": -86.8203125,
-      "fy": -216.2421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 53.917519479990005,
-      "fy": -80.0004334449768,
-      "nodes": [
-        {
-          "text": "PH learn",
-          "url": "https://www.youtube.com/user/PhlearnLLC/videos",
-          "fx": 190.91751947999,
-          "fy": -68.5004334449768,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -76.58205239474773,
-      "fy": 32.538883209228516,
-      "nodes": [
-        {
-          "text": "1. get started with photoshop",
-          "url": "https://www.youtube.com/watch?v=yqKHo1Q7OMc",
-          "fx": 105.41794760525227,
-          "fy": 44.038883209228516,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "photoshop",
-      "curve": {
-        "x": -48.3689,
-        "y": -66.8709
+  "id": 428,
+  "map": {
+    "text": "photoshop",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/PhlearnLLC/videos",
+            "text": "PH learn",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yqKHo1Q7OMc",
+            "text": "1. get started with photoshop",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "photoshop",
-      "target": "basics",
-      "curve": {
-        "x": -12.1309,
-        "y": 123.141
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Adobe_Photoshop",
+        "text": "photoshop",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 428
+    ],
+    "author": ""
+  }
 }

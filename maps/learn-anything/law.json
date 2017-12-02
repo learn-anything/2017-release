@@ -1,207 +1,231 @@
 {
   "title": "learn anything - law",
   "tag": "",
-  "nodes": [
-    {
-      "text": "law",
-      "url": "http://www.wikiwand.com/en/Law",
-      "fx": -25.510291113210883,
-      "fy": -383.572610431581,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/law/",
-          "fx": 132.48970888678912,
-          "fy": -389.572610431581,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://law.stackexchange.com/",
-          "fx": 132.48970888678912,
-          "fy": -349.572610431581,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 682,
+  "map": {
+    "text": "law",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "politics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/politics",
+                "text": "politics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "licensing",
+            "nodes": [
+              {
+                "text": "software licenses  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/law/software-licenses",
+                    "text": "software licenses  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Brand_licensing",
+                "text": "licensing",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "piracy",
+            "nodes": [
+              {
+                "text": "DMCA",
+                "note": "united states copyright law criminalising production and sharing of digital copyrighted material",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Digital_Millennium_Copyright_Act",
+                    "text": "DMCA",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Piracy",
+                "text": "piracy",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "criminal law",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Criminal_law",
+                "text": "criminal law",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "rights  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/rights",
+                "text": "rights  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "governance  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/governance",
+                "text": "governance  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "property law  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/property-law",
+                "text": "property law  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/343604.The_Curmudgeon_s_Guide_to_Practicing_Law",
+            "text": "1. the curmudgeon's guide to practicing law",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/law/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -46.03177257529751,
-      "fy": -226.76604306023444,
-      "nodes": [
-        {
-          "text": "1. the curmudgeon's guide to practicing law",
-          "url": "https://www.goodreads.com/book/show/343604.The_Curmudgeon_s_Guide_to_Practicing_Law",
-          "fx": 135.9682274247025,
-          "fy": -226.26604306023444,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://law.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "licensing",
-      "url": "http://www.wikiwand.com/en/Brand_licensing",
-      "fx": -166.13717022613037,
-      "fy": -132.44982726130684,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "rights  ️",
-      "url": "/law/rights",
-      "fx": -449.7513620359007,
-      "fy": -129.82683965189273,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "property law  ️",
-      "url": "/law/property-law",
-      "fx": -642.3700534986431,
-      "fy": -127.89266304347814,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "piracy",
-      "url": "http://www.wikiwand.com/en/Piracy",
-      "fx": 140.6142578125,
-      "fy": -81.2412109375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "governance  ️",
-      "url": "/law/governance",
-      "fx": 282.45348569772796,
-      "fy": -77.94498701079033,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "politics  ️",
-      "url": "/law/politics",
-      "fx": -7.411951764785954,
-      "fy": -62.99975210765069,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "criminal law",
-      "url": "http://www.wikiwand.com/en/Criminal_law",
-      "fx": -389.95686803041696,
-      "fy": -57.190211849464106,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "software licenses  ️",
-      "url": "/law/software-licenses",
-      "fx": -198.6162109375,
-      "fy": 23.421936308856516,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "DMCA",
-      "note": "united states copyright law criminalising production and sharing of digital copyrighted material",
-      "url": "http://www.wikiwand.com/en/Digital_Millennium_Copyright_Act",
-      "fx": 139.6532835996236,
-      "fy": 31.46555842731857,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "law",
-      "target": "basics",
-      "curve": {
-        "x": -3.51077,
-        "y": 78.4033
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Law",
+        "text": "law",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "politics  ️",
-      "curve": {
-        "x": 14.06,
-        "y": 81.8831
-      }
-    },
-    {
-      "source": "basics",
-      "target": "licensing",
-      "curve": {
-        "x": -54.3027,
-        "y": 48.4081
-      }
-    },
-    {
-      "source": "licensing",
-      "target": "software licenses  ️",
-      "curve": {
-        "x": 0.510479,
-        "y": 77.9359
-      }
-    },
-    {
-      "source": "basics",
-      "target": "piracy",
-      "curve": {
-        "x": 82.4416,
-        "y": 82.6768
-      }
-    },
-    {
-      "source": "piracy",
-      "target": "DMCA",
-      "curve": {
-        "x": 1.01952,
-        "y": 56.3534
-      }
-    },
-    {
-      "source": "basics",
-      "target": "criminal law",
-      "curve": {
-        "x": -266.302,
-        "y": 72.9802
-      }
-    },
-    {
-      "source": "basics",
-      "target": "rights  ️",
-      "curve": {
-        "x": -277.6,
-        "y": 41.885
-      }
-    },
-    {
-      "source": "basics",
-      "target": "governance  ️",
-      "curve": {
-        "x": 196.899,
-        "y": 80.3926
-      }
-    },
-    {
-      "source": "basics",
-      "target": "property law  ️",
-      "curve": {
-        "x": -335.476,
-        "y": 10.9943
-      }
-    }
-  ],
-  "id": 682
+    ],
+    "author": ""
+  }
 }

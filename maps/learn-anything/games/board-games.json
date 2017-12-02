@@ -1,85 +1,101 @@
 {
   "title": "learn anything - games - board games",
   "tag": "",
-  "nodes": [
-    {
-      "text": "board games",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Board_game",
-      "fx": 94.3984375,
-      "fy": -272.97265625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/boardgames/",
-          "fx": 367.3984375,
-          "fy": -278.97265625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://boardgames.stackexchange.com/",
-          "fx": 367.3984375,
-          "fy": -238.97265625,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 565,
+  "map": {
+    "text": "board games",
+    "note": "",
+    "nodes": [
+      {
+        "text": "chess  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/games/board-games/chess",
+            "text": "chess  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "go  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/games/board-games/go",
+            "text": "go  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "checkers",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Draughts",
+            "text": "checkers",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/boardgames/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "chess  ️",
-      "url": "/games/board-games/chess",
-      "fx": -35.58037249247229,
-      "fy": -96.69924163818354,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "go  ️",
-      "url": "/games/board-games/go",
-      "fx": 117.06042226155603,
-      "fy": -95.39420509338373,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "checkers",
-      "url": "http://www.wikiwand.com/en/Draughts",
-      "fx": 219.82486979166356,
-      "fy": -92.64746093749176,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "board games",
-      "target": "chess  ️",
-      "curve": {
-        "x": -88.7394,
-        "y": 86.8867
+      },
+      {
+        "url": "https://boardgames.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Board_game",
+        "text": "board games",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "board games",
-      "target": "go  ️",
-      "curve": {
-        "x": -26.419,
-        "y": 87.5393
-      }
-    },
-    {
-      "source": "board games",
-      "target": "checkers",
-      "curve": {
-        "x": 39.7132,
-        "y": 88.9126
-      }
-    }
-  ],
-  "id": 565
+    ],
+    "author": ""
+  }
 }

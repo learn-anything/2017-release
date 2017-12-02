@@ -1,67 +1,60 @@
 {
   "title": "learn anything - data science - data analysis - topological data analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "topological data analysis",
-      "url": "http://www.wikiwand.com/en/Topological_data_analysis",
-      "fx": 52.33559782608722,
-      "fy": -180.16661005434793,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 267.23641304347757,
-      "fy": -70.23777173912572,
-      "nodes": [
-        {
-          "text": "15: statistical topological data analysis using persistence landscapes",
-          "url": "http://www.jmlr.org/papers/volume16/bubenik15a/bubenik15a.pdf",
-          "fx": 466.23641304347757,
-          "fy": -82.73777173912572,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 146.6313133239746,
-      "fy": 64.8228874206543,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://arxiv.org/pdf/1609.08227.pdf",
-          "fx": 309.6313133239746,
-          "fy": 77.3228874206543,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "topological data analysis",
-      "target": "basics",
-      "curve": {
-        "x": 2.64786,
-        "y": 122.495
+  "id": 386,
+  "map": {
+    "text": "topological data analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://arxiv.org/pdf/1609.08227.pdf",
+            "text": "1. introduction",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.jmlr.org/papers/volume16/bubenik15a/bubenik15a.pdf",
+            "text": "15: statistical topological data analysis using persistence landscapes",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "topological data analysis",
-      "curve": {
-        "x": -71.9504,
-        "y": -54.9644
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Topological_data_analysis",
+        "text": "topological data analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 386
+    ],
+    "author": ""
+  }
 }

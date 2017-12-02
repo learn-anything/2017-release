@@ -1,93 +1,90 @@
 {
   "title": "learn anything - computer hardware - computer - cpu",
   "tag": "central processing unit",
-  "nodes": [
-    {
-      "text": "CPU",
-      "url": "http://www.wikiwand.com/en/Central_processing_unit",
-      "fx": 153.78125,
-      "fy": -283.18359375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/cpudesign/",
-          "fx": 323.78125,
-          "fy": -269.18359375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 246.30047013274338,
-      "fy": -169.4917035398231,
-      "nodes": [
-        {
-          "text": "what limits CPU speed?   ️",
-          "url": "https://electronics.stackexchange.com/questions/122050/what-limits-cpu-speed",
-          "fx": 437.3004701327434,
-          "fy": -157.9917035398231,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 148.56082589285722,
-      "fy": -63.09486607142867,
-      "nodes": [
-        {
-          "text": "1. how a CPU works",
-          "url": "https://www.youtube.com/watch?v=cNN_tTXABUA",
-          "fx": 304.5608258928572,
-          "fy": -51.59486607142867,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "multithreading",
-      "url": "http://www.wikiwand.com/en/Multithreading_(computer_architecture)",
-      "fx": 56.67438616071422,
-      "fy": 93.67968750001353,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "CPU",
-      "curve": {
-        "x": -51.5096,
-        "y": -55.5959
+  "id": 248,
+  "map": {
+    "text": "CPU",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://electronics.stackexchange.com/questions/122050/what-limits-cpu-speed",
+            "text": "what limits CPU speed?   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "multithreading",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Multithreading_(computer_architecture)",
+                "text": "multithreading",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cNN_tTXABUA",
+            "text": "1. how a CPU works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "CPU",
-      "target": "basics",
-      "curve": {
-        "x": -6.11021,
-        "y": 108.794
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/cpudesign/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Central_processing_unit",
+        "text": "CPU",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "multithreading",
-      "curve": {
-        "x": -21.1932,
-        "y": 79.6373
-      }
-    }
-  ],
-  "id": 248
+    ],
+    "author": ""
+  }
 }

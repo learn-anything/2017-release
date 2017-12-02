@@ -1,138 +1,124 @@
 {
   "title": "learn anything - economics - business - companies - duckduckgo",
   "tag": "duckduckgo search engine",
-  "nodes": [
-    {
-      "text": "duckduckgo",
-      "url": "https://duckduckgo.com",
-      "fx": 20.978345347576692,
-      "fy": -225.65851944712435,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/duckduckgo",
-          "fx": 243.9783453475767,
-          "fy": -213.15851944712435,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 152.67109728360128,
-      "fy": -124.18069311745313,
-      "nodes": [
-        {
-          "text": "duckduckhack",
-          "url": "https://duckduckhack.com",
-          "fx": 293.6710972836013,
-          "fy": -127.68069311745313,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "instant answers API",
-          "url": "https://duckduckgo.com/api",
-          "fx": 293.6710972836013,
-          "fy": -90.68069311745313,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "useful",
-      "url": "",
-      "fx": 220.89345948611708,
-      "fy": 2.2814192038816827,
-      "nodes": [
-        {
-          "text": "bangs",
-          "url": "https://duckduckgo.com/bang?",
-          "fx": 377.8934594861171,
-          "fy": -1.2185807961183173,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "instant answers",
-          "url": "https://duck.co/ia",
-          "fx": 377.8934594861171,
-          "fy": 35.78141920388168,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "concerns",
-      "url": "",
-      "fx": 274.2703885350752,
-      "fy": 141.15449115360332,
-      "nodes": [
-        {
-          "text": "concerns over  duckduckgo",
-          "url": "https://8ch.net/tech/ddg.html",
-          "fx": 466.2703885350752,
-          "fy": 156.15449115360332,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 16.562003534966834,
-      "fy": 277.6266872816634,
-      "nodes": [
-        {
-          "text": "1. duckduckgo privacy policy",
-          "url": "https://duckduckgo.com/privacy",
-          "fx": 179.56200353496683,
-          "fy": 292.6266872816634,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "duckduckgo",
-      "curve": {
-        "x": -45.3464,
-        "y": -50.7389
+  "id": 461,
+  "map": {
+    "text": "duckduckgo",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "useful",
+            "nodes": [
+              {
+                "text": "concerns",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://8ch.net/tech/ddg.html",
+                    "text": "concerns over  duckduckgo",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://duckduckgo.com/bang?",
+                "text": "bangs",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://duck.co/ia",
+                "text": "instant answers",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://duckduckhack.com",
+            "text": "duckduckhack",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://duckduckgo.com/api",
+            "text": "instant answers API",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://duckduckgo.com/privacy",
+            "text": "1. duckduckgo privacy policy",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "useful",
-      "target": "help",
-      "curve": {
-        "x": -38.1112,
-        "y": -63.2311
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/duckduckgo",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://duckduckgo.com",
+        "text": "duckduckgo",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "duckduckgo",
-      "target": "basics",
-      "curve": {
-        "x": -17.2082,
-        "y": 251.643
-      }
-    },
-    {
-      "source": "concerns",
-      "target": "useful",
-      "curve": {
-        "x": -35.4385,
-        "y": -69.4365
-      }
-    }
-  ],
-  "id": 461
+    ],
+    "author": ""
+  }
 }

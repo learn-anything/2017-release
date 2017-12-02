@@ -1,50 +1,61 @@
 {
   "title": "learn anything - law - rights",
   "tag": "",
-  "nodes": [
-    {
-      "text": "rights",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Rights",
-      "fx": -61.86328125,
-      "fy": -230.91481508027522,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "human rights  ️",
-      "url": "/law/rights/human-rights",
-      "fx": -178.8141843463303,
-      "fy": -87.87370986238534,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "animal rights",
-      "url": "http://www.wikiwand.com/en/Animal_rights",
-      "fx": 34.81681979468112,
-      "fy": -86.80816458780833,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "rights",
-      "target": "human rights  ️",
-      "curve": {
-        "x": -41.4755,
-        "y": 71.5206
+  "id": 680,
+  "map": {
+    "text": "rights",
+    "note": "",
+    "nodes": [
+      {
+        "text": "human rights  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/law/rights/human-rights",
+            "text": "human rights  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "animal rights",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Animal_rights",
+            "text": "animal rights",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "rights",
-      "target": "animal rights",
-      "curve": {
-        "x": 64.3401,
-        "y": 72.0533
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rights",
+        "text": "rights",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 680
+    ],
+    "author": ""
+  }
 }

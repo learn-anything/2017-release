@@ -1,92 +1,101 @@
 {
   "title": "learn anything - economics - money",
   "tag": "",
-  "nodes": [
-    {
-      "text": "money",
-      "url": "http://www.wikiwand.com/en/Money",
-      "fx": -48.90234375,
-      "fy": -173.44921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.80868717013027,
-      "fy": -12.316287092268112,
-      "nodes": [
-        {
-          "text": "1. what is money?",
-          "url": "https://www.youtube.com/watch?v=nh7eUU5Ro4U",
-          "fx": 123.19131282986973,
-          "fy": -66.81628709226811,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. banking explained - money and credit",
-          "url": "https://www.youtube.com/watch?v=fTTGALaRZoc&amp;spfreload=10",
-          "fx": 123.19131282986973,
-          "fy": -24.816287092268112,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. what gives a dollar bill its value?",
-          "url": "https://www.youtube.com/watch?v=XNu5ppFZbHo",
-          "fx": 123.19131282986973,
-          "fy": 42.18371290773189,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
+  "id": 499,
+  "map": {
+    "text": "money",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "currency  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/money/currency",
+                "text": "currency  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "money laundering  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/money/money-laundering",
+                "text": "money laundering  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nh7eUU5Ro4U",
+            "text": "1. what is money?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fTTGALaRZoc&amp;spfreload=10",
+            "text": "1. banking explained - money and credit",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=XNu5ppFZbHo",
+            "text": "1. what gives a dollar bill its value?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Money",
+        "text": "money",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "currency  ️",
-      "url": "/economics/money/currency",
-      "fx": -215.86823272705078,
-      "fy": 152.64575958251953,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "money laundering  ️",
-      "url": "/economics/money/money-laundering",
-      "fx": -51.7462311557789,
-      "fy": 153.1557788944724,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "money",
-      "target": "basics",
-      "curve": {
-        "x": -4.20317,
-        "y": 79.8165
       }
-    },
-    {
-      "source": "basics",
-      "target": "currency  ️",
-      "curve": {
-        "x": -82.7798,
-        "y": 82.4811
-      }
-    },
-    {
-      "source": "basics",
-      "target": "money laundering  ️",
-      "curve": {
-        "x": 22.2812,
-        "y": 82.736
-      }
-    }
-  ],
-  "id": 499
+    ],
+    "author": ""
+  }
 }

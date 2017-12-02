@@ -1,86 +1,92 @@
 {
   "title": "learn anything - computer hardware - computer - gpu",
   "tag": "graphics processing unit",
-  "nodes": [
-    {
-      "text": "GPU",
-      "url": "http://www.wikiwand.com/en/Graphics_processing_unit",
-      "fx": -31.22998598737263,
-      "fy": -81.8076899513718,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/graphicscard/",
-          "fx": 139.77001401262737,
-          "fy": -67.8076899513718,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 251,
+  "map": {
+    "text": "GPU",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "CUDA  ️",
+            "note": "CUDA allows you to write what are called kernels  which are little blocks of parallel C++ or Fortran code which run your program’s bottlenecks on the GPU  it’s used for a lot of scientific / numerical applications, since these applications are often extremely computationally intensive but at the same time don’t involve a lot of complicated logic and abstraction and thus are (relatively) easy to parallelise",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/gpu/cuda",
+                "text": "CUDA  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "OpenCL  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/gpu/opencl",
+                "text": "OpenCL  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=0_TN845dxUU",
+            "text": "1. what is a GPU",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/graphicscard/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -40.658501848377796,
-      "fy": 52.44430536540807,
-      "nodes": [
-        {
-          "text": "1. what is a GPU",
-          "url": "https://www.youtube.com/watch?v=0_TN845dxUU",
-          "fx": 141.3414981516222,
-          "fy": 63.94430536540807,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Graphics_processing_unit",
+        "text": "GPU",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "CUDA  ️",
-      "note": "CUDA allows you to write what are called kernels  which are little blocks of parallel C++ or Fortran code which run your program’s bottlenecks on the GPU  it’s used for a lot of scientific / numerical applications, since these applications are often extremely computationally intensive but at the same time don’t involve a lot of complicated logic and abstraction and thus are (relatively) easy to parallelise",
-      "url": "/computer-hardware/computer/gpu/cuda",
-      "fx": 20.633384327935687,
-      "fy": 171.19776482671853,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "OpenCL  ️",
-      "url": "/computer-hardware/computer/gpu/opencl",
-      "fx": -172.28014539863005,
-      "fy": 191.28849560105834,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "GPU",
-      "target": "basics",
-      "curve": {
-        "x": -8.46426,
-        "y": 65.876
       }
-    },
-    {
-      "source": "basics",
-      "target": "CUDA  ️",
-      "curve": {
-        "x": 44.1459,
-        "y": 60.6267
-      }
-    },
-    {
-      "source": "basics",
-      "target": "OpenCL  ️",
-      "curve": {
-        "x": -60.5608,
-        "y": 70.6721
-      }
-    }
-  ],
-  "id": 251
+    ],
+    "author": ""
+  }
 }

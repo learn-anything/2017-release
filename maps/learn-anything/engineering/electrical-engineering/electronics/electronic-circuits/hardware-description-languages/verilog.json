@@ -1,61 +1,64 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits - hardware description languages - verilog",
   "tag": "Verilog",
-  "nodes": [
-    {
-      "text": "Verilog",
-      "url": "http://www.wikiwand.com/en/Verilog",
-      "fx": -86.51953125,
-      "fy": -228.2265625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Verilog/",
-          "fx": 100.48046875,
-          "fy": -214.2265625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -67.6484375,
-      "fy": -84.359375,
-      "nodes": [
-        {
-          "text": "1. verilog basics",
-          "url": "https://www.youtube.com/watch?v=vVYOV9MP5BA",
-          "fx": 88.3515625,
-          "fy": -92.859375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. introduction to verilog",
-          "url": "https://www.youtube.com/watch?v=0age83XI8Z4",
-          "fx": 88.3515625,
-          "fy": -52.859375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Verilog",
-      "target": "basics",
-      "curve": {
-        "x": 1.68555,
-        "y": 70.6836
+  "id": 525,
+  "map": {
+    "text": "Verilog",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=vVYOV9MP5BA",
+            "text": "1. verilog basics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0age83XI8Z4",
+            "text": "1. introduction to verilog",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 525
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Verilog/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Verilog",
+        "text": "Verilog",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

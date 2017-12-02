@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer graphics - rendering - foveated rendering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "foveated rendering",
-      "url": "http://www.wikiwand.com/en/Foveated_imaging",
-      "fx": 33.67689291007912,
-      "fy": -248.4984714673913,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 101.96529150197614,
-      "fy": -100.86153656122968,
-      "nodes": [
-        {
-          "text": "1. foveate 3D graphics",
-          "url": "https://www.microsoft.com/en-us/research/publication/foveated-3d-graphics/?from=http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F176610%2Ffoveated_final15.pdf",
-          "fx": 264.96529150197614,
-          "fy": -88.36153656122968,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "foveated rendering",
-      "target": "basics",
-      "curve": {
-        "x": -3.8558,
-        "y": 73.0685
+  "id": 226,
+  "map": {
+    "text": "foveated rendering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.microsoft.com/en-us/research/publication/foveated-3d-graphics/?from=http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F176610%2Ffoveated_final15.pdf",
+            "text": "1. foveate 3D graphics",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 226
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Foveated_imaging",
+        "text": "foveated rendering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

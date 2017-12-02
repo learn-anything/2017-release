@@ -1,58 +1,61 @@
 {
   "title": "learn anything - data science - data processing - lambda architecture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "lambda architecture",
-      "url": "http://www.wikiwand.com/en/Lambda_architecture",
-      "fx": 100.37503456858406,
-      "fy": -190.4025857300885,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 178.68279867256638,
-      "fy": -49.21961421460179,
-      "nodes": [
-        {
-          "text": "1. questioning the lambda architecture  ️",
-          "url": "https://www.oreilly.com/ideas/questioning-the-lambda-architecture",
-          "fx": 340.6827986725664,
-          "fy": -49.21961421460179,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 395,
+  "map": {
+    "text": "lambda architecture",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "kappa architecture  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-processing/lambda-architecture/kappa-architecture",
+                "text": "kappa architecture  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.oreilly.com/ideas/questioning-the-lambda-architecture",
+            "text": "1. questioning the lambda architecture  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Lambda_architecture",
+        "text": "lambda architecture",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "kappa architecture  ️",
-      "url": "/data-science/data-processing/lambda-architecture/kappa-architecture",
-      "fx": 10.137859513274407,
-      "fy": 95.52993639380463,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "lambda architecture",
-      "target": "basics",
-      "curve": {
-        "x": -1.59612,
-        "y": 69.8415
       }
-    },
-    {
-      "source": "basics",
-      "target": "kappa architecture  ️",
-      "curve": {
-        "x": -54.2725,
-        "y": 72.3748
-      }
-    }
-  ],
-  "id": 395
+    ],
+    "author": ""
+  }
 }

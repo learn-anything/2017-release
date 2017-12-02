@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - computation - theory of computation - computational complexity theory - np-hardness",
   "tag": "NP-hardness",
-  "nodes": [
-    {
-      "text": "NP-hardness",
-      "url": "http://www.wikiwand.com/en/NP-hardness",
-      "fx": -23.76953125,
-      "fy": -120.80859375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 18.5,
-      "fy": 4,
-      "nodes": [
-        {
-          "text": "1. working definition of NP-hard",
-          "url": "https://www.youtube.com/watch?v=7hRLOnTn7o4",
-          "fx": 174.5,
-          "fy": 15.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "NP-hardness",
-      "target": "basics",
-      "curve": {
-        "x": 5.88477,
-        "y": 62.4043
+  "id": 308,
+  "map": {
+    "text": "NP-hardness",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=7hRLOnTn7o4",
+            "text": "1. working definition of NP-hard",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 308
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/NP-hardness",
+        "text": "NP-hardness",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

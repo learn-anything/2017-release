@@ -1,104 +1,104 @@
 {
   "title": "learn anything - health - mindfulness - meditation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "meditation",
-      "url": "http://www.wikiwand.com/en/Meditation",
-      "fx": 41.30389030612241,
-      "fy": -259.8797034438776,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Meditation/",
-          "fx": 263.3038903061224,
-          "fy": -245.8797034438776,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/Meditation/wiki/faq",
-              "fx": 373.3038903061224,
-              "fy": -245.8797034438776,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 606,
+  "map": {
+    "text": "meditation",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "guided meditations  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/mindfulness/meditation/guided-meditations",
+                "text": "guided meditations  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/Meditation/wiki/faq#wiki_how_do_i_begin.3F",
+            "text": "1. how do I begin?",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 56.12978316326655,
-      "fy": -94.03037308672782,
-      "nodes": [
-        {
-          "text": "1. how do I begin?",
-          "url": "https://www.reddit.com/r/Meditation/wiki/faq#wiki_how_do_i_begin.3F",
-          "fx": 238.12978316326655,
-          "fy": -147.53037308672782,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how to meditate",
-          "url": "http://how-to-meditate.org/",
-          "fx": 238.12978316326655,
-          "fy": -107.53037308672782,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. meditation for beginners",
-          "url": "http://meditation.org.au/class1.asp?mobilecheck=true",
-          "fx": 238.12978316326655,
-          "fy": -73.53037308672782,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. the mind illuminated: a complete meditation guide",
-          "url": "http://www.goodreads.com/book/show/25942786-the-mind-illuminated",
-          "fx": 238.12978316326655,
-          "fy": -39.53037308672782,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "guided meditations  ️",
-      "url": "/health/mindfulness/meditation/guided-meditations",
-      "fx": -79.23382537688406,
-      "fy": 53.53984767587713,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "meditation",
-      "target": "basics",
-      "curve": {
-        "x": -9.08705,
-        "y": 81.6746
+          },
+          {
+            "url": "http://how-to-meditate.org/",
+            "text": "1. how to meditate",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://meditation.org.au/class1.asp?mobilecheck=true",
+            "text": "1. meditation for beginners",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/25942786-the-mind-illuminated",
+            "text": "1. the mind illuminated: a complete meditation guide",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "guided meditations  ️",
-      "curve": {
-        "x": -45.4318,
-        "y": 73.7851
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Meditation/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Meditation",
+        "text": "meditation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 606
+    ],
+    "author": ""
+  }
 }

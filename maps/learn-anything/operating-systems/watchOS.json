@@ -1,26 +1,34 @@
 {
   "title": "learn anything - operating systems - watchOS",
   "tag": "",
-  "nodes": [
-    {
-      "text": "watchOS",
-      "note": "",
-      "url": "https://www.apple.com/watchos/",
-      "fx": -118.828125,
-      "fy": -172.484375,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/yenchenlin/awesome-watchos",
-          "fx": 89.171875,
-          "fy": -160.984375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1311,
+  "map": {
+    "text": "watchOS",
+    "note": "",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://github.com/yenchenlin/awesome-watchos",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [],
-  "id": 1308
+      },
+      {
+        "url": "https://www.apple.com/watchos/",
+        "text": "watchOS",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

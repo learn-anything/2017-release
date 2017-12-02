@@ -1,102 +1,102 @@
 {
   "title": "learn anything - art - origami",
   "tag": "",
-  "nodes": [
-    {
-      "text": "origami",
-      "url": "http://www.wikiwand.com/en/Origami",
-      "fx": -62.5,
-      "fy": -163.16796875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/origami/",
-          "fx": 139.5,
-          "fy": -149.16796875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 94.83203125,
-      "fy": -49.609375,
-      "nodes": [
-        {
-          "text": "Jo Nakashima",
-          "url": "https://www.youtube.com/user/jonakashima/videos",
-          "fx": 235.83203125,
-          "fy": -55.609375,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "origami instructions",
-          "url": "http://www.origami-instructions.com/",
-          "fx": 235.83203125,
-          "fy": -13.609375,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -61.5226521164019,
-      "fy": 147.35011574074053,
-      "nodes": [
-        {
-          "text": "1. the way making origami",
-          "url": "http://www.origami-make.org/index.php",
-          "fx": 101.4773478835981,
-          "fy": 70.35011574074053,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. origami design secrets: mathematical methods for an ancient art",
-          "url": "https://www.goodreads.com/book/show/136219.Origami_Design_Secrets",
-          "fx": 101.4773478835981,
-          "fy": 107.35011574074053,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. genuine origami: 43 mathematically-based models, from simple to complex",
-          "url": "https://www.goodreads.com/book/show/4960040-genuine-origami",
-          "fx": 101.4773478835981,
-          "fy": 199.35011574074053,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(83, 201, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "origami",
-      "target": "basics",
-      "curve": {
-        "x": -9.26133,
-        "y": 154.509
+  "id": 56,
+  "map": {
+    "text": "origami",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.origami-make.org/index.php",
+            "text": "1. the way making origami",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/136219.Origami_Design_Secrets",
+            "text": "1. origami design secrets: mathematical methods for an ancient art",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/4960040-genuine-origami",
+            "text": "1. genuine origami: 43 mathematically-based models, from simple to complex",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/jonakashima/videos",
+            "text": "Jo Nakashima",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.origami-instructions.com/",
+            "text": "origami instructions",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "origami",
-      "curve": {
-        "x": -63.416,
-        "y": -56.0293
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/origami/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Origami",
+        "text": "origami",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 56
+    ],
+    "author": ""
+  }
 }

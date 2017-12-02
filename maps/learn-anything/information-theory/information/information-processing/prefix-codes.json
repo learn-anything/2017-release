@@ -1,58 +1,61 @@
 {
   "title": "learn anything - information theory - information - information processing - prefix codes",
   "tag": "",
-  "nodes": [
-    {
-      "text": "prefix codes",
-      "url": "http://www.wikiwand.com/en/Prefix_code",
-      "fx": 183.89453125,
-      "fy": -179.78125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 220.44928278688508,
-      "fy": -59.57319415983608,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=HST2r5pvJCA",
-          "fx": 376.4492827868851,
-          "fy": -48.07319415983608,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 649,
+  "map": {
+    "text": "prefix codes",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "Huffman coding  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information/information-processing/prefix-codes/huffman-coding",
+                "text": "Huffman coding  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=HST2r5pvJCA",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Prefix_code",
+        "text": "prefix codes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Huffman coding  ️",
-      "url": "/information-theory/information/information-processing/prefix-codes/huffman-coding",
-      "fx": 68.48591188524586,
-      "fy": 60.98335040985876,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "prefix codes",
-      "target": "basics",
-      "curve": {
-        "x": -1.97263,
-        "y": 58.8541
       }
-    },
-    {
-      "source": "basics",
-      "target": "Huffman coding  ️",
-      "curve": {
-        "x": -54.4817,
-        "y": 60.2783
-      }
-    }
-  ],
-  "id": 649
+    ],
+    "author": ""
+  }
 }

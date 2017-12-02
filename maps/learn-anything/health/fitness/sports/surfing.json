@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - surfing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "surfing",
-      "url": "http://www.wikiwand.com/en/Surfing",
-      "fx": -77.4453125,
-      "fy": -198.62109375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/surfing/",
-          "fx": 110.5546875,
-          "fy": -184.62109375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -64.68722587719287,
-      "fy": -40.863212719313026,
-      "nodes": [
-        {
-          "text": "1. natural surf techniques for beginner surfers",
-          "url": "https://www.youtube.com/watch?v=wMmtNewLjUM",
-          "fx": 91.31277412280713,
-          "fy": -40.363212719313026,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "surfing",
-      "target": "basics",
-      "curve": {
-        "x": -1.62096,
-        "y": 77.6289
+  "id": 593,
+  "map": {
+    "text": "surfing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wMmtNewLjUM",
+            "text": "1. natural surf techniques for beginner surfers",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 593
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/surfing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Surfing",
+        "text": "surfing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

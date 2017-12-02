@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - stack",
   "tag": "stack data structure",
-  "nodes": [
-    {
-      "text": "stack (abstract data type)",
-      "url": "http://www.wikiwand.com/en/Stack_(abstract_data_type)",
-      "fx": -128.81640625,
-      "fy": -450.23046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -25.74347314792965,
-      "fy": -289.2061405125963,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=F1F2imiOJfk",
-          "fx": 137.25652685207035,
-          "fy": -276.7061405125963,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stack (abstract data type)",
-      "target": "basics",
-      "curve": {
-        "x": -2.96353,
-        "y": 79.7622
+  "id": 334,
+  "map": {
+    "text": "stack (abstract data type)",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=F1F2imiOJfk",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 334
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stack_(abstract_data_type)",
+        "text": "stack (abstract data type)",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

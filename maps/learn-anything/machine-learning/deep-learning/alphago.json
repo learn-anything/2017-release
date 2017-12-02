@@ -1,51 +1,53 @@
 {
   "title": "learn anything - machine learning - deep learning - alphago",
   "tag": "AlphaGo",
-  "nodes": [
-    {
-      "text": "AlphaGo",
-      "url": "http://www.wikiwand.com/en/AlphaGo",
-      "fx": 23.273435592651367,
-      "fy": -234.58348655700684,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 47.33203125,
-      "fy": -89.31640625,
-      "nodes": [
-        {
-          "text": "1. notes on AlphaGo  ️",
-          "url": "http://frnsys.com/ai_notes/scratch/alphago.html",
-          "fx": 203.33203125,
-          "fy": -97.81640625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. AlphaGo and deep learning",
-          "url": "https://www.youtube.com/watch?v=qWcfiPi9gUU",
-          "fx": 203.33203125,
-          "fy": -57.81640625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "AlphaGo",
-      "target": "basics",
-      "curve": {
-        "x": -0.470702,
-        "y": 71.3835
+  "id": 752,
+  "map": {
+    "text": "AlphaGo",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://frnsys.com/ai_notes/scratch/alphago.html",
+            "text": "1. notes on AlphaGo  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qWcfiPi9gUU",
+            "text": "1. AlphaGo and deep learning",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 751
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/AlphaGo",
+        "text": "AlphaGo",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

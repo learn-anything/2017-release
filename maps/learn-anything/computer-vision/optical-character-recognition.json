@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer vision - optical character recognition",
   "tag": "",
-  "nodes": [
-    {
-      "text": "optical character recognition",
-      "url": "http://www.wikiwand.com/en/Optical_character_recognition",
-      "fx": 45.16788864135742,
-      "fy": -197.53829300403595,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 156.40625,
-      "fy": -19.862125554733666,
-      "nodes": [
-        {
-          "text": "1. how does  OCR work?",
-          "url": "https://www.youtube.com/watch?v=jO-1rztr4O0",
-          "fx": 312.40625,
-          "fy": -39.362125554733666,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. what is the mechanism behind OCR?",
-          "url": "https://www.quora.com/How-does-optical-character-recognition-OCR-work-for-scanning-images-or-texts-What-is-the-mechanism",
-          "fx": 312.40625,
-          "fy": 0.6378744452663341,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "optical character recognition",
-      "target": "basics",
-      "curve": {
-        "x": -1.13082,
-        "y": 87.5881
+  "id": 359,
+  "map": {
+    "text": "optical character recognition",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jO-1rztr4O0",
+            "text": "1. how does  OCR work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.quora.com/How-does-optical-character-recognition-OCR-work-for-scanning-images-or-texts-What-is-the-mechanism",
+            "text": "1. what is the mechanism behind OCR?",
+            "category": "quora",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 359
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Optical_character_recognition",
+        "text": "optical character recognition",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

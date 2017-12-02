@@ -1,74 +1,80 @@
 {
   "title": "learn anything - information theory - information - data storage - cloud storage",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cloud storage",
-      "url": "http://www.wikiwand.com/en/Cloud_storage",
-      "fx": -83.40625,
-      "fy": -157.52734375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -42.87148876404501,
-      "fy": -8.443117977528175,
-      "nodes": [
-        {
-          "text": "1 how cloud storage works",
-          "url": "https://www.youtube.com/watch?v=vFmadKerDD8",
-          "fx": 120.12851123595499,
-          "fy": 4.056882022471825,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 637,
+  "map": {
+    "text": "cloud storage",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "decentralised cloud storage",
+            "nodes": [
+              {
+                "text": "storj  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/information-theory/information/data-storage/cloud-storage/storj",
+                    "text": "storj  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Cooperative_storage_cloud",
+                "text": "decentralised cloud storage",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=vFmadKerDD8",
+            "text": "1 how cloud storage works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cloud_storage",
+        "text": "cloud storage",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "decentralised cloud storage",
-      "url": "http://www.wikiwand.com/en/Cooperative_storage_cloud",
-      "fx": -367.9124412536621,
-      "fy": 97.13010787963867,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "storj  ️",
-      "url": "/information-theory/information/data-storage/cloud-storage/storj",
-      "fx": -342.2898596938778,
-      "fy": 231.80978954081627,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cloud storage",
-      "target": "basics",
-      "curve": {
-        "x": -5.48262,
-        "y": 73.7921
       }
-    },
-    {
-      "source": "basics",
-      "target": "decentralised cloud storage",
-      "curve": {
-        "x": -109.77,
-        "y": 52.7866
-      }
-    },
-    {
-      "source": "decentralised cloud storage",
-      "target": "storj  ️",
-      "curve": {
-        "x": -55.1887,
-        "y": 66.5898
-      }
-    }
-  ],
-  "id": 637
+    ],
+    "author": ""
+  }
 }

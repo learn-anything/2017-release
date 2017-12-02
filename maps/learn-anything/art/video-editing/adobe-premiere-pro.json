@@ -1,52 +1,53 @@
 {
   "title": "learn anything - art - video editing - adobe premiere pro",
   "tag": "",
-  "nodes": [
-    {
-      "text": "adobe premiere pro",
-      "url": "http://www.wikiwand.com/en/Adobe_Premiere_Pro",
-      "fx": 39.54296875,
-      "fy": -137.44921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/premiere/",
-          "fx": 344.54296875,
-          "fy": -123.44921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 106.63671875,
-      "fy": -5.19921875,
-      "nodes": [
-        {
-          "text": "1. beginner tutorial",
-          "url": "https://www.youtube.com/watch?v=hzO3vrFaPRU",
-          "fx": 262.63671875,
-          "fy": 6.30078125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "adobe premiere pro",
-      "target": "basics",
-      "curve": {
-        "x": -3.70312,
-        "y": 64.875
+  "id": 61,
+  "map": {
+    "text": "adobe premiere pro",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hzO3vrFaPRU",
+            "text": "1. beginner tutorial",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 61
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/premiere/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Adobe_Premiere_Pro",
+        "text": "adobe premiere pro",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,86 +1,82 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits - fpga",
   "tag": "FPGA",
-  "nodes": [
-    {
-      "text": "field-programmable gate array",
-      "url": "http://www.wikiwand.com/en/Field-programmable_gate_array",
-      "fx": -211.0078125,
-      "fy": -127.44921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/FPGA/",
-          "fx": 212.9921875,
-          "fy": -113.44921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 35.93750000000114,
-      "fy": -2.5645782019334433,
-      "nodes": [
-        {
-          "text": "build your own FPGA  ️",
-          "url": "http://blog.notdot.net/2012/10/Build-your-own-FPGA",
-          "fx": 197.93750000000114,
-          "fy": -22.064578201933443,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: minimising FPGA resource utilisation  ️",
-          "url": "http://zipcpu.com/blog/2017/06/12/minimizing-luts.html",
-          "fx": 197.93750000000114,
-          "fy": 17.935421798066557,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -81.43778863916248,
-      "fy": 104.81775323275872,
-      "nodes": [
-        {
-          "text": "1. what is FPGA?",
-          "url": "https://www.youtube.com/watch?v=8POZhFHxBLs",
-          "fx": 74.56221136083752,
-          "fy": 116.31775323275872,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "field-programmable gate array",
-      "target": "basics",
-      "curve": {
-        "x": -2.21499,
-        "y": 114.884
+  "id": 524,
+  "map": {
+    "text": "field-programmable gate array",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8POZhFHxBLs",
+            "text": "1. what is FPGA?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://blog.notdot.net/2012/10/Build-your-own-FPGA",
+            "text": "build your own FPGA  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://zipcpu.com/blog/2017/06/12/minimizing-luts.html",
+            "text": "17: minimising FPGA resource utilisation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "field-programmable gate array",
-      "curve": {
-        "x": -57.9727,
-        "y": -61.1923
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/FPGA/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Field-programmable_gate_array",
+        "text": "field-programmable gate array",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 524
+    ],
+    "author": ""
+  }
 }

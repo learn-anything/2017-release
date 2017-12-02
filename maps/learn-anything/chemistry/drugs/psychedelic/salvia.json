@@ -1,52 +1,53 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - salvia",
   "tag": "salvia divinorum",
-  "nodes": [
-    {
-      "text": "salvia",
-      "url": "https://psychonautwiki.org/w/index.php?title=Salvinorin_A&amp;_=",
-      "fx": -53.20114027103568,
-      "fy": -98.01925313511327,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Salvia/",
-          "fx": 123.79885972896432,
-          "fy": -84.01925313511327,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -50.83103911043361,
-      "fy": 43.628584594788265,
-      "nodes": [
-        {
-          "text": "1. what is salvia",
-          "url": "https://www.youtube.com/watch?v=0jgqoSmG3RA",
-          "fx": 105.16896088956639,
-          "fy": 55.128584594788265,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "salvia",
-      "target": "basics",
-      "curve": {
-        "x": -4.06495,
-        "y": 69.5739
+  "id": 163,
+  "map": {
+    "text": "salvia",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=0jgqoSmG3RA",
+            "text": "1. what is salvia",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 163
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Salvia/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/w/index.php?title=Salvinorin_A&amp;_=",
+        "text": "salvia",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

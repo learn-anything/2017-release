@@ -1,66 +1,59 @@
 {
   "title": "learn anything - programming - software development - build automation - gradle",
   "tag": "Gradle",
-  "nodes": [
-    {
-      "text": "Gradle",
-      "url": "http://www.wikiwand.com/en/Gradle",
-      "fx": -59.91418597102165,
-      "fy": -190.89975357055664,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 43.06769610128629,
-      "fy": -91.12067504362625,
-      "nodes": [
-        {
-          "text": "awesome gradle",
-          "url": "https://github.com/ksoichiro/awesome-gradle",
-          "fx": 180.0676961012863,
-          "fy": -79.62067504362625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -51.20316938920462,
-      "fy": 4.490811434659122,
-      "nodes": [
-        {
-          "text": "1. grade tutorial",
-          "url": "https://www.tutorialspoint.com/gradle/",
-          "fx": 104.79683061079538,
-          "fy": 18.990811434659122,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "Gradle",
-      "curve": {
-        "x": -38.9909,
-        "y": -48.6395
+  "id": 1696,
+  "map": {
+    "text": "Gradle",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/ksoichiro/awesome-gradle",
+            "text": "awesome gradle",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.tutorialspoint.com/gradle/",
+            "text": "1. grade tutorial",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "Gradle",
-      "target": "basics",
-      "curve": {
-        "x": -3.39449,
-        "y": 96.4453
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Gradle",
+        "text": "Gradle",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1693
+    ],
+    "author": ""
+  }
 }

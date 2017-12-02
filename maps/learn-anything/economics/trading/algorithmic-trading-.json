@@ -1,93 +1,80 @@
 {
   "title": "learn anything - economics - trading - algorithmic trading ",
   "tag": "",
-  "nodes": [
-    {
-      "text": "algorithmic trading",
-      "url": "http://www.wikiwand.com/en/Algorithmic_trading",
-      "fx": -35.296875,
-      "fy": -243.29296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 154.68562775655528,
-      "fy": -138.0951404892608,
-      "nodes": [
-        {
-          "text": "13: algorithmic trading explained  ️",
-          "url": "https://wildbunny.co.uk/blog/2013/03/15/algorithmic-trading-for-dummies/?v=1",
-          "fx": 291.6856277565553,
-          "fy": -137.5951404892608,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 282.3664909811581,
-      "fy": -40.5933700168834,
-      "nodes": [
-        {
-          "text": "quants: the alchemists of wall street documentary",
-          "url": "https://www.youtube.com/watch?v=OINqYdkhOAw",
-          "fx": 473.3664909811581,
-          "fy": -40.0933700168834,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 12.899564954969719,
-      "fy": 53.733013365003785,
-      "nodes": [
-        {
-          "text": "1. intro to python programming for finance",
-          "url": "https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/",
-          "fx": 194.89956495496972,
-          "fy": 54.233013365003785,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "algorithmic trading",
-      "target": "basics",
-      "curve": {
-        "x": -10.4018,
-        "y": 147.263
+  "id": 504,
+  "map": {
+    "text": "algorithmic trading",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/",
+            "text": "1. intro to python programming for finance",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.youtube.com/watch?v=OINqYdkhOAw",
+                "text": "quants: the alchemists of wall street documentary",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://wildbunny.co.uk/blog/2013/03/15/algorithmic-trading-for-dummies/?v=1",
+            "text": "13: algorithmic trading explained  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "algorithmic trading",
-      "curve": {
-        "x": -55.7413,
-        "y": -51.3489
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Algorithmic_trading",
+        "text": "algorithmic trading",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -77.3404,
-        "y": -48.7509
-      }
-    }
-  ],
-  "id": 504
+    ],
+    "author": ""
+  }
 }

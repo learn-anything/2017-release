@@ -1,66 +1,59 @@
 {
   "title": "learn anything - computer science - algorithms - evolutionary - gene expression programming",
   "tag": "",
-  "nodes": [
-    {
-      "text": "gene expression programming",
-      "url": "http://www.wikiwand.com/en/Gene_expression_programming",
-      "fx": -170.36441187493847,
-      "fy": -171.6264795616492,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 110.82015617516322,
-      "fy": -48.77724798417097,
-      "nodes": [
-        {
-          "text": "",
-          "url": "",
-          "fx": 272.8201561751632,
-          "fy": -45.27724798417097,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -34.62034030596567,
-      "fy": 85.7643542283995,
-      "nodes": [
-        {
-          "text": "1. gene expression",
-          "url": "https://www.youtube.com/watch?v=h2uQHd6qTL8",
-          "fx": 121.37965969403433,
-          "fy": 97.2643542283995,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "gene expression programming",
-      "curve": {
-        "x": -87.8423,
-        "y": -61.4246
+  "id": 260,
+  "map": {
+    "text": "gene expression programming",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "",
+            "text": "",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=h2uQHd6qTL8",
+            "text": "1. gene expression",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "gene expression programming",
-      "target": "basics",
-      "curve": {
-        "x": -1.12796,
-        "y": 127.445
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Gene_expression_programming",
+        "text": "gene expression programming",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 260
+    ],
+    "author": ""
+  }
 }

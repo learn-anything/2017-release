@@ -1,130 +1,124 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits - embedded systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "embedded systems",
-      "url": "http://www.wikiwand.com/en/Embedded_system",
-      "fx": -121.5,
-      "fy": -417.0625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/embedded/",
-          "fx": 184.5,
-          "fy": -423.0625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/embedded-boston/awesome-embedded-systems",
-          "fx": 184.5,
-          "fy": -383.0625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 92.96282138246477,
-      "fy": -295.445673162287,
-      "nodes": [
-        {
-          "text": "hacking the pic 18f1320  ️",
-          "url": "http://www.bunniestudios.com/blog/?page_id=40",
-          "fx": 254.96282138246477,
-          "fy": -314.945673162287,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: how to pick a microcontroller (for beginners)  ️",
-          "url": "http://www.sureshjoshi.com/embedded/how-to-pick-a-microcontroller/",
-          "fx": 254.96282138246477,
-          "fy": -274.945673162287,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 312.76692060990786,
-      "fy": -167.77408229943478,
-      "nodes": [
-        {
-          "text": "G.E.R.T.",
-          "url": "https://github.com/trending",
-          "fx": 503.76692060990786,
-          "fy": -156.27408229943478,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -184.77024782859667,
-      "fy": -31.663810145911953,
-      "nodes": [
-        {
-          "text": "1. low-level programmer university",
-          "url": "https://github.com/gurugio/lowlevelprogramming-university",
-          "fx": -2.7702478285966663,
-          "fy": -51.16381014591195,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. embedded systems - shape the world",
-          "url": "https://www.edx.org/course/embedded-systems-shape-world-utaustinx-ut-6-10x",
-          "fx": -2.7702478285966663,
-          "fy": -11.163810145911953,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "embedded systems",
-      "target": "basics",
-      "curve": {
-        "x": -69.1352,
-        "y": 191.45
+  "id": 523,
+  "map": {
+    "text": "embedded systems",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/gurugio/lowlevelprogramming-university",
+            "text": "1. low-level programmer university",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.edx.org/course/embedded-systems-shape-world-utaustinx-ut-6-10x",
+            "text": "1. embedded systems - shape the world",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/trending",
+                "text": "G.E.R.T.",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.bunniestudios.com/blog/?page_id=40",
+            "text": "hacking the pic 18f1320  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.sureshjoshi.com/embedded/how-to-pick-a-microcontroller/",
+            "text": "17: how to pick a microcontroller (for beginners)  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -143.087,
-        "y": -50.4421
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/embedded/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/embedded-boston/awesome-embedded-systems",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Embedded_system",
+        "text": "embedded systems",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "embedded systems",
-      "curve": {
-        "x": -71.2314,
-        "y": -59.5584
-      }
-    }
-  ],
-  "id": 523
+    ],
+    "author": ""
+  }
 }

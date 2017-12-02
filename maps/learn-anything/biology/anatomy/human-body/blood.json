@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - anatomy - human body - blood",
   "tag": "",
-  "nodes": [
-    {
-      "text": "blood",
-      "url": "http://www.wikiwand.com/en/Blood",
-      "fx": -125.16048153489828,
-      "fy": -133.72787857055664,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -119.12890625,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. blood: part I",
-          "url": "https://www.youtube.com/watch?v=HQWlcSp9Sls",
-          "fx": 36.87109375,
-          "fy": -10.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. blood: part II",
-          "url": "https://www.youtube.com/watch?v=9-XoM2144tk",
-          "fx": 36.87109375,
-          "fy": 29.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "blood",
-      "target": "basics",
-      "curve": {
-        "x": -2.73421,
-        "y": 64.6139
+  "id": 75,
+  "map": {
+    "text": "blood",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=HQWlcSp9Sls",
+            "text": "1. blood: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9-XoM2144tk",
+            "text": "2. blood: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 75
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Blood",
+        "text": "blood",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

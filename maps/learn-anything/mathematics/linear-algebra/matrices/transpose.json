@@ -1,42 +1,42 @@
 {
   "title": "learn anything - mathematics - linear algebra - matrices - transpose",
   "tag": "matrix transpose",
-  "nodes": [
-    {
-      "text": "matrix transpose",
-      "url": "http://www.wikiwand.com/en/Transpose",
-      "fx": 121.54566461267586,
-      "fy": -151.52222711267606,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 174.49295774647874,
-      "fy": -7.929577464765487,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=TZrKrNVhbjI",
-          "fx": 337.49295774647874,
-          "fy": 4.570422535234513,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "matrix transpose",
-      "target": "basics",
-      "curve": {
-        "x": 9.97365,
-        "y": 71.0463
+  "id": 985,
+  "map": {
+    "text": "matrix transpose",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=TZrKrNVhbjI",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 982
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Transpose",
+        "text": "matrix transpose",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

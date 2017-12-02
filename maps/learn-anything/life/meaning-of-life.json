@@ -1,119 +1,134 @@
 {
   "title": "learn anything - life - meaning of life",
   "tag": "",
-  "nodes": [
-    {
-      "text": "meaning of life",
-      "url": "http://www.wikiwand.com/en/Meaning_of_life",
-      "fx": 165.972719598989,
-      "fy": -229.49919939235645,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 203.93521968183927,
-      "fy": -12.251105579560601,
-      "nodes": [
-        {
-          "text": "1. optimistic nihilism",
-          "url": "https://www.youtube.com/watch?v=MBRqu0YOH14",
-          "fx": 366.93521968183927,
-          "fy": -129.7511055795606,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. re: optimistic nihilism  ️",
-          "url": "http://tinyclouds.org/optimistic_nihilism/",
-          "fx": 366.93521968183927,
-          "fy": -87.7511055795606,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "1. Alan Watts - the secret of life",
-          "url": "https://www.youtube.com/watch?v=iZ8so-ld-l0",
-          "fx": 366.93521968183927,
-          "fy": -45.7511055795606,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. Alan Watts - is there a purpose to living?",
-          "url": "https://www.youtube.com/watch?v=21RwqnB8GrE",
-          "fx": 366.93521968183927,
-          "fy": -3.751105579560601,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. it’s just a ride",
-          "url": "https://www.youtube.com/watch?v=KgzQuE1pR1w",
-          "fx": 366.93521968183927,
-          "fy": 63.2488944204394,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "1. Alan Watts - does life have a meaning?",
-          "url": "https://www.youtube.com/watch?v=l5vbmY0YwTs",
-          "fx": 366.93521968183927,
-          "fy": 105.2488944204394,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 254, 60, 1.0)"
+  "id": 689,
+  "map": {
+    "text": "meaning of life",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "happiness  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/happiness",
+                "text": "happiness  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "love  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/love",
+                "text": "love  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=MBRqu0YOH14",
+            "text": "1. optimistic nihilism",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://tinyclouds.org/optimistic_nihilism/",
+            "text": "1. re: optimistic nihilism  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=iZ8so-ld-l0",
+            "text": "1. Alan Watts - the secret of life",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=21RwqnB8GrE",
+            "text": "1. Alan Watts - is there a purpose to living?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KgzQuE1pR1w",
+            "text": "1. it’s just a ride",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=l5vbmY0YwTs",
+            "text": "1. Alan Watts - does life have a meaning?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Meaning_of_life",
+        "text": "meaning of life",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "happiness  ️",
-      "url": "/cognitive-science/cognition/emotions/happiness",
-      "fx": -28.33889192951608,
-      "fy": 142.95896956192666,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "love  ️",
-      "url": "/cognitive-science/cognition/emotions/love",
-      "fx": 183.08419910929808,
-      "fy": 145.31439386934585,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "meaning of life",
-      "target": "basics",
-      "curve": {
-        "x": -6.51875,
-        "y": 107.374
       }
-    },
-    {
-      "source": "basics",
-      "target": "happiness  ️",
-      "curve": {
-        "x": -107.387,
-        "y": 77.605
-      }
-    },
-    {
-      "source": "basics",
-      "target": "love  ️",
-      "curve": {
-        "x": -8.42554,
-        "y": 80.0327
-      }
-    }
-  ],
-  "id": 689
+    ],
+    "author": ""
+  }
 }

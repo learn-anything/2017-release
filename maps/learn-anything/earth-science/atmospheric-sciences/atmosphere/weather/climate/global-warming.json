@@ -1,42 +1,42 @@
 {
   "title": "learn anything - earth science - atmospheric sciences - atmosphere - weather - climate - global warming",
   "tag": "Global warming",
-  "nodes": [
-    {
-      "text": "Global warming",
-      "url": "http://www.wikiwand.com/en/Global_warming",
-      "fx": -58.052149337557466,
-      "fy": -37.72101814516128,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -10.465293778801879,
-      "fy": 132.62341589861745,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.reddit.com/r/askscience/comments/h8hks/how_solid_is_the_scientific_backing_for/c1tfsky/",
-          "fx": 145.53470622119812,
-          "fy": 144.12341589861745,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Global warming",
-      "target": "basics",
-      "curve": {
-        "x": -4.45657,
-        "y": 83.9222
+  "id": 450,
+  "map": {
+    "text": "Global warming",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/askscience/comments/h8hks/how_solid_is_the_scientific_backing_for/c1tfsky/",
+            "text": "1. explanation",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 450
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Global_warming",
+        "text": "Global warming",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

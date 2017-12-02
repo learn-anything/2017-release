@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - algorithms - search - a star",
   "tag": "A* search algorithm",
-  "nodes": [
-    {
-      "text": "A* search",
-      "url": "http://www.wikiwand.com/en/A*_search_algorithm",
-      "fx": -23.79489834337653,
-      "fy": -135.38958960843223,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 3.0892565359478112,
-      "fy": 19.463082107843036,
-      "nodes": [
-        {
-          "text": "1. introduction to A*  ️",
-          "url": "http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html",
-          "fx": 166.0892565359478,
-          "fy": 31.963082107843036,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "A* search",
-      "target": "basics",
-      "curve": {
-        "x": -2.55792,
-        "y": 76.6763
+  "id": 268,
+  "map": {
+    "text": "A* search",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html",
+            "text": "1. introduction to A*  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 268
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/A*_search_algorithm",
+        "text": "A* search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

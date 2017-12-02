@@ -1,86 +1,94 @@
 {
   "title": "learn anything - art - fashion",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fashion",
-      "url": "http://www.wikiwand.com/en/Fashion",
-      "fx": 194.81024948559684,
-      "fy": -143.36514596193416,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/fashion/",
-          "fx": 386.81024948559684,
-          "fy": -149.36514596193416,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "male fashion advice",
-          "url": "https://www.reddit.com/r/malefashionadvice/",
-          "fx": 386.81024948559684,
-          "fy": -109.36514596193416,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 207.10725767931274,
-      "fy": -2.3007973251317253,
-      "nodes": [
-        {
-          "text": "1. history of fashion and costume",
-          "url": "http://www.siamcostumes.com/cutters_guides/pdf/the_twentieth_century_(history_of_costume_and_fashion_volume_8).pdf",
-          "fx": 363.10725767931274,
-          "fy": -21.800797325131725,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. fashion: a history from the 18th to the 20th century",
-          "url": "http://www.goodreads.com/book/show/26786860-fashion",
-          "fx": 363.10725767931274,
-          "fy": 18.199202674868275,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "fashion design",
-      "url": "http://www.wikiwand.com/en/Fashion_design",
-      "fx": 96.79659763313612,
-      "fy": 144.5022189349114,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "fashion",
-      "target": "basics",
-      "curve": {
-        "x": -2.8515,
-        "y": 69.2822
+  "id": 22,
+  "map": {
+    "text": "fashion",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "fashion design",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Fashion_design",
+                "text": "fashion design",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.siamcostumes.com/cutters_guides/pdf/the_twentieth_century_(history_of_costume_and_fashion_volume_8).pdf",
+            "text": "1. history of fashion and costume",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/26786860-fashion",
+            "text": "1. fashion: a history from the 18th to the 20th century",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "fashion design",
-      "curve": {
-        "x": -29.6553,
-        "y": 74.6515
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/fashion/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/malefashionadvice/",
+        "text": "male fashion advice",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Fashion",
+        "text": "fashion",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 22
+    ],
+    "author": ""
+  }
 }

@@ -29,6 +29,15 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
+function countNodes(nodes) {
+  const count = nodes
+    .map(node => countNodes(node.nodes))
+    .reduce((sum, val) => (sum + val), 0);
+
+  return nodes.length + count;
+}
+
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -72,8 +81,13 @@ async function createIndex() {
 
 // Create map
 async function createMap(map, i) {
-  const parsedMap = Object.assign({}, map);
-  delete parsedMap.id;
+  const parsedMap = {
+    title: map.title,
+    id: map.id,
+  };
+
+  //const parsedMap = Object.assign({}, map);
+  //delete parsedMap.id;
 
   // Set the map key for each search. If there's a tag use that,
   // otherwise use the leftmost topic on the title.
@@ -83,6 +97,8 @@ async function createMap(map, i) {
     const splitTitle = map.title.split(' - ');
     parsedMap.key = splitTitle[splitTitle.length - 1];
   }
+
+  parsedMap.nodesCount = countNodes([map.map]);
 
   const options = {
     id: i,

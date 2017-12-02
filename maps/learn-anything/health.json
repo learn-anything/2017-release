@@ -1,149 +1,153 @@
 {
   "title": "learn anything - health",
   "tag": "",
-  "nodes": [
-    {
-      "text": "health",
-      "url": "http://www.wikiwand.com/en/Health",
-      "fx": -57.0775536491891,
-      "fy": -210.45959735461184,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/kakoni/awesome-healthcare",
-          "fx": 124.9224463508109,
-          "fy": -196.45959735461184,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 619,
+  "map": {
+    "text": "health",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "mental",
+            "nodes": [
+              {
+                "text": "mindfulness  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/health/mindfulness",
+                    "text": "mindfulness  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Mental_health",
+                "text": "mental",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "longevity  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/human-development/longevity",
+                "text": "longevity  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "physical",
+            "nodes": [
+              {
+                "text": "fitness  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/health/fitness",
+                    "text": "fitness  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "nutrition  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/health/nutrition",
+                    "text": "nutrition  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/25663961-how-not-to-die",
+            "text": "1. how not to die",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/kakoni/awesome-healthcare",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -77.46431228741505,
-      "fy": -75.30706459348539,
-      "nodes": [
-        {
-          "text": "1. how not to die",
-          "note": "covers how and why the diet that you have, has such an effect on you and how you can maximise and improve it towards better and longer living",
-          "url": "https://www.goodreads.com/book/show/25663961-how-not-to-die",
-          "fx": 104.53568771258495,
-          "fy": -63.80706459348539,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Health",
+        "text": "health",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "physical",
-      "url": "",
-      "fx": -104.25553776882703,
-      "fy": 51.72808142845906,
-      "nodes": []
-    },
-    {
-      "text": "longevity  ️",
-      "url": "/biology/human-development/longevity",
-      "fx": -278.5991600566894,
-      "fy": 50.13929671442361,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mental",
-      "url": "http://www.wikiwand.com/en/Mental_health",
-      "fx": 69.39278900148281,
-      "fy": 55.68567097348057,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "fitness  ️",
-      "url": "/health/fitness",
-      "fx": -207.4440554648064,
-      "fy": 160.51599833289026,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "nutrition  ️",
-      "url": "/health/nutrition",
-      "fx": -60.33877034730551,
-      "fy": 162.44603104474072,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mindfulness  ️",
-      "url": "/health/mindfulness",
-      "fx": 93.75350063210465,
-      "fy": 163.61987218655855,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "physical",
-      "target": "fitness  ️",
-      "curve": {
-        "x": -48.0943,
-        "y": 55.644
       }
-    },
-    {
-      "source": "physical",
-      "target": "nutrition  ️",
-      "curve": {
-        "x": 29.2084,
-        "y": 56.609
-      }
-    },
-    {
-      "source": "mental",
-      "target": "mindfulness  ️",
-      "curve": {
-        "x": 23.9304,
-        "y": 53.9671
-      }
-    },
-    {
-      "source": "basics",
-      "target": "mental",
-      "curve": {
-        "x": 67.6785,
-        "y": 65.4964
-      }
-    },
-    {
-      "source": "basics",
-      "target": "longevity  ️",
-      "curve": {
-        "x": -94.5679,
-        "y": 63.9732
-      }
-    },
-    {
-      "source": "health",
-      "target": "basics",
-      "curve": {
-        "x": -16.6934,
-        "y": 66.3263
-      }
-    },
-    {
-      "source": "basics",
-      "target": "physical",
-      "curve": {
-        "x": -16.1456,
-        "y": 63.5176
-      }
-    }
-  ],
-  "id": 619
+    ],
+    "author": ""
+  }
 }

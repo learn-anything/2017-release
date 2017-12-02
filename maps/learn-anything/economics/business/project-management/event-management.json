@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - business - project management - event management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "event management",
-      "url": "http://www.wikiwand.com/en/Event_management",
-      "fx": -183.36328125,
-      "fy": -125.39453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -41.60546875,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "day in the life of events manager",
-          "url": "https://www.youtube.com/watch?v=oUjCwvRmU2s",
-          "fx": 149.39453125,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "event management",
-      "curve": {
-        "x": -50.6289,
-        "y": -61.6973
+  "id": 467,
+  "map": {
+    "text": "event management",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oUjCwvRmU2s",
+            "text": "day in the life of events manager",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 467
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Event_management",
+        "text": "event management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

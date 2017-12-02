@@ -1,77 +1,71 @@
 {
   "title": "learn anything - history - art history",
   "tag": "",
-  "nodes": [
-    {
-      "text": "art history",
-      "url": "http://www.wikiwand.com/en/Art_history",
-      "fx": -190.00644985465124,
-      "fy": -243.7449127906977,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ArtHistory/",
-          "fx": 25.993550145348763,
-          "fy": -229.7449127906977,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -72.37854287790708,
-      "fy": -121.66351744186045,
-      "nodes": [
-        {
-          "text": "art history resources",
-          "url": "http://arthistoryresources.net/ARTHLinks.html",
-          "fx": 64.62145712209292,
-          "fy": -107.16351744186045,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -183.19676598837214,
-      "fy": -21.292787063953483,
-      "nodes": [
-        {
-          "text": "1. khan academy art history",
-          "url": "https://www.khanacademy.org/humanities/art-history",
-          "fx": -1.1967659883721353,
-          "fy": -9.792787063953483,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "art history",
-      "curve": {
-        "x": -39.064,
-        "y": -59.7907
+  "id": 621,
+  "map": {
+    "text": "art history",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://arthistoryresources.net/ARTHLinks.html",
+            "text": "art history resources",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.khanacademy.org/humanities/art-history",
+            "text": "1. khan academy art history",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "art history",
-      "target": "basics",
-      "curve": {
-        "x": -11.5952,
-        "y": 109.976
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ArtHistory/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Art_history",
+        "text": "art history",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 621
+    ],
+    "author": ""
+  }
 }

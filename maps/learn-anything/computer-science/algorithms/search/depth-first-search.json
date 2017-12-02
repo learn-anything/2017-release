@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - algorithms - search - depth-first search",
   "tag": "depth first search",
-  "nodes": [
-    {
-      "text": "depth-first search",
-      "url": "http://www.wikiwand.com/en/Depth-first_search",
-      "fx": -44.5546875,
-      "fy": -180.33203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 21.4140625,
-      "fy": -30.9375,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=AfSk24UTFS8",
-          "fx": 177.4140625,
-          "fy": -19.4375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "depth-first search",
-      "target": "basics",
-      "curve": {
-        "x": 0.484375,
-        "y": 73.4473
+  "id": 271,
+  "map": {
+    "text": "depth-first search",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=AfSk24UTFS8",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 271
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Depth-first_search",
+        "text": "depth-first search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,106 +1,94 @@
 {
   "title": "learn anything - economics - personal finance - financial independence",
   "tag": "",
-  "nodes": [
-    {
-      "text": "financial independence",
-      "url": "http://www.wikiwand.com/en/Financial_independence",
-      "fx": -211.26953125,
-      "fy": -248.17578125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/financialindependence/",
-          "fx": 122.73046875,
-          "fy": -234.17578125,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/financialindependence/wiki/faq",
-              "fx": 232.73046875,
-              "fy": -234.17578125,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 500,
+  "map": {
+    "text": "financial independence",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://paulgraham.com/wealth.html",
+            "text": "1. how to make wealth  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 6.1787355567227,
-      "fy": -86.74619222689074,
-      "nodes": [
-        {
-          "text": "falling  ️",
-          "url": "http://www.iasc-culture.org/THR/THR_article_2014_Fall_McPherson.php",
-          "fx": 168.1787355567227,
-          "fy": -75.24619222689074,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -160.94140625,
-      "fy": 101.00390625,
-      "nodes": [
-        {
-          "text": "1. how to make wealth  ️",
-          "url": "http://paulgraham.com/wealth.html",
-          "fx": 21.05859375,
-          "fy": 50.50390625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. getting rich: from zero to hero in one blog post  ️",
-          "url": "http://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/",
-          "fx": 21.05859375,
-          "fy": 90.50390625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. the shockingly simple math behind early retirement  ️",
-          "url": "http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/",
-          "fx": 21.05859375,
-          "fy": 152.50390625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "financial independence",
-      "target": "basics",
-      "curve": {
-        "x": -19.3359,
-        "y": 173.339
+          },
+          {
+            "url": "http://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/",
+            "text": "1. getting rich: from zero to hero in one blog post  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/",
+            "text": "2. the shockingly simple math behind early retirement  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.iasc-culture.org/THR/THR_article_2014_Fall_McPherson.php",
+            "text": "falling  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "financial independence",
-      "curve": {
-        "x": -65.7241,
-        "y": -79.4648
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/financialindependence/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Financial_independence",
+        "text": "financial independence",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 500
+    ],
+    "author": ""
+  }
 }

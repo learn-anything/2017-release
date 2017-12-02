@@ -1,106 +1,115 @@
 {
   "title": "learn anything - law - property law",
   "tag": "",
-  "nodes": [
-    {
-      "text": "property law",
-      "url": "http://www.wikiwand.com/en/Property_law",
-      "fx": -81.90625,
-      "fy": -123.05078125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.04299867153168,
-      "fy": 16.55337142944336,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=1bq7daBmjN0",
-          "fx": 108.95700132846832,
-          "fy": 28.05337142944336,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 678,
+  "map": {
+    "text": "property law",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "real property",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Real_property",
+                "text": "real property",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "personal property",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Personal_property",
+                "text": "personal property",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "intellectual property  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/property-law/intellectual-property",
+                "text": "intellectual property  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "real estate  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/property-law/real-estate",
+                "text": "real estate  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=1bq7daBmjN0",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Property_law",
+        "text": "property law",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "intellectual property  ️",
-      "url": "/law/property-law/intellectual-property",
-      "fx": 187.89611609953317,
-      "fy": 170.2279776337782,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "real property",
-      "url": "http://www.wikiwand.com/en/Real_property",
-      "fx": -242.6441379415578,
-      "fy": 171.88074763067823,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "personal property",
-      "url": "http://www.wikiwand.com/en/Personal_property",
-      "fx": -51.44994926452637,
-      "fy": 174.3154120609679,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "real estate  ️",
-      "url": "/law/property-law/real-estate",
-      "fx": -414.6848459928205,
-      "fy": 177.34457236837557,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "property law",
-      "target": "basics",
-      "curve": {
-        "x": -3.31837,
-        "y": 68.5521
       }
-    },
-    {
-      "source": "basics",
-      "target": "real property",
-      "curve": {
-        "x": -83.8002,
-        "y": 77.6637
-      }
-    },
-    {
-      "source": "basics",
-      "target": "personal property",
-      "curve": {
-        "x": 23.0465,
-        "y": 78.8811
-      }
-    },
-    {
-      "source": "basics",
-      "target": "intellectual property  ️",
-      "curve": {
-        "x": 146.97,
-        "y": 76.8373
-      }
-    },
-    {
-      "source": "basics",
-      "target": "real estate  ️",
-      "curve": {
-        "x": -198.755,
-        "y": 67.1378
-      }
-    }
-  ],
-  "id": 678
+    ],
+    "author": ""
+  }
 }

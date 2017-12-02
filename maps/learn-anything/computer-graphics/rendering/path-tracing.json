@@ -1,117 +1,98 @@
 {
   "title": "learn anything - computer graphics - rendering - path tracing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "path tracing",
-      "url": "http://www.wikiwand.com/en/Path_tracing",
-      "fx": 92.828125,
-      "fy": -224.7890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 268.1840085767353,
-      "fy": -114.2665419336584,
-      "nodes": [
-        {
-          "text": "15: path tracing 3D fractals  ️",
-          "url": "http://blog.hvidtfeldts.net/index.php/2015/01/path-tracing-3d-fractals/",
-          "fx": 437.1840085767353,
-          "fy": -101.7665419336584,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 382.52871489410677,
-      "fy": -9.3647646178635,
-      "nodes": [
-        {
-          "text": "WebGL path tracing",
-          "url": "http://madebyevan.com/webgl-path-tracing/",
-          "fx": 581.5287148941068,
-          "fy": 3.1352353821365,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "implementations",
-      "url": "",
-      "fx": 498.246303013393,
-      "fy": 113.04721989707332,
-      "nodes": [
-        {
-          "text": "in go",
-          "url": "https://github.com/fogleman/pt",
-          "fx": 759.246303013393,
-          "fy": 125.54721989707332,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 122.41285988448078,
-      "fy": 223.13366444440925,
-      "nodes": [
-        {
-          "text": "1. Disney’s guide to path tracing",
-          "url": "https://www.youtube.com/watch?v=frLwRLS_ZR0",
-          "fx": 285.4128598844808,
-          "fy": 223.13366444440925,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "path tracing",
-      "target": "basics",
-      "curve": {
-        "x": -4.95763,
-        "y": 222.712
+  "id": 227,
+  "map": {
+    "text": "path tracing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=frLwRLS_ZR0",
+            "text": "1. Disney’s guide to path tracing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [
+              {
+                "text": "implementations",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://github.com/fogleman/pt",
+                    "text": "in go",
+                    "category": "github",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://madebyevan.com/webgl-path-tracing/",
+                "text": "WebGL path tracing",
+                "category": "interactive",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://blog.hvidtfeldts.net/index.php/2015/01/path-tracing-3d-fractals/",
+            "text": "15: path tracing 3D fractals  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "path tracing",
-      "curve": {
-        "x": -69.4279,
-        "y": -54.0113
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Path_tracing",
+        "text": "path tracing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -64.4224,
-        "y": -52.4509
-      }
-    },
-    {
-      "source": "implementations",
-      "target": "interesting",
-      "curve": {
-        "x": -73.3588,
-        "y": -61.206
-      }
-    }
-  ],
-  "id": 227
+    ],
+    "author": ""
+  }
 }

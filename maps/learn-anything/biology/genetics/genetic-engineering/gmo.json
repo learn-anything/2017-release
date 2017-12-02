@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - genetics - genetic engineering - gmo",
   "tag": "genetically modified organisms",
-  "nodes": [
-    {
-      "text": "genetically modified organisms",
-      "url": "http://www.wikiwand.com/en/Genetically_modified_organism",
-      "fx": 73.390625,
-      "fy": -131.515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 128,
-      "fy": 49,
-      "nodes": [
-        {
-          "text": "1. are GMOs good or bad? genetic engineering &amp; our food",
-          "url": "https://www.youtube.com/watch?v=7TmcXYp8xu4",
-          "fx": 291,
-          "fy": 49,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "genetically modified organisms",
-      "target": "basics",
-      "curve": {
-        "x": -6.94531,
-        "y": 82.2578
+  "id": 100,
+  "map": {
+    "text": "genetically modified organisms",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=7TmcXYp8xu4",
+            "text": "1. are GMOs good or bad? genetic engineering &amp; our food",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 100
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Genetically_modified_organism",
+        "text": "genetically modified organisms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

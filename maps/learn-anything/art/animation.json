@@ -1,181 +1,196 @@
 {
   "title": "learn anything - art - animation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "animation",
-      "url": "http://www.wikiwand.com/en/Animation",
-      "fx": -74.1558078277942,
-      "fy": -481.27671512337616,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/animation/",
-          "fx": 140.8441921722058,
-          "fy": -487.27671512337616,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "learn animation",
-          "url": "https://www.reddit.com/r/learnanimation/",
-          "fx": 140.8441921722058,
-          "fy": -447.27671512337616,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 8,
+  "map": {
+    "text": "animation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "blender  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/3d-modelling/blender",
+                "text": "blender  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "motion graphics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/animation/motion-graphics",
+                "text": "motion graphics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/136091.The_Animator_s_Survival_Kit",
+            "text": "1. the animator’s survival kit",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.khanacademy.org/partner-content/pixar",
+            "text": "1. khan academy animation by Pixar",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=w_MSFkZHNi4",
+            "text": "double king",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TuJqUvBj4rE",
+            "text": "DDWIWDD",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kfoJUeyMsOE",
+            "text": "rone - bye bye macadam",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=rEUxlwb2uFI",
+            "text": "love &amp; theft",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=B5hi-IKUX7M",
+            "text": "raw data",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CjO-uwzo8BA",
+            "text": "Lebensader",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=mSHEd-2ut3I",
+            "text": "ring of fire",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/animation/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 219.3056473842887,
-      "fy": -281.8269603640535,
-      "nodes": [
-        {
-          "text": "double king",
-          "url": "https://www.youtube.com/watch?v=w_MSFkZHNi4",
-          "fx": 410.3056473842887,
-          "fy": -390.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "DDWIWDD",
-          "url": "https://www.youtube.com/watch?v=TuJqUvBj4rE",
-          "fx": 410.3056473842887,
-          "fy": -350.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "rone - bye bye macadam",
-          "url": "https://www.youtube.com/watch?v=kfoJUeyMsOE",
-          "fx": 410.3056473842887,
-          "fy": -310.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "love &amp; theft",
-          "url": "https://www.youtube.com/watch?v=rEUxlwb2uFI",
-          "fx": 410.3056473842887,
-          "fy": -270.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "raw data",
-          "url": "https://www.youtube.com/watch?v=B5hi-IKUX7M",
-          "fx": 410.3056473842887,
-          "fy": -230.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "Lebensader",
-          "url": "https://www.youtube.com/watch?v=CjO-uwzo8BA",
-          "fx": 410.3056473842887,
-          "fy": -190.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "ring of fire",
-          "url": "https://www.youtube.com/watch?v=mSHEd-2ut3I",
-          "fx": 410.3056473842887,
-          "fy": -150.3269603640535,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://www.reddit.com/r/learnanimation/",
+        "text": "learn animation",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -173.23533821105957,
-      "fy": -119.0023078918457,
-      "nodes": [
-        {
-          "text": "1. the animator’s survival kit",
-          "url": "http://www.goodreads.com/book/show/136091.The_Animator_s_Survival_Kit",
-          "fx": -17.23533821105957,
-          "fy": -138.5023078918457,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. khan academy animation by Pixar",
-          "url": "https://www.khanacademy.org/partner-content/pixar",
-          "fx": -17.23533821105957,
-          "fy": -98.5023078918457,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Animation",
+        "text": "animation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "motion graphics  ️",
-      "url": "/art/animation/motion-graphics",
-      "fx": -412.1361607142855,
-      "fy": -12.703125,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "blender  ️",
-      "url": "/computer-graphics/3d-modelling/blender",
-      "fx": -162.321594082699,
-      "fy": 35.59531566295482,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "animation",
-      "target": "basics",
-      "curve": {
-        "x": -64.2898,
-        "y": 179.888
       }
-    },
-    {
-      "source": "basics",
-      "target": "blender  ️",
-      "curve": {
-        "x": 7.95688,
-        "y": 77.2988
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "animation",
-      "curve": {
-        "x": -136.231,
-        "y": -98.4749
-      }
-    },
-    {
-      "source": "basics",
-      "target": "motion graphics  ️",
-      "curve": {
-        "x": -97.4504,
-        "y": 53.1496
-      }
-    }
-  ],
-  "id": 8
+    ],
+    "author": ""
+  }
 }

@@ -1,75 +1,70 @@
 {
   "title": "learn anything - cognitive science - cognition - cognitive biases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cognitive biases",
-      "url": "http://www.wikiwand.com/en/Cognitive_bias",
-      "fx": 174.28242807539687,
-      "fy": -186.50372023809518,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 339.798700403284,
-      "fy": -62.22859134623616,
-      "nodes": [
-        {
-          "text": "list of cognitive biases",
-          "url": "http://rationalwiki.org/wiki/List_of_cognitive_biases",
-          "fx": 476.798700403284,
-          "fy": -47.72859134623616,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 197.3507239511555,
-      "fy": 57.05931885751909,
-      "nodes": [
-        {
-          "text": "1. cognition: how your mind can amaze and betray you",
-          "url": "https://www.youtube.com/watch?v=R-sVnmmw6WY&amp;t=4s",
-          "fx": 353.3507239511555,
-          "fy": 37.55931885751909,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. cognitive bias cheat sheet  ️",
-          "url": "https://medium.com/thinking-is-hard/4-conundrums-of-intelligence-2ab78d90740f",
-          "fx": 353.3507239511555,
-          "fy": 99.55931885751909,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "cognitive biases",
-      "target": "basics",
-      "curve": {
-        "x": -17.2158,
-        "y": 120.532
+  "id": 181,
+  "map": {
+    "text": "cognitive biases",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=R-sVnmmw6WY&amp;t=4s",
+            "text": "1. cognition: how your mind can amaze and betray you",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/thinking-is-hard/4-conundrums-of-intelligence-2ab78d90740f",
+            "text": "2. cognitive bias cheat sheet  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://rationalwiki.org/wiki/List_of_cognitive_biases",
+            "text": "list of cognitive biases",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "cognitive biases",
-      "curve": {
-        "x": -49.2581,
-        "y": -60.8876
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cognitive_bias",
+        "text": "cognitive biases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 181
+    ],
+    "author": ""
+  }
 }

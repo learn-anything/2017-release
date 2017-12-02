@@ -1,68 +1,61 @@
 {
   "title": "learn anything - design - design thinking",
   "tag": "",
-  "nodes": [
-    {
-      "text": "design thinking",
-      "url": "http://www.wikiwand.com/en/Design_thinking",
-      "fx": -77.109375,
-      "fy": -176.40625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 81.27486947894249,
-      "fy": -71.2195777317284,
-      "nodes": [
-        {
-          "text": "16: you’re design thinking too much  ️",
-          "url": "http://zurb.com/article/1459/you-re-design-thinking-too-much",
-          "fx": 243.2748694789425,
-          "fy": -59.71957773172841,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -16.9559174997637,
-      "fy": 22.253652184959492,
-      "nodes": [
-        {
-          "text": "1. design thinking for innovation",
-          "url": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation",
-          "fx": 165.0440825002363,
-          "fy": 33.75365218495949,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "design thinking",
-      "target": "basics",
-      "curve": {
-        "x": 3.32673,
-        "y": 98.08
+  "id": 426,
+  "map": {
+    "text": "design thinking",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/learn/uva-darden-design-thinking-innovation",
+            "text": "1. design thinking for innovation",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://zurb.com/article/1459/you-re-design-thinking-too-much",
+            "text": "16: you’re design thinking too much  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "design thinking",
-      "curve": {
-        "x": -53.9421,
-        "y": -51.3433
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Design_thinking",
+        "text": "design thinking",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 426
+    ],
+    "author": ""
+  }
 }

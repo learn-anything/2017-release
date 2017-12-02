@@ -1,85 +1,97 @@
 {
   "title": "learn anything - art - music - new music - coding music",
   "tag": "",
-  "nodes": [
-    {
-      "text": "coding music",
-      "url": "",
-      "fx": -78,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "music for programming",
-          "url": "https://musicforprogramming.net/?one",
-          "fx": 155,
-          "fy": -129,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "Yosi Horikawa Live Stream",
-          "url": "https://www.youtube.com/watch?v=E34S2Iihoww",
-          "fx": 155,
-          "fy": -92,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "Rippetron - the sandbox",
-          "url": "https://www.youtube.com/watch?v=_GfmWFDclS0",
-          "fx": 155,
-          "fy": -50,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "Nils has a new piano",
-          "url": "http://www.youtubeonrepeat.com/watch/?v=kSLd6D0tgIQ",
-          "fx": 155,
-          "fy": -8,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "OP-1 performance",
-          "url": "http://www.youtubeonrepeat.com/watch/?v=TyXoFG-HPQs&amp;list=PL0nGxteCFLXYA1fsLmlWzY0Tyoo3c7tF-&amp;index=20",
-          "fx": 155,
-          "fy": 34,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "Murcof - Rostro",
-          "url": "https://www.youtube.com/watch?v=YHfdOYJohN0",
-          "fx": 155,
-          "fy": 76,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "coding spotify playlist",
-          "url": "https://open.spotify.com/user/nikitavoloboev/playlist/75UQBC8VAp0WbET7XERguH",
-          "fx": 155,
-          "fy": 118,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "purr generator",
-          "url": "https://purrli.com/",
-          "fx": 155,
-          "fy": 155,
-          "nodes": [],
-          "color": "rgba(169, 255, 0, 1.0)"
+  "id": 51,
+  "map": {
+    "text": "coding music",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://musicforprogramming.net/?one",
+        "text": "music for programming",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [],
-  "id": 51
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=E34S2Iihoww",
+        "text": "Yosi Horikawa Live Stream",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_GfmWFDclS0",
+        "text": "Rippetron - the sandbox",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.youtubeonrepeat.com/watch/?v=kSLd6D0tgIQ",
+        "text": "Nils has a new piano",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.youtubeonrepeat.com/watch/?v=TyXoFG-HPQs&amp;list=PL0nGxteCFLXYA1fsLmlWzY0Tyoo3c7tF-&amp;index=20",
+        "text": "OP-1 performance",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=YHfdOYJohN0",
+        "text": "Murcof - Rostro",
+        "category": "video",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://open.spotify.com/user/nikitavoloboev/playlist/75UQBC8VAp0WbET7XERguH",
+        "text": "coding spotify playlist",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://purrli.com/",
+        "text": "purr generator",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

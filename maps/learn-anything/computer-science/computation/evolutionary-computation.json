@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - computation - evolutionary computation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "evolutionary computation",
-      "url": "http://www.wikiwand.com/en/Evolutionary_computation",
-      "fx": 180.44921875,
-      "fy": -257.11328125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 382.55646306818176,
-      "fy": -133.07741477272714,
-      "nodes": [
-        {
-          "text": "13: talk by Keith Downing on evolutionary computation",
-          "url": "https://www.youtube.com/watch?v=D3zUmfDd79s",
-          "fx": 573.5564630681818,
-          "fy": -132.57741477272714,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 271.06456486925094,
-      "fy": 0.05690867411885847,
-      "nodes": [
-        {
-          "text": "1. genetic algorithms and evolutionary computing",
-          "url": "https://www.youtube.com/watch?v=6l6b78Y4V7Y",
-          "fx": 427.06456486925094,
-          "fy": 0.5569086741188585,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "evolutionary computation",
-      "curve": {
-        "x": -60.3036,
-        "y": -60.7679
+  "id": 303,
+  "map": {
+    "text": "evolutionary computation",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=D3zUmfDd79s",
+            "text": "13: talk by Keith Downing on evolutionary computation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6l6b78Y4V7Y",
+            "text": "1. genetic algorithms and evolutionary computing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "evolutionary computation",
-      "target": "basics",
-      "curve": {
-        "x": -4.19233,
-        "y": 127.335
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Evolutionary_computation",
+        "text": "evolutionary computation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 303
+    ],
+    "author": ""
+  }
 }

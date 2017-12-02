@@ -1,59 +1,62 @@
 {
   "title": "learn anything - law - politics - political science - libertarianism - agorism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "agorism",
-      "url": "http://www.wikiwand.com/en/Agorism",
-      "fx": 109.23318614130437,
-      "fy": -171.38043478260875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Agorism/",
-          "fx": 318.2331861413044,
-          "fy": -157.38043478260875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.53512794384028,
-      "fy": -40.33333333333303,
-      "nodes": [
-        {
-          "text": "1. wiki",
-          "url": "http://agorism.info/",
-          "fx": 290.5351279438403,
-          "fy": -43.83333333333303,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. agorist class theory",
-          "url": "http://agorism.info/docs/AgoristClassTheory.pdf",
-          "fx": 290.5351279438403,
-          "fy": -6.83333333333303,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "agorism",
-      "target": "basics",
-      "curve": {
-        "x": -2.34903,
-        "y": 64.7736
+  "id": 671,
+  "map": {
+    "text": "agorism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://agorism.info/",
+            "text": "1. wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://agorism.info/docs/AgoristClassTheory.pdf",
+            "text": "1. agorist class theory",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 671
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Agorism/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Agorism",
+        "text": "agorism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

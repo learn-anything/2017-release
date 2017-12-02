@@ -1,77 +1,85 @@
 {
   "title": "learn anything - art - filmmaking - new movies",
   "tag": "",
-  "nodes": [
-    {
-      "text": "movies",
-      "url": "https://github.com/learn-anything/movies",
-      "fx": -116.48346998414229,
-      "fy": -52.219670606563454,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "find new movies",
-      "url": "",
-      "fx": -147.78895830626516,
-      "fy": 122.68641045748649,
-      "nodes": [
-        {
-          "text": "letterboxd",
-          "url": "https://letterboxd.com/",
-          "fx": 96.21104169373484,
-          "fy": 57.18641045748649,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "movies",
-          "url": "https://www.reddit.com/r/movies/",
-          "fx": 96.21104169373484,
-          "fy": 91.18641045748649,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "true film",
-          "url": "https://www.reddit.com/r/TrueFilm/",
-          "fx": 96.21104169373484,
-          "fy": 131.1864104574865,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "movie suggestions",
-          "url": "https://www.reddit.com/r/MovieSuggestions/",
-          "fx": 96.21104169373484,
-          "fy": 171.1864104574865,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "movies for hackers",
-          "url": "https://github.com/k4m4/movies-for-hackers",
-          "fx": 96.21104169373484,
-          "fy": 211.1864104574865,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "movies",
-      "target": "find new movies",
-      "curve": {
-        "x": -2.40274,
-        "y": 86.203
+  "id": 23,
+  "map": {
+    "text": "movies",
+    "nodes": [
+      {
+        "text": "find new movies",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://letterboxd.com/",
+            "text": "letterboxd",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/movies/",
+            "text": "movies",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/TrueFilm/",
+            "text": "true film",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/MovieSuggestions/",
+            "text": "movie suggestions",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/k4m4/movies-for-hackers",
+            "text": "movies for hackers",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 23
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/learn-anything/movies",
+        "text": "movies",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

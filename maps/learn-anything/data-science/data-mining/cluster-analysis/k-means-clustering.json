@@ -1,42 +1,42 @@
 {
   "title": "learn anything - data science - data mining - cluster analysis - k-means clustering",
   "tag": "k-means clustering",
-  "nodes": [
-    {
-      "text": "k-means clustering",
-      "url": "http://www.wikiwand.com/en/K-means_clustering",
-      "fx": 98.5625,
-      "fy": -327.5390625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 172.58275295740737,
-      "fy": -177.298012956572,
-      "nodes": [
-        {
-          "text": "1. k-means &amp; image segmentation",
-          "url": "https://www.youtube.com/watch?v=yR7k19YBqiw",
-          "fx": 335.58275295740737,
-          "fy": -177.298012956572,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "k-means clustering",
-      "target": "basics",
-      "curve": {
-        "x": -1.98987,
-        "y": 74.3705
+  "id": 388,
+  "map": {
+    "text": "k-means clustering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yR7k19YBqiw",
+            "text": "1. k-means &amp; image segmentation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 388
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/K-means_clustering",
+        "text": "k-means clustering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

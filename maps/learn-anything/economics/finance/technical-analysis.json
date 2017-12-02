@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - finance - technical analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "technical analysis",
-      "url": "http://www.wikiwand.com/en/Technical_analysis",
-      "fx": -106.1015625,
-      "fy": -169.31640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=rlZRtQkfK04",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "technical analysis",
-      "target": "basics",
-      "curve": {
-        "x": -2.19922,
-        "y": 82.4082
+  "id": 488,
+  "map": {
+    "text": "technical analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=rlZRtQkfK04",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 488
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Technical_analysis",
+        "text": "technical analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

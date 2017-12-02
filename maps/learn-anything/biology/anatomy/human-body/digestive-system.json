@@ -1,76 +1,83 @@
 {
   "title": "learn anything - biology - anatomy - human body - digestive system",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digestive system",
-      "url": "http://www.wikiwand.com/en/Human_digestive_system",
-      "fx": 64.7467245729814,
-      "fy": -123.95962732919253,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 109.73439407348633,
-      "fy": 25.415531158447266,
-      "nodes": [
-        {
-          "text": "1. digestive system: part I",
-          "url": "https://www.youtube.com/watch?v=yIoTRGfcMqM",
-          "fx": 265.7343940734863,
-          "fy": -3.0844688415527344,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. digestive system: part II",
-          "url": "https://www.youtube.com/watch?v=pqgcEIaXGME&amp;t=1s",
-          "fx": 265.7343940734863,
-          "fy": 36.915531158447266,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "3. digestive system: part III",
-          "url": "https://www.youtube.com/watch?v=jGme7BRkpuQ",
-          "fx": 265.7343940734863,
-          "fy": 76.91553115844727,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 80,
+  "map": {
+    "text": "digestive system",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "gastrointestinal tract  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body/digestive-system/gastrointestinal-tract",
+                "text": "gastrointestinal tract  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yIoTRGfcMqM",
+            "text": "1. digestive system: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=pqgcEIaXGME&amp;t=1s",
+            "text": "2. digestive system: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jGme7BRkpuQ",
+            "text": "3. digestive system: part III",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Human_digestive_system",
+        "text": "digestive system",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "gastrointestinal tract  ️",
-      "url": "/biology/anatomy/human-body/digestive-system/gastrointestinal-tract",
-      "fx": -78.53979988971321,
-      "fy": 166.71540018254268,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "digestive system",
-      "target": "basics",
-      "curve": {
-        "x": -7.75616,
-        "y": 73.4375
       }
-    },
-    {
-      "source": "basics",
-      "target": "gastrointestinal tract  ️",
-      "curve": {
-        "x": -55.8871,
-        "y": 71.8999
-      }
-    }
-  ],
-  "id": 80
+    ],
+    "author": ""
+  }
 }

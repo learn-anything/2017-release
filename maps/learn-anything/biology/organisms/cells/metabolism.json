@@ -1,99 +1,108 @@
 {
   "title": "learn anything - biology - organisms - cells - metabolism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "metabolism",
-      "url": "http://www.wikiwand.com/en/Metabolism",
-      "fx": 19.94711538461536,
-      "fy": -500.03465544871796,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 49.73067778010045,
-      "fy": -359.827846293233,
-      "nodes": [
-        {
-          "text": "1. metabolism &amp; nutrition: part I",
-          "url": "https://www.youtube.com/watch?v=fR3NxCR9z2U",
-          "fx": 205.73067778010045,
-          "fy": -368.327846293233,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. metabolism &amp; nutrition: part II",
-          "url": "https://www.youtube.com/watch?v=kb146Y1igTQ",
-          "fx": 205.73067778010045,
-          "fy": -328.327846293233,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 117,
+  "map": {
+    "text": "metabolism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "fermentation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/metabolism/fermentation",
+                "text": "fermentation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cellular respiration  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/metabolism/cellular-respiration",
+                "text": "cellular respiration  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "enzymes  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/metabolism/enzymes",
+                "text": "enzymes  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=fR3NxCR9z2U",
+            "text": "1. metabolism &amp; nutrition: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kb146Y1igTQ",
+            "text": "2. metabolism &amp; nutrition: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Metabolism",
+        "text": "metabolism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "fermentation  ️",
-      "url": "/biology/organisms/cells/metabolism/fermentation",
-      "fx": -44.193172454833984,
-      "fy": -220.80377960205078,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cellular respiration  ️",
-      "url": "/biology/organisms/cells/metabolism/cellular-respiration",
-      "fx": 143.93448638916016,
-      "fy": -220.72643661499023,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "enzymes  ️",
-      "url": "/biology/organisms/cells/metabolism/enzymes",
-      "fx": -199.27339181286538,
-      "fy": -219.31094663742692,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "metabolism",
-      "target": "basics",
-      "curve": {
-        "x": -4.10822,
-        "y": 68.8534
       }
-    },
-    {
-      "source": "basics",
-      "target": "fermentation  ️",
-      "curve": {
-        "x": -33.2119,
-        "y": 69.5121
-      }
-    },
-    {
-      "source": "basics",
-      "target": "cellular respiration  ️",
-      "curve": {
-        "x": 73.102,
-        "y": 69.5507
-      }
-    },
-    {
-      "source": "basics",
-      "target": "enzymes  ️",
-      "curve": {
-        "x": -141.87,
-        "y": 59.2844
-      }
-    }
-  ],
-  "id": 117
+    ],
+    "author": ""
+  }
 }

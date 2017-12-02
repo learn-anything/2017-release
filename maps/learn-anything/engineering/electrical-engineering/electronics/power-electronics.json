@@ -1,51 +1,53 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - power electronics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "power electronics",
-      "url": "http://www.wikiwand.com/en/Power_electronics",
-      "fx": -91.76171875,
-      "fy": -163.125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -31.08203125,
-      "fy": -17.4296875,
-      "nodes": [
-        {
-          "text": "1. introduction to power electronics",
-          "url": "https://www.coursera.org/learn/power-electronics",
-          "fx": 124.91796875,
-          "fy": -36.9296875,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. fundamentals of power electronics",
-          "url": "https://www.youtube.com/watch?v=aE4UPFvafaM&amp;list=PLmK1EnKxphikP6c9Yc9kGYO0kvrbEoWN8",
-          "fx": 124.91796875,
-          "fy": 3.0703125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "power electronics",
-      "target": "basics",
-      "curve": {
-        "x": -2.41016,
-        "y": 71.5977
+  "id": 534,
+  "map": {
+    "text": "power electronics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/learn/power-electronics",
+            "text": "1. introduction to power electronics",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aE4UPFvafaM&amp;list=PLmK1EnKxphikP6c9Yc9kGYO0kvrbEoWN8",
+            "text": "1. fundamentals of power electronics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 534
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Power_electronics",
+        "text": "power electronics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

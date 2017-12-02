@@ -1,86 +1,82 @@
 {
   "title": "learn anything - databases - nosql databases - redis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "redis",
-      "url": "https://github.com/antirez/redis",
-      "fx": -48.65959821428589,
-      "fy": -175.89006696428572,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/redis/",
-          "fx": 122.3404017857141,
-          "fy": -181.89006696428572,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/JamzyWang/awesome-redis",
-          "fx": 122.3404017857141,
-          "fy": -141.89006696428572,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "github"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 58.700334821428555,
-      "fy": -54.36328124999886,
-      "nodes": [
-        {
-          "text": "17: Learn Redis the hard way (in production)  ️",
-          "url": "http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/?",
-          "fx": 220.70033482142856,
-          "fy": -53.86328124999886,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -42.405133928571445,
-      "fy": 38.357142857143,
-      "nodes": [
-        {
-          "text": "try out redis",
-          "url": "http://try.redis.io/",
-          "fx": 139.59486607142856,
-          "fy": 52.857142857143,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "redis",
-      "target": "basics",
-      "curve": {
-        "x": -0.622768,
-        "y": 105.874
+  "id": 410,
+  "map": {
+    "text": "redis",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://try.redis.io/",
+            "text": "try out redis",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/?",
+            "text": "17: Learn Redis the hard way (in production)  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "redis",
-      "curve": {
-        "x": -51.43,
-        "y": -59.5134
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/redis/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/JamzyWang/awesome-redis",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/antirez/redis",
+        "text": "redis",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 410
+    ],
+    "author": ""
+  }
 }

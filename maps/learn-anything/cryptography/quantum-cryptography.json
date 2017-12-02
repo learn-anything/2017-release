@@ -1,51 +1,53 @@
 {
   "title": "learn anything - cryptography - quantum cryptography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "quantum cryptography",
-      "url": "http://www.wikiwand.com/en/Quantum_cryptography",
-      "fx": 17.429357394366207,
-      "fy": -177.123954665493,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 112.35622317596551,
-      "fy": -19.2509142840006,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=UiJiXNEm-Go",
-          "fx": 275.3562231759655,
-          "fy": -52.7509142840006,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. introduction to quantum cryptography by Vadim Makarov",
-          "url": "https://www.youtube.com/watch?v=ToOLbdrWst4",
-          "fx": 275.3562231759655,
-          "fy": -10.7509142840006,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "quantum cryptography",
-      "target": "basics",
-      "curve": {
-        "x": -0.536567,
-        "y": 78.1865
+  "id": 372,
+  "map": {
+    "text": "quantum cryptography",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=UiJiXNEm-Go",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ToOLbdrWst4",
+            "text": "1. introduction to quantum cryptography by Vadim Makarov",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 372
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Quantum_cryptography",
+        "text": "quantum cryptography",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

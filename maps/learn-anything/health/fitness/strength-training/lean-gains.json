@@ -1,40 +1,29 @@
 {
   "title": "learn anything - health - fitness - strength training - lean gains",
   "tag": "",
-  "nodes": [
-    {
-      "text": "lean gains",
-      "url": "",
-      "fx": -55.16015625,
-      "fy": -113.40625,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. FAQ",
-          "url": "https://examine.com/leangains-faq/",
-          "fx": 109.5,
-          "fy": 12.5,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "lean gains",
-      "target": "basics",
-      "curve": {
-        "x": -3.91992,
-        "y": 55.7031
+  "id": 597,
+  "map": {
+    "text": "lean gains",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://examine.com/leangains-faq/",
+            "text": "1. FAQ",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 597
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

@@ -18,6 +18,7 @@
   "repository": "nikitavoloboev/learn-anything",
   "scripts": {
     "setup": "node scripts/setupES.js",
+    "setup:dynamo": "node scripts/dynamo/setup.js",
     "setup:prod": "NODE_ENV='production' node ./scripts/setupES.js",
     "update": "node scripts/fetchMaps.js && ./scripts/updateES.sh",
     "update:prod": "node scripts/fetchMaps.js && NODE_ENV='production' ./scripts/updateES.sh"
@@ -29,7 +30,6 @@
     "es6-promise-pool": "^2.5.0",
     "fs-extra": "^4.0.1",
     "fs-walk": "^0.0.1",
-    "http-aws-es": "^2.0.5",
-    "sitemap": "^1.13.0"
+    "http-aws-es": "^2.0.5"
   }
 }

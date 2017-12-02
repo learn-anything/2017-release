@@ -1,92 +1,90 @@
 {
   "title": "learn anything - cognitive science - cognition - learning - education",
   "tag": "",
-  "nodes": [
-    {
-      "text": "education",
-      "url": "http://www.wikiwand.com/en/Education",
-      "fx": 59.663830636116586,
-      "fy": -274.6790344343801,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 189.74525906251438,
-      "fy": -151.3538356936965,
-      "nodes": [
-        {
-          "text": "1990: why schools don’t educate  ️",
-          "url": "http://www.naturalchild.org/guest/john_gatto.html",
-          "fx": 380.7452590625144,
-          "fy": -159.8538356936965,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "17: is higher education a scam?",
-          "url": "https://www.youtube.com/watch?v=rzdiWDw4teo",
-          "fx": 380.7452590625144,
-          "fy": -119.85383569369651,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 188,
+  "map": {
+    "text": "education",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "teaching  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/learning/education/teaching",
+                "text": "teaching  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wX78iKhInsc",
+            "text": "1. how to escape education’s death valley",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.naturalchild.org/guest/john_gatto.html",
+            "text": "1990: why schools don’t educate  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=rzdiWDw4teo",
+            "text": "17: is higher education a scam?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Education",
+        "text": "education",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 65.18758556808234,
-      "fy": -31.558979997312463,
-      "nodes": [
-        {
-          "text": "1. how to escape education’s death valley",
-          "url": "https://www.youtube.com/watch?v=wX78iKhInsc",
-          "fx": 221.18758556808234,
-          "fy": -31.058979997312463,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "teaching  ️",
-      "url": "/cognitive-science/cognition/learning/education/teaching",
-      "fx": -79.71607035024147,
-      "fy": 85.80759359903391,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "education",
-      "target": "basics",
-      "curve": {
-        "x": -12.2381,
-        "y": 120.31
       }
-    },
-    {
-      "source": "basics",
-      "target": "teaching  ️",
-      "curve": {
-        "x": -67.4518,
-        "y": 58.6833
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "education",
-      "curve": {
-        "x": -58.7907,
-        "y": -60.4126
-      }
-    }
-  ],
-  "id": 188
+    ],
+    "author": ""
+  }
 }

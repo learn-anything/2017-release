@@ -1,33 +1,42 @@
 {
   "title": "learn anything - data science - data analysis - analytics - web analytics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "web analytics",
-      "url": "http://www.wikiwand.com/en/Web_analytics",
-      "fx": 74.7890625,
-      "fy": -165.23828125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "google analytics  ️",
-      "url": "/data-science/data-analysis/analytics/web-analytics/google-analytics",
-      "fx": -47.92578125,
-      "fy": -14.26953125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "web analytics",
-      "target": "google analytics  ️",
-      "curve": {
-        "x": -55.6074,
-        "y": 75.4844
+  "id": 381,
+  "map": {
+    "text": "web analytics",
+    "nodes": [
+      {
+        "text": "google analytics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/data-science/data-analysis/analytics/web-analytics/google-analytics",
+            "text": "google analytics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 381
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Web_analytics",
+        "text": "web analytics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

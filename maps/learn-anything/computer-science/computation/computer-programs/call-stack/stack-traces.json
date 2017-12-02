@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - computation - computer programs - call stack - stack traces",
   "tag": "",
-  "nodes": [
-    {
-      "text": "stack traces",
-      "url": "http://www.wikiwand.com/en/Stack_trace",
-      "fx": -36.9453125,
-      "fy": -352.953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -1.9140625,
-      "fy": -208.2265625,
-      "nodes": [
-        {
-          "text": "1. explanation  ️",
-          "url": "https://stackoverflow.com/a/33123156/3067664",
-          "fx": 161.0859375,
-          "fy": -195.7265625,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stack traces",
-      "target": "basics",
-      "curve": {
-        "x": -4.48438,
-        "y": 71.6133
+  "id": 292,
+  "map": {
+    "text": "stack traces",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/33123156/3067664",
+            "text": "1. explanation  ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 292
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stack_trace",
+        "text": "stack traces",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

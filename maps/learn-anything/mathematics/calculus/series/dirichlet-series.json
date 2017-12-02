@@ -1,33 +1,42 @@
 {
   "title": "learn anything - mathematics - calculus - series - dirichlet series",
   "tag": "Dirichlet series",
-  "nodes": [
-    {
-      "text": "Dirichlet series",
-      "url": "http://www.wikiwand.com/en/Dirichlet_series",
-      "fx": 146.42787728658527,
-      "fy": -101.87966844512198,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "Riemann zeta function  ️",
-      "url": "/mathematics/calculus/series/dirichlet-series/riemann-zeta-function",
-      "fx": -64.94664634146363,
-      "fy": 54.45388719515569,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "Dirichlet series",
-      "target": "Riemann zeta function  ️",
-      "curve": {
-        "x": -96.7928,
-        "y": 77.0776
+  "id": 900,
+  "map": {
+    "text": "Dirichlet series",
+    "nodes": [
+      {
+        "text": "Riemann zeta function  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/mathematics/calculus/series/dirichlet-series/riemann-zeta-function",
+            "text": "Riemann zeta function  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 897
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Dirichlet_series",
+        "text": "Dirichlet series",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

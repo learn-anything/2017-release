@@ -1,42 +1,42 @@
 {
   "title": "learn anything - programming - programming paradigms - metaprogramming",
   "tag": "",
-  "nodes": [
-    {
-      "text": "metaprogramming",
-      "url": "http://www.wikiwand.com/en/Metaprogramming",
-      "fx": 85.7421875,
-      "fy": -117.61328125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 255.52738001613477,
-      "fy": 16.401104293239996,
-      "nodes": [
-        {
-          "text": "16: introduction to metaprogramming in nim  ️",
-          "url": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/",
-          "fx": 453.52738001613477,
-          "fy": 16.401104293239996,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "metaprogramming",
-      "curve": {
-        "x": -56.8926,
-        "y": -66.2572
+  "id": 1681,
+  "map": {
+    "text": "metaprogramming",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/",
+            "text": "16: introduction to metaprogramming in nim  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1678
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Metaprogramming",
+        "text": "metaprogramming",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

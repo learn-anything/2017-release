@@ -1,52 +1,53 @@
 {
   "title": "learn anything - art - photography - adobe lightroom",
   "tag": "",
-  "nodes": [
-    {
-      "text": "adobe lightroom",
-      "url": "http://www.wikiwand.com/en/Adobe_Photoshop_Lightroom",
-      "fx": -113.25168225364962,
-      "fy": -362.07738366788334,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Lightroom/",
-          "fx": 160.74831774635038,
-          "fy": -348.07738366788334,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -58.11744250741867,
-      "fy": -193.12857010387256,
-      "nodes": [
-        {
-          "text": "1. getting started with Lightroom",
-          "url": "https://www.youtube.com/playlist?list=PLmXfFxjdp3CHCRpDULlvcaqWfK_zLPWF2",
-          "fx": 97.88255749258133,
-          "fy": -181.62857010387256,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "adobe lightroom",
-      "target": "basics",
-      "curve": {
-        "x": -2.18288,
-        "y": 83.2244
+  "id": 57,
+  "map": {
+    "text": "adobe lightroom",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLmXfFxjdp3CHCRpDULlvcaqWfK_zLPWF2",
+            "text": "1. getting started with Lightroom",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 57
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Lightroom/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Adobe_Photoshop_Lightroom",
+        "text": "adobe lightroom",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

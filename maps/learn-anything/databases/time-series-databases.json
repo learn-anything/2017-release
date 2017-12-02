@@ -1,34 +1,43 @@
 {
   "title": "learn anything - databases - time series databases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "time series database",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Time_series_database",
-      "fx": -188.46223958333337,
-      "fy": -255.25651041666663,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "influxDB  ️",
-      "url": "/databases/time-series-databases/influxdb",
-      "fx": -190.14985015272623,
-      "fy": -104.79893100520178,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "time series database",
-      "target": "influxDB  ️",
-      "curve": {
-        "x": -28.8438,
-        "y": 75.2288
+  "id": 417,
+  "map": {
+    "text": "time series database",
+    "note": "",
+    "nodes": [
+      {
+        "text": "influxDB  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/databases/time-series-databases/influxdb",
+            "text": "influxDB  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 417
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Time_series_database",
+        "text": "time series database",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

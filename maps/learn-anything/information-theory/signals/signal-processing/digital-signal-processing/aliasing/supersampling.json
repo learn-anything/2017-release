@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing - aliasing - supersampling",
   "tag": "",
-  "nodes": [
-    {
-      "text": "supersampling",
-      "url": "http://www.wikiwand.com/en/Supersampling",
-      "fx": 14.30078125,
-      "fy": -193.80078125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 64.17187500000102,
-      "fy": -49.15845146043256,
-      "nodes": [
-        {
-          "text": "1. how to use supersampling to make games look better",
-          "url": "https://www.youtube.com/watch?v=906EEPlB3Ao&amp;feature=youtu.be",
-          "fx": 227.17187500000102,
-          "fy": -49.15845146043256,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "supersampling",
-      "target": "basics",
-      "curve": {
-        "x": -3.31445,
-        "y": 71.5712
+  "id": 653,
+  "map": {
+    "text": "supersampling",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=906EEPlB3Ao&amp;feature=youtu.be",
+            "text": "1. how to use supersampling to make games look better",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 653
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Supersampling",
+        "text": "supersampling",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

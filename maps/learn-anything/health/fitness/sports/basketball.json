@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - basketball",
   "tag": "",
-  "nodes": [
-    {
-      "text": "basketball",
-      "url": "http://www.wikiwand.com/en/Basketball",
-      "fx": -105.765625,
-      "fy": -217.82421875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Basketball/",
-          "fx": 113.234375,
-          "fy": -203.82421875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -77.77517740693554,
-      "fy": -74.1339407510938,
-      "nodes": [
-        {
-          "text": "1. shooting basics",
-          "url": "https://www.youtube.com/watch?v=nqqw_hYT4QM",
-          "fx": 78.22482259306446,
-          "fy": -62.6339407510938,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "basketball",
-      "target": "basics",
-      "curve": {
-        "x": -1.75478,
-        "y": 70.5951
+  "id": 582,
+  "map": {
+    "text": "basketball",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nqqw_hYT4QM",
+            "text": "1. shooting basics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 582
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Basketball/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Basketball",
+        "text": "basketball",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

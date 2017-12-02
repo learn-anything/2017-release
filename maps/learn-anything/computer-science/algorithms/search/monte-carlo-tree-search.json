@@ -1,74 +1,68 @@
 {
   "title": "learn anything - computer science - algorithms - search - monte carlo tree search",
   "tag": "",
-  "nodes": [
-    {
-      "text": "Monte Carlo tree search",
-      "url": "http://www.wikiwand.com/en/Monte_Carlo_tree_search",
-      "fx": 47.96875,
-      "fy": -299.80078125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "used in",
-      "url": "",
-      "fx": -103.1908783783785,
-      "fy": -186.52568975220902,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 132.19781949626872,
-      "fy": -144.45001554726366,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=UXW2yZndl7U",
-          "fx": 314.1978194962687,
-          "fy": -132.95001554726366,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 273,
+  "map": {
+    "text": "Monte Carlo tree search",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=UXW2yZndl7U",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "used in",
+        "nodes": [
+          {
+            "text": "AlphaGo  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/machine-learning/deep-learning/alphago",
+                "text": "AlphaGo  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Monte_Carlo_tree_search",
+        "text": "Monte Carlo tree search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "AlphaGo  ️",
-      "url": "/machine-learning/deep-learning/alphago",
-      "fx": -245.53212733957196,
-      "fy": -84.8948863636366,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "Monte Carlo tree search",
-      "target": "basics",
-      "curve": {
-        "x": -5.13547,
-        "y": 76.4254
       }
-    },
-    {
-      "source": "Monte Carlo tree search",
-      "target": "used in",
-      "curve": {
-        "x": -120.83,
-        "y": 55.3875
-      }
-    },
-    {
-      "source": "used in",
-      "target": "AlphaGo  ️",
-      "curve": {
-        "x": -67.9206,
-        "y": 50.8154
-      }
-    }
-  ],
-  "id": 273
+    ],
+    "author": ""
+  }
 }

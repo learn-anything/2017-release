@@ -1,484 +1,701 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic",
   "tag": "psychedelic drugs",
-  "nodes": [
-    {
-      "text": "psychedelic drugs",
-      "note": "",
-      "url": "https://psychonautwiki.org/w/index.php/Psychedelic",
-      "fx": 91.2042247635361,
-      "fy": -408.4175237879657,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Psychedelics/",
-          "fx": 408.2042247635361,
-          "fy": -414.4175237879657,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "rational psychonaut",
-          "url": "https://www.reddit.com/r/RationalPsychonaut/",
-          "fx": 408.2042247635361,
-          "fy": -374.4175237879657,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 164,
+  "map": {
+    "text": "psychedelic drugs",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [
+              {
+                "text": "experiences",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://psychedelicfrontier.com/wp-content/uploads/2013/05/The-Doors-Of-Perception-Aldous-Huxley.pdf",
+                    "text": "doors of perception",
+                    "category": "free book",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://psychedelic-information-theory.com/toc.php",
+                "text": "psychedelic information theory",
+                "category": "free book",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=rkBq33KWFmY",
+                "text": "17: Roland Griffiths, Ph.D. on psilocybin, psychedelic therapies &amp; mystical experiences",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=El7kyjyz6qY",
+                "text": "psychedelic symmetrical texture repetition",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://imgur.com/a/ep7CH",
+                "text": "psychedelic replications",
+                "category": "image",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://imgur.com/a/9yOpt",
+                "text": "psychedelic art",
+                "category": "image",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://imgur.com/a/auarM",
+                "text": "trippy art",
+                "category": "image",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Psychoactive_substance_index",
+            "text": "psychoactive substance index",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/ShrugLifeSyndicate/comments/69p6qo/old_human_trial_of_lsd/",
+            "text": "psychedelic drug research",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://pharmrev.aspetjournals.org/content/68/2/264.long",
+            "text": "16: psychedelics",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/researchchemicals/comments/616ed2/the_great_big_list_of_every_hallucinogen_that_has/",
+            "text": "big list of hallucinogens",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://psychonautwiki.org/wiki/Main_Page",
+            "text": "psychonaut wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://psychsitter.com/",
+            "text": "psychedelic support manual",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "lysergamides",
+        "note": "refers to a class of compounds derived from alkaloids of a group of fungi known as ergot in the claviceps genus",
+        "nodes": [
+          {
+            "text": "LSD  ️",
+            "nodes": [
+              {
+                "text": "microdosing  ️",
+                "note": "are sub-perceptual doses which are so low that they are unlikely to induce directly noticeable or perceptible effects",
+                "nodes": [
+                  {
+                    "text": "psilocin  ️",
+                    "nodes": [
+                      {
+                        "text": "tryptamines",
+                        "note": "is a monoamine alkaloid found in animals, plants and fungi  substituted tryptamine refers to a class of compounds which are typically capable of producing strong psychedelic and entheogenic effects",
+                        "nodes": [
+                          {
+                            "text": "DMT  ️",
+                            "nodes": [
+                              {
+                                "text": "5-MeO-DMT",
+                                "nodes": [],
+                                "resources": [
+                                  {
+                                    "url": "https://psychonautwiki.org/wiki/5-MeO-DMT",
+                                    "text": "5-MeO-DMT",
+                                    "category": "wiki",
+                                    "note": "",
+                                    "author": "",
+                                    "score": {
+                                      "up": 0,
+                                      "down": 0
+                                    }
+                                  }
+                                ],
+                                "author": ""
+                              },
+                              {
+                                "text": "Ayahuasca  ️",
+                                "nodes": [],
+                                "resources": [
+                                  {
+                                    "url": "/chemistry/drugs/psychedelic/ayahuasca",
+                                    "text": "Ayahuasca  ️",
+                                    "category": "mindmap",
+                                    "note": "",
+                                    "author": "",
+                                    "score": {
+                                      "up": 0,
+                                      "down": 0
+                                    }
+                                  }
+                                ],
+                                "author": ""
+                              }
+                            ],
+                            "resources": [
+                              {
+                                "url": "/chemistry/drugs/psychedelic/dmt",
+                                "text": "DMT  ️",
+                                "category": "mindmap",
+                                "note": "",
+                                "author": "",
+                                "score": {
+                                  "up": 0,
+                                  "down": 0
+                                }
+                              }
+                            ],
+                            "author": ""
+                          },
+                          {
+                            "text": "ibogaine  ️",
+                            "nodes": [],
+                            "resources": [
+                              {
+                                "url": "/chemistry/drugs/psychedelic/ibogaine",
+                                "text": "ibogaine  ️",
+                                "category": "mindmap",
+                                "note": "",
+                                "author": "",
+                                "score": {
+                                  "up": 0,
+                                  "down": 0
+                                }
+                              }
+                            ],
+                            "author": ""
+                          }
+                        ],
+                        "resources": [
+                          {
+                            "url": "https://psychonautwiki.org/w/index.php/Tryptamine",
+                            "text": "tryptamines",
+                            "category": "wiki",
+                            "note": "",
+                            "author": "",
+                            "score": {
+                              "up": 0,
+                              "down": 0
+                            }
+                          }
+                        ],
+                        "author": ""
+                      }
+                    ],
+                    "resources": [
+                      {
+                        "url": "/chemistry/drugs/psychedelic/psilocin",
+                        "text": "psilocin  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/chemistry/drugs/psychedelic/microdosing",
+                    "text": "microdosing  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/lsd",
+                "text": "LSD  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/w/index.php/Lysergamide",
+            "text": "lysergamides",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "tryptamines",
+        "note": "is a monoamine alkaloid found in animals, plants and fungi  substituted tryptamine refers to a class of compounds which are typically capable of producing strong psychedelic and entheogenic effects",
+        "nodes": [
+          {
+            "text": "DMT  ️",
+            "nodes": [
+              {
+                "text": "5-MeO-DMT",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://psychonautwiki.org/wiki/5-MeO-DMT",
+                    "text": "5-MeO-DMT",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "Ayahuasca  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/chemistry/drugs/psychedelic/ayahuasca",
+                    "text": "Ayahuasca  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/dmt",
+                "text": "DMT  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "psilocin  ️",
+            "nodes": [
+              {
+                "text": "microdosing  ️",
+                "note": "are sub-perceptual doses which are so low that they are unlikely to induce directly noticeable or perceptible effects",
+                "nodes": [
+                  {
+                    "text": "LSD  ️",
+                    "nodes": [
+                      {
+                        "text": "lysergamides",
+                        "note": "refers to a class of compounds derived from alkaloids of a group of fungi known as ergot in the claviceps genus",
+                        "nodes": [],
+                        "resources": [
+                          {
+                            "url": "https://psychonautwiki.org/w/index.php/Lysergamide",
+                            "text": "lysergamides",
+                            "category": "wiki",
+                            "note": "",
+                            "author": "",
+                            "score": {
+                              "up": 0,
+                              "down": 0
+                            }
+                          }
+                        ],
+                        "author": ""
+                      }
+                    ],
+                    "resources": [
+                      {
+                        "url": "/chemistry/drugs/psychedelic/lsd",
+                        "text": "LSD  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/chemistry/drugs/psychedelic/microdosing",
+                    "text": "microdosing  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/psilocin",
+                "text": "psilocin  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "ibogaine  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/ibogaine",
+                "text": "ibogaine  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/w/index.php/Tryptamine",
+            "text": "tryptamines",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "phenethylamine",
+        "nodes": [
+          {
+            "text": "mescaline  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/mescaline",
+                "text": "mescaline  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Phenethylamine",
+            "text": "phenethylamine",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "entactogen",
+        "note": "is used to describe a class of psychoactive drugs that produce distinctive emotional and social effects similar to those of MDMA",
+        "nodes": [
+          {
+            "text": "MDMA  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/mdma",
+                "text": "MDMA  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Entactogen",
+            "text": "entactogen",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "cannabinoids",
+        "nodes": [
+          {
+            "text": "cannabis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/cannabis",
+                "text": "cannabis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Cannabinoid",
+            "text": "cannabinoids",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "salvia divinorum",
+        "nodes": [
+          {
+            "text": "salvia  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/drugs/psychedelic/salvia",
+                "text": "salvia  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://psychonautwiki.org/wiki/Salvia_divinorum_(botany)",
+            "text": "salvia divinorum",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Psychedelics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 402.3545684814453,
-      "fy": -214.469970703125,
-      "nodes": [
-        {
-          "text": "psychoactive substance index",
-          "url": "https://psychonautwiki.org/wiki/Psychoactive_substance_index",
-          "fx": 539.3545684814453,
-          "fy": -296.969970703125,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "psychedelic drug research",
-          "url": "https://www.reddit.com/r/ShrugLifeSyndicate/comments/69p6qo/old_human_trial_of_lsd/",
-          "fx": 539.3545684814453,
-          "fy": -256.969970703125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "16: psychedelics",
-          "url": "http://pharmrev.aspetjournals.org/content/68/2/264.long",
-          "fx": 539.3545684814453,
-          "fy": -216.969970703125,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "big list of hallucinogens",
-          "url": "https://www.reddit.com/r/researchchemicals/comments/616ed2/the_great_big_list_of_every_hallucinogen_that_has/",
-          "fx": 539.3545684814453,
-          "fy": -176.969970703125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "psychonaut wiki",
-          "url": "https://psychonautwiki.org/wiki/Main_Page",
-          "fx": 539.3545684814453,
-          "fy": -136.969970703125,
-          "nodes": [],
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "psychedelic support manual",
-          "url": "http://psychsitter.com/",
-          "fx": 539.3545684814453,
-          "fy": -102.969970703125,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://www.reddit.com/r/RationalPsychonaut/",
+        "text": "rational psychonaut",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 695.0883995262357,
-      "fy": 65.37980583122192,
-      "nodes": [
-        {
-          "text": "psychedelic information theory",
-          "url": "http://psychedelic-information-theory.com/toc.php",
-          "fx": 886.0883995262357,
-          "fy": -56.120194168778085,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "17: Roland Griffiths, Ph.D. on psilocybin, psychedelic therapies &amp; mystical experiences",
-          "url": "https://www.youtube.com/watch?v=rkBq33KWFmY",
-          "fx": 886.0883995262357,
-          "fy": -16.120194168778085,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "psychedelic symmetrical texture repetition",
-          "url": "https://www.youtube.com/watch?v=El7kyjyz6qY",
-          "fx": 886.0883995262357,
-          "fy": 67.87980583122192,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "psychedelic replications",
-          "url": "http://imgur.com/a/ep7CH",
-          "fx": 886.0883995262357,
-          "fy": 129.87980583122192,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "psychedelic art",
-          "url": "http://imgur.com/a/9yOpt",
-          "fx": 886.0883995262357,
-          "fy": 169.87980583122192,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "trippy art",
-          "url": "http://imgur.com/a/auarM",
-          "fx": 886.0883995262357,
-          "fy": 209.87980583122192,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(49, 187, 71, 1.0)"
+      },
+      {
+        "url": "https://psychonautwiki.org/w/index.php/Psychedelic",
+        "text": "psychedelic drugs",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "salvia divinorum",
-      "url": "https://psychonautwiki.org/wiki/Salvia_divinorum_(botany)",
-      "fx": -974.899605365908,
-      "fy": 111.68632864793233,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "lysergamides",
-      "note": "refers to a class of compounds derived from alkaloids of a group of fungi known as ergot in the claviceps genus",
-      "url": "https://psychonautwiki.org/w/index.php/Lysergamide",
-      "fx": -283.1192063328076,
-      "fy": 112.16969209558806,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "entactogen",
-      "note": "is used to describe a class of psychoactive drugs that produce distinctive emotional and social effects similar to those of MDMA",
-      "url": "https://psychonautwiki.org/wiki/Entactogen",
-      "fx": -528.9345449525052,
-      "fy": 113.90408011603824,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "cannabinoids",
-      "url": "https://psychonautwiki.org/wiki/Cannabinoid",
-      "fx": -742.8076700498575,
-      "fy": 115.06754196544966,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "tryptamines",
-      "note": "is a monoamine alkaloid found in animals, plants and fungi  substituted tryptamine refers to a class of compounds which are typically capable of producing strong psychedelic and entheogenic effects",
-      "url": "https://psychonautwiki.org/w/index.php/Tryptamine",
-      "fx": 94.2199643253025,
-      "fy": 121.29171476680165,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "phenethylamine",
-      "url": "https://psychonautwiki.org/wiki/Phenethylamine",
-      "fx": 403.7857373794732,
-      "fy": 121.67312040606839,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "psilocin  ️",
-      "url": "/chemistry/drugs/psychedelic/psilocin",
-      "fx": -53.04474386592892,
-      "fy": 230.11750799569643,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "LSD  ️",
-      "url": "/chemistry/drugs/psychedelic/lsd",
-      "fx": -243.37632238519507,
-      "fy": 237.6608301755366,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "salvia  ️",
-      "url": "/chemistry/drugs/psychedelic/salvia",
-      "fx": -1008.1162109375,
-      "fy": 237.8505859375,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mescaline  ️",
-      "url": "/chemistry/drugs/psychedelic/mescaline",
-      "fx": 516.2122751342738,
-      "fy": 250.80111124784662,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "MDMA  ️",
-      "url": "/chemistry/drugs/psychedelic/mdma",
-      "fx": -496.44757116763617,
-      "fy": 253.35191786856336,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cannabis  ️",
-      "url": "/chemistry/drugs/psychedelic/cannabis",
-      "fx": -725.3833296879558,
-      "fy": 257.33169291338584,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "ibogaine  ️",
-      "url": "/chemistry/drugs/psychedelic/ibogaine",
-      "fx": 261.4408133576637,
-      "fy": 260.2656303245809,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "experiences",
-      "url": "",
-      "fx": 794.4952532029574,
-      "fy": 293.85757693820926,
-      "nodes": [
-        {
-          "text": "doors of perception",
-          "url": "http://psychedelicfrontier.com/wp-content/uploads/2013/05/The-Doors-Of-Perception-Aldous-Huxley.pdf",
-          "fx": 1001.4952532029574,
-          "fy": 305.35757693820926,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "DMT  ️",
-      "url": "/chemistry/drugs/psychedelic/dmt",
-      "fx": 106.24750883870445,
-      "fy": 293.9206850584742,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "microdosing  ️",
-      "note": "are sub-perceptual doses which are so low that they are unlikely to induce directly noticeable or perceptible effects",
-      "url": "/chemistry/drugs/psychedelic/microdosing",
-      "fx": -189.30831720262324,
-      "fy": 355.12848898980724,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Ayahuasca  ️",
-      "url": "/chemistry/drugs/psychedelic/ayahuasca",
-      "fx": 198.2679802917628,
-      "fy": 430.73139227064394,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "5-MeO-DMT",
-      "url": "https://psychonautwiki.org/wiki/5-MeO-DMT",
-      "fx": -6.769504729166329,
-      "fy": 430.9010838397031,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "psychedelic drugs",
-      "curve": {
-        "x": -119.575,
-        "y": -95.7233
       }
-    },
-    {
-      "source": "tryptamines",
-      "target": "DMT  ️",
-      "curve": {
-        "x": -10.9863,
-        "y": 86.3141
-      }
-    },
-    {
-      "source": "tryptamines",
-      "target": "psilocin  ️",
-      "curve": {
-        "x": -80.6324,
-        "y": 54.4129
-      }
-    },
-    {
-      "source": "lysergamides",
-      "target": "LSD  ️",
-      "curve": {
-        "x": 1.12149,
-        "y": 62.7455
-      }
-    },
-    {
-      "source": "phenethylamine",
-      "target": "mescaline  ️",
-      "curve": {
-        "x": 43.4633,
-        "y": 64.564
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "lysergamides",
-      "curve": {
-        "x": -198.662,
-        "y": 260.294
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "tryptamines",
-      "curve": {
-        "x": -12.9921,
-        "y": 264.855
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "phenethylamine",
-      "curve": {
-        "x": 153.291,
-        "y": 265.045
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -239.479,
-        "y": -138.986
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "entactogen",
-      "curve": {
-        "x": -364.932,
-        "y": 233.163
-      }
-    },
-    {
-      "source": "entactogen",
-      "target": "MDMA  ️",
-      "curve": {
-        "x": -0.25651,
-        "y": 69.7239
-      }
-    },
-    {
-      "source": "LSD  ️",
-      "target": "microdosing  ️",
-      "curve": {
-        "x": 50.034,
-        "y": 58.7338
-      }
-    },
-    {
-      "source": "psilocin  ️",
-      "target": "microdosing  ️",
-      "curve": {
-        "x": -52.3817,
-        "y": 62.5055
-      }
-    },
-    {
-      "source": "experiences",
-      "target": "interesting",
-      "curve": {
-        "x": -74.1356,
-        "y": -110.596
-      }
-    },
-    {
-      "source": "cannabinoids",
-      "target": "cannabis  ️",
-      "curve": {
-        "x": -8.28783,
-        "y": 69.8821
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "cannabinoids",
-      "curve": {
-        "x": -434.256,
-        "y": 261.743
-      }
-    },
-    {
-      "source": "DMT  ️",
-      "target": "5-MeO-DMT",
-      "curve": {
-        "x": -46.0085,
-        "y": 67.2402
-      }
-    },
-    {
-      "source": "DMT  ️",
-      "target": "Ayahuasca  ️",
-      "curve": {
-        "x": 52.5102,
-        "y": 67.1554
-      }
-    },
-    {
-      "source": "psychedelic drugs",
-      "target": "salvia divinorum",
-      "curve": {
-        "x": -544.802,
-        "y": 260.052
-      }
-    },
-    {
-      "source": "salvia divinorum",
-      "target": "salvia  ️",
-      "curve": {
-        "x": -39.8583,
-        "y": 63.0821
-      }
-    },
-    {
-      "source": "tryptamines",
-      "target": "ibogaine  ️",
-      "curve": {
-        "x": 62.6104,
-        "y": 68.237
-      }
-    }
-  ],
-  "id": 164
+    ],
+    "author": ""
+  }
 }

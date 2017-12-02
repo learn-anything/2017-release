@@ -1,61 +1,64 @@
 {
   "title": "learn anything - economics - behavioural economics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "behavioural economics",
-      "url": "http://www.wikiwand.com/en/Behavioral_economics",
-      "fx": -74.82825517654419,
-      "fy": -234.99294662475586,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/BehavioralEconomics/",
-          "fx": 260.1717448234558,
-          "fy": -220.99294662475586,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 10.609224759615472,
-      "fy": -70.68118990384608,
-      "nodes": [
-        {
-          "text": "1. behavioural economics crash course",
-          "url": "https://www.youtube.com/watch?v=dqxQ3E1bubI",
-          "fx": 166.60922475961547,
-          "fy": -90.18118990384608,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. behavioural economics intro",
-          "url": "https://www.youtube.com/watch?v=4_h0kT4DrYE",
-          "fx": 166.60922475961547,
-          "fy": -28.181189903846075,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "behavioural economics",
-      "target": "basics",
-      "curve": {
-        "x": -2.03126,
-        "y": 80.9059
+  "id": 460,
+  "map": {
+    "text": "behavioural economics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dqxQ3E1bubI",
+            "text": "1. behavioural economics crash course",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4_h0kT4DrYE",
+            "text": "1. behavioural economics intro",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 460
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/BehavioralEconomics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Behavioral_economics",
+        "text": "behavioural economics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,274 +1,296 @@
 {
   "title": "learn anything - computer science - computation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computation",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Computing",
-      "fx": -8.61115991979591,
-      "fy": -980.8858093973616,
-      "nodes": [
-        {
-          "text": "️",
-          "url": "https://scicomp.stackexchange.com/",
-          "fx": 258.3888400802041,
-          "fy": -966.8858093973616,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 311,
+  "map": {
+    "text": "computation",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.snotr.com/video/1002/Mechanical_calculator",
+                "text": "mechanical calculator",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computer programs  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-programs",
+                "text": "computer programs  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "finite-state machine  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/finite-state-machine",
+                "text": "finite-state machine  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computational science",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Computational_science",
+                "text": "computational science",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "evolutionary computation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/evolutionary-computation",
+                "text": "evolutionary computation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "symbolic computation",
+            "nodes": [
+              {
+                "text": "computer algebra system",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Computer_algebra_system",
+                    "text": "computer algebra system",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Symbolic_computation",
+                "text": "symbolic computation",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "bandwidth",
+            "note": "is the bit-rate of available or consumed information capacity expressed typically in metric multiples of bits per second  the actual bit rate that can be achieved depends not only on the signal bandwidth, but also on the noise on the channel",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Bandwidth_(computing)",
+                "text": "bandwidth",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computer simulations  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-simulations",
+                "text": "computer simulations  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "DNA computing  ️",
+            "note": "DNA computing is the performing of computations using biological molecules rather than traditional silicon chips. In DNA computing, information is represented using the four-character genetic alphabet - A [adenine], G [guanine], C [cytosine], and T [thymine] - rather than the binary alphabet, which is a series of 1s and 0s used by traditional computers.",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/dna-computing",
+                "text": "DNA computing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "theory of computation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/theory-of-computation",
+                "text": "theory of computation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "interactive computing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/interactive-computing",
+                "text": "interactive computing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ytpJdnlu9ug",
+            "text": "1. what is computation?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/400716.Introduction_to_the_Theory_of_Computation",
+            "text": "1. introduction to the theory of computation by Sipser",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf",
+            "text": "1. introduction to theory of computation",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://scicomp.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 44.0551010280617,
-      "fy": -821.0465349503804,
-      "nodes": [
-        {
-          "text": "1. what is computation?",
-          "url": "https://www.youtube.com/watch?v=ytpJdnlu9ug",
-          "fx": 200.0551010280617,
-          "fy": -871.5465349503804,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. introduction to the theory of computation by Sipser",
-          "url": "https://www.goodreads.com/book/show/400716.Introduction_to_the_Theory_of_Computation",
-          "fx": 200.0551010280617,
-          "fy": -831.5465349503804,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. introduction to theory of computation",
-          "url": "http://cglab.ca/~michiel/TheoryOfComputation/TheoryOfComputation.pdf",
-          "fx": 200.0551010280617,
-          "fy": -769.5465349503804,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Computing",
+        "text": "computation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "computer programs  ️",
-      "url": "/computer-science/computation/computer-programs",
-      "fx": -531.611381190809,
-      "fy": -688.9413207382393,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 356.08091624711074,
-      "fy": -642.6365966046081,
-      "nodes": [
-        {
-          "text": "mechanical calculator",
-          "url": "http://www.snotr.com/video/1002/Mechanical_calculator",
-          "fx": 547.0809162471107,
-          "fy": -631.1365966046081,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "finite-state machine  ️",
-      "url": "/computer-science/computation/finite-state-machine",
-      "fx": -527.051565174372,
-      "fy": -602.2867525139083,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "interactive computing  ️",
-      "url": "/computer-science/computation/interactive-computing",
-      "fx": 403.85047615310395,
-      "fy": -500.5348720117074,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computational science",
-      "url": "http://www.wikiwand.com/en/Computational_science",
-      "fx": -501.9174927005404,
-      "fy": -479.139956347089,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "theory of computation  ️",
-      "url": "/computer-science/computation/theory-of-computation",
-      "fx": 322.128577793236,
-      "fy": -386.5094442235945,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "evolutionary computation  ️",
-      "url": "/computer-science/computation/evolutionary-computation",
-      "fx": -420.03465302343,
-      "fy": -379.7496888082069,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "DNA computing  ️",
-      "note": "DNA computing is the performing of computations using biological molecules rather than traditional silicon chips. In DNA computing, information is represented using the four-character genetic alphabet - A [adenine], G [guanine], C [cytosine], and T [thymine] - rather than the binary alphabet, which is a series of 1s and 0s used by traditional computers.",
-      "url": "/computer-science/computation/dna-computing",
-      "fx": 200.33770970021112,
-      "fy": -306.9808179117503,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "symbolic computation",
-      "url": "http://www.wikiwand.com/en/Symbolic_computation",
-      "fx": -283.2279920076071,
-      "fy": -285.4116403680098,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "bandwidth",
-      "note": "is the bit-rate of available or consumed information capacity expressed typically in metric multiples of bits per second  the actual bit rate that can be achieved depends not only on the signal bandwidth, but also on the noise on the channel",
-      "url": "http://www.wikiwand.com/en/Bandwidth_(computing)",
-      "fx": -99.20033502030537,
-      "fy": -193.60380497129734,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "computer simulations  ️",
-      "url": "/computer-science/computation/computer-simulations",
-      "fx": 114.08168337127631,
-      "fy": -189.3059383360345,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer algebra system",
-      "url": "http://www.wikiwand.com/en/Computer_algebra_system",
-      "fx": -465.5949541823313,
-      "fy": -162.9416412124059,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "symbolic computation",
-      "target": "computer algebra system",
-      "curve": {
-        "x": -83.1835,
-        "y": 61.235
       }
-    },
-    {
-      "source": "computation",
-      "target": "basics",
-      "curve": {
-        "x": -1.41687,
-        "y": 78.6696
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "basics",
-      "curve": {
-        "x": -186.714,
-        "y": -60.0109
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computer programs  ️",
-      "curve": {
-        "x": -250.083,
-        "y": 67.3026
-      }
-    },
-    {
-      "source": "basics",
-      "target": "finite-state machine  ️",
-      "curve": {
-        "x": -248.553,
-        "y": 110.63
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computational science",
-      "curve": {
-        "x": -229.486,
-        "y": 172.203
-      }
-    },
-    {
-      "source": "basics",
-      "target": "evolutionary computation  ️",
-      "curve": {
-        "x": -182.545,
-        "y": 221.898
-      }
-    },
-    {
-      "source": "basics",
-      "target": "symbolic computation",
-      "curve": {
-        "x": -121.142,
-        "y": 269.067
-      }
-    },
-    {
-      "source": "basics",
-      "target": "bandwidth",
-      "curve": {
-        "x": -48.3778,
-        "y": 314.971
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computer simulations  ️",
-      "curve": {
-        "x": 37.3843,
-        "y": 374.066
-      }
-    },
-    {
-      "source": "basics",
-      "target": "DNA computing  ️",
-      "curve": {
-        "x": 113.641,
-        "y": 258.283
-      }
-    },
-    {
-      "source": "basics",
-      "target": "theory of computation  ️",
-      "curve": {
-        "x": 181.537,
-        "y": 218.519
-      }
-    },
-    {
-      "source": "basics",
-      "target": "interactive computing  ️",
-      "curve": {
-        "x": 206.202,
-        "y": 197.002
-      }
-    }
-  ],
-  "id": 311
+    ],
+    "author": ""
+  }
 }

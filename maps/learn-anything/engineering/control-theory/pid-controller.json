@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - control theory - pid controller",
   "tag": "PID controller",
-  "nodes": [
-    {
-      "text": "PID controller",
-      "url": "http://www.wikiwand.com/en/PID_controller",
-      "fx": -10.824604988098145,
-      "fy": -111.8241753578186,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 31.56640625,
-      "fy": 18.95703125,
-      "nodes": [
-        {
-          "text": "1. brief introduction",
-          "url": "https://www.youtube.com/watch?v=UR0hOmjaHp0",
-          "fx": 187.56640625,
-          "fy": 30.45703125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "PID controller",
-      "target": "basics",
-      "curve": {
-        "x": -2.05449,
-        "y": 64.1406
+  "id": 518,
+  "map": {
+    "text": "PID controller",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=UR0hOmjaHp0",
+            "text": "1. brief introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 518
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/PID_controller",
+        "text": "PID controller",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

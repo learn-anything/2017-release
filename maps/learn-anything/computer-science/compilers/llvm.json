@@ -1,71 +1,76 @@
 {
   "title": "learn anything - computer science - compilers - llvm",
   "tag": "LLVM compiler infrastructure",
-  "nodes": [
-    {
-      "text": "LLVM",
-      "url": "http://www.wikiwand.com/en/LLVM",
-      "fx": -78.13671875,
-      "fy": -291.84748068820227,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/LLVM/",
-          "fx": 99.86328125,
-          "fy": -317.84748068820227,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/llvm-mirror/llvm",
-          "fx": 99.86328125,
-          "fy": -277.84748068820227,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/HongxuChen/awesome-llvm",
-          "fx": 99.86328125,
-          "fy": -237.84748068820227,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -73.92921173429147,
-      "fy": -130.10003134931242,
-      "nodes": [
-        {
-          "text": "1. LLVM for  grad students  ️",
-          "url": "http://www.cs.cornell.edu/~asampson/blog/llvm.html",
-          "fx": 108.07078826570853,
-          "fy": -118.60003134931242,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "LLVM",
-      "target": "basics",
-      "curve": {
-        "x": -3.39625,
-        "y": 79.6237
+  "id": 289,
+  "map": {
+    "text": "LLVM",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.cs.cornell.edu/~asampson/blog/llvm.html",
+            "text": "1. LLVM for  grad students  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 289
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/LLVM/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/llvm-mirror/llvm",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/HongxuChen/awesome-llvm",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/LLVM",
+        "text": "LLVM",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

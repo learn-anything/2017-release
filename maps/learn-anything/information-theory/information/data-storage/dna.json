@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - information - data storage - dna",
   "tag": "DNA digital data storage",
-  "nodes": [
-    {
-      "text": "DNA digital data storage",
-      "url": "http://www.wikiwand.com/en/DNA_digital_data_storage",
-      "fx": -50.42578125,
-      "fy": -217.21484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 31.4453125,
-      "fy": -89.1484375,
-      "nodes": [
-        {
-          "text": "1. DNA hard drives",
-          "url": "https://www.youtube.com/watch?v=tBvd7OSDGgQ",
-          "fx": 187.4453125,
-          "fy": -77.6484375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "DNA digital data storage",
-      "target": "basics",
-      "curve": {
-        "x": 0.185547,
-        "y": 64.0332
+  "id": 638,
+  "map": {
+    "text": "DNA digital data storage",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tBvd7OSDGgQ",
+            "text": "1. DNA hard drives",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 638
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/DNA_digital_data_storage",
+        "text": "DNA digital data storage",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

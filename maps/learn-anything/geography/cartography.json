@@ -1,52 +1,53 @@
 {
   "title": "learn anything - geography - cartography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cartography",
-      "url": "http://www.wikiwand.com/en/Cartography",
-      "fx": -50.1328125,
-      "fy": -242.82479286193848,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/mapmaking/",
-          "fx": 185.8671875,
-          "fy": -228.82479286193848,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -19.22659432888031,
-      "fy": -106.3498330116272,
-      "nodes": [
-        {
-          "text": "1. brief history of cartography and maps",
-          "url": "https://www.youtube.com/watch?v=fLdvInDrQ2c",
-          "fx": 136.7734056711197,
-          "fy": -105.8498330116272,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "cartography",
-      "target": "basics",
-      "curve": {
-        "x": -4.54689,
-        "y": 66.9875
+  "id": 578,
+  "map": {
+    "text": "cartography",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=fLdvInDrQ2c",
+            "text": "1. brief history of cartography and maps",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 578
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/mapmaking/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Cartography",
+        "text": "cartography",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

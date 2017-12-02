@@ -1,58 +1,61 @@
 {
   "title": "learn anything - mathematics - statistics - regression analysis - linear regression",
   "tag": "",
-  "nodes": [
-    {
-      "text": "linear regression",
-      "url": "http://www.wikiwand.com/en/Linear_regression",
-      "fx": -85.47265625,
-      "fy": -155.2890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -38.54296875,
-      "fy": -24.640625,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=ZkjP5RJLQF4",
-          "fx": 117.45703125,
-          "fy": -13.140625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1110,
+  "map": {
+    "text": "linear regression",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "generalised linear models  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/mathematics/statistics/regression-analysis/linear-regression/generalised-linear-models",
+                "text": "generalised linear models  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZkjP5RJLQF4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Linear_regression",
+        "text": "linear regression",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "generalised linear models  ️",
-      "url": "/mathematics/statistics/regression-analysis/linear-regression/generalised-linear-models",
-      "fx": -230.17578125,
-      "fy": 103.375,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "linear regression",
-      "target": "basics",
-      "curve": {
-        "x": -6.03516,
-        "y": 64.0742
       }
-    },
-    {
-      "source": "basics",
-      "target": "generalised linear models  ️",
-      "curve": {
-        "x": -45.8164,
-        "y": 65.2578
-      }
-    }
-  ],
-  "id": 1108
+    ],
+    "author": ""
+  }
 }

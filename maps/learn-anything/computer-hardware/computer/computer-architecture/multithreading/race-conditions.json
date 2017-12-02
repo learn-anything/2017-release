@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer hardware - computer - computer architecture - multithreading - race conditions",
   "tag": "",
-  "nodes": [
-    {
-      "text": "race conditions",
-      "url": "http://www.wikiwand.com/en/Race_condition",
-      "fx": -100.2890625,
-      "fy": -157.875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -44.91796875,
-      "fy": -29.19140625,
-      "nodes": [
-        {
-          "text": "1. explanation  ️",
-          "url": "https://stackoverflow.com/a/34550/3067664",
-          "fx": 118.08203125,
-          "fy": -16.69140625,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "race conditions",
-      "target": "basics",
-      "curve": {
-        "x": -2.06445,
-        "y": 63.5918
+  "id": 238,
+  "map": {
+    "text": "race conditions",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/34550/3067664",
+            "text": "1. explanation  ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 238
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Race_condition",
+        "text": "race conditions",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

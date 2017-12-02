@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - biochemistry - molecular biology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "molecular biology",
-      "url": "http://www.wikiwand.com/en/Molecular_biology",
-      "fx": -90.19140625,
-      "fy": -142.48828125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -25.835246598639173,
-      "fy": 2.7302827380329404,
-      "nodes": [
-        {
-          "text": "1. molecular biology",
-          "url": "https://www.youtube.com/watch?v=yYIZgS-L5Sc",
-          "fx": 130.16475340136083,
-          "fy": 14.23028273803294,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "molecular biology",
-      "target": "basics",
-      "curve": {
-        "x": -0.0719202,
-        "y": 71.3593
+  "id": 140,
+  "map": {
+    "text": "molecular biology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yYIZgS-L5Sc",
+            "text": "1. molecular biology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 140
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Molecular_biology",
+        "text": "molecular biology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

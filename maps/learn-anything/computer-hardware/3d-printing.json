@@ -1,77 +1,72 @@
 {
   "title": "learn anything - computer hardware - 3d printing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "3d printing",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/3D_printing",
-      "fx": -78.49574393656712,
-      "fy": -344.08214785447757,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/3Dprinting/",
-          "fx": 171.50425606343288,
-          "fy": -330.08214785447757,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 29.161148512609657,
-      "fy": -240.64104996618863,
-      "nodes": [
-        {
-          "text": "3D printing materials",
-          "url": "https://www.shapeways.com/materials?li=nav",
-          "fx": 166.16114851260966,
-          "fy": -226.14104996618863,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 65.08375336021561,
-      "fy": -128.12256384408704,
-      "nodes": [
-        {
-          "text": "16: free &amp; paid 3d modeling tools, for 3d printing  ️",
-          "url": "https://callmevice.com/2016/05/07/free-paid-3d-modeling-tools-for-3d-printing/",
-          "fx": 227.0837533602156,
-          "fy": -127.62256384408704,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "3d printing",
-      "curve": {
-        "x": -32.0784,
-        "y": -50.4705
+  "id": 236,
+  "map": {
+    "text": "3d printing",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://callmevice.com/2016/05/07/free-paid-3d-modeling-tools-for-3d-printing/",
+                "text": "16: free &amp; paid 3d modeling tools, for 3d printing  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.shapeways.com/materials?li=nav",
+            "text": "3D printing materials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -24.2113,
-        "y": -56.2592
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/3Dprinting/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/3D_printing",
+        "text": "3d printing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 236
+    ],
+    "author": ""
+  }
 }

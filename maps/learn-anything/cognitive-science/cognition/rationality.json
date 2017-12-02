@@ -1,77 +1,61 @@
 {
   "title": "learn anything - cognitive science - cognition - rationality",
   "tag": "",
-  "nodes": [
-    {
-      "text": "rationality",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Rationality",
-      "fx": 44.67578125,
-      "fy": -264.58203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 147.12930855486525,
-      "fy": -172.17950581397906,
-      "nodes": [
-        {
-          "text": "less wrong",
-          "url": "http://lesswrong.com/",
-          "fx": 284.12930855486525,
-          "fy": -157.67950581397906,
-          "nodes": [
-            {
-              "text": "what do we mean by ‘rationality’  ️",
-              "url": "http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/",
-              "fx": 443.12930855486525,
-              "fy": -160.67950581397906,
-              "nodes": [],
-              "category": "article",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 195,
+  "map": {
+    "text": "rationality",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.truthhawk.com/web-forums-make-neuroticism-viral/",
+                "text": "17: how web forums make neuroticism viral  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://lesswrong.com/",
+            "text": "less wrong",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 168.83342940625153,
-      "fy": -62.86626770997708,
-      "nodes": [
-        {
-          "text": "17: how web forums make neuroticism viral  ️",
-          "url": "https://www.truthhawk.com/web-forums-make-neuroticism-viral/",
-          "fx": 330.8334294062515,
-          "fy": -62.36626770997708,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -17.1021,
-        "y": -54.6566
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "rationality",
-      "curve": {
-        "x": -32.2268,
-        "y": -44.9513
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rationality",
+        "text": "rationality",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 195
+    ],
+    "author": ""
+  }
 }

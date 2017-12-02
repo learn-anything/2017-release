@@ -1,107 +1,115 @@
 {
   "title": "learn anything - computer graphics - 3d modelling",
   "tag": "",
-  "nodes": [
-    {
-      "text": "3d modelling",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/3D_modeling",
-      "fx": -62.47747672872333,
-      "fy": -420.5496176861701,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/3Dmodeling/",
-          "fx": 222.52252327127667,
-          "fy": -406.5496176861701,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 207,
+  "map": {
+    "text": "3d modelling",
+    "note": "",
+    "nodes": [
+      {
+        "text": "software",
+        "nodes": [
+          {
+            "text": "blender  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/3d-modelling/blender",
+                "text": "blender  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "autodesk 3DS  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/3d-modelling/autodesk-3ds-max",
+                "text": "autodesk 3DS  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cinema 4D  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/3d-modelling/cinema-4d",
+                "text": "cinema 4D  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      },
+      {
+        "text": "texture mapping  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-graphics/3d-modelling/texture-mapping",
+            "text": "texture mapping  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/3Dmodeling/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "software",
-      "url": "",
-      "fx": -117.61457060044074,
-      "fy": -211.65438033873778,
-      "nodes": []
-    },
-    {
-      "text": "texture mapping  ️",
-      "url": "/computer-graphics/3d-modelling/texture-mapping",
-      "fx": 12.538518366976405,
-      "fy": -210.56114463993464,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "autodesk 3DS  ️",
-      "url": "/computer-graphics/3d-modelling/autodesk-3ds-max",
-      "fx": -189.24991035461426,
-      "fy": -94.3419075012207,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cinema 4D  ️",
-      "url": "/computer-graphics/3d-modelling/cinema-4d",
-      "fx": -376.3977165222168,
-      "fy": -93.92355918884277,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "blender  ️",
-      "url": "/computer-graphics/3d-modelling/blender",
-      "fx": 31.896991729736328,
-      "fy": -92.7460765838623,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "3d modelling",
-      "target": "software",
-      "curve": {
-        "x": -44.5686,
-        "y": 103.198
+      },
+      {
+        "url": "http://www.wikiwand.com/en/3D_modeling",
+        "text": "3d modelling",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "software",
-      "target": "blender  ️",
-      "curve": {
-        "x": 72.2558,
-        "y": 59.4542
-      }
-    },
-    {
-      "source": "software",
-      "target": "autodesk 3DS  ️",
-      "curve": {
-        "x": -24.3177,
-        "y": 58.6563
-      }
-    },
-    {
-      "source": "software",
-      "target": "cinema 4D  ️",
-      "curve": {
-        "x": -133.753,
-        "y": 42.749
-      }
-    },
-    {
-      "source": "3d modelling",
-      "target": "texture mapping  ️",
-      "curve": {
-        "x": 31.508,
-        "y": 103.744
-      }
-    }
-  ],
-  "id": 207
+    ],
+    "author": ""
+  }
 }

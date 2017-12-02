@@ -1,52 +1,54 @@
 {
   "title": "learn anything - biology - abiogenesis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "abiogenesis",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Abiogenesis",
-      "fx": -76.41015625,
-      "fy": -288.91796875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "videos",
-      "url": "",
-      "fx": 10.410305669398895,
-      "fy": -133.3968365778689,
-      "nodes": [
-        {
-          "text": "14: what is life? is death real?",
-          "url": "https://www.youtube.com/watch?v=QOCaacO8wus",
-          "fx": 167.4103056693989,
-          "fy": -141.8968365778689,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "we are dead stars",
-          "url": "https://vimeo.com/95180201",
-          "fx": 167.4103056693989,
-          "fy": -101.8968365778689,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "videos",
-      "target": "abiogenesis",
-      "curve": {
-        "x": -23.9102,
-        "y": -76.5106
+  "id": 74,
+  "map": {
+    "text": "abiogenesis",
+    "note": "",
+    "nodes": [
+      {
+        "text": "videos",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QOCaacO8wus",
+            "text": "14: what is life? is death real?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://vimeo.com/95180201",
+            "text": "we are dead stars",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 74
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Abiogenesis",
+        "text": "abiogenesis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

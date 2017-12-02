@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - snowboarding",
   "tag": "",
-  "nodes": [
-    {
-      "text": "snowboarding",
-      "url": "http://www.wikiwand.com/en/Snowboarding",
-      "fx": 9.51171875,
-      "fy": -176.45703125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/snowboarding/",
-          "fx": 265.51171875,
-          "fy": -162.45703125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 129.265625,
-      "fy": -68.6171875,
-      "nodes": [
-        {
-          "text": "snowboarding advice",
-          "url": "https://www.reddit.com/r/snowboarding/comments/e3cez/hey_shreddit_whats_the_one_piece_of_advice_you/c14z4vq/",
-          "fx": 266.265625,
-          "fy": -57.1171875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "snowboarding",
-      "curve": {
-        "x": -30.127,
-        "y": -52.6699
+  "id": 592,
+  "map": {
+    "text": "snowboarding",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/snowboarding/comments/e3cez/hey_shreddit_whats_the_one_piece_of_advice_you/c14z4vq/",
+            "text": "snowboarding advice",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 592
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/snowboarding/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Snowboarding",
+        "text": "snowboarding",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

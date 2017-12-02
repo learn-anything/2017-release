@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - algorithms - sorting - topological sort",
   "tag": "",
-  "nodes": [
-    {
-      "text": "topological sort",
-      "url": "http://www.wikiwand.com/en/Topological_sorting",
-      "fx": -18.96484375,
-      "fy": -292.98046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 134.7401175213671,
-      "fy": -172.65331196578563,
-      "nodes": [
-        {
-          "text": "visualisation",
-          "url": "https://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html",
-          "fx": 271.7401175213671,
-          "fy": -161.15331196578563,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 16.529513888888573,
-      "fy": -65.71167200852187,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=ddTC4Zovtbc",
-          "fx": 172.52951388888857,
-          "fy": -54.21167200852187,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "topological sort",
-      "curve": {
-        "x": -44.6025,
-        "y": -58.9136
+  "id": 281,
+  "map": {
+    "text": "topological sort",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html",
+            "text": "visualisation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ddTC4Zovtbc",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "topological sort",
-      "target": "basics",
-      "curve": {
-        "x": -9.75282,
-        "y": 112.384
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Topological_sorting",
+        "text": "topological sort",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 281
+    ],
+    "author": ""
+  }
 }

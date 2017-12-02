@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer graphics - computer graphics lighting",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer graphics lighting",
-      "url": "http://www.wikiwand.com/en/Computer_graphics_lighting",
-      "fx": 35.61718750000023,
-      "fy": -140.90625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 136.796875,
-      "fy": -10.671875,
-      "nodes": [
-        {
-          "text": "1. lights and shadows in graphics",
-          "url": "https://www.youtube.com/watch?v=LUjXAoP5GG0",
-          "fx": 292.796875,
-          "fy": 0.828125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer graphics lighting",
-      "target": "basics",
-      "curve": {
-        "x": -2.16016,
-        "y": 63.8672
+  "id": 209,
+  "map": {
+    "text": "computer graphics lighting",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=LUjXAoP5GG0",
+            "text": "1. lights and shadows in graphics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 209
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_graphics_lighting",
+        "text": "computer graphics lighting",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

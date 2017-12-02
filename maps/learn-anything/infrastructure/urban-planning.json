@@ -1,53 +1,54 @@
 {
   "title": "learn anything - infrastructure - urban planning",
   "tag": "",
-  "nodes": [
-    {
-      "text": "urban planning",
-      "url": "http://www.wikiwand.com/en/Urban_planning",
-      "fx": 197.7890625,
-      "fy": -220.125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/urbanplanning/",
-          "fx": 459.7890625,
-          "fy": -206.125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 245.48462677001953,
-      "fy": -75.00295400619507,
-      "nodes": [
-        {
-          "text": "1. the city in history: its origins, its transformations, and its prospects",
-          "url": "https://www.goodreads.com/book/show/544053.The_City_in_History?from_search=true",
-          "fx": 427.48462677001953,
-          "fy": -85.50295400619507,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "urban planning",
-      "target": "basics",
-      "curve": {
-        "x": -2.65222,
-        "y": 71.311
+  "id": 663,
+  "map": {
+    "text": "urban planning",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/544053.The_City_in_History?from_search=true",
+            "text": "1. the city in history: its origins, its transformations, and its prospects",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 663
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/urbanplanning/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Urban_planning",
+        "text": "urban planning",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

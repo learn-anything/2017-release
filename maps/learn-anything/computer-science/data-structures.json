@@ -1,439 +1,487 @@
 {
   "title": "learn anything - computer science - data structures",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data structures",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Data_structure",
-      "fx": -21.651691704110817,
-      "fy": -784.6218492744451,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 132.3151593594937,
-      "fy": -672.2110775096995,
-      "nodes": [
-        {
-          "text": "some data structures",
-          "url": "https://github.com/voxsim/knowledge/tree/master/computer-science/data-structures",
-          "fx": 273.3151397705078,
-          "fy": -719.1449890136719,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "best online video courses for data structures and algorithms  ️",
-          "url": "https://www.techiedelight.com/best-online-courses-data-structures-algorithms/",
-          "fx": 273.31517028808594,
-          "fy": -679.015251159668,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 336,
+  "map": {
+    "text": "data structures",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/voxsim/knowledge/tree/master/computer-science/data-structures",
+            "text": "some data structures",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.techiedelight.com/best-online-courses-data-structures-algorithms/",
+            "text": "best online video courses for data structures and algorithms  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "trees",
+            "nodes": [
+              {
+                "text": "log-structured merge-tree",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Log-structured_merge-tree",
+                    "text": "log-structured merge-tree",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "binary search trees  ️",
+                "nodes": [
+                  {
+                    "text": "red-black tree  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/computer-science/data-structures/red-black-trees",
+                        "text": "red-black tree  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "self balancing binary search tree",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/Self-balancing_binary_search_tree",
+                        "text": "self balancing binary search tree",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/binary-search-trees",
+                    "text": "binary search trees  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "tries  ️",
+                "nodes": [
+                  {
+                    "text": "quadtrees  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/computer-science/data-structures/quadtree",
+                        "text": "quadtrees  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/tries",
+                    "text": "tries  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "Merkle trees  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/merkle-trees",
+                    "text": "Merkle trees  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "parse trees  ️",
+                "nodes": [
+                  {
+                    "text": "abstract syntax trees  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/computer-science/data-structures/abstract-syntax-trees",
+                        "text": "abstract syntax trees  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/parse-trees",
+                    "text": "parse trees  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Tree_(data_structure)",
+                "text": "trees",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "conflict-free replicated data type",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Conflict-free_replicated_data_type",
+                "text": "conflict-free replicated data type",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "hash tables  ️",
+            "note": "a hash function is any function that can be used to map data of arbitrary size to data of fixed size  the values returned by a hash function are called hash values, hash codes, digests or simply hashes  one use is a data structure called a hash table, widely used in computer software for rapid data lookup",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/hash-tables",
+                "text": "hash tables  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "serialisation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/serialisation",
+                "text": "serialisation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "bloom filters  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/bloom-filters",
+                "text": "bloom filters  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "linked list  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/linked-lists",
+                "text": "linked list  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "arrays  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/arrays",
+                "text": "arrays  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "stack  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/stack",
+                "text": "stack  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "queues",
+            "nodes": [
+              {
+                "text": "priority queue  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/priority-queue",
+                    "text": "priority queue  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Queue_(abstract_data_type)",
+                "text": "queues",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "disjoint sets  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/disjoint-sets",
+                "text": "disjoint sets  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "heaps  ️",
+            "nodes": [
+              {
+                "text": "binary heaps  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/data-structures/binary-heaps",
+                    "text": "binary heaps  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/computer-science/data-structures/heaps",
+                "text": "heaps  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QMV45tHCYNI&amp;list=PL4BBB74C7D2A1049C",
+            "text": "1. data structures by Bereley uni",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b",
+            "text": "1. 10 common data structures explained  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Data_structure",
+        "text": "data structures",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 9.509712837838606,
-      "fy": -570.7110430743252,
-      "nodes": [
-        {
-          "text": "1. data structures by Bereley uni",
-          "url": "https://www.youtube.com/watch?v=QMV45tHCYNI&amp;list=PL4BBB74C7D2A1049C",
-          "fx": 172.50971221923828,
-          "fy": -588.9015731811523,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. 10 common data structures explained  ️",
-          "url": "https://medium.freecodecamp.org/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b",
-          "fx": 172.50972366333008,
-          "fy": -523.7831649780273,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "disjoint sets  ️",
-      "url": "/computer-science/data-structures/disjoint-sets",
-      "fx": -685.7804008152174,
-      "fy": -470.6098845108695,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "binary heaps  ️",
-      "url": "/computer-science/data-structures/binary-heaps",
-      "fx": 504.68657483552397,
-      "fy": -379.2857730263164,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "heaps  ️",
-      "url": "/computer-science/data-structures/heaps",
-      "fx": 283.20855614973425,
-      "fy": -375.8983957219252,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "arrays  ️",
-      "url": "/computer-science/data-structures/arrays",
-      "fx": -724.7324039046116,
-      "fy": -359.2804312375182,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "stack  ️",
-      "url": "/computer-science/data-structures/stack",
-      "fx": 322.33470875873377,
-      "fy": -276.4976379946751,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "serialisation  ️",
-      "url": "/computer-science/data-structures/serialisation",
-      "fx": -539.2502416413074,
-      "fy": -259.1113490541354,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "bloom filters  ️",
-      "url": "/computer-science/data-structures/bloom-filters",
-      "fx": -781.910271139706,
-      "fy": -249.17566636029397,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "conflict-free replicated data type",
-      "url": "http://www.wikiwand.com/en/Conflict-free_replicated_data_type",
-      "fx": -289.44924729535364,
-      "fy": -204.38273714026627,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "linked list  ️",
-      "url": "/computer-science/data-structures/linked-lists",
-      "fx": 280.7795517988054,
-      "fy": -165.11773950447207,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "trees",
-      "url": "http://www.wikiwand.com/en/Tree_(data_structure)",
-      "fx": -424.15625,
-      "fy": -104.37799549102783,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "hash tables  ️",
-      "note": "a hash function is any function that can be used to map data of arbitrary size to data of fixed size  the values returned by a hash function are called hash values, hash codes, digests or simply hashes  one use is a data structure called a hash table, widely used in computer software for rapid data lookup",
-      "url": "/computer-science/data-structures/hash-tables",
-      "fx": -66.16053381363918,
-      "fy": -63.87630990227785,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "queues",
-      "url": "http://www.wikiwand.com/en/Queue_(abstract_data_type)",
-      "fx": 169.873693452829,
-      "fy": -59.62684513566683,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "log-structured merge-tree",
-      "url": "http://www.wikiwand.com/en/Log-structured_merge-tree",
-      "fx": -554.1418838500977,
-      "fy": 25.810012817382812,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "binary search trees  ️",
-      "url": "/computer-science/data-structures/binary-search-trees",
-      "fx": -821.8800659179688,
-      "fy": 27.9573917388916,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "tries  ️",
-      "url": "/computer-science/data-structures/tries",
-      "fx": -221.5940933227539,
-      "fy": 28.557376861572266,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "parse trees  ️",
-      "url": "/computer-science/data-structures/parse-trees",
-      "fx": -1227.9233530405404,
-      "fy": 28.73384712837833,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Merkle trees  ️",
-      "url": "/computer-science/data-structures/merkle-trees",
-      "fx": -1025.8751508980035,
-      "fy": 30.059375396760515,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "priority queue  ️",
-      "url": "/computer-science/data-structures/priority-queue",
-      "fx": 140.78483797898934,
-      "fy": 83.76641857090294,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "quadtrees  ️",
-      "url": "/computer-science/data-structures/quadtree",
-      "fx": -247.02221488965677,
-      "fy": 149.5933428930009,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "red-black tree  ️",
-      "url": "/computer-science/data-structures/red-black-trees",
-      "fx": -725.7885680379746,
-      "fy": 175.2467365506326,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "abstract syntax trees  ️",
-      "url": "/computer-science/data-structures/abstract-syntax-trees",
-      "fx": -1379.8800303706046,
-      "fy": 177.5875140604752,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "self balancing binary search tree",
-      "url": "http://www.wikiwand.com/en/Self-balancing_binary_search_tree",
-      "fx": -1080.875500801284,
-      "fy": 166.93429487179458,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "trees",
-      "target": "log-structured merge-tree",
-      "curve": {
-        "x": -17.9926,
-        "y": 65.094
       }
-    },
-    {
-      "source": "help",
-      "target": "data structures",
-      "curve": {
-        "x": -38.9834,
-        "y": -54.9554
-      }
-    },
-    {
-      "source": "data structures",
-      "target": "basics",
-      "curve": {
-        "x": -17.6693,
-        "y": 105.705
-      }
-    },
-    {
-      "source": "basics",
-      "target": "trees",
-      "curve": {
-        "x": -312.569,
-        "y": 226.023
-      }
-    },
-    {
-      "source": "basics",
-      "target": "conflict-free replicated data type",
-      "curve": {
-        "x": -91.4794,
-        "y": 190.664
-      }
-    },
-    {
-      "source": "basics",
-      "target": "hash tables  ️",
-      "curve": {
-        "x": 2.8894,
-        "y": 266.638
-      }
-    },
-    {
-      "source": "basics",
-      "target": "serialisation  ️",
-      "curve": {
-        "x": -255.38,
-        "y": 157.049
-      }
-    },
-    {
-      "source": "basics",
-      "target": "bloom filters  ️",
-      "curve": {
-        "x": -400.288,
-        "y": 179.607
-      }
-    },
-    {
-      "source": "basics",
-      "target": "linked list  ️",
-      "curve": {
-        "x": 136.796,
-        "y": 228.555
-      }
-    },
-    {
-      "source": "basics",
-      "target": "arrays  ️",
-      "curve": {
-        "x": -367.872,
-        "y": 105.715
-      }
-    },
-    {
-      "source": "trees",
-      "target": "binary search trees  ️",
-      "curve": {
-        "x": -189.194,
-        "y": 39.4748
-      }
-    },
-    {
-      "source": "binary search trees  ️",
-      "target": "red-black tree  ️",
-      "curve": {
-        "x": 29.5457,
-        "y": 72.3947
-      }
-    },
-    {
-      "source": "trees",
-      "target": "tries  ️",
-      "curve": {
-        "x": 112.508,
-        "y": 58.915
-      }
-    },
-    {
-      "source": "tries  ️",
-      "target": "quadtrees  ️",
-      "curve": {
-        "x": 5.28593,
-        "y": 61.768
-      }
-    },
-    {
-      "source": "basics",
-      "target": "stack  ️",
-      "curve": {
-        "x": 136.505,
-        "y": 161.634
-      }
-    },
-    {
-      "source": "basics",
-      "target": "queues",
-      "curve": {
-        "x": 87.682,
-        "y": 256.292
-      }
-    },
-    {
-      "source": "queues",
-      "target": "priority queue  ️",
-      "curve": {
-        "x": 3.45557,
-        "y": 71.6966
-      }
-    },
-    {
-      "source": "basics",
-      "target": "disjoint sets  ️",
-      "curve": {
-        "x": -336.146,
-        "y": 50.0506
-      }
-    },
-    {
-      "source": "basics",
-      "target": "heaps  ️",
-      "curve": {
-        "x": 113.053,
-        "y": 115.952
-      }
-    },
-    {
-      "source": "heaps  ️",
-      "target": "binary heaps  ️",
-      "curve": {
-        "x": 119.489,
-        "y": -2.44369
-      }
-    },
-    {
-      "source": "trees",
-      "target": "Merkle trees  ️",
-      "curve": {
-        "x": -376.161,
-        "y": 58.3677
-      }
-    },
-    {
-      "source": "binary search trees  ️",
-      "target": "self balancing binary search tree",
-      "curve": {
-        "x": -113.748,
-        "y": 76.7385
-      }
-    },
-    {
-      "source": "trees",
-      "target": "parse trees  ️",
-      "curve": {
-        "x": -475.509,
-        "y": 13.9348
-      }
-    },
-    {
-      "source": "parse trees  ️",
-      "target": "abstract syntax trees  ️",
-      "curve": {
-        "x": -44.4783,
-        "y": 75.1768
-      }
-    }
-  ],
-  "id": 336
+    ],
+    "author": ""
+  }
 }

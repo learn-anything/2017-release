@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory - memory management - virtual memory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "virtual memory",
-      "url": "http://www.wikiwand.com/en/Virtual_memory",
-      "fx": 131.8046875,
-      "fy": -87.21484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 182.671875,
-      "fy": 39.5390625,
-      "nodes": [
-        {
-          "text": "1. what is virtual memory?",
-          "url": "https://www.youtube.com/watch?v=qlH4-oHnBb8",
-          "fx": 345.671875,
-          "fy": 52.0390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "virtual memory",
-      "target": "basics",
-      "curve": {
-        "x": 5.43359,
-        "y": 63.377
+  "id": 243,
+  "map": {
+    "text": "virtual memory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=qlH4-oHnBb8",
+            "text": "1. what is virtual memory?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 243
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Virtual_memory",
+        "text": "virtual memory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

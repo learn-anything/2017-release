@@ -1,67 +1,72 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic components - semiconductor devices",
   "tag": "",
-  "nodes": [
-    {
-      "text": "semiconductor devices",
-      "url": "http://www.wikiwand.com/en/Semiconductor_device",
-      "fx": -241.84375,
-      "fy": -39.5546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -152.87154664855075,
-      "fy": 105.1268304649758,
-      "nodes": [
-        {
-          "text": "1. what are semiconductor devices  ️",
-          "url": "https://www.universalclass.com/articles/science/electronics/what-are-semiconductor-devices.htm",
-          "fx": 3.1284533514492523,
-          "fy": 96.6268304649758,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. semiconductor device physics",
-          "url": "https://www.youtube.com/watch?v=DK4tfiHPdvg&amp;list=PLyWzPf87clvFN4-C-_PTSaCfnsSu-ybtG",
-          "fx": 3.1284533514492523,
-          "fy": 136.6268304649758,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 530,
+  "map": {
+    "text": "semiconductor devices",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "transistors  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/electrical-engineering/electronics/electronic-components/semiconductor-devices/transistor",
+                "text": "transistors  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.universalclass.com/articles/science/electronics/what-are-semiconductor-devices.htm",
+            "text": "1. what are semiconductor devices  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DK4tfiHPdvg&amp;list=PLyWzPf87clvFN4-C-_PTSaCfnsSu-ybtG",
+            "text": "1. semiconductor device physics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Semiconductor_device",
+        "text": "semiconductor devices",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "transistors  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-components/semiconductor-devices/transistor",
-      "fx": -254.97863828502432,
-      "fy": 246.9042874395667,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "semiconductor devices",
-      "target": "basics",
-      "curve": {
-        "x": -0.763894,
-        "y": 71.0907
       }
-    },
-    {
-      "source": "basics",
-      "target": "transistors  ️",
-      "curve": {
-        "x": -42.0535,
-        "y": 70.8887
-      }
-    }
-  ],
-  "id": 530
+    ],
+    "author": ""
+  }
 }

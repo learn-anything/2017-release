@@ -1,42 +1,42 @@
 {
   "title": "learn anything - physics - optics - geometrical optics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "geometrical optics",
-      "url": "http://www.wikiwand.com/en/Geometrical_optics",
-      "fx": 77.51953125,
-      "fy": -104.92578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 147.90493295019155,
-      "fy": 47.41588840998395,
-      "nodes": [
-        {
-          "text": "1. geometric optics",
-          "url": "https://www.youtube.com/watch?v=Oh4m8Ees-3Q",
-          "fx": 310.90493295019155,
-          "fy": 59.91588840998395,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "geometrical optics",
-      "target": "basics",
-      "curve": {
-        "x": -2.3073,
-        "y": 75.4208
+  "id": 1501,
+  "map": {
+    "text": "geometrical optics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Oh4m8Ees-3Q",
+            "text": "1. geometric optics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1498
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Geometrical_optics",
+        "text": "geometrical optics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

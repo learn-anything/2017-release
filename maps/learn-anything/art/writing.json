@@ -1,179 +1,182 @@
 {
   "title": "learn anything - art - writing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "writing",
-      "url": "http://www.wikiwand.com/en/Writing",
-      "fx": -67.67288633726048,
-      "fy": -519.466343373065,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/writing/",
-          "fx": 94.32711366273952,
-          "fy": -527.966343373065,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://writers.stackexchange.com/",
-          "fx": 94.32711366273952,
-          "fy": -485.96634337306483,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 66,
+  "map": {
+    "text": "writing",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "- if you think this can be improved in any way",
+        "nodes": [
+          {
+            "text": "creative writing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/writing/creative-writing",
+                "text": "creative writing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "journaling  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/writing/journaling",
+                "text": "journaling  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://paulgraham.com/talk.html",
+            "text": "1. write like you talk  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/10569.On_Writing",
+            "text": "1. on writing: a memoir of the craft",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://paulgraham.com/writing44.html",
+                "text": "05: writing briefly  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.edge.org/conversation/writing-in-the-21st-century",
+                "text": "17: writing in 21st century  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://medium.com/@immeasurablematt/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937",
+                "text": "17: guide to clearer thinking through essay writing  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://medium.com/@NikitaVoloboev/how-i-write-cdc2cebdc70c",
+                "text": "17: how I write  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md",
+            "text": "notes on writing well",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/writing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 66.0874361133175,
-      "fy": -390.2771056985146,
-      "nodes": [
-        {
-          "text": "notes on writing well",
-          "url": "https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md",
-          "fx": 207.0874361133175,
-          "fy": -377.7771056985146,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "https://writers.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 188.1435418614825,
-      "fy": -244.53493204093303,
-      "nodes": [
-        {
-          "text": "05: writing briefly  ️",
-          "url": "http://paulgraham.com/writing44.html",
-          "fx": 357.1435418614825,
-          "fy": -307.53493204093303,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "17: writing in 21st century  ️",
-          "url": "https://www.edge.org/conversation/writing-in-the-21st-century",
-          "fx": 357.1435418614825,
-          "fy": -265.53493204093303,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "17: guide to clearer thinking through essay writing  ️",
-          "url": "https://medium.com/@immeasurablematt/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937",
-          "fx": 357.1435418614825,
-          "fy": -223.53493204093303,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "17: how I write  ️",
-          "url": "https://medium.com/@NikitaVoloboev/how-i-write-cdc2cebdc70c",
-          "fx": 357.1435418614825,
-          "fy": -156.53493204093303,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Writing",
+        "text": "writing",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "- if you think this can be improved in any way",
-      "url": "",
-      "fx": -123.35071963475662,
-      "fy": -39.92826779502485,
-      "nodes": [
-        {
-          "text": "1. write like you talk  ️",
-          "url": "http://paulgraham.com/talk.html",
-          "fx": 65.64928036524338,
-          "fy": -60.92826779502485,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. on writing: a memoir of the craft",
-          "url": "https://www.goodreads.com/book/show/10569.On_Writing",
-          "fx": 65.64928036524338,
-          "fy": -18.92826779502485,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "creative writing  ️",
-      "url": "/art/writing/creative-writing",
-      "fx": -342.84423828125,
-      "fy": 110.63120589717721,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "journaling  ️",
-      "url": "/art/writing/journaling",
-      "fx": -72.87519929846928,
-      "fy": 114.15911989795939,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "writing",
-      "target": "basics",
-      "curve": {
-        "x": -21.8389,
-        "y": 239.769
       }
-    },
-    {
-      "source": "help",
-      "target": "writing",
-      "curve": {
-        "x": -61.6301,
-        "y": -64.5946
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -67.2781,
-        "y": -72.8712
-      }
-    },
-    {
-      "source": "basics",
-      "target": "creative writing  ️",
-      "curve": {
-        "x": -96.9968,
-        "y": 75.2798
-      }
-    },
-    {
-      "source": "basics",
-      "target": "journaling  ️",
-      "curve": {
-        "x": 26.9878,
-        "y": 77.0437
-      }
-    }
-  ],
-  "id": 66
+    ],
+    "author": ""
+  }
 }

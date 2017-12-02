@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - algorithms - search - binary search",
   "tag": "",
-  "nodes": [
-    {
-      "text": "binary search",
-      "url": "http://www.wikiwand.com/en/Binary_search_algorithm",
-      "fx": 272.08203125,
-      "fy": -39.94921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 309.62746047973644,
-      "fy": 144.00618616739905,
-      "nodes": [
-        {
-          "text": "1. how binary search works",
-          "url": "https://www.youtube.com/watch?v=JQhciTuD3E8",
-          "fx": 465.62746047973644,
-          "fy": 155.50618616739905,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "binary search",
-      "target": "basics",
-      "curve": {
-        "x": -4.22729,
-        "y": 90.7277
+  "id": 269,
+  "map": {
+    "text": "binary search",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=JQhciTuD3E8",
+            "text": "1. how binary search works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 269
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Binary_search_algorithm",
+        "text": "binary search",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

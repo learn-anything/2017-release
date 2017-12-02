@@ -1,76 +1,71 @@
 {
   "title": "learn anything - communication - telecommunication - wireless - wifi",
   "tag": "WiFi",
-  "nodes": [
-    {
-      "text": "WiFi",
-      "url": "http://www.wikiwand.com/en/Wi-Fi",
-      "fx": 264.28725961538464,
-      "fy": -284.1742788461539,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 383.7036358619712,
-      "fy": -161.32233258038235,
-      "nodes": [
-        {
-          "text": "wifi cracking",
-          "url": "https://github.com/brannondorsey/wifi-cracking",
-          "fx": 582.7036358619712,
-          "fy": -182.32233258038235,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "visualisation of WiFi signal strength in a room",
-          "url": "http://imgur.com/5NTF0Nf",
-          "fx": 582.7036358619712,
-          "fy": -140.32233258038235,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 223.12681893098033,
-      "fy": -14.557615917961414,
-      "nodes": [
-        {
-          "text": "1. how does WiFi work",
-          "url": "https://www.youtube.com/watch?v=METB1o4UAT8",
-          "fx": 386.12681893098033,
-          "fy": -2.0576159179614137,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "WiFi",
-      "curve": {
-        "x": -69.4582,
-        "y": -60.676
+  "id": 199,
+  "map": {
+    "text": "WiFi",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/brannondorsey/wifi-cracking",
+            "text": "wifi cracking",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://imgur.com/5NTF0Nf",
+            "text": "visualisation of WiFi signal strength in a room",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=METB1o4UAT8",
+            "text": "1. how does WiFi work",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "WiFi",
-      "target": "basics",
-      "curve": {
-        "x": -19.8302,
-        "y": 134.058
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Wi-Fi",
+        "text": "WiFi",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 199
+    ],
+    "author": ""
+  }
 }

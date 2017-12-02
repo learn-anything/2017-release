@@ -1,67 +1,60 @@
 {
   "title": "learn anything - chemistry - chemical elements - aluminium",
   "tag": "",
-  "nodes": [
-    {
-      "text": "aluminium",
-      "url": "http://www.wikiwand.com/en/Aluminium",
-      "fx": 68.72265625,
-      "fy": -185.984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 222.96751644736844,
-      "fy": -61.92827772556387,
-      "nodes": [
-        {
-          "text": "15: the ingenious design of the aluminium beverage can",
-          "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
-          "fx": 421.96751644736844,
-          "fy": -61.92827772556387,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 75.02325750874559,
-      "fy": 64.72747564932786,
-      "nodes": [
-        {
-          "text": "1. how is aluminum made",
-          "url": "https://www.youtube.com/watch?v=fa6KEwWY9HU",
-          "fx": 238.0232575087456,
-          "fy": 77.22747564932786,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "aluminium",
-      "curve": {
-        "x": -69.3724,
-        "y": -61.278
+  "id": 142,
+  "map": {
+    "text": "aluminium",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
+            "text": "15: the ingenious design of the aluminium beverage can",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=fa6KEwWY9HU",
+            "text": "1. how is aluminum made",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "aluminium",
-      "target": "basics",
-      "curve": {
-        "x": -13.5997,
-        "y": 124.606
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Aluminium",
+        "text": "aluminium",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 142
+    ],
+    "author": ""
+  }
 }

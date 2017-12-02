@@ -1,50 +1,61 @@
 {
   "title": "learn anything - communication",
   "tag": "",
-  "nodes": [
-    {
-      "text": "communication",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Communication",
-      "fx": -162.89676770962137,
-      "fy": -401.4616867414038,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "telecommunication  ️",
-      "url": "/communication/telecommunication",
-      "fx": -324.7964098750018,
-      "fy": -264.054162085057,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "social media  ️",
-      "url": "/communication/social-media",
-      "fx": -60.98311499167767,
-      "fy": -262.0295695405019,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "communication",
-      "target": "telecommunication  ️",
-      "curve": {
-        "x": -79.4498,
-        "y": 68.7037
+  "id": 202,
+  "map": {
+    "text": "communication",
+    "note": "",
+    "nodes": [
+      {
+        "text": "telecommunication  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/communication/telecommunication",
+            "text": "telecommunication  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "social media  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/communication/social-media",
+            "text": "social media  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "communication",
-      "target": "social media  ️",
-      "curve": {
-        "x": 29.7068,
-        "y": 68.4661
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Communication",
+        "text": "communication",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 202
+    ],
+    "author": ""
+  }
 }

@@ -1,99 +1,97 @@
 {
   "title": "learn anything - engineering - aerospace engineering",
   "tag": "aeroscpace engineering",
-  "nodes": [
-    {
-      "text": "aerospace engineering",
-      "url": "http://www.wikiwand.com/en/Aerospace_engineering",
-      "fx": -108.25,
-      "fy": -277.1875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 85.77264730027787,
-      "fy": -173.012589536397,
-      "nodes": [
-        {
-          "text": "aeronautics and astronautics courses from MIT",
-          "url": "https://ocw.mit.edu/courses/aeronautics-and-astronautics/",
-          "fx": 222.77264730027787,
-          "fy": -169.512589536397,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 511,
+  "map": {
+    "text": "aerospace engineering",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://ocw.mit.edu/courses/aeronautics-and-astronautics/",
+            "text": "aeronautics and astronautics courses from MIT",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "rocket science  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/aerospace-engineering/rocket-science",
+                "text": "rocket science  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "aircraft  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/aerospace-engineering/aircraft",
+                "text": "aircraft  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://ae.sharif.edu/~iae/Download/Introduction%20to%20flight.pdf",
+            "text": "1. introduction to flight",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Aerospace_engineering",
+        "text": "aerospace engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -25.189410971223197,
-      "fy": -71.27832733812932,
-      "nodes": [
-        {
-          "text": "1. introduction to flight",
-          "url": "http://ae.sharif.edu/~iae/Download/Introduction%20to%20flight.pdf",
-          "fx": 156.8105890287768,
-          "fy": -59.778327338129316,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "aircraft  ️",
-      "url": "/engineering/aerospace-engineering/aircraft",
-      "fx": -111.97222879338517,
-      "fy": 49.08624339564142,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "rocket science  ️",
-      "url": "/engineering/aerospace-engineering/rocket-science",
-      "fx": 29.645248122219982,
-      "fy": 49.50525236853548,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "aerospace engineering",
-      "curve": {
-        "x": -48.2613,
-        "y": -50.8375
       }
-    },
-    {
-      "source": "aerospace engineering",
-      "target": "basics",
-      "curve": {
-        "x": -2.46971,
-        "y": 101.705
-      }
-    },
-    {
-      "source": "basics",
-      "target": "rocket science  ️",
-      "curve": {
-        "x": 39.4173,
-        "y": 60.3918
-      }
-    },
-    {
-      "source": "basics",
-      "target": "aircraft  ️",
-      "curve": {
-        "x": -48.8914,
-        "y": 60.1823
-      }
-    }
-  ],
-  "id": 511
+    ],
+    "author": ""
+  }
 }

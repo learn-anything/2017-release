@@ -1,239 +1,243 @@
 {
   "title": "learn anything - distributed computing - ethereum",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ethereum",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Ethereum",
-      "fx": -221.2683104858371,
-      "fy": -776.771966916577,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ethereum/",
-          "fx": 17.731689514162895,
-          "fy": -782.771966916577,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://ethereum.stackexchange.com/",
-          "fx": 17.731689514162895,
-          "fy": -742.771966916577,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 5.619980631217004,
-      "fy": -616.1187985019578,
-      "nodes": [
-        {
-          "text": "ethereum starter guide",
-          "url": "https://www.reddit.com/r/ethereum/comments/3vxvlx/starter_guide_almost_all_the_links_youll_need_to/",
-          "fx": 142.619980631217,
-          "fy": -675.6187985019578,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "comprehensive ethereum reading list",
-          "url": "https://github.com/Scanate/Ethlist",
-          "fx": 142.619980631217,
-          "fy": -635.6187985019578,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome ethereum",
-          "url": "https://github.com/btomashvili/awesome-ethereum",
-          "fx": 142.619980631217,
-          "fy": -573.6187985019578,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "awesome ethereum virtual machine",
-          "url": "https://github.com/pirapira/awesome-ethereum-virtual-machine",
-          "fx": 142.619980631217,
-          "fy": -533.6187985019578,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 173.4892653042707,
-      "fy": -423.5090856961438,
-      "nodes": [
-        {
-          "text": "15: ethereum golem",
-          "url": "https://www.youtube.com/watch?v=JA-UkjnapAU&amp;feature=youtu.be",
-          "fx": 364.4892653042707,
-          "fy": -443.0090856961438,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: Vitalik Buterin -  the mastermind behind ethereum",
-          "url": "https://www.youtube.com/watch?v=KCQP02LHjGY",
-          "fx": 364.4892653042707,
-          "fy": -403.0090856961438,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -333.8718986461879,
-      "fy": -306.17473771118165,
-      "nodes": [
-        {
-          "text": "1. what is ethereum   ️",
-          "url": "https://ethereum.stackexchange.com/questions/45/how-would-i-explain-ethereum-to-a-non-technical-friend",
-          "fx": -177.8718986461879,
-          "fy": -371.67473771118165,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. WTF is ethereum  ️",
-          "url": "http://whatthefuckisethereum.com/",
-          "fx": -177.8718986461879,
-          "fy": -331.67473771118165,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "1. ethereum white paper",
-          "url": "http://fermatslibrary.com/s/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
-          "fx": -177.8718986461879,
-          "fy": -291.67473771118165,
-          "nodes": [
-            {
-              "text": "annotated",
-              "url": "http://fermatslibrary.com/s/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
-              "fx": 117.1281013538121,
-              "fy": -288.67473771118165,
-              "nodes": [],
-              "color": "rgba(34, 205, 224, 1.0)"
+  "id": 446,
+  "map": {
+    "text": "ethereum",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.youtube.com/watch?v=JA-UkjnapAU&amp;feature=youtu.be",
+                "text": "15: ethereum golem",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=KCQP02LHjGY",
+                "text": "17: Vitalik Buterin -  the mastermind behind ethereum",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/ethereum/comments/3vxvlx/starter_guide_almost_all_the_links_youll_need_to/",
+            "text": "ethereum starter guide",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "paper",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. step-by-step beginners guide",
-          "url": "https://blockgeeks.com/guides/what-is-ethereum/",
-          "fx": -177.8718986461879,
-          "fy": -251.67473771118165,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. ethereum: the world computer",
-          "url": "https://www.youtube.com/watch?v=j23HnORQXvs",
-          "fx": -177.8718986461879,
-          "fy": -217.67473771118165,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+          },
+          {
+            "url": "https://github.com/Scanate/Ethlist",
+            "text": "comprehensive ethereum reading list",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/btomashvili/awesome-ethereum",
+            "text": "awesome ethereum",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/pirapira/awesome-ethereum-virtual-machine",
+            "text": "awesome ethereum virtual machine",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "solidity  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/programming/programming-languages/solidity",
+                "text": "solidity  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "ether",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.ethereum.org/ether",
+                "text": "ether",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "smart contracts  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/distributed-computing/ethereum/smart-contracts",
+                "text": "smart contracts  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://ethereum.stackexchange.com/questions/45/how-would-i-explain-ethereum-to-a-non-technical-friend",
+            "text": "1. what is ethereum   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://whatthefuckisethereum.com/",
+            "text": "1. WTF is ethereum  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://fermatslibrary.com/s/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
+            "text": "1. ethereum white paper",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://blockgeeks.com/guides/what-is-ethereum/",
+            "text": "1. step-by-step beginners guide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=j23HnORQXvs",
+            "text": "1. ethereum: the world computer",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ethereum/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "solidity  ️",
-      "url": "/programming/programming-languages/solidity",
-      "fx": -483.2808183319049,
-      "fy": -173.11119852190427,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "ether",
-      "url": "https://www.ethereum.org/ether",
-      "fx": -335.66106516937646,
-      "fy": -169.91933605347845,
-      "nodes": []
-    },
-    {
-      "text": "smart contracts  ️",
-      "url": "/distributed-computing/ethereum/smart-contracts",
-      "fx": -707.7760140394375,
-      "fy": -170.40798691190014,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "ethereum",
-      "curve": {
-        "x": -87.9442,
-        "y": -79.0766
+      },
+      {
+        "url": "https://ethereum.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ethereum",
+        "text": "ethereum",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "ethereum",
-      "target": "basics",
-      "curve": {
-        "x": -77.0518,
-        "y": 234.049
-      }
-    },
-    {
-      "source": "basics",
-      "target": "solidity  ️",
-      "curve": {
-        "x": -66.4544,
-        "y": 67.7817
-      }
-    },
-    {
-      "source": "basics",
-      "target": "ether",
-      "curve": {
-        "x": -3.89454,
-        "y": 68.1276
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -115.669,
-        "y": -84.8952
-      }
-    },
-    {
-      "source": "basics",
-      "target": "smart contracts  ️",
-      "curve": {
-        "x": -197.943,
-        "y": 46.6787
-      }
-    }
-  ],
-  "id": 446
+    ],
+    "author": ""
+  }
 }

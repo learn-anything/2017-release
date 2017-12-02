@@ -1,42 +1,42 @@
 {
   "title": "learn anything - physics - matter - phases - topological order",
   "tag": "",
-  "nodes": [
-    {
-      "text": "topological order",
-      "url": "http://www.wikiwand.com/en/Topological_order",
-      "fx": 80.73046875,
-      "fy": -82.39453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 136.5,
-      "fy": 42,
-      "nodes": [
-        {
-          "text": "1. explanation of the discovery",
-          "url": "https://www.youtube.com/watch?v=sk7hr4orliU",
-          "fx": 292.5,
-          "fy": 53.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "topological order",
-      "target": "basics",
-      "curve": {
-        "x": -2.86523,
-        "y": 60.9473
+  "id": 1489,
+  "map": {
+    "text": "topological order",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=sk7hr4orliU",
+            "text": "1. explanation of the discovery",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1486
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Topological_order",
+        "text": "topological order",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

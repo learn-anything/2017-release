@@ -1,50 +1,61 @@
 {
   "title": "learn anything - control systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "control systems",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Control_system",
-      "fx": -141.3094512195122,
-      "fy": -246.82431402439028,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "automation  ️",
-      "url": "/control-systems/automation",
-      "fx": -207.75752667682946,
-      "fy": -96.12036331300817,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "industrial control systems",
-      "url": "http://www.wikiwand.com/en/Industrial_control_system",
-      "fx": -24.03206712372446,
-      "fy": -95.04984454719391,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "control systems",
-      "target": "automation  ️",
-      "curve": {
-        "x": -50.7241,
-        "y": 74.102
+  "id": 362,
+  "map": {
+    "text": "control systems",
+    "note": "",
+    "nodes": [
+      {
+        "text": "automation  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/control-systems/automation",
+            "text": "automation  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "industrial control systems",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Industrial_control_system",
+            "text": "industrial control systems",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "control systems",
-      "target": "industrial control systems",
-      "curve": {
-        "x": 73.6387,
-        "y": 75.8872
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Control_system",
+        "text": "control systems",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 362
+    ],
+    "author": ""
+  }
 }

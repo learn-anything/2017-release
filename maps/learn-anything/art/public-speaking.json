@@ -1,60 +1,63 @@
 {
   "title": "learn anything - art - public speaking",
   "tag": "",
-  "nodes": [
-    {
-      "text": "public speaking",
-      "url": "http://www.wikiwand.com/en/Public_speaking",
-      "fx": -95.13069465361457,
-      "fy": -359.4393354668674,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/matteofigus/awesome-speaking",
-          "fx": 173.86930534638543,
-          "fy": -345.4393354668674,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 34.6888046467684,
-      "fy": -240.24124548722148,
-      "nodes": [
-        {
-          "text": "toast masters",
-          "url": "http://www.toastmasters.org/",
-          "fx": 171.6888046467684,
-          "fy": -245.74124548722148,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "public speaking resources",
-          "url": "https://github.com/vmbrasseur/Public_Speaking",
-          "fx": 171.6888046467684,
-          "fy": -211.74124548722148,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "public speaking",
-      "curve": {
-        "x": -31.9097,
-        "y": -58.3491
+  "id": 59,
+  "map": {
+    "text": "public speaking",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.toastmasters.org/",
+            "text": "toast masters",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/vmbrasseur/Public_Speaking",
+            "text": "public speaking resources",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 59
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/matteofigus/awesome-speaking",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Public_speaking",
+        "text": "public speaking",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

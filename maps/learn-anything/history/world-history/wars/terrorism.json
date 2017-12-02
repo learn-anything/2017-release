@@ -1,67 +1,60 @@
 {
   "title": "learn anything - history - world history - wars - terrorism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "terrorism",
-      "url": "http://www.wikiwand.com/en/Terrorism",
-      "fx": 115.70703125,
-      "fy": -222.83203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 240.32140405751454,
-      "fy": -89.79451117387208,
-      "nodes": [
-        {
-          "text": "1. I am the son of a terrorist, here’s how I chose peace",
-          "url": "https://www.youtube.com/watch?v=lyR-K2CZIHQ",
-          "fx": 383.32140405751454,
-          "fy": -89.79451117387208,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 131.9045962591241,
-      "fy": 25.94109260948892,
-      "nodes": [
-        {
-          "text": "1. terrorism, war and Bush",
-          "url": "https://www.youtube.com/watch?v=nlsnnhn3VWE",
-          "fx": 294.9045962591241,
-          "fy": 38.44109260948892,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "terrorism",
-      "curve": {
-        "x": -44.0572,
-        "y": -65.7688
+  "id": 626,
+  "map": {
+    "text": "terrorism",
+    "nodes": [
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lyR-K2CZIHQ",
+            "text": "1. I am the son of a terrorist, here’s how I chose peace",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nlsnnhn3VWE",
+            "text": "1. terrorism, war and Bush",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "terrorism",
-      "target": "basics",
-      "curve": {
-        "x": -5.15122,
-        "y": 123.637
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Terrorism",
+        "text": "terrorism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 626
+    ],
+    "author": ""
+  }
 }

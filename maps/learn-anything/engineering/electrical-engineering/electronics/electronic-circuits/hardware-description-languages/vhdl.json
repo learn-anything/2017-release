@@ -1,61 +1,64 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits - hardware description languages - vhdl",
   "tag": "VHDL",
-  "nodes": [
-    {
-      "text": "VHDL",
-      "url": "http://www.wikiwand.com/en/VHDL",
-      "fx": -34.28837819343073,
-      "fy": -104.90117472627742,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/VHDL/",
-          "fx": 145.71162180656927,
-          "fy": -110.90117472627742,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "trending",
-          "url": "https://github.com/trending/vhdl",
-          "fx": 145.71162180656927,
-          "fy": -70.90117472627742,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -23.560218978102398,
-      "fy": 51.95460766419603,
-      "nodes": [
-        {
-          "text": "1. learn VHDL by example",
-          "url": "https://www.youtube.com/watch?v=Ks9L3uARkBg",
-          "fx": 132.4397810218976,
-          "fy": 63.45460766419603,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "VHDL",
-      "target": "basics",
-      "curve": {
-        "x": -0.63592,
-        "y": 77.1779
+  "id": 526,
+  "map": {
+    "text": "VHDL",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ks9L3uARkBg",
+            "text": "1. learn VHDL by example",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 526
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/VHDL/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/trending/vhdl",
+        "text": "trending",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/VHDL",
+        "text": "VHDL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

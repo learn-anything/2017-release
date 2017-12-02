@@ -1,184 +1,156 @@
 {
   "title": "learn anything - design - graphic design - sketch",
   "tag": "sketch app",
-  "nodes": [
-    {
-      "text": "sketch",
-      "url": "https://www.sketchapp.com/",
-      "fx": -80.31691260700245,
-      "fy": -475.6853680363735,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/sketchapp/",
-          "fx": 77.68308739299755,
-          "fy": -484.1853680363735,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/diessica/awesome-sketch",
-          "fx": 77.68308739299755,
-          "fy": -444.1853680363735,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 15.42082879894133,
-      "fy": -361.5028357405484,
-      "nodes": [
-        {
-          "text": "collection of best Sketch resources",
-          "url": "http://sketch.fordesignrs.com/",
-          "fx": 152.42082879894133,
-          "fy": -347.0028357405484,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 74.36234634744267,
-      "fy": -272.84401073563566,
-      "nodes": [
-        {
-          "text": "render react components to sketch",
-          "url": "https://github.com/airbnb/react-sketchapp",
-          "fx": 216.36234634744267,
-          "fy": -261.34401073563566,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 151.93684269832727,
-      "fy": -163.7266657902626,
-      "nodes": [
-        {
-          "text": "17: Sketch open file format  ️",
-          "url": "https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223",
-          "fx": 313.93684269832727,
-          "fy": -152.2266657902626,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -227.92977263703028,
-      "fy": -116.04543574058596,
-      "nodes": [
-        {
-          "text": "1. learn sketch",
-          "url": "https://www.sketchapp.com/learn/",
-          "fx": -45.92977263703028,
-          "fy": -101.54543574058596,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 244.462515132185,
-      "fy": -63.48838093835934,
-      "nodes": [
-        {
-          "text": "WeSketch",
-          "url": "https://github.com/weixin/WeSketch",
-          "fx": 435.462515132185,
-          "fy": -51.98838093835934,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "plugins",
-      "url": "",
-      "fx": -260.1867298640942,
-      "fy": 36.069960297131274,
-      "nodes": [
-        {
-          "text": "sketch flex box",
-          "url": "https://github.com/hrescak/Sketch-Flex-Layout",
-          "fx": -97.18672986409422,
-          "fy": 47.569960297131274,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "sketch",
-      "target": "basics",
-      "curve": {
-        "x": -74.3064,
-        "y": 179.82
+  "id": 429,
+  "map": {
+    "text": "sketch",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "plugins",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/hrescak/Sketch-Flex-Layout",
+                "text": "sketch flex box",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.sketchapp.com/learn/",
+            "text": "1. learn sketch",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [
+              {
+                "text": "articles",
+                "nodes": [
+                  {
+                    "text": "interesting",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://github.com/weixin/WeSketch",
+                        "text": "WeSketch",
+                        "category": "github",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223",
+                    "text": "17: Sketch open file format  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://github.com/airbnb/react-sketchapp",
+                "text": "render react components to sketch",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://sketch.fordesignrs.com/",
+            "text": "collection of best Sketch resources",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "plugins",
-      "curve": {
-        "x": -20.8785,
-        "y": 76.0576
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/sketchapp/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/diessica/awesome-sketch",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.sketchapp.com/",
+        "text": "sketch",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "tools",
-      "curve": {
-        "x": -43.7872,
-        "y": -54.5586
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -53.5128,
-        "y": -50.1191
-      }
-    },
-    {
-      "source": "help",
-      "target": "sketch",
-      "curve": {
-        "x": -42.6189,
-        "y": -57.0913
-      }
-    },
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -30.7208,
-        "y": -44.3294
-      }
-    }
-  ],
-  "id": 429
+    ],
+    "author": ""
+  }
 }

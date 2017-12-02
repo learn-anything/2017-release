@@ -1,93 +1,91 @@
 {
   "title": "learn anything - art - digital art - pixel art",
   "tag": "",
-  "nodes": [
-    {
-      "text": "pixel art",
-      "url": "http://www.wikiwand.com/en/Pixel_art",
-      "fx": -25.225413602941217,
-      "fy": -223.0723805147059,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/PixelArt/",
-          "fx": 172.77458639705878,
-          "fy": -229.0723805147059,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/Siilwyn/awesome-pixel-art",
-          "fx": 172.77458639705878,
-          "fy": -189.0723805147059,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 108.40519957983179,
-      "fy": -104.47674304096438,
-      "nodes": [
-        {
-          "text": "pixel art to css",
-          "url": "http://www.pixelartcss.com/",
-          "fx": 250.4051995798318,
-          "fy": -89.97674304096438,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -25.060202205882206,
-      "fy": 5.169577205882433,
-      "nodes": [
-        {
-          "text": "1. pixel art tutorial",
-          "url": "http://pixeljoint.com/forum/forum_posts.asp?TID=11299",
-          "fx": 130.9397977941178,
-          "fy": -0.3304227941175668,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. pixel art outlines tutorial  ️",
-          "url": "http://samkeddy.com/pixel-art-outlines/",
-          "fx": 130.9397977941178,
-          "fy": 33.66957720588243,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "pixel art",
-      "target": "basics",
-      "curve": {
-        "x": -10.4174,
-        "y": 112.871
+  "id": 16,
+  "map": {
+    "text": "pixel art",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://pixeljoint.com/forum/forum_posts.asp?TID=11299",
+            "text": "1. pixel art tutorial",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://samkeddy.com/pixel-art-outlines/",
+            "text": "1. pixel art outlines tutorial  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "tools",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.pixelartcss.com/",
+            "text": "pixel art to css",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "tools",
-      "target": "pixel art",
-      "curve": {
-        "x": -52.8154,
-        "y": -58.0478
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/PixelArt/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/Siilwyn/awesome-pixel-art",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Pixel_art",
+        "text": "pixel art",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 16
+    ],
+    "author": ""
+  }
 }

@@ -1,50 +1,61 @@
 {
   "title": "learn anything - design - human computer interaction",
   "tag": "",
-  "nodes": [
-    {
-      "text": "human computer interaction",
-      "note": "researches the design and use of computer technology, focused on the interfaces between people (users) and computers",
-      "url": "http://www.wikiwand.com/en/Human%E2%80%93computer_interaction",
-      "fx": 6.43359375,
-      "fy": -344.9609375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "user experience  ️",
-      "url": "/design/user-experience",
-      "fx": -29.94140625,
-      "fy": -217.6875,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "user interfaces",
-      "url": "http://www.wikiwand.com/en/User_interface",
-      "fx": 205.13042068481445,
-      "fy": -215.89453125,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "human computer interaction",
-      "target": "user experience  ️",
-      "curve": {
-        "x": -52.6875,
-        "y": 63.6367
+  "id": 431,
+  "map": {
+    "text": "human computer interaction",
+    "note": "researches the design and use of computer technology, focused on the interfaces between people (users) and computers",
+    "nodes": [
+      {
+        "text": "user experience  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/design/user-experience",
+            "text": "user experience  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "user interfaces",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/User_interface",
+            "text": "user interfaces",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "human computer interaction",
-      "target": "user interfaces",
-      "curve": {
-        "x": 62.0984,
-        "y": 64.5332
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Human%E2%80%93computer_interaction",
+        "text": "human computer interaction",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 431
+    ],
+    "author": ""
+  }
 }

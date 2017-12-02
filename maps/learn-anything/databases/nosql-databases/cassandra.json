@@ -1,78 +1,72 @@
 {
   "title": "learn anything - databases - nosql databases - cassandra",
   "tag": "apache cassandra",
-  "nodes": [
-    {
-      "text": "cassandra",
-      "url": "http://www.wikiwand.com/en/Apache_Cassandra",
-      "fx": -89.10635566538735,
-      "fy": -399.0484858693381,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/apache/cassandra",
-          "fx": 131.89364433461265,
-          "fy": -385.0484858693381,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 47.2284874321565,
-      "fy": -278.1295294997882,
-      "nodes": [
-        {
-          "text": "awesome cassandra",
-          "url": "https://github.com/yikebocai/awesome-cassandra",
-          "fx": 184.2284874321565,
-          "fy": -266.6295294997882,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -69.48883793166954,
-      "fy": -158.30177836729,
-      "nodes": [
-        {
-          "text": "1. foundations of apache cassandra",
-          "url": "https://academy.datastax.com/resources/ds201-foundations-apache-cassandra",
-          "fx": 112.51116206833046,
-          "fy": -146.80177836729,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "cassandra",
-      "target": "basics",
-      "curve": {
-        "x": -6.44124,
-        "y": 119.123
+  "id": 405,
+  "map": {
+    "text": "cassandra",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://academy.datastax.com/resources/ds201-foundations-apache-cassandra",
+            "text": "1. foundations of apache cassandra",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/yikebocai/awesome-cassandra",
+            "text": "awesome cassandra",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "cassandra",
-      "curve": {
-        "x": -47.1674,
-        "y": -59.2095
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/apache/cassandra",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Apache_Cassandra",
+        "text": "cassandra",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 405
+    ],
+    "author": ""
+  }
 }

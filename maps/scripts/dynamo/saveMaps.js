@@ -6,28 +6,31 @@ function sleep(ms) {
 
 
 let nodeID = 0;
-const addedResources = [];
+let resourceID = -1;
 
 const getNodesAndResources = (node, mapID, parentID=null) => {
   const nodes = [{
     mapID,
-    nodeID,
     parentID,
     text: node.text,
+    nodeID: nodeID,
   }];
   const resources = node.resources.map(({ text, url, category, score }) => {
-    const resourceID = `${nodes[0].nodeID}|${url}`;
+    resourceID += 1;
 
-    if (!addedResources.includes(resourceID)) {
-      const res = { mapID, url, score, resourceID, parentID: nodes[0].nodeID };
+    const res = {
+      mapID,
+      url,
+      score,
+      parentID: nodes[0].nodeID,
+      resourceID: resourceID,
+    };
 
-      if (category) { res.category = category; }
-      if (text) { res.text = text; }
-      if (!url) { return; }
+    if (category) { res.category = category; }
+    if (text) { res.text = text; }
+    if (!url) { return; }
 
-      addedResources.push(resourceID);
-      return res;
-    }
+    return res;
   });
 
   nodeID += 1;

@@ -1,68 +1,61 @@
 {
   "title": "learn anything - computer graphics - bezier curves",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bezier curve",
-      "url": "http://www.wikiwand.com/en/B%C3%A9zier_curve",
-      "fx": -103.68359375,
-      "fy": -285.9140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 53.176630434782965,
-      "fy": -175.0940896739762,
-      "nodes": [
-        {
-          "text": "animated bezier curves",
-          "url": "https://www.jasondavies.com/animated-bezier/",
-          "fx": 190.17663043478296,
-          "fy": -163.5940896739762,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -76.99889605978228,
-      "fy": -78.57158627723038,
-      "nodes": [
-        {
-          "text": "a primer on bezier curves",
-          "url": "https://pomax.github.io/bezierinfo/",
-          "fx": 105.00110394021772,
-          "fy": -67.07158627723038,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "bezier curve",
-      "target": "basics",
-      "curve": {
-        "x": -6.90765,
-        "y": 102.421
+  "id": 208,
+  "map": {
+    "text": "bezier curve",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://pomax.github.io/bezierinfo/",
+            "text": "a primer on bezier curves",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.jasondavies.com/animated-bezier/",
+            "text": "animated bezier curves",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "bezier curve",
-      "curve": {
-        "x": -53.4301,
-        "y": -54.16
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/B%C3%A9zier_curve",
+        "text": "bezier curve",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 208
+    ],
+    "author": ""
+  }
 }

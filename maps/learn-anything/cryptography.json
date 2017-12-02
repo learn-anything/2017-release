@@ -1,279 +1,305 @@
 {
   "title": "learn anything - cryptography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cryptography",
-      "url": "https://www.wikiwand.com/en/Cryptography",
-      "fx": 83.27966413826766,
-      "fy": 12.729836167960173,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/crypto/",
-          "fx": 330.27966413826766,
-          "fy": -13.270163832039827,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://crypto.stackexchange.com/",
-          "fx": 330.27966413826766,
-          "fy": 26.729836167960173,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/sobolevn/awesome-cryptography",
-          "fx": 330.27966413826766,
-          "fy": 66.72983616796017,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 376,
+  "map": {
+    "text": "cryptography",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "encryption  ️",
+            "note": "allows information to be hidden so that it cannot be read without special knowledge (such as a password), this is done with a secret code or cypher, the hidden information is said to be encrypted",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/encryption",
+                "text": "encryption  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cryptanalysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/cryptanalysis",
+                "text": "cryptanalysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "private information retrieval",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Private_information_retrieval",
+                "text": "private information retrieval",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "zero-knowledge proofs  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/zero-knowledge-proofs",
+                "text": "zero-knowledge proofs  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cryptographic hash functions  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/cryptographic-hash-functions",
+                "text": "cryptographic hash functions  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "steganography  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/steganography",
+                "text": "steganography  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "universal composability  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/universal-composability",
+                "text": "universal composability  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "quantum cryptography  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/quantum-cryptography",
+                "text": "quantum cryptography  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/17994.The_Code_Book",
+            "text": "1. the code book",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.crypto101.io/",
+            "text": "1. crypto 101",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/sustrik/crypto-for-kids",
+            "text": "1. crypto for kids",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/crypto",
+            "text": "1. cryptography I",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.udacity.com/course/applied-cryptography--cs387",
+            "text": "1. applied cryptography",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://cryptopals.com/",
+            "text": "2. crypto challenges",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www-ee.stanford.edu/~hellman/publications/24.pdf",
+            "text": "2. new directions in cryptography",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://gist.github.com/TheZ3ro/fb521a3cde0c91fcb350",
+            "text": "cryptographic right answers",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/crypto/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 217.79575619464856,
-      "fy": 127.17928561336925,
-      "nodes": [
-        {
-          "text": "cryptographic right answers",
-          "url": "https://gist.github.com/TheZ3ro/fb521a3cde0c91fcb350",
-          "fx": 354.79575619464856,
-          "fy": 138.67928561336925,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://crypto.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 116.90241034679764,
-      "fy": 324.5589790269654,
-      "nodes": [
-        {
-          "text": "1. the code book",
-          "note": "- gives a very interesting historic overview of the evolution of cryptography, its uses throughout the years and where we are today",
-          "url": "https://www.goodreads.com/book/show/17994.The_Code_Book",
-          "fx": 298.90241034679764,
-          "fy": 219.0589790269654,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. crypto 101",
-          "url": "https://www.crypto101.io/",
-          "fx": 298.90241034679764,
-          "fy": 259.0589790269654,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "1. crypto for kids",
-          "url": "https://github.com/sustrik/crypto-for-kids",
-          "fx": 298.90241034679764,
-          "fy": 299.0589790269654,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "1. cryptography I",
-          "url": "https://www.coursera.org/learn/crypto",
-          "fx": 298.90241034679764,
-          "fy": 339.0589790269654,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. applied cryptography",
-          "url": "https://www.udacity.com/course/applied-cryptography--cs387",
-          "fx": 298.90241034679764,
-          "fy": 379.0589790269654,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. crypto challenges",
-          "url": "http://cryptopals.com/",
-          "fx": 298.90241034679764,
-          "fy": 419.0589790269654,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "2. new directions in cryptography",
-          "url": "https://www-ee.stanford.edu/~hellman/publications/24.pdf",
-          "fx": 298.90241034679764,
-          "fy": 453.0589790269654,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://github.com/sobolevn/awesome-cryptography",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "private information retrieval",
-      "url": "http://www.wikiwand.com/en/Private_information_retrieval",
-      "fx": 152.2273896107779,
-      "fy": 551.9970311750826,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "cryptanalysis  ️",
-      "url": "/cryptography/cryptanalysis",
-      "fx": -46.33514648180744,
-      "fy": 552.498589245222,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cryptographic hash functions  ️",
-      "url": "/cryptography/cryptographic-hash-functions",
-      "fx": -902.3167195855614,
-      "fy": 556.3373579545454,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "encryption  ️",
-      "note": "allows information to be hidden so that it cannot be read without special knowledge (such as a password), this is done with a secret code or cypher, the hidden information is said to be encrypted",
-      "url": "/cryptography/encryption",
-      "fx": -255.0542243058594,
-      "fy": 556.535515638381,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "zero-knowledge proofs  ️",
-      "url": "/cryptography/zero-knowledge-proofs",
-      "fx": -553.6724291885754,
-      "fy": 556.927085931835,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "steganography  ️",
-      "url": "/cryptography/steganography",
-      "fx": -1112.5494589345171,
-      "fy": 558.7253109970449,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "universal composability  ️",
-      "url": "/cryptography/universal-composability",
-      "fx": -1396.754871122749,
-      "fy": 561.2775348038356,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "quantum cryptography  ️",
-      "url": "/cryptography/quantum-cryptography",
-      "fx": -1679.7081424631933,
-      "fy": 563.6278413299377,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cryptography",
-      "target": "basics",
-      "curve": {
-        "x": -5.93864,
-        "y": 154.664
+      },
+      {
+        "url": "https://www.wikiwand.com/en/Cryptography",
+        "text": "cryptography",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "help",
-      "target": "cryptography",
-      "curve": {
-        "x": -39.7581,
-        "y": -55.9748
-      }
-    },
-    {
-      "source": "basics",
-      "target": "encryption  ️",
-      "curve": {
-        "x": -175.978,
-        "y": 117.238
-      }
-    },
-    {
-      "source": "basics",
-      "target": "cryptanalysis  ️",
-      "curve": {
-        "x": -66.1188,
-        "y": 115.219
-      }
-    },
-    {
-      "source": "basics",
-      "target": "private information retrieval",
-      "curve": {
-        "x": 31.8607,
-        "y": 125.395
-      }
-    },
-    {
-      "source": "basics",
-      "target": "zero-knowledge proofs  ️",
-      "curve": {
-        "x": -306.788,
-        "y": 116.184
-      }
-    },
-    {
-      "source": "basics",
-      "target": "cryptographic hash functions  ️",
-      "curve": {
-        "x": -534.301,
-        "y": 90.8675
-      }
-    },
-    {
-      "source": "basics",
-      "target": "steganography  ️",
-      "curve": {
-        "x": -709.038,
-        "y": 32.1479
-      }
-    },
-    {
-      "source": "basics",
-      "target": "universal composability  ️",
-      "curve": {
-        "x": -894.984,
-        "y": 20.6494
-      }
-    },
-    {
-      "source": "basics",
-      "target": "quantum cryptography  ️",
-      "curve": {
-        "x": -1135.36,
-        "y": 35.8663
-      }
-    }
-  ],
-  "id": 376
+    ],
+    "author": ""
+  }
 }

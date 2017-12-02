@@ -1,107 +1,116 @@
 {
   "title": "learn anything - databases - nosql databases - newsql",
   "tag": "NewSQL",
-  "nodes": [
-    {
-      "text": "NewSQL",
-      "url": "http://www.wikiwand.com/en/NewSQL",
-      "fx": 71.70352224576288,
-      "fy": -234.74457097457622,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 78.25961189842542,
-      "fy": -98.22220293535798,
-      "nodes": [
-        {
-          "text": "1. what is a NewSQL database system?  ️",
-          "url": "http://www.dbta.com/Columns/DBA-Corner/What-Is-a-NewSQL-Database-System-104489.aspx",
-          "fx": 260.2596118984254,
-          "fy": -97.72220293535798,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 408,
+  "map": {
+    "text": "NewSQL",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "cockroachDB  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/nosql-databases/newsql/cockroachdb",
+                "text": "cockroachDB  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Spanner",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Spanner_(database)",
+                "text": "Spanner",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "VoltDB",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/VoltDB",
+                "text": "VoltDB",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "Clustrix",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Clustrix",
+                "text": "Clustrix",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.dbta.com/Columns/DBA-Corner/What-Is-a-NewSQL-Database-System-104489.aspx",
+            "text": "1. what is a NewSQL database system?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/NewSQL",
+        "text": "NewSQL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "cockroachDB  ️",
-      "url": "/databases/nosql-databases/newsql/cockroachdb",
-      "fx": -150.61866103751026,
-      "fy": 12.081718432312528,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Clustrix",
-      "url": "http://www.wikiwand.com/en/Clustrix",
-      "fx": 228.51361268939377,
-      "fy": 27.92412405303037,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "Spanner",
-      "url": "http://www.wikiwand.com/en/Spanner_(database)",
-      "fx": -43.68313413338183,
-      "fy": 112.51559513179745,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "VoltDB",
-      "url": "http://www.wikiwand.com/en/VoltDB",
-      "fx": 118.53210399479076,
-      "fy": 135.52961510890998,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "NewSQL",
-      "target": "basics",
-      "curve": {
-        "x": -9.97196,
-        "y": 67.0112
       }
-    },
-    {
-      "source": "basics",
-      "target": "cockroachDB  ️",
-      "curve": {
-        "x": -97.9392,
-        "y": 55.1519
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Spanner",
-      "curve": {
-        "x": -55.4714,
-        "y": 106.619
-      }
-    },
-    {
-      "source": "basics",
-      "target": "VoltDB",
-      "curve": {
-        "x": 21.8862,
-        "y": 118.126
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Clustrix",
-      "curve": {
-        "x": 78.127,
-        "y": 64.3232
-      }
-    }
-  ],
-  "id": 408
+    ],
+    "author": ""
+  }
 }

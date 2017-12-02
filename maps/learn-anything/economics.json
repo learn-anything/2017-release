@@ -1,436 +1,468 @@
 {
   "title": "learn anything - economics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "economics",
-      "url": "http://www.wikiwand.com/en/Economics",
-      "fx": -23.697138368037486,
-      "fy": -737.4970322993763,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Economics/",
-          "fx": 216.30286163196251,
-          "fy": -744.4970322993763,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/Economics/wiki/index",
-              "fx": 326.3028616319625,
-              "fy": -744.4970322993763,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(104, 255, 109, 1.0)"
+  "id": 507,
+  "map": {
+    "text": "economics",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "business  ️",
+            "note": "organisational entity involved in providing goods or services to customers",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/business",
+                "text": "business  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "finance  ️",
+            "nodes": [
+              {
+                "text": "investing  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/economics/investing",
+                    "text": "investing  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "personal finance  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/economics/personal-finance",
+                    "text": "personal finance  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/economics/finance",
+                "text": "finance  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "microeconomics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/microeconomics-",
+                "text": "microeconomics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "macroeconomics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/macroeconomics",
+                "text": "macroeconomics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "trading  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/trading",
+                "text": "trading  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "economic systems  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/economic-systems",
+                "text": "economic systems  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "quantitative finance  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/quantitative-finance",
+                "text": "quantitative finance  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "accounting  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/accounting",
+                "text": "accounting  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "basic income  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/basic-income",
+                "text": "basic income  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "econometrics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/econometrics",
+                "text": "econometrics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "behavioural economics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/behavioural-economics",
+                "text": "behavioural economics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "e-commerce  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/e-commerce",
+                "text": "e-commerce  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "contract theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/contract-theory",
+                "text": "contract theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "economic history  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/economic-history",
+                "text": "economic history  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "money  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/money",
+                "text": "money  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "development economics  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/development-economics",
+                "text": "development economics  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "inflation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/inflation",
+                "text": "inflation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "economic models  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/economic-models",
+                "text": "economic models  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/1753460.Principles_of_Economics",
+            "text": "1. principles of economics",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/antontarasenko/awesome-economics",
-          "fx": 216.30286163196251,
-          "fy": -702.4970322993763,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(0, 224, 161, 1.0)"
+          },
+          {
+            "url": "https://www.khanacademy.org/economics-finance-domain",
+            "text": "1. khan academy economics and finance",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0&amp;app=desktop",
+            "text": "1. how the economic machine works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/Economics/wiki/reading",
+            "text": "recommended reading",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Economics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 147.61432152463703,
-      "fy": -642.1931516413104,
-      "nodes": [
-        {
-          "text": "recommended reading",
-          "url": "https://www.reddit.com/r/Economics/wiki/reading",
-          "fx": 288.61432152463703,
-          "fy": -629.6931516413104,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "https://github.com/antontarasenko/awesome-economics",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -14.695998191833496,
-      "fy": -497.1587600708008,
-      "nodes": [
-        {
-          "text": "1. principles of economics",
-          "url": "http://www.goodreads.com/book/show/1753460.Principles_of_Economics",
-          "fx": 174.3040018081665,
-          "fy": -551.6587600708008,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. khan academy economics and finance",
-          "url": "https://www.khanacademy.org/economics-finance-domain",
-          "fx": 174.3040018081665,
-          "fy": -509.6587600708008,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. how the economic machine works",
-          "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0&amp;app=desktop",
-          "fx": 174.3040018081665,
-          "fy": -442.6587600708008,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(83, 201, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Economics",
+        "text": "economics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "trading  ️",
-      "url": "/economics/trading",
-      "fx": -440.6775817871094,
-      "fy": -250.51050186157227,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "macroeconomics  ️",
-      "url": "/economics/macroeconomics",
-      "fx": 290.18582916259766,
-      "fy": -249.23311233520508,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "economic systems  ️",
-      "url": "/economics/economic-systems",
-      "fx": -706.5808334350586,
-      "fy": -248.81763458251953,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "finance  ️",
-      "url": "/economics/finance",
-      "fx": -101.91464710235596,
-      "fy": -248.38308334350586,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "microeconomics  ️",
-      "url": "/economics/microeconomics-",
-      "fx": 47.11139678955078,
-      "fy": -247.70204544067383,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "quantitative finance  ️",
-      "url": "/economics/quantitative-finance",
-      "fx": -998.1132527897871,
-      "fy": -245.68193435668945,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "business  ️",
-      "note": "organisational entity involved in providing goods or services to customers",
-      "url": "/economics/business",
-      "fx": -295.8343200683594,
-      "fy": -245.26792526245117,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "accounting  ️",
-      "url": "/economics/accounting",
-      "fx": -1216.6816711425781,
-      "fy": -244.0813446044922,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "e-commerce  ️",
-      "url": "/economics/e-commerce",
-      "fx": -2157.3998107910156,
-      "fy": -241.90868377685547,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "basic income  ️",
-      "url": "/economics/basic-income",
-      "fx": -1428.8263244628906,
-      "fy": -241.70831680297852,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "econometrics  ️",
-      "url": "/economics/econometrics",
-      "fx": -1642.9703979492188,
-      "fy": -240.55089950561523,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "contract theory  ️",
-      "url": "/economics/contract-theory",
-      "fx": -2383.8850708007812,
-      "fy": -239.05071258544922,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "behavioural economics  ️",
-      "url": "/economics/behavioural-economics",
-      "fx": -1952.0034790039062,
-      "fy": -238.83346557617188,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "economic history  ️",
-      "url": "/economics/economic-history",
-      "fx": -2632.5462341308594,
-      "fy": -237.47962951660156,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "money  ️",
-      "url": "/economics/money",
-      "fx": -2778.6917724609375,
-      "fy": -236.49042129516602,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "development economics  ️",
-      "url": "/economics/development-economics",
-      "fx": -3103.8390502929688,
-      "fy": -234.30681228637695,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "inflation  ️",
-      "url": "/economics/inflation",
-      "fx": -3255.9846801757812,
-      "fy": -230.03551483154297,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "economic models  ️",
-      "url": "/economics/economic-models",
-      "fx": -3513.1334228515625,
-      "fy": -228.40190887451172,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "investing  ️",
-      "url": "/economics/investing",
-      "fx": -295.20759201049805,
-      "fy": -107.39418029785156,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "personal finance  ️",
-      "url": "/economics/personal-finance",
-      "fx": -130.05764746665955,
-      "fy": -105.29864311218262,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "economics",
-      "target": "basics",
-      "curve": {
-        "x": -0.499401,
-        "y": 120.168
       }
-    },
-    {
-      "source": "basics",
-      "target": "business  ️",
-      "curve": {
-        "x": -141.57,
-        "y": 125.946
-      }
-    },
-    {
-      "source": "help",
-      "target": "economics",
-      "curve": {
-        "x": -63.4058,
-        "y": -46.4019
-      }
-    },
-    {
-      "source": "basics",
-      "target": "finance  ️",
-      "curve": {
-        "x": -48.3593,
-        "y": 124.388
-      }
-    },
-    {
-      "source": "basics",
-      "target": "microeconomics  ️",
-      "curve": {
-        "x": 54.4037,
-        "y": 125.979
-      }
-    },
-    {
-      "source": "basics",
-      "target": "macroeconomics  ️",
-      "curve": {
-        "x": 177.69,
-        "y": 130.782
-      }
-    },
-    {
-      "source": "finance  ️",
-      "target": "investing  ️",
-      "curve": {
-        "x": -93.1465,
-        "y": 70.4945
-      }
-    },
-    {
-      "source": "finance  ️",
-      "target": "personal finance  ️",
-      "curve": {
-        "x": 6.67847,
-        "y": 71.5422
-      }
-    },
-    {
-      "source": "basics",
-      "target": "trading  ️",
-      "curve": {
-        "x": -210.991,
-        "y": 124.575
-      }
-    },
-    {
-      "source": "basics",
-      "target": "economic systems  ️",
-      "curve": {
-        "x": -384.739,
-        "y": 106.577
-      }
-    },
-    {
-      "source": "basics",
-      "target": "quantitative finance  ️",
-      "curve": {
-        "x": -540.201,
-        "y": 98.7786
-      }
-    },
-    {
-      "source": "basics",
-      "target": "accounting  ️",
-      "curve": {
-        "x": -804.77,
-        "y": 101.251
-      }
-    },
-    {
-      "source": "basics",
-      "target": "basic income  ️",
-      "curve": {
-        "x": -957.098,
-        "y": 94.8806
-      }
-    },
-    {
-      "source": "basics",
-      "target": "econometrics  ️",
-      "curve": {
-        "x": -996.41,
-        "y": 58.3943
-      }
-    },
-    {
-      "source": "basics",
-      "target": "behavioural economics  ️",
-      "curve": {
-        "x": -1241.44,
-        "y": 69.7479
-      }
-    },
-    {
-      "source": "basics",
-      "target": "e-commerce  ️",
-      "curve": {
-        "x": -1393.71,
-        "y": 24.2603
-      }
-    },
-    {
-      "source": "basics",
-      "target": "contract theory  ️",
-      "curve": {
-        "x": -1529.71,
-        "y": -45.504
-      }
-    },
-    {
-      "source": "basics",
-      "target": "economic history  ️",
-      "curve": {
-        "x": -1776.42,
-        "y": -17.7707
-      }
-    },
-    {
-      "source": "basics",
-      "target": "money  ️",
-      "curve": {
-        "x": -1999.77,
-        "y": -45.3458
-      }
-    },
-    {
-      "source": "basics",
-      "target": "development economics  ️",
-      "curve": {
-        "x": -1888.31,
-        "y": -92.6409
-      }
-    },
-    {
-      "source": "basics",
-      "target": "inflation  ️",
-      "curve": {
-        "x": -2314.4,
-        "y": -47.5231
-      }
-    },
-    {
-      "source": "basics",
-      "target": "economic models  ️",
-      "curve": {
-        "x": -2452.41,
-        "y": -63.0463
-      }
-    }
-  ],
-  "id": 507
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - law - politics - political science - decentralisation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "decentralisation",
-      "url": "http://www.wikiwand.com/en/Decentralization",
-      "fx": 92.8498364825582,
-      "fy": -169.93731831395343,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 147.65625286120655,
-      "fy": -22.961863097401704,
-      "nodes": [
-        {
-          "text": "1. conversation with Naval Ravikant and Ryan Shea",
-          "url": "https://www.youtube.com/watch?v=IrSn3zx2GbM",
-          "fx": 310.65625286120655,
-          "fy": -56.461863097401704,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. the advantages of decentralisation",
-          "url": "https://www.youtube.com/watch?v=LKbOPYnUlXs",
-          "fx": 310.65625286120655,
-          "fy": 10.538136902598296,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "decentralisation",
-      "target": "basics",
-      "curve": {
-        "x": -3.0968,
-        "y": 72.7377
+  "id": 669,
+  "map": {
+    "text": "decentralisation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=IrSn3zx2GbM",
+            "text": "1. conversation with Naval Ravikant and Ryan Shea",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LKbOPYnUlXs",
+            "text": "1. the advantages of decentralisation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 669
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Decentralization",
+        "text": "decentralisation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

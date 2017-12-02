@@ -1,40 +1,40 @@
 {
   "title": "learn anything - design - design systems - atomic design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "atomic design",
-      "url": "http://bradfrost.com/blog/post/atomic-web-design/",
-      "fx": 7.3046875,
-      "fy": -410.84375,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 31.571028148853088,
-      "fy": -272.5596655059942,
-      "nodes": [
-        {
-          "text": "1. what is atomic design",
-          "url": "http://bradfrost.com/blog/post/atomic-web-design/#atoms",
-          "fx": 194.5710281488531,
-          "fy": -257.5596655059942,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "atomic design",
-      "target": "basics",
-      "curve": {
-        "x": -6.61683,
-        "y": 69.142
+  "id": 424,
+  "map": {
+    "text": "atomic design",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://bradfrost.com/blog/post/atomic-web-design/#atoms",
+            "text": "1. what is atomic design",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 424
+    ],
+    "resources": [
+      {
+        "url": "http://bradfrost.com/blog/post/atomic-web-design/",
+        "text": "atomic design",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

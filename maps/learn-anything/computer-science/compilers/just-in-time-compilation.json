@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - compilers - just-in-time compilation",
   "tag": "just-in-time compilation",
-  "nodes": [
-    {
-      "text": "just-in-time compilation",
-      "url": "http://www.wikiwand.com/en/Just-in-time_compilation",
-      "fx": -51.535141944885254,
-      "fy": -151.23394966125488,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 32.8828125,
-      "fy": -11.5546875,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=yQ27DjKnxwo",
-          "fx": 188.8828125,
-          "fy": -0.0546875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "just-in-time compilation",
-      "target": "basics",
-      "curve": {
-        "x": -3.29102,
-        "y": 68.5896
+  "id": 287,
+  "map": {
+    "text": "just-in-time compilation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=yQ27DjKnxwo",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 287
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Just-in-time_compilation",
+        "text": "just-in-time compilation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

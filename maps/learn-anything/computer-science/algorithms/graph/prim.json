@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - algorithms - graph - prim",
   "tag": "Prim’s algorithm",
-  "nodes": [
-    {
-      "text": "Prim’s algorithm",
-      "url": "http://www.wikiwand.com/en/Prim%27s_algorithm",
-      "fx": 174.4453125,
-      "fy": -274.4140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 329.4378720238094,
-      "fy": -168.13616071428567,
-      "nodes": [
-        {
-          "text": "visualisation",
-          "url": "https://www.cs.usfca.edu/~galles/visualization/Prim.html",
-          "fx": 466.4378720238094,
-          "fy": -156.63616071428567,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 222.46334415011927,
-      "fy": -71.91295679788743,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=cplfcGZmX7I",
-          "fx": 378.46334415011927,
-          "fy": -60.41295679788743,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "Prim’s algorithm",
-      "curve": {
-        "x": -43.7463,
-        "y": -51.889
+  "id": 265,
+  "map": {
+    "text": "Prim’s algorithm",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.usfca.edu/~galles/visualization/Prim.html",
+            "text": "visualisation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cplfcGZmX7I",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "Prim’s algorithm",
-      "target": "basics",
-      "curve": {
-        "x": -4.99098,
-        "y": 100.001
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Prim%27s_algorithm",
+        "text": "Prim’s algorithm",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 265
+    ],
+    "author": ""
+  }
 }

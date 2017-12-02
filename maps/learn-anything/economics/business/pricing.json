@@ -1,66 +1,60 @@
 {
   "title": "learn anything - economics - business - pricing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "pricing",
-      "url": "http://www.wikiwand.com/en/Pricing",
-      "fx": 52.46484375,
-      "fy": -270.87890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 132.68659420289828,
-      "fy": -153.08197463768107,
-      "nodes": [
-        {
-          "text": "how do you set prices?",
-          "url": "https://news.ycombinator.com/item?id=13840282",
-          "fx": 269.6865942028983,
-          "fy": -138.58197463768107,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 163.4213745559473,
-      "fy": -36.56310719942701,
-      "nodes": [
-        {
-          "text": "17: the curious state of apple product pricing  ️",
-          "url": "https://www.aboveavalon.com/notes/2017/3/15/the-curious-state-of-apple-product-pricing",
-          "fx": 325.4213745559473,
-          "fy": -36.06310719942701,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "pricing",
-      "curve": {
-        "x": -27.3609,
-        "y": -57.6485
+  "id": 465,
+  "map": {
+    "text": "pricing",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.aboveavalon.com/notes/2017/3/15/the-curious-state-of-apple-product-pricing",
+                "text": "17: the curious state of apple product pricing  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://news.ycombinator.com/item?id=13840282",
+            "text": "how do you set prices?",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -21.6174,
-        "y": -58.2594
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Pricing",
+        "text": "pricing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 465
+    ],
+    "author": ""
+  }
 }

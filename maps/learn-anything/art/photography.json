@@ -1,216 +1,205 @@
 {
   "title": "learn anything - art - photography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "photography",
-      "url": "http://www.wikiwand.com/en/Photography",
-      "fx": -123.13296682184387,
-      "fy": -296.24239696155894,
-      "nodes": [
-        {
-          "text": "️",
-          "url": "https://photo.stackexchange.com/",
-          "fx": 90.86703317815613,
-          "fy": -324.74239696155894,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/photography/",
-          "fx": 90.86703317815613,
-          "fy": -284.74239696155894,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "I took a picture",
-          "url": "https://www.reddit.com/r/itookapicture/",
-          "fx": 90.86703317815613,
-          "fy": -244.74239696155894,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 58,
+  "map": {
+    "text": "photography",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "analog photography",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Analog_photography",
+                "text": "analog photography",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "adobe lightroom  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/photography/adobe-lightroom",
+                "text": "adobe lightroom  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://sites.google.com/site/marclevoylectures/home",
+            "text": "1. lectures on digital photography",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [
+              {
+                "text": "inspiration",
+                "nodes": [
+                  {
+                    "text": "interviews",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://vsco.co/artsandculture/journal/cinematic-moments?_branch_match_id=412292302150515425",
+                        "text": "cinematic moments with Dan Root  ️",
+                        "category": "article",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://imgur.com/a/jAEYj",
+                    "text": "artistic photos",
+                    "category": "image",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://imgur.com/a/vA2Ly",
+                    "text": "beautiful photos",
+                    "category": "image",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://photoeditor.polarr.co/",
+                "text": "polarr editor",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.exposureguide.com/",
+            "text": "exposure guide",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/ibaaj/awesome-OpenSourcePhotography",
+            "text": "awesome open source photography",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://photo.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -3.3828357374164852,
-      "fy": -151.39222626689917,
-      "nodes": [
-        {
-          "text": "exposure guide",
-          "url": "http://www.exposureguide.com/",
-          "fx": 133.61716426258351,
-          "fy": -164.89222626689917,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome open source photography",
-          "url": "https://github.com/ibaaj/awesome-OpenSourcePhotography",
-          "fx": 133.61716426258351,
-          "fy": -130.89222626689917,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://www.reddit.com/r/photography/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 136.5609758165151,
-      "fy": -32.24162377251514,
-      "nodes": [
-        {
-          "text": "polarr editor",
-          "url": "https://photoeditor.polarr.co/",
-          "fx": 278.5609758165151,
-          "fy": -17.74162377251514,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://www.reddit.com/r/itookapicture/",
+        "text": "I took a picture",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "inspiration",
-      "url": "",
-      "fx": 227.84684142285994,
-      "fy": 90.1790682910231,
-      "nodes": [
-        {
-          "text": "artistic photos",
-          "url": "https://imgur.com/a/jAEYj",
-          "fx": 417.84684142285994,
-          "fy": 81.6790682910231,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "beautiful photos",
-          "url": "https://imgur.com/a/vA2Ly",
-          "fx": 417.84684142285994,
-          "fy": 121.6790682910231,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Photography",
+        "text": "photography",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -315.47813106590604,
-      "fy": 186.88304834084988,
-      "nodes": [
-        {
-          "text": "1. lectures on digital photography",
-          "url": "https://sites.google.com/site/marclevoylectures/home",
-          "fx": -159.47813106590604,
-          "fy": 198.38304834084988,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interviews",
-      "url": "",
-      "fx": 318.1424611409502,
-      "fy": 226.24953100416406,
-      "nodes": [
-        {
-          "text": "cinematic moments with Dan Root  ️",
-          "url": "http://vsco.co/artsandculture/journal/cinematic-moments?_branch_match_id=412292302150515425",
-          "fx": 506.1424611409502,
-          "fy": 237.74953100416406,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "analog photography",
-      "url": "http://www.wikiwand.com/en/Analog_photography",
-      "fx": -504.63364747307355,
-      "fy": 343.4599039339648,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "adobe lightroom  ️",
-      "url": "/art/photography/adobe-lightroom",
-      "fx": -231.43906249999998,
-      "fy": 344.7887547348487,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "photography",
-      "target": "basics",
-      "curve": {
-        "x": -110.673,
-        "y": 241.562
       }
-    },
-    {
-      "source": "help",
-      "target": "photography",
-      "curve": {
-        "x": -40.6251,
-        "y": -72.425
-      }
-    },
-    {
-      "source": "basics",
-      "target": "analog photography",
-      "curve": {
-        "x": -56.3277,
-        "y": 79.5385
-      }
-    },
-    {
-      "source": "basics",
-      "target": "adobe lightroom  ️",
-      "curve": {
-        "x": 64.5195,
-        "y": 78.9529
-      }
-    },
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -71.2219,
-        "y": -59.5753
-      }
-    },
-    {
-      "source": "inspiration",
-      "target": "tools",
-      "curve": {
-        "x": -57.6429,
-        "y": -61.2103
-      }
-    },
-    {
-      "source": "interviews",
-      "target": "inspiration",
-      "curve": {
-        "x": -44.6478,
-        "y": -68.0352
-      }
-    }
-  ],
-  "id": 58
+    ],
+    "author": ""
+  }
 }

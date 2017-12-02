@@ -1,33 +1,42 @@
 {
   "title": "learn anything - artificial intelligence - knowledge representation and reasoning",
   "tag": "",
-  "nodes": [
-    {
-      "text": "knowledge representation and reasoning",
-      "url": "http://www.wikiwand.com/en/Knowledge_representation_and_reasoning",
-      "fx": 240.1953125,
-      "fy": -224.8359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "description logic  ️",
-      "url": "/artificial-intelligence/knowledge-representation-and-reasoning/description-logic",
-      "fx": 191.04296875,
-      "fy": -66.94140625,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "knowledge representation and reasoning",
-      "target": "description logic  ️",
-      "curve": {
-        "x": -91.8257,
-        "y": 77.6973
+  "id": 72,
+  "map": {
+    "text": "knowledge representation and reasoning",
+    "nodes": [
+      {
+        "text": "description logic  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/artificial-intelligence/knowledge-representation-and-reasoning/description-logic",
+            "text": "description logic  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 72
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Knowledge_representation_and_reasoning",
+        "text": "knowledge representation and reasoning",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

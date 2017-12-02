@@ -1,140 +1,163 @@
 {
   "title": "learn anything - economics - business",
   "tag": "",
-  "nodes": [
-    {
-      "text": "business",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Business",
-      "fx": -56.758361311983435,
-      "fy": -165.7184594524793,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/business/",
-          "fx": 176.24163868801656,
-          "fy": -151.7184594524793,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 472,
+  "map": {
+    "text": "business",
+    "note": "",
+    "nodes": [
+      {
+        "text": "business administration",
+        "nodes": [
+          {
+            "text": "supply chain management  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/business/supply-chain-management",
+                "text": "supply chain management  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Business_administration",
+            "text": "business administration",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "companies  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/business/companies",
+            "text": "companies  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "product management  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/business/product-management",
+            "text": "product management  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "project management  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/business/project-management",
+            "text": "project management  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "pricing  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/business/pricing",
+            "text": "pricing  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "risk management  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/business/risk-management",
+            "text": "risk management  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/business/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "companies  ️",
-      "url": "/economics/business/companies",
-      "fx": 42.21706729870709,
-      "fy": -24.849155553790183,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "business administration",
-      "url": "http://www.wikiwand.com/en/Business_administration",
-      "fx": -264.81072443181813,
-      "fy": -24.484540450671602,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "pricing  ️",
-      "url": "/economics/business/pricing",
-      "fx": 224.29277079345275,
-      "fy": -22.1170601723216,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "risk management  ️",
-      "url": "/economics/business/risk-management",
-      "fx": 366.7924107142726,
-      "fy": -17.738560267858134,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "product management  ️",
-      "url": "/economics/business/product-management",
-      "fx": -549.2776267970862,
-      "fy": 34.10853653403865,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "project management  ️",
-      "url": "/economics/business/project-management",
-      "fx": -822.9755632267442,
-      "fy": 35.10610465116275,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "supply chain management  ️",
-      "url": "/economics/business/supply-chain-management",
-      "fx": -274.9109310433886,
-      "fy": 114.45224932206673,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "business",
-      "target": "business administration",
-      "curve": {
-        "x": -71.0262,
-        "y": 70.617
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Business",
+        "text": "business",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "business administration",
-      "target": "supply chain management  ️",
-      "curve": {
-        "x": -5.5501,
-        "y": 68.2184
-      }
-    },
-    {
-      "source": "business",
-      "target": "companies  ️",
-      "curve": {
-        "x": 40.7377,
-        "y": 69.1847
-      }
-    },
-    {
-      "source": "business",
-      "target": "product management  ️",
-      "curve": {
-        "x": -318.136,
-        "y": 81.2863
-      }
-    },
-    {
-      "source": "business",
-      "target": "project management  ️",
-      "curve": {
-        "x": -460.765,
-        "y": 69.9748
-      }
-    },
-    {
-      "source": "business",
-      "target": "pricing  ️",
-      "curve": {
-        "x": 151.757,
-        "y": 61.2059
-      }
-    },
-    {
-      "source": "business",
-      "target": "risk management  ️",
-      "curve": {
-        "x": 324.527,
-        "y": 65.2842
-      }
-    }
-  ],
-  "id": 472
+    ],
+    "author": ""
+  }
 }

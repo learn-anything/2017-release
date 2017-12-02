@@ -1,106 +1,116 @@
 {
   "title": "learn anything - information theory - information",
   "tag": "",
-  "nodes": [
-    {
-      "text": "information",
-      "url": "http://www.wikiwand.com/en/Information",
-      "fx": -71.74609375,
-      "fy": -144.3359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -36.956681981319434,
-      "fy": -14.519037107141969,
-      "nodes": [
-        {
-          "text": "1. what is information",
-          "url": "https://www.youtube.com/watch?v=coiPZcQZwrg",
-          "fx": 119.04331801868057,
-          "fy": -3.019037107141969,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 651,
+  "map": {
+    "text": "information",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "bits  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information/bits",
+                "text": "bits  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "data",
+            "nodes": [
+              {
+                "text": "data storage  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/information-theory/information/data-storage",
+                    "text": "data storage  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Data",
+                "text": "data",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "information processing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information/information-processing",
+                "text": "information processing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=coiPZcQZwrg",
+            "text": "1. what is information",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Information",
+        "text": "information",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "bits  ️",
-      "url": "/information-theory/information/bits",
-      "fx": -135.84373542249762,
-      "fy": 112.960205501117,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "data",
-      "url": "http://www.wikiwand.com/en/Data",
-      "fx": -10.515218734741211,
-      "fy": 114.80176544189453,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "information processing  ️",
-      "url": "/information-theory/information/information-processing",
-      "fx": 110.3335335353828,
-      "fy": 117.4859458160854,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "data storage  ️",
-      "url": "/information-theory/information/data-storage",
-      "fx": -55.55986824682191,
-      "fy": 243.6422746733757,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "information",
-      "target": "basics",
-      "curve": {
-        "x": -0.605289,
-        "y": 63.6584
       }
-    },
-    {
-      "source": "basics",
-      "target": "bits  ️",
-      "curve": {
-        "x": -55.6935,
-        "y": 63.7396
-      }
-    },
-    {
-      "source": "basics",
-      "target": "data",
-      "curve": {
-        "x": 8.97073,
-        "y": 64.6604
-      }
-    },
-    {
-      "source": "data",
-      "target": "data storage  ️",
-      "curve": {
-        "x": -4.02232,
-        "y": 64.4202
-      }
-    },
-    {
-      "source": "basics",
-      "target": "information processing  ️",
-      "curve": {
-        "x": 99.8951,
-        "y": 66.0025
-      }
-    }
-  ],
-  "id": 651
+    ],
+    "author": ""
+  }
 }

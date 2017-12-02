@@ -1,42 +1,42 @@
 {
   "title": "learn anything - cryptography - encryption - end to end encryption",
   "tag": "",
-  "nodes": [
-    {
-      "text": "end to end encryption",
-      "url": "http://www.wikiwand.com/en/End-to-end_encryption",
-      "fx": 63.55078125,
-      "fy": -106.52734375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 143.5,
-      "fy": 30,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=jkV1KEJGKRA",
-          "fx": 299.5,
-          "fy": 41.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "end to end encryption",
-      "target": "basics",
-      "curve": {
-        "x": -2.52539,
-        "y": 67.0137
+  "id": 369,
+  "map": {
+    "text": "end to end encryption",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jkV1KEJGKRA",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 369
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/End-to-end_encryption",
+        "text": "end to end encryption",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

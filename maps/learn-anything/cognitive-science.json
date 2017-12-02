@@ -1,112 +1,113 @@
 {
   "title": "learn anything - cognitive science",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cognitive science",
-      "url": "http://www.wikiwand.com/en/Cognitive_science",
-      "fx": -86.34644043693936,
-      "fy": -239.68110373081305,
-      "nodes": [
-        {
-          "text": "️",
-          "url": "https://cogsci.stackexchange.com/",
-          "fx": 195.65355956306064,
-          "fy": -245.68110373081305,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/cogsci/",
-          "fx": 195.65355956306064,
-          "fy": -205.68110373081305,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 90.9559237162274,
-      "fy": -134.9887250264486,
-      "nodes": [
-        {
-          "text": "recommended reading",
-          "url": "https://www.reddit.com/r/cogsci/wiki/readinglist",
-          "fx": 227.9559237162274,
-          "fy": -123.4887250264486,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -62.70454788208019,
-      "fy": -31.600087419152146,
-      "nodes": [
-        {
-          "text": "1. what is cognitive science?",
-          "url": "https://www.youtube.com/watch?v=tEuGpc16fB8",
-          "fx": 119.29545211791981,
-          "fy": -40.100087419152146,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. thinking fast and slow",
-          "url": "http://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
-          "fx": 119.29545211791981,
-          "fy": -0.10008741915214614,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "cognition  ️",
-      "url": "/cognitive-science/cognition",
-      "fx": -132.45703861899403,
-      "fy": 96.3523067717856,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cognitive science",
-      "target": "basics",
-      "curve": {
-        "x": -19.6791,
-        "y": 102.791
+  "id": 197,
+  "map": {
+    "text": "cognitive science",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "cognition  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition",
+                "text": "cognition  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tEuGpc16fB8",
+            "text": "1. what is cognitive science?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+            "text": "2. thinking fast and slow",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/cogsci/wiki/readinglist",
+            "text": "recommended reading",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "cognition  ️",
-      "curve": {
-        "x": -27.8763,
-        "y": 65.2262
+    ],
+    "resources": [
+      {
+        "url": "https://cogsci.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/cogsci/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Cognitive_science",
+        "text": "cognitive science",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "help",
-      "target": "cognitive science",
-      "curve": {
-        "x": -52.4012,
-        "y": -51.0962
-      }
-    }
-  ],
-  "id": 197
+    ],
+    "author": ""
+  }
 }

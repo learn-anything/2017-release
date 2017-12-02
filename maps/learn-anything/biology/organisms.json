@@ -1,81 +1,96 @@
 {
   "title": "learn anything - biology - organisms",
   "tag": "",
-  "nodes": [
-    {
-      "text": "organisms",
-      "url": "http://www.wikiwand.com/en/Organism",
-      "fx": 36.83707422203497,
-      "fy": -208.1579649390244,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "cells  ️",
-      "url": "/biology/organisms/cells",
-      "fx": 177.55186080932617,
-      "fy": -43.82627725601196,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "plants  ️",
-      "url": "/biology/organisms/plants",
-      "fx": 20.199249267578125,
-      "fy": -42.10320711135864,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "sex  ️",
-      "url": "/biology/organisms/sex",
-      "fx": 300.67798614501953,
-      "fy": -41.58113479614258,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "immune system  ️",
-      "url": "/biology/organisms/immune-system",
-      "fx": -215.9258041381836,
-      "fy": -40.000998973846436,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "organisms",
-      "target": "cells  ️",
-      "curve": {
-        "x": 49.6074,
-        "y": 80.9159
+  "id": 128,
+  "map": {
+    "text": "organisms",
+    "nodes": [
+      {
+        "text": "cells  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/organisms/cells",
+            "text": "cells  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "sex  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/organisms/sex",
+            "text": "sex  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "plants  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/organisms/plants",
+            "text": "plants  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "immune system  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/organisms/immune-system",
+            "text": "immune system  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "organisms",
-      "target": "sex  ️",
-      "curve": {
-        "x": 109.171,
-        "y": 82.0384
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Organism",
+        "text": "organisms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "organisms",
-      "target": "plants  ️",
-      "curve": {
-        "x": -25.319,
-        "y": 81.7774
-      }
-    },
-    {
-      "source": "organisms",
-      "target": "immune system  ️",
-      "curve": {
-        "x": -121.382,
-        "y": 82.8285
-      }
-    }
-  ],
-  "id": 128
+    ],
+    "author": ""
+  }
 }

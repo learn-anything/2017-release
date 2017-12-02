@@ -1,33 +1,42 @@
 {
   "title": "learn anything - cognitive science - cognition - learning - information mapping",
   "tag": "",
-  "nodes": [
-    {
-      "text": "information mapping",
-      "url": "http://www.wikiwand.com/en/Information_mapping",
-      "fx": -124.5,
-      "fy": -192.9140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "mind maps  ️",
-      "url": "/cognitive-science/cognition/learning/information-mapping/mind-maps",
-      "fx": -155.99555468708195,
-      "fy": -26.455123910394946,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "information mapping",
-      "target": "mind maps  ️",
-      "curve": {
-        "x": -43.9978,
-        "y": 81.9795
+  "id": 190,
+  "map": {
+    "text": "information mapping",
+    "nodes": [
+      {
+        "text": "mind maps  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/cognitive-science/cognition/learning/information-mapping/mind-maps",
+            "text": "mind maps  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 190
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Information_mapping",
+        "text": "information mapping",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

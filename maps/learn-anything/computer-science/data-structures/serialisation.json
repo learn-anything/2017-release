@@ -1,66 +1,79 @@
 {
   "title": "learn anything - computer science - data structures - serialisation",
   "tag": "data serialisation",
-  "nodes": [
-    {
-      "text": "serialisation",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Serialization",
-      "fx": -168.26956814728578,
-      "fy": -198.94645183255614,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "json  ️",
-      "url": "/computer-science/data-structures/serialisation/json",
-      "fx": -112.27181154822381,
-      "fy": -76.8554092639593,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "protocol buffers  ️",
-      "url": "/computer-science/data-structures/serialisation/protocol-buffers",
-      "fx": -335.44522929512345,
-      "fy": -74.81716823150231,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "XML",
-      "url": "http://www.wikiwand.com/en/XML",
-      "fx": 6.238636363636147,
-      "fy": -72.87665719696963,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "serialisation",
-      "target": "json  ️",
-      "curve": {
-        "x": 3.74892,
-        "y": 59.7955
+  "id": 333,
+  "map": {
+    "text": "serialisation",
+    "note": "",
+    "nodes": [
+      {
+        "text": "json  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/data-structures/serialisation/json",
+            "text": "json  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "XML",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/XML",
+            "text": "XML",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "protocol buffers  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/data-structures/serialisation/protocol-buffers",
+            "text": "protocol buffers  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "serialisation",
-      "target": "XML",
-      "curve": {
-        "x": 64.7541,
-        "y": 63.0349
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Serialization",
+        "text": "serialisation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "serialisation",
-      "target": "protocol buffers  ️",
-      "curve": {
-        "x": -88.0878,
-        "y": 60.8146
-      }
-    }
-  ],
-  "id": 333
+    ],
+    "author": ""
+  }
 }

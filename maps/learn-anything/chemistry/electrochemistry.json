@@ -1,85 +1,82 @@
 {
   "title": "learn anything - chemistry - electrochemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "electrochemistry",
-      "url": "http://www.wikiwand.com/en/Electrochemistry",
-      "fx": -106.5,
-      "fy": -2,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 41.45466252497954,
-      "fy": 105.01042447126719,
-      "nodes": [
-        {
-          "text": "restoring the shine of silver through electrochemistry",
-          "url": "http://i.imgur.com/chCzAGT.gifv",
-          "fx": 232.45466252497954,
-          "fy": 105.51042447126719,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -57.18658685064929,
-      "fy": 264.02464462611334,
-      "nodes": [
-        {
-          "text": "1. introduction to electrochemistry",
-          "url": "https://www.youtube.com/watch?v=teTkvUtW4SA",
-          "fx": 98.81341314935071,
-          "fy": 213.52464462611334,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. electrochemistry crash course",
-          "url": "https://www.youtube.com/watch?v=IV4IUsholjg",
-          "fx": 98.81341314935071,
-          "fy": 275.52464462611334,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. electrochemical methods: fundamentals and applications",
-          "url": "http://glearning.tju.edu.cn/pluginfile.php/74331/mod_resource/content/0/%E5%8F%82%E8%80%83%E4%B9%A6/Electrochemical_methods_2ed_2001_-_Bard_Faulkner.pdf",
-          "fx": 98.81341314935071,
-          "fy": 315.52464462611334,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "electrochemistry",
-      "target": "basics",
-      "curve": {
-        "x": -5.09329,
-        "y": 131.762
+  "id": 171,
+  "map": {
+    "text": "electrochemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=teTkvUtW4SA",
+            "text": "1. introduction to electrochemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=IV4IUsholjg",
+            "text": "1. electrochemistry crash course",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://glearning.tju.edu.cn/pluginfile.php/74331/mod_resource/content/0/%E5%8F%82%E8%80%83%E4%B9%A6/Electrochemical_methods_2ed_2001_-_Bard_Faulkner.pdf",
+            "text": "2. electrochemical methods: fundamentals and applications",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://i.imgur.com/chCzAGT.gifv",
+            "text": "restoring the shine of silver through electrochemistry",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "electrochemistry",
-      "curve": {
-        "x": -52.9773,
-        "y": -52.2552
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Electrochemistry",
+        "text": "electrochemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 171
+    ],
+    "author": ""
+  }
 }

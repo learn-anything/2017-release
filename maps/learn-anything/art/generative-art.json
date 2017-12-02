@@ -1,146 +1,143 @@
 {
   "title": "learn anything - art - generative art",
   "tag": "",
-  "nodes": [
-    {
-      "text": "generative art",
-      "url": "http://www.wikiwand.com/en/Generative_art",
-      "fx": 53.1796875,
-      "fy": -463.37890625,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/kosmos/awesome-generative-art",
-          "fx": 303.1796875,
-          "fy": -449.37890625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 26,
+  "map": {
+    "text": "generative art",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "inspiration",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://wowgreat.tumblr.com/",
+                "text": "wow great  ️",
+                "category": "blog",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://holgerlippmann.tumblr.com/",
+                "text": "Holger Lippman",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.contextfreeart.org/gallery/index.php",
+                "text": "context free art",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://csh.bz/",
+                "text": "Chris Shier",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/shiffman/videos",
+            "text": "the coding train",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "software",
+        "nodes": [
+          {
+            "text": "node box 3",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.nodebox.net/node/",
+                "text": "node box 3",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "context free",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.contextfreeart.org/",
+                "text": "context free",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/kosmos/awesome-generative-art",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 144.62110900878906,
-      "fy": -350.26808166503906,
-      "nodes": [
-        {
-          "text": "the coding train",
-          "url": "https://www.youtube.com/user/shiffman/videos",
-          "fx": 281.62110900878906,
-          "fy": -338.76808166503906,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Generative_art",
+        "text": "generative art",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "inspiration",
-      "url": "",
-      "fx": 228.4692015895953,
-      "fy": -227.41790101156067,
-      "nodes": [
-        {
-          "text": "wow great  ️",
-          "url": "http://wowgreat.tumblr.com/",
-          "fx": 418.4692015895953,
-          "fy": -266.9179010115607,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "Holger Lippman",
-          "url": "http://holgerlippmann.tumblr.com/",
-          "fx": 418.4692015895953,
-          "fy": -226.91790101156067,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "context free art",
-          "url": "https://www.contextfreeart.org/gallery/index.php",
-          "fx": 418.4692015895953,
-          "fy": -192.91790101156067,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "Chris Shier",
-          "url": "http://csh.bz/",
-          "fx": 418.4692015895953,
-          "fy": -158.91790101156067,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "software",
-      "url": "",
-      "fx": -55.18063583815024,
-      "fy": -202.75431268063573,
-      "nodes": []
-    },
-    {
-      "text": "node box 3",
-      "url": "https://www.nodebox.net/node/",
-      "fx": -102.50486243990872,
-      "fy": -90.93012141179167,
-      "nodes": []
-    },
-    {
-      "text": "context free",
-      "url": "https://www.contextfreeart.org/",
-      "fx": 55.63326451562341,
-      "fy": -90.68628496838744,
-      "nodes": []
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "generative art",
-      "curve": {
-        "x": -17.4707,
-        "y": -55.3054
       }
-    },
-    {
-      "source": "generative art",
-      "target": "software",
-      "curve": {
-        "x": -72.6802,
-        "y": 129.062
-      }
-    },
-    {
-      "source": "software",
-      "target": "node box 3",
-      "curve": {
-        "x": -17.1621,
-        "y": 55.9121
-      }
-    },
-    {
-      "source": "software",
-      "target": "context free",
-      "curve": {
-        "x": 62.657,
-        "y": 56.034
-      }
-    },
-    {
-      "source": "inspiration",
-      "target": "help",
-      "curve": {
-        "x": -55.174,
-        "y": -61.4251
-      }
-    }
-  ],
-  "id": 26
+    ],
+    "author": ""
+  }
 }

@@ -1,119 +1,95 @@
 {
   "title": "learn anything - game development - game engines - love",
   "tag": "LOVE game engine",
-  "nodes": [
-    {
-      "text": "LÖVE",
-      "url": "https://love2d.org/",
-      "fx": -89.29366987179492,
-      "fy": -139.41225961538458,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/love2d/",
-          "fx": 60.70633012820508,
-          "fy": -167.91225961538458,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/love2d/love",
-          "fx": 60.70633012820508,
-          "fy": -127.91225961538458,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/love2d-community/awesome-love2d",
-          "fx": 60.70633012820508,
-          "fy": -87.91225961538458,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -113.49018143384887,
-      "fy": 88.36327000153369,
-      "nodes": [
-        {
-          "text": "1. why LÖVE?  ️",
-          "url": "https://eev.ee/blog/2017/03/23/why-love/",
-          "fx": 68.50981856615113,
-          "fy": 14.863270001533692,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. getting started",
-          "url": "https://love2d.org/wiki/Getting_Started",
-          "fx": 68.50981856615113,
-          "fy": 54.86327000153369,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. create complete game with LÖVE",
-          "url": "",
-          "fx": 68.50981856615113,
-          "fy": 139.8632700015337,
-          "nodes": [
-            {
-              "text": "part 1 - game loop",
-              "url": "https://github.com/adonaac/blog/issues/11",
-              "fx": 430.5098185661511,
-              "fy": 88.86327000153369,
-              "nodes": [],
-              "color": "rgba(36, 170, 255, 1.0)"
-            },
-            {
-              "text": "part 2 - libraries",
-              "url": "https://github.com/adonaac/blog/issues/12",
-              "fx": 430.5098185661511,
-              "fy": 122.86327000153369,
-              "nodes": [],
-              "color": "rgba(36, 170, 255, 1.0)"
-            },
-            {
-              "text": "part 3 - rooms and areas",
-              "url": "https://github.com/adonaac/blog/issues/13",
-              "fx": 430.5098185661511,
-              "fy": 156.8632700015337,
-              "nodes": [],
-              "color": "rgba(36, 170, 255, 1.0)"
-            },
-            {
-              "text": "part 4 - exercises",
-              "url": "https://github.com/adonaac/blog/issues/14",
-              "fx": 430.5098185661511,
-              "fy": 190.8632700015337,
-              "nodes": [],
-              "color": "rgba(36, 170, 255, 1.0)"
+  "id": 558,
+  "map": {
+    "text": "LÖVE",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://eev.ee/blog/2017/03/23/why-love/",
+            "text": "1. why LÖVE?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "LÖVE",
-      "target": "basics",
-      "curve": {
-        "x": -10.5983,
-        "y": 113.888
+          },
+          {
+            "url": "https://love2d.org/wiki/Getting_Started",
+            "text": "2. getting started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "",
+            "text": "2. create complete game with LÖVE",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 558
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/love2d/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/love2d/love",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/love2d-community/awesome-love2d",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://love2d.org/",
+        "text": "LÖVE",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

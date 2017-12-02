@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer graphics - rendering - ray casting",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ray casting",
-      "url": "http://www.wikiwand.com/en/Ray_casting",
-      "fx": 137.98251021203907,
-      "fy": -73.79591059093636,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 266.24609375,
-      "fy": 41.341430664062386,
-      "nodes": [
-        {
-          "text": "first-person engine in 265 lines  ️",
-          "url": "http://www.playfuljs.com/a-first-person-engine-in-265-lines/",
-          "fx": 465.24609375,
-          "fy": 53.841430664062386,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 166.34600510322434,
-      "fy": 136.8512892717307,
-      "nodes": [
-        {
-          "text": "1. ray casting in 2D",
-          "url": "https://www.youtube.com/watch?v=c065KoXooSw",
-          "fx": 329.34600510322434,
-          "fy": 149.3512892717307,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "ray casting",
-      "target": "basics",
-      "curve": {
-        "x": -4.31825,
-        "y": 104.574
+  "id": 228,
+  "map": {
+    "text": "ray casting",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=c065KoXooSw",
+            "text": "1. ray casting in 2D",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.playfuljs.com/a-first-person-engine-in-265-lines/",
+            "text": "first-person engine in 265 lines  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "ray casting",
-      "curve": {
-        "x": -54.6318,
-        "y": -56.8187
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Ray_casting",
+        "text": "ray casting",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 228
+    ],
+    "author": ""
+  }
 }

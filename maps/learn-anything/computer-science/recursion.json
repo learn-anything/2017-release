@@ -1,112 +1,113 @@
 {
   "title": "learn anything - computer science - recursion",
   "tag": "",
-  "nodes": [
-    {
-      "text": "recursion",
-      "url": "http://www.wikiwand.com/en/Recursion_(computer_science)",
-      "fx": -50.002399114173386,
-      "fy": -356.49495570866145,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/passy/awesome-recursion-schemes",
-          "fx": 159.9976008858266,
-          "fy": -342.49495570866145,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 90.55882393359718,
-      "fy": -250.78567731237183,
-      "nodes": [
-        {
-          "text": "16: recursion, recursion, recursion  ️",
-          "url": "https://medium.freecodecamp.com/recursion-recursion-recursion-4db8890a674d",
-          "fx": 252.55882393359718,
-          "fy": -239.28567731237183,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -79.03808227525951,
-      "fy": -106.17777745490281,
-      "nodes": [
-        {
-          "text": "1. what is recursion?",
-          "url": "https://www.youtube.com/watch?v=Mv9NEXX1VHc",
-          "fx": 102.96191772474049,
-          "fy": -145.6777774549028,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. example of recursion",
-          "url": "https://www.reddit.com/r/learnprogramming/comments/3dmyap/wrapping_my_head_around_recursion/ct6sfcz/",
-          "fx": 102.96191772474049,
-          "fy": -105.67777745490281,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. the most difficult program to compute?",
-          "url": "https://www.youtube.com/watch?v=i7sm9dzFtEI",
-          "fx": 102.96191772474049,
-          "fy": -65.67777745490281,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tail recursion  ️",
-      "url": "/computer-science/recursion/tail-recursion",
-      "fx": -162.72488925934226,
-      "fy": 25.232365871174125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "recursion",
-      "curve": {
-        "x": -58.2806,
-        "y": -51.6047
+  "id": 348,
+  "map": {
+    "text": "recursion",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.freecodecamp.com/recursion-recursion-recursion-4db8890a674d",
+            "text": "16: recursion, recursion, recursion  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "tail recursion  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/recursion/tail-recursion",
+                "text": "tail recursion  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Mv9NEXX1VHc",
+            "text": "1. what is recursion?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/learnprogramming/comments/3dmyap/wrapping_my_head_around_recursion/ct6sfcz/",
+            "text": "1. example of recursion",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=i7sm9dzFtEI",
+            "text": "2. the most difficult program to compute?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "recursion",
-      "target": "basics",
-      "curve": {
-        "x": -28.0178,
-        "y": 123.909
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/passy/awesome-recursion-schemes",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Recursion_(computer_science)",
+        "text": "recursion",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "tail recursion  ️",
-      "curve": {
-        "x": -34.3434,
-        "y": 65.7051
-      }
-    }
-  ],
-  "id": 348
+    ],
+    "author": ""
+  }
 }

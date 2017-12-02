@@ -1,87 +1,94 @@
 {
   "title": "learn anything - computer hardware - computer - keyboards - mechanical keyboards",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mechanical keyboards",
-      "url": "https://www.reddit.com/r/MechanicalKeyboards/",
-      "fx": -83.90267319277109,
-      "fy": -219.44008847891564,
-      "nodes": [],
-      "category": "reddit"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 128.82890193370167,
-      "fy": -81.42929903314922,
-      "nodes": [
-        {
-          "text": "keyboard PCB guide",
-          "url": "https://github.com/ruiqimao/keyboard-pcb-guide",
-          "fx": 319.8289019337017,
-          "fy": -69.92929903314922,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 252,
+  "map": {
+    "text": "mechanical keyboards",
+    "nodes": [
+      {
+        "text": "ortholinear",
+        "nodes": [
+          {
+            "text": "planck",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://olkb.com/planck",
+                "text": "planck",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "preonic",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://olkb.com/preonic",
+                "text": "preonic",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://olkb.com/",
+            "text": "ortholinear",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/ruiqimao/keyboard-pcb-guide",
+            "text": "keyboard PCB guide",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/MechanicalKeyboards/",
+        "text": "mechanical keyboards",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "ortholinear",
-      "url": "https://olkb.com/",
-      "fx": -77.76798115079384,
-      "fy": -28.30983382936836,
-      "nodes": []
-    },
-    {
-      "text": "planck",
-      "url": "https://olkb.com/planck",
-      "fx": -157.2059807441252,
-      "fy": 89.73698596605743,
-      "nodes": []
-    },
-    {
-      "text": "preonic",
-      "url": "https://olkb.com/preonic",
-      "fx": -25.02198922976163,
-      "fy": 93.40763707571818,
-      "nodes": []
-    }
-  ],
-  "connections": [
-    {
-      "source": "mechanical keyboards",
-      "target": "ortholinear",
-      "curve": {
-        "x": -31.1826,
-        "y": 94.3151
       }
-    },
-    {
-      "source": "ortholinear",
-      "target": "planck",
-      "curve": {
-        "x": -48.469,
-        "y": 59.0234
-      }
-    },
-    {
-      "source": "ortholinear",
-      "target": "preonic",
-      "curve": {
-        "x": 19.373,
-        "y": 60.8587
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "mechanical keyboards",
-      "curve": {
-        "x": -71.6158,
-        "y": -67.7554
-      }
-    }
-  ],
-  "id": 252
+    ],
+    "author": ""
+  }
 }

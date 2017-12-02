@@ -1,250 +1,241 @@
 {
   "title": "learn anything - economics - business - companies - google",
   "tag": "",
-  "nodes": [
-    {
-      "text": "google",
-      "url": "http://www.wikiwand.com/en/Google",
-      "fx": 220.31640625,
-      "fy": -212.38671875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "alternative",
-      "url": "",
-      "fx": -58.70885881360027,
-      "fy": -75.71787248312023,
-      "nodes": []
-    },
-    {
-      "text": "owned by",
-      "url": "",
-      "fx": 153.53745545117476,
-      "fy": -70.3421600278379,
-      "nodes": []
-    },
-    {
-      "text": "privacy issues",
-      "url": "",
-      "fx": 342.06344813978444,
-      "fy": -68.79130723610672,
-      "nodes": [
-        {
-          "text": "17: by 2030, you’ll be living in a world that’s run by google  ️",
-          "url": "https://futurism.com/by-2030-youll-be-living-in-a-world-thats-run-by-google/",
-          "fx": 581.0634481397844,
-          "fy": -206.29130723610672,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "17: google changed a major privacy policy, and no one really noticed  ️",
-          "url": "http://www.slate.com/blogs/future_tense/2016/10/21/google_changed_a_major_privacy_policy_and_no_one_really_noticed.html",
-          "fx": 581.0634481397844,
-          "fy": -139.29130723610672,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "how does google search collect info about you",
-          "url": "https://www.reddit.com/r/privacy/comments/6hbjq5/how_does_google_search_collect_info_about_you_if/",
-          "fx": 581.0634481397844,
-          "fy": -47.29130723610672,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "It is possible that all the information could be made available to the authorities - Eric Schmidt",
-          "url": "https://www.reddit.com/r/privacy/comments/6hzqj4/google_not_gchq_is_the_truly_chilling_spy_network/dj2x3zl/",
-          "fx": 581.0634481397844,
-          "fy": 19.708692763893282,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 463,
+  "map": {
+    "text": "google",
+    "nodes": [
+      {
+        "text": "privacy issues",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://developers.googleblog.com/",
+                "text": "google developers blog  ️",
+                "category": "blog",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://futurism.com/by-2030-youll-be-living-in-a-world-thats-run-by-google/",
+            "text": "17: by 2030, you’ll be living in a world that’s run by google  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.slate.com/blogs/future_tense/2016/10/21/google_changed_a_major_privacy_policy_and_no_one_really_noticed.html",
+            "text": "17: google changed a major privacy policy, and no one really noticed  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/privacy/comments/6hbjq5/how_does_google_search_collect_info_about_you_if/",
+            "text": "how does google search collect info about you",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/privacy/comments/6hzqj4/google_not_gchq_is_the_truly_chilling_spy_network/dj2x3zl/",
+            "text": "It is possible that all the information could be made available to the authorities - Eric Schmidt",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "owned by",
+        "nodes": [
+          {
+            "text": "alphabet",
+            "nodes": [
+              {
+                "text": "also owns",
+                "nodes": [
+                  {
+                    "text": "calico",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/Calico_(company)",
+                        "text": "calico",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "deepmind",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/DeepMind",
+                        "text": "deepmind",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "youtube",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/YouTube",
+                        "text": "youtube",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "nest labs",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/Nest_Labs",
+                        "text": "nest labs",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/nl/Alphabet_Inc.",
+                "text": "alphabet",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      },
+      {
+        "text": "alternative",
+        "nodes": [
+          {
+            "text": "duckduckgo  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/business/companies/duckduckgo",
+                "text": "duckduckgo  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "startpage",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.startpage.com/",
+                "text": "startpage",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Google",
+        "text": "google",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "duckduckgo  ️",
-      "url": "/economics/business/companies/duckduckgo",
-      "fx": -213.96171874999993,
-      "fy": 28.85334821428569,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "startpage",
-      "url": "https://www.startpage.com/",
-      "fx": -363.76111922578184,
-      "fy": 30.88861846923828,
-      "nodes": []
-    },
-    {
-      "text": "alphabet",
-      "url": "http://www.wikiwand.com/nl/Alphabet_Inc.",
-      "fx": 57.130283491952014,
-      "fy": 36.3952786581857,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "also owns",
-      "url": "",
-      "fx": -69.322265625,
-      "fy": 157.2705078125,
-      "nodes": []
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 427.4568510797176,
-      "fy": 192.6738616838487,
-      "nodes": [
-        {
-          "text": "google developers blog  ️",
-          "url": "https://developers.googleblog.com/",
-          "fx": 626.4568510797176,
-          "fy": 205.1738616838487,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "nest labs",
-      "url": "http://www.wikiwand.com/en/Nest_Labs",
-      "fx": -409.48146206991794,
-      "fy": 322.10841318829887,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "calico",
-      "url": "http://www.wikiwand.com/en/Calico_(company)",
-      "fx": -232.1502214040487,
-      "fy": 322.65081690565773,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "deepmind",
-      "url": "http://www.wikiwand.com/en/DeepMind",
-      "fx": -85.77546242440121,
-      "fy": 323.7864768151012,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "youtube",
-      "url": "http://www.wikiwand.com/en/YouTube",
-      "fx": 108.57362652694474,
-      "fy": 323.82440183295637,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "privacy issues",
-      "target": "google",
-      "curve": {
-        "x": -71.1236,
-        "y": -71.0477
       }
-    },
-    {
-      "source": "google",
-      "target": "owned by",
-      "curve": {
-        "x": -33.6394,
-        "y": 70.2723
-      }
-    },
-    {
-      "source": "owned by",
-      "target": "alphabet",
-      "curve": {
-        "x": -43.4536,
-        "y": 54.1187
-      }
-    },
-    {
-      "source": "google",
-      "target": "alternative",
-      "curve": {
-        "x": -139.763,
-        "y": 67.5844
-      }
-    },
-    {
-      "source": "alphabet",
-      "target": "also owns",
-      "curve": {
-        "x": -79.2263,
-        "y": 59.6876
-      }
-    },
-    {
-      "source": "also owns",
-      "target": "calico",
-      "curve": {
-        "x": -72.414,
-        "y": 83.4402
-      }
-    },
-    {
-      "source": "also owns",
-      "target": "deepmind",
-      "curve": {
-        "x": 11.5234,
-        "y": 84.008
-      }
-    },
-    {
-      "source": "also owns",
-      "target": "youtube",
-      "curve": {
-        "x": 103.698,
-        "y": 84.0269
-      }
-    },
-    {
-      "source": "also owns",
-      "target": "nest labs",
-      "curve": {
-        "x": -175.522,
-        "y": 72.9226
-      }
-    },
-    {
-      "source": "alternative",
-      "target": "duckduckgo  ️",
-      "curve": {
-        "x": -71.1264,
-        "y": 52.2856
-      }
-    },
-    {
-      "source": "alternative",
-      "target": "startpage",
-      "curve": {
-        "x": -178.228,
-        "y": 35.576
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "privacy issues",
-      "curve": {
-        "x": -32.6967,
-        "y": -130.733
-      }
-    }
-  ],
-  "id": 463
+    ],
+    "author": ""
+  }
 }

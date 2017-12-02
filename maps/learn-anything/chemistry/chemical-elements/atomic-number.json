@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - chemical elements - atomic number",
   "tag": "",
-  "nodes": [
-    {
-      "text": "atomic number",
-      "url": "http://www.wikiwand.com/en/Atomic_number",
-      "fx": -97.41002439345993,
-      "fy": -150.35940796413502,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. atomic number, mass number and net charge",
-          "url": "https://www.youtube.com/watch?v=dRfrvpVdKGM",
-          "fx": 109.5,
-          "fy": -1.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "atomic number",
-      "target": "basics",
-      "curve": {
-        "x": -1.54499,
-        "y": 72.9297
+  "id": 143,
+  "map": {
+    "text": "atomic number",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dRfrvpVdKGM",
+            "text": "1. atomic number, mass number and net charge",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 143
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Atomic_number",
+        "text": "atomic number",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer graphics - volume rendering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "volume rendering",
-      "url": "http://www.wikiwand.com/en/Volume_rendering",
-      "fx": -105.83203125,
-      "fy": -250.3125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -44.671498493975946,
-      "fy": -88.42225150602411,
-      "nodes": [
-        {
-          "text": "1. ray functions for volume rendering: a quick and convenient review",
-          "url": "https://www.youtube.com/watch?v=1PqvwOjnKJw",
-          "fx": 111.32850150602405,
-          "fy": -129.9222515060241,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. overview of modern volume rendering techniques for games  ️",
-          "url": "http://coherent-labs.com/overview-of-modern-volume-rendering-techniques-for-games-part-i/",
-          "fx": 111.32850150602405,
-          "fy": -45.92225150602411,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "volume rendering",
-      "target": "basics",
-      "curve": {
-        "x": -1.16973,
-        "y": 79.6951
+  "id": 232,
+  "map": {
+    "text": "volume rendering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=1PqvwOjnKJw",
+            "text": "1. ray functions for volume rendering: a quick and convenient review",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://coherent-labs.com/overview-of-modern-volume-rendering-techniques-for-games-part-i/",
+            "text": "1. overview of modern volume rendering techniques for games  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 232
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Volume_rendering",
+        "text": "volume rendering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

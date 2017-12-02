@@ -1,90 +1,98 @@
 {
   "title": "learn anything - engineering - manufacturing engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "manufacturing engineering",
-      "url": "http://www.wikiwand.com/en/Manufacturing_engineering",
-      "fx": 15.83203125,
-      "fy": -121.9453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 115.48828506469727,
-      "fy": 2.1099796295166016,
-      "nodes": [
-        {
-          "text": "1. manufacturing engineering and technology",
-          "url": "http://www.engr.mun.ca/~hinch/9211/PARTS.pdf",
-          "fx": 278.48828506469727,
-          "fy": 2.1099796295166016,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 538,
+  "map": {
+    "text": "manufacturing engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "manufacturing",
+            "nodes": [
+              {
+                "text": "injection moulding  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/engineering/manufacturing-engineering/Injection-moulding",
+                    "text": "injection moulding  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "drawing process",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Drawing_(manufacturing)",
+                    "text": "drawing process",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Manufacturing",
+                "text": "manufacturing",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.engr.mun.ca/~hinch/9211/PARTS.pdf",
+            "text": "1. manufacturing engineering and technology",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Manufacturing_engineering",
+        "text": "manufacturing engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "manufacturing",
-      "url": "http://www.wikiwand.com/en/Manufacturing",
-      "fx": -58.46875762939453,
-      "fy": 112.61977577209473,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "injection moulding  ️",
-      "url": "/engineering/manufacturing-engineering/Injection-moulding",
-      "fx": -229.29969024658203,
-      "fy": 258.7807083129883,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "drawing process",
-      "url": "http://www.wikiwand.com/en/Drawing_(manufacturing)",
-      "fx": 34.82488479262702,
-      "fy": 261.302203341014,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "manufacturing engineering",
-      "target": "basics",
-      "curve": {
-        "x": 0.328126,
-        "y": 62.0276
       }
-    },
-    {
-      "source": "basics",
-      "target": "manufacturing",
-      "curve": {
-        "x": -59.9785,
-        "y": 56.0049
-      }
-    },
-    {
-      "source": "manufacturing",
-      "target": "injection moulding  ️",
-      "curve": {
-        "x": -83.9155,
-        "y": 72.3305
-      }
-    },
-    {
-      "source": "manufacturing",
-      "target": "drawing process",
-      "curve": {
-        "x": 30.8968,
-        "y": 74.3412
-      }
-    }
-  ],
-  "id": 538
+    ],
+    "author": ""
+  }
 }

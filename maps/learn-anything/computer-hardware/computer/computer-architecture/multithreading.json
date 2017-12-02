@@ -1,58 +1,60 @@
 {
   "title": "learn anything - computer hardware - computer - computer architecture - multithreading",
   "tag": "",
-  "nodes": [
-    {
-      "text": "multithreading",
-      "url": "http://www.wikiwand.com/en/Multithreading_(computer_architecture)",
-      "fx": -97.18359375,
-      "fy": -144.23828125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 66.19684975438838,
-      "fy": -27.491379141807556,
-      "nodes": [
-        {
-          "text": "14: mutlithreading: common pitfalls  ️",
-          "url": "http://austingwalters.com/multithreading-common-pitfalls/",
-          "fx": 235.19684975438838,
-          "fy": -27.491379141807556,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 239,
+  "map": {
+    "text": "multithreading",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://austingwalters.com/multithreading-common-pitfalls/",
+            "text": "14: mutlithreading: common pitfalls  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "race conditions  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-hardware/computer/computer-architecture/multithreading/race-conditions",
+            "text": "race conditions  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Multithreading_(computer_architecture)",
+        "text": "multithreading",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "race conditions  ️",
-      "url": "/computer-hardware/computer/computer-architecture/multithreading/race-conditions",
-      "fx": -234.62479112474182,
-      "fy": 8.46812454745077,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "multithreading",
-      "curve": {
-        "x": -66.9402,
-        "y": -57.6234
       }
-    },
-    {
-      "source": "multithreading",
-      "target": "race conditions  ️",
-      "curve": {
-        "x": -72.9706,
-        "y": 75.6032
-      }
-    }
-  ],
-  "id": 239
+    ],
+    "author": ""
+  }
 }

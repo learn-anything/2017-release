@@ -1,524 +1,563 @@
 {
   "title": "learn anything - computer science - algorithms",
   "tag": "",
-  "nodes": [
-    {
-      "text": "algorithms",
-      "url": "http://www.wikiwand.com/en/Algorithm",
-      "fx": 140.4639638637882,
-      "fy": -419.8610399400877,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/algorithms/",
-          "fx": 361.4639638637882,
-          "fy": -425.8610399400877,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/tayllan/awesome-algorithms",
-          "fx": 361.4639638637882,
-          "fy": -385.8610399400877,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 283,
+  "map": {
+    "text": "algorithms",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "analysis of algorithms",
+            "note": "analysis of algorithms is the determination of the amount of resources (such as time and storage) necessary to execute them  most algorithms are designed to work with inputs of arbitrary length   usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity) or storage locations (space complexity)  it is common to estimate the complexity in the asymptotic sense   i. e. estimate the complexity function for arbitrarily large input",
+            "nodes": [
+              {
+                "text": "big O notation  ️",
+                "note": "is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity  it is used to classify algorithms according to how their running time or space requirements grow as the input size grows  the letter O is used because the growth rate of a function is also referred to as order of the function",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/big-O",
+                    "text": "big O notation  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Analysis_of_algorithms",
+                "text": "analysis of algorithms",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "algorithms on",
+            "nodes": [
+              {
+                "text": "searching  ️",
+                "note": "search algorithm is an algorithm that retrieves information stored within some data structure  appropriate search algorithm often depends on the data structure being searched  searching also encompasses algorithms that query the data structure, such as the SQL SELECT command  they can be classified based on their mechanism of searching",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/search",
+                    "text": "searching  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "genetic  ️",
+                "note": "genetic algorithm is a metaheuristic inspired by the process of natural selection  are commonly used to generate high quality solutions to optimisation and search problems by relying on bio-inspired operators such as mutation, crossover and selection",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/genetic-algorithms",
+                    "text": "genetic  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "sorting  ️",
+                "note": "sorting algorithm is an algorithm that puts elements of a list in a certain order  most used orders are numerical order and lexicographical order  efficient sorting is important for optimising the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists  it is also often useful for canonicalising data and for producing human readable output",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/sorting",
+                    "text": "sorting  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "evolutionary  ️",
+                "note": "uses mechanisms inspired by biological evolution, such as reproduction, mutation, recombination and selection",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/evolutionary",
+                    "text": "evolutionary  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "graphs  ️",
+                "note": "a graph is an abstract notion, used to represent the idea of some kind of connection between pairs of objects",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/computer-science/algorithms/graph",
+                    "text": "graphs  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "matrix multiplication",
+                "note": "applications of matrix multiplication in computational problems are found in many fields including scientific computing and pattern recognition and in seemingly unrelated problems such as counting the paths through a graph  many different algorithms have been designed for multiplying matrices on different types of hardware, including parallel and distributed systems, where the computational work is spread over multiple processors (perhaps over network)",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Matrix_multiplication_algorithm",
+                    "text": "matrix multiplication",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "domain reduction",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Domain_reduction_algorithm",
+                    "text": "domain reduction",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "algorithm design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/algorithm-design",
+                "text": "algorithm design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "procedural generation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/algorithms/procedural-generation",
+                "text": "procedural generation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://algs4.cs.princeton.edu/home/",
+            "text": "1. algorithms",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/algorithms-part1",
+            "text": "1. algorithms: part I",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/coells/100days",
+            "text": "1. 100 days of algoritms",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0",
+            "text": "1. gate lectures",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.4772&amp;rep=rep1&amp;type=pdf",
+            "text": "1. algorithm design manual",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.coursera.org/learn/algorithms-part2",
+            "text": "2. algorithms: part II",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://frnsys.com/ai_notes/foundations/algorithms.html",
+            "text": "2. algorithms notes  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://ce.bonabu.ac.ir/uploads/30/CMS/user/file/115/EBook/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf",
+            "text": "3. introduction to algorithms",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms",
+            "text": "3. design and analysis of algorithms",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://github.com/jiayihu/pretty-algorithms",
+                    "text": "pretty algorithms",
+                    "category": "github",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://github.com/neozhaoliang/pywonderland",
+                    "text": "pywonderland",
+                    "category": "github",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://roadtolarissa.com/blog/2015/01/04/coloring-maps-with-d3/",
+                "text": "colouring maps  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/",
+                "text": "shortest path in a maze   ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/List_of_algorithms",
+            "text": "list of algorithms",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/keon/algorithms",
+            "text": "algorithms in python",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://bost.ocks.org/mike/algorithms/",
+            "text": "visualising algorithms",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://visualgo.net/en",
+            "text": "visualgo",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/jbrownlee/CleverAlgorithms",
+            "text": "clever algorithms",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.cs.princeton.edu/%7Ewayne/kleinberg-tardos/",
+            "text": "lecture slides for algorithm design",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://rubyalgo.github.io/algorithms/",
+            "text": "ruby algorithms",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://eulercoder.me/AlgoWiki/",
+            "text": "AlgoWiki",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/enjalot/algovis",
+            "text": "algorithm visualisations",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.techiedelight.com/list-of-problems/",
+            "text": "data structures and algorithms problems",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://jeffe.cs.illinois.edu/teaching/algorithms/",
+            "text": "algorithms by Jeff Erickson",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/mdipierro/nlib",
+            "text": "annotated algorithms in python",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/algorithms/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 408.14491901886254,
-      "fy": -180.72305480919601,
-      "nodes": [
-        {
-          "text": "list of algorithms",
-          "url": "http://www.wikiwand.com/en/List_of_algorithms",
-          "fx": 545.1449190188625,
-          "fy": -388.223054809196,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "algorithms in python",
-          "url": "https://github.com/keon/algorithms",
-          "fx": 545.1449190188625,
-          "fy": -348.223054809196,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "visualising algorithms",
-          "url": "https://bost.ocks.org/mike/algorithms/",
-          "fx": 545.1449190188625,
-          "fy": -308.223054809196,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "visualgo",
-          "url": "https://visualgo.net/en",
-          "fx": 545.1449190188625,
-          "fy": -268.223054809196,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "clever algorithms",
-          "url": "https://github.com/jbrownlee/CleverAlgorithms",
-          "fx": 545.1449190188625,
-          "fy": -228.22305480919601,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "lecture slides for algorithm design",
-          "url": "http://www.cs.princeton.edu/%7Ewayne/kleinberg-tardos/",
-          "fx": 545.1449190188625,
-          "fy": -188.22305480919601,
-          "nodes": [],
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "ruby algorithms",
-          "url": "https://rubyalgo.github.io/algorithms/",
-          "fx": 545.1449190188625,
-          "fy": -154.22305480919601,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "AlgoWiki",
-          "url": "http://eulercoder.me/AlgoWiki/",
-          "fx": 545.1449190188625,
-          "fy": -120.22305480919601,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "algorithm visualisations",
-          "url": "https://github.com/enjalot/algovis",
-          "fx": 545.1449190188625,
-          "fy": -80.22305480919601,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "data structures and algorithms problems",
-          "url": "http://www.techiedelight.com/list-of-problems/",
-          "fx": 545.1449190188625,
-          "fy": -40.223054809196015,
-          "nodes": [],
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "algorithms by Jeff Erickson",
-          "url": "http://jeffe.cs.illinois.edu/teaching/algorithms/",
-          "fx": 545.1449190188625,
-          "fy": 15.776945190803985,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "annotated algorithms in python",
-          "url": "https://github.com/mdipierro/nlib",
-          "fx": 545.1449190188625,
-          "fy": 49.776945190803985,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://github.com/tayllan/awesome-algorithms",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 8.059585402385892,
-      "fy": 155.42432892767852,
-      "nodes": [
-        {
-          "text": "1. algorithms",
-          "url": "http://algs4.cs.princeton.edu/home/",
-          "fx": 190.0595854023859,
-          "fy": 6.924328927678516,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. algorithms: part I",
-          "note": "a really great course by Stanford university that introduces you to different algorithms  how to prove them and reason about their efficiency",
-          "url": "https://www.coursera.org/learn/algorithms-part1",
-          "fx": 190.0595854023859,
-          "fy": 46.924328927678516,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. 100 days of algoritms",
-          "url": "https://github.com/coells/100days",
-          "fx": 190.0595854023859,
-          "fy": 86.92432892767852,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. gate lectures",
-          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0",
-          "fx": 190.0595854023859,
-          "fy": 126.92432892767852,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. algorithm design manual",
-          "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.4772&amp;rep=rep1&amp;type=pdf",
-          "fx": 190.0595854023859,
-          "fy": 166.92432892767852,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. algorithms: part II",
-          "note": "continuation of the above course",
-          "url": "https://www.coursera.org/learn/algorithms-part2",
-          "fx": 190.0595854023859,
-          "fy": 206.92432892767852,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. algorithms notes  ️",
-          "url": "http://frnsys.com/ai_notes/foundations/algorithms.html",
-          "fx": 190.0595854023859,
-          "fy": 246.92432892767852,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "3. introduction to algorithms",
-          "note": "can be read alongside the above courses  is very thorough and details the specifics of all the algorithms you may find",
-          "url": "http://ce.bonabu.ac.ir/uploads/30/CMS/user/file/115/EBook/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf",
-          "fx": 190.0595854023859,
-          "fy": 286.9243289276785,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "3. design and analysis of algorithms",
-          "url": "http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms",
-          "fx": 190.0595854023859,
-          "fy": 326.9243289276785,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(209, 21, 88, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Algorithm",
+        "text": "algorithms",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 604.1259155456282,
-      "fy": 199.01293500716122,
-      "nodes": [
-        {
-          "text": "colouring maps  ️",
-          "url": "http://roadtolarissa.com/blog/2015/01/04/coloring-maps-with-d3/",
-          "fx": 766.1259155456282,
-          "fy": 190.51293500716122,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "shortest path in a maze   ️",
-          "url": "https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/",
-          "fx": 766.1259155456282,
-          "fy": 230.51293500716122,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 651.8106040995544,
-      "fy": 358.6262151978831,
-      "nodes": [
-        {
-          "text": "pretty algorithms",
-          "url": "https://github.com/jiayihu/pretty-algorithms",
-          "fx": 842.8106040995544,
-          "fy": 350.1262151978831,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "pywonderland",
-          "url": "https://github.com/neozhaoliang/pywonderland",
-          "fx": 842.8106040995544,
-          "fy": 390.1262151978831,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "algorithm design  ️",
-      "url": "/computer-science/algorithms/algorithm-design",
-      "fx": 125.80901162706073,
-      "fy": 465.3241204661158,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "analysis of algorithms",
-      "note": "analysis of algorithms is the determination of the amount of resources (such as time and storage) necessary to execute them  most algorithms are designed to work with inputs of arbitrary length   usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity) or storage locations (space complexity)  it is common to estimate the complexity in the asymptotic sense   i. e. estimate the complexity function for arbitrarily large input",
-      "url": "http://www.wikiwand.com/en/Analysis_of_algorithms",
-      "fx": -173.91377532716183,
-      "fy": 465.97480746440783,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "procedural generation  ️",
-      "url": "/computer-science/algorithms/procedural-generation",
-      "fx": -448.25000000001137,
-      "fy": 467.7062026515116,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "algorithms on",
-      "url": "",
-      "fx": -631.5843442833941,
-      "fy": 472.98541724163533,
-      "nodes": []
-    },
-    {
-      "text": "big O notation  ️",
-      "note": "is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity  it is used to classify algorithms according to how their running time or space requirements grow as the input size grows  the letter O is used because the growth rate of a function is also referred to as order of the function",
-      "url": "/computer-science/algorithms/big-O",
-      "fx": -147.4238977600712,
-      "fy": 578.7264033749328,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "genetic  ️",
-      "note": "genetic algorithm is a metaheuristic inspired by the process of natural selection  are commonly used to generate high quality solutions to optimisation and search problems by relying on bio-inspired operators such as mutation, crossover and selection",
-      "url": "/computer-science/algorithms/genetic-algorithms",
-      "fx": -1594.7048318431514,
-      "fy": 608.4704202413532,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "matrix multiplication",
-      "note": "applications of matrix multiplication in computational problems are found in many fields including scientific computing and pattern recognition and in seemingly unrelated problems such as counting the paths through a graph  many different algorithms have been designed for multiplying matrices on different types of hardware, including parallel and distributed systems, where the computational work is spread over multiple processors (perhaps over network)",
-      "url": "http://www.wikiwand.com/en/Matrix_multiplication_algorithm",
-      "fx": -1387.7642204971971,
-      "fy": 610.993763161476,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "domain reduction",
-      "url": "http://www.wikiwand.com/en/Domain_reduction_algorithm",
-      "fx": -1852.0604807583286,
-      "fy": 611.1534992775125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "graphs  ️",
-      "note": "a graph is an abstract notion, used to represent the idea of some kind of connection between pairs of objects",
-      "url": "/computer-science/algorithms/graph",
-      "fx": -1098.6460954467611,
-      "fy": 616.0591269029451,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "evolutionary  ️",
-      "note": "uses mechanisms inspired by biological evolution, such as reproduction, mutation, recombination and selection",
-      "url": "/computer-science/algorithms/evolutionary",
-      "fx": -811.0895079154388,
-      "fy": 630.8346763438925,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "searching  ️",
-      "note": "search algorithm is an algorithm that retrieves information stored within some data structure  appropriate search algorithm often depends on the data structure being searched  searching also encompasses algorithms that query the data structure, such as the SQL SELECT command  they can be classified based on their mechanism of searching",
-      "url": "/computer-science/algorithms/search",
-      "fx": -1006.777579579542,
-      "fy": 717.928974107111,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "sorting  ️",
-      "note": "sorting algorithm is an algorithm that puts elements of a list in a certain order  most used orders are numerical order and lexicographical order  efficient sorting is important for optimising the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists  it is also often useful for canonicalising data and for producing human readable output",
-      "url": "/computer-science/algorithms/sorting",
-      "fx": -640.6445189216618,
-      "fy": 743.5553987803694,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "algorithms",
-      "target": "basics",
-      "curve": {
-        "x": -82.4522,
-        "y": 286.392
       }
-    },
-    {
-      "source": "help",
-      "target": "algorithms",
-      "curve": {
-        "x": -112.841,
-        "y": -118.319
-      }
-    },
-    {
-      "source": "basics",
-      "target": "analysis of algorithms",
-      "curve": {
-        "x": -71.7152,
-        "y": 173.994
-      }
-    },
-    {
-      "source": "basics",
-      "target": "algorithms on",
-      "curve": {
-        "x": -377.419,
-        "y": 137.016
-      }
-    },
-    {
-      "source": "basics",
-      "target": "algorithm design  ️",
-      "curve": {
-        "x": 66.445,
-        "y": 171.712
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "searching  ️",
-      "curve": {
-        "x": -286.61,
-        "y": 121.083
-      }
-    },
-    {
-      "source": "analysis of algorithms",
-      "target": "big O notation  ️",
-      "curve": {
-        "x": -3.25503,
-        "y": 56.3758
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "genetic  ️",
-      "curve": {
-        "x": -588.564,
-        "y": -16.281
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "sorting  ️",
-      "curve": {
-        "x": -12.5301,
-        "y": 136.535
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "evolutionary  ️",
-      "curve": {
-        "x": -115.172,
-        "y": 77.144
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -157.8,
-        "y": -152.204
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "graphs  ️",
-      "curve": {
-        "x": -357.75,
-        "y": 63.0224
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "matrix multiplication",
-      "curve": {
-        "x": -503.491,
-        "y": 49.9326
-      }
-    },
-    {
-      "source": "algorithms on",
-      "target": "domain reduction",
-      "curve": {
-        "x": -735.405,
-        "y": -22.7288
-      }
-    },
-    {
-      "source": "basics",
-      "target": "procedural generation  ️",
-      "curve": {
-        "x": -192.405,
-        "y": 157.391
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -31.0923,
-        "y": -79.8066
-      }
-    }
-  ],
-  "id": 283
+    ],
+    "author": ""
+  }
 }

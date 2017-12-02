@@ -1,129 +1,135 @@
 {
   "title": "learn anything - computer hardware - arduino",
   "tag": "",
-  "nodes": [
-    {
-      "text": "arduino",
-      "url": "http://www.wikiwand.com/en/Arduino",
-      "fx": -56.764645171404595,
-      "fy": -305.93890369518766,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/arduino/",
-          "fx": 138.2353548285954,
-          "fy": -331.93890369518766,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://arduino.stackexchange.com/",
-          "fx": 138.2353548285954,
-          "fy": -291.93890369518766,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/arduino/Arduino",
-          "fx": 138.2353548285954,
-          "fy": -251.93890369518766,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 55.75554412928989,
-      "fy": -164.68772468418223,
-      "nodes": [
-        {
-          "text": "arduino language reference",
-          "url": "https://www.arduino.cc/en/Reference/HomePage",
-          "fx": 192.7555441292899,
-          "fy": -190.18772468418223,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "awesome arduino",
-          "url": "https://github.com/Lembed/Awesome-arduino",
-          "fx": 192.7555441292899,
-          "fy": -156.18772468418223,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "arduino forum",
-          "url": "https://forum.arduino.cc/",
-          "fx": 192.7555441292899,
-          "fy": -116.18772468418223,
-          "nodes": [],
-          "category": "chat",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -82.79073017461292,
-      "fy": 15.164539152873317,
-      "nodes": [
-        {
-          "text": "1. the arduino platform and c programming",
-          "url": "https://www.coursera.org/learn/arduino-platform",
-          "fx": 99.20926982538708,
-          "fy": -18.335460847126683,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. getting started with Arduino",
-          "url": "https://learn.adafruit.com/lesson-0-getting-started",
-          "fx": 99.20926982538708,
-          "fy": 43.66453915287332,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. learn electronics using arduino",
-          "url": "http://www.ladyada.net/learn/arduino/",
-          "fx": 99.20926982538708,
-          "fy": 77.66453915287332,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "arduino",
-      "curve": {
-        "x": -41.7601,
-        "y": -69.3756
+  "id": 237,
+  "map": {
+    "text": "arduino",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.arduino.cc/en/Reference/HomePage",
+            "text": "arduino language reference",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/Lembed/Awesome-arduino",
+            "text": "awesome arduino",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://forum.arduino.cc/",
+            "text": "arduino forum",
+            "category": "chat",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/learn/arduino-platform",
+            "text": "1. the arduino platform and c programming",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://learn.adafruit.com/lesson-0-getting-started",
+            "text": "1. getting started with Arduino",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.ladyada.net/learn/arduino/",
+            "text": "1. learn electronics using arduino",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "arduino",
-      "target": "basics",
-      "curve": {
-        "x": -22.763,
-        "y": 159.302
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/arduino/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://arduino.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/arduino/Arduino",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Arduino",
+        "text": "arduino",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 237
+    ],
+    "author": ""
+  }
 }

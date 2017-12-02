@@ -1,51 +1,52 @@
 {
   "title": "learn anything - software - tooling - productivity - hyper",
   "tag": "hyper terminal",
-  "nodes": [
-    {
-      "text": "hyper",
-      "url": "https://github.com/zeit/hyper",
-      "fx": 10.7890625,
-      "fy": -121.59375,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/bnb/awesome-hyper",
-          "fx": 188.7890625,
-          "fy": -107.59375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "github"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 17.184951716736805,
-      "fy": 19.938170600845297,
-      "nodes": [
-        {
-          "text": "1. overview",
-          "url": "https://hyper.is/",
-          "fx": 173.1849517167368,
-          "fy": 34.4381706008453,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "hyper",
-      "target": "basics",
-      "curve": {
-        "x": -2.30206,
-        "y": 69.516
+  "id": 1810,
+  "map": {
+    "text": "hyper",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://hyper.is/",
+            "text": "1. overview",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1807
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/bnb/awesome-hyper",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/zeit/hyper",
+        "text": "hyper",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

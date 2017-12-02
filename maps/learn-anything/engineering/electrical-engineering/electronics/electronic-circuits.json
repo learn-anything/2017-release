@@ -1,155 +1,172 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic circuits",
   "tag": "",
-  "nodes": [
-    {
-      "text": "electronic circuits",
-      "url": "http://www.wikiwand.com/en/Electronic_circuit",
-      "fx": 140.55478395061732,
-      "fy": -453.09312307098764,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 198.98817940505296,
-      "fy": -334.8391042952447,
-      "nodes": [
-        {
-          "text": "1. understanding circuits",
-          "url": "https://www.youtube.com/watch?v=mZK5ju-x_Fs",
-          "fx": 354.98817940505296,
-          "fy": -323.3391042952447,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 528,
+  "map": {
+    "text": "electronic circuits",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "network analysis",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Network_analysis_(electrical_circuits)",
+                "text": "network analysis",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "integrated circuit",
+            "nodes": [
+              {
+                "text": "electronic design automation",
+                "nodes": [
+                  {
+                    "text": "hardware description languages  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages",
+                        "text": "hardware description languages  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Electronic_design_automation",
+                    "text": "electronic design automation",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "embedded systems  ️",
+                "note": "is a computer system with a dedicated function within a larger mechanical or electrical system, often with real-time computing constrains  it is embedded as part of a complete device often including hardware and mechanical parts",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/engineering/electrical-engineering/electronics/electronic-circuits/embedded-systems",
+                    "text": "embedded systems  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "field-programmable gate array  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/engineering/electrical-engineering/electronics/electronic-circuits/fpga",
+                    "text": "field-programmable gate array  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "very-large-scale integration",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Very-large-scale_integration",
+                    "text": "very-large-scale integration",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Integrated_circuit",
+                "text": "integrated circuit",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=mZK5ju-x_Fs",
+            "text": "1. understanding circuits",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Electronic_circuit",
+        "text": "electronic circuits",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "network analysis",
-      "url": "http://www.wikiwand.com/en/Network_analysis_(electrical_circuits)",
-      "fx": 382.8275619088761,
-      "fy": -210.3807953913049,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "integrated circuit",
-      "url": "http://www.wikiwand.com/en/Integrated_circuit",
-      "fx": 87.26441250710809,
-      "fy": -200.73593042318726,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "embedded systems  ️",
-      "note": "is a computer system with a dedicated function within a larger mechanical or electrical system, often with real-time computing constrains  it is embedded as part of a complete device often including hardware and mechanical parts",
-      "url": "/engineering/electrical-engineering/electronics/electronic-circuits/embedded-systems",
-      "fx": 384.84571858456275,
-      "fy": -55.63936233520508,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "very-large-scale integration",
-      "url": "http://www.wikiwand.com/en/Very-large-scale_integration",
-      "fx": -402.40618915881146,
-      "fy": -48.25113949533238,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "field-programmable gate array  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-circuits/fpga",
-      "fx": -70.01820515822726,
-      "fy": -45.32412724007247,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "electronic design automation",
-      "url": "http://www.wikiwand.com/en/Electronic_design_automation",
-      "fx": 255.344999868944,
-      "fy": 42.64686760697509,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "hardware description languages  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-circuits/hardware-description-languages",
-      "fx": 239.13301112288218,
-      "fy": 159.90132856638428,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "integrated circuit",
-      "target": "electronic design automation",
-      "curve": {
-        "x": 113.435,
-        "y": 109.748
       }
-    },
-    {
-      "source": "integrated circuit",
-      "target": "embedded systems  ️",
-      "curve": {
-        "x": 162.541,
-        "y": 72.5483
-      }
-    },
-    {
-      "source": "electronic design automation",
-      "target": "hardware description languages  ️",
-      "curve": {
-        "x": -0.105994,
-        "y": 58.6272
-      }
-    },
-    {
-      "source": "integrated circuit",
-      "target": "field-programmable gate array  ️",
-      "curve": {
-        "x": -53.8913,
-        "y": 83.9559
-      }
-    },
-    {
-      "source": "integrated circuit",
-      "target": "very-large-scale integration",
-      "curve": {
-        "x": -247.606,
-        "y": 69.1847
-      }
-    },
-    {
-      "source": "electronic circuits",
-      "target": "basics",
-      "curve": {
-        "x": -2.5333,
-        "y": 57.877
-      }
-    },
-    {
-      "source": "basics",
-      "target": "network analysis",
-      "curve": {
-        "x": 122.17,
-        "y": 63.4792
-      }
-    },
-    {
-      "source": "basics",
-      "target": "integrated circuit",
-      "curve": {
-        "x": -25.6119,
-        "y": 68.3016
-      }
-    }
-  ],
-  "id": 528
+    ],
+    "author": ""
+  }
 }

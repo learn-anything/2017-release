@@ -1,49 +1,51 @@
 {
   "title": "learn anything - economics - personal finance - passive income",
   "tag": "",
-  "nodes": [
-    {
-      "text": "passive income",
-      "url": "http://www.wikiwand.com/en/Passive_income",
-      "fx": -211.52734375,
-      "fy": -100.25,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -75.984375,
-      "fy": 28.10546875,
-      "nodes": [
-        {
-          "text": "ask HN: what was your best passive income in 2016?",
-          "url": "https://news.ycombinator.com/item?id=13150144",
-          "fx": 61.015625,
-          "fy": 3.60546875,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "best passive income method for a solo developer?",
-          "url": "https://news.ycombinator.com/item?id=12318449",
-          "fx": 61.015625,
-          "fy": 59.60546875,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "passive income",
-      "curve": {
-        "x": -35.2715,
-        "y": -62.9277
+  "id": 501,
+  "map": {
+    "text": "passive income",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://news.ycombinator.com/item?id=13150144",
+            "text": "ask HN: what was your best passive income in 2016?",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=12318449",
+            "text": "best passive income method for a solo developer?",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 501
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Passive_income",
+        "text": "passive income",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - organisms - cells - cell membranes - membrane potential",
   "tag": "",
-  "nodes": [
-    {
-      "text": "membrane potential",
-      "url": "http://www.wikiwand.com/en/Membrane_potential",
-      "fx": -53.59375,
-      "fy": -195.28515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 14.421875,
-      "fy": -60.21875,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=PtKAeihnbv0",
-          "fx": 170.421875,
-          "fy": -68.71875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. action! potential!",
-          "url": "https://www.youtube.com/watch?v=OZG8M_ldA1M",
-          "fx": 170.421875,
-          "fy": -28.71875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "membrane potential",
-      "target": "basics",
-      "curve": {
-        "x": -3.99219,
-        "y": 66.2832
+  "id": 111,
+  "map": {
+    "text": "membrane potential",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=PtKAeihnbv0",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OZG8M_ldA1M",
+            "text": "1. action! potential!",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 111
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Membrane_potential",
+        "text": "membrane potential",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

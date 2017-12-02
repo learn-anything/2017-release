@@ -1,70 +1,75 @@
 {
   "title": "learn anything - art - illustration - concept art",
   "tag": "",
-  "nodes": [
-    {
-      "text": "concept art",
-      "url": "http://www.wikiwand.com/en/Concept_art",
-      "fx": 63.13556561346877,
-      "fy": -221.39375288284134,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/conceptart/",
-          "fx": 308.13556561346877,
-          "fy": -228.39375288284134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "learn concept art",
-          "url": "https://www.reddit.com/r/LearnConceptArt/",
-          "fx": 308.13556561346877,
-          "fy": -186.39375288284134,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 96.91115083025977,
-      "fy": -53.02980857932977,
-      "nodes": [
-        {
-          "text": "1. so you want to be a concept artist?",
-          "url": "https://www.youtube.com/watch?v=DzFBbNsKSgg",
-          "fx": 259.91115083025977,
-          "fy": -86.52980857932977,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. how to get started with concept art?",
-          "url": "https://www.quora.com/How-do-I-start-with-concept-art",
-          "fx": 259.91115083025977,
-          "fy": -19.529808579329767,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "concept art",
-      "target": "basics",
-      "curve": {
-        "x": -3.61221,
-        "y": 83.432
+  "id": 27,
+  "map": {
+    "text": "concept art",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DzFBbNsKSgg",
+            "text": "1. so you want to be a concept artist?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.quora.com/How-do-I-start-with-concept-art",
+            "text": "1. how to get started with concept art?",
+            "category": "quora",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 27
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/conceptart/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/LearnConceptArt/",
+        "text": "learn concept art",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Concept_art",
+        "text": "concept art",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

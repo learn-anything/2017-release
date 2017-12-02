@@ -1,52 +1,53 @@
 {
   "title": "learn anything - art - music - instruments - harmonica",
   "tag": "",
-  "nodes": [
-    {
-      "text": "harmonica",
-      "url": "http://www.wikiwand.com/en/Harmonica",
-      "fx": -75.78125,
-      "fy": -156.30078125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/harmonica/",
-          "fx": 146.21875,
-          "fy": -142.30078125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -27.89453125,
-      "nodes": [
-        {
-          "text": "1. harmonica lessons",
-          "url": "https://www.youtube.com/watch?v=ddM5RlWSJ4E",
-          "fx": 109.5,
-          "fy": -16.39453125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "harmonica",
-      "target": "basics",
-      "curve": {
-        "x": -1.85938,
-        "y": 62.9531
+  "id": 37,
+  "map": {
+    "text": "harmonica",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ddM5RlWSJ4E",
+            "text": "1. harmonica lessons",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 37
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/harmonica/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Harmonica",
+        "text": "harmonica",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,95 +1,93 @@
 {
   "title": "learn anything - game development - game engines - unity",
   "tag": "unity game engine",
-  "nodes": [
-    {
-      "text": "unity",
-      "url": "http://www.wikiwand.com/en/Unity_(game_engine)",
-      "fx": -51.58447460159368,
-      "fy": -466.2970461902391,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Unity3D/",
-          "fx": 124.41552539840632,
-          "fy": -473.2970461902391,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/RyanNielson/awesome-unity",
-          "fx": 124.41552539840632,
-          "fy": -431.2970461902391,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 54.88909985059763,
-      "fy": -325.4871451693227,
-      "nodes": [
-        {
-          "text": "productive VR Toolkit for rapidly building VR solutions in Unity3d",
-          "url": "https://github.com/thestonefox/VRTK",
-          "fx": 195.88909985059763,
-          "fy": -358.9871451693227,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "game dev tutorials",
-          "url": "https://www.youtube.com/user/Brackeys/videos",
-          "fx": 195.88909985059763,
-          "fy": -266.9871451693227,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -55.34950821713119,
-      "fy": -199.1445156872511,
-      "nodes": [
-        {
-          "text": "1. unity tutorials",
-          "url": "https://unity3d.com/learn/tutorials",
-          "fx": 133.6504917828688,
-          "fy": -184.1445156872511,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "unity",
-      "curve": {
-        "x": -44.9868,
-        "y": -69.1549
+  "id": 559,
+  "map": {
+    "text": "unity",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/thestonefox/VRTK",
+            "text": "productive VR Toolkit for rapidly building VR solutions in Unity3d",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/user/Brackeys/videos",
+            "text": "game dev tutorials",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://unity3d.com/learn/tutorials",
+            "text": "1. unity tutorials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "unity",
-      "target": "basics",
-      "curve": {
-        "x": -5.38251,
-        "y": 132.326
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Unity3D/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/RyanNielson/awesome-unity",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Unity_(game_engine)",
+        "text": "unity",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 559
+    ],
+    "author": ""
+  }
 }

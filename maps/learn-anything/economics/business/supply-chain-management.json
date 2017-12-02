@@ -1,43 +1,43 @@
 {
   "title": "learn anything - economics - business - supply chain management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "supply chain management",
-      "url": "http://www.wikiwand.com/en/Supply_chain_management",
-      "fx": -100.4609375,
-      "fy": -185.484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -0.6171875,
-      "fy": -55.95703125,
-      "nodes": [
-        {
-          "text": "1. supply chain management: a learning perspective",
-          "url": "https://www.coursera.org/learn/supply-chain-management",
-          "fx": 181.3828125,
-          "fy": -55.45703125,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "supply chain management",
-      "target": "basics",
-      "curve": {
-        "x": -2.32812,
-        "y": 63.5137
+  "id": 471,
+  "map": {
+    "text": "supply chain management",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/learn/supply-chain-management",
+            "text": "1. supply chain management: a learning perspective",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 471
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Supply_chain_management",
+        "text": "supply chain management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,112 +1,127 @@
 {
   "title": "learn anything - biology - organisms - immune system",
   "tag": "",
-  "nodes": [
-    {
-      "text": "immune system",
-      "url": "http://www.wikiwand.com/en/Immune_system",
-      "fx": 130.92185974121094,
-      "fy": -294.17980575561523,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 175.73969822303673,
-      "fy": -88.79228753532755,
-      "nodes": [
-        {
-          "text": "1. immunology overview",
-          "url": "https://www.youtube.com/watch?v=LSYED-7riNY",
-          "fx": 331.7396982230367,
-          "fy": -208.29228753532755,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. immune system: part I",
-          "url": "https://www.youtube.com/watch?v=GIJK3dwCWCw",
-          "fx": 331.7396982230367,
-          "fy": -168.29228753532755,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. immune system: part II",
-          "url": "https://www.youtube.com/watch?v=2DFN4IBZ3rI",
-          "fx": 331.7396982230367,
-          "fy": -128.29228753532755,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "3.immune system: part III",
-          "url": "https://www.youtube.com/watch?v=rd2cf5hValM",
-          "fx": 331.7396982230367,
-          "fy": -88.29228753532755,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "3. immunology: adaptive immune system",
-          "url": "https://www.youtube.com/watch?v=U1FyrtDZ3aE",
-          "fx": 331.7396982230367,
-          "fy": -48.292287535327546,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "3. immunology: innate immunity",
-          "url": "https://www.youtube.com/watch?v=2-57bqFSJ1E",
-          "fx": 331.7396982230367,
-          "fy": 13.707712464672454,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "3. immune cells",
-          "url": "https://www.youtube.com/watch?v=4cpzrcp5M7Q",
-          "fx": 331.7396982230367,
-          "fy": 53.707712464672454,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 121,
+  "map": {
+    "text": "immune system",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "inflammation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/immune-system/inflammation",
+                "text": "inflammation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=LSYED-7riNY",
+            "text": "1. immunology overview",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GIJK3dwCWCw",
+            "text": "1. immune system: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2DFN4IBZ3rI",
+            "text": "2. immune system: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=rd2cf5hValM",
+            "text": "3.immune system: part III",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U1FyrtDZ3aE",
+            "text": "3. immunology: adaptive immune system",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2-57bqFSJ1E",
+            "text": "3. immunology: innate immunity",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4cpzrcp5M7Q",
+            "text": "3. immune cells",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Immune_system",
+        "text": "immune system",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "inflammation  ️",
-      "url": "/biology/organisms/immune-system/inflammation",
-      "fx": -33.911995144150865,
-      "fy": 90.03982217347516,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "immune system",
-      "target": "basics",
-      "curve": {
-        "x": -6.09107,
-        "y": 101.444
       }
-    },
-    {
-      "source": "basics",
-      "target": "inflammation  ️",
-      "curve": {
-        "x": -90.5759,
-        "y": 89.416
-      }
-    }
-  ],
-  "id": 121
+    ],
+    "author": ""
+  }
 }

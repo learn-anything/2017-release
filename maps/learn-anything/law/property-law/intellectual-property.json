@@ -1,51 +1,53 @@
 {
   "title": "learn anything - law - property law - intellectual property",
   "tag": "",
-  "nodes": [
-    {
-      "text": "intellectual property",
-      "url": "http://www.wikiwand.com/en/Intellectual_property",
-      "fx": 49.806549072265625,
-      "fy": -197.01171851158142,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 118.09260132908821,
-      "fy": -32.20703077316284,
-      "nodes": [
-        {
-          "text": "1. introduction to intellectual property",
-          "url": "https://www.youtube.com/watch?v=RQOJgEA5e1k",
-          "fx": 274.0926013290882,
-          "fy": -51.70703077316284,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1.WIPO academy",
-          "url": "http://www.wipo.int/academy/en/courses/distance_learning/",
-          "fx": 274.0926013290882,
-          "fy": 10.292969226837158,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "intellectual property",
-      "target": "basics",
-      "curve": {
-        "x": -2.60697,
-        "y": 81.1524
+  "id": 676,
+  "map": {
+    "text": "intellectual property",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=RQOJgEA5e1k",
+            "text": "1. introduction to intellectual property",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.wipo.int/academy/en/courses/distance_learning/",
+            "text": "1.WIPO academy",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 676
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Intellectual_property",
+        "text": "intellectual property",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

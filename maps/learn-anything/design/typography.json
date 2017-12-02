@@ -1,118 +1,119 @@
 {
   "title": "learn anything - design - typography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "typography",
-      "url": "http://www.wikiwand.com/en/Typography",
-      "fx": -146.12701982623867,
-      "fy": -225.90328320406434,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/deanhume/typography",
-          "fx": 53.872980173761334,
-          "fy": -214.40328320406434,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 441,
+  "map": {
+    "text": "typography",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "typefaces  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/typography/typeface",
+                "text": "typefaces  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "kerning  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/typography/kerning",
+                "text": "kerning  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://practicaltypography.com/",
+            "text": "1. practical typography",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/69736.Thinking_with_Type",
+            "text": "2. thinking with type",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YM2Nj691PMo",
+            "text": "17: good typography, better apps",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/deanhume/typography",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 8.80502530451463,
-      "fy": -110.44386262321319,
-      "nodes": [
-        {
-          "text": "17: good typography, better apps",
-          "url": "https://www.youtube.com/watch?v=YM2Nj691PMo",
-          "fx": 148.80502530451463,
-          "fy": -109.94386262321319,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Typography",
+        "text": "typography",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -175.94645071648927,
-      "fy": -5.940462843164255,
-      "nodes": [
-        {
-          "text": "1. practical typography",
-          "url": "http://practicaltypography.com/",
-          "fx": 6.053549283510733,
-          "fy": -14.440462843164255,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "2. thinking with type",
-          "url": "https://www.goodreads.com/book/show/69736.Thinking_with_Type",
-          "fx": 6.053549283510733,
-          "fy": 25.559537156835745,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "typefaces  ️",
-      "url": "/design/typography/typeface",
-      "fx": -113.21399379911873,
-      "fy": 118.61344031682097,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "kerning  ️",
-      "url": "/design/typography/kerning",
-      "fx": -256.4772652116402,
-      "fy": 120.65500992063494,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "typography",
-      "target": "basics",
-      "curve": {
-        "x": -25.9098,
-        "y": 109.981
       }
-    },
-    {
-      "source": "basics",
-      "target": "typefaces  ️",
-      "curve": {
-        "x": 55.7928,
-        "y": 57.3125
-      }
-    },
-    {
-      "source": "basics",
-      "target": "kerning  ️",
-      "curve": {
-        "x": -44.5154,
-        "y": 63.2977
-      }
-    },
-    {
-      "source": "talks",
-      "target": "typography",
-      "curve": {
-        "x": -62.466,
-        "y": -57.7297
-      }
-    }
-  ],
-  "id": 441
+    ],
+    "author": ""
+  }
 }

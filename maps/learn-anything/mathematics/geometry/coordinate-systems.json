@@ -1,74 +1,79 @@
 {
   "title": "learn anything - mathematics - geometry - coordinate systems",
   "tag": "",
-  "nodes": [
-    {
-      "text": "coordinate systems",
-      "url": "http://www.wikiwand.com/en/Coordinate_system",
-      "fx": 254.30757615546224,
-      "fy": -162.2214417016807,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 329.10523897059545,
-      "fy": -1.450498949560199,
-      "nodes": [
-        {
-          "text": "1. three dimensional coordinate systems",
-          "url": "https://www.youtube.com/watch?v=vZNtoloJbEI",
-          "fx": 491.10523897059545,
-          "fy": -1.450498949560199,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 941,
+  "map": {
+    "text": "coordinate systems",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "dimensions  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/mathematics/geometry/coordinate-systems/dimensions",
+                "text": "dimensions  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "polar coordinate system  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/mathematics/geometry/coordinate-systems/polar-coordinate-system",
+                "text": "polar coordinate system  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=vZNtoloJbEI",
+            "text": "1. three dimensional coordinate systems",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Coordinate_system",
+        "text": "coordinate systems",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "dimensions  ️",
-      "url": "/mathematics/geometry/coordinate-systems/dimensions",
-      "fx": 156.48482131958008,
-      "fy": 128.57953071594238,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "polar coordinate system  ️",
-      "url": "/mathematics/geometry/coordinate-systems/polar-coordinate-system",
-      "fx": 348.62729512790065,
-      "fy": 128.87478573312222,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "coordinate systems",
-      "target": "basics",
-      "curve": {
-        "x": -2.85117,
-        "y": 79.6355
       }
-    },
-    {
-      "source": "basics",
-      "target": "dimensions  ️",
-      "curve": {
-        "x": -74.0602,
-        "y": 65.015
-      }
-    },
-    {
-      "source": "basics",
-      "target": "polar coordinate system  ️",
-      "curve": {
-        "x": 53.261,
-        "y": 65.1626
-      }
-    }
-  ],
-  "id": 938
+    ],
+    "author": ""
+  }
 }

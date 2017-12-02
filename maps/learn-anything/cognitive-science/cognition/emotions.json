@@ -1,107 +1,116 @@
 {
   "title": "learn anything - cognitive science - cognition - emotions",
   "tag": "",
-  "nodes": [
-    {
-      "text": "emotions",
-      "url": "http://www.wikiwand.com/en/Emotion",
-      "fx": -132.20012517265184,
-      "fy": -212.49216591850825,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "i",
-      "url": "",
-      "fx": -115.61959551122573,
-      "fy": -95.88623687318125,
-      "nodes": [
-        {
-          "text": "1. feeling all the feels",
-          "url": "https://www.youtube.com/watch?v=gAMbkJk6gnE",
-          "fx": 73.38040448877427,
-          "fy": -83.38623687318125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 186,
+  "map": {
+    "text": "emotions",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "i",
+        "nodes": [
+          {
+            "text": "happiness  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/happiness",
+                "text": "happiness  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "love  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/love",
+                "text": "love  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "empathy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/empathy",
+                "text": "empathy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "fear  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/emotions/fear",
+                "text": "fear  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=gAMbkJk6gnE",
+            "text": "1. feeling all the feels",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Emotion",
+        "text": "emotions",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "fear  ️",
-      "url": "/cognitive-science/cognition/emotions/fear",
-      "fx": -338.8381549099123,
-      "fy": 34.88544934842605,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "happiness  ️",
-      "url": "/cognitive-science/cognition/emotions/happiness",
-      "fx": -220.56316757202148,
-      "fy": 37.811036109924316,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "love  ️",
-      "url": "/cognitive-science/cognition/emotions/love",
-      "fx": -39.430813789367676,
-      "fy": 39.427523612976074,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "empathy  ️",
-      "url": "/cognitive-science/cognition/emotions/empathy",
-      "fx": 84.1446533203125,
-      "fy": 43.835449218750114,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "emotions",
-      "target": "basics",
-      "curve": {
-        "x": -5.45974,
-        "y": 57.053
       }
-    },
-    {
-      "source": "basics",
-      "target": "happiness  ️",
-      "curve": {
-        "x": -53.2215,
-        "y": 66.8487
-      }
-    },
-    {
-      "source": "basics",
-      "target": "love  ️",
-      "curve": {
-        "x": 33.5944,
-        "y": 68.9069
-      }
-    },
-    {
-      "source": "basics",
-      "target": "empathy  ️",
-      "curve": {
-        "x": 98.6321,
-        "y": 69.8608
-      }
-    },
-    {
-      "source": "basics",
-      "target": "fear  ️",
-      "curve": {
-        "x": -142.214,
-        "y": 45.9416
-      }
-    }
-  ],
-  "id": 186
+    ],
+    "author": ""
+  }
 }

@@ -1,78 +1,72 @@
 {
   "title": "learn anything - biology - genetics - genetic engineering - crispr",
   "tag": "CRISPR",
-  "nodes": [
-    {
-      "text": "CRISPR",
-      "url": "http://www.wikiwand.com/en/CRISPR",
-      "fx": -65.7890625,
-      "fy": -102.03970462328766,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/CRISPR/",
-          "fx": 135.2109375,
-          "fy": -88.03970462328766,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 42.21055825242706,
-      "fy": 9.9375,
-      "nodes": [
-        {
-          "text": "16: everything you should know about CRISPR - and where to learn more  ️",
-          "url": "https://medium.com/startup-grind/a-primer-on-crispr-and-how-to-learn-more-c1b4ca7159f6",
-          "fx": 204.21055825242706,
-          "fy": -0.5625,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -46.00628697868899,
-      "fy": 120.00870869454667,
-      "nodes": [
-        {
-          "text": "1. genetic engineering will change everything forever",
-          "url": "https://www.youtube.com/watch?v=jAhjPd4uNFY",
-          "fx": 135.993713021311,
-          "fy": 120.50870869454667,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "CRISPR",
-      "target": "basics",
-      "curve": {
-        "x": -1.35861,
-        "y": 109.774
+  "id": 99,
+  "map": {
+    "text": "CRISPR",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jAhjPd4uNFY",
+            "text": "1. genetic engineering will change everything forever",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/startup-grind/a-primer-on-crispr-and-how-to-learn-more-c1b4ca7159f6",
+            "text": "16: everything you should know about CRISPR - and where to learn more  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "CRISPR",
-      "curve": {
-        "x": -44.2498,
-        "y": -54.7386
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/CRISPR/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/CRISPR",
+        "text": "CRISPR",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 99
+    ],
+    "author": ""
+  }
 }

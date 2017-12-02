@@ -1,61 +1,65 @@
 {
   "title": "learn anything - environmental science - renewable energy - nuclear power",
   "tag": "",
-  "nodes": [
-    {
-      "text": "nuclear power",
-      "url": "http://www.wikiwand.com/en/Nuclear_power",
-      "fx": -89.51171875,
-      "fy": -229.6953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -47.75235010162601,
-      "fy": -67.41536458333331,
-      "nodes": [
-        {
-          "text": "1. nuclear energy explained: how does it work?",
-          "url": "https://www.youtube.com/watch?v=rcOFV4y5z8c",
-          "fx": 134.247649898374,
-          "fy": -128.91536458333331,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. 3 Reasons Why Nuclear Energy Is Terrible!",
-          "url": "https://www.youtube.com/watch?v=HEYbgyL5n1g",
-          "fx": 134.247649898374,
-          "fy": -66.91536458333331,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "3. 3 Reasons Why Nuclear Energy Is Awesome!",
-          "url": "https://www.youtube.com/watch?v=pVbLlnmxIbY",
-          "fx": 134.247649898374,
-          "fy": -4.915364583333314,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "nuclear power",
-      "target": "basics",
-      "curve": {
-        "x": -4.12032,
-        "y": 79.89
+  "id": 550,
+  "map": {
+    "text": "nuclear power",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=rcOFV4y5z8c",
+            "text": "1. nuclear energy explained: how does it work?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HEYbgyL5n1g",
+            "text": "2. 3 Reasons Why Nuclear Energy Is Terrible!",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=pVbLlnmxIbY",
+            "text": "3. 3 Reasons Why Nuclear Energy Is Awesome!",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 550
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Nuclear_power",
+        "text": "nuclear power",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

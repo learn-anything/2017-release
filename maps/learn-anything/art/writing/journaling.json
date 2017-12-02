@@ -1,42 +1,42 @@
 {
   "title": "learn anything - art - writing - journaling",
   "tag": "",
-  "nodes": [
-    {
-      "text": "journaling",
-      "url": "http://www.wikiwand.com/en/Diary",
-      "fx": 8.710784313725412,
-      "fy": -232.00191482843138,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 127.23621323529085,
-      "fy": -88.15441176467687,
-      "nodes": [
-        {
-          "text": "16: day evaluations  ️",
-          "url": "https://medium.com/@NikitaVoloboev/day-evaluations-5706f31c9c5e",
-          "fx": 296.23621323529085,
-          "fy": -75.65441176467687,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "journaling",
-      "curve": {
-        "x": -45.5127,
-        "y": -71.1738
+  "id": 65,
+  "map": {
+    "text": "journaling",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/@NikitaVoloboev/day-evaluations-5706f31c9c5e",
+            "text": "16: day evaluations  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 65
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Diary",
+        "text": "journaling",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

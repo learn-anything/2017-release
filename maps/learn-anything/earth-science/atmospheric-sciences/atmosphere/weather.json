@@ -1,58 +1,61 @@
 {
   "title": "learn anything - earth science - atmospheric sciences - atmosphere - weather",
   "tag": "",
-  "nodes": [
-    {
-      "text": "weather",
-      "url": "http://www.wikiwand.com/en/Weather",
-      "fx": 77.3828125,
-      "fy": -230.984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 100.90441786504425,
-      "fy": -118.60221930309734,
-      "nodes": [
-        {
-          "text": "1 weather vs climate",
-          "url": "https://www.youtube.com/watch?v=YbAWny7FV3w",
-          "fx": 256.90441786504425,
-          "fy": -107.10221930309734,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 452,
+  "map": {
+    "text": "weather",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "climate  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/earth-science/atmospheric-sciences/atmosphere/weather/climate",
+                "text": "climate  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YbAWny7FV3w",
+            "text": "1 weather vs climate",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Weather",
+        "text": "weather",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "climate  ️",
-      "url": "/earth-science/atmospheric-sciences/atmosphere/weather/climate",
-      "fx": -26.01852876106193,
-      "fy": 6.063053097303282,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "weather",
-      "target": "basics",
-      "curve": {
-        "x": 0.760803,
-        "y": 54.9411
       }
-    },
-    {
-      "source": "basics",
-      "target": "climate  ️",
-      "curve": {
-        "x": -61.7115,
-        "y": 62.3326
-      }
-    }
-  ],
-  "id": 452
+    ],
+    "author": ""
+  }
 }

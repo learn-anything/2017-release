@@ -1,131 +1,135 @@
 {
   "title": "learn anything - chemistry - biochemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "biochemistry",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Biochemistry",
-      "fx": 74.765625,
-      "fy": -387.1875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 265.6381527350409,
-      "fy": -282.26381070848913,
-      "nodes": [
-        {
-          "text": "pathway maps",
-          "url": "http://www.genome.jp/kegg/pathway.html#global",
-          "fx": 402.6381527350409,
-          "fy": -267.76381070848913,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 141,
+  "map": {
+    "text": "biochemistry",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "chemical compounds",
+            "nodes": [
+              {
+                "text": "organic compounds",
+                "nodes": [
+                  {
+                    "text": "amino acids",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/Amino_acid",
+                        "text": "amino acids",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Organic_compound",
+                    "text": "organic compounds",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Chemical_compound",
+                "text": "chemical compounds",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "molecular biology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/biochemistry/molecular-biology",
+                "text": "molecular biology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/545351.Lippincott_s_Illustrated_Reviews",
+            "text": "1. lippincott's illustrated reviews: biochemistry",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.genome.jp/kegg/pathway.html#global",
+            "text": "pathway maps",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Biochemistry",
+        "text": "biochemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 122.05859825292885,
-      "fy": -192.14043298418977,
-      "nodes": [
-        {
-          "text": "1. lippincott's illustrated reviews: biochemistry",
-          "url": "https://www.goodreads.com/book/show/545351.Lippincott_s_Illustrated_Reviews",
-          "fx": 278.05859825292885,
-          "fy": -191.64043298418977,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "molecular biology  ️",
-      "url": "/chemistry/biochemistry/molecular-biology",
-      "fx": -117.91899237733242,
-      "fy": -64.28650133407166,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "chemical compounds",
-      "url": "http://www.wikiwand.com/en/Chemical_compound",
-      "fx": 140.5691220248019,
-      "fy": -56.03251801548117,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "organic compounds",
-      "url": "http://www.wikiwand.com/en/Organic_compound",
-      "fx": 162.45312656961187,
-      "fy": 61.015264978731636,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "amino acids",
-      "url": "http://www.wikiwand.com/en/Amino_acid",
-      "fx": 217.77024896334683,
-      "fy": 184.01367785617663,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "biochemistry",
-      "target": "basics",
-      "curve": {
-        "x": -4.35351,
-        "y": 96.2735
       }
-    },
-    {
-      "source": "chemical compounds",
-      "target": "organic compounds",
-      "curve": {
-        "x": 4.692,
-        "y": 58.5239
-      }
-    },
-    {
-      "source": "help",
-      "target": "biochemistry",
-      "curve": {
-        "x": -62.6863,
-        "y": -51.2118
-      }
-    },
-    {
-      "source": "organic compounds",
-      "target": "amino acids",
-      "curve": {
-        "x": 9.40856,
-        "y": 61.4992
-      }
-    },
-    {
-      "source": "basics",
-      "target": "chemical compounds",
-      "curve": {
-        "x": 50.7552,
-        "y": 69.304
-      }
-    },
-    {
-      "source": "basics",
-      "target": "molecular biology  ️",
-      "curve": {
-        "x": -87.7388,
-        "y": 65.177
-      }
-    }
-  ],
-  "id": 141
+    ],
+    "author": ""
+  }
 }

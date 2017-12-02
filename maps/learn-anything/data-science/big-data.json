@@ -1,95 +1,103 @@
 {
   "title": "learn anything - data science - big data",
   "tag": "",
-  "nodes": [
-    {
-      "text": "big data",
-      "url": "http://www.wikiwand.com/en/Big_data",
-      "fx": -35.28304541925468,
-      "fy": -161.7948126940994,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/bigdata/",
-          "fx": 165.71695458074532,
-          "fy": -167.7948126940994,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/onurakpolat/awesome-bigdata",
-          "fx": 165.71695458074532,
-          "fy": -127.79481269409939,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 378,
+  "map": {
+    "text": "big data",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "data mining",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Data_mining",
+                "text": "data mining",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "datasets  ️",
+            "note": "are collections of data  most common a data set corresponds to the contents of a single database table, or a single statical data matrix, where every column of the table represents a particular variable, and each row corresponds to a given member of the data set in question",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/big-data/datasets",
+                "text": "datasets  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.coursera.org/specializations/big-data",
+            "text": "1. unlock value in massive datasets",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/bigdata/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -53.93256759643555,
-      "fy": -10.04311466217041,
-      "nodes": [
-        {
-          "text": "1. unlock value in massive datasets",
-          "url": "https://www.coursera.org/specializations/big-data",
-          "fx": 128.06743240356445,
-          "fy": -9.54311466217041,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://github.com/onurakpolat/awesome-bigdata",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "datasets  ️",
-      "note": "are collections of data  most common a data set corresponds to the contents of a single database table, or a single statical data matrix, where every column of the table represents a particular variable, and each row corresponds to a given member of the data set in question",
-      "url": "/data-science/big-data/datasets",
-      "fx": 25.124780395426114,
-      "fy": 109.59096048202082,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "data mining",
-      "url": "http://www.wikiwand.com/en/Data_mining",
-      "fx": -196.16847229003906,
-      "fy": 144.13281154632568,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "big data",
-      "target": "basics",
-      "curve": {
-        "x": -20.5747,
-        "y": 74.6258
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Big_data",
+        "text": "big data",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "data mining",
-      "curve": {
-        "x": -51.8679,
-        "y": 78.3379
-      }
-    },
-    {
-      "source": "basics",
-      "target": "datasets  ️",
-      "curve": {
-        "x": 58.2786,
-        "y": 61.067
-      }
-    }
-  ],
-  "id": 378
+    ],
+    "author": ""
+  }
 }

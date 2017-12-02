@@ -1,77 +1,84 @@
 {
   "title": "learn anything - biology - human development - aging",
   "tag": "",
-  "nodes": [
-    {
-      "text": "aging",
-      "url": "http://www.wikiwand.com/en/Ageing",
-      "fx": 228.03242442810472,
-      "fy": -191.9200197440087,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 214.8071810925428,
-      "fy": -26.197250346510145,
-      "nodes": [
-        {
-          "text": "1. why do we age?",
-          "url": "https://www.youtube.com/watch?v=O3knOjhZAVI",
-          "fx": 396.8071810925428,
-          "fy": -65.69725034651015,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. why do animals have such different lifespans?",
-          "url": "https://www.youtube.com/watch?v=7m8QlSPP7t0",
-          "fx": 396.8071810925428,
-          "fy": -25.697250346510145,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. biological causes of aging  ️",
-          "url": "http://www.longlonglife.org/en/longevity/aging/biological-causes-aging/",
-          "fx": 396.8071810925428,
-          "fy": 36.302749653489855,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
+  "id": 103,
+  "map": {
+    "text": "aging",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "longevity  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/human-development/longevity",
+                "text": "longevity  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=O3knOjhZAVI",
+            "text": "1. why do we age?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7m8QlSPP7t0",
+            "text": "1. why do animals have such different lifespans?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.longlonglife.org/en/longevity/aging/biological-causes-aging/",
+            "text": "1. biological causes of aging  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Ageing",
+        "text": "aging",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "longevity  ️",
-      "url": "/biology/human-development/longevity",
-      "fx": 200.94253536388624,
-      "fy": 112.79974487523708,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "aging",
-      "target": "basics",
-      "curve": {
-        "x": -11.8627,
-        "y": 81.6114
       }
-    },
-    {
-      "source": "basics",
-      "target": "longevity  ️",
-      "curve": {
-        "x": -8.18233,
-        "y": 69.4985
-      }
-    }
-  ],
-  "id": 103
+    ],
+    "author": ""
+  }
 }

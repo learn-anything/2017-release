@@ -1,58 +1,61 @@
 {
   "title": "learn anything - biology - organisms - cells - metabolism - cellular respiration",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cellular respiration",
-      "url": "http://www.wikiwand.com/en/Cellular_respiration",
-      "fx": 187.9609375,
-      "fy": -227.62890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 253.31960414470257,
-      "fy": -89.90764920762416,
-      "nodes": [
-        {
-          "text": "1. ATP &amp; respiration",
-          "url": "https://www.youtube.com/watch?v=00jbG_cfGuQ",
-          "fx": 409.31960414470257,
-          "fy": -78.40764920762416,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 114,
+  "map": {
+    "text": "cellular respiration",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "anaerobic respiration  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/metabolism/cellular-respiration/anaerobic-respiration",
+                "text": "anaerobic respiration  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=00jbG_cfGuQ",
+            "text": "1. ATP &amp; respiration",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cellular_respiration",
+        "text": "cellular respiration",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "anaerobic respiration  ️",
-      "url": "/biology/organisms/cells/metabolism/cellular-respiration/anaerobic-respiration",
-      "fx": 98.76421869391606,
-      "fy": 33.07569936737593,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cellular respiration",
-      "target": "basics",
-      "curve": {
-        "x": -0.570665,
-        "y": 67.6106
       }
-    },
-    {
-      "source": "basics",
-      "target": "anaerobic respiration  ️",
-      "curve": {
-        "x": -44.5277,
-        "y": 61.4917
-      }
-    }
-  ],
-  "id": 114
+    ],
+    "author": ""
+  }
 }

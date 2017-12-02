@@ -1,61 +1,64 @@
 {
   "title": "learn anything - health - fitness - sports - climbing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "climbing",
-      "url": "http://www.wikiwand.com/en/Climbing",
-      "fx": -219.1796875,
-      "fy": -391.234375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/climbing/",
-          "fx": -6.1796875,
-          "fy": -377.234375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -210.55600320879682,
-      "fy": -222.29852282949713,
-      "nodes": [
-        {
-          "text": "1. beginner’s guide",
-          "url": "https://www.reddit.com/r/climbing/wiki/beginnersguide",
-          "fx": -47.556003208796824,
-          "fy": -243.29852282949713,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. learn to train: improve your climbing technique  ️",
-          "url": "https://www.climbing.com/skills/learn-to-train-improve-your-technique/",
-          "fx": -47.556003208796824,
-          "fy": -201.29852282949713,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "climbing",
-      "target": "basics",
-      "curve": {
-        "x": -8.18816,
-        "y": 83.7179
+  "id": 583,
+  "map": {
+    "text": "climbing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/climbing/wiki/beginnersguide",
+            "text": "1. beginner’s guide",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.climbing.com/skills/learn-to-train-improve-your-technique/",
+            "text": "1. learn to train: improve your climbing technique  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 583
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/climbing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Climbing",
+        "text": "climbing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

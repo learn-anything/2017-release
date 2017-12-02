@@ -1,153 +1,160 @@
 {
   "title": "learn anything - entrepreneurship",
   "tag": "",
-  "nodes": [
-    {
-      "text": "entrepreneurship",
-      "url": "http://www.wikiwand.com/en/Entrepreneurship",
-      "fx": -141.8834640185038,
-      "fy": -632.5599110921224,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Entrepreneur/",
-          "fx": 137.1165359814962,
-          "fy": -618.5599110921224,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 548,
+  "map": {
+    "text": "entrepreneurship",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "startups  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/entrepreneurship/startups",
+                "text": "startups  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "success  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/entrepreneurship/success",
+                "text": "success  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "innovation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/entrepreneurship/innovation",
+                "text": "innovation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.startupschool.org/",
+            "text": "1. startup school lectures",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://leanpub.com/how_to_start_a_startup",
+            "text": "1. how to start a startup",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2",
+            "text": "1. khan academy entrepreneurship",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/KrishMunot/awesome-startup",
+            "text": "resources to build your own startup",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.paulgraham.com/articles.html",
+            "text": "Paul Graham’s essays  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Entrepreneur/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 12.734167588495552,
-      "fy": -535.608337942478,
-      "nodes": [
-        {
-          "text": "resources to build your own startup",
-          "url": "https://github.com/KrishMunot/awesome-startup",
-          "fx": 149.73416758849555,
-          "fy": -555.108337942478,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "Paul Graham’s essays  ️",
-          "url": "http://www.paulgraham.com/articles.html",
-          "fx": 149.73416758849555,
-          "fy": -493.108337942478,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Entrepreneurship",
+        "text": "entrepreneurship",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -100.21757079129111,
-      "fy": -391.70195089499305,
-      "nodes": [
-        {
-          "text": "1. startup school lectures",
-          "url": "https://www.startupschool.org/",
-          "fx": 81.78242920870889,
-          "fy": -420.20195089499305,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how to start a startup",
-          "url": "https://leanpub.com/how_to_start_a_startup",
-          "fx": 81.78242920870889,
-          "fy": -380.20195089499305,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. khan academy entrepreneurship",
-          "url": "https://www.khanacademy.org/economics-finance-domain/entrepreneurship2",
-          "fx": 81.78242920870889,
-          "fy": -340.20195089499305,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "success  ️",
-      "url": "/entrepreneurship/success",
-      "fx": 1.56004354794527,
-      "fy": -238.69966744237797,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "startups  ️",
-      "url": "/entrepreneurship/startups",
-      "fx": -152.75366592407227,
-      "fy": -237.30482482910156,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "innovation  ️",
-      "url": "/entrepreneurship/innovation",
-      "fx": -319.8857330607476,
-      "fy": -236.0249707943924,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "entrepreneurship",
-      "target": "basics",
-      "curve": {
-        "x": 1.58294,
-        "y": 120.428
       }
-    },
-    {
-      "source": "help",
-      "target": "entrepreneurship",
-      "curve": {
-        "x": -46.0588,
-        "y": -48.4758
-      }
-    },
-    {
-      "source": "basics",
-      "target": "startups  ️",
-      "curve": {
-        "x": -21.5181,
-        "y": 78.4485
-      }
-    },
-    {
-      "source": "basics",
-      "target": "success  ️",
-      "curve": {
-        "x": 48.6388,
-        "y": 76.5011
-      }
-    },
-    {
-      "source": "basics",
-      "target": "innovation  ️",
-      "curve": {
-        "x": -107.834,
-        "y": 77.8385
-      }
-    }
-  ],
-  "id": 548
+    ],
+    "author": ""
+  }
 }

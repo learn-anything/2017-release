@@ -1,77 +1,71 @@
 {
   "title": "learn anything - art - music - instruments - ukulele",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ukulele",
-      "url": "http://www.wikiwand.com/en/Ukulele",
-      "fx": -86.1484375,
-      "fy": -171.3671875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ukulele/",
-          "fx": 103.8515625,
-          "fy": -157.3671875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 51.00928443092664,
-      "fy": -50.09914108618318,
-      "nodes": [
-        {
-          "text": "10: how to learn 1/3 of the ukulele fingerboard in minutes  ️",
-          "url": "http://oneukulele.blogspot.nl/2010/05/how-to-learn-13-of-ukulele-fingerboard.html",
-          "fx": 213.00928443092664,
-          "fy": -49.59914108618318,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -73.56950136612033,
-      "fy": 62.52217810792354,
-      "nodes": [
-        {
-          "text": "1. learn to play ukulele",
-          "url": "http://willgrovewhite.com/learning-to-play-the-ukulele-lesson-one/",
-          "fx": 108.43049863387967,
-          "fy": 77.02217810792354,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "ukulele",
-      "target": "basics",
-      "curve": {
-        "x": -2.21053,
-        "y": 115.695
+  "id": 41,
+  "map": {
+    "text": "ukulele",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://willgrovewhite.com/learning-to-play-the-ukulele-lesson-one/",
+            "text": "1. learn to play ukulele",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://oneukulele.blogspot.nl/2010/05/how-to-learn-13-of-ukulele-fingerboard.html",
+            "text": "10: how to learn 1/3 of the ukulele fingerboard in minutes  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "articles",
-      "target": "ukulele",
-      "curve": {
-        "x": -61.5789,
-        "y": -59.384
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ukulele/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ukulele",
+        "text": "ukulele",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 41
+    ],
+    "author": ""
+  }
 }

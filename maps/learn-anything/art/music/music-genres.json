@@ -1,90 +1,97 @@
 {
   "title": "learn anything - art - music - music genres",
   "tag": "",
-  "nodes": [
-    {
-      "text": "music genres",
-      "url": "http://www.wikiwand.com/en/Music_genre",
-      "fx": -103.46875,
-      "fy": -128.1015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -82.91353665865392,
-      "fy": 20.12770432690951,
-      "nodes": [
-        {
-          "text": "1. music genres list",
-          "url": "http://www.musicgenreslist.com/",
-          "fx": 99.08646334134608,
-          "fy": 34.62770432690951,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 46,
+  "map": {
+    "text": "music genres",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "jazz  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-genres/jazz",
+                "text": "jazz  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "classical  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-genres/classical",
+                "text": "classical  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "blues  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-genres/blues",
+                "text": "blues  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.musicgenreslist.com/",
+            "text": "1. music genres list",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Music_genre",
+        "text": "music genres",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "jazz  ️",
-      "url": "/art/music/music-genres/jazz",
-      "fx": -203.60737708502677,
-      "fy": 154.61864899330317,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "classical  ️",
-      "url": "/art/music/music-genres/classical",
-      "fx": -82.94005373386153,
-      "fy": 155.10946669600935,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "blues  ️",
-      "url": "/art/music/music-genres/blues",
-      "fx": 76.67829123866011,
-      "fy": 157.20703497299587,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "music genres",
-      "target": "basics",
-      "curve": {
-        "x": -10.2224,
-        "y": 72.8646
       }
-    },
-    {
-      "source": "basics",
-      "target": "jazz  ️",
-      "curve": {
-        "x": -66.0969,
-        "y": 67.2455
-      }
-    },
-    {
-      "source": "basics",
-      "target": "classical  ️",
-      "curve": {
-        "x": -2.01323,
-        "y": 67.4909
-      }
-    },
-    {
-      "source": "basics",
-      "target": "blues  ️",
-      "curve": {
-        "x": 78.2959,
-        "y": 69.7897
-      }
-    }
-  ],
-  "id": 46
+    ],
+    "author": ""
+  }
 }

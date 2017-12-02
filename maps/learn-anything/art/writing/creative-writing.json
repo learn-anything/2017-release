@@ -1,61 +1,64 @@
 {
   "title": "learn anything - art - writing - creative writing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "creative writing",
-      "url": "http://www.wikiwand.com/en/Creative_writing",
-      "fx": -91.04517983490553,
-      "fy": -139.35225039308176,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/creativewriting/",
-          "fx": 170.95482016509447,
-          "fy": -145.35225039308176,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "writing prompts",
-          "url": "https://www.reddit.com/r/WritingPrompts/",
-          "fx": 170.95482016509447,
-          "fy": -105.35225039308176,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -45,
-      "fy": -6.564661949685615,
-      "nodes": [
-        {
-          "text": "1. Brandon Sanderson on writing",
-          "url": "https://www.youtube.com/watch?v=N4ZDBOc2tX8&amp;feature=youtu.be&amp;list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL",
-          "fx": 111,
-          "fy": 4.935338050314385,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "creative writing",
-      "target": "basics",
-      "curve": {
-        "x": -3.47741,
-        "y": 65.1438
+  "id": 64,
+  "map": {
+    "text": "creative writing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=N4ZDBOc2tX8&amp;feature=youtu.be&amp;list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL",
+            "text": "1. Brandon Sanderson on writing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 64
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/creativewriting/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://www.reddit.com/r/WritingPrompts/",
+        "text": "writing prompts",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Creative_writing",
+        "text": "creative writing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - organisms - plants - photosynthesis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "photosynthesis",
-      "url": "http://www.wikiwand.com/en/Photosynthesis",
-      "fx": 93.99885948905103,
-      "fy": -70.43530451642334,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 139.6970802919708,
-      "fy": 81.75912408755477,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=g78utcLQrJ4",
-          "fx": 295.6970802919708,
-          "fy": 93.25912408755477,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "photosynthesis",
-      "target": "basics",
-      "curve": {
-        "x": -4.15089,
-        "y": 74.8472
+  "id": 123,
+  "map": {
+    "text": "photosynthesis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=g78utcLQrJ4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 123
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Photosynthesis",
+        "text": "photosynthesis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

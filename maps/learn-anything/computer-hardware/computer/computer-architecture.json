@@ -1,59 +1,71 @@
 {
   "title": "learn anything - computer hardware - computer - computer architecture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer architecture",
-      "url": "http://www.wikiwand.com/en/Computer_architecture",
-      "fx": 6.404815051020364,
-      "fy": -94.92522321428572,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/comparch/",
-          "fx": 354.40481505102036,
-          "fy": -80.92522321428572,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 240,
+  "map": {
+    "text": "computer architecture",
+    "nodes": [
+      {
+        "text": "von Neumann architecture",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Von_Neumann_architecture",
+            "text": "von Neumann architecture",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "multithreading  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-hardware/computer/computer-architecture/multithreading",
+            "text": "multithreading  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/comparch/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "von Neumann architecture",
-      "url": "http://www.wikiwand.com/en/Von_Neumann_architecture",
-      "fx": 55.69132399610646,
-      "fy": 72.28129423562314,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "multithreading  ️",
-      "url": "/computer-hardware/computer/computer-architecture/multithreading",
-      "fx": -173.2658227848102,
-      "fy": 72.78481012658239,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer architecture",
-      "target": "von Neumann architecture",
-      "curve": {
-        "x": 55.1432,
-        "y": 83.6033
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Computer_architecture",
+        "text": "computer architecture",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "computer architecture",
-      "target": "multithreading  ️",
-      "curve": {
-        "x": -117.585,
-        "y": 83.105
-      }
-    }
-  ],
-  "id": 240
+    ],
+    "author": ""
+  }
 }

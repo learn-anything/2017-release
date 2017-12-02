@@ -1,58 +1,61 @@
 {
   "title": "learn anything - neuroscience - nervous system - synapses",
   "tag": "",
-  "nodes": [
-    {
-      "text": "synapses",
-      "url": "http://www.wikiwand.com/en/Synapse",
-      "fx": -64.27734375,
-      "fy": -127.24609375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=VitFvNvRIIY",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1273,
+  "map": {
+    "text": "synapses",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "synaptogenesis",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Synaptogenesis",
+                "text": "synaptogenesis",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=VitFvNvRIIY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Synapse",
+        "text": "synapses",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "synaptogenesis",
-      "url": "http://www.wikiwand.com/en/Synaptogenesis",
-      "fx": -194.13917508187762,
-      "fy": 139.8279885371179,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "synapses",
-      "target": "basics",
-      "curve": {
-        "x": -5.11133,
-        "y": 61.373
       }
-    },
-    {
-      "source": "basics",
-      "target": "synaptogenesis",
-      "curve": {
-        "x": -45.8196,
-        "y": 72.164
-      }
-    }
-  ],
-  "id": 1270
+    ],
+    "author": ""
+  }
 }

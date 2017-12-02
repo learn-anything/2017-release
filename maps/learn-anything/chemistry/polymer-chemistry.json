@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - polymer chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "polymer chemistry",
-      "url": "http://www.wikiwand.com/en/Polymer_chemistry",
-      "fx": 193.6015625,
-      "fy": -272.93359375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 257.0658039647575,
-      "fy": -127.85896200449139,
-      "nodes": [
-        {
-          "text": "1. polymers explained",
-          "url": "https://www.youtube.com/watch?v=rHxxLYzJ8Sw&amp;t=165s",
-          "fx": 413.0658039647575,
-          "fy": -116.35896200449139,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "polymer chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -2.51788,
-        "y": 71.2873
+  "id": 178,
+  "map": {
+    "text": "polymer chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=rHxxLYzJ8Sw&amp;t=165s",
+            "text": "1. polymers explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 178
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Polymer_chemistry",
+        "text": "polymer chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

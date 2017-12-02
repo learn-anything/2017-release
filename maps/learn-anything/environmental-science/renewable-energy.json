@@ -1,155 +1,170 @@
 {
   "title": "learn anything - environmental science - renewable energy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "renewable energy",
-      "url": "http://www.wikiwand.com/en/Renewable_energy",
-      "fx": 33.71484375,
-      "fy": -108.8203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": 81.41503307211474,
-      "fy": -2.390947640450804,
-      "nodes": [
-        {
-          "text": "1. sustainable energy - without the hot air",
-          "url": "http://www.withouthotair.com/c1/page_2.shtml",
-          "fx": 263.41503307211474,
-          "fy": -1.890947640450804,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 553,
+  "map": {
+    "text": "renewable energy",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [
+          {
+            "text": "solar energy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/environmental-science/renewable-energy/solar-energy",
+                "text": "solar energy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "tidal power",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Tidal_power",
+                "text": "tidal power",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "geothermal energy",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Geothermal_energy",
+                "text": "geothermal energy",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "biomass",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Biomass",
+                "text": "biomass",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "biofuel",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Biofuel",
+                "text": "biofuel",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "nuclear power  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/environmental-science/renewable-energy/nuclear-power",
+                "text": "nuclear power  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "wind power",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Wind_power",
+                "text": "wind power",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.withouthotair.com/c1/page_2.shtml",
+            "text": "1. sustainable energy - without the hot air",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Renewable_energy",
+        "text": "renewable energy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "solar energy  ️",
-      "url": "/environmental-science/renewable-energy/solar-energy",
-      "fx": -487.48188266188004,
-      "fy": 203.44088015337786,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "wind power",
-      "url": "http://www.wikiwand.com/en/Wind_power",
-      "fx": -297.35297641188004,
-      "fy": 205.49068484087786,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "tidal power",
-      "url": "http://www.wikiwand.com/en/Tidal_power",
-      "fx": -112.40364301269278,
-      "fy": 207.02731289285452,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "geothermal energy",
-      "url": "http://www.wikiwand.com/en/Geothermal_energy",
-      "fx": 71.13257714072893,
-      "fy": 208.67697235965295,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "biofuel",
-      "url": "http://www.wikiwand.com/en/Biofuel",
-      "fx": 314.5572408732761,
-      "fy": 212.3943217732509,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "nuclear power  ️",
-      "url": "/environmental-science/renewable-energy/nuclear-power",
-      "fx": 604.0161719056327,
-      "fy": 214.38716847255262,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "biomass",
-      "url": "http://www.wikiwand.com/en/Biomass",
-      "fx": 448.6543935832374,
-      "fy": 214.59629378100237,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "basics",
-      "target": "solar energy  ️",
-      "curve": {
-        "x": -270.698,
-        "y": 104.166
       }
-    },
-    {
-      "source": "renewable energy",
-      "target": "basics",
-      "curve": {
-        "x": -4.14987,
-        "y": 53.2148
-      }
-    },
-    {
-      "source": "basics",
-      "target": "tidal power",
-      "curve": {
-        "x": -85.6594,
-        "y": 105.959
-      }
-    },
-    {
-      "source": "basics",
-      "target": "geothermal energy",
-      "curve": {
-        "x": 23.3588,
-        "y": 106.784
-      }
-    },
-    {
-      "source": "basics",
-      "target": "biomass",
-      "curve": {
-        "x": 189.12,
-        "y": 109.743
-      }
-    },
-    {
-      "source": "basics",
-      "target": "biofuel",
-      "curve": {
-        "x": 117.572,
-        "y": 108.642
-      }
-    },
-    {
-      "source": "basics",
-      "target": "nuclear power  ️",
-      "curve": {
-        "x": 276.316,
-        "y": 118.333
-      }
-    },
-    {
-      "source": "basics",
-      "target": "wind power",
-      "curve": {
-        "x": -176.633,
-        "y": 105.191
-      }
-    }
-  ],
-  "id": 553
+    ],
+    "author": ""
+  }
 }

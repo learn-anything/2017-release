@@ -1,77 +1,71 @@
 {
   "title": "learn anything - health - fitness - sports - golf",
   "tag": "",
-  "nodes": [
-    {
-      "text": "golf",
-      "url": "http://www.wikiwand.com/en/Golf",
-      "fx": -86.26953125,
-      "fy": -221.046875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/golf/",
-          "fx": 73.73046875,
-          "fy": -207.046875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 9.796875,
-      "fy": -107.3359375,
-      "nodes": [
-        {
-          "text": "glossary of golf",
-          "url": "http://www.wikiwand.com/en/Glossary_of_golf",
-          "fx": 146.796875,
-          "fy": -95.8359375,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -95.28750000000002,
-      "fy": 11.509375000000034,
-      "nodes": [
-        {
-          "text": "1. beginner’s guide to golf",
-          "url": "https://www.reddit.com/r/golf/comments/1j6iwu/my_beginners_guide_to_golf_includes_lots_of/",
-          "fx": 60.71249999999998,
-          "fy": 23.009375000000034,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "golf",
-      "curve": {
-        "x": -42.2832,
-        "y": -55.6055
+  "id": 586,
+  "map": {
+    "text": "golf",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Glossary_of_golf",
+            "text": "glossary of golf",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/golf/comments/1j6iwu/my_beginners_guide_to_golf_includes_lots_of/",
+            "text": "1. beginner’s guide to golf",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "golf",
-      "target": "basics",
-      "curve": {
-        "x": -5.50898,
-        "y": 115.028
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/golf/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Golf",
+        "text": "golf",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 586
+    ],
+    "author": ""
+  }
 }

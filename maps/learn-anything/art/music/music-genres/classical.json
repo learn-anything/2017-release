@@ -1,53 +1,54 @@
 {
   "title": "learn anything - art - music - music genres - classical",
   "tag": "classical music",
-  "nodes": [
-    {
-      "text": "classical music",
-      "url": "http://www.wikiwand.com/en/Classical_music",
-      "fx": -147.35033700980387,
-      "fy": -95.29549632352939,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/classicalmusic/",
-          "fx": 114.64966299019613,
-          "fy": -81.29549632352939,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -98.26018688725469,
-      "fy": 40.895986519607675,
-      "nodes": [
-        {
-          "text": "1. the rest is noise: listening to the twentieth century",
-          "url": "http://www.goodreads.com/book/show/392563.The_Rest_Is_Noise",
-          "fx": 83.73981311274531,
-          "fy": 41.395986519607675,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "classical music",
-      "target": "basics",
-      "curve": {
-        "x": -1.95492,
-        "y": 66.8457
+  "id": 44,
+  "map": {
+    "text": "classical music",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/392563.The_Rest_Is_Noise",
+            "text": "1. the rest is noise: listening to the twentieth century",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 44
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/classicalmusic/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Classical_music",
+        "text": "classical music",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

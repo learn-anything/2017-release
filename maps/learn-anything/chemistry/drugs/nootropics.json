@@ -1,62 +1,53 @@
 {
   "title": "learn anything - chemistry - drugs - nootropics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "nootropics",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Nootropic",
-      "fx": -79.99999904632568,
-      "fy": 59.95164489746094,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Nootropics/",
-          "fx": 169.00000095367432,
-          "fy": 73.95164489746094,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/Nootropics/wiki/index",
-              "fx": 279.0000009536743,
-              "fy": 73.95164489746094,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 153,
+  "map": {
+    "text": "nootropics",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://examine.com/supplements/nootropic/",
+            "text": "examine",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 22.48180083525324,
-      "fy": 170.37191450321177,
-      "nodes": [
-        {
-          "text": "examine",
-          "url": "https://examine.com/supplements/nootropic/",
-          "fx": 159.48180083525324,
-          "fy": 184.87191450321177,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "nootropics",
-      "curve": {
-        "x": -29.7409,
-        "y": -53.9601
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 153
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Nootropics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Nootropic",
+        "text": "nootropics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

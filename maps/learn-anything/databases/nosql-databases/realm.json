@@ -1,41 +1,41 @@
 {
   "title": "learn anything - databases - nosql databases - realm",
   "tag": "realm database",
-  "nodes": [
-    {
-      "text": "realm",
-      "url": "http://www.wikiwand.com/en/Realm_(database)",
-      "fx": 42.29478034420288,
-      "fy": -325.818161231884,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 51.11277173913038,
-      "fy": -205.10801630434787,
-      "nodes": [
-        {
-          "text": "1. get started",
-          "url": "https://realm.io/docs/get-started/overview/",
-          "fx": 207.11277173913038,
-          "fy": -190.60801630434787,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "realm",
-      "target": "basics",
-      "curve": {
-        "x": -0.841004,
-        "y": 59.1051
+  "id": 409,
+  "map": {
+    "text": "realm",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://realm.io/docs/get-started/overview/",
+            "text": "1. get started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 409
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Realm_(database)",
+        "text": "realm",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

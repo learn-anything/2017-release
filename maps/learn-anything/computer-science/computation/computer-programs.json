@@ -1,97 +1,116 @@
 {
   "title": "learn anything - computer science - computation - computer programs",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer programs",
-      "url": "http://www.wikiwand.com/en/Computer_program",
-      "fx": 123.87025963256315,
-      "fy": -100.73346151283806,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "processes",
-      "url": "http://www.wikiwand.com/en/Process_(computing)",
-      "fx": 30.312835629211236,
-      "fy": 38.0930121451255,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "control flow  ️",
-      "url": "/computer-science/computation/computer-programs/control-flow",
-      "fx": 228.63323645747323,
-      "fy": 40.59910634205045,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "subroutines  ️",
-      "url": "/computer-science/computation/computer-programs/subroutines",
-      "fx": 424.7928293561622,
-      "fy": 42.96953514746224,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "environment variables",
-      "url": "http://www.wikiwand.com/en/Environment_variable",
-      "fx": -117.0325520833336,
-      "fy": 169.21028645833337,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "call stack  ️",
-      "url": "/computer-science/computation/computer-programs/call-stack",
-      "fx": 433.3121693121693,
-      "fy": 184.6453373015873,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer programs",
-      "target": "processes",
-      "curve": {
-        "x": -74.7787,
-        "y": 68.6632
+  "id": 298,
+  "map": {
+    "text": "computer programs",
+    "nodes": [
+      {
+        "text": "processes",
+        "nodes": [
+          {
+            "text": "environment variables",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Environment_variable",
+                "text": "environment variables",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Process_(computing)",
+            "text": "processes",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "control flow  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/computer-science/computation/computer-programs/control-flow",
+            "text": "control flow  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "subroutines  ️",
+        "nodes": [
+          {
+            "text": "call stack  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/computation/computer-programs/call-stack",
+                "text": "call stack  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "/computer-science/computation/computer-programs/subroutines",
+            "text": "subroutines  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "processes",
-      "target": "environment variables",
-      "curve": {
-        "x": -46.1727,
-        "y": 65.5586
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_program",
+        "text": "computer programs",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "computer programs",
-      "target": "control flow  ️",
-      "curve": {
-        "x": 23.8815,
-        "y": 69.9163
-      }
-    },
-    {
-      "source": "computer programs",
-      "target": "subroutines  ️",
-      "curve": {
-        "x": 122.461,
-        "y": 71.1015
-      }
-    },
-    {
-      "source": "subroutines  ️",
-      "target": "call stack  ️",
-      "curve": {
-        "x": -9.49033,
-        "y": 70.0879
-      }
-    }
-  ],
-  "id": 298
+    ],
+    "author": ""
+  }
 }

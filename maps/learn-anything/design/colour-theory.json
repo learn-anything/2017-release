@@ -1,108 +1,98 @@
 {
   "title": "learn anything - design - colour theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "colour theory",
-      "url": "http://www.wikiwand.com/en/Color_theory",
-      "fx": -148.83984375,
-      "fy": -263.32421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -25.4921875,
-      "fy": -166.8671875,
-      "nodes": [
-        {
-          "text": "colour there for people who code",
-          "url": "https://tallys.github.io/color-theory/",
-          "fx": 111.5078125,
-          "fy": -152.3671875,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 27.41551971435547,
-      "fy": -64.9805793762207,
-      "nodes": [
-        {
-          "text": "colorful",
-          "note": "curated list of awesome resources to choose your next color scheme",
-          "url": "https://github.com/Siddharth11/Colorful",
-          "fx": 169.41551971435547,
-          "fy": -87.4805793762207,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "iGradients",
-          "url": "https://uigradients.com/#HoneyDew",
-          "fx": 169.41551971435547,
-          "fy": -47.4805793762207,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "colour hunt",
-          "url": "http://www.colorhunt.co/",
-          "fx": 169.41551971435547,
-          "fy": -13.480579376220703,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -111.3828125,
-      "fy": 29.41796875,
-      "nodes": [
-        {
-          "text": "1. colour theory basics",
-          "url": "https://www.thinkful.com/learn/color-theory-basics/",
-          "fx": 70.6171875,
-          "fy": 43.91796875,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -27.7039,
-        "y": -50.9433
+  "id": 419,
+  "map": {
+    "text": "colour theory",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/Siddharth11/Colorful",
+                "text": "colorful",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://uigradients.com/#HoneyDew",
+                "text": "iGradients",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.colorhunt.co/",
+                "text": "colour hunt",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://tallys.github.io/color-theory/",
+            "text": "colour there for people who code",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.thinkful.com/learn/color-theory-basics/",
+            "text": "1. colour theory basics",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "colour theory",
-      "curve": {
-        "x": -34.4238,
-        "y": -46.9785
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Color_theory",
+        "text": "colour theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "colour theory",
-      "target": "basics",
-      "curve": {
-        "x": -3.77148,
-        "y": 145.121
-      }
-    }
-  ],
-  "id": 419
+    ],
+    "author": ""
+  }
 }

@@ -1,87 +1,83 @@
 {
   "title": "learn anything - health - nutrition - food - cooking",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cooking",
-      "url": "http://www.wikiwand.com/en/Cooking",
-      "fx": -213.5390625,
-      "fy": -225.79003906249994,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Cooking/",
-          "fx": -14.5390625,
-          "fy": -231.79003906249994,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://cooking.stackexchange.com/",
-          "fx": -14.5390625,
-          "fy": -191.79003906249994,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -95.34309285305073,
-      "fy": -107.75112973708809,
-      "nodes": [
-        {
-          "text": "food wishes",
-          "url": "https://www.youtube.com/user/foodwishes/videos",
-          "fx": 41.656907146949266,
-          "fy": -96.25112973708809,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -205.96504061671078,
-      "fy": 17.33802143774858,
-      "nodes": [
-        {
-          "text": "1. the food lab: better home cooking through science",
-          "url": "http://www.goodreads.com/book/show/24861842-the-food-lab",
-          "fx": -23.96504061671078,
-          "fy": 17.83802143774858,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "cooking",
-      "curve": {
-        "x": -43.598,
-        "y": -57.7695
+  "id": 612,
+  "map": {
+    "text": "cooking",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/foodwishes/videos",
+            "text": "food wishes",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/24861842-the-food-lab",
+            "text": "1. the food lab: better home cooking through science",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "cooking",
-      "target": "basics",
-      "curve": {
-        "x": -6.96299,
-        "y": 120.314
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Cooking/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://cooking.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Cooking",
+        "text": "cooking",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 612
+    ],
+    "author": ""
+  }
 }

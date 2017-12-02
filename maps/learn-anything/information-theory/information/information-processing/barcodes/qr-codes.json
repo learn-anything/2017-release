@@ -1,67 +1,60 @@
 {
   "title": "learn anything - information theory - information - information processing - barcodes - qr codes",
   "tag": "QR codes",
-  "nodes": [
-    {
-      "text": "QR codes",
-      "url": "http://www.wikiwand.com/en/QR_code",
-      "fx": -133.6875,
-      "fy": -303.97265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 2.062984173114387,
-      "fy": -173.946698665619,
-      "nodes": [
-        {
-          "text": "15: all of wikipedia in one QR code",
-          "url": "https://www.youtube.com/watch?v=kH9S9jTfUIU",
-          "fx": 201.0629841731144,
-          "fy": -173.946698665619,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -110.97398669903089,
-      "fy": -45.08898390256445,
-      "nodes": [
-        {
-          "text": "1. how QR codes work",
-          "url": "https://www.quora.com/How-do-QR-codes-work",
-          "fx": 52.02601330096911,
-          "fy": -32.58898390256445,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "QR codes",
-      "curve": {
-        "x": -59.6252,
-        "y": -64.263
+  "id": 643,
+  "map": {
+    "text": "QR codes",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=kH9S9jTfUIU",
+            "text": "15: all of wikipedia in one QR code",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.quora.com/How-do-QR-codes-work",
+            "text": "1. how QR codes work",
+            "category": "quora",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "QR codes",
-      "target": "basics",
-      "curve": {
-        "x": -5.89324,
-        "y": 128.692
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/QR_code",
+        "text": "QR codes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 643
+    ],
+    "author": ""
+  }
 }

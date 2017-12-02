@@ -1,42 +1,42 @@
 {
   "title": "learn anything - artificial intelligence - ai planning",
   "tag": "AI planning",
-  "nodes": [
-    {
-      "text": "automated planning and scheduling",
-      "url": "http://www.wikiwand.com/en/Automated_planning_and_scheduling",
-      "fx": -141.96875,
-      "fy": -108.47265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -54.92578125,
-      "fy": 83.91796875,
-      "nodes": [
-        {
-          "text": "1. notes on planning  ️",
-          "url": "http://frnsys.com/ai_notes/artificial_intelligence/planning.html",
-          "fx": 101.07421875,
-          "fy": 95.41796875,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "automated planning and scheduling",
-      "target": "basics",
-      "curve": {
-        "x": 1.52148,
-        "y": 88.6953
+  "id": 68,
+  "map": {
+    "text": "automated planning and scheduling",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://frnsys.com/ai_notes/artificial_intelligence/planning.html",
+            "text": "1. notes on planning  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 68
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Automated_planning_and_scheduling",
+        "text": "automated planning and scheduling",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

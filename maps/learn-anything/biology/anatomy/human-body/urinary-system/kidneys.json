@@ -1,42 +1,42 @@
 {
   "title": "learn anything - biology - anatomy - human body - urinary system - kidneys",
   "tag": "",
-  "nodes": [
-    {
-      "text": "kidneys",
-      "url": "http://www.wikiwand.com/en/Kidney",
-      "fx": 122.9852066040039,
-      "fy": -69.85782241821289,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 129.42083740234375,
-      "fy": 58.9317626953125,
-      "nodes": [
-        {
-          "text": "1. kidney function and anatomy",
-          "url": "https://www.youtube.com/watch?v=ctGkLYuUCvU",
-          "fx": 292.42083740234375,
-          "fy": 71.4317626953125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "kidneys",
-      "target": "basics",
-      "curve": {
-        "x": -7.74703,
-        "y": 64.3948
+  "id": 83,
+  "map": {
+    "text": "kidneys",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ctGkLYuUCvU",
+            "text": "1. kidney function and anatomy",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 83
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kidney",
+        "text": "kidneys",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,77 +1,71 @@
 {
   "title": "learn anything - health - mindfulness - minimalism - simple living",
   "tag": "",
-  "nodes": [
-    {
-      "text": "simple living",
-      "url": "http://www.wikiwand.com/en/Simple_living",
-      "fx": 93.2578125,
-      "fy": -174.79296875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/simpleliving/",
-          "fx": 329.2578125,
-          "fy": -160.79296875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 260.5551344881353,
-      "fy": -70.16042036985613,
-      "nodes": [
-        {
-          "text": "books to read",
-          "url": "https://www.reddit.com/r/simpleliving/wiki/resources#wiki_books",
-          "fx": 397.5551344881353,
-          "fy": -58.660420369856126,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 129.06886275773286,
-      "fy": 33.318460051557,
-      "nodes": [
-        {
-          "text": "1. what is simple living",
-          "url": "https://www.reddit.com/r/simpleliving/wiki/resources#wiki_websites",
-          "fx": 285.06886275773286,
-          "fy": 44.818460051557,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "simple living",
-      "target": "basics",
-      "curve": {
-        "x": -2.09447,
-        "y": 102.806
+  "id": 607,
+  "map": {
+    "text": "simple living",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/simpleliving/wiki/resources#wiki_websites",
+            "text": "1. what is simple living",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/simpleliving/wiki/resources#wiki_books",
+            "text": "books to read",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "simple living",
-      "curve": {
-        "x": -58.8987,
-        "y": -51.0663
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/simpleliving/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Simple_living",
+        "text": "simple living",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 607
+    ],
+    "author": ""
+  }
 }

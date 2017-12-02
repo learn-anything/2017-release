@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer graphics - digital images - image processing - image kernels",
   "tag": "",
-  "nodes": [
-    {
-      "text": "image kernels",
-      "url": "http://www.wikiwand.com/en/Kernel_(image_processing)",
-      "fx": 23.38190460205078,
-      "fy": -135.12874031066895,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 66.0546875,
-      "fy": 6.6171875,
-      "nodes": [
-        {
-          "text": "1. kernels explained visually",
-          "url": "http://setosa.io/ev/image-kernels/",
-          "fx": 222.0546875,
-          "fy": 18.1171875,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "image kernels",
-      "target": "basics",
-      "curve": {
-        "x": -0.163609,
-        "y": 69.623
+  "id": 210,
+  "map": {
+    "text": "image kernels",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://setosa.io/ev/image-kernels/",
+            "text": "1. kernels explained visually",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 210
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kernel_(image_processing)",
+        "text": "image kernels",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

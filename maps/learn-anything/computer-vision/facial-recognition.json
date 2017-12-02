@@ -1,101 +1,100 @@
 {
   "title": "learn anything - computer vision - facial recognition",
   "tag": "",
-  "nodes": [
-    {
-      "text": "facial recognition",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Facial_recognition_system",
-      "fx": -48.578125,
-      "fy": -129.1875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 107.89033015108976,
-      "fy": -16.26790803148964,
-      "nodes": [
-        {
-          "text": "eigenfaces for recognition",
-          "url": "http://www.face-rec.org/algorithms/PCA/jcn.pdf",
-          "fx": 244.89033015108976,
-          "fy": -24.76790803148964,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "face recognition using eigenfaces",
-          "url": "http://www.cs.ucsb.edu/%7Emturk/Papers/mturk-CVPR91.pdf",
-          "fx": 244.89033015108976,
-          "fy": 15.23209196851036,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 201.18906990314986,
-      "fy": 90.94101431856183,
-      "nodes": [
-        {
-          "text": "17: indexing faces on Instagram  ️",
-          "url": "https://kndrck.co/indexing-faces-on-instagram.html",
-          "fx": 363.18906990314986,
-          "fy": 102.44101431856183,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "OpenFace",
-      "url": "https://cmusatyalab.github.io/openface/",
-      "fx": -176.5707459668364,
-      "fy": 168.9685059074959,
-      "nodes": [
-        {
-          "text": "usage",
-          "url": "https://cmusatyalab.github.io/openface/usage/",
-          "fx": 15.429254033163602,
-          "fy": 183.4685059074959,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "facial recognition",
-      "target": "OpenFace",
-      "curve": {
-        "x": -85.7463,
-        "y": 147.828
+  "id": 356,
+  "map": {
+    "text": "facial recognition",
+    "note": "",
+    "nodes": [
+      {
+        "text": "OpenFace",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://cmusatyalab.github.io/openface/usage/",
+            "text": "usage",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://cmusatyalab.github.io/openface/",
+            "text": "OpenFace",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://kndrck.co/indexing-faces-on-instagram.html",
+                "text": "17: indexing faces on Instagram  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.face-rec.org/algorithms/PCA/jcn.pdf",
+            "text": "eigenfaces for recognition",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.cs.ucsb.edu/%7Emturk/Papers/mturk-CVPR91.pdf",
+            "text": "face recognition using eigenfaces",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "facial recognition",
-      "curve": {
-        "x": -42.7343,
-        "y": -55.2098
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Facial_recognition_system",
+        "text": "facial recognition",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -52.8994,
-        "y": -53.6045
-      }
-    }
-  ],
-  "id": 356
+    ],
+    "author": ""
+  }
 }

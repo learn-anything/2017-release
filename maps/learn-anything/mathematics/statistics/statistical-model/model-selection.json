@@ -1,42 +1,42 @@
 {
   "title": "learn anything - mathematics - statistics - statistical model - model selection",
   "tag": "",
-  "nodes": [
-    {
-      "text": "model selection",
-      "url": "http://www.wikiwand.com/en/Model_selection",
-      "fx": -107.2109375,
-      "fy": -326.578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -52.3984375,
-      "fy": -200.07421875,
-      "nodes": [
-        {
-          "text": "1. notes on model selection  ️",
-          "url": "http://frnsys.com/ai_notes/machine_learning/model_selection.html",
-          "fx": 103.6015625,
-          "fy": -188.57421875,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "model selection",
-      "target": "basics",
-      "curve": {
-        "x": -0.84375,
-        "y": 62.002
+  "id": 1124,
+  "map": {
+    "text": "model selection",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://frnsys.com/ai_notes/machine_learning/model_selection.html",
+            "text": "1. notes on model selection  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1122
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Model_selection",
+        "text": "model selection",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

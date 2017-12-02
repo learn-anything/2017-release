@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - control theory - stochastic control",
   "tag": "",
-  "nodes": [
-    {
-      "text": "stochastic control",
-      "url": "http://www.wikiwand.com/en/Stochastic_control",
-      "fx": 75.67578125,
-      "fy": -103.01171875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 136.5,
-      "fy": 30,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=YB-80YD65SY",
-          "fx": 292.5,
-          "fy": 41.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "stochastic control",
-      "target": "basics",
-      "curve": {
-        "x": 4.91211,
-        "y": 66.5059
+  "id": 519,
+  "map": {
+    "text": "stochastic control",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=YB-80YD65SY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 519
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Stochastic_control",
+        "text": "stochastic control",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,78 +1,72 @@
 {
   "title": "learn anything - economics - basic income",
   "tag": "",
-  "nodes": [
-    {
-      "text": "basic income",
-      "url": "http://www.wikiwand.com/en/Basic_income",
-      "fx": -117.0234375,
-      "fy": -318.5722719869707,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/BasicIncome/",
-          "fx": 129.9765625,
-          "fy": -304.5722719869707,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "references",
-      "url": "",
-      "fx": 39.677135129295834,
-      "fy": -210.06299690881235,
-      "nodes": [
-        {
-          "text": "automation will force universal basic income",
-          "url": "https://www.youtube.com/watch?v=e6HPdNBicM8",
-          "fx": 231.67713512929583,
-          "fy": -209.56299690881235,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -76.4769442182411,
-      "fy": -78.02198697068394,
-      "nodes": [
-        {
-          "text": "1. basic income for all",
-          "url": "https://www.youtube.com/watch?v=7rL6gJkdlNU&amp;t=4s",
-          "fx": 105.5230557817589,
-          "fy": -66.52198697068394,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "references",
-      "target": "basic income",
-      "curve": {
-        "x": -64.6003,
-        "y": -53.0046
+  "id": 459,
+  "map": {
+    "text": "basic income",
+    "nodes": [
+      {
+        "text": "references",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=e6HPdNBicM8",
+            "text": "automation will force universal basic income",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=7rL6gJkdlNU&amp;t=4s",
+            "text": "1. basic income for all",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basic income",
-      "target": "basics",
-      "curve": {
-        "x": -2.47675,
-        "y": 119.025
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/BasicIncome/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Basic_income",
+        "text": "basic income",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 459
+    ],
+    "author": ""
+  }
 }

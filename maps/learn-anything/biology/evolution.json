@@ -1,85 +1,91 @@
 {
   "title": "learn anything - biology - evolution",
   "tag": "",
-  "nodes": [
-    {
-      "text": "evolution",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Evolution",
-      "fx": -69.30736528268551,
-      "fy": -383.7212483436396,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/evolution/",
-          "fx": 174.6926347173145,
-          "fy": -369.7212483436396,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 98,
+  "map": {
+    "text": "evolution",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "natural selection  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/evolution/natural-selection",
+                "text": "natural selection  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "sociobiology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/evolution/sociobiology",
+                "text": "sociobiology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hOfRN0KihOU",
+            "text": "1. how evolution works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/evolution/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -35.05506552419354,
-      "fy": -246.68706797235018,
-      "nodes": [
-        {
-          "text": "1. how evolution works",
-          "url": "https://www.youtube.com/watch?v=hOfRN0KihOU",
-          "fx": 127.94493447580646,
-          "fy": -234.18706797235018,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Evolution",
+        "text": "evolution",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "natural selection  ️",
-      "url": "/biology/evolution/natural-selection",
-      "fx": -237.24358367919922,
-      "fy": -114.0225887298584,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "sociobiology  ️",
-      "url": "/biology/evolution/sociobiology",
-      "fx": 4.210385101009592,
-      "fy": -111.51641414141409,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "evolution",
-      "target": "basics",
-      "curve": {
-        "x": -2.37385,
-        "y": 67.2671
       }
-    },
-    {
-      "source": "basics",
-      "target": "natural selection  ️",
-      "curve": {
-        "x": -78.8443,
-        "y": 66.3323
-      }
-    },
-    {
-      "source": "basics",
-      "target": "sociobiology  ️",
-      "curve": {
-        "x": 34.6327,
-        "y": 67.5853
-      }
-    }
-  ],
-  "id": 98
+    ],
+    "author": ""
+  }
 }

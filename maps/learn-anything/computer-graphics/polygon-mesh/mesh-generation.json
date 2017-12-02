@@ -1,75 +1,70 @@
 {
   "title": "learn anything - computer graphics - polygon mesh - mesh generation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mesh generation",
-      "url": "http://www.wikiwand.com/en/Mesh_generation",
-      "fx": -95.95062405643716,
-      "fy": -126.00188863147233,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 92.23777444124039,
-      "fy": 6.786275166646192,
-      "nodes": [
-        {
-          "text": "DistMesh",
-          "url": "http://persson.berkeley.edu/distmesh/",
-          "fx": 238.2377744412404,
-          "fy": 21.786275166646192,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -52.315873430231704,
-      "fy": 143.04011374376995,
-      "nodes": [
-        {
-          "text": "1. procedural landmass generation",
-          "url": "https://www.youtube.com/watch?v=4RpVBYW1r5M",
-          "fx": 110.6841265697683,
-          "fy": 122.04011374376995,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. procedural mesh tutorial",
-          "url": "https://www.youtube.com/watch?v=ucuOVL7c5Hw",
-          "fx": 110.6841265697683,
-          "fy": 189.04011374376995,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mesh generation",
-      "target": "basics",
-      "curve": {
-        "x": -11.4326,
-        "y": 133.771
+  "id": 224,
+  "map": {
+    "text": "mesh generation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=4RpVBYW1r5M",
+            "text": "1. procedural landmass generation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ucuOVL7c5Hw",
+            "text": "1. procedural mesh tutorial",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "tools",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://persson.berkeley.edu/distmesh/",
+            "text": "DistMesh",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "tools",
-      "target": "mesh generation",
-      "curve": {
-        "x": -56.5942,
-        "y": -65.6441
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mesh_generation",
+        "text": "mesh generation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 224
+    ],
+    "author": ""
+  }
 }

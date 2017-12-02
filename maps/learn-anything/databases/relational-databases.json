@@ -1,139 +1,152 @@
 {
   "title": "learn anything - databases - relational databases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "relational databases",
-      "url": "http://www.wikiwand.com/en/Relational_database",
-      "fx": -172.14802016015483,
-      "fy": -297.4438215097852,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -94.94187509743256,
-      "fy": -187.24183140266007,
-      "nodes": [
-        {
-          "text": "1. quick-start tutorial on relational database design  ️",
-          "url": "https://www.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html",
-          "fx": 87.05812490256744,
-          "fy": -186.74183140266007,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 415,
+  "map": {
+    "text": "relational databases",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "Oracle",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Oracle_Database",
+                "text": "Oracle",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "PostgreSQL  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/relational-databases/postgresql",
+                "text": "PostgreSQL  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "MariaDB  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/relational-databases/mariadb",
+                "text": "MariaDB  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "MySQL  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/databases/relational-databases/mysql",
+                "text": "MySQL  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "MSSQL",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Microsoft_SQL_Server",
+                "text": "MSSQL",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "rqlite",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/rqlite/rqlite",
+                "text": "rqlite",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html",
+            "text": "1. quick-start tutorial on relational database design  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Relational_database",
+        "text": "relational databases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "Oracle",
-      "url": "http://www.wikiwand.com/en/Oracle_Database",
-      "fx": -400.88014221191406,
-      "fy": -21.42274284362793,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "PostgreSQL  ️",
-      "url": "/databases/relational-databases/postgresql",
-      "fx": -266.78324127197266,
-      "fy": -20.60106658935547,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "MariaDB  ️",
-      "url": "/databases/relational-databases/mariadb",
-      "fx": -78.99925148277941,
-      "fy": -20.60091376722903,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "rqlite",
-      "url": "https://github.com/rqlite/rqlite",
-      "fx": -519.994140625,
-      "fy": -19.602288246154785,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "MySQL  ️",
-      "url": "/databases/relational-databases/mysql",
-      "fx": 78.27120590209961,
-      "fy": -17.228851318359375,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "MSSQL",
-      "url": "http://www.wikiwand.com/en/Microsoft_SQL_Server",
-      "fx": 220.4185447692871,
-      "fy": -15.189235210418701,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "relational databases",
-      "target": "basics",
-      "curve": {
-        "x": -5.64693,
-        "y": 53.851
       }
-    },
-    {
-      "source": "basics",
-      "target": "Oracle",
-      "curve": {
-        "x": -151.969,
-        "y": 84.1595
-      }
-    },
-    {
-      "source": "basics",
-      "target": "PostgreSQL  ️",
-      "curve": {
-        "x": -72.1707,
-        "y": 84.5704
-      }
-    },
-    {
-      "source": "basics",
-      "target": "MariaDB  ️",
-      "curve": {
-        "x": 13.7213,
-        "y": 84.5705
-      }
-    },
-    {
-      "source": "basics",
-      "target": "MySQL  ️",
-      "curve": {
-        "x": 89.6065,
-        "y": 86.2565
-      }
-    },
-    {
-      "source": "basics",
-      "target": "MSSQL",
-      "curve": {
-        "x": 161.68,
-        "y": 87.2763
-      }
-    },
-    {
-      "source": "basics",
-      "target": "rqlite",
-      "curve": {
-        "x": -243.378,
-        "y": 49.4174
-      }
-    }
-  ],
-  "id": 415
+    ],
+    "author": ""
+  }
 }

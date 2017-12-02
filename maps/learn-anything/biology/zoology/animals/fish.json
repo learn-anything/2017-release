@@ -1,67 +1,60 @@
 {
   "title": "learn anything - biology - zoology - animals - fish",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fish",
-      "url": "http://www.wikiwand.com/en/Fish",
-      "fx": -39.015625,
-      "fy": -172.1328125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 74.82391500904168,
-      "fy": -39.213176706570266,
-      "nodes": [
-        {
-          "text": "why can’t we breathe underwater",
-          "url": "https://www.youtube.com/watch?v=EyzWuLijj88",
-          "fx": 273.8239150090417,
-          "fy": -39.213176706570266,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -49.80412946428578,
-      "fy": 82.71428571428578,
-      "nodes": [
-        {
-          "text": "1. how do schools of fish swim in harmony",
-          "url": "https://www.youtube.com/watch?v=dkP8NUwB2io",
-          "fx": 113.19587053571422,
-          "fy": 82.71428571428578,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fish",
-      "target": "basics",
-      "curve": {
-        "x": -5.64425,
-        "y": 126.674
+  "id": 134,
+  "map": {
+    "text": "fish",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dkP8NUwB2io",
+            "text": "1. how do schools of fish swim in harmony",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=EyzWuLijj88",
+            "text": "why can’t we breathe underwater",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "fish",
-      "curve": {
-        "x": -65.6698,
-        "y": -65.7098
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Fish",
+        "text": "fish",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 134
+    ],
+    "author": ""
+  }
 }

@@ -1,179 +1,189 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - logic gates",
   "tag": "",
-  "nodes": [
-    {
-      "text": "logic gates",
-      "url": "http://www.wikiwand.com/en/Logic_gate",
-      "fx": 68.30548757530119,
-      "fy": -100.13803652108425,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 208.53619164156612,
-      "fy": 12.71547126004009,
-      "nodes": [
-        {
-          "text": "logic gates cheat sheet",
-          "url": "https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=amJ1cnJvdWdocy5vcmd8ZW5naW5lZXJpbmctZXhwbG9yYXRpb258Z3g6NmM2YzI3ZTEwODBhMGFkZA",
-          "fx": 345.5361916415661,
-          "fy": 27.21547126004009,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 533,
+  "map": {
+    "text": "logic gates",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=amJ1cnJvdWdocy5vcmd8ZW5naW5lZXJpbmctZXhwbG9yYXRpb258Z3g6NmM2YzI3ZTEwODBhMGFkZA",
+            "text": "logic gates cheat sheet",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "XOR  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/electrical-engineering/electronics/logic-gates/xor",
+                "text": "XOR  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "AND",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/AND_gate",
+                "text": "AND",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "OR",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/OR_gate",
+                "text": "OR",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "NOT",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Inverter_(logic_gate)",
+                "text": "NOT",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "NAND",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/NAND_gate",
+                "text": "NAND",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "NOR",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/NOR_gate",
+                "text": "NOR",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=UvI-AMAtrvE",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://silon.slaks.net/#gates",
+            "text": "1. interactive logic gates",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/",
+            "text": "1. basic logic gates and functions",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Logic_gate",
+        "text": "logic gates",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 74.1115358450727,
-      "fy": 113.65533085733568,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=UvI-AMAtrvE",
-          "fx": 230.1115358450727,
-          "fy": 88.15533085733568,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. interactive logic gates",
-          "url": "http://silon.slaks.net/#gates",
-          "fx": 230.1115358450727,
-          "fy": 128.15533085733568,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. basic logic gates and functions",
-          "url": "http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/",
-          "fx": 230.1115358450727,
-          "fy": 168.15533085733568,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "NOR",
-      "url": "http://www.wikiwand.com/en/NOR_gate",
-      "fx": -470.4208056834598,
-      "fy": 275.5062889355263,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "AND",
-      "url": "http://www.wikiwand.com/en/AND_gate",
-      "fx": -203.2803556346555,
-      "fy": 275.74713537357604,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "XOR  ️",
-      "url": "/engineering/electrical-engineering/electronics/logic-gates/xor",
-      "fx": -334.3978493534795,
-      "fy": 276.08388026197144,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "OR",
-      "url": "http://www.wikiwand.com/en/OR_gate",
-      "fx": -54.61421408582078,
-      "fy": 278.32060401119395,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "NOT",
-      "url": "http://www.wikiwand.com/en/Inverter_(logic_gate)",
-      "fx": 65.54483442163905,
-      "fy": 278.57013759328254,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "NAND",
-      "url": "http://www.wikiwand.com/en/NAND_gate",
-      "fx": 199.27352528089864,
-      "fy": 280.54222261235964,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "logic gates",
-      "curve": {
-        "x": -48.1154,
-        "y": -55.1768
       }
-    },
-    {
-      "source": "logic gates",
-      "target": "basics",
-      "curve": {
-        "x": -14.347,
-        "y": 105.647
-      }
-    },
-    {
-      "source": "basics",
-      "target": "XOR  ️",
-      "curve": {
-        "x": -207.052,
-        "y": 56.3627
-      }
-    },
-    {
-      "source": "basics",
-      "target": "AND",
-      "curve": {
-        "x": -135.196,
-        "y": 82.2959
-      }
-    },
-    {
-      "source": "basics",
-      "target": "OR",
-      "curve": {
-        "x": -71.3629,
-        "y": 82.3326
-      }
-    },
-    {
-      "source": "basics",
-      "target": "NOT",
-      "curve": {
-        "x": -1.03338,
-        "y": 83.7074
-      }
-    },
-    {
-      "source": "basics",
-      "target": "NAND",
-      "curve": {
-        "x": 69.831,
-        "y": 84.6934
-      }
-    },
-    {
-      "source": "basics",
-      "target": "NOR",
-      "curve": {
-        "x": -296.229,
-        "y": 45.4925
-      }
-    }
-  ],
-  "id": 533
+    ],
+    "author": ""
+  }
 }

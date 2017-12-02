@@ -1,75 +1,79 @@
 {
   "title": "learn anything - health - fitness - strength training",
   "tag": "",
-  "nodes": [
-    {
-      "text": "strength training",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Strength_training",
-      "fx": -8.8145161290322,
-      "fy": -246.08203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 171.34727822580635,
-      "fy": -112.45614919354853,
-      "nodes": [
-        {
-          "text": "12 tips of StrongLifts",
-          "url": "https://www.reddit.com/r/Fitness/comments/25fwnd/my_top_12_tips_for_stronglifts/",
-          "fx": 308.34727822580635,
-          "fy": -100.95614919354853,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 598,
+  "map": {
+    "text": "strength training",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/Fitness/comments/25fwnd/my_top_12_tips_for_stronglifts/",
+            "text": "12 tips of StrongLifts",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "bodyweight exercises  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/health/fitness/strength-training/bodyweight-exercises",
+            "text": "bodyweight exercises  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "lean gains  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/health/fitness/strength-training/lean-gains",
+            "text": "lean gains  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Strength_training",
+        "text": "strength training",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "lean gains  ️",
-      "url": "/health/fitness/strength-training/lean-gains",
-      "fx": -195.78591904881858,
-      "fy": -108.33008037518255,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "bodyweight exercises  ️",
-      "url": "/health/fitness/strength-training/bodyweight-exercises",
-      "fx": -69.53159615301308,
-      "fy": 6.2342088760866545,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "strength training",
-      "curve": {
-        "x": -56.0809,
-        "y": -65.5629
       }
-    },
-    {
-      "source": "strength training",
-      "target": "bodyweight exercises  ️",
-      "curve": {
-        "x": -20.6085,
-        "y": 126.158
-      }
-    },
-    {
-      "source": "strength training",
-      "target": "lean gains  ️",
-      "curve": {
-        "x": -114.486,
-        "y": 67.626
-      }
-    }
-  ],
-  "id": 598
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - art - drawing - sketching",
   "tag": "",
-  "nodes": [
-    {
-      "text": "sketching",
-      "url": "http://www.wikiwand.com/en/Sketch_(drawing)",
-      "fx": 39.94921875,
-      "fy": -74.2734375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/sketches/",
-          "fx": 253.94921875,
-          "fy": -60.2734375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 69.84610849056605,
-      "fy": 78.23614386801864,
-      "nodes": [
-        {
-          "text": "1. learn sketching basics",
-          "url": "https://www.youtube.com/watch?v=ewMksAbgdBI",
-          "fx": 225.84610849056605,
-          "fy": 89.73614386801864,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "sketching",
-      "target": "basics",
-      "curve": {
-        "x": 0.448445,
-        "y": 75.0048
+  "id": 19,
+  "map": {
+    "text": "sketching",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ewMksAbgdBI",
+            "text": "1. learn sketching basics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 19
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/sketches/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Sketch_(drawing)",
+        "text": "sketching",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

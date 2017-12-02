@@ -1,166 +1,170 @@
 {
   "title": "learn anything - entrepreneurship - success",
   "tag": "",
-  "nodes": [
-    {
-      "text": "success",
-      "url": "http://www.wikiwand.com/en/Social_status",
-      "fx": -175.7785485003226,
-      "fy": -105.05056280358707,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": -7.789576375422371,
-      "fy": 69.76146874691051,
-      "nodes": [
-        {
-          "text": "13 lessons I learned  ️",
-          "url": "https://brightreads.com/13-lessons-learned-e4f8ceb21e60",
-          "fx": 161.21042362457763,
-          "fy": -116.73853125308949,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "the best  ️",
-          "url": "https://dcurt.is/the-best",
-          "fx": 161.21042362457763,
-          "fy": -74.73853125308949,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "on connecting  ️",
-          "url": "https://medium.com/@dustinfarivar/on-connecting-6b748ade09a3",
-          "fx": 161.21042362457763,
-          "fy": -32.73853125308949,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "how to make wealth  ️",
-          "url": "http://paulgraham.com/wealth.html",
-          "fx": 161.21042362457763,
-          "fy": 9.26146874691051,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "why didn’t I do this sooner",
-          "url": "https://news.ycombinator.com/item?id=12186587",
-          "fx": 161.21042362457763,
-          "fy": 51.26146874691051,
-          "nodes": [],
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "8 things you should be doing before 8 A.M.  ️",
-          "url": "https://themission.co/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d",
-          "fx": 161.21042362457763,
-          "fy": 88.26146874691051,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "life is short  ️",
-          "url": "http://paulgraham.com/vb.html",
-          "fx": 161.21042362457763,
-          "fy": 155.2614687469105,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "the day I did something  ️",
-          "url": "http://www.frankwiles.com/posts/2015/day-i-did-something/",
-          "fx": 161.21042362457763,
-          "fy": 197.2614687469105,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "copy what you like  ️",
-          "url": "http://paulgraham.com/copy.html",
-          "fx": 161.21042362457763,
-          "fy": 239.2614687469105,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "the root of it all  ️",
-          "url": "https://medium.com/@NikitaVoloboev/the-root-of-it-all-9b6ab6a77e1d",
-          "fx": 161.21042362457763,
-          "fy": 281.2614687469105,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -327.12573099415215,
-      "fy": 409.8373538011698,
-      "nodes": [
-        {
-          "text": "1. how to win friends and influence people",
-          "url": "http://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People",
-          "fx": -138.12573099415215,
-          "fy": 376.3373538011698,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. difficult conversations: how to discuss what matters most",
-          "url": "https://www.goodreads.com/book/show/774088.Difficult_Conversations",
-          "fx": -138.12573099415215,
-          "fy": 443.3373538011698,
-          "nodes": [
-            {
-              "text": "summary",
-              "url": "http://www.fscanada.org/wp-content/uploads/2013/12/Difficult-Conversations-Summary.pdf",
-              "fx": 230.87426900584785,
-              "fy": 458.3373538011698,
-              "nodes": [],
-              "color": "rgba(0, 224, 161, 1.0)"
+  "id": 547,
+  "map": {
+    "text": "success",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://brightreads.com/13-lessons-learned-e4f8ceb21e60",
+            "text": "13 lessons I learned  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "non-free book",
-          "color": "rgba(0, 224, 161, 1.0)"
+          },
+          {
+            "url": "https://dcurt.is/the-best",
+            "text": "the best  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@dustinfarivar/on-connecting-6b748ade09a3",
+            "text": "on connecting  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://paulgraham.com/wealth.html",
+            "text": "how to make wealth  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=12186587",
+            "text": "why didn’t I do this sooner",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://themission.co/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d",
+            "text": "8 things you should be doing before 8 A.M.  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://paulgraham.com/vb.html",
+            "text": "life is short  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.frankwiles.com/posts/2015/day-i-did-something/",
+            "text": "the day I did something  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://paulgraham.com/copy.html",
+            "text": "copy what you like  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@NikitaVoloboev/the-root-of-it-all-9b6ab6a77e1d",
+            "text": "the root of it all  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People",
+            "text": "1. how to win friends and influence people",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/774088.Difficult_Conversations",
+            "text": "1. difficult conversations: how to discuss what matters most",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Social_status",
+        "text": "success",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "success",
-      "curve": {
-        "x": -67.7444,
-        "y": -86.1559
       }
-    },
-    {
-      "source": "success",
-      "target": "basics",
-      "curve": {
-        "x": -80.6736,
-        "y": 256.194
-      }
-    }
-  ],
-  "id": 547
+    ],
+    "author": ""
+  }
 }

@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - data structures - quadtree",
   "tag": "quadtree data structure",
-  "nodes": [
-    {
-      "text": "quadtree",
-      "url": "http://www.wikiwand.com/en/Quadtree",
-      "fx": -156.21484375,
-      "fy": -282.953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": -6.412629570976037,
-      "fy": -181.3098235994962,
-      "nodes": [
-        {
-          "text": "computer art based on quadtrees",
-          "url": "https://github.com/fogleman/Quads",
-          "fx": 184.58737042902396,
-          "fy": -169.8098235994962,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -137.18878321256034,
-      "fy": -65.54398777173913,
-      "nodes": [
-        {
-          "text": "1. interactive explanation",
-          "url": "http://jimkang.com/quadtreevis/",
-          "fx": 18.811216787439662,
-          "fy": -54.043987771739125,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "quadtree",
-      "target": "basics",
-      "curve": {
-        "x": -3.48697,
-        "y": 107.455
+  "id": 328,
+  "map": {
+    "text": "quadtree",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://jimkang.com/quadtreevis/",
+            "text": "1. interactive explanation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/fogleman/Quads",
+            "text": "computer art based on quadtrees",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "quadtree",
-      "curve": {
-        "x": -70.6511,
-        "y": -49.5717
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Quadtree",
+        "text": "quadtree",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 328
+    ],
+    "author": ""
+  }
 }

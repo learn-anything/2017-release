@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - binary heaps",
   "tag": "",
-  "nodes": [
-    {
-      "text": "binary heaps",
-      "url": "http://www.wikiwand.com/en/Binary_heap",
-      "fx": -91.82421875,
-      "fy": -136.0703125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -49.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=WCm3TqScBM8",
-          "fx": 113.5,
-          "fy": 10.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "binary heaps",
-      "target": "basics",
-      "curve": {
-        "x": -2.58789,
-        "y": 66.2852
+  "id": 318,
+  "map": {
+    "text": "binary heaps",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WCm3TqScBM8",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 318
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Binary_heap",
+        "text": "binary heaps",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

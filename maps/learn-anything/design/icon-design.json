@@ -1,75 +1,70 @@
 {
   "title": "learn anything - design - icon design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "icon design",
-      "url": "http://www.wikiwand.com/en/Icon_design",
-      "fx": 275.47952711441087,
-      "fy": -335.2386359271891,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 442.0667950236964,
-      "fy": -230.53672985781998,
-      "nodes": [
-        {
-          "text": "open source icon sets",
-          "url": "https://useiconic.com/open/",
-          "fx": 583.0667950236964,
-          "fy": -215.53672985781998,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 308.1379009577113,
-      "fy": -85.93168216717044,
-      "nodes": [
-        {
-          "text": "1. Jon Hicks - the icon design process",
-          "url": "https://www.youtube.com/watch?v=DGtAgmXx-1Q",
-          "fx": 471.1379009577113,
-          "fy": -119.43168216717044,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. app icon design tutorial in adobe illustrator",
-          "url": "https://www.youtube.com/watch?v=DGtAgmXx-1Q",
-          "fx": 471.1379009577113,
-          "fy": -52.431682167170436,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "icon design",
-      "target": "basics",
-      "curve": {
-        "x": -4.17081,
-        "y": 123.903
+  "id": 432,
+  "map": {
+    "text": "icon design",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DGtAgmXx-1Q",
+            "text": "1. Jon Hicks - the icon design process",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DGtAgmXx-1Q",
+            "text": "1. app icon design tutorial in adobe illustrator",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://useiconic.com/open/",
+            "text": "open source icon sets",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "icon design",
-      "curve": {
-        "x": -57.2936,
-        "y": -51.601
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Icon_design",
+        "text": "icon design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 432
+    ],
+    "author": ""
+  }
 }

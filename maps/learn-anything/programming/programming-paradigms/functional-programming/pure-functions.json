@@ -1,67 +1,60 @@
 {
   "title": "learn anything - programming - programming paradigms - functional programming - pure functions",
   "tag": "",
-  "nodes": [
-    {
-      "text": "pure functions",
-      "url": "http://www.wikiwand.com/en/Pure_function",
-      "fx": 38.601562499999886,
-      "fy": -288.31640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 184.63913388236278,
-      "fy": -180.59718080766066,
-      "nodes": [
-        {
-          "text": "what is a purely functional language?",
-          "url": "https://www.cs.indiana.edu/~sabry/papers/purelyFunctional.ps",
-          "fx": 375.6391338823628,
-          "fy": -180.09718080766066,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 78.80287345201225,
-      "fy": -74.47889386557029,
-      "nodes": [
-        {
-          "text": "1. explanation   ️",
-          "url": "https://stackoverflow.com/a/4382247/3067664",
-          "fx": 234.80287345201225,
-          "fy": -62.978893865570285,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "pure functions",
-      "curve": {
-        "x": -56.7688,
-        "y": -52.6096
+  "id": 1676,
+  "map": {
+    "text": "pure functions",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.indiana.edu/~sabry/papers/purelyFunctional.ps",
+            "text": "what is a purely functional language?",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/4382247/3067664",
+            "text": "1. explanation   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "pure functions",
-      "target": "basics",
-      "curve": {
-        "x": -4.89934,
-        "y": 105.669
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Pure_function",
+        "text": "pure functions",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 1673
+    ],
+    "author": ""
+  }
 }

@@ -1,33 +1,42 @@
 {
   "title": "learn anything - economics - finance - financial services",
   "tag": "",
-  "nodes": [
-    {
-      "text": "financial services",
-      "url": "http://www.wikiwand.com/en/Financial_services",
-      "fx": 151.62571022727298,
-      "fy": -282.5564630681818,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "banking",
-      "url": "http://www.wikiwand.com/en/Bank",
-      "fx": 74.0566797476888,
-      "fy": -147.87916907419356,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "financial services",
-      "target": "banking",
-      "curve": {
-        "x": -69.0345,
-        "y": 66.5886
+  "id": 485,
+  "map": {
+    "text": "financial services",
+    "nodes": [
+      {
+        "text": "banking",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Bank",
+            "text": "banking",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 485
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Financial_services",
+        "text": "financial services",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

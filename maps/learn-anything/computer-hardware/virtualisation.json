@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer hardware - virtualisation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "virtualisation",
-      "url": "http://www.wikiwand.com/en/Virtualization",
-      "fx": -68.67455150462968,
-      "fy": -160.44654224537044,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -29.202112268518363,
-      "fy": -30.052662037037067,
-      "nodes": [
-        {
-          "text": "1. an introduction to virtualisation  ️",
-          "url": "http://www.kernelthread.com/publications/virtualization/",
-          "fx": 126.79788773148164,
-          "fy": -18.552662037037067,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "virtualisation",
-      "target": "basics",
-      "curve": {
-        "x": -0.76378,
-        "y": 63.9469
+  "id": 256,
+  "map": {
+    "text": "virtualisation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.kernelthread.com/publications/virtualization/",
+            "text": "1. an introduction to virtualisation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 256
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Virtualization",
+        "text": "virtualisation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

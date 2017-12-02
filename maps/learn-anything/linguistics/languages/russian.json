@@ -1,61 +1,64 @@
 {
   "title": "learn anything - linguistics - languages - russian",
   "tag": "russian language",
-  "nodes": [
-    {
-      "text": "russian language",
-      "url": "http://www.wikiwand.com/en/Russian_language",
-      "fx": -120.66320398351638,
-      "fy": -280.500779442597,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/russian/",
-          "fx": 159.33679601648362,
-          "fy": -286.500779442597,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://russian.stackexchange.com/",
-          "fx": 159.33679601648362,
-          "fy": -246.50077944259698,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -77.98765242433035,
-      "fy": -133.48577573740403,
-      "nodes": [
-        {
-          "text": "1. duolingo",
-          "url": "https://www.duolingo.com/course/ru/en/Learn-Russian-Online",
-          "fx": 104.01234757566965,
-          "fy": -118.98577573740403,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "russian language",
-      "target": "basics",
-      "curve": {
-        "x": -11.4122,
-        "y": 72.2575
+  "id": 737,
+  "map": {
+    "text": "russian language",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.duolingo.com/course/ru/en/Learn-Russian-Online",
+            "text": "1. duolingo",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 736
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/russian/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://russian.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Russian_language",
+        "text": "russian language",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

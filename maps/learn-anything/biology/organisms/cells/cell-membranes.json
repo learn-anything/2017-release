@@ -1,58 +1,61 @@
 {
   "title": "learn anything - biology - organisms - cells - cell membranes",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cell membranes",
-      "url": "http://www.wikiwand.com/en/Cell_membrane",
-      "fx": -13.7265625,
-      "fy": -299.40625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 25.941742021709842,
-      "fy": -169.76964207368712,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=dPKvHrD1eS4",
-          "fx": 181.94174202170984,
-          "fy": -158.26964207368712,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 112,
+  "map": {
+    "text": "cell membranes",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "membrane potential  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/cell-membranes/membrane-potential",
+                "text": "membrane potential  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dPKvHrD1eS4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cell_membrane",
+        "text": "cell membranes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "membrane potential  ️",
-      "url": "/biology/organisms/cells/cell-membranes/membrane-potential",
-      "fx": -122.15157585470081,
-      "fy": -53.61017628205536,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cell membranes",
-      "target": "basics",
-      "curve": {
-        "x": -6.16585,
-        "y": 63.5683
       }
-    },
-    {
-      "source": "basics",
-      "target": "membrane potential  ️",
-      "curve": {
-        "x": -36.0467,
-        "y": 59.3297
-      }
-    }
-  ],
-  "id": 112
+    ],
+    "author": ""
+  }
 }

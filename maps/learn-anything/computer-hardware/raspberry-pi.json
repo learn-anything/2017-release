@@ -1,121 +1,113 @@
 {
   "title": "learn anything - computer hardware - raspberry pi",
   "tag": "",
-  "nodes": [
-    {
-      "text": "raspberry pi",
-      "url": "http://www.wikiwand.com/en/Raspberry_Pi",
-      "fx": -31.109375,
-      "fy": -157.6469089673913,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/raspberry_pi/",
-          "fx": 203.890625,
-          "fy": -183.6469089673913,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://raspberrypi.stackexchange.com/",
-          "fx": 203.890625,
-          "fy": -143.6469089673913,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/thibmaek/awesome-raspberry-pi",
-          "fx": 203.890625,
-          "fy": -103.64690896739131,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 95.43448067632858,
-      "fy": -20.231412288647277,
-      "nodes": [
-        {
-          "text": "shell script to setup raspberry pi",
-          "url": "https://github.com/RetroPie/RetroPie-Setup",
-          "fx": 232.43448067632858,
-          "fy": -8.731412288647277,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 146.2869025887818,
-      "fy": 84.4202397250802,
-      "nodes": [
-        {
-          "text": "FullPageOS",
-          "url": "https://github.com/guysoft/FullPageOS",
-          "fx": 337.2869025887818,
-          "fy": 95.9202397250802,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -13.29491243961354,
-      "fy": 172.88368055555554,
-      "nodes": [
-        {
-          "text": "1. unleash the raspberry pi through physical computing",
-          "url": "https://www.skillshare.com/classes/Unleash-The-Raspberry-Pi-Through-Physical-Computing/2109089069",
-          "fx": 168.70508756038646,
-          "fy": 173.38368055555554,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "raspberry pi",
-      "curve": {
-        "x": -38.7719,
-        "y": -67.4578
+  "id": 255,
+  "map": {
+    "text": "raspberry pi",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/guysoft/FullPageOS",
+                "text": "FullPageOS",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/RetroPie/RetroPie-Setup",
+            "text": "shell script to setup raspberry pi",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.skillshare.com/classes/Unleash-The-Raspberry-Pi-Through-Physical-Computing/2109089069",
+            "text": "1. unleash the raspberry pi through physical computing",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "raspberry pi",
-      "target": "basics",
-      "curve": {
-        "x": -10.8428,
-        "y": 164.014
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/raspberry_pi/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://raspberrypi.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/thibmaek/awesome-raspberry-pi",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Raspberry_Pi",
+        "text": "raspberry pi",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -38.9262,
-        "y": -52.3258
-      }
-    }
-  ],
-  "id": 255
+    ],
+    "author": ""
+  }
 }

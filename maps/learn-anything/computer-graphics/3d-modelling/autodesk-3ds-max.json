@@ -1,51 +1,52 @@
 {
   "title": "learn anything - computer graphics - 3d modelling - autodesk 3ds max",
   "tag": "",
-  "nodes": [
-    {
-      "text": "autodesk 3ds max",
-      "url": "http://www.wikiwand.com/en/Autodesk_3ds_Max",
-      "fx": 3.296611785888672,
-      "fy": -199.9243392944336,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Autodesk/",
-          "fx": 297.2966117858887,
-          "fy": -185.9243392944336,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 71.28656914893656,
-      "fy": -52.88996010638266,
-      "nodes": [
-        {
-          "text": "1. getting started ",
-          "url": "https://knowledge.autodesk.com/support/autocad/getting-started?sort=score",
-          "fx": 227.28656914893656,
-          "fy": -38.38996010638266,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "autodesk 3ds max",
-      "target": "basics",
-      "curve": {
-        "x": -5.91166,
-        "y": 73.0069
+  "id": 203,
+  "map": {
+    "text": "autodesk 3ds max",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://knowledge.autodesk.com/support/autocad/getting-started?sort=score",
+            "text": "1. getting started ",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 203
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Autodesk/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Autodesk_3ds_Max",
+        "text": "autodesk 3ds max",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

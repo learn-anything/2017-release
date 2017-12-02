@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - skateboarding",
   "tag": "",
-  "nodes": [
-    {
-      "text": "skateboarding",
-      "url": "http://www.wikiwand.com/en/Skateboarding",
-      "fx": -148.625,
-      "fy": -226.140625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/skateboarding/",
-          "fx": 107.375,
-          "fy": -212.140625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -98.06290770828855,
-      "fy": -83.01447812592136,
-      "nodes": [
-        {
-          "text": "1. how to skateboard for beginners",
-          "url": "https://www.youtube.com/watch?v=p3NXd3DhH08",
-          "fx": 57.93709229171145,
-          "fy": -71.51447812592136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "skateboarding",
-      "target": "basics",
-      "curve": {
-        "x": 0.281046,
-        "y": 70.3131
+  "id": 589,
+  "map": {
+    "text": "skateboarding",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=p3NXd3DhH08",
+            "text": "1. how to skateboard for beginners",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 589
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/skateboarding/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Skateboarding",
+        "text": "skateboarding",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

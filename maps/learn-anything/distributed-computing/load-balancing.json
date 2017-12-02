@@ -1,67 +1,72 @@
 {
   "title": "learn anything - distributed computing - load balancing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "load balancing",
-      "url": "http://www.wikiwand.com/en/Load_balancing_(computing)",
-      "fx": -105.109375,
-      "fy": -154.96484375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -51.51282051282067,
-      "fy": 16.71394230769232,
-      "nodes": [
-        {
-          "text": "1. scaling a web service: load balancing  ️",
-          "url": "https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/",
-          "fx": 111.48717948717933,
-          "fy": -16.78605769230768,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. http load balancing with nginx",
-          "url": "https://www.youtube.com/watch?v=SpL_hJNUNEI",
-          "fx": 111.48717948717933,
-          "fy": 50.21394230769232,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 447,
+  "map": {
+    "text": "load balancing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "nginx  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/programming/software-development/devops/nginx",
+                "text": "nginx  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/",
+            "text": "1. scaling a web service: load balancing  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=SpL_hJNUNEI",
+            "text": "1. http load balancing with nginx",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Load_balancing_(computing)",
+        "text": "load balancing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "nginx  ️",
-      "url": "/programming/software-development/devops/nginx",
-      "fx": -142.27335858585866,
-      "fy": 160.0471511994948,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "load balancing",
-      "target": "basics",
-      "curve": {
-        "x": -1.20172,
-        "y": 85.0894
       }
-    },
-    {
-      "source": "basics",
-      "target": "nginx  ️",
-      "curve": {
-        "x": -48.3803,
-        "y": 71.6666
-      }
-    }
-  ],
-  "id": 447
+    ],
+    "author": ""
+  }
 }

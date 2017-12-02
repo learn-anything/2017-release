@@ -1,40 +1,29 @@
 {
   "title": "learn anything - data science - data processing - lambda architecture - kappa architecture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "kappa architecture",
-      "url": "",
-      "fx": 247.97265625,
-      "fy": -74.31640625,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 299.8655213270148,
-      "fy": 69.8450088862798,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "http://milinda.pathirage.org/kappa-architecture.com/",
-          "fx": 462.8655213270148,
-          "fy": 84.8450088862798,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "kappa architecture",
-      "target": "basics",
-      "curve": {
-        "x": -4.05357,
-        "y": 72.0807
+  "id": 394,
+  "map": {
+    "text": "kappa architecture",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://milinda.pathirage.org/kappa-architecture.com/",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 394
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

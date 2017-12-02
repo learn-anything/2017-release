@@ -1,128 +1,133 @@
 {
   "title": "learn anything - computer graphics - webgl",
   "tag": "webGL",
-  "nodes": [
-    {
-      "text": "WebGL",
-      "url": "http://www.wikiwand.com/en/WebGL",
-      "fx": -128.23081827163696,
-      "fy": -221.58342933654785,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/sjfricke/awesome-webgl",
-          "fx": 67.76918172836304,
-          "fy": -207.58342933654785,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -20.5859375,
-      "fy": -117.2965874671936,
-      "nodes": [
-        {
-          "text": "webGL lessons",
-          "url": "https://github.com/gpjt/webgl-lessons",
-          "fx": 116.4140625,
-          "fy": -145.7965874671936,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "webGL shader intro",
-          "url": "https://github.com/Jam3/jam3-lesson-webgl-shader-intro",
-          "fx": 116.4140625,
-          "fy": -105.7965874671936,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "webGL shader threeJS",
-          "url": "https://github.com/Jam3/jam3-lesson-webgl-shader-threejs",
-          "fx": 116.4140625,
-          "fy": -65.7965874671936,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -116.53796571493149,
-      "fy": 35.45623779296875,
-      "nodes": [
-        {
-          "text": "1. webGL fundamentals",
-          "url": "https://webglfundamentals.org/",
-          "fx": 65.46203428506851,
-          "fy": 12.95623779296875,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. webGL lessons",
-          "url": "http://learningwebgl.com/blog/?page_id=1217",
-          "fx": 65.46203428506851,
-          "fy": 52.95623779296875,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. webGL academy",
-          "url": "http://www.webglacademy.com/",
-          "fx": 65.46203428506851,
-          "fy": 86.95623779296875,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "pixie.js",
-      "url": "https://github.com/pixijs/pixi.js?utm_source=html5weekly",
-      "fx": -211.05859375,
-      "fy": 152.0546875,
-      "nodes": [],
-      "category": "github"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "WebGL",
-      "curve": {
-        "x": -39.0724,
-        "y": -50.8934
+  "id": 234,
+  "map": {
+    "text": "WebGL",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/gpjt/webgl-lessons",
+            "text": "webGL lessons",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/Jam3/jam3-lesson-webgl-shader-intro",
+            "text": "webGL shader intro",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/Jam3/jam3-lesson-webgl-shader-threejs",
+            "text": "webGL shader threeJS",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "pixie.js",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/pixijs/pixi.js?utm_source=html5weekly",
+                "text": "pixie.js",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://webglfundamentals.org/",
+            "text": "1. webGL fundamentals",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://learningwebgl.com/blog/?page_id=1217",
+            "text": "1. webGL lessons",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.webglacademy.com/",
+            "text": "1. webGL academy",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "WebGL",
-      "target": "basics",
-      "curve": {
-        "x": -4.15357,
-        "y": 127.27
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/sjfricke/awesome-webgl",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/WebGL",
+        "text": "WebGL",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "pixie.js",
-      "curve": {
-        "x": -45.7603,
-        "y": 59.5493
-      }
-    }
-  ],
-  "id": 234
+    ],
+    "author": ""
+  }
 }

@@ -1,34 +1,43 @@
 {
   "title": "learn anything - communication - telecommunication",
   "tag": "",
-  "nodes": [
-    {
-      "text": "telecommunication",
-      "note": " ",
-      "url": "http://www.wikiwand.com/en/Telecommunication",
-      "fx": 109.38705264522832,
-      "fy": -216.19765625000002,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "wireless  ️",
-      "url": "/communication/telecommunication/wireless",
-      "fx": 74.53538257555044,
-      "fy": -96.94094007573182,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "telecommunication",
-      "target": "wireless  ️",
-      "curve": {
-        "x": -42.1758,
-        "y": 59.6283
+  "id": 201,
+  "map": {
+    "text": "telecommunication",
+    "note": " ",
+    "nodes": [
+      {
+        "text": "wireless  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/communication/telecommunication/wireless",
+            "text": "wireless  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 201
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Telecommunication",
+        "text": "telecommunication",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - information theory - algorithmic information theory - kolmogorov complexity",
   "tag": "Kolmogorov complexity",
-  "nodes": [
-    {
-      "text": "Kolmogorov complexity",
-      "url": "http://www.wikiwand.com/en/Kolmogorov_complexity",
-      "fx": 42.20703125,
-      "fy": -85.33203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 140.5,
-      "fy": 67.25,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=S31CbvpZBU4",
-          "fx": 303.5,
-          "fy": 46.25,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. Kolmogorov complexity and compression arguments",
-          "url": "https://www.youtube.com/watch?v=Ivp88OsHghQ",
-          "fx": 303.5,
-          "fy": 88.25,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Kolmogorov complexity",
-      "target": "basics",
-      "curve": {
-        "x": -0.353516,
-        "y": 75.541
+  "id": 630,
+  "map": {
+    "text": "Kolmogorov complexity",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=S31CbvpZBU4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ivp88OsHghQ",
+            "text": "1. Kolmogorov complexity and compression arguments",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 630
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Kolmogorov_complexity",
+        "text": "Kolmogorov complexity",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - information theory - signals - signal processing - compressed sensing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "compressed sensing",
-      "url": "http://www.wikiwand.com/en/Compressed_sensing",
-      "fx": 58.484375,
-      "fy": -213.47265625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 140.83203125,
-      "fy": -76.375,
-      "nodes": [
-        {
-          "text": "1. compressie sensing",
-          "url": "https://www.youtube.com/watch?v=zytez36XlCU",
-          "fx": 303.83203125,
-          "fy": -97.375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. compressed seeing by Terrence Tao",
-          "url": "https://www.youtube.com/watch?v=i2aY7tZ5S7U&amp;list=PLC94A02A1218B24DF",
-          "fx": 303.83203125,
-          "fy": -55.375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "compressed sensing",
-      "target": "basics",
-      "curve": {
-        "x": -3.07617,
-        "y": 67.7988
+  "id": 652,
+  "map": {
+    "text": "compressed sensing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=zytez36XlCU",
+            "text": "1. compressie sensing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=i2aY7tZ5S7U&amp;list=PLC94A02A1218B24DF",
+            "text": "1. compressed seeing by Terrence Tao",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 652
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Compressed_sensing",
+        "text": "compressed sensing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

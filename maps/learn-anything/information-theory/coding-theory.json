@@ -1,74 +1,79 @@
 {
   "title": "learn anything - information theory - coding theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "coding theory",
-      "url": "http://www.wikiwand.com/en/Coding_theory",
-      "fx": -92.0078125,
-      "fy": -159.32421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -17.1171875,
-      "nodes": [
-        {
-          "text": "1. exlanation",
-          "url": "https://www.youtube.com/watch?v=musBo7Kafic",
-          "fx": 109.5,
-          "fy": -5.6171875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 633,
+  "map": {
+    "text": "coding theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "hamming distance  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/coding-theory/hamming-distance",
+                "text": "hamming distance  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "error detection and correction",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Error_detection_and_correction",
+                "text": "error detection and correction",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=musBo7Kafic",
+            "text": "1. exlanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Coding_theory",
+        "text": "coding theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "hamming distance  ️",
-      "url": "/information-theory/coding-theory/hamming-distance",
-      "fx": -282.8688850402832,
-      "fy": 137.82933807373047,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "error detection and correction",
-      "url": "http://www.wikiwand.com/en/Error_detection_and_correction",
-      "fx": -29.806463068179823,
-      "fy": 139.69025213068187,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "coding theory",
-      "target": "basics",
-      "curve": {
-        "x": -0.996094,
-        "y": 69.8535
       }
-    },
-    {
-      "source": "basics",
-      "target": "hamming distance  ️",
-      "curve": {
-        "x": -90.9345,
-        "y": 77.4732
-      }
-    },
-    {
-      "source": "basics",
-      "target": "error detection and correction",
-      "curve": {
-        "x": 62.3468,
-        "y": 85.9037
-      }
-    }
-  ],
-  "id": 633
+    ],
+    "author": ""
+  }
 }

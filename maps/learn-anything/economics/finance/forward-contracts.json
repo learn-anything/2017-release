@@ -1,58 +1,61 @@
 {
   "title": "learn anything - economics - finance - forward contracts",
   "tag": "",
-  "nodes": [
-    {
-      "text": "forward contracts",
-      "url": "http://www.wikiwand.com/en/Forward_contract",
-      "fx": 109.109375,
-      "fy": -151.60546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 172.8677171610168,
-      "fy": -36.652343749999886,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "https://www.youtube.com/watch?v=H9UEZdAnnt8",
-          "fx": 328.8677171610168,
-          "fy": -25.152343749999886,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 487,
+  "map": {
+    "text": "forward contracts",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "futures contracts  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/finance/forward-contracts/futures-contracts",
+                "text": "futures contracts  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=H9UEZdAnnt8",
+            "text": "1. introduction",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Forward_contract",
+        "text": "forward contracts",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "futures contracts  ️",
-      "url": "/economics/finance/forward-contracts/futures-contracts",
-      "fx": 14.888241525423723,
-      "fy": 81.42319915251801,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "forward contracts",
-      "target": "basics",
-      "curve": {
-        "x": -0.620834,
-        "y": 56.2266
       }
-    },
-    {
-      "source": "basics",
-      "target": "futures contracts  ️",
-      "curve": {
-        "x": -55.2397,
-        "y": 59.0378
-      }
-    }
-  ],
-  "id": 487
+    ],
+    "author": ""
+  }
 }

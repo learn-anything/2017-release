@@ -1,158 +1,173 @@
 {
   "title": "learn anything - health - nutrition - food - health food",
   "tag": "healthy food",
-  "nodes": [
-    {
-      "text": "healthy foods",
-      "url": "",
-      "fx": -52.99003990800861,
-      "fy": -273.3535240800866,
-      "nodes": [
-        {
-          "text": "avocados",
-          "url": "http://www.wikiwand.com/en/Avocado",
-          "fx": 179.0099600919914,
-          "fy": -512.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "blueberries",
-          "url": "http://www.wikiwand.com/en/Blueberry",
-          "fx": 179.0099600919914,
-          "fy": -470.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "broccoli",
-          "url": "http://www.wikiwand.com/en/Broccoli",
-          "fx": 179.0099600919914,
-          "fy": -428.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "almonds",
-          "url": "http://www.wikiwand.com/en/Almond",
-          "fx": 179.0099600919914,
-          "fy": -386.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "pistachios",
-          "url": "http://www.wikiwand.com/en/Pistachio",
-          "fx": 179.0099600919914,
-          "fy": -344.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "bananas",
-          "url": "http://www.wikiwand.com/en/Banana",
-          "fx": 179.0099600919914,
-          "fy": -302.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        },
-        {
-          "text": "eggs",
-          "url": "http://www.wikiwand.com/en/Egg_as_food",
-          "fx": 179.0099600919914,
-          "fy": -260.8535240800866,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "asparagus",
-          "url": "http://www.wikiwand.com/en/Asparagus",
-          "fx": 179.0099600919914,
-          "fy": -218.85352408008657,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "greek yogurt",
-          "url": "http://www.wikiwand.com/en/Strained_yogurt",
-          "fx": 179.0099600919914,
-          "fy": -176.85352408008657,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "tomatoes",
-          "url": "http://www.wikiwand.com/en/Tomato",
-          "fx": 179.0099600919914,
-          "fy": -134.85352408008657,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(252, 177, 20, 1.0)"
-        },
-        {
-          "text": "kale",
-          "url": "http://www.wikiwand.com/en/Kale",
-          "fx": 179.0099600919914,
-          "fy": -92.85352408008657,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(255, 254, 60, 1.0)"
-        },
-        {
-          "text": "cauliflower",
-          "url": "http://www.wikiwand.com/en/Cauliflower",
-          "fx": 179.0099600919914,
-          "fy": -50.85352408008657,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "strawberries",
-          "url": "http://www.wikiwand.com/en/Strawberry",
-          "fx": 179.0099600919914,
-          "fy": -8.853524080086572,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(169, 255, 0, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 31.402094293764208,
-      "fy": 120.1385472110158,
-      "nodes": [
-        {
-          "text": "examine nutrition questions and answers",
-          "url": "https://examine.com/nutrition/",
-          "fx": 172.4020942937642,
-          "fy": 122.6385472110158,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "healthy foods",
-      "curve": {
-        "x": -22.4461,
-        "y": -196.746
+  "id": 613,
+  "map": {
+    "text": "healthy foods",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://examine.com/nutrition/",
+            "text": "examine nutrition questions and answers",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 613
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Avocado",
+        "text": "avocados",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Blueberry",
+        "text": "blueberries",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Broccoli",
+        "text": "broccoli",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Almond",
+        "text": "almonds",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Pistachio",
+        "text": "pistachios",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Banana",
+        "text": "bananas",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Egg_as_food",
+        "text": "eggs",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Asparagus",
+        "text": "asparagus",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Strained_yogurt",
+        "text": "greek yogurt",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Tomato",
+        "text": "tomatoes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Kale",
+        "text": "kale",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Cauliflower",
+        "text": "cauliflower",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Strawberry",
+        "text": "strawberries",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

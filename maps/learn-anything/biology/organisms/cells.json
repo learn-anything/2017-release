@@ -1,131 +1,144 @@
 {
   "title": "learn anything - biology - organisms - cells",
   "tag": "",
-  "nodes": [
-    {
-      "text": "cells",
-      "url": "http://www.wikiwand.com/en/Cell_(biology)",
-      "fx": 44.97240924835205,
-      "fy": -146.42110550403595,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 44.585941314697266,
-      "fy": -32.39802360534668,
-      "nodes": [
-        {
-          "text": "1. cell structure",
-          "url": "https://www.youtube.com/watch?v=URUJD5NEXC8",
-          "fx": 200.58594131469727,
-          "fy": -40.89802360534668,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. a tour of the cell",
-          "url": "https://www.youtube.com/watch?v=1Z9pqST72is",
-          "fx": 200.58594131469727,
-          "fy": -0.8980236053466797,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 119,
+  "map": {
+    "text": "cells",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "stem cells  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/stem-cells",
+                "text": "stem cells  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "autophagy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/autophagy",
+                "text": "autophagy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cell division  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/cell-division",
+                "text": "cell division  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "cell membranes  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/cell-membranes",
+                "text": "cell membranes  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "metabolism  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/cells/metabolism",
+                "text": "metabolism  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=URUJD5NEXC8",
+            "text": "1. cell structure",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1Z9pqST72is",
+            "text": "1. a tour of the cell",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Cell_(biology)",
+        "text": "cells",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "autophagy  ️",
-      "url": "/biology/organisms/cells/autophagy",
-      "fx": -196.27586377009135,
-      "fy": 136.24381547789898,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cell membranes  ️",
-      "url": "/biology/organisms/cells/cell-membranes",
-      "fx": 150.11412417437919,
-      "fy": 137.49546418312974,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "stem cells  ️",
-      "url": "/biology/organisms/cells/stem-cells",
-      "fx": -22.2991886138916,
-      "fy": 137.67423248291016,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cell division  ️",
-      "url": "/biology/organisms/cells/cell-division",
-      "fx": -372.4858174891068,
-      "fy": 138.1151226836276,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "metabolism  ️",
-      "url": "/biology/organisms/cells/metabolism",
-      "fx": -555.6261203972886,
-      "fy": 139.30962330426348,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "cells",
-      "target": "basics",
-      "curve": {
-        "x": -2.94323,
-        "y": 55.7616
       }
-    },
-    {
-      "source": "basics",
-      "target": "stem cells  ️",
-      "curve": {
-        "x": -25.1925,
-        "y": 85.0362
-      }
-    },
-    {
-      "source": "basics",
-      "target": "autophagy  ️",
-      "curve": {
-        "x": -110.931,
-        "y": 84.3209
-      }
-    },
-    {
-      "source": "basics",
-      "target": "cell division  ️",
-      "curve": {
-        "x": -223.234,
-        "y": 60.0723
-      }
-    },
-    {
-      "source": "basics",
-      "target": "cell membranes  ️",
-      "curve": {
-        "x": 71.7641,
-        "y": 84.9468
-      }
-    },
-    {
-      "source": "basics",
-      "target": "metabolism  ️",
-      "curve": {
-        "x": -358.637,
-        "y": 41.0257
-      }
-    }
-  ],
-  "id": 119
+    ],
+    "author": ""
+  }
 }

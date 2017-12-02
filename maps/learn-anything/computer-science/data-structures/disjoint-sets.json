@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - disjoint sets",
   "tag": "",
-  "nodes": [
-    {
-      "text": "disjoint sets",
-      "url": "http://www.wikiwand.com/en/Disjoint-set_data_structure",
-      "fx": 172.69140625,
-      "fy": -193.9453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 192.5234375,
-      "fy": -44.84765625,
-      "nodes": [
-        {
-          "text": "1. disjoin sets using union by rank and path compression graph algorithm",
-          "url": "https://www.youtube.com/watch?v=ID00PMy0-vE",
-          "fx": 355.5234375,
-          "fy": -57.34765625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "disjoint sets",
-      "target": "basics",
-      "curve": {
-        "x": -3.08398,
-        "y": 74.5488
+  "id": 321,
+  "map": {
+    "text": "disjoint sets",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ID00PMy0-vE",
+            "text": "1. disjoin sets using union by rank and path compression graph algorithm",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 321
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Disjoint-set_data_structure",
+        "text": "disjoint sets",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

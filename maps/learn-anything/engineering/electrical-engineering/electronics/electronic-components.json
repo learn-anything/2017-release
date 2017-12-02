@@ -1,58 +1,61 @@
 {
   "title": "learn anything - engineering - electrical engineering - electronics - electronic components",
   "tag": "",
-  "nodes": [
-    {
-      "text": "electronic components",
-      "url": "http://www.wikiwand.com/en/Electronic_component",
-      "fx": -71,
-      "fy": -7.421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 18.500000953674316,
-      "fy": 139.98614120483398,
-      "nodes": [
-        {
-          "text": "1. simple guide to electronic components",
-          "url": "https://www.youtube.com/watch?v=6Maq5IyHSuc",
-          "fx": 174.49999618530273,
-          "fy": 139.98666381835938,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 531,
+  "map": {
+    "text": "electronic components",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "semiconductor devices  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/electrical-engineering/electronics/electronic-components/semiconductor-devices",
+                "text": "semiconductor devices  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6Maq5IyHSuc",
+            "text": "1. simple guide to electronic components",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Electronic_component",
+        "text": "electronic components",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "semiconductor devices  ️",
-      "url": "/engineering/electrical-engineering/electronics/electronic-components/semiconductor-devices",
-      "fx": -192.07284333355153,
-      "fy": 290.82779903765436,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "electronic components",
-      "target": "basics",
-      "curve": {
-        "x": 0.25,
-        "y": 72.454
       }
-    },
-    {
-      "source": "basics",
-      "target": "semiconductor devices  ️",
-      "curve": {
-        "x": -69.7864,
-        "y": 75.4208
-      }
-    }
-  ],
-  "id": 531
+    ],
+    "author": ""
+  }
 }

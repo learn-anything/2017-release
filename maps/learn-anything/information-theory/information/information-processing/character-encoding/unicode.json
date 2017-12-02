@@ -1,77 +1,71 @@
 {
   "title": "learn anything - information theory - information - information processing - character encoding - unicode",
   "tag": "",
-  "nodes": [
-    {
-      "text": "unicode",
-      "url": "http://www.wikiwand.com/en/Unicode",
-      "fx": 159.02675189393938,
-      "fy": -138.02888341526966,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/jagracey/Awesome-Unicode",
-          "fx": 358.0267518939394,
-          "fy": -124.02888341526966,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 264.11691381904154,
-      "fy": -22.773423228293495,
-      "nodes": [
-        {
-          "text": "awesome code points",
-          "url": "https://github.com/Codepoints/awesome-codepoints",
-          "fx": 401.11691381904154,
-          "fy": -11.273423228293495,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 174.10970744680117,
-      "fy": 89.06183510644576,
-      "nodes": [
-        {
-          "text": "1. absolute minimum every software dev should know about unicode  ️",
-          "url": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
-          "fx": 330.10970744680117,
-          "fy": 78.56183510644576,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "unicode",
-      "curve": {
-        "x": -37.0451,
-        "y": -56.3777
+  "id": 645,
+  "map": {
+    "text": "unicode",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/Codepoints/awesome-codepoints",
+            "text": "awesome code points",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
+            "text": "1. absolute minimum every software dev should know about unicode  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "unicode",
-      "target": "basics",
-      "curve": {
-        "x": -3.20853,
-        "y": 112.296
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/jagracey/Awesome-Unicode",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Unicode",
+        "text": "unicode",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 645
+    ],
+    "author": ""
+  }
 }

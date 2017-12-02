@@ -1,62 +1,65 @@
 {
   "title": "learn anything - health - nutrition - weight loss",
   "tag": "",
-  "nodes": [
-    {
-      "text": "weight loss",
-      "url": "http://www.wikiwand.com/en/Weight_loss",
-      "fx": -83.54299134016037,
-      "fy": -177.65365982055664,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/loseit/",
-          "fx": 144.45700865983963,
-          "fy": -163.65365982055664,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -52.48706850576559,
-      "fy": -41.3940748190895,
-      "nodes": [
-        {
-          "text": "1. best way to a flat stomach",
-          "url": "https://www.youtube.com/watch?v=bTffztrhgWc",
-          "fx": 129.5129314942344,
-          "fy": -49.8940748190895,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how to lose weight",
-          "url": "https://www.reddit.com/r/loseit/comments/3v4hgz/want_to_lose_weight_do_this/",
-          "fx": 129.5129314942344,
-          "fy": -9.894074819089496,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "weight loss",
-      "target": "basics",
-      "curve": {
-        "x": -2.47204,
-        "y": 66.8798
+  "id": 617,
+  "map": {
+    "text": "weight loss",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bTffztrhgWc",
+            "text": "1. best way to a flat stomach",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/loseit/comments/3v4hgz/want_to_lose_weight_do_this/",
+            "text": "1. how to lose weight",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 617
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/loseit/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Weight_loss",
+        "text": "weight loss",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

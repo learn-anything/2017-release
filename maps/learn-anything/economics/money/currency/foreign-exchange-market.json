@@ -1,60 +1,63 @@
 {
   "title": "learn anything - economics - money - currency - foreign exchange market",
   "tag": "",
-  "nodes": [
-    {
-      "text": "foreign exchange market",
-      "url": "http://www.wikiwand.com/en/Foreign_exchange_market",
-      "fx": 78.44921875,
-      "fy": -214.125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Forex/",
-          "fx": 453.44921875,
-          "fy": -200.125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 174.30177418320227,
-      "fy": -62.14896136246432,
-      "nodes": [
-        {
-          "text": "1. how to trade forex",
-          "url": "https://www.babypips.com/learn",
-          "fx": 337.30177418320227,
-          "fy": -68.14896136246432,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. getting started guide",
-          "url": "https://www.reddit.com/r/Forex/wiki/index",
-          "fx": 337.30177418320227,
-          "fy": -31.14896136246432,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "foreign exchange market",
-      "target": "basics",
-      "curve": {
-        "x": -5.07372,
-        "y": 75.238
+  "id": 496,
+  "map": {
+    "text": "foreign exchange market",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.babypips.com/learn",
+            "text": "1. how to trade forex",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/Forex/wiki/index",
+            "text": "1. getting started guide",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 496
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Forex/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Foreign_exchange_market",
+        "text": "foreign exchange market",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

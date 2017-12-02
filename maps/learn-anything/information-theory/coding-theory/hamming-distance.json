@@ -1,67 +1,60 @@
 {
   "title": "learn anything - information theory - coding theory - hamming distance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "hamming distance",
-      "url": "http://www.wikiwand.com/en/Hamming_distance",
-      "fx": 87.30078125,
-      "fy": -196.59765625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 295.96990731482936,
-      "fy": -85.44690099591958,
-      "nodes": [
-        {
-          "text": "13: on the weighted hamming distance  ️",
-          "url": "http://jamesxli.blogspot.nl/2013/03/on-weighted-hamming-distance.html",
-          "fx": 457.96990731482936,
-          "fy": -84.94690099591958,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 144.14555921052647,
-      "fy": 42,
-      "nodes": [
-        {
-          "text": "1. how to compute the hamming distance",
-          "url": "https://www.youtube.com/watch?v=P02mJhS9qQ4",
-          "fx": 300.14555921052647,
-          "fy": 42.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "articles",
-      "target": "hamming distance",
-      "curve": {
-        "x": -78.8346,
-        "y": -54.3254
+  "id": 632,
+  "map": {
+    "text": "hamming distance",
+    "nodes": [
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://jamesxli.blogspot.nl/2013/03/on-weighted-hamming-distance.html",
+            "text": "13: on the weighted hamming distance  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=P02mJhS9qQ4",
+            "text": "1. how to compute the hamming distance",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "hamming distance",
-      "target": "basics",
-      "curve": {
-        "x": -5.82761,
-        "y": 118.049
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Hamming_distance",
+        "text": "hamming distance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 632
+    ],
+    "author": ""
+  }
 }

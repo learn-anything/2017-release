@@ -1,117 +1,110 @@
 {
   "title": "learn anything - chemistry - quantum chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "quantum chemistry",
-      "url": "http://www.wikiwand.com/en/Quantum_chemistry",
-      "fx": -115.87109375,
-      "fy": -223.25,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 47.96393280632185,
-      "fy": -109.14500988142305,
-      "nodes": [
-        {
-          "text": "notes on quantum chemistry",
-          "url": "http://vergil.chemistry.gatech.edu/notes/index.html",
-          "fx": 184.96393280632185,
-          "fy": -139.64500988142305,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "open source high-performance computational chemistry",
-          "url": "http://www.nwchem-sw.org/index.php/Main_Page",
-          "fx": 184.96393280632185,
-          "fy": -105.64500988142305,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "MOPAC",
-          "url": "http://openmopac.net/",
-          "fx": 184.96393280632185,
-          "fy": -49.64500988142305,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 106.20785470511521,
-      "fy": 41.233108432530514,
-      "nodes": [
-        {
-          "text": "Dr. Merkel’s dissertation in layman terms",
-          "url": "https://np.reddit.com/r/de/comments/5zzkhr/ein_treffen_auf_augenh%C3%B6he/df2dcay/",
-          "fx": 297.2078547051152,
-          "fy": 41.733108432530514,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -43.84167144495416,
-      "fy": 157.2778992259175,
-      "nodes": [
-        {
-          "text": "1. quantum chemistry",
-          "url": "https://www.youtube.com/watch?v=SagCxxyBUAs&amp;list=PLm8ZSArAXicKX9g2IA7FAe0pihiwJCjLG",
-          "fx": 138.15832855504584,
-          "fy": 137.7778992259175,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. c++ programming tutorial in chemistry",
-          "url": "http://sirius.chem.vt.edu/wiki/doku.php?id=crawdad:programming",
-          "fx": 138.15832855504584,
-          "fy": 177.7778992259175,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "help",
-      "curve": {
-        "x": -42.622,
-        "y": -75.1891
+  "id": 179,
+  "map": {
+    "text": "quantum chemistry",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "interesting",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://np.reddit.com/r/de/comments/5zzkhr/ein_treffen_auf_augenh%C3%B6he/df2dcay/",
+                "text": "Dr. Merkel’s dissertation in layman terms",
+                "category": "reddit",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://vergil.chemistry.gatech.edu/notes/index.html",
+            "text": "notes on quantum chemistry",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.nwchem-sw.org/index.php/Main_Page",
+            "text": "open source high-performance computational chemistry",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://openmopac.net/",
+            "text": "MOPAC",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=SagCxxyBUAs&amp;list=PLm8ZSArAXicKX9g2IA7FAe0pihiwJCjLG",
+            "text": "1. quantum chemistry",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://sirius.chem.vt.edu/wiki/doku.php?id=crawdad:programming",
+            "text": "1. c++ programming tutorial in chemistry",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "quantum chemistry",
-      "curve": {
-        "x": -40.9175,
-        "y": -55.8025
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Quantum_chemistry",
+        "text": "quantum chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "quantum chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -0.235289,
-        "y": 189.014
-      }
-    }
-  ],
-  "id": 179
+    ],
+    "author": ""
+  }
 }

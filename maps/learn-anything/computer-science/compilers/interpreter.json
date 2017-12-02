@@ -1,94 +1,93 @@
 {
   "title": "learn anything - computer science - compilers - interpreter",
   "tag": "interpreters",
-  "nodes": [
-    {
-      "text": "interpreter",
-      "url": "http://www.wikiwand.com/en/Interpreter_(computing)",
-      "fx": 13.937328338623047,
-      "fy": -226.75820350646973,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 147.80170059204102,
-      "fy": -127.40379047393799,
-      "nodes": [
-        {
-          "text": "15: so you want to write an interpreter?",
-          "url": "https://www.youtube.com/watch?v=LCslqgM48D4",
-          "fx": 287.801700592041,
-          "fy": -126.90379047393799,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 34.09765625,
-      "fy": 43.29944490131584,
-      "nodes": [
-        {
-          "text": "1. how does an interpreter work   ️",
-          "url": "https://stackoverflow.com/a/2377288/3067664",
-          "fx": 190.09765625,
-          "fy": -5.200555098684163,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. let’s build a simple interpreter  ️",
-          "url": "https://ruslanspivak.com/lsbasi-part1/",
-          "fx": 190.09765625,
-          "fy": 34.79944490131584,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. interpreter, compiler, JIT  ️",
-          "url": "https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/",
-          "fx": 190.09765625,
-          "fy": 74.79944490131584,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. crafting interpreters",
-          "url": "http://craftinginterpreters.com/contents.html",
-          "fx": 190.09765625,
-          "fy": 114.79944490131584,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "interpreter",
-      "curve": {
-        "x": -47.1822,
-        "y": -48.4272
+  "id": 286,
+  "map": {
+    "text": "interpreter",
+    "nodes": [
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=LCslqgM48D4",
+            "text": "15: so you want to write an interpreter?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/2377288/3067664",
+            "text": "1. how does an interpreter work   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ruslanspivak.com/lsbasi-part1/",
+            "text": "1. let’s build a simple interpreter  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/",
+            "text": "1. interpreter, compiler, JIT  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://craftinginterpreters.com/contents.html",
+            "text": "1. crafting interpreters",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interpreter",
-      "target": "basics",
-      "curve": {
-        "x": -5.66984,
-        "y": 133.779
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Interpreter_(computing)",
+        "text": "interpreter",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 286
+    ],
+    "author": ""
+  }
 }

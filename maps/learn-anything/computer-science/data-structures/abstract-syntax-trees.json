@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - abstract syntax trees",
   "tag": "",
-  "nodes": [
-    {
-      "text": "abstract syntax trees",
-      "url": "http://www.wikiwand.com/en/Abstract_syntax_tree",
-      "fx": 39.390625,
-      "fy": -235.4375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 115.70987084870842,
-      "fy": -55.10608856087953,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=OEZBkiRHKf0",
-          "fx": 278.7098708487084,
-          "fy": -42.60608856087953,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "abstract syntax trees",
-      "target": "basics",
-      "curve": {
-        "x": -5.09038,
-        "y": 89.4157
+  "id": 316,
+  "map": {
+    "text": "abstract syntax trees",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OEZBkiRHKf0",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 316
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Abstract_syntax_tree",
+        "text": "abstract syntax trees",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

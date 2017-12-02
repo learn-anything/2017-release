@@ -1,58 +1,61 @@
 {
   "title": "learn anything - chemistry - organic chemistry - organic compounds",
   "tag": "",
-  "nodes": [
-    {
-      "text": "organic compounds",
-      "url": "http://www.wikiwand.com/en/Organic_compound",
-      "fx": 99.91796875,
-      "fy": -215.7734375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 159.265625,
-      "fy": -88.75390625,
-      "nodes": [
-        {
-          "text": "1. hydrocarbon power",
-          "url": "https://www.youtube.com/watch?v=UloIw7dhnlQ",
-          "fx": 315.265625,
-          "fy": -77.25390625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 175,
+  "map": {
+    "text": "organic compounds",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "alcohol  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/chemistry/organic-chemistry/organic-compounds/alcohol",
+                "text": "alcohol  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=UloIw7dhnlQ",
+            "text": "1. hydrocarbon power",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Organic_compound",
+        "text": "organic compounds",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "alcohol  ️",
-      "url": "/chemistry/organic-chemistry/organic-compounds/alcohol",
-      "fx": 66.42235458870482,
-      "fy": 23.934521754131254,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "organic compounds",
-      "target": "basics",
-      "curve": {
-        "x": -1.32617,
-        "y": 63.5098
       }
-    },
-    {
-      "source": "basics",
-      "target": "alcohol  ️",
-      "curve": {
-        "x": -44.6716,
-        "y": 56.3442
-      }
-    }
-  ],
-  "id": 175
+    ],
+    "author": ""
+  }
 }

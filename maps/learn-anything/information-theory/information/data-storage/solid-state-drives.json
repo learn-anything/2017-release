@@ -1,42 +1,42 @@
 {
   "title": "learn anything - information theory - information - data storage - solid-state drives",
   "tag": "solid-state drives",
-  "nodes": [
-    {
-      "text": "solid-state drives",
-      "url": "http://www.wikiwand.com/en/Solid-state_drive",
-      "fx": 71.20052083333348,
-      "fy": -101.42801339285722,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.49995422363281,
-      "fy": 37.380014419555664,
-      "nodes": [
-        {
-          "text": "1. how flash memory works",
-          "url": "https://www.youtube.com/watch?v=s7JLXs5es7I",
-          "fx": 283.4999542236328,
-          "fy": 48.880014419555664,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "solid-state drives",
-      "target": "basics",
-      "curve": {
-        "x": -2.85028,
-        "y": 68.154
+  "id": 641,
+  "map": {
+    "text": "solid-state drives",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=s7JLXs5es7I",
+            "text": "1. how flash memory works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 641
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Solid-state_drive",
+        "text": "solid-state drives",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

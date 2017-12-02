@@ -1,42 +1,42 @@
 {
   "title": "learn anything - data science - data processing - mapreduce",
   "tag": "MapReduce",
-  "nodes": [
-    {
-      "text": "MapReduce",
-      "url": "http://www.wikiwand.com/en/MapReduce",
-      "fx": 49.94140625,
-      "fy": -215.3046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 88.00390625,
-      "fy": -83.4609375,
-      "nodes": [
-        {
-          "text": "1. what is MapReduce",
-          "url": "https://www.youtube.com/watch?v=43fqzaSH0CQ",
-          "fx": 244.00390625,
-          "fy": -71.9609375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "MapReduce",
-      "target": "basics",
-      "curve": {
-        "x": -1.46875,
-        "y": 64.6719
+  "id": 396,
+  "map": {
+    "text": "MapReduce",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=43fqzaSH0CQ",
+            "text": "1. what is MapReduce",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 396
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/MapReduce",
+        "text": "MapReduce",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

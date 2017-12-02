@@ -1,68 +1,73 @@
 {
   "title": "learn anything - history - united states",
   "tag": "US history",
-  "nodes": [
-    {
-      "text": "US history",
-      "url": "http://www.wikiwand.com/en/History_of_the_United_States",
-      "fx": 136.7852634348634,
-      "fy": -165.0728565319704,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 154.9935408464563,
-      "fy": -29.48172982283944,
-      "nodes": [
-        {
-          "text": "1. crash course US history",
-          "url": "https://www.youtube.com/watch?v=6E9WU9TGrec&amp;list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s",
-          "fx": 336.9935408464563,
-          "fy": -37.98172982283944,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. US government and politics",
-          "url": "https://www.youtube.com/watch?v=lrk4oY7UxpQ&amp;list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H",
-          "fx": 336.9935408464563,
-          "fy": 2.0182701771605593,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 624,
+  "map": {
+    "text": "US history",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "politics of the United States",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Politics_of_the_United_States",
+                "text": "politics of the United States",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6E9WU9TGrec&amp;list=PL8dPuuaLjXtMwmepBjTSG593eG7ObzO7s",
+            "text": "1. crash course US history",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=lrk4oY7UxpQ&amp;list=PL8dPuuaLjXtOfse2ncvffeelTrqvhrz8H",
+            "text": "2. US government and politics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/History_of_the_United_States",
+        "text": "US history",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "politics of the United States",
-      "url": "http://www.wikiwand.com/en/Politics_of_the_United_States",
-      "fx": -83.53735723350223,
-      "fy": 116.32515069796955,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "US history",
-      "target": "basics",
-      "curve": {
-        "x": -0.395858,
-        "y": 66.5456
       }
-    },
-    {
-      "source": "basics",
-      "target": "politics of the United States",
-      "curve": {
-        "x": -71.0154,
-        "y": 74.1534
-      }
-    }
-  ],
-  "id": 624
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - cryptography - universal composability",
   "tag": "",
-  "nodes": [
-    {
-      "text": "universal composability",
-      "url": "http://www.wikiwand.com/en/Universal_composability",
-      "fx": 42.11328125,
-      "fy": -317.94921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 132.140625,
-      "fy": -137.89453125,
-      "nodes": [
-        {
-          "text": "1. universally compassable security: a new paradigm for cryptographic protocols",
-          "url": "https://eprint.iacr.org/2000/067.pdf",
-          "fx": 295.140625,
-          "fy": -150.39453125,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "universal composability",
-      "target": "basics",
-      "curve": {
-        "x": -4.23633,
-        "y": 89.2773
+  "id": 374,
+  "map": {
+    "text": "universal composability",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://eprint.iacr.org/2000/067.pdf",
+            "text": "1. universally compassable security: a new paradigm for cryptographic protocols",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 374
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Universal_composability",
+        "text": "universal composability",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

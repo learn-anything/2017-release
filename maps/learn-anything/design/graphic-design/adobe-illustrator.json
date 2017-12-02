@@ -1,71 +1,76 @@
 {
   "title": "learn anything - design - graphic design - adobe illustrator",
   "tag": "",
-  "nodes": [
-    {
-      "text": "adobe illustrator",
-      "url": "http://www.wikiwand.com/en/Adobe_Illustrator",
-      "fx": -152.4375,
-      "fy": -242.65625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/AdobeIllustrator/",
-          "fx": 119.5625,
-          "fy": -228.65625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -105.802734375,
-      "fy": -91.462890625,
-      "nodes": [
-        {
-          "text": "1. learn adobe illustrator",
-          "url": "https://www.youtube.com/watch?v=IBouhf4seWQ&amp;list=PLYfCBK8IplO4X-jM1Rp43wAIdpP2XNGwP",
-          "fx": 76.197265625,
-          "fy": -130.962890625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. 10 things beginners should know how to do",
-          "url": "https://www.youtube.com/watch?v=Kgmu8RwLi28",
-          "fx": 76.197265625,
-          "fy": -90.962890625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. lynda courses to get started",
-          "url": "https://www.lynda.com/Illustrator-training-tutorials/227-0.html",
-          "fx": 76.197265625,
-          "fy": -28.962890625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "adobe illustrator",
-      "target": "basics",
-      "curve": {
-        "x": -5.68262,
-        "y": 74.3467
+  "id": 427,
+  "map": {
+    "text": "adobe illustrator",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=IBouhf4seWQ&amp;list=PLYfCBK8IplO4X-jM1Rp43wAIdpP2XNGwP",
+            "text": "1. learn adobe illustrator",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Kgmu8RwLi28",
+            "text": "1. 10 things beginners should know how to do",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.lynda.com/Illustrator-training-tutorials/227-0.html",
+            "text": "1. lynda courses to get started",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 427
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/AdobeIllustrator/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Adobe_Illustrator",
+        "text": "adobe illustrator",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

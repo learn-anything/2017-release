@@ -1,86 +1,82 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - mescaline",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mescaline",
-      "url": "https://psychonautwiki.org/wiki/Mescaline",
-      "fx": -48.650669371438994,
-      "fy": -182.36503135422453,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/mescaline/",
-          "fx": 169.349330628561,
-          "fy": -168.36503135422453,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 85.46655744653117,
-      "fy": -73.73289156233676,
-      "nodes": [
-        {
-          "text": "16: mescaline trip report",
-          "url": "https://www.youtube.com/watch?v=lWKmDcPXWIk",
-          "fx": 276.46655744653117,
-          "fy": -62.23289156233676,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -29.65538194444457,
-      "fy": 50.369923161527026,
-      "nodes": [
-        {
-          "text": "1. doors of perception",
-          "url": "http://psychedelicfrontier.com/wp-content/uploads/2013/05/The-Doors-Of-Perception-Aldous-Huxley.pdf",
-          "fx": 126.34461805555543,
-          "fy": 41.869923161527026,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. overview",
-          "url": "https://www.youtube.com/watch?v=DBucvJmGphI",
-          "fx": 126.34461805555543,
-          "fy": 81.86992316152703,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mescaline",
-      "target": "basics",
-      "curve": {
-        "x": -6.00235,
-        "y": 115.117
+  "id": 160,
+  "map": {
+    "text": "mescaline",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://psychedelicfrontier.com/wp-content/uploads/2013/05/The-Doors-Of-Perception-Aldous-Huxley.pdf",
+            "text": "1. doors of perception",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DBucvJmGphI",
+            "text": "1. overview",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lWKmDcPXWIk",
+            "text": "16: mescaline trip report",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "mescaline",
-      "curve": {
-        "x": -60.3086,
-        "y": -53.0661
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/mescaline/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Mescaline",
+        "text": "mescaline",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 160
+    ],
+    "author": ""
+  }
 }

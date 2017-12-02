@@ -1,120 +1,124 @@
 {
   "title": "learn anything - games - board games - chess",
   "tag": "",
-  "nodes": [
-    {
-      "text": "chess",
-      "url": "http://www.wikiwand.com/en/Chess",
-      "fx": -156.87890625,
-      "fy": -344.3515625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/chess/",
-          "fx": 24.12109375,
-          "fy": -370.3515625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://chess.stackexchange.com/",
-          "fx": 24.12109375,
-          "fy": -330.3515625,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/hkirat/awesome-chess",
-          "fx": 24.12109375,
-          "fy": -290.3515625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -58.07466007769108,
-      "fy": -181.65365982055664,
-      "nodes": [
-        {
-          "text": "ChessNetwork",
-          "url": "https://www.youtube.com/user/ChessNetwork/videos",
-          "fx": 78.92533992230892,
-          "fy": -218.15365982055664,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "climbing the rating ladder: up to 1000",
-          "url": "https://www.youtube.com/watch?v=U2huVf1l4UE&amp;list=PLl9uuRYQ-6MCBnhtCk_bTZsD8GxeWP6BV",
-          "fx": 78.92533992230892,
-          "fy": -178.15365982055664,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "chess tactics",
-          "url": "http://www.chesstactics.org/",
-          "fx": 78.92533992230892,
-          "fy": -116.15365982055664,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -179.78856872956248,
-      "fy": -20.97953116004146,
-      "nodes": [
-        {
-          "text": "1. chess academy",
-          "url": "https://www.chesscademy.com/",
-          "fx": 1.2114312704375152,
-          "fy": -23.47953116004146,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. lichess.org",
-          "url": "https://lichess.org/",
-          "fx": 1.2114312704375152,
-          "fy": 10.52046883995854,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "chess",
-      "curve": {
-        "x": -38.4022,
-        "y": -80.099
+  "id": 563,
+  "map": {
+    "text": "chess",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/ChessNetwork/videos",
+            "text": "ChessNetwork",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U2huVf1l4UE&amp;list=PLl9uuRYQ-6MCBnhtCk_bTZsD8GxeWP6BV",
+            "text": "climbing the rating ladder: up to 1000",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.chesstactics.org/",
+            "text": "chess tactics",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.chesscademy.com/",
+            "text": "1. chess academy",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://lichess.org/",
+            "text": "1. lichess.org",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "chess",
-      "target": "basics",
-      "curve": {
-        "x": -17.7048,
-        "y": 160.437
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/chess/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://chess.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/hkirat/awesome-chess",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Chess",
+        "text": "chess",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 563
+    ],
+    "author": ""
+  }
 }

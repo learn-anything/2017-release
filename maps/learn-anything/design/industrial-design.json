@@ -1,50 +1,61 @@
 {
   "title": "learn anything - design - industrial design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "industrial design",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Industrial_design",
-      "fx": -140.91264204545462,
-      "fy": -203.37073863636368,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "prototyping",
-      "url": "http://www.wikiwand.com/en/Prototype",
-      "fx": -24.7109375,
-      "fy": -82.79296875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "3d modelling",
-      "url": "http://www.wikiwand.com/en/3D_modeling",
-      "fx": -222.88280868530273,
-      "fy": -80.82031345367432,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "industrial design",
-      "target": "3d modelling",
-      "curve": {
-        "x": -48.2351,
-        "y": 61.2752
+  "id": 433,
+  "map": {
+    "text": "industrial design",
+    "note": "",
+    "nodes": [
+      {
+        "text": "3d modelling",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/3D_modeling",
+            "text": "3d modelling",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "prototyping",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Prototype",
+            "text": "prototyping",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "industrial design",
-      "target": "prototyping",
-      "curve": {
-        "x": 47.3508,
-        "y": 60.2889
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Industrial_design",
+        "text": "industrial design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 433
+    ],
+    "author": ""
+  }
 }

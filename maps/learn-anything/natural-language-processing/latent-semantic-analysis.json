@@ -1,67 +1,72 @@
 {
   "title": "learn anything - natural language processing - latent semantic analysis",
   "tag": "",
-  "nodes": [
-    {
-      "text": "latent semantic analysis",
-      "url": "http://www.wikiwand.com/en/Distributional_semantics",
-      "fx": 25.22265625,
-      "fy": -1.703125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 119.85847091674805,
-      "fy": 135.9655990600586,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=BJ0MnawUpaU",
-          "fx": 282.85847091674805,
-          "fy": 127.4655990600586,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. introduction",
-          "url": "http://lsa.colorado.edu/papers/dp1.LSAintro.pdf",
-          "fx": 282.85847091674805,
-          "fy": 169.4655990600586,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 1201,
+  "map": {
+    "text": "latent semantic analysis",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "distributional semantics",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Distributional_semantics",
+                "text": "distributional semantics",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=BJ0MnawUpaU",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://lsa.colorado.edu/papers/dp1.LSAintro.pdf",
+            "text": "1. introduction",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Distributional_semantics",
+        "text": "latent semantic analysis",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "distributional semantics",
-      "url": "http://www.wikiwand.com/en/Distributional_semantics",
-      "fx": -79.9039988629695,
-      "fy": 288.6343484081574,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "latent semantic analysis",
-      "target": "basics",
-      "curve": {
-        "x": -3.18209,
-        "y": 68.0844
       }
-    },
-    {
-      "source": "basics",
-      "target": "distributional semantics",
-      "curve": {
-        "x": -57.3812,
-        "y": 76.3344
-      }
-    }
-  ],
-  "id": 1198
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - art - comedy",
   "tag": "",
-  "nodes": [
-    {
-      "text": "comedy",
-      "url": "http://www.wikiwand.com/en/Comedy",
-      "fx": -58.7890625,
-      "fy": -133.4609375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -37.375,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. comedy master class by Dan Harmon",
-          "url": "https://www.youtube.com/watch?v=O319eFz87fQ",
-          "fx": 118.625,
-          "fy": -21.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. how Louis CK tells a joke",
-          "url": "https://www.youtube.com/watch?v=ufdvYrTeTuU",
-          "fx": 118.625,
-          "fy": 40.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "comedy",
-      "target": "basics",
-      "curve": {
-        "x": 6.95703,
-        "y": 65.7305
+  "id": 11,
+  "map": {
+    "text": "comedy",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=O319eFz87fQ",
+            "text": "1. comedy master class by Dan Harmon",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ufdvYrTeTuU",
+            "text": "1. how Louis CK tells a joke",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 11
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Comedy",
+        "text": "comedy",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

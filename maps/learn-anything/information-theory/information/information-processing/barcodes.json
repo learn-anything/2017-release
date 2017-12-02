@@ -1,74 +1,80 @@
 {
   "title": "learn anything - information theory - information - information processing - barcodes",
   "tag": "",
-  "nodes": [
-    {
-      "text": "barcodes",
-      "url": "http://www.wikiwand.com/en/Barcode",
-      "fx": 18.815309758771832,
-      "fy": -348.8479989035088,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 45.57588052486187,
-      "fy": -221.0009495856354,
-      "nodes": [
-        {
-          "text": "1. how barcodes work",
-          "url": "https://www.youtube.com/watch?v=e6aR1k-ympo",
-          "fx": 208.57588052486187,
-          "fy": -208.5009495856354,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 644,
+  "map": {
+    "text": "barcodes",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "matrix barcodes",
+            "nodes": [
+              {
+                "text": "QR codes  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/information-theory/information/information-processing/barcodes/qr-codes",
+                    "text": "QR codes  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Barcode#/Matrix_.282D.29_barcodes",
+                "text": "matrix barcodes",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=e6aR1k-ympo",
+            "text": "1. how barcodes work",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Barcode",
+        "text": "barcodes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "matrix barcodes",
-      "url": "http://www.wikiwand.com/en/Barcode#/Matrix_.282D.29_barcodes",
-      "fx": -132.218760258585,
-      "fy": -122.76222771702561,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "QR codes  ️",
-      "url": "/information-theory/information/information-processing/barcodes/qr-codes",
-      "fx": -203.7908779254102,
-      "fy": -1.9707394383427754,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "matrix barcodes",
-      "target": "QR codes  ️",
-      "curve": {
-        "x": -50.2861,
-        "y": 60.3958
       }
-    },
-    {
-      "source": "barcodes",
-      "target": "basics",
-      "curve": {
-        "x": -2.11971,
-        "y": 63.1735
-      }
-    },
-    {
-      "source": "basics",
-      "target": "matrix barcodes",
-      "curve": {
-        "x": -57.1473,
-        "y": 49.8694
-      }
-    }
-  ],
-  "id": 644
+    ],
+    "author": ""
+  }
 }

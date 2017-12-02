@@ -1,42 +1,42 @@
 {
   "title": "learn anything - programming - programming paradigms - dataflow programming",
   "tag": "",
-  "nodes": [
-    {
-      "text": "dataflow programming",
-      "url": "http://www.wikiwand.com/en/Dataflow_programming",
-      "fx": -117.4296875,
-      "fy": -188.16796875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -31.03125,
-      "fy": -4.04296875,
-      "nodes": [
-        {
-          "text": "1. explanation + dataflow languages   ️",
-          "url": "https://stackoverflow.com/a/949771/3067664",
-          "fx": 124.96875,
-          "fy": -3.54296875,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "dataflow programming",
-      "target": "basics",
-      "curve": {
-        "x": -0.550781,
-        "y": 90.8125
+  "id": 1670,
+  "map": {
+    "text": "dataflow programming",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/949771/3067664",
+            "text": "1. explanation + dataflow languages   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 1667
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Dataflow_programming",
+        "text": "dataflow programming",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - computer science - data structures - serialisation - protocol buffers",
   "tag": "",
-  "nodes": [
-    {
-      "text": "protocol buffers",
-      "url": "http://www.wikiwand.com/en/Protocol_Buffers",
-      "fx": 213.26171875,
-      "fy": -143.6640625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/google/protobuf",
-          "fx": 482.26171875,
-          "fy": -129.6640625,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 269.7810329861112,
-      "fy": -7.184895833333314,
-      "nodes": [
-        {
-          "text": "1. tutorials",
-          "url": "https://developers.google.com/protocol-buffers/docs/tutorials",
-          "fx": 451.7810329861112,
-          "fy": 7.315104166666686,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "protocol buffers",
-      "target": "basics",
-      "curve": {
-        "x": 0.00965712,
-        "y": 66.9896
+  "id": 332,
+  "map": {
+    "text": "protocol buffers",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://developers.google.com/protocol-buffers/docs/tutorials",
+            "text": "1. tutorials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 332
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/google/protobuf",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Protocol_Buffers",
+        "text": "protocol buffers",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

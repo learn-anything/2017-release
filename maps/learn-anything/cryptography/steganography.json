@@ -1,42 +1,42 @@
 {
   "title": "learn anything - cryptography - steganography",
   "tag": "",
-  "nodes": [
-    {
-      "text": "steganography",
-      "url": "http://www.wikiwand.com/en/Steganography",
-      "fx": 110.7766399211713,
-      "fy": -205.67018581081072,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 158.62213740458014,
-      "fy": -64.77099236643141,
-      "nodes": [
-        {
-          "text": "1. secrets hidden in images",
-          "url": "https://www.youtube.com/watch?v=TWEXCYQKyDc",
-          "fx": 314.62213740458014,
-          "fy": -53.270992366431415,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "steganography",
-      "target": "basics",
-      "curve": {
-        "x": -2.57725,
-        "y": 69.1996
+  "id": 373,
+  "map": {
+    "text": "steganography",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=TWEXCYQKyDc",
+            "text": "1. secrets hidden in images",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 373
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Steganography",
+        "text": "steganography",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

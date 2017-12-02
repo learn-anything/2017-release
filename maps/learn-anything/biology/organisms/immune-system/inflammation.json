@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - organisms - immune system - inflammation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "inflammation",
-      "url": "http://www.wikiwand.com/en/Inflammation",
-      "fx": 86.84375,
-      "fy": -142.99548678330973,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 127.13510448831914,
-      "fy": -6.980016218104765,
-      "nodes": [
-        {
-          "text": "1. explanation: part I",
-          "url": "https://www.youtube.com/watch?v=cdCh4_Ckor0",
-          "fx": 283.13510448831914,
-          "fy": -15.480016218104765,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. explanation: part II",
-          "url": "https://www.youtube.com/watch?v=aD6UD1ETMCg",
-          "fx": 283.13510448831914,
-          "fy": 24.519983781895235,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "inflammation",
-      "target": "basics",
-      "curve": {
-        "x": 5.89568,
-        "y": 68.0077
+  "id": 120,
+  "map": {
+    "text": "inflammation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cdCh4_Ckor0",
+            "text": "1. explanation: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aD6UD1ETMCg",
+            "text": "1. explanation: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 120
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Inflammation",
+        "text": "inflammation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

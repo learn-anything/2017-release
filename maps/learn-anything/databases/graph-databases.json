@@ -1,50 +1,61 @@
 {
   "title": "learn anything - databases - graph databases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "graph databases",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Graph_database",
-      "fx": -149.60190963745117,
-      "fy": -145.67429161071777,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "dgraph",
-      "url": "https://github.com/dgraph-io/dgraph",
-      "fx": -41.432476745401345,
-      "fy": -34.26949532295146,
-      "nodes": [],
-      "category": "github"
-    },
-    {
-      "text": "neo4j  ️",
-      "url": "/databases/graph-databases/neo4j",
-      "fx": -210.7733917236328,
-      "fy": 12.02343463897705,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "graph databases",
-      "target": "neo4j  ️",
-      "curve": {
-        "x": -63.5858,
-        "y": 77.5989
+  "id": 404,
+  "map": {
+    "text": "graph databases",
+    "note": "",
+    "nodes": [
+      {
+        "text": "neo4j  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/databases/graph-databases/neo4j",
+            "text": "neo4j  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "dgraph",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/dgraph-io/dgraph",
+            "text": "dgraph",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "graph databases",
-      "target": "dgraph",
-      "curve": {
-        "x": 32.0847,
-        "y": 55.7024
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Graph_database",
+        "text": "graph databases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 404
+    ],
+    "author": ""
+  }
 }

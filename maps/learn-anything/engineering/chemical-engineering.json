@@ -1,70 +1,75 @@
 {
   "title": "learn anything - engineering - chemical engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "chemical engineering",
-      "url": "http://www.wikiwand.com/en/Chemical_engineering",
-      "fx": 15.91796875,
-      "fy": -227.64453125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/ChemicalEngineering/",
-          "fx": 333.91796875,
-          "fy": -213.64453125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 89.1379003558717,
-      "fy": -58.37636232206398,
-      "nodes": [
-        {
-          "text": "1. introduction to chemical engineering",
-          "url": "https://www.youtube.com/watch?v=WgWNQVdhE9A",
-          "fx": 245.1379003558717,
-          "fy": -130.87636232206398,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. chemical engineering: how it started",
-          "url": "https://www.youtube.com/watch?v=5f5D194LHjw",
-          "fx": 245.1379003558717,
-          "fy": -68.87636232206398,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. introduction to chemical engineering: tools for today and tomorrow",
-          "url": "http://www.goodreads.com/book/show/19840806-introduction-to-chemical-engineering",
-          "fx": 245.1379003558717,
-          "fy": -6.876362322063983,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "chemical engineering",
-      "target": "basics",
-      "curve": {
-        "x": -3.89003,
-        "y": 83.3841
+  "id": 514,
+  "map": {
+    "text": "chemical engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=WgWNQVdhE9A",
+            "text": "1. introduction to chemical engineering",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=5f5D194LHjw",
+            "text": "1. chemical engineering: how it started",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/19840806-introduction-to-chemical-engineering",
+            "text": "1. introduction to chemical engineering: tools for today and tomorrow",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 514
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/ChemicalEngineering/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Chemical_engineering",
+        "text": "chemical engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

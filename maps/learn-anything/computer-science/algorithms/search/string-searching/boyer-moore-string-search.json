@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - algorithms - search - string searching - boyer-moore string search",
   "tag": "Boyer-Moore string search algorithm",
-  "nodes": [
-    {
-      "text": "Boyer-Moore string search algorithm",
-      "url": "http://www.wikiwand.com/en/Boyer%E2%80%93Moore_string_search_algorithm",
-      "fx": 59.71875,
-      "fy": -109.125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 142.5,
-      "fy": 41,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=4Xyhb72LCX4",
-          "fx": 298.5,
-          "fy": 52.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Boyer-Moore string search algorithm",
-      "target": "basics",
-      "curve": {
-        "x": -6.35938,
-        "y": 67.5625
+  "id": 274,
+  "map": {
+    "text": "Boyer-Moore string search algorithm",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=4Xyhb72LCX4",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 274
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Boyer%E2%80%93Moore_string_search_algorithm",
+        "text": "Boyer-Moore string search algorithm",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

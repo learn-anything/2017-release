@@ -1,75 +1,70 @@
 {
   "title": "learn anything - computer science - programming language theory - type systems - type classes",
   "tag": "",
-  "nodes": [
-    {
-      "text": "type classes",
-      "url": "http://www.wikiwand.com/en/Type_class",
-      "fx": -92.61328125,
-      "fy": -210.53722426470586,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 45.04704410173076,
-      "fy": -98.7229859983766,
-      "nodes": [
-        {
-          "text": "type classes vs the world",
-          "url": "https://www.youtube.com/watch?v=hIZxTQP1ifo",
-          "fx": 185.04704410173076,
-          "fy": -87.2229859983766,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -68.07710711667346,
-      "fy": 35.11398738610177,
-      "nodes": [
-        {
-          "text": "1. types and typeclasses",
-          "url": "http://learnyouahaskell.com/types-and-typeclasses",
-          "fx": 87.92289288332654,
-          "fy": 29.61398738610177,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. typeclasses in scala",
-          "url": "https://www.youtube.com/watch?v=sVMES4RZF-8",
-          "fx": 87.92289288332654,
-          "fy": 63.61398738610177,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "type classes",
-      "target": "basics",
-      "curve": {
-        "x": -8.48191,
-        "y": 121.576
+  "id": 344,
+  "map": {
+    "text": "type classes",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://learnyouahaskell.com/types-and-typeclasses",
+            "text": "1. types and typeclasses",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sVMES4RZF-8",
+            "text": "1. typeclasses in scala",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=hIZxTQP1ifo",
+            "text": "type classes vs the world",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "talks",
-      "target": "type classes",
-      "curve": {
-        "x": -44.0802,
-        "y": -54.6571
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Type_class",
+        "text": "type classes",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 344
+    ],
+    "author": ""
+  }
 }

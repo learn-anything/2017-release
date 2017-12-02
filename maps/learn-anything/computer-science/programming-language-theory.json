@@ -1,212 +1,230 @@
 {
   "title": "learn anything - computer science - programming language theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "programming language theory",
-      "url": "http://www.wikiwand.com/en/Programming_language_theory",
-      "fx": 69.16928142223412,
-      "fy": -1237.8896254597107,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 304.1758434125625,
-      "fy": -1090.7330185244377,
-      "nodes": [
-        {
-          "text": "(how to write a (lisp) interpreter (in python))  ️",
-          "url": "http://norvig.com/lispy.html",
-          "fx": 441.1758434125625,
-          "fy": -1110.2330185244377,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "let’s build a simple interpreter  ️",
-          "url": "https://ruslanspivak.com/lsbasi-part1/",
-          "fx": 441.1758434125625,
-          "fy": -1048.2330185244377,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 346,
+  "map": {
+    "text": "programming language theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "evaluation strategies  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/evaluation-strategies",
+                "text": "evaluation strategies  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "type systems  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/type-systems",
+                "text": "type systems  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "formal language",
+            "note": "is a set of strings of symbols together with a set of rules that are specific to it  the alphabet of a formal language is the set of symbols, letters, or tokens from which the strings of the language may be formed  the strings formed from this alphabet are called words, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas  a formal language is often defined by means of a formal grammar such as a regular grammar or context-free grammar, also called it formation rule",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Formal_language",
+                "text": "formal language",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "closures  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/closures",
+                "text": "closures  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "session types  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-science/programming-language-theory/session-types",
+                "text": "session types  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://steshaw.org/plt/",
+            "text": "1. programming language theory list  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/",
+            "text": "1. programming languages: application and interpretation",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.cis.upenn.edu/%7Ebcpierce/tapl/",
+            "text": "1. types and programming languages",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.cs.cmu.edu/%7Erwh/pfpl.html",
+            "text": "1. practical foundations for programming languages",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://184.168.171.185/BOOKS/DVD%201/Essentials%20of%20Programming%20Languages%20-%20Daniel%20P.%20Friedman%20and%20Mitchell%20Wand.pdf",
+            "text": "1. essentials of programming languages",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.seas.harvard.edu/courses/cs152/2016sp/",
+            "text": "1. programming languages",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://concrete-semantics.org/",
+            "text": "2. concrete semantics",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://norvig.com/lispy.html",
+            "text": "(how to write a (lisp) interpreter (in python))  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ruslanspivak.com/lsbasi-part1/",
+            "text": "let’s build a simple interpreter  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Programming_language_theory",
+        "text": "programming language theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 130.1581765761473,
-      "fy": -808.4442419324058,
-      "nodes": [
-        {
-          "text": "1. programming language theory list  ️",
-          "url": "http://steshaw.org/plt/",
-          "fx": 312.1581765761473,
-          "fy": -960.9442419324058,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "1. programming languages: application and interpretation",
-          "url": "http://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/",
-          "fx": 312.1581765761473,
-          "fy": -920.9442419324058,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "1. types and programming languages",
-          "url": "https://www.cis.upenn.edu/%7Ebcpierce/tapl/",
-          "fx": 312.1581765761473,
-          "fy": -858.9442419324058,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. practical foundations for programming languages",
-          "url": "http://www.cs.cmu.edu/%7Erwh/pfpl.html",
-          "fx": 312.1581765761473,
-          "fy": -796.9442419324058,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. essentials of programming languages",
-          "url": "http://184.168.171.185/BOOKS/DVD%201/Essentials%20of%20Programming%20Languages%20-%20Daniel%20P.%20Friedman%20and%20Mitchell%20Wand.pdf",
-          "fx": 312.1581765761473,
-          "fy": -734.9442419324058,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. programming languages",
-          "url": "http://www.seas.harvard.edu/courses/cs152/2016sp/",
-          "fx": 312.1581765761473,
-          "fy": -672.9442419324058,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "2. concrete semantics",
-          "url": "http://concrete-semantics.org/",
-          "fx": 312.1581765761473,
-          "fy": -632.9442419324058,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "formal language",
-      "note": "is a set of strings of symbols together with a set of rules that are specific to it  the alphabet of a formal language is the set of symbols, letters, or tokens from which the strings of the language may be formed  the strings formed from this alphabet are called words, and the words that belong to a particular formal language are sometimes called well-formed words or well-formed formulas  a formal language is often defined by means of a formal grammar such as a regular grammar or context-free grammar, also called it formation rule",
-      "url": "http://www.wikiwand.com/en/Formal_language",
-      "fx": -7.264769106031281,
-      "fy": -544.1693422187508,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "type systems  ️",
-      "url": "/computer-science/programming-language-theory/type-systems",
-      "fx": -204.20938418065043,
-      "fy": -544.0758490934494,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "evaluation strategies  ️",
-      "url": "/computer-science/programming-language-theory/evaluation-strategies",
-      "fx": -462.3472159966659,
-      "fy": -543.1633919047815,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "session types  ️",
-      "url": "/computer-science/programming-language-theory/session-types",
-      "fx": 245.65275487393615,
-      "fy": -543.0972741375942,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "closures  ️",
-      "url": "/computer-science/programming-language-theory/closures",
-      "fx": -619.0184423322464,
-      "fy": -542.3056151581785,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "programming language theory",
-      "target": "basics",
-      "curve": {
-        "x": -24.5056,
-        "y": 207.222
       }
-    },
-    {
-      "source": "basics",
-      "target": "evaluation strategies  ️",
-      "curve": {
-        "x": -257.503,
-        "y": 133.892
-      }
-    },
-    {
-      "source": "help",
-      "target": "programming language theory",
-      "curve": {
-        "x": -57.7532,
-        "y": -66.0783
-      }
-    },
-    {
-      "source": "basics",
-      "target": "type systems  ️",
-      "curve": {
-        "x": -158.664,
-        "y": 157.285
-      }
-    },
-    {
-      "source": "basics",
-      "target": "formal language",
-      "curve": {
-        "x": -53.4615,
-        "y": 132.139
-      }
-    },
-    {
-      "source": "basics",
-      "target": "closures  ️",
-      "curve": {
-        "x": -438.799,
-        "y": 118.253
-      }
-    },
-    {
-      "source": "basics",
-      "target": "session types  ️",
-      "curve": {
-        "x": 60.8951,
-        "y": 136.867
-      }
-    }
-  ],
-  "id": 346
+    ],
+    "author": ""
+  }
 }

@@ -1,42 +1,42 @@
 {
   "title": "learn anything - engineering - bionics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bionics",
-      "url": "http://www.wikiwand.com/en/Bionics",
-      "fx": 77.98828125,
-      "fy": -209.140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 126.2734375,
-      "fy": -78.08203125,
-      "nodes": [
-        {
-          "text": "15: can prosthetics outperform real limbs?",
-          "url": "https://www.youtube.com/watch?v=a2z8CE2vomY",
-          "fx": 317.2734375,
-          "fy": -77.58203125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "interesting",
-      "target": "bionics",
-      "curve": {
-        "x": -24.1426,
-        "y": -64.2793
+  "id": 513,
+  "map": {
+    "text": "bionics",
+    "nodes": [
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=a2z8CE2vomY",
+            "text": "15: can prosthetics outperform real limbs?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 513
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bionics",
+        "text": "bionics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

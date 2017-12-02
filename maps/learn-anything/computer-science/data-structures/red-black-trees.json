@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - red-black trees",
   "tag": "red black trees",
-  "nodes": [
-    {
-      "text": "red-black tree",
-      "url": "http://www.wikiwand.com/en/Red%E2%80%93black_tree",
-      "fx": -68.17833190639271,
-      "fy": -191.9900292522832,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -25.170804794520564,
-      "fy": -38.642051940639305,
-      "nodes": [
-        {
-          "text": "1. red-black trees in 4 minutes",
-          "url": "https://www.youtube.com/watch?v=qvZGUFHWChY",
-          "fx": 130.82919520547944,
-          "fy": -27.142051940639305,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "red-black tree",
-      "target": "basics",
-      "curve": {
-        "x": -2.74624,
-        "y": 75.424
+  "id": 329,
+  "map": {
+    "text": "red-black tree",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=qvZGUFHWChY",
+            "text": "1. red-black trees in 4 minutes",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 329
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Red%E2%80%93black_tree",
+        "text": "red-black tree",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

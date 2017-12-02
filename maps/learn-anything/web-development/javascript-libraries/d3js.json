@@ -1,286 +1,176 @@
 {
   "title": "learn anything - web development - javascript libraries - d3js",
   "tag": "d3.js library",
-  "nodes": [
-    {
-      "text": "d3.js",
-      "url": "http://www.wikiwand.com/en/D3.js",
-      "fx": -51.87109375,
-      "fy": -417.578125,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/d3js/",
-          "fx": 119.12890625,
-          "fy": -443.578125,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/d3/d3",
-          "fx": 119.12890625,
-          "fy": -403.578125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/wbkd/awesome-d3",
-          "fx": 119.12890625,
-          "fy": -363.578125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 33.02734375,
-      "fy": -246.09283924102783,
-      "nodes": [
-        {
-          "text": "dashing d3.js",
-          "url": "https://www.dashingd3js.com/table-of-contents",
-          "fx": 170.02734375,
-          "fy": -268.59283924102783,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "d3 cheat sheet",
-          "url": "http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf",
-          "fx": 170.02734375,
-          "fy": -228.59283924102783,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "d3 tutorials",
-          "url": "https://github.com/d3/d3/wiki/Tutorials",
-          "fx": 170.02734375,
-          "fy": -194.59283924102783,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 92.37029838562012,
-      "fy": -102.48966789245605,
-      "nodes": [
-        {
-          "text": "14: three little circles  ️",
-          "url": "https://bost.ocks.org/mike/circles/",
-          "fx": 254.4303741455078,
-          "fy": -121.89817142486572,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "13: selections in d3 - the long story  ️",
-          "url": "http://www.jeromecukier.net/blog/2013/03/05/d3-tutorial-at-strata-redux/",
-          "fx": 254.37029838562012,
-          "fy": -81.98966789245605,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -110.66197862790864,
-      "fy": 75.18139394846833,
-      "nodes": [
-        {
-          "text": "1. hitchhiker’s guide to d3.js  ️",
-          "url": "https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a",
-          "fx": 71.33802137209136,
-          "fy": 18.681393948468326,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. interactive data visualisation for the web",
-          "url": "http://chimera.labs.oreilly.com/books/1230000000345/",
-          "fx": 71.33802137209136,
-          "fy": 58.681393948468326,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. data visualisation and d3.js",
-          "url": "https://www.udacity.com/course/data-visualization-and-d3js--ud507",
-          "fx": 71.33802137209136,
-          "fy": 120.68139394846833,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. visualisation fundamentals",
-          "url": "https://classroom.udacity.com/courses/ud507",
-          "fx": 71.33802137209136,
-          "fy": 160.68139394846833,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "selection, data and enter",
-          "url": "",
-          "description": "d3.selection(), d3.data() and d3.enter() are the basics of d3",
-          "nodes": [
-            {
-              "text": "A gentle introduction to D3: how to build a reusable bubble chart",
-              "url": "https://medium.freecodecamp.org/a-gentle-introduction-to-d3-how-to-build-a-reusable-bubble-chart-9106dc4f6c46",
-              "nodes": [],
-              "category": "article",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1889,
+  "map": {
+    "text": "d3.js",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://medium.com/@enjalot/the-hitchhikers-guide-to-d3-js-a8552174733a",
+            "text": "1. hitchhiker’s guide to d3.js  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ]
-        },
-        {
-          "text": "building a graph",
-          "url": "",
-          "description": "concepts you'lll need to build a graph",
-          "nodes": [
-            {
-              "text": "1. scales",
-              "url": "https://github.com/d3/d3-scale/blob/master/README.md",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "2. axes",
-              "url": "https://github.com/d3/d3-axis/blob/master/README.md",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
+          },
+          {
+            "url": "http://chimera.labs.oreilly.com/books/1230000000345/",
+            "text": "1. interactive data visualisation for the web",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ]
-        },
-        {
-          "text": "layouts",
-          "url": "",
-          "description": "A layout encapsulates a strategy for laying out data elements visually, relative to each other",
-          "nodes": [
-            {
-              "text": "d3.pack",
-              "url": "https://github.com/d3/d3-hierarchy/blob/master/README.md#pack",
-              "description": "create a new circle-packing layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.cluster",
-              "url": "https://github.com/d3/d3-hierarchy/blob/master/README.md#cluster",
-              "description": "create a new cluster (dendrogram) layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.tree",
-              "url": "https://github.com/d3/d3-hierarchy/blob/master/README.md#tree",
-              "description": "create a new tidy tree layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.treemap",
-              "url": "https://github.com/d3/d3-hierarchy/blob/master/README.md#treemap",
-              "description": "create a new treemap layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.partition",
-              "url": "https://github.com/d3/d3-hierarchy/blob/master/README.md#partition",
-              "description": "create a new partition (icicle or sunburst) layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.chord",
-              "url": "https://github.com/d3/d3-chord/blob/master/README.md#chord",
-              "description": "create a new chord layout",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
-            },
-            {
-              "text": "d3.voronoi",
-              "url": "https://github.com/d3/d3-voronoi/blob/master/README.md#voronoi",
-              "description": "create a new Voronoi generator",
-              "nodes": [],
-              "category": "github",
-              "color": "rgba(175, 54, 242, 1.0)"
+          },
+          {
+            "url": "https://www.udacity.com/course/data-visualization-and-d3js--ud507",
+            "text": "1. data visualisation and d3.js",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ]
+          },
+          {
+            "url": "https://classroom.udacity.com/courses/ud507",
+            "text": "1. visualisation fundamentals",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://bost.ocks.org/mike/circles/",
+                "text": "14: three little circles  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.jeromecukier.net/blog/2013/03/05/d3-tutorial-at-strata-redux/",
+                "text": "13: selections in d3 - the long story  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.dashingd3js.com/table-of-contents",
+            "text": "dashing d3.js",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf",
+            "text": "d3 cheat sheet",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/d3/d3/wiki/Tutorials",
+            "text": "d3 tutorials",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/d3js/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "d3.js",
-      "target": "basics",
-      "curve": {
-        "x": -33.1455,
-        "y": 245.131
+      },
+      {
+        "url": "https://github.com/d3/d3",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/wbkd/awesome-d3",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/D3.js",
+        "text": "d3.js",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "help",
-      "target": "d3.js",
-      "curve": {
-        "x": -33.9493,
-        "y": -84.4926
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -35.9215,
-        "y": -71.8015
-      }
-    },
-    {
-      "source": "selection, data and enter",
-      "target": "basics",
-      "curve": {"{}"}
-    }
-    ,
-    {
-      "source": "building a graph",
-      "target": "basics",
-      "curve": {"{}"}
-    },
-    {
-      "source": "layouts",
-      "target": "basics",
-      "curve": {"{}"}
-    }
-  ],
-  "id": 1885
+    ],
+    "author": ""
+  }
 }

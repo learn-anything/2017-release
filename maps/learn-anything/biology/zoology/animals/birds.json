@@ -1,76 +1,71 @@
 {
   "title": "learn anything - biology - zoology - animals - birds",
   "tag": "",
-  "nodes": [
-    {
-      "text": "birds",
-      "url": "http://www.wikiwand.com/en/Bird",
-      "fx": -62.74609375,
-      "fy": -329.1015625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 51.012317534772706,
-      "fy": -193.71867076572,
-      "nodes": [
-        {
-          "text": "the fascination intelligence of bids",
-          "url": "https://www.youtube.com/watch?v=3uLp0C6G__w",
-          "fx": 250.0123175347727,
-          "fy": -214.71867076572,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "a robot that flies like a bird",
-          "url": "https://www.youtube.com/watch?v=Fg_JcKSHUtQ",
-          "fx": 250.0123175347727,
-          "fy": -147.71867076572,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -68.14112158479361,
-      "fy": -59.17580025771565,
-      "nodes": [
-        {
-          "text": "1. how do birds fly?",
-          "url": "https://www.youtube.com/watch?v=3So7OMwNgy8",
-          "fx": 94.85887841520639,
-          "fy": -46.67580025771565,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "birds",
-      "target": "basics",
-      "curve": {
-        "x": -6.69751,
-        "y": 134.213
+  "id": 133,
+  "map": {
+    "text": "birds",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3So7OMwNgy8",
+            "text": "1. how do birds fly?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3uLp0C6G__w",
+            "text": "the fascination intelligence of bids",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Fg_JcKSHUtQ",
+            "text": "a robot that flies like a bird",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "birds",
-      "curve": {
-        "x": -47.8792,
-        "y": -66.9414
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bird",
+        "text": "birds",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 133
+    ],
+    "author": ""
+  }
 }

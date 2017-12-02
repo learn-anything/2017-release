@@ -1,59 +1,71 @@
 {
   "title": "learn anything - health - nutrition - food",
   "tag": "",
-  "nodes": [
-    {
-      "text": "food",
-      "url": "http://www.wikiwand.com/en/Food",
-      "fx": -97.32699424342104,
-      "fy": -195.75041118421052,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/food/",
-          "fx": 70.67300575657896,
-          "fy": -181.75041118421052,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 614,
+  "map": {
+    "text": "food",
+    "nodes": [
+      {
+        "text": "cooking  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/health/nutrition/food/cooking",
+            "text": "cooking  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "healthy food  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/health/nutrition/food/health-food",
+            "text": "healthy food  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/food/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "cooking  ️",
-      "url": "/health/nutrition/food/cooking",
-      "fx": -215.42208059210532,
-      "fy": -70.30211759868428,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "healthy food  ️",
-      "url": "/health/nutrition/food/health-food",
-      "fx": -59.01838934686123,
-      "fy": -67.27427225352176,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "food",
-      "target": "cooking  ️",
-      "curve": {
-        "x": -58.5475,
-        "y": 61.4741
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Food",
+        "text": "food",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "food",
-      "target": "healthy food  ️",
-      "curve": {
-        "x": 29.4043,
-        "y": 62.9881
-      }
-    }
-  ],
-  "id": 614
+    ],
+    "author": ""
+  }
 }

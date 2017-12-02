@@ -1,348 +1,361 @@
 {
   "title": "learn anything - artificial intelligence",
   "tag": "",
-  "nodes": [
-    {
-      "text": "artificial intelligence",
-      "url": "http://www.wikiwand.com/en/Artificial_intelligence",
-      "fx": 73.72117248062023,
-      "fy": -457.3434471899225,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/artificial/",
-          "fx": 372.7211724806202,
-          "fy": -463.3434471899225,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
-          "fx": 372.7211724806202,
-          "fy": -423.3434471899225,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 73,
+  "map": {
+    "text": "artificial intelligence",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "general artificial intelligence  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/artificial-intelligence/general-artificial-intelligence",
+                "text": "general artificial intelligence  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "weak AI",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Weak_AI",
+                "text": "weak AI",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "AI planning  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/artificial-intelligence/ai-planning",
+                "text": "AI planning  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "knowledge representation and reasoning  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/artificial-intelligence/knowledge-representation-and-reasoning",
+                "text": "knowledge representation and reasoning  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "generative learning  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/artificial-intelligence/generative-learning",
+                "text": "generative learning  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://ai.berkeley.edu/home.html",
+            "text": "1. intro to AI",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/",
+            "text": "1. learning to learn  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/27543.Artificial_Intelligence",
+            "text": "1. artificial intelligence: a modern approach",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/20527133-superintelligence",
+            "text": "2. superintelligence: paths, dangers, strategies",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [
+                  {
+                    "text": "competitions",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://www.battlecode.org/contestants/about/",
+                        "text": "battlecode",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://www.ted.com/playlists/310/talks_on_artificial_intelligen",
+                    "text": "TED talks on AI",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://www.youtube.com/watch?v=Xc2tiSH_eBg",
+                    "text": "17: elon musk nick bostrom ray kurzweil superintelligence",
+                    "category": "video",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "https://80000hours.org/2017/07/podcast-the-world-needs-ai-researchers-heres-how-to-become-one/",
+                    "text": "17: how to train for a job developing  AI at OpenAI or DeepMind  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html",
+                "text": "15: the AI revolution: the road to superintelligence  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62",
+                "text": "17: the myth of superhuman AI  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wired.co.uk/article/deepmind-atari-learning-sequential-memory-ewc",
+                "text": "17: deepmind's new algorithm adds 'memory' to ai  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.livemint.com/Industry/fJ2aNzCUokPneLlENJY5YI/Artificial-intelligence-is-already-all-around-us-John-MacIn.html",
+                "text": "17: ai is all around us  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://stratechery.com/2017/the-arrival-of-artificial-intelligence/",
+                "text": "17: the arrival of artificial intelligence  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.eff.org/ai/metrics",
+                "text": "17: measuring the process of AI research  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Outline_of_artificial_intelligence",
+            "text": "outline of artificial intelligence",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://frnsys.com/ai_notes/artificial_intelligence/in_practice.html",
+            "text": "AI in practice  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://frnsys.com/ai_notes/",
+            "text": "notes on artificial intelligence",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/artificial/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 301.65130440324594,
-      "fy": -314.152624760795,
-      "nodes": [
-        {
-          "text": "outline of artificial intelligence",
-          "url": "http://www.wikiwand.com/en/Outline_of_artificial_intelligence",
-          "fx": 438.65130440324594,
-          "fy": -339.652624760795,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "AI in practice  ️",
-          "url": "http://frnsys.com/ai_notes/artificial_intelligence/in_practice.html",
-          "fx": 438.65130440324594,
-          "fy": -299.652624760795,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "notes on artificial intelligence",
-          "url": "http://frnsys.com/ai_notes/",
-          "fx": 438.65130440324594,
-          "fy": -259.652624760795,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
+      },
+      {
+        "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -63.23664760824431,
-      "fy": -99.21666448805468,
-      "nodes": [
-        {
-          "text": "1. intro to AI",
-          "url": "http://ai.berkeley.edu/home.html",
-          "fx": 118.76335239175569,
-          "fy": -169.71666448805468,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. learning to learn  ️",
-          "url": "http://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/",
-          "fx": 118.76335239175569,
-          "fy": -129.71666448805468,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. artificial intelligence: a modern approach",
-          "url": "https://www.goodreads.com/book/show/27543.Artificial_Intelligence",
-          "fx": 118.76335239175569,
-          "fy": -89.71666448805468,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. superintelligence: paths, dangers, strategies",
-          "url": "http://www.goodreads.com/book/show/20527133-superintelligence",
-          "fx": 118.76335239175569,
-          "fy": -27.716664488054676,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Artificial_intelligence",
+        "text": "artificial intelligence",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 492.5199782183797,
-      "fy": -65.61501782697246,
-      "nodes": [
-        {
-          "text": "15: the AI revolution: the road to superintelligence  ️",
-          "url": "http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html",
-          "fx": 654.5199782183797,
-          "fy": -198.11501782697246,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "17: the myth of superhuman AI  ️",
-          "url": "https://backchannel.com/the-myth-of-a-superhuman-ai-59282b686c62",
-          "fx": 654.5199782183797,
-          "fy": -136.11501782697246,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: deepmind's new algorithm adds 'memory' to ai  ️",
-          "url": "http://www.wired.co.uk/article/deepmind-atari-learning-sequential-memory-ewc",
-          "fx": 654.5199782183797,
-          "fy": -96.11501782697246,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "17: ai is all around us  ️",
-          "url": "http://www.livemint.com/Industry/fJ2aNzCUokPneLlENJY5YI/Artificial-intelligence-is-already-all-around-us-John-MacIn.html",
-          "fx": 654.5199782183797,
-          "fy": -34.11501782697246,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "17: the arrival of artificial intelligence  ️",
-          "url": "https://stratechery.com/2017/the-arrival-of-artificial-intelligence/",
-          "fx": 654.5199782183797,
-          "fy": 5.884982173027538,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "17: measuring the process of AI research  ️",
-          "url": "https://www.eff.org/ai/metrics",
-          "fx": 654.5199782183797,
-          "fy": 67.88498217302754,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(49, 187, 71, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "general artificial intelligence  ️",
-      "url": "/artificial-intelligence/general-artificial-intelligence",
-      "fx": -213.64084393217922,
-      "fy": 105.54459483131126,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "AI planning  ️",
-      "url": "/artificial-intelligence/ai-planning",
-      "fx": -412.53248727749815,
-      "fy": 107.41032479243222,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "knowledge representation and reasoning  ️",
-      "url": "/artificial-intelligence/knowledge-representation-and-reasoning",
-      "fx": -883.8553830443641,
-      "fy": 107.74196054694801,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "generative learning  ️",
-      "url": "/artificial-intelligence/generative-learning",
-      "fx": -1133.3372692694438,
-      "fy": 108.12615870573643,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "weak AI",
-      "url": "http://www.wikiwand.com/en/Weak_AI",
-      "fx": 109.56660468092889,
-      "fy": 108.57359917870741,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 552.6076250165634,
-      "fy": 237.4084006244616,
-      "nodes": [
-        {
-          "text": "TED talks on AI",
-          "url": "https://www.ted.com/playlists/310/talks_on_artificial_intelligen",
-          "fx": 743.6076250165634,
-          "fy": 175.9084006244616,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "17: elon musk nick bostrom ray kurzweil superintelligence",
-          "url": "https://www.youtube.com/watch?v=Xc2tiSH_eBg",
-          "fx": 743.6076250165634,
-          "fy": 215.9084006244616,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: how to train for a job developing  AI at OpenAI or DeepMind  ️",
-          "url": "https://80000hours.org/2017/07/podcast-the-world-needs-ai-researchers-heres-how-to-become-one/",
-          "fx": 743.6076250165634,
-          "fy": 277.9084006244616,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "competitions",
-      "url": "",
-      "fx": 599.810257479629,
-      "fy": 411.6948176755732,
-      "nodes": [
-        {
-          "text": "battlecode",
-          "url": "https://www.battlecode.org/contestants/about/",
-          "fx": 814.810257479629,
-          "fy": 426.1948176755732,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "artificial intelligence",
-      "target": "basics",
-      "curve": {
-        "x": -92.7284,
-        "y": 179.064
       }
-    },
-    {
-      "source": "basics",
-      "target": "general artificial intelligence  ️",
-      "curve": {
-        "x": -35.2022,
-        "y": 102.381
-      }
-    },
-    {
-      "source": "basics",
-      "target": "weak AI",
-      "curve": {
-        "x": 90.6517,
-        "y": 105.145
-      }
-    },
-    {
-      "source": "help",
-      "target": "artificial intelligence",
-      "curve": {
-        "x": -73.4652,
-        "y": -70.3456
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -101.685,
-        "y": -124.27
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -57.4982,
-        "y": -137.804
-      }
-    },
-    {
-      "source": "basics",
-      "target": "AI planning  ️",
-      "curve": {
-        "x": -170.648,
-        "y": 103.313
-      }
-    },
-    {
-      "source": "basics",
-      "target": "knowledge representation and reasoning  ️",
-      "curve": {
-        "x": -361.559,
-        "y": 110.979
-      }
-    },
-    {
-      "source": "basics",
-      "target": "generative learning  ️",
-      "curve": {
-        "x": -571.281,
-        "y": 71.1677
-      }
-    },
-    {
-      "source": "competitions",
-      "target": "interesting",
-      "curve": {
-        "x": -29.6013,
-        "y": -87.1432
-      }
-    }
-  ],
-  "id": 73
+    ],
+    "author": ""
+  }
 }

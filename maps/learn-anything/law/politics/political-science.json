@@ -1,211 +1,236 @@
 {
   "title": "learn anything - law - politics - political science",
   "tag": "",
-  "nodes": [
-    {
-      "text": "political science",
-      "url": "http://www.wikiwand.com/en/Political_science",
-      "fx": 156.60575810185196,
-      "fy": -403.15837191358014,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 203.54325810185196,
-      "fy": -281.19743441358014,
-      "nodes": [
-        {
-          "text": "1. political science 101",
-          "url": "https://www.youtube.com/watch?v=lrk4oY7UxpQ&amp;list=PL4sGpBHlQIiuf7FXUuANaRFbhEjpExywP",
-          "fx": 366.54325810185196,
-          "fy": -289.69743441358014,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. political ideology",
-          "url": "https://www.youtube.com/watch?v=j_k_k-bHigM",
-          "fx": 366.54325810185196,
-          "fy": -247.69743441358014,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
+  "id": 674,
+  "map": {
+    "text": "political science",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "ideologies",
+            "nodes": [
+              {
+                "text": "anarchism",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Anarchism",
+                    "text": "anarchism",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "fascism  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/law/politics/political-science/fascism",
+                    "text": "fascism  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "conservatism",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Conservatism",
+                    "text": "conservatism",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "liberalism",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Liberalism",
+                    "text": "liberalism",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "socialism  ️",
+                "nodes": [
+                  {
+                    "text": "communism",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://www.wikiwand.com/en/Communism",
+                        "text": "communism",
+                        "category": "wiki",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "/economics/economic-systems/socialism",
+                    "text": "socialism  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "marxism  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/law/politics/political-science/marxism",
+                    "text": "marxism  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              },
+              {
+                "text": "libertarianism  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/law/politics/political-science/libertarianism",
+                    "text": "libertarianism  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Ideology",
+                "text": "ideologies",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "decentralisation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/law/politics/political-science/decentralisation",
+                "text": "decentralisation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lrk4oY7UxpQ&amp;list=PL4sGpBHlQIiuf7FXUuANaRFbhEjpExywP",
+            "text": "1. political science 101",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=j_k_k-bHigM",
+            "text": "1. political ideology",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Political_science",
+        "text": "political science",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "decentralisation  ️",
-      "url": "/law/politics/political-science/decentralisation",
-      "fx": 268.9572482638887,
-      "fy": -123.3203125,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "ideologies",
-      "url": "http://www.wikiwand.com/en/Ideology",
-      "fx": 36.390625,
-      "fy": -76.6640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "liberalism",
-      "url": "http://www.wikiwand.com/en/Liberalism",
-      "fx": -387.70699310302734,
-      "fy": 53.42015266418457,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "anarchism",
-      "url": "http://www.wikiwand.com/en/Anarchism",
-      "fx": -218.6273136138916,
-      "fy": 54.00369644165039,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "socialism  ️",
-      "url": "/economics/economic-systems/socialism",
-      "fx": 117.56698989868164,
-      "fy": 54.01394844055176,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "conservatism",
-      "url": "http://www.wikiwand.com/en/Conservatism",
-      "fx": 287.6786193847656,
-      "fy": 55.00638961791992,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "libertarianism  ️",
-      "url": "/law/politics/political-science/libertarianism",
-      "fx": -594.5887222290039,
-      "fy": 55.64226531982422,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "fascism  ️",
-      "url": "/law/politics/political-science/fascism",
-      "fx": -37.538381576538086,
-      "fy": 55.64255714416504,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "marxism  ️",
-      "url": "/law/politics/political-science/marxism",
-      "fx": 498.81410217285156,
-      "fy": 59.31138038635254,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "communism",
-      "url": "http://www.wikiwand.com/en/Communism",
-      "fx": 92.61184899610362,
-      "fy": 175.1796634802206,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "ideologies",
-      "target": "anarchism",
-      "curve": {
-        "x": -123.259,
-        "y": 65.3339
       }
-    },
-    {
-      "source": "ideologies",
-      "target": "fascism  ️",
-      "curve": {
-        "x": -38.7145,
-        "y": 66.1534
-      }
-    },
-    {
-      "source": "ideologies",
-      "target": "conservatism",
-      "curve": {
-        "x": 136.644,
-        "y": 65.8353
-      }
-    },
-    {
-      "source": "ideologies",
-      "target": "liberalism",
-      "curve": {
-        "x": -270.303,
-        "y": 55.7413
-      }
-    },
-    {
-      "source": "ideologies",
-      "target": "socialism  ️",
-      "curve": {
-        "x": 42.3385,
-        "y": 65.339
-      }
-    },
-    {
-      "source": "political science",
-      "target": "basics",
-      "curve": {
-        "x": -4.78125,
-        "y": 59.7305
-      }
-    },
-    {
-      "source": "basics",
-      "target": "ideologies",
-      "curve": {
-        "x": -71.8263,
-        "y": 103.517
-      }
-    },
-    {
-      "source": "socialism  ️",
-      "target": "communism",
-      "curve": {
-        "x": -5.22768,
-        "y": 60.5829
-      }
-    },
-    {
-      "source": "ideologies",
-      "target": "marxism  ️",
-      "curve": {
-        "x": 291.641,
-        "y": 56.3128
-      }
-    },
-    {
-      "source": "ideologies",
-      "target": "libertarianism  ️",
-      "curve": {
-        "x": -403.163,
-        "y": 23.0677
-      }
-    },
-    {
-      "source": "basics",
-      "target": "decentralisation  ️",
-      "curve": {
-        "x": 55.207,
-        "y": 78.9386
-      }
-    }
-  ],
-  "id": 674
+    ],
+    "author": ""
+  }
 }

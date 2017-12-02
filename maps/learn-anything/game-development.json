@@ -1,338 +1,322 @@
 {
   "title": "learn anything - game development",
   "tag": "",
-  "nodes": [
-    {
-      "text": "video game development",
-      "url": "http://www.wikiwand.com/en/Video_game_development",
-      "fx": -68.46860708302358,
-      "fy": -773.006431058582,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/gamedev/",
-          "fx": 286.5313929169764,
-          "fy": -799.006431058582,
-          "nodes": [
-            {
-              "text": "wiki",
-              "url": "https://www.reddit.com/r/gamedev/wiki/index",
-              "fx": 396.5313929169764,
-              "fy": -799.006431058582,
-              "nodes": [],
-              "category": "reddit",
-              "color": "rgba(175, 54, 242, 1.0)"
+  "id": 562,
+  "map": {
+    "text": "video game development",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "game engines  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/game-development/game-engines",
+                "text": "game engines  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "game consoles  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/game-development/game-consoles",
+                "text": "game consoles  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "game design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/game-development/game-design",
+                "text": "game design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/miloyip/game-programmer",
+            "text": "1. study path for game programmer",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://gamedev.stackexchange.com/",
-          "fx": 286.5313929169764,
-          "fy": -759.006431058582,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/ellisonleao/magictools",
-          "fx": 285.63049201607544,
-          "fy": -719.006431058582,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 199.4934004158714,
-      "fy": -398.89493579922544,
-      "nodes": [
-        {
-          "text": "list of game development resources",
-          "url": "https://game-development.zeef.com/david.arcila",
-          "fx": 336.4934004158714,
-          "fy": -631.3949357992254,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "list of gaming talks",
-          "url": "https://github.com/hzoo/awesome-gametalks",
-          "fx": 336.4934004158714,
-          "fy": -597.3949357992254,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "red blob games  ️",
-          "url": "http://www.redblobgames.com/",
-          "fx": 336.4934004158714,
-          "fy": -557.3949357992254,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "game developer roadmap",
-          "url": "https://github.com/utilForever/game-developer-roadmap",
-          "fx": 336.4934004158714,
-          "fy": -517.3949357992254,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "blizzard software engineering reading list",
-          "url": "",
-          "fx": 336.4934004158714,
-          "fy": -454.39493579922544,
-          "nodes": [
-            {
-              "text": "associate",
-              "url": "https://www.amazon.com/gp/richpub/listmania/fullview/R2LC80THGVDJHI",
-              "fx": 648.4934004158714,
-              "fy": -477.39493579922544,
-              "nodes": [],
-              "color": "rgba(49, 187, 71, 1.0)"
-            },
-            {
-              "text": "mid-level",
-              "url": "https://www.amazon.com/gp/richpub/listmania/fullview/R1C0VA4J8ZBURC",
-              "fx": 648.4934004158714,
-              "fy": -443.39493579922544,
-              "nodes": [],
-              "color": "rgba(49, 187, 71, 1.0)"
-            },
-            {
-              "text": "senior",
-              "url": "https://www.amazon.com/gp/richpub/listmania/fullview/R2FZ98PSM92N7F/",
-              "fx": 648.4934004158714,
-              "fy": -409.39493579922544,
-              "nodes": [],
-              "color": "rgba(49, 187, 71, 1.0)"
+          },
+          {
+            "url": "http://gameprogrammingpatterns.com/",
+            "text": "1. game programming patterns",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "books for game developers",
-          "url": "http://mrelusive.com/books/books.html",
-          "fx": 336.4934004158714,
-          "fy": -375.39493579922544,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "useful programming and game development resources",
-          "url": "https://eliasdaler.github.io/programming-and-gamedev-resources/",
-          "fx": 336.4934004158714,
-          "fy": -341.39493579922544,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "ai programmer’s bookshelf",
-          "url": "http://alumni.media.mit.edu/%7Ejorkin/aibooks.html",
-          "fx": 336.4934004158714,
-          "fy": -285.39493579922544,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "open game art",
-          "url": "https://opengameart.org/",
-          "fx": 336.4934004158714,
-          "fy": -251.39493579922544,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "awesome game talks",
-          "url": "https://github.com/hzoo/awesome-gametalks",
-          "fx": 336.4934004158714,
-          "fy": -217.39493579922544,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "awesome one person games",
-          "url": "https://github.com/Yonaba/awesome-one-person-games",
-          "fx": 336.4934004158714,
-          "fy": -177.39493579922544,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "polycount",
-          "url": "http://wiki.polycount.com/wiki/Polycount",
-          "fx": 336.4934004158714,
-          "fy": -137.39493579922544,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/16144499-designing-games",
+            "text": "2. designing games: a guide to engineering experiences",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "interesting",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://engo.io/tutorials/01-hello-world",
+                    "text": "build a game in go",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://asherv.com/threes/threemails/",
+                "text": "17: the rip-offs &amp; making our original game  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://game-development.zeef.com/david.arcila",
+            "text": "list of game development resources",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/hzoo/awesome-gametalks",
+            "text": "list of gaming talks",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.redblobgames.com/",
+            "text": "red blob games  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/utilForever/game-developer-roadmap",
+            "text": "game developer roadmap",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "",
+            "text": "blizzard software engineering reading list",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://mrelusive.com/books/books.html",
+            "text": "books for game developers",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://eliasdaler.github.io/programming-and-gamedev-resources/",
+            "text": "useful programming and game development resources",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://alumni.media.mit.edu/%7Ejorkin/aibooks.html",
+            "text": "ai programmer’s bookshelf",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://opengameart.org/",
+            "text": "open game art",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/hzoo/awesome-gametalks",
+            "text": "awesome game talks",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/Yonaba/awesome-one-person-games",
+            "text": "awesome one person games",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://wiki.polycount.com/wiki/Polycount",
+            "text": "polycount",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/gamedev/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 369.18133973707586,
-      "fy": -2.7186022025482544,
-      "nodes": [
-        {
-          "text": "17: the rip-offs &amp; making our original game  ️",
-          "url": "http://asherv.com/threes/threemails/",
-          "fx": 531.1813397370759,
-          "fy": -2.2186022025482544,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "https://gamedev.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -240.50445308012524,
-      "fy": 15.028120577662776,
-      "nodes": [
-        {
-          "text": "1. study path for game programmer",
-          "url": "https://github.com/miloyip/game-programmer",
-          "fx": -58.504453080125245,
-          "fy": -35.471879422337224,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. game programming patterns",
-          "url": "http://gameprogrammingpatterns.com/",
-          "fx": -58.504453080125245,
-          "fy": 26.528120577662776,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "2. designing games: a guide to engineering experiences",
-          "url": "https://www.goodreads.com/book/show/16144499-designing-games",
-          "fx": -58.504453080125245,
-          "fy": 66.52812057766278,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
+      },
+      {
+        "url": "https://github.com/ellisonleao/magictools",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 498.6539686639119,
-      "fy": 130.83892906336155,
-      "nodes": [
-        {
-          "text": "build a game in go",
-          "url": "https://engo.io/tutorials/01-hello-world",
-          "fx": 689.6539686639119,
-          "fy": 145.33892906336155,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Video_game_development",
+        "text": "video game development",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "game design  ️",
-      "url": "/game-development/game-design",
-      "fx": -606.6899070542187,
-      "fy": 184.1903471336941,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "game consoles  ️",
-      "url": "/game-development/game-consoles",
-      "fx": -408.51154899787696,
-      "fy": 187.26636536206865,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "game engines  ️",
-      "url": "/game-development/game-engines",
-      "fx": -179.5004102130697,
-      "fy": 187.34277499273696,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "video game development",
-      "target": "basics",
-      "curve": {
-        "x": -133.018,
-        "y": 394.016
       }
-    },
-    {
-      "source": "help",
-      "target": "video game development",
-      "curve": {
-        "x": -81.4806,
-        "y": -187.055
-      }
-    },
-    {
-      "source": "basics",
-      "target": "game engines  ️",
-      "curve": {
-        "x": 41.252,
-        "y": 86.1571
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -167.378,
-        "y": -135.857
-      }
-    },
-    {
-      "source": "basics",
-      "target": "game consoles  ️",
-      "curve": {
-        "x": -70.5038,
-        "y": 86.1189
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "articles",
-      "curve": {
-        "x": -71.9863,
-        "y": -66.7788
-      }
-    },
-    {
-      "source": "basics",
-      "target": "game design  ️",
-      "curve": {
-        "x": -174.843,
-        "y": 84.5811
-      }
-    }
-  ],
-  "id": 562
+    ],
+    "author": ""
+  }
 }

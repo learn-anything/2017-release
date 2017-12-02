@@ -1,83 +1,90 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory - memory management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "memory management",
-      "url": "http://www.wikiwand.com/en/Memory_management",
-      "fx": -124.24609375,
-      "fy": -282.64453125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.74477729535249,
-      "fy": -131.65972532188687,
-      "nodes": [
-        {
-          "text": "1. operating systems: memory manager",
-          "url": "https://www.youtube.com/watch?v=qdkxXygc3rE",
-          "fx": 108.25522270464751,
-          "fy": -151.15972532188687,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. intro to memory management",
-          "url": "https://www.youtube.com/watch?v=TAk822Wz4x4",
-          "fx": 108.25522270464751,
-          "fy": -89.15972532188687,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 244,
+  "map": {
+    "text": "memory management",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "garbage collection  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/memory-management/garbage-collection",
+                "text": "garbage collection  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "virtual memory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/memory-management/virtual-memory",
+                "text": "virtual memory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=qdkxXygc3rE",
+            "text": "1. operating systems: memory manager",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TAk822Wz4x4",
+            "text": "1. intro to memory management",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Memory_management",
+        "text": "memory management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "garbage collection  ️",
-      "url": "/computer-hardware/computer/computer-memory/memory-management/garbage-collection",
-      "fx": -241.8654650590546,
-      "fy": 15.120755413386291,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "virtual memory  ️",
-      "url": "/computer-hardware/computer/computer-memory/memory-management/virtual-memory",
-      "fx": 3.1238132911396406,
-      "fy": 21.14082278481021,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "memory management",
-      "target": "basics",
-      "curve": {
-        "x": -4.24934,
-        "y": 74.2424
       }
-    },
-    {
-      "source": "basics",
-      "target": "garbage collection  ️",
-      "curve": {
-        "x": -70.0604,
-        "y": 73.3902
-      }
-    },
-    {
-      "source": "basics",
-      "target": "virtual memory  ️",
-      "curve": {
-        "x": 44.1843,
-        "y": 76.4003
-      }
-    }
-  ],
-  "id": 244
+    ],
+    "author": ""
+  }
 }

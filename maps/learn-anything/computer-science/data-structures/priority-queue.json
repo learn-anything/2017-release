@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - priority queue",
   "tag": "priority queues",
-  "nodes": [
-    {
-      "text": "priority queue",
-      "url": "http://www.wikiwand.com/en/Priority_queue",
-      "fx": 144.8046875,
-      "fy": -231.953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 186.9119557584271,
-      "fy": -86.2873068820225,
-      "nodes": [
-        {
-          "text": "1. queues &amp; priority queues",
-          "url": "https://www.youtube.com/watch?v=bK7I79hcm08",
-          "fx": 349.9119557584271,
-          "fy": -73.7873068820225,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "priority queue",
-      "target": "basics",
-      "curve": {
-        "x": -4.44637,
-        "y": 72.0829
+  "id": 327,
+  "map": {
+    "text": "priority queue",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bK7I79hcm08",
+            "text": "1. queues &amp; priority queues",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 327
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Priority_queue",
+        "text": "priority queue",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

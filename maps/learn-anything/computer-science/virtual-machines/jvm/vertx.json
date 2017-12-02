@@ -1,65 +1,58 @@
 {
   "title": "learn anything - computer science - virtual machines - jvm - vertx",
   "tag": "vert.x",
-  "nodes": [
-    {
-      "text": "vert.x",
-      "url": "http://vertx.io/",
-      "fx": -45.87109375,
-      "fy": -229.26953125,
-      "nodes": []
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 37.69921875,
-      "fy": -136.23828125,
-      "nodes": [
-        {
-          "text": "awesome vert.x",
-          "url": "https://github.com/vert-x3/vertx-awesome",
-          "fx": 174.69921875,
-          "fy": -124.73828125,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -47.5,
-      "fy": -33.1484375,
-      "nodes": [
-        {
-          "text": "1. get started",
-          "url": "http://vertx.io/docs/",
-          "fx": 108.5,
-          "fy": -18.6484375,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "vert.x",
-      "curve": {
-        "x": -39.0352,
-        "y": -46.5156
+  "id": 350,
+  "map": {
+    "text": "vert.x",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/vert-x3/vertx-awesome",
+            "text": "awesome vert.x",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://vertx.io/docs/",
+            "text": "1. get started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "vert.x",
-      "target": "basics",
-      "curve": {
-        "x": 1.18555,
-        "y": 98.0605
+    ],
+    "resources": [
+      {
+        "url": "http://vertx.io/",
+        "text": "vert.x",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 350
+    ],
+    "author": ""
+  }
 }

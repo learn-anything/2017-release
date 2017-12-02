@@ -1,95 +1,105 @@
 {
   "title": "learn anything - data science - data mining",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data mining",
-      "url": "http://www.wikiwand.com/en/Data_mining",
-      "fx": -83.23121234012206,
-      "fy": -186.34115982055664,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/datamining/",
-          "fx": 161.76878765987794,
-          "fy": -172.34115982055664,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -52.253682620650125,
-      "fy": -19.43916746627451,
-      "nodes": [
-        {
-          "text": "1. basics of data mining",
-          "url": "https://www.youtube.com/watch?v=u2oSiVOQRmg",
-          "fx": 110.74631737934988,
-          "fy": -69.93916746627451,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. MIT data mining",
-          "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-062-data-mining-spring-2003/lecture-notes/",
-          "fx": 110.74631737934988,
-          "fy": -27.93916746627451,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. data mining by Erik Demaine",
-          "url": "http://people.cs.vt.edu/ramakris/Courses/CS6604/lectures.html",
-          "fx": 110.74631737934988,
-          "fy": 14.060832533725488,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "1. introduction to data mining",
-          "url": "http://www-users.cs.umn.edu/%7Ekumar/dmbook/index.php#item2",
-          "fx": 110.74631737934988,
-          "fy": 56.06083253372549,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(252, 177, 20, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "cluster analysis  ️",
-      "url": "/data-science/data-mining/cluster-analysis",
-      "fx": -222.44163726623412,
-      "fy": 110.48599777448067,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "data mining",
-      "target": "basics",
-      "curve": {
-        "x": -3.76123,
-        "y": 82.201
+  "id": 390,
+  "map": {
+    "text": "data mining",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "cluster analysis  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-mining/cluster-analysis",
+                "text": "cluster analysis  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=u2oSiVOQRmg",
+            "text": "1. basics of data mining",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-062-data-mining-spring-2003/lecture-notes/",
+            "text": "1. MIT data mining",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://people.cs.vt.edu/ramakris/Courses/CS6604/lectures.html",
+            "text": "1. data mining by Erik Demaine",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www-users.cs.umn.edu/%7Ekumar/dmbook/index.php#item2",
+            "text": "1. introduction to data mining",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "cluster analysis  ️",
-      "curve": {
-        "x": -65.344,
-        "y": 64.9626
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/datamining/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_mining",
+        "text": "data mining",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 390
+    ],
+    "author": ""
+  }
 }

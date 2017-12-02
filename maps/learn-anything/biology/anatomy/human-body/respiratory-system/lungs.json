@@ -1,51 +1,53 @@
 {
   "title": "learn anything - biology - anatomy - human body - respiratory system - lungs",
   "tag": "",
-  "nodes": [
-    {
-      "text": "lungs",
-      "url": "http://www.wikiwand.com/en/Lung",
-      "fx": -51.8671875,
-      "fy": -143.125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -49.95703125,
-      "fy": 7.08203125,
-      "nodes": [
-        {
-          "text": "1. how do the lungs do?",
-          "url": "https://www.youtube.com/watch?v=8NUxvJS-_0k",
-          "fx": 113.04296875,
-          "fy": -26.41796875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1. oxygen’s surprisingly complex journey through your body",
-          "url": "https://www.youtube.com/watch?v=GVU_zANtroE",
-          "fx": 113.04296875,
-          "fy": 15.58203125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "lungs",
-      "target": "basics",
-      "curve": {
-        "x": -4.29492,
-        "y": 74.3535
+  "id": 81,
+  "map": {
+    "text": "lungs",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8NUxvJS-_0k",
+            "text": "1. how do the lungs do?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GVU_zANtroE",
+            "text": "1. oxygen’s surprisingly complex journey through your body",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 81
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Lung",
+        "text": "lungs",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

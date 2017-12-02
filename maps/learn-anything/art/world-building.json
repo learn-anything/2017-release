@@ -1,86 +1,82 @@
 {
   "title": "learn anything - art - world building",
   "tag": "",
-  "nodes": [
-    {
-      "text": "world building",
-      "url": "http://www.wikiwand.com/en/Worldbuilding",
-      "fx": -139.68023109436035,
-      "fy": -5.724610328674316,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/worldbuilding/",
-          "fx": 113.31976890563965,
-          "fy": -11.724610328674316,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://worldbuilding.stackexchange.com/",
-          "fx": 113.31976890563965,
-          "fy": 28.275389671325684,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 92.30249713945989,
-      "fy": 135.79653324255963,
-      "nodes": [
-        {
-          "text": "artifexian world building",
-          "url": "https://www.youtube.com/user/Artifexian/videos",
-          "fx": 229.3024971394599,
-          "fy": 147.29653324255963,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -95.6181640625,
-      "fy": 256.1484375,
-      "nodes": [
-        {
-          "text": "1. world building is in the details",
-          "url": "https://www.youtube.com/watch?v=itQEi4yPWg0&amp;t=8s",
-          "fx": 60.3818359375,
-          "fy": 267.6484375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "world building",
-      "curve": {
-        "x": -86.9914,
-        "y": -69.5106
+  "id": 63,
+  "map": {
+    "text": "world building",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/Artifexian/videos",
+            "text": "artifexian world building",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=itQEi4yPWg0&amp;t=8s",
+            "text": "1. world building is in the details",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "world building",
-      "target": "basics",
-      "curve": {
-        "x": -2.21897,
-        "y": 129.687
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/worldbuilding/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://worldbuilding.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Worldbuilding",
+        "text": "world building",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 63
+    ],
+    "author": ""
+  }
 }

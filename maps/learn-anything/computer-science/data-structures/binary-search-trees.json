@@ -1,67 +1,60 @@
 {
   "title": "learn anything - computer science - data structures - binary search trees",
   "tag": "",
-  "nodes": [
-    {
-      "text": "binary search trees",
-      "url": "http://www.wikiwand.com/en/Binary_search_tree",
-      "fx": 67.3203125,
-      "fy": -168.93700396825403,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 276.1991567460319,
-      "fy": -62.99264219576668,
-      "nodes": [
-        {
-          "text": "visualisation of BST",
-          "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html",
-          "fx": 413.1991567460319,
-          "fy": -51.49264219576668,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 137.08488343253987,
-      "fy": 48.11737351190476,
-      "nodes": [
-        {
-          "text": "1. binary search trees and BST sort",
-          "url": "https://www.youtube.com/watch?v=9Jry5-82I68",
-          "fx": 293.08488343253987,
-          "fy": 59.61737351190476,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "binary search trees",
-      "target": "basics",
-      "curve": {
-        "x": -0.617715,
-        "y": 107.277
+  "id": 319,
+  "map": {
+    "text": "binary search trees",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9Jry5-82I68",
+            "text": "1. binary search trees and BST sort",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html",
+            "text": "visualisation of BST",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "binary search trees",
-      "curve": {
-        "x": -64.1894,
-        "y": -51.7222
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Binary_search_tree",
+        "text": "binary search trees",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 319
+    ],
+    "author": ""
+  }
 }

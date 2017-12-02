@@ -1,42 +1,42 @@
 {
   "title": "learn anything - art - literature - literary theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "literary theory",
-      "url": "http://www.wikiwand.com/en/Literary_theory",
-      "fx": -79.328125,
-      "fy": -165.81640625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -39.24609375,
-      "fy": -16.3828125,
-      "nodes": [
-        {
-          "text": "1. introduction to theory of literature",
-          "url": "https://www.youtube.com/watch?v=4YY4CTSQ8nY&amp;list=PLD00D35CBC75941BD",
-          "fx": 116.75390625,
-          "fy": -4.8828125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "literary theory",
-      "target": "basics",
-      "curve": {
-        "x": -2.95898,
-        "y": 73.4668
+  "id": 29,
+  "map": {
+    "text": "literary theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=4YY4CTSQ8nY&amp;list=PLD00D35CBC75941BD",
+            "text": "1. introduction to theory of literature",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 29
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Literary_theory",
+        "text": "literary theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

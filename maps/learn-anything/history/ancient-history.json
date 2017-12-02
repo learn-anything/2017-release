@@ -1,77 +1,72 @@
 {
   "title": "learn anything - history - ancient history",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ancient history",
-      "url": "http://www.wikiwand.com/en/Ancient_history",
-      "fx": -32.5,
-      "fy": 4,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "podcasts",
-      "url": "",
-      "fx": 115.69731898907094,
-      "fy": 106.25093920763686,
-      "nodes": [
-        {
-          "text": "the history of Rome  ️",
-          "url": "http://thehistoryofrome.typepad.com/",
-          "fx": 297.69731898907094,
-          "fy": 117.75093920763686,
-          "nodes": [],
-          "category": "podcast",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -4.308913934426528,
-      "fy": 265.9596994535481,
-      "nodes": [
-        {
-          "text": "1. introduction to ancient greek history",
-          "url": "https://www.youtube.com/watch?v=9FrHGAd_yto&amp;feature=youtu.be&amp;list=PL023BCE5134243987",
-          "fx": 177.69108606557347,
-          "fy": 224.45969945354813,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. the history of the ancient world: from the earliest accounts to the fall of Rome",
-          "url": "http://www.goodreads.com/book/show/225947.The_History_of_the_Ancient_World",
-          "fx": 177.69108606557347,
-          "fy": 286.4596994535481,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "podcasts",
-      "target": "ancient history",
-      "curve": {
-        "x": -55.0987,
-        "y": -49.8755
+  "id": 620,
+  "map": {
+    "text": "ancient history",
+    "nodes": [
+      {
+        "text": "podcasts",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://thehistoryofrome.typepad.com/",
+            "text": "the history of Rome  ️",
+            "category": "podcast",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9FrHGAd_yto&amp;feature=youtu.be&amp;list=PL023BCE5134243987",
+            "text": "1. introduction to ancient greek history",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/225947.The_History_of_the_Ancient_World",
+            "text": "1. the history of the ancient world: from the earliest accounts to the fall of Rome",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "ancient history",
-      "target": "basics",
-      "curve": {
-        "x": -11.4045,
-        "y": 129.73
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Ancient_history",
+        "text": "ancient history",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 620
+    ],
+    "author": ""
+  }
 }

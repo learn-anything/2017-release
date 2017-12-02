@@ -1,145 +1,141 @@
 {
   "title": "learn anything - cognitive science - cognition - learning - research",
   "tag": "",
-  "nodes": [
-    {
-      "text": "research",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Research",
-      "fx": 61.60367044412874,
-      "fy": -51.54606211474632,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/emptymalei/awesome-research",
-          "fx": 303.60367044412874,
-          "fy": -37.54606211474632,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 209.9510083212764,
-      "fy": 116.8332688388918,
-      "nodes": [
-        {
-          "text": "15: the Ph.D. grind",
-          "url": "http://pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf",
-          "fx": 350.9510083212764,
-          "fy": 56.3332688388918,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "17: research debt  ️",
-          "url": "http://distill.pub/2017/research-debt/",
-          "fx": 350.9510083212764,
-          "fy": 93.3332688388918,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "17: how to read and understand a scientific paper  ️",
-          "url": "http://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/",
-          "fx": 350.9510083212764,
-          "fy": 135.3332688388918,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(83, 201, 255, 1.0)"
-        },
-        {
-          "text": "17: the invisible mountains  ️",
-          "url": "https://medium.com/@NikitaVoloboev/the-invisible-mountains-bd50a31bc64e",
-          "fx": 350.9510083212764,
-          "fy": 202.3332688388918,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(252, 177, 20, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 41.71938719508444,
-      "fy": 301.93719748400883,
-      "nodes": [
-        {
-          "text": "1. you and your research",
-          "url": "https://www.youtube.com/watch?v=a1zDuOPkMSw",
-          "fx": 204.71938719508444,
-          "fy": 314.43719748400883,
-          "nodes": [
-            {
-              "text": "transcript",
-              "url": "http://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
-              "fx": 530.7193871950844,
-              "fy": 316.93719748400883,
-              "nodes": [],
-              "color": "rgba(104, 255, 109, 1.0)"
+  "id": 192,
+  "map": {
+    "text": "research",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf",
+            "text": "15: the Ph.D. grind",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
             }
-          ],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+          },
+          {
+            "url": "http://distill.pub/2017/research-debt/",
+            "text": "17: research debt  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/",
+            "text": "17: how to read and understand a scientific paper  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@NikitaVoloboev/the-invisible-mountains-bd50a31bc64e",
+            "text": "17: the invisible mountains  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "research papers  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/more/research-papers",
+                "text": "research papers  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "methodology  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cognitive-science/cognition/learning/research/methodology",
+                "text": "methodology  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=a1zDuOPkMSw",
+            "text": "1. you and your research",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/emptymalei/awesome-research",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "research papers  ️",
-      "url": "/more/research-papers",
-      "fx": -172.2400794652258,
-      "fy": 429.41018115446286,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "methodology  ️",
-      "url": "/cognitive-science/cognition/learning/research/methodology",
-      "fx": 70.9366149744659,
-      "fy": 430.55724321280775,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "research",
-      "curve": {
-        "x": -64.4237,
-        "y": -84.1897
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Research",
+        "text": "research",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "research",
-      "target": "basics",
-      "curve": {
-        "x": -28.6922,
-        "y": 175.491
-      }
-    },
-    {
-      "source": "basics",
-      "target": "research papers  ️",
-      "curve": {
-        "x": -67.9797,
-        "y": 64.9868
-      }
-    },
-    {
-      "source": "basics",
-      "target": "methodology  ️",
-      "curve": {
-        "x": 30.8586,
-        "y": 64.31
-      }
-    }
-  ],
-  "id": 192
+    ],
+    "author": ""
+  }
 }

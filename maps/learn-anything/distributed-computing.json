@@ -1,202 +1,195 @@
 {
   "title": "learn anything - distributed computing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "distributed computing",
-      "url": "http://www.wikiwand.com/en/Distributed_computing",
-      "fx": -195.9492187499999,
-      "fy": -439.3108618951612,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/DistributedComputing/",
-          "fx": 129.0507812500001,
-          "fy": -425.3108618951612,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 449,
+  "map": {
+    "text": "distributed computing",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "decentralised computing",
+            "nodes": [
+              {
+                "text": "ethereum  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/distributed-computing/ethereum",
+                    "text": "ethereum  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Decentralized_computing",
+                "text": "decentralised computing",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "serverless computing  ️",
+            "note": "known as function as a service (FaaS)  is a cloud computing code execution model in which the cloud provider fully manages starting and stopping of a function’s container platform as a service (PaaS) as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per visual machine, per hour",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/distributed-computing/serverless-computing",
+                "text": "serverless computing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "load balancing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/distributed-computing/load-balancing",
+                "text": "load balancing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-824-distributed-computer-systems-engineering-spring-2006/",
+            "text": "1. distributed computer systems engineering",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://dataintensive.net/",
+            "text": "1. designing data intensive applications",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "blogs",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [
+              {
+                "text": "articles",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.frankmcsherry.org/graph/scalability/cost/2015/01/15/COST.html",
+                    "text": "15: scalability! but at what cost?  ️",
+                    "category": "article",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://github.com/ncase/loopy",
+                "text": "loopy",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://highscalability.com/",
+            "text": "high scalability  ️",
+            "category": "blog",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/DistributedComputing/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "blogs",
-      "url": "",
-      "fx": -4.427322300398146,
-      "fy": -342.96900233599456,
-      "nodes": [
-        {
-          "text": "high scalability  ️",
-          "url": "http://highscalability.com/",
-          "fx": 143.57267769960185,
-          "fy": -331.46900233599456,
-          "nodes": [],
-          "category": "blog",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Distributed_computing",
+        "text": "distributed computing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 116.13324969710266,
-      "fy": -239.96536541416623,
-      "nodes": [
-        {
-          "text": "loopy",
-          "note": "a tool for thinking in systems",
-          "url": "https://github.com/ncase/loopy",
-          "fx": 258.13324969710266,
-          "fy": -225.46536541416623,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 257.4711277173915,
-      "fy": -129.6033457880435,
-      "nodes": [
-        {
-          "text": "15: scalability! but at what cost?  ️",
-          "url": "http://www.frankmcsherry.org/graph/scalability/cost/2015/01/15/COST.html",
-          "fx": 419.4711277173915,
-          "fy": -118.1033457880435,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -336.1951789855957,
-      "fy": -100.31427192687988,
-      "nodes": [
-        {
-          "text": "1. distributed computer systems engineering",
-          "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-824-distributed-computer-systems-engineering-spring-2006/",
-          "fx": -154.1951789855957,
-          "fy": -130.81427192687988,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. designing data intensive applications",
-          "url": "http://dataintensive.net/",
-          "fx": -154.1951789855957,
-          "fy": -68.81427192687988,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "decentralised computing",
-      "url": "http://www.wikiwand.com/en/Decentralized_computing",
-      "fx": -280.7958718154814,
-      "fy": 77.28472900390625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "serverless computing  ️",
-      "note": "known as function as a service (FaaS)  is a cloud computing code execution model in which the cloud provider fully manages starting and stopping of a function’s container platform as a service (PaaS) as necessary to serve requests, and requests are billed by an abstract measure of the resources required to satisfy the request, rather than per visual machine, per hour",
-      "url": "/distributed-computing/serverless-computing",
-      "fx": -575.9816245177228,
-      "fy": 78.91117072582495,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "load balancing  ️",
-      "url": "/distributed-computing/load-balancing",
-      "fx": -799.5715013586963,
-      "fy": 78.92764945652186,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "ethereum  ️",
-      "url": "/distributed-computing/ethereum",
-      "fx": -216.7396072867681,
-      "fy": 196.0652408995353,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "decentralised computing",
-      "target": "ethereum  ️",
-      "curve": {
-        "x": -9.47183,
-        "y": 58.1403
       }
-    },
-    {
-      "source": "tools",
-      "target": "blogs",
-      "curve": {
-        "x": -61.5303,
-        "y": -51.5019
-      }
-    },
-    {
-      "source": "distributed computing",
-      "target": "basics",
-      "curve": {
-        "x": -105.123,
-        "y": 169.499
-      }
-    },
-    {
-      "source": "blogs",
-      "target": "distributed computing",
-      "curve": {
-        "x": -56.011,
-        "y": -48.1709
-      }
-    },
-    {
-      "source": "basics",
-      "target": "decentralised computing",
-      "curve": {
-        "x": 76.1997,
-        "y": 90.0496
-      }
-    },
-    {
-      "source": "basics",
-      "target": "serverless computing  ️",
-      "curve": {
-        "x": -92.6432,
-        "y": 89.6127
-      }
-    },
-    {
-      "source": "articles",
-      "target": "tools",
-      "curve": {
-        "x": -75.6689,
-        "y": -55.181
-      }
-    },
-    {
-      "source": "basics",
-      "target": "load balancing  ️",
-      "curve": {
-        "x": -238.668,
-        "y": 72.1483
-      }
-    }
-  ],
-  "id": 449
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,53 @@
 {
   "title": "learn anything - economics - development economics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "development economics",
-      "url": "http://www.wikiwand.com/en/Development_economics",
-      "fx": -152.2109375,
-      "fy": -157.6953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -51,
-      "fy": -13.5546875,
-      "nodes": [
-        {
-          "text": "1. development as freedom",
-          "url": "https://www.uio.no/studier/emner/matnat/ifi/INF9200/v10/readings/papers/Sen.pdf",
-          "fx": 112,
-          "fy": -22.0546875,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "1. productivity and growth",
-          "url": "https://www.youtube.com/watch?v=UHiUYj5EA0w",
-          "fx": 112,
-          "fy": 19.9453125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "development economics",
-      "target": "basics",
-      "curve": {
-        "x": -2.89453,
-        "y": 71.3203
+  "id": 474,
+  "map": {
+    "text": "development economics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.uio.no/studier/emner/matnat/ifi/INF9200/v10/readings/papers/Sen.pdf",
+            "text": "1. development as freedom",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=UHiUYj5EA0w",
+            "text": "1. productivity and growth",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 474
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Development_economics",
+        "text": "development economics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

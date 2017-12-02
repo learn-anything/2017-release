@@ -1,85 +1,91 @@
 {
   "title": "learn anything - economics - personal finance",
   "tag": "",
-  "nodes": [
-    {
-      "text": "personal finance",
-      "url": "http://www.wikiwand.com/en/Personal_finance",
-      "fx": -198.30069742489263,
-      "fy": 22.42663626609442,
-      "nodes": [
-        {
-          "text": "️",
-          "url": "https://money.stackexchange.com/",
-          "fx": 76.69930257510737,
-          "fy": 36.42663626609442,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 502,
+  "map": {
+    "text": "personal finance",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "financial independence  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/personal-finance/financial-independence",
+                "text": "financial independence  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "passive income  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/personal-finance/passive-income",
+                "text": "passive income  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/1052.The_Richest_Man_in_Babylon",
+            "text": "1. the richest man in Babylon",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://money.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -139.65879828326194,
-      "fy": 158.78540772530823,
-      "nodes": [
-        {
-          "text": "1. the richest man in Babylon",
-          "url": "http://www.goodreads.com/book/show/1052.The_Richest_Man_in_Babylon",
-          "fx": 42.341201716738055,
-          "fy": 170.28540772530823,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Personal_finance",
+        "text": "personal finance",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "financial independence  ️",
-      "url": "/economics/personal-finance/financial-independence",
-      "fx": -106.7674236594471,
-      "fy": 296.05364495956496,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "passive income  ️",
-      "url": "/economics/personal-finance/passive-income",
-      "fx": -338.34647745305455,
-      "fy": 300.3817793738428,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "personal finance",
-      "target": "basics",
-      "curve": {
-        "x": -0.42905,
-        "y": 66.9294
       }
-    },
-    {
-      "source": "basics",
-      "target": "financial independence  ️",
-      "curve": {
-        "x": 54.4457,
-        "y": 69.8841
-      }
-    },
-    {
-      "source": "basics",
-      "target": "passive income  ️",
-      "curve": {
-        "x": -85.3438,
-        "y": 70.7982
-      }
-    }
-  ],
-  "id": 502
+    ],
+    "author": ""
+  }
 }

@@ -1,128 +1,121 @@
 {
   "title": "learn anything - art - music - music production",
   "tag": "",
-  "nodes": [
-    {
-      "text": "music production",
-      "url": "http://www.wikiwand.com/en/Record_producer",
-      "fx": -107.70522836538464,
-      "fy": -271.14302884615375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/WeAreTheMusicMakers/",
-          "fx": 176.29477163461536,
-          "fy": -257.14302884615375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 64.7858440951918,
-      "fy": -162.14588409683302,
-      "nodes": [
-        {
-          "text": "awesome music production",
-          "url": "https://github.com/adius/awesome-music-production",
-          "fx": 201.7858440951918,
-          "fy": -150.64588409683302,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 154.50761481528366,
-      "fy": -44.29294766363034,
-      "nodes": [
-        {
-          "text": "07: how to use tension and release in your melodies  ️",
-          "url": "http://i.grahamenglish.net/1033/how-to-use-tension-and-release-in-your-melodies/",
-          "fx": 316.50761481528366,
-          "fy": -43.79294766363034,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -95.36533180947777,
-      "fy": 77.91059126852832,
-      "nodes": [
-        {
-          "text": "1. get started making music",
-          "url": "https://learningmusic.ableton.com/",
-          "fx": 86.63466819052223,
-          "fy": 58.41059126852832,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. beginner’s tutorial to music production",
-          "url": "https://www.youtube.com/watch?v=ydE5gEOWC0Q",
-          "fx": 86.63466819052223,
-          "fy": 98.41059126852832,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "Ableton Live  ️",
-      "url": "/art/music/music-production/ableton-live",
-      "fx": -195.9078100854215,
-      "fy": 210.69406765109886,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "music production",
-      "target": "basics",
-      "curve": {
-        "x": -25.8301,
-        "y": 173.277
+  "id": 48,
+  "map": {
+    "text": "music production",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "Ableton Live  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/music-production/ableton-live",
+                "text": "Ableton Live  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://learningmusic.ableton.com/",
+            "text": "1. get started making music",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ydE5gEOWC0Q",
+            "text": "1. beginner’s tutorial to music production",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://i.grahamenglish.net/1033/how-to-use-tension-and-release-in-your-melodies/",
+                "text": "07: how to use tension and release in your melodies  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/adius/awesome-music-production",
+            "text": "awesome music production",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "music production",
-      "curve": {
-        "x": -49.4955,
-        "y": -53.2486
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/WeAreTheMusicMakers/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Record_producer",
+        "text": "music production",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -51.1109,
-        "y": -58.9265
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Ableton Live  ️",
-      "curve": {
-        "x": -43.5212,
-        "y": 66.3917
-      }
-    }
-  ],
-  "id": 48
+    ],
+    "author": ""
+  }
 }

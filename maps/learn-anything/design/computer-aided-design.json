@@ -1,34 +1,43 @@
 {
   "title": "learn anything - design - computer-aided design",
   "tag": "computer-aided design",
-  "nodes": [
-    {
-      "text": "computer-aided design",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Computer-aided_design",
-      "fx": -264.9367609797297,
-      "fy": -175.72589386261248,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "AutoCAD  ️",
-      "url": "/design/computer-aided-design/autocad",
-      "fx": -237.84874718468507,
-      "fy": -37.32186092345995,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer-aided design",
-      "target": "AutoCAD  ️",
-      "curve": {
-        "x": -24.956,
-        "y": 67.952
+  "id": 421,
+  "map": {
+    "text": "computer-aided design",
+    "note": "",
+    "nodes": [
+      {
+        "text": "AutoCAD  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/design/computer-aided-design/autocad",
+            "text": "AutoCAD  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 421
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer-aided_design",
+        "text": "computer-aided design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

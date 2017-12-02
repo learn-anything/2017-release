@@ -1,74 +1,79 @@
 {
   "title": "learn anything - computer science - automata theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "automata theory",
-      "url": "http://www.wikiwand.com/en/Automata_theory",
-      "fx": 109.04296875,
-      "fy": -251.37890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 162.359375,
-      "fy": -104.90625,
-      "nodes": [
-        {
-          "text": "1. theory of computation or automata theory",
-          "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IdM___FmDFBJBz0zCsOFxfK",
-          "fx": 325.359375,
-          "fy": -104.90625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 284,
+  "map": {
+    "text": "automata theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "abstract machines",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Abstract_machine",
+                "text": "abstract machines",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "automaton",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Automaton",
+                "text": "automaton",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IdM___FmDFBJBz0zCsOFxfK",
+            "text": "1. theory of computation or automata theory",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Automata_theory",
+        "text": "automata theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "abstract machines",
-      "url": "http://www.wikiwand.com/en/Abstract_machine",
-      "fx": -18.575225515463785,
-      "fy": 31.673163659793545,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "automaton",
-      "url": "http://www.wikiwand.com/en/Automaton",
-      "fx": 248.4468830541134,
-      "fy": 33.92529800257694,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "automata theory",
-      "target": "basics",
-      "curve": {
-        "x": -5.3418,
-        "y": 72.4863
       }
-    },
-    {
-      "source": "basics",
-      "target": "abstract machines",
-      "curve": {
-        "x": -60.7173,
-        "y": 68.2897
-      }
-    },
-    {
-      "source": "basics",
-      "target": "automaton",
-      "curve": {
-        "x": 61.2938,
-        "y": 70.1658
-      }
-    }
-  ],
-  "id": 284
+    ],
+    "author": ""
+  }
 }

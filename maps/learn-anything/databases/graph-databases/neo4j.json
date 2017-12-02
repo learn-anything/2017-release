@@ -1,61 +1,64 @@
 {
   "title": "learn anything - databases - graph databases - neo4j",
   "tag": "Neo4j database",
-  "nodes": [
-    {
-      "text": "Neo4j",
-      "url": "http://www.wikiwand.com/en/Neo4j",
-      "fx": 89.17359639830511,
-      "fy": -244.33269332627117,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Neo4j/",
-          "fx": 269.1735963983051,
-          "fy": -250.33269332627117,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/neueda/awesome-neo4j",
-          "fx": 269.1735963983051,
-          "fy": -210.33269332627117,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 70.23172669491464,
-      "fy": -91.04131355934663,
-      "nodes": [
-        {
-          "text": "1. get started",
-          "url": "https://neo4j.com/developer/get-started/",
-          "fx": 252.23172669491464,
-          "fy": -76.54131355934663,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Neo4j",
-      "target": "basics",
-      "curve": {
-        "x": -15.4709,
-        "y": 75.3957
+  "id": 403,
+  "map": {
+    "text": "Neo4j",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://neo4j.com/developer/get-started/",
+            "text": "1. get started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 403
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Neo4j/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/neueda/awesome-neo4j",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Neo4j",
+        "text": "Neo4j",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

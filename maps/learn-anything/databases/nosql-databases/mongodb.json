@@ -1,95 +1,93 @@
 {
   "title": "learn anything - databases - nosql databases - mongodb",
   "tag": "mongoDB",
-  "nodes": [
-    {
-      "text": "mongoDB",
-      "url": "http://www.wikiwand.com/en/MongoDB",
-      "fx": -140.85546875,
-      "fy": -232.4921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/mongodb/",
-          "fx": 79.14453125,
-          "fy": -258.4921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/mongodb/mongo",
-          "fx": 79.14453125,
-          "fy": -218.4921875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/ramnes/awesome-mongodb",
-          "fx": 79.14453125,
-          "fy": -178.4921875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -7.375,
-      "fy": -116.27734375,
-      "nodes": [
-        {
-          "text": "mongoDB university",
-          "url": "https://university.mongodb.com/?_ga=1.59703789.1760068318.1441899177",
-          "fx": 129.625,
-          "fy": -101.77734375,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -143.5546875,
-      "fy": -27.59375,
-      "nodes": [
-        {
-          "text": "1. mongoDB for developers",
-          "url": "https://university.mongodb.com/courses/M101P/about",
-          "fx": 38.4453125,
-          "fy": -16.09375,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "mongoDB",
-      "curve": {
-        "x": -45.9902,
-        "y": -56.8575
+  "id": 406,
+  "map": {
+    "text": "mongoDB",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://university.mongodb.com/?_ga=1.59703789.1760068318.1441899177",
+            "text": "mongoDB university",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://university.mongodb.com/courses/M101P/about",
+            "text": "1. mongoDB for developers",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "mongoDB",
-      "target": "basics",
-      "curve": {
-        "x": -17.3496,
-        "y": 101.2
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/mongodb/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/mongodb/mongo",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/ramnes/awesome-mongodb",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/MongoDB",
+        "text": "mongoDB",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 406
+    ],
+    "author": ""
+  }
 }

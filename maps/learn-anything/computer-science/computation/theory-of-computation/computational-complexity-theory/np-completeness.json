@@ -1,51 +1,53 @@
 {
   "title": "learn anything - computer science - computation - theory of computation - computational complexity theory - np-completeness",
   "tag": "NP-completeness",
-  "nodes": [
-    {
-      "text": "np-completeness",
-      "url": "http://www.wikiwand.com/en/NP-completeness",
-      "fx": 186.109375,
-      "fy": -90.28125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 260.2578125,
-      "fy": 58.009521484375,
-      "nodes": [
-        {
-          "text": "1. understanding the empirical hardness of np-complete problems",
-          "url": "https://simons.berkeley.edu/talks/kevin-leyton-brown-08-25-2016-1",
-          "fx": 416.2578125,
-          "fy": 27.509521484375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. complexity: P, NP, NP-completeness, reductions",
-          "url": "https://www.youtube.com/watch?v=mr1FMrwi6Ew",
-          "fx": 416.2578125,
-          "fy": 89.509521484375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "np-completeness",
-      "target": "basics",
-      "curve": {
-        "x": -1.67578,
-        "y": 72.8954
+  "id": 307,
+  "map": {
+    "text": "np-completeness",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://simons.berkeley.edu/talks/kevin-leyton-brown-08-25-2016-1",
+            "text": "1. understanding the empirical hardness of np-complete problems",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=mr1FMrwi6Ew",
+            "text": "1. complexity: P, NP, NP-completeness, reductions",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 307
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/NP-completeness",
+        "text": "np-completeness",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,85 +1,94 @@
 {
   "title": "learn anything - biology - anatomy - human body - respiratory system",
   "tag": "",
-  "nodes": [
-    {
-      "text": "respiratory system",
-      "url": "http://www.wikiwand.com/en/Respiratory_system",
-      "fx": 45.0859375,
-      "fy": -129.8750617588933,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 108.11328125,
-      "fy": 11.40234375,
-      "nodes": [
-        {
-          "text": "1. respiratory system overview",
-          "url": "https://www.youtube.com/watch?v=x5x19lwPnbo",
-          "fx": 264.11328125,
-          "fy": -37.09765625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. mechanism of breathing",
-          "url": "https://www.youtube.com/watch?v=GD-HPx_ZG8I",
-          "fx": 264.11328125,
-          "fy": 2.90234375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. respiratory system: part I",
-          "url": "https://www.youtube.com/watch?v=bHZsvBdUC2I",
-          "fx": 264.11328125,
-          "fy": 42.90234375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. respiratory system: part II",
-          "url": "https://www.youtube.com/watch?v=Cqt4LjHnMEA",
-          "fx": 264.11328125,
-          "fy": 82.90234375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
+  "id": 82,
+  "map": {
+    "text": "respiratory system",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "lungs  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/anatomy/human-body/respiratory-system/lungs",
+                "text": "lungs  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=x5x19lwPnbo",
+            "text": "1. respiratory system overview",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GD-HPx_ZG8I",
+            "text": "1. mechanism of breathing",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=bHZsvBdUC2I",
+            "text": "1. respiratory system: part I",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Cqt4LjHnMEA",
+            "text": "2. respiratory system: part II",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Respiratory_system",
+        "text": "respiratory system",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "lungs  ️",
-      "url": "/biology/anatomy/human-body/respiratory-system/lungs",
-      "fx": 2.995121047426778,
-      "fy": 128.4830163043281,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "respiratory system",
-      "target": "basics",
-      "curve": {
-        "x": -2.73633,
-        "y": 69.3887
       }
-    },
-    {
-      "source": "basics",
-      "target": "lungs  ️",
-      "curve": {
-        "x": -47.5591,
-        "y": 59.7903
-      }
-    }
-  ],
-  "id": 82
+    ],
+    "author": ""
+  }
 }

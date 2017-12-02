@@ -1,77 +1,71 @@
 {
   "title": "learn anything - art - music - music genres - blues",
   "tag": "",
-  "nodes": [
-    {
-      "text": "blues",
-      "url": "http://www.wikiwand.com/en/Blues",
-      "fx": 24.232826576576485,
-      "fy": -458.91204485735733,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/blues/",
-          "fx": 200.23282657657649,
-          "fy": -444.91204485735733,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "songs",
-      "url": "",
-      "fx": 146.65074355908598,
-      "fy": -341.38584294665463,
-      "nodes": [
-        {
-          "text": "where did you sleep last night",
-          "url": "https://www.youtube.com/watch?v=blI2dXHyBj0",
-          "fx": 299.650743559086,
-          "fy": -329.88584294665463,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 34.40990354228961,
-      "fy": -229.97665669531796,
-      "nodes": [
-        {
-          "text": "1. what is blues?",
-          "url": "https://www.youtube.com/watch?v=DXbclfmvSfU",
-          "fx": 190.4099035422896,
-          "fy": -218.47665669531796,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "songs",
-      "target": "blues",
-      "curve": {
-        "x": -60.4589,
-        "y": -57.5131
+  "id": 43,
+  "map": {
+    "text": "blues",
+    "nodes": [
+      {
+        "text": "songs",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=blI2dXHyBj0",
+            "text": "where did you sleep last night",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DXbclfmvSfU",
+            "text": "1. what is blues?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "blues",
-      "target": "basics",
-      "curve": {
-        "x": 0.0885385,
-        "y": 113.218
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/blues/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Blues",
+        "text": "blues",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 43
+    ],
+    "author": ""
+  }
 }

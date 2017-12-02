@@ -1,77 +1,91 @@
 {
   "title": "learn anything - biology - genetics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "genetics",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Genetics",
-      "fx": -79.68018477761325,
-      "fy": -318.06924705072447,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/genetics/",
-          "fx": 148.31981522238675,
-          "fy": -304.06924705072447,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 102,
+  "map": {
+    "text": "genetics",
+    "note": "",
+    "nodes": [
+      {
+        "text": "DNA  ️",
+        "note": "short for deoxyribonucleic acid, is the molecule that contains the genetic code of organisms, includes animals, plants, protists, archaea and bacteria, DNA is in each cell in the organism and tells cells what proteins to make",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna",
+            "text": "DNA  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "RNA  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/rna",
+            "text": "RNA  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "genetic engineering  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/biology/genetics/genetic-engineering",
+            "text": "genetic engineering  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/genetics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "DNA  ️",
-      "note": "short for deoxyribonucleic acid, is the molecule that contains the genetic code of organisms, includes animals, plants, protists, archaea and bacteria, DNA is in each cell in the organism and tells cells what proteins to make",
-      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/dna",
-      "fx": -159.44615260586886,
-      "fy": -176.25894762007198,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "RNA  ️",
-      "url": "/physics/matter/atoms/molecules/biomolecules/nucleic-acids/rna",
-      "fx": -297.27762108006027,
-      "fy": -174.30173427911234,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "genetic engineering  ️",
-      "url": "/biology/genetics/genetic-engineering",
-      "fx": -0.21607708980343432,
-      "fy": -174.12709061205993,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "genetics",
-      "target": "DNA  ️",
-      "curve": {
-        "x": -48.133,
-        "y": 70.9051
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Genetics",
+        "text": "genetics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "genetics",
-      "target": "RNA  ️",
-      "curve": {
-        "x": -130.799,
-        "y": 70.6338
-      }
-    },
-    {
-      "source": "genetics",
-      "target": "genetic engineering  ️",
-      "curve": {
-        "x": 50.9821,
-        "y": 70.7211
-      }
-    }
-  ],
-  "id": 102
+    ],
+    "author": ""
+  }
 }

@@ -1,50 +1,52 @@
 {
   "title": "learn anything - chemistry - drugs - stimulants - caffeine - coffee",
   "tag": "",
-  "nodes": [
-    {
-      "text": "coffee",
-      "url": "http://www.wikiwand.com/en/Coffee",
-      "fx": 22.13541862339946,
-      "fy": -488.5928337599013,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 32.734595761381684,
-      "fy": -335.65276498913175,
-      "nodes": [
-        {
-          "text": "1. coffee: the greatest addiction ever",
-          "url": "https://www.youtube.com/watch?v=OTVE5iPMKLg",
-          "fx": 195.73459576138168,
-          "fy": -354.15276498913175,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "2. brew methods",
-          "url": "http://www.brewmethods.com/",
-          "fx": 195.73459576138168,
-          "fy": -287.15276498913175,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "coffee",
-      "target": "basics",
-      "curve": {
-        "x": -1.70041,
-        "y": 75.72
+  "id": 167,
+  "map": {
+    "text": "coffee",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OTVE5iPMKLg",
+            "text": "1. coffee: the greatest addiction ever",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.brewmethods.com/",
+            "text": "2. brew methods",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 167
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Coffee",
+        "text": "coffee",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

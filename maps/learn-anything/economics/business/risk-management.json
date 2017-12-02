@@ -1,58 +1,61 @@
 {
   "title": "learn anything - economics - business - risk management",
   "tag": "",
-  "nodes": [
-    {
-      "text": "risk management",
-      "url": "http://www.wikiwand.com/en/Risk_management",
-      "fx": -110,
-      "fy": -2,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -48.66873719262321,
-      "fy": 132.89529969255034,
-      "nodes": [
-        {
-          "text": "1. what is risk management?",
-          "url": "https://www.youtube.com/watch?v=BLAEuVSAlVM",
-          "fx": 107.33126280737679,
-          "fy": 144.39529969255034,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 470,
+  "map": {
+    "text": "risk management",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "insurance  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/business/risk-management/insurance",
+                "text": "insurance  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=BLAEuVSAlVM",
+            "text": "1. what is risk management?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Risk_management",
+        "text": "risk management",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "insurance  ️",
-      "url": "/economics/business/risk-management/insurance",
-      "fx": -147.978515625,
-      "fy": 250.478515625,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "risk management",
-      "target": "basics",
-      "curve": {
-        "x": -1.08437,
-        "y": 66.1976
       }
-    },
-    {
-      "source": "basics",
-      "target": "insurance  ️",
-      "curve": {
-        "x": -42.1549,
-        "y": 58.7916
-      }
-    }
-  ],
-  "id": 470
+    ],
+    "author": ""
+  }
 }

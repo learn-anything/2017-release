@@ -1,159 +1,166 @@
 {
   "title": "learn anything - information theory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "information theory",
-      "url": "http://www.wikiwand.com/en/Information_theory",
-      "fx": -79.65398532487859,
-      "fy": -374.7141504455535,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/informationtheory/",
-          "fx": 210.3460146751214,
-          "fy": -360.7141504455535,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 661,
+  "map": {
+    "text": "information theory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "signals  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals",
+                "text": "signals  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "information  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information",
+                "text": "information  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "coding theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/coding-theory",
+                "text": "coding theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "algorithmic information theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/algorithmic-information-theory",
+                "text": "algorithmic information theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+            "text": "1. a mathematical theory of communication",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=BCiZc0n6COY&amp;list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6",
+            "text": "1. introduction to information theory",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.inference.org.uk/itprnn/book.pdf",
+            "text": "1. information theory, inference and learning algorithms",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.scottaaronson.com/blog/?p=3327",
+            "text": "17: is information physical?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/informationtheory/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 98.7536057692314,
-      "fy": -238.59615384615392,
-      "nodes": [
-        {
-          "text": "17: is information physical?  ️",
-          "url": "http://www.scottaaronson.com/blog/?p=3327",
-          "fx": 289.7536057692314,
-          "fy": -227.09615384615392,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Information_theory",
+        "text": "information theory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -33.82465821076573,
-      "fy": -49.298741638631725,
-      "nodes": [
-        {
-          "text": "1. a mathematical theory of communication",
-          "url": "http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
-          "fx": 122.17534178923427,
-          "fy": -99.79874163863172,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. introduction to information theory",
-          "url": "https://www.youtube.com/watch?v=BCiZc0n6COY&amp;list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6",
-          "fx": 122.17534178923427,
-          "fy": -37.798741638631725,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. information theory, inference and learning algorithms",
-          "url": "http://www.inference.org.uk/itprnn/book.pdf",
-          "fx": 122.17534178923427,
-          "fy": 2.201258361368275,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "information  ️",
-      "url": "/information-theory/information",
-      "fx": 3.912272135416515,
-      "fy": 114.83850097656239,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "algorithmic information theory  ️",
-      "url": "/information-theory/algorithmic-information-theory",
-      "fx": -689.5220025510164,
-      "fy": 115.37037627551581,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "signals  ️",
-      "url": "/information-theory/signals",
-      "fx": -135.38278770446777,
-      "fy": 116.05892753601074,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "coding theory  ️",
-      "url": "/information-theory/coding-theory",
-      "fx": -334.5224967277486,
-      "fy": 116.37769960732976,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "information theory",
-      "target": "basics",
-      "curve": {
-        "x": -10.5853,
-        "y": 161.458
       }
-    },
-    {
-      "source": "basics",
-      "target": "signals  ️",
-      "curve": {
-        "x": -49.7791,
-        "y": 82.6789
-      }
-    },
-    {
-      "source": "basics",
-      "target": "information  ️",
-      "curve": {
-        "x": 36.8685,
-        "y": 83.3186
-      }
-    },
-    {
-      "source": "basics",
-      "target": "coding theory  ️",
-      "curve": {
-        "x": -138.761,
-        "y": 69.7615
-      }
-    },
-    {
-      "source": "basics",
-      "target": "algorithmic information theory  ️",
-      "curve": {
-        "x": -316.024,
-        "y": 51.1717
-      }
-    },
-    {
-      "source": "interesting",
-      "target": "information theory",
-      "curve": {
-        "x": -64.4538,
-        "y": -66.809
-      }
-    }
-  ],
-  "id": 661
+    ],
+    "author": ""
+  }
 }

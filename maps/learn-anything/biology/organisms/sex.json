@@ -1,65 +1,79 @@
 {
   "title": "learn anything - biology - organisms - sex",
   "tag": "",
-  "nodes": [
-    {
-      "text": "sex",
-      "url": "http://www.wikiwand.com/en/Sex",
-      "fx": 363.9824776940933,
-      "fy": 212.77181996862174,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "reproduction",
-      "url": "http://www.wikiwand.com/en/Reproduction",
-      "fx": 202.754010825916,
-      "fy": 322.88259438451774,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "sexual reproduction  ️",
-      "url": "/biology/organisms/sex/sexual-reproduction",
-      "fx": -5.793466567993164,
-      "fy": 434.4981155395508,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "reproductive systems  ️",
-      "url": "/biology/organisms/sex/reproductive-systems",
-      "fx": 251.78297305764443,
-      "fy": 436.2998756657269,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "sex",
-      "target": "reproduction",
-      "curve": {
-        "x": -59.6142,
-        "y": 55.0553
+  "id": 127,
+  "map": {
+    "text": "sex",
+    "nodes": [
+      {
+        "text": "reproduction",
+        "nodes": [
+          {
+            "text": "sexual reproduction  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/sex/sexual-reproduction",
+                "text": "sexual reproduction  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "reproductive systems  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/organisms/sex/reproductive-systems",
+                "text": "reproductive systems  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Reproduction",
+            "text": "reproduction",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "reproduction",
-      "target": "sexual reproduction  ️",
-      "curve": {
-        "x": -88.5237,
-        "y": 55.8077
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Sex",
+        "text": "sex",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "reproduction",
-      "target": "reproductive systems  ️",
-      "curve": {
-        "x": 36.7645,
-        "y": 55.4586
-      }
-    }
-  ],
-  "id": 127
+    ],
+    "author": ""
+  }
 }

@@ -1,67 +1,60 @@
 {
   "title": "learn anything - data science - data analysis - data quality",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data quality",
-      "url": "http://www.wikiwand.com/en/Data_quality",
-      "fx": -8.47791523646083,
-      "fy": -275.4896399456522,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 168.00505169172925,
-      "fy": -145.98613721804514,
-      "nodes": [
-        {
-          "text": "the effects of data quality on machine learning algorithms",
-          "url": "http://mitiq.mit.edu/ICIQ/Documents/IQ%20Conference%202006/papers/The%20Effects%20of%20Data%20Quality%20on%20Machine%20Learning%20Algorithms.pdf",
-          "fx": 367.00505169172925,
-          "fy": -145.98613721804514,
-          "nodes": [],
-          "category": "paper",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 26.884393746833666,
-      "fy": -27.673457746100496,
-      "nodes": [
-        {
-          "text": "1. data quality vs master data management tools",
-          "url": "https://www.youtube.com/watch?v=dspdToaROn8",
-          "fx": 189.88439374683367,
-          "fy": -27.673457746100496,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "data quality",
-      "target": "basics",
-      "curve": {
-        "x": -2.31885,
-        "y": 123.158
+  "id": 383,
+  "map": {
+    "text": "data quality",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dspdToaROn8",
+            "text": "1. data quality vs master data management tools",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://mitiq.mit.edu/ICIQ/Documents/IQ%20Conference%202006/papers/The%20Effects%20of%20Data%20Quality%20on%20Machine%20Learning%20Algorithms.pdf",
+            "text": "the effects of data quality on machine learning algorithms",
+            "category": "paper",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "data quality",
-      "curve": {
-        "x": -77.2415,
-        "y": -64.0018
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Data_quality",
+        "text": "data quality",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 383
+    ],
+    "author": ""
+  }
 }

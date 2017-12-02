@@ -1,58 +1,61 @@
 {
   "title": "learn anything - entrepreneurship - startups - funding",
   "tag": "startup funding",
-  "nodes": [
-    {
-      "text": "funding",
-      "url": "http://www.wikiwand.com/en/Funding",
-      "fx": -62.59765625,
-      "fy": -138.44921875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -5.354848130841106,
-      "nodes": [
-        {
-          "text": "1. startup funding explained",
-          "url": "https://www.youtube.com/watch?v=677ZtSMr4-4",
-          "fx": 109.5,
-          "fy": 6.145151869158894,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 545,
+  "map": {
+    "text": "funding",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "crowdfunding  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/entrepreneurship/startups/funding/crowdfunding",
+                "text": "crowdfunding  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=677ZtSMr4-4",
+            "text": "1. startup funding explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Funding",
+        "text": "funding",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "crowdfunding  ️",
-      "url": "/entrepreneurship/startups/funding/crowdfunding",
-      "fx": -204.4099292011108,
-      "fy": 116.75274275058143,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "funding",
-      "target": "basics",
-      "curve": {
-        "x": -1.45117,
-        "y": 65.2972
       }
-    },
-    {
-      "source": "basics",
-      "target": "crowdfunding  ️",
-      "curve": {
-        "x": -62.455,
-        "y": 61.0538
-      }
-    }
-  ],
-  "id": 545
+    ],
+    "author": ""
+  }
 }

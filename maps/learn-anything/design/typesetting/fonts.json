@@ -1,66 +1,59 @@
 {
   "title": "learn anything - design - typesetting - fonts",
   "tag": "",
-  "nodes": [
-    {
-      "text": "fonts",
-      "url": "http://www.wikiwand.com/en/Font",
-      "fx": 85.30269451530603,
-      "fy": -237.2371651785714,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 194.75701530612253,
-      "fy": -130.92857142854643,
-      "nodes": [
-        {
-          "text": "try out google fonts",
-          "url": "https://typehero.now.sh/",
-          "fx": 336.7570153061225,
-          "fy": -116.42857142854643,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 85.40051020408384,
-      "fy": -27.666772959134505,
-      "nodes": [
-        {
-          "text": "1. the font magicians",
-          "url": "https://www.youtube.com/watch?v=jAdspOtgciQ",
-          "fx": 241.40051020408384,
-          "fy": -16.166772959134505,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "fonts",
-      "target": "basics",
-      "curve": {
-        "x": -3.95109,
-        "y": 103.535
+  "id": 437,
+  "map": {
+    "text": "fonts",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jAdspOtgciQ",
+            "text": "1. the font magicians",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "tools",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://typehero.now.sh/",
+            "text": "try out google fonts",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "tools",
-      "target": "fonts",
-      "curve": {
-        "x": -47.2272,
-        "y": -51.9043
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Font",
+        "text": "fonts",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 437
+    ],
+    "author": ""
+  }
 }

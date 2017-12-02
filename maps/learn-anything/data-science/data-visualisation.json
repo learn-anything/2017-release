@@ -1,206 +1,194 @@
 {
   "title": "learn anything - data science - data visualisation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data visualisation",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Data_visualization",
-      "fx": -139.00254678726196,
-      "fy": -298.51512908935547,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/dataisbeautiful/",
-          "fx": 167.99745321273804,
-          "fy": -284.51512908935547,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 95.79764996404242,
-      "fy": -178.3370935191279,
-      "nodes": [
-        {
-          "text": "awesome charting",
-          "url": "https://github.com/zingchart/awesome-charting",
-          "fx": 232.79764996404242,
-          "fy": -217.8370935191279,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome data visualisation resources",
-          "url": "https://github.com/fasouto/awesome-dataviz",
-          "fx": 232.79764996404242,
-          "fy": -177.8370935191279,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "notes on data visualisation  ️",
-          "url": "http://frnsys.com/ai_notes/in_practice/visualization.html",
-          "fx": 232.79764996404242,
-          "fy": -115.8370935191279,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(209, 21, 88, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -263.05748980978285,
-      "fy": 24.80358355978376,
-      "nodes": [
-        {
-          "text": "1. visual encoding  ️",
-          "url": "https://www.targetprocess.com/articles/visual-encoding/",
-          "fx": -107.05748980978285,
-          "fy": -14.69641644021624,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. up and down the ladder of abstraction  ️",
-          "url": "http://worrydream.com/LadderOfAbstraction/",
-          "fx": -107.05748980978285,
-          "fy": 25.30358355978376,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. explorable explanations  ️",
-          "url": "http://worrydream.com/ExplorableExplanations/",
-          "fx": -107.05748980978285,
-          "fy": 87.30358355978376,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 205.60982878311825,
-      "fy": 55.95081994844509,
-      "nodes": [
-        {
-          "text": "how Google uses white space  ️",
-          "url": "http://us1.campaign-archive2.com/?u=836dc9c64862f158af8a31e20&amp;id=fdcffdbf91",
-          "fx": 367.60982878311825,
-          "fy": 16.450819948445087,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "14: misleading with statistics  ️",
-          "url": "https://medium.com/i-data/misleading-with-statistics-c63780efa928",
-          "fx": 367.60982878311825,
-          "fy": 56.45081994844509,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "16: what i learned recreating one chart using 24 tools  ️",
-          "url": "https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/",
-          "fx": 367.60982878311825,
-          "fy": 96.45081994844509,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 293.48255787725043,
-      "fy": 201.98485532014286,
-      "nodes": [
-        {
-          "text": "plotly",
-          "url": "https://plot.ly/",
-          "fx": 435.48255787725043,
-          "fy": 216.48485532014286,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 316.70788484894933,
-      "fy": 302.53299015532855,
-      "nodes": [
-        {
-          "text": "13: media for thinking the unthinkable",
-          "url": "http://worrydream.com/MediaForThinkingTheUnthinkable/",
-          "fx": 507.70788484894933,
-          "fy": 303.03299015532855,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "data visualisation",
-      "curve": {
-        "x": -81.4001,
-        "y": -58.839
+  "id": 398,
+  "map": {
+    "text": "data visualisation",
+    "note": "",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "tools",
+                "nodes": [
+                  {
+                    "text": "interesting",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "http://worrydream.com/MediaForThinkingTheUnthinkable/",
+                        "text": "13: media for thinking the unthinkable",
+                        "category": "video",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://plot.ly/",
+                    "text": "plotly",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://us1.campaign-archive2.com/?u=836dc9c64862f158af8a31e20&amp;id=fdcffdbf91",
+                "text": "how Google uses white space  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://medium.com/i-data/misleading-with-statistics-c63780efa928",
+                "text": "14: misleading with statistics  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/",
+                "text": "16: what i learned recreating one chart using 24 tools  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://github.com/zingchart/awesome-charting",
+            "text": "awesome charting",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/fasouto/awesome-dataviz",
+            "text": "awesome data visualisation resources",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://frnsys.com/ai_notes/in_practice/visualization.html",
+            "text": "notes on data visualisation  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.targetprocess.com/articles/visual-encoding/",
+            "text": "1. visual encoding  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://worrydream.com/LadderOfAbstraction/",
+            "text": "1. up and down the ladder of abstraction  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://worrydream.com/ExplorableExplanations/",
+            "text": "1. explorable explanations  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "interesting",
-      "target": "tools",
-      "curve": {
-        "x": -23.8626,
-        "y": -50.2741
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/dataisbeautiful/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_visualization",
+        "text": "data visualisation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -61.1561,
-        "y": -117.144
-      }
-    },
-    {
-      "source": "tools",
-      "target": "articles",
-      "curve": {
-        "x": -38.9364,
-        "y": -73.017
-      }
-    },
-    {
-      "source": "data visualisation",
-      "target": "basics",
-      "curve": {
-        "x": -99.7775,
-        "y": 160.409
-      }
-    }
-  ],
-  "id": 398
+    ],
+    "author": ""
+  }
 }

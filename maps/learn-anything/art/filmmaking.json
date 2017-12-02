@@ -1,145 +1,153 @@
 {
   "title": "learn anything - art - filmmaking",
   "tag": "",
-  "nodes": [
-    {
-      "text": "filmmaking",
-      "url": "http://www.wikiwand.com/en/Filmmaking",
-      "fx": -217.15099158653834,
-      "fy": -475.4933894230769,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -87.06833949233544,
-      "fy": -384.66956375584454,
-      "nodes": [
-        {
-          "text": "every frame is a painting",
-          "url": "https://www.youtube.com/user/everyframeapainting/videos",
-          "fx": 49.93166050766456,
-          "fy": -373.16956375584454,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 25,
+  "map": {
+    "text": "filmmaking",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "- make up something or find/partner with an aspiring writer and make a short film - you will learn a lot and it will all be relevant, meaningful, practical, and steer you in whatever direction is best for you",
+        "nodes": [
+          {
+            "text": "new movies  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/filmmaking/new-movies",
+                "text": "new movies  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "visual effects  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/filmmaking/visual-effects",
+                "text": "visual effects  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/13097193-cinematography",
+            "text": "1. cinematography",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PLeft4OzTOOjPNXtCVYQS7jgrkNjkYLPG5",
+            "text": "1. film making 101",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/playlist?list=PL2D1E46E91FD8DBD8",
+            "text": "1. tech tips for the beginning filmmakers",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/557621.Masters_of_Light",
+            "text": "1. masters of light: conversations with contemporary cinematographers",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/2548856.A_Man_With_A_Camera",
+            "text": "1. a man with a camera",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/240029.Cinematography",
+            "text": "1. cinematography: theory and practice: image making for cinematographers, directors, and videographers",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/everyframeapainting/videos",
+            "text": "every frame is a painting",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Filmmaking",
+        "text": "filmmaking",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "- make up something or find/partner with an aspiring writer and make a short film - you will learn a lot and it will all be relevant, meaningful, practical, and steer you in whatever direction is best for you",
-      "url": "",
-      "fx": -205.54190807465943,
-      "fy": -126.97798933698749,
-      "nodes": [
-        {
-          "text": "1. cinematography",
-          "url": "http://www.goodreads.com/book/show/13097193-cinematography",
-          "fx": -23.541908074659432,
-          "fy": -280.9779893369875,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. film making 101",
-          "url": "https://www.youtube.com/playlist?list=PLeft4OzTOOjPNXtCVYQS7jgrkNjkYLPG5",
-          "fx": -23.541908074659432,
-          "fy": -240.9779893369875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. tech tips for the beginning filmmakers",
-          "url": "https://www.youtube.com/playlist?list=PL2D1E46E91FD8DBD8",
-          "fx": -23.541908074659432,
-          "fy": -200.9779893369875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. masters of light: conversations with contemporary cinematographers",
-          "url": "http://www.goodreads.com/book/show/557621.Masters_of_Light",
-          "fx": -23.541908074659432,
-          "fy": -138.9779893369875,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. a man with a camera",
-          "url": "http://www.goodreads.com/book/show/2548856.A_Man_With_A_Camera",
-          "fx": -23.541908074659432,
-          "fy": -54.97798933698749,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "1. cinematography: theory and practice: image making for cinematographers, directors, and videographers",
-          "url": "http://www.goodreads.com/book/show/240029.Cinematography",
-          "fx": -23.541908074659432,
-          "fy": -14.977989336987491,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(49, 187, 71, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "new movies  ️",
-      "url": "/art/filmmaking/new-movies",
-      "fx": -472.7520575394392,
-      "fy": -1.471399841983839,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "visual effects  ️",
-      "url": "/art/filmmaking/visual-effects",
-      "fx": -291.173920688773,
-      "fy": 83.58973714004173,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "filmmaking",
-      "target": "basics",
-      "curve": {
-        "x": -4.69546,
-        "y": 173.008
       }
-    },
-    {
-      "source": "help",
-      "target": "filmmaking",
-      "curve": {
-        "x": -43.2913,
-        "y": -44.1619
-      }
-    },
-    {
-      "source": "basics",
-      "target": "new movies  ️",
-      "curve": {
-        "x": -127.605,
-        "y": 62.7529
-      }
-    },
-    {
-      "source": "basics",
-      "target": "visual effects  ️",
-      "curve": {
-        "x": -34.816,
-        "y": 105.284
-      }
-    }
-  ],
-  "id": 25
+    ],
+    "author": ""
+  }
 }

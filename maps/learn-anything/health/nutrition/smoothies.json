@@ -1,42 +1,42 @@
 {
   "title": "learn anything - health - nutrition - smoothies",
   "tag": "",
-  "nodes": [
-    {
-      "text": "smoothies",
-      "url": "http://www.wikiwand.com/en/Smoothie",
-      "fx": -36.656253814697266,
-      "fy": -145.43088150024414,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "healthy",
-      "url": "",
-      "fx": 43.730055809020996,
-      "fy": -16.99877405166626,
-      "nodes": [
-        {
-          "text": "Rhonda's ultimate micronutrient smoothie",
-          "url": "https://www.youtube.com/watch?v=Ys86ZgjQQYg",
-          "fx": 206.730055809021,
-          "fy": -16.49877405166626,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "healthy",
-      "target": "smoothies",
-      "curve": {
-        "x": -25.6932,
-        "y": -62.9661
+  "id": 616,
+  "map": {
+    "text": "smoothies",
+    "nodes": [
+      {
+        "text": "healthy",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ys86ZgjQQYg",
+            "text": "Rhonda's ultimate micronutrient smoothie",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 616
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Smoothie",
+        "text": "smoothies",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

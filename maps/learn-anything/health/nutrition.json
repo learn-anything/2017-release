@@ -1,158 +1,163 @@
 {
   "title": "learn anything - health - nutrition",
   "tag": "",
-  "nodes": [
-    {
-      "text": "nutrition",
-      "url": "https://www.wikiwand.com/en/Nutrition",
-      "fx": 135.48824223427368,
-      "fy": -279.9097938337795,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 251.67097993785626,
-      "fy": -144.9931154996812,
-      "nodes": [
-        {
-          "text": "16: why you shouldn't exercise to lose weight, explained with 60+ studies  ️",
-          "url": "http://getliner.com/AaD03?hacker=true",
-          "fx": 412.67097993785626,
-          "fy": -186.4931154996812,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "17: what have we learned about nutrition in the past  years?  ️",
-          "url": "https://examine.com/nutrition/an-interesting-5-years/",
-          "fx": 412.67097993785626,
-          "fy": -102.49311549968121,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 618,
+  "map": {
+    "text": "nutrition",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "keto  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/nutrition/keto",
+                "text": "keto  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "smoothies  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/nutrition/smoothies",
+                "text": "smoothies  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "weight loss  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/nutrition/weight-loss",
+                "text": "weight loss  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "food  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/nutrition/food",
+                "text": "food  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "fasting  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/health/nutrition/fasting",
+                "text": "fasting  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.goodreads.com/book/show/25663961-how-not-to-die",
+            "text": "1. how not to die",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "articles",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://getliner.com/AaD03?hacker=true",
+            "text": "16: why you shouldn't exercise to lose weight, explained with 60+ studies  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://examine.com/nutrition/an-interesting-5-years/",
+            "text": "17: what have we learned about nutrition in the past  years?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.wikiwand.com/en/Nutrition",
+        "text": "nutrition",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 108.44074804132629,
-      "fy": 42.17622717277152,
-      "nodes": [
-        {
-          "text": "1. how not to die",
-          "note": "covers how and why the diet that you have, has such an effect on you and how you can maximise and improve it towards better and longer living",
-          "url": "https://www.goodreads.com/book/show/25663961-how-not-to-die",
-          "fx": 290.4407480413263,
-          "fy": 53.67622717277152,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "weight loss  ️",
-      "url": "/health/nutrition/weight-loss",
-      "fx": -156.8920978761331,
-      "fy": 57.665303512003334,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "smoothies  ️",
-      "url": "/health/nutrition/smoothies",
-      "fx": 283.32745885912584,
-      "fy": 143.8403612987487,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "fasting  ️",
-      "url": "/health/nutrition/fasting",
-      "fx": -106.35902412912571,
-      "fy": 154.77159639518675,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "food  ️",
-      "url": "/health/nutrition/food",
-      "fx": 60.710490687106926,
-      "fy": 176.31701765423986,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "keto  ️",
-      "url": "/health/nutrition/keto",
-      "fx": 216.05062823825426,
-      "fy": 247.9241040547688,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "basics",
-      "target": "keto  ️",
-      "curve": {
-        "x": 42.805,
-        "y": 102.874
       }
-    },
-    {
-      "source": "basics",
-      "target": "smoothies  ️",
-      "curve": {
-        "x": 97.1934,
-        "y": 52.082
-      }
-    },
-    {
-      "source": "nutrition",
-      "target": "basics",
-      "curve": {
-        "x": -24.5237,
-        "y": 159.793
-      }
-    },
-    {
-      "source": "articles",
-      "target": "nutrition",
-      "curve": {
-        "x": -42.3413,
-        "y": -66.2083
-      }
-    },
-    {
-      "source": "basics",
-      "target": "weight loss  ️",
-      "curve": {
-        "x": -128.167,
-        "y": 7.74454
-      }
-    },
-    {
-      "source": "basics",
-      "target": "food  ️",
-      "curve": {
-        "x": -34.6151,
-        "y": 67.0704
-      }
-    },
-    {
-      "source": "basics",
-      "target": "fasting  ️",
-      "curve": {
-        "x": -106.15,
-        "y": 57.5477
-      }
-    }
-  ],
-  "id": 618
+    ],
+    "author": ""
+  }
 }

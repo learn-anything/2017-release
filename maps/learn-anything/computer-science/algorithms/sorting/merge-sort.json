@@ -1,92 +1,79 @@
 {
   "title": "learn anything - computer science - algorithms - sorting - merge sort",
   "tag": "",
-  "nodes": [
-    {
-      "text": "merge sort",
-      "url": "http://www.wikiwand.com/en/Merge_sort",
-      "fx": 65.078125,
-      "fy": -356.2890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 215.30520545580112,
-      "fy": -249.89886912983422,
-      "nodes": [
-        {
-          "text": "visualisation",
-          "url": "https://visualgo.net/en/sorting?slide=1",
-          "fx": 352.3052054558011,
-          "fy": -238.39886912983422,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "implementation",
-      "url": "",
-      "fx": 315.2124331449601,
-      "fy": -144.3529743347712,
-      "nodes": [
-        {
-          "text": "in java",
-          "url": "https://github.com/BASISPhoenix/MergeSort/blob/master/src/MergeSort.java#L4",
-          "fx": 552.2124331449601,
-          "fy": -132.8529743347712,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 91.06465386992056,
-      "fy": -51.43355682651554,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=sfmaf4QpVTw",
-          "fx": 247.06465386992056,
-          "fy": -39.93355682651554,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "merge sort",
-      "curve": {
-        "x": -53.1135,
-        "y": -51.9451
+  "id": 278,
+  "map": {
+    "text": "merge sort",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "implementation",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://github.com/BASISPhoenix/MergeSort/blob/master/src/MergeSort.java#L4",
+                "text": "in java",
+                "category": "github",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://visualgo.net/en/sorting?slide=1",
+            "text": "visualisation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=sfmaf4QpVTw",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "merge sort",
-      "target": "basics",
-      "curve": {
-        "x": -4.25674,
-        "y": 151.178
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Merge_sort",
+        "text": "merge sort",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "implementation",
-      "target": "help",
-      "curve": {
-        "x": -74.9536,
-        "y": -52.7729
-      }
-    }
-  ],
-  "id": 278
+    ],
+    "author": ""
+  }
 }

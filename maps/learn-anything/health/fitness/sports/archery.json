@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - archery",
   "tag": "",
-  "nodes": [
-    {
-      "text": "archery",
-      "url": "http://www.wikiwand.com/en/Archery",
-      "fx": -64.45703125,
-      "fy": -289.40234375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Archery/",
-          "fx": 129.54296875,
-          "fy": -275.40234375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -48.72404844290645,
-      "fy": -121.35996972320328,
-      "nodes": [
-        {
-          "text": "1. learn archery",
-          "url": "https://www.youtube.com/watch?v=KXEdY9k1gPc",
-          "fx": 107.27595155709355,
-          "fy": -109.85996972320328,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "archery",
-      "target": "basics",
-      "curve": {
-        "x": -1.63351,
-        "y": 82.7712
+  "id": 581,
+  "map": {
+    "text": "archery",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=KXEdY9k1gPc",
+            "text": "1. learn archery",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 581
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Archery/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Archery",
+        "text": "archery",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

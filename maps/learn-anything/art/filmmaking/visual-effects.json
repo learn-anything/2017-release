@@ -1,77 +1,71 @@
 {
   "title": "learn anything - art - filmmaking - visual effects",
   "tag": "",
-  "nodes": [
-    {
-      "text": "visual effects",
-      "url": "http://www.wikiwand.com/en/Visual_effects",
-      "fx": -0.8867359161376953,
-      "fy": -138.0367202758789,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/vfx/",
-          "fx": 241.1132640838623,
-          "fy": -124.0367202758789,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 209.82132544146145,
-      "fy": -30.26403755444585,
-      "nodes": [
-        {
-          "text": "how did you learn about visual effects?",
-          "url": "https://www.reddit.com/r/gamedev/comments/5nrqjo/where_did_you_learn_about_visual_effects/dce1oe1/",
-          "fx": 346.82132544146145,
-          "fy": -29.76403755444585,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 31.7109375,
-      "fy": 93.96875,
-      "nodes": [
-        {
-          "text": "1. VFX core concepts 101",
-          "url": "https://www.youtube.com/watch?v=0-v3NtODgi0",
-          "fx": 187.7109375,
-          "fy": 105.46875,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "visual effects",
-      "target": "basics",
-      "curve": {
-        "x": -5.20116,
-        "y": 114.753
+  "id": 24,
+  "map": {
+    "text": "visual effects",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=0-v3NtODgi0",
+            "text": "1. VFX core concepts 101",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.reddit.com/r/gamedev/comments/5nrqjo/where_did_you_learn_about_visual_effects/dce1oe1/",
+            "text": "how did you learn about visual effects?",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "visual effects",
-      "curve": {
-        "x": -79.104,
-        "y": -52.6363
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/vfx/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Visual_effects",
+        "text": "visual effects",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 24
+    ],
+    "author": ""
+  }
 }

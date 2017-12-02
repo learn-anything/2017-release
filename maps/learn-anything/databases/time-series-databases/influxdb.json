@@ -1,60 +1,63 @@
 {
   "title": "learn anything - databases - time series databases - influxdb",
   "tag": "influxDB",
-  "nodes": [
-    {
-      "text": "influxDB",
-      "url": "http://www.wikiwand.com/en/InfluxDB",
-      "fx": 269.265625,
-      "fy": -81.65234375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://github.com/influxdata/influxdb",
-          "fx": 471.265625,
-          "fy": -87.65234375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/mark-rushakoff/awesome-influxdb",
-          "fx": 471.265625,
-          "fy": -47.65234375,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 284.1953125,
-      "fy": 62.98046875,
-      "nodes": [
-        {
-          "text": "1. getting started",
-          "url": "https://docs.influxdata.com/influxdb/v1.2/introduction/getting_started/",
-          "fx": 440.1953125,
-          "fy": 77.48046875,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "influxDB",
-      "target": "basics",
-      "curve": {
-        "x": -4.03515,
-        "y": 71.0664
+  "id": 416,
+  "map": {
+    "text": "influxDB",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://docs.influxdata.com/influxdb/v1.2/introduction/getting_started/",
+            "text": "1. getting started",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 416
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/influxdata/influxdb",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/mark-rushakoff/awesome-influxdb",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/InfluxDB",
+        "text": "influxDB",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

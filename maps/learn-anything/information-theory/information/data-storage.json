@@ -1,97 +1,114 @@
 {
   "title": "learn anything - information theory - information - data storage",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data storage",
-      "url": "http://www.wikiwand.com/en/Data_storage",
-      "fx": 301.23764648743474,
-      "fy": -158.1007071739674,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "hard disk drives  ️",
-      "url": "/information-theory/information/data-storage/hard-disks",
-      "fx": 79.10784912109375,
-      "fy": 1.23457670211792,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "solid-state drives  ️",
-      "url": "/information-theory/information/data-storage/solid-state-drives",
-      "fx": 313.21622467041016,
-      "fy": 1.7276811599731445,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "DNA digital data storage  ️",
-      "url": "/information-theory/information/data-storage/dna",
-      "fx": -240.0159149169922,
-      "fy": 2.038562297821045,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "punched cards  ️",
-      "url": "/information-theory/information/data-storage/punched-cards",
-      "fx": 559.3028869628906,
-      "fy": 5.5149054527282715,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "cloud storage  ️",
-      "url": "/information-theory/information/data-storage/cloud-storage",
-      "fx": 791.3465909090905,
-      "fy": 5.873224431773735,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "data storage",
-      "target": "DNA digital data storage  ️",
-      "curve": {
-        "x": -243.877,
-        "y": 80.0696
+  "id": 642,
+  "map": {
+    "text": "data storage",
+    "nodes": [
+      {
+        "text": "DNA digital data storage  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/information-theory/information/data-storage/dna",
+            "text": "DNA digital data storage  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "hard disk drives  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/information-theory/information/data-storage/hard-disks",
+            "text": "hard disk drives  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "solid-state drives  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/information-theory/information/data-storage/solid-state-drives",
+            "text": "solid-state drives  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "punched cards  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/information-theory/information/data-storage/punched-cards",
+            "text": "punched cards  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "cloud storage  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/information-theory/information/data-storage/cloud-storage",
+            "text": "cloud storage  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "data storage",
-      "target": "hard disk drives  ️",
-      "curve": {
-        "x": -104.065,
-        "y": 79.6676
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Data_storage",
+        "text": "data storage",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "data storage",
-      "target": "solid-state drives  ️",
-      "curve": {
-        "x": 15.7391,
-        "y": 79.9142
-      }
-    },
-    {
-      "source": "data storage",
-      "target": "punched cards  ️",
-      "curve": {
-        "x": 127.283,
-        "y": 80.5578
-      }
-    },
-    {
-      "source": "data storage",
-      "target": "cloud storage  ️",
-      "curve": {
-        "x": 326.406,
-        "y": 64.5573
-      }
-    }
-  ],
-  "id": 642
+    ],
+    "author": ""
+  }
 }

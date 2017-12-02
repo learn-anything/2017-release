@@ -1,106 +1,114 @@
 {
   "title": "learn anything - data science - data processing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "data processing",
-      "url": "http://www.wikiwand.com/en/Data_processing",
-      "fx": 439.3529730902776,
-      "fy": -260.1246744791667,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/manuzhang/awesome-streaming",
-          "fx": 711.3529730902776,
-          "fy": -246.12467447916669,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 397,
+  "map": {
+    "text": "data processing",
+    "nodes": [
+      {
+        "text": "software",
+        "nodes": [
+          {
+            "text": "apache hadoop  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-processing/apache-hadoop",
+                "text": "apache hadoop  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "apache spark  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-processing/apache-spark",
+                "text": "apache spark  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "MapReduce  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/data-science/data-processing/mapreduce",
+                "text": "MapReduce  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [],
+        "author": ""
+      },
+      {
+        "text": "lambda architecture  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/data-science/data-processing/lambda-architecture",
+            "text": "lambda architecture  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/manuzhang/awesome-streaming",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "lambda architecture  ️",
-      "url": "/data-science/data-processing/lambda-architecture",
-      "fx": 537.4521484375,
-      "fy": -140.6533203125,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "software",
-      "url": "",
-      "fx": 328.1381293402758,
-      "fy": -119.24218749999767,
-      "nodes": []
-    },
-    {
-      "text": "apache hadoop  ️",
-      "url": "/data-science/data-processing/apache-hadoop",
-      "fx": 7.257158302250275,
-      "fy": -6.100217113906524,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "apache spark  ️",
-      "url": "/data-science/data-processing/apache-spark",
-      "fx": 230.59672601291913,
-      "fy": -5.676371455378899,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "MapReduce  ️",
-      "url": "/data-science/data-processing/mapreduce",
-      "fx": 441.6783419398728,
-      "fy": -4.236669077195188,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "data processing",
-      "target": "software",
-      "curve": {
-        "x": -79.6074,
-        "y": 69.1912
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Data_processing",
+        "text": "data processing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "software",
-      "target": "apache hadoop  ️",
-      "curve": {
-        "x": -136.94,
-        "y": 57.821
-      }
-    },
-    {
-      "source": "software",
-      "target": "apache spark  ️",
-      "curve": {
-        "x": -30.2707,
-        "y": 58.0329
-      }
-    },
-    {
-      "source": "software",
-      "target": "MapReduce  ️",
-      "curve": {
-        "x": 72.2701,
-        "y": 58.7528
-      }
-    },
-    {
-      "source": "data processing",
-      "target": "lambda architecture  ️",
-      "curve": {
-        "x": 50.2996,
-        "y": 58.4857
-      }
-    }
-  ],
-  "id": 397
+    ],
+    "author": ""
+  }
 }

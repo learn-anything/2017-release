@@ -1,26 +1,34 @@
 {
   "title": "learn anything - software - bots",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bots",
-      "url": "http://www.wikiwand.com/en/Internet_bot",
-      "fx": -86.62109375,
-      "fy": -277.9921875,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/hackerkid/bots",
-          "fx": 80.37890625,
-          "fy": -263.9921875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1794,
+  "map": {
+    "text": "bots",
+    "nodes": [],
+    "resources": [
+      {
+        "url": "https://github.com/hackerkid/bots",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    }
-  ],
-  "connections": [],
-  "id": 1791
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Internet_bot",
+        "text": "bots",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

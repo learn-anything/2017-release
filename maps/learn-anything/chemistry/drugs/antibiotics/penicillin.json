@@ -1,42 +1,42 @@
 {
   "title": "learn anything - chemistry - drugs - antibiotics - penicillin",
   "tag": "",
-  "nodes": [
-    {
-      "text": "penicillin",
-      "url": "http://www.wikiwand.com/en/Penicillin",
-      "fx": -31.2109375,
-      "fy": -205.9140625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -15.33203125,
-      "fy": -82.80078125,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=JZt1MiygQHY",
-          "fx": 140.66796875,
-          "fy": -71.30078125,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "penicillin",
-      "target": "basics",
-      "curve": {
-        "x": -3.81055,
-        "y": 60.3066
+  "id": 151,
+  "map": {
+    "text": "penicillin",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=JZt1MiygQHY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 151
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Penicillin",
+        "text": "penicillin",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

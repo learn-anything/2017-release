@@ -1,221 +1,233 @@
 {
   "title": "learn anything - design - user experience",
   "tag": "ux design",
-  "nodes": [
-    {
-      "text": "user experience",
-      "url": "http://www.wikiwand.com/en/User_experience",
-      "fx": -85.26005816459656,
-      "fy": -187.66955964039948,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/userexperience/",
-          "fx": 184.73994183540344,
-          "fy": -193.66955964039948,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://ux.stackexchange.com/",
-          "fx": 184.73994183540344,
-          "fy": -153.66955964039948,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 442,
+  "map": {
+    "text": "user experience",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "interaction design",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Interaction_design",
+                "text": "interaction design",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "user centered design",
+            "nodes": [
+              {
+                "text": "user research",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/User_Research",
+                    "text": "user research",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/User-centered_design",
+                "text": "user centered design",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://hackdesign.org/",
+            "text": "1. hack design",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/togiberlin/ui-ux-designer-roadmap",
+            "text": "1. UI/UX roadmap",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://medium.com/@uxmuch/ten-skills-you-need-to-be-a-ux-unicorn-f7ec555981b0",
+            "text": "1. ten skills to become UX unicorn  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://trydesignlab.com/blog/where-ux-design-5-years-predictions/",
+                "text": "17: where will UX design be in 5 years?  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/",
+                "text": "17: meaningful motion with action driven animation  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d",
+                "text": "16: UX  design methods &amp; deliverables  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.recode.net/2017/5/25/15689094/mossberg-final-column",
+                "text": "17: the disappearing computer  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://www.designernews.co/stories/84443-redditors-design-worst-volume-sliders-possible",
+                "text": "17: redditors design worst volume sliders possible  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.nickkolenda.com/user-experience/",
+            "text": "UX/UI best practices",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://talks.ui-patterns.com/",
+            "text": "UI talks",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/userexperience/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 54.84207163018698,
-      "fy": -83.28212691161588,
-      "nodes": [
-        {
-          "text": "UX/UI best practices",
-          "url": "https://www.nickkolenda.com/user-experience/",
-          "fx": 191.84207163018698,
-          "fy": -85.78212691161588,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "UI talks",
-          "url": "http://talks.ui-patterns.com/",
-          "fx": 191.84207163018698,
-          "fy": -51.782126911615876,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "https://ux.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 228.1075522212658,
-      "fy": 96.32380831443652,
-      "nodes": [
-        {
-          "text": "17: where will UX design be in 5 years?  ️",
-          "url": "http://trydesignlab.com/blog/where-ux-design-5-years-predictions/",
-          "fx": 390.1075522212658,
-          "fy": -16.17619168556348,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: meaningful motion with action driven animation  ️",
-          "url": "http://tobiasahlin.com/blog/meaningful-motion-w-action-driven-animation/",
-          "fx": 390.1075522212658,
-          "fy": 45.82380831443652,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "16: UX  design methods &amp; deliverables  ️",
-          "url": "https://uxdesign.cc/ux-design-methods-deliverables-657f54ce3c7d",
-          "fx": 390.1075522212658,
-          "fy": 107.82380831443652,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "17: the disappearing computer  ️",
-          "url": "https://www.recode.net/2017/5/25/15689094/mossberg-final-column",
-          "fx": 390.1075522212658,
-          "fy": 169.82380831443652,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "17: redditors design worst volume sliders possible  ️",
-          "url": "https://www.designernews.co/stories/84443-redditors-design-worst-volume-sliders-possible",
-          "fx": 390.1075522212658,
-          "fy": 209.82380831443652,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(209, 21, 88, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/User_experience",
+        "text": "user experience",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -85.34748629693615,
-      "fy": 290.3846365604363,
-      "nodes": [
-        {
-          "text": "1. hack design",
-          "url": "https://hackdesign.org/",
-          "fx": 96.65251370306385,
-          "fy": 261.8846365604363,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. UI/UX roadmap",
-          "url": "https://github.com/togiberlin/ui-ux-designer-roadmap",
-          "fx": 96.65251370306385,
-          "fy": 301.8846365604363,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. ten skills to become UX unicorn  ️",
-          "url": "https://medium.com/@uxmuch/ten-skills-you-need-to-be-a-ux-unicorn-f7ec555981b0",
-          "fx": 96.65251370306385,
-          "fy": 341.8846365604363,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "interaction design",
-      "url": "http://www.wikiwand.com/en/Interaction_design",
-      "fx": -265.64325355253345,
-      "fy": 422.48485125597017,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "user centered design",
-      "url": "http://www.wikiwand.com/en/User-centered_design",
-      "fx": -11.207294074216861,
-      "fy": 425.02053372710145,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "user research",
-      "url": "http://www.wikiwand.com/en/User_Research",
-      "fx": 22.542774161832767,
-      "fy": 538.6643414579779,
-      "nodes": [],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "user experience",
-      "target": "basics",
-      "curve": {
-        "x": -23.5437,
-        "y": 239.026
       }
-    },
-    {
-      "source": "help",
-      "target": "user experience",
-      "curve": {
-        "x": -36.8011,
-        "y": -50.9438
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -106.982,
-        "y": -76.588
-      }
-    },
-    {
-      "source": "basics",
-      "target": "interaction design",
-      "curve": {
-        "x": -63.8979,
-        "y": 67.3001
-      }
-    },
-    {
-      "source": "user centered design",
-      "target": "user research",
-      "curve": {
-        "x": 0.12503,
-        "y": 56.8219
-      }
-    },
-    {
-      "source": "basics",
-      "target": "user centered design",
-      "curve": {
-        "x": 70.82,
-        "y": 68.568
-      }
-    }
-  ],
-  "id": 442
+    ],
+    "author": ""
+  }
 }

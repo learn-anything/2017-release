@@ -1,60 +1,64 @@
 {
   "title": "learn anything - engineering - mechatronics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "mechatronics",
-      "url": "http://www.wikiwand.com/en/Mechatronics",
-      "fx": -193.9609375,
-      "fy": -271.33984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -155.05452806122457,
-      "fy": -97.41868622448987,
-      "nodes": [
-        {
-          "text": "1. mechatronics: reality vs expectations",
-          "url": "https://www.youtube.com/watch?v=AoEKdrOZjm8",
-          "fx": 0.9454719387754267,
-          "fy": -136.91868622448987,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. control systems engineering",
-          "url": "https://www.goodreads.com/book/show/14764640-control-systems-engineering",
-          "fx": 0.9454719387754267,
-          "fy": -74.91868622448987,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. robot modelling and control",
-          "url": "http://www.goodreads.com/book/show/387893.Robot_Modeling_and_Control",
-          "fx": 0.9454719387754267,
-          "fy": -34.918686224489875,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "mechatronics",
-      "target": "basics",
-      "curve": {
-        "x": -3.7968,
-        "y": 85.7106
+  "id": 540,
+  "map": {
+    "text": "mechatronics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=AoEKdrOZjm8",
+            "text": "1. mechatronics: reality vs expectations",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/14764640-control-systems-engineering",
+            "text": "1. control systems engineering",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://www.goodreads.com/book/show/387893.Robot_Modeling_and_Control",
+            "text": "1. robot modelling and control",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 540
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Mechatronics",
+        "text": "mechatronics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

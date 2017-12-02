@@ -1,42 +1,42 @@
 {
   "title": "learn anything - economics - economic models",
   "tag": "",
-  "nodes": [
-    {
-      "text": "economic models",
-      "url": "http://www.wikiwand.com/en/Economic_model",
-      "fx": -26.88671875,
-      "fy": -289.3984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 34.84790254658242,
-      "fy": -142.3223201275328,
-      "nodes": [
-        {
-          "text": "1. economic models &amp; theories",
-          "url": "https://www.youtube.com/watch?v=lYHy2XLa4u0",
-          "fx": 197.84790254658242,
-          "fy": -129.8223201275328,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "economic models",
-      "target": "basics",
-      "curve": {
-        "x": -5.63269,
-        "y": 72.7881
+  "id": 479,
+  "map": {
+    "text": "economic models",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lYHy2XLa4u0",
+            "text": "1. economic models &amp; theories",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 479
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Economic_model",
+        "text": "economic models",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

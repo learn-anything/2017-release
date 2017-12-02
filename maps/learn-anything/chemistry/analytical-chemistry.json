@@ -1,51 +1,53 @@
 {
   "title": "learn anything - chemistry - analytical chemistry",
   "tag": "",
-  "nodes": [
-    {
-      "text": "analytical chemistry",
-      "url": "http://www.wikiwand.com/en/Analytical_chemistry",
-      "fx": 154.25071022727286,
-      "fy": -153.10505445075756,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 229.55948153409065,
-      "fy": 7.271721117401796,
-      "nodes": [
-        {
-          "text": "1. modern analytical chemistry",
-          "url": "http://elibrary.bsu.az/azad/new/2477.pdf",
-          "fx": 392.55948153409065,
-          "fy": -1.2282788825982038,
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "1 analytic chemistry lectures",
-          "url": "https://www.youtube.com/watch?v=2q4vSKwaBtw&amp;list=PLD90B24578D0756F9",
-          "fx": 392.55948153409065,
-          "fy": 40.771721117401796,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "analytical chemistry",
-      "target": "basics",
-      "curve": {
-        "x": -2.34561,
-        "y": 79.4384
+  "id": 139,
+  "map": {
+    "text": "analytical chemistry",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://elibrary.bsu.az/azad/new/2477.pdf",
+            "text": "1. modern analytical chemistry",
+            "category": "free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2q4vSKwaBtw&amp;list=PLD90B24578D0756F9",
+            "text": "1 analytic chemistry lectures",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 139
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Analytical_chemistry",
+        "text": "analytical chemistry",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

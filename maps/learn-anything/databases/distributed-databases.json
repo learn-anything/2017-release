@@ -1,104 +1,104 @@
 {
   "title": "learn anything - databases - distributed databases",
   "tag": "",
-  "nodes": [
-    {
-      "text": "distributed databases",
-      "url": "http://www.wikiwand.com/en/Distributed_database",
-      "fx": 95.48046875,
-      "fy": -233.9663431186869,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 179.93355429292887,
-      "fy": -108.60179924242101,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=ah_tJg4sR5U",
-          "fx": 342.9335542929289,
-          "fy": -96.10179924242101,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 402,
+  "map": {
+    "text": "distributed databases",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "blockchain  ️",
+            "nodes": [
+              {
+                "text": "blockchain based databases",
+                "nodes": [
+                  {
+                    "text": "BigchainDB",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://www.bigchaindb.com/",
+                        "text": "BigchainDB",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "Storj  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/information-theory/information/data-storage/cloud-storage/storj",
+                        "text": "Storj  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "/databases/distributed-databases/blockchain",
+                "text": "blockchain  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ah_tJg4sR5U",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Distributed_database",
+        "text": "distributed databases",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "blockchain  ️",
-      "url": "/databases/distributed-databases/blockchain",
-      "fx": 6.93844696969677,
-      "fy": 23.22261679293092,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "blockchain based databases",
-      "url": "",
-      "fx": 13.187924065853963,
-      "fy": 158.99261129476565,
-      "nodes": []
-    },
-    {
-      "text": "BigchainDB",
-      "url": "https://www.bigchaindb.com/",
-      "fx": -23.578757856145103,
-      "fy": 280.6288353264664,
-      "nodes": []
-    },
-    {
-      "text": "Storj  ️",
-      "url": "/information-theory/information/data-storage/cloud-storage/storj",
-      "fx": 159.0562582911374,
-      "fy": 282.9437230246068,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "distributed databases",
-      "target": "basics",
-      "curve": {
-        "x": -3.27346,
-        "y": 61.9322
       }
-    },
-    {
-      "source": "basics",
-      "target": "blockchain  ️",
-      "curve": {
-        "x": -67.9976,
-        "y": 66.6622
-      }
-    },
-    {
-      "source": "blockchain  ️",
-      "target": "blockchain based databases",
-      "curve": {
-        "x": 40.3747,
-        "y": 67.135
-      }
-    },
-    {
-      "source": "blockchain based databases",
-      "target": "BigchainDB",
-      "curve": {
-        "x": -61.1333,
-        "y": 60.8181
-      }
-    },
-    {
-      "source": "blockchain based databases",
-      "target": "Storj  ️",
-      "curve": {
-        "x": 12.1842,
-        "y": 61.9756
-      }
-    }
-  ],
-  "id": 402
+    ],
+    "author": ""
+  }
 }

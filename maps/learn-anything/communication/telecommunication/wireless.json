@@ -1,142 +1,156 @@
 {
   "title": "learn anything - communication - telecommunication - wireless",
   "tag": "wireless communication",
-  "nodes": [
-    {
-      "text": "wireless",
-      "url": "http://www.wikiwand.com/en/Wireless",
-      "fx": -150.95825559701484,
-      "fy": -174.64103311567163,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -138.7388059701492,
-      "fy": -56.88590251862644,
-      "nodes": [
-        {
-          "text": "1. how information travels wirelessly",
-          "url": "https://www.youtube.com/watch?v=Ax7dYaRiY6o",
-          "fx": 17.2611940298508,
-          "fy": -56.38590251862644,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 200,
+  "map": {
+    "text": "wireless",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "WiFi  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/communication/telecommunication/wireless/wifi",
+                "text": "WiFi  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "LTE",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/LTE_(telecommunication)",
+                "text": "LTE",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "bluetooth",
+            "nodes": [
+              {
+                "text": "bluetooth low energy beacon",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "https://github.com/beaconinside/awesome-beacon",
+                    "text": "awesome beacon",
+                    "category": "github",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://www.wikiwand.com/en/Bluetooth_low_energy_beacon",
+                    "text": "bluetooth low energy beacon",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/List_of_Bluetooth_protocols",
+                "text": "list of bluetooth protocols",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "http://www.wikiwand.com/en/Bluetooth",
+                "text": "bluetooth",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "LPWAN",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/LPWAN",
+                "text": "LPWAN",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Ax7dYaRiY6o",
+            "text": "1. how information travels wirelessly",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Wireless",
+        "text": "wireless",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "LTE",
-      "url": "http://www.wikiwand.com/en/LTE_(telecommunication)",
-      "fx": -390.46837766654505,
-      "fy": 42.15834736911688,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "WiFi  ️",
-      "url": "/communication/telecommunication/wireless/wifi",
-      "fx": -43.22801573105619,
-      "fy": 107.79099887913378,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "LPWAN",
-      "url": "http://www.wikiwand.com/en/LPWAN",
-      "fx": -439.10182221230076,
-      "fy": 213.755142800106,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "bluetooth",
-      "url": "http://www.wikiwand.com/en/Bluetooth",
-      "fx": -261.04603540283813,
-      "fy": 224.29253675488553,
-      "nodes": [
-        {
-          "text": "list of bluetooth protocols",
-          "url": "http://www.wikiwand.com/en/List_of_Bluetooth_protocols",
-          "fx": -48.04603540283813,
-          "fy": 238.29253675488553,
-          "nodes": [],
-          "category": "wiki",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "bluetooth low energy beacon",
-      "url": "http://www.wikiwand.com/en/Bluetooth_low_energy_beacon",
-      "fx": -360.2630150151301,
-      "fy": 358.760642610177,
-      "nodes": [
-        {
-          "text": "awesome beacon",
-          "url": "https://github.com/beaconinside/awesome-beacon",
-          "fx": 37.73698498486988,
-          "fy": 372.760642610177,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    }
-  ],
-  "connections": [
-    {
-      "source": "bluetooth",
-      "target": "bluetooth low energy beacon",
-      "curve": {
-        "x": -3.35849,
-        "y": 67.2341
       }
-    },
-    {
-      "source": "wireless",
-      "target": "basics",
-      "curve": {
-        "x": -4.64028,
-        "y": 57.6276
-      }
-    },
-    {
-      "source": "basics",
-      "target": "WiFi  ️",
-      "curve": {
-        "x": 47.7554,
-        "y": 83.5885
-      }
-    },
-    {
-      "source": "basics",
-      "target": "LTE",
-      "curve": {
-        "x": -131.865,
-        "y": 49.5221
-      }
-    },
-    {
-      "source": "basics",
-      "target": "bluetooth",
-      "curve": {
-        "x": -46.9036,
-        "y": 141.839
-      }
-    },
-    {
-      "source": "basics",
-      "target": "LPWAN",
-      "curve": {
-        "x": -139.432,
-        "y": 136.571
-      }
-    }
-  ],
-  "id": 200
+    ],
+    "author": ""
+  }
 }

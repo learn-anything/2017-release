@@ -1,170 +1,190 @@
 {
   "title": "learn anything - biology - anatomy - human body",
   "tag": "",
-  "nodes": [
-    {
-      "text": "human body",
-      "url": "http://www.wikiwand.com/en/Human_body",
-      "fx": 193.869229403409,
-      "fy": -203.2037772495362,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 231.31675161645148,
-      "fy": -88.12922290177943,
-      "nodes": [
-        {
-          "text": "1. how to build a human",
-          "url": "https://www.youtube.com/watch?v=O7M7BoJGRNc",
-          "fx": 387.3167516164515,
-          "fy": -76.62922290177943,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 85,
+  "map": {
+    "text": "human body",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "body fluids",
+            "nodes": [
+              {
+                "text": "blood  ️",
+                "nodes": [],
+                "resources": [
+                  {
+                    "url": "/biology/anatomy/human-body/blood",
+                    "text": "blood  ️",
+                    "category": "mindmap",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Body_fluid",
+                "text": "body fluids",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "organs",
+            "nodes": [
+              {
+                "text": "organ systems",
+                "nodes": [
+                  {
+                    "text": "respiratory system  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/biology/anatomy/human-body/respiratory-system",
+                        "text": "respiratory system  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "digestive system  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/biology/anatomy/human-body/digestive-system",
+                        "text": "digestive system  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "circulatory system  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/biology/anatomy/human-body/circulatory-system",
+                        "text": "circulatory system  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  },
+                  {
+                    "text": "urinary system  ️",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "/biology/anatomy/human-body/urinary-system",
+                        "text": "urinary system  ️",
+                        "category": "mindmap",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "http://www.wikiwand.com/en/Biological_system",
+                    "text": "organ systems",
+                    "category": "wiki",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Organ_(anatomy)",
+                "text": "organs",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=O7M7BoJGRNc",
+            "text": "1. how to build a human",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Human_body",
+        "text": "human body",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "body fluids",
-      "url": "http://www.wikiwand.com/en/Body_fluid",
-      "fx": 6.776564293211777,
-      "fy": 32.17618528427755,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "organs",
-      "url": "http://www.wikiwand.com/en/Organ_(anatomy)",
-      "fx": 215.95703125,
-      "fy": 35.2421875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "blood  ️",
-      "url": "/biology/anatomy/human-body/blood",
-      "fx": -122.82347852931491,
-      "fy": 121.30350048592646,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "organ systems",
-      "url": "http://www.wikiwand.com/en/Biological_system",
-      "fx": 157.39539693614597,
-      "fy": 165.2005128465902,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "digestive system  ️",
-      "url": "/biology/anatomy/human-body/digestive-system",
-      "fx": 85.2326431274414,
-      "fy": 309.0830383300781,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "circulatory system  ️",
-      "url": "/biology/anatomy/human-body/circulatory-system",
-      "fx": 310.3272247314453,
-      "fy": 309.4325408935547,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "respiratory system  ️",
-      "url": "/biology/anatomy/human-body/respiratory-system",
-      "fx": -155.89135551452637,
-      "fy": 309.43414306640625,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "urinary system  ️",
-      "url": "/biology/anatomy/human-body/urinary-system",
-      "fx": 548.3198402078076,
-      "fy": 312.3198992443324,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "body fluids",
-      "target": "blood  ️",
-      "curve": {
-        "x": -83.5499,
-        "y": 43.3137
       }
-    },
-    {
-      "source": "organ systems",
-      "target": "respiratory system  ️",
-      "curve": {
-        "x": -173.343,
-        "y": 66.7716
-      }
-    },
-    {
-      "source": "organ systems",
-      "target": "digestive system  ️",
-      "curve": {
-        "x": -31.8314,
-        "y": 71.9413
-      }
-    },
-    {
-      "source": "organs",
-      "target": "organ systems",
-      "curve": {
-        "x": -9.78082,
-        "y": 64.9791
-      }
-    },
-    {
-      "source": "organ systems",
-      "target": "circulatory system  ️",
-      "curve": {
-        "x": 124.092,
-        "y": 69.0865
-      }
-    },
-    {
-      "source": "organ systems",
-      "target": "urinary system  ️",
-      "curve": {
-        "x": 219.951,
-        "y": 54.587
-      }
-    },
-    {
-      "source": "human body",
-      "target": "basics",
-      "curve": {
-        "x": -2.52624,
-        "y": 56.2873
-      }
-    },
-    {
-      "source": "basics",
-      "target": "body fluids",
-      "curve": {
-        "x": -95.0201,
-        "y": 61.4027
-      }
-    },
-    {
-      "source": "basics",
-      "target": "organs",
-      "curve": {
-        "x": 0.82014,
-        "y": 62.9357
-      }
-    }
-  ],
-  "id": 85
+    ],
+    "author": ""
+  }
 }

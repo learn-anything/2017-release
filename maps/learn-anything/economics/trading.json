@@ -1,74 +1,77 @@
 {
   "title": "learn anything - economics - trading",
   "tag": "quantitative trading",
-  "nodes": [
-    {
-      "text": "trading",
-      "url": "http://www.wikiwand.com/en/Trade",
-      "fx": -28.671138233985744,
-      "fy": 35.80370051156581,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Trading/",
-          "fx": 161.32886176601426,
-          "fy": 49.80370051156581,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 506,
+  "map": {
+    "text": "trading",
+    "nodes": [
+      {
+        "text": "algorithmic trading  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/trading/algorithmic-trading-",
+            "text": "algorithmic trading  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "stock exchange  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/economics/trading/stock-exchange",
+            "text": "stock exchange  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "quantitative trading  ️",
+        "nodes": [],
+        "resources": [],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Trading/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "stock exchange  ️",
-      "url": "/economics/trading/stock-exchange",
-      "fx": -27.891077995300293,
-      "fy": 168.85818099975586,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "quantitative trading  ️",
-      "fx": -275.0249451754387,
-      "fy": 170.73245614035085,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "algorithmic trading  ️",
-      "url": "/economics/trading/algorithmic-trading-",
-      "fx": 195.10251724510863,
-      "fy": 172.21913073355694,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "trading",
-      "target": "algorithmic trading  ️",
-      "curve": {
-        "x": 145.137,
-        "y": 69.4577
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Trade",
+        "text": "trading",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "trading",
-      "target": "stock exchange  ️",
-      "curve": {
-        "x": 20.6401,
-        "y": 66.5273
-      }
-    },
-    {
-      "source": "trading",
-      "target": "quantitative trading  ️",
-      "curve": {
-        "x": -103.177,
-        "y": 66.2144
-      }
-    }
-  ],
-  "id": 506
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - computer science - data structures - serialisation - json - geojson",
   "tag": "GeoJSON",
-  "nodes": [
-    {
-      "text": "GeoJSON",
-      "url": "http://www.wikiwand.com/en/GeoJSON",
-      "fx": 67.13622926013295,
-      "fy": -52.68856511887151,
-      "nodes": [
-        {
-          "text": "awesome",
-          "url": "https://github.com/tmcw/awesome-geojson",
-          "fx": 287.13622926013295,
-          "fy": -38.68856511887151,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 92.66950288778787,
-      "fy": 95.73937706273296,
-      "nodes": [
-        {
-          "text": "1. learn GeoJSON",
-          "url": "https://github.com/lyzidiamond/learn-geojson",
-          "fx": 248.66950288778787,
-          "fy": 107.23937706273296,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "GeoJSON",
-      "target": "basics",
-      "curve": {
-        "x": -3.23336,
-        "y": 72.9638
+  "id": 330,
+  "map": {
+    "text": "GeoJSON",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/lyzidiamond/learn-geojson",
+            "text": "1. learn GeoJSON",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 330
+    ],
+    "resources": [
+      {
+        "url": "https://github.com/tmcw/awesome-geojson",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/GeoJSON",
+        "text": "GeoJSON",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

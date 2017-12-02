@@ -1,41 +1,41 @@
 {
   "title": "learn anything - computer graphics - metal",
   "tag": "metal graphics API",
-  "nodes": [
-    {
-      "text": "metal API",
-      "url": "https://developer.apple.com/metal/",
-      "fx": -65.62890625,
-      "fy": -235.29296875,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -61.00881840128761,
-      "fy": -113.14957752145926,
-      "nodes": [
-        {
-          "text": "1. about Metal",
-          "url": "https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/MetalProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014221-CH1-SW1",
-          "fx": 120.99118159871239,
-          "fy": -98.64957752145926,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "metal API",
-      "target": "basics",
-      "curve": {
-        "x": -4.93996,
-        "y": 61.0717
+  "id": 220,
+  "map": {
+    "text": "metal API",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/MetalProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40014221-CH1-SW1",
+            "text": "1. about Metal",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 220
+    ],
+    "resources": [
+      {
+        "url": "https://developer.apple.com/metal/",
+        "text": "metal API",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

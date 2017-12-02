@@ -1,77 +1,72 @@
 {
   "title": "learn anything - design - interaction design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "interaction design",
-      "url": "http://www.wikiwand.com/en/Interaction_design",
-      "fx": -11.47265625,
-      "fy": -163.34765625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/interactiondesign/",
-          "fx": 275.52734375,
-          "fy": -149.34765625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "inspiring",
-      "url": "",
-      "fx": 142.8895721435547,
-      "fy": -50.64285659790039,
-      "nodes": [
-        {
-          "text": "iPhone interaction design",
-          "url": "https://www.youtube.com/watch?v=ab3RGM5oiwE",
-          "fx": 315.8895721435547,
-          "fy": -39.14285659790039,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": 235.92965361315407,
-      "fy": 77.59579116028624,
-      "nodes": [
-        {
-          "text": "16: learning to speak designer",
-          "url": "https://www.youtube.com/watch?v=80hrknwD74Q",
-          "fx": 375.9296536131541,
-          "fy": 89.09579116028624,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "inspiring",
-      "target": "interaction design",
-      "curve": {
-        "x": -48.6811,
-        "y": -55.1024
+  "id": 434,
+  "map": {
+    "text": "interaction design",
+    "nodes": [
+      {
+        "text": "inspiring",
+        "nodes": [
+          {
+            "text": "talks",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://www.youtube.com/watch?v=80hrknwD74Q",
+                "text": "16: learning to speak designer",
+                "category": "video",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ab3RGM5oiwE",
+            "text": "iPhone interaction design",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "talks",
-      "target": "inspiring",
-      "curve": {
-        "x": -51.02,
-        "y": -64.1193
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/interactiondesign/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Interaction_design",
+        "text": "interaction design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 434
+    ],
+    "author": ""
+  }
 }

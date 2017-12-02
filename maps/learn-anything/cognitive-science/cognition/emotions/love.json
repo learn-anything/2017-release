@@ -1,51 +1,53 @@
 {
   "title": "learn anything - cognitive science - cognition - emotions - love",
   "tag": "",
-  "nodes": [
-    {
-      "text": "love",
-      "url": "http://www.wikiwand.com/en/Love",
-      "fx": 199.05078125,
-      "fy": -137.7890625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 200.76171875,
-      "fy": 4.66015625,
-      "nodes": [
-        {
-          "text": "1. Alan Watts - falling in love",
-          "url": "https://www.youtube.com/watch?v=X1U4WzqH3YM",
-          "fx": 356.76171875,
-          "fy": -14.83984375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. Alan Watts -  give it away and it will come back",
-          "url": "https://www.youtube.com/watch?v=CXq_mVU8nyc",
-          "fx": 356.76171875,
-          "fy": 25.16015625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "love",
-      "target": "basics",
-      "curve": {
-        "x": -1.14453,
-        "y": 69.9746
+  "id": 185,
+  "map": {
+    "text": "love",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=X1U4WzqH3YM",
+            "text": "1. Alan Watts - falling in love",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CXq_mVU8nyc",
+            "text": "1. Alan Watts -  give it away and it will come back",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 185
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Love",
+        "text": "love",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

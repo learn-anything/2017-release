@@ -1,144 +1,141 @@
 {
   "title": "learn anything - art - music - instruments - guitar",
   "tag": "",
-  "nodes": [
-    {
-      "text": "guitar",
-      "url": "http://www.wikiwand.com/en/Guitar",
-      "fx": 2427.4026794433594,
-      "fy": -3989.2539462730538,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Guitar/",
-          "fx": 2605.4026794433594,
-          "fy": -3975.2539462730538,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 2522.2325744628906,
-      "fy": -3882.0546264648438,
-      "nodes": [
-        {
-          "text": "LickNRiff",
-          "url": "https://www.youtube.com/user/LickNRiff/videos",
-          "fx": 2659.2325744628906,
-          "fy": -3890.5546264648438,
-          "nodes": [],
-          "category": "youtube",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "guitar specs",
-          "url": "https://github.com/gitfrage/guitarspecs",
-          "fx": 2659.2325744628906,
-          "fy": -3850.5546264648438,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 2583.6810302734375,
-      "fy": -3779.4462280273438,
-      "nodes": [
-        {
-          "text": "guitar tuner",
-          "url": "https://guitar-tuner.appspot.com/",
-          "fx": 2725.6810302734375,
-          "fy": -3764.9462280273438,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 2423.9075185652264,
-      "fy": -3672.311746501236,
-      "nodes": [
-        {
-          "text": "1. beginner’s course",
-          "url": "https://www.justinguitar.com/en/BC-000-BeginnersCourse.php",
-          "fx": 2605.9075185652264,
-          "fy": -3697.811746501236,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. Kirk’s music and guitar primer",
-          "url": "https://www.guitarforbeginners.com/",
-          "fx": 2605.9075185652264,
-          "fy": -3657.811746501236,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. intermediate guitar",
-          "url": "https://www.justinguitar.com/en/IM-000-IntermediateMethod.php",
-          "fx": 2605.9075185652264,
-          "fy": -3623.811746501236,
-          "nodes": [],
-          "category": "course",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "fingerstyle guitar  ️",
-      "url": "/art/music/instruments/guitar/fingerstyle-guitar",
-      "fx": 2257.16796875,
-      "fy": -3497.56640625,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "guitar",
-      "target": "basics",
-      "curve": {
-        "x": 0.0024225,
-        "y": 158.471
+  "id": 36,
+  "map": {
+    "text": "guitar",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "fingerstyle guitar  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/music/instruments/guitar/fingerstyle-guitar",
+                "text": "fingerstyle guitar  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.justinguitar.com/en/BC-000-BeginnersCourse.php",
+            "text": "1. beginner’s course",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.guitarforbeginners.com/",
+            "text": "1. Kirk’s music and guitar primer",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.justinguitar.com/en/IM-000-IntermediateMethod.php",
+            "text": "2. intermediate guitar",
+            "category": "course",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "tools",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "https://guitar-tuner.appspot.com/",
+                "text": "guitar tuner",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/user/LickNRiff/videos",
+            "text": "LickNRiff",
+            "category": "youtube",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://github.com/gitfrage/guitarspecs",
+            "text": "guitar specs",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "guitar",
-      "curve": {
-        "x": -37.1649,
-        "y": -52.3497
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Guitar/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Guitar",
+        "text": "guitar",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "tools",
-      "target": "help",
-      "curve": {
-        "x": -31.9742,
-        "y": -51.3042
-      }
-    },
-    {
-      "source": "basics",
-      "target": "fingerstyle guitar  ️",
-      "curve": {
-        "x": -67.3698,
-        "y": 87.3727
-      }
-    }
-  ],
-  "id": 36
+    ],
+    "author": ""
+  }
 }

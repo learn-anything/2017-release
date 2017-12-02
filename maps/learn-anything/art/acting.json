@@ -1,42 +1,42 @@
 {
   "title": "learn anything - art - acting",
   "tag": "",
-  "nodes": [
-    {
-      "text": "acting",
-      "url": "http://www.wikiwand.com/en/Acting",
-      "fx": -183.62478177374305,
-      "fy": -250.6352129888268,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -173.44762947531797,
-      "fy": -124.85531599162891,
-      "nodes": [
-        {
-          "text": "1. Michael Caine teaches acting in film",
-          "url": "https://www.youtube.com/watch?v=bZPLVDwEr7Y",
-          "fx": -17.447629475317967,
-          "fy": -124.35531599162891,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "acting",
-      "target": "basics",
-      "curve": {
-        "x": -1.41142,
-        "y": 61.6399
+  "id": 5,
+  "map": {
+    "text": "acting",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bZPLVDwEr7Y",
+            "text": "1. Michael Caine teaches acting in film",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 5
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Acting",
+        "text": "acting",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

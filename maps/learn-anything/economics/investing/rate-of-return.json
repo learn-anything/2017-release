@@ -1,58 +1,61 @@
 {
   "title": "learn anything - economics - investing - rate of return",
   "tag": "",
-  "nodes": [
-    {
-      "text": "rate of return",
-      "url": "http://www.wikiwand.com/en/Rate_of_return",
-      "fx": 4.67232929576528,
-      "fy": -104.55402018807126,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 41.45261001586914,
-      "fy": 11.623106956481934,
-      "nodes": [
-        {
-          "text": "1. how to calculate rate of return",
-          "url": "https://www.youtube.com/watch?v=ZjfjxXu4QFc",
-          "fx": 197.45261001586914,
-          "fy": 23.123106956481934,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 492,
+  "map": {
+    "text": "rate of return",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "internal rate of return  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/investing/rate-of-return/internal-rate-of-return",
+                "text": "internal rate of return  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ZjfjxXu4QFc",
+            "text": "1. how to calculate rate of return",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Rate_of_return",
+        "text": "rate of return",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "internal rate of return  ️",
-      "url": "/economics/investing/rate-of-return/internal-rate-of-return",
-      "fx": -131.8474312827226,
-      "fy": 128.39970549738217,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "rate of return",
-      "target": "basics",
-      "curve": {
-        "x": 3.64014,
-        "y": 58.0886
       }
-    },
-    {
-      "source": "basics",
-      "target": "internal rate of return  ️",
-      "curve": {
-        "x": -54.15,
-        "y": 58.3883
-      }
-    }
-  ],
-  "id": 492
+    ],
+    "author": ""
+  }
 }

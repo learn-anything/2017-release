@@ -1,428 +1,431 @@
 {
   "title": "learn anything - design",
   "tag": "",
-  "nodes": [
-    {
-      "text": "design",
-      "url": "http://www.wikiwand.com/en/Design",
-      "fx": 178.48485201562414,
-      "fy": -483.3986345843874,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Design/",
-          "fx": 365.48485201562414,
-          "fy": -489.3986345843874,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/gztchan/awesome-design",
-          "fx": 365.48485201562414,
-          "fy": -449.3986345843874,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 444,
+  "map": {
+    "text": "design",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "graphic design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/graphic-design",
+                "text": "graphic design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "industrial design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/industrial-design",
+                "text": "industrial design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "typography  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/typography",
+                "text": "typography  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "typesetting  ️",
+            "nodes": [],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "human computer interaction  ️",
+            "note": "researches the design and use of computer technology, focused on the interfaces between people (users) and computers",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/human-computer-interaction",
+                "text": "human computer interaction  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "design languages  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/design-languages",
+                "text": "design languages  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "colour theory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/colour-theory",
+                "text": "colour theory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "design thinking  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/design-thinking",
+                "text": "design thinking  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "computer-aided design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/computer-aided-design",
+                "text": "computer-aided design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "interior design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/interior-design",
+                "text": "interior design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "interaction design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/interaction-design",
+                "text": "interaction design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "icon design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/icon-design",
+                "text": "icon design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "design systems  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/design-systems",
+                "text": "design systems  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "product design  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/design/product-design",
+                "text": "product design  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda",
+            "text": "1. design fundamentals  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.designbetter.co/",
+            "text": "1. design better",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things",
+            "text": "2. design of everyday things",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [
+          {
+            "text": "articles",
+            "nodes": [
+              {
+                "text": "tools",
+                "nodes": [
+                  {
+                    "text": "inspiration",
+                    "nodes": [],
+                    "resources": [
+                      {
+                        "url": "https://www.novapattern.com/",
+                        "text": "nova pattern",
+                        "note": "",
+                        "author": "",
+                        "score": {
+                          "up": 0,
+                          "down": 0
+                        }
+                      }
+                    ],
+                    "author": ""
+                  }
+                ],
+                "resources": [
+                  {
+                    "url": "https://thenounproject.com/",
+                    "text": "the noun project",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  },
+                  {
+                    "url": "http://www.logobook.com/",
+                    "text": "logo book",
+                    "note": "",
+                    "author": "",
+                    "score": {
+                      "up": 0,
+                      "down": 0
+                    }
+                  }
+                ],
+                "author": ""
+              }
+            ],
+            "resources": [
+              {
+                "url": "https://design.google.com/articles/evolving-the-google-identity/",
+                "text": "evolving the google identity  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              },
+              {
+                "url": "https://medium.com/startup-grind/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037",
+                "text": "17: how to not suck as designer  ️",
+                "category": "article",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://makerbook.net/",
+            "text": "maker book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.designermill.com/",
+            "text": "designer mill",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Design/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 324.86278981421174,
-      "fy": -364.0265477875854,
-      "nodes": [
-        {
-          "text": "maker book",
-          "note": "hand-picked directory of the best free resources for creatives",
-          "url": "http://makerbook.net/",
-          "fx": 461.86278981421174,
-          "fy": -366.5265477875854,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "designer mill",
-          "url": "https://www.designermill.com/",
-          "fx": 461.86278981421174,
-          "fy": -332.5265477875854,
-          "nodes": [],
-          "color": "rgba(34, 205, 224, 1.0)"
+      },
+      {
+        "url": "https://github.com/gztchan/awesome-design",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "articles",
-      "url": "",
-      "fx": 452.73364544778724,
-      "fy": -250.58339092406277,
-      "nodes": [
-        {
-          "text": "evolving the google identity  ️",
-          "url": "https://design.google.com/articles/evolving-the-google-identity/",
-          "fx": 614.7336454477872,
-          "fy": -259.08339092406277,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "17: how to not suck as designer  ️",
-          "url": "https://medium.com/startup-grind/how-to-not-suck-at-design-a-5-minute-guide-for-the-non-designer-291efac43037",
-          "fx": 614.7336454477872,
-          "fy": -219.08339092406277,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Design",
+        "text": "design",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 619.9731862736844,
-      "fy": -139.11021888119046,
-      "nodes": [
-        {
-          "text": "the noun project",
-          "url": "https://thenounproject.com/",
-          "fx": 761.9731862736844,
-          "fy": -141.61021888119046,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "logo book",
-          "note": "really beautiful logo collection",
-          "url": "http://www.logobook.com/",
-          "fx": 761.9731862736844,
-          "fy": -107.61021888119046,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "inspiration",
-      "url": "",
-      "fx": 734.4338798234817,
-      "fy": -34.61263341543497,
-      "nodes": [
-        {
-          "text": "nova pattern",
-          "note": "well designed patterns",
-          "url": "https://www.novapattern.com/",
-          "fx": 924.4338798234817,
-          "fy": -20.11263341543497,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": 109.83129973879568,
-      "fy": -30.408328190285943,
-      "nodes": [
-        {
-          "text": "1. design fundamentals  ️",
-          "url": "https://medium.freecodecamp.com/before-you-can-master-design-you-must-first-master-the-fundamentals-1981a2af1fda",
-          "fx": 291.8312997387957,
-          "fy": -55.90832819028594,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. design better",
-          "url": "https://www.designbetter.co/",
-          "fx": 291.8312997387957,
-          "fy": -15.908328190285943,
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "2. design of everyday things",
-          "url": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things",
-          "fx": 291.8312997387957,
-          "fy": 18.091671809714057,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "graphic design  ️",
-      "url": "/design/graphic-design",
-      "fx": -250.03433713784545,
-      "fy": 213.469729015849,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "industrial design  ️",
-      "url": "/design/industrial-design",
-      "fx": -35.78807067871094,
-      "fy": 214.07632446289062,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "typography  ️",
-      "url": "/design/typography",
-      "fx": 185.31173706054688,
-      "fy": 215.822359085083,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "typesetting  ️",
-      "fx": 362.43650817871094,
-      "fy": 216.51368713378906,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "design languages  ️",
-      "url": "/design/design-languages",
-      "fx": -492.8705973129991,
-      "fy": 216.92391748366038,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "human computer interaction  ️",
-      "note": "researches the design and use of computer technology, focused on the interfaces between people (users) and computers",
-      "url": "/design/human-computer-interaction",
-      "fx": 546.7687182741115,
-      "fy": 218.83772208125094,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "colour theory  ️",
-      "url": "/design/colour-theory",
-      "fx": -697.04296875,
-      "fy": 221.52734375,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "design thinking  ️",
-      "url": "/design/design-thinking",
-      "fx": -913.3571220842399,
-      "fy": 225.78196383248735,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "computer-aided design  ️",
-      "url": "/design/computer-aided-design",
-      "fx": -1203.479251672107,
-      "fy": 229.64137904825918,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "interior design  ️",
-      "url": "/design/interior-design",
-      "fx": -1417.4766845703125,
-      "fy": 231.11850357055664,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "interaction design  ️",
-      "url": "/design/interaction-design",
-      "fx": -1652.6007995605469,
-      "fy": 234.9202880859375,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "product design  ️",
-      "url": "/design/product-design",
-      "fx": -2265.8911079457703,
-      "fy": 237.24869818061336,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "icon design  ️",
-      "url": "/design/icon-design",
-      "fx": -1831.6953735351562,
-      "fy": 237.35717391967773,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "design systems  ️",
-      "url": "/design/design-systems",
-      "fx": -2047.705604276574,
-      "fy": 237.77790284141588,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "basics",
-      "target": "graphic design  ️",
-      "curve": {
-        "x": -167.435,
-        "y": 121.939
       }
-    },
-    {
-      "source": "basics",
-      "target": "industrial design  ️",
-      "curve": {
-        "x": -57.3093,
-        "y": 122.243
-      }
-    },
-    {
-      "source": "basics",
-      "target": "typography  ️",
-      "curve": {
-        "x": 42.2401,
-        "y": 123.116
-      }
-    },
-    {
-      "source": "basics",
-      "target": "typesetting  ️",
-      "curve": {
-        "x": 130.302,
-        "y": 123.461
-      }
-    },
-    {
-      "source": "design",
-      "target": "basics",
-      "curve": {
-        "x": -35.5768,
-        "y": 225.244
-      }
-    },
-    {
-      "source": "help",
-      "target": "design",
-      "curve": {
-        "x": -60.6891,
-        "y": -58.4361
-      }
-    },
-    {
-      "source": "basics",
-      "target": "human computer interaction  ️",
-      "curve": {
-        "x": 257.556,
-        "y": 131.542
-      }
-    },
-    {
-      "source": "basics",
-      "target": "design languages  ️",
-      "curve": {
-        "x": -319.873,
-        "y": 121.054
-      }
-    },
-    {
-      "source": "basics",
-      "target": "colour theory  ️",
-      "curve": {
-        "x": -466.367,
-        "y": 117.714
-      }
-    },
-    {
-      "source": "articles",
-      "target": "help",
-      "curve": {
-        "x": -85.1347,
-        "y": -57.1863
-      }
-    },
-    {
-      "source": "tools",
-      "target": "articles",
-      "curve": {
-        "x": -93.854,
-        "y": -48.6919
-      }
-    },
-    {
-      "source": "inspiration",
-      "target": "tools",
-      "curve": {
-        "x": -69.2303,
-        "y": -52.2488
-      }
-    },
-    {
-      "source": "basics",
-      "target": "design thinking  ️",
-      "curve": {
-        "x": -634.294,
-        "y": 112.331
-      }
-    },
-    {
-      "source": "basics",
-      "target": "computer-aided design  ️",
-      "curve": {
-        "x": -815.601,
-        "y": 110.717
-      }
-    },
-    {
-      "source": "basics",
-      "target": "interior design  ️",
-      "curve": {
-        "x": -897.01,
-        "y": 84.9064
-      }
-    },
-    {
-      "source": "basics",
-      "target": "interaction design  ️",
-      "curve": {
-        "x": -1052.28,
-        "y": 45.1586
-      }
-    },
-    {
-      "source": "basics",
-      "target": "icon design  ️",
-      "curve": {
-        "x": -1322.24,
-        "y": 52.3251
-      }
-    },
-    {
-      "source": "basics",
-      "target": "design systems  ️",
-      "curve": {
-        "x": -1411.01,
-        "y": 6.57847
-      }
-    },
-    {
-      "source": "basics",
-      "target": "product design  ️",
-      "curve": {
-        "x": -1593.11,
-        "y": 19.709
-      }
-    }
-  ],
-  "id": 444
+    ],
+    "author": ""
+  }
 }

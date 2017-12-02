@@ -1,58 +1,61 @@
 {
   "title": "learn anything - information theory - information - bits",
   "tag": "",
-  "nodes": [
-    {
-      "text": "bits",
-      "url": "http://www.wikiwand.com/en/Bit",
-      "fx": -57.9453125,
-      "fy": -134.58984375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -65.87890625,
-      "fy": -5.0859375,
-      "nodes": [
-        {
-          "text": "1. what are bits",
-          "url": "https://www.youtube.com/watch?v=ptzGI9VaZmQ",
-          "fx": 90.12109375,
-          "fy": 6.4140625,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 635,
+  "map": {
+    "text": "bits",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "bitwise operations  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/information/bits/bitwise-operations",
+                "text": "bitwise operations  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ptzGI9VaZmQ",
+            "text": "1. what are bits",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Bit",
+        "text": "bits",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "bitwise operations  ️",
-      "url": "/information-theory/information/bits/bitwise-operations",
-      "fx": -235.80859375,
-      "fy": 109.3828125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "bits",
-      "target": "basics",
-      "curve": {
-        "x": -4.9668,
-        "y": 63.502
       }
-    },
-    {
-      "source": "basics",
-      "target": "bitwise operations  ️",
-      "curve": {
-        "x": -60.4648,
-        "y": 57.2344
-      }
-    }
-  ],
-  "id": 635
+    ],
+    "author": ""
+  }
 }

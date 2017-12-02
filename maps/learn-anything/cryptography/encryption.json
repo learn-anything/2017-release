@@ -1,127 +1,130 @@
 {
   "title": "learn anything - cryptography - encryption",
   "tag": "",
-  "nodes": [
-    {
-      "text": "encryption",
-      "url": "http://www.wikiwand.com/en/Encryption",
-      "fx": -66.08693910256409,
-      "fy": -161.38511618589746,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/encryption/",
-          "fx": 155.9130608974359,
-          "fy": -147.38511618589746,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 371,
+  "map": {
+    "text": "encryption",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [
+          {
+            "text": "RSA  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/encryption/rsa",
+                "text": "RSA  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "end to end encryption  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/cryptography/encryption/end-to-end-encryption",
+                "text": "end to end encryption  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://learncryptography.com/encryption",
+            "text": "1. learn encryption",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/the-fundamental-theorem-of-arithmetic-1",
+            "text": "1. modern cryptography",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=S9JGmA5_unY",
+            "text": "1. how secure is 256 bit security?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "interesting",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=VPBH1eW28mo",
+            "text": "16: should all locks have keys?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/encryption/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "interesting",
-      "url": "",
-      "fx": 66.43281164757252,
-      "fy": -42.20268145049363,
-      "nodes": [
-        {
-          "text": "16: should all locks have keys?",
-          "url": "https://www.youtube.com/watch?v=VPBH1eW28mo",
-          "fx": 257.4328116475725,
-          "fy": -30.70268145049363,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Encryption",
+        "text": "encryption",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -118.19091469071248,
-      "fy": 72.17413300593029,
-      "nodes": [
-        {
-          "text": "1. learn encryption",
-          "url": "https://learncryptography.com/encryption",
-          "fx": 63.809085309287525,
-          "fy": 46.67413300593029,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. modern cryptography",
-          "url": "https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/the-fundamental-theorem-of-arithmetic-1",
-          "fx": 63.809085309287525,
-          "fy": 80.67413300593029,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. how secure is 256 bit security?",
-          "url": "https://www.youtube.com/watch?v=S9JGmA5_unY",
-          "fx": 63.809085309287525,
-          "fy": 120.67413300593029,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "RSA  ️",
-      "url": "/cryptography/encryption/rsa",
-      "fx": -220.50319246925756,
-      "fy": 206.4222720777417,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "end to end encryption  ️",
-      "url": "/cryptography/encryption/end-to-end-encryption",
-      "fx": -101.04870292467945,
-      "fy": 208.42004707532055,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "encryption",
-      "target": "basics",
-      "curve": {
-        "x": -42.552,
-        "y": 115.53
       }
-    },
-    {
-      "source": "interesting",
-      "target": "encryption",
-      "curve": {
-        "x": -58.5099,
-        "y": -58.3412
-      }
-    },
-    {
-      "source": "basics",
-      "target": "RSA  ️",
-      "curve": {
-        "x": -61.9061,
-        "y": 67.124
-      }
-    },
-    {
-      "source": "basics",
-      "target": "end to end encryption  ️",
-      "curve": {
-        "x": 37.3211,
-        "y": 68.123
-      }
-    }
-  ],
-  "id": 371
+    ],
+    "author": ""
+  }
 }

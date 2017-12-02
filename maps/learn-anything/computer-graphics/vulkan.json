@@ -1,86 +1,82 @@
 {
   "title": "learn anything - computer graphics - vulkan",
   "tag": "vulkan graphics api",
-  "nodes": [
-    {
-      "text": "vulkan",
-      "url": "http://www.wikiwand.com/en/Vulkan_(API)",
-      "fx": -42.14162660256238,
-      "fy": -444.1611851690402,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/vulkan/",
-          "fx": 142.85837339743762,
-          "fy": -450.1611851690402,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/vinjn/awesome-vulkan",
-          "fx": 142.85837339743762,
-          "fy": -410.1611851690402,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 69.6494391025642,
-      "fy": -330.1550480769228,
-      "nodes": [
-        {
-          "text": "vulkan resources",
-          "url": "https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md",
-          "fx": 206.6494391025642,
-          "fy": -318.6550480769228,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -45.824118589741374,
-      "fy": -236.22075320513784,
-      "nodes": [
-        {
-          "text": "1. vulkan introduction",
-          "url": "https://vulkan-tutorial.com/",
-          "fx": 136.17588141025863,
-          "fy": -221.72075320513784,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "vulkan",
-      "curve": {
-        "x": -43.8955,
-        "y": -55.7531
+  "id": 233,
+  "map": {
+    "text": "vulkan",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/KhronosGroup/Khronosdotorg/blob/master/api/vulkan/resources.md",
+            "text": "vulkan resources",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://vulkan-tutorial.com/",
+            "text": "1. vulkan introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "vulkan",
-      "target": "basics",
-      "curve": {
-        "x": -9.09124,
-        "y": 102.72
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/vulkan/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/vinjn/awesome-vulkan",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Vulkan_(API)",
+        "text": "vulkan",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 233
+    ],
+    "author": ""
+  }
 }

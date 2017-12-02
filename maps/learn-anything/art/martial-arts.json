@@ -1,75 +1,90 @@
 {
   "title": "learn anything - art - martial arts",
   "tag": "",
-  "nodes": [
-    {
-      "text": "martial arts",
-      "url": "http://www.wikiwand.com/en/Martial_arts",
-      "fx": -81.5,
-      "fy": -305.46484375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/martialarts/",
-          "fx": 145.5,
-          "fy": -291.46484375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 33,
+  "map": {
+    "text": "martial arts",
+    "nodes": [
+      {
+        "text": "chinese martial arts",
+        "nodes": [
+          {
+            "text": "Shaolin Kung Fu  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/art/martial-arts/kung-fu",
+                "text": "Shaolin Kung Fu  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "karate",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "http://www.wikiwand.com/en/Karate",
+                "text": "karate",
+                "category": "wiki",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Chinese_martial_arts",
+            "text": "chinese martial arts",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/martialarts/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "chinese martial arts",
-      "url": "http://www.wikiwand.com/en/Chinese_martial_arts",
-      "fx": -153.48067537783413,
-      "fy": -173.11889955926972,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "karate",
-      "url": "http://www.wikiwand.com/en/Karate",
-      "fx": -170.6728515625,
-      "fy": -29.2880859375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "Shaolin Kung Fu  ️",
-      "url": "/art/martial-arts/kung-fu",
-      "fx": -29.965155214876745,
-      "fy": -27.37788390683704,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "martial arts",
-      "target": "chinese martial arts",
-      "curve": {
-        "x": -17.2403,
-        "y": 66.173
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Martial_arts",
+        "text": "martial arts",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "chinese martial arts",
-      "target": "Shaolin Kung Fu  ️",
-      "curve": {
-        "x": 52.0077,
-        "y": 72.8705
-      }
-    },
-    {
-      "source": "chinese martial arts",
-      "target": "karate",
-      "curve": {
-        "x": -45.3461,
-        "y": 70.6654
-      }
-    }
-  ],
-  "id": 33
+    ],
+    "author": ""
+  }
 }

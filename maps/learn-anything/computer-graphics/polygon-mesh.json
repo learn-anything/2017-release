@@ -1,90 +1,97 @@
 {
   "title": "learn anything - computer graphics - polygon mesh",
   "tag": "",
-  "nodes": [
-    {
-      "text": "polygon mesh",
-      "url": "http://www.wikiwand.com/en/Polygon_mesh",
-      "fx": -149.359375,
-      "fy": -214.78515625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -97.61894512176514,
-      "fy": -81.37646579742432,
-      "nodes": [
-        {
-          "text": "1. polygon mesh explained",
-          "url": "https://www.youtube.com/watch?v=s4lYj40_tnY&amp;t=5s",
-          "fx": 65.38105487823486,
-          "fy": -68.87646579742432,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 225,
+  "map": {
+    "text": "polygon mesh",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "geometry processing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/polygon-mesh/geometry-processing",
+                "text": "geometry processing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "mesh generation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/polygon-mesh/mesh-generation",
+                "text": "mesh generation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "marching cubes  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/polygon-mesh/marching-cubes",
+                "text": "marching cubes  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=s4lYj40_tnY&amp;t=5s",
+            "text": "1. polygon mesh explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Polygon_mesh",
+        "text": "polygon mesh",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "geometry processing  ️",
-      "url": "/computer-graphics/polygon-mesh/geometry-processing",
-      "fx": -344.04340268854526,
-      "fy": 54.72532740810448,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "marching cubes  ️",
-      "url": "/computer-graphics/polygon-mesh/marching-cubes",
-      "fx": -585.2924044123578,
-      "fy": 54.90481946237003,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "mesh generation  ️",
-      "url": "/computer-graphics/polygon-mesh/mesh-generation",
-      "fx": -53.17244529724121,
-      "fy": 56.08854675292969,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "polygon mesh",
-      "target": "basics",
-      "curve": {
-        "x": 1.12022,
-        "y": 65.4543
       }
-    },
-    {
-      "source": "basics",
-      "target": "geometry processing  ️",
-      "curve": {
-        "x": -90.2122,
-        "y": 68.0509
-      }
-    },
-    {
-      "source": "basics",
-      "target": "mesh generation  ️",
-      "curve": {
-        "x": 45.4732,
-        "y": 68.7325
-      }
-    },
-    {
-      "source": "basics",
-      "target": "marching cubes  ️",
-      "curve": {
-        "x": -266.172,
-        "y": 40.8372
-      }
-    }
-  ],
-  "id": 225
+    ],
+    "author": ""
+  }
 }

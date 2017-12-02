@@ -1,58 +1,61 @@
 {
   "title": "learn anything - biology - astrobiology",
   "tag": "",
-  "nodes": [
-    {
-      "text": "astrobiology",
-      "url": "http://www.wikiwand.com/en/Astrobiology",
-      "fx": -81.62890625,
-      "fy": -130.76953125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. what is astrobiology?",
-          "url": "https://www.youtube.com/watch?v=eJTfcV1ZceE",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 89,
+  "map": {
+    "text": "astrobiology",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "extraterrestrial life  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/biology/astrobiology/extraterrestrial-life",
+                "text": "extraterrestrial life  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=eJTfcV1ZceE",
+            "text": "1. what is astrobiology?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Astrobiology",
+        "text": "astrobiology",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "extraterrestrial life  ️",
-      "url": "/biology/astrobiology/extraterrestrial-life",
-      "fx": -213.3623046875,
-      "fy": 140.7548828125,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "astrobiology",
-      "target": "basics",
-      "curve": {
-        "x": -2.68555,
-        "y": 63.1348
       }
-    },
-    {
-      "source": "basics",
-      "target": "extraterrestrial life  ️",
-      "curve": {
-        "x": -58.4312,
-        "y": 71.3774
-      }
-    }
-  ],
-  "id": 89
+    ],
+    "author": ""
+  }
 }

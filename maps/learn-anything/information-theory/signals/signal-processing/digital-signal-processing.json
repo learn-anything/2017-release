@@ -1,124 +1,125 @@
 {
   "title": "learn anything - information theory - signals - signal processing - digital signal processing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "digital signal processing",
-      "url": "http://www.wikiwand.com/en/Digital_signal_processing",
-      "fx": 335.14453125000006,
-      "fy": -23.99609375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/DSP/",
-          "fx": 702.14453125,
-          "fy": -30.99609375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(0, 224, 161, 1.0)"
-        },
-        {
-          "text": "️",
-          "url": "https://dsp.stackexchange.com/",
-          "fx": 702.14453125,
-          "fy": 11.00390625,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 658,
+  "map": {
+    "text": "digital signal processing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "aliasing  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals/signal-processing/digital-signal-processing/aliasing",
+                "text": "aliasing  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "data compression  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals/signal-processing/digital-signal-processing/data-compression",
+                "text": "data compression  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "compressed sensing  ️",
+            "nodes": [],
+            "resources": [],
+            "author": ""
+          },
+          {
+            "text": "Nyqust-Shannon sampling theorem  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/information-theory/signals/signal-processing/digital-signal-processing/nyqust-shannon-sampling-theorem",
+                "text": "Nyqust-Shannon sampling theorem  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://jackschaedler.github.io/circles-sines-signals/",
+            "text": "1. seeing circles, sines and signals",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/DSP/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 414.68359375,
-      "fy": 113.671875,
-      "nodes": [
-        {
-          "text": "1. seeing circles, sines and signals",
-          "url": "https://jackschaedler.github.io/circles-sines-signals/",
-          "fx": 577.68359375,
-          "fy": 126.171875,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(104, 255, 109, 1.0)"
+      },
+      {
+        "url": "https://dsp.stackexchange.com/",
+        "text": "️",
+        "category": "stack exchange",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "data compression  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing/data-compression",
-      "fx": 290.92636642040077,
-      "fy": 300.45565867577625,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "compressed sensing  ️",
-      "fx": 567.5219938755305,
-      "fy": 302.55271124669866,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "aliasing  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing/aliasing",
-      "fx": 115.62890625,
-      "fy": 302.99609375,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "Nyqust-Shannon sampling theorem  ️",
-      "url": "/information-theory/signals/signal-processing/digital-signal-processing/nyqust-shannon-sampling-theorem",
-      "fx": -228.30162693298973,
-      "fy": 290.2715850515465,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "digital signal processing",
-      "target": "basics",
-      "curve": {
-        "x": -4.73046,
-        "y": 68.0839
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Digital_signal_processing",
+        "text": "digital signal processing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "basics",
-      "target": "aliasing  ️",
-      "curve": {
-        "x": -139.527,
-        "y": 95.4121
-      }
-    },
-    {
-      "source": "basics",
-      "target": "data compression  ️",
-      "curve": {
-        "x": -25.3786,
-        "y": 94.1419
-      }
-    },
-    {
-      "source": "basics",
-      "target": "compressed sensing  ️",
-      "curve": {
-        "x": 120.669,
-        "y": 95.1904
-      }
-    },
-    {
-      "source": "basics",
-      "target": "Nyqust-Shannon sampling theorem  ️",
-      "curve": {
-        "x": -322.785,
-        "y": 72.688
-      }
-    }
-  ],
-  "id": 658
+    ],
+    "author": ""
+  }
 }

@@ -1,52 +1,53 @@
 {
   "title": "learn anything - chemistry - drugs - psychedelic - ibogaine",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ibogaine",
-      "url": "https://psychonautwiki.org/wiki/Ibogaine",
-      "fx": -56.07421875,
-      "fy": -315.35546875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Ibogaine/",
-          "fx": 147.92578125,
-          "fy": -301.35546875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -38.526909722222285,
-      "fy": -176.91406250003075,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=MJd2KElznqY",
-          "fx": 117.47309027777771,
-          "fy": -165.41406250003075,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "ibogaine",
-      "target": "basics",
-      "curve": {
-        "x": -3.22635,
-        "y": 67.9707
+  "id": 157,
+  "map": {
+    "text": "ibogaine",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=MJd2KElznqY",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 157
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Ibogaine/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://psychonautwiki.org/wiki/Ibogaine",
+        "text": "ibogaine",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

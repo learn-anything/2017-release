@@ -1,68 +1,73 @@
 {
   "title": "learn anything - computer science - computation - interactive computing - jupyter notebooks",
   "tag": "Jupyter notebooks",
-  "nodes": [
-    {
-      "text": "Jupyter notebooks",
-      "url": "http://jupyter.org/",
-      "fx": 322.8658322704081,
-      "fy": 30.591198979591866,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/IPython/",
-          "fx": 590.8658322704081,
-          "fy": 2.0911989795918657,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "trending",
-          "url": "https://github.com/trending/jupyter-notebook",
-          "fx": 590.8658322704081,
-          "fy": 42.091198979591866,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/postpdm/awesome-jupyter",
-          "fx": 590.8658322704081,
-          "fy": 82.09119897959187,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 372.4780771683669,
-      "fy": 162.91015625000006,
-      "nodes": [
-        {
-          "text": "1. Jupyter documentation",
-          "url": "https://jupyter.readthedocs.io/en/latest/index.html",
-          "fx": 528.4780771683669,
-          "fy": 177.41015625000006,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Jupyter notebooks",
-      "target": "basics",
-      "curve": {
-        "x": -3.19388,
-        "y": 66.1595
+  "id": 305,
+  "map": {
+    "text": "Jupyter notebooks",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://jupyter.readthedocs.io/en/latest/index.html",
+            "text": "1. Jupyter documentation",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 305
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/IPython/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/trending/jupyter-notebook",
+        "text": "trending",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/postpdm/awesome-jupyter",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://jupyter.org/",
+        "text": "Jupyter notebooks",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

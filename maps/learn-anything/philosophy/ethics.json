@@ -1,93 +1,109 @@
 {
   "title": "learn anything - philosophy - ethics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "ethics",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Ethics",
-      "fx": 117.43343987938022,
-      "fy": -273.26431079827034,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Ethics/",
-          "fx": 324.4334398793802,
-          "fy": -259.26431079827034,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1326,
+  "map": {
+    "text": "ethics",
+    "note": "",
+    "nodes": [
+      {
+        "text": "veganism  ️",
+        "note": "treating animals as equals and abstaining from eating and using animal products as commodity",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/philosophy/ethics/veganism",
+            "text": "veganism  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "meta-ethics  ️",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "/philosophy/ethics/meta-ethics",
+            "text": "meta-ethics  ️",
+            "category": "mindmap",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "normative ethics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/results?search_query=Normative+ethics",
+            "text": "normative ethics",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "applied ethics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.wikiwand.com/en/Applied_ethics",
+            "text": "applied ethics",
+            "category": "wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Ethics/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "veganism  ️",
-      "note": "treating animals as equals and abstaining from eating and using animal products as commodity",
-      "url": "/philosophy/ethics/veganism",
-      "fx": -216.9142828748918,
-      "fy": -109.27336194615668,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "normative ethics",
-      "url": "https://www.youtube.com/results?search_query=Normative+ethics",
-      "fx": 155.18987004888163,
-      "fy": -108.9461203638379,
-      "nodes": [],
-      "category": "video"
-    },
-    {
-      "text": "applied ethics",
-      "url": "http://www.wikiwand.com/en/Applied_ethics",
-      "fx": 382.4244056662451,
-      "fy": -108.35499428990954,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "meta-ethics  ️",
-      "url": "/philosophy/ethics/meta-ethics",
-      "fx": -29.78780372602705,
-      "fy": -106.89521291356391,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "ethics",
-      "target": "veganism  ️",
-      "curve": {
-        "x": -166.424,
-        "y": 80.7454
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Ethics",
+        "text": "ethics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    },
-    {
-      "source": "ethics",
-      "target": "meta-ethics  ️",
-      "curve": {
-        "x": -76.1106,
-        "y": 81.9345
-      }
-    },
-    {
-      "source": "ethics",
-      "target": "normative ethics",
-      "curve": {
-        "x": 35.8778,
-        "y": 82.1591
-      }
-    },
-    {
-      "source": "ethics",
-      "target": "applied ethics",
-      "curve": {
-        "x": 143.745,
-        "y": 82.4547
-      }
-    }
-  ],
-  "id": 1323
+    ],
+    "author": ""
+  }
 }

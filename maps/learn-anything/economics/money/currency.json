@@ -1,58 +1,61 @@
 {
   "title": "learn anything - economics - money - currency",
   "tag": "",
-  "nodes": [
-    {
-      "text": "currency",
-      "url": "http://www.wikiwand.com/en/Currency",
-      "fx": -48.33997483221481,
-      "fy": -198.15425755033556,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -23.594117980072156,
-      "fy": -71.67951766300757,
-      "nodes": [
-        {
-          "text": "1. money vs currency explained",
-          "url": "https://www.youtube.com/watch?v=DyV0OfU3-FU",
-          "fx": 139.40588201992784,
-          "fy": -59.17951766300757,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 497,
+  "map": {
+    "text": "currency",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "foreign exchange market  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/economics/money/currency/foreign-exchange-market",
+                "text": "foreign exchange market  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DyV0OfU3-FU",
+            "text": "1. money vs currency explained",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Currency",
+        "text": "currency",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "foreign exchange market  ️",
-      "url": "/economics/money/currency/foreign-exchange-market",
-      "fx": -253.10140478529752,
-      "fy": 67.67845491758874,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "currency",
-      "target": "basics",
-      "curve": {
-        "x": -0.87707,
-        "y": 62.4874
       }
-    },
-    {
-      "source": "basics",
-      "target": "foreign exchange market  ️",
-      "curve": {
-        "x": -69.7536,
-        "y": 69.679
-      }
-    }
-  ],
-  "id": 497
+    ],
+    "author": ""
+  }
 }

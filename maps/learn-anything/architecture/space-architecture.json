@@ -1,43 +1,43 @@
 {
   "title": "learn anything - architecture - space architecture",
   "tag": "",
-  "nodes": [
-    {
-      "text": "space architecture",
-      "note": "",
-      "url": "http://www.wikiwand.com/en/Space_architecture",
-      "fx": -112.44656488549629,
-      "fy": -192.3873449427481,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "talks",
-      "url": "",
-      "fx": -1.5293416030532399,
-      "fy": -58.24631332408046,
-      "nodes": [
-        {
-          "text": "15: how is “space architecture” impacting innovation?",
-          "url": "https://www.youtube.com/watch?v=8QeVaD48mvU",
-          "fx": 138.47065839694676,
-          "fy": -57.74631332408046,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "talks",
-      "target": "space architecture",
-      "curve": {
-        "x": -16.9586,
-        "y": -65.8205
+  "id": 3,
+  "map": {
+    "text": "space architecture",
+    "note": "",
+    "nodes": [
+      {
+        "text": "talks",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=8QeVaD48mvU",
+            "text": "15: how is “space architecture” impacting innovation?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 3
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Space_architecture",
+        "text": "space architecture",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

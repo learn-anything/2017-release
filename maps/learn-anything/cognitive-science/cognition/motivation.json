@@ -1,104 +1,105 @@
 {
   "title": "learn anything - cognitive science - cognition - motivation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "motivation",
-      "url": "http://www.wikiwand.com/en/Motivation",
-      "fx": 26.41529369354248,
-      "fy": -228.4243403673172,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 156.70100399692365,
-      "fy": -100.51641360624353,
-      "nodes": [
-        {
-          "text": "just do it",
-          "url": "https://www.youtube.com/watch?v=5-sfG8BV8wU",
-          "fx": 293.70100399692365,
-          "fy": -149.01641360624353,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "Roy Jones",
-          "url": "https://www.youtube.com/watch?v=GoCOg8ZzUfg",
-          "fx": 293.70100399692365,
-          "fy": -109.01641360624353,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "Elon Musk incredible speech",
-          "url": "https://www.youtube.com/watch?v=QygpaIJclm4",
-          "fx": 293.70100399692365,
-          "fy": -69.01641360624353,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "Steve Jobs commencement speech",
-          "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
-          "fx": 293.70100399692365,
-          "fy": -29.016413606243532,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "if you think this can be improved in any way ",
-      "url": "",
-      "fx": 15.101053537415964,
-      "fy": 70.59104747711899,
-      "nodes": [
-        {
-          "text": "1. the science of motivation",
-          "url": "https://www.youtube.com/watch?v=pZT-FZqfxZA",
-          "fx": 197.10105353741596,
-          "fy": 62.09104747711899,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. the power of motivation",
-          "url": "https://www.youtube.com/watch?v=9hdSLiHaJz8",
-          "fx": 197.10105353741596,
-          "fy": 102.09104747711899,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "motivation",
-      "target": "basics",
-      "curve": {
-        "x": -21.6571,
-        "y": 148.258
+  "id": 194,
+  "map": {
+    "text": "motivation",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "if you think this can be improved in any way ",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=pZT-FZqfxZA",
+            "text": "1. the science of motivation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9hdSLiHaJz8",
+            "text": "1. the power of motivation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=5-sfG8BV8wU",
+            "text": "just do it",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GoCOg8ZzUfg",
+            "text": "Roy Jones",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QygpaIJclm4",
+            "text": "Elon Musk incredible speech",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+            "text": "Steve Jobs commencement speech",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "motivation",
-      "curve": {
-        "x": -44.3929,
-        "y": -62.7039
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Motivation",
+        "text": "motivation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 194
+    ],
+    "author": ""
+  }
 }

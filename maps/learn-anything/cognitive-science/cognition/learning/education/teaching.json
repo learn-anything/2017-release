@@ -1,52 +1,53 @@
 {
   "title": "learn anything - cognitive science - cognition - learning - education - teaching",
   "tag": "",
-  "nodes": [
-    {
-      "text": "teaching",
-      "url": "http://www.wikiwand.com/en/Teacher",
-      "fx": 126.10807291666674,
-      "fy": -79.35464015151513,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Teachers/",
-          "fx": 341.10807291666674,
-          "fy": -65.35464015151513,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 147,
-      "fy": 49,
-      "nodes": [
-        {
-          "text": "1. five principles of extraordinary math teaching",
-          "url": "https://www.youtube.com/watch?v=ytVneQUA5-c",
-          "fx": 310,
-          "fy": 49,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "teaching",
-      "target": "basics",
-      "curve": {
-        "x": -2.55404,
-        "y": 63.4273
+  "id": 187,
+  "map": {
+    "text": "teaching",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ytVneQUA5-c",
+            "text": "1. five principles of extraordinary math teaching",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 187
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Teachers/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Teacher",
+        "text": "teaching",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

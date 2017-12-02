@@ -1,113 +1,116 @@
 {
   "title": "learn anything - cognitive science - cognition - emotions - happiness",
   "tag": "",
-  "nodes": [
-    {
-      "text": "happiness",
-      "url": "http://www.wikiwand.com/en/Happiness",
-      "fx": -120.90709063023735,
-      "fy": -270.4390027305,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 22.95336840559935,
-      "fy": -159.94905505945934,
-      "nodes": [
-        {
-          "text": "cats",
-          "url": "https://imgur.com/a/TgL0x",
-          "fx": 159.95336840559935,
-          "fy": -208.44905505945934,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "dogs",
-          "url": "http://imgur.com/a/CExqu",
-          "fx": 159.95336840559935,
-          "fy": -168.44905505945934,
-          "nodes": [],
-          "category": "image",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "aww",
-          "url": "https://www.reddit.com/r/aww/",
-          "fx": 159.95336840559935,
-          "fy": -128.44905505945934,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "wholesome gifs",
-          "url": "https://www.reddit.com/r/wholesomegifs/",
-          "fx": 159.95336840559935,
-          "fy": -88.44905505945934,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(34, 205, 224, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -115.67225293552178,
-      "fy": 28.847506152674782,
-      "nodes": [
-        {
-          "text": "1. the secret of life",
-          "url": "https://www.youtube.com/watch?v=iZ8so-ld-l0",
-          "fx": 66.32774706447822,
-          "fy": 0.34750615267478224,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. how to find happiness in life",
-          "url": "https://www.youtube.com/watch?v=3srWlNHZbqU",
-          "fx": 66.32774706447822,
-          "fy": 40.34750615267478,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. what if money was no object?",
-          "url": "https://www.youtube.com/watch?v=khOaAHK7efc",
-          "fx": 66.32774706447822,
-          "fy": 80.34750615267478,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "happiness",
-      "target": "basics",
-      "curve": {
-        "x": -10.3825,
-        "y": 148.392
+  "id": 184,
+  "map": {
+    "text": "happiness",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=iZ8so-ld-l0",
+            "text": "1. the secret of life",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3srWlNHZbqU",
+            "text": "1. how to find happiness in life",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=khOaAHK7efc",
+            "text": "1. what if money was no object?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://imgur.com/a/TgL0x",
+            "text": "cats",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://imgur.com/a/CExqu",
+            "text": "dogs",
+            "category": "image",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/aww/",
+            "text": "aww",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.reddit.com/r/wholesomegifs/",
+            "text": "wholesome gifs",
+            "category": "reddit",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "happiness",
-      "curve": {
-        "x": -54.1802,
-        "y": -53.9949
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Happiness",
+        "text": "happiness",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 184
+    ],
+    "author": ""
+  }
 }

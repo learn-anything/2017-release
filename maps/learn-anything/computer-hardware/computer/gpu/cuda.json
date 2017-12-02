@@ -1,85 +1,81 @@
 {
   "title": "learn anything - computer hardware - computer - gpu - cuda",
   "tag": "CUDA",
-  "nodes": [
-    {
-      "text": "CUDA",
-      "url": "http://www.wikiwand.com/en/CUDA",
-      "fx": -83.78125,
-      "fy": -188.35546875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/CUDA/",
-          "fx": 100.21875,
-          "fy": -174.35546875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 9.459069899197516,
-      "fy": -88.08634461065975,
-      "nodes": [
-        {
-          "text": "awesome CUDA",
-          "url": "https://github.com/Erkaman/Awesome-CUDA",
-          "fx": 146.45906989919752,
-          "fy": -76.58634461065975,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -82.94444605781223,
-      "fy": 42.40248389009838,
-      "nodes": [
-        {
-          "text": "1. accelerated computing training",
-          "url": "https://developer.nvidia.com/accelerated-computing-training",
-          "fx": 99.05555394218777,
-          "fy": 28.90248389009838,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. GPU accelerated computing with python",
-          "url": "https://developer.nvidia.com/how-to-cuda-python",
-          "fx": 99.05555394218777,
-          "fy": 62.90248389009838,
-          "nodes": [],
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "CUDA",
-      "curve": {
-        "x": -34.8702,
-        "y": -48.8846
+  "id": 249,
+  "map": {
+    "text": "CUDA",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://github.com/Erkaman/Awesome-CUDA",
+            "text": "awesome CUDA",
+            "category": "github",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://developer.nvidia.com/accelerated-computing-training",
+            "text": "1. accelerated computing training",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://developer.nvidia.com/how-to-cuda-python",
+            "text": "1. GPU accelerated computing with python",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "CUDA",
-      "target": "basics",
-      "curve": {
-        "x": -6.5816,
-        "y": 114.129
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/CUDA/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/CUDA",
+        "text": "CUDA",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 249
+    ],
+    "author": ""
+  }
 }

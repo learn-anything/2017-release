@@ -1,76 +1,71 @@
 {
   "title": "learn anything - computer science - algorithms - sorting - quicksort",
   "tag": "Quicksort algorithm",
-  "nodes": [
-    {
-      "text": "Quicksort",
-      "url": "http://www.wikiwand.com/en/Quicksort",
-      "fx": 337.3048751364629,
-      "fy": -162.7578125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 506.4615469187107,
-      "fy": -54.45014572976453,
-      "nodes": [
-        {
-          "text": "visualisation",
-          "url": "https://visualgo.net/en/sorting",
-          "fx": 643.4615469187107,
-          "fy": -42.95014572976453,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 351.1670486916621,
-      "fy": 71.22142281178304,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=XE4VP_8Y0BU",
-          "fx": 507.1670486916621,
-          "fy": 62.72142281178304,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. visual explanation",
-          "url": "https://illustrated-algorithms.now.sh/quicksort",
-          "fx": 507.1670486916621,
-          "fy": 102.72142281178304,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "Quicksort",
-      "target": "basics",
-      "curve": {
-        "x": -7.56891,
-        "y": 115.74
+  "id": 279,
+  "map": {
+    "text": "Quicksort",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=XE4VP_8Y0BU",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://illustrated-algorithms.now.sh/quicksort",
+            "text": "1. visual explanation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://visualgo.net/en/sorting",
+            "text": "visualisation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "Quicksort",
-      "curve": {
-        "x": -65.3283,
-        "y": -52.9038
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Quicksort",
+        "text": "Quicksort",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 279
+    ],
+    "author": ""
+  }
 }

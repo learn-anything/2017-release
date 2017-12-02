@@ -1,41 +1,41 @@
 {
   "title": "learn anything - computer science - concurrency - petri nets",
   "tag": "",
-  "nodes": [
-    {
-      "text": "petri nets",
-      "url": "http://www.wikiwand.com/en/Petri_net",
-      "fx": -72.69921875,
-      "fy": -142.99609375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -49.98587740384619,
-      "fy": -9.769230769230774,
-      "nodes": [
-        {
-          "text": "1. introduction",
-          "url": "http://www.ulb.ac.be/di/ssd/ggeeraer/Tutorial-Perti-Nets-Geeraerts.pdf",
-          "fx": 113.01412259615381,
-          "fy": 5.230769230769226,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "petri nets",
-      "target": "basics",
-      "curve": {
-        "x": -3.39333,
-        "y": 65.8634
+  "id": 312,
+  "map": {
+    "text": "petri nets",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.ulb.ac.be/di/ssd/ggeeraer/Tutorial-Perti-Nets-Geeraerts.pdf",
+            "text": "1. introduction",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 312
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Petri_net",
+        "text": "petri nets",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

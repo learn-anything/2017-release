@@ -1,58 +1,61 @@
 {
   "title": "learn anything - computer graphics - digital images - raster graphics",
   "tag": "",
-  "nodes": [
-    {
-      "text": "raster graphics",
-      "url": "http://www.wikiwand.com/en/Raster_graphics",
-      "fx": 35.89424133300781,
-      "fy": -71.1827220916748,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 88.77076797779932,
-      "fy": 56.710358912067136,
-      "nodes": [
-        {
-          "text": "1. what are vector and raster graphics?",
-          "url": "https://www.youtube.com/watch?v=-Fs2t6P5AjY",
-          "fx": 251.77076797779932,
-          "fy": 56.710358912067136,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
+  "id": 214,
+  "map": {
+    "text": "raster graphics",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "rasterisation  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-graphics/digital-images/raster-graphics/rasterisation",
+                "text": "rasterisation  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-Fs2t6P5AjY",
+            "text": "1. what are vector and raster graphics?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Raster_graphics",
+        "text": "raster graphics",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "rasterisation  ️",
-      "url": "/computer-graphics/digital-images/raster-graphics/rasterisation",
-      "fx": -43.67220006530522,
-      "fy": 201.2358747220665,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "raster graphics",
-      "target": "basics",
-      "curve": {
-        "x": -0.0617367,
-        "y": 62.6965
       }
-    },
-    {
-      "source": "basics",
-      "target": "rasterisation  ️",
-      "curve": {
-        "x": -52.9715,
-        "y": 72.2628
-      }
-    }
-  ],
-  "id": 214
+    ],
+    "author": ""
+  }
 }

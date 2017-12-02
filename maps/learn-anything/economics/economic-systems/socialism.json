@@ -1,52 +1,53 @@
 {
   "title": "learn anything - economics - economic systems - socialism",
   "tag": "",
-  "nodes": [
-    {
-      "text": "socialism",
-      "url": "http://www.wikiwand.com/en/Socialism",
-      "fx": -68.30078125,
-      "fy": -132.67559956395348,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/socialism/",
-          "fx": 141.69921875,
-          "fy": -118.67559956395348,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. what is socialism?",
-          "url": "https://www.youtube.com/watch?v=nn0W7MfBesI",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "socialism",
-      "target": "basics",
-      "curve": {
-        "x": -2.59961,
-        "y": 64.0878
+  "id": 481,
+  "map": {
+    "text": "socialism",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nn0W7MfBesI",
+            "text": "1. what is socialism?",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 481
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/socialism/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Socialism",
+        "text": "socialism",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

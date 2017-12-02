@@ -1,58 +1,61 @@
 {
   "title": "learn anything - mathematics - number theory - arithmetic - multiplication - exponentiation",
   "tag": "",
-  "nodes": [
-    {
-      "text": "exponentiation",
-      "url": "http://www.wikiwand.com/en/Exponentiation",
-      "fx": -93.19921875,
-      "fy": -126.73046875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. visual explanation",
-          "url": "http://setosa.io/ev/exponentiation/",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "interactive",
-          "color": "rgba(175, 54, 242, 1.0)"
+  "id": 1039,
+  "map": {
+    "text": "exponentiation",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "logarithms  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/mathematics/number-theory/arithmetic/multiplication/exponentiation/logarithms",
+                "text": "logarithms  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "http://setosa.io/ev/exponentiation/",
+            "text": "1. visual explanation",
+            "category": "interactive",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Exponentiation",
+        "text": "exponentiation",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "logarithms  ️",
-      "url": "/mathematics/number-theory/arithmetic/multiplication/exponentiation/logarithms",
-      "fx": -175.95682565789457,
-      "fy": 111.80556126644285,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "exponentiation",
-      "target": "basics",
-      "curve": {
-        "x": -3.90039,
-        "y": 61.1152
       }
-    },
-    {
-      "source": "basics",
-      "target": "logarithms  ️",
-      "curve": {
-        "x": -55.7284,
-        "y": 56.9028
-      }
-    }
-  ],
-  "id": 1036
+    ],
+    "author": ""
+  }
 }

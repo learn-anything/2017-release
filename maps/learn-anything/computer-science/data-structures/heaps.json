@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - data structures - heaps",
   "tag": "heap data structure",
-  "nodes": [
-    {
-      "text": "heaps",
-      "url": "http://www.wikiwand.com/en/Heap_(data_structure)",
-      "fx": 133.16796875,
-      "fy": -97.60546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 138,
-      "fy": 49,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=t0Cq6tVNRBA",
-          "fx": 301,
-          "fy": 61.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "heaps",
-      "target": "basics",
-      "curve": {
-        "x": -4.83398,
-        "y": 72.5527
+  "id": 323,
+  "map": {
+    "text": "heaps",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=t0Cq6tVNRBA",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 323
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Heap_(data_structure)",
+        "text": "heaps",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,51 +1,52 @@
 {
   "title": "learn anything - games - video games - league of legends",
   "tag": "",
-  "nodes": [
-    {
-      "text": "league of legends",
-      "url": "http://www.wikiwand.com/en/League_of_Legends",
-      "fx": -100.55078125,
-      "fy": -65.875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/leagueoflegends/",
-          "fx": 207.44921875,
-          "fy": -51.875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "tools",
-      "url": "",
-      "fx": 67.30608197783931,
-      "fy": 78.74914156301128,
-      "nodes": [
-        {
-          "text": "op.gg",
-          "url": "https://na.op.gg/",
-          "fx": 213.3060819778393,
-          "fy": 93.74914156301128,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "tools",
-      "target": "league of legends",
-      "curve": {
-        "x": -43.4284,
-        "y": -71.5621
+  "id": 573,
+  "map": {
+    "text": "league of legends",
+    "nodes": [
+      {
+        "text": "tools",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://na.op.gg/",
+            "text": "op.gg",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 573
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/leagueoflegends/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/League_of_Legends",
+        "text": "league of legends",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,53 +1,54 @@
 {
   "title": "learn anything - art - music - instruments - drums",
   "tag": "",
-  "nodes": [
-    {
-      "text": "drums",
-      "url": "http://www.wikiwand.com/en/Drum_kit",
-      "fx": -61,
-      "fy": -208.375,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/drums/",
-          "fx": 124,
-          "fy": -194.375,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -51.74556587837833,
-      "fy": -74.56292229729422,
-      "nodes": [
-        {
-          "text": "1. the holy of dum programming  ️",
-          "url": "http://www.alandmoore.com/blog/the-theory-of-drum-programming/",
-          "fx": 130.25443412162167,
-          "fy": -63.06292229729422,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "drums",
-      "target": "basics",
-      "curve": {
-        "x": -2.62278,
-        "y": 65.656
+  "id": 34,
+  "map": {
+    "text": "drums",
+    "nodes": [
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.alandmoore.com/blog/the-theory-of-drum-programming/",
+            "text": "1. the holy of dum programming  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 34
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/drums/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Drum_kit",
+        "text": "drums",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

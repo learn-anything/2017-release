@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer graphics - polygon mesh - geometry processing",
   "tag": "",
-  "nodes": [
-    {
-      "text": "geometry processing",
-      "url": "http://www.wikiwand.com/en/Geometry_processing",
-      "fx": 251.85546875,
-      "fy": 40.85546875,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 328.720788043478,
-      "fy": 194.19735054342874,
-      "nodes": [
-        {
-          "text": "1. polygon mesh processing",
-          "url": "http://www.goodreads.com/book/show/7538884-polygon-mesh-processing",
-          "fx": 484.720788043478,
-          "fy": 205.69735054342874,
-          "nodes": [],
-          "category": "non-free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "geometry processing",
-      "target": "basics",
-      "curve": {
-        "x": -1.81734,
-        "y": 75.4209
+  "id": 222,
+  "map": {
+    "text": "geometry processing",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.goodreads.com/book/show/7538884-polygon-mesh-processing",
+            "text": "1. polygon mesh processing",
+            "category": "non-free book",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 222
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Geometry_processing",
+        "text": "geometry processing",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

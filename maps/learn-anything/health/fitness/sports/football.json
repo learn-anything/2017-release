@@ -1,52 +1,53 @@
 {
   "title": "learn anything - health - fitness - sports - football",
   "tag": "",
-  "nodes": [
-    {
-      "text": "football",
-      "url": "http://www.wikiwand.com/en/Football",
-      "fx": -65,
-      "fy": -140.46036585365857,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/soccer/",
-          "fx": 128,
-          "fy": -126.46036585365857,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.73551829268274,
-      "fy": 15.353658536606986,
-      "nodes": [
-        {
-          "text": "1. how can an adult learn to play football?",
-          "url": "https://www.quora.com/How-can-an-adult-learn-to-play-football",
-          "fx": 109.26448170731726,
-          "fy": 15.853658536606986,
-          "nodes": [],
-          "category": "quora",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "football",
-      "target": "basics",
-      "curve": {
-        "x": -0.117759,
-        "y": 76.657
+  "id": 585,
+  "map": {
+    "text": "football",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.quora.com/How-can-an-adult-learn-to-play-football",
+            "text": "1. how can an adult learn to play football?",
+            "category": "quora",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 585
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/soccer/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Football",
+        "text": "football",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

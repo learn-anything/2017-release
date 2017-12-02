@@ -1,68 +1,72 @@
 {
   "title": "learn anything - engineering - civil engineering",
   "tag": "",
-  "nodes": [
-    {
-      "text": "civil engineering",
-      "url": "http://www.wikiwand.com/en/Civil_engineering",
-      "fx": 183.40234375,
-      "fy": -137.40625,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/civilengineering/",
-          "fx": 453.40234375,
-          "fy": -123.40625,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 238.5,
-      "fy": 21.40234375,
-      "nodes": [
-        {
-          "text": "1. civil engineering: how it started, where it’s going",
-          "url": "https://www.youtube.com/watch?v=HKEO8ozSkoM",
-          "fx": 394.5,
-          "fy": 21.90234375,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "structural engineering  ️",
-      "url": "/engineering/civil-engineering/structural-engineering",
-      "fx": 94.12774213576165,
-      "fy": 193.4990169701963,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "civil engineering",
-      "target": "basics",
-      "curve": {
-        "x": -0.951172,
-        "y": 78.1543
+  "id": 516,
+  "map": {
+    "text": "civil engineering",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "structural engineering  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/engineering/civil-engineering/structural-engineering",
+                "text": "structural engineering  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=HKEO8ozSkoM",
+            "text": "1. civil engineering: how it started, where it’s going",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "basics",
-      "target": "structural engineering  ️",
-      "curve": {
-        "x": -37.9361,
-        "y": 86.0483
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/civilengineering/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Civil_engineering",
+        "text": "civil engineering",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 516
+    ],
+    "author": ""
+  }
 }

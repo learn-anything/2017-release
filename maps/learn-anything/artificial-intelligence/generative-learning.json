@@ -1,40 +1,29 @@
 {
   "title": "learn anything - artificial intelligence - generative learning",
   "tag": "",
-  "nodes": [
-    {
-      "text": "generative learning",
-      "url": "",
-      "fx": 108.71484375,
-      "fy": -322.02734375,
-      "nodes": []
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 156.60202625571117,
-      "fy": -158.9803795662002,
-      "nodes": [
-        {
-          "text": "1. generative learning algorithms",
-          "url": "http://cs229.stanford.edu/notes/cs229-notes2.pdf",
-          "fx": 312.60202625571117,
-          "fy": -144.4803795662002,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "generative learning",
-      "target": "basics",
-      "curve": {
-        "x": -4.05641,
-        "y": 81.5235
+  "id": 70,
+  "map": {
+    "text": "generative learning",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://cs229.stanford.edu/notes/cs229-notes2.pdf",
+            "text": "1. generative learning algorithms",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 70
+    ],
+    "resources": [],
+    "author": ""
+  }
 }

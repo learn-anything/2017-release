@@ -1,50 +1,52 @@
 {
   "title": "learn anything - artificial intelligence - general artificial intelligence",
   "tag": "",
-  "nodes": [
-    {
-      "text": "general artificial intelligence",
-      "url": "http://www.wikiwand.com/en/Artificial_general_intelligence",
-      "fx": -212.8125,
-      "fy": -288.5234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": -43.65765402580064,
-      "fy": -144.04641625889684,
-      "nodes": [
-        {
-          "text": "agi concept map",
-          "url": "https://fkcd.ca/uuk.svg",
-          "fx": 93.34234597419936,
-          "fy": -149.54641625889684,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "15: deadly truth of general AI",
-          "url": "https://www.youtube.com/watch?v=tcdVC4e6EV4",
-          "fx": 93.34234597419936,
-          "fy": -115.54641625889684,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "general artificial intelligence",
-      "curve": {
-        "x": -26.0774,
-        "y": -70.9885
+  "id": 69,
+  "map": {
+    "text": "general artificial intelligence",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://fkcd.ca/uuk.svg",
+            "text": "agi concept map",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tcdVC4e6EV4",
+            "text": "15: deadly truth of general AI",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 69
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Artificial_general_intelligence",
+        "text": "general artificial intelligence",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

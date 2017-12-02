@@ -1,69 +1,74 @@
 {
   "title": "learn anything - game development - game engines - godot",
   "tag": "godot game engine",
-  "nodes": [
-    {
-      "text": "godot",
-      "note": "",
-      "url": "https://godotengine.org/",
-      "fx": -53.42578125,
-      "fy": -346.19921875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/godot/",
-          "fx": 124.57421875,
-          "fy": -374.69921875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "",
-          "url": "https://github.com/godotengine/godot",
-          "fx": 124.57421875,
-          "fy": -334.69921875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome",
-          "url": "https://github.com/Calinou/awesome-godot",
-          "fx": 124.57421875,
-          "fy": -294.69921875,
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -41.22593118686859,
-      "fy": -200.2822758838384,
-      "nodes": [
-        {
-          "text": "1. step by learning",
-          "url": "http://docs.godotengine.org/en/latest/learning/step_by_step/",
-          "fx": 114.77406881313141,
-          "fy": -185.7822758838384,
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "godot",
-      "target": "basics",
-      "curve": {
-        "x": 0.599925,
-        "y": 72.9585
+  "id": 557,
+  "map": {
+    "text": "godot",
+    "note": "",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://docs.godotengine.org/en/latest/learning/step_by_step/",
+            "text": "1. step by learning",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 557
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/godot/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/godotengine/godot",
+        "text": "",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://github.com/Calinou/awesome-godot",
+        "text": "awesome",
+        "category": "github",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "https://godotengine.org/",
+        "text": "godot",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

@@ -1,115 +1,126 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory",
   "tag": "",
-  "nodes": [
-    {
-      "text": "computer memory",
-      "url": "http://www.wikiwand.com/en/Computer_memory",
-      "fx": -138.43359375,
-      "fy": -340.5234375,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -72.52690360915506,
-      "fy": -168.38871772300473,
-      "nodes": [
-        {
-          "text": "1. how do logic gates store information",
-          "url": "https://www.youtube.com/watch?v=XETZoRYdtkw",
-          "fx": 83.47309639084494,
-          "fy": -187.88871772300473,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. how computer memory works",
-          "url": "https://www.youtube.com/watch?v=p3q5zWCw8J4",
-          "fx": 83.47309639084494,
-          "fy": -125.88871772300473,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(36, 170, 255, 1.0)"
+  "id": 247,
+  "map": {
+    "text": "computer memory",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [
+          {
+            "text": "random access memory  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/random-access-memory",
+                "text": "random access memory  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "pointers  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/pointers",
+                "text": "pointers  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "memory management  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/memory-management",
+                "text": "memory management  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          },
+          {
+            "text": "memory hierarchy  ️",
+            "nodes": [],
+            "resources": [
+              {
+                "url": "/computer-hardware/computer/computer-memory/memory-hierarchy",
+                "text": "memory hierarchy  ️",
+                "category": "mindmap",
+                "note": "",
+                "author": "",
+                "score": {
+                  "up": 0,
+                  "down": 0
+                }
+              }
+            ],
+            "author": ""
+          }
+        ],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=XETZoRYdtkw",
+            "text": "1. how do logic gates store information",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=p3q5zWCw8J4",
+            "text": "1. how computer memory works",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Computer_memory",
+        "text": "computer memory",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
         }
-      ]
-    },
-    {
-      "text": "memory management  ️",
-      "url": "/computer-hardware/computer/computer-memory/memory-management",
-      "fx": -414.69654896056727,
-      "fy": -17.426488637924194,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "pointers  ️",
-      "url": "/computer-hardware/computer/computer-memory/pointers",
-      "fx": -129.21786584418396,
-      "fy": -16.886250953723106,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "memory hierarchy  ️",
-      "url": "/computer-hardware/computer/computer-memory/memory-hierarchy",
-      "fx": -665.3132148692811,
-      "fy": -15.807291666666629,
-      "nodes": [],
-      "category": "mindmap"
-    },
-    {
-      "text": "random access memory  ️",
-      "url": "/computer-hardware/computer/computer-memory/random-access-memory",
-      "fx": 34.09624189420572,
-      "fy": -13.04801628741825,
-      "nodes": [],
-      "category": "mindmap"
-    }
-  ],
-  "connections": [
-    {
-      "source": "computer memory",
-      "target": "basics",
-      "curve": {
-        "x": -1.54665,
-        "y": 84.8174
       }
-    },
-    {
-      "source": "basics",
-      "target": "random access memory  ️",
-      "curve": {
-        "x": 93.8116,
-        "y": 77.6704
-      }
-    },
-    {
-      "source": "basics",
-      "target": "pointers  ️",
-      "curve": {
-        "x": -24.5955,
-        "y": 75.7513
-      }
-    },
-    {
-      "source": "basics",
-      "target": "memory management  ️",
-      "curve": {
-        "x": -147.028,
-        "y": 72.91
-      }
-    },
-    {
-      "source": "basics",
-      "target": "memory hierarchy  ️",
-      "curve": {
-        "x": -324.82,
-        "y": 37.4784
-      }
-    }
-  ],
-  "id": 247
+    ],
+    "author": ""
+  }
 }

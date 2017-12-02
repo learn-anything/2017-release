@@ -1,86 +1,83 @@
 {
   "title": "learn anything - health - mindfulness - habits",
   "tag": "",
-  "nodes": [
-    {
-      "text": "habit",
-      "url": "http://www.wikiwand.com/en/Habit",
-      "fx": -42.747437169312775,
-      "fy": -277.52835648150096,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 54.52000661375621,
-      "fy": -177.0859088828136,
-      "nodes": [
-        {
-          "text": "the 3R’s of habit change  ️",
-          "url": "http://jamesclear.com/three-steps-habit-change",
-          "fx": 191.5200066137562,
-          "fy": -238.5859088828136,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "the daily focus area is a simple habit that helps you focus better.  ️",
-          "url": "http://heydave.org/post/25486164367/the-daily-focus-area-is-a-simple-habit-that-helps",
-          "fx": 191.5200066137562,
-          "fy": -198.5859088828136,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "habit relapse: what to do if you fall from your diet or good habits  ️",
-          "url": "https://zenhabits.net/relapse/",
-          "fx": 191.5200066137562,
-          "fy": -114.58590888281361,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "note": "",
-      "url": "",
-      "fx": -38.30569546194579,
-      "fy": -37.930059523831005,
-      "nodes": [
-        {
-          "text": "1. power of habit",
-          "url": "https://www.youtube.com/watch?v=Zq2LVa36ukk",
-          "fx": 143.6943045380542,
-          "fy": -26.430059523831005,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "habit",
-      "curve": {
-        "x": -39.8837,
-        "y": -48.9712
+  "id": 604,
+  "map": {
+    "text": "habit",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://jamesclear.com/three-steps-habit-change",
+            "text": "the 3R’s of habit change  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://heydave.org/post/25486164367/the-daily-focus-area-is-a-simple-habit-that-helps",
+            "text": "the daily focus area is a simple habit that helps you focus better.  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://zenhabits.net/relapse/",
+            "text": "habit relapse: what to do if you fall from your diet or good habits  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "basics",
+        "note": "",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Zq2LVa36ukk",
+            "text": "1. power of habit",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "habit",
-      "target": "basics",
-      "curve": {
-        "x": -1.77913,
-        "y": 118.549
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Habit",
+        "text": "habit",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 604
+    ],
+    "author": ""
+  }
 }

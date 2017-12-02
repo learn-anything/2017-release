@@ -1,42 +1,42 @@
 {
   "title": "learn anything - computer science - recursion - tail recursion",
   "tag": "",
-  "nodes": [
-    {
-      "text": "tail recursion",
-      "url": "http://www.wikiwand.com/en/Tail_call",
-      "fx": -86.7109375,
-      "fy": -131.203125,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -46.5,
-      "fy": -2,
-      "nodes": [
-        {
-          "text": "1. explanation",
-          "url": "https://www.youtube.com/watch?v=L1jjXGfxozc",
-          "fx": 109.5,
-          "fy": 9.5,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "tail recursion",
-      "target": "basics",
-      "curve": {
-        "x": -1.14453,
-        "y": 63.3516
+  "id": 347,
+  "map": {
+    "text": "tail recursion",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=L1jjXGfxozc",
+            "text": "1. explanation",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 347
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Tail_call",
+        "text": "tail recursion",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

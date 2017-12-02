@@ -1,60 +1,64 @@
 {
   "title": "learn anything - computer hardware - computer - computer memory - memory management - garbage collection",
   "tag": "",
-  "nodes": [
-    {
-      "text": "garbage collection",
-      "url": "http://www.wikiwand.com/en/Garbage_collection_(computer_science)",
-      "fx": -92.875,
-      "fy": -352.0390625,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": -23.91409632034629,
-      "fy": -169.1004126082251,
-      "nodes": [
-        {
-          "text": "1. lecture on garbage collection",
-          "url": "https://www.youtube.com/watch?v=rp8PvFvSO_c",
-          "fx": 132.0859036796537,
-          "fy": -208.6004126082251,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "2. visualising garbage collection algorithms  ️",
-          "url": "https://spin.atomicobject.com/2014/09/03/visualizing-garbage-collection-algorithms/",
-          "fx": 132.0859036796537,
-          "fy": -168.6004126082251,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "3. modern garbage collection  ️",
-          "url": "https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e",
-          "fx": 132.0859036796537,
-          "fy": -106.6004126082251,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "garbage collection",
-      "target": "basics",
-      "curve": {
-        "x": 0.230452,
-        "y": 90.2193
+  "id": 242,
+  "map": {
+    "text": "garbage collection",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=rp8PvFvSO_c",
+            "text": "1. lecture on garbage collection",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://spin.atomicobject.com/2014/09/03/visualizing-garbage-collection-algorithms/",
+            "text": "2. visualising garage collection algorithms  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e",
+            "text": "2. modern garbage collection  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 242
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Garbage_collection_(computer_science)",
+        "text": "garbage collection",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

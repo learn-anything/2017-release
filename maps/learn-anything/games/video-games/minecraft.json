@@ -1,59 +1,62 @@
 {
   "title": "learn anything - games - video games - minecraft",
   "tag": "",
-  "nodes": [
-    {
-      "text": "minecraft",
-      "url": "http://www.wikiwand.com/en/Minecraft",
-      "fx": -95.9609375,
-      "fy": -430.1171875,
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Minecraft/",
-          "fx": 125.0390625,
-          "fy": -416.1171875,
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(104, 255, 109, 1.0)"
-        }
-      ],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 17.83053871186155,
-      "fy": -300.9826895269468,
-      "nodes": [
-        {
-          "text": "minecraft forum",
-          "url": "http://www.minecraftforum.net/",
-          "fx": 158.83053871186155,
-          "fy": -304.4826895269468,
-          "nodes": [],
-          "color": "rgba(104, 255, 109, 1.0)"
-        },
-        {
-          "text": "minecraft wiki",
-          "url": "http://minecraft.gamepedia.com/Minecraft_Wiki",
-          "fx": 158.83053871186155,
-          "fy": -267.4826895269468,
-          "nodes": [],
-          "color": "rgba(0, 224, 161, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "help",
-      "target": "minecraft",
-      "curve": {
-        "x": -36.8957,
-        "y": -63.8172
+  "id": 574,
+  "map": {
+    "text": "minecraft",
+    "nodes": [
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "http://www.minecraftforum.net/",
+            "text": "minecraft forum",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "http://minecraft.gamepedia.com/Minecraft_Wiki",
+            "text": "minecraft wiki",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    }
-  ],
-  "id": 574
+    ],
+    "resources": [
+      {
+        "url": "https://www.reddit.com/r/Minecraft/",
+        "text": "",
+        "category": "reddit",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      },
+      {
+        "url": "http://www.wikiwand.com/en/Minecraft",
+        "text": "minecraft",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
+      }
+    ],
+    "author": ""
+  }
 }

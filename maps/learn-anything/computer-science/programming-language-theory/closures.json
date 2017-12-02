@@ -1,85 +1,82 @@
 {
   "title": "learn anything - computer science - programming language theory - closures",
   "tag": "",
-  "nodes": [
-    {
-      "text": "closures",
-      "url": "http://www.wikiwand.com/en/Closure_(computer_programming)",
-      "fx": 2.9491748809814453,
-      "fy": -193.84668383195805,
-      "nodes": [],
-      "category": "wiki"
-    },
-    {
-      "text": "help",
-      "url": "",
-      "fx": 152.61970829558038,
-      "fy": -76.57348033910529,
-      "nodes": [
-        {
-          "text": "closures - functional programming in javascript",
-          "url": "https://www.youtube.com/watch?v=CQqwU2Ixu-U",
-          "fx": 289.6197082955804,
-          "fy": -76.07348033910529,
-          "nodes": [],
-          "category": "video",
-          "color": "rgba(175, 54, 242, 1.0)"
-        }
-      ]
-    },
-    {
-      "text": "basics",
-      "url": "",
-      "fx": 15.661608893392554,
-      "fy": 85.27861497309829,
-      "nodes": [
-        {
-          "text": "1. what is a closure   ️",
-          "url": "https://stackoverflow.com/a/7464475/3067664",
-          "fx": 171.66160889339255,
-          "fy": 56.778614973098286,
-          "nodes": [],
-          "category": "stack exchange",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "1. what is a closure?  ️",
-          "url": "https://mortoray.com/2012/10/24/what-is-a-closure/",
-          "fx": 171.66160889339255,
-          "fy": 96.77861497309829,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "1. closures, and when they’re useful  ️",
-          "url": "https://www.electricmonk.nl/log/2011/05/20/closures-and-when-theyre-useful/",
-          "fx": 171.66160889339255,
-          "fy": 136.77861497309829,
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
-    }
-  ],
-  "connections": [
-    {
-      "source": "closures",
-      "target": "basics",
-      "curve": {
-        "x": -5.14379,
-        "y": 138.313
+  "id": 339,
+  "map": {
+    "text": "closures",
+    "nodes": [
+      {
+        "text": "basics",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://stackoverflow.com/a/7464475/3067664",
+            "text": "1. what is a closure   ️",
+            "category": "stack exchange",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://mortoray.com/2012/10/24/what-is-a-closure/",
+            "text": "1. what is a closure?  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          },
+          {
+            "url": "https://www.electricmonk.nl/log/2011/05/20/closures-and-when-theyre-useful/",
+            "text": "1. closures, and when they’re useful  ️",
+            "category": "article",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
+      },
+      {
+        "text": "help",
+        "nodes": [],
+        "resources": [
+          {
+            "url": "https://www.youtube.com/watch?v=CQqwU2Ixu-U",
+            "text": "closures - functional programming in javascript",
+            "category": "video",
+            "note": "",
+            "author": "",
+            "score": {
+              "up": 0,
+              "down": 0
+            }
+          }
+        ],
+        "author": ""
       }
-    },
-    {
-      "source": "help",
-      "target": "closures",
-      "curve": {
-        "x": -58.5853,
-        "y": -57.3866
+    ],
+    "resources": [
+      {
+        "url": "http://www.wikiwand.com/en/Closure_(computer_programming)",
+        "text": "closures",
+        "category": "wiki",
+        "note": "",
+        "author": "",
+        "score": {
+          "up": 0,
+          "down": 0
+        }
       }
-    }
-  ],
-  "id": 339
+    ],
+    "author": ""
+  }
 }
