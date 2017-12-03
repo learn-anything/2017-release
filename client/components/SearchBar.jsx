@@ -13,10 +13,9 @@ import 'sass/_SearchBar.sass';
 
 
 // Functions for react-autosuggest component.
-const renderSuggestion = ({ id, key, nodesCount }) => (
+const renderSuggestion = ({ id, key }) => (
   <Link to={`/${id}`} className="searchbar-suggestion">
     <span className="searchbar-suggestion-key">{key}</span>
-    <span className="searchbar-suggestion-nodes-count">{nodesCount} {__('searchbar_nodes_count')}</span>
   </Link>
 );
 const getSuggestionValue = suggestion => suggestion.key;

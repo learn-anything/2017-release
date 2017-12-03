@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import GithubCorner from 'react-github-corner';
 
@@ -36,8 +36,8 @@ export default class HomePage extends Component {
         <div className="help-text">
           <p>
             {__('searchbar_help_text_0')}<br/>
-            {__('searchbar_help_text_1')}
-            <Link to="/learn-anything">{__('searchbar_help_text_anything')}</Link>
+            {/* {__('searchbar_help_text_1')}
+            <Link to="/learn-anything">{__('searchbar_help_text_anything')}</Link> */}
           </p>
         </div>
 
