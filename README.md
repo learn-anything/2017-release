@@ -5,19 +5,33 @@
 # Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
 > [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps
 
+## Contents
+- [What is Learn Anything?](#what-is-learn-anything?)
+- [Contributing](#contributing)
+- [Developing the website](#developing-the-website)
+- [API](#api)
+- [Explore our Curated Lists](#explore-our-curated-lists)
+- [Keep this project going 💜](#keep-this-project-going-💜)
+
+
+## What is Learn Anything?
+[Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps.
+
 If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
 
-**Note:** If you're looking for the maps, they're in the `maps` folder. We merged
-the maps and the app repos, as it will make it easier to manage docs, issues and
-PRs. We're making the last changes before the new version goes live, so this README
-and the structure of the repo itself, might change a bit in the next few days.
+## Contributing
+You can contribute to the website in many ways. The most easiest thing you can do to help is to simply use the website and learn things with it. And if you found a resource you like, just add it so everyone can find it too.
 
-## Getting Started
+Since this website is fully open source, you can also help and work on new and awesome features to add to the website. Read [`Developing the website`](#developing-the-website) section for more information on how to get started with this. And if you never programmed before and this is your first Open Source project, don't be afraid to join in. There are many people that can help you both get started and make your first contribution.
+
+We have a [Slack channel](https://knowledge-map.slack.com/) we use for all our communication. Feel free to join in and learn and make this awesome thing together. 🦄
+
+## Developing the website
+### Getting Started
 These instructions will allow you to set up your own instance of Learn Anything
 to develop with.
 
-### Dependencies
-
+## Dependencies
 DynamoDB is a database needed for managing and storing maps. On linux you can download and run it with the following commands.
 
     wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip
@@ -48,7 +62,7 @@ The first time it may take a while, since all maps will be added to elasticsearc
 After that only `npm start` will be needed.
 
 
-## Testing
+### Testing
 To run automated tests you can use either `npm test` or `npm run test:watch`.
 For now the tests are covering only reducers, action creators, and components.
 
@@ -107,9 +121,42 @@ Get a specific map by ID. Maps have the following format:
 Get a specific map from its path. The format is the same as the one above.
 
 
-## Contributing
-If you want to help, you're stuck somewhere, or just want to have a chat with us, you can join our [Slack channel](https://knowledge-map.slack.com/).
+## Explore our Curated Lists
+With our goal of providing the most efficient paths for Learning Anything, we also manage curation of various GitHub lists. 
 
+Feel free to explore and improve them if you wish. 
+- [Books 📚](https://github.com/learn-anything/books) 
+- [Courses 📝](https://github.com/learn-anything/courses)
+- [Research Papers 📃](https://github.com/learn-anything/research-papers) 
+- [Blogs ️🗃️](https://github.com/learn-anything/blogs) 
+- [Humans 👪 ](https://github.com/learn-anything/humans)
+- [Quotes 💬](https://github.com/learn-anything/quotes)
+- [Podcasts 🎙️](https://github.com/learn-anything/podcasts)
+- [Newsletters 📮](https://github.com/learn-anything/newsletters) 
+- [Images 🎨](https://github.com/learn-anything/images) 
+- [Talks 👀](https://github.com/learn-anything/talks) 
+- [Command Line Tools 🐚](https://github.com/learn-anything/command-line-tools) 
+- [macOS apps 💻](https://github.com/learn-anything/macos-apps) 
+- [iOS apps 📱](https://github.com/learn-anything/ios-apps) 
+- [Safari Extensions 🌐](https://github.com/learn-anything/safari-extensions) 
+- [Alfred Workflows 🎩](https://github.com/learn-anything/alfred-workflows) 
+- [TV series 🎥](https://github.com/learn-anything/tv-series) 
+- [Documentaries 🎥](https://github.com/learn-anything/documentaries) 
+- [Movies 🎥](https://github.com/learn-anything/movies) 
+- [Reddit 🤖](https://github.com/learn-anything/reddit)
+- [Youtube 🎥](https://github.com/learn-anything/youtube) 
+- [Quora ❓](https://github.com/learn-anything/quora) 
+- [Computer games 💻](https://github.com/learn-anything/computer-games) 
+- [Chrome Extensions 🌐](https://github.com/learn-anything/chrome-extensions)
+
+## Keep this project going 💜
+This project is **built by the community, for the community** and in our goals to make the most efficient paths and the best user experience possible in exploring the mind maps and finding the resources you need, we can only rely on donations made by our users to sustain this project.
+
+There are **no advertisements** and **no sponsored content** in this Search Engine as that would defeat our vision of making the best and most optimal learning tracks for learning any topic in the world.
+ 
+We have created a [Patreon page](https://www.patreon.com/learnanything) where you can support our work. Any donation that you make to this project is incredibly valuable to keep this project going. We also have some awesome rewards that come with your support.  
+
+Thank you. 💚
 
 ## Team
 <table>
@@ -134,4 +181,12 @@ If you want to help, you're stuck somewhere, or just want to have a chat with us
      </tr>
   </tbody>
 </table>
+
+## Thank you 💜
+- To all the people who contributed to this project and this vision of liberating and visualising knowledge in this unique way.
+
+## License
+MIT © [Learn Anything](https://learn-anything.xyz/)
+
+
 
