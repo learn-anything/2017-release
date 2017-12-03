@@ -151,7 +151,7 @@ Feel free to explore and improve them if you wish.
 ## Keep this project going 💜
 This project is **built by the community, for the community** and in our goals to make the most efficient paths and the best user experience possible in exploring the mind maps and finding the resources you need, we can only rely on donations made by our users to sustain this project.
 
-There are **no advertisements** and **no sponsored content** in this Search Engine as that would defeat our vision of making the best and most optimal learning tracks for learning any topic in the world.
+There are **no advertisements** and **no sponsored content** in this website as that would defeat our vision of making the best and most optimal learning tracks for learning any topic in the world.
  
 We have created a [Patreon page](https://www.patreon.com/learnanything) where you can support our work. Any donation that you make to this project is incredibly valuable to keep this project going. We also have some awesome rewards that come with your support.  
 
