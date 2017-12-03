@@ -9,9 +9,16 @@ const cleanResource = (resource) => {
   resource.text = resource.text.trim();
 
   if (resource.text.length === 0) {
-    console.log(resource.url);
-    return false;
-    // TODO - generate title.
+    if (resource.url.match(/https?:\/\/www\.reddit\.com\/r/)) {
+      // match /r/subreddit
+      const subreddit = resource.url.match(/\/r\/[^\/]*/);
+      resource.text = subreddit[0];
+    } else if (resource.url.match(/https?:\/\/github\.com\//)) {
+      const repo = resource.url.replace(/.*github\.com\//, '').replace(/\/$/, '');
+      resource.text = repo;
+    } else {
+      return false;
+    }
   }
 
   // Strip steps.
