@@ -14,7 +14,7 @@ module.exports = {
 
   // Contribute button
   contribute_button_text: 'Improve Map',
-  contribute_button_text_editing: 'Submit',
+  contribute_button_text_editing: 'Done',
   contribute_add_resource: 'Add a new resource',
 
   // New resource

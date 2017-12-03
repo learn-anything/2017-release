@@ -145,7 +145,7 @@ const votesSchema = {
       ],
 
       Projection: { ProjectionType: "ALL" },
-      
+
       ProvisionedThroughput: {
         ReadCapacityUnits: 2,
         WriteCapacityUnits: 2
@@ -174,4 +174,10 @@ const votesSchema = {
   }
 };
 
-module.exports = [mapsSchema, nodesSchema, resourcesSchema, votesSchema];
+
+module.exports = {
+  Maps: mapsSchema,
+  Nodes: nodesSchema,
+  Resources: resourcesSchema,
+  Votes: votesSchema,
+};

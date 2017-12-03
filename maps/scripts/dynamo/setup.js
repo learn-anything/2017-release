@@ -94,10 +94,10 @@ async function mktables(schemas) {
 
 async function setup() {
   const startTime = new Date();
-  // const laTablews = schemas.map(schema => schema.TableName);
+  // const laTables = Object.values(schemas).map(schema => schema.TableName);
   // await rm(laTables.join(' '));
 
-  // await mktables(schemas);
+  // await mktables(Object.values(schemas));
   await ls();
   await saveMaps(doc);
 
