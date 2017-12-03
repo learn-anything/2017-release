@@ -28,7 +28,8 @@ const cleanResource = (resource) => {
   // different attribute.
   const yearMatch = resource.text.match(/^[0-9]{2,4}: /);
   if (yearMatch) {
-    resource.year = yearMatch[0].replace(/:.*/, '');
+    const year = yearMatch[0].replace(/:.*/, '');
+    resource.year = year.length === 2 ? `20${year}` : year;
   }
   resource.text = resource.text.replace(/^[0-9]{2,4}: /, '');
 
