@@ -3,16 +3,16 @@
   "tag": "iOS",
   "id": 1281,
   "map": {
-    "text": "iOS",
+    "text": "IOS",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
@@ -33,7 +33,7 @@
             "resources": [
               {
                 "url": "https://ninjapro.wordpress.com/2017/02/26/bump-version-with-plistbuddy/",
-                "text": "bump version with plistbuddy  ️",
+                "text": "Bump version with plistbuddy  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -44,36 +44,39 @@
               },
               {
                 "url": "https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52",
-                "text": "15: iOS architecture patterns  ️",
+                "text": "IOS architecture patterns  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "http://machinethink.net/blog/tensorflow-on-ios/",
-                "text": "17: getting started with tensorflow on iOS  ️",
+                "text": "Getting started with tensorflow on iOS  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://medium.com/tall-west/lets-ditch-the-nav-bar-3692cb17cc67",
-                "text": "17: the navbar is tapped out  ️",
+                "text": "The navbar is tapped out  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -82,7 +85,7 @@
         "resources": [
           {
             "url": "https://github.com/onthecodepath/iOS-Interview-Questions",
-            "text": "iOS interview questions",
+            "text": "IOS interview questions",
             "category": "github",
             "note": "",
             "author": "",
@@ -93,7 +96,7 @@
           },
           {
             "url": "https://www.apple.com/business/docs/iOS_Security_Guide.pdf",
-            "text": "iOS 10 security guide",
+            "text": "IOS 10 security guide",
             "category": "paper",
             "note": "",
             "author": "",
@@ -104,7 +107,7 @@
           },
           {
             "url": "https://github.com/felixgr/secure-ios-app-dev",
-            "text": "secure iOS app dev",
+            "text": "Secure iOS app dev",
             "category": "github",
             "note": "",
             "author": "",
@@ -115,7 +118,7 @@
           },
           {
             "url": "https://designcode.io/iosdesign",
-            "text": "learn iOS design",
+            "text": "Learn iOS design",
             "category": "course",
             "note": "",
             "author": "",
@@ -126,7 +129,7 @@
           },
           {
             "url": "https://github.com/vdthatte/ios-swift-cheatsheet",
-            "text": "iOS swift cheat sheet",
+            "text": "IOS swift cheat sheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -137,7 +140,7 @@
           },
           {
             "url": "https://github.com/cjwirth/awesome-ios-ui",
-            "text": "iOS awesome UI",
+            "text": "IOS awesome UI",
             "category": "github",
             "note": "",
             "author": "",
@@ -148,7 +151,7 @@
           },
           {
             "url": "https://github.com/futurice/ios-good-practices",
-            "text": "iOS good practices",
+            "text": "IOS good practices",
             "category": "github",
             "note": "",
             "author": "",
@@ -159,7 +162,7 @@
           },
           {
             "url": "https://github.com/onmyway133/fantastic-ios-architecture",
-            "text": "fantastic iOS architecture",
+            "text": "Fantastic iOS architecture",
             "category": "github",
             "note": "",
             "author": "",
@@ -170,7 +173,7 @@
           },
           {
             "url": "https://github.com/sashakid/ios-guide",
-            "text": "iOS guide",
+            "text": "IOS guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -183,7 +186,7 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -205,12 +208,12 @@
             "author": ""
           },
           {
-            "text": "swift  ️",
+            "text": "Swift  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/swift",
-                "text": "swift  ️",
+                "text": "Swift  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -223,18 +226,18 @@
             "author": ""
           },
           {
-            "text": "mobile human interface guidelines",
+            "text": "Mobile human interface guidelines",
             "nodes": [
               {
-                "text": "iOS technologies",
+                "text": "IOS technologies",
                 "nodes": [
                   {
-                    "text": "iOS app architecture",
+                    "text": "IOS app architecture",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html",
-                        "text": "iOS app architecture",
+                        "text": "IOS app architecture",
                         "note": "",
                         "author": "",
                         "score": {
@@ -246,12 +249,12 @@
                     "author": ""
                   },
                   {
-                    "text": "app life cycle",
+                    "text": "App life cycle",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html",
-                        "text": "app life cycle",
+                        "text": "App life cycle",
                         "note": "",
                         "author": "",
                         "score": {
@@ -263,7 +266,7 @@
                     "author": ""
                   },
                   {
-                    "text": "view controller programming",
+                    "text": "View controller programming",
                     "nodes": [
                       {
                         "text": "AutoLayout",
@@ -286,7 +289,7 @@
                     "resources": [
                       {
                         "url": "https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/",
-                        "text": "view controller programming",
+                        "text": "View controller programming",
                         "note": "",
                         "author": "",
                         "score": {
@@ -298,12 +301,12 @@
                     "author": ""
                   },
                   {
-                    "text": "handling events",
+                    "text": "Handling events",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html",
-                        "text": "handling events",
+                        "text": "Handling events",
                         "note": "",
                         "author": "",
                         "score": {
@@ -315,7 +318,7 @@
                     "author": ""
                   },
                   {
-                    "text": "cocoa design patterns",
+                    "text": "Cocoa design patterns",
                     "nodes": [
                       {
                         "text": "MVC  ️",
@@ -336,12 +339,12 @@
                         "author": ""
                       },
                       {
-                        "text": "singleton",
+                        "text": "Singleton",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "http://www.wikiwand.com/en/Singleton_pattern",
-                            "text": "singleton",
+                            "text": "Singleton",
                             "category": "wiki",
                             "note": "",
                             "author": "",
@@ -354,12 +357,12 @@
                         "author": ""
                       },
                       {
-                        "text": "delegate",
+                        "text": "Delegate",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "http://www.wikiwand.com/en/Delegation_pattern",
-                            "text": "delegate",
+                            "text": "Delegate",
                             "category": "wiki",
                             "note": "",
                             "author": "",
@@ -372,12 +375,12 @@
                         "author": ""
                       },
                       {
-                        "text": "responder chain",
+                        "text": "Responder chain",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/EventOverview/EventArchitecture/EventArchitecture.html",
-                            "text": "responder chain",
+                            "text": "Responder chain",
                             "note": "",
                             "author": "",
                             "score": {
@@ -389,12 +392,12 @@
                         "author": ""
                       },
                       {
-                        "text": "observer pattern",
+                        "text": "Observer pattern",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "http://www.wikiwand.com/en/Observer_pattern",
-                            "text": "observer pattern",
+                            "text": "Observer pattern",
                             "category": "wiki",
                             "note": "",
                             "author": "",
@@ -407,7 +410,7 @@
                         "author": ""
                       },
                       {
-                        "text": "network programming",
+                        "text": "Network programming",
                         "nodes": [
                           {
                             "text": "RESTful APIs",
@@ -444,7 +447,7 @@
                             "author": ""
                           },
                           {
-                            "text": "concurrency",
+                            "text": "Concurrency",
                             "nodes": [
                               {
                                 "text": "DispatchQueue",
@@ -464,7 +467,7 @@
                                 "author": ""
                               },
                               {
-                                "text": "advanced design patterns",
+                                "text": "Advanced design patterns",
                                 "nodes": [
                                   {
                                     "text": "VIPER",
@@ -502,15 +505,15 @@
                                     "author": ""
                                   },
                                   {
-                                    "text": "cocoa touch",
+                                    "text": "Cocoa touch",
                                     "nodes": [
                                       {
-                                        "text": "core foundation",
+                                        "text": "Core foundation",
                                         "nodes": [],
                                         "resources": [
                                           {
                                             "url": "https://developer.apple.com/reference/corefoundation",
-                                            "text": "core foundation",
+                                            "text": "Core foundation",
                                             "note": "",
                                             "author": "",
                                             "score": {
@@ -522,7 +525,7 @@
                                         "author": ""
                                       },
                                       {
-                                        "text": "reactive programming",
+                                        "text": "Reactive programming",
                                         "nodes": [
                                           {
                                             "text": "RxSwift  ️",
@@ -543,7 +546,7 @@
                                             "author": ""
                                           },
                                           {
-                                            "text": "data persistance",
+                                            "text": "Data persistance",
                                             "nodes": [
                                               {
                                                 "text": "Realm",
@@ -580,7 +583,7 @@
                                                 "author": ""
                                               },
                                               {
-                                                "text": "serialise",
+                                                "text": "Serialise",
                                                 "nodes": [
                                                   {
                                                     "text": "JSON  ️",
@@ -638,7 +641,7 @@
                                                 "resources": [
                                                   {
                                                     "url": "http://www.wikiwand.com/en/Serialization",
-                                                    "text": "serialise",
+                                                    "text": "Serialise",
                                                     "category": "wiki",
                                                     "note": "",
                                                     "author": "",
@@ -651,15 +654,15 @@
                                                 "author": ""
                                               },
                                               {
-                                                "text": "cloud",
+                                                "text": "Cloud",
                                                 "nodes": [
                                                   {
-                                                    "text": "iCloud",
+                                                    "text": "ICloud",
                                                     "nodes": [],
                                                     "resources": [
                                                       {
                                                         "url": "https://www.apple.com/lae/icloud/",
-                                                        "text": "iCloud",
+                                                        "text": "ICloud",
                                                         "note": "",
                                                         "author": "",
                                                         "score": {
@@ -692,15 +695,15 @@
                                                 "author": ""
                                               },
                                               {
-                                                "text": "package manager",
+                                                "text": "Package manager",
                                                 "nodes": [
                                                   {
-                                                    "text": "swift package manager  ️",
+                                                    "text": "Swift package manager  ️",
                                                     "nodes": [],
                                                     "resources": [
                                                       {
                                                         "url": "/programming/programming-languages/swift/swift-package-manager",
-                                                        "text": "swift package manager  ️",
+                                                        "text": "Swift package manager  ️",
                                                         "category": "mindmap",
                                                         "note": "",
                                                         "author": "",
@@ -749,10 +752,10 @@
                                                     "author": ""
                                                   },
                                                   {
-                                                    "text": "instruments",
+                                                    "text": "Instruments",
                                                     "nodes": [
                                                       {
-                                                        "text": "testing",
+                                                        "text": "Testing",
                                                         "nodes": [
                                                           {
                                                             "text": "XCTest",
@@ -809,7 +812,7 @@
                                                             "author": ""
                                                           },
                                                           {
-                                                            "text": "debugging",
+                                                            "text": "Debugging",
                                                             "nodes": [
                                                               {
                                                                 "text": "LLDB",
@@ -829,7 +832,7 @@
                                                                 "author": ""
                                                               },
                                                               {
-                                                                "text": "build &amp; deploy",
+                                                                "text": "Build &amp; deploy",
                                                                 "nodes": [
                                                                   {
                                                                     "text": "CI  ️",
@@ -869,7 +872,7 @@
                                                                     "author": ""
                                                                   },
                                                                   {
-                                                                    "text": "analytic tools",
+                                                                    "text": "Analytic tools",
                                                                     "nodes": [
                                                                       {
                                                                         "text": "TestFlight",
@@ -928,12 +931,12 @@
                                                                     "author": ""
                                                                   },
                                                                   {
-                                                                    "text": "app store",
+                                                                    "text": "App store",
                                                                     "nodes": [],
                                                                     "resources": [
                                                                       {
                                                                         "url": "https://developer.apple.com/app-store/review/guidelines/",
-                                                                        "text": "review guidelines",
+                                                                        "text": "Review guidelines",
                                                                         "note": "",
                                                                         "author": "",
                                                                         "score": {
@@ -960,7 +963,7 @@
                                                     "resources": [
                                                       {
                                                         "url": "https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/index.html#//apple_ref/doc/uid/TP40004652-CH3-SW1",
-                                                        "text": "instruments",
+                                                        "text": "Instruments",
                                                         "note": "",
                                                         "author": "",
                                                         "score": {
@@ -979,7 +982,7 @@
                                             "resources": [
                                               {
                                                 "url": "https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/PersistData.html",
-                                                "text": "data persistance",
+                                                "text": "Data persistance",
                                                 "note": "",
                                                 "author": "",
                                                 "score": {
@@ -994,7 +997,7 @@
                                         "resources": [
                                           {
                                             "url": "http://www.wikiwand.com/en/Reactive_programming",
-                                            "text": "reactive programming",
+                                            "text": "Reactive programming",
                                             "category": "wiki",
                                             "note": "",
                                             "author": "",
@@ -1027,7 +1030,7 @@
                                     "resources": [
                                       {
                                         "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Cocoa.html",
-                                        "text": "cocoa touch",
+                                        "text": "Cocoa touch",
                                         "note": "",
                                         "author": "",
                                         "score": {
@@ -1046,7 +1049,7 @@
                             "resources": [
                               {
                                 "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html",
-                                "text": "concurrency",
+                                "text": "Concurrency",
                                 "note": "",
                                 "author": "",
                                 "score": {
@@ -1061,7 +1064,7 @@
                         "resources": [
                           {
                             "url": "https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/Introduction/Introduction.html",
-                            "text": "network programming",
+                            "text": "Network programming",
                             "note": "",
                             "author": "",
                             "score": {
@@ -1076,7 +1079,7 @@
                     "resources": [
                       {
                         "url": "https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/CocoaFundamentals/CocoaDesignPatterns/CocoaDesignPatterns.html",
-                        "text": "cocoa design patterns",
+                        "text": "Cocoa design patterns",
                         "note": "",
                         "author": "",
                         "score": {
@@ -1091,7 +1094,7 @@
                 "resources": [
                   {
                     "url": "https://developer.apple.com/library/content/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html",
-                    "text": "iOS technologies",
+                    "text": "IOS technologies",
                     "note": "",
                     "author": "",
                     "score": {
@@ -1106,7 +1109,7 @@
             "resources": [
               {
                 "url": "https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/",
-                "text": "mobile human interface guidelines",
+                "text": "Mobile human interface guidelines",
                 "note": "",
                 "author": "",
                 "score": {
@@ -1118,12 +1121,12 @@
             "author": ""
           },
           {
-            "text": "iOS apps  ️",
+            "text": "IOS apps  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/ios/apps",
-                "text": "iOS apps  ️",
+                "text": "IOS apps  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -1139,7 +1142,7 @@
         "resources": [
           {
             "url": "https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120",
-            "text": "1. developing iOS 10 apps with swift",
+            "text": "Developing iOS 10 apps with swift",
             "category": "course",
             "note": "",
             "author": "",
@@ -1155,7 +1158,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/iOSProgramming/",
-        "text": "",
+        "text": "/r/iOSProgramming",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -1166,7 +1169,7 @@
       },
       {
         "url": "https://github.com/vsouza/awesome-ios",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -1177,7 +1180,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/IOS",
-        "text": "iOS",
+        "text": "IOS",
         "category": "wiki",
         "note": "",
         "author": "",

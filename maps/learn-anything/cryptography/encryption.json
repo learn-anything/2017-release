@@ -3,10 +3,10 @@
   "tag": "",
   "id": 371,
   "map": {
-    "text": "encryption",
+    "text": "Encryption",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "end to end encryption  ️",
+            "text": "End to end encryption  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/encryption/end-to-end-encryption",
-                "text": "end to end encryption  ️",
+                "text": "End to end encryption  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +49,7 @@
         "resources": [
           {
             "url": "https://learncryptography.com/encryption",
-            "text": "1. learn encryption",
+            "text": "Learn encryption",
             "note": "",
             "author": "",
             "score": {
@@ -59,7 +59,7 @@
           },
           {
             "url": "https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/the-fundamental-theorem-of-arithmetic-1",
-            "text": "1. modern cryptography",
+            "text": "Modern cryptography",
             "category": "video",
             "note": "",
             "author": "",
@@ -70,7 +70,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=S9JGmA5_unY",
-            "text": "1. how secure is 256 bit security?",
+            "text": "How secure is 256 bit security?",
             "category": "video",
             "note": "",
             "author": "",
@@ -83,19 +83,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=VPBH1eW28mo",
-            "text": "16: should all locks have keys?",
+            "text": "Should all locks have keys?",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
@@ -104,7 +105,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/encryption/",
-        "text": "",
+        "text": "/r/encryption",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -115,7 +116,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Encryption",
-        "text": "encryption",
+        "text": "Encryption",
         "category": "wiki",
         "note": "",
         "author": "",

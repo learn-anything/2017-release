@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1058,
   "map": {
-    "text": "gradient descent",
+    "text": "Gradient descent",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=LN0PLnDpGN4",
-            "text": "1. gradient descent",
+            "text": "Gradient descent",
             "category": "video",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "http://neuralnetworksanddeeplearning.com/chap1.html#learning_with_gradient_descent",
-            "text": "1. learning with gradient descent",
+            "text": "Learning with gradient descent",
             "note": "",
             "author": "",
             "score": {
@@ -32,7 +32,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=5u0jaA3qAGk",
-            "text": "1. neural networks demystified : gradient descent",
+            "text": "Neural networks demystified : gradient descent",
             "category": "video",
             "note": "",
             "author": "",
@@ -43,7 +43,7 @@
           },
           {
             "url": "http://iamtrask.github.io/2015/07/27/python-network-part2/",
-            "text": "1. neural network in 13 lines of python - gradient descent  ️",
+            "text": "Neural network in 13 lines of python - gradient descent  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -54,7 +54,7 @@
           },
           {
             "url": "http://sebastianruder.com/optimizing-gradient-descent/",
-            "text": "2. overview of gradient descent optimisation algorithms  ️",
+            "text": "Overview of gradient descent optimisation algorithms  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -67,22 +67,23 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://medium.com/towards-data-science/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f",
-                "text": "17: types of optimisation algorithms used in neural networks and ways to optimise gradient descent  ️",
+                "text": "Types of optimisation algorithms used in neural networks and ways to optimise gradient descent  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -91,7 +92,7 @@
         "resources": [
           {
             "url": "https://github.com/mattnedrich/GradientDescentExample",
-            "text": "gradient descent example",
+            "text": "Gradient descent example",
             "category": "github",
             "note": "",
             "author": "",
@@ -107,7 +108,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Gradient_descent",
-        "text": "gradient descent",
+        "text": "Gradient descent",
         "category": "wiki",
         "note": "",
         "author": "",

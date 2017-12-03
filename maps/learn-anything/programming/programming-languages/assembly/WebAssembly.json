@@ -7,22 +7,23 @@
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "talks",
+            "text": "Talks",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.youtube.com/watch?v=6v4E6oksar0",
-                "text": "17: compiling for the web with webassembly",
+                "text": "Compiling for the web with webassembly",
                 "category": "video",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -31,7 +32,7 @@
         "resources": [
           {
             "url": "https://github.com/WebAssembly/spec/blob/master/papers/pldi2017.pdf",
-            "text": "bringing the web up to speed with WebAssembly",
+            "text": "Bringing the web up to speed with WebAssembly",
             "category": "github",
             "note": "",
             "author": "",
@@ -42,7 +43,7 @@
           },
           {
             "url": "https://hacks.mozilla.org/2017/02/what-makes-webassembly-fast/",
-            "text": "what makes WebAssembly fast?  ️",
+            "text": "What makes WebAssembly fast?  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -53,7 +54,7 @@
           },
           {
             "url": "https://github.com/blaze33/way-of-life",
-            "text": "game of life implemented in WebAssembly",
+            "text": "Game of life implemented in WebAssembly",
             "category": "github",
             "note": "",
             "author": "",
@@ -66,12 +67,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.codelitt.com/blog/web-assembly/",
-            "text": "1. intro to WebAssembly  ️",
+            "text": "Intro to WebAssembly  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -82,7 +83,7 @@
           },
           {
             "url": "https://egghead.io/courses/get-started-using-webassembly-wasm",
-            "text": "1. get started using WebAssembly",
+            "text": "Get started using WebAssembly",
             "category": "course",
             "note": "",
             "author": "",
@@ -98,7 +99,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/WebAssembly/",
-        "text": "",
+        "text": "/r/WebAssembly",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -109,7 +110,7 @@
       },
       {
         "url": "https://github.com/WebAssembly",
-        "text": "",
+        "text": "WebAssembly",
         "category": "github",
         "note": "",
         "author": "",
@@ -120,7 +121,7 @@
       },
       {
         "url": "https://github.com/mbasso/awesome-wasm",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

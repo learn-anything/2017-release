@@ -6,33 +6,35 @@
     "text": "PostgreSQL",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/",
-                "text": "17: why use postgres  ️",
+                "text": "Why use postgres  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://rachbelaid.com/postgres-full-text-search-is-good-enough/",
-                "text": "15: postgres full-text search is good enough  ️",
+                "text": "Postgres full-text search is good enough  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               }
             ],
             "author": ""
@@ -41,7 +43,7 @@
         "resources": [
           {
             "url": "https://www.postgresql.org/docs/current/static/index.html",
-            "text": "documentation",
+            "text": "Documentation",
             "note": "",
             "author": "",
             "score": {
@@ -53,13 +55,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://pgexercises.com/",
-            "text": "1. PostgreSQL exercises",
+            "text": "PostgreSQL exercises",
             "note": "",
             "author": "",
             "score": {
@@ -74,7 +76,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/PostgreSQL/",
-        "text": "",
+        "text": "/r/PostgreSQL",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -85,7 +87,7 @@
       },
       {
         "url": "https://github.com/dhamaniasad/awesome-postgres",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

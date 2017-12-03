@@ -3,20 +3,20 @@
   "tag": "probabiliy theory",
   "id": 1108,
   "map": {
-    "text": "probability theory",
+    "text": "Probability theory",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "markov chains  ️",
+            "text": "Markov chains  ️",
             "note": "are stochastic processes that satisfy the Markov property (sometimes characterised as ‘memorylessness’)  a process satisfies the Markov property if one can make predictions for the future of the process based solely on its present state just as well as one could knowing the process’s full history, hence independently from such history (i.e. conditional on the present state of the system, its future and paste states are independent)  a Markov chain is a type of Markov process that has either discrete state space or discrete index set (often representing time), but the precise definition of a Markov chain varies",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/markov-chains",
-                "text": "markov chains  ️",
+                "text": "Markov chains  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -29,12 +29,12 @@
             "author": ""
           },
           {
-            "text": "prediction market",
+            "text": "Prediction market",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Prediction_market",
-                "text": "prediction market",
+                "text": "Prediction market",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -47,12 +47,12 @@
             "author": ""
           },
           {
-            "text": "probability distributions  ️",
+            "text": "Probability distributions  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/distributions",
-                "text": "probability distributions  ️",
+                "text": "Probability distributions  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -65,12 +65,12 @@
             "author": ""
           },
           {
-            "text": "conditional probability  ️",
+            "text": "Conditional probability  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/conditional-probability",
-                "text": "conditional probability  ️",
+                "text": "Conditional probability  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -83,12 +83,12 @@
             "author": ""
           },
           {
-            "text": "expected value  ️",
+            "text": "Expected value  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/expected-value",
-                "text": "expected value  ️",
+                "text": "Expected value  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -101,12 +101,12 @@
             "author": ""
           },
           {
-            "text": "random variables  ️",
+            "text": "Random variables  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/random-variables",
-                "text": "random variables  ️",
+                "text": "Random variables  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -119,12 +119,12 @@
             "author": ""
           },
           {
-            "text": "probability axioms  ️",
+            "text": "Probability axioms  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/probability-axioms",
-                "text": "probability axioms  ️",
+                "text": "Probability axioms  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -155,12 +155,12 @@
             "author": ""
           },
           {
-            "text": "randomness  ️",
+            "text": "Randomness  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/statistics/probability-theory/randomness",
-                "text": "randomness  ️",
+                "text": "Randomness  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -173,12 +173,12 @@
             "author": ""
           },
           {
-            "text": "sample space",
+            "text": "Sample space",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Sample_space",
-                "text": "sample space",
+                "text": "Sample space",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -194,7 +194,7 @@
         "resources": [
           {
             "url": "https://www.math.dartmouth.edu//~prob/prob/prob.pdf",
-            "text": "1. Grinstead and Snell’s introduction to probability",
+            "text": "Grinstead and Snell’s introduction to probability",
             "category": "free book",
             "note": "",
             "author": "",
@@ -205,7 +205,7 @@
           },
           {
             "url": "http://www.med.mcgill.ca/epidemiology/hanley/bios601/GaussianModel/JaynesProbabilityTheory.pdf",
-            "text": "1. probability theory: the logic of science",
+            "text": "Probability theory: the logic of science",
             "category": "free book",
             "note": "",
             "author": "",
@@ -216,7 +216,7 @@
           },
           {
             "url": "http://www.goodreads.com/book/show/9632300-probability",
-            "text": "1. probability: theory and examples",
+            "text": "Probability: theory and examples",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -227,7 +227,7 @@
           },
           {
             "url": "http://cs229.stanford.edu/section/cs229-prob.pdf",
-            "text": "1. review of probability theory",
+            "text": "Review of probability theory",
             "note": "",
             "author": "",
             "score": {
@@ -239,12 +239,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "http://frnsys.com/ai_notes/foundations/probability.html",
-            "text": "probability notes  ️",
+            "text": "Probability notes  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -255,7 +255,7 @@
           },
           {
             "url": "https://see.stanford.edu/materials/aimlcs229/cs229-prob.pdf",
-            "text": "probability theory review for machine learning",
+            "text": "Probability theory review for machine learning",
             "note": "",
             "author": "",
             "score": {
@@ -265,7 +265,7 @@
           },
           {
             "url": "https://github.com/mavam/stat-cookbook",
-            "text": "the probability and statistics cookbook",
+            "text": "The probability and statistics cookbook",
             "category": "github",
             "note": "",
             "author": "",
@@ -276,7 +276,7 @@
           },
           {
             "url": "http://www.cedar.buffalo.edu/~srihari/CSE574/Chap1/Probability-Theory.pdf",
-            "text": "probability theory overview",
+            "text": "Probability theory overview",
             "note": "",
             "author": "",
             "score": {
@@ -286,7 +286,7 @@
           },
           {
             "url": "http://www.cs.toronto.edu/~urtasun/courses/CSC411_Fall16/tutorial1.pdf",
-            "text": "probability theory for machine learning",
+            "text": "Probability theory for machine learning",
             "note": "",
             "author": "",
             "score": {
@@ -301,7 +301,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Probability_theory",
-        "text": "probability theory",
+        "text": "Probability theory",
         "category": "wiki",
         "note": "",
         "author": "",

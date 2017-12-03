@@ -3,33 +3,34 @@
   "tag": "interpreters",
   "id": 286,
   "map": {
-    "text": "interpreter",
+    "text": "Interpreter",
     "nodes": [
       {
-        "text": "talks",
+        "text": "Talks",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=LCslqgM48D4",
-            "text": "15: so you want to write an interpreter?",
+            "text": "So you want to write an interpreter?",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://stackoverflow.com/a/2377288/3067664",
-            "text": "1. how does an interpreter work   ️",
+            "text": "How does an interpreter work   ️",
             "category": "stack exchange",
             "note": "",
             "author": "",
@@ -40,7 +41,7 @@
           },
           {
             "url": "https://ruslanspivak.com/lsbasi-part1/",
-            "text": "1. let’s build a simple interpreter  ️",
+            "text": "Let’s build a simple interpreter  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -51,7 +52,7 @@
           },
           {
             "url": "https://nickdesaulniers.github.io/blog/2015/05/25/interpreter-compiler-jit/",
-            "text": "1. interpreter, compiler, JIT  ️",
+            "text": "Interpreter, compiler, JIT  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -62,7 +63,7 @@
           },
           {
             "url": "http://craftinginterpreters.com/contents.html",
-            "text": "1. crafting interpreters",
+            "text": "Crafting interpreters",
             "category": "free book",
             "note": "",
             "author": "",
@@ -78,7 +79,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Interpreter_(computing)",
-        "text": "interpreter",
+        "text": "Interpreter",
         "category": "wiki",
         "note": "",
         "author": "",

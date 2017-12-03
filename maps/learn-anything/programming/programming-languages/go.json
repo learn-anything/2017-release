@@ -3,34 +3,24 @@
   "tag": "go programming language",
   "id": 1601,
   "map": {
-    "text": "go",
+    "text": "Go",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://talks.golang.org/2012/splash.article",
-                        "text": "go at Google",
-                        "note": "",
-                        "author": "",
-                        "score": {
-                          "up": 0,
-                          "down": 0
-                        }
-                      },
-                      {
-                        "url": "",
-                        "text": "",
+                        "text": "Go at Google",
                         "note": "",
                         "author": "",
                         "score": {
@@ -40,7 +30,7 @@
                       },
                       {
                         "url": "https://blog.golang.org/toward-go2",
-                        "text": "towards go 2  ️",
+                        "text": "Towards go 2  ️",
                         "category": "article",
                         "note": "",
                         "author": "",
@@ -56,36 +46,39 @@
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=PAAkCSZUG1c&amp;feature=youtu.be",
-                    "text": "15: go proverbs - Rob Pike",
+                    "text": "Go proverbs - Rob Pike",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "15"
                   },
                   {
                     "url": "https://www.youtube.com/watch?v=rFejpH_tAHM",
-                    "text": "15: simplicity is complicated - Rob Pike",
+                    "text": "Simplicity is complicated - Rob Pike",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "15"
                   },
                   {
                     "url": "https://www.youtube.com/watch?v=KINIAgRpkDA",
-                    "text": "16: Rob Pike - the design of the go assembler",
+                    "text": "Rob Pike - the design of the go assembler",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   }
                 ],
                 "author": ""
@@ -94,7 +87,7 @@
             "resources": [
               {
                 "url": "http://yager.io/programming/go.html",
-                "text": "why go is not good  ️",
+                "text": "Why go is not good  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -105,7 +98,7 @@
               },
               {
                 "url": "http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go",
-                "text": "how to use interfaces in go  ️",
+                "text": "How to use interfaces in go  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -116,7 +109,7 @@
               },
               {
                 "url": "http://spf13.com/post/is-go-object-oriented/",
-                "text": "is go an object oriented language?  ️",
+                "text": "Is go an object oriented language?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -127,7 +120,7 @@
               },
               {
                 "url": "http://gowithconfidence-blog.tumblr.com/post/118493925546/getting-started-with-go-workspaces",
-                "text": "getting started with go workspaces  ️",
+                "text": "Getting started with go workspaces  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -138,167 +131,182 @@
               },
               {
                 "url": "https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/",
-                "text": "16: the complete guide to go net/http timeouts  ️",
+                "text": "The complete guide to go net/http timeouts  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://blog.sgmansfield.com/2016/06/working-with-forks-in-go/",
-                "text": "16: working with forks in go  ️",
+                "text": "Working with forks in go  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://dmitryvorobev.blogspot.nl/2016/08/golang-channels-implementation.html",
-                "text": "16: golang: channels implementation  ️",
+                "text": "Golang: channels implementation  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://divan.github.io/posts/go_concurrency_visualize/",
-                "text": "16: visualising concurrency in go  ️",
+                "text": "Visualising concurrency in go  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://medium.com/go-walkthrough/go-walkthrough-io-package-8ac5e95a9fbd",
-                "text": "16: go walkthrough: io package  ️",
+                "text": "Go walkthrough: io package  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1",
-                "text": "16: standard package layout  ️",
+                "text": "Standard package layout  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://www.barrucadu.co.uk/posts/etc/2016-08-25-three-months-of-go.html",
-                "text": "16: three months of go (from a haskeller's perspective)  ️",
+                "text": "Three months of go (from a haskeller's perspective)  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back",
-                "text": "17: go pointers explained  ️",
+                "text": "Go pointers explained  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://www.cossacklabs.com/blog/investigating-go-memory-leaks.html",
-                "text": "17: plugging leaks in go memory management  ️",
+                "text": "Plugging leaks in go memory management  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://grisha.org/blog/2017/04/27/simplistic-go-web-app/",
-                "text": "17: building a go web app in 2017  ️",
+                "text": "Building a go web app in 2017  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://silviosimunic.com/blog/monitor-web-page-changes-with-go/",
-                "text": "17: monitor web page changes with go  ️",
+                "text": "Monitor web page changes with go  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://dev.to/vladimirvivien/calling-go-functions-from-other-languages",
-                "text": "17: calling go functions from other languages  ️",
+                "text": "Calling go functions from other languages  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://howistart.org/posts/go/1/",
-                "text": "17: how i start: go  ️",
+                "text": "How i start: go  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://making.pusher.com/go-tool-trace/",
-                "text": "17: go tool trace",
+                "text": "Go tool trace",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://blog.thesparktree.com/15-lessons-in-golang",
-                "text": "17: 15 lessons in golang  ️",
+                "text": "15 lessons in golang  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -307,7 +315,7 @@
         "resources": [
           {
             "url": "https://github.com/tmrts/go-patterns",
-            "text": "go patterns",
+            "text": "Go patterns",
             "category": "github",
             "note": "",
             "author": "",
@@ -318,7 +326,7 @@
           },
           {
             "url": "https://talks.golang.org",
-            "text": "go talks",
+            "text": "Go talks",
             "note": "",
             "author": "",
             "score": {
@@ -328,7 +336,7 @@
           },
           {
             "url": "https://github.com/dariubs/GoBooks",
-            "text": "go books",
+            "text": "Go books",
             "category": "github",
             "note": "",
             "author": "",
@@ -339,7 +347,7 @@
           },
           {
             "url": "https://gowebexamples.github.io/",
-            "text": "go web examples",
+            "text": "Go web examples",
             "note": "",
             "author": "",
             "score": {
@@ -349,7 +357,7 @@
           },
           {
             "url": "https://github.com/ksimka/go-is-not-good",
-            "text": "go is not good",
+            "text": "Go is not good",
             "category": "github",
             "note": "",
             "author": "",
@@ -360,7 +368,7 @@
           },
           {
             "url": "https://docs.google.com/presentation/d/1Wcblp3jpfeKwA0Y4FOmj63PW52M_qmNqlQkNaLj0P5o/preview?slide=id.p",
-            "text": "mid stack inlining in the Go compiler",
+            "text": "Mid stack inlining in the Go compiler",
             "note": "",
             "author": "",
             "score": {
@@ -370,7 +378,7 @@
           },
           {
             "url": "https://github.com/cdarwin/go-koans",
-            "text": "go koans",
+            "text": "Go koans",
             "category": "github",
             "note": "",
             "author": "",
@@ -381,7 +389,7 @@
           },
           {
             "url": "https://dave.cheney.net/resources-for-new-go-programmers",
-            "text": "resources for new go programmers",
+            "text": "Resources for new go programmers",
             "note": "",
             "author": "",
             "score": {
@@ -391,7 +399,7 @@
           },
           {
             "url": "http://go-search.org/",
-            "text": "go search",
+            "text": "Go search",
             "note": "",
             "author": "",
             "score": {
@@ -401,7 +409,7 @@
           },
           {
             "url": "https://golang.org/pkg/",
-            "text": "std packages",
+            "text": "Std packages",
             "note": "",
             "author": "",
             "score": {
@@ -411,7 +419,7 @@
           },
           {
             "url": "https://go-proverbs.github.io/",
-            "text": "go proverbs",
+            "text": "Go proverbs",
             "note": "",
             "author": "",
             "score": {
@@ -421,7 +429,7 @@
           },
           {
             "url": "https://golang.org/ref/spec",
-            "text": "go spec",
+            "text": "Go spec",
             "note": "",
             "author": "",
             "score": {
@@ -431,7 +439,7 @@
           },
           {
             "url": "https://invite.slack.golangbridge.org",
-            "text": "gophers slack",
+            "text": "Gophers slack",
             "category": "chat",
             "note": "",
             "author": "",
@@ -442,7 +450,7 @@
           },
           {
             "url": "https://github.com/emluque/golang-internals-resources",
-            "text": "golang internals",
+            "text": "Golang internals",
             "category": "github",
             "note": "",
             "author": "",
@@ -453,7 +461,7 @@
           },
           {
             "url": "https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw/videos",
-            "text": "just for func",
+            "text": "Just for func",
             "category": "youtube",
             "note": "",
             "author": "",
@@ -464,7 +472,7 @@
           },
           {
             "url": "https://github.com/gopheracademy/gopher/blob/1cdbcd9fc3ba58efd628d4a6a552befc8e3912be/bot/bot.go#L516",
-            "text": "best go resources",
+            "text": "Best go resources",
             "category": "github",
             "note": "",
             "author": "",
@@ -477,16 +485,16 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "go packages  ️",
+            "text": "Go packages  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/go/go-packages",
-                "text": "go packages  ️",
+                "text": "Go packages  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -499,12 +507,12 @@
             "author": ""
           },
           {
-            "text": "web",
+            "text": "Web",
             "nodes": [],
             "resources": [
               {
                 "url": "https://astaxie.gitbooks.io/build-web-application-with-golang/en/",
-                "text": "build web applications with golang",
+                "text": "Build web applications with golang",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -515,7 +523,7 @@
               },
               {
                 "url": "https://checkmarx.gitbooks.io/go-scp/",
-                "text": "web application secure coding practices in golang",
+                "text": "Web application secure coding practices in golang",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -526,7 +534,7 @@
               },
               {
                 "url": "https://golang.org/doc/articles/wiki/",
-                "text": "writing web applications",
+                "text": "Writing web applications",
                 "note": "",
                 "author": "",
                 "score": {
@@ -538,12 +546,12 @@
             "author": ""
           },
           {
-            "text": "go interfaces  ️",
+            "text": "Go interfaces  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/go/interfaces",
-                "text": "go interfaces  ️",
+                "text": "Go interfaces  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -559,7 +567,7 @@
         "resources": [
           {
             "url": "https://tour.golang.org/welcome/1",
-            "text": "1. go tour",
+            "text": "Go tour",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -570,7 +578,7 @@
           },
           {
             "url": "http://openmymind.net/The-Little-Go-Book/",
-            "text": "1. the little go book",
+            "text": "The little go book",
             "category": "free book",
             "note": "",
             "author": "",
@@ -581,7 +589,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/25080953-the-go-programming-language",
-            "text": "1. go programming language",
+            "text": "Go programming language",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -592,7 +600,7 @@
           },
           {
             "url": "https://golang.org/doc/effective_go.html",
-            "text": "2. effective go",
+            "text": "Effective go",
             "note": "",
             "author": "",
             "score": {
@@ -602,7 +610,7 @@
           },
           {
             "url": "https://golang.org/doc/code.html",
-            "text": "2. how to write go code",
+            "text": "How to write go code",
             "note": "",
             "author": "",
             "score": {
@@ -612,7 +620,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=uBjoTxosSys",
-            "text": "2. go tooling in action",
+            "text": "Go tooling in action",
             "category": "video",
             "note": "",
             "author": "",
@@ -628,7 +636,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/golang/",
-        "text": "",
+        "text": "/r/golang",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -639,7 +647,7 @@
       },
       {
         "url": "https://github.com/golang/go",
-        "text": "",
+        "text": "Golang/go",
         "category": "github",
         "note": "",
         "author": "",
@@ -650,7 +658,7 @@
       },
       {
         "url": "https://github.com/trending/go",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -661,7 +669,7 @@
       },
       {
         "url": "https://github.com/avelino/awesome-go",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -672,7 +680,7 @@
       },
       {
         "url": "https://www.reddit.com/r/golang/",
-        "text": "go",
+        "text": "Go",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,22 +3,22 @@
   "tag": "",
   "id": 1751,
   "map": {
-    "text": "programming",
+    "text": "Programming",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.infoq.com/presentations/Simple-Made-Easy",
-                    "text": "simple made easy",
+                    "text": "Simple made easy",
                     "category": "video",
                     "note": "",
                     "author": "",
@@ -29,7 +29,7 @@
                   },
                   {
                     "url": "https://www.youtube.com/watch?v=-6BsiVyC1kM",
-                    "text": "the value of values with rich hickey",
+                    "text": "The value of values with rich hickey",
                     "category": "video",
                     "note": "",
                     "author": "",
@@ -40,7 +40,7 @@
                   },
                   {
                     "url": "http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/",
-                    "text": "programming is forgetting: toward a new hacker ethic",
+                    "text": "Programming is forgetting: toward a new hacker ethic",
                     "category": "video",
                     "note": "",
                     "author": "",
@@ -56,106 +56,115 @@
             "resources": [
               {
                 "url": "https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/",
-                "text": "02: the law of leaky abstractions  ️",
+                "text": "The law of leaky abstractions  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "02"
               },
               {
                 "url": "http://www.artima.com/weblogs/viewpost.jsp?thread=331531",
-                "text": "11: principles of good programming  ️",
+                "text": "Principles of good programming  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "11"
               },
               {
                 "url": "https://henrikwarne.com/2012/12/12/working-as-a-software-developer/",
-                "text": "12: working as a software developer  ️",
+                "text": "Working as a software developer  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "12"
               },
               {
                 "url": "https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329",
-                "text": "13: things I wish someone had told me when I was learning how to code  ️",
+                "text": "Things I wish someone had told me when I was learning how to code  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "13"
               },
               {
                 "url": "https://www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/",
-                "text": "14: the beauty of code  ️",
+                "text": "The beauty of code  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "http://thecodist.com/article/lessons_from_a_lifetime_of_being_a_programmer",
-                "text": "14: lessons from a lifetime of being a programmer  ️",
+                "text": "Lessons from a lifetime of being a programmer  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "https://okepi.wordpress.com/2014/08/21/how-to-become-a-programmer-or-the-art-of-googling-well/",
-                "text": "14: how to become a programmer, or he art of googling well  ️",
+                "text": "How to become a programmer, or he art of googling well  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
-                "text": "15: what is code?  ️",
+                "text": "What is code?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "https://lwn.net/Articles/641779/",
-                "text": "15: the programming talent myth  ️",
+                "text": "The programming talent myth  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "http://norvig.com/21-days.html",
-                "text": "teach yourself programming in ten years  ️",
+                "text": "Teach yourself programming in ten years  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -166,7 +175,7 @@
               },
               {
                 "url": "http://antirez.com/news/112",
-                "text": "the mythical 10x programmer  ️",
+                "text": "The mythical 10x programmer  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -177,7 +186,7 @@
               },
               {
                 "url": "https://johnresig.com/blog/write-code-every-day/",
-                "text": "write code every day  ️",
+                "text": "Write code every day  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -193,7 +202,7 @@
         "resources": [
           {
             "url": "https://github.com/tuvttran/project-based-learning",
-            "text": "project based learning",
+            "text": "Project based learning",
             "category": "github",
             "note": "",
             "author": "",
@@ -204,7 +213,7 @@
           },
           {
             "url": "https://enlight.ml/",
-            "text": "enlight",
+            "text": "Enlight",
             "note": "",
             "author": "",
             "score": {
@@ -214,7 +223,7 @@
           },
           {
             "url": "https://www.google.com/about/careers/students/guide-to-technical-development.html",
-            "text": "technical development guide",
+            "text": "Technical development guide",
             "note": "",
             "author": "",
             "score": {
@@ -224,7 +233,7 @@
           },
           {
             "url": "http://sijinjoseph.com/programmer-competency-matrix/",
-            "text": "programming competency matrix",
+            "text": "Programming competency matrix",
             "note": "",
             "author": "",
             "score": {
@@ -234,7 +243,7 @@
           },
           {
             "url": "https://github.com/karlhorky/learn-to-program",
-            "text": "learn to program",
+            "text": "Learn to program",
             "category": "github",
             "note": "",
             "author": "",
@@ -245,7 +254,7 @@
           },
           {
             "url": "https://github.com/jwasham/coding-interview-university",
-            "text": "coding interview university",
+            "text": "Coding interview university",
             "category": "github",
             "note": "",
             "author": "",
@@ -256,7 +265,7 @@
           },
           {
             "url": "https://github.com/kilimchoi/engineering-blogs",
-            "text": "engineering blogs",
+            "text": "Engineering blogs",
             "category": "github",
             "note": "",
             "author": "",
@@ -267,7 +276,7 @@
           },
           {
             "url": "https://web.archive.org/web/20150912025917/http://samizdat.mines.edu/howto/HowToBeAProgrammer.html",
-            "text": "how to be a programmer: short and personal summary",
+            "text": "How to be a programmer: short and personal summary",
             "note": "",
             "author": "",
             "score": {
@@ -277,7 +286,7 @@
           },
           {
             "url": "https://github.com/NARKOZ/guides",
-            "text": "design and development guides",
+            "text": "Design and development guides",
             "category": "github",
             "note": "",
             "author": "",
@@ -298,7 +307,7 @@
           },
           {
             "url": "http://breue.com/free_programming_books",
-            "text": "free programming books",
+            "text": "Free programming books",
             "note": "",
             "author": "",
             "score": {
@@ -310,15 +319,15 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "design patterns  ️",
+            "text": "Design patterns  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/design-patterns",
-                "text": "design patterns  ️",
+                "text": "Design patterns  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -331,12 +340,12 @@
             "author": ""
           },
           {
-            "text": "query languages  ️",
+            "text": "Query languages  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/query-languages",
-                "text": "query languages  ️",
+                "text": "Query languages  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -349,12 +358,12 @@
             "author": ""
           },
           {
-            "text": "programming paradigms  ️",
+            "text": "Programming paradigms  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-paradigms",
-                "text": "programming paradigms  ️",
+                "text": "Programming paradigms  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -367,12 +376,12 @@
             "author": ""
           },
           {
-            "text": "reverse engineering  ️",
+            "text": "Reverse engineering  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/reverse-engineering",
-                "text": "reverse engineering  ️",
+                "text": "Reverse engineering  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -385,16 +394,16 @@
             "author": ""
           },
           {
-            "text": "programming languages  ️",
+            "text": "Programming languages  ️",
             "note": "are formal computer languages designed to communicate instructions to a machine, particularly a computer  they can be used to create programs to control the behaviour of a machine or to express algorithms   the description of a programming language is split into two components of syntax (form) and semantics (meaning)  some languages are defined by a specification document (for example C being specified by an ISO standard) while other languages (like Perl) have a dominant implementation that is treated as a reference  some languages have both",
             "nodes": [
               {
-                "text": "programming language design  ️",
+                "text": "Programming language design  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-language-design",
-                    "text": "programming language design  ️",
+                    "text": "Programming language design  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -410,7 +419,7 @@
             "resources": [
               {
                 "url": "/programming/programming-languages",
-                "text": "programming languages  ️",
+                "text": "Programming languages  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -423,12 +432,12 @@
             "author": ""
           },
           {
-            "text": "software development  ️",
+            "text": "Software development  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/software-development",
-                "text": "software development  ️",
+                "text": "Software development  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -441,13 +450,13 @@
             "author": ""
           },
           {
-            "text": "programming interview preparation  ️",
+            "text": "Programming interview preparation  ️",
             "note": "how to prepare for a programming interview most effectively",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-interview-preparation",
-                "text": "programming interview preparation  ️",
+                "text": "Programming interview preparation  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -460,12 +469,12 @@
             "author": ""
           },
           {
-            "text": "version control  ️",
+            "text": "Version control  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/version-control",
-                "text": "version control  ️",
+                "text": "Version control  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -496,12 +505,12 @@
             "author": ""
           },
           {
-            "text": "dynamic programming  ️",
+            "text": "Dynamic programming  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/dynamic-programming",
-                "text": "dynamic programming  ️",
+                "text": "Dynamic programming  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -514,15 +523,15 @@
             "author": ""
           },
           {
-            "text": "practice  ️",
+            "text": "Practice  ️",
             "nodes": [
               {
-                "text": "programming mastery  ️",
+                "text": "Programming mastery  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-mastery",
-                    "text": "programming mastery  ️",
+                    "text": "Programming mastery  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -535,12 +544,12 @@
                 "author": ""
               },
               {
-                "text": "competitive programming  ️",
+                "text": "Competitive programming  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/competitive-programming",
-                    "text": "competitive programming  ️",
+                    "text": "Competitive programming  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -556,7 +565,7 @@
             "resources": [
               {
                 "url": "/programming/practice",
-                "text": "practice  ️",
+                "text": "Practice  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -569,12 +578,12 @@
             "author": ""
           },
           {
-            "text": "markup languages  ️",
+            "text": "Markup languages  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/markup-languages",
-                "text": "markup languages  ️",
+                "text": "Markup languages  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -587,12 +596,12 @@
             "author": ""
           },
           {
-            "text": "mobile applications development  ️",
+            "text": "Mobile applications development  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/mobile-applications",
-                "text": "mobile applications development  ️",
+                "text": "Mobile applications development  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -608,7 +617,7 @@
         "resources": [
           {
             "url": "https://briansteffens.github.io/2017/02/20/from-math-to-machine.html",
-            "text": "1. from math to machine: translating a function to machine code  ️",
+            "text": "From math to machine: translating a function to machine code  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -619,7 +628,7 @@
           },
           {
             "url": "https://bobcarp.files.wordpress.com/2014/07/code-charles-petzold.pdf",
-            "text": "1. code: hidden language",
+            "text": "Code: hidden language",
             "category": "free book",
             "note": "",
             "author": "",
@@ -630,7 +639,7 @@
           },
           {
             "url": "http://natureofcode.com/book/preface/",
-            "text": "1. the nature of code",
+            "text": "The nature of code",
             "category": "free book",
             "note": "",
             "author": "",
@@ -641,7 +650,7 @@
           },
           {
             "url": "http://sarabander.github.io/sicp/html/index.xhtml",
-            "text": "2. structure and interpretation of computer programs",
+            "text": "Structure and interpretation of computer programs",
             "category": "free book",
             "note": "",
             "author": "",
@@ -652,7 +661,7 @@
           },
           {
             "url": "http://aosabook.org/en/index.html",
-            "text": "2. architecture of open source applications",
+            "text": "Architecture of open source applications",
             "category": "free book",
             "note": "",
             "author": "",
@@ -663,7 +672,7 @@
           },
           {
             "url": "https://github.com/jwasham/coding-interview-university",
-            "text": "2. coding interview university",
+            "text": "Coding interview university",
             "category": "github",
             "note": "",
             "author": "",
@@ -679,7 +688,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/programming/",
-        "text": "",
+        "text": "/r/programming",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -690,7 +699,7 @@
       },
       {
         "url": "https://www.reddit.com/r/learnprogramming/",
-        "text": "learn programming",
+        "text": "Learn programming",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -701,7 +710,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Computer_programming",
-        "text": "programming",
+        "text": "Programming",
         "category": "wiki",
         "note": "",
         "author": "",

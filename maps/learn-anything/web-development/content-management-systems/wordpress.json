@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1865,
   "map": {
-    "text": "wordpress",
+    "text": "Wordpress",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://codex.wordpress.org/Getting_Started_with_WordPress",
-            "text": "1. getting started with wordpress",
+            "text": "Getting started with wordpress",
             "note": "",
             "author": "",
             "score": {
@@ -23,19 +23,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://poststatus.com/learn-wordpress-development/",
-            "text": "14: where to learn wordpress development  ️",
+            "text": "Where to learn wordpress development  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "14"
           }
         ],
         "author": ""
@@ -44,7 +45,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Wordpress/",
-        "text": "",
+        "text": "/r/Wordpress",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -66,7 +67,7 @@
       },
       {
         "url": "https://github.com/miziomon/awesome-wordpress",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -77,7 +78,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/WordPress",
-        "text": "wordpress",
+        "text": "Wordpress",
         "category": "wiki",
         "note": "",
         "author": "",

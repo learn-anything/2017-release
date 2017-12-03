@@ -3,15 +3,15 @@
   "tag": "debian linux",
   "id": 1288,
   "map": {
-    "text": "debian",
+    "text": "Debian",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.debian.org/distrib/",
-            "text": "1. getting debian",
+            "text": "Getting debian",
             "note": "",
             "author": "",
             "score": {
@@ -21,7 +21,7 @@
           },
           {
             "url": "https://www.debian.org/releases/stable/installmanual",
-            "text": "2. installation guide",
+            "text": "Installation guide",
             "note": "",
             "author": "",
             "score": {
@@ -33,12 +33,12 @@
         "author": ""
       },
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/smira/aptly",
-            "text": "aptly",
+            "text": "Aptly",
             "category": "github",
             "note": "",
             "author": "",
@@ -54,7 +54,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/debian/",
-        "text": "",
+        "text": "/r/debian",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -65,7 +65,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Debian",
-        "text": "debian",
+        "text": "Debian",
         "category": "wiki",
         "note": "",
         "author": "",

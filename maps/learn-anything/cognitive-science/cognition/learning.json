@@ -3,31 +3,32 @@
   "tag": "",
   "id": 193,
   "map": {
-    "text": "learning",
+    "text": "Learning",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://fermatslibrary.com/s/the-usefulness-of-useless-knowledge",
-                        "text": "1939: the usefulness of useless knowledge",
+                        "text": "The usefulness of useless knowledge",
                         "category": "paper",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "1939"
                       },
                       {
                         "url": "https://www.youtube.com/watch?v=4dXlLpsU0ao",
@@ -47,14 +48,15 @@
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=gHG9FRSlPxw",
-                    "text": "13: good enough good enough",
+                    "text": "Good enough good enough",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "13"
                   }
                 ],
                 "author": ""
@@ -63,18 +65,19 @@
             "resources": [
               {
                 "url": "https://codewithoutrules.com/2017/04/17/learning-without-a-mentor/",
-                "text": "17: learning without a mentor: how to become an expert programmer on your own  ️",
+                "text": "Learning without a mentor: how to become an expert programmer on your own  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://heydave.org/post/26317198789/the-timer-knows-best-why-i-love-the-pomodoro",
-                "text": "the timer knows best: why i love the pomodoro technique  ️",
+                "text": "The timer knows best: why i love the pomodoro technique  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -90,7 +93,7 @@
         "resources": [
           {
             "url": "https://www.reddit.com/r/AskReddit/comments/2b0yf8/good_students_how_do_you_go_about_getting_good/cj0qre2/",
-            "text": "how to study based on how memory works",
+            "text": "How to study based on how memory works",
             "category": "reddit",
             "note": "",
             "author": "",
@@ -101,7 +104,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=xfnAK69XUVo",
-            "text": "getting things done by David Allen",
+            "text": "Getting things done by David Allen",
             "category": "video",
             "note": "",
             "author": "",
@@ -112,7 +115,7 @@
           },
           {
             "url": "https://www.quora.com/How-can-I-improve-my-focus-10/answer/Yishan-Wong?share=1",
-            "text": "how can I improve my focus",
+            "text": "How can I improve my focus",
             "note": "",
             "author": "",
             "score": {
@@ -122,7 +125,7 @@
           },
           {
             "url": "https://www.simongriffee.com/what/learning/",
-            "text": "notes on learning",
+            "text": "Notes on learning",
             "note": "",
             "author": "",
             "score": {
@@ -134,16 +137,16 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "research  ️",
+            "text": "Research  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cognitive-science/cognition/learning/research",
-                "text": "research  ️",
+                "text": "Research  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -156,12 +159,12 @@
             "author": ""
           },
           {
-            "text": "information mapping  ️",
+            "text": "Information mapping  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cognitive-science/cognition/learning/information-mapping",
-                "text": "information mapping  ️",
+                "text": "Information mapping  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -174,12 +177,12 @@
             "author": ""
           },
           {
-            "text": "education  ️",
+            "text": "Education  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cognitive-science/cognition/learning/education",
-                "text": "education  ️",
+                "text": "Education  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -192,12 +195,12 @@
             "author": ""
           },
           {
-            "text": "learning theories",
+            "text": "Learning theories",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Learning_theory_(education)",
-                "text": "learning theories",
+                "text": "Learning theories",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -213,7 +216,7 @@
         "resources": [
           {
             "url": "http://www.cse.buffalo.edu/~rapaport/howtostudy.html",
-            "text": "1. how to study  ️",
+            "text": "How to study  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -224,7 +227,7 @@
           },
           {
             "url": "https://www.coursera.org/learn/learning-how-to-learn",
-            "text": "1. learning how to learn",
+            "text": "Learning how to learn",
             "category": "course",
             "note": "",
             "author": "",
@@ -235,7 +238,7 @@
           },
           {
             "url": "https://metacademy.org/roadmaps/rgrosse/learn_on_your_own",
-            "text": "1. how to learn on your own  ️",
+            "text": "How to learn on your own  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -246,7 +249,7 @@
           },
           {
             "url": "http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
-            "text": "1. why procrastinator’s procrastinate  ️",
+            "text": "Why procrastinator’s procrastinate  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -257,7 +260,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=IlU-zDU6aQ0&amp;feature=youtu.be",
-            "text": "1. study less, study smart",
+            "text": "Study less, study smart",
             "category": "video",
             "note": "",
             "author": "",
@@ -268,7 +271,7 @@
           },
           {
             "url": "https://medium.com/@NikitaVoloboev/project-based-learning-e511641869ca",
-            "text": "1. project based learning  ️",
+            "text": "Project based learning  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -284,7 +287,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Learning",
-        "text": "learning",
+        "text": "Learning",
         "category": "wiki",
         "note": "",
         "author": "",

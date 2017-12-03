@@ -3,15 +3,15 @@
   "tag": "",
   "id": 706,
   "map": {
-    "text": "speech synthesis",
+    "text": "Speech synthesis",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=nsrSrYtKkT8",
-            "text": "1. generative model-based text-to-speech synthesis",
+            "text": "Generative model-based text-to-speech synthesis",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=vEAq_sBf1CA",
-            "text": "17: deep generative models for speech and images",
+            "text": "Deep generative models for speech and images",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Speech_synthesis",
-        "text": "speech synthesis",
+        "text": "Speech synthesis",
         "category": "wiki",
         "note": "",
         "author": "",

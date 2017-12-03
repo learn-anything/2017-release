@@ -3,15 +3,15 @@
   "tag": "",
   "id": 788,
   "map": {
-    "text": "sequence to sequence learning",
+    "text": "Sequence to sequence learning",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf",
-            "text": "1. sequence to sequence learning with neural networks",
+            "text": "Sequence to sequence learning with neural networks",
             "category": "paper",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://www.tensorflow.org/tutorials/seq2seq",
-            "text": "1. sequence to sequence models with TensorFlow",
+            "text": "Sequence to sequence models with TensorFlow",
             "note": "",
             "author": "",
             "score": {
@@ -34,19 +34,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/",
-            "text": "16: attention and memory in deep learning and NLP  ️",
+            "text": "Attention and memory in deep learning and NLP  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""

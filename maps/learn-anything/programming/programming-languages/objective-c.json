@@ -3,15 +3,15 @@
   "tag": "objective c programming language",
   "id": 1625,
   "map": {
-    "text": "objective c",
+    "text": "Objective c",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/NYTimes/objective-c-style-guide",
-            "text": "objc style guide",
+            "text": "Objc style guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://github.com/iwasrobbed/Objective-C-CheatSheet",
-            "text": "objc cheat sheet",
+            "text": "Objc cheat sheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://mikeash.com/pyblog/",
-            "text": "mike ash  ️",
+            "text": "Mike ash  ️",
             "category": "blog",
             "note": "",
             "author": "",
@@ -44,32 +44,33 @@
           },
           {
             "url": "https://artandlogic.com/2014/01/digging-into-the-objective-c-runtime/",
-            "text": "14: digging into objective-c runtime  ️",
+            "text": "Digging into objective-c runtime  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "14"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "memory management",
+            "text": "Memory management",
             "nodes": [
               {
-                "text": "automatic reference counting",
+                "text": "Automatic reference counting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Automatic_Reference_Counting",
-                    "text": "automatic reference counting",
+                    "text": "Automatic reference counting",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -85,7 +86,7 @@
             "resources": [
               {
                 "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html",
-                "text": "memory management",
+                "text": "Memory management",
                 "note": "",
                 "author": "",
                 "score": {
@@ -97,7 +98,7 @@
             "author": ""
           },
           {
-            "text": "concurrent programming",
+            "text": "Concurrent programming",
             "nodes": [
               {
                 "text": "Blocks",
@@ -137,7 +138,7 @@
             "resources": [
               {
                 "url": "https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html",
-                "text": "concurrent programming",
+                "text": "Concurrent programming",
                 "note": "",
                 "author": "",
                 "score": {
@@ -152,7 +153,7 @@
         "resources": [
           {
             "url": "http://www.goodreads.com/book/show/17297099-effective-objective-c-2-0",
-            "text": "1. effective objective-c 2.0",
+            "text": "Effective objective-c 2.0",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -168,7 +169,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/ObjectiveC/",
-        "text": "",
+        "text": "/r/ObjectiveC",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -179,7 +180,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Objective-C",
-        "text": "objective c",
+        "text": "Objective c",
         "category": "wiki",
         "note": "",
         "author": "",

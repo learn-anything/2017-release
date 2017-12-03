@@ -6,16 +6,16 @@
     "text": "CSS",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "styled components  ️",
+            "text": "Styled components  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/web-development/front-end/css/styled-components",
-                "text": "styled components  ️",
+                "text": "Styled components  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -46,15 +46,15 @@
             "author": ""
           },
           {
-            "text": "frameworks",
+            "text": "Frameworks",
             "nodes": [
               {
-                "text": "semantic UI",
+                "text": "Semantic UI",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://semantic-ui.com/",
-                    "text": "semantic UI",
+                    "text": "Semantic UI",
                     "note": "",
                     "author": "",
                     "score": {
@@ -66,12 +66,12 @@
                 "author": ""
               },
               {
-                "text": "foundation",
+                "text": "Foundation",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://foundation.zurb.com/",
-                    "text": "foundation",
+                    "text": "Foundation",
                     "note": "",
                     "author": "",
                     "score": {
@@ -83,12 +83,12 @@
                 "author": ""
               },
               {
-                "text": "bootstrap  ️",
+                "text": "Bootstrap  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/web-development/front-end/css/bootstrap",
-                    "text": "bootstrap  ️",
+                    "text": "Bootstrap  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -101,12 +101,12 @@
                 "author": ""
               },
               {
-                "text": "materialise css",
+                "text": "Materialise css",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://materializecss.com/",
-                    "text": "materialise css",
+                    "text": "Materialise css",
                     "note": "",
                     "author": "",
                     "score": {
@@ -118,12 +118,12 @@
                 "author": ""
               },
               {
-                "text": "bulma  ️",
+                "text": "Bulma  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/web-development/front-end/css/bulma",
-                    "text": "bulma  ️",
+                    "text": "Bulma  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -140,7 +140,7 @@
             "author": ""
           },
           {
-            "text": "preprocessors",
+            "text": "Preprocessors",
             "nodes": [
               {
                 "text": "PostCSS",
@@ -216,7 +216,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Preprocessor",
-                "text": "preprocessors",
+                "text": "Preprocessors",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -229,7 +229,7 @@
             "author": ""
           },
           {
-            "text": "methodologies",
+            "text": "Methodologies",
             "nodes": [
               {
                 "text": "SMACSS",
@@ -322,12 +322,12 @@
             "author": ""
           },
           {
-            "text": "grid layout  ️",
+            "text": "Grid layout  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/web-development/front-end/css/grid-layout",
-                "text": "grid layout  ️",
+                "text": "Grid layout  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -340,12 +340,12 @@
             "author": ""
           },
           {
-            "text": "css modules  ️",
+            "text": "Css modules  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/web-development/front-end/css/css-modules",
-                "text": "css modules  ️",
+                "text": "Css modules  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -361,7 +361,7 @@
         "resources": [
           {
             "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS",
-            "text": "1. intro to css",
+            "text": "Intro to css",
             "note": "",
             "author": "",
             "score": {
@@ -371,7 +371,7 @@
           },
           {
             "url": "http://cssgridgarden.com/",
-            "text": "1. grid garden",
+            "text": "Grid garden",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -384,18 +384,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://colinkeany.com/blend/",
-                    "text": "blend",
+                    "text": "Blend",
                     "note": "",
                     "author": "",
                     "score": {
@@ -410,25 +410,27 @@
             "resources": [
               {
                 "url": "http://ryanogles.by/css/javascript/2017/05/25/the-state-of-css.html",
-                "text": "17: the state of CSS  ️",
+                "text": "The state of CSS  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://www.intelligiblebabble.com/a-pattern-for-writing-css-to-scale",
-                "text": "14: a pattern for writing CSS to scale  ️",
+                "text": "A pattern for writing CSS to scale  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               }
             ],
             "author": ""
@@ -437,7 +439,7 @@
         "resources": [
           {
             "url": "https://css-tricks.com/almanac/",
-            "text": "css almanac",
+            "text": "Css almanac",
             "note": "",
             "author": "",
             "score": {
@@ -447,7 +449,7 @@
           },
           {
             "url": "http://cssreference.io/#hn",
-            "text": "css reference",
+            "text": "Css reference",
             "note": "",
             "author": "",
             "score": {
@@ -457,7 +459,7 @@
           },
           {
             "url": "https://github.com/addyosmani/critical-path-css-tools",
-            "text": "critical path css tools",
+            "text": "Critical path css tools",
             "category": "github",
             "note": "",
             "author": "",
@@ -468,7 +470,7 @@
           },
           {
             "url": "https://github.com/davidtheclark/scalable-css-reading-list",
-            "text": "scalable css reading list",
+            "text": "Scalable css reading list",
             "category": "github",
             "note": "",
             "author": "",
@@ -479,7 +481,7 @@
           },
           {
             "url": "https://github.com/AllThingsSmitty/must-watch-css",
-            "text": "must watch css",
+            "text": "Must watch css",
             "category": "github",
             "note": "",
             "author": "",
@@ -490,7 +492,7 @@
           },
           {
             "url": "https://github.com/AllThingsSmitty/css-protips",
-            "text": "css pro tips",
+            "text": "Css pro tips",
             "category": "github",
             "note": "",
             "author": "",
@@ -501,7 +503,7 @@
           },
           {
             "url": "http://cssreference.io/",
-            "text": "css reference",
+            "text": "Css reference",
             "note": "",
             "author": "",
             "score": {
@@ -516,7 +518,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/css/",
-        "text": "",
+        "text": "/r/css",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -527,7 +529,7 @@
       },
       {
         "url": "https://github.com/sotayamashita/awesome-css",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1729,
   "map": {
-    "text": "microservices",
+    "text": "Microservices",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://martinfowler.com/articles/microservices.html",
-            "text": "1. definition of microservices  ️",
+            "text": "Definition of microservices  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
-            "text": "2. netflix guide to microservices",
+            "text": "Netflix guide to microservices",
             "category": "video",
             "note": "",
             "author": "",
@@ -36,19 +36,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html",
-            "text": "17: enough with the microservices  ️",
+            "text": "Enough with the microservices  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -57,7 +58,7 @@
     "resources": [
       {
         "url": "https://github.com/mfornos/awesome-microservices",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -68,7 +69,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Microservices",
-        "text": "microservices",
+        "text": "Microservices",
         "category": "wiki",
         "note": "",
         "author": "",

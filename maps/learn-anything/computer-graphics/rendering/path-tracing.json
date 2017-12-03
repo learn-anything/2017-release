@@ -3,15 +3,15 @@
   "tag": "",
   "id": 227,
   "map": {
-    "text": "path tracing",
+    "text": "Path tracing",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=frLwRLS_ZR0",
-            "text": "1. Disney’s guide to path tracing",
+            "text": "Disney’s guide to path tracing",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,18 +24,18 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [
               {
-                "text": "implementations",
+                "text": "Implementations",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/fogleman/pt",
-                    "text": "in go",
+                    "text": "In go",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -67,14 +67,15 @@
         "resources": [
           {
             "url": "http://blog.hvidtfeldts.net/index.php/2015/01/path-tracing-3d-fractals/",
-            "text": "15: path tracing 3D fractals  ️",
+            "text": "Path tracing 3D fractals  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -83,7 +84,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Path_tracing",
-        "text": "path tracing",
+        "text": "Path tracing",
         "category": "wiki",
         "note": "",
         "author": "",

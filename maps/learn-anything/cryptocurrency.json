@@ -3,22 +3,22 @@
   "tag": "",
   "id": 365,
   "map": {
-    "text": "cryptocurrency",
+    "text": "Cryptocurrency",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "currencies",
+            "text": "Currencies",
             "nodes": [
               {
-                "text": "bitcoin  ️",
+                "text": "Bitcoin  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/cryptocurrency/bitcoin",
-                    "text": "bitcoin  ️",
+                    "text": "Bitcoin  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -31,12 +31,12 @@
                 "author": ""
               },
               {
-                "text": "monero",
+                "text": "Monero",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Monero_(cryptocurrency)",
-                    "text": "monero",
+                    "text": "Monero",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -49,12 +49,12 @@
                 "author": ""
               },
               {
-                "text": "dash",
+                "text": "Dash",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Dash_(cryptocurrency)",
-                    "text": "dash",
+                    "text": "Dash",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -71,12 +71,12 @@
             "author": ""
           },
           {
-            "text": "proof-of-work system",
+            "text": "Proof-of-work system",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Proof-of-work_system",
-                "text": "proof-of-work system",
+                "text": "Proof-of-work system",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -89,12 +89,12 @@
             "author": ""
           },
           {
-            "text": "initial coin offering  ️",
+            "text": "Initial coin offering  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptocurrency/initial-coin-offering",
-                "text": "initial coin offering  ️",
+                "text": "Initial coin offering  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -121,7 +121,7 @@
           },
           {
             "url": "https://www.coursera.org/learn/cryptocurrency",
-            "text": "1. bitcoin and cryptocurrency technologies",
+            "text": "Bitcoin and cryptocurrency technologies",
             "category": "course",
             "note": "",
             "author": "",
@@ -132,7 +132,7 @@
           },
           {
             "url": "https://cryptominded.com/starters-guide-cryptocurrencies/",
-            "text": "1. starter’s guide to cryptocurrencies  ️",
+            "text": "Starter’s guide to cryptocurrencies  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -145,25 +145,26 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=wjyiOXRuUdo",
-                    "text": "17: introduction to cryptocurrencies in haskell",
+                    "text": "Introduction to cryptocurrencies in haskell",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -172,14 +173,15 @@
             "resources": [
               {
                 "url": "http://blog.eladgil.com/2017/07/cryptocurrencys-netscape-moment.html",
-                "text": "17: cryptocurrency’s Netscape moment  ️",
+                "text": "Cryptocurrency’s Netscape moment  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -188,7 +190,7 @@
         "resources": [
           {
             "url": "https://github.com/kilimchoi/cryptocurrency",
-            "text": "overview of top cryptocurrencies in the market",
+            "text": "Overview of top cryptocurrencies in the market",
             "category": "github",
             "note": "",
             "author": "",
@@ -199,7 +201,7 @@
           },
           {
             "url": "https://cryptominded.com/",
-            "text": "cryptominded",
+            "text": "Cryptominded",
             "note": "",
             "author": "",
             "score": {
@@ -214,7 +216,7 @@
     "resources": [
       {
         "url": "https://github.com/kasketis/awesome-cryptocurrencies",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -225,7 +227,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Cryptocurrency",
-        "text": "cryptocurrency",
+        "text": "Cryptocurrency",
         "category": "wiki",
         "note": "",
         "author": "",

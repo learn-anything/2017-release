@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1768,
   "map": {
-    "text": "hacking",
+    "text": "Hacking",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.catb.org/%7Eesr/faqs/hacker-howto.html",
-            "text": "1. how to become a hacker",
+            "text": "How to become a hacker",
             "note": "",
             "author": "",
             "score": {
@@ -24,30 +24,32 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://labs.detectify.com/2017/02/28/hacking-slack-using-postmessage-and-websocket-reconnect-to-steal-your-precious-token/",
-            "text": "17: hacking Slack using postMessage and WebSocket-reconnect to steal your precious token  ️",
+            "text": "Hacking Slack using postMessage and WebSocket-reconnect to steal your precious token  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           },
           {
             "url": "https://feross.org/applied-philosophy-a-k-a-hacking/",
-            "text": "10: applied philosophy a.k.a. \"hacking\"  ️",
+            "text": "Applied philosophy a.k.a. \"hacking\"  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "10"
           }
         ],
         "author": ""
@@ -56,7 +58,7 @@
     "resources": [
       {
         "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -67,7 +69,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Security_hacker",
-        "text": "hacking",
+        "text": "Hacking",
         "category": "wiki",
         "note": "",
         "author": "",

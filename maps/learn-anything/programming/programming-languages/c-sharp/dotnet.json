@@ -7,22 +7,23 @@
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.prigrammer.com/?p=363",
-                "text": "17: F# has won me over: coming to .Net world from outside .Net  ️",
+                "text": "F# has won me over: coming to .Net world from outside .Net  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -31,7 +32,7 @@
         "resources": [
           {
             "url": "https://github.com/thangchung/awesome-dotnet-core",
-            "text": "awesome .NET core",
+            "text": "Awesome .NET core",
             "category": "github",
             "note": "",
             "author": "",
@@ -62,12 +63,12 @@
         "author": ""
       },
       {
-        "text": "powershell  ️",
+        "text": "Powershell  ️",
         "nodes": [],
         "resources": [
           {
             "url": "/programming/programming-languages/c-sharp/dotnet/powershell",
-            "text": "powershell  ️",
+            "text": "Powershell  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -83,7 +84,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/dotnet/",
-        "text": "",
+        "text": "/r/dotnet",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -94,7 +95,7 @@
       },
       {
         "url": "https://github.com/quozd/awesome-dotnet",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

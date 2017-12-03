@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1206,
   "map": {
-    "text": "word vectors",
+    "text": "Word vectors",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/",
-            "text": "1. Word2Vec tutorial  ️",
+            "text": "Word2Vec tutorial  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/",
-            "text": "1. the amazing power of word vectors  ️",
+            "text": "The amazing power of word vectors  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://arxiv.org/pdf/1411.2738.pdf",
-            "text": "1. Word2Vec parameter learning explained",
+            "text": "Word2Vec parameter learning explained",
             "category": "paper",
             "note": "",
             "author": "",
@@ -44,7 +44,7 @@
           },
           {
             "url": "https://www.kaggle.com/c/word2vec-nlp-tutorial",
-            "text": "1. use Word2Vec for movie reviews",
+            "text": "Use Word2Vec for movie reviews",
             "note": "",
             "author": "",
             "score": {
@@ -56,19 +56,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "http://ruder.io/word-embeddings-1/index.html",
-            "text": "16: word embedding models  ️",
+            "text": "Word embedding models  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""

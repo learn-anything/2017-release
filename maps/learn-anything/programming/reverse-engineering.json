@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1689,
   "map": {
-    "text": "reverse engineering",
+    "text": "Reverse engineering",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://0x00sec.org/t/re-guide-for-beginners-methodology-and-tools/2242",
-            "text": "1. guide for beginners",
+            "text": "Guide for beginners",
             "note": "",
             "author": "",
             "score": {
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/61619.Hacking",
-            "text": "1. hacking: the art of exploitation",
+            "text": "Hacking: the art of exploitation",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://github.com/RPISEC/MBE",
-            "text": "1. modern binary exploitation",
+            "text": "Modern binary exploitation",
             "category": "course",
             "note": "",
             "author": "",
@@ -46,18 +46,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.hopperapp.com/",
-                    "text": "hopper disassembler",
+                    "text": "Hopper disassembler",
                     "note": "",
                     "author": "",
                     "score": {
@@ -67,7 +67,7 @@
                   },
                   {
                     "url": "http://www.backerstreet.com/rec/rec.htm",
-                    "text": "REC Studio ",
+                    "text": "REC Studio",
                     "note": "",
                     "author": "",
                     "score": {
@@ -77,7 +77,7 @@
                   },
                   {
                     "url": "https://hachoir3.readthedocs.io/",
-                    "text": "hachoir",
+                    "text": "Hachoir",
                     "note": "",
                     "author": "",
                     "score": {
@@ -92,7 +92,7 @@
             "resources": [
               {
                 "url": "https://lowlevelbits.org/reverse-engineering-stickies.app/",
-                "text": "reverse engineering stickies.app  ️",
+                "text": "Reverse engineering stickies.app  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -103,25 +103,27 @@
               },
               {
                 "url": "https://hackernoon.com/reverse-engineering-visual-novels-101-d0bc3bf7ab8",
-                "text": "16: reverse engineering visual novels 101  ️",
+                "text": "Reverse engineering visual novels 101  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://ryiron.wordpress.com/2017/02/01/finding-the-lost-vikings-reversing-a-virtual-machine/",
-                "text": "17: finding the lost vikings – reversing a virtual machine  ️",
+                "text": "Finding the lost vikings – reversing a virtual machine  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -146,7 +148,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/ReverseEngineering/",
-        "text": "",
+        "text": "/r/ReverseEngineering",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -168,7 +170,7 @@
       },
       {
         "url": "https://github.com/wtsxDev/reverse-engineering",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -179,7 +181,7 @@
       },
       {
         "url": "https://www.google.nl/search?q=reverse+engineering&amp;hl=en&amp;safe=off&amp;gws_rd=cr&amp;ei=Hn38WMCLAZDPwQLN5qfgAw",
-        "text": "reverse engineering",
+        "text": "Reverse engineering",
         "category": "wiki",
         "note": "",
         "author": "",

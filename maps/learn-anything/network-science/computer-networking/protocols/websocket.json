@@ -6,15 +6,15 @@
     "text": "WebSocket",
     "nodes": [
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [
           {
-            "text": "implementation",
+            "text": "Implementation",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/uWebSockets/uWebSockets",
-                "text": "tiny WebSockets",
+                "text": "Tiny WebSockets",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -43,12 +43,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://tools.ietf.org/html/rfc6455",
-            "text": "1. proposed standard",
+            "text": "Proposed standard",
             "note": "",
             "author": "",
             "score": {

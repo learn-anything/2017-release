@@ -3,14 +3,14 @@
   "tag": "ruby programming language",
   "id": 1649,
   "map": {
-    "text": "ruby",
+    "text": "Ruby",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "package manager",
+            "text": "Package manager",
             "nodes": [
               {
                 "text": "RubyGems",
@@ -33,7 +33,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Package_manager",
-                "text": "package manager",
+                "text": "Package manager",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -46,7 +46,7 @@
             "author": ""
           },
           {
-            "text": "testing",
+            "text": "Testing",
             "nodes": [
               {
                 "text": "RSpec",
@@ -66,12 +66,12 @@
                 "author": ""
               },
               {
-                "text": "minitest",
+                "text": "Minitest",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://rubygems.org/gems/minitest/versions/5.8.4",
-                    "text": "minitest",
+                    "text": "Minitest",
                     "note": "",
                     "author": "",
                     "score": {
@@ -86,7 +86,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Software_testing",
-                "text": "testing",
+                "text": "Testing",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -99,7 +99,7 @@
             "author": ""
           },
           {
-            "text": "debugging",
+            "text": "Debugging",
             "nodes": [
               {
                 "text": "Byebug",
@@ -122,7 +122,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Debugging",
-                "text": "debugging",
+                "text": "Debugging",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -135,15 +135,15 @@
             "author": ""
           },
           {
-            "text": "web frameworks",
+            "text": "Web frameworks",
             "nodes": [
               {
-                "text": "padrino",
+                "text": "Padrino",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://padrinorb.com/",
-                    "text": "padrino",
+                    "text": "Padrino",
                     "note": "",
                     "author": "",
                     "score": {
@@ -155,12 +155,12 @@
                 "author": ""
               },
               {
-                "text": "sinatra",
+                "text": "Sinatra",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/sinatra/sinatra",
-                    "text": "sinatra",
+                    "text": "Sinatra",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -173,12 +173,12 @@
                 "author": ""
               },
               {
-                "text": "ruby on rails  ️",
+                "text": "Ruby on rails  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-languages/ruby/ruby-on-rails",
-                    "text": "ruby on rails  ️",
+                    "text": "Ruby on rails  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -191,12 +191,12 @@
                 "author": ""
               },
               {
-                "text": "hanami  ️",
+                "text": "Hanami  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-languages/ruby-/hanami",
-                    "text": "hanami  ️",
+                    "text": "Hanami  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -212,7 +212,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Web_framework",
-                "text": "web frameworks",
+                "text": "Web frameworks",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -228,7 +228,7 @@
         "resources": [
           {
             "url": "http://tryruby.org/levels/1/challenges/0",
-            "text": "1. try ruby",
+            "text": "Try ruby",
             "note": "",
             "author": "",
             "score": {
@@ -238,7 +238,7 @@
           },
           {
             "url": "https://pine.fm/LearnToProgram/chap_00.html",
-            "text": "1. learn to program",
+            "text": "Learn to program",
             "category": "free book",
             "note": "",
             "author": "",
@@ -249,7 +249,7 @@
           },
           {
             "url": "http://rubykoans.com/",
-            "text": "2. ruby koans",
+            "text": "Ruby koans",
             "note": "",
             "author": "",
             "score": {
@@ -259,7 +259,7 @@
           },
           {
             "url": "https://rubymonk.com/",
-            "text": "2. ruby monk",
+            "text": "Ruby monk",
             "note": "",
             "author": "",
             "score": {
@@ -271,18 +271,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "newsletters",
+                "text": "Newsletters",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://rubyweekly.com/",
-                    "text": "ruby weekly",
+                    "text": "Ruby weekly",
                     "category": "newsletter",
                     "note": "",
                     "author": "",
@@ -309,7 +309,7 @@
             "resources": [
               {
                 "url": "https://accidentallyquadratic.tumblr.com/post/157496054437/ruby-reject",
-                "text": "ruby ‘reject!’  ️",
+                "text": "Ruby ‘reject!’  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -325,7 +325,7 @@
         "resources": [
           {
             "url": "https://github.com/airbnb/ruby",
-            "text": "airbnb ruby style guide",
+            "text": "Airbnb ruby style guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -336,7 +336,7 @@
           },
           {
             "url": "https://github.com/bbatsov/ruby-style-guide",
-            "text": "community ruby style guide",
+            "text": "Community ruby style guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -347,7 +347,7 @@
           },
           {
             "url": "https://ruby.libhunt.com/",
-            "text": "awesome ruby",
+            "text": "Awesome ruby",
             "note": "",
             "author": "",
             "score": {
@@ -357,7 +357,7 @@
           },
           {
             "url": "https://github.com/planetruby/awesome-events",
-            "text": "awesome ruby events",
+            "text": "Awesome ruby events",
             "category": "github",
             "note": "",
             "author": "",
@@ -373,7 +373,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/ruby/",
-        "text": "",
+        "text": "/r/ruby",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -384,7 +384,7 @@
       },
       {
         "url": "https://github.com/ruby/ruby",
-        "text": "",
+        "text": "Ruby/ruby",
         "category": "github",
         "note": "",
         "author": "",
@@ -395,7 +395,7 @@
       },
       {
         "url": "https://github.com/trending/ruby",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -406,7 +406,7 @@
       },
       {
         "url": "https://github.com/Froren?page=6&amp;tab=stars",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -417,7 +417,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Ruby_(programming_language)",
-        "text": "ruby",
+        "text": "Ruby",
         "category": "wiki",
         "note": "",
         "author": "",

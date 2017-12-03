@@ -3,19 +3,19 @@
   "tag": "",
   "id": 1297,
   "map": {
-    "text": "linux",
+    "text": "Linux",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "distributions  ️",
+            "text": "Distributions  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/linux/distributions",
-                "text": "distributions  ️",
+                "text": "Distributions  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "containers  ️",
+            "text": "Containers  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/linux/containers",
-                "text": "containers  ️",
+                "text": "Containers  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -64,12 +64,12 @@
             "author": ""
           },
           {
-            "text": "systemd  ️",
+            "text": "Systemd  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/linux/systemd",
-                "text": "systemd  ️",
+                "text": "Systemd  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -82,12 +82,12 @@
             "author": ""
           },
           {
-            "text": "iptables  ️",
+            "text": "Iptables  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/linux/iptables",
-                "text": "iptables  ️",
+                "text": "Iptables  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -103,7 +103,7 @@
         "resources": [
           {
             "url": "https://consolia-comic.com/comics/kernel",
-            "text": "1. kernel explained",
+            "text": "Kernel explained",
             "note": "",
             "author": "",
             "score": {
@@ -113,7 +113,7 @@
           },
           {
             "url": "https://linuxacademy.com/",
-            "text": "1. linux academy",
+            "text": "Linux academy",
             "note": "",
             "author": "",
             "score": {
@@ -123,7 +123,7 @@
           },
           {
             "url": "https://0xax.gitbooks.io/linux-insides/content/index.html",
-            "text": "2. linux insides",
+            "text": "Linux insides",
             "note": "",
             "author": "",
             "score": {
@@ -133,7 +133,7 @@
           },
           {
             "url": "https://linuxjourney.com/",
-            "text": "2. linux journey",
+            "text": "Linux journey",
             "note": "",
             "author": "",
             "score": {
@@ -143,7 +143,7 @@
           },
           {
             "url": "https://github.com/MichielDerhaeg/build-linux",
-            "text": "2. build yourself a linux",
+            "text": "Build yourself a linux",
             "category": "github",
             "note": "",
             "author": "",
@@ -156,36 +156,38 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=WVTWCPoUt8w&amp;feature=youtu.be&amp;t=19m57s",
-                    "text": "01: the origins of linux—Linus Torvalds",
+                    "text": "The origins of linux—Linus Torvalds",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "01"
                   },
                   {
                     "url": "https://www.youtube.com/watch?v=Efi9wa4Fwds",
-                    "text": "17: conversation with Linus Torvalds",
+                    "text": "Conversation with Linus Torvalds",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -194,14 +196,15 @@
             "resources": [
               {
                 "url": "https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/",
-                "text": "16: monitoring and tuning the linux networking stack: receiving data  ️",
+                "text": "Monitoring and tuning the linux networking stack: receiving data  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               }
             ],
             "author": ""
@@ -210,7 +213,7 @@
         "resources": [
           {
             "url": "http://linoxide.com/guide/linux-command-shelf.html",
-            "text": "linux commands in structured order",
+            "text": "Linux commands in structured order",
             "note": "",
             "author": "",
             "score": {
@@ -220,7 +223,7 @@
           },
           {
             "url": "https://linux.zeef.com/paul.reiber",
-            "text": "linux resources",
+            "text": "Linux resources",
             "note": "",
             "author": "",
             "score": {
@@ -230,7 +233,7 @@
           },
           {
             "url": "https://kernelnewbies.org/",
-            "text": "linux kernel newbies",
+            "text": "Linux kernel newbies",
             "note": "",
             "author": "",
             "score": {
@@ -240,7 +243,7 @@
           },
           {
             "url": "https://github.com/cirosantilli/linux-cheat",
-            "text": "linux cheatsheets",
+            "text": "Linux cheatsheets",
             "category": "github",
             "note": "",
             "author": "",
@@ -251,7 +254,7 @@
           },
           {
             "url": "http://www.linfo.org/",
-            "text": "linux information project",
+            "text": "Linux information project",
             "note": "",
             "author": "",
             "score": {
@@ -261,7 +264,7 @@
           },
           {
             "url": "http://www.linuxfromscratch.org/",
-            "text": "linux from scratch",
+            "text": "Linux from scratch",
             "note": "",
             "author": "",
             "score": {
@@ -271,7 +274,7 @@
           },
           {
             "url": "https://github.com/xairy/linux-kernel-exploitation",
-            "text": "linux kernel exploitation",
+            "text": "Linux kernel exploitation",
             "category": "github",
             "note": "",
             "author": "",
@@ -287,7 +290,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/linux/",
-        "text": "",
+        "text": "/r/linux",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -309,7 +312,7 @@
       },
       {
         "url": "https://github.com/torvalds/linux",
-        "text": "",
+        "text": "Torvalds/linux",
         "category": "github",
         "note": "",
         "author": "",
@@ -320,7 +323,7 @@
       },
       {
         "url": "https://github.com/aleksandar-todorovic/awesome-linux",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -331,7 +334,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Linux",
-        "text": "linux",
+        "text": "Linux",
         "category": "wiki",
         "note": "",
         "author": "",

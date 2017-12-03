@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1716,
   "map": {
-    "text": "docker swarm",
+    "text": "Docker swarm",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://docs.docker.com/engine/swarm/",
-            "text": "1. overview",
+            "text": "Overview",
             "note": "",
             "author": "",
             "score": {
@@ -21,7 +21,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=KC4Ad1DS8xU",
-            "text": "1. docker swarm mode walkthrough",
+            "text": "Docker swarm mode walkthrough",
             "category": "video",
             "note": "",
             "author": "",
@@ -37,7 +37,7 @@
     "resources": [
       {
         "url": "https://github.com/docker/swarm",
-        "text": "docker swarm",
+        "text": "Docker swarm",
         "category": "github",
         "note": "",
         "author": "",

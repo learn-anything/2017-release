@@ -3,16 +3,16 @@
   "tag": "emacs text editor",
   "id": 1817,
   "map": {
-    "text": "emacs",
+    "text": "Emacs",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://ergoemacs.org/emacs/emacs.html",
-            "text": "1. practical emacs tutorial",
+            "text": "Practical emacs tutorial",
             "category": "free book",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "https://learnxinyminutes.com/docs/elisp/",
-            "text": "1. learn elisp in in Y minutes",
+            "text": "Learn elisp in in Y minutes",
             "note": "",
             "author": "",
             "score": {
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://www.gnu.org/software/emacs/manual/eintr.html",
-            "text": "1. introduction to programming in emacs lisp",
+            "text": "Introduction to programming in emacs lisp",
             "note": "",
             "author": "",
             "score": {
@@ -43,7 +43,7 @@
           },
           {
             "url": "https://www.gnu.org/software/emacs/manual/elisp.html",
-            "text": "1. emacs lisp reference manual",
+            "text": "Emacs lisp reference manual",
             "note": "",
             "author": "",
             "score": {
@@ -55,21 +55,21 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "videos",
+            "text": "Videos",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/Wilfred/remacs",
-                        "text": "remacs",
+                        "text": "Remacs",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -85,7 +85,7 @@
                 "resources": [
                   {
                     "url": "https://github.com/Quasilyte/goism",
-                    "text": "hack emacs in Go",
+                    "text": "Hack emacs in Go",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -101,7 +101,7 @@
             "resources": [
               {
                 "url": "http://emacsrocks.com/e13.html",
-                "text": "emacs multiple cursors",
+                "text": "Emacs multiple cursors",
                 "category": "video",
                 "note": "",
                 "author": "",
@@ -117,14 +117,15 @@
         "resources": [
           {
             "url": "http://sachachua.com/blog/2015/02/getting-started-emacs-empty-cup/",
-            "text": "15: getting started with emacs? empty your cup  ️",
+            "text": "Getting started with emacs? empty your cup  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -133,7 +134,7 @@
     "resources": [
       {
         "url": "https://github.com/emacs-tw/awesome-emacs",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -144,7 +145,7 @@
       },
       {
         "url": "https://www.gnu.org/software/emacs/",
-        "text": "emacs",
+        "text": "Emacs",
         "note": "",
         "author": "",
         "score": {

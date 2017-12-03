@@ -3,16 +3,16 @@
   "tag": "cycle.js library",
   "id": 1888,
   "map": {
-    "text": "cycle.js",
+    "text": "Cycle.js",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://cycle.js.org/getting-started.html",
-            "text": "1. getting started",
+            "text": "Getting started",
             "note": "",
             "author": "",
             "score": {
@@ -24,30 +24,32 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.sitepoint.com/switching-from-react-to-cycle-js/",
-            "text": "17: why i’m switching from react to cycle.js  ️",
+            "text": "Why i’m switching from react to cycle.js  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           },
           {
             "url": "https://medium.com/open-collective/cycle-js-a-unified-theory-of-everything-for-javascript-e266ac9a59ad",
-            "text": "17: a unified theory of everything for javascript  ️",
+            "text": "A unified theory of everything for javascript  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -56,7 +58,7 @@
     "resources": [
       {
         "url": "https://github.com/cyclejs-community/awesome-cyclejs",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -67,7 +69,7 @@
       },
       {
         "url": "https://github.com/cyclejs/cyclejs",
-        "text": "cycle.js",
+        "text": "Cycle.js",
         "category": "github",
         "note": "",
         "author": "",

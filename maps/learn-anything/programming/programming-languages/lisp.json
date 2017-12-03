@@ -3,25 +3,26 @@
   "tag": "lisp programming language",
   "id": 1621,
   "map": {
-    "text": "lisp",
+    "text": "Lisp",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://beautifulracket.com/appendix/why-racket-why-lisp.html",
-                "text": "14: why racket, why lisp?  ️",
+                "text": "Why racket, why lisp?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "http://www.greghendershott.com/fear-of-macros/index.html",
-            "text": "fear of macros  ️",
+            "text": "Fear of macros  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -43,13 +44,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.buildyourownlisp.com/chapter1_introduction",
-            "text": "1. build your own lisp",
+            "text": "Build your own lisp",
             "category": "free book",
             "note": "",
             "author": "",
@@ -60,7 +61,7 @@
           },
           {
             "url": "http://cs.gmu.edu/~sean/lisp/LispTutorial.html",
-            "text": "1. lisp quickstart",
+            "text": "Lisp quickstart",
             "category": "free book",
             "note": "",
             "author": "",
@@ -71,7 +72,7 @@
           },
           {
             "url": "http://ep.yimg.com/ty/cdn/paulgraham/onlisp.pdf",
-            "text": "1. on lisp",
+            "text": "On lisp",
             "category": "free book",
             "note": "",
             "author": "",
@@ -82,7 +83,7 @@
           },
           {
             "url": "https://letoverlambda.com/index.cl/toc",
-            "text": "1. let over lambda - 50 years of lisp",
+            "text": "Let over lambda - 50 years of lisp",
             "category": "free book",
             "note": "",
             "author": "",
@@ -93,7 +94,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/1168500.Lisp_in_Small_Pieces",
-            "text": "1. lisp in small pieces",
+            "text": "Lisp in small pieces",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -109,7 +110,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/lisp/",
-        "text": "",
+        "text": "/r/lisp",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -120,7 +121,7 @@
       },
       {
         "url": "https://github.com/trending/common-lisp",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -131,7 +132,7 @@
       },
       {
         "url": "https://github.com/CodyReichert/awesome-cl",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -142,7 +143,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Lisp_(programming_language)",
-        "text": "lisp",
+        "text": "Lisp",
         "category": "wiki",
         "note": "",
         "author": "",

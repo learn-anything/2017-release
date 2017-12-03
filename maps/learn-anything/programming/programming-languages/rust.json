@@ -3,16 +3,16 @@
   "tag": "rust programming language",
   "id": 1650,
   "map": {
-    "text": "rust",
+    "text": "Rust",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://doc.rust-lang.org/book/",
-            "text": "1. the rust programming language",
+            "text": "The rust programming language",
             "category": "free book",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "https://github.com/stevedonovan/gentle-intro",
-            "text": "1. gentle rust tutorial",
+            "text": "Gentle rust tutorial",
             "note": "",
             "author": "",
             "score": {
@@ -35,44 +35,47 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://thesquareplanet.com/blog/the-path-to-rust/",
-                "text": "16: the path to rust  ️",
+                "text": "The path to rust  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://michaelfairley.com/blog/i-made-a-game-in-rust/",
-                "text": "17: I made a game in rust  ️",
+                "text": "I made a game in rust  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://blog.rust-lang.org/2017/03/02/lang-ergonomics.html",
-                "text": "17: rust's language ergonomics initiative  ️",
+                "text": "Rust's language ergonomics initiative  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -81,7 +84,7 @@
         "resources": [
           {
             "url": "http://words.steveklabnik.com/a-new-introduction-to-rust",
-            "text": "alternative introduction to rust  ️",
+            "text": "Alternative introduction to rust  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -92,7 +95,7 @@
           },
           {
             "url": "https://brson.github.io/rust-cookbook/basics.html",
-            "text": "rust cookbook",
+            "text": "Rust cookbook",
             "note": "",
             "author": "",
             "score": {
@@ -102,7 +105,7 @@
           },
           {
             "url": "http://www.newrustacean.com/",
-            "text": "new rustacean",
+            "text": "New rustacean",
             "category": "podcast",
             "note": "",
             "author": "",
@@ -113,7 +116,7 @@
           },
           {
             "url": "https://github.com/EbTech/rust-algorithms",
-            "text": "rust algorithms",
+            "text": "Rust algorithms",
             "category": "github",
             "note": "",
             "author": "",
@@ -129,7 +132,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/rust/",
-        "text": "",
+        "text": "/r/rust",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -139,19 +142,8 @@
         }
       },
       {
-        "url": "https://twitter.com/rustlang?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-        "text": "",
-        "category": "",
-        "note": "",
-        "author": "",
-        "score": {
-          "up": 0,
-          "down": 0
-        }
-      },
-      {
         "url": "https://github.com/rust-lang/rust",
-        "text": "",
+        "text": "Rust-lang/rust",
         "category": "github",
         "note": "",
         "author": "",
@@ -162,7 +154,7 @@
       },
       {
         "url": "https://github.com/kud1ing/awesome-rust",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -173,7 +165,7 @@
       },
       {
         "url": "https://github.com/trending/rust",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -184,7 +176,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Rust_(programming_language)",
-        "text": "rust",
+        "text": "Rust",
         "category": "wiki",
         "note": "",
         "author": "",

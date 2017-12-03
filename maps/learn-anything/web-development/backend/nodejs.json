@@ -3,22 +3,22 @@
   "tag": "node.js",
   "id": 1855,
   "map": {
-    "text": "node.js",
+    "text": "Node.js",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "package manager",
+            "text": "Package manager",
             "nodes": [
               {
-                "text": "npm  ️",
+                "text": "Npm  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-languages/javascript/npm",
-                    "text": "npm  ️",
+                    "text": "Npm  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -31,12 +31,12 @@
                 "author": ""
               },
               {
-                "text": "yarn",
+                "text": "Yarn",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/yarnpkg/yarn",
-                    "text": "yarn",
+                    "text": "Yarn",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -52,7 +52,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Package_manager",
-                "text": "package manager",
+                "text": "Package manager",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -65,15 +65,15 @@
             "author": ""
           },
           {
-            "text": "web frameworks",
+            "text": "Web frameworks",
             "nodes": [
               {
-                "text": "sails.js",
+                "text": "Sails.js",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/balderdashy/sails",
-                    "text": "sails.js",
+                    "text": "Sails.js",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -86,12 +86,12 @@
                 "author": ""
               },
               {
-                "text": "koa",
+                "text": "Koa",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/koajs/koa",
-                    "text": "koa",
+                    "text": "Koa",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -104,12 +104,12 @@
                 "author": ""
               },
               {
-                "text": "hapi",
+                "text": "Hapi",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/hapijs/hapi",
-                    "text": "hapi",
+                    "text": "Hapi",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -122,12 +122,12 @@
                 "author": ""
               },
               {
-                "text": "express  ️",
+                "text": "Express  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/web-development/javascript-libraries/express",
-                    "text": "express  ️",
+                    "text": "Express  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -143,7 +143,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Web_framework",
-                "text": "web frameworks",
+                "text": "Web frameworks",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -156,15 +156,15 @@
             "author": ""
           },
           {
-            "text": "testing",
+            "text": "Testing",
             "nodes": [
               {
-                "text": "chai",
+                "text": "Chai",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/chaijs/chai",
-                    "text": "chai",
+                    "text": "Chai",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -177,12 +177,12 @@
                 "author": ""
               },
               {
-                "text": "jasmine",
+                "text": "Jasmine",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/jasmine/jasmine",
-                    "text": "jasmine",
+                    "text": "Jasmine",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -195,12 +195,12 @@
                 "author": ""
               },
               {
-                "text": "jest  ️",
+                "text": "Jest  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/web-development/javascript-libraries/jest",
-                    "text": "jest  ️",
+                    "text": "Jest  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -216,7 +216,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Software_testing",
-                "text": "testing",
+                "text": "Testing",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -232,7 +232,7 @@
         "resources": [
           {
             "url": "https://nodeschool.io/",
-            "text": "1. node school",
+            "text": "Node school",
             "note": "",
             "author": "",
             "score": {
@@ -242,7 +242,7 @@
           },
           {
             "url": "http://thenodeway.io/",
-            "text": "1. the node way",
+            "text": "The node way",
             "note": "",
             "author": "",
             "score": {
@@ -252,7 +252,7 @@
           },
           {
             "url": "https://github.com/azat-co/practicalnode",
-            "text": "1. practical node",
+            "text": "Practical node",
             "category": "github",
             "note": "",
             "author": "",
@@ -263,7 +263,7 @@
           },
           {
             "url": "http://chimera.labs.oreilly.com/books/1234000001808/index.html",
-            "text": "1. node: up and running",
+            "text": "Node: up and running",
             "category": "free book",
             "note": "",
             "author": "",
@@ -276,18 +276,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/tmpvar/jsdom",
-                    "text": "jsdom",
+                    "text": "Jsdom",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -303,7 +303,7 @@
             "resources": [
               {
                 "url": "http://callbackhell.com/",
-                "text": "callback hell  ️",
+                "text": "Callback hell  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -314,7 +314,7 @@
               },
               {
                 "url": "https://github.com/substack/blog/blob/master/node_aesthetic.markdown",
-                "text": "node aesthetic  ️",
+                "text": "Node aesthetic  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -325,7 +325,7 @@
               },
               {
                 "url": "http://mafintosh.com/pragmatic-modularity.html",
-                "text": "pragmatic modularity  ️",
+                "text": "Pragmatic modularity  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -341,7 +341,7 @@
         "resources": [
           {
             "url": "https://nodejs.org/api/documentation.html",
-            "text": "docs",
+            "text": "Docs",
             "note": "",
             "author": "",
             "score": {
@@ -351,7 +351,7 @@
           },
           {
             "url": "https://github.com/maxogden/art-of-node",
-            "text": "art of node",
+            "text": "Art of node",
             "category": "github",
             "note": "",
             "author": "",
@@ -362,7 +362,7 @@
           },
           {
             "url": "https://github.com/sergtitov/NodeJS-Learning",
-            "text": "node.js learning",
+            "text": "Node.js learning",
             "category": "github",
             "note": "",
             "author": "",
@@ -373,7 +373,7 @@
           },
           {
             "url": "https://github.com/substack/stream-handbook",
-            "text": "stream handbook",
+            "text": "Stream handbook",
             "category": "github",
             "note": "",
             "author": "",
@@ -384,7 +384,7 @@
           },
           {
             "url": "https://github.com/yoshuawuyts/tiny-guide-to-non-fancy-node",
-            "text": "tiny guide to non fancy node",
+            "text": "Tiny guide to non fancy node",
             "category": "github",
             "note": "",
             "author": "",
@@ -395,7 +395,7 @@
           },
           {
             "url": "https://github.com/workshopper/learnyounode",
-            "text": "learn node.js from self-guided workshops",
+            "text": "Learn node.js from self-guided workshops",
             "category": "github",
             "note": "",
             "author": "",
@@ -406,7 +406,7 @@
           },
           {
             "url": "http://tinyclouds.org/jsconf.pdf",
-            "text": "node.js original slide deck",
+            "text": "Node.js original slide deck",
             "note": "",
             "author": "",
             "score": {
@@ -421,7 +421,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/node/",
-        "text": "",
+        "text": "/r/node",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -432,7 +432,7 @@
       },
       {
         "url": "https://github.com/nodejs/node",
-        "text": "",
+        "text": "Nodejs/node",
         "category": "github",
         "note": "",
         "author": "",
@@ -443,7 +443,7 @@
       },
       {
         "url": "https://www.youtube.com/watch?v=w-7RQ46RgxU&amp;list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -454,7 +454,7 @@
       },
       {
         "url": "https://nodejs.org/en/",
-        "text": "node.js",
+        "text": "Node.js",
         "note": "",
         "author": "",
         "score": {

@@ -3,14 +3,14 @@
   "tag": "c++ programming language",
   "id": 1749,
   "map": {
-    "text": "c++",
+    "text": "C++",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "cross platform frameworks",
+            "text": "Cross platform frameworks",
             "nodes": [
               {
                 "text": "Qt  ️",
@@ -38,7 +38,7 @@
         "resources": [
           {
             "url": "http://www.learncpp.com/",
-            "text": "1. learn c++",
+            "text": "Learn c++",
             "note": "",
             "author": "",
             "score": {
@@ -48,7 +48,7 @@
           },
           {
             "url": "https://arobenko.gitbooks.io/bare_metal_cpp/content/",
-            "text": "2. practical guide to bare metal c++",
+            "text": "Practical guide to bare metal c++",
             "category": "free book",
             "note": "",
             "author": "",
@@ -59,7 +59,7 @@
           },
           {
             "url": "https://www.manning.com/books/c-plus-plus-concurrency-in-action",
-            "text": "2. c++ concurrency in action",
+            "text": "C++ concurrency in action",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -72,21 +72,21 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/facebook/folly",
-                        "text": "folly",
+                        "text": "Folly",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -102,14 +102,15 @@
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=LIb3L4vKZ7U",
-                    "text": "15: Andrei Alexandrescu “std::allocator...”",
+                    "text": "Andrei Alexandrescu “std::allocator...”",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "15"
                   }
                 ],
                 "author": ""
@@ -118,24 +119,26 @@
             "resources": [
               {
                 "url": "https://deque.blog/2017/05/09/lisp-meta-programming-for-c-developers-first-macros/",
-                "text": "17: lisp meta-programming for c++ developers: first macros  ️",
+                "text": "Lisp meta-programming for c++ developers: first macros  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://bitbashing.io/embedded-cpp.html",
-                "text": "17: c++ on embedded systems",
+                "text": "C++ on embedded systems",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -144,7 +147,7 @@
         "resources": [
           {
             "url": "https://github.com/BartoszMilewski/Okasaki",
-            "text": "functional data structures in c++",
+            "text": "Functional data structures in c++",
             "category": "github",
             "note": "",
             "author": "",
@@ -155,7 +158,7 @@
           },
           {
             "url": "https://github.com/utilForever/ModernCpp",
-            "text": "modern c++",
+            "text": "Modern c++",
             "category": "github",
             "note": "",
             "author": "",
@@ -166,7 +169,7 @@
           },
           {
             "url": "http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282",
-            "text": "c++ reading list",
+            "text": "C++ reading list",
             "note": "",
             "author": "",
             "score": {
@@ -176,7 +179,7 @@
           },
           {
             "url": "http://www.cppsamples.com/",
-            "text": "c++ code samples",
+            "text": "C++ code samples",
             "note": "",
             "author": "",
             "score": {
@@ -186,7 +189,7 @@
           },
           {
             "url": "https://github.com/Vitorian/modern-cpp-references",
-            "text": "modern c++ references",
+            "text": "Modern c++ references",
             "category": "github",
             "note": "",
             "author": "",
@@ -197,7 +200,7 @@
           },
           {
             "url": "https://www.ossblog.org/master-c-programming-with-open-source-books/",
-            "text": "open source c++ books  ️",
+            "text": "Open source c++ books  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -213,7 +216,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/cpp/",
-        "text": "",
+        "text": "/r/cpp",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -224,7 +227,7 @@
       },
       {
         "url": "https://github.com/trending/c++",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -235,7 +238,7 @@
       },
       {
         "url": "https://github.com/fffaraz/awesome-cpp",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -246,7 +249,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/C%2B%2B",
-        "text": "c++",
+        "text": "C++",
         "category": "wiki",
         "note": "",
         "author": "",

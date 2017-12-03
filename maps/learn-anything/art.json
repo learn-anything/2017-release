@@ -3,18 +3,18 @@
   "tag": "",
   "id": 67,
   "map": {
-    "text": "art",
+    "text": "Art",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "photography  ️",
+            "text": "Photography  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/photography",
-                "text": "photography  ️",
+                "text": "Photography  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -27,15 +27,15 @@
             "author": ""
           },
           {
-            "text": "filmmaking   ️",
+            "text": "Filmmaking   ️",
             "nodes": [
               {
-                "text": "acting  ️",
+                "text": "Acting  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/art/acting",
-                    "text": "acting  ️",
+                    "text": "Acting  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -51,7 +51,7 @@
             "resources": [
               {
                 "url": "/art/filmmaking",
-                "text": "filmmaking   ️",
+                "text": "Filmmaking   ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -64,15 +64,15 @@
             "author": ""
           },
           {
-            "text": "music  ️",
+            "text": "Music  ️",
             "nodes": [
               {
-                "text": "singing  ️",
+                "text": "Singing  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/art/singing",
-                    "text": "singing  ️",
+                    "text": "Singing  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -88,7 +88,7 @@
             "resources": [
               {
                 "url": "/art/music",
-                "text": "music  ️",
+                "text": "Music  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -101,12 +101,12 @@
             "author": ""
           },
           {
-            "text": "public speaking  ️",
+            "text": "Public speaking  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/public-speaking",
-                "text": "public speaking  ️",
+                "text": "Public speaking  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -119,12 +119,12 @@
             "author": ""
           },
           {
-            "text": "animation  ️",
+            "text": "Animation  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/animation",
-                "text": "animation  ️",
+                "text": "Animation  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -137,12 +137,12 @@
             "author": ""
           },
           {
-            "text": "drawing  ️",
+            "text": "Drawing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/drawing",
-                "text": "drawing  ️",
+                "text": "Drawing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -155,12 +155,12 @@
             "author": ""
           },
           {
-            "text": "creative coding  ️",
+            "text": "Creative coding  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/creative-coding",
-                "text": "creative coding  ️",
+                "text": "Creative coding  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -173,12 +173,12 @@
             "author": ""
           },
           {
-            "text": "generative art  ️",
+            "text": "Generative art  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/generative-art",
-                "text": "generative art  ️",
+                "text": "Generative art  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -191,12 +191,12 @@
             "author": ""
           },
           {
-            "text": "dancing  ️",
+            "text": "Dancing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/dancing",
-                "text": "dancing  ️",
+                "text": "Dancing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -209,25 +209,26 @@
             "author": ""
           },
           {
-            "text": "help",
+            "text": "Help",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [
                   {
-                    "text": "articles",
+                    "text": "Articles",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://eev.ee/blog/2017/03/08/utopia/",
-                        "text": "17: utopia  ️",
+                        "text": "Utopia  ️",
                         "category": "article",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "17"
                       }
                     ],
                     "author": ""
@@ -236,7 +237,7 @@
                 "resources": [
                   {
                     "url": "http://imgur.com/a/3m5wf",
-                    "text": "art album",
+                    "text": "Art album",
                     "category": "image",
                     "note": "",
                     "author": "",
@@ -247,7 +248,7 @@
                   },
                   {
                     "url": "http://sudoscript.com/reddit-place/",
-                    "text": "when pixels collide  ️",
+                    "text": "When pixels collide  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
@@ -263,7 +264,7 @@
             "resources": [
               {
                 "url": "https://www.artstation.com/#",
-                "text": "art station",
+                "text": "Art station",
                 "note": "",
                 "author": "",
                 "score": {
@@ -273,7 +274,7 @@
               },
               {
                 "url": "https://www.wikiart.org/",
-                "text": "wiki art",
+                "text": "Wiki art",
                 "note": "",
                 "author": "",
                 "score": {
@@ -283,7 +284,7 @@
               },
               {
                 "url": "http://www.visual-arts-cork.com/",
-                "text": "art encyclopedia",
+                "text": "Art encyclopedia",
                 "note": "",
                 "author": "",
                 "score": {
@@ -295,12 +296,12 @@
             "author": ""
           },
           {
-            "text": "digital art  ️",
+            "text": "Digital art  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/digital-art",
-                "text": "digital art  ️",
+                "text": "Digital art  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -313,12 +314,12 @@
             "author": ""
           },
           {
-            "text": "comics  ️",
+            "text": "Comics  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/comics",
-                "text": "comics  ️",
+                "text": "Comics  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -331,12 +332,12 @@
             "author": ""
           },
           {
-            "text": "video editing  ️",
+            "text": "Video editing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/video-editing",
-                "text": "video editing  ️",
+                "text": "Video editing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -349,15 +350,15 @@
             "author": ""
           },
           {
-            "text": "writing  ️",
+            "text": "Writing  ️",
             "nodes": [
               {
-                "text": "literature  ️",
+                "text": "Literature  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/art/literature",
-                    "text": "literature  ️",
+                    "text": "Literature  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -373,7 +374,7 @@
             "resources": [
               {
                 "url": "/art/writing",
-                "text": "writing  ️",
+                "text": "Writing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -386,12 +387,12 @@
             "author": ""
           },
           {
-            "text": "martial arts  ️",
+            "text": "Martial arts  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/martial-arts",
-                "text": "martial arts  ️",
+                "text": "Martial arts  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -404,12 +405,12 @@
             "author": ""
           },
           {
-            "text": "world building  ️",
+            "text": "World building  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/world-building",
-                "text": "world building  ️",
+                "text": "World building  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -422,12 +423,12 @@
             "author": ""
           },
           {
-            "text": "anime  ️",
+            "text": "Anime  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/anime",
-                "text": "anime  ️",
+                "text": "Anime  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -440,12 +441,12 @@
             "author": ""
           },
           {
-            "text": "calligraphy  ️",
+            "text": "Calligraphy  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/calligraphy",
-                "text": "calligraphy  ️",
+                "text": "Calligraphy  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -458,12 +459,12 @@
             "author": ""
           },
           {
-            "text": "comedy  ️",
+            "text": "Comedy  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/comedy",
-                "text": "comedy  ️",
+                "text": "Comedy  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -476,12 +477,12 @@
             "author": ""
           },
           {
-            "text": "fashion  ️",
+            "text": "Fashion  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/fashion",
-                "text": "fashion  ️",
+                "text": "Fashion  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -494,12 +495,12 @@
             "author": ""
           },
           {
-            "text": "live coding  ️",
+            "text": "Live coding  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/live-coding",
-                "text": "live coding  ️",
+                "text": "Live coding  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -512,12 +513,12 @@
             "author": ""
           },
           {
-            "text": "origami  ️",
+            "text": "Origami  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/origami",
-                "text": "origami  ️",
+                "text": "Origami  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -530,12 +531,12 @@
             "author": ""
           },
           {
-            "text": "illustration  ️",
+            "text": "Illustration  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/illustration",
-                "text": "illustration  ️",
+                "text": "Illustration  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -551,7 +552,7 @@
         "resources": [
           {
             "url": "https://vimeo.com/85040589",
-            "text": "1. the gap",
+            "text": "The gap",
             "category": "video",
             "note": "",
             "author": "",
@@ -567,7 +568,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Art/",
-        "text": "",
+        "text": "/r/Art",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -578,7 +579,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Art",
-        "text": "art",
+        "text": "Art",
         "category": "wiki",
         "note": "",
         "author": "",

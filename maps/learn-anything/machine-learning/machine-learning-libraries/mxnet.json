@@ -6,12 +6,12 @@
     "text": "MXNet",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://mxnet.io/how_to/index.html",
-            "text": "1. MXNet how to",
+            "text": "MXNet how to",
             "note": "",
             "author": "",
             "score": {
@@ -21,7 +21,7 @@
           },
           {
             "url": "http://mxnet.io/tutorials/index.html",
-            "text": "1. MXNet tutorials",
+            "text": "MXNet tutorials",
             "note": "",
             "author": "",
             "score": {
@@ -31,7 +31,7 @@
           },
           {
             "url": "https://github.com/dmlc/mxnet-gtc-tutorial",
-            "text": "1. MXNet tutorial for Nvidia GTC",
+            "text": "MXNet tutorial for Nvidia GTC",
             "category": "github",
             "note": "",
             "author": "",
@@ -44,18 +44,19 @@
         "author": ""
       },
       {
-        "text": "talks",
+        "text": "Talks",
         "nodes": [],
         "resources": [
           {
             "url": "",
-            "text": "16: using MXNet for recommendation modeling at scale ",
+            "text": "Using MXNet for recommendation modeling at scale",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""

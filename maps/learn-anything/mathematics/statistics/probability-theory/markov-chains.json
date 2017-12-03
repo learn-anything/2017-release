@@ -3,10 +3,10 @@
   "tag": "",
   "id": 1097,
   "map": {
-    "text": "markov chains",
+    "text": "Markov chains",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -31,7 +31,7 @@
         "resources": [
           {
             "url": "http://setosa.io/ev/markov-chains/",
-            "text": "1. visually explained",
+            "text": "Visually explained",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -42,7 +42,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?list=PLRqwX-V7Uu6ah9Oqs_BFQIbGIn1XynsVT&amp;v=v4kL0OHuxXs",
-            "text": "1. N-Grams and markov chains",
+            "text": "N-Grams and markov chains",
             "category": "video",
             "note": "",
             "author": "",
@@ -55,19 +55,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.blackarbs.com/blog/introduction-hidden-markov-models-python-networkx-sklearn/2/9/2017",
-            "text": "17: introduction to hidden markov models with python networkx and sklearn  ️",
+            "text": "Introduction to hidden markov models with python networkx and sklearn  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -76,7 +77,7 @@
     "resources": [
       {
         "url": "https://github.com/sublimino/awesome-funny-markov",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -87,7 +88,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Markov_chain",
-        "text": "markov chains",
+        "text": "Markov chains",
         "category": "wiki",
         "note": "",
         "author": "",

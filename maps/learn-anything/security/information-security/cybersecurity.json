@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1776,
   "map": {
-    "text": "cybersecurity",
+    "text": "Cybersecurity",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/kristovatlas/how-to-security",
-            "text": "basic advice on computer security",
+            "text": "Basic advice on computer security",
             "category": "github",
             "note": "",
             "author": "",
@@ -24,20 +24,20 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "threats",
+            "text": "Threats",
             "nodes": [
               {
-                "text": "malware  ️",
+                "text": "Malware  ️",
                 "note": "short for malicious software  is a kind of software that can be installed on a computer without approval from the computer’s owner",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/security/information-security/cybersecurity/malware",
-                    "text": "malware  ️",
+                    "text": "Malware  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -50,15 +50,15 @@
                 "author": ""
               },
               {
-                "text": "cyberattacks",
+                "text": "Cyberattacks",
                 "nodes": [
                   {
-                    "text": "distributed denial of service  ️",
+                    "text": "Distributed denial of service  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/security/information-security/cybersecurity/ddos",
-                        "text": "distributed denial of service  ️",
+                        "text": "Distributed denial of service  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -71,12 +71,12 @@
                     "author": ""
                   },
                   {
-                    "text": "man-in-the-middle attack  ️",
+                    "text": "Man-in-the-middle attack  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/security/information-security/cybersecurity/man-in-the-middle-attack",
-                        "text": "man-in-the-middle attack  ️",
+                        "text": "Man-in-the-middle attack  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -92,7 +92,7 @@
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Cyberattack",
-                    "text": "cyberattacks",
+                    "text": "Cyberattacks",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -109,12 +109,12 @@
             "author": ""
           },
           {
-            "text": "fuzz testing  ️",
+            "text": "Fuzz testing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/security/information-security/cybersecurity/fuzz-testing",
-                "text": "fuzz testing  ️",
+                "text": "Fuzz testing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -127,15 +127,15 @@
             "author": ""
           },
           {
-            "text": "exploits",
+            "text": "Exploits",
             "nodes": [
               {
-                "text": "buffer overflow  ️",
+                "text": "Buffer overflow  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/security/information-security/cybersecurity/buffer-overflow",
-                    "text": "buffer overflow  ️",
+                    "text": "Buffer overflow  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -151,7 +151,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Exploit_(computer_security)",
-                "text": "exploits",
+                "text": "Exploits",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -164,12 +164,12 @@
             "author": ""
           },
           {
-            "text": "social engineering  ️",
+            "text": "Social engineering  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/security/information-security/cybersecurity/social-engineering",
-                "text": "social engineering  ️",
+                "text": "Social engineering  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -185,7 +185,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=sdpxddDzXfE",
-            "text": "1. cybersecurity 101",
+            "text": "Cybersecurity 101",
             "category": "video",
             "note": "",
             "author": "",
@@ -201,7 +201,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/cybersecurity/",
-        "text": "",
+        "text": "/r/cybersecurity",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -212,7 +212,7 @@
       },
       {
         "url": "https://github.com/Annsec/awesome-cybersecurity",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -223,7 +223,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Computer_security",
-        "text": "cybersecurity",
+        "text": "Cybersecurity",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,15 +3,15 @@
   "tag": "",
   "id": 363,
   "map": {
-    "text": "bitcoin",
+    "text": "Bitcoin",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://realtimebitcoin.info/",
-            "text": "real time bitcoin",
+            "text": "Real time bitcoin",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -22,18 +22,19 @@
           },
           {
             "url": "https://medium.com/zapchain-magazine/the-best-resources-for-learning-to-build-bitcoin-and-block-chain-applications-8de1953506f5",
-            "text": "14: best resources for learning to build bitcoin and block chain applications  ️",
+            "text": "Best resources for learning to build bitcoin and block chain applications  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "14"
           },
           {
             "url": "https://bitcointalk.org/index.php",
-            "text": "bitcoin forum",
+            "text": "Bitcoin forum",
             "note": "",
             "author": "",
             "score": {
@@ -53,7 +54,7 @@
           },
           {
             "url": "https://www.reddit.com/r/cscareerquestions/comments/6hmlxr/what_are_the_most_indemand_software_skills_right/dizweb1/",
-            "text": "notes on bitcoin",
+            "text": "Notes on bitcoin",
             "category": "reddit",
             "note": "",
             "author": "",
@@ -66,7 +67,7 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
@@ -83,7 +84,7 @@
           },
           {
             "url": "https://bitcoin.org/bitcoin.pdf",
-            "text": "1. bitcoin: a peer-to-peer electronic cash system",
+            "text": "Bitcoin: a peer-to-peer electronic cash system",
             "category": "paper",
             "note": "",
             "author": "",
@@ -94,7 +95,7 @@
           },
           {
             "url": "https://github.com/bitcoinbook/bitcoinbook",
-            "text": "1. mastering bitcoin",
+            "text": "Mastering bitcoin",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -105,7 +106,7 @@
           },
           {
             "url": "http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/",
-            "text": "1. how the bitcoin protocol actually works  ️",
+            "text": "How the bitcoin protocol actually works  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -116,7 +117,7 @@
           },
           {
             "url": "",
-            "text": "1. bitcoin explained with emojis",
+            "text": "Bitcoin explained with emojis",
             "note": "",
             "author": "",
             "score": {
@@ -131,7 +132,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/btc/",
-        "text": "",
+        "text": "/r/btc",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -153,7 +154,7 @@
       },
       {
         "url": "https://github.com/igorbarinov/awesome-bitcoin",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -164,7 +165,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Bitcoin",
-        "text": "bitcoin",
+        "text": "Bitcoin",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,16 +3,16 @@
   "tag": "scala programming language",
   "id": 1651,
   "map": {
-    "text": "scala",
+    "text": "Scala",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.coursera.org/learn/progfun1",
-            "text": "1. functional programming principles in scala",
+            "text": "Functional programming principles in scala",
             "category": "course",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "http://underscore.io/training/courses/creative-scala/",
-            "text": "1. creative scala",
+            "text": "Creative scala",
             "category": "free book",
             "note": "",
             "author": "",
@@ -36,33 +36,35 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.lihaoyi.com/post/StrategicScalaStyleConcisenessNames.html",
-                "text": "16: strategic scala style: conciseness &amp; names  ️",
+                "text": "Strategic scala style: conciseness &amp; names  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://pedrorijo.com/blog/scala-interview-questions/",
-                "text": "17: scala interview questions  ️",
+                "text": "Scala interview questions  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -71,7 +73,7 @@
         "resources": [
           {
             "url": "http://ktoso.github.io/scala-types-of-types/",
-            "text": "scala’s types of types  ️",
+            "text": "Scala’s types of types  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -82,7 +84,7 @@
           },
           {
             "url": "https://github.com/search?q=topic%3Abook+org%3Aunderscoreio&amp;type=Repositories",
-            "text": "free scala books",
+            "text": "Free scala books",
             "category": "github",
             "note": "",
             "author": "",
@@ -98,7 +100,7 @@
     "resources": [
       {
         "url": "https://github.com/scala/scala",
-        "text": "",
+        "text": "Scala/scala",
         "category": "github",
         "note": "",
         "author": "",
@@ -109,7 +111,7 @@
       },
       {
         "url": "https://www.reddit.com/r/scala/",
-        "text": "",
+        "text": "/r/scala",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -120,7 +122,7 @@
       },
       {
         "url": "https://github.com/trending/scala",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -131,7 +133,7 @@
       },
       {
         "url": "https://github.com/lauris/awesome-scala",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -142,7 +144,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Scala_(programming_language)",
-        "text": "scala",
+        "text": "Scala",
         "category": "wiki",
         "note": "",
         "author": "",

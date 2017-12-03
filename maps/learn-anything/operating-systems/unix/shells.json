@@ -3,29 +3,30 @@
   "tag": "unix shells",
   "id": 1309,
   "map": {
-    "text": "unix shells",
+    "text": "Unix shells",
     "note": "",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "help",
+            "text": "Help",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.codementor.io/linux/tutorial/configure-linux-toolset-zsh-tmux-vim",
-                    "text": "14: configuring your linux for development with zsh, tmux, and vim  ️",
+                    "text": "Configuring your linux for development with zsh, tmux, and vim  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "14"
                   }
                 ],
                 "author": ""
@@ -34,7 +35,7 @@
             "resources": [
               {
                 "url": "https://github.com/jlevy/the-art-of-command-line",
-                "text": "art of command line",
+                "text": "Art of command line",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -45,7 +46,7 @@
               },
               {
                 "url": "https://github.com/k4m4/terminals-are-sexy",
-                "text": "terminals are sexy",
+                "text": "Terminals are sexy",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -58,12 +59,12 @@
             "author": ""
           },
           {
-            "text": "fish  ️",
+            "text": "Fish  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/shells/fish",
-                "text": "fish  ️",
+                "text": "Fish  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -76,12 +77,12 @@
             "author": ""
           },
           {
-            "text": "bash  ️",
+            "text": "Bash  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/shells/bash",
-                "text": "bash  ️",
+                "text": "Bash  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -94,12 +95,12 @@
             "author": ""
           },
           {
-            "text": "zsh  ️",
+            "text": "Zsh  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/shells/zsh",
-                "text": "zsh  ️",
+                "text": "Zsh  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -112,12 +113,12 @@
             "author": ""
           },
           {
-            "text": "dotfiles  ️",
+            "text": "Dotfiles  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/shells/dotfiles",
-                "text": "dotfiles  ️",
+                "text": "Dotfiles  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -130,12 +131,12 @@
             "author": ""
           },
           {
-            "text": "elvish",
+            "text": "Elvish",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/elves/elvish",
-                "text": "elvish",
+                "text": "Elvish",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -151,7 +152,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=07Q9oqNLXB4",
-            "text": "1. unix terminals and shells",
+            "text": "Unix terminals and shells",
             "category": "video",
             "note": "",
             "author": "",
@@ -162,7 +163,7 @@
           },
           {
             "url": "https://medium.com/@NikitaVoloboev/pretty-and-fast-shell-97ea870f2805",
-            "text": "1. pretty and fast shell  ️",
+            "text": "Pretty and fast shell  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -178,7 +179,7 @@
     "resources": [
       {
         "url": "https://github.com/alebcay/awesome-shell",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -189,7 +190,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Unix_shell",
-        "text": "unix shells",
+        "text": "Unix shells",
         "category": "wiki",
         "note": "",
         "author": "",

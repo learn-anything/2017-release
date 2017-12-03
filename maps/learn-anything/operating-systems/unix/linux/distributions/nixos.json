@@ -3,19 +3,19 @@
   "tag": "nixOS distro",
   "id": 1291,
   "map": {
-    "text": "nixOS",
+    "text": "NixOS",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "nix packages",
+            "text": "Nix packages",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/NixOS/nixpkgs",
-                "text": "nix packages",
+                "text": "Nix packages",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -31,7 +31,7 @@
         "resources": [
           {
             "url": "https://nixos.org/nixos/about.html",
-            "text": "1. about nixOS",
+            "text": "About nixOS",
             "note": "",
             "author": "",
             "score": {
@@ -41,7 +41,7 @@
           },
           {
             "url": "https://chris-martin.org/2015/installing-nixos",
-            "text": "1. installing nixOS  ️",
+            "text": "Installing nixOS  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -54,19 +54,20 @@
         "author": ""
       },
       {
-        "text": "talks",
+        "text": "Talks",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=VivXSoovUFI",
-            "text": "16: introduction to NixOS",
+            "text": "Introduction to NixOS",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
@@ -75,7 +76,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/NixOS/",
-        "text": "",
+        "text": "/r/NixOS",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -86,7 +87,7 @@
       },
       {
         "url": "https://github.com/NixOS",
-        "text": "",
+        "text": "NixOS",
         "category": "github",
         "note": "",
         "author": "",
@@ -97,7 +98,7 @@
       },
       {
         "url": "https://github.com/jhedev/awesome-nix",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -108,7 +109,7 @@
       },
       {
         "url": "https://nixos.org/",
-        "text": "nixOS",
+        "text": "NixOS",
         "note": "",
         "author": "",
         "score": {

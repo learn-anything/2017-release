@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1539,
   "map": {
-    "text": "quantum teleportation",
+    "text": "Quantum teleportation",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://lightlike.com/teleport/teletalk.pdf",
-            "text": "1. introduction",
+            "text": "Introduction",
             "category": "paper",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=_qmSdC7aQpY",
-            "text": "1. explanation",
+            "text": "Explanation",
             "category": "video",
             "note": "",
             "author": "",
@@ -35,19 +35,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/pdf/1504.05904.pdf",
-            "text": "15: quantum communication protocols based on entanglement swapping",
+            "text": "Quantum communication protocols based on entanglement swapping",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -56,7 +57,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Quantum_teleportation",
-        "text": "quantum teleportation",
+        "text": "Quantum teleportation",
         "category": "wiki",
         "note": "",
         "author": "",

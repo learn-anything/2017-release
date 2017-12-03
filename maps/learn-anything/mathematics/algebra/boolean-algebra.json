@@ -3,16 +3,16 @@
   "tag": "boolean logic",
   "id": 836,
   "map": {
-    "text": "boolean algebra",
+    "text": "Boolean algebra",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=gI-qXk7XojA",
-            "text": "1. boolean logic &amp; logic gates",
+            "text": "Boolean logic &amp; logic gates",
             "category": "video",
             "note": "",
             "author": "",
@@ -25,22 +25,23 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "http://dspace.mit.edu/bitstream/handle/1721.1/11173/34541425-MIT.pdf?sequence=2",
-                "text": "1938: symbolic analysis of relay and switching circuits",
+                "text": "Symbolic analysis of relay and switching circuits",
                 "category": "paper",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "1938"
               }
             ],
             "author": ""
@@ -49,7 +50,7 @@
         "resources": [
           {
             "url": "https://hsl.lib.umn.edu/biomed/help/boolean-operators",
-            "text": "boolean operators: cheat sheet",
+            "text": "Boolean operators: cheat sheet",
             "note": "",
             "author": "",
             "score": {
@@ -64,7 +65,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Boolean_algebra",
-        "text": "boolean algebra",
+        "text": "Boolean algebra",
         "category": "wiki",
         "note": "",
         "author": "",

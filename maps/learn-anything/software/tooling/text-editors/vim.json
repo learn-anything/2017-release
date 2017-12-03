@@ -3,21 +3,21 @@
   "tag": "vim text editor",
   "id": 1821,
   "map": {
-    "text": "vim",
+    "text": "Vim",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/liuchengxu/space-vim",
-                    "text": "space vim",
+                    "text": "Space vim",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -33,7 +33,7 @@
             "resources": [
               {
                 "url": "http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/",
-                "text": "vim text objects  ️",
+                "text": "Vim text objects  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -44,7 +44,7 @@
               },
               {
                 "url": "http://whileimautomaton.net/2008/11/vimm3/operator",
-                "text": "operator, the true power of vim  ️",
+                "text": "Operator, the true power of vim  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -55,7 +55,7 @@
               },
               {
                 "url": "http://www.theodo.fr/blog/2017/02/survive-vim-with-these-5-simple-tricks/",
-                "text": "survive vim with these 5 simple tricks  ️",
+                "text": "Survive vim with these 5 simple tricks  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -66,7 +66,7 @@
               },
               {
                 "url": "https://geoff.greer.fm/2015/01/15/why-neovim-is-better-than-vim/",
-                "text": "why neovim is better than vim  ️",
+                "text": "Why neovim is better than vim  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -77,36 +77,39 @@
               },
               {
                 "url": "http://seejohncode.com/2014/01/27/vim-commands-piping/",
-                "text": "14: vim commands and piping  ️",
+                "text": "Vim commands and piping  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "https://bluz71.github.io/2017/05/15/vim-tips-tricks.html",
-                "text": "17: vim tips &amp; tricks  ️",
+                "text": "Vim tips &amp; tricks  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://bluz71.github.io/2017/06/28/current-treats-future-wants-of-neovim.html",
-                "text": "17: current treats &amp; future wants of Neovim  ️",
+                "text": "Current treats &amp; future wants of Neovim  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -115,7 +118,7 @@
         "resources": [
           {
             "url": "http://vimcasts.org/episodes/archive/",
-            "text": "vim casts screencasts",
+            "text": "Vim casts screencasts",
             "category": "video",
             "note": "",
             "author": "",
@@ -126,7 +129,7 @@
           },
           {
             "url": "http://derekwyatt.org/vim/tutorials/novice/",
-            "text": "from novice to professional",
+            "text": "From novice to professional",
             "category": "video",
             "note": "",
             "author": "",
@@ -139,17 +142,17 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "viml  ️",
+            "text": "Viml  ️",
             "note": "the programming language created to extend vim",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/vim/viml",
-                "text": "viml  ️",
+                "text": "Viml  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -162,12 +165,12 @@
             "author": ""
           },
           {
-            "text": "vim plugins  ️",
+            "text": "Vim plugins  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/vim/plugins",
-                "text": "vim plugins  ️",
+                "text": "Vim plugins  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -183,7 +186,7 @@
         "resources": [
           {
             "url": "http://linuxcommand.org/man_pages/vimtutor1.html",
-            "text": "1. complete vimtutor",
+            "text": "Complete vimtutor",
             "note": "",
             "author": "",
             "score": {
@@ -193,7 +196,7 @@
           },
           {
             "url": "https://vim-adventures.com/",
-            "text": "1. vim adventures",
+            "text": "Vim adventures",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -204,7 +207,7 @@
           },
           {
             "url": "http://openvim.com/",
-            "text": "1. interactive vim tutorial",
+            "text": "Interactive vim tutorial",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -215,7 +218,7 @@
           },
           {
             "url": "http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118",
-            "text": "2. you don’t grok vi",
+            "text": "You don’t grok vi",
             "note": "",
             "author": "",
             "score": {
@@ -225,7 +228,7 @@
           },
           {
             "url": "http://stevelosh.com/blog/2010/09/coming-home-to-vim/",
-            "text": "2. coming home to vim  ️",
+            "text": "Coming home to vim  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -236,7 +239,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/13607232-practical-vim",
-            "text": "3. practical vim",
+            "text": "Practical vim",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -252,7 +255,7 @@
     "resources": [
       {
         "url": "https://github.com/vim/vim",
-        "text": "",
+        "text": "Vim/vim",
         "category": "github",
         "note": "",
         "author": "",
@@ -263,7 +266,7 @@
       },
       {
         "url": "https://www.reddit.com/r/vim/",
-        "text": "",
+        "text": "/r/vim",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -274,7 +277,7 @@
       },
       {
         "url": "https://www.reddit.com/r/vim_magic/",
-        "text": "vim magic",
+        "text": "Vim magic",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -285,7 +288,7 @@
       },
       {
         "url": "https://github.com/mhinz/vim-galore",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -296,7 +299,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Vim_(text_editor)",
-        "text": "vim",
+        "text": "Vim",
         "category": "wiki",
         "note": "",
         "author": "",

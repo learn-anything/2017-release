@@ -3,18 +3,18 @@
   "tag": "hugo static generator",
   "id": 1921,
   "map": {
-    "text": "hugo",
+    "text": "Hugo",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "hugo themes",
+            "text": "Hugo themes",
             "nodes": [],
             "resources": [
               {
                 "url": "https://themes.gohugo.io/",
-                "text": "hugo themes",
+                "text": "Hugo themes",
                 "note": "",
                 "author": "",
                 "score": {
@@ -29,7 +29,7 @@
         "resources": [
           {
             "url": "https://gohugo.io/overview/introduction/",
-            "text": "1. intro to hugo",
+            "text": "Intro to hugo",
             "note": "",
             "author": "",
             "score": {
@@ -39,7 +39,7 @@
           },
           {
             "url": "http://arunrocks.com/minimal-hugo-site-tutorial/",
-            "text": "1. a gentle introduction to creating a minimal hugo site  ️",
+            "text": "A gentle introduction to creating a minimal hugo site  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -52,22 +52,23 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.sarasoueidan.com/blog/jekyll-ghpages-to-hugo-netlify/",
-                "text": "17: migrating from Jekyll + GitHub pages to Hugo + Netlify  ️",
+                "text": "Migrating from Jekyll + GitHub pages to Hugo + Netlify  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -76,7 +77,7 @@
         "resources": [
           {
             "url": "https://discourse.gohugo.io/",
-            "text": "forum",
+            "text": "Forum",
             "category": "chat",
             "note": "",
             "author": "",
@@ -87,7 +88,7 @@
           },
           {
             "url": "https://gohugo.io/documentation/",
-            "text": "docs",
+            "text": "Docs",
             "note": "",
             "author": "",
             "score": {
@@ -102,7 +103,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/gohugo/",
-        "text": "",
+        "text": "/r/gohugo",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -113,7 +114,7 @@
       },
       {
         "url": "https://github.com/gohugoio/hugo",
-        "text": "",
+        "text": "Gohugoio/hugo",
         "category": "github",
         "note": "",
         "author": "",
@@ -124,7 +125,7 @@
       },
       {
         "url": "https://gohugo.io/",
-        "text": "hugo",
+        "text": "Hugo",
         "note": "",
         "author": "",
         "score": {

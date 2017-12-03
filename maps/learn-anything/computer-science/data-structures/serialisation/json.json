@@ -6,7 +6,7 @@
     "text": "JSON",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -31,7 +31,7 @@
         "resources": [
           {
             "url": "http://www.json.org/",
-            "text": "1. introducing json",
+            "text": "Introducing json",
             "note": "",
             "author": "",
             "score": {
@@ -43,19 +43,20 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://drill.apache.org/blog/2015/01/27/schema-free-json-data-infrastructure/",
-            "text": "15: schema-free json data infrastructure  ️",
+            "text": "Schema-free json data infrastructure  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -64,7 +65,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/json/",
-        "text": "",
+        "text": "/r/json",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -75,7 +76,7 @@
       },
       {
         "url": "https://github.com/burningtree/awesome-json",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

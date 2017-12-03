@@ -3,21 +3,21 @@
   "tag": "",
   "id": 1719,
   "map": {
-    "text": "kubernetes",
+    "text": "Kubernetes",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "tools",
+            "text": "Tools",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://rancher.com/",
-                    "text": "rancher",
+                    "text": "Rancher",
                     "note": "",
                     "author": "",
                     "score": {
@@ -32,7 +32,7 @@
             "resources": [
               {
                 "url": "https://github.com/Azure/draft",
-                "text": "draft",
+                "text": "Draft",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -48,7 +48,7 @@
         "resources": [
           {
             "url": "https://github.com/hobby-kube/guide",
-            "text": "kubernetes clusters for the hobbyist",
+            "text": "Kubernetes clusters for the hobbyist",
             "category": "github",
             "note": "",
             "author": "",
@@ -59,7 +59,7 @@
           },
           {
             "url": "https://github.com/kubernetes/community/blob/master/contributors/design-proposals/architecture.md",
-            "text": "kubernetes design and architecture",
+            "text": "Kubernetes design and architecture",
             "category": "github",
             "note": "",
             "author": "",
@@ -70,7 +70,7 @@
           },
           {
             "url": "https://kubernetes.io/docs/home/",
-            "text": "kubernetes docs",
+            "text": "Kubernetes docs",
             "note": "",
             "author": "",
             "score": {
@@ -80,7 +80,7 @@
           },
           {
             "url": "",
-            "text": "kubernetes components",
+            "text": "Kubernetes components",
             "category": "image",
             "note": "",
             "author": "",
@@ -93,16 +93,16 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "openshift  ️",
+            "text": "Openshift  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/software-development/devops/kubernetes/openshift",
-                "text": "openshift  ️",
+                "text": "Openshift  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -118,7 +118,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=4ht22ReBjno",
-            "text": "1. illustrated children’s guide to kubernetes",
+            "text": "Illustrated children’s guide to kubernetes",
             "category": "video",
             "note": "",
             "author": "",
@@ -129,7 +129,7 @@
           },
           {
             "url": "http://kubernetesbyexample.com/",
-            "text": "1. kubernetes by example",
+            "text": "Kubernetes by example",
             "category": "free book",
             "note": "",
             "author": "",
@@ -140,7 +140,7 @@
           },
           {
             "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
-            "text": "1. kubernetes basics",
+            "text": "Kubernetes basics",
             "note": "",
             "author": "",
             "score": {
@@ -155,7 +155,7 @@
     "resources": [
       {
         "url": "https://github.com/ramitsurana/awesome-kubernetes",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -166,7 +166,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Kubernetes",
-        "text": "kubernetes",
+        "text": "Kubernetes",
         "category": "wiki",
         "note": "",
         "author": "",

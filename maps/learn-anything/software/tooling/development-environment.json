@@ -3,18 +3,18 @@
   "tag": "",
   "id": 1799,
   "map": {
-    "text": "development environment",
+    "text": "Development environment",
     "nodes": [
       {
-        "text": "text editors  ️",
+        "text": "Text editors  ️",
         "nodes": [
           {
-            "text": "vim  ️",
+            "text": "Vim  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/vim",
-                "text": "vim  ️",
+                "text": "Vim  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -27,12 +27,12 @@
             "author": ""
           },
           {
-            "text": "vs code  ️",
+            "text": "Vs code  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/vs-code",
-                "text": "vs code  ️",
+                "text": "Vs code  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -45,15 +45,15 @@
             "author": ""
           },
           {
-            "text": "macOS  ️",
+            "text": "MacOS  ️",
             "nodes": [
               {
-                "text": "karabiner  ️",
+                "text": "Karabiner  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/software/tooling/productivity/karabiner",
-                    "text": "karabiner  ️",
+                    "text": "Karabiner  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -66,12 +66,12 @@
                 "author": ""
               },
               {
-                "text": "alfred  ️",
+                "text": "Alfred  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/software/tooling/productivity/alfred",
-                    "text": "alfred  ️",
+                    "text": "Alfred  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -84,12 +84,12 @@
                 "author": ""
               },
               {
-                "text": "typinator",
+                "text": "Typinator",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.ergonis.com/products/typinator/",
-                    "text": "typinator",
+                    "text": "Typinator",
                     "note": "",
                     "author": "",
                     "score": {
@@ -101,18 +101,18 @@
                 "author": ""
               },
               {
-                "text": "command line tools  ️",
+                "text": "Command line tools  ️",
                 "nodes": [
                   {
-                    "text": "linux  ️",
+                    "text": "Linux  ️",
                     "nodes": [
                       {
-                        "text": "i3",
+                        "text": "I3",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "https://github.com/i3/i3",
-                            "text": "i3",
+                            "text": "I3",
                             "category": "github",
                             "note": "",
                             "author": "",
@@ -125,12 +125,12 @@
                         "author": ""
                       },
                       {
-                        "text": "terminator",
+                        "text": "Terminator",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "https://gnometerminator.blogspot.nl/p/introduction.html",
-                            "text": "terminator",
+                            "text": "Terminator",
                             "note": "",
                             "author": "",
                             "score": {
@@ -145,7 +145,7 @@
                     "resources": [
                       {
                         "url": "/operating-systems/unix/linux",
-                        "text": "linux  ️",
+                        "text": "Linux  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -158,12 +158,12 @@
                     "author": ""
                   },
                   {
-                    "text": "tmux  ️",
+                    "text": "Tmux  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/software/tooling/productivity/tmux",
-                        "text": "tmux  ️",
+                        "text": "Tmux  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -176,12 +176,12 @@
                     "author": ""
                   },
                   {
-                    "text": "fzf",
+                    "text": "Fzf",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/junegunn/fzf",
-                        "text": "fzf",
+                        "text": "Fzf",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -194,12 +194,12 @@
                     "author": ""
                   },
                   {
-                    "text": "git  ️",
+                    "text": "Git  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/programming/version-control/git",
-                        "text": "git  ️",
+                        "text": "Git  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -212,12 +212,12 @@
                     "author": ""
                   },
                   {
-                    "text": "docker  ️",
+                    "text": "Docker  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/programming/software-development/devops/docker",
-                        "text": "docker  ️",
+                        "text": "Docker  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -230,12 +230,12 @@
                     "author": ""
                   },
                   {
-                    "text": "ripgrep",
+                    "text": "Ripgrep",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/BurntSushi/ripgrep",
-                        "text": "ripgrep",
+                        "text": "Ripgrep",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -248,12 +248,12 @@
                     "author": ""
                   },
                   {
-                    "text": "z",
+                    "text": "Z",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/rupa/z",
-                        "text": "z",
+                        "text": "Z",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -266,12 +266,12 @@
                     "author": ""
                   },
                   {
-                    "text": "thefuck",
+                    "text": "Thefuck",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/nvbn/thefuck",
-                        "text": "thefuck",
+                        "text": "Thefuck",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -284,12 +284,12 @@
                     "author": ""
                   },
                   {
-                    "text": "howdoi",
+                    "text": "Howdoi",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/gleitz/howdoi",
-                        "text": "howdoi",
+                        "text": "Howdoi",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -302,12 +302,12 @@
                     "author": ""
                   },
                   {
-                    "text": "vtop",
+                    "text": "Vtop",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/MrRio/vtop",
-                        "text": "vtop",
+                        "text": "Vtop",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -320,15 +320,15 @@
                     "author": ""
                   },
                   {
-                    "text": "messaging  ️",
+                    "text": "Messaging  ️",
                     "nodes": [
                       {
-                        "text": "slack  ️",
+                        "text": "Slack  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/messaging/slack",
-                            "text": "slack  ️",
+                            "text": "Slack  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -341,12 +341,12 @@
                         "author": ""
                       },
                       {
-                        "text": "telegram  ️",
+                        "text": "Telegram  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/messaging/telegram",
-                            "text": "telegram  ️",
+                            "text": "Telegram  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -359,12 +359,12 @@
                         "author": ""
                       },
                       {
-                        "text": "irc  ️",
+                        "text": "Irc  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/network-science/computer-networking/protocols/irc",
-                            "text": "irc  ️",
+                            "text": "Irc  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -380,7 +380,7 @@
                     "resources": [
                       {
                         "url": "/software/tooling/messaging",
-                        "text": "messaging  ️",
+                        "text": "Messaging  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -396,7 +396,7 @@
                 "resources": [
                   {
                     "url": "/software/tooling/cli",
-                    "text": "command line tools  ️",
+                    "text": "Command line tools  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -409,12 +409,12 @@
                 "author": ""
               },
               {
-                "text": "iTerm",
+                "text": "ITerm",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.iterm2.com/",
-                    "text": "iTerm",
+                    "text": "ITerm",
                     "note": "",
                     "author": "",
                     "score": {
@@ -426,12 +426,12 @@
                 "author": ""
               },
               {
-                "text": "textual IRC",
+                "text": "Textual IRC",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.codeux.com/textual/",
-                    "text": "textual IRC",
+                    "text": "Textual IRC",
                     "note": "",
                     "author": "",
                     "score": {
@@ -443,12 +443,12 @@
                 "author": ""
               },
               {
-                "text": "brew",
+                "text": "Brew",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://docs.brew.sh/",
-                    "text": "brew",
+                    "text": "Brew",
                     "note": "",
                     "author": "",
                     "score": {
@@ -463,7 +463,7 @@
             "resources": [
               {
                 "url": "/operating-systems/unix/macos",
-                "text": "macOS  ️",
+                "text": "MacOS  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -476,21 +476,21 @@
             "author": ""
           },
           {
-            "text": "linux  ️",
+            "text": "Linux  ️",
             "nodes": [
               {
-                "text": "command line tools  ️",
+                "text": "Command line tools  ️",
                 "nodes": [
                   {
-                    "text": "macOS  ️",
+                    "text": "MacOS  ️",
                     "nodes": [
                       {
-                        "text": "karabiner  ️",
+                        "text": "Karabiner  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/productivity/karabiner",
-                            "text": "karabiner  ️",
+                            "text": "Karabiner  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -503,12 +503,12 @@
                         "author": ""
                       },
                       {
-                        "text": "alfred  ️",
+                        "text": "Alfred  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/productivity/alfred",
-                            "text": "alfred  ️",
+                            "text": "Alfred  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -521,12 +521,12 @@
                         "author": ""
                       },
                       {
-                        "text": "typinator",
+                        "text": "Typinator",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "http://www.ergonis.com/products/typinator/",
-                            "text": "typinator",
+                            "text": "Typinator",
                             "note": "",
                             "author": "",
                             "score": {
@@ -538,12 +538,12 @@
                         "author": ""
                       },
                       {
-                        "text": "iTerm",
+                        "text": "ITerm",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "https://www.iterm2.com/",
-                            "text": "iTerm",
+                            "text": "ITerm",
                             "note": "",
                             "author": "",
                             "score": {
@@ -555,12 +555,12 @@
                         "author": ""
                       },
                       {
-                        "text": "textual IRC",
+                        "text": "Textual IRC",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "https://www.codeux.com/textual/",
-                            "text": "textual IRC",
+                            "text": "Textual IRC",
                             "note": "",
                             "author": "",
                             "score": {
@@ -572,12 +572,12 @@
                         "author": ""
                       },
                       {
-                        "text": "brew",
+                        "text": "Brew",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "http://docs.brew.sh/",
-                            "text": "brew",
+                            "text": "Brew",
                             "note": "",
                             "author": "",
                             "score": {
@@ -592,7 +592,7 @@
                     "resources": [
                       {
                         "url": "/operating-systems/unix/macos",
-                        "text": "macOS  ️",
+                        "text": "MacOS  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -605,12 +605,12 @@
                     "author": ""
                   },
                   {
-                    "text": "tmux  ️",
+                    "text": "Tmux  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/software/tooling/productivity/tmux",
-                        "text": "tmux  ️",
+                        "text": "Tmux  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -623,12 +623,12 @@
                     "author": ""
                   },
                   {
-                    "text": "fzf",
+                    "text": "Fzf",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/junegunn/fzf",
-                        "text": "fzf",
+                        "text": "Fzf",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -641,12 +641,12 @@
                     "author": ""
                   },
                   {
-                    "text": "git  ️",
+                    "text": "Git  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/programming/version-control/git",
-                        "text": "git  ️",
+                        "text": "Git  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -659,12 +659,12 @@
                     "author": ""
                   },
                   {
-                    "text": "docker  ️",
+                    "text": "Docker  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/programming/software-development/devops/docker",
-                        "text": "docker  ️",
+                        "text": "Docker  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -677,12 +677,12 @@
                     "author": ""
                   },
                   {
-                    "text": "ripgrep",
+                    "text": "Ripgrep",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/BurntSushi/ripgrep",
-                        "text": "ripgrep",
+                        "text": "Ripgrep",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -695,12 +695,12 @@
                     "author": ""
                   },
                   {
-                    "text": "z",
+                    "text": "Z",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/rupa/z",
-                        "text": "z",
+                        "text": "Z",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -713,12 +713,12 @@
                     "author": ""
                   },
                   {
-                    "text": "thefuck",
+                    "text": "Thefuck",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/nvbn/thefuck",
-                        "text": "thefuck",
+                        "text": "Thefuck",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -731,12 +731,12 @@
                     "author": ""
                   },
                   {
-                    "text": "howdoi",
+                    "text": "Howdoi",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/gleitz/howdoi",
-                        "text": "howdoi",
+                        "text": "Howdoi",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -749,12 +749,12 @@
                     "author": ""
                   },
                   {
-                    "text": "vtop",
+                    "text": "Vtop",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://github.com/MrRio/vtop",
-                        "text": "vtop",
+                        "text": "Vtop",
                         "category": "github",
                         "note": "",
                         "author": "",
@@ -767,15 +767,15 @@
                     "author": ""
                   },
                   {
-                    "text": "messaging  ️",
+                    "text": "Messaging  ️",
                     "nodes": [
                       {
-                        "text": "slack  ️",
+                        "text": "Slack  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/messaging/slack",
-                            "text": "slack  ️",
+                            "text": "Slack  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -788,12 +788,12 @@
                         "author": ""
                       },
                       {
-                        "text": "telegram  ️",
+                        "text": "Telegram  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/software/tooling/messaging/telegram",
-                            "text": "telegram  ️",
+                            "text": "Telegram  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -806,12 +806,12 @@
                         "author": ""
                       },
                       {
-                        "text": "irc  ️",
+                        "text": "Irc  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/network-science/computer-networking/protocols/irc",
-                            "text": "irc  ️",
+                            "text": "Irc  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -827,7 +827,7 @@
                     "resources": [
                       {
                         "url": "/software/tooling/messaging",
-                        "text": "messaging  ️",
+                        "text": "Messaging  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -843,7 +843,7 @@
                 "resources": [
                   {
                     "url": "/software/tooling/cli",
-                    "text": "command line tools  ️",
+                    "text": "Command line tools  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -856,12 +856,12 @@
                 "author": ""
               },
               {
-                "text": "i3",
+                "text": "I3",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/i3/i3",
-                    "text": "i3",
+                    "text": "I3",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -874,12 +874,12 @@
                 "author": ""
               },
               {
-                "text": "terminator",
+                "text": "Terminator",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://gnometerminator.blogspot.nl/p/introduction.html",
-                    "text": "terminator",
+                    "text": "Terminator",
                     "note": "",
                     "author": "",
                     "score": {
@@ -894,7 +894,7 @@
             "resources": [
               {
                 "url": "/operating-systems/unix/linux",
-                "text": "linux  ️",
+                "text": "Linux  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -907,12 +907,12 @@
             "author": ""
           },
           {
-            "text": "sublime text  ️",
+            "text": "Sublime text  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/sublime-text",
-                "text": "sublime text  ️",
+                "text": "Sublime text  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -925,12 +925,12 @@
             "author": ""
           },
           {
-            "text": "emacs  ️",
+            "text": "Emacs  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/emacs",
-                "text": "emacs  ️",
+                "text": "Emacs  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -943,12 +943,12 @@
             "author": ""
           },
           {
-            "text": "atom  ️",
+            "text": "Atom  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/text-editors/atom",
-                "text": "atom  ️",
+                "text": "Atom  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -964,7 +964,7 @@
         "resources": [
           {
             "url": "/software/tooling/text-editors",
-            "text": "text editors  ️",
+            "text": "Text editors  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -980,7 +980,7 @@
     "resources": [
       {
         "url": "https://github.com/jondot/awesome-devenv",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",

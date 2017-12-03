@@ -3,7 +3,7 @@
   "tag": "",
   "id": 356,
   "map": {
-    "text": "facial recognition",
+    "text": "Facial recognition",
     "note": "",
     "nodes": [
       {
@@ -12,7 +12,7 @@
         "resources": [
           {
             "url": "https://cmusatyalab.github.io/openface/usage/",
-            "text": "usage",
+            "text": "Usage",
             "note": "",
             "author": "",
             "score": {
@@ -34,22 +34,23 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://kndrck.co/indexing-faces-on-instagram.html",
-                "text": "17: indexing faces on Instagram  ️",
+                "text": "Indexing faces on Instagram  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -58,7 +59,7 @@
         "resources": [
           {
             "url": "http://www.face-rec.org/algorithms/PCA/jcn.pdf",
-            "text": "eigenfaces for recognition",
+            "text": "Eigenfaces for recognition",
             "category": "paper",
             "note": "",
             "author": "",
@@ -69,7 +70,7 @@
           },
           {
             "url": "http://www.cs.ucsb.edu/%7Emturk/Papers/mturk-CVPR91.pdf",
-            "text": "face recognition using eigenfaces",
+            "text": "Face recognition using eigenfaces",
             "category": "paper",
             "note": "",
             "author": "",
@@ -85,7 +86,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Facial_recognition_system",
-        "text": "facial recognition",
+        "text": "Facial recognition",
         "category": "wiki",
         "note": "",
         "author": "",

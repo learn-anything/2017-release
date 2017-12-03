@@ -3,19 +3,19 @@
   "tag": "python programming language",
   "id": 1643,
   "map": {
-    "text": "python",
+    "text": "Python",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "python libraries  ️",
+            "text": "Python libraries  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/python/python-libraries",
-                "text": "python libraries  ️",
+                "text": "Python libraries  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,15 +28,15 @@
             "author": ""
           },
           {
-            "text": "package manager",
+            "text": "Package manager",
             "nodes": [
               {
-                "text": "pip",
+                "text": "Pip",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://pypi.python.org/pypi/pip",
-                    "text": "pip",
+                    "text": "Pip",
                     "note": "",
                     "author": "",
                     "score": {
@@ -51,7 +51,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Package_manager",
-                "text": "package manager",
+                "text": "Package manager",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -64,12 +64,12 @@
             "author": ""
           },
           {
-            "text": "micropython",
+            "text": "Micropython",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/micropython/micropython",
-                "text": "micropython",
+                "text": "Micropython",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -82,12 +82,12 @@
             "author": ""
           },
           {
-            "text": "asyncio  ️",
+            "text": "Asyncio  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/python/asyncio",
-                "text": "asyncio  ️",
+                "text": "Asyncio  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -103,7 +103,7 @@
         "resources": [
           {
             "url": "https://docs.python.org/3/tutorial/",
-            "text": "1. the python tutorial",
+            "text": "The python tutorial",
             "note": "",
             "author": "",
             "score": {
@@ -113,7 +113,7 @@
           },
           {
             "url": "http://www.diveintopython3.net",
-            "text": "1. dive into python 3",
+            "text": "Dive into python 3",
             "category": "free book",
             "note": "",
             "author": "",
@@ -124,7 +124,7 @@
           },
           {
             "url": "https://learnxinyminutes.com/docs/python3/",
-            "text": "1. learn python in Y minutes",
+            "text": "Learn python in Y minutes",
             "note": "",
             "author": "",
             "score": {
@@ -134,7 +134,7 @@
           },
           {
             "url": "https://automatetheboringstuff.com/",
-            "text": "1. automate the boring stuff with python",
+            "text": "Automate the boring stuff with python",
             "category": "free book",
             "note": "",
             "author": "",
@@ -145,7 +145,7 @@
           },
           {
             "url": "http://interactivepython.org/runestone/static/pythonds/index.html",
-            "text": "1. problem solving with algorithms and data structures using python",
+            "text": "Problem solving with algorithms and data structures using python",
             "category": "free book",
             "note": "",
             "author": "",
@@ -156,7 +156,7 @@
           },
           {
             "url": "http://pythontesting.net/framework/pytest/pytest-introduction/",
-            "text": "2. python testing",
+            "text": "Python testing",
             "category": "free book",
             "note": "",
             "author": "",
@@ -169,25 +169,26 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=cKPlPJyQrt4&amp;index=3&amp;list=WL",
-                    "text": "17: so you want to be a python expert?",
+                    "text": "So you want to be a python expert?",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -196,36 +197,39 @@
             "resources": [
               {
                 "url": "https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/",
-                "text": "16: the history behind the decision to move python to github  ️",
+                "text": "The history behind the decision to move python to github  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html",
-                "text": "15: a modern python development toolchain  ️",
+                "text": "A modern python development toolchain  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "https://realpython.com/blog/python/instance-class-and-static-methods-demystified/",
-                "text": "17: python's instance, class, and static methods demystified  ️",
+                "text": "Python's instance, class, and static methods demystified  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -234,7 +238,7 @@
         "resources": [
           {
             "url": "https://docs.python.org/3/reference/datamodel.html",
-            "text": "python data model",
+            "text": "Python data model",
             "note": "",
             "author": "",
             "score": {
@@ -244,7 +248,7 @@
           },
           {
             "url": "https://ipgp.github.io/scientific_python_cheat_sheet/",
-            "text": "scientific python cheat sheet",
+            "text": "Scientific python cheat sheet",
             "note": "",
             "author": "",
             "score": {
@@ -254,7 +258,7 @@
           },
           {
             "url": "http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/",
-            "text": "structuring your project",
+            "text": "Structuring your project",
             "note": "",
             "author": "",
             "score": {
@@ -264,7 +268,7 @@
           },
           {
             "url": "https://www.python.org/dev/peps/pep-0008/",
-            "text": "style guide for python code",
+            "text": "Style guide for python code",
             "note": "",
             "author": "",
             "score": {
@@ -274,7 +278,7 @@
           },
           {
             "url": "http://pgbovine.net/cpython-internals.htm",
-            "text": "cpython internals  ️",
+            "text": "Cpython internals  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -295,7 +299,7 @@
           },
           {
             "url": "http://pythonbooks.org/",
-            "text": "find python books",
+            "text": "Find python books",
             "note": "",
             "author": "",
             "score": {
@@ -305,7 +309,7 @@
           },
           {
             "url": "https://github.com/crazyguitar/pysheeet",
-            "text": "python cheat sheet",
+            "text": "Python cheat sheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -321,7 +325,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Python/",
-        "text": "",
+        "text": "/r/Python",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -332,7 +336,7 @@
       },
       {
         "url": "https://github.com/python/cpython",
-        "text": "",
+        "text": "Python/cpython",
         "category": "github",
         "note": "",
         "author": "",
@@ -343,7 +347,7 @@
       },
       {
         "url": "https://github.com/trending/python",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -354,7 +358,7 @@
       },
       {
         "url": "https://github.com/vinta/awesome-python",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -365,7 +369,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Python_(programming_language)",
-        "text": "python",
+        "text": "Python",
         "category": "wiki",
         "note": "",
         "author": "",

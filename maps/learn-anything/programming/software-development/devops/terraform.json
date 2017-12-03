@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1722,
   "map": {
-    "text": "terraform",
+    "text": "Terraform",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.terraform.io/intro/index.html",
-            "text": "1. intro to terraform",
+            "text": "Intro to terraform",
             "note": "",
             "author": "",
             "score": {
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://heap.engineering/terraform-gotchas/",
-            "text": "17: terraform gotchas and how we work around them  ️",
+            "text": "Terraform gotchas and how we work around them  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "https://github.com/hashicorp/terraform",
-        "text": "source",
+        "text": "Source",
         "category": "github",
         "note": "",
         "author": "",
@@ -56,7 +57,7 @@
       },
       {
         "url": "https://github.com/shuaibiyy/awesome-terraform",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -67,7 +68,7 @@
       },
       {
         "url": "https://www.terraform.io/",
-        "text": "terraform",
+        "text": "Terraform",
         "note": "",
         "author": "",
         "score": {

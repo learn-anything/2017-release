@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1904,
   "map": {
-    "text": "react native",
+    "text": "React native",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://facebook.github.io/react-native/docs/getting-started.html",
-            "text": "1. get started",
+            "text": "Get started",
             "note": "",
             "author": "",
             "score": {
@@ -22,7 +22,7 @@
           },
           {
             "url": "http://www.reactnativeexpress.com/",
-            "text": "1. react native express",
+            "text": "React native express",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://repl.it/site/react_native",
-            "text": "1. react native in 5 minutes",
+            "text": "React native in 5 minutes",
             "note": "",
             "author": "",
             "score": {
@@ -43,7 +43,7 @@
           },
           {
             "url": "http://artsy.github.io/blog/2017/07/06/React-Native-for-iOS-devs/",
-            "text": "1. intro to react native for an iOS developer  ️",
+            "text": "Intro to react native for an iOS developer  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -56,15 +56,15 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "tools",
+            "text": "Tools",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/react-community/create-react-native-app",
-                "text": "create react native app",
+                "text": "Create react native app",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -75,7 +75,7 @@
               },
               {
                 "url": "https://github.com/facebook/metro-bundler",
-                "text": "metro bundler",
+                "text": "Metro bundler",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -91,18 +91,19 @@
         "resources": [
           {
             "url": "https://eng.uber.com/ubereats-react-native/",
-            "text": "17: powering ubereats with react native and uber engineering  ️",
+            "text": "Powering ubereats with react native and uber engineering  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           },
           {
             "url": "https://arielelkin.github.io/articles/why-im-not-a-react-native-developer",
-            "text": "why i'm not a react native developer  ️",
+            "text": "Why i'm not a react native developer  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -118,7 +119,7 @@
     "resources": [
       {
         "url": "https://github.com/facebook/react-native",
-        "text": "",
+        "text": "Facebook/react-native",
         "category": "github",
         "note": "",
         "author": "",
@@ -129,7 +130,7 @@
       },
       {
         "url": "https://github.com/jondot/awesome-react-native",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -140,7 +141,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/React_(JavaScript_library)",
-        "text": "react native",
+        "text": "React native",
         "category": "wiki",
         "note": "",
         "author": "",

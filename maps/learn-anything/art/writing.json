@@ -3,19 +3,19 @@
   "tag": "",
   "id": 66,
   "map": {
-    "text": "writing",
+    "text": "Writing",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "- if you think this can be improved in any way",
         "nodes": [
           {
-            "text": "creative writing  ️",
+            "text": "Creative writing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/writing/creative-writing",
-                "text": "creative writing  ️",
+                "text": "Creative writing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "journaling  ️",
+            "text": "Journaling  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/art/writing/journaling",
-                "text": "journaling  ️",
+                "text": "Journaling  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +49,7 @@
         "resources": [
           {
             "url": "http://paulgraham.com/talk.html",
-            "text": "1. write like you talk  ️",
+            "text": "Write like you talk  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -60,7 +60,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/10569.On_Writing",
-            "text": "1. on writing: a memoir of the craft",
+            "text": "On writing: a memoir of the craft",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -73,55 +73,59 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://paulgraham.com/writing44.html",
-                "text": "05: writing briefly  ️",
+                "text": "Writing briefly  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "05"
               },
               {
                 "url": "https://www.edge.org/conversation/writing-in-the-21st-century",
-                "text": "17: writing in 21st century  ️",
+                "text": "Writing in 21st century  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://medium.com/@immeasurablematt/dr-jordan-b-petersons-10-step-guide-to-clearer-thinking-through-essay-writing-1ab79a94937",
-                "text": "17: guide to clearer thinking through essay writing  ️",
+                "text": "Guide to clearer thinking through essay writing  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://medium.com/@NikitaVoloboev/how-i-write-cdc2cebdc70c",
-                "text": "17: how I write  ️",
+                "text": "How I write  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -130,7 +134,7 @@
         "resources": [
           {
             "url": "https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md",
-            "text": "notes on writing well",
+            "text": "Notes on writing well",
             "category": "github",
             "note": "",
             "author": "",
@@ -146,7 +150,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/writing/",
-        "text": "",
+        "text": "/r/writing",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -168,7 +172,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Writing",
-        "text": "writing",
+        "text": "Writing",
         "note": "",
         "author": "",
         "score": {

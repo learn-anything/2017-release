@@ -3,15 +3,15 @@
   "tag": "",
   "id": 754,
   "map": {
-    "text": "transfer learning",
+    "text": "Transfer learning",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=upfgTWrhkpg",
-            "text": "1. tensorflow tutorial: transfer learning",
+            "text": "Tensorflow tutorial: transfer learning",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/abs/1705.08142",
-            "text": "17: sluice networks: learning what to share between loosely related tasks",
+            "text": "Sluice networks: learning what to share between loosely related tasks",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Transfer_learning",
-        "text": "transfer learning",
+        "text": "Transfer learning",
         "category": "wiki",
         "note": "",
         "author": "",

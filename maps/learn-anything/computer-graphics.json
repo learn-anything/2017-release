@@ -3,19 +3,19 @@
   "tag": "",
   "id": 235,
   "map": {
-    "text": "computer graphics",
+    "text": "Computer graphics",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "bezier curves  ️",
+            "text": "Bezier curves  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/bezier-curves",
-                "text": "bezier curves  ️",
+                "text": "Bezier curves  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -46,16 +46,16 @@
             "author": ""
           },
           {
-            "text": "graphics API",
+            "text": "Graphics API",
             "nodes": [
               {
-                "text": "openGL  ️",
+                "text": "OpenGL  ️",
                 "note": "is a cross-language, cross platform API for rendering 2D and 3D vector graphics  it is typically used to interact with a graphics processing unit (GPU), to achieve hardware-accelerated rendering",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-graphics/opengl",
-                    "text": "openGL  ️",
+                    "text": "OpenGL  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -68,12 +68,12 @@
                 "author": ""
               },
               {
-                "text": "webGL  ️",
+                "text": "WebGL  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-graphics/webgl",
-                    "text": "webGL  ️",
+                    "text": "WebGL  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -86,13 +86,13 @@
                 "author": ""
               },
               {
-                "text": "vulkan  ️",
+                "text": "Vulkan  ️",
                 "note": "is a low-overhead, cross-platform 3D graphics and compute API first announced in 2015  it targets high-performance realtime 3D graphics applications such as video games and interactive media across all platforms, and can offer higher performance and more balanced CPU/GPU usage",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-graphics/vulkan",
-                    "text": "vulkan  ️",
+                    "text": "Vulkan  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -105,13 +105,13 @@
                 "author": ""
               },
               {
-                "text": "metal  ️",
+                "text": "Metal  ️",
                 "note": "is a low-level, low-overhead hardware-accelerated graphics and compute application interface that debuted in iOS 8",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-graphics/metal",
-                    "text": "metal  ️",
+                    "text": "Metal  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -127,7 +127,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Application_programming_interface",
-                "text": "graphics API",
+                "text": "Graphics API",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -140,13 +140,13 @@
             "author": ""
           },
           {
-            "text": "rendering  ️",
+            "text": "Rendering  ️",
             "note": "is the process of generating an image from a 2D or 3D model (or models in what collectively could be called a scene file) by means of computer programs  the results of such a model can be called a rendering  a scene file contains objects in a strictly defined language or data structure (it would contain geometry, viewpoint, texture, lighting, and shading information as a description of the virtual scene)  the data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/rendering",
-                "text": "rendering  ️",
+                "text": "Rendering  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -159,12 +159,12 @@
             "author": ""
           },
           {
-            "text": "digital video  ️",
+            "text": "Digital video  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/digital-video",
-                "text": "digital video  ️",
+                "text": "Digital video  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -177,12 +177,12 @@
             "author": ""
           },
           {
-            "text": "volume rendering  ️",
+            "text": "Volume rendering  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/volume-rendering",
-                "text": "volume rendering  ️",
+                "text": "Volume rendering  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -195,12 +195,12 @@
             "author": ""
           },
           {
-            "text": "polygon mesh  ️",
+            "text": "Polygon mesh  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/polygon-mesh",
-                "text": "polygon mesh  ️",
+                "text": "Polygon mesh  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -213,12 +213,12 @@
             "author": ""
           },
           {
-            "text": "shaders  ️",
+            "text": "Shaders  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/shaders",
-                "text": "shaders  ️",
+                "text": "Shaders  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -231,12 +231,12 @@
             "author": ""
           },
           {
-            "text": "digital images  ️",
+            "text": "Digital images  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/digital-images",
-                "text": "digital images  ️",
+                "text": "Digital images  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -249,12 +249,12 @@
             "author": ""
           },
           {
-            "text": "computer graphics lighting  ️",
+            "text": "Computer graphics lighting  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-graphics/computer-graphics-lighting",
-                "text": "computer graphics lighting  ️",
+                "text": "Computer graphics lighting  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -270,7 +270,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=KdyvizaygyY",
-            "text": "1. a universe of triangles",
+            "text": "A universe of triangles",
             "category": "video",
             "note": "",
             "author": "",
@@ -281,7 +281,7 @@
           },
           {
             "url": "https://www.scratchapixel.com/",
-            "text": "1. learn computer graphics from scratch",
+            "text": "Learn computer graphics from scratch",
             "category": "free book",
             "note": "",
             "author": "",
@@ -292,7 +292,7 @@
           },
           {
             "url": "http://opengl.datenwolf.net/gltut/html/index.html",
-            "text": "1. learning modern 3d graphics programming",
+            "text": "Learning modern 3d graphics programming",
             "category": "free book",
             "note": "",
             "author": "",
@@ -303,7 +303,7 @@
           },
           {
             "url": "http://wykobi.com/tutorial.html",
-            "text": "1. computational geometry",
+            "text": "Computational geometry",
             "category": "free book",
             "note": "",
             "author": "",
@@ -314,7 +314,7 @@
           },
           {
             "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15462-s12/www/",
-            "text": "1. computer graphics",
+            "text": "Computer graphics",
             "category": "course",
             "note": "",
             "author": "",
@@ -325,7 +325,7 @@
           },
           {
             "url": "https://classroom.udacity.com/courses/cs291",
-            "text": "1. interactive 3D graphics",
+            "text": "Interactive 3D graphics",
             "category": "course",
             "note": "",
             "author": "",
@@ -336,7 +336,7 @@
           },
           {
             "url": "https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/",
-            "text": "1. a trip through the graphics pipeline 2011",
+            "text": "A trip through the graphics pipeline 2011",
             "note": "",
             "author": "",
             "score": {
@@ -346,7 +346,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=aweqeMxDnu4",
-            "text": "1. triangles to pixels",
+            "text": "Triangles to pixels",
             "category": "video",
             "note": "",
             "author": "",
@@ -357,7 +357,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=OODzTMcGDD0",
-            "text": "1. the visibility problem",
+            "text": "The visibility problem",
             "category": "video",
             "note": "",
             "author": "",
@@ -370,12 +370,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "http://imsky.co/links/graphics-courses",
-            "text": "graphics courses  ️",
+            "text": "Graphics courses  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -391,7 +391,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/computergraphics/",
-        "text": "",
+        "text": "/r/computergraphics",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -413,7 +413,7 @@
       },
       {
         "url": "https://github.com/ericjang/awesome-graphics",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -424,7 +424,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Computer_graphics",
-        "text": "computer graphics",
+        "text": "Computer graphics",
         "category": "wiki",
         "note": "",
         "author": "",

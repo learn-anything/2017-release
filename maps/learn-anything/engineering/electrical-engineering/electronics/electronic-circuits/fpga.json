@@ -3,15 +3,15 @@
   "tag": "FPGA",
   "id": 524,
   "map": {
-    "text": "field-programmable gate array",
+    "text": "Field-programmable gate array",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=8POZhFHxBLs",
-            "text": "1. what is FPGA?",
+            "text": "What is FPGA?",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,12 +24,12 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "http://blog.notdot.net/2012/10/Build-your-own-FPGA",
-            "text": "build your own FPGA  ️",
+            "text": "Build your own FPGA  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -40,14 +40,15 @@
           },
           {
             "url": "http://zipcpu.com/blog/2017/06/12/minimizing-luts.html",
-            "text": "17: minimising FPGA resource utilisation  ️",
+            "text": "Minimising FPGA resource utilisation  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -56,7 +57,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/FPGA/",
-        "text": "",
+        "text": "/r/FPGA",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -67,7 +68,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Field-programmable_gate_array",
-        "text": "field-programmable gate array",
+        "text": "Field-programmable gate array",
         "category": "wiki",
         "note": "",
         "author": "",

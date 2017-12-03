@@ -3,37 +3,38 @@
   "tag": "",
   "id": 348,
   "map": {
-    "text": "recursion",
+    "text": "Recursion",
     "nodes": [
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://medium.freecodecamp.com/recursion-recursion-recursion-4db8890a674d",
-            "text": "16: recursion, recursion, recursion  ️",
+            "text": "Recursion, recursion, recursion  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "tail recursion  ️",
+            "text": "Tail recursion  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/recursion/tail-recursion",
-                "text": "tail recursion  ️",
+                "text": "Tail recursion  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +50,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=Mv9NEXX1VHc",
-            "text": "1. what is recursion?",
+            "text": "What is recursion?",
             "category": "video",
             "note": "",
             "author": "",
@@ -60,7 +61,7 @@
           },
           {
             "url": "https://www.reddit.com/r/learnprogramming/comments/3dmyap/wrapping_my_head_around_recursion/ct6sfcz/",
-            "text": "1. example of recursion",
+            "text": "Example of recursion",
             "category": "reddit",
             "note": "",
             "author": "",
@@ -71,7 +72,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=i7sm9dzFtEI",
-            "text": "2. the most difficult program to compute?",
+            "text": "The most difficult program to compute?",
             "category": "video",
             "note": "",
             "author": "",
@@ -87,7 +88,7 @@
     "resources": [
       {
         "url": "https://github.com/passy/awesome-recursion-schemes",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -98,7 +99,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Recursion_(computer_science)",
-        "text": "recursion",
+        "text": "Recursion",
         "category": "wiki",
         "note": "",
         "author": "",

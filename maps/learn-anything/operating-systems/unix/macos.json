@@ -3,19 +3,19 @@
   "tag": "macOS",
   "id": 1303,
   "map": {
-    "text": "macOS",
+    "text": "MacOS",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "launchd  ️",
+            "text": "Launchd  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/macos/launchd",
-                "text": "launchd  ️",
+                "text": "Launchd  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "automation  ️",
+            "text": "Automation  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/macos/automation",
-                "text": "automation  ️",
+                "text": "Automation  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -46,12 +46,12 @@
             "author": ""
           },
           {
-            "text": "apps  ️",
+            "text": "Apps  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/macos/apps",
-                "text": "apps  ️",
+                "text": "Apps  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -64,12 +64,12 @@
             "author": ""
           },
           {
-            "text": "cocoa  ️",
+            "text": "Cocoa  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/swift/apple-frameworks/cocoa",
-                "text": "cocoa  ️",
+                "text": "Cocoa  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -85,7 +85,7 @@
         "resources": [
           {
             "url": "https://brew.sh/",
-            "text": "1. brew package manager",
+            "text": "Brew package manager",
             "note": "",
             "author": "",
             "score": {
@@ -95,7 +95,7 @@
           },
           {
             "url": "http://osxbook.com/",
-            "text": "1. macOS internals",
+            "text": "MacOS internals",
             "note": "",
             "author": "",
             "score": {
@@ -107,47 +107,50 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://mattgemmell.com/mac-keyboard-shortcuts/",
-                    "text": "14: mac keyboard shortcuts  ️",
+                    "text": "Mac keyboard shortcuts  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "14"
                   },
                   {
                     "url": "http://martiancraft.com/blog/2016/05/ios-to-mac-1/",
-                    "text": "16: migrating from iOS to mac   —   part I: app anatomy  ️",
+                    "text": "Migrating from iOS to mac   —   part I: app anatomy  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   },
                   {
                     "url": "https://medium.com/@NikitaVoloboev/take-control-of-your-trackpad-on-macos-45c581f542e0",
-                    "text": "16: take control of your trackpad on macOS  ️",
+                    "text": "Take control of your trackpad on macOS  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   }
                 ],
                 "author": ""
@@ -156,7 +159,7 @@
             "resources": [
               {
                 "url": "https://github.com/aharris88/awesome-macos-screensavers",
-                "text": "awesome macOS screensavers",
+                "text": "Awesome macOS screensavers",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -172,7 +175,7 @@
         "resources": [
           {
             "url": "http://pewpewthespells.com/re.html",
-            "text": "reverse engineering resources",
+            "text": "Reverse engineering resources",
             "note": "",
             "author": "",
             "score": {
@@ -182,7 +185,7 @@
           },
           {
             "url": "https://github.com/liyanage/macosx-shell-scripts",
-            "text": "macOS shell scripts",
+            "text": "MacOS shell scripts",
             "category": "github",
             "note": "",
             "author": "",
@@ -193,7 +196,7 @@
           },
           {
             "url": "https://github.com/herrbischoff/awesome-osx-command-line",
-            "text": "awesome macOS command line",
+            "text": "Awesome macOS command line",
             "category": "github",
             "note": "",
             "author": "",
@@ -204,7 +207,7 @@
           },
           {
             "url": "https://github.com/sindresorhus/quick-look-plugins",
-            "text": "quick look plugins",
+            "text": "Quick look plugins",
             "category": "github",
             "note": "",
             "author": "",
@@ -215,7 +218,7 @@
           },
           {
             "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
-            "text": "macOS security and privacy guide",
+            "text": "MacOS security and privacy guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -226,7 +229,7 @@
           },
           {
             "url": "https://github.com/jaywcjlove/awesome-mac",
-            "text": "awesome mac",
+            "text": "Awesome mac",
             "category": "github",
             "note": "",
             "author": "",
@@ -237,7 +240,7 @@
           },
           {
             "url": "https://github.com/herrbischoff/awesome-osx-command-line",
-            "text": "awesome OS X command line",
+            "text": "Awesome OS X command line",
             "category": "github",
             "note": "",
             "author": "",
@@ -248,7 +251,7 @@
           },
           {
             "url": "https://github.com/morgant/tools-osx",
-            "text": "tools for macOS",
+            "text": "Tools for macOS",
             "category": "github",
             "note": "",
             "author": "",
@@ -264,7 +267,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/MacOS/",
-        "text": "",
+        "text": "/r/MacOS",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -286,7 +289,7 @@
       },
       {
         "url": "https://github.com/iCHAIT/awesome-macOS",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -297,7 +300,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Macintosh_operating_systems",
-        "text": "macOS",
+        "text": "MacOS",
         "category": "wiki",
         "note": "",
         "author": "",

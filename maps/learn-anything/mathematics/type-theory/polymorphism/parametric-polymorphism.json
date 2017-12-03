@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1151,
   "map": {
-    "text": "parametric polymorphism",
+    "text": "Parametric polymorphism",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parametric_Polymorphism",
-            "text": "1. explanation",
+            "text": "Explanation",
             "note": "",
             "author": "",
             "score": {
@@ -23,22 +23,23 @@
         "author": ""
       },
       {
-        "text": "talks",
+        "text": "Talks",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2017/07/impredicative-Jul17.pdf",
-                "text": "17: guarded impredicative polymorphism",
+                "text": "Guarded impredicative polymorphism",
                 "category": "paper",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -47,14 +48,15 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=Tc9vs_HFHVo",
-            "text": "16: adventures in parametric polymorphism",
+            "text": "Adventures in parametric polymorphism",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
@@ -63,7 +65,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Parametric_polymorphism",
-        "text": "parametric polymorphism",
+        "text": "Parametric polymorphism",
         "category": "wiki",
         "note": "",
         "author": "",

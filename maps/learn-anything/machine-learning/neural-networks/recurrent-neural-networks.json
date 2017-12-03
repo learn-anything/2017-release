@@ -3,33 +3,35 @@
   "tag": "",
   "id": 786,
   "map": {
-    "text": "recurrent neural networks",
+    "text": "Recurrent neural networks",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/abs/1607.03474",
-            "text": "16: recurrent highway networks",
+            "text": "Recurrent highway networks",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           },
           {
             "url": "https://arxiv.org/abs/1606.06630",
-            "text": "16: on multiplicative integration with recurrent neural networks",
+            "text": "On multiplicative integration with recurrent neural networks",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           },
           {
             "url": "https://github.com/pangolulu/rnn-from-scratch",
@@ -46,7 +48,7 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -86,12 +88,12 @@
             "author": ""
           },
           {
-            "text": "bidirectional recurrent neural networks",
+            "text": "Bidirectional recurrent neural networks",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Bidirectional_recurrent_neural_networks",
-                "text": "bidirectional recurrent neural networks",
+                "text": "Bidirectional recurrent neural networks",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -107,7 +109,7 @@
         "resources": [
           {
             "url": "https://github.com/silicon-valley-data-science/RNN-Tutorial",
-            "text": "1. a short TensorFlow tutorial",
+            "text": "A short TensorFlow tutorial",
             "category": "github",
             "note": "",
             "author": "",
@@ -118,7 +120,7 @@
           },
           {
             "url": "http://distill.pub/2016/augmented-rnns/",
-            "text": "1. attention and augmented recurrent neural networks  ️",
+            "text": "Attention and augmented recurrent neural networks  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -129,7 +131,7 @@
           },
           {
             "url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
-            "text": "1. unreasonable effectiveness of recurrent neural networks   ️",
+            "text": "Unreasonable effectiveness of recurrent neural networks   ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -140,7 +142,7 @@
           },
           {
             "url": "http://nikhilbuduma.com/2015/01/11/a-deep-dive-into-recurrent-neural-networks/",
-            "text": "1. deep dive into recurrent neural nets  ️",
+            "text": "Deep dive into recurrent neural nets  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -156,7 +158,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Recurrent_neural_network",
-        "text": "recurrent neural networks",
+        "text": "Recurrent neural networks",
         "category": "wiki",
         "note": "",
         "author": "",

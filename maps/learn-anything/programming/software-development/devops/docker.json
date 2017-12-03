@@ -3,19 +3,19 @@
   "tag": "",
   "id": 1717,
   "map": {
-    "text": "docker",
+    "text": "Docker",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "docker swarm  ️",
+            "text": "Docker swarm  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/software-development/devops/docker/docker-swarm",
-                "text": "docker swarm  ️",
+                "text": "Docker swarm  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -31,7 +31,7 @@
         "resources": [
           {
             "url": "http://blog.brew.com.hk/introduction-to-docker/",
-            "text": "1. comprehensive introduction to docker  ️",
+            "text": "Comprehensive introduction to docker  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -42,7 +42,7 @@
           },
           {
             "url": "https://docs.docker.com/get-started/",
-            "text": "1. get started with docker",
+            "text": "Get started with docker",
             "note": "",
             "author": "",
             "score": {
@@ -52,7 +52,7 @@
           },
           {
             "url": "https://github.com/docker/labs/blob/master/beginner/readme.md",
-            "text": "1. docker for beginners",
+            "text": "Docker for beginners",
             "category": "github",
             "note": "",
             "author": "",
@@ -63,7 +63,7 @@
           },
           {
             "url": "https://github.com/gravitational/workshop",
-            "text": "1. docker and kubernetes training",
+            "text": "Docker and kubernetes training",
             "category": "github",
             "note": "",
             "author": "",
@@ -74,7 +74,7 @@
           },
           {
             "url": "https://katacoda.com/courses/docker",
-            "text": "1. learn docker interactively",
+            "text": "Learn docker interactively",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -85,7 +85,7 @@
           },
           {
             "url": "http://labs.play-with-docker.com/",
-            "text": "1. docker playground",
+            "text": "Docker playground",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -96,7 +96,7 @@
           },
           {
             "url": "https://github.com/Citrix-TechSpecialist/Docker-101",
-            "text": "1. docker 101",
+            "text": "Docker 101",
             "category": "github",
             "note": "",
             "author": "",
@@ -109,12 +109,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/docker/community",
-            "text": "docker community",
+            "text": "Docker community",
             "category": "github",
             "note": "",
             "author": "",
@@ -125,7 +125,7 @@
           },
           {
             "url": "https://github.com/docker/labs/",
-            "text": "docker tutorials",
+            "text": "Docker tutorials",
             "category": "github",
             "note": "",
             "author": "",
@@ -136,7 +136,7 @@
           },
           {
             "url": "https://github.com/shekhargulati/good-docker-resources",
-            "text": "good docker resources",
+            "text": "Good docker resources",
             "category": "github",
             "note": "",
             "author": "",
@@ -147,7 +147,7 @@
           },
           {
             "url": "https://github.com/eon01/DockerCheatSheet",
-            "text": "docker cheat sheet",
+            "text": "Docker cheat sheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -163,7 +163,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/docker/",
-        "text": "",
+        "text": "/r/docker",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -173,19 +173,8 @@
         }
       },
       {
-        "url": "https://twitter.com/Docker?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-        "text": "",
-        "category": "",
-        "note": "",
-        "author": "",
-        "score": {
-          "up": 0,
-          "down": 0
-        }
-      },
-      {
         "url": "https://github.com/veggiemonk/awesome-docker",
-        "text": "",
+        "text": "Veggiemonk/awesome-docker",
         "category": "github",
         "note": "",
         "author": "",
@@ -196,7 +185,7 @@
       },
       {
         "url": "https://github.com/veggiemonk/awesome-docker",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -207,7 +196,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Docker_(software)",
-        "text": "docker",
+        "text": "Docker",
         "category": "wiki",
         "note": "",
         "author": "",

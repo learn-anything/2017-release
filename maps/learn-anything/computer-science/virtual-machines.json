@@ -3,28 +3,29 @@
   "tag": "",
   "id": 352,
   "map": {
-    "text": "virtual machine",
+    "text": "Virtual machine",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=Hqw57GJSrac",
-            "text": "16: bits of advice for the vm writer",
+            "text": "Bits of advice for the vm writer",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -49,7 +50,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/playlist?list=PLJq3XDLIJkib2h2fObomdFRZrQeJg4UIW",
-            "text": "1. virtual machine summer school",
+            "text": "Virtual machine summer school",
             "category": "video",
             "note": "",
             "author": "",
@@ -65,7 +66,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Virtual_machine",
-        "text": "virtual machine",
+        "text": "Virtual machine",
         "category": "wiki",
         "note": "",
         "author": "",

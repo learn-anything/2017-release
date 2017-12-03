@@ -3,19 +3,19 @@
   "tag": "fuchsia OS",
   "id": 1278,
   "map": {
-    "text": "google Fuchsia",
+    "text": "Google Fuchsia",
     "note": "",
     "nodes": [
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "https://fuchsia.googlesource.com/docs/+/master/sandboxing.md",
-                "text": "sandboxing in Fuchsia",
+                "text": "Sandboxing in Fuchsia",
                 "note": "",
                 "author": "",
                 "score": {
@@ -30,25 +30,26 @@
         "resources": [
           {
             "url": "https://techspecs.blog/blog/2017/2/14/googles-not-so-secret-new-os",
-            "text": "17: Google’s not-so-secret new os  ️",
+            "text": "Google’s not-so-secret new os  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://fuchsia.googlesource.com/docs/+/master/getting_started.md",
-            "text": "1. getting started",
+            "text": "Getting started",
             "note": "",
             "author": "",
             "score": {
@@ -63,7 +64,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Google_Fuchsia",
-        "text": "google Fuchsia",
+        "text": "Google Fuchsia",
         "category": "wiki",
         "note": "",
         "author": "",

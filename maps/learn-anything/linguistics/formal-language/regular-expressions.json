@@ -3,16 +3,16 @@
   "tag": "",
   "id": 713,
   "map": {
-    "text": "regular expressions",
+    "text": "Regular expressions",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/zeeshanu/learn-regex",
-            "text": "1. learn regex",
+            "text": "Learn regex",
             "category": "github",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "http://www.rexegg.com/",
-            "text": "1. regex tutorial",
+            "text": "Regex tutorial",
             "note": "",
             "author": "",
             "score": {
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://www.codeproject.com/articles/9099/the-minute-regex-tutorial",
-            "text": "1. 30 minute regex tutorial",
+            "text": "30 minute regex tutorial",
             "note": "",
             "author": "",
             "score": {
@@ -43,7 +43,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=_6QBBT9Sq1U",
-            "text": "1. understanding and using regular expressions",
+            "text": "Understanding and using regular expressions",
             "category": "video",
             "note": "",
             "author": "",
@@ -54,7 +54,7 @@
           },
           {
             "url": "http://www.goodreads.com/book/show/583628.Mastering_Regular_Expressions",
-            "text": "2. mastering regular expressions",
+            "text": "Mastering regular expressions",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -67,33 +67,35 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://swtch.com/~rsc/regexp/regexp1.html",
-                "text": "07: regular expression matching can be simple and fast  ️",
+                "text": "Regular expression matching can be simple and fast  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "07"
               },
               {
                 "url": "https://swtch.com/%7Ersc/regexp/regexp4.html",
-                "text": "12: how google code search worked  ️",
+                "text": "How google code search worked  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "12"
               }
             ],
             "author": ""
@@ -102,7 +104,7 @@
         "resources": [
           {
             "url": "https://regex101.com/",
-            "text": "regex101",
+            "text": "Regex101",
             "note": "",
             "author": "",
             "score": {
@@ -112,7 +114,7 @@
           },
           {
             "url": "https://regexcrossword.com/",
-            "text": "regex crossword",
+            "text": "Regex crossword",
             "note": "",
             "author": "",
             "score": {
@@ -122,7 +124,7 @@
           },
           {
             "url": "http://regexlib.com/(X(1)A(2CWF2KXUX7c9221yJq7Bv0iaffj5UBl227yDw6UG255ueG8Lup6BWQSn7TxJtU0w2Gj2tFhxuYS_OMmTxjw9lHGh78-5T94_oHYMy-XKbR3CwS2l_p5v-i6-6np-vdcK4AxqP-DAxQXWViuZZs2Pn-RyxOMx3wpNIegAnYJO8b0GBv_JmVn5fIFfRvwPMt7L0))/CheatSheet.aspx?AspxAutoDetectCookieSupport=1",
-            "text": "regular expression cheat sheet",
+            "text": "Regular expression cheat sheet",
             "note": "",
             "author": "",
             "score": {
@@ -132,7 +134,7 @@
           },
           {
             "url": "https://alf.nu/RegexGolf",
-            "text": "regex golf",
+            "text": "Regex golf",
             "note": "",
             "author": "",
             "score": {
@@ -157,7 +159,7 @@
     "resources": [
       {
         "url": "https://github.com/aloisdg/awesome-regex",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -168,7 +170,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Regular_expression",
-        "text": "regular expressions",
+        "text": "Regular expressions",
         "category": "wiki",
         "note": "",
         "author": "",

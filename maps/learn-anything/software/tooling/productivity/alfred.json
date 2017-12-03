@@ -3,20 +3,20 @@
   "tag": "alfred macOS launcher",
   "id": 1808,
   "map": {
-    "text": "alfred",
+    "text": "Alfred",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "libraries",
+            "text": "Libraries",
             "note": "- help you save time with creating new workflows",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/deanishe/alfred-workflow",
-                "text": "alfred workflow",
+                "text": "Alfred workflow",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -27,7 +27,7 @@
               },
               {
                 "url": "https://gogs.deanishe.net/deanishe/awgo",
-                "text": "awgo",
+                "text": "Awgo",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -38,7 +38,7 @@
               },
               {
                 "url": "https://github.com/pascalw/go-alfred",
-                "text": "go alfred",
+                "text": "Go alfred",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -49,7 +49,7 @@
               },
               {
                 "url": "https://github.com/jason0x43/go-alfred",
-                "text": "go alfred by jason",
+                "text": "Go alfred by jason",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -60,7 +60,7 @@
               },
               {
                 "url": "https://www.alfredforum.com/topic/10227-workflow-libraries-and-helpers/#comment-51636",
-                "text": "libraries",
+                "text": "Libraries",
                 "note": "",
                 "author": "",
                 "score": {
@@ -72,12 +72,12 @@
             "author": ""
           },
           {
-            "text": "workflows  ️",
+            "text": "Workflows  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/software/tooling/productivity/alfred/workflows",
-                "text": "workflows  ️",
+                "text": "Workflows  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -93,7 +93,7 @@
         "resources": [
           {
             "url": "https://www.alfredapp.com/help/getting-started/",
-            "text": "1. getting started with Alfred",
+            "text": "Getting started with Alfred",
             "note": "",
             "author": "",
             "score": {
@@ -105,12 +105,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.alfredforum.com/",
-            "text": "alfred forum",
+            "text": "Alfred forum",
             "note": "",
             "author": "",
             "score": {
@@ -120,7 +120,7 @@
           },
           {
             "url": "https://www.alfredapp.com/help/workflows/inputs/script-filter/json/",
-            "text": "script filter JSON format",
+            "text": "Script filter JSON format",
             "note": "",
             "author": "",
             "score": {
@@ -130,7 +130,7 @@
           },
           {
             "url": "https://www.alfredforum.com/topic/9070-how-to-workflowenvironment-variables/",
-            "text": "how to use workflow / environment variables",
+            "text": "How to use workflow / environment variables",
             "note": "",
             "author": "",
             "score": {
@@ -145,7 +145,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Alfred/",
-        "text": "",
+        "text": "/r/Alfred",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -156,7 +156,7 @@
       },
       {
         "url": "https://www.alfredapp.com/powerpack/",
-        "text": "powerpack",
+        "text": "Powerpack",
         "note": "",
         "author": "",
         "score": {
@@ -166,7 +166,7 @@
       },
       {
         "url": "https://www.alfredapp.com/",
-        "text": "alfred",
+        "text": "Alfred",
         "note": "",
         "author": "",
         "score": {

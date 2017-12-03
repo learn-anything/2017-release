@@ -3,25 +3,26 @@
   "tag": "F",
   "id": 1595,
   "map": {
-    "text": "f sharp",
+    "text": "F sharp",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://hackernoon.com/why-isnt-f-the-king-of-net-2a9a1963e087",
-                "text": "16: why isn’t F# the king of .NET?  ️",
+                "text": "Why isn’t F# the king of .NET?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "https://github.com/fsprojects/awesome-fsharp",
-            "text": "awesome f#",
+            "text": "Awesome f#",
             "category": "github",
             "note": "",
             "author": "",
@@ -43,13 +44,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.tryfsharp.org/Learn/getting-started",
-            "text": "1. getting started with F#",
+            "text": "Getting started with F#",
             "note": "",
             "author": "",
             "score": {
@@ -64,7 +65,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/fsharp/",
-        "text": "",
+        "text": "/r/fsharp",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -75,7 +76,7 @@
       },
       {
         "url": "https://github.com/fsharp/fsharp",
-        "text": "",
+        "text": "Fsharp/fsharp",
         "category": "github",
         "note": "",
         "author": "",
@@ -86,7 +87,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/F_Sharp_(programming_language)",
-        "text": "f sharp",
+        "text": "F sharp",
         "category": "wiki",
         "note": "",
         "author": "",

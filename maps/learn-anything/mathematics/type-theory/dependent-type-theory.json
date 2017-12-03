@@ -3,18 +3,18 @@
   "tag": "",
   "id": 1149,
   "map": {
-    "text": "dependent type theory",
+    "text": "Dependent type theory",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "agda programming language  ️",
+            "text": "Agda programming language  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/agda",
-                "text": "agda programming language  ️",
+                "text": "Agda programming language  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -30,7 +30,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=y-lX1mx5_i0&amp;list=PLt7hcIEdZLAnbUxKaG7XIynEWrozOBtXU",
-            "text": "1. introduction to dependent type theory",
+            "text": "Introduction to dependent type theory",
             "category": "video",
             "note": "",
             "author": "",
@@ -43,19 +43,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://cs.brynmawr.edu/%7Erae/papers/2016/thesis/eisenberg-thesis.pdf",
-            "text": "16: dependent types in haskell: theory and practice",
+            "text": "Dependent types in haskell: theory and practice",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
@@ -64,7 +65,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/dependent_types/",
-        "text": "",
+        "text": "/r/dependent_types",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -75,7 +76,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Dependent_type",
-        "text": "dependent type theory",
+        "text": "Dependent type theory",
         "category": "wiki",
         "note": "",
         "author": "",

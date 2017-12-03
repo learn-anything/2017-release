@@ -3,26 +3,27 @@
   "tag": "",
   "id": 309,
   "map": {
-    "text": "computational complexity theory",
+    "text": "Computational complexity theory",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/pdf/1412.0784v1.pdf",
-            "text": "14: braid is undecidable",
+            "text": "Braid is undecidable",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "14"
           },
           {
             "url": "http://www.scottaaronson.com/papers/ctc.pdf",
-            "text": "closed timelike curves make quantum and classical computing equivalent",
+            "text": "Closed timelike curves make quantum and classical computing equivalent",
             "category": "paper",
             "note": "",
             "author": "",
@@ -33,20 +34,21 @@
           },
           {
             "url": "https://arxiv.org/pdf/1203.1895v3.pdf",
-            "text": "15: classic nintendo games are (computationally) hard",
+            "text": "Classic nintendo games are (computationally) hard",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -108,7 +110,7 @@
         "resources": [
           {
             "url": "http://theory.cs.princeton.edu/complexity/book.pdf",
-            "text": "1. computational complexity: a modern approach",
+            "text": "Computational complexity: a modern approach",
             "category": "free book",
             "note": "",
             "author": "",
@@ -124,7 +126,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Computational_complexity_theory",
-        "text": "computational complexity theory",
+        "text": "Computational complexity theory",
         "category": "wiki",
         "note": "",
         "author": "",

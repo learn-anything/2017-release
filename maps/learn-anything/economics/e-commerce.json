@@ -3,31 +3,32 @@
   "tag": "e-commerce",
   "id": 476,
   "map": {
-    "text": "e-commerce",
+    "text": "E-commerce",
     "nodes": [
       {
-        "text": "talks",
+        "text": "Talks",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=3OcNdxPhAUk&amp;t=1s",
-            "text": "13: e-commerce in China and around the world",
+            "text": "E-commerce in China and around the world",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "13"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "platforms",
+            "text": "Platforms",
             "nodes": [
               {
                 "text": "Magento 2  ️",
@@ -55,7 +56,7 @@
         "resources": [
           {
             "url": "http://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwChttp://www.qubit.com/sites/default/files/pdf/qubit_meta_analysis.pdf?utm_source=hackernews&amp;utm_medium=forum&amp;utm_campaign=2017Q2-Global-PwC",
-            "text": "1. what works in e-commerce: meta-analysis of 6700 online experiments",
+            "text": "What works in e-commerce: meta-analysis of 6700 online experiments",
             "category": "paper",
             "note": "",
             "author": "",
@@ -71,7 +72,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/ecommerce/",
-        "text": "",
+        "text": "/r/ecommerce",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -82,7 +83,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/E-commerce",
-        "text": "e-commerce",
+        "text": "E-commerce",
         "category": "wiki",
         "note": "",
         "author": "",

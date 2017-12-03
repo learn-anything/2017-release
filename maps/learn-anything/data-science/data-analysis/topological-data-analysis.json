@@ -3,15 +3,15 @@
   "tag": "",
   "id": 386,
   "map": {
-    "text": "topological data analysis",
+    "text": "Topological data analysis",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/pdf/1609.08227.pdf",
-            "text": "1. introduction",
+            "text": "Introduction",
             "category": "paper",
             "note": "",
             "author": "",
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.jmlr.org/papers/volume16/bubenik15a/bubenik15a.pdf",
-            "text": "15: statistical topological data analysis using persistence landscapes",
+            "text": "Statistical topological data analysis using persistence landscapes",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Topological_data_analysis",
-        "text": "topological data analysis",
+        "text": "Topological data analysis",
         "category": "wiki",
         "note": "",
         "author": "",

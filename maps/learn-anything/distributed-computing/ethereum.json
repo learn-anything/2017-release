@@ -3,37 +3,39 @@
   "tag": "",
   "id": 446,
   "map": {
-    "text": "ethereum",
+    "text": "Ethereum",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.youtube.com/watch?v=JA-UkjnapAU&amp;feature=youtu.be",
-                "text": "15: ethereum golem",
+                "text": "Ethereum golem",
                 "category": "video",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "https://www.youtube.com/watch?v=KCQP02LHjGY",
-                "text": "17: Vitalik Buterin -  the mastermind behind ethereum",
+                "text": "Vitalik Buterin -  the mastermind behind ethereum",
                 "category": "video",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -42,7 +44,7 @@
         "resources": [
           {
             "url": "https://www.reddit.com/r/ethereum/comments/3vxvlx/starter_guide_almost_all_the_links_youll_need_to/",
-            "text": "ethereum starter guide",
+            "text": "Ethereum starter guide",
             "category": "reddit",
             "note": "",
             "author": "",
@@ -53,7 +55,7 @@
           },
           {
             "url": "https://github.com/Scanate/Ethlist",
-            "text": "comprehensive ethereum reading list",
+            "text": "Comprehensive ethereum reading list",
             "category": "github",
             "note": "",
             "author": "",
@@ -64,7 +66,7 @@
           },
           {
             "url": "https://github.com/btomashvili/awesome-ethereum",
-            "text": "awesome ethereum",
+            "text": "Awesome ethereum",
             "category": "github",
             "note": "",
             "author": "",
@@ -75,7 +77,7 @@
           },
           {
             "url": "https://github.com/pirapira/awesome-ethereum-virtual-machine",
-            "text": "awesome ethereum virtual machine",
+            "text": "Awesome ethereum virtual machine",
             "category": "github",
             "note": "",
             "author": "",
@@ -88,15 +90,15 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "solidity  ️",
+            "text": "Solidity  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/solidity",
-                "text": "solidity  ️",
+                "text": "Solidity  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -109,12 +111,12 @@
             "author": ""
           },
           {
-            "text": "ether",
+            "text": "Ether",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.ethereum.org/ether",
-                "text": "ether",
+                "text": "Ether",
                 "note": "",
                 "author": "",
                 "score": {
@@ -126,12 +128,12 @@
             "author": ""
           },
           {
-            "text": "smart contracts  ️",
+            "text": "Smart contracts  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/distributed-computing/ethereum/smart-contracts",
-                "text": "smart contracts  ️",
+                "text": "Smart contracts  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -147,7 +149,7 @@
         "resources": [
           {
             "url": "https://ethereum.stackexchange.com/questions/45/how-would-i-explain-ethereum-to-a-non-technical-friend",
-            "text": "1. what is ethereum   ️",
+            "text": "What is ethereum   ️",
             "category": "stack exchange",
             "note": "",
             "author": "",
@@ -158,7 +160,7 @@
           },
           {
             "url": "http://whatthefuckisethereum.com/",
-            "text": "1. WTF is ethereum  ️",
+            "text": "WTF is ethereum  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -169,7 +171,7 @@
           },
           {
             "url": "http://fermatslibrary.com/s/ethereum-a-next-generation-smart-contract-and-decentralized-application-platform",
-            "text": "1. ethereum white paper",
+            "text": "Ethereum white paper",
             "category": "paper",
             "note": "",
             "author": "",
@@ -180,7 +182,7 @@
           },
           {
             "url": "https://blockgeeks.com/guides/what-is-ethereum/",
-            "text": "1. step-by-step beginners guide",
+            "text": "Step-by-step beginners guide",
             "note": "",
             "author": "",
             "score": {
@@ -190,7 +192,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=j23HnORQXvs",
-            "text": "1. ethereum: the world computer",
+            "text": "Ethereum: the world computer",
             "category": "video",
             "note": "",
             "author": "",
@@ -206,7 +208,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/ethereum/",
-        "text": "",
+        "text": "/r/ethereum",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -228,7 +230,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Ethereum",
-        "text": "ethereum",
+        "text": "Ethereum",
         "category": "wiki",
         "note": "",
         "author": "",

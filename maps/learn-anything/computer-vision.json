@@ -3,25 +3,26 @@
   "tag": "",
   "id": 360,
   "map": {
-    "text": "computer vision",
+    "text": "Computer vision",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://alexgkendall.com/computer_vision/have_we_forgotten_about_geometry_in_computer_vision/",
-                "text": "17: have we forgotten about geometry in computer vision?  ️",
+                "text": "Have we forgotten about geometry in computer vision?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "https://github.com/kjw0612/awesome-deep-vision",
-            "text": "awesome deep vision",
+            "text": "Awesome deep vision",
             "category": "github",
             "note": "",
             "author": "",
@@ -41,7 +42,7 @@
           },
           {
             "url": "https://github.com/pytorch/vision",
-            "text": "datasets, transforms and models specific to computer vision",
+            "text": "Datasets, transforms and models specific to computer vision",
             "category": "github",
             "note": "",
             "author": "",
@@ -52,7 +53,7 @@
           },
           {
             "url": "https://github.com/eduardolundgren/tracking.js",
-            "text": "tracking js",
+            "text": "Tracking js",
             "category": "github",
             "note": "",
             "author": "",
@@ -63,7 +64,7 @@
           },
           {
             "url": "https://github.com/junyanz/CatPapers",
-            "text": "vision, learning and graphics papers on cats",
+            "text": "Vision, learning and graphics papers on cats",
             "category": "github",
             "note": "",
             "author": "",
@@ -76,7 +77,7 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -98,12 +99,12 @@
             "author": ""
           },
           {
-            "text": "facial recognition  ️",
+            "text": "Facial recognition  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-vision/facial-recognition",
-                "text": "facial recognition  ️",
+                "text": "Facial recognition  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -116,12 +117,12 @@
             "author": ""
           },
           {
-            "text": "augmented reality  ️",
+            "text": "Augmented reality  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-vision/augmented-reality",
-                "text": "augmented reality  ️",
+                "text": "Augmented reality  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -134,12 +135,12 @@
             "author": ""
           },
           {
-            "text": "optical character recognition  ️",
+            "text": "Optical character recognition  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-vision/optical-character-recognition",
-                "text": "optical character recognition  ️",
+                "text": "Optical character recognition  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -152,12 +153,12 @@
             "author": ""
           },
           {
-            "text": "one-shot learning  ️",
+            "text": "One-shot learning  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-vision/one-shot-learning",
-                "text": "one-shot learning  ️",
+                "text": "One-shot learning  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -173,7 +174,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA",
-            "text": "1. cs231",
+            "text": "Cs231",
             "category": "course",
             "note": "",
             "author": "",
@@ -184,7 +185,7 @@
           },
           {
             "url": "http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf",
-            "text": "1. computer vision: algorithms and applications",
+            "text": "Computer vision: algorithms and applications",
             "category": "free book",
             "note": "",
             "author": "",
@@ -195,7 +196,7 @@
           },
           {
             "url": "http://www.naturalimagestatistics.net/",
-            "text": "1. natural image statistics",
+            "text": "Natural image statistics",
             "category": "free book",
             "note": "",
             "author": "",
@@ -211,7 +212,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/computervision/",
-        "text": "",
+        "text": "/r/computervision",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -222,7 +223,7 @@
       },
       {
         "url": "https://github.com/jbhuang0604/awesome-computer-vision",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -233,7 +234,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Computer_vision",
-        "text": "computer vision",
+        "text": "Computer vision",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,18 +3,18 @@
   "tag": "",
   "id": 345,
   "map": {
-    "text": "type systems",
+    "text": "Type systems",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "type classes  ️",
+            "text": "Type classes  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/programming-language-theory/type-systems/type-classes",
-                "text": "type classes  ️",
+                "text": "Type classes  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -27,12 +27,12 @@
             "author": ""
           },
           {
-            "text": "gradual typing  ️",
+            "text": "Gradual typing  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/programming-language-theory/type-systems/gradual-typing",
-                "text": "gradual typing  ️",
+                "text": "Gradual typing  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -45,12 +45,12 @@
             "author": ""
           },
           {
-            "text": "type checking",
+            "text": "Type checking",
             "nodes": [],
             "resources": [
               {
                 "url": "http://wiki.c2.com/?TypeChecking",
-                "text": "type checking",
+                "text": "Type checking",
                 "note": "",
                 "author": "",
                 "score": {
@@ -65,7 +65,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=ozwFIuVfPsQ",
-            "text": "1. explanation",
+            "text": "Explanation",
             "category": "video",
             "note": "",
             "author": "",
@@ -76,7 +76,7 @@
           },
           {
             "url": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
-            "text": "1. propositions as types",
+            "text": "Propositions as types",
             "category": "paper",
             "note": "",
             "author": "",
@@ -89,19 +89,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "http://blog.felipe.rs/2017/07/07/where-do-type-systems-come-from/",
-            "text": "17: where do type systems come from  ️",
+            "text": "Where do type systems come from  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -110,7 +111,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Type_system",
-        "text": "type systems",
+        "text": "Type systems",
         "category": "wiki",
         "note": "",
         "author": "",

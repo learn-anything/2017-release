@@ -3,15 +3,15 @@
   "tag": "",
   "id": 1302,
   "map": {
-    "text": "launchd",
+    "text": "Launchd",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.launchd.info/",
-            "text": "1. introduction ",
+            "text": "Introduction",
             "note": "",
             "author": "",
             "score": {
@@ -21,7 +21,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=Ci9hh-LUdss",
-            "text": "1. launchd overview",
+            "text": "Launchd overview",
             "category": "video",
             "note": "",
             "author": "",
@@ -34,22 +34,23 @@
         "author": ""
       },
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://nathangrigg.com/2012/07/schedule-jobs-using-launchd",
-                "text": "12: schedule jobs using launchd  ️",
+                "text": "Schedule jobs using launchd  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "12"
               }
             ],
             "author": ""
@@ -58,7 +59,7 @@
         "resources": [
           {
             "url": "http://launched.zerowidth.com/",
-            "text": "launched",
+            "text": "Launched",
             "note": "",
             "author": "",
             "score": {
@@ -73,7 +74,7 @@
     "resources": [
       {
         "url": "http://www.launchd.info",
-        "text": "launchd",
+        "text": "Launchd",
         "note": "",
         "author": "",
         "score": {

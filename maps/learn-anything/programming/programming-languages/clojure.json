@@ -3,21 +3,21 @@
   "tag": "clojure programming language",
   "id": 1586,
   "map": {
-    "text": "clojure",
+    "text": "Clojure",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://cursive-ide.com/",
-                    "text": "cursive",
+                    "text": "Cursive",
                     "note": "",
                     "author": "",
                     "score": {
@@ -32,25 +32,27 @@
             "resources": [
               {
                 "url": "https://notamonadtutorial.com/how-to-earn-your-clojure-white-belt-7e7db68a71e5",
-                "text": "15: how to earn your clojure white belt  ️",
+                "text": "How to earn your clojure white belt  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "http://tonsky.me/blog/readable-clojure/",
-                "text": "17: readable clojure  ️",
+                "text": "Readable clojure  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -59,7 +61,7 @@
         "resources": [
           {
             "url": "https://aphyr.com/tags/Clojure-from-the-ground-up",
-            "text": "clojure from the ground up",
+            "text": "Clojure from the ground up",
             "note": "",
             "author": "",
             "score": {
@@ -71,16 +73,16 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "clojurescript  ️",
+            "text": "Clojurescript  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/clojure/clojurescript",
-                "text": "clojurescript  ️",
+                "text": "Clojurescript  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -96,7 +98,7 @@
         "resources": [
           {
             "url": "http://www.braveclojure.com/introduction/",
-            "text": "1. brave clojure",
+            "text": "Brave clojure",
             "category": "free book",
             "note": "",
             "author": "",
@@ -107,7 +109,7 @@
           },
           {
             "url": "http://www.clojurenewbieguide.com/",
-            "text": "1. clojure newbie guide  ️",
+            "text": "Clojure newbie guide  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -118,7 +120,7 @@
           },
           {
             "url": "http://www.4clojure.com/problems",
-            "text": "2. clojure problems",
+            "text": "Clojure problems",
             "note": "",
             "author": "",
             "score": {
@@ -133,7 +135,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Clojure/",
-        "text": "",
+        "text": "/r/Clojure",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -144,7 +146,7 @@
       },
       {
         "url": "https://github.com/clojure/clojure",
-        "text": "",
+        "text": "Clojure/clojure",
         "category": "github",
         "note": "",
         "author": "",
@@ -155,7 +157,7 @@
       },
       {
         "url": "https://github.com/trending/clojure",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -166,7 +168,7 @@
       },
       {
         "url": "https://github.com/razum2um/awesome-clojure",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -177,7 +179,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Clojure",
-        "text": "clojure",
+        "text": "Clojure",
         "category": "wiki",
         "note": "",
         "author": "",

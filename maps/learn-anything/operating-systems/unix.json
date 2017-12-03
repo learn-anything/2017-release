@@ -3,19 +3,19 @@
   "tag": "",
   "id": 1310,
   "map": {
-    "text": "unix",
+    "text": "Unix",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "macOS  ️",
+            "text": "MacOS  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/macos",
-                "text": "macOS  ️",
+                "text": "MacOS  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "shells  ️",
+            "text": "Shells  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/shells",
-                "text": "shells  ️",
+                "text": "Shells  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -46,12 +46,12 @@
             "author": ""
           },
           {
-            "text": "unix philosophy",
+            "text": "Unix philosophy",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Unix_philosophy",
-                "text": "unix philosophy",
+                "text": "Unix philosophy",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -64,13 +64,13 @@
             "author": ""
           },
           {
-            "text": "linux  ️",
+            "text": "Linux  ️",
             "note": "is a Unix-like computer operating system assembled under the model of free and open-source software development and distribution",
             "nodes": [],
             "resources": [
               {
                 "url": "/operating-systems/unix/linux",
-                "text": "linux  ️",
+                "text": "Linux  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -122,7 +122,7 @@
         "resources": [
           {
             "url": "http://www.oliverelliott.org/article/computing/tut_unix/",
-            "text": "1. introduction to unix",
+            "text": "Introduction to unix",
             "category": "free book",
             "note": "",
             "author": "",
@@ -133,7 +133,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=-rPPqm44xLs",
-            "text": "1. mainframes and the unix revolution",
+            "text": "Mainframes and the unix revolution",
             "category": "video",
             "note": "",
             "author": "",
@@ -146,18 +146,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://imgur.com/a/7osPZ",
-                    "text": "pretty unix",
+                    "text": "Pretty unix",
                     "category": "image",
                     "note": "",
                     "author": "",
@@ -173,7 +173,7 @@
             "resources": [
               {
                 "url": "https://github.com/substack/blog/blob/master/many_things.markdown",
-                "text": "many things  ️",
+                "text": "Many things  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -184,7 +184,7 @@
               },
               {
                 "url": "http://www.linusakesson.net/programming/tty/",
-                "text": "the TTY demystified  ️",
+                "text": "The TTY demystified  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -195,25 +195,27 @@
               },
               {
                 "url": "https://monkey.org/~marius/unix-tools-hints.html",
-                "text": "14: hints for writing unix tools  ️",
+                "text": "Hints for writing unix tools  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/",
-                "text": "17: writing a unix shell  ️",
+                "text": "Writing a unix shell  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -222,7 +224,7 @@
         "resources": [
           {
             "url": "https://www.spinellis.gr/blog/20170510/",
-            "text": "unix architecture evolution diagrams",
+            "text": "Unix architecture evolution diagrams",
             "note": "",
             "author": "",
             "score": {
@@ -232,7 +234,7 @@
           },
           {
             "url": "",
-            "text": "unix programmer’s manual",
+            "text": "Unix programmer’s manual",
             "note": "",
             "author": "",
             "score": {
@@ -258,7 +260,7 @@
       },
       {
         "url": "https://www.reddit.com/r/unix/",
-        "text": "",
+        "text": "/r/unix",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -269,7 +271,7 @@
       },
       {
         "url": "https://www.reddit.com/r/unixporn/",
-        "text": "unix porn",
+        "text": "Unix porn",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -280,7 +282,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Unix",
-        "text": "unix",
+        "text": "Unix",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,15 +3,15 @@
   "tag": "automated theory proving",
   "id": 1000,
   "map": {
-    "text": "automated theorem proving",
+    "text": "Automated theorem proving",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.cs.miami.edu/~tptp/OverviewOfATP.html",
-            "text": "1. what is automated theorem proving?",
+            "text": "What is automated theorem proving?",
             "note": "",
             "author": "",
             "score": {
@@ -21,7 +21,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=Nydg-N83VYc",
-            "text": "1. a survey of automated theorem proving",
+            "text": "A survey of automated theorem proving",
             "category": "video",
             "note": "",
             "author": "",
@@ -32,7 +32,7 @@
           },
           {
             "url": "https://www.cs.cmu.edu/~fp/courses/atp/handouts/atp.pdf",
-            "text": "1. automated theorem proving",
+            "text": "Automated theorem proving",
             "note": "",
             "author": "",
             "score": {
@@ -44,19 +44,20 @@
         "author": ""
       },
       {
-        "text": "papers",
+        "text": "Papers",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.karlin.mff.cuni.cz/~stanovsk/math/qptp.pdf",
-            "text": "10: automated theorem proving in Quaigroup and loop theory",
+            "text": "Automated theorem proving in Quaigroup and loop theory",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "10"
           }
         ],
         "author": ""
@@ -65,7 +66,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Automated_theorem_proving",
-        "text": "automated theorem proving",
+        "text": "Automated theorem proving",
         "category": "wiki",
         "note": "",
         "author": "",

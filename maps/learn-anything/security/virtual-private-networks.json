@@ -3,21 +3,21 @@
   "tag": "",
   "id": 1782,
   "map": {
-    "text": "virtual private network",
+    "text": "Virtual private network",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://iadgov.github.io/goSecure/documentation.html",
-                    "text": "goSecure",
+                    "text": "GoSecure",
                     "note": "",
                     "author": "",
                     "score": {
@@ -32,14 +32,15 @@
             "resources": [
               {
                 "url": "https://torrentfreak.com/vpn-services-anonymous-review-2017-170304/",
-                "text": "17: which vpn services keep you anonymous in 2017?  ️",
+                "text": "Which vpn services keep you anonymous in 2017?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -48,7 +49,7 @@
         "resources": [
           {
             "url": "https://thatoneprivacysite.net/vpn-comparison-chart/",
-            "text": "detailed vpn comparison chart",
+            "text": "Detailed vpn comparison chart",
             "note": "",
             "author": "",
             "score": {
@@ -58,7 +59,7 @@
           },
           {
             "url": "https://www.reddit.com/r/VPN/comments/4iho8e/that_one_privacy_guys_guide_to_choosing_the_best/",
-            "text": "guide to choosing the best vpn (for you)",
+            "text": "Guide to choosing the best vpn (for you)",
             "category": "reddit",
             "note": "",
             "author": "",
@@ -71,13 +72,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://thatoneprivacysite.net/choosing-the-best-vpn-for-you/",
-            "text": "1. choosing a VPN",
+            "text": "Choosing a VPN",
             "note": "",
             "author": "",
             "score": {
@@ -92,7 +93,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/VPN/",
-        "text": "",
+        "text": "/r/VPN",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -103,7 +104,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Virtual_private_network",
-        "text": "virtual private network",
+        "text": "Virtual private network",
         "category": "wiki",
         "note": "",
         "author": "",

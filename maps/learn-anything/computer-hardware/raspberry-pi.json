@@ -3,13 +3,13 @@
   "tag": "",
   "id": 255,
   "map": {
-    "text": "raspberry pi",
+    "text": "Raspberry pi",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
@@ -30,7 +30,7 @@
         "resources": [
           {
             "url": "https://github.com/RetroPie/RetroPie-Setup",
-            "text": "shell script to setup raspberry pi",
+            "text": "Shell script to setup raspberry pi",
             "category": "github",
             "note": "",
             "author": "",
@@ -43,13 +43,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.skillshare.com/classes/Unleash-The-Raspberry-Pi-Through-Physical-Computing/2109089069",
-            "text": "1. unleash the raspberry pi through physical computing",
+            "text": "Unleash the raspberry pi through physical computing",
             "category": "course",
             "note": "",
             "author": "",
@@ -65,7 +65,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/raspberry_pi/",
-        "text": "",
+        "text": "/r/raspberry_pi",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -87,7 +87,7 @@
       },
       {
         "url": "https://github.com/thibmaek/awesome-raspberry-pi",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -98,7 +98,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Raspberry_Pi",
-        "text": "raspberry pi",
+        "text": "Raspberry pi",
         "category": "wiki",
         "note": "",
         "author": "",

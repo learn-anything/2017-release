@@ -3,36 +3,38 @@
   "tag": "typescript programming language",
   "id": 1666,
   "map": {
-    "text": "typescript",
+    "text": "Typescript",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://slack.engineering/typescript-at-slack-a81307fa288d",
-                "text": "17: typescript in slack  ️",
+                "text": "Typescript in slack  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://redditblog.com/2017/06/30/why-we-chose-typescript/",
-                "text": "17: reddit choses typescript  ️",
+                "text": "Reddit choses typescript  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -41,7 +43,7 @@
         "resources": [
           {
             "url": "https://github.com/brookshi/awesome-typescript-projects",
-            "text": "awesome typescript projects",
+            "text": "Awesome typescript projects",
             "category": "github",
             "note": "",
             "author": "",
@@ -52,7 +54,7 @@
           },
           {
             "url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-            "text": "high quality TypeScript type definitions",
+            "text": "High quality TypeScript type definitions",
             "category": "github",
             "note": "",
             "author": "",
@@ -65,13 +67,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://basarat.gitbooks.io/typescript/",
-            "text": "1. typescript deep dive",
+            "text": "Typescript deep dive",
             "category": "free book",
             "note": "",
             "author": "",
@@ -82,7 +84,7 @@
           },
           {
             "url": "https://www.typescriptlang.org/docs/tutorial.html",
-            "text": "1. typescript quick start",
+            "text": "Typescript quick start",
             "note": "",
             "author": "",
             "score": {
@@ -97,7 +99,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/typescript/",
-        "text": "",
+        "text": "/r/typescript",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -108,7 +110,7 @@
       },
       {
         "url": "https://github.com/Microsoft/TypeScript",
-        "text": "",
+        "text": "Microsoft/TypeScript",
         "category": "github",
         "note": "",
         "author": "",
@@ -119,7 +121,7 @@
       },
       {
         "url": "https://github.com/trending/typescript",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -130,7 +132,7 @@
       },
       {
         "url": "https://github.com/dzharii/awesome-typescript",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -141,7 +143,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/TypeScript",
-        "text": "typescript",
+        "text": "Typescript",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,22 +3,22 @@
   "tag": "",
   "id": 1153,
   "map": {
-    "text": "type theory",
+    "text": "Type theory",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "intuitionistic type theory",
+            "text": "Intuitionistic type theory",
             "nodes": [
               {
-                "text": "homotopy type theory  ️",
+                "text": "Homotopy type theory  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/mathematics/type-theory/homotopy-type-theory",
-                    "text": "homotopy type theory  ️",
+                    "text": "Homotopy type theory  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -31,12 +31,12 @@
                 "author": ""
               },
               {
-                "text": "dependent type theory  ️",
+                "text": "Dependent type theory  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/mathematics/type-theory/dependent-type-theory",
-                    "text": "dependent type theory  ️",
+                    "text": "Dependent type theory  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -52,7 +52,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Intuitionistic_type_theory",
-                "text": "intuitionistic type theory",
+                "text": "Intuitionistic type theory",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -65,12 +65,12 @@
             "author": ""
           },
           {
-            "text": "algebraic data types  ️",
+            "text": "Algebraic data types  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/type-theory/algebraic-data-types",
-                "text": "algebraic data types  ️",
+                "text": "Algebraic data types  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -83,12 +83,12 @@
             "author": ""
           },
           {
-            "text": "polymorphism  ️",
+            "text": "Polymorphism  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/mathematics/type-theory/polymorphism",
-                "text": "polymorphism  ️",
+                "text": "Polymorphism  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -104,7 +104,7 @@
         "resources": [
           {
             "url": "http://purelytheoretical.com/sywtltt.html",
-            "text": "1. where to start learning type theory  ️",
+            "text": "Where to start learning type theory  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -115,7 +115,7 @@
           },
           {
             "url": "http://www.paultaylor.eu/stable/prot.pdf",
-            "text": "1. proofs and types",
+            "text": "Proofs and types",
             "category": "free book",
             "note": "",
             "author": "",
@@ -126,7 +126,7 @@
           },
           {
             "url": "https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/",
-            "text": "1. type theory and functional programming",
+            "text": "Type theory and functional programming",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -137,7 +137,7 @@
           },
           {
             "url": "https://github.com/jozefg/learn-tt",
-            "text": "1. resources for learning type theory",
+            "text": "Resources for learning type theory",
             "category": "github",
             "note": "",
             "author": "",
@@ -148,7 +148,7 @@
           },
           {
             "url": "http://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf",
-            "text": "1. propositions as types",
+            "text": "Propositions as types",
             "category": "paper",
             "note": "",
             "author": "",
@@ -159,7 +159,7 @@
           },
           {
             "url": "http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf",
-            "text": "1. introduction to type theory",
+            "text": "Introduction to type theory",
             "category": "paper",
             "note": "",
             "author": "",
@@ -172,25 +172,26 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=dgrucfgv2Tw",
-                    "text": "16: truth about types",
+                    "text": "Truth about types",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   }
                 ],
                 "author": ""
@@ -199,14 +200,15 @@
             "resources": [
               {
                 "url": "http://siek.blogspot.nl/2012/08/type-safety-in-five-easy-lemmas.html",
-                "text": "12: type safety in five easy lemmas  ️",
+                "text": "Type safety in five easy lemmas  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "12"
               }
             ],
             "author": ""
@@ -215,7 +217,7 @@
         "resources": [
           {
             "url": "http://perimeterinstitute.ca/personal/tfritz/2014/hott.html",
-            "text": "homotopy type theory: univalent foundations of mathematics",
+            "text": "Homotopy type theory: univalent foundations of mathematics",
             "note": "",
             "author": "",
             "score": {
@@ -230,7 +232,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Type_theory",
-        "text": "type theory",
+        "text": "Type theory",
         "category": "wiki",
         "note": "",
         "author": "",

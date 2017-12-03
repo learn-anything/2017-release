@@ -6,7 +6,7 @@
     "text": "RabbitMQ",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
@@ -23,12 +23,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.rabbitmq.com/tutorials/tutorial-one-python.html",
-            "text": "1. introduction",
+            "text": "Introduction",
             "note": "",
             "author": "",
             "score": {
@@ -43,7 +43,7 @@
     "resources": [
       {
         "url": "https://github.com/rabbitmq/rabbitmq-server",
-        "text": "",
+        "text": "Rabbitmq/rabbitmq-server",
         "category": "github",
         "note": "",
         "author": "",

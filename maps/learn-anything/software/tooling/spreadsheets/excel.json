@@ -3,25 +3,26 @@
   "tag": "excel software",
   "id": 1814,
   "map": {
-    "text": "microsoft excel",
+    "text": "Microsoft excel",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.youtube.com/watch?v=0nbkaYsR94c",
-                "text": "15: you suck at excel with Joel Spolsky",
+                "text": "You suck at excel with Joel Spolsky",
                 "category": "video",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/user/ExcelIsFun/videos",
-            "text": "excel is fun",
+            "text": "Excel is fun",
             "category": "youtube",
             "note": "",
             "author": "",
@@ -41,7 +42,7 @@
           },
           {
             "url": "https://www.techonthenet.com/excel/formulas/",
-            "text": "excel functions",
+            "text": "Excel functions",
             "note": "",
             "author": "",
             "score": {
@@ -51,7 +52,7 @@
           },
           {
             "url": "http://chandoo.org/",
-            "text": "tutorials by chandoo  ️",
+            "text": "Tutorials by chandoo  ️",
             "category": "blog",
             "note": "",
             "author": "",
@@ -64,13 +65,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.udemy.com/tutorials/learn-excel/",
-            "text": "1. learn excel",
+            "text": "Learn excel",
             "category": "course",
             "note": "",
             "author": "",
@@ -86,7 +87,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/excel/",
-        "text": "",
+        "text": "/r/excel",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -97,7 +98,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Microsoft_Excel",
-        "text": "microsoft excel",
+        "text": "Microsoft excel",
         "category": "wiki",
         "note": "",
         "author": "",

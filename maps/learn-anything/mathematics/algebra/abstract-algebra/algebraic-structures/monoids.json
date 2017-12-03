@@ -3,15 +3,15 @@
   "tag": "",
   "id": 828,
   "map": {
-    "text": "monoids",
+    "text": "Monoids",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://math.stackexchange.com/a/421256/143616",
-            "text": "1. definition of a monoid    ️",
+            "text": "Definition of a monoid    ️",
             "category": "stack exchange",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://www.safaribooksonline.com/blog/2013/05/15/monoids-for-programmers-a-scala-example/",
-            "text": "1. moons of programmers: a scala example  ️",
+            "text": "Moons of programmers: a scala example  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -35,19 +35,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://arxiv.org/abs/1406.4823",
-            "text": "14: notions of computation as monoids",
+            "text": "Notions of computation as monoids",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "14"
           }
         ],
         "author": ""
@@ -56,7 +57,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Monoid",
-        "text": "monoids",
+        "text": "Monoids",
         "category": "wiki",
         "note": "",
         "author": "",

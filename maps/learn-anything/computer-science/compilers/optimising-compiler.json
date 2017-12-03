@@ -3,15 +3,15 @@
   "tag": "",
   "id": 290,
   "map": {
-    "text": "optimising compiler",
+    "text": "Optimising compiler",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
-            "text": "1. understanding compiler optimisation",
+            "text": "Understanding compiler optimisation",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.wilfred.me.uk/blog/2015/08/29/an-optimising-bf-compiler/",
-            "text": "15: an optimising BF compiler  ️",
+            "text": "An optimising BF compiler  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "15"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Optimizing_compiler",
-        "text": "optimising compiler",
+        "text": "Optimising compiler",
         "category": "wiki",
         "note": "",
         "author": "",

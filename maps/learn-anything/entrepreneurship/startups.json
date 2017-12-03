@@ -3,25 +3,25 @@
   "tag": "",
   "id": 546,
   "map": {
-    "text": "startups",
+    "text": "Startups",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "founder stories ",
+                "text": "Founder stories ",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://dconstrct.com/pitch-decks/",
-                        "text": "collection of pitch decks",
+                        "text": "Collection of pitch decks",
                         "note": "",
                         "author": "",
                         "score": {
@@ -36,7 +36,7 @@
                 "resources": [
                   {
                     "url": "https://soundcloud.com/best-of-tech-startups/how-i-built-this-airbnb-joe-gebbia",
-                    "text": "how Airbnb was built - Joe Gebbia",
+                    "text": "How Airbnb was built - Joe Gebbia",
                     "category": "podcast",
                     "note": "",
                     "author": "",
@@ -52,7 +52,7 @@
             "resources": [
               {
                 "url": "http://www.paulgraham.com/america.html",
-                "text": "why startups condense in America  ️",
+                "text": "Why startups condense in America  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -63,36 +63,39 @@
               },
               {
                 "url": "http://www.paulgraham.com/makersschedule.html",
-                "text": "09: want to start a startup?  ️",
+                "text": "Want to start a startup?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "09"
               },
               {
                 "url": "https://femalefounders.info/what-did-billion-dollar-companies-look-like-at-the-series-a-e53ea8043a85",
-                "text": "15: what did billion dollar companies look like at the series A?  ️",
+                "text": "What did billion dollar companies look like at the series A?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               },
               {
                 "url": "https://medium.com/product-hunt/28-tools-to-help-you-launch-your-startup-on-a-small-budget-7d5383997bbd",
-                "text": "16: tools to help you launch your startup  ️",
+                "text": "Tools to help you launch your startup  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               }
             ],
             "author": ""
@@ -101,7 +104,7 @@
         "resources": [
           {
             "url": "https://github.com/domenicosolazzo/awesome-okr",
-            "text": "awesome okr",
+            "text": "Awesome okr",
             "category": "github",
             "note": "",
             "author": "",
@@ -112,7 +115,7 @@
           },
           {
             "url": "https://github.com/mmccaff/PlacesToPostYourStartup",
-            "text": "places to post your startup",
+            "text": "Places to post your startup",
             "category": "github",
             "note": "",
             "author": "",
@@ -123,7 +126,7 @@
           },
           {
             "url": "http://startupgraveyard.io/",
-            "text": "startup graveyard",
+            "text": "Startup graveyard",
             "note": "",
             "author": "",
             "score": {
@@ -133,7 +136,7 @@
           },
           {
             "url": "https://startupresources.io/",
-            "text": "startup resources",
+            "text": "Startup resources",
             "note": "",
             "author": "",
             "score": {
@@ -145,12 +148,12 @@
         "author": ""
       },
       {
-        "text": "funding  ️",
+        "text": "Funding  ️",
         "nodes": [],
         "resources": [
           {
             "url": "/entrepreneurship/startups/funding",
-            "text": "funding  ️",
+            "text": "Funding  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -163,12 +166,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.startupschool.org/",
-            "text": "1. startup school lectures",
+            "text": "Startup school lectures",
             "category": "course",
             "note": "",
             "author": "",
@@ -179,7 +182,7 @@
           },
           {
             "url": "http://paulgraham.com/ds.html",
-            "text": "1. do things that don’t scale  ️",
+            "text": "Do things that don’t scale  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -190,7 +193,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=fcjmVj5fM5k&amp;feature=youtu.be",
-            "text": "2. startup contracts explained: 5 risks you take",
+            "text": "Startup contracts explained: 5 risks you take",
             "category": "video",
             "note": "",
             "author": "",
@@ -206,7 +209,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/startups/",
-        "text": "",
+        "text": "/r/startups",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -217,7 +220,7 @@
       },
       {
         "url": "https://github.com/KrishMunot/awesome-startup",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -228,7 +231,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Startup_company",
-        "text": "startups",
+        "text": "Startups",
         "category": "wiki",
         "note": "",
         "author": "",

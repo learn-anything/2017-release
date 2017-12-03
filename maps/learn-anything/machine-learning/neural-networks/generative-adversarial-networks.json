@@ -3,15 +3,15 @@
   "tag": "",
   "id": 781,
   "map": {
-    "text": "generative adversarial networks",
+    "text": "Generative adversarial networks",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=HN9NRhm9waY",
-            "text": "1. Ian Goodfellow : generative adversarial networks",
+            "text": "Ian Goodfellow : generative adversarial networks",
             "category": "video",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/",
-            "text": "1. introduction to GANs with code in TensorFlow  ️",
+            "text": "Introduction to GANs with code in TensorFlow  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -33,7 +33,7 @@
           },
           {
             "url": "https://github.com/GKalliatakis/Delving-deep-into-GANs",
-            "text": "2. delving deep into GANs",
+            "text": "Delving deep into GANs",
             "category": "github",
             "note": "",
             "author": "",
@@ -46,41 +46,44 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "https://medium.com/towards-data-science/generative-models-and-gans-fe7efc20020b",
-            "text": "17: generative models and GANs  ️",
+            "text": "Generative models and GANs  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           },
           {
             "url": "https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7",
-            "text": "17: abusing GANs to make 8-bit pixel art  ️",
+            "text": "Abusing GANs to make 8-bit pixel art  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           },
           {
             "url": "http://www.anishathalye.com/2017/07/25/synthesizing-adversarial-examples/",
-            "text": "17: a step-by-step guide to synthesising adversarial examples  ️",
+            "text": "A step-by-step guide to synthesising adversarial examples  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -89,7 +92,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Generative_adversarial_networks",
-        "text": "generative adversarial networks",
+        "text": "Generative adversarial networks",
         "category": "wiki",
         "note": "",
         "author": "",

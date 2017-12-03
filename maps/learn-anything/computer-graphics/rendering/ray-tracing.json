@@ -3,52 +3,55 @@
   "tag": "",
   "id": 229,
   "map": {
-    "text": "ray tracing",
+    "text": "Ray tracing",
     "note": " ",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.kevinbeason.com/smallpt/",
-                "text": "14: global illumination in 99 lines of c++  ️",
+                "text": "Global illumination in 99 lines of c++  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "http://staceytay.com/2016/04/20/a-parallelized-ray-tracer-in-the-browser.html",
-                "text": "17: a parallelised ray tracer in the browser  ️",
+                "text": "A parallelised ray tracer in the browser  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://bheisler.github.io/post/writing-raytracer-in-rust-part-1/",
-                "text": "17: writing a ray tracer in rust  ️",
+                "text": "Writing a ray tracer in rust  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://staceytay.com/2016/04/20/a-parallelized-ray-tracer-in-the-browser.html",
-                "text": "a parallelised ray tracer in the browser  ️",
+                "text": "A parallelised ray tracer in the browser  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -64,7 +67,7 @@
         "resources": [
           {
             "url": "http://mrl.nyu.edu/~perlin/raytrace1_breakdown/",
-            "text": "breakdown of a simple ray tracer",
+            "text": "Breakdown of a simple ray tracer",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -80,7 +83,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/raytracing/",
-        "text": "",
+        "text": "/r/raytracing",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -91,7 +94,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Ray_tracing_(graphics)",
-        "text": "ray tracing",
+        "text": "Ray tracing",
         "category": "wiki",
         "note": "",
         "author": "",

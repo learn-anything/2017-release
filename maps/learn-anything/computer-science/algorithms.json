@@ -3,24 +3,24 @@
   "tag": "",
   "id": 283,
   "map": {
-    "text": "algorithms",
+    "text": "Algorithms",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "analysis of algorithms",
+            "text": "Analysis of algorithms",
             "note": "analysis of algorithms is the determination of the amount of resources (such as time and storage) necessary to execute them  most algorithms are designed to work with inputs of arbitrary length   usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity) or storage locations (space complexity)  it is common to estimate the complexity in the asymptotic sense   i. e. estimate the complexity function for arbitrarily large input",
             "nodes": [
               {
-                "text": "big O notation  ️",
+                "text": "Big O notation  ️",
                 "note": "is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a particular value or infinity  it is used to classify algorithms according to how their running time or space requirements grow as the input size grows  the letter O is used because the growth rate of a function is also referred to as order of the function",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/big-O",
-                    "text": "big O notation  ️",
+                    "text": "Big O notation  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -36,7 +36,7 @@
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Analysis_of_algorithms",
-                "text": "analysis of algorithms",
+                "text": "Analysis of algorithms",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -49,16 +49,16 @@
             "author": ""
           },
           {
-            "text": "algorithms on",
+            "text": "Algorithms on",
             "nodes": [
               {
-                "text": "searching  ️",
+                "text": "Searching  ️",
                 "note": "search algorithm is an algorithm that retrieves information stored within some data structure  appropriate search algorithm often depends on the data structure being searched  searching also encompasses algorithms that query the data structure, such as the SQL SELECT command  they can be classified based on their mechanism of searching",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/search",
-                    "text": "searching  ️",
+                    "text": "Searching  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -71,13 +71,13 @@
                 "author": ""
               },
               {
-                "text": "genetic  ️",
+                "text": "Genetic  ️",
                 "note": "genetic algorithm is a metaheuristic inspired by the process of natural selection  are commonly used to generate high quality solutions to optimisation and search problems by relying on bio-inspired operators such as mutation, crossover and selection",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/genetic-algorithms",
-                    "text": "genetic  ️",
+                    "text": "Genetic  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -90,13 +90,13 @@
                 "author": ""
               },
               {
-                "text": "sorting  ️",
+                "text": "Sorting  ️",
                 "note": "sorting algorithm is an algorithm that puts elements of a list in a certain order  most used orders are numerical order and lexicographical order  efficient sorting is important for optimising the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists  it is also often useful for canonicalising data and for producing human readable output",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/sorting",
-                    "text": "sorting  ️",
+                    "text": "Sorting  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -109,13 +109,13 @@
                 "author": ""
               },
               {
-                "text": "evolutionary  ️",
+                "text": "Evolutionary  ️",
                 "note": "uses mechanisms inspired by biological evolution, such as reproduction, mutation, recombination and selection",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/evolutionary",
-                    "text": "evolutionary  ️",
+                    "text": "Evolutionary  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -128,13 +128,13 @@
                 "author": ""
               },
               {
-                "text": "graphs  ️",
+                "text": "Graphs  ️",
                 "note": "a graph is an abstract notion, used to represent the idea of some kind of connection between pairs of objects",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/computer-science/algorithms/graph",
-                    "text": "graphs  ️",
+                    "text": "Graphs  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -147,13 +147,13 @@
                 "author": ""
               },
               {
-                "text": "matrix multiplication",
+                "text": "Matrix multiplication",
                 "note": "applications of matrix multiplication in computational problems are found in many fields including scientific computing and pattern recognition and in seemingly unrelated problems such as counting the paths through a graph  many different algorithms have been designed for multiplying matrices on different types of hardware, including parallel and distributed systems, where the computational work is spread over multiple processors (perhaps over network)",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Matrix_multiplication_algorithm",
-                    "text": "matrix multiplication",
+                    "text": "Matrix multiplication",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -166,12 +166,12 @@
                 "author": ""
               },
               {
-                "text": "domain reduction",
+                "text": "Domain reduction",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://www.wikiwand.com/en/Domain_reduction_algorithm",
-                    "text": "domain reduction",
+                    "text": "Domain reduction",
                     "category": "wiki",
                     "note": "",
                     "author": "",
@@ -188,12 +188,12 @@
             "author": ""
           },
           {
-            "text": "algorithm design  ️",
+            "text": "Algorithm design  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/algorithms/algorithm-design",
-                "text": "algorithm design  ️",
+                "text": "Algorithm design  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -206,12 +206,12 @@
             "author": ""
           },
           {
-            "text": "procedural generation  ️",
+            "text": "Procedural generation  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/algorithms/procedural-generation",
-                "text": "procedural generation  ️",
+                "text": "Procedural generation  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -227,7 +227,7 @@
         "resources": [
           {
             "url": "http://algs4.cs.princeton.edu/home/",
-            "text": "1. algorithms",
+            "text": "Algorithms",
             "category": "free book",
             "note": "",
             "author": "",
@@ -238,7 +238,7 @@
           },
           {
             "url": "https://www.coursera.org/learn/algorithms-part1",
-            "text": "1. algorithms: part I",
+            "text": "Algorithms: part I",
             "category": "course",
             "note": "",
             "author": "",
@@ -249,7 +249,7 @@
           },
           {
             "url": "https://github.com/coells/100days",
-            "text": "1. 100 days of algoritms",
+            "text": "100 days of algoritms",
             "category": "github",
             "note": "",
             "author": "",
@@ -260,7 +260,7 @@
           },
           {
             "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0",
-            "text": "1. gate lectures",
+            "text": "Gate lectures",
             "category": "video",
             "note": "",
             "author": "",
@@ -271,7 +271,7 @@
           },
           {
             "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.4772&amp;rep=rep1&amp;type=pdf",
-            "text": "1. algorithm design manual",
+            "text": "Algorithm design manual",
             "category": "free book",
             "note": "",
             "author": "",
@@ -282,7 +282,7 @@
           },
           {
             "url": "https://www.coursera.org/learn/algorithms-part2",
-            "text": "2. algorithms: part II",
+            "text": "Algorithms: part II",
             "category": "course",
             "note": "",
             "author": "",
@@ -293,7 +293,7 @@
           },
           {
             "url": "http://frnsys.com/ai_notes/foundations/algorithms.html",
-            "text": "2. algorithms notes  ️",
+            "text": "Algorithms notes  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -304,7 +304,7 @@
           },
           {
             "url": "http://ce.bonabu.ac.ir/uploads/30/CMS/user/file/115/EBook/Introduction.to.Algorithms.3rd.Edition.Sep.2010.pdf",
-            "text": "3. introduction to algorithms",
+            "text": "Introduction to algorithms",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -315,7 +315,7 @@
           },
           {
             "url": "http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms",
-            "text": "3. design and analysis of algorithms",
+            "text": "Design and analysis of algorithms",
             "category": "course",
             "note": "",
             "author": "",
@@ -328,18 +328,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/jiayihu/pretty-algorithms",
-                    "text": "pretty algorithms",
+                    "text": "Pretty algorithms",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -350,7 +350,7 @@
                   },
                   {
                     "url": "https://github.com/neozhaoliang/pywonderland",
-                    "text": "pywonderland",
+                    "text": "Pywonderland",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -366,7 +366,7 @@
             "resources": [
               {
                 "url": "http://roadtolarissa.com/blog/2015/01/04/coloring-maps-with-d3/",
-                "text": "colouring maps  ️",
+                "text": "Colouring maps  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -377,7 +377,7 @@
               },
               {
                 "url": "https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/",
-                "text": "shortest path in a maze   ️",
+                "text": "Shortest path in a maze   ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -393,7 +393,7 @@
         "resources": [
           {
             "url": "http://www.wikiwand.com/en/List_of_algorithms",
-            "text": "list of algorithms",
+            "text": "List of algorithms",
             "category": "wiki",
             "note": "",
             "author": "",
@@ -404,7 +404,7 @@
           },
           {
             "url": "https://github.com/keon/algorithms",
-            "text": "algorithms in python",
+            "text": "Algorithms in python",
             "category": "github",
             "note": "",
             "author": "",
@@ -415,7 +415,7 @@
           },
           {
             "url": "https://bost.ocks.org/mike/algorithms/",
-            "text": "visualising algorithms",
+            "text": "Visualising algorithms",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -426,7 +426,7 @@
           },
           {
             "url": "https://visualgo.net/en",
-            "text": "visualgo",
+            "text": "Visualgo",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -437,7 +437,7 @@
           },
           {
             "url": "https://github.com/jbrownlee/CleverAlgorithms",
-            "text": "clever algorithms",
+            "text": "Clever algorithms",
             "category": "github",
             "note": "",
             "author": "",
@@ -448,7 +448,7 @@
           },
           {
             "url": "http://www.cs.princeton.edu/%7Ewayne/kleinberg-tardos/",
-            "text": "lecture slides for algorithm design",
+            "text": "Lecture slides for algorithm design",
             "note": "",
             "author": "",
             "score": {
@@ -458,7 +458,7 @@
           },
           {
             "url": "https://rubyalgo.github.io/algorithms/",
-            "text": "ruby algorithms",
+            "text": "Ruby algorithms",
             "note": "",
             "author": "",
             "score": {
@@ -479,7 +479,7 @@
           },
           {
             "url": "https://github.com/enjalot/algovis",
-            "text": "algorithm visualisations",
+            "text": "Algorithm visualisations",
             "category": "github",
             "note": "",
             "author": "",
@@ -490,7 +490,7 @@
           },
           {
             "url": "http://www.techiedelight.com/list-of-problems/",
-            "text": "data structures and algorithms problems",
+            "text": "Data structures and algorithms problems",
             "note": "",
             "author": "",
             "score": {
@@ -500,7 +500,7 @@
           },
           {
             "url": "http://jeffe.cs.illinois.edu/teaching/algorithms/",
-            "text": "algorithms by Jeff Erickson",
+            "text": "Algorithms by Jeff Erickson",
             "note": "",
             "author": "",
             "score": {
@@ -510,7 +510,7 @@
           },
           {
             "url": "https://github.com/mdipierro/nlib",
-            "text": "annotated algorithms in python",
+            "text": "Annotated algorithms in python",
             "category": "free book",
             "note": "",
             "author": "",
@@ -526,7 +526,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/algorithms/",
-        "text": "",
+        "text": "/r/algorithms",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -537,7 +537,7 @@
       },
       {
         "url": "https://github.com/tayllan/awesome-algorithms",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -548,7 +548,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Algorithm",
-        "text": "algorithms",
+        "text": "Algorithms",
         "category": "wiki",
         "note": "",
         "author": "",

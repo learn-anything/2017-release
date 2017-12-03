@@ -3,15 +3,15 @@
   "tag": "",
   "id": 782,
   "map": {
-    "text": "long short term memory",
+    "text": "Long short term memory",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=93rzMHtYT_0",
-            "text": "1. explanation",
+            "text": "Explanation",
             "category": "video",
             "note": "",
             "author": "",
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://machinelearningmastery.com/how-to-use-an-encoder-decoder-lstm-to-echo-sequences-of-random-integers/",
-            "text": "17: echo sequences of random integers  ️",
+            "text": "Echo sequences of random integers  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Long_short-term_memory",
-        "text": "long short term memory",
+        "text": "Long short term memory",
         "category": "wiki",
         "note": "",
         "author": "",

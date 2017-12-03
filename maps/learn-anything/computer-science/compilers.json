@@ -3,19 +3,19 @@
   "tag": "",
   "id": 291,
   "map": {
-    "text": "compilers",
+    "text": "Compilers",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "intermediate representation",
+            "text": "Intermediate representation",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Intermediate_representation",
-                "text": "intermediate representation",
+                "text": "Intermediate representation",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -47,12 +47,12 @@
             "author": ""
           },
           {
-            "text": "just-in-time compilation  ️",
+            "text": "Just-in-time compilation  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/compilers/just-in-time-compilation",
-                "text": "just-in-time compilation  ️",
+                "text": "Just-in-time compilation  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -65,12 +65,12 @@
             "author": ""
           },
           {
-            "text": "interpreter  ️",
+            "text": "Interpreter  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/compilers/interpreter",
-                "text": "interpreter  ️",
+                "text": "Interpreter  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -83,12 +83,12 @@
             "author": ""
           },
           {
-            "text": "lexical analysis  ️",
+            "text": "Lexical analysis  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/compilers/lexical-analysis",
-                "text": "lexical analysis  ️",
+                "text": "Lexical analysis  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -101,12 +101,12 @@
             "author": ""
           },
           {
-            "text": "bootstrapping  ️",
+            "text": "Bootstrapping  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/compilers/bootstrapping",
-                "text": "bootstrapping  ️",
+                "text": "Bootstrapping  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -119,12 +119,12 @@
             "author": ""
           },
           {
-            "text": "optimising compiler  ️",
+            "text": "Optimising compiler  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/compilers/optimising-compiler",
-                "text": "optimising compiler  ️",
+                "text": "Optimising compiler  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -140,7 +140,7 @@
         "resources": [
           {
             "url": "http://compilers.iecc.com/crenshaw/",
-            "text": "1. let’s build a compiler",
+            "text": "Let’s build a compiler",
             "category": "free book",
             "note": "",
             "author": "",
@@ -151,7 +151,7 @@
           },
           {
             "url": "http://ssabook.gforge.inria.fr/latest/book.pdf",
-            "text": "1. static single assignment book",
+            "text": "Static single assignment book",
             "category": "free book",
             "note": "",
             "author": "",
@@ -173,7 +173,7 @@
           },
           {
             "url": "http://www.cs.dartmouth.edu/%7Emckeeman/cs48/mxcom/gem/html/GrowingCompiler.html",
-            "text": "2. growing a compiler",
+            "text": "Growing a compiler",
             "category": "free book",
             "note": "",
             "author": "",
@@ -186,33 +186,35 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://dev.to/fcpauldiaz/writing-my-first-compiler",
-                "text": "17: writing my first compiler  ️",
+                "text": "Writing my first compiler  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://smallcultfollowing.com/babysteps/blog/2017/02/12/compiler-design-sprint-summary/",
-                "text": "17: compiler design sprint summary  ️",
+                "text": "Compiler design sprint summary  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -221,7 +223,7 @@
         "resources": [
           {
             "url": "http://c9x.me/compile/bib/",
-            "text": "resources for amateur compiler writers",
+            "text": "Resources for amateur compiler writers",
             "note": "",
             "author": "",
             "score": {
@@ -231,7 +233,7 @@
           },
           {
             "url": "https://github.com/thejameskyle/the-super-tiny-compiler",
-            "text": "super tiny compiler",
+            "text": "Super tiny compiler",
             "category": "github",
             "note": "",
             "author": "",
@@ -242,7 +244,7 @@
           },
           {
             "url": "https://github.com/aalhour/awesome-compilers",
-            "text": "awesome compilers",
+            "text": "Awesome compilers",
             "category": "github",
             "note": "",
             "author": "",
@@ -253,7 +255,7 @@
           },
           {
             "url": "https://github.com/endrazine/wcc",
-            "text": "wcc",
+            "text": "Wcc",
             "category": "github",
             "note": "",
             "author": "",
@@ -269,7 +271,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Compiler",
-        "text": "compilers",
+        "text": "Compilers",
         "category": "wiki",
         "note": "",
         "author": "",

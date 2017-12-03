@@ -3,33 +3,34 @@
   "tag": "",
   "id": 758,
   "map": {
-    "text": "generative models",
+    "text": "Generative models",
     "nodes": [
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=vEAq_sBf1CA",
-            "text": "17: deep generative models for speech and images",
+            "text": "Deep generative models for speech and images",
             "category": "video",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.deeplearningbook.org/contents/generative_models.html",
-            "text": "1. deep generative models",
+            "text": "Deep generative models",
             "category": "free book",
             "note": "",
             "author": "",
@@ -40,7 +41,7 @@
           },
           {
             "url": "http://papers.nips.cc/paper/2020-on-discriminative-vs-generative-classifiers-a-comparison-of-logistic-regression-and-naive-bayes.pdf",
-            "text": "1. on discriminative vs generative classifiers: a comparison of logistic regression and naive Bayes",
+            "text": "On discriminative vs generative classifiers: a comparison of logistic regression and naive Bayes",
             "category": "paper",
             "note": "",
             "author": "",
@@ -56,7 +57,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Generative_model",
-        "text": "generative models",
+        "text": "Generative models",
         "category": "wiki",
         "note": "",
         "author": "",

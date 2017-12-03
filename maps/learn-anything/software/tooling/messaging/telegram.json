@@ -3,18 +3,18 @@
   "tag": "telegram messenger",
   "id": 1805,
   "map": {
-    "text": "telegram",
+    "text": "Telegram",
     "nodes": [
       {
-        "text": "bots  ️",
+        "text": "Bots  ️",
         "nodes": [
           {
-            "text": "basics",
+            "text": "Basics",
             "nodes": [],
             "resources": [
               {
                 "url": "https://core.telegram.org/bots",
-                "text": "1. introduction for developers",
+                "text": "Introduction for developers",
                 "note": "",
                 "author": "",
                 "score": {
@@ -29,7 +29,7 @@
         "resources": [
           {
             "url": "https://github.com/DenisIzmaylov/awesome-telegram-bots",
-            "text": "awesome telegram bots",
+            "text": "Awesome telegram bots",
             "category": "github",
             "note": "",
             "author": "",
@@ -40,7 +40,7 @@
           },
           {
             "url": "/software/bots",
-            "text": "bots  ️",
+            "text": "Bots  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -53,19 +53,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://telegra.ph/Why-Isnt-Telegram-End-to-End-Encrypted-by-Default-08-14",
-            "text": "17: why isn’t telegram end-to-end encrypted by default?   ️",
+            "text": "Why isn’t telegram end-to-end encrypted by default?   ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -74,7 +75,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Telegram/",
-        "text": "",
+        "text": "/r/Telegram",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -85,7 +86,7 @@
       },
       {
         "url": "https://github.com/ebertti/awesome-telegram",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -96,7 +97,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Telegram_(messaging_service)",
-        "text": "telegram",
+        "text": "Telegram",
         "category": "wiki",
         "note": "",
         "author": "",

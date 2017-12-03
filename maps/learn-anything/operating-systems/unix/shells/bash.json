@@ -3,18 +3,18 @@
   "tag": "bash shell",
   "id": 1305,
   "map": {
-    "text": "bash",
+    "text": "Bash",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "tools",
+            "text": "Tools",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/idank/explainshell",
-                "text": "explain shell",
+                "text": "Explain shell",
                 "note": "",
                 "author": "",
                 "score": {
@@ -24,7 +24,7 @@
               },
               {
                 "url": "https://github.com/koalaman/shellcheck",
-                "text": "spellcheck",
+                "text": "Spellcheck",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -40,7 +40,7 @@
         "resources": [
           {
             "url": "https://github.com/janosgyerik/bashoneliners",
-            "text": "bash one liners",
+            "text": "Bash one liners",
             "category": "github",
             "note": "",
             "author": "",
@@ -51,7 +51,7 @@
           },
           {
             "url": "https://github.com/jp2011/bash-playground",
-            "text": "bash notes",
+            "text": "Bash notes",
             "category": "github",
             "note": "",
             "author": "",
@@ -62,7 +62,7 @@
           },
           {
             "url": "https://github.com/alexanderepstein/Bash-Snippets",
-            "text": "bash snippets",
+            "text": "Bash snippets",
             "category": "github",
             "note": "",
             "author": "",
@@ -75,13 +75,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/Idnan/bash-guide",
-            "text": "1. bash guide",
+            "text": "Bash guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -92,7 +92,7 @@
           },
           {
             "url": "https://github.com/denysdovhan/learnyoubash",
-            "text": "1. learn you bash",
+            "text": "Learn you bash",
             "category": "github",
             "note": "",
             "author": "",
@@ -103,7 +103,7 @@
           },
           {
             "url": "https://github.com/denysdovhan/bash-handbook",
-            "text": "1. bash handbook",
+            "text": "Bash handbook",
             "category": "github",
             "note": "",
             "author": "",
@@ -114,7 +114,7 @@
           },
           {
             "url": "http://www.tldp.org/LDP/abs/html/",
-            "text": "2. advanced bash scripting",
+            "text": "Advanced bash scripting",
             "note": "",
             "author": "",
             "score": {
@@ -124,7 +124,7 @@
           },
           {
             "url": "http://exercism.io/languages/bash/launch",
-            "text": "2. practice",
+            "text": "Practice",
             "note": "",
             "author": "",
             "score": {
@@ -139,7 +139,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/bash/",
-        "text": "",
+        "text": "/r/bash",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -150,7 +150,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Bash_(Unix_shell)",
-        "text": "bash",
+        "text": "Bash",
         "category": "wiki",
         "note": "",
         "author": "",

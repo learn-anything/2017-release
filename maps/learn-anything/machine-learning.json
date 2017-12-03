@@ -3,18 +3,18 @@
   "tag": "",
   "id": 803,
   "map": {
-    "text": "machine learning",
+    "text": "Machine learning",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://distill.pub/2016/handwriting/",
-                "text": "four experiments in handwriting with a neural network",
+                "text": "Four experiments in handwriting with a neural network",
                 "category": "interactive",
                 "note": "",
                 "author": "",
@@ -25,7 +25,7 @@
               },
               {
                 "url": "http://bl.ocks.org/jmahabal/raw/8f010c62112dec083b559cb047a51048/",
-                "text": "confounding variables  ️",
+                "text": "Confounding variables  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -36,7 +36,7 @@
               },
               {
                 "url": "http://blog.evjang.com/2016/08/variational-bayes.html",
-                "text": "a beginner's guide to variational methods: mean-field approximation  ️",
+                "text": "A beginner's guide to variational methods: mean-field approximation  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -47,7 +47,7 @@
               },
               {
                 "url": "http://blog.evjang.com/2016/09/variance-reduction-part1.html",
-                "text": "monte carlo variance reduction techniques in julia  ️",
+                "text": "Monte carlo variance reduction techniques in julia  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -58,7 +58,7 @@
               },
               {
                 "url": "http://blog.evjang.com/2017/01/nips2016.html",
-                "text": "summary of nips 2016  ️",
+                "text": "Summary of nips 2016  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -69,7 +69,7 @@
               },
               {
                 "url": "http://klr.tumblr.com/post/158036182833/rich-tasks-crowdsourcing-data-for-more-rich-tasks",
-                "text": "rich tasks crowdsourcing data for more rich tasks  ️",
+                "text": "Rich tasks crowdsourcing data for more rich tasks  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -80,7 +80,7 @@
               },
               {
                 "url": "http://frnsys.com/ai_notes/machine_learning/overview.html",
-                "text": "machine learning overview  ️",
+                "text": "Machine learning overview  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -91,7 +91,7 @@
               },
               {
                 "url": "https://badhrink.github.io/where-you-get-ml-news/",
-                "text": "where do you get your ml news from?  ️",
+                "text": "Where do you get your ml news from?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -102,69 +102,75 @@
               },
               {
                 "url": "http://distill.pub/2016/augmented-rnns/",
-                "text": "16: attention and augmented recurrent neural networks",
+                "text": "Attention and augmented recurrent neural networks",
                 "category": "interactive",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://blog.evjang.com/2016/11/tutorial-categorical-variational.html",
-                "text": "16: categorical variational autoencoders using gumbel-softmax  ️",
+                "text": "Categorical variational autoencoders using gumbel-softmax  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "https://blog.intracto.com/a-casual-intro-to-machine-learning",
-                "text": "17: a casual intro to machine learning  ️",
+                "text": "A casual intro to machine learning  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://medium.com/ai-roadmap-institute/back-to-the-core-of-intelligence-to-really-move-to-the-future-8eb476c5dd36",
-                "text": "17: back to the core of intelligence … to really move to the future  ️",
+                "text": "Back to the core of intelligence … to really move to the future  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78",
-                "text": "17: over 150 of the best machine learning, NLP and python tutorials I found  ️",
+                "text": "Over 150 of the best machine learning, NLP and python tutorials I found  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/",
-                "text": "17: which machine learning algorithm should I use?  ️",
+                "text": "Which machine learning algorithm should I use?  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -173,7 +179,7 @@
         "resources": [
           {
             "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
-            "text": "machine learning for software engineers",
+            "text": "Machine learning for software engineers",
             "category": "github",
             "note": "",
             "author": "",
@@ -184,7 +190,7 @@
           },
           {
             "url": "https://metacademy.org/roadmaps/cjrd/level-up-your-ml",
-            "text": "machine learning requirements list",
+            "text": "Machine learning requirements list",
             "note": "",
             "author": "",
             "score": {
@@ -194,7 +200,7 @@
           },
           {
             "url": "https://fkcd.ca/EpU.svg",
-            "text": "machine learning concept map",
+            "text": "Machine learning concept map",
             "note": "",
             "author": "",
             "score": {
@@ -204,7 +210,7 @@
           },
           {
             "url": "https://github.com/ujjwalkarn/Machine-Learning-Tutorials",
-            "text": "machine learning tutorials",
+            "text": "Machine learning tutorials",
             "category": "github",
             "note": "",
             "author": "",
@@ -215,7 +221,7 @@
           },
           {
             "url": "https://www.springboard.com/learning-paths/machine-learning-python/",
-            "text": "machine learning in python course",
+            "text": "Machine learning in python course",
             "note": "",
             "author": "",
             "score": {
@@ -225,7 +231,7 @@
           },
           {
             "url": "https://github.com/hangtwenty/dive-into-machine-learning",
-            "text": "dive into machine learning",
+            "text": "Dive into machine learning",
             "category": "github",
             "note": "",
             "author": "",
@@ -236,7 +242,7 @@
           },
           {
             "url": "http://www.ritchieng.com/machine-learning-resources/",
-            "text": "machine learning resources",
+            "text": "Machine learning resources",
             "note": "",
             "author": "",
             "score": {
@@ -246,7 +252,7 @@
           },
           {
             "url": "https://elitedatascience.com/learn-machine-learning",
-            "text": "how to learn machine learning",
+            "text": "How to learn machine learning",
             "note": "",
             "author": "",
             "score": {
@@ -256,7 +262,7 @@
           },
           {
             "url": "https://github.com/shekit/machine-learning-demystified",
-            "text": "machine learning demystified",
+            "text": "Machine learning demystified",
             "category": "github",
             "note": "",
             "author": "",
@@ -267,7 +273,7 @@
           },
           {
             "url": "https://github.com/eriklindernoren/ML-From-Scratch",
-            "text": "ml from scratch",
+            "text": "Ml from scratch",
             "category": "github",
             "note": "",
             "author": "",
@@ -278,7 +284,7 @@
           },
           {
             "url": "http://www.statsblogs.com/2014/12/30/machine-learning-books-suggested-by-michael-i-jordan-from-berkeley/",
-            "text": "books suggested for machine learning study",
+            "text": "Books suggested for machine learning study",
             "note": "",
             "author": "",
             "score": {
@@ -288,7 +294,7 @@
           },
           {
             "url": "https://www.quora.com/Is-functional-analysis-relevant-to-machine-learning",
-            "text": "is functional analysis relevant to machine learning?",
+            "text": "Is functional analysis relevant to machine learning?",
             "note": "",
             "author": "",
             "score": {
@@ -298,7 +304,7 @@
           },
           {
             "url": "https://github.com/metrofun/machine-learning-surveys",
-            "text": "machine learning surveys",
+            "text": "Machine learning surveys",
             "category": "github",
             "note": "",
             "author": "",
@@ -309,7 +315,7 @@
           },
           {
             "url": "https://github.com/onmyway133/fantastic-machine-learning",
-            "text": "fantastic machine learning",
+            "text": "Fantastic machine learning",
             "category": "github",
             "note": "",
             "author": "",
@@ -320,7 +326,7 @@
           },
           {
             "url": "https://github.com/CodingTrain/Machine-Learning",
-            "text": "examples and experiments around ML",
+            "text": "Examples and experiments around ML",
             "category": "github",
             "note": "",
             "author": "",
@@ -331,7 +337,7 @@
           },
           {
             "url": "https://people.ucsc.edu/~praman1/static/pub/math-for-ml.pdf",
-            "text": "math for machine learning",
+            "text": "Math for machine learning",
             "note": "",
             "author": "",
             "score": {
@@ -341,7 +347,7 @@
           },
           {
             "url": "http://www.umiacs.umd.edu/~hal/courses/2013S_ML/math4ml.pdf",
-            "text": "math for machine learning II",
+            "text": "Math for machine learning II",
             "note": "",
             "author": "",
             "score": {
@@ -351,7 +357,7 @@
           },
           {
             "url": "http://nbviewer.jupyter.org/github/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb",
-            "text": "an example machine learning notebook",
+            "text": "An example machine learning notebook",
             "note": "",
             "author": "",
             "score": {
@@ -361,7 +367,7 @@
           },
           {
             "url": "https://unsupervisedmethods.com/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524",
-            "text": "curated list of AI and machine learning resources from around the web  ️",
+            "text": "Curated list of AI and machine learning resources from around the web  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -372,7 +378,7 @@
           },
           {
             "url": "https://research.google.com/teams/brain/",
-            "text": "google brain team",
+            "text": "Google brain team",
             "note": "",
             "author": "",
             "score": {
@@ -382,7 +388,7 @@
           },
           {
             "url": "https://github.com/dformoso/machine-learning-mindmap",
-            "text": "machine learning mindmap / cheatsheet",
+            "text": "Machine learning mindmap / cheatsheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -393,7 +399,7 @@
           },
           {
             "url": "https://news.ycombinator.com/item?id=15116379",
-            "text": "ask HN: what math is critical to learn ML",
+            "text": "Ask HN: what math is critical to learn ML",
             "note": "",
             "author": "",
             "score": {
@@ -405,24 +411,24 @@
         "author": ""
       },
       {
-        "text": "prerequisites",
+        "text": "Prerequisites",
         "nodes": [
           {
-            "text": "basics",
+            "text": "Basics",
             "note": "",
             "nodes": [
               {
-                "text": "neural networks  ️",
+                "text": "Neural networks  ️",
                 "note": "are computational models based on a large collection of simple neural units (artificial neurons), loosely analogous to the observed behaviour of a biological brain’s axons  each neural unit is connected with many others, and links can enhance or inhibit the activation state of adjoining neural units  each individual neural unit computes using summation function  there may be a threshold function or limiting function on each connection and on the unit itself, such that the signal must surpass the limit before propagating to there neurons  these systems are self learning and trained, rather than explicitly programmed, and excel in areas where the solution or feature detection is difficult to express in a traditional computer program",
                 "nodes": [
                   {
-                    "text": "reinforcement learning  ️",
+                    "text": "Reinforcement learning  ️",
                     "note": "inspired by behaviourist psychology, concerned with how software agents ought to take actions in an environment so as to maximise some notion of cumulative reward  in machine learning, the environment is typically formulated as Markov decision process (MDP), as many reinforcement learning algorithms for this context utilise dynamic programming techniques  main differences between classical techniques and reinforcement learning algorithms is that the latter do not need knowledge about the MDP and they target large MDPs where exact methods become infeasible  it differs from standard supervised learning in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected  basic reinforcement learning model consists of :  1. a set of environment and agent states S  2. a set of actions A of the agent  3. policies of transitioning from states to actions  4. rules that determine the scalar immediate reward of a transition  5. rules that describe what the agent observes",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/machine-learning/reinforcement-learning",
-                        "text": "reinforcement learning  ️",
+                        "text": "Reinforcement learning  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -435,13 +441,13 @@
                     "author": ""
                   },
                   {
-                    "text": "deep learning  ️",
+                    "text": "Deep learning  ️",
                     "note": "is a class of machine learning algorithms that :   use a cascade of many layers of nonlinear processing units for feature extraction and transformation  each successive layer uses the output from the previous layer as input  the algorithms may be supervised or unsupervised and applications include pattern analysis (unsupervised) and classification (supervised)  are based on the (unsupervised) learning of multiple levels of features or representations of the data  higher level features are derived from lower level features to form a hierarchical representation  are part of the broader machine learning field of learning representations of data  learn multiple levels of representations that correspond to different levels of abstraction (the levels form a hierarchy of concepts)",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/machine-learning/deep-learning",
-                        "text": "deep learning  ️",
+                        "text": "Deep learning  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -457,7 +463,7 @@
                 "resources": [
                   {
                     "url": "/machine-learning/neural-networks",
-                    "text": "neural networks  ️",
+                    "text": "Neural networks  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -470,12 +476,12 @@
                 "author": ""
               },
               {
-                "text": "machine learning libraries  ️",
+                "text": "Machine learning libraries  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/machine-learning-libraries",
-                    "text": "machine learning libraries  ️",
+                    "text": "Machine learning libraries  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -488,13 +494,13 @@
                 "author": ""
               },
               {
-                "text": "adversarial machine learning  ️",
+                "text": "Adversarial machine learning  ️",
                 "note": "aims to enable the safe adoption of machine learning techniques in adversarial settings like spam filtering, malware detection and biometric recognition",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/adversarial",
-                    "text": "adversarial machine learning  ️",
+                    "text": "Adversarial machine learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -507,12 +513,12 @@
                 "author": ""
               },
               {
-                "text": "unsupervised learning  ️",
+                "text": "Unsupervised learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/unsupervised-learning",
-                    "text": "unsupervised learning  ️",
+                    "text": "Unsupervised learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -525,12 +531,12 @@
                 "author": ""
               },
               {
-                "text": "decision tree learning  ️",
+                "text": "Decision tree learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/decision-tree-learning",
-                    "text": "decision tree learning  ️",
+                    "text": "Decision tree learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -543,12 +549,12 @@
                 "author": ""
               },
               {
-                "text": "pattern recognition  ️",
+                "text": "Pattern recognition  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/pattern-recognition",
-                    "text": "pattern recognition  ️",
+                    "text": "Pattern recognition  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -561,12 +567,12 @@
                 "author": ""
               },
               {
-                "text": "supervised learning  ️",
+                "text": "Supervised learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/supervised-learning",
-                    "text": "supervised learning  ️",
+                    "text": "Supervised learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -579,12 +585,12 @@
                 "author": ""
               },
               {
-                "text": "hyperparameter optimisation  ️",
+                "text": "Hyperparameter optimisation  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/hyperparameter-optimisation",
-                    "text": "hyperparameter optimisation  ️",
+                    "text": "Hyperparameter optimisation  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -597,12 +603,12 @@
                 "author": ""
               },
               {
-                "text": "multi-task learning  ️",
+                "text": "Multi-task learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/multi-task-learning",
-                    "text": "multi-task learning  ️",
+                    "text": "Multi-task learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -615,12 +621,12 @@
                 "author": ""
               },
               {
-                "text": "ensemble learning  ️",
+                "text": "Ensemble learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/ensemble-learning",
-                    "text": "ensemble learning  ️",
+                    "text": "Ensemble learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -633,12 +639,12 @@
                 "author": ""
               },
               {
-                "text": "generative models  ️",
+                "text": "Generative models  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/generative-models",
-                    "text": "generative models  ️",
+                    "text": "Generative models  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -651,12 +657,12 @@
                 "author": ""
               },
               {
-                "text": "discriminative models  ️",
+                "text": "Discriminative models  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/discriminative-models",
-                    "text": "discriminative models  ️",
+                    "text": "Discriminative models  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -669,12 +675,12 @@
                 "author": ""
               },
               {
-                "text": "meta learning  ️",
+                "text": "Meta learning  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/meta-learning",
-                    "text": "meta learning  ️",
+                    "text": "Meta learning  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -690,7 +696,7 @@
             "resources": [
               {
                 "url": "https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12",
-                "text": "1. machine learning for humans  ️",
+                "text": "Machine learning for humans  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -701,7 +707,7 @@
               },
               {
                 "url": "https://spandan-madan.github.io/DeepLearningProject/",
-                "text": "1. an end to end implementation of a machine learning pipeline  ️",
+                "text": "An end to end implementation of a machine learning pipeline  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -712,7 +718,7 @@
               },
               {
                 "url": "https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471",
-                "text": "1. machine learning is fun  ️",
+                "text": "Machine learning is fun  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -723,7 +729,7 @@
               },
               {
                 "url": "http://www.deeplearningbook.org",
-                "text": "1. deep learning",
+                "text": "Deep learning",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -734,7 +740,7 @@
               },
               {
                 "url": "http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf",
-                "text": "1. pattern recognition and machine learning",
+                "text": "Pattern recognition and machine learning",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -745,7 +751,7 @@
               },
               {
                 "url": "http://course.fast.ai/index.html",
-                "text": "1. fast.ai",
+                "text": "Fast.ai",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -756,7 +762,7 @@
               },
               {
                 "url": "",
-                "text": "1. machine learning crash course",
+                "text": "Machine learning crash course",
                 "note": "",
                 "author": "",
                 "score": {
@@ -766,7 +772,7 @@
               },
               {
                 "url": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/",
-                "text": "1. visual introduction to machine learning",
+                "text": "Visual introduction to machine learning",
                 "category": "interactive",
                 "note": "",
                 "author": "",
@@ -777,7 +783,7 @@
               },
               {
                 "url": "https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer",
-                "text": "1. visual tutorial on ML with examples  ️",
+                "text": "Visual tutorial on ML with examples  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -788,7 +794,7 @@
               },
               {
                 "url": "https://monkeylearn.com/blog/a-gentle-guide-to-machine-learning/",
-                "text": "1. gentle guide to machine learning  ️",
+                "text": "Gentle guide to machine learning  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -799,7 +805,7 @@
               },
               {
                 "url": "https://www.coursera.org/learn/machine-learning",
-                "text": "1. coursera course on machine learning",
+                "text": "Coursera course on machine learning",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -810,7 +816,7 @@
               },
               {
                 "url": "https://www.coursera.org/specializations/machine-learning",
-                "text": "1. build intelligent applications",
+                "text": "Build intelligent applications",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -821,7 +827,7 @@
               },
               {
                 "url": "https://work.caltech.edu/telecourse.html",
-                "text": "1. learning from data",
+                "text": "Learning from data",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -832,7 +838,7 @@
               },
               {
                 "url": "http://neuralnetworksanddeeplearning.com/",
-                "text": "1. neural networks and deep learning",
+                "text": "Neural networks and deep learning",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -843,7 +849,7 @@
               },
               {
                 "url": "https://www.coursera.org/learn/neural-networks",
-                "text": "1. neural networks for machine learning",
+                "text": "Neural networks for machine learning",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -854,7 +860,7 @@
               },
               {
                 "url": "http://ocdevel.com/podcasts/machine-learning",
-                "text": "1. machine learning guide",
+                "text": "Machine learning guide",
                 "note": "",
                 "author": "",
                 "score": {
@@ -864,7 +870,7 @@
               },
               {
                 "url": "https://www.youtube.com/playlist?list=PL7y-1rk2cCsA339crwXMWUaBRuLBvPBCg",
-                "text": "1. math background for ML",
+                "text": "Math background for ML",
                 "category": "video",
                 "note": "",
                 "author": "",
@@ -875,7 +881,7 @@
               },
               {
                 "url": "http://www.inference.phy.cam.ac.uk/itprnn/book.pdf",
-                "text": "1. information theory, inference, and learning algorithms",
+                "text": "Information theory, inference, and learning algorithms",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -886,7 +892,7 @@
               },
               {
                 "url": "http://www.goodreads.com/book/show/15844113-foundations-of-machine-learning",
-                "text": "1. foundations of machine learning",
+                "text": "Foundations of machine learning",
                 "category": "non-free book",
                 "note": "",
                 "author": "",
@@ -897,7 +903,7 @@
               },
               {
                 "url": "http://cs229.stanford.edu/materials.html",
-                "text": "1. machine learning CS 229 course materials",
+                "text": "Machine learning CS 229 course materials",
                 "note": "",
                 "author": "",
                 "score": {
@@ -907,7 +913,7 @@
               },
               {
                 "url": "http://ttic.uchicago.edu/%7Enati/Teaching/TTIC31120/2016/",
-                "text": "1. computational and statistical learning theory",
+                "text": "Computational and statistical learning theory",
                 "category": "course",
                 "note": "",
                 "author": "",
@@ -918,7 +924,7 @@
               },
               {
                 "url": "http://www.goodreads.com/book/show/15706459-learning-from-data",
-                "text": "1. learning from data: a short course",
+                "text": "Learning from data: a short course",
                 "category": "non-free book",
                 "note": "",
                 "author": "",
@@ -929,7 +935,7 @@
               },
               {
                 "url": "http://ciml.info/",
-                "text": "1. a course in machine learning",
+                "text": "A course in machine learning",
                 "category": "free book",
                 "note": "",
                 "author": "",
@@ -940,7 +946,7 @@
               },
               {
                 "url": "http://frnsys.com/ai_notes/machine_learning/in_practice.html",
-                "text": "1. machine learning system design  ️",
+                "text": "Machine learning system design  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -956,7 +962,7 @@
         "resources": [
           {
             "url": "/mathematics/linear-algebra",
-            "text": "linear algebra  ️",
+            "text": "Linear algebra  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -967,7 +973,7 @@
           },
           {
             "url": "/mathematics/statistics",
-            "text": "statistics  ️",
+            "text": "Statistics  ️",
             "category": "mindmap",
             "note": "",
             "author": "",
@@ -994,7 +1000,7 @@
       },
       {
         "url": "https://www.reddit.com/r/MachineLearning/",
-        "text": "",
+        "text": "/r/MachineLearning",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -1005,7 +1011,7 @@
       },
       {
         "url": "https://www.reddit.com/r/learnmachinelearning/",
-        "text": "learn machine learning",
+        "text": "Learn machine learning",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -1016,7 +1022,7 @@
       },
       {
         "url": "https://github.com/josephmisiti/awesome-machine-learning",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -1027,7 +1033,7 @@
       },
       {
         "url": "https://www.wikiwand.com/en/Machine_learning",
-        "text": "machine learning",
+        "text": "Machine learning",
         "category": "wiki",
         "note": "",
         "author": "",

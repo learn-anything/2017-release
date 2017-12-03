@@ -3,15 +3,15 @@
   "tag": "",
   "id": 775,
   "map": {
-    "text": "fully convolutional networks",
+    "text": "Fully convolutional networks",
     "nodes": [
       {
-        "text": "implementations",
+        "text": "Implementations",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/MarvinTeichmann/tensorflow-fcn",
-            "text": "in TensorFlow",
+            "text": "In TensorFlow",
             "category": "github",
             "note": "",
             "author": "",
@@ -24,12 +24,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://computing.ece.vt.edu/~f15ece6504/slides/L13_FCN.pdf",
-            "text": "1. explanation",
+            "text": "Explanation",
             "note": "",
             "author": "",
             "score": {
@@ -44,7 +44,7 @@
     "resources": [
       {
         "url": "https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf",
-        "text": "fully convolutional networks",
+        "text": "Fully convolutional networks",
         "category": "paper",
         "note": "",
         "author": "",

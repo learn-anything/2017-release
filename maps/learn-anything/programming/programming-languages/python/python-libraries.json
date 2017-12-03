@@ -3,25 +3,25 @@
   "tag": "",
   "id": 1642,
   "map": {
-    "text": "quilt",
+    "text": "Quilt",
     "nodes": [
       {
-        "text": "science",
+        "text": "Science",
         "nodes": [
           {
-            "text": "python libraries",
+            "text": "Python libraries",
             "note": "",
             "nodes": [
               {
-                "text": "async",
+                "text": "Async",
                 "nodes": [
                   {
-                    "text": "tornado",
+                    "text": "Tornado",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://www.tornadoweb.org/en/stable/",
-                        "text": "tornado",
+                        "text": "Tornado",
                         "note": "",
                         "author": "",
                         "score": {
@@ -33,12 +33,12 @@
                     "author": ""
                   },
                   {
-                    "text": "gevent",
+                    "text": "Gevent",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://www.gevent.org/",
-                        "text": "gevent",
+                        "text": "Gevent",
                         "note": "",
                         "author": "",
                         "score": {
@@ -53,7 +53,7 @@
                 "resources": [
                   {
                     "url": "https://hackernoon.com/asynchronous-python-45df84b82434",
-                    "text": "async",
+                    "text": "Async",
                     "note": "",
                     "author": "",
                     "score": {
@@ -65,15 +65,15 @@
                 "author": ""
               },
               {
-                "text": "web frameworks",
+                "text": "Web frameworks",
                 "nodes": [
                   {
-                    "text": "flask  ️",
+                    "text": "Flask  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/programming/programming-languages/python/python-libraries/flask",
-                        "text": "flask  ️",
+                        "text": "Flask  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -86,12 +86,12 @@
                     "author": ""
                   },
                   {
-                    "text": "pyramid",
+                    "text": "Pyramid",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://trypyramid.com/",
-                        "text": "pyramid",
+                        "text": "Pyramid",
                         "note": "",
                         "author": "",
                         "score": {
@@ -103,12 +103,12 @@
                     "author": ""
                   },
                   {
-                    "text": "django  ️",
+                    "text": "Django  ️",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "/web-development/full-stack/django",
-                        "text": "django  ️",
+                        "text": "Django  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -125,15 +125,15 @@
                 "author": ""
               },
               {
-                "text": "testing",
+                "text": "Testing",
                 "nodes": [
                   {
-                    "text": "doctest",
+                    "text": "Doctest",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://www.wikiwand.com/en/Doctest",
-                        "text": "doctest",
+                        "text": "Doctest",
                         "note": "",
                         "author": "",
                         "score": {
@@ -145,12 +145,12 @@
                     "author": ""
                   },
                   {
-                    "text": "py.test",
+                    "text": "Py.test",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://docs.pytest.org/en/latest/",
-                        "text": "py.test",
+                        "text": "Py.test",
                         "note": "",
                         "author": "",
                         "score": {
@@ -166,7 +166,7 @@
                 "author": ""
               },
               {
-                "text": "database",
+                "text": "Database",
                 "nodes": [
                   {
                     "text": "SQLAlchemy  ️",
@@ -191,12 +191,12 @@
                 "author": ""
               },
               {
-                "text": "machine learning   ️",
+                "text": "Machine learning   ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/machine-learning/machine-learning-libraries",
-                    "text": "machine learning   ️",
+                    "text": "Machine learning   ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -212,7 +212,7 @@
             "resources": [
               {
                 "url": "https://pypi.python.org/pypi",
-                "text": "python libraries",
+                "text": "Python libraries",
                 "note": "",
                 "author": "",
                 "score": {
@@ -224,12 +224,12 @@
             "author": ""
           },
           {
-            "text": "scipy  ️",
+            "text": "Scipy  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/python/python-libraries/scipy",
-                "text": "scipy  ️",
+                "text": "Scipy  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -242,13 +242,13 @@
             "author": ""
           },
           {
-            "text": "numpy  ️",
+            "text": "Numpy  ️",
             "note": "python package for scientific computing  contains  a powerful N-dimensional array object  sophisticated (broadcasting) functions  useful linear algebra, Fourier transform or random number capabilities",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/python/python-libraries/numpy",
-                "text": "numpy  ️",
+                "text": "Numpy  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -268,7 +268,7 @@
     "resources": [
       {
         "url": "https://github.com/quiltdata/quilt",
-        "text": "quilt",
+        "text": "Quilt",
         "category": "github",
         "note": "",
         "author": "",

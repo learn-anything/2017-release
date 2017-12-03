@@ -3,15 +3,15 @@
   "tag": "openshift origin",
   "id": 1718,
   "map": {
-    "text": "openshift",
+    "text": "Openshift",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://docs.openshift.org/latest/getting_started/index.html",
-            "text": "1. getting started",
+            "text": "Getting started",
             "note": "",
             "author": "",
             "score": {
@@ -23,12 +23,12 @@
         "author": ""
       },
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/openshift/openshift-ansible",
-            "text": "open shift ansible",
+            "text": "Open shift ansible",
             "category": "github",
             "note": "",
             "author": "",
@@ -44,7 +44,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/openshift/",
-        "text": "",
+        "text": "/r/openshift",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -55,7 +55,7 @@
       },
       {
         "url": "https://github.com/openshift/origin",
-        "text": "",
+        "text": "Openshift/origin",
         "category": "github",
         "note": "",
         "author": "",
@@ -66,7 +66,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/OpenShift",
-        "text": "openshift",
+        "text": "Openshift",
         "category": "wiki",
         "note": "",
         "author": "",

@@ -3,22 +3,22 @@
   "tag": "",
   "id": 1933,
   "map": {
-    "text": "web scraping",
+    "text": "Web scraping",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "libraries",
+            "text": "Libraries",
             "nodes": [
               {
-                "text": "scrapy",
+                "text": "Scrapy",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://github.com/scrapy/scrapy",
-                    "text": "scrapy",
+                    "text": "Scrapy",
                     "category": "github",
                     "note": "",
                     "author": "",
@@ -31,12 +31,12 @@
                 "author": ""
               },
               {
-                "text": "beautiful soup",
+                "text": "Beautiful soup",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.crummy.com/software/BeautifulSoup/",
-                    "text": "beautiful soup",
+                    "text": "Beautiful soup",
                     "note": "",
                     "author": "",
                     "score": {
@@ -55,7 +55,7 @@
         "resources": [
           {
             "url": "https://automatetheboringstuff.com/chapter11/",
-            "text": "1. web scraping",
+            "text": "Web scraping",
             "note": "",
             "author": "",
             "score": {
@@ -65,7 +65,7 @@
           },
           {
             "url": "http://www.goodreads.com/book/show/25752783-web-scraping-with-python",
-            "text": "1. web scraping with python: collecting data from the modern web",
+            "text": "Web scraping with python: collecting data from the modern web",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -81,7 +81,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Web_scraping",
-        "text": "web scraping",
+        "text": "Web scraping",
         "category": "wiki",
         "note": "",
         "author": "",

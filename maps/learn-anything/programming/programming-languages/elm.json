@@ -3,16 +3,16 @@
   "tag": "elm programming language",
   "id": 1593,
   "map": {
-    "text": "elm",
+    "text": "Elm",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.oreilly.com/web-platform/free/files/why-elm.pdf",
-            "text": "1. why elm?",
+            "text": "Why elm?",
             "category": "free book",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Home.html",
-            "text": "1. functional programming in elm",
+            "text": "Functional programming in elm",
             "category": "course",
             "note": "",
             "author": "",
@@ -34,7 +34,7 @@
           },
           {
             "url": "https://github.com/bryanjenningz/25-elm-examples",
-            "text": "2. 25 elm exercises",
+            "text": "25 elm exercises",
             "category": "github",
             "note": "",
             "author": "",
@@ -47,25 +47,26 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "talks",
+                "text": "Talks",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://www.youtube.com/watch?v=DSjbTC-hvqQ&amp;feature=youtu.be",
-                    "text": "16: code is the easy part",
+                    "text": "Code is the easy part",
                     "category": "video",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   }
                 ],
                 "author": ""
@@ -74,7 +75,7 @@
             "resources": [
               {
                 "url": "http://elm-lang.org/blog/compilers-as-assistants",
-                "text": "compilers as assistants  ️",
+                "text": "Compilers as assistants  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -90,7 +91,7 @@
         "resources": [
           {
             "url": "https://github.com/izdi/elm-cheat-sheet",
-            "text": "elm cheat sheet",
+            "text": "Elm cheat sheet",
             "category": "github",
             "note": "",
             "author": "",
@@ -106,7 +107,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/elm/",
-        "text": "",
+        "text": "/r/elm",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -117,7 +118,7 @@
       },
       {
         "url": "https://github.com/elm-lang",
-        "text": "",
+        "text": "Elm-lang",
         "category": "github",
         "note": "",
         "author": "",
@@ -128,7 +129,7 @@
       },
       {
         "url": "https://github.com/trending/elm",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -139,7 +140,7 @@
       },
       {
         "url": "https://github.com/isRuslan/awesome-elm",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -150,7 +151,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Elm_(programming_language)",
-        "text": "elm",
+        "text": "Elm",
         "category": "wiki",
         "note": "",
         "author": "",

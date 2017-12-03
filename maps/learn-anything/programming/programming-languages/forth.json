@@ -3,25 +3,26 @@
   "tag": "forth programming language",
   "id": 1596,
   "map": {
-    "text": "forth",
+    "text": "Forth",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://hackaday.com/2017/01/27/forth-the-hackers-language/",
-                "text": "17: forth: the hacker’s language  ️",
+                "text": "Forth: the hacker’s language  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "https://github.com/lawrencewoodman/awesome-forth",
-            "text": "awesome forth",
+            "text": "Awesome forth",
             "category": "github",
             "note": "",
             "author": "",
@@ -43,13 +44,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://learnxinyminutes.com/docs/forth/",
-            "text": "1. learn Forth in Y minutes",
+            "text": "Learn Forth in Y minutes",
             "note": "",
             "author": "",
             "score": {
@@ -64,7 +65,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/Forth/",
-        "text": "",
+        "text": "/r/Forth",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -75,7 +76,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Forth_(programming_language)",
-        "text": "forth",
+        "text": "Forth",
         "category": "wiki",
         "note": "",
         "author": "",

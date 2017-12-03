@@ -3,19 +3,19 @@
   "tag": "tensorflow library",
   "id": 766,
   "map": {
-    "text": "tensorflow",
+    "text": "Tensorflow",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "implementations",
+            "text": "Implementations",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
@@ -36,7 +36,7 @@
                 "resources": [
                   {
                     "url": "http://pavel.surmenok.com/2016/10/15/how-to-run-text-summarization-with-tensorflow/",
-                    "text": "how to turn text summarisation with TensorFlow  ️",
+                    "text": "How to turn text summarisation with TensorFlow  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
@@ -47,69 +47,75 @@
                   },
                   {
                     "url": "http://blog.evjang.com/2016/06/generative-adversarial-nets-in.html",
-                    "text": "15: generative adversarial nets in tensorflow  ️",
+                    "text": "Generative adversarial nets in tensorflow  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "15"
                   },
                   {
                     "url": "http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/",
-                    "text": "15: implementing a CNN for text classification in TensorFlow  ️",
+                    "text": "Implementing a CNN for text classification in TensorFlow  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "15"
                   },
                   {
                     "url": "http://blog.evjang.com/2016/06/understanding-and-implementing.html",
-                    "text": "16: understanding and implementing deepmind's DRAW model  ️",
+                    "text": "Understanding and implementing deepmind's DRAW model  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   },
                   {
                     "url": "http://blog.evjang.com/2016/06/adversarial-exploration-policies-for.html",
-                    "text": "16: adversarial exploration policies for robust model learning  ️",
+                    "text": "Adversarial exploration policies for robust model learning  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   },
                   {
                     "url": "https://medium.com/@erikhallstrm/hello-world-tensorflow-649b15aed18c",
-                    "text": "16: introduction to TensorFlow - CPU vs GPU  ️",
+                    "text": "Introduction to TensorFlow - CPU vs GPU  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   },
                   {
                     "url": "http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/",
-                    "text": "16: RNNs in TensorFlow  ️",
+                    "text": "RNNs in TensorFlow  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "16"
                   }
                 ],
                 "author": ""
@@ -129,7 +135,7 @@
               },
               {
                 "url": "https://github.com/tensorflow/models",
-                "text": "models built with TensorFlow",
+                "text": "Models built with TensorFlow",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -140,7 +146,7 @@
               },
               {
                 "url": "https://github.com/buriburisuri/ebgan",
-                "text": "ebgan",
+                "text": "Ebgan",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -151,7 +157,7 @@
               },
               {
                 "url": "https://github.com/Kyubyong/transformer",
-                "text": "transformer",
+                "text": "Transformer",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -167,7 +173,7 @@
         "resources": [
           {
             "url": "https://github.com/silicon-valley-data-science/RNN-Tutorial",
-            "text": "recurrent neural networks - a short tensorflow tutorial",
+            "text": "Recurrent neural networks - a short tensorflow tutorial",
             "category": "github",
             "note": "",
             "author": "",
@@ -178,7 +184,7 @@
           },
           {
             "url": "https://github.com/jostmey/NakedTensor",
-            "text": "bare bone examples of machine learning in TensorFlow",
+            "text": "Bare bone examples of machine learning in TensorFlow",
             "category": "github",
             "note": "",
             "author": "",
@@ -189,7 +195,7 @@
           },
           {
             "url": "https://github.com/skcript/tensorflow-resources",
-            "text": "tensorflow resources",
+            "text": "Tensorflow resources",
             "category": "github",
             "note": "",
             "author": "",
@@ -213,13 +219,13 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/astorfi/TensorFlow-World",
-            "text": "1. TensorFlow world",
+            "text": "TensorFlow world",
             "category": "github",
             "note": "",
             "author": "",
@@ -230,7 +236,7 @@
           },
           {
             "url": "https://blog.metaflow.fr/tensorflow-a-primer-4b3fa0978be3",
-            "text": "1. TensorFlow: a primer  ️",
+            "text": "TensorFlow: a primer  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -241,7 +247,7 @@
           },
           {
             "url": "https://www.tensorflow.org/get_started/get_started",
-            "text": "1. get started with tensorflow",
+            "text": "Get started with tensorflow",
             "note": "",
             "author": "",
             "score": {
@@ -251,7 +257,7 @@
           },
           {
             "url": "https://github.com/vahidk/EffectiveTensorflow",
-            "text": "1. effective TensorFlow",
+            "text": "Effective TensorFlow",
             "category": "github",
             "note": "",
             "author": "",
@@ -262,7 +268,7 @@
           },
           {
             "url": "https://github.com/aymericdamien/TensorFlow-Examples",
-            "text": "1. tensorflow examples for beginners",
+            "text": "Tensorflow examples for beginners",
             "category": "github",
             "note": "",
             "author": "",
@@ -273,7 +279,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=vq2nnJ4g6N0",
-            "text": "1. Tensorflow and deep learning - without a PhD by Martin Görner",
+            "text": "Tensorflow and deep learning - without a PhD by Martin Görner",
             "category": "video",
             "note": "",
             "author": "",
@@ -289,7 +295,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/tensorflow/",
-        "text": "",
+        "text": "/r/tensorflow",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -300,7 +306,7 @@
       },
       {
         "url": "https://github.com/jtoy/awesome-tensorflow",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -311,7 +317,7 @@
       },
       {
         "url": "https://github.com/tensorflow/tensorflow",
-        "text": "tensorflow",
+        "text": "Tensorflow",
         "category": "github",
         "note": "",
         "author": "",

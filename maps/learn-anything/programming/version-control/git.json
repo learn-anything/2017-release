@@ -3,10 +3,10 @@
   "tag": "git version control",
   "id": 1744,
   "map": {
-    "text": "git",
+    "text": "Git",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "git hooks  ️",
+            "text": "Git hooks  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/version-control/git/git-hooks",
-                "text": "git hooks  ️",
+                "text": "Git hooks  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +49,7 @@
         "resources": [
           {
             "url": "http://gitlet.maryrosecook.com/docs/gitlet.html",
-            "text": "1. how Git works",
+            "text": "How Git works",
             "note": "",
             "author": "",
             "score": {
@@ -59,7 +59,7 @@
           },
           {
             "url": "http://learngitbranching.js.org/",
-            "text": "1. git branching",
+            "text": "Git branching",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -70,7 +70,7 @@
           },
           {
             "url": "https://www.git-game.com/",
-            "text": "1. git game",
+            "text": "Git game",
             "note": "",
             "author": "",
             "score": {
@@ -90,7 +90,7 @@
           },
           {
             "url": "http://www.vogella.com/tutorials/Git/article.html",
-            "text": "1. git tutorial",
+            "text": "Git tutorial",
             "note": "",
             "author": "",
             "score": {
@@ -100,7 +100,7 @@
           },
           {
             "url": "https://githowto.com/setup",
-            "text": "1. fundamentals of git",
+            "text": "Fundamentals of git",
             "note": "",
             "author": "",
             "score": {
@@ -110,7 +110,7 @@
           },
           {
             "url": "https://www.git-tower.com/learn/git/ebook",
-            "text": "1. learn version control with git",
+            "text": "Learn version control with git",
             "category": "free book",
             "note": "",
             "author": "",
@@ -121,7 +121,7 @@
           },
           {
             "url": "https://www.learnenough.com/git-tutorial",
-            "text": "1. learn enough git to be dangerous",
+            "text": "Learn enough git to be dangerous",
             "category": "free book",
             "note": "",
             "author": "",
@@ -134,18 +134,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "tools",
+            "text": "Tools",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "http://ohshitgit.com/",
-                    "text": "oh shit, git  ️",
+                    "text": "Oh shit, git  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
@@ -156,7 +156,7 @@
                   },
                   {
                     "url": "https://blog.scottnonnenberg.com/better-git-configuration/",
-                    "text": "better git configuration  ️",
+                    "text": "Better git configuration  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
@@ -167,80 +167,87 @@
                   },
                   {
                     "url": "http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html",
-                    "text": "08: a note about git commit messages  ️",
+                    "text": "A note about git commit messages  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "08"
                   },
                   {
                     "url": "https://mikegerwitz.com/papers/git-horror-story",
-                    "text": "12: repository integrity with signed commits  ️",
+                    "text": "Repository integrity with signed commits  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "12"
                   },
                   {
                     "url": "https://www.freshconsulting.com/atomic-commits/",
-                    "text": "13: keep your commits atomic  ️",
+                    "text": "Keep your commits atomic  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "13"
                   },
                   {
                     "url": "https://chris.beams.io/posts/git-commit/",
-                    "text": "14: how to write a git commit message  ️",
+                    "text": "How to write a git commit message  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "14"
                   },
                   {
                     "url": "http://tonsky.me/blog/reinventing-git-interface/",
-                    "text": "14: reinventing git interface  ️",
+                    "text": "Reinventing git interface  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "14"
                   },
                   {
                     "url": "https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/",
-                    "text": "17: little things i like to do with git  ️",
+                    "text": "Little things i like to do with git  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   },
                   {
                     "url": "https://dev.to/gonedark/a-closer-look-at-git-rebase",
-                    "text": "17: closer look at git rebase  ️",
+                    "text": "Closer look at git rebase  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -249,7 +256,7 @@
             "resources": [
               {
                 "url": "https://github.com/so-fancy/diff-so-fancy",
-                "text": "diff so fancy",
+                "text": "Diff so fancy",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -260,7 +267,7 @@
               },
               {
                 "url": "https://github.com/tj/git-extras",
-                "text": "git extras",
+                "text": "Git extras",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -276,7 +283,7 @@
         "resources": [
           {
             "url": "https://github.com/pluralsight/git-internals-pdf",
-            "text": "git internals",
+            "text": "Git internals",
             "category": "github",
             "note": "",
             "author": "",
@@ -287,7 +294,7 @@
           },
           {
             "url": "https://github.com/git-tips/tips",
-            "text": "common git tips and tricks",
+            "text": "Common git tips and tricks",
             "category": "github",
             "note": "",
             "author": "",
@@ -298,7 +305,7 @@
           },
           {
             "url": "https://github.com/stevemao/awesome-git-addons",
-            "text": "awesome git addons",
+            "text": "Awesome git addons",
             "category": "github",
             "note": "",
             "author": "",
@@ -309,7 +316,7 @@
           },
           {
             "url": "https://wikileaks.org/ciav7p1/cms/page_1179773.html",
-            "text": "git tips and tricks from CIA",
+            "text": "Git tips and tricks from CIA",
             "note": "",
             "author": "",
             "score": {
@@ -319,7 +326,7 @@
           },
           {
             "url": "https://github.com/Nezteb/Git_Is_Hard",
-            "text": "git is hard",
+            "text": "Git is hard",
             "category": "github",
             "note": "",
             "author": "",
@@ -330,7 +337,7 @@
           },
           {
             "url": "https://github.com/github/gitignore",
-            "text": "gitignore",
+            "text": "Gitignore",
             "category": "github",
             "note": "",
             "author": "",
@@ -341,7 +348,7 @@
           },
           {
             "url": "https://www.atlassian.com/git/tutorials",
-            "text": "become a git guru",
+            "text": "Become a git guru",
             "note": "",
             "author": "",
             "score": {
@@ -351,7 +358,7 @@
           },
           {
             "url": "https://github.com/slashsBin/styleguide-git-commit-message",
-            "text": "git commit style guide",
+            "text": "Git commit style guide",
             "category": "github",
             "note": "",
             "author": "",
@@ -367,7 +374,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/git/",
-        "text": "",
+        "text": "/r/git",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -378,7 +385,7 @@
       },
       {
         "url": "https://github.com/git/git",
-        "text": "",
+        "text": "Git/git",
         "category": "github",
         "note": "",
         "author": "",
@@ -389,7 +396,7 @@
       },
       {
         "url": "https://github.com/arslanbilal/git-cheat-sheet",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -400,7 +407,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Git",
-        "text": "git",
+        "text": "Git",
         "category": "wiki",
         "note": "",
         "author": "",

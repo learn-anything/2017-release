@@ -3,16 +3,16 @@
   "tag": "",
   "id": 523,
   "map": {
-    "text": "embedded systems",
+    "text": "Embedded systems",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/gurugio/lowlevelprogramming-university",
-            "text": "1. low-level programmer university",
+            "text": "Low-level programmer university",
             "category": "github",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "https://www.edx.org/course/embedded-systems-shape-world-utaustinx-ut-6-10x",
-            "text": "1. embedded systems - shape the world",
+            "text": "Embedded systems - shape the world",
             "category": "course",
             "note": "",
             "author": "",
@@ -36,10 +36,10 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
@@ -60,7 +60,7 @@
         "resources": [
           {
             "url": "http://www.bunniestudios.com/blog/?page_id=40",
-            "text": "hacking the pic 18f1320  ️",
+            "text": "Hacking the pic 18f1320  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -71,14 +71,15 @@
           },
           {
             "url": "http://www.sureshjoshi.com/embedded/how-to-pick-a-microcontroller/",
-            "text": "17: how to pick a microcontroller (for beginners)  ️",
+            "text": "How to pick a microcontroller (for beginners)  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -87,7 +88,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/embedded/",
-        "text": "",
+        "text": "/r/embedded",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -98,7 +99,7 @@
       },
       {
         "url": "https://github.com/embedded-boston/awesome-embedded-systems",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -109,7 +110,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Embedded_system",
-        "text": "embedded systems",
+        "text": "Embedded systems",
         "category": "wiki",
         "note": "",
         "author": "",

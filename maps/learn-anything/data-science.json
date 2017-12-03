@@ -3,47 +3,50 @@
   "tag": "",
   "id": 400,
   "map": {
-    "text": "data science",
+    "text": "Data science",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://p.migdal.pl/2016/03/15/data-science-intro-for-math-phys-background.html",
-                "text": "16: data science intro for math/physics backgrounds  ️",
+                "text": "Data science intro for math/physics backgrounds  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               },
               {
                 "url": "http://mlwhiz.com/blog/2017/03/26/top_data_science_resources_on_the_internet_right_now/",
-                "text": "17: top data science resources  ️",
+                "text": "Top data science resources  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               },
               {
                 "url": "http://divan.github.io/talks/2017/06bcn/why_every_gopher_should_be_a_data_scientist.pdf?utm_content=buffer7e77f&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer",
-                "text": "17: why every gopher should be a data scientist  ️",
+                "text": "Why every gopher should be a data scientist  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -52,7 +55,7 @@
         "resources": [
           {
             "url": "http://www.dataschool.io/",
-            "text": "data school  ️",
+            "text": "Data school  ️",
             "category": "blog",
             "note": "",
             "author": "",
@@ -63,7 +66,7 @@
           },
           {
             "url": "https://github.com/onurakpolat/awesome-bigdata",
-            "text": "awesome big data",
+            "text": "Awesome big data",
             "category": "github",
             "note": "",
             "author": "",
@@ -74,7 +77,7 @@
           },
           {
             "url": "https://github.com/igorbarinov/awesome-data-engineering",
-            "text": "awesome data engineering",
+            "text": "Awesome data engineering",
             "category": "github",
             "note": "",
             "author": "",
@@ -85,7 +88,7 @@
           },
           {
             "url": "https://bigdatauniversity.com/",
-            "text": "big data university",
+            "text": "Big data university",
             "note": "",
             "author": "",
             "score": {
@@ -95,7 +98,7 @@
           },
           {
             "url": "https://github.com/rushter/data-science-blogs",
-            "text": "data science blogs",
+            "text": "Data science blogs",
             "category": "github",
             "note": "",
             "author": "",
@@ -106,7 +109,7 @@
           },
           {
             "url": "https://www.springboard.com/learning-paths/data-science-jobs/",
-            "text": "data science jobs",
+            "text": "Data science jobs",
             "note": "",
             "author": "",
             "score": {
@@ -118,19 +121,19 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "data mining  ️",
+            "text": "Data mining  ️",
             "nodes": [
               {
-                "text": "data visualisation  ️",
+                "text": "Data visualisation  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/data-science/data-visualisation",
-                    "text": "data visualisation  ️",
+                    "text": "Data visualisation  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -143,12 +146,12 @@
                 "author": ""
               },
               {
-                "text": "information retrieval  ️",
+                "text": "Information retrieval  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/data-science/information-retrieval",
-                    "text": "information retrieval  ️",
+                    "text": "Information retrieval  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -161,18 +164,18 @@
                 "author": ""
               },
               {
-                "text": "data analysis  ️",
+                "text": "Data analysis  ️",
                 "nodes": [
                   {
-                    "text": "data processing  ️",
+                    "text": "Data processing  ️",
                     "nodes": [
                       {
-                        "text": "big data  ️",
+                        "text": "Big data  ️",
                         "nodes": [],
                         "resources": [
                           {
                             "url": "/data-science/big-data",
-                            "text": "big data  ️",
+                            "text": "Big data  ️",
                             "category": "mindmap",
                             "note": "",
                             "author": "",
@@ -188,7 +191,7 @@
                     "resources": [
                       {
                         "url": "/data-science/data-processing",
-                        "text": "data processing  ️",
+                        "text": "Data processing  ️",
                         "category": "mindmap",
                         "note": "",
                         "author": "",
@@ -204,7 +207,7 @@
                 "resources": [
                   {
                     "url": "/data-science/data-analysis",
-                    "text": "data analysis  ️",
+                    "text": "Data analysis  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -220,7 +223,7 @@
             "resources": [
               {
                 "url": "/data-science/data-mining",
-                "text": "data mining  ️",
+                "text": "Data mining  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -236,7 +239,7 @@
         "resources": [
           {
             "url": "https://github.com/open-source-society/data-science",
-            "text": "1. self taught data science",
+            "text": "Self taught data science",
             "category": "github",
             "note": "",
             "author": "",
@@ -247,7 +250,7 @@
           },
           {
             "url": "http://worldofdatascience.com/",
-            "text": "1. data science ontology",
+            "text": "Data science ontology",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -258,7 +261,7 @@
           },
           {
             "url": "https://github.com/donnemartin/data-science-ipython-notebooks",
-            "text": "1. data science ipython notebooks",
+            "text": "Data science ipython notebooks",
             "category": "github",
             "note": "",
             "author": "",
@@ -269,7 +272,7 @@
           },
           {
             "url": "http://nbviewer.jupyter.org/gist/rpmuller/5920182#ii.-numpy-and-scipy",
-            "text": "1. crash course in python for scientists  ️",
+            "text": "Crash course in python for scientists  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -285,7 +288,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/datascience/",
-        "text": "",
+        "text": "/r/datascience",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -307,7 +310,7 @@
       },
       {
         "url": "https://github.com/bulutyazilim/awesome-datascience",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -318,7 +321,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Data_science",
-        "text": "data science",
+        "text": "Data science",
         "category": "wiki",
         "note": "",
         "author": "",

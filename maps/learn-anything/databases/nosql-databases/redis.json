@@ -3,16 +3,16 @@
   "tag": "",
   "id": 410,
   "map": {
-    "text": "redis",
+    "text": "Redis",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "http://try.redis.io/",
-            "text": "try out redis",
+            "text": "Try out redis",
             "note": "",
             "author": "",
             "score": {
@@ -24,19 +24,20 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [],
         "resources": [
           {
             "url": "http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production/?",
-            "text": "17: Learn Redis the hard way (in production)  ️",
+            "text": "Learn Redis the hard way (in production)  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -45,7 +46,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/redis/",
-        "text": "",
+        "text": "/r/redis",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -56,7 +57,7 @@
       },
       {
         "url": "https://github.com/JamzyWang/awesome-redis",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -67,7 +68,7 @@
       },
       {
         "url": "https://github.com/antirez/redis",
-        "text": "redis",
+        "text": "Redis",
         "category": "github",
         "note": "",
         "author": "",

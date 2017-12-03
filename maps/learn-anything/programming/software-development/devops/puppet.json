@@ -3,15 +3,15 @@
   "tag": "puppet configuration management",
   "id": 1721,
   "map": {
-    "text": "puppet",
+    "text": "Puppet",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=QFcqvBk1gNA",
-            "text": "1. how puppet works",
+            "text": "How puppet works",
             "category": "video",
             "note": "",
             "author": "",
@@ -22,7 +22,7 @@
           },
           {
             "url": "https://puppet.com/resources",
-            "text": "2. learning resources",
+            "text": "Learning resources",
             "note": "",
             "author": "",
             "score": {
@@ -34,12 +34,12 @@
         "author": ""
       },
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [],
         "resources": [
           {
             "url": "https://github.com/nwops/puppet-debugger",
-            "text": "puppet debugger",
+            "text": "Puppet debugger",
             "category": "github",
             "note": "",
             "author": "",
@@ -55,7 +55,7 @@
     "resources": [
       {
         "url": "https://github.com/olindata/awesome-puppet",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -66,7 +66,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Puppet_(software)",
-        "text": "puppet",
+        "text": "Puppet",
         "category": "wiki",
         "note": "",
         "author": "",

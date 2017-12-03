@@ -3,14 +3,14 @@
   "tag": "",
   "id": 628,
   "map": {
-    "text": "world history",
+    "text": "World history",
     "note": "",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "memorable events",
+            "text": "Memorable events",
             "note": "the numbers before the names represent the time when the event took place",
             "nodes": [],
             "resources": [
@@ -82,14 +82,15 @@
               },
               {
                 "url": "http://www.wikiwand.com/en/Russian_Revolution",
-                "text": "1917: russian revolution",
+                "text": "Russian revolution",
                 "category": "wiki",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "1917"
               },
               {
                 "url": "http://www.wikiwand.com/en/Great_Depression",
@@ -148,14 +149,15 @@
               },
               {
                 "url": "http://www.wikiwand.com/en/Apollo_11",
-                "text": "1969: apollo 11",
+                "text": "Apollo 11",
                 "category": "wiki",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "1969"
               },
               {
                 "url": "http://www.wikiwand.com/en/Arab_Spring",
@@ -172,7 +174,7 @@
             "author": ""
           },
           {
-            "text": "pandemics  ️",
+            "text": "Pandemics  ️",
             "nodes": [],
             "resources": [
               {
@@ -188,7 +190,7 @@
               },
               {
                 "url": "/medicine/diseases/pandemics",
-                "text": "pandemics  ️",
+                "text": "Pandemics  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -201,12 +203,12 @@
             "author": ""
           },
           {
-            "text": "wars  ️",
+            "text": "Wars  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/history/world-history/wars",
-                "text": "wars  ️",
+                "text": "Wars  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -222,7 +224,7 @@
         "resources": [
           {
             "url": "https://www.youtube.com/watch?v=Yocja_N5s1I&amp;list=PLBDA2E52FB1EF80C9",
-            "text": "1. crash course world history",
+            "text": "Crash course world history",
             "category": "video",
             "note": "",
             "author": "",
@@ -233,7 +235,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=wyzi9GNZFMU&amp;list=PL8dPuuaLjXtNjasccl-WajpONGX3zoY4M",
-            "text": "2. crash course world history II",
+            "text": "Crash course world history II",
             "category": "video",
             "note": "",
             "author": "",
@@ -246,12 +248,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.wikiwand.com/en/Timelines_of_world_history",
-            "text": "timelines of world history",
+            "text": "Timelines of world history",
             "category": "wiki",
             "note": "",
             "author": "",
@@ -267,7 +269,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/World_history",
-        "text": "world history",
+        "text": "World history",
         "category": "wiki",
         "note": "",
         "author": "",

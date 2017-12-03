@@ -3,18 +3,18 @@
   "tag": "",
   "id": 661,
   "map": {
-    "text": "information theory",
+    "text": "Information theory",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [
           {
-            "text": "signals  ️",
+            "text": "Signals  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/information-theory/signals",
-                "text": "signals  ️",
+                "text": "Signals  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -27,12 +27,12 @@
             "author": ""
           },
           {
-            "text": "information  ️",
+            "text": "Information  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/information-theory/information",
-                "text": "information  ️",
+                "text": "Information  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -45,12 +45,12 @@
             "author": ""
           },
           {
-            "text": "coding theory  ️",
+            "text": "Coding theory  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/information-theory/coding-theory",
-                "text": "coding theory  ️",
+                "text": "Coding theory  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -63,12 +63,12 @@
             "author": ""
           },
           {
-            "text": "algorithmic information theory  ️",
+            "text": "Algorithmic information theory  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/information-theory/algorithmic-information-theory",
-                "text": "algorithmic information theory  ️",
+                "text": "Algorithmic information theory  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -84,7 +84,7 @@
         "resources": [
           {
             "url": "http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
-            "text": "1. a mathematical theory of communication",
+            "text": "A mathematical theory of communication",
             "category": "paper",
             "note": "",
             "author": "",
@@ -95,7 +95,7 @@
           },
           {
             "url": "https://www.youtube.com/watch?v=BCiZc0n6COY&amp;list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6",
-            "text": "1. introduction to information theory",
+            "text": "Introduction to information theory",
             "category": "video",
             "note": "",
             "author": "",
@@ -106,7 +106,7 @@
           },
           {
             "url": "http://www.inference.org.uk/itprnn/book.pdf",
-            "text": "1. information theory, inference and learning algorithms",
+            "text": "Information theory, inference and learning algorithms",
             "category": "free book",
             "note": "",
             "author": "",
@@ -119,19 +119,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "http://www.scottaaronson.com/blog/?p=3327",
-            "text": "17: is information physical?  ️",
+            "text": "Is information physical?  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -140,7 +141,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/informationtheory/",
-        "text": "",
+        "text": "/r/informationtheory",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -151,7 +152,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Information_theory",
-        "text": "information theory",
+        "text": "Information theory",
         "category": "wiki",
         "note": "",
         "author": "",

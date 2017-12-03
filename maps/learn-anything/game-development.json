@@ -3,19 +3,19 @@
   "tag": "",
   "id": 562,
   "map": {
-    "text": "video game development",
+    "text": "Video game development",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "game engines  ️",
+            "text": "Game engines  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/game-development/game-engines",
-                "text": "game engines  ️",
+                "text": "Game engines  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "game consoles  ️",
+            "text": "Game consoles  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/game-development/game-consoles",
-                "text": "game consoles  ️",
+                "text": "Game consoles  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -46,12 +46,12 @@
             "author": ""
           },
           {
-            "text": "game design  ️",
+            "text": "Game design  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/game-development/game-design",
-                "text": "game design  ️",
+                "text": "Game design  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -67,7 +67,7 @@
         "resources": [
           {
             "url": "https://github.com/miloyip/game-programmer",
-            "text": "1. study path for game programmer",
+            "text": "Study path for game programmer",
             "category": "github",
             "note": "",
             "author": "",
@@ -78,7 +78,7 @@
           },
           {
             "url": "http://gameprogrammingpatterns.com/",
-            "text": "1. game programming patterns",
+            "text": "Game programming patterns",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -89,7 +89,7 @@
           },
           {
             "url": "https://www.goodreads.com/book/show/16144499-designing-games",
-            "text": "2. designing games: a guide to engineering experiences",
+            "text": "Designing games: a guide to engineering experiences",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -102,18 +102,18 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "interesting",
+                "text": "Interesting",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "https://engo.io/tutorials/01-hello-world",
-                    "text": "build a game in go",
+                    "text": "Build a game in go",
                     "note": "",
                     "author": "",
                     "score": {
@@ -128,14 +128,15 @@
             "resources": [
               {
                 "url": "http://asherv.com/threes/threemails/",
-                "text": "17: the rip-offs &amp; making our original game  ️",
+                "text": "The rip-offs &amp; making our original game  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -144,7 +145,7 @@
         "resources": [
           {
             "url": "https://game-development.zeef.com/david.arcila",
-            "text": "list of game development resources",
+            "text": "List of game development resources",
             "note": "",
             "author": "",
             "score": {
@@ -154,7 +155,7 @@
           },
           {
             "url": "https://github.com/hzoo/awesome-gametalks",
-            "text": "list of gaming talks",
+            "text": "List of gaming talks",
             "category": "github",
             "note": "",
             "author": "",
@@ -165,7 +166,7 @@
           },
           {
             "url": "http://www.redblobgames.com/",
-            "text": "red blob games  ️",
+            "text": "Red blob games  ️",
             "category": "blog",
             "note": "",
             "author": "",
@@ -176,7 +177,7 @@
           },
           {
             "url": "https://github.com/utilForever/game-developer-roadmap",
-            "text": "game developer roadmap",
+            "text": "Game developer roadmap",
             "category": "github",
             "note": "",
             "author": "",
@@ -187,7 +188,7 @@
           },
           {
             "url": "",
-            "text": "blizzard software engineering reading list",
+            "text": "Blizzard software engineering reading list",
             "note": "",
             "author": "",
             "score": {
@@ -197,7 +198,7 @@
           },
           {
             "url": "http://mrelusive.com/books/books.html",
-            "text": "books for game developers",
+            "text": "Books for game developers",
             "note": "",
             "author": "",
             "score": {
@@ -207,7 +208,7 @@
           },
           {
             "url": "https://eliasdaler.github.io/programming-and-gamedev-resources/",
-            "text": "useful programming and game development resources",
+            "text": "Useful programming and game development resources",
             "note": "",
             "author": "",
             "score": {
@@ -217,7 +218,7 @@
           },
           {
             "url": "http://alumni.media.mit.edu/%7Ejorkin/aibooks.html",
-            "text": "ai programmer’s bookshelf",
+            "text": "Ai programmer’s bookshelf",
             "note": "",
             "author": "",
             "score": {
@@ -227,7 +228,7 @@
           },
           {
             "url": "https://opengameart.org/",
-            "text": "open game art",
+            "text": "Open game art",
             "note": "",
             "author": "",
             "score": {
@@ -237,7 +238,7 @@
           },
           {
             "url": "https://github.com/hzoo/awesome-gametalks",
-            "text": "awesome game talks",
+            "text": "Awesome game talks",
             "category": "github",
             "note": "",
             "author": "",
@@ -248,7 +249,7 @@
           },
           {
             "url": "https://github.com/Yonaba/awesome-one-person-games",
-            "text": "awesome one person games",
+            "text": "Awesome one person games",
             "category": "github",
             "note": "",
             "author": "",
@@ -259,7 +260,7 @@
           },
           {
             "url": "http://wiki.polycount.com/wiki/Polycount",
-            "text": "polycount",
+            "text": "Polycount",
             "note": "",
             "author": "",
             "score": {
@@ -274,7 +275,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/gamedev/",
-        "text": "",
+        "text": "/r/gamedev",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -296,7 +297,7 @@
       },
       {
         "url": "https://github.com/ellisonleao/magictools",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -307,7 +308,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Video_game_development",
-        "text": "video game development",
+        "text": "Video game development",
         "category": "wiki",
         "note": "",
         "author": "",

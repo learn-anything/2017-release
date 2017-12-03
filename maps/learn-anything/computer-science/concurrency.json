@@ -3,19 +3,19 @@
   "tag": "",
   "id": 315,
   "map": {
-    "text": "concurrency",
+    "text": "Concurrency",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "process calculus  ️",
+            "text": "Process calculus  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/concurrency/process-calculus",
-                "text": "process calculus  ️",
+                "text": "Process calculus  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -28,12 +28,12 @@
             "author": ""
           },
           {
-            "text": "petri nets  ️",
+            "text": "Petri nets  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/computer-science/concurrency/petri-nets",
-                "text": "petri nets  ️",
+                "text": "Petri nets  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +49,7 @@
         "resources": [
           {
             "url": "https://deadlockempire.github.io/",
-            "text": "1. the deadlock empire",
+            "text": "The deadlock empire",
             "category": "interactive",
             "note": "",
             "author": "",
@@ -62,19 +62,20 @@
         "author": ""
       },
       {
-        "text": "interesting",
+        "text": "Interesting",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.cis.upenn.edu/%7Ejpaykin/papers/psf_choose_2016.pdf",
-            "text": "16: choose your own derivative",
+            "text": "Choose your own derivative",
             "category": "paper",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
@@ -83,7 +84,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Concurrency",
-        "text": "concurrency",
+        "text": "Concurrency",
         "category": "wiki",
         "note": "",
         "author": "",

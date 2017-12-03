@@ -3,16 +3,16 @@
   "tag": "",
   "id": 1675,
   "map": {
-    "text": "monads",
+    "text": "Monads",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [],
         "resources": [
           {
             "url": "https://two-wrongs.com/the-what-are-monads-fallacy",
-            "text": "1. the ‘what are monads?’ fallacy   ️",
+            "text": "The ‘what are monads?’ fallacy   ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -23,7 +23,7 @@
           },
           {
             "url": "http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf",
-            "text": "1. monads for functional programming",
+            "text": "Monads for functional programming",
             "category": "paper",
             "note": "",
             "author": "",
@@ -34,7 +34,7 @@
           },
           {
             "url": "http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html",
-            "text": "1. you could have invented monads! (and maybe you already have.)  ️",
+            "text": "You could have invented monads! (and maybe you already have.)  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -45,7 +45,7 @@
           },
           {
             "url": "https://en.wikibooks.org/wiki/Haskell/Understanding_monads",
-            "text": "1. understanding monads",
+            "text": "Understanding monads",
             "note": "",
             "author": "",
             "score": {
@@ -57,15 +57,15 @@
         "author": ""
       },
       {
-        "text": "articles",
+        "text": "Articles",
         "nodes": [
           {
-            "text": "interesting",
+            "text": "Interesting",
             "nodes": [],
             "resources": [
               {
                 "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.101.4131",
-                "text": "data types à la carte",
+                "text": "Data types à la carte",
                 "category": "paper",
                 "note": "",
                 "author": "",
@@ -81,14 +81,15 @@
         "resources": [
           {
             "url": "https://philipnilsson.github.io/Badness10k/posts/2017-05-07-escaping-hell-with-monads.html",
-            "text": "17: escaping hell with monads  ️",
+            "text": "Escaping hell with monads  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "17"
           }
         ],
         "author": ""
@@ -97,7 +98,7 @@
     "resources": [
       {
         "url": "http://www.wikiwand.com/en/Monad_(functional_programming)",
-        "text": "monads",
+        "text": "Monads",
         "category": "wiki",
         "note": "",
         "author": "",

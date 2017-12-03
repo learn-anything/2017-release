@@ -3,19 +3,19 @@
   "tag": "",
   "id": 1224,
   "map": {
-    "text": "secure shell",
+    "text": "Secure shell",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/",
-                "text": "simplify your life with SSH config  ️",
+                "text": "Simplify your life with SSH config  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -26,14 +26,15 @@
               },
               {
                 "url": "http://ryanlue.com/posts/2017-06-29-gpg-for-ssh-auth",
-                "text": "17: using a GPG key for SSH authentication   ️",
+                "text": "Using a GPG key for SSH authentication   ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -42,7 +43,7 @@
         "resources": [
           {
             "url": "https://github.com/tetrakai/ssh_client",
-            "text": "educational SSH client",
+            "text": "Educational SSH client",
             "category": "github",
             "note": "",
             "author": "",
@@ -58,7 +59,7 @@
     "resources": [
       {
         "url": "https://github.com/moul/awesome-ssh",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -69,7 +70,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Secure_Shell",
-        "text": "secure shell",
+        "text": "Secure shell",
         "category": "wiki",
         "note": "",
         "author": "",

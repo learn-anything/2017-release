@@ -3,32 +3,33 @@
   "tag": "",
   "id": 398,
   "map": {
-    "text": "data visualisation",
+    "text": "Data visualisation",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [
               {
-                "text": "tools",
+                "text": "Tools",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "http://worrydream.com/MediaForThinkingTheUnthinkable/",
-                        "text": "13: media for thinking the unthinkable",
+                        "text": "Media for thinking the unthinkable",
                         "category": "video",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "13"
                       }
                     ],
                     "author": ""
@@ -37,7 +38,7 @@
                 "resources": [
                   {
                     "url": "https://plot.ly/",
-                    "text": "plotly",
+                    "text": "Plotly",
                     "note": "",
                     "author": "",
                     "score": {
@@ -52,7 +53,7 @@
             "resources": [
               {
                 "url": "http://us1.campaign-archive2.com/?u=836dc9c64862f158af8a31e20&amp;id=fdcffdbf91",
-                "text": "how Google uses white space  ️",
+                "text": "How Google uses white space  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
@@ -63,25 +64,27 @@
               },
               {
                 "url": "https://medium.com/i-data/misleading-with-statistics-c63780efa928",
-                "text": "14: misleading with statistics  ️",
+                "text": "Misleading with statistics  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "14"
               },
               {
                 "url": "https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/",
-                "text": "16: what i learned recreating one chart using 24 tools  ️",
+                "text": "What i learned recreating one chart using 24 tools  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "16"
               }
             ],
             "author": ""
@@ -90,7 +93,7 @@
         "resources": [
           {
             "url": "https://github.com/zingchart/awesome-charting",
-            "text": "awesome charting",
+            "text": "Awesome charting",
             "category": "github",
             "note": "",
             "author": "",
@@ -101,7 +104,7 @@
           },
           {
             "url": "https://github.com/fasouto/awesome-dataviz",
-            "text": "awesome data visualisation resources",
+            "text": "Awesome data visualisation resources",
             "category": "github",
             "note": "",
             "author": "",
@@ -112,7 +115,7 @@
           },
           {
             "url": "http://frnsys.com/ai_notes/in_practice/visualization.html",
-            "text": "notes on data visualisation  ️",
+            "text": "Notes on data visualisation  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -125,12 +128,12 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "nodes": [],
         "resources": [
           {
             "url": "https://www.targetprocess.com/articles/visual-encoding/",
-            "text": "1. visual encoding  ️",
+            "text": "Visual encoding  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -141,7 +144,7 @@
           },
           {
             "url": "http://worrydream.com/LadderOfAbstraction/",
-            "text": "1. up and down the ladder of abstraction  ️",
+            "text": "Up and down the ladder of abstraction  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -152,7 +155,7 @@
           },
           {
             "url": "http://worrydream.com/ExplorableExplanations/",
-            "text": "1. explorable explanations  ️",
+            "text": "Explorable explanations  ️",
             "category": "article",
             "note": "",
             "author": "",
@@ -168,7 +171,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/dataisbeautiful/",
-        "text": "",
+        "text": "/r/dataisbeautiful",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -179,7 +182,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Data_visualization",
-        "text": "data visualisation",
+        "text": "Data visualisation",
         "category": "wiki",
         "note": "",
         "author": "",

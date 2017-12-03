@@ -3,53 +3,56 @@
   "tag": "swift programming language",
   "id": 1665,
   "map": {
-    "text": "swift",
+    "text": "Swift",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "blogs",
+            "text": "Blogs",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [
                   {
-                    "text": "talks",
+                    "text": "Talks",
                     "nodes": [],
                     "resources": [
                       {
                         "url": "https://news.realm.io/news/swift-summit-abizer-nasir-lessons-from-haskell/",
-                        "text": "15: what haskell taught me about writing swift",
+                        "text": "What haskell taught me about writing swift",
                         "category": "video",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "15"
                       },
                       {
                         "url": "https://www.dotconferences.com/2017/01/karoly-lorentey-optimizing-swift-collections",
-                        "text": "17: optimising swift collections",
+                        "text": "Optimising swift collections",
                         "category": "video",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "17"
                       },
                       {
                         "url": "http://www.ustream.tv/recorded/101118612",
-                        "text": "17: testing in swift",
+                        "text": "Testing in swift",
                         "category": "video",
                         "note": "",
                         "author": "",
                         "score": {
                           "up": 0,
                           "down": 0
-                        }
+                        },
+                        "year": "17"
                       }
                     ],
                     "author": ""
@@ -58,7 +61,7 @@
                 "resources": [
                   {
                     "url": "https://shirazian.wordpress.com/2016/04/11/design-patterns-in-swift/",
-                    "text": "design patterns in swift",
+                    "text": "Design patterns in swift",
                     "note": "",
                     "author": "",
                     "score": {
@@ -68,36 +71,39 @@
                   },
                   {
                     "url": "https://www.uraimo.com/2017/02/05/building-a-lisp-from-scratch-with-swift/",
-                    "text": "17: building a lisp from scratch with swift  ️",
+                    "text": "Building a lisp from scratch with swift  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   },
                   {
                     "url": "https://medium.com/@johnsundell/type-erasure-using-closures-in-swift-1e6125231f8",
-                    "text": "17: type erasure using closures in swift  ️",
+                    "text": "Type erasure using closures in swift  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   },
                   {
                     "url": "https://medium.com/@johnsundell/namespacing-swift-code-with-nested-types-10eabddaa97d",
-                    "text": "17: namespacing swift code with nested types  ️",
+                    "text": "Namespacing swift code with nested types  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -106,7 +112,7 @@
             "resources": [
               {
                 "url": "http://jamesonquave.com/",
-                "text": "swift tutorials  ️",
+                "text": "Swift tutorials  ️",
                 "category": "blog",
                 "note": "",
                 "author": "",
@@ -128,7 +134,7 @@
               },
               {
                 "url": "https://mikeash.com/pyblog/",
-                "text": "mike ash  ️",
+                "text": "Mike ash  ️",
                 "category": "blog",
                 "note": "",
                 "author": "",
@@ -139,7 +145,7 @@
               },
               {
                 "url": "https://www.swiftbysundell.com/",
-                "text": "swift by Sundell  ️",
+                "text": "Swift by Sundell  ️",
                 "category": "blog",
                 "note": "",
                 "author": "",
@@ -150,7 +156,7 @@
               },
               {
                 "url": "https://talk.objc.io/",
-                "text": "swift talk  ️",
+                "text": "Swift talk  ️",
                 "category": "blog",
                 "note": "",
                 "author": "",
@@ -166,7 +172,7 @@
         "resources": [
           {
             "url": "https://github.com/raywenderlich/swift-algorithm-club",
-            "text": "algorithms in swift",
+            "text": "Algorithms in swift",
             "category": "github",
             "note": "",
             "author": "",
@@ -188,7 +194,7 @@
           },
           {
             "url": "https://github.com/hsavit1/Awesome-Swift-Education",
-            "text": "awesome swift education",
+            "text": "Awesome swift education",
             "category": "github",
             "note": "",
             "author": "",
@@ -199,7 +205,7 @@
           },
           {
             "url": "https://github.com/uraimo/Awesome-Swift-Playgrounds",
-            "text": "awesome swift playgrounds",
+            "text": "Awesome swift playgrounds",
             "category": "github",
             "note": "",
             "author": "",
@@ -210,7 +216,7 @@
           },
           {
             "url": "https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst",
-            "text": "writing high-performance swift code",
+            "text": "Writing high-performance swift code",
             "category": "github",
             "note": "",
             "author": "",
@@ -221,7 +227,7 @@
           },
           {
             "url": "https://github.com/vandadnp/swift-weekly",
-            "text": "swift weekly",
+            "text": "Swift weekly",
             "category": "github",
             "note": "",
             "author": "",
@@ -232,7 +238,7 @@
           },
           {
             "url": "https://swift.sandbox.bluemix.net/#/repl",
-            "text": "swift web repl by ibm",
+            "text": "Swift web repl by ibm",
             "note": "",
             "author": "",
             "score": {
@@ -242,7 +248,7 @@
           },
           {
             "url": "https://github.com/JohnSundell/SwiftTips",
-            "text": "swift tips and tricks",
+            "text": "Swift tips and tricks",
             "category": "github",
             "note": "",
             "author": "",
@@ -253,7 +259,7 @@
           },
           {
             "url": "https://github.com/stylekit/research/wiki/Swift-Resources",
-            "text": "swift notes",
+            "text": "Swift notes",
             "category": "github",
             "note": "",
             "author": "",
@@ -264,7 +270,7 @@
           },
           {
             "url": "http://swiftnews.curated.co/",
-            "text": "this week in swift",
+            "text": "This week in swift",
             "category": "newsletter",
             "note": "",
             "author": "",
@@ -275,7 +281,7 @@
           },
           {
             "url": "https://developer.apple.com/develop/",
-            "text": "apple docs",
+            "text": "Apple docs",
             "note": "",
             "author": "",
             "score": {
@@ -285,7 +291,7 @@
           },
           {
             "url": "https://github.com/ole/whats-new-in-swift-4",
-            "text": "what is new in swift 4",
+            "text": "What is new in swift 4",
             "category": "github",
             "note": "",
             "author": "",
@@ -298,16 +304,16 @@
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "protocol oriented programming",
+            "text": "Protocol oriented programming",
             "nodes": [],
             "resources": [
               {
                 "url": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html",
-                "text": "protocol oriented programming",
+                "text": "Protocol oriented programming",
                 "note": "",
                 "author": "",
                 "score": {
@@ -319,12 +325,12 @@
             "author": ""
           },
           {
-            "text": "concurrent programming",
+            "text": "Concurrent programming",
             "nodes": [],
             "resources": [
               {
                 "url": "https://www.pluralsight.com/blog/software-development/concurrency-swift-3",
-                "text": "concurrent programming",
+                "text": "Concurrent programming",
                 "note": "",
                 "author": "",
                 "score": {
@@ -336,12 +342,12 @@
             "author": ""
           },
           {
-            "text": "libraries  ️",
+            "text": "Libraries  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/swift/libraries",
-                "text": "libraries  ️",
+                "text": "Libraries  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -354,12 +360,12 @@
             "author": ""
           },
           {
-            "text": "apple frameworks  ️",
+            "text": "Apple frameworks  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/programming/programming-languages/swift/apple-frameworks",
-                "text": "apple frameworks  ️",
+                "text": "Apple frameworks  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -372,7 +378,7 @@
             "author": ""
           },
           {
-            "text": "package management",
+            "text": "Package management",
             "nodes": [
               {
                 "text": "CocoaPods  ️",
@@ -393,12 +399,12 @@
                 "author": ""
               },
               {
-                "text": "swift package manager  ️",
+                "text": "Swift package manager  ️",
                 "nodes": [],
                 "resources": [
                   {
                     "url": "/programming/programming-languages/swift/swift-package-manager",
-                    "text": "swift package manager  ️",
+                    "text": "Swift package manager  ️",
                     "category": "mindmap",
                     "note": "",
                     "author": "",
@@ -436,7 +442,7 @@
         "resources": [
           {
             "url": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
-            "text": "1. swift programming language book",
+            "text": "Swift programming language book",
             "category": "free book",
             "note": "",
             "author": "",
@@ -447,7 +453,7 @@
           },
           {
             "url": "https://www.hackingwithswift.com/read",
-            "text": "1. hacking with swift",
+            "text": "Hacking with swift",
             "category": "course",
             "note": "",
             "author": "",
@@ -458,7 +464,7 @@
           },
           {
             "url": "https://www.google.nl/search?q=ios+10+programming+fundamentals+with+swift+pdf&amp;hl=en&amp;safe=off&amp;gws_rd=cr&amp;ei=qdcTWY_UG43fwALftJqYDg",
-            "text": "1. iOS 10 Programming Fundamentals with Swift",
+            "text": "IOS 10 Programming Fundamentals with Swift",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -474,7 +480,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/swift/",
-        "text": "",
+        "text": "/r/swift",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -485,7 +491,7 @@
       },
       {
         "url": "https://github.com/apple/swift",
-        "text": "",
+        "text": "Apple/swift",
         "category": "github",
         "note": "",
         "author": "",
@@ -496,7 +502,7 @@
       },
       {
         "url": "https://github.com/trending/swift",
-        "text": "trending",
+        "text": "Trending",
         "category": "github",
         "note": "",
         "author": "",
@@ -507,7 +513,7 @@
       },
       {
         "url": "https://github.com/matteocrippa/awesome-swift",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -518,7 +524,7 @@
       },
       {
         "url": "https://github.com/Wolg/awesome-swift",
-        "text": "awesome 2",
+        "text": "Awesome 2",
         "category": "github",
         "note": "",
         "author": "",
@@ -529,7 +535,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Swift_(programming_language)",
-        "text": "swift",
+        "text": "Swift",
         "category": "wiki",
         "note": "",
         "author": "",

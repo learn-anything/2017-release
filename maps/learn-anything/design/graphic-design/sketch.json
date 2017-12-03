@@ -3,19 +3,19 @@
   "tag": "sketch app",
   "id": 429,
   "map": {
-    "text": "sketch",
+    "text": "Sketch",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "plugins",
+            "text": "Plugins",
             "nodes": [],
             "resources": [
               {
                 "url": "https://github.com/hrescak/Sketch-Flex-Layout",
-                "text": "sketch flex box",
+                "text": "Sketch flex box",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -31,7 +31,7 @@
         "resources": [
           {
             "url": "https://www.sketchapp.com/learn/",
-            "text": "1. learn sketch",
+            "text": "Learn sketch",
             "note": "",
             "author": "",
             "score": {
@@ -43,16 +43,16 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "tools",
+            "text": "Tools",
             "nodes": [
               {
-                "text": "articles",
+                "text": "Articles",
                 "nodes": [
                   {
-                    "text": "interesting",
+                    "text": "Interesting",
                     "nodes": [],
                     "resources": [
                       {
@@ -73,14 +73,15 @@
                 "resources": [
                   {
                     "url": "https://medium.com/sketch-app-sources/sketch-43-is-coming-to-town-with-a-new-game-an-open-file-format-ae62e7e7c223",
-                    "text": "17: Sketch open file format  ️",
+                    "text": "Sketch open file format  ️",
                     "category": "article",
                     "note": "",
                     "author": "",
                     "score": {
                       "up": 0,
                       "down": 0
-                    }
+                    },
+                    "year": "17"
                   }
                 ],
                 "author": ""
@@ -89,7 +90,7 @@
             "resources": [
               {
                 "url": "https://github.com/airbnb/react-sketchapp",
-                "text": "render react components to sketch",
+                "text": "Render react components to sketch",
                 "category": "github",
                 "note": "",
                 "author": "",
@@ -105,7 +106,7 @@
         "resources": [
           {
             "url": "http://sketch.fordesignrs.com/",
-            "text": "collection of best Sketch resources",
+            "text": "Collection of best Sketch resources",
             "note": "",
             "author": "",
             "score": {
@@ -120,7 +121,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/sketchapp/",
-        "text": "",
+        "text": "/r/sketchapp",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -131,7 +132,7 @@
       },
       {
         "url": "https://github.com/diessica/awesome-sketch",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -142,7 +143,7 @@
       },
       {
         "url": "https://www.sketchapp.com/",
-        "text": "sketch",
+        "text": "Sketch",
         "note": "",
         "author": "",
         "score": {

@@ -3,25 +3,26 @@
   "tag": "",
   "id": 1742,
   "map": {
-    "text": "git hooks",
+    "text": "Git hooks",
     "nodes": [
       {
-        "text": "tools",
+        "text": "Tools",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "http://blog.bradleygore.com/2015/08/06/git-hooks-for-the-front-end-developer/",
-                "text": "15: git hooks for front end developer  ️",
+                "text": "Git hooks for front end developer  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "15"
               }
             ],
             "author": ""
@@ -30,7 +31,7 @@
         "resources": [
           {
             "url": "https://github.com/typicode/husky",
-            "text": "git hooks made easy",
+            "text": "Git hooks made easy",
             "category": "github",
             "note": "",
             "author": "",
@@ -46,7 +47,7 @@
     "resources": [
       {
         "url": "https://git-scm.com/book/gr/v2/Customizing-Git-Git-Hooks",
-        "text": "git hooks",
+        "text": "Git hooks",
         "note": "",
         "author": "",
         "score": {

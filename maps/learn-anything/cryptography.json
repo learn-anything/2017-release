@@ -3,20 +3,20 @@
   "tag": "",
   "id": 376,
   "map": {
-    "text": "cryptography",
+    "text": "Cryptography",
     "nodes": [
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "encryption  ️",
+            "text": "Encryption  ️",
             "note": "allows information to be hidden so that it cannot be read without special knowledge (such as a password), this is done with a secret code or cypher, the hidden information is said to be encrypted",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/encryption",
-                "text": "encryption  ️",
+                "text": "Encryption  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -29,12 +29,12 @@
             "author": ""
           },
           {
-            "text": "cryptanalysis  ️",
+            "text": "Cryptanalysis  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/cryptanalysis",
-                "text": "cryptanalysis  ️",
+                "text": "Cryptanalysis  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -47,12 +47,12 @@
             "author": ""
           },
           {
-            "text": "private information retrieval",
+            "text": "Private information retrieval",
             "nodes": [],
             "resources": [
               {
                 "url": "http://www.wikiwand.com/en/Private_information_retrieval",
-                "text": "private information retrieval",
+                "text": "Private information retrieval",
                 "category": "wiki",
                 "note": "",
                 "author": "",
@@ -65,12 +65,12 @@
             "author": ""
           },
           {
-            "text": "zero-knowledge proofs  ️",
+            "text": "Zero-knowledge proofs  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/zero-knowledge-proofs",
-                "text": "zero-knowledge proofs  ️",
+                "text": "Zero-knowledge proofs  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -83,12 +83,12 @@
             "author": ""
           },
           {
-            "text": "cryptographic hash functions  ️",
+            "text": "Cryptographic hash functions  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/cryptographic-hash-functions",
-                "text": "cryptographic hash functions  ️",
+                "text": "Cryptographic hash functions  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -101,12 +101,12 @@
             "author": ""
           },
           {
-            "text": "steganography  ️",
+            "text": "Steganography  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/steganography",
-                "text": "steganography  ️",
+                "text": "Steganography  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -119,12 +119,12 @@
             "author": ""
           },
           {
-            "text": "universal composability  ️",
+            "text": "Universal composability  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/universal-composability",
-                "text": "universal composability  ️",
+                "text": "Universal composability  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -137,12 +137,12 @@
             "author": ""
           },
           {
-            "text": "quantum cryptography  ️",
+            "text": "Quantum cryptography  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/cryptography/quantum-cryptography",
-                "text": "quantum cryptography  ️",
+                "text": "Quantum cryptography  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -158,7 +158,7 @@
         "resources": [
           {
             "url": "https://www.goodreads.com/book/show/17994.The_Code_Book",
-            "text": "1. the code book",
+            "text": "The code book",
             "category": "non-free book",
             "note": "",
             "author": "",
@@ -169,7 +169,7 @@
           },
           {
             "url": "https://www.crypto101.io/",
-            "text": "1. crypto 101",
+            "text": "Crypto 101",
             "category": "course",
             "note": "",
             "author": "",
@@ -180,7 +180,7 @@
           },
           {
             "url": "https://github.com/sustrik/crypto-for-kids",
-            "text": "1. crypto for kids",
+            "text": "Crypto for kids",
             "category": "github",
             "note": "",
             "author": "",
@@ -191,7 +191,7 @@
           },
           {
             "url": "https://www.coursera.org/learn/crypto",
-            "text": "1. cryptography I",
+            "text": "Cryptography I",
             "category": "course",
             "note": "",
             "author": "",
@@ -202,7 +202,7 @@
           },
           {
             "url": "https://www.udacity.com/course/applied-cryptography--cs387",
-            "text": "1. applied cryptography",
+            "text": "Applied cryptography",
             "category": "course",
             "note": "",
             "author": "",
@@ -213,7 +213,7 @@
           },
           {
             "url": "http://cryptopals.com/",
-            "text": "2. crypto challenges",
+            "text": "Crypto challenges",
             "note": "",
             "author": "",
             "score": {
@@ -223,7 +223,7 @@
           },
           {
             "url": "https://www-ee.stanford.edu/~hellman/publications/24.pdf",
-            "text": "2. new directions in cryptography",
+            "text": "New directions in cryptography",
             "category": "paper",
             "note": "",
             "author": "",
@@ -236,12 +236,12 @@
         "author": ""
       },
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://gist.github.com/TheZ3ro/fb521a3cde0c91fcb350",
-            "text": "cryptographic right answers",
+            "text": "Cryptographic right answers",
             "category": "github",
             "note": "",
             "author": "",
@@ -257,7 +257,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/crypto/",
-        "text": "",
+        "text": "/r/crypto",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -279,7 +279,7 @@
       },
       {
         "url": "https://github.com/sobolevn/awesome-cryptography",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -290,7 +290,7 @@
       },
       {
         "url": "https://www.wikiwand.com/en/Cryptography",
-        "text": "cryptography",
+        "text": "Cryptography",
         "category": "wiki",
         "note": "",
         "author": "",

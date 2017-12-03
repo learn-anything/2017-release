@@ -3,37 +3,38 @@
   "tag": "",
   "id": 1910,
   "map": {
-    "text": "webpack",
+    "text": "Webpack",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [],
         "resources": [
           {
             "url": "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9",
-            "text": "16: webpack - the confusing parts  ️",
+            "text": "Webpack - the confusing parts  ️",
             "category": "article",
             "note": "",
             "author": "",
             "score": {
               "up": 0,
               "down": 0
-            }
+            },
+            "year": "16"
           }
         ],
         "author": ""
       },
       {
-        "text": "basics",
+        "text": "Basics",
         "note": "",
         "nodes": [
           {
-            "text": "webpack plugins  ️",
+            "text": "Webpack plugins  ️",
             "nodes": [],
             "resources": [
               {
                 "url": "/web-development/javascript-libraries/webpack/webpack-plugins",
-                "text": "webpack plugins  ️",
+                "text": "Webpack plugins  ️",
                 "category": "mindmap",
                 "note": "",
                 "author": "",
@@ -49,7 +50,7 @@
         "resources": [
           {
             "url": "http://webpack.academy/p/the-core-concepts",
-            "text": "1. webpack: the core concepts",
+            "text": "Webpack: the core concepts",
             "category": "course",
             "note": "",
             "author": "",
@@ -60,7 +61,7 @@
           },
           {
             "url": "https://survivejs.com/webpack/introduction/",
-            "text": "1. introduction to webpack",
+            "text": "Introduction to webpack",
             "note": "",
             "author": "",
             "score": {
@@ -75,7 +76,7 @@
     "resources": [
       {
         "url": "https://www.reddit.com/r/webpack/",
-        "text": "",
+        "text": "/r/webpack",
         "category": "reddit",
         "note": "",
         "author": "",
@@ -86,7 +87,7 @@
       },
       {
         "url": "https://github.com/webpack-contrib/awesome-webpack",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -97,7 +98,7 @@
       },
       {
         "url": "https://github.com/webpack/webpack",
-        "text": "webpack",
+        "text": "Webpack",
         "category": "github",
         "note": "",
         "author": "",

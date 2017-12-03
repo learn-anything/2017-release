@@ -3,26 +3,27 @@
   "tag": "",
   "id": 1708,
   "map": {
-    "text": "firebase",
+    "text": "Firebase",
     "note": "",
     "nodes": [
       {
-        "text": "help",
+        "text": "Help",
         "nodes": [
           {
-            "text": "articles",
+            "text": "Articles",
             "nodes": [],
             "resources": [
               {
                 "url": "https://medium.freecodecamp.com/firebase-the-great-the-meh-and-the-ugly-a07252fbcf15",
-                "text": "17: firebase: the great, the meh, and the ugly  ️",
+                "text": "Firebase: the great, the meh, and the ugly  ️",
                 "category": "article",
                 "note": "",
                 "author": "",
                 "score": {
                   "up": 0,
                   "down": 0
-                }
+                },
+                "year": "17"
               }
             ],
             "author": ""
@@ -31,7 +32,7 @@
         "resources": [
           {
             "url": "https://firebase.google.com/docs/",
-            "text": "docs",
+            "text": "Docs",
             "note": "",
             "author": "",
             "score": {
@@ -46,7 +47,7 @@
     "resources": [
       {
         "url": "https://github.com/afonsopacifer/awesome-firebase",
-        "text": "awesome",
+        "text": "Awesome",
         "category": "github",
         "note": "",
         "author": "",
@@ -57,7 +58,7 @@
       },
       {
         "url": "http://www.wikiwand.com/en/Firebase",
-        "text": "firebase",
+        "text": "Firebase",
         "category": "wiki",
         "note": "",
         "author": "",
