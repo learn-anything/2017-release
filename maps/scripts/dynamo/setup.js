@@ -1,6 +1,7 @@
 const AWS = require('aws-sdk');
 const schemas = require('./schemas');
 const saveMaps = require('./saveMaps');
+const timeit = require('../utils/timeit');
 
 AWS.config.update({
   region: 'us-west-1',
@@ -93,23 +94,14 @@ async function mktables(schemas) {
 
 
 async function setup() {
-  const startTime = new Date();
   // const laTables = Object.values(schemas).map(schema => schema.TableName);
   // await rm(laTables.join(' '));
 
-  // await mktables(Object.values(schemas));
+  await mktables(Object.values(schemas));
   await ls();
-  await saveMaps(doc);
-
-  const duration = (new Date() - startTime) / 1000;
-  return duration;
+  // await saveMaps(doc);
 }
 
-setup()
-  .then((duration) => {
-    console.log(`Done in ${duration}s`);
-  })
-  .catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
+timeit(setup())
+  .then(() => {})
+  .catch((err) => console.error(err));
