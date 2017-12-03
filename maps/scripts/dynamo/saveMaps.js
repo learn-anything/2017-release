@@ -6,7 +6,6 @@ function sleep(ms) {
 
 
 let nodeID = 0;
-let resourceID = -1;
 
 const getNodesAndResources = (node, mapID, parentID=null) => {
   const nodes = [{
@@ -16,14 +15,12 @@ const getNodesAndResources = (node, mapID, parentID=null) => {
     nodeID: nodeID,
   }];
   const resources = node.resources.map(({ text, url, category, score }) => {
-    resourceID += 1;
-
     const res = {
       mapID,
       url,
       score,
       parentID: nodes[0].nodeID,
-      resourceID: resourceID,
+      resourceID: `${nodes[0].nodeID}|${url}`,
     };
 
     if (category) { res.category = category; }
