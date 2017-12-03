@@ -4,9 +4,9 @@ function formatTimeDiff(startTime, endTime) {
   let timeDiff = (endTime - startTime) / 1000;
 
   if (timeDiff > 60) {
-    timeDiff = `${Math.floor(timeDiff / 60)}m ${timeDiff % 60}s`;
+    timeDiff = `${Math.floor(timeDiff / 60)}m ${Math.floor(timeDiff % 60)}s`;
   } else {
-    timeDiff = `${Math.floor(timeDiff)}s`
+    timeDiff = `${timeDiff}s`
   }
 
   return `Done in ${timeDiff}`;
