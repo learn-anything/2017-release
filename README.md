@@ -13,7 +13,6 @@
 - [Explore our Curated Lists](#explore-our-curated-lists)
 - [Keep this project going 💜](#keep-this-project-going-💜)
 
-
 ## What is Learn Anything?
 [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps.
 
@@ -187,6 +186,3 @@ Thank you. 💚
 
 ## License
 MIT © [Learn Anything](https://learn-anything.xyz/)
-
-
-
