@@ -73,9 +73,9 @@ export default class Sidebar extends Component {
           <Link onClick={this.hideSidebar} to="/">{__('sidebar_home')}</Link>
         </div>
 
-        <div className="sidebar-item">
+        {/* <div className="sidebar-item">
           <Link onClick={this.hideSidebar} to="/learn-anything">{__('sidebar_all_topics')}</Link>
-        </div>
+        </div> */}
 
         <div className="sidebar-item">
           <a onClick={this.showAbout}>{__('sidebar_about')}</a>
