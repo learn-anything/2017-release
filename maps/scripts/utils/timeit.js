@@ -6,7 +6,7 @@ function formatTimeDiff(startTime, endTime) {
   if (timeDiff > 60) {
     timeDiff = `${Math.floor(timeDiff / 60)}m ${timeDiff % 60}s`;
   } else {
-    timeDiff = `${timeDiff}s`
+    timeDiff = `${Math.floor(timeDiff)}s`
   }
 
   return `Done in ${timeDiff}`;

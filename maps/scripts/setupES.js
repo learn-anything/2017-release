@@ -7,7 +7,9 @@ const AWS = require('aws-sdk');
 const AWS_ES = require('http-aws-es');
 const elasticsearch = require('elasticsearch');
 const { walkDir } = require(`${__dirname}/utils/dir`);
+const timeit = require(`${__dirname}/utils/timeit`);
 const fs = require('fs-extra');
+
 
 let client = elasticsearch.Client({
   host: 'localhost:9200',
@@ -26,15 +28,6 @@ if (process.env.NODE_ENV === 'production') {
     host: 'https://search-learn-anything-dom7q2utc7a2kmjkugwhjxceru.us-west-1.es.amazonaws.com',
     connectionClass: AWS_ES,
   });
-}
-
-
-function countNodes(nodes) {
-  const count = nodes
-    .map(node => countNodes(node.nodes))
-    .reduce((sum, val) => (sum + val), 0);
-
-  return nodes.length + count;
 }
 
 
@@ -98,8 +91,6 @@ async function createMap(map, i) {
     parsedMap.key = splitTitle[splitTitle.length - 1];
   }
 
-  parsedMap.nodesCount = countNodes([map.map]);
-
   const options = {
     id: i,
     index: 'maps',
@@ -156,9 +147,6 @@ async function setup() {
   await createMaps();
 }
 
-setup()
-  .then(() => console.log('done'))
-  .catch((err) => {
-    console.error(err);
-    process.exit();
-  });
+timeit(setup())
+  .then(() => {})
+  .catch(err => console.error(err));

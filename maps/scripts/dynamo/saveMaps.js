@@ -101,9 +101,9 @@ module.exports = async (docClient) => {
       ReturnItemCollectionMetrics: 'SIZE',
     });
 
+    console.log(map.title, map.mapID);
     await batchPut(docClient, nodes, 'Nodes');
     await batchPut(docClient, resources, 'Resources');
-    console.log(map.title, map.mapID);
 
     if (process.env.NODE_ENV === 'production') {
       await sleep(500);
