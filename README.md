@@ -1,20 +1,18 @@
-<p align="center">
-    <img src="https://i.imgur.com/gdVn417.png" width="128" height="128">
-</p>
+# [![AVA](media/header.png)](https://learn-anything.xyz/)
 
 # Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
-> [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps
+> [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps
 
 ## Contents
-- [What is Learn Anything?](#what-is-learn-anything?)
+- [What is Learn Anything?](#what-is-learn-anything)
 - [Contributing](#contributing)
 - [Developing the website](#developing-the-website)
 - [API](#api)
 - [Explore our Curated Lists](#explore-our-curated-lists)
-- [Keep this project going 💜](#keep-this-project-going-💜)
+- [Keep this project going 💜](#keep-this-project-going)
 
 ## What is Learn Anything?
-[Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Mind Maps.
+[Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps.
 
 If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
 
@@ -149,7 +147,7 @@ Feel free to explore and improve them if you wish.
 - [Chrome Extensions 🌐](https://github.com/learn-anything/chrome-extensions)
 
 ## Keep this project going 💜
-This project is **built by the community, for the community** and in our goals to make the most efficient paths and the best user experience possible in exploring the mind maps and finding the resources you need, we can only rely on donations made by our users to sustain this project.
+This project is **built by the community, for the community** and in our goals to make the most efficient paths and the best user experience possible in exploring the maps and finding the resources you need, we can only rely on donations made by our users to sustain this project.
 
 There are **no advertisements** and **no sponsored content** in this website as that would defeat our vision of making the best and most optimal learning tracks for learning any topic in the world.
  
@@ -167,15 +165,15 @@ Thank you. 💚
         <a href="https://github.com/nglgzz"> Angelo Gazzola </a>
         <p>Lead Web Developer</p>
         <br>
-        <p>Created a complete and working version of the <a href="https://learn-anything.xyz">Search Engine</a> + our own mind map render system as <a href="https://github.com/learn-anything/react-mindmap"> React Component </a></p>
+        <p>Created a complete and working version of the <a href="https://learn-anything.xyz">Website</a> + our own mind map render system as <a href="https://github.com/learn-anything/react-mindmap"> React Component </a></p>
       </td>
       <td align="center" valign="top">
         <img width="150" height="150" src="https://pbs.twimg.com/profile_images/712426493868056576/hRaMUdgf.jpg">
         <br>
         <a href="https://github.com/nikitavoloboev">Nikita Voloboev</a>
-        <p>Oversees curation of mind maps</p>
+        <p>Oversees curation of maps</p>
         <br>
-        <p>Curated the entire index of all the mind maps up until this point + helps with making search the best it can be</p>
+        <p>Curated the entire index of all the maps up until this point + helps with making search the best it can be</p>
       </td>
      </tr>
   </tbody>
