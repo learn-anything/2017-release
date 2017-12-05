@@ -15,10 +15,16 @@ export const clearVotes = () => ({
   type: actions.map.clearVotes,
 });
 
-export const fetchVotes = mapID => ({
-  type: actions.map.fetchVotes.def,
-  payload: axios.get(`/api/votes/?mapID=${mapID}`, { headers: window.laAuth.getAuthorizationHeader() }),
-});
+export const fetchVotes = (mapID) => {
+  if (!window.laAuth.isAuthenticated()) {
+    return { type: '' };
+  }
+
+  return {
+    type: actions.map.fetchVotes.def,
+    payload: axios.get(`/api/votes/?mapID=${mapID}`, { headers: window.laAuth.getAuthorizationHeader() }),
+  };
+};
 
 export const voteResource = (resourceID, direction) => {
   if (!window.laAuth.isAuthenticated()) {
