@@ -61,6 +61,7 @@ const flattenItem = item => Object.keys(item).reduce((flatItem, key) => {
 const flattenItems = items => items.map(item => flattenItem(item));
 
 
+// http://bytesizematters.com/
 // Average size in bytes of an Item of a given table.
 const estimatedItemSize = {
     'Maps': 300,
@@ -128,23 +129,11 @@ const getTable = async (table) => {
 };
 
 
-// const itemToKey = {
-//     Maps: item => item.mapID,
-//     Nodes: item => item.nodeID,
-//     // Hash it vvvvv
-//     Resources: item => item.resourceID,
-//     Votes: item => item.resourceID + item.userID
-// };
-
 const writeItems = (items, table) => {
     console.log(`Writing ${items.length} items`);
     const filename = `${table.toLowerCase()}-bak.json`;
     const contents = items.map(item => JSON.stringify(item)).join('\n');
     fs.writeFileSync(filename, contents);
-    // items.forEach((item) => {
-    //     const filename = `${table.toLowerCase()}/${itemToKey[table](item)}.json`;
-    //     fs.writeFileSync(filename, JSON.stringify(item));
-    // });
 };
 
 
