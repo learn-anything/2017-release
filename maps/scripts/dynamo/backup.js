@@ -53,6 +53,8 @@ const flattenItem = item => Object.keys(item).reduce((flatItem, key) => {
         flatItem[key] = Number(val.N);
     } else if (val.S) {
         flatItem[key] = val.S;
+    } else if (val.NULL) {
+        flatItem[key] = null;
     }
 
     return flatItem;
@@ -128,11 +130,15 @@ const getTable = async (table) => {
     return items;
 };
 
+const undefined_to_null = (key, value) => (
+    value === undefined ? null : value
+);
+
 
 const writeItems = (items, table) => {
     console.log(`Writing ${items.length} items`);
     const filename = `${table.toLowerCase()}-bak.json`;
-    const contents = items.map(item => JSON.stringify(item)).join('\n');
+    const contents = items.map(item => JSON.stringify(item, undefined_to_null)).join('\n');
     fs.writeFileSync(filename, contents);
 };
 
