@@ -34,7 +34,6 @@ const config = {
   resolve: {
     modules: ['node_modules', 'client'],
     extensions: ['.jsx', '.js'],
-    alias: { d3: path.resolve(__dirname, 'client/dist/d3.min.js') },
   },
 
   module: {

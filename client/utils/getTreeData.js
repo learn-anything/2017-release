@@ -1,4 +1,4 @@
-import { hierarchy } from 'd3';
+import { hierarchy } from 'd3-hierarchy';
 import flextree from 'd3-flextree-v4';
 
 
