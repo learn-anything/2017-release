@@ -1,6 +1,6 @@
 # [![AVA](media/header.png)](https://learn-anything.xyz/)
 
-# Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
+# Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
 > [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps
 
 If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
@@ -17,7 +17,7 @@ You can contribute to the website in many ways. The most easiest thing you can d
 
 Since this website is fully open source, you can also help and work on new and awesome features to add to the website. Read [`Developing the website`](#developing-the-website) section for more information on how to get started with this. And if you never programmed before and this is your first Open Source project, don't be afraid to join in. There are many people that can help you both get started and make your first contribution.
 
-We have a [Slack channel](https://knowledge-map.slack.com/) we use for all our communication. Feel free to join in and learn and make this awesome thing together. 🦄
+We have a [Slack channel](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I) we use for all our communication. Feel free to join in and learn and make this awesome thing together. 🦄
 
 ## Developing the website
 ### Getting Started
@@ -115,9 +115,7 @@ Get a specific map from its path. The format is the same as the one above.
 
 
 ## Explore our Curated Lists
-With our goal of providing the most efficient paths for Learning Anything, we also manage curation of various GitHub lists. 
-
-Feel free to explore and improve them if you wish. 
+With our goal of providing the most efficient paths for Learning Anything, we also manage curation of various GitHub lists. Feel free to explore and improve them if you wish. 
 - [Books 📚](https://github.com/learn-anything/books) 
 - [Courses 📝](https://github.com/learn-anything/courses)
 - [Research Papers 📃](https://github.com/learn-anything/research-papers) 
