@@ -5,7 +5,7 @@
 # Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
 > [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps
 
-If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
+If you want to know more about what we're trying to solve, our plans for the future, how to improve the website, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
 
 ## Contents
 - [Contributing](#contributing)
