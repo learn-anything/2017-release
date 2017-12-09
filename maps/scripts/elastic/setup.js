@@ -95,7 +95,7 @@ async function createMaps() {
   const limiter = new Bottleneck(1, 1000);
 
   // Read lines from backup file, split them and parse them.
-  const contents = readFileSync(resolve(__dirname, '..', filename), 'utf-8')
+  const contents = readFileSync(resolve(__dirname, '..', '..', filename), 'utf-8')
     .split('\n')
     .map(item => JSON.parse(item));
 

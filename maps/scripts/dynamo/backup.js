@@ -140,7 +140,7 @@ const writeItems = (items, table) => {
     console.log(`Writing ${items.length} items`);
     const filename = `${table.toLowerCase()}-bak.json`;
     const contents = items.map(item => JSON.stringify(item, undefined_to_null)).join('\n');
-    fs.writeFileSync(resolve(__dirname, '..', filename), contents);
+    fs.writeFileSync(resolve(__dirname, '..', '..', filename), contents);
 };
 
 
