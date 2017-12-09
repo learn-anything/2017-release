@@ -101,8 +101,12 @@ const writeTable = async (tableName) => {
   const filename = `${tableName.toLowerCase()}-bak.json`;
   const limiter = new Bottleneck(1, 1000);
 
+  if (tableName === 'Votes') {
+    return;
+  }
+
   // Read lines from backup file, split them and parse them.
-  const contents = readFileSync(resolve(__dirname, '..', filename), 'utf-8')
+  const contents = readFileSync(resolve(__dirname, '..', '..', filename), 'utf-8')
     .split('\n')
     .map(item => ({ PutRequest : { Item: JSON.parse(item) } }));
   while (contents.length) {
@@ -124,7 +128,9 @@ const setup = async () => {
   // If there's any tables, delete the ones that we are going to create.
   if (tables.length) {
     for (let tableName of Object.keys(schemas)) {
-      await dynamodb('deleteTable', { TableName: tableName });
+      if (tables.includes(tableName)) {
+        await dynamodb('deleteTable', { TableName: tableName });
+      }
     }
     console.log('Deleted all tables.');
   }
