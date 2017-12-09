@@ -74,7 +74,7 @@ function cache(key, fn, lifetime = 0, shouldHash = false) {
         // If there's some data cached return that, and if the key was
         // hashed, check that the original (non-hashed) keys correspond.
         if (cachedData && (!shouldHash || (shouldHash && cachedData.key === key))) {
-          console.log('[MC] Hit', shouldHash ? hashedKey : key);
+          console.log('[MC] Hit:', shouldHash ? hashedKey : key);
           resolve(shouldHash ? cachedData.value : cachedData);
           return;
         }

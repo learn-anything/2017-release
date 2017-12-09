@@ -2,6 +2,7 @@
 const AWS = require('aws-sdk');
 const Bottleneck = require('bottleneck');
 const fs = require('fs');
+const { resolve } = require('path');
 const schemas = require('./schemas');
 const timeit = require('../utils/timeit');
 
@@ -139,20 +140,22 @@ const writeItems = (items, table) => {
     console.log(`Writing ${items.length} items`);
     const filename = `${table.toLowerCase()}-bak.json`;
     const contents = items.map(item => JSON.stringify(item, undefined_to_null)).join('\n');
-    fs.writeFileSync(filename, contents);
+    fs.writeFileSync(resolve(__dirname, '..', filename), contents);
 };
 
 
-const table = process.argv[2];
+let tables = Object.keys(schemas);
 
-if (!table) {
-    console.log('You need to specify a table to back up.');
-    process.exit(1);
+// If we specify a table as an argument when running this script, only that
+// table will be backed up, otherwise all tables are backed up.
+const table = process.argv[2];
+if (table) {
+    tables = [table];
 }
 
-console.log(`Reading ${Math.floor(itemsPerScan(table))} items per second.`);
-timeit(getTable(table))
-    .then((items) => {
-        timeit(writeItems, items, table);
-    })
-    .catch(err => console.error(err));
+tables.forEach((tableName) => {
+    console.log(`Reading ${Math.floor(itemsPerScan(tableName))} items per second.`);
+    timeit(getTable(tableName))
+        .then(items => timeit(writeItems, items, tableName))
+        .catch(err => console.error(err));
+});
