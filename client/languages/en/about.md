@@ -14,7 +14,7 @@ has a mind map with nodes to other subtopics, external links and resources.
 
 This project is [Open Source and is in active development](https://github.com/learn-anything/learn-anything).
 
-Anyone who wishes to contribute to it, can help by either improving the content of all the topics and adding links with resources or by helping with the development and contributing to new features of the website or you can just join our growing community on [Slack](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ).
+Anyone who wishes to contribute to it, can help by either improving the content of all the topics and adding links with resources or by helping with the development and contributing to new features of the website or you can just join our growing community on [Slack](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I).
 
 <a href="https://github.com/learn-anything/maps/wiki/Contributing" class="dialog-btn">Learn more about Contributing</a>
 <div class="md-separator"></div>

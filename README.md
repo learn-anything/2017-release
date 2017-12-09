@@ -1,27 +1,23 @@
-# [![AVA](media/header.png)](https://learn-anything.xyz/)
+# [![LA](media/header.png)](https://learn-anything.xyz/)
 
-# Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
+# Learn Anything [![Slack](https://img.shields.io/badge/Slack%20Group-💬-green.svg)](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I) [![Twitter](https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/learnanything_) [![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything) [![Support](https://img.shields.io/badge/Suport%20Us-💗-ff69b4.svg)](https://www.patreon.com/learnanything)
 > [Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps
 
+If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
+
 ## Contents
-- [What is Learn Anything?](#what-is-learn-anything)
 - [Contributing](#contributing)
 - [Developing the website](#developing-the-website)
 - [API](#api)
 - [Explore our Curated Lists](#explore-our-curated-lists)
-- [Keep this project going 💜](#keep-this-project-going)
-
-## What is Learn Anything?
-[Learn Anything](https://learn-anything.xyz/) is an Open Source Website built by community to Learn Anything with Interactive Maps.
-
-If you want to know more about what we're trying to solve, our plans for the future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/learn-anything/wiki).
+- [Keep this project going](#keep-this-project-going)
 
 ## Contributing
 You can contribute to the website in many ways. The easiest thing you can do to help is to simply use the website and learn things with it. And if you found a resource you like, just add it so everyone can find it too.
 
 Since this website is fully open source, you can also help and work on new and awesome features to add to the website. Read [`Developing the website`](#developing-the-website) section for more information on how to get started with this. And if you never programmed before and this is your first Open Source project, don't be afraid to join in. There are many people that can help you both get started and make your first contribution.
 
-We have a [Slack channel](https://knowledge-map.slack.com/) we use for all our communication. Feel free to join in and learn and make this awesome thing together. 🦄
+We have a [Slack channel](https://join.slack.com/t/learnanythingxyz/shared_invite/enQtMjg1MTcxMjA4NDg2LWU0YjgxZTZmZGY5MTRlMWI3ZWJjYzNhYTg4MmE1OTRjNTQ2MjUwYWI3ZGZlZjg1MDA0OTc3ZDY3ZmMzZDc4N2I) we use for all our communication. Feel free to join in and learn and make this awesome thing together. 🦄
 
 ## Developing the website
 ### Getting Started
@@ -78,32 +74,30 @@ you're developing locally to get a random map you'd use `http://localhost:3000/a
 | [/maps/path/to/map](#get-mapspathtomap) | GET    | -          | get map by path                 |
 
 ## Explore our Curated Lists
-With our goal of providing the most efficient paths for Learning Anything, we also manage curation of various GitHub lists.
-
-Feel free to explore and improve them if you wish.
-- [Books 📚](https://github.com/learn-anything/books)
-- [Courses 📝](https://github.com/learn-anything/courses)
-- [Research Papers 📃](https://github.com/learn-anything/research-papers)
-- [Blogs ️🗃️](https://github.com/learn-anything/blogs)
-- [Humans 👪 ](https://github.com/learn-anything/humans)
-- [Quotes 💬](https://github.com/learn-anything/quotes)
-- [Podcasts 🎙️](https://github.com/learn-anything/podcasts)
-- [Newsletters 📮](https://github.com/learn-anything/newsletters)
-- [Images 🎨](https://github.com/learn-anything/images)
-- [Talks 👀](https://github.com/learn-anything/talks)
-- [Command Line Tools 🐚](https://github.com/learn-anything/command-line-tools)
-- [macOS apps 💻](https://github.com/learn-anything/macos-apps)
-- [iOS apps 📱](https://github.com/learn-anything/ios-apps)
-- [Safari Extensions 🌐](https://github.com/learn-anything/safari-extensions)
-- [Alfred Workflows 🎩](https://github.com/learn-anything/alfred-workflows)
-- [TV series 🎥](https://github.com/learn-anything/tv-series)
-- [Documentaries 🎥](https://github.com/learn-anything/documentaries)
-- [Movies 🎥](https://github.com/learn-anything/movies)
-- [Reddit 🤖](https://github.com/learn-anything/reddit)
-- [Youtube 🎥](https://github.com/learn-anything/youtube)
-- [Quora ❓](https://github.com/learn-anything/quora)
-- [Computer games 💻](https://github.com/learn-anything/computer-games)
-- [Chrome Extensions 🌐](https://github.com/learn-anything/chrome-extensions)
+With our goal of providing the most efficient paths for Learning Anything, we also manage curation of various GitHub lists. Feel free to explore and improve them if you wish.
+- [Books](https://github.com/learn-anything/books)
+- [Courses](https://github.com/learn-anything/courses)
+- [Research Papers](https://github.com/learn-anything/research-papers)
+- [Alfred Workflows](https://github.com/learn-anything/alfred-workflows)
+- [Blogs ](https://github.com/learn-anything/blogs)
+- [Humans](https://github.com/learn-anything/humans)
+- [Quotes](https://github.com/learn-anything/quotes)
+- [Podcasts️](https://github.com/learn-anything/podcasts)
+- [Newsletters](https://github.com/learn-anything/newsletters)
+- [Images](https://github.com/learn-anything/images)
+- [Talks](https://github.com/learn-anything/talks)
+- [Command Line Tools](https://github.com/learn-anything/command-line-tools)
+- [macOS apps](https://github.com/learn-anything/macos-apps)
+- [iOS apps](https://github.com/learn-anything/ios-apps)
+- [Safari Extensions](https://github.com/learn-anything/safari-extensions)
+- [TV series](https://github.com/learn-anything/tv-series)
+- [Documentaries](https://github.com/learn-anything/documentaries)
+- [Movies](https://github.com/learn-anything/movies)
+- [Reddit](https://github.com/learn-anything/reddit)
+- [Youtube](https://github.com/learn-anything/youtube)
+- [Quora](https://github.com/learn-anything/quora)
+- [Computer games](https://github.com/learn-anything/computer-games)
+- [Chrome Extensions](https://github.com/learn-anything/chrome-extensions)
 
 ## Keep this project going 💜
 This project is **built by the community, for the community** and in our goals to make the most efficient paths and the best user experience possible in exploring the maps and finding the resources you need, we can only rely on donations made by our users to sustain this project.
