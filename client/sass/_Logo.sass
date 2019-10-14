@@ -1,0 +1,80 @@
+@import variables
+
+
+@keyframes fade-in-bubble-text
+  0%
+    opacity: 0
+    transform: translateX(50px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+
+@keyframes fade-in-bubble-bubble
+  0%
+    opacity: 0
+    transform: translateX(25px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+
+.la-logo-icon
+  +center-row-horizontal
+
+  padding: 15px 11px
+  width: 40px
+
+
+.la-logo-icon--big
+  margin: auto
+  padding: 40px 0
+
+
+.welcome-bubble
+  display: flex
+  left: 50%
+  position: absolute
+  top: 40px
+  transform: translateX(calc(-100% - 33px))
+
+
+.welcome-bubble-text
+  animation: fade-in-bubble-text .18s forwards
+  animation-delay: .7s
+  background-color: $cape-cod
+  border-radius: 10px
+  color: $regent-gray
+  max-width: 30vw
+  opacity: 0
+  padding: 5px 20px
+  width: 500px
+
+
+.welcome-bubble-bubble
+  animation: fade-in-bubble-bubble .18s forwards
+  animation-delay: .7s
+  background-color: $cape-cod
+  border-radius: 10px
+  height: 13px
+  margin-left: 14px
+  margin-top: 20px
+  opacity: 0
+  width: 13px
+
+
++respond-to($width-s)
+  .welcome-bubble
+    display: none
+
+  .la-logo-container
+    margin-top: auto
+    order: 3
+
+  .la-logo-icon
+    display: none
+
+  .la-logo-icon--big
+    display: flex

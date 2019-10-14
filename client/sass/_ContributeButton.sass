@@ -1,0 +1,47 @@
+@import variables
+
+
+%button
+  +normalize-btn
+  background-color: $lima
+  color: $white
+  font-family: $font-default
+  font-weight: bold
+  transition: background-color .217s
+  z-index: 1
+
+  &:active,
+  &:hover
+    background-color: lighten($lima, 10)
+    cursor: pointer
+
+
+.contribute-button
+  @extend %button
+  border-radius: 20px
+  margin-top: 10px
+  padding: 10px 20px
+
+.contribute-button--editing
+  background-color: $azure-radiance
+
+  &:active,
+  &:hover
+    background-color: lighten($azure-radiance, 10)
+
+
++respond-to($width-m)
+  .contribute-button
+    +center-row-horizontal
+    +center-row-vertical
+    border-radius: 50%
+    bottom: 20px
+    height: 64px
+    position: absolute
+    right: 20px
+    width: 64px
+
+    img
+      height: 32px
+      width: 32px
+

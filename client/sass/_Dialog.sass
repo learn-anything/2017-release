@@ -1,0 +1,196 @@
+@import variables
+
+
+.app-container > .dialog
+  background-color: transparent
+  z-index: 2
+
+.dialog-overlay
+  +fullscreen
+  background-color: $overlay
+  overflow-y: scroll
+
+.dialog-body
+  +flex-column
+  margin: 10vh auto
+  max-width: 550px
+  overflow-x: visible
+
+
+  & > :not(.md-separator)
+    background-color: $white
+
+  .md-separator
+    background-color: $white
+    border-radius: 0 0 5px 5px
+    height: 20px
+    margin-bottom: 20px
+
+  h1
+    border-radius: 5px 5px 0 0
+    color: $mine-shaft
+    font-size: 1.2em
+    margin: 0
+    padding: 30px 30px 10px
+
+  p
+    color: $oslo-gray
+    font-size: .8em
+    margin: 0
+    padding: 5px 30px 10px
+
+  .dialog-btn
+    background-color: $lima
+    border: 0
+    border-radius: 2em
+    color: $white
+    cursor: pointer
+    display: inline-block
+    font-size: .8rem
+    font-weight: bold
+    padding: 1em 2em
+    text-decoration: underline
+
+    &:focus
+      outline: none
+
+  .dialog-btn-light
+    background-color: $white
+    color: $lima
+    text-decoration: none
+
+  .btn-container
+    padding: 10px 30px
+
+  ul
+    display: flex
+    flex-wrap: wrap
+    margin: 0
+    padding: 0 30px
+
+  li
+    background-color: $mercury
+    border-radius: 5px
+    color: $oslo-gray
+    font-size: .9rem
+    font-weight: bold
+    list-style: none
+    margin: 4px
+    padding: 10px 0 22px
+    text-align: center
+    text-decoration: underline
+    text-underline-position: under
+    width: calc(50% - 8px)
+
+    &:last-child
+      background-color: $wild-sand
+      font-weight: normal
+      text-decoration: none
+
+
+  a
+    color: $oslo-gray
+
+  .table-container
+    padding-bottom: 10px
+
+  table
+    border-collapse: collapse
+    margin: 0 30px
+
+  td
+    border-bottom: 1px solid $gallery
+    border-top: 1px solid $gallery
+
+    img
+      height: 120px
+      padding: 10px 30px 10px 0
+      width: 130px
+
+    p
+      padding-left: 0
+
+
+  & > .footer
+    background-color: transparent
+    display: flex
+    justify-content: center
+
+  .patreon-logo,
+  .twitter-logo
+    fill: $abbey
+    height: 50px
+    width: 50px
+
+  .patreon-logo,
+  .patreon-logo rect,
+  .patreon-logo circle,
+  .twitter-logo
+    transition: .217s fill ease
+
+  .patreon-logo
+    padding: 10px
+
+    &:hover
+      rect
+        fill: $navy
+
+      circle
+        fill: $coral
+
+  .twitter-logo:hover
+    fill: $twitter-blue
+
+
+.dialog-hide
+  background-color: $white
+  border: 0
+  border-radius: 20px
+  color: $mine-shaft
+  font-size: 16px
+  height: 40px
+  left: calc(50% + 225px + 60px)
+  line-height: 40px
+  position: absolute
+  top: 10vh
+  user-select: none
+  width: 40px
+
+  &:focus
+    outline: none
+
+
+.dialog-footer-buttons
+  border-radius: 0 0 5px 5px
+  display: flex
+  padding-top: 30px
+
+  button
+    +normalize-btn
+    flex-grow: 1
+    font-size: 1.2em
+    padding: 20px
+
+    &:hover
+      cursor: pointer
+
+  .button-cancel
+    background-color: $mercury
+    border-radius: 0 0 0 5px
+    color: $black
+
+    &:hover
+      background-color: lighten($mercury, 5)
+
+  .button-submit
+    background-color: $lima
+    border-radius: 0 0 5px
+    color: $white
+
+    &:hover
+      background-color: lighten($lima, 5)
+
+
++respond-to($width-xs)
+  .dialog-body li
+    width: 100%

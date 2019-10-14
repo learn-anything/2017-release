@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="fragment" content="!">
+
+  <!-- OG tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{=it.title}}" />
+  <meta property="og:description" content="{{=it.description}}" />
+  <meta property="og:url" content="{{=it.url}}" />
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Learn Anything</title>
+  <link rel="icon" href="/static/favicon.png" />
+  <link nonce="EDNnf03nceIOfn39fn3e9h3sdfa" href="https://fonts.googleapis.com/css?family=Raleway:400,700|Droid+Sans+Mono" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script nonce="EDNnf03nceIOfn39fn3e9h3sdfa" async src="https://www.googletagmanager.com/gtag/js?id={{=it.googleTrackingID}}"></script>
+  <script nonce="EDNnf03nceIOfn39fn3e9h3sdfa">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+
+</head>
+
+<body>
+  <div id="react-app"></div>
+
+  <script nonce="EDNnf03nceIOfn39fn3e9h3sdfa" src="/static/{{=it.language || 'en'}}.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+@import variables
+
+
+.app-container .legend
+  background-color: transparent
+
+.legend-overlay
+  +fullscreen
+  background-color: $overlay
+  z-index: 2
+
+.legend-body
+  background-color: $white
+  border-radius: 7px
+  bottom: 50px
+  font-size: .85rem
+  left: 20px
+  position: absolute
+  width: 250px
+
+  ul
+    list-style: none
+    padding: 0
+
+  li
+    align-items: center
+    display: flex;
+    padding: 2.5px 15px
+
+  img
+    height: 15px
+    margin-right: 5px
+    width: 15px
+
+
+.legend-header
+  background-color: $white
+  border-radius: 7px 7px 0 0
+  display: flex
+  justify-content: space-between
+
+  .legend-title
+    margin: 15px 15px 0
+
+  .legend-close
+    +normalize-btn
+    color: $gray
+    font-size: 1.2em
+    margin: 10px 15px 0
+
+
++respond-to($width-s)
+  .legend-overlay
+    +flex-column
+    flex-grow: 1
+    justify-content: center
+
+  .legend-body
+    +flex-column
+    border-radius: 0 0 7px 7px
+
+  .legend-header,
+  .legend-body
+    margin: 0 20px
+    position: static
+    width: auto
+    z-index: 3
+
+    ul
+      +flex-column
+      flex-grow: 1
+      justify-content: space-evenly

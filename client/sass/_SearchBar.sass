@@ -1,0 +1,176 @@
+@import variables
+
+
+%field
+  +center-row-horizontal
+  border: 0
+  font-size: 1.5em
+  max-width: 500px
+  padding: 7px 25px
+  transition: background-color .217s
+  width: 100%
+
+  &:focus
+    outline: none
+
+
+::-webkit-scrollbar // sass-lint:disable-line no-vendor-prefixes
+  display: none
+
+
+.searchbar-container
+  align-items: center
+  display: flex
+  flex-direction: column
+  width: 100%
+
+
+.searchbar-input
+  @extend %field
+  border-radius: 3px
+  color: $azure-radiance
+  font-family: $font-default
+  font-weight: bold
+  padding: 15px 25px
+  z-index: 1
+
+  &::placeholder
+    color: $edward
+    font-weight: normal
+
+
+.react-autosuggest__container
+  +center-column-horizontal
+  max-width: 500px
+  width: 100%
+
+
+.searchbar-suggestions-container
+  margin: -2px 0
+  max-height: 40vh
+  max-width: 500px
+  overflow-y: auto
+  position: absolute
+  transform: translateY(3.5rem)
+  width: 100%
+  z-index: 2
+
+
+.react-autosuggest__suggestion
+  @extend %field
+  background-color: $iron
+
+  &:last-child
+    border-radius: 0 0 3px 3px
+
+  a
+    align-items: flex-end
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    line-height: 1.5em
+    text-decoration: none
+    width: 100%
+
+  .searchbar-suggestion-key
+    color: $shark
+    font-size: .8em
+
+  .searchbar-suggestion-nodes-count
+    color: $oslo-gray
+    font-size: .6em
+
+
+.react-autosuggest__suggestion--highlighted
+  background-color: $silver
+
+
+.react-autosuggest__suggestions-list
+  +center-column-horizontal
+  margin: 0
+  padding: 0
+
+
+.searchbar-suggestions-title
+  @extend %field
+  background-color: $iron
+  border-radius: 3px 3px 0 0
+  color: $bombay
+  display: none
+  font-size: .8em
+  font-weight: bold
+  justify-content: flex-start
+  padding: 15px 25px 5px
+  text-transform: uppercase
+
+
+.react-autosuggest__container--open
+  .searchbar-suggestions-title
+    display: flex
+
+
+.searchbar-input--docked
+  font-size: 1.2em
+  padding: 10px 20px
+  width: 350px
+
+  & + .searchbar-suggestions-container
+    margin: 7px 0
+    width: 350px
+
+
+.searchbar-container--docked
+  padding: 10px 5px
+  width: 350px
+
+
++respond-to($width-s)
+  .react-autosuggest__container,
+  .searchbar-suggestions-container
+    padding: 0 10px
+
+  .searchbar-container--docked
+    height: 24px
+    margin-top: 2.3em
+    order: 2
+    padding: 0
+    width: 24px
+
+  .searchbar-input--docked
+    height: 54px
+    padding-right: 50px
+
+    & + .searchbar-suggestions-container
+      padding: 0
+
+  .searchbar-input--docked,
+  .searchbar-input--docked + .searchbar-suggestions-container
+    left: 20px
+    max-width: none
+    position: absolute
+    right: 20px
+    top: 20px
+    width: calc(100% - 40px)
+
+  .searchbar-suggestions-title,
+  .react-autosuggest__suggestion
+    max-width: none
+    width: 100%
+
+  .searchbar-btn-show
+    +normalize-btn
+
+    &,
+    img
+      height: 24px
+      width: 24px
+
+
+  .searchbar-btn-hide
+    +normalize-btn
+    color: $gray
+    font-size: 24px
+    position: absolute
+    right: 35px
+    top: 30px
+    z-index: 2

@@ -1,0 +1,482 @@
+swagger: '2.0'
+
+# You should specify common part of your endpoints in the following format:
+#   <schemes>://<host><basepath>
+schemes:
+  - https
+host: learn-anything.xyz
+basePath: /api
+
+info:
+  x-logo:
+    url: 'https://github.com/learn-anything.png?size=200'
+  title: Learn Anything
+  version: '1.0.0' # Your API version
+  # Describe your API here, you can use GFM (https://guides.github.com/features/mastering-markdown) here
+  # description: | # TODO
+  #   This is an **example** API to demontstrate features of OpenAPI specification
+  #   # Introduction
+  #   This specification is intended to to be a good starting point for describint your API in
+  #   [OpenAPI/Swagger format](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
+  #   It also demonstrates features of [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo) tool and
+  #   [ReDoc](https://github.com/Rebilly/ReDoc) documentation engine. So beyond the standard OpenAPI syntax we use a few
+  #   [vendor extensions](https://github.com/Rebilly/ReDoc/blob/master/docs/redoc-vendor-extensions.md).
+  contact:
+    email: hi@learn-anything.xyz
+  license:
+    name: MIT
+    url: 'https://github.com/learn-anything/learn-anything/blob/master/LICENSE'
+  # termsOfService: 'https://example.com/terms/' # TODO
+produces:
+  - application/json
+consumes:
+  - application/json
+
+# Security scheme definitions that can be used across the specification.
+securityDefinitions: # TODO
+  access_token: # security definition name (you can name it as you want)
+    type: apiKey
+    # scopes:
+    #   'read:users': read users info
+    #   'write:users': modify or remove users
+    # The following options are specific to apiKey type
+    in: header # Where API key will be passed: header or query
+    name: Authorization
+
+# Holds the relative paths to the individual endpoints. The path is appended to the
+# basePath in order to construct the full URL.
+paths:
+  '/maps/':
+    get:
+      summary: Map suggestions
+      operationId: maps.search
+      description: |
+        Get map suggestions if the `q` parameter is specified,
+        get a random map otherwise.
+
+      parameters:
+        - name: q
+          in: query
+          type: string
+          description: Search string
+          example: graphics
+
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Suggestion'
+
+  '/maps/{mapID}':
+    get:
+      summary: Map by ID
+      operationId: maps.byID
+      description: |
+        Get a map knowing its ID.
+
+      parameters:
+        - name: mapID
+          in: path
+          type: integer
+          description: Map ID
+          required: true
+          example: 1
+
+      responses: # list of responses
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/Map'
+        '404':
+          description: 'Map not found'
+          schema:
+            $ref: '#/definitions/APIError'
+
+  '/maps/{title}':
+    get:
+      summary: Map by title
+      operationId: maps.byTitle
+      description: |
+        Get a map knowing its title (path of the map on the graph).
+
+      parameters:
+        - name: title
+          in: path
+          type: string
+          description: Map title
+          required: true
+          example: 'anthropology/archaeology'
+
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/Map'
+        '404':
+          description: 'Map not found'
+          schema:
+            $ref: '#/definitions/APIError'
+
+
+  '/resources/':
+    post:
+      summary: Resource create
+      description: Create a resource
+      operationId: resources.create
+
+      parameters:
+        - name: resource
+          in: body
+          description: 'Resource'
+          required: true
+          schema:
+            $ref: '#/definitions/Resource'
+      security:
+        - access_token: []
+
+      responses:
+        '200':
+          description: 'OK'
+          schema:
+            $ref: '#/definitions/ResourceResponse'
+        '400':
+          description: "Bad request"
+          schema:
+            type: object
+            properties:
+              error:
+                type: string
+                description: |
+                  Error message describing which parameter is invalid or missing
+                example: "invalid URL"
+        '401':
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/APIError"
+          examples:
+            application/json:
+              error: "unauthorized"
+        '403':
+          description: "Resource exists"
+          schema:
+            $ref: '#/definitions/APIError'
+          examples:
+            application/json:
+              error: "resource already exists"
+        '404':
+          description: "Parent node not found"
+          schema:
+            $ref: '#/definitions/APIError'
+          examples:
+            application/json:
+              error: "the specified parent node does not exist"
+
+  '/votes/':
+    get:
+      summary: Votes
+      description: |
+        Get user votes by map if `mapID` is specified, get all user votes
+        otherwise
+      operationId: votes.get
+
+      parameters:
+        - name: mapID
+          in: query
+          description: "Map identifier"
+          type: integer
+          example: 1584
+      security:
+        - access_token: []
+
+      responses:
+        '200':
+          description: 'OK'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Vote'
+        '401':
+          description: "Unauthorized"
+          schema:
+            $ref: "#/definitions/APIError"
+          examples:
+            application/json:
+              error: "unauthorized"
+
+    post:
+      summary: Vote create
+      description: Create or modify a vote
+      operationId: votes.create
+
+      parameters:
+        - name: vote
+          in: body
+          description: 'Vote'
+          required: true
+          schema:
+            type: object
+            properties:
+              resourceID:
+                description: |
+                  Resource identifier, it uses the following format "<parentID>|<url>"
+                type: string
+                example: "5769|https://www.codetuts.tech/compile-c-sharp-command-line/"
+              direction:
+                description: |
+                  Direction of the vote. 1 is upvote, -1 is downvote, and 0 removes the
+                  vote
+                type: integer
+                enum: [1, 0, -1]
+                example: 1
+      security:
+        - access_token: []
+
+      responses:
+        '200':
+          description: 'OK'
+          schema:
+            type: object
+            properties:
+              resource:
+                $ref: '#/definitions/ResourceResponse'
+              vote:
+                $ref: '#/definitions/Vote'
+        '400':
+          description: "Invalid vote direction"
+          schema:
+            $ref: '#/definitions/APIError'
+          examples:
+            application/json:
+                error: "invalid vote direction"
+        '404':
+          description: "Resource not found"
+          schema:
+            $ref: '#/definitions/APIError'
+          examples:
+            application/json:
+              error: "resource not found"
+
+# An object to hold data types that can be consumed and produced by operations.
+# These data types can be primitives, arrays or models.
+definitions:
+  APIError:
+    type: object
+    properties:
+      error:
+        type: string
+        description: Error message
+        example: "map not found"
+
+  Suggestion:
+    type: object
+    properties:
+      id:
+        description: Map identifier
+        type: string
+        example: 215
+      key:
+        description: Name of the map (the one that shows on the searchbar)
+        type: string
+        example: "scalable vector graphics"
+      title:
+        description: Path to map
+        type: string
+        example: "/computer-graphics/digital-images/vector-graphics/scalable-vector-graphics"
+
+  Map:
+    type: object
+    properties:
+      mapID:
+        description: Map identifier
+        type: string
+        example: 1
+      key:
+        description: Name of the map (the one that shows on the searchbar)
+        type: string
+        example: archaeology
+      title:
+        description: Path to map
+        type: string
+        example: "learn anything - anthropology - archaeology"
+      nodes:
+        description: |
+          Object containing ID of nodes as keys, and arrays of nodes as values.
+          There's also a null key, which contains only one node (the value is an
+          object instead of an array), and that's the root node of the map
+        type: object
+        example:
+          null:
+            nodeID: 3
+            parentID: null
+            text: Archaeology
+            mapID: 1
+          3:
+            - nodeID: 4
+              parentID: 3
+              text: Basics
+              mapID: 1
+            - nodeID: 5
+              parentID: 3
+              text: Help
+              mapID: 1
+      resources:
+        type: object
+        description: |
+          Object containing ID of nodes as keys, and arrays of resources as
+          values
+        example:
+          3:
+            - resourceID: '3|http://www.wikiwand.com/en/Archaeology'
+              url: http://www.wikiwand.com/en/Archaeology
+              text: Archaeology
+              category: wiki
+              score:
+                down: 0
+                up: 0
+              parentID: 3
+              mapID: 1
+            - resourceID: '3|https://www.reddit.com/r/Archaeology/'
+              url: 'https://www.reddit.com/r/Archaeology/'
+              text: '/r/Archaeology'
+              category: reddit
+              score:
+                down: 0
+                up: 0
+              parentID: 3
+              mapID: 1
+          4:
+            - resourceID: '4|https://www.youtube.com/watch?v=ao4vVcfvyuE'
+              url: 'https://www.youtube.com/watch?v=ao4vVcfvyuE'
+              text: 'Short film on archaeology profession'
+              category: video
+              score:
+                down: 0
+                up: 0
+              parentID: 4
+              mapID: 1
+          5:
+            - resourceID: '5|https://www.youtube.com/playlist?list=PLwJVQxW2IAat6kGzPQy5xjRcXbxwhEcar'
+              url: 'https://www.youtube.com/playlist?list=PLwJVQxW2IAat6kGzPQy5xjRcXbxwhEcar'
+              text: 'History / archaeology documentaries'
+              category: video
+              score:
+                down: 0
+                up: 0
+              parentID: 5
+              mapID: 1
+
+  Resource:
+    type: object
+    properties:
+      text:
+        description: "Title of the resource"
+        type: string
+        example: "Systemd - ArchWiki"
+        minLength: 6
+      url:
+        description: "URL for the resource"
+        type: "string"
+        format: url
+        example: "https://wiki.archlinux.org/index.php/systemd"
+      category:
+        description: "Type of resource"
+        type: string
+        example: "wiki"
+        enum: &CATEGORIES
+          - mindmap
+          - wiki
+          - stack exchange
+          - course
+          - free book
+          - non-free book
+          - paper
+          - video
+          - article
+          - blog
+          - github
+          - interactive
+          - image
+          - podcast
+          - newsletter
+          - chat
+          - youtube
+          - reddit
+          - quora
+          - other
+      parentID:
+        description: "ID of the node that will contain this resource"
+        type: integer
+        example: 4696
+
+  ResourceResponse:
+    type: object
+    properties:
+      text:
+        type: string
+        description: "Title of the resource"
+        example: "Systemd - ArchWiki"
+        minLength: 6
+      url:
+        type: "string"
+        format: url
+        description: "URL for the resource"
+        example: "https://wiki.archlinux.org/index.php/systemd"
+      category:
+        type: string
+        description: "Type of resource"
+        example: "wiki"
+        enum: *CATEGORIES
+      parentID:
+        type: integer
+        description: "ID of the node that will contain this resource"
+        example: 4696
+      author:
+        type: string
+        description: "ID of user that created the resource"
+        example: "github|12345678"
+      createdAt:
+        type: string
+        format: date-time
+        description: "Date and time when the resource was created"
+        example: "Sat Dec 16 2017 14:37:09 GMT+0000 (UTC)"
+      modifiedAt:
+        type: string
+        format: date-time
+        description: "Date and time when the resource was last modified"
+        example: "Sat Dec 16 2017 14:37:09 GMT+0000 (UTC)"
+
+  Vote:
+    type: object
+    properties:
+      userID:
+        type: string
+        description: "ID of user that created the resource"
+        example: "github|12345678"
+      resourceID:
+        description: |
+          Resource identifier, it uses the following format "<parentID>|<url>"
+        type: string
+        example: "5769|https://www.codetuts.tech/compile-c-sharp-command-line/"
+      mapID:
+        description: "Map containing the resource"
+        type: integer
+        example: 1584
+      direction:
+        description: |
+          Direction of the vote. 1 is upvote, -1 is downvote, and 0 removes the
+          vote
+        type: integer
+        enum: [1, 0, -1]
+        example: 1
+      createdAt:
+        type: string
+        format: date-time
+        description: "Date and time when the resource was created"
+        example: "Sat Dec 16 2017 14:37:09 GMT+0000 (UTC)"
+      modifiedAt:
+        type: string
+        format: date-time
+        description: "Date and time when the resource was last modified"
+        example: "Sat Dec 16 2017 14:37:09 GMT+0000 (UTC)"

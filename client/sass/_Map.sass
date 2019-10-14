@@ -1,0 +1,53 @@
+@import variables
+
+
+header
+  background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
+  display: flex
+
+  & > div
+    display: flex
+    flex-direction: row
+    width: calc(100% - 84px)
+
+  & + div
+    display: flex
+    height: 100%
+    margin-top: 5px
+    width: 100%
+
+    .map
+      height: auto
+
+footer
+  align-items: center
+  display: flex
+  height: 50px
+  justify-content: flex-start
+  padding-left: 25px
+  width: 100%
+
+  .footer-separator,
+  a
+    color: $white
+    cursor: pointer
+    font-weight: bold
+    text-underline-position: under
+
+  a
+    text-decoration: underline
+
+  .footer-separator
+    margin: 0 15px
+
+.dialog-body > .node-resources
+  padding: 10px 40px
+
+
++respond-to($width-s)
+  footer
+    display: none
+
+  header
+    background: transparent
+    min-height: 88px

@@ -1,0 +1,91 @@
+@import variables
+
+
+
+.new-resource-form
+  h1
+    font-size: 1.5em
+    text-transform: capitalize
+
+    span
+      color: $lima
+      text-transform: initial
+
+  label
+    +center-column-horizontal
+    padding: 20px 30px
+    position: relative
+
+    & > div:first-child
+      background: $white
+      color: $dove-gray
+      font-size: .8em
+      font-weight: bold
+      left: 50px
+      padding: 0 5px
+      position: absolute
+      text-transform: uppercase
+      top: 13px
+
+
+.dd__wrapper,
+.text-field
+  border: 1px solid $dove-gray
+  border-radius: 7px
+  font-family: $font-default
+  font-size: 1.2em
+  padding: 20px
+  width: 100%
+
+  &:focus
+    outline: none
+
+.text-field--error
+  background-color: $white;
+  bottom: 13px;
+  color: $cinnabar;
+  font-size: .9em;
+  font-weight: bold;
+  padding: 0 5px;
+  position: absolute;
+
+
+.dd__wrapper
+  position: static
+  width: 100%
+
+.dd__selectControl
+  align-items: center
+  display: flex
+  justify-content: space-between
+
+
+.dd__option
+  align-items: center
+  display: flex
+
+  img
+    height: 24px
+    margin-right: 10px
+    width: 24px
+
+.dd__list
+  margin-top: 10px
+  overflow: auto
+
+  .dd__option
+    padding: 10px 0
+
+    &:hover
+      background-color: $mercury
+
+
+.form-select-opened
+  height: 24px
+  transform: rotate(90deg)
+  width: 24px
+
+.form-select-closed
+  height: 24px
+  transform: rotate(-90deg)
+  width: 24px

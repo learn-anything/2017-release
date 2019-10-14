@@ -1,0 +1,168 @@
+@import variables
+
+
+.map
+  g
+    pointer-events: initial !important // sass-lint:disable-line no-important
+
+  svg
+    cursor: default !important // sass-lint:disable-line no-important
+
+  rect
+    fill: none
+
+  &:focus
+    outline: none
+
+
+.node-header,
+.resource,
+.score
+  display: flex
+
+.node
+  & > div
+    display: inline-block
+
+  & > div > div
+    background: $white
+    border-radius: 4px
+    color: $black
+    display: inline-block
+    margin-top: 40px
+    padding: 15px
+    width: 360px
+
+  &-header
+    align-items: flex-end
+    border-bottom: 1px solid $mercury
+    justify-content: space-between
+    margin-bottom: 5px
+    padding-bottom: 10px
+
+  &-title
+    font-size: 22px
+    font-weight: bold
+    text-transform: capitalize
+
+  &-stat
+    color: $nobel
+    font-size: 18px
+    text-align: right
+
+.link
+  fill: transparent
+  stroke: $tuna
+  stroke-width: 2px
+
+
+.resource,
+.resource-link,
+.score
+  align-items: center
+  display: flex
+  justify-content: space-between
+
+
+.resource-link
+  color: $black
+  min-height: 35px
+  padding: 10px 0
+  text-decoration: none
+
+  .resource-text
+    color: $black
+
+  &:hover .resource-text
+    color: $azure-radiance
+    text-decoration: underline
+
+  .category > img
+    display: flex
+    height: 20px
+    margin-right: 15px
+    width: 20px
+
+.score
+  font-weight: bold
+  justify-content: space-between
+
+  .downvote,
+  .upvote
+    border-radius: 20px
+    cursor: pointer
+    font-family: 'Droid Sans Mono'
+    font-size: 20px
+    margin: 0 10px
+    padding: 0 7px
+
+    &--highlighted
+      background: $azure-radiance
+      color: $white
+
+
+.node .node--collapsed
+  display: inline-block
+  width: initial
+
+  a
+    align-items: center
+    color: $black
+    display: flex
+    text-decoration: none
+
+    &[href]:hover .node-title
+      color: $azure-radiance
+      font-weight: bold
+
+  .node-title
+    border-bottom: 0
+    font-size: 20px
+    font-weight: bold
+    margin: 0
+    padding: 0
+    padding-right: 10px
+    text-transform: none
+    white-space: nowrap
+
+  .category > img
+    display: flex
+    height: 20px
+    margin-left: 15px
+    margin-right: 0
+    width: 20px
+
+.resources-show-more
+  color: $nobel
+  cursor: pointer
+  margin-top: 10px
+  text-align: center
+  text-decoration: underline
+  text-underline-position: under
+
+  &:hover,
+  &:active
+    color: $azure-radiance
+
+.node-resources,
+.node-resource
+  &[disabled]
+    pointer-events: none
+
+.contribute-add-resource
+  +normalize-btn
+  background-color: $lima
+  border-radius: 0 0 4px 4px
+  color: $white
+  cursor: pointer
+  font-family: $font-default
+  font-size: 1.2em
+  font-weight: bold
+  margin-top: -5px
+  padding: 15px
+  width: 100%
+
+  &:active,
+  &:hover
+    background-color: lighten($lima, 10)
+

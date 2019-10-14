@@ -1,0 +1,81 @@
+// Colors
+$abbey: #4e4f51
+$athens-gray: #e4e6e9
+$azure-radiance: #0682fc
+$black: #000
+$bombay: #afafb0
+$cape-cod: #373839
+$cinnabar: #e03838
+$coral: #f96854
+$dove-gray: #717171
+$edward: #a6a7a7
+$gallery: #ebebeb
+$gray: #808080
+$iron: #d2d3d3
+$lima: #89d81a
+$mercury: #e9e9e9
+$mine-shaft: #222
+$navy: #052d49
+$nevada: #606364
+$nobel: #b3b3b3
+$oslo-gray: #919292
+$overlay: rgba(0, 0, 0, .8)
+$shark: #222324
+$silver: #bebebe
+$regent-gray: #8a919a
+$tuna: #323234
+$twitter-blue: #4ab3f4
+$white: #fff
+$wild-sand: #f4f4f4
+
+
+// Fonts
+$font-default: 'Raleway'
+
+
+// Screen widths
+$width-xxs: 370px
+$width-xs: 630px
+$width-s: 768px
+$width-m: 992px
+$width-l: 1180px
+
+
+// Mixins
+=respond-to($width)
+  @media (max-width: #{$width})
+    @content
+
+=flex-column
+  display: flex
+  flex-direction: column
+
+=center-row-vertical
+  align-items: center
+  display: flex
+  flex-direction: row
+
+=center-row-horizontal
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+=center-column-horizontal
+  +flex-column
+  align-items: center
+
+=fullscreen
+  bottom: 0
+  left: 0
+  position: absolute
+  right: 0
+  top: 0
+
+=normalize-btn
+  background: none
+  border: 0
+  margin: 0
+  padding: 0
+
+  &:focus
+    outline: none

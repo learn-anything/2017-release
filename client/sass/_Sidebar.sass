@@ -1,0 +1,56 @@
+@import variables
+
+
+// Position and sizing of burger button
+.bm-burger-button
+  height: 24px
+  margin: 20px 30px
+  position: fixed
+  right: 0
+  top: 0
+  width: 30px
+
+  button
+    cursor: pointer
+
+.bm-burger-bars
+  background: $nevada
+  border-radius: 2px
+  height: 2px !important // sass-lint:disable-line no-important
+
+
+// Styling of overlay
+.bm-overlay
+  background: $overlay !important // sass-lint:disable-line no-important
+  z-index: 2 !important // sass-lint:disable-line no-important
+
+// General sidebar styles
+.bm-menu
+  background-color: $athens-gray
+  font-size: 1.15em
+  padding: 1.5em 1.5em 0
+
+
+// Wrapper for item list
+.bm-item-list
+  padding: .8em
+
+
+.sidebar-item
+  color: $shark
+  font-weight: bold
+  padding: 15px 0
+
+  &:first-child
+    padding: 0 0 15px
+
+  a
+    color: $shark
+    cursor: pointer
+    text-decoration: none
+
+
++respond-to($width-s)
+  .bm-burger-button
+    margin: 2.3em 30px
+    // position: absolute

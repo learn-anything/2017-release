@@ -1,0 +1,84 @@
+{
+  "map": {
+    "fetch": {
+      "def": "FETCH_MAP",
+      "pending": "FETCH_MAP_PENDING",
+      "fulfilled": "FETCH_MAP_FULFILLED",
+      "rejected": "FETCH_MAP_REJECTED"
+    },
+    "fetchVotes": {
+      "def": "FETCH_VOTES",
+      "pending": "FETCH_VOTES_PENDING",
+      "fulfilled": "FETCH_VOTES_FULFILLED",
+      "rejected": "FETCH_VOTES_REJECTED"
+    },
+    "voteResource": {
+      "def": "VOTE_RESOURCE",
+      "pending": "VOTE_RESOURCE_PENDING",
+      "fulfilled": "VOTE_RESOURCE_FULFILLED",
+      "rejected": "VOTE_RESOURCE_REJECTED"
+    },
+    "createResource": {
+      "def": "CREATE_RESOURCE",
+      "pending": "CREATE_RESOURCE_PENDING",
+      "fulfilled": "CREATE_RESOURCE_FULFILLED",
+      "rejected": "CREATE_RESOURCE_REJECTED"
+    },
+    "nodeSizes": {
+      "set": "SET_NODE_SIZE"
+    },
+    "clearVotes": "CLEAR_VOTES",
+    "toggleEditing": "toggle editing"
+  },
+
+  "search": {
+    "suggestions": {
+      "fetch": {
+        "def": "FETCH_SUGGESTIONS",
+        "pending": "FETCH_SUGGESTIONS_PENDING",
+        "fulfilled": "FETCH_SUGGESTIONS_FULFILLED",
+        "rejected": "FETCH_SUGGESTIONS_REJECTED"
+      },
+      "clear": "CLEAR_SUGGESTIONS"
+    },
+
+    "query": {
+      "update": "UPDATE_QUERY",
+      "clear": "CLEAR_QUERY"
+    }
+  },
+
+  "ga": {
+    "navigation": {
+      "external": "external link",
+      "internal": "internal link"
+    },
+
+    "search": {
+      "unmatchedQuery": "unmatched query",
+      "fallbackSearch": "fallback search"
+    },
+
+    "contribution": {
+      "improveMap": "improve map",
+      "createResource": "create resource"
+    },
+
+    "pageview": "page_view"
+  },
+
+  "dialog": {
+    "show": "DIALOG_SHOW",
+    "hide": "DIALOG_HIDE"
+  },
+
+  "legend": {
+    "show": "LEGEND_SHOW",
+    "hide": "LEGEND_HIDE"
+  },
+
+  "header": {
+    "showSearchbar": "SHOW_SEARCHBAR",
+    "hideSearchbar": "HIDE_SEARCHBAR"
+  }
+}

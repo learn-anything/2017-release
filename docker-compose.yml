@@ -1,0 +1,43 @@
+version: "3"
+
+services:
+  web:
+    image: learnanything/learn-anything:stable
+    depends_on:
+      - "dynamo"
+      - "es"
+      - "mem"
+    ports:
+      - "3000:3000"
+    networks:
+      - back-tier
+
+  dynamo:
+    image: dwmkerr/dynamodb
+    container_name: dynamo
+    volumes:
+      - ./docker-data/shared-local-instance.db:/opt/dynamodb/shared-local-instance.db
+    entrypoint: ["java", "-jar", "DynamoDBLocal.jar", "-sharedDb"]
+    ports: ["8000"]
+    networks:
+      - back-tier
+
+  es:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.1.1
+    container_name: es
+    volumes:
+      - ./docker-data/data:/usr/share/elasticsearch/data
+    ports: ["9200"]
+    networks:
+      - back-tier
+
+  mem:
+    image: memcached:1-alpine
+    container_name: mem
+    ports: ["11211"]
+    networks:
+      - back-tier
+
+networks:
+  back-tier:
+
