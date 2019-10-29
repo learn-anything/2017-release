@@ -10,7 +10,7 @@ const csp = require('helmet-csp');
 const securityHelper = require('./utils/secureUtil');
 
 const app = express();
-const googleTrackingID = process.env.NODE_ENV === 'production' ? 'UA-74470910-2' : '';
+const googleTrackingID = '';
 
 
 // Use hot reloading when in dev environment
