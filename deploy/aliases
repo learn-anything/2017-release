@@ -1,0 +1,41 @@
+alias d='docker'
+alias dstart='docker stack deploy -c ~/server-stuff/docker-compose.yml learnanything'
+alias dstop='docker stack rm learnanything'
+alias dstatus='docker stack ps learnanything'
+alias hostip='ip addr show docker0 | grep inet'
+
+alias h='cd ~/server-stuff'
+alias q='exit'
+alias vd='vim ~/server-stuff/docker-compose.yml'
+
+alias g='git'
+alias gp='git pull'
+alias go='git checkout'
+alias gs='git status'
+
+alias sr='sudo systemctl restart'
+alias ss='sudo systemctl status'
+
+alias clean-images='d images | awk '\''{print $3}'\'' | grep -v IMAGE | xargs docker rmi'
+alias containers='d ps | grep learnanything/ | awk '\''{print $1}'\'''
+alias log1='docker logs $(containers | head -n1)'
+alias log2='docker logs $(containers | tail -n1)'
+
+function count() {
+  count1=$(log1 1> /dev/stdout 2> /dev/null | grep "$1" | wc -l)
+  count2=$(log2 1> /dev/stdout 2> /dev/null | grep "$1" | wc -l)
+  echo $((count1+count2))
+}
+
+function hit-miss() {
+  hits=$(count "Hit: $1")
+  misses=$(count "Miss: $1")
+  echo $(echo "scale=2; $hits/($hits+$misses)*100" | bc)
+}
+
+alias hits1='log1 | grep Hit | wc -l'
+alias hits2='log2 | grep Hit | wc -l'
+alias misses1='log1 | grep Miss | wc -l'
+alias misses2='log2 | grep Miss | wc -l'
+alias memc='telnet 172.17.0.1 11211'
+

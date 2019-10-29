@@ -1,0 +1,34 @@
+version: '3'
+services:
+
+  shepherd:
+    image: mazzolino/shepherd
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role == manager]
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  app:
+    image: learnanything/learn-anything:stable
+    environment:
+      - ELASTIC_DYNAMO_SECRET_ACCESS_KEY=$ELASTIC_DYNAMO_SECRET_ACCESS_KEY
+      - ELASTIC_DYNAMO_KEY_ID=$ELASTIC_DYNAMO_KEY_ID
+      - MEMCACHED_HOST=172.17.0.1
+      - NODE_ENV=production
+    ports:
+      - 3000:3000
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          memory: 150M
+      restart_policy:
+        condition: on-failure
+      update_config:
+        parallelism: 1
+        delay: 5m
+        failure_action: continue
+        max_failure_ratio: 0.3
+
