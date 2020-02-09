@@ -25,8 +25,7 @@ const cleanResources = resources.map(res => ({
   category: res.category,
   parentID: res.parentID,
   text: res.text,
-  url: res.url,
-  score: res.score
+  url: res.url
 }));
 
 // Clean nodes titles
@@ -54,18 +53,8 @@ Object.keys(maps).map(mapID => {
   maps[mapID].nodes[null] = maps[mapID].nodes[null][0];
 });
 
-// Stringify maps so arrays are in one line.
-// https://stackoverflow.com/questions/6937863/json-stringify-so-that-arrays-are-on-one-line
-function replacer(k, v) {
-  // if (v instanceof Array) return JSON.stringify(v);
-  return v;
-}
-
-const output = JSON.stringify(maps, replacer, 2);
-// .replace(/\\/g, "")
-// .replace(/\"\[/g, "[")
-// .replace(/\]\"/g, "]")
-// .replace(/\"\{/g, "{")
-// .replace(/\}\"/g, "}");
+const output = JSON.stringify(maps, null, 2);
+const outputMin = JSON.stringify(maps);
 
 writeFileSync("./mapsFull.json", output);
+writeFileSync("./mapsFull.min.json", output);

@@ -1,36 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="fragment" content="!" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="fragment" content="!">
+    <!-- OG tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{=it.title}}" />
+    <meta property="og:description" content="{{=it.description}}" />
+    <meta property="og:url" content="{{=it.url}}" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- OG tags -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{=it.title}}" />
-  <meta property="og:description" content="{{=it.description}}" />
-  <meta property="og:url" content="{{=it.url}}" />
-  <meta name="twitter:card" content="summary_large_image">
+    <title>Learn Anything</title>
+    <link rel="icon" href="/static/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700|Droid+Sans+Mono"
+      rel="stylesheet"
+    />
+  </head>
 
-  <title>Learn Anything</title>
-  <link rel="icon" href="/static/favicon.png" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Droid+Sans+Mono" rel="stylesheet">
+  <body>
+    <div id="react-app"></div>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{=it.googleTrackingID}}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  </script>
-
-</head>
-
-<body>
-  <div id="react-app"></div>
-
-  <script src="/static/{{=it.language || 'en'}}.bundle.js"></script>
-</body>
-
+    <script src="/static/{{=it.language || 'en'}}.bundle.js"></script>
+  </body>
 </html>
