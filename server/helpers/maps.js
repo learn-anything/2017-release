@@ -1,7 +1,8 @@
+const suggestions = require("../data/suggestions.json");
+const mapsData = require("../data/mapsFull.json");
+
 const Fuse = require("fuse.js");
 const { cache } = require("../utils/cache");
-const dynamo = require("../utils/dynamoClient");
-const suggestions = require("../data/suggestions.json");
 const { APIError } = require("../utils/errors");
 const { cacheKeys } = require("../constants.json");
 
@@ -25,79 +26,7 @@ async function fuzzySearch(query) {
 
 // Get a specific map by ID.
 async function byID(mapID) {
-  // Get Map metadata from DynamoDB.
-  const { Item } = await dynamo("get", {
-    TableName: "Maps",
-    Key: { mapID: Number(mapID) }
-  });
-
-  const map = {
-    ...Item,
-    nodes: {},
-    resources: {}
-  };
-
-  // Query DynamoDB to get the nodes for the current map.
-  const nodesPromise = dynamo("query", {
-    TableName: "Nodes",
-    IndexName: "MapIndex",
-    Select: "ALL_ATTRIBUTES",
-    KeyConditionExpression: "mapID = :value",
-    ExpressionAttributeValues: {
-      ":value": Number(mapID)
-    }
-  });
-
-  // Query DynamoDB to get the resources for the current map.
-  const resourcesPromise = dynamo("query", {
-    TableName: "Resources",
-    IndexName: "MapIndex",
-    Select: "ALL_ATTRIBUTES",
-    KeyConditionExpression: "mapID = :value",
-    ExpressionAttributeValues: {
-      ":value": Number(mapID)
-    }
-  });
-
-  const [nodes, resources] = await Promise.all([
-    nodesPromise,
-    resourcesPromise
-  ]);
-
-  // Convert the list to a dictionary having parent nodes as keys, and lists
-  // of nodes as values. This is used by the render component.
-  nodes.Items.forEach(node => {
-    if (map.nodes[node.parentID]) {
-      // If there's already some nodes with the same parent, append this node
-      // to the list.
-
-      map.nodes[node.parentID].push(node);
-    } else if (node.parentID === null) {
-      // If the parentID is null, it means that this is the root node, and
-      // there can be only one root node, so no point in having an array here.
-
-      map.nodes[node.parentID] = node;
-    } else {
-      // If none of the above cases apply, we create a list and add this node
-      // to it.
-
-      map.nodes[node.parentID] = [node];
-    }
-  });
-
-  // Convert the list to a dictionary having parent nodes as keys, and lists
-  // of resources as values. This is used by the render component.
-  resources.Items.forEach(resource => {
-    // Same logic as above apply, only that we don't have a "root resource".
-    // All resources must have a parent node, and no resource has a child.
-    if (map.resources[resource.parentID]) {
-      map.resources[resource.parentID].push(resource);
-    } else {
-      map.resources[resource.parentID] = [resource];
-    }
-  });
-
-  return map;
+  return mapsData[mapID];
 }
 
 // Get a specific map by title.
