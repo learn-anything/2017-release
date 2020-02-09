@@ -7,10 +7,8 @@ import store from 'store/store';
 import Router from 'containers/Router';
 import getParent from 'utils/getParent';
 import openNewTab from 'utils/openNewTab';
-import actions from 'constants/actions.json';
 
 import 'sass/main.sass';
-
 
 // Enable hot reloading
 if (module.hot) {
@@ -41,18 +39,11 @@ window.addEventListener('load', () => {
     // External link clicked.
     if (!t.href.includes(window.location.origin)) {
       e.preventDefault();
-      openNewTab({
-        type: actions.ga.navigation.external,
-        payload: t.href,
-      });
+      openNewTab(t.href);
     } else {
       e.preventDefault();
       const relativePath = t.href.replace(window.location.origin, '');
-      window.laAuth.history.push(relativePath);
-      store.dispatch({
-        type: actions.ga.navigation.internal,
-        payload: relativePath,
-      });
+      window.laHistory.push(relativePath);
     }
   };
 

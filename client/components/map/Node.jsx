@@ -4,7 +4,6 @@ import { setNodeSize } from 'actions/Map';
 import { showDialog } from 'actions/Dialog';
 import categoryToIcon from 'utils/categoryToIcon';
 import Resource from 'components/map/Resource';
-import NewResourceForm from 'components/NewResourceForm';
 
 
 // Size is in the following format
@@ -20,7 +19,6 @@ export default class Node extends Component {
 
     this.renderNode = this.renderNode.bind(this);
     this.resourcesShowMore = this.resourcesShowMore.bind(this);
-    this.addResourceDialog = this.addResourceDialog.bind(this);
   }
 
   componentDidMount() {
@@ -30,14 +28,6 @@ export default class Node extends Component {
     };
 
     this.props.dispatch(setNodeSize(this.props.node.nodeID, size));
-  }
-
-  addResourceDialog() {
-    this.props.dispatch(showDialog(<NewResourceForm node={this.props.node} />, {
-      isJsx: true,
-      closeButton: false,
-      overlayDismiss: false,
-    }));
   }
 
   resourcesShowMore() {
@@ -106,11 +96,6 @@ export default class Node extends Component {
       );
     }
 
-    // Sort resources.
-    const sortedResources = resources.sort((a, b) => (
-      (a.score.up - a.score.down) < (b.score.up - b.score.down)
-    ));
-
     return (
       <div>
         <div className="node-header">
@@ -119,7 +104,7 @@ export default class Node extends Component {
         </div>
 
         <div className="node-resources" disabled={this.props.editing}>
-          {this.renderResources(sortedResources)}
+          {this.renderResources(resources)}
         </div>
       </div>
     );

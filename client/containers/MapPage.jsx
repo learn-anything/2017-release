@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { fetchMap, clearVotes, fetchVotes } from 'actions/Map';
+import { fetchMap } from 'actions/Map';
 import { showDialog } from 'actions/Dialog';
 import { showLegend } from 'actions/Legend';
 import { titleToURL } from 'utils/Title';
 import Logo from 'components/Logo';
 import SearchBar from 'components/SearchBar';
 import Breadcrumbs from 'components/Breadcrumbs';
-import ContributeButton from 'components/ContributeButton';
 import Map from 'components/map/Map';
 import 'sass/_Map.sass';
-
 
 @connect(store => ({
   title: store.map.title,
@@ -34,7 +32,6 @@ export default class MapPage extends Component {
     this.props.dispatch(showLegend());
   }
 
-
   render() {
     return (
       <div>
@@ -44,7 +41,6 @@ export default class MapPage extends Component {
             <SearchBar history={this.props.history} docked={true} />
 
             <Breadcrumbs />
-            <ContributeButton />
           </div>
         </header>
 
@@ -69,9 +65,6 @@ export default class MapPage extends Component {
     // Fetch map if it hasn't been fetched already.
     if (titlePath !== match && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
-      this.props.dispatch(clearVotes());
-    } else if (this.props.mapID && !this.props.fetchedVotes) {
-      this.props.dispatch(fetchVotes(this.props.mapID));
     }
   }
 
@@ -85,9 +78,6 @@ export default class MapPage extends Component {
     // Fetch new map if it hasn't been fetched already.
     if (titlePath !== match && mapIDPath !== this.props.match.url) {
       this.props.dispatch(fetchMap(this.props.match.url));
-      this.props.dispatch(clearVotes());
-    } else if (this.props.mapID && !this.props.fetchedVotes) {
-      this.props.dispatch(fetchVotes(this.props.mapID));
     }
   }
 }

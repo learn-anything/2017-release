@@ -6,28 +6,9 @@
       "fulfilled": "FETCH_MAP_FULFILLED",
       "rejected": "FETCH_MAP_REJECTED"
     },
-    "fetchVotes": {
-      "def": "FETCH_VOTES",
-      "pending": "FETCH_VOTES_PENDING",
-      "fulfilled": "FETCH_VOTES_FULFILLED",
-      "rejected": "FETCH_VOTES_REJECTED"
-    },
-    "voteResource": {
-      "def": "VOTE_RESOURCE",
-      "pending": "VOTE_RESOURCE_PENDING",
-      "fulfilled": "VOTE_RESOURCE_FULFILLED",
-      "rejected": "VOTE_RESOURCE_REJECTED"
-    },
-    "createResource": {
-      "def": "CREATE_RESOURCE",
-      "pending": "CREATE_RESOURCE_PENDING",
-      "fulfilled": "CREATE_RESOURCE_FULFILLED",
-      "rejected": "CREATE_RESOURCE_REJECTED"
-    },
     "nodeSizes": {
       "set": "SET_NODE_SIZE"
     },
-    "clearVotes": "CLEAR_VOTES",
     "toggleEditing": "toggle editing"
   },
 
@@ -60,8 +41,7 @@
     },
 
     "contribution": {
-      "improveMap": "improve map",
-      "createResource": "create resource"
+      "improveMap": "improve map"
     },
 
     "pageview": "page_view"

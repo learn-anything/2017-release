@@ -1,7 +1,6 @@
 import { cleanTitle } from 'utils/Title';
 import actions from 'constants/actions.json';
 
-
 const initialState = {
   title: '',
   nodes: {},
@@ -31,7 +30,6 @@ const deepCopy = (obj) => {
 
   return newObj;
 };
-
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -79,43 +77,6 @@ export default (state = initialState, action) => {
       };
     }
 
-    case actions.map.voteResource.fulfilled: {
-      const { resource, vote } = action.payload.data;
-
-      // Find the node we want to modify and its index.
-      const nodeResources = state.resources[resource.parentID];
-      const oldResource = nodeResources.find(res => res.resourceID === resource.resourceID);
-      const resourceIndex = nodeResources.indexOf(oldResource);
-
-      // Copy all the resources (redux functions should be pure).
-      const newResources = deepCopy(state.resources);
-
-      // Replace old resource with the new one.
-      newResources[resource.parentID][resourceIndex] = resource;
-
-      const votes = { ...state.votes };
-      votes[vote.resourceID] = vote.direction;
-
-      return {
-        ...state,
-        votes,
-        resources: newResources,
-      };
-    }
-
-    case actions.map.createResource.fulfilled: {
-      const resource = action.payload.data;
-
-      // Copy all the resources (redux functions should be pure).
-      const newResources = deepCopy(state.resources);
-      newResources[resource.parentID].push(resource);
-
-      return {
-        ...state,
-        resources: newResources,
-      };
-    }
-
     case actions.map.nodeSizes.set: {
       const { nodeID, size } = action.payload;
       const nodeSizes = deepCopy(state.nodeSizes);
@@ -132,28 +93,6 @@ export default (state = initialState, action) => {
         ...state,
         editing: !state.editing,
       };
-
-    case actions.map.clearVotes:
-      return {
-        ...state,
-        votes: {},
-        fetchedNodes: false,
-      };
-
-    case actions.map.fetchVotes.fulfilled: {
-      const votes = action.payload.data || [];
-      const convertedVotes = {};
-
-      votes.forEach(({ resourceID, direction }) => {
-        convertedVotes[resourceID] = direction;
-      });
-
-      return {
-        ...state,
-        votes: convertedVotes,
-        fetchedNodes: true,
-      };
-    }
 
     default:
       return state;
