@@ -33,18 +33,8 @@ const deepCopy = (obj) => {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case actions.map.fetch.pending:
-      return {
-        ...state,
-        nodes: {},
-        resources: {},
-        loading: true,
-        mapID: undefined,
-        error: undefined,
-      };
-
     case actions.map.fetch.fulfilled: {
-      const map = action.payload.data;
+      const map = action.payload;
       const title = cleanTitle(map.title);
 
       // Set HTML title.
@@ -87,12 +77,6 @@ export default (state = initialState, action) => {
         nodeSizes,
       };
     }
-
-    case actions.map.toggleEditing:
-      return {
-        ...state,
-        editing: !state.editing,
-      };
 
     default:
       return state;

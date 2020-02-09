@@ -7,9 +7,12 @@
 
     <!-- OG tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{=it.title}}" />
-    <meta property="og:description" content="{{=it.description}}" />
-    <meta property="og:url" content="{{=it.url}}" />
+    <meta property="og:title" content="Learn Anything" />
+    <meta
+      property="og:description"
+      content="Search Interactive Mind Maps to learn anything"
+    />
+    <meta property="og:url" content="https://learn-anything.xyz" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <title>Learn Anything</title>
@@ -23,6 +26,8 @@
   <body>
     <div id="react-app"></div>
 
-    <script src="/static/{{=it.language || 'en'}}.bundle.js"></script>
+    <script src="/static/suggestions.min.js"></script>
+    <script src="/static/maps.min.js"></script>
+    <script src="/static/en.bundle.js"></script>
   </body>
 </html>

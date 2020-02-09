@@ -22,19 +22,18 @@
     "start": "node server/index.js -p 3000",
     "start:memc": "HOST_IP='localhost' npm start",
     "start:prod": "NODE_ENV='production' npm start",
-    "build:prod": "NODE_ENV='production' webpack -p"
+    "clean": "rm -rf dist",
+    "build:resources": "mkdir -p dist/static && cp -r client/resources/* dist/static && cp client/index.html dist/",
+    "build:prod": "npm run clean && NODE_ENV='production' webpack -p && npm run build:resources"
   },
   "dependencies": {
-    "axios": "^0.16.2",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
     "d3-flextree-v4": "^1.0.1",
     "d3-hierarchy": "^1.1.5",
-    "dot": "^1.1.2",
     "enzyme": "^3.0.0",
     "express": "^4.16.1",
     "fuse.js": "3.4.6",
-    "jwks-rsa": "^1.2.0",
     "marked": "^0.3.6",
     "react": "^16.0.0",
     "react-autosuggest": "^9.3.2",
@@ -51,8 +50,7 @@
     "redux-promise-middleware": "^4.4.1",
     "redux-thunk": "^2.2.0",
     "webpack": "^3.6.0",
-    "webpack-dev-middleware": "^1.12.0",
-    "xss-filters": "^1.2.7"
+    "webpack-dev-middleware": "^1.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
