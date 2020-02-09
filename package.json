@@ -17,14 +17,12 @@
   ],
   "repository": "learn-anything/search-engine",
   "scripts": {
-    "setup": "node maps/scripts/dynamo/setup.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "start": "node server/index.js -p 3000",
     "start:memc": "HOST_IP='localhost' npm start",
     "start:prod": "NODE_ENV='production' npm start",
-    "build:prod": "NODE_ENV='production' webpack -p",
-    "backup:prod": "NODE_ENV='production' node maps/scripts/dynamo/backup.js"
+    "build:prod": "NODE_ENV='production' webpack -p"
   },
   "dependencies": {
     "auth0-js": "^8.10.1",
