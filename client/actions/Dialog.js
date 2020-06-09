@@ -1,5 +1,4 @@
-import actions from 'constants/actions.json';
-
+import actions from "constants/actions.json";
 
 /*
 Options is an object containing options that will be passed down to the dialog.
@@ -14,7 +13,8 @@ export const showDialog = (content, options = {}) => ({
     content,
     isJsx: options.isJsx,
     closeButton: options.closeButton === undefined ? true : options.closeButton,
-    overlayDismiss: options.overlayDismiss === undefined ? true : options.overlayDismiss,
+    overlayDismiss:
+      options.overlayDismiss === undefined ? true : options.overlayDismiss,
   },
 });
 

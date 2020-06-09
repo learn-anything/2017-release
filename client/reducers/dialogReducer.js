@@ -1,13 +1,11 @@
-import actions from 'constants/actions.json';
-
+import actions from "constants/actions.json";
 
 const initialState = {
   isVisible: false,
-  content: '',
+  content: "",
   isJsx: false,
   closeButton: true,
 };
-
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -26,7 +24,7 @@ export default (state = initialState, action) => {
     case actions.map.createResource.fulfilled:
     case actions.dialog.hide:
       return {
-        content: '',
+        content: "",
         isVisible: false,
       };
 
