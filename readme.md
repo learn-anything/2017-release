@@ -7,5 +7,3 @@ This is an old version of Learn Anything website as once featured on [front page
 The code is archived and is no longer used. If you wish to make any changes, feel free to fork it.
 
 Live version of this site runs on [learn-anything.xyz](https://learn-anything.xyz)
-
-The code for new version of the website can be found [here](https://github.com/learn-anything/learn-anything).

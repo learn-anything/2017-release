@@ -109,7 +109,7 @@ export default class Sidebar extends Component {
 
         <div className="sidebar-item">
           <a
-            href="https://github.com/learn-anything/curated-lists#readme"
+            href="https://github.com/learn-anything/curated-lists"
             target="_blank"
           >
             {__('sidebar_lists')}
